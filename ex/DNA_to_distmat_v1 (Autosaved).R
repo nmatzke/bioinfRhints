@@ -11,6 +11,7 @@
 library(ape)
 
 
+
 # Data: 18S, ITS1, 5.8S rRNA sequences from
 # X-cells (protist parasites of e.g. Antarctic fishes)
 # Provided by Craig Miller
@@ -61,6 +62,15 @@ dim(seqs)
 attr(seqs, "dim")
 
 
+# I have written some functions to process/convert DNAbin objects
+source("/GitHub/bioinfRhints/R/_R_tree_functions_v2.R")
+seqs_as_characters = DNAbin_to_list_of_strings(tmpdata=seqs)
+seqs_as_characters[[1]]
+
+# Collapse all sequences to strings
+seqs_as_list_of_strings = lapply(X=seqs_as_characters, FUN=paste0, collapse="")
+substr(seqs_as_list_of_strings[[1]], start=100, stop=110)
+
 
 # Each base as an individual string
 seqs_txt = read.dna(file=seqs_fn, format="fasta", skip=0, as.character=TRUE)
@@ -70,43 +80,10 @@ seqs_txt[1,]
 # Paste a sequence into a single string
 first_seq = paste0(seqs_txt[1,], collapse="")
 first_seq
-#square brakets to specify row and column of matrix, always rows first then columns
 # Subset of text sequence
 substr(first_seq, start=100, stop=110)
 
-#to assess site variation by counting number of types of nucleotides in each column 
 
-#to do a loop
-for (i in 1:100
-{
-print(i)
-}
-
-for (i in 1:100)
-{
-print(unique(seqs_txt[,i]))
-}
-#create a vector
-unique_nucleotide_counts = rep(0,times = 2033)
-#how many columns are variable and how many are not
-for (i in 1:2033)
-{
-ur = unique(seqs_txt[,i])
-TF = ur != "-"
-number_of_nucleotides = sum(TF)
-print(number_of_nucleotides)
-unique_nucleotide_counts[i] = number_of_nucleotides
-
-}
-sum(unique_nucleotide_counts>1)
-# I have written some functions to process/convert DNAbin objects
-source("/GitHub/bioinfRhints/R/_R_tree_functions_v2.R")
-seqs_as_characters = DNAbin_to_list_of_strings(tmpdata=seqs)
-seqs_as_characters[[1]]
-
-# Collapse all sequences to strings
-seqs_as_list_of_strings = lapply(X=seqs_as_characters, FUN=paste0, collapse="")
-substr(seqs_as_list_of_strings[[1]], start=100, stop=110)
 
 
 
