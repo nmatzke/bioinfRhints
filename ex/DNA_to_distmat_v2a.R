@@ -61,7 +61,6 @@ dim(seqs)
 attr(seqs, "dim")
 
 
-
 # Each base as an individual string
 seqs_txt = read.dna(file=seqs_fn, format="fasta", skip=0, as.character=TRUE)
 dim(seqs_txt)
@@ -88,18 +87,281 @@ substr(seqs_as_list_of_strings[[1]], start=100, stop=110)
 
 
 #######################################################
-# OK, make the distance matrix
+# OK, make the distance matrix - Kimura 2-parameter
 #######################################################
+
+# Subset for the distance-matrix figure
+tmpnames = c("KY628815",
+"KY628818",
+"KF911018",
+"EU878172",
+"GU296509",
+"KY628817",
+"AB112470",
+"AB451874",
+"OL630144",
+"OL630145",
+"GU296508",
+"KY628819",
+"MW743280",
+"MW743279",
+"MW743281",
+"MW743278",
+"Bork")
+
+
+
+distmat1 = dist.dna(x=seqs, model="raw", gamma=FALSE, as.matrix=TRUE)
+dim(distmat1)
+distmat1[1:5,1:5]
+
+
+i=1
+positions_in_seqs = rep(NA, times=length(tmpnames))
+for (i in 1:length(tmpnames))
+	{
+	tmpname = tmpnames[i]
+	
+	hits_TF = sapply(X=rownames(seqs), FUN=grepl, pattern=tmpname, ignore.case=TRUE)
+	
+	if (sum(hits_TF) != 1)
+		{
+		cat("\nSTOP ERROR: number of hits should be == 1. Non-match=\n")
+		print(tmpname)
+		}
+	
+	positions_in_seqs[i] = (1:length(rownames(seqs)))[hits_TF]
+	}
+positions_in_seqs
+
+subset_distmat1 = distmat1[positions_in_seqs,positions_in_seqs]
+
+outfn = "/drives/od/__GDrive_projects/2019-08-22_Craig_Millar_notho_fish/08_distance_matrix/Xcellidae_distmat_raw_subset.txt"
+write.table(x=subset_distmat1, file=outfn, sep="\t", quote=FALSE)
+
+
+
+
 distmat1 = dist.dna(x=seqs, model="K80", gamma=FALSE, as.matrix=TRUE)
 dim(distmat1)
 distmat1[1:5,1:5]
 
 
-library(BioGeoBEARS)
-library(seqinr)
+i=1
+positions_in_seqs = rep(NA, times=length(tmpnames))
+for (i in 1:length(tmpnames))
+	{
+	tmpname = tmpnames[i]
+	
+	hits_TF = sapply(X=rownames(seqs), FUN=grepl, pattern=tmpname, ignore.case=TRUE)
+	
+	if (sum(hits_TF) != 1)
+		{
+		cat("\nSTOP ERROR: number of hits should be == 1. Non-match=\n")
+		print(tmpname)
+		}
+	
+	positions_in_seqs[i] = (1:length(rownames(seqs)))[hits_TF]
+	}
+positions_in_seqs
+
+subset_distmat1 = distmat1[positions_in_seqs,positions_in_seqs]
+
+outfn = "/drives/od/__GDrive_projects/2019-08-22_Craig_Millar_notho_fish/08_distance_matrix/Xcellidae_distmat_K80_subset.txt"
+write.table(x=subset_distmat1, file=outfn, sep="\t", quote=FALSE)
 
 
 
+
+
+distmat1 = dist.dna(x=seqs, model="K80", gamma=1, as.matrix=TRUE)
+dim(distmat1)
+distmat1[1:5,1:5]
+
+
+i=1
+positions_in_seqs = rep(NA, times=length(tmpnames))
+for (i in 1:length(tmpnames))
+	{
+	tmpname = tmpnames[i]
+	
+	hits_TF = sapply(X=rownames(seqs), FUN=grepl, pattern=tmpname, ignore.case=TRUE)
+	
+	if (sum(hits_TF) != 1)
+		{
+		cat("\nSTOP ERROR: number of hits should be == 1. Non-match=\n")
+		print(tmpname)
+		}
+	
+	positions_in_seqs[i] = (1:length(rownames(seqs)))[hits_TF]
+	}
+positions_in_seqs
+
+subset_distmat1 = distmat1[positions_in_seqs,positions_in_seqs]
+
+outfn = "/drives/od/__GDrive_projects/2019-08-22_Craig_Millar_notho_fish/08_distance_matrix/Xcellidae_distmat_K80_subset_gamma1.txt"
+write.table(x=subset_distmat1, file=outfn, sep="\t", quote=FALSE)
+
+
+
+
+
+
+
+
+
+distmat1 = dist.dna(x=seqs, model="K80", gamma=2, as.matrix=TRUE)
+dim(distmat1)
+distmat1[1:5,1:5]
+
+
+i=1
+positions_in_seqs = rep(NA, times=length(tmpnames))
+for (i in 1:length(tmpnames))
+	{
+	tmpname = tmpnames[i]
+	
+	hits_TF = sapply(X=rownames(seqs), FUN=grepl, pattern=tmpname, ignore.case=TRUE)
+	
+	if (sum(hits_TF) != 1)
+		{
+		cat("\nSTOP ERROR: number of hits should be == 1. Non-match=\n")
+		print(tmpname)
+		}
+	
+	positions_in_seqs[i] = (1:length(rownames(seqs)))[hits_TF]
+	}
+positions_in_seqs
+
+subset_distmat1 = distmat1[positions_in_seqs,positions_in_seqs]
+
+outfn = "/drives/od/__GDrive_projects/2019-08-22_Craig_Millar_notho_fish/08_distance_matrix/Xcellidae_distmat_K80_subset_gamma2.txt"
+write.table(x=subset_distmat1, file=outfn, sep="\t", quote=FALSE)
+
+
+
+
+
+distmat1 = dist.dna(x=seqs, model="TN93", gamma=FALSE, as.matrix=TRUE)
+dim(distmat1)
+distmat1[1:5,1:5]
+
+
+i=1
+positions_in_seqs = rep(NA, times=length(tmpnames))
+for (i in 1:length(tmpnames))
+	{
+	tmpname = tmpnames[i]
+	
+	hits_TF = sapply(X=rownames(seqs), FUN=grepl, pattern=tmpname, ignore.case=TRUE)
+	
+	if (sum(hits_TF) != 1)
+		{
+		cat("\nSTOP ERROR: number of hits should be == 1. Non-match=\n")
+		print(tmpname)
+		}
+	
+	positions_in_seqs[i] = (1:length(rownames(seqs)))[hits_TF]
+	}
+positions_in_seqs
+
+subset_distmat1 = distmat1[positions_in_seqs,positions_in_seqs]
+
+outfn = "/drives/od/__GDrive_projects/2019-08-22_Craig_Millar_notho_fish/08_distance_matrix/Xcellidae_distmat_TN93_subset.txt"
+write.table(x=subset_distmat1, file=outfn, sep="\t", quote=FALSE)
+
+
+
+
+distmat1 = dist.dna(x=seqs, model="TN93", gamma=0.5, as.matrix=TRUE)
+dim(distmat1)
+distmat1[1:5,1:5]
+
+
+i=1
+positions_in_seqs = rep(NA, times=length(tmpnames))
+for (i in 1:length(tmpnames))
+	{
+	tmpname = tmpnames[i]
+	
+	hits_TF = sapply(X=rownames(seqs), FUN=grepl, pattern=tmpname, ignore.case=TRUE)
+	
+	if (sum(hits_TF) != 1)
+		{
+		cat("\nSTOP ERROR: number of hits should be == 1. Non-match=\n")
+		print(tmpname)
+		}
+	
+	positions_in_seqs[i] = (1:length(rownames(seqs)))[hits_TF]
+	}
+positions_in_seqs
+
+subset_distmat1 = distmat1[positions_in_seqs,positions_in_seqs]
+
+outfn = "/drives/od/__GDrive_projects/2019-08-22_Craig_Millar_notho_fish/08_distance_matrix/Xcellidae_distmat_TN93_subset_gamma0.5.txt"
+write.table(x=subset_distmat1, file=outfn, sep="\t", quote=FALSE)
+
+
+
+
+
+distmat1 = dist.dna(x=seqs, model="TN93", gamma=1, as.matrix=TRUE)
+dim(distmat1)
+distmat1[1:5,1:5]
+
+
+i=1
+positions_in_seqs = rep(NA, times=length(tmpnames))
+for (i in 1:length(tmpnames))
+	{
+	tmpname = tmpnames[i]
+	
+	hits_TF = sapply(X=rownames(seqs), FUN=grepl, pattern=tmpname, ignore.case=TRUE)
+	
+	if (sum(hits_TF) != 1)
+		{
+		cat("\nSTOP ERROR: number of hits should be == 1. Non-match=\n")
+		print(tmpname)
+		}
+	
+	positions_in_seqs[i] = (1:length(rownames(seqs)))[hits_TF]
+	}
+positions_in_seqs
+
+subset_distmat1 = distmat1[positions_in_seqs,positions_in_seqs]
+
+outfn = "/drives/od/__GDrive_projects/2019-08-22_Craig_Millar_notho_fish/08_distance_matrix/Xcellidae_distmat_TN93_subset_gamma1.txt"
+write.table(x=subset_distmat1, file=outfn, sep="\t", quote=FALSE)
+
+
+
+distmat1 = dist.dna(x=seqs, model="TN93", gamma=2, as.matrix=TRUE)
+dim(distmat1)
+distmat1[1:5,1:5]
+
+
+i=1
+positions_in_seqs = rep(NA, times=length(tmpnames))
+for (i in 1:length(tmpnames))
+	{
+	tmpname = tmpnames[i]
+	
+	hits_TF = sapply(X=rownames(seqs), FUN=grepl, pattern=tmpname, ignore.case=TRUE)
+	
+	if (sum(hits_TF) != 1)
+		{
+		cat("\nSTOP ERROR: number of hits should be == 1. Non-match=\n")
+		print(tmpname)
+		}
+	
+	positions_in_seqs[i] = (1:length(rownames(seqs)))[hits_TF]
+	}
+positions_in_seqs
+
+subset_distmat1 = distmat1[positions_in_seqs,positions_in_seqs]
+
+outfn = "/drives/od/__GDrive_projects/2019-08-22_Craig_Millar_notho_fish/08_distance_matrix/Xcellidae_distmat_TN93_subset_gamma2.txt"
+write.table(x=subset_distmat1, file=outfn, sep="\t", quote=FALSE)
 
 
 
