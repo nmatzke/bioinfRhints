@@ -1,0 +1,13 @@
+This is about creating e.g. a /drive/ directory on the root:
+
+Creating root-level directories and symbolic links on macOS 
+https://derflounder.wordpress.com/2020/01/18/creating-root-level-directories-and-symbolic-links-on-macos-catalina/
+
+(I think this still works...every different generation of MacOS it's different)
+
+....then, to get "/drive/od/", you would cd to drive, then make a symbolic link to the OneDrive:
+
+https://www.howtogeek.com/297721/how-to-create-and-use-symbolic-links-aka-symlinks-on-a-mac/
+===========
+ln -s /path/to/original /path/to/link
+===========
