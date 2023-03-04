@@ -2,6 +2,7 @@
 # Scripts: manipulating alignments, sequence names / tip names, etc.
 #######################################################
 library(ape)
+library(phytools)
 library(seqinr)				# for read.fasta
 library(BioGeoBEARS)	# for cls.df
 library(gdata)				# for trim
@@ -91,11 +92,10 @@ hist(seqlengths, breaks=50)
 protein_name = rep("", times=length(aln))
 species_names_wSpaces = extract_last_brackets(list_of_strings=fullnames, replace_spaces=FALSE)
 
-
 for (i in 1:length(aln))
 	{
 	orig_name = fullnames[i]
-	
+
 	# Remove ">", ], [
 	subname = gsub(pattern=">", replacement="", x=orig_name)
 	subname = gsub(pattern="\\[", replacement="", x=subname)
@@ -106,6 +106,12 @@ for (i in 1:length(aln))
 	
 	# Remove species name:
 	subname = gsub(pattern=species_names_wSpaces[i], replacement="", x=subname)
+
+	# REMOVE SEMICOLONS, GD IT
+	subname = gsub(pattern="\\;", replacement="", x=subname, ignore.case=TRUE)
+	# REMOVE EQUALS, GD IT
+	subname = gsub(pattern="\\=", replacement="EQ", x=subname, ignore.case=TRUE)
+
 	
 	# fix spaces
 	subname = gsub(pattern="  ", replacement=" ", x=subname)
@@ -129,6 +135,8 @@ classify_MotAfam_labels <- function(list_of_strings)
 	for (i in 1:length(list_of_strings))
 		{
 		tmpstr = list_of_strings[i]
+		
+		# Add semicolon on the end
 		
 		# Many are just MotA/TolQ/ExbB
 		if (grepl(pattern="MotA/TolQ/ExbB", x=tmpstr, ignore.case=TRUE) == TRUE)
@@ -357,6 +365,10 @@ short_protname
 
 sort(table(short_protname))
 
+# Remove "=" from tipnames before renaming
+species_names_wSpaces = gsub(pattern="=", replacement="EQ", x=species_names_wSpaces) # remove "="
+species_names = gsub(pattern="=", replacement="EQ", x=species_names) # remove "="
+
 
 newnames1_df = cbind(species_names, short_protname, gid, seqlengths)
 newnames2_df = cbind(short_protname, species_names, gid, seqlengths)
@@ -371,7 +383,7 @@ trfn = "530_sequences_Alignment_contree_reRootLadder_gIDs.newick"
 tr = read.tree(trfn)
 
 nexfn = "530_sequences_Alignment_contree_reRootLadder_gIDs.nexus"
-
+tr2 = read.nexus(nexfn)
 
 
 # Write the new names into the NEXUS file; this keeps the bootstraps etc.
@@ -381,6 +393,7 @@ tmpstrs = readLines(nexfn)
 for (i in 1:length(tmpstrs))
 	{
 	tmpstr = tmpstrs[i]
+#	tmpstr = gsub(pattern="'", replacement="", x=tmpstr)
 	for (j in 1:length(gid))
 		{
 		tmpstr = gsub(pattern=gid[j], replacement=newnames1[j], x=tmpstr)
@@ -388,18 +401,20 @@ for (i in 1:length(tmpstrs))
 	tmpstrs[i] = tmpstr
 	}
 writeLines(text=tmpstrs, con=outfn)
-
-moref(outfn)
+outfn1 = gsub(pattern=".nexus", replacement="_nameFirst.nexus", x=nexfn)
+writeLines(text=tmpstrs, con=outfn1)
+remove_equals_from_tips(nexfn=outfn1, outfn=outfn1)
 
 
 # Write the new names into the NEXUS file; this keeps the bootstraps etc.
 outfn = gsub(pattern=".nexus", replacement="_newNames2.nexus", x=nexfn)
-tr2_fn = outfn
 tmpstrs = readLines(nexfn)
 
 for (i in 1:length(tmpstrs))
 	{
 	tmpstr = tmpstrs[i]
+	tmpstr = gsub(pattern="'", replacement="", x=tmpstr)
+	
 	for (j in 1:length(gid))
 		{
 		tmpstr = gsub(pattern=gid[j], replacement=newnames2[j], x=tmpstr)
@@ -407,6 +422,11 @@ for (i in 1:length(tmpstrs))
 	tmpstrs[i] = tmpstr
 	}
 writeLines(text=tmpstrs, con=outfn)
+outfn2 = gsub(pattern=".nexus", replacement="_protFirst.nexus", x=nexfn)
+writeLines(text=tmpstrs, con=outfn2)
+
+sourceall("/GitHub/BEASTmasteR/R/")
+remove_equals_from_tips(nexfn=outfn2, outfn=outfn2)
 
 moref(outfn)
 
@@ -418,6 +438,7 @@ tmpstrs = readLines(nexfn)
 for (i in 1:length(tmpstrs))
 	{
 	tmpstr = tmpstrs[i]
+	tmpstr = gsub(pattern="'", replacement="", x=tmpstr)
 	for (j in 1:length(gid))
 		{
 		tmpstr = gsub(pattern=gid[j], replacement=newnames3[j], x=tmpstr)
@@ -425,6 +446,9 @@ for (i in 1:length(tmpstrs))
 	tmpstrs[i] = tmpstr
 	}
 writeLines(text=tmpstrs, con=outfn)
+outfn3 = gsub(pattern=".nexus", replacement="_lengthFirst.nexus", x=nexfn)
+writeLines(text=tmpstrs, con=outfn3)
+remove_equals_from_tips(nexfn=outfn3, outfn=outfn3)
 
 moref(outfn)
 
@@ -459,29 +483,36 @@ for (i in 1:(length(categories)-1))
 
 hist(size_classes)
 
-names(size_classes) = newnames2
+names(size_classes) = newnames3
 
 library(ape)
 library(phytools)
 
 # Ladderize will flip up/down, so it looks like FigTree
-tr2 = ladderize(read.tree("530_sequences_Alignment_contree_reRootLadder_gIDs_protFirst.newick"), right=FALSE)
+
+tr2 = phytools::readNexus(outfn3, format="raxml")
+TF = sort(tr2$tip.label) == sort(newnames3)
+
+namevals = cbind(sort(tr2$tip.label), sort(newnames3))
+namevals[TF==FALSE,]
+sum(TF == FALSE)
+
+
+sourceall("/GitHub/BEASTmasteR/R/")
+stats_table = read.beast.table_original(file=outfn3, digits=4) 
+
+
+tr2 = ladderize(tr2, right=FALSE)
 tr2$tip.label = gsub(pattern="'", replacement="", x=tr2$tip.label)
 #plot(tr2, show.tip.label=FALSE)
 
-# Line up labels
-TF = sort(tr2$tip.label) == sort(newnames2)
-namevals = cbind(sort(tr2$tip.label), sort(newnames2))
-namevals[TF==FALSE,]
-
-sum(TF)
 
 tip_rownum_in_sorted = rep(0, times=length(size_classes))
 char_rownum_in_charnames = rep(0, times=length(size_classes))
 for (i in 1:nrow(namevals))
 	{
 	tip_rownum_in_sorted[i] = match(namevals[i,1], table=tr2$tip.label)
-	char_rownum_in_charnames[i] = match(namevals[i,2], table=newnames2)
+	char_rownum_in_charnames[i] = match(namevals[i,2], table=newnames3)
 	}
 orders = cbind(tip_rownum_in_sorted, char_rownum_in_charnames)
 tiporder = order(orders[,1])
@@ -514,12 +545,16 @@ res = ace(x=size_classes, phy=tr2, type="discrete", model=params_matrix)
 
 
 pdffn = "530_sequences_Alignment_contree_reRootLadder_gIDs_protFirst_sizeColors.pdf"
-pdf(file=pdffn, width=12, height=36)
+pdf(file=pdffn, width=12, height=48)
 
-plot(tr2, type="phylogram", label.offset=1, cex=0.3)
+titletxt = "Colored plot of sequence lengths\n(red=low, yellow=high"
+plot.phylo(tr2, type="phylogram", label.offset=0.0, cex=0.45, font=1, align.tip.label=TRUE)#, tip.color="white")
+title(titletxt)
+
 colors <- heat.colors(n=length(unique(size_classes)))
-tiplabels(pch=22, bg=colors[as.numeric(size_classes)], cex=2, adj=1)
-nodelabels(thermo=res$lik.anc, piecol=colors, cex=0.75)
+tiplabels(pch=22, bg=colors[as.numeric(size_classes)], cex=2, adj=0.5)
+res$lik.anc[res$lik.anc < 0] = 0.0
+nodelabels(pie=res$lik.anc, piecol=colors, cex=0.4)
 
 dev.off()
 cmdstr = paste0("open ", pdffn)
