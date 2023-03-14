@@ -203,17 +203,57 @@ gene_order_table_fn = paste0("genomes/", genome_dir, "/", genome_dir, "_feature_
 tmplines = readLines(gene_order_table_fn)
 tmplines[1] = gsub(pattern="# ", replacement="", x=tmplines[1])
 writeLines(tmplines, con=gene_order_table_fn)
-gene_order_tmp = read.table(gene_order_table_fn, header=TRUE, comment.char="%", sep="\t", fill=TRUE, stringsAsFactors=FALSE)
+
+# NOTE: quote="\"" is necessary to avoid "EOF within quoted string"
+#       ...which causes issues with e.g. "2',3'-cyclic phosphodiesterase"
+gene_order_tmp = read.table(gene_order_table_fn, header=TRUE, comment.char="%", quote="\"", sep="\t", fill=TRUE, stringsAsFactors=FALSE)
+
 
 # Take every 2nd line
+odd_lines = seq(1, nrow(gene_order_tmp), by=2)
 even_lines = seq(2, nrow(gene_order_tmp), by=2)
-gene_order_df = gene_order_tmp[even_lines,]
+gene_order_df1 = gene_order_tmp[odd_lines,]
+gene_order_df2 = gene_order_tmp[even_lines,]
+
+gene_order_df1[1987:1992,]
+gene_order_df2[1987:1992,]
+
+TF = gene_order_df2$symbol == "motB"
+gene_order_df1[TF,]
+gene_order_df2[TF,]
+
+# This seems to have everything...
+gene_order_df = gene_order_df2
 head(gene_order_df)
 
 protein_in_df = match(x=genbank_ID, table=gene_order_df$product_accession)
 protein_in_df
 
-x = agrep(pattern=genbank_ID, x=gene_order_df$product_accession, ignore.case=TRUE)
+
+# Convert gene IDs to protein IDs
+fnafn = slashslash(paste0(wd, "/", "genomes/", genome_dir, "/", genome_dir, "_cds_from_genomic.fna"))
+fna = read.fasta(fnafn)
+
+fna_names = unname(sapply(X=fna, FUN=attr, "name"))
+fna_names
+
+fna_geneIDs = rep("", length(fna_names))
+fna_protIDs = rep("", length(fna_names))
+
+for (i in 1:length(fna_names))
+	{
+	words = strsplit(fna_names[i], split="\\|")[[1]]
+	geneProt_IDs = words[2]
+	words = strsplit(geneProt_IDs, split="\\_cds\\_")[[1]]
+	fna_geneIDs[i] = words[1]
+	words = strsplit(words[2], split="\\_")[[1]]
+	fna_protIDs[i] = words[1]
+	} # END for (i in 1:length(fna_names))
+geneProtIDs = as.data.frame(cbind(fna_geneIDs, fna_protIDs), stringsAsFactors=FALSE)
+head(geneProtIDs)
+
+# 
+x = grep(pattern=genbank_ID, x=gene_order_df$product_accession, ignore.case=TRUE)
 gene_order_df[x,]
 
 
