@@ -1,3 +1,45 @@
+read_gene_order_table <- function(gene_order_table_fn)
+	{
+	# Remove "#" from first line
+	tmplines = readLines(gene_order_table_fn)
+	tmplines[1] = gsub(pattern="# ", replacement="", x=tmplines[1])
+	writeLines(tmplines, con=gene_order_table_fn)
+
+	# NOTE: quote="\"" is necessary to avoid "EOF within quoted string"
+	#       ...which causes issues with e.g. "2',3'-cyclic phosphodiesterase"
+	gene_order_tmp = read.table(gene_order_table_fn, header=TRUE, comment.char="%", quote="\"", sep="\t", fill=TRUE, stringsAsFactors=FALSE)
+	
+	# ERROR CHECK
+	if (length(tmplines)-1 != nrow(gene_order_tmp))
+		{
+		txt = paste0("STOP ERROR in read_gene_order_table(", gene_order_table_fn, "): the file has ", length(tmplines), " lines, but read.table() gave only ", nrow(gene_order_tmp), " lines.")
+		cat("\n\n")
+		cat(txt)
+		cat("\n\n")
+		stop(txt)
+		}
+
+	# Take every 2nd line
+	odd_lines = seq(1, nrow(gene_order_tmp), by=2)
+	even_lines = seq(2, nrow(gene_order_tmp), by=2)
+	gene_order_df1 = gene_order_tmp[odd_lines,]
+	gene_order_df2 = gene_order_tmp[even_lines,]
+
+	gene_order_df1[1987:1992,]
+	gene_order_df2[1987:1992,]
+
+	TF = gene_order_df2$symbol == "motB"
+	gene_order_df1[TF,]
+	gene_order_df2[TF,]
+
+	rbind(gene_order_df1[TF,], gene_order_df2[TF,])
+
+
+	# This seems to have everything...
+	gene_order_df = gene_order_df2
+	head(gene_order_df)
+	return(gene_order_df)
+	}
 
 
 #######################################################
@@ -11,6 +53,55 @@ library(seqinr)				# for read.fasta
 library(BioGeoBEARS)	# for cls.df
 library(gdata)				# for trim
 library(stringr) 			# for regmatches
+
+# Set working directory
+# wd = "/GitHub/bioinfRhints/flag/gene_order_example/" # example
+wd = "~/Downloads/Full_genomes/"	 # full dataset
+setwd(wd)
+
+# Get the list of genome directories that have been saved somewhere
+genome_dirs = list.files(path="genomes", pattern=NULL, recursive=FALSE)
+genome_dirs
+
+gene_orders_all_fn = "gene_orders_all_v1.txt"
+
+list_of_protIDs_in_genome = list()
+
+for (i in 1:length(genome_dirs))
+	{
+	cat(i, ",")
+	genome_dir = genome_dirs[i]
+	# Access that directory, look for protein in list
+	gene_order_table_zipfn = slashslash(paste0(wd, "/", "genomes/", genome_dir, "/", genome_dir, "_feature_table.txt.gz"))
+	cmdstr = paste0("gunzip ", gene_order_table_zipfn)
+	system(cmdstr)
+	gene_order_table_fn = paste0("genomes/", genome_dir, "/", genome_dir, "_feature_table.txt")
+	
+	gene_order_df = read_gene_order_table(gene_order_table_fn)
+	dim(gene_order_df)
+	fn = gene_order_table_fn
+	gene_order_df = cbind(fn, gene_order_df)
+	#gene_orders_all_df = rbind(gene_orders_all_df, gene_order_df)
+	
+	if (i == 1)
+		{
+		write.table(gene_order_df, file=gene_orders_all_fn, sep="\t", row.names=FALSE, append=TRUE, quote=FALSE, col.names=TRUE)
+		} else {
+		write.table(gene_order_df, file=gene_orders_all_fn, sep="\t", row.names=FALSE, append=TRUE, quote=FALSE, col.names=FALSE)
+		}
+	}
+
+gene_orders_all_df = read.table(gene_orders_all_fn, header=TRUE, comment.char="%", quote="\"", sep="\t", fill=TRUE, stringsAsFactors=FALSE)
+dim(gene_orders_all_df)
+
+gene_orders_all_df[3832:3836,]
+
+
+
+
+
+
+
 
 # Handy function
 extract_last_brackets <- function(list_of_strings, replace_spaces=TRUE)
@@ -261,48 +352,6 @@ gene_order_table_fn = paste0("genomes/", genome_dir, "/", genome_dir, "_feature_
 
 # Get the gene order table 
 
-read_gene_order_table <- function(gene_order_table_fn)
-	{
-	# Remove "#" from first line
-	tmplines = readLines(gene_order_table_fn)
-	tmplines[1] = gsub(pattern="# ", replacement="", x=tmplines[1])
-	writeLines(tmplines, con=gene_order_table_fn)
-
-	# NOTE: quote="\"" is necessary to avoid "EOF within quoted string"
-	#       ...which causes issues with e.g. "2',3'-cyclic phosphodiesterase"
-	gene_order_tmp = read.table(gene_order_table_fn, header=TRUE, comment.char="%", quote="\"", sep="\t", fill=TRUE, stringsAsFactors=FALSE)
-	
-	# ERROR CHECK
-	if (length(tmplines)-1 != nrow(gene_order_tmp))
-		{
-		txt = paste0("STOP ERROR in read_gene_order_table(", gene_order_table_fn, "): the file has ", length(tmplines), " lines, but read.table() gave only ", nrow(gene_order_tmp), " lines.")
-		cat("\n\n")
-		cat(txt)
-		cat("\n\n")
-		stop(txt)
-		}
-
-	# Take every 2nd line
-	odd_lines = seq(1, nrow(gene_order_tmp), by=2)
-	even_lines = seq(2, nrow(gene_order_tmp), by=2)
-	gene_order_df1 = gene_order_tmp[odd_lines,]
-	gene_order_df2 = gene_order_tmp[even_lines,]
-
-	gene_order_df1[1987:1992,]
-	gene_order_df2[1987:1992,]
-
-	TF = gene_order_df2$symbol == "motB"
-	gene_order_df1[TF,]
-	gene_order_df2[TF,]
-
-	rbind(gene_order_df1[TF,], gene_order_df2[TF,])
-
-
-	# This seems to have everything...
-	gene_order_df = gene_order_df2
-	head(gene_order_df)
-	return(gene_order_df)
-	}
 
 # Find the MotA protein
 gene_order_df = read_gene_order_table(gene_order_table_fn)
