@@ -42,63 +42,24 @@ read_gene_order_table <- function(gene_order_table_fn)
 	}
 
 
-#######################################################
-# 2023-03-13 Lab meeting
-# Scripts: manipulating alignments, sequence names / tip names, etc.
-#          Extracting gene order from a list of downloaded genomes
-#######################################################
-library(ape)
-library(phytools)
-library(seqinr)				# for read.fasta
-library(BioGeoBEARS)	# for cls.df
-library(gdata)				# for trim
-library(stringr) 			# for regmatches
-
-# Set working directory
-# wd = "/GitHub/bioinfRhints/flag/gene_order_example/" # example
-wd = "~/Downloads/Full_genomes/"	 # full dataset
-setwd(wd)
-
-# Get the list of genome directories that have been saved somewhere
-genome_dirs = list.files(path="genomes", pattern=NULL, recursive=FALSE)
-genome_dirs
-
-gene_orders_all_fn = "gene_orders_all_v1.txt"
-
-list_of_protIDs_in_genome = list()
-
-for (i in 1:length(genome_dirs))
+get_spname_from_assembly_report <- function(assembly_report_table_fn)
 	{
-	cat(i, ",")
-	genome_dir = genome_dirs[i]
-	# Access that directory, look for protein in list
-	gene_order_table_zipfn = slashslash(paste0(wd, "/", "genomes/", genome_dir, "/", genome_dir, "_feature_table.txt.gz"))
-	cmdstr = paste0("gunzip ", gene_order_table_zipfn)
-	system(cmdstr)
-	gene_order_table_fn = paste0("genomes/", genome_dir, "/", genome_dir, "_feature_table.txt")
+	# Also get the species name from the 
+	# GCA_000005845.2_ASM584v2_assembly_report.txt
+	assembly_report_table_fn = paste0("genomes/", genome_dir, "/", genome_dir, "_assembly_report.txt")
+	assembly_txt = readLines(assembly_report_table_fn)
 	
-	gene_order_df = read_gene_order_table(gene_order_table_fn)
-	dim(gene_order_df)
-	fn = gene_order_table_fn
-	gene_order_df = cbind(fn, gene_order_df)
-	#gene_orders_all_df = rbind(gene_orders_all_df, gene_order_df)
+	spname_line = assembly_txt[2]
+	spname_line = gsub(pattern="# Organism name:", replacement="", x=spname_line)
 	
-	if (i == 1)
-		{
-		write.table(gene_order_df, file=gene_orders_all_fn, sep="\t", row.names=FALSE, append=TRUE, quote=FALSE, col.names=TRUE)
-		} else {
-		write.table(gene_order_df, file=gene_orders_all_fn, sep="\t", row.names=FALSE, append=TRUE, quote=FALSE, col.names=FALSE)
-		}
+	# Find & remove anything like (E. coli)
+	tmpstrs = unlist(regmatches(spname_line, gregexpr("\\(.+?\\)", spname_line)))
+	tmpstr = tmpstrs[length(tmpstrs)] # take the last bracketed text, if more than 1
+	spname_line = gsub(pattern=tmpstr, replacement="", x=spname_line)
+	spname = trim(gsub(pattern="\\(\\)", replacement="", x=spname_line))
+	spname
+	return(spname)
 	}
-
-gene_orders_all_df = read.table(gene_orders_all_fn, header=TRUE, comment.char="%", quote="\"", sep="\t", fill=TRUE, stringsAsFactors=FALSE)
-dim(gene_orders_all_df)
-
-gene_orders_all_df[3832:3836,]
-
-
-
-
 
 
 
@@ -111,7 +72,12 @@ extract_last_brackets <- function(list_of_strings, replace_spaces=TRUE)
 	cat(txt)
 	for (i in 1:length(list_of_strings))
 		{
-		cat(i, ",", sep="")
+		if (i == 1)
+			{
+			cat("\nlist_of_strings #", i, ",", sep="")
+			} else {
+			cat(i, ",", sep="")
+			}
 		tmptxt = list_of_strings[i]
 		tmpstrs = unlist(regmatches(tmptxt, gregexpr("\\[.+?\\]", tmptxt)))
 		tmpstr = tmpstrs[length(tmpstrs)] # take the last bracketed text, if more than 1
@@ -130,135 +96,18 @@ extract_last_brackets <- function(list_of_strings, replace_spaces=TRUE)
 	return(species_names)
 	}
 
-
-
-
-# Set working directory
-# wd = "/GitHub/bioinfRhints/flag/gene_order_example/" # example
-wd = "~/Downloads/Full_genomes/"	 # full dataset
-setwd(wd)
-
-# Get the list of genome directories that have been saved somewhere
-genome_dirs = list.files(path="genomes", pattern=NULL, recursive=FALSE)
-genome_dirs
-
-# Name & load the Excel file containing metadata (e.g. genome filenames, species name etc.)
-xlsfn = "/GitHub/bioinfRhints/flag/gene_order_example/species_list_14102022_1page.xlsx"
-xls = read.xls(xlsfn)
-head(xls)
-tail(xls)
-
-# Name and load an MotA alignment file
-alnfn = "/GitHub/bioinfRhints/flag/gene_order_example/motA_alignment_refined.fasta"
-aln = read.fasta(alnfn)
-
-# "aln" is an R list, each element is a sequence, with a name and some other attributes:
-attributes(aln[[1]])
-
-# Number of sequences
-length(aln)
-
-# Length of an individual sequence
-length(aln[[1]])
-length(aln[[2]])
-
-# Length of all the sequences (should be the same, as we have an alignment rather than
-# just a list of sequences)
-lengths = sapply(X=aln, FUN=length)
-lengths
-
-# Are all sequences the same length?
-unique(lengths)
-all(lengths == unique(lengths))
-
-# For kicks, calculate the percentage gaps in the alignment
-numgaps = rep(0.0, times=length(aln))
-numdata = rep(0.0, times=length(aln))
-
-for (i in 1:length(aln))
+nones_to_NA <- function(x)
 	{
-	# Number of gaps in a single sequence
-	numgaps[i] = sum(aln[[i]] == "-")
-	# Number of non-gaps in a single sequence
-	numdata[i] = sum(aln[[i]] != "\\-")
-	} # END for (i in 1:length(aln))
-
-# Total number of "-"
-sum(numgaps)
-sum(numdata)
-sum(numgaps) + sum(numdata)
-percent_data = sum(numdata) / (sum(numgaps) + sum(numdata)) * 100
-percent_data
-
-
-# Subset alignment to just the columns for which E. coli K-12 MotA has data
-# MotA|Escherichia_coli_str._K-12_substr._MG1655|AAC74960.1
-aln_names = unname(sapply(X=aln, FUN=attr, "name"))
-TF = grepl(pattern="AAC74960.1", x=aln_names)
-index_num = (1:length(aln))[TF]
-aln_names[index_num]
-aln[[index_num]]
-
-# Positions to keep from E. coli K-12 MotA
-keepTF = aln[[index_num]] != "-"
-
-# Make a copy of the alignment
-aln2 = aln
-for (i in 1:length(aln))
-	{
-	aln2[[i]] = aln[[i]][keepTF]
+	if (length(x) == 0)
+		return(NA)
+	end
+	if (is.na(x))
+		return(NA)
+	else
+		return(x)
+	end
+	return(x)
 	}
-aln2[[1]]
-aln2[[index_num]]
-
-# Write out to new fasta file
-aln_annotations = sapply(X=aln, FUN=attr, "Annot")
-aln_annotations = gsub(pattern="\\>", replacement="", x=aln_annotations) # remove ">" as write.fasta adds ">"
-alnfn2 = gsub(pattern=".fasta", replacement="_subset_to_Ecoli_K12.fasta", x=alnfn)
-write.fasta(sequences=aln2, names=aln_annotations, file.out=alnfn2)
-
-
-# Name and load a IQ tree file
-trfn = "/GitHub/bioinfRhints/flag/gene_order_example/trees/530_sequences_Alignment_contree_reRootLadder_gIDs.newick"
-tr = read.tree(trfn)
-tr
-
-# Number of tips
-length(tr$tip.label)
-
-# Tree table
-trtable = prt(tr, printflag=FALSE, get_tipnames=TRUE, fossils_older_than=2000)
-head(trtable)
-
-
-
-
-#######################################################
-# Gene order
-#######################################################
-# Get the list of genome directories that have been saved somewhere
-genome_dirs = list.files(path="genomes", pattern=NULL, recursive=FALSE)
-genome_dirs
-
-# Get the genome taxon
-xlstaxa = rep("", times=nrow(xls))
-for (i in 1:nrow(xls))
-	{
-	tmp = paste(xls$Genus[i], xls$Species[i], xls$Strain[i], sep=" ", collapse="")
-	xlstaxa[i] = trim(gsub(pattern="  ", replacement=" ", x=tmp))
-	}
-xlstaxa
-
-# Name & load the Excel file containing metadata (e.g. genome filenames, species name etc.)
-xlsfn = "/GitHub/bioinfRhints/flag/gene_order_example/species_list_14102022_1page.xlsx"
-xls = read.xls(xlsfn)
-head(xls)
-tail(xls)
-
-
-# find a protein in a genome
-
-protID = "AAC74960.1"
 
 get_genome_name_from_protID <- function(protID, genome_dirs, aln_annotations, xls, xlstaxa, returnwhat="genome_dir")
 	{
@@ -340,44 +189,91 @@ get_genome_name_from_protID <- function(protID, genome_dirs, aln_annotations, xl
 	return(stop("Shouldn't get here"))
 	}
 
-genome_dir = get_genome_name_from_protID(protID, genome_dirs, aln_annotations, xls, xlstaxa)
 
+#######################################################
+# 2023-03-13 Lab meeting
+# Scripts: manipulating alignments, sequence names / tip names, etc.
+#          Extracting gene order from a list of downloaded genomes
+#######################################################
+library(ape)
+library(phytools)
+library(seqinr)				# for read.fasta
+library(BioGeoBEARS)	# for cls.df
+library(gdata)				# for trim
+library(stringr) 			# for regmatches
 
+# Set working directory
+wd = "/GitHub/bioinfRhints/flag/gene_order_example/" # example
+#wd = "~/Downloads/Full_genomes/"	 # full dataset
+setwd(wd)
 
-# Access that directory, look for protein in list
-gene_order_table_zipfn = slashslash(paste0(wd, "/", "genomes/", genome_dir, "/", genome_dir, "_feature_table.txt.gz"))
-cmdstr = paste0("gunzip ", gene_order_table_zipfn)
-system(cmdstr)
-gene_order_table_fn = paste0("genomes/", genome_dir, "/", genome_dir, "_feature_table.txt")
+# Get the list of genome directories that have been saved somewhere
+genome_dirs = list.files(path="genomes", pattern=NULL, recursive=FALSE)
+genome_dirs
 
-# Get the gene order table 
+gene_orders_all_fn = "gene_orders_all_v1.txt"
 
+list_of_protIDs_in_genome = list()
 
-# Find the MotA protein
-gene_order_df = read_gene_order_table(gene_order_table_fn)
-
-gene_num = grep(pattern=protID, x=gene_order_df$product_accession, ignore.case=TRUE)
-gene_order_df[gene_num,]
-
-gene_order_df[gene_num+1,]
-gene_order_df[gene_num-1,]
-
-
-list_of_protIDs
-
-
-nones_to_NA <- function(x)
+unzipTF = FALSE
+for (i in 1:length(genome_dirs))
 	{
-	if (length(x) == 0)
-		return(NA)
-	end
-	if (is.na(x))
-		return(NA)
-	else
-		return(x)
-	end
-	return(x)
+	if (i == 1)
+		{
+		cat("\ngenome_dirs #", i, ",", sep="")
+		} else {
+		cat(i, ",", sep="")
+		}
+	genome_dir = genome_dirs[i]
+	# Access that directory, look for protein in list
+	gene_order_table_zipfn = slashslash(paste0(wd, "/", "genomes/", genome_dir, "/", genome_dir, "_feature_table.txt.gz"))
+	cmdstr = paste0("gunzip ", gene_order_table_zipfn)
+	if (unzipTF == TRUE)
+		{
+		system(cmdstr)
+		}
+	gene_order_table_fn = paste0("genomes/", genome_dir, "/", genome_dir, "_feature_table.txt")
+
+	gene_order_df = read_gene_order_table(gene_order_table_fn)
+	dim(gene_order_df)
+
+	# Also get the species name from the 
+	# GCA_000005845.2_ASM584v2_assembly_report.txt
+	assembly_report_table_fn = paste0("genomes/", genome_dir, "/", genome_dir, "_assembly_report.txt")
+	spname = get_spname_from_assembly_report(assembly_report_table_fn)
+
+	# Add some stuff to the front of the line
+	id = genome_dir
+	gene_order_df = cbind(id, gene_order_df)
+	gene_order_df = cbind(spname, gene_order_df)
+	
+	#gene_orders_all_df = rbind(gene_orders_all_df, gene_order_df)
+
+	if (i == 1)
+		{
+		write.table(gene_order_df, file=gene_orders_all_fn, sep="\t", row.names=FALSE, append=FALSE, quote=FALSE, col.names=TRUE)
+		} else {
+		write.table(gene_order_df, file=gene_orders_all_fn, sep="\t", row.names=FALSE, append=TRUE, quote=FALSE, col.names=FALSE)
+		}
 	}
+
+gene_orders_all_df = read.table(gene_orders_all_fn, header=TRUE, comment.char="%", quote="\"", sep="\t", fill=TRUE, stringsAsFactors=FALSE)
+dim(gene_orders_all_df)
+
+head(gene_orders_all_df)
+
+gene_orders_all_df[3832:3836,]
+
+
+
+
+#######################################################
+# Gene order
+#######################################################
+# Name and load an MotA alignment file
+alnfn = "/GitHub/bioinfRhints/flag/gene_order_example/motA_alignment_refined.fasta"
+aln = read.fasta(alnfn)
+aln_names = unname(sapply(X=aln, FUN=attr, "name"))
 
 genome_names_not_found = NULL
 protIDs_not_found = NULL
@@ -386,28 +282,16 @@ gene_neighbors = NULL
 i=1
 for (i in 1:length(list_of_protIDs))
 	{
-	cat("\ni=", i, ",", sep="")
-	protID = list_of_protIDs[i]
-	both = get_genome_name_from_protID(protID, genome_dirs, aln_annotations, xls, xlstaxa, returnwhat="both")
-	if (is.null(both$genome_dir)) # nothing found
+	if (i == 1)
 		{
-		protIDs_not_found = c(protIDs_not_found, protID)
-		genome_names_not_found = c(genome_names_not_found, NA)
-		next()
+		cat("\nlist_of_protIDs #", i, ",", sep="")
+		} else {
+		cat(i, ",", sep="")
 		}
-	
-	spname = both$spname
-	genome_dir = both$genome_dir
+	protID = list_of_protIDs[i]
 
 	# Access that directory, look for protein in list
-	gene_order_table_zipfn = slashslash(paste0(wd, "/", "genomes/", genome_dir, "/", genome_dir, "_feature_table.txt.gz"))
-	cmdstr = paste0("gunzip ", gene_order_table_zipfn)
-	system(cmdstr)
-	gene_order_table_fn = paste0("genomes/", genome_dir, "/", genome_dir, "_feature_table.txt")
-
-	gene_order_df = read_gene_order_table(gene_order_table_fn)
-
-	gene_num = grep(pattern=protID, x=gene_order_df$product_accession, ignore.case=TRUE)
+	gene_num = grep(pattern=protID, x=gene_orders_all_df$product_accession, ignore.case=TRUE)
 	if (length(gene_num) == 0)
 		{
 		protIDs_not_found = c(protIDs_not_found, protID)
@@ -415,55 +299,52 @@ for (i in 1:length(list_of_protIDs))
 
 		next()
 		}
-	
-	gene_order_df[gene_num,]
 
-	gene_order_df[gene_num+1,]
-	gene_order_df[gene_num-1,]
-	
-	
+	spname = gene_orders_all_df$spname[gene_num]
+	id = gene_orders_all_df$id[gene_num]
 	# Assemble 2 lines: symbols and accessions
 	# symbol line
-	strand0 = nones_to_NA(gene_order_df$strand[gene_num])
-	sym0 = nones_to_NA(gene_order_df$symbol[gene_num])
-	acc0 = nones_to_NA(gene_order_df$product_accession[gene_num])
-	name0 = nones_to_NA(gene_order_df$name[gene_num])
+	strand0 = nones_to_NA(gene_orders_all_df$strand[gene_num])
+	sym0 = nones_to_NA(gene_orders_all_df$symbol[gene_num])
+	acc0 = nones_to_NA(gene_orders_all_df$product_accession[gene_num])
+	name0 = nones_to_NA(gene_orders_all_df$name[gene_num])
 	
-	strand1 = nones_to_NA(gene_order_df$strand[gene_num+1])
-	sym1 = nones_to_NA(gene_order_df$symbol[gene_num+1])
-	acc1 = nones_to_NA(gene_order_df$product_accession[gene_num+1])
-	name1 = nones_to_NA(gene_order_df$name[gene_num+1])
+	strand1 = nones_to_NA(gene_orders_all_df$strand[gene_num+1])
+	sym1 = nones_to_NA(gene_orders_all_df$symbol[gene_num+1])
+	acc1 = nones_to_NA(gene_orders_all_df$product_accession[gene_num+1])
+	name1 = nones_to_NA(gene_orders_all_df$name[gene_num+1])
 
-	strand2 = nones_to_NA(gene_order_df$strand[gene_num+2])
-	sym2 = nones_to_NA(gene_order_df$symbol[gene_num+2])
-	acc2 = nones_to_NA(gene_order_df$product_accession[gene_num+2])
-	name2 = nones_to_NA(gene_order_df$name[gene_num+2])
+	strand2 = nones_to_NA(gene_orders_all_df$strand[gene_num+2])
+	sym2 = nones_to_NA(gene_orders_all_df$symbol[gene_num+2])
+	acc2 = nones_to_NA(gene_orders_all_df$product_accession[gene_num+2])
+	name2 = nones_to_NA(gene_orders_all_df$name[gene_num+2])
 
-	strand3 = nones_to_NA(gene_order_df$strand[gene_num+3])
-	sym3 = nones_to_NA(gene_order_df$symbol[gene_num+3])
-	acc3 = nones_to_NA(gene_order_df$product_accession[gene_num+3])
-	name3 = nones_to_NA(gene_order_df$name[gene_num+3])
+	strand3 = nones_to_NA(gene_orders_all_df$strand[gene_num+3])
+	sym3 = nones_to_NA(gene_orders_all_df$symbol[gene_num+3])
+	acc3 = nones_to_NA(gene_orders_all_df$product_accession[gene_num+3])
+	name3 = nones_to_NA(gene_orders_all_df$name[gene_num+3])
 
-	strandM1 = nones_to_NA(gene_order_df$strand[gene_num-1])
-	symM1 = nones_to_NA(gene_order_df$symbol[gene_num-1])
-	accM1 = nones_to_NA(gene_order_df$product_accession[gene_num-1])
-	nameM1 = nones_to_NA(gene_order_df$name[gene_num-1])
+	strandM1 = nones_to_NA(gene_orders_all_df$strand[gene_num-1])
+	symM1 = nones_to_NA(gene_orders_all_df$symbol[gene_num-1])
+	accM1 = nones_to_NA(gene_orders_all_df$product_accession[gene_num-1])
+	nameM1 = nones_to_NA(gene_orders_all_df$name[gene_num-1])
 
-	strandM2 = nones_to_NA(gene_order_df$strand[gene_num-2])
-	symM2 = nones_to_NA(gene_order_df$symbol[gene_num-2])
-	accM2 = nones_to_NA(gene_order_df$product_accession[gene_num-2])
-	nameM2 = nones_to_NA(gene_order_df$name[gene_num-2])
+	strandM2 = nones_to_NA(gene_orders_all_df$strand[gene_num-2])
+	symM2 = nones_to_NA(gene_orders_all_df$symbol[gene_num-2])
+	accM2 = nones_to_NA(gene_orders_all_df$product_accession[gene_num-2])
+	nameM2 = nones_to_NA(gene_orders_all_df$name[gene_num-2])
 
-	strandM3 = nones_to_NA(gene_order_df$strand[gene_num-3])
-	symM3 = nones_to_NA(gene_order_df$symbol[gene_num-3])
-	accM3 = nones_to_NA(gene_order_df$product_accession[gene_num-3])
-	nameM3 = nones_to_NA(gene_order_df$name[gene_num-3])
+	strandM3 = nones_to_NA(gene_orders_all_df$strand[gene_num-3])
+	symM3 = nones_to_NA(gene_orders_all_df$symbol[gene_num-3])
+	accM3 = nones_to_NA(gene_orders_all_df$product_accession[gene_num-3])
+	nameM3 = nones_to_NA(gene_orders_all_df$name[gene_num-3])
+	
 	
 	if (strand0 == "+")
 		{
-		tmprow = c(i, protID, spname, symM3, symM2, symM1, sym0, sym1, sym2, sym3, strandM3, strandM2, strandM1, strand0, strand1, strand2, strand3, accM3, accM2, accM1, acc0, acc1, acc2, acc3, nameM3, nameM2, nameM1, name0, name1, name2, name3, genome_dir, gene_order_table_fn)
+		tmprow = c(i, protID, spname, symM3, symM2, symM1, sym0, sym1, sym2, sym3, strandM3, strandM2, strandM1, strand0, strand1, strand2, strand3, accM3, accM2, accM1, acc0, acc1, acc2, acc3, nameM3, nameM2, nameM1, name0, name1, name2, name3, id)
 		} else if (strand0 == "-") {
-		tmprow = c(i, protID, spname, sym3, sym2, sym1, sym0, symM1, symM2, symM3, strand3, strand2, strand1, strand0, strandM1, strandM2, strandM3, acc3, acc2, acc1, acc0, accM1, accM2, accM3, name3, name2, name1, name0, nameM1, nameM2, nameM3, genome_dir, gene_order_table_fn)		
+		tmprow = c(i, protID, spname, sym3, sym2, sym1, sym0, symM1, symM2, symM3, strand3, strand2, strand1, strand0, strandM1, strandM2, strandM3, acc3, acc2, acc1, acc0, accM1, accM2, accM3, name3, name2, name1, name0, nameM1, nameM2, nameM3, id)		
 		}
 	
 	gene_neighbors = rbind(gene_neighbors, tmprow)
@@ -471,7 +352,7 @@ for (i in 1:length(list_of_protIDs))
 
 
 gene_neighbors_df = as.data.frame(gene_neighbors, stringsAsFactors=FALSE)
-names(gene_neighbors_df) = c("i", "protID", "spname", "symM3", "symM2", "symM1", "sym0", "sym1", "sym2", "sym3", "strandM3", "strandM2", "strandM1", "strand0", "strand1", "strand2", "strand3", "accM3", "accM2", "accM1", "acc0", "acc1", "acc2", "acc3", "nameM3", "nameM2", "nameM1", "name0", "name1", "name2", "name3", "genome_dir", "gene_order_table_fn")
+names(gene_neighbors_df) = c("i", "protID", "spname", "symM3", "symM2", "symM1", "sym0", "sym1", "sym2", "sym3", "strandM3", "strandM2", "strandM1", "strand0", "strand1", "strand2", "strand3", "accM3", "accM2", "accM1", "acc0", "acc1", "acc2", "acc3", "nameM3", "nameM2", "nameM1", "name0", "name1", "name2", "name3", "id")
 row.names(gene_neighbors_df) = NULL
 
 gene_neighbors_df
