@@ -159,7 +159,6 @@ dim(ana_events_tables[[1]])
 # Simulate the source areas
 #######################################################
 areanames = names(tipranges@df)
-#resBAYAREALIKEj$inputs$geogfn = "/GitHub/bioinfRhints/ex/traitBSM_geogBSM/M0Trait_geogOnly/Geographic_Trait_Safe_data.txt"
 BSMs_w_sourceAreas = simulate_source_areas_ana_clado(res=resBAYAREALIKEj, clado_events_tables=clado_events_tables_wTrait, ana_events_tables=ana_events_tables_wTrait, areanames=areanames)
 
 
