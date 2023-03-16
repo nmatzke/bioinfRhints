@@ -48,7 +48,7 @@ list.files(extdata_dir)
 
 
 #wd = "C:/Users/chloe/OneDrive/Documents/BGB/M0BSTrait/"
-wd = "/Users/nmat471/Downloads/Chloe_Mk_bodysize/traitBSM_geogBSM/M0BSTrait/"
+wd = "/GitHub/bioinfRhints/ex/traitBSM_geogBSM/M0BSTrait/"
 setwd(wd)
 
 
@@ -117,7 +117,7 @@ dim(trait_RES_ana_events_tables[[1]])
 #######################################################
 #######################################################
 #wd = "C:/Users/chloe/OneDrive/Documents/BGB/M0BSTrait/"
-wd = "/Users/nmat471/Downloads/Chloe_Mk_bodysize/traitBSM_geogBSM/M0Trait_geogOnly/"
+wd = "/GitHub/bioinfRhints/ex/traitBSM_geogBSM/M0Trait_geogOnly/"
 setwd(wd)
 max_range_size = 8
 
@@ -155,6 +155,12 @@ dim(clado_events_tables[[1]])
 dim(ana_events_tables[[1]])
 
 
+#######################################################
+# Simulate the source areas
+#######################################################
+areanames = names(tipranges@df)
+#resBAYAREALIKEj$inputs$geogfn = "/GitHub/bioinfRhints/ex/traitBSM_geogBSM/M0Trait_geogOnly/Geographic_Trait_Safe_data.txt"
+BSMs_w_sourceAreas = simulate_source_areas_ana_clado(res=resBAYAREALIKEj, clado_events_tables=clado_events_tables_wTrait, ana_events_tables=ana_events_tables_wTrait, areanames=areanames)
 
 
 
@@ -173,15 +179,15 @@ dim(ana_events_tables[[1]])
 # geog BSM #1 with trait BSM #1, and append to geog_BSM #1 the trait
 
 # Copy the events tables
-clado_events_tables_wTrait = clado_events_tables
-ana_events_tables_wTrait = ana_events_tables
+clado_events_tables_wTrait = BSMs_w_sourceAreas$clado_events_tables
+ana_events_tables_wTrait = BSMs_w_sourceAreas$ana_events_tables
 
 i = 1
 for (i in 1:length(clado_events_tables_wTrait))
 {
 if (i == 1)
 	{
-	cat("\nProcessing ", length(clado_events_tables_wTrait), " BSMs. Doing BSM #", i, sep="")
+	cat("\nProcessing ", length(clado_events_tables_wTrait), " BSMs. Doing BSM #", i, ",", sep="")
 	} else {
 	cat(i, ",", sep="")
 	}
@@ -276,11 +282,14 @@ tail(ana_events_tables_wTrait[[1]])
 tail(ana_events_tables_wTrait[[2]])
 
 
+wd = "/GitHub/bioinfRhints/ex/traitBSM_geogBSM/"
+setwd(wd)
+
 save(clado_events_tables_wTrait, file="clado_events_tables_wTrait.Rdata")
 save(ana_events_tables_wTrait, file="ana_events_tables_wTrait.Rdata")
 
-#save(clado_events_tables_wTrait, file="clado_events_tables_wTrait_WORKED.Rdata")
-#save(ana_events_tables_wTrait, file="ana_events_tables_wTrait_WORKED.Rdata")
+save(clado_events_tables_wTrait, file="clado_events_tables_wTrait_WORKED.Rdata")
+save(ana_events_tables_wTrait, file="ana_events_tables_wTrait_WORKED.Rdata")
 
 
 # Loads to clado_events_tables_wTrait
@@ -290,10 +299,53 @@ load("ana_events_tables_wTrait_WORKED.Rdata")
 
 
 
+#######################################################
+# Simulate the source areas of dispersal events
+#######################################################
+
+clado_events_tables = BSMs_w_sourceAreas$clado_events_tables
+ana_events_tables = BSMs_w_sourceAreas$ana_events_tables
 
 
+# Subset by bodysize trait: 1 vs. 2
+clado_events_tables_wTrait_state1 = clado_events_tables_wTrait
+clado_events_tables_wTrait_state2 = clado_events_tables_wTrait
+ana_events_tables_wTrait_state1 = ana_events_tables_wTrait
+ana_events_tables_wTrait_state2 = ana_events_tables_wTrait
+
+for (i in 1:length(clado_events_tables_wTrait))
+	{
+	tmptable = clado_events_tables_wTrait[[i]]
+	state1_TF = tmptable$bodysize == 1
+	state2_TF = tmptable$bodysize == 2
+
+	clado_events_tables_wTrait_state1[[i]] = tmptable[state1_TF,]
+	clado_events_tables_wTrait_state2[[i]] = tmptable[state2_TF,]
+	}
+
+for (i in 1:length(ana_events_tables_wTrait))
+	{
+	tmptable = ana_events_tables_wTrait[[i]]
+	state1_TF = tmptable$bodysize == 1
+	state2_TF = tmptable$bodysize == 2
+
+	ana_events_tables_wTrait_state1[[i]] = tmptable[state1_TF,]
+	ana_events_tables_wTrait_state2[[i]] = tmptable[state2_TF,]
+	}
 
 
+timeperiods = c(0.0, 10.0)
+areanames = names(tipranges@df)
 
+counts_all = count_ana_clado_events(clado_events_tables=clado_events_tables_wTrait, ana_events_tables=ana_events_tables_wTrait, areanames=areanames, actual_names=areanames, timeperiod=timeperiods) 
+
+counts_bodysize1 = count_ana_clado_events(clado_events_tables=clado_events_tables_wTrait_state1, ana_events_tables=ana_events_tables_wTrait_state1, areanames=areanames, actual_names=areanames, timeperiod=timeperiods) 
+
+counts_bodysize2 = count_ana_clado_events(clado_events_tables=clado_events_tables_wTrait_state2, ana_events_tables=ana_events_tables_wTrait_state2, areanames=areanames, actual_names=areanames, timeperiod=timeperiods) 
+
+
+counts_all$summary_counts_BSMs
+counts_bodysize1$summary_counts_BSMs
+counts_bodysize2$summary_counts_BSMs
 
 
