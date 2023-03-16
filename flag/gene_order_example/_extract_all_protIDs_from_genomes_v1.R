@@ -187,7 +187,8 @@ get_genome_name_from_protID <- function(protID, genome_dirs, aln_annotations, xl
 		return(both)
 		}		
 	return(stop("Shouldn't get here"))
-	}
+	} # END get_genome_name_from_protID <- function(protID, genome_dirs, aln_annotations, xls, xlstaxa, returnwhat="genome_dir")
+
 
 
 #######################################################
@@ -255,7 +256,7 @@ for (i in 1:length(genome_dirs))
 		} else {
 		write.table(gene_order_df, file=gene_orders_all_fn, sep="\t", row.names=FALSE, append=TRUE, quote=FALSE, col.names=FALSE)
 		}
-	}
+	} # END for (i in 1:length(genome_dirs))
 
 gene_orders_all_df = read.table(gene_orders_all_fn, header=TRUE, comment.char="%", quote="\"", sep="\t", fill=TRUE, stringsAsFactors=FALSE)
 dim(gene_orders_all_df)
@@ -263,7 +264,7 @@ dim(gene_orders_all_df)
 head(gene_orders_all_df)
 
 gene_orders_all_df[3832:3836,]
-
+dim(gene_orders_all_df)
 
 
 
@@ -361,7 +362,77 @@ outfn = "gene_neighbors_v1.txt"
 write.table(gene_neighbors_df, file=outfn, sep="\t")
 
 
-cbind(protIDs_not_found, genome_names_not_found)
+IDs_not_found = cbind(protIDs_not_found, genome_names_not_found)
+write.table(IDs_not_found, file="IDs_not_found.txt", sep="\t")
+
+
+gene_neighbors_df_orig = gene_neighbors_df
+
+
+#######################################################
+# Rename ExbDs etc.
+#######################################################
+
+# MotB homolog names - print to screen
+sort(table(gene_neighbors_df$name1))
+
+# Translate names to symbols (Excel file)
+translate_motBs_fn = "~/Downloads/Full_genomes/MotB_translation_v1.xlsx"
+
+# Works best if you convert the longest strings first
+translate_motBs = read.xls(translate_motBs_fn, header=TRUE)
+translate_motBs$orig = trim(translate_motBs$orig)
+translate_motBs$new = trim(translate_motBs$new)
+biggest_first = rev(order(str_length(translate_motBs$orig)))
+translate_motBs = translate_motBs[biggest_first,]
+head(translate_motBs)
+
+
+TF = translate_motBs$orig == "flagellar motor protein MotB"
+translate_motBs[TF,]
+
+i=70
+for (i in 1:nrow(translate_motBs))
+	{
+	# For the "blank" original
+	if (translate_motBs$orig[i] == "")
+		{
+		gene_neighbors_df$name1[gene_neighbors_df$name1 == translate_motBs$orig[i]] = translate_motBs$new[i]
+		gene_neighbors_df$name2[gene_neighbors_df$name2 == translate_motBs$orig[i]] = translate_motBs$new[i]
+		gene_neighbors_df$name3[gene_neighbors_df$name3 == translate_motBs$orig[i]] = translate_motBs$new[i]
+		gene_neighbors_df$name0[gene_neighbors_df$name0 == translate_motBs$orig[i]] = translate_motBs$new[i]
+		gene_neighbors_df$nameM1[gene_neighbors_df$nameM1 == translate_motBs$orig[i]] = translate_motBs$new[i]
+		gene_neighbors_df$nameM2[gene_neighbors_df$nameM2 == translate_motBs$orig[i]] = translate_motBs$new[i]
+		gene_neighbors_df$nameM3[gene_neighbors_df$nameM3 == translate_motBs$orig[i]] = translate_motBs$new[i]
+		next()
+		}
+
+	gene_neighbors_df$name1 = gsub(pattern=translate_motBs$orig[i], replacement=translate_motBs$new[i], x=gene_neighbors_df$name1)
+	gene_neighbors_df$name2 = gsub(pattern=translate_motBs$orig[i], replacement=translate_motBs$new[i], x=gene_neighbors_df$name2)
+	gene_neighbors_df$name3 = gsub(pattern=translate_motBs$orig[i], replacement=translate_motBs$new[i], x=gene_neighbors_df$name3)
+	gene_neighbors_df$name0 = gsub(pattern=translate_motBs$orig[i], replacement=translate_motBs$new[i], x=gene_neighbors_df$name0)
+	gene_neighbors_df$nameM1 = gsub(pattern=translate_motBs$orig[i], replacement=translate_motBs$new[i], x=gene_neighbors_df$nameM1)
+	gene_neighbors_df$nameM2 = gsub(pattern=translate_motBs$orig[i], replacement=translate_motBs$new[i], x=gene_neighbors_df$nameM2)
+	gene_neighbors_df$nameM3 = gsub(pattern=translate_motBs$orig[i], replacement=translate_motBs$new[i], x=gene_neighbors_df$nameM3)
+	
+	}
+
+# Insert the symbols in the "sym" columns (when blank)
+gene_neighbors_df$sym1[gene_neighbors_df$sym1[i] == ""] = gene_neighbors_df$name1[gene_neighbors_df$sym1[i] == ""]
+gene_neighbors_df$sym2[gene_neighbors_df$sym1[i] == ""] = gene_neighbors_df$name2[gene_neighbors_df$sym1[i] == ""]
+gene_neighbors_df$sym3[gene_neighbors_df$sym1[i] == ""] = gene_neighbors_df$name3[gene_neighbors_df$sym1[i] == ""]
+gene_neighbors_df$sym0[gene_neighbors_df$sym1[i] == ""] = gene_neighbors_df$name0[gene_neighbors_df$sym1[i] == ""]
+gene_neighbors_df$symM1[gene_neighbors_df$sym1[i] == ""] = gene_neighbors_df$nameM1[gene_neighbors_df$sym1[i] == ""]
+gene_neighbors_df$symM2[gene_neighbors_df$sym1[i] == ""] = gene_neighbors_df$nameM2[gene_neighbors_df$sym1[i] == ""]
+gene_neighbors_df$symM3[gene_neighbors_df$sym1[i] == ""] = gene_neighbors_df$nameM3[gene_neighbors_df$sym1[i] == ""]
+
+
+outfn = "gene_neighbors_v1_translated.txt"
+
+write.table(gene_neighbors_df, file=outfn, sep="\t")
+
+
+
 
 
 
