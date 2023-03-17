@@ -442,6 +442,12 @@ timeperiod_ends_this_far_above_branchTop
 # branch_histories
 
 
+# SIMPLER: JUST CONVERT THE PHYTOOLS STOCHASTIC MAPS TO ABSOLUTE TIMES, 
+# THEN COUNT THAT
+
+
+
+
 # Insert root node
 root = matrix(rep(NA, times=ncol(phytools_SM$mapped.edge)), nrow=1)
 tipnums = 1:length(tr$tip.label)
