@@ -348,3 +348,147 @@ counts_bodysize1$summary_counts_BSMs
 counts_bodysize2$summary_counts_BSMs
 
 
+
+# Count dispersals by trait, by timebin
+
+timeperiods = c(20.0, 21.0)
+areanames = names(tipranges@df)
+
+counts_all = count_ana_clado_events(clado_events_tables=clado_events_tables_wTrait, ana_events_tables=ana_events_tables_wTrait, areanames=areanames, actual_names=areanames, timeperiod=timeperiods) 
+
+counts_bodysize1 = count_ana_clado_events(clado_events_tables=clado_events_tables_wTrait_state1, ana_events_tables=ana_events_tables_wTrait_state1, areanames=areanames, actual_names=areanames, timeperiod=timeperiods) 
+
+clado_events_tables=clado_events_tables_wTrait_state2; ana_events_tables=ana_events_tables_wTrait_state2; areanames=areanames; actual_names=areanames; timeperiod=timeperiods
+counts_bodysize2 = count_ana_clado_events(clado_events_tables=clado_events_tables_wTrait_state2, ana_events_tables=ana_events_tables_wTrait_state2, areanames=areanames, actual_names=areanames, timeperiod=timeperiods) 
+
+
+
+#######################################################
+# Convert the BSMs to phytools format to add up branchlengths
+#######################################################
+#wd = "C:/Users/chloe/OneDrive/Documents/BGB/M0BSTrait/"
+wd = "/GitHub/bioinfRhints/ex/traitBSM_geogBSM/M0BSTrait/"
+setwd(wd)
+
+
+res=resMk; clado_events_tables=trait_RES_clado_events_tables; ana_events_tables=trait_RES_ana_events_tables
+
+phytools_SM = BSM_to_phytools_SM(res, clado_events_table=trait_RES_clado_events_tables[[1]], ana_events_table=trait_RES_ana_events_tables[[1]])
+
+phytools_SMs = BSMs_to_phytools_SMs(res=resMk, clado_events_tables=trait_RES_clado_events_tables, ana_events_tables=trait_RES_ana_events_tables)
+
+
+# Get the total amount in each time-bin
+names(phytools_SM)
+
+phytools_SM$mapped.edge
+
+
+colSums(phytools_SM$mapped.edge)
+#        S        L 
+# 990.3448 183.2744 
+
+
+phytools_SM$maps
+
+i = 438
+phytools_SM$maps[[i]]
+phytools_SM$mapped.edge[i,]
+
+phytools_SM$edge.length[i]
+
+
+timeperiods = c(0.0, 1.0)
+trtable = prt(tr, printflag=FALSE)
+
+node_tops = trtable$time_bp
+node_bots = trtable$time_bp + trtable$edge.length
+
+brtimes = cbind(node_bots, node_tops)
+
+brtimes2 = brtimes[1:10,]
+brtimes2[brtimes2[,"node_tops"] > timeperiods[2],]
+brtimes2[brtimes2[,"node_tops"] <= timeperiods[1],]
+brtimes2[brtimes2[,"node_tops"] < timeperiods[2],]
+brtimes2[brtimes2[,"node_tops"] >= timeperiods[1],]
+
+
+# Non-matches: branch top older than timeperiod[2]
+nonmatchTF1 = node_tops > timeperiods[2]
+# Or branch bottom younger than timeperiod[1]
+nonmatchTF2 = node_bots < timeperiods[1]
+
+# The rest are overlaps:
+TF = ((nonmatchTF1 == FALSE) + (nonmatchTF2 == FALSE)) == 2
+sum(TF)
+
+
+node_tops = node_tops[TF]
+node_bots = node_bots[TF]
+
+cbind(node_bots, node_tops)
+
+# Get the branch numbers with overlaps
+branchnums = trtable$parent_br[TF]
+branchnums
+
+
+# For each overlap, reduce the branch to the overlap section
+timeperiod_starts_at_this_point_on_branch = timeperiods[2] - node_bots
+timeperiod_ends_this_far_above_branchTop = node_tops - timeperiods[1]
+timeperiod_starts_at_this_point_on_branch
+timeperiod_ends_this_far_above_branchTop
+
+# branch_histories
+
+
+# Insert root node
+root = matrix(rep(NA, times=ncol(phytools_SM$mapped.edge)), nrow=1)
+tipnums = 1:length(tr$tip.label)
+tmp_nodenums = (length(tr$tip.label)+1):nrow(phytools_SM$mapped.edge)
+
+branch_hists = rbind(phytools_SM$mapped.edge[tipnums,], root, phytools_SM$mapped.edge[tmp_nodenums,])
+branch_hists_sub = branch_hists[TF,]
+
+
+interp_branch_history <- function(branchhist, timeperiod_start_on_branch, timeperiod_ends_on_branch, statenames=c("S","L"))
+	{
+	time_in_state = rep(0.0, times=length(statenames))
+	old_cumul_time = 0.0
+	cumul_time = 0.0
+	for (i in 1:length(branchhist))
+		{
+		old_cumul_time = cumul_time
+		cumul_time = cumul_time + branchhist[i]
+		if (cumul_time >= timeperiod_start_on_branch)
+			{
+			current_state = names(branchhist[i])
+			TF = current_state == statenames
+			statenum = (1:length(statenames))[TF]
+			if (i == 1)
+				{
+				if (timeperiod_start_on_branch > 0.0)
+					{
+					time_in_state[statenum] = branchhist[i] - timeperiod_start_on_branch
+					} else {
+					time_in_state[statenum] = branchhist[i] - 0.0
+					}
+				} else {
+				time_in_state[statenum] = time_in_state[statenum] + branchhist[i]
+				} # END if (i == 1)
+			} else {
+			# Cumulative time has not caught up to timepoint
+			
+			
+			} # END if (cumul_time >= timeperiod_start_on_branch)
+		} # END for (i in 1:length(branchhist))
+	
+	return(time_in_state)
+	} # END
+
+
+
+interp_branch_history(branchhist, timeperiod_start_on_branch, timeperiod_ends_on_branch, statenames=c("S","L"))
+
+
+
