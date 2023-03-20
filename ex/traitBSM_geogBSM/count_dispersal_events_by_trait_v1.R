@@ -388,6 +388,90 @@ colSums(phytools_SM$mapped.edge)
 #        S        L 
 # 990.3448 183.2744 
 
+phytools_SM$mapped.edge
+mapped_edge_abs_times = phytools_SM$mapped.edge
+head(mapped_edge_abs_times)
+
+cols<-setNames(c("blue","red"),
+    c("small","large"))
+plotSimmap(phytools_SM), cols)
+
+cumtimes = matrix(data=0.0, nrow=nrow(mapped_edge_abs_times), ncol=ncol(mapped_edge_abs_times)+1)
+abstimes = matrix(data=0.0, nrow=nrow(mapped_edge_abs_times), ncol=ncol(mapped_edge_abs_times)+1)
+
+
+for (i in 1:nrow(trtable))
+	{
+	brnum = trtable$parent_br[i]
+	if (is.na(brnum) == TRUE)
+		{
+		next()
+		}
+	
+	time_bp = trtable$time_bp[i]
+	brlen = trtable$edge.length[i]
+
+	for (j in 1:ncol(mapped_edge_abs_times))
+		{
+		if (j == 1)
+			{
+			cumtimes[brnum, j] = 0.0
+			} else {
+			cumtimes[brnum, j] = cumtimes[brnum, j-1] + mapped_edge_abs_times[brnum, j-1]
+			}
+		}
+	
+	cumtimes[brnum, ncol(mapped_edge_abs_times)+1] =  brlen
+	abstimes[brnum,] = brlen - cumtimes[brnum,]
+	abstimes[brnum,] = abstimes[brnum,] + time_bp
+	}
+head(cumtimes)
+
+# Events in absolute time bp
+head(abstimes)
+
+for (i in 1:nrow(abstimes))
+	{
+	starttime = timeperiods[1]
+	stoptime = timeperiods[2]
+	
+	for (j in 1:(ncol(abstimes)-1))
+		{
+		TF1 = 
+		}
+	
+	
+	}
+
+
+
+
+
+
+for (i in 1:nrow(trtable))
+	{
+	brnum = trtable$parent_br[i]
+	time_bp = trtable$time_bp[i]
+	brlen = trtable$edge.length[i]
+	
+	tmp_map = mapped_edge_abs_times[brnum,]
+	tmp_map = brlen - tmp_map
+	cumul_map = rep(0.0, times=length(tmp_map))
+	
+	# Cumulative
+	for (j in length(tmp_map):1)
+		{
+		if (j == length(tmp_map))
+			{
+			cumul_map[j] = time_bp
+			} else {
+			cumul_map[j] = cumul_map[j+1] + tmp_map[j]
+			}
+		}
+	mapped_edge_abs_times[i,] = cumul_map
+	}
+mapped_edge_abs_times
+
 
 phytools_SM$maps
 
@@ -444,8 +528,6 @@ timeperiod_ends_this_far_above_branchTop
 
 # SIMPLER: JUST CONVERT THE PHYTOOLS STOCHASTIC MAPS TO ABSOLUTE TIMES, 
 # THEN COUNT THAT
-
-
 
 
 # Insert root node
