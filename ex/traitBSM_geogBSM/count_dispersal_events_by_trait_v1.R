@@ -378,6 +378,48 @@ phytools_SM = BSM_to_phytools_SM(res, clado_events_table=trait_RES_clado_events_
 phytools_SMs = BSMs_to_phytools_SMs(res=resMk, clado_events_tables=trait_RES_clado_events_tables, ana_events_tables=trait_RES_ana_events_tables)
 
 
+timewidths_by_state = count_brlen_in_each_state(timeperiods=c(0,1), res, trtable, clado_events_tables, ana_events_tables)
+head(timewidths_by_state)
+tail(timewidths_by_state)
+
+colSums(timewidths_by_state)
+sum(colSums(timewidths_by_state))
+
+
+timewidths_by_state = count_brlen_in_each_state(timeperiods=c(0,100), res, trtable, clado_events_tables, ana_events_tables)
+head(timewidths_by_state)
+tail(timewidths_by_state)
+
+colSums(timewidths_by_state)
+sum(colSums(timewidths_by_state))
+sum(tr$edge.length)
+
+# Check that it works in a division
+timewidths_by_state0 = count_brlen_in_each_state(timeperiods=c(0,20), res, trtable, clado_events_tables, ana_events_tables)
+head(timewidths_by_state0)
+tail(timewidths_by_state0)
+
+colSums(timewidths_by_state0)
+sum(colSums(timewidths_by_state0))
+
+
+timewidths_by_state1 = count_brlen_in_each_state(timeperiods=c(20,100), res, trtable, clado_events_tables, ana_events_tables)
+head(timewidths_by_state1)
+tail(timewidths_by_state1)
+
+colSums(timewidths_by_state1)
+sum(colSums(timewidths_by_state1))
+
+
+sum(colSums(timewidths_by_state0)) + sum(colSums(timewidths_by_state1))
+
+sum(tr$edge.length)
+
+# WORKS!
+
+
+
+
 # Get the total amount in each time-bin
 names(phytools_SM)
 
@@ -430,20 +472,57 @@ head(cumtimes)
 # Events in absolute time bp
 head(abstimes)
 
-for (i in 1:nrow(abstimes))
+timeperiods = c(0.0, 100.0)
+
+timebin_top = timeperiods[1]
+timebin_bot = timeperiods[2]
+timewidth = timeperiods[2] - timeperiods[1]
+
+timewidths_by_state = matrix(data=0.0, nrow=nrow(mapped_edge_abs_times), ncol=length(unique(colnames(mapped_edge_abs_times))))
+timewidths_by_state = as.data.frame(timewidths_by_state, stringsAsFactors=FALSE)
+names(timewidths_by_state) = unique(colnames(mapped_edge_abs_times))
+
+for (j in (ncol(abstimes)-1):1)
 	{
-	starttime = timeperiods[1]
-	stoptime = timeperiods[2]
+	# Times are times_bp (before present, counting from highest tip)
+	bsm_bots = abstimes[,j]
+	bsm_tops = abstimes[,j+1]
+
+	# Find overlaps in times_bp
+	timeperiod_too_old_TF = bsm_tops > timebin_bot
+	timeperiod_too_young_TF = bsm_bots < timebin_top
 	
-	for (j in 1:(ncol(abstimes)-1))
-		{
-		TF1 = 
-		}
+	overlapsTF = (timeperiod_too_old_TF + timeperiod_too_young_TF) == 0
 	
+	abstimes2 = abstimes[overlapsTF,]
+	timewidths = abstimes2[,j] - abstimes2[,j+1]
 	
+	amount_to_subtract1 = timebin_top - abstimes2[,j+1]
+	amount_to_subtract1[amount_to_subtract1 < 0] = 0
+
+	amount_to_subtract2 = abstimes2[,j] - timebin_bot
+	amount_to_subtract2[amount_to_subtract2 < 0] = 0
+	
+	timewidths = timewidths - amount_to_subtract1 - amount_to_subtract2
+
+	cbind(abstimes2, timewidths)
+	
+	colname_to_store = colnames(mapped_edge_abs_times)[j]
+	matching_col_TF = names(timewidths_by_state) == colname_to_store
+	
+	timewidths_by_state[overlapsTF, ][, matching_col_TF] = timewidths_by_state[overlapsTF, ][, matching_col_TF] + timewidths
 	}
+timewidths_by_state	
+colSums(timewidths_by_state)
+sum(colSums(timewidths_by_state))
+#        S        L 
+# 990.3448 183.2744 
+# 1173.619
 
 
+# Sum of all branch lengths:
+sum(tr$edge.length)
+# 1173.619
 
 
 
@@ -482,7 +561,9 @@ phytools_SM$mapped.edge[i,]
 phytools_SM$edge.length[i]
 
 
-timeperiods = c(0.0, 1.0)
+
+
+timeperiods = c(0.0, 10.0)
 trtable = prt(tr, printflag=FALSE)
 
 node_tops = trtable$time_bp
