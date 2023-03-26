@@ -501,8 +501,8 @@ sum(tr$edge.length)
 for (i in 1:length(trait_RES_clado_events_tables))
 	{
 	print(i)
-	clado_events_table = trait_RES_clado_events_tables[[2]]
-	ana_events_table = trait_RES_ana_events_tables[[2]]
+	clado_events_table = trait_RES_clado_events_tables[[i]]
+	ana_events_table = trait_RES_ana_events_tables[[i]]
 
 	timewidths_by_state = count_brlen_in_each_state(timeperiods=c(0,1), res, trtable, clado_events_table, ana_events_table)
 	head(timewidths_by_state)
