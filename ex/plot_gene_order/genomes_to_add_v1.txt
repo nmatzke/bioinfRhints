@@ -1,0 +1,222 @@
+
+Thoughts on genomes to add:
+
+
+1. I think we did this previously, but we should make sure we have some representatives from each Bacterial group
+
+(and perhaps each Archaeal group, if they have some MotA / MotB homologs)
+
+Refseq Prokaryotic Genome Annotation Project
+https://www-ncbi-nlm-nih-gov.ezproxy.auckland.ac.nz/bioproject/PRJNA224116
+
+
+
+
+
+2. I generated an assembly for these flagellated pond Verrucomicrobium (PVC group includes planctomyctes, verrucamicrobium, chlamydias; interesting as they have nonflagellar T3SS).
+
+Prokka-generated assemblies that I made is here:
+
+https://github.com/nmatzke/bioinfRhints/tree/main/flag/2023-04-06_genomes_to_add
+
+1	CAISZB01	WGS	ENV	uncultured Verrucomicrobium sp.	PRJEB38681	SAMEA6954634	WGS	isolate:  I3b_bin-317	isolation_source:  pond
+metagenome_source:  pond metagenome
+
+2	CAIZXV01	WGS	ENV	uncultured Verrucomicrobium sp.	PRJEB38681	SAMEA6945196	WGS	isolate:  I-3_bin-033	isolation_source:  pond
+metagenome_source:  pond metagenome	1.9	707
+
+
+
+
+
+
+3. Flagellated environmental Chlamydias (023 at least, discussed in literature) -- I think these are the assemblies
+
+AB751O23_Chlamydiales bacterium SCGC AB-751-O23 (chlamydias)
+https://www-ncbi-nlm-nih-gov.ezproxy.auckland.ac.nz/assembly/GCA_900093645.1
+
+Chlamydiales bacterium SCGC AG-110-M15 (chlamydias)
+https://www-ncbi-nlm-nih-gov.ezproxy.auckland.ac.nz/assembly/GCA_900093625.1
+
+Chlamydiales bacterium SCGC AG-110-P3 (chlamydias)
+https://www-ncbi-nlm-nih-gov.ezproxy.auckland.ac.nz/assembly/GCA_900093655.1
+
+Marine chlamydia:
+
+Marine chlamydial SAGs
+Chlamydia single-cell genomes from marine environments
+Analysis of single amplified genomes (SAGs) belonging to deeply branching chlamydiae derived from marine environments.
+https://www-ncbi-nlm-nih-gov.ezproxy.auckland.ac.nz/bioproject/PRJEB14715
+
+Chlamydiales bacterium SCGC AB-751-O23
+Taxonomy ID: 1871322
+https://www-ncbi-nlm-nih-gov.ezproxy.auckland.ac.nz/Taxonomy/Browser/wwwtax.cgi?id=1871322
+
+https://www-nature-com.ezproxy.auckland.ac.nz/articles/ismej201795
+=========================
+"taxonomic identity of single amplified genomes (SAGs) was determined by directly sequencing 16S rRNA gene amplicons at the SCGC"
+
+"A single SAG (SAG AB-751-O23) from 150 m was affiliated with the phylum Chlamydiae."
+
+Protein sequences encoding components of the flagellar apparatus were identified with blast and extracted from genome sequence entries at GenBank or RefSeq. The data set included genomes used by Abby and Rocha (2012), available chlamydial genome sequences as well as selected genome sequences from the Planctomycetes and Verrucomicrobia comprising 126 genome sequences in total (Supplementary Table S3). In addition, FliPQR amino acid sequences from the SAG AB-751-O23 were extracted from contigs smaller than 2 kb, which were otherwise not considered in this study. All protein sequences were aligned with MUSCLE 3.8.31 (Edgar, 2004). Maximum likelihood phylogenies were calculated with RAxML 8.2.8 with 100 bootstrap iterations using PROTGAMMAAUTO for automatic protein model selection (Stamatakis, 2014) at the Life Science Compute Cluster at the University of Vienna, and Bayesian inference was performed using MrBayes 3.2.6 using the mixed amino acid model and standard settings via the CIPRES Science Gateway (Miller et al., 2010; Ronquist et al., 2012). Phylogenetic trees were visualized with iTOL (Letunic and Bork, 2016).
+
+Presence of chlamydial FlhA proteins in metagenomic data sets
+Around two million FlhA amino acid sequences from metagenomic data sets available at the IMG/M database in December 2015 (Markowitz et al., 2012) excluding metagenomes from human and mouse microbiomes were downloaded. Only sequences longer than 450 amino acids were kept and clustered with CD-HIT 4.6.5 (Fu et al., 2012) at 40% sequence identity. This threshold was used because flagellar proteins encoded in the SAGs showed sequence identity values ranging from 39% to over 60%. A large cluster containing 1264 protein sequences together with the FlhA sequence of AB-751-O23 was again filtered for nearly full-length sequences (>650 amino acids). The resulting 667 sequences were aligned to the data set used for FlhA/SctV phylogenetic analysis, and the affiliation of the metagenome-derived sequences was determined with Neighbor Joining (1000 bootstraps) in ARB (Ludwig et al., 2004).
+
+Flagellar gene sets in marine chlamydiae
+The most unexpected finding was the detection of various flagellar genes in addition to genes encoding the NF-T3SS in all three SAGs (20 genes in AB-751-O23 and AG-110-M15, respectively, and 5 genes in AG-110-P3; Figures 2 and Figures 3a). This is highly surprising, because chlamydiae are considered non-motile; there is no evidence that any extant chlamydiae possess flagella or require motility for infectivity. Flagella are composed of components at the cytoplasmic face of the cytoplasmic membrane energizing flagella synthesis and movement, the transmembrane basal body including the motor, and the hook and the (rotating) filament located on the cell surface (Chevance and Hughes, 2008). Few genes with homology to flagellar genes were previously noted in members of the Chlamydiaceae, but those encode exclusively cytoplasmic components, and their role has been cryptic (Peters et al., 2007; Stone et al., 2010; Ferrell and Fields, 2016) (Supplementary Text S5). One SAG (AB-751-O23) is particularly noteworthy, if contigs smaller than 2 kbp are considered in genome reconstruction. With 28 flagellar genes this SAG contains the most complete gene set ever detected in chlamydiae (Figure 3a). The few flagellar genes missing in this SAG are encoded in a syntenic region in one of the other SAGs (AG-110-M15) in which the respective contig spans a larger genomic interval (Figure 3b and Supplementary Text S6). Together this would make up a complete flagellar apparatus including all cytoplasmic, transmembrane and extracellular components (Figure 3a).
+
+=========================
+
+
+Contigs perhaps
+https://www-ncbi-nlm-nih-gov.ezproxy.auckland.ac.nz/Traces/wgs/?page=1&view=wgs&search=AB-751-O23
+
+But assembly is available:
+
+AB751O23_Chlamydiales bacterium SCGC AB-751-O23 (chlamydias)
+https://www-ncbi-nlm-nih-gov.ezproxy.auckland.ac.nz/assembly/GCA_900093645.1
+
+
+
+
+
+
+4. We should make sure we add a few relatives of Bdellovibrio, the bacterium that eats other bacteria and has a bunch of MotA homologs for gliding etc. in addition to a flagellum
+
+E.g. 
+
+E.g.: "The phylogenetic analysis was done to compare the 16S rRNA gene sequences of Bdellovibrio sp. SKB1291214 and B. bacteriovorus SSB218315 with sequences of other members of the genus Bdellovibrio and their relatives that belong to the genus Bacteriovorax, Peredibacter, and Halobacteriovorax (Figure 1). T
+
+
+
+4a. Also include:
+
+Pseudobdellovibrio exovorus JSS
+https://www-ncbi-nlm-nih-gov.ezproxy.auckland.ac.nz/assembly/?term=pseudobdellovibrio
+
+
+
+
+
+5. Also, our draft tree contains a very odd, super long branch below Bdellovibio MotA homolog AHZ83417.1.  I suggest: blast this, and get some not-too-close relatives (e.g. 85% similar), and include their genomes.  This may overlap with #4.
+
+(This could be repeated for other long, isolated branches in our tree, e.g. Sphingomonas QNQ12173.1.  The best way to figure out if a long branch is "really" a true long branch, or just a statistical artefact, is to break up the branch by adding some relatives.)
+
+
+
+
+
+6. Our Myxococcus proteins, e.g. for gliding, have some close relatives in the tree; but it would be good to include another ~2 Myxococcus or near-relatives
+
+
+
+
+
+7. Make sure we have representatives of these...( I am including brief notes on why interesting)
+
+Rhodobacter sphaeroides
+
+"Rhodobacter sphaeroides swims with a single, stop-start flagellum, with no reversing (Shah and Sockett, 1995; Shah et al., 2000)"
+
+
+Bacillus subtilis
+"The receptor domain [of FliM] is homologous to the single-domain chemotaxis protein CheC of Bacillus subtilis (Kirby et al., 2001)"
+
+
+Caulobacter
+
+"If the bacterium can manage to rise substantially in the boundary layer, flow or turbulence may carry it some distance, at which point it can re-secrete adhesive pili and attach to a new surface. It will probably do better if it starts out at the top of long pilus; similar dispersal-enhancing mechanisms are well known (fruiting bodies in bacteria such as Myxococcus; Caulobacter stalks)."
+
+Cytophaga
+
+Flavobacterium
+
+The mechanism of the gliding motility of Cytophaga and Flavobacterium is still a matter of speculation (McBride, 2001), but may involve a ratchet structure and slime secretion (Bardy et al., 2003). 
+
+
+Several cyanobacteria (these may not appear in our MotA phylogeny, but we should be sampling their genomes in general, as an ancient group)
+
+
+
+
+
+Klebsiella oxytoca
+
+"If the bacterium can manage to rise substantially in the boundary layer, flow or turbulence may carry it some distance, at which point it can re-secrete adhesive pili and attach to a new surface. It will probably do better if it starts out at the top of long pilus; similar dispersal-enhancing mechanisms are well known (fruiting bodies in bacteria such as Myxococcus; Caulobacter stalks)."
+
+
+
+Buchnera aphidicola -- because it has a conserved but nonmotile flagellum, probably doing secretion stuff
+
+
+
+
+
+
+8. In our domain comparisons, we detected some weird proteins with homology to both MotA *and* FliG (!). We should make sure some of these genomes are included:
+
+CDART hits to MotA / TolQ / ExbB ("AQB") domain included:
+
+all_AQBs_CDART_v2.fasta (attached)
+====================================
+>WP_011384107.1 FliG C-terminal domain-containing protein [Magnetospirillum magneticum]
+MSGIASIRSLIREAPTRKAALALLLCLYDLWSLAKARGPLALEDHVVHPERSVILHQHRSLARLPWLMEP
+LMDLVRHFTLGTEGSSAYDQMIDGIIAAEEQWMRTVHGLVMLLASVIAVFWVIAMVIVRPPLVMEGSLSW
+PTVTVWIVPIGLAMLALHCIKVWIGWVASERTGMLEALRRGICFHADGAFAPQVSADAARMALPQRLRPS
+HDQLEDVIRAESVRYLYPGAPLLLPADRADGQDCATAIQDMLDRLMPSDLNSFERDQRLDELLTDLADDV
+PPQFSAVALEFNRLKLLGEDDIRVLLHSVDKDIWSLALRGASSHTARSILDCISHRAGRLLMQDMQALDG
+ATAVEILEAQRTIIKTLGNLRATGTLPDQATLDREFFAQISSLDSPLS
+>WP_011385528.1 FliG C-terminal domain-containing protein [Magnetospirillum magneticum]
+MTSAPAEADLDLITQAPTRETARDLCLLINDLCHLDKMRQIVVLEDTLDHPERSLLFYAYRQVRDRSWLA
+EPMRDIFRHITLGLTEQVQVERLLDSRIAAMAEEDRRHIRDTLAGMADKSAREDLRERLNDAAADKVLVL
+RALRNALVAHVGGYAPMVAADYARFSLPDSLRMDYDELIELIANSVRIRVGGAAELILPIDPIDPASYDY
+DRRMARRLREDKEEVEEAVEPVPDLEARLDAIAQGWANDDPDWCQWVDRLAGYLQLIRERSLKKLTRLVD
+EGSWAISLLGLPTPVVSRIFGLMSNGAQASLLRDMENHCDFDGICLTRGYVSRTRQNILQVIEQKGLADG
+GAARLKTIMHAPLGYEAFDALATLDDGELNALWRQTSKDTVGTALLGTSIEVAVRLLGRLSEDARQMMLD
+DMESLSAEKTTADIEEAQRNILWPTSWDDDATLDETLASLRAILAGSAS
+>WP_011385529.1 FliG C-terminal domain-containing protein [Magnetospirillum magneticum]
+MSGIASIRSLIREAPTREAALALLLCLYDLWSLAKARGPLALEDHVVHPERSVILHQHRLLSRLPWLMEP
+LMDLVRHFTLGTDGSSAYDQMIDGIIAAEEQWMRTVHGLVMLLASVIAVFWVIAMVIVRPPLVMEGSLSW
+PTVTLWIVPMGLTMLALHCIKVWIGWVASERTGMLEALRRGICFHADGAFAPQVSADAARMALPQRLRPS
+HDQLENMIRAESVRYLYPVAPLLLPADRADGKDCATAIQDMLDRLMPSELDSFERDQRLNELLTDLSDDV
+PPEYSAVSVDFNRLSLLGTDGIRVLLHSIGKDMWAMALRGATSHTARSILDCISHRAGRLLMQDMEALDG
+ATVVEILEAQRTIIETLRNLRATGTLPDQATLDREFLAQLSSLDSPLS
+>WP_011385530.1 FliG C-terminal domain-containing protein [Magnetospirillum magneticum]
+MTIFSSAIQSVRALRREAPTREAALALLLCLYDLWVLAKVKGDLYLEAHAEMPLSSSLFFHHKPMRDLPW
+LLTPLVDFIRLMTLGSNNAKQARRLLQAYRETEKRALDHVLRQASLVWPMGFCLWIAGLAVLASLGGLGL
+TALAWWGVSLAAAGVMVGIWLVRLRTIADHRLGVLDAMTEGCLSYLNGYAQQICAENARFVLPPALKPSF
+FELADAFGEDSYFHRYGAYNGFTLSETGTQAEIDTKLAERLQAILDYDPDWLAKALPGLSRDITGELPAD
+QVETVSAFSQLADLDEASLRIILQSCAHDLRAAALIGTSSAVLERFVANLSEADQKTLVTDIRAMGSIPA
+ADIAIAQRSVLDLAKSLTDSGELAARTKEEGDLLTLWKRMSGEEGASGQPGRPEN
+>WP_011386128.1 FliG C-terminal domain-containing protein [Magnetospirillum magneticum]
+MNYIRASFKSLRQLRREAPTPEAARALLIALNDFWAIARMKGDLALEPHCDHPERSILLHYHRALRDLPW
+LSAPFIDFIRQSTLGLGEVKAAQRLLDGHLLVEQRHMDDTLSFAAMAANTAAAFGVIGTAGALAFAQVDW
+SHMAFGLIGSSGLLLLASRLWLARIRTIATERLGMLKALSVGCVAHLDGYAPMTTAEHARFSLPPRLRMT
+AKDLEEALDTEAFRHRHPDCEPTVEGAFGELFDDGDCDKEIAAYLNGKRPEDPDWLEKRLVPMLRKLPAE
+LAPDQIAIAEAFAKLKALEDFELQRILREFNKDMLGIAFLGAPMPTVLRFFDNISKRAQKMLLDDMESFV
+RVPIDDIISAQGKVVAQVSEWMKTGQFRYDKEREEDLLEEWRRLTAGITAACQQPPDAEELSPRQKFEQS
+TTNQKY
+>WP_027398741.1 FliG C-terminal domain-containing protein [Anaerovorax odorimutans]
+MLDYEYISNRLPYGIEQKEQALEVFKKILYYAEHARKNGFLCLEELIYNETDIFLKNCLYRIIQGWKTQD
+IKEYTEKYILSINVNGEYFLKMIVIADGVIKILENQSNINLILKLSAWFGDDFQDYFYNEIKKIQNKSME
+IEKDKIRRIKVSAFSDFDELSVFPEKVLQDLLREIEIDTLAIALKSAKWQTFQVIMKNLSEENRIRIEEV
+MGNMNNLRLCDIKKAQAEIMETSNT
+====================================
+
+e.g.: https://www-ncbi-nlm-nih-gov.ezproxy.auckland.ac.nz/Structure/cdd/wrpsb.cgi?INPUT_TYPE=live&SEQUENCE=WP_027398741.1
+
+Matt etc. will be super-interested in this...
+
+
+8a. Also make sure some of the other weird domain-hits are included, e.g. the AraC one here:
+
+https://www-ncbi-nlm-nih-gov.ezproxy.auckland.ac.nz/Structure/lexington/lexington.cgi?cachecdqs=NC-data_cache-0-NCID_1_95370777_130.14.22.10_9149_1680753858_3403146219_0MetA0__S_NC_CDDCache
+
+(...get to this by clicking "similar architectures" on the previous link in #8...)
+
+(...click on Page 2, etc., at bottom to see more weirdness...e.g. p. 2 has a "Mitofilin" domain relative, "kgd", etc.)
+
+...basically, for any interesting/weird Conserved Domains hit that contains MotA/ExbB+something weird, get one or a few representatives, and make sure their genomes are included.
+
+
