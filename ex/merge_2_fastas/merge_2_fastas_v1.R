@@ -5,6 +5,9 @@ library(BioGeoBEARS)	# for cls.df
 library(gdata)				# for trim
 library(stringr) 			# for regmatches
 
+# Script at:
+# https://github.com/nmatzke/bioinfRhints/tree/main/ex/merge_2_fastas
+
 
 
 wd = "/GitHub/bioinfRhints/ex/merge_2_fastas/"
