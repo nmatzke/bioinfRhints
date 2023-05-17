@@ -21,10 +21,10 @@
 # 
 ##########################################################################
 
+# Produce hmm profile files (.hmm), from downloaded Interpro stockholm-format profile files (.sto)
 # IPR002898_AQB.hmm
 
 cd /Users/nmat471/HD/GitHub/bioinfRhints/flag/profiles_precalculated/
-
 
 hmmbuild DUF2341.hmm DUF2341.sto
 hmmbuild IPR002898_AQB.hmm IPR002898_AQB.sto
@@ -46,9 +46,69 @@ cd /Users/nmat471/HD/GitHub/bioinfRhints/flag/profiles_precalculated/ex_AQB_aln/
 hmmalign --amino --outformat stockholm -o 589_seqs_profAligned.sto IPR002898_AQB.hmm 589_seqs_merged.fasta | tee so.txt &
 
 
-# Convert to aligned phylip format
+# Convert to aligned clustal format
 esl-reformat --informat stockholm clustal 589_seqs_profAligned.sto | tee 589_seqs_profAligned.clustal
 
 
 
 # View in AliView
+# Save to Fasta
+# The "core" region is clear; extract to -Middle .fasta file
+# Reopen aligned fasta; extract N-term and save
+# Reopen aligned fasta; extract C-term and save
+
+# Align the N-term and C-term regions with mafft:
+
+cd /Users/nmat471/HD/GitHub/bioinfRhints/flag/profiles_precalculated/ex_AQB_aln/
+mafft --auto 589_seqs_Cterm.fasta > 589_seqs_Cterm_alnFast.fasta | tee 589_seqs_Cterm_alnFast_so.txt 
+
+
+cd /Users/nmat471/HD/GitHub/bioinfRhints/flag/profiles_precalculated/ex_AQB_aln/
+mafft --auto 589_seqs_Nterm.fasta > 589_seqs_Nterm_alnFast.fasta | tee 589_seqs_Nterm_alnFast_so.txt 
+
+
+
+# https://mafft.cbrc.jp/alignment/software/algorithms/algorithms.html
+
+# The --addfragments allows staggered gaps
+# "enafpair or einsi" where 'X's indicate alignable residues, 'o's indicate unalignable 
+# residues and '-'s indicate gaps. Unalignable residues are left unaligned at the pairwise 
+# alignment stage, because of the use of the generalized affine gap cost."
+# "As E-INS-i has the minimum assumption of the three methods, this is recommended if the 
+# nature of sequences to be aligned is not clear. Note that E-INS-i assumes that the 
+# arrangement of the conserved motifs is shared by all sequences."
+
+
+cd /Users/nmat471/HD/GitHub/bioinfRhints/flag/profiles_precalculated/ex_AQB_aln/
+mafft --genafpair --maxiterate 1000 --reorder 589_seqs_Cterm.fasta > 589_seqs_Cterm_alnEINSI.fasta | tee 589_seqs_Cterm_alnEINSI_so.txt &
+
+
+cd /Users/nmat471/HD/GitHub/bioinfRhints/flag/profiles_precalculated/ex_AQB_aln/
+mafft --genafpair --maxiterate 1000 --reorder 589_seqs_Nterm.fasta > 589_seqs_Nterm_alnEINSI.fasta | tee 589_seqs_Nterm_alnEINSI_so.txt &
+
+
+cd /Users/nmat471/HD/GitHub/bioinfRhints/flag/profiles_precalculated/ex_AQB_aln/
+einsi --addfragments --maxiterate 1000 --reorder 589_seqs_Cterm.fasta > 589_seqs_Cterm_alnEINSI2.fasta | tee 589_seqs_Cterm_alnEINSI2_so.txt &
+
+
+cd /Users/nmat471/HD/GitHub/bioinfRhints/flag/profiles_precalculated/ex_AQB_aln/
+einsi --addfragments --maxiterate 1000 --reorder 589_seqs_Nterm.fasta > 589_seqs_Nterm_alnEINSI2.fasta | tee 589_seqs_Nterm_alnEINSI2_so.txt &
+
+
+# Phylogeny
+iqtree [-s ALIGNMENT] [-p PARTITION] [-m MODEL] [-t TREE]
+
+
+# mafft --genafpair --maxiterate 1000 589_seqs_Cterm.fasta > 589_seqs_Cterm_alnEINSI.fasta | tee 589_seqs_Cterm_alnEINSI_so.txt &
+
+
+#################################################
+# Try a mafft regional re-alignment
+#################################################
+https://mafft.cbrc.jp/alignment/software/regionalrealignment.html
+
+cd /Users/nmat471/HD/GitHub/bioinfRhints/flag/profiles_precalculated/ex_AQB_aln/mafft_constrained_aln_v1/ 
+
+ruby regionalrealignment.rb setting.txt 589_seqs_profAligned.fasta > 589_seqs_mafftMiddleConstrained.fasta | tee 589_seqs_mafftMiddleConstrained_so1.txt &
+
+
