@@ -1,0 +1,54 @@
+
+##########################################################################
+# Commands to align a large group of MotA/TolQ/ExbB homologs against 
+# a pre-calculated seed alignment of same.
+# 
+# Got profiles via:
+# 
+# 2023-05-17
+# Pre-calculated protein profiles are available for download here:
+# https://www.ebi.ac.uk/interpro/download/Pfam/
+# 
+# These may be useful for aligning our sequences against these profiles, via hmmalign
+# I downloaded:
+#   Pfam-A Seed alignment	Annotation and seed alignments of all Pfam-A families in Pfam format.
+# ...and copied out the relevant profiles (MotA, MotB, homologs etc.) to separate text/hmm files.
+#
+# We could maybe do this with the 
+#   Pfam-A Full alignment	Annotation and full alignments of all Pfam-A families in Pfam format.
+# 
+# ...which is 4 times bigger, but I bet the difference is marginal.
+# 
+##########################################################################
+
+# IPR002898_AQB.hmm
+
+cd /Users/nmat471/HD/GitHub/bioinfRhints/flag/profiles_precalculated/
+
+
+hmmbuild DUF2341.hmm DUF2341.sto
+hmmbuild IPR002898_AQB.hmm IPR002898_AQB.sto
+hmmbuild MotA_ExbB.hmm MotA_ExbB.sto
+hmmbuild FliG_Nterm.hmm FliG_Nterm.sto
+hmmbuild FliG_Cterm.hmm FliG_Cterm.sto
+hmmbuild PF20560.1_MotA-Nterm.hmm PF20560.1_MotA-Nterm.sto
+hmmbuild FliG_Middle.hmm FliG_Middle.sto
+hmmbuild motB_plug.hmm motB_plug.sto
+hmmbuild ExbD-TolR.hmm ExbD-TolR.sto
+hmmbuild TonB_Cterm.hmm TonB_Cterm.sto
+hmmbuild OmpA.hmm OmpA.sto
+
+
+# Align sequences to precalculated InterPro profile:
+
+cd /Users/nmat471/HD/GitHub/bioinfRhints/flag/profiles_precalculated/ex_AQB_aln/
+
+hmmalign --amino --outformat stockholm -o 589_seqs_profAligned.sto IPR002898_AQB.hmm 589_seqs_merged.fasta | tee so.txt &
+
+
+# Convert to aligned phylip format
+esl-reformat --informat stockholm clustal 589_seqs_profAligned.sto | tee 589_seqs_profAligned.clustal
+
+
+
+# View in AliView
