@@ -86,9 +86,20 @@ mafft --genafpair --maxiterate 1000 --reorder 589_seqs_Cterm.fasta > 589_seqs_Ct
 cd /Users/nmat471/HD/GitHub/bioinfRhints/flag/profiles_precalculated/ex_AQB_aln/
 mafft --genafpair --maxiterate 1000 --reorder 589_seqs_Nterm.fasta > 589_seqs_Nterm_alnEINSI.fasta | tee 589_seqs_Nterm_alnEINSI_so.txt &
 
+cd /Users/nmat471/HD/GitHub/bioinfRhints/flag/profiles_precalculated/ex_AQB_aln/
+mafft --genafpair --maxiterate 1000 --reorder 589_seqs_Nterm_aln_cutBigSeqs.fasta > 589_seqs_Nterm_aln2_cutBigSeqs.fasta | tee 589_seqs_Nterm_aln2_cutBigSeqs_so.txt &
+
 
 cd /Users/nmat471/HD/GitHub/bioinfRhints/flag/profiles_precalculated/ex_AQB_aln/
-einsi --addfragments --maxiterate 1000 --reorder 589_seqs_Cterm.fasta > 589_seqs_Cterm_alnEINSI2.fasta | tee 589_seqs_Cterm_alnEINSI2_so.txt &
+mafft --genafpair --maxiterate 1000 --reorder 589_seqs_Cterm_aln_cutBigSeqs.fasta > 589_seqs_Cterm_aln2_cutBigSeqs.fasta | tee 589_seqs_Cterm_aln2_cutBigSeqs_so.txt &
+
+
+
+
+
+
+cd /Users/nmat471/HD/GitHub/bioinfRhints/flag/profiles_precalculated/ex_AQB_aln/
+mafft --addfragments --maxiterate 1000 --reorder 589_seqs_Cterm.fasta > 589_seqs_Cterm_alnEINSI2.fasta | tee 589_seqs_Cterm_alnEINSI2_so.txt &
 
 
 cd /Users/nmat471/HD/GitHub/bioinfRhints/flag/profiles_precalculated/ex_AQB_aln/
@@ -111,4 +122,19 @@ cd /Users/nmat471/HD/GitHub/bioinfRhints/flag/profiles_precalculated/ex_AQB_aln/
 
 ruby regionalrealignment.rb setting.txt 589_seqs_profAligned.fasta > 589_seqs_mafftMiddleConstrained.fasta | tee 589_seqs_mafftMiddleConstrained_so1.txt &
 
+ruby regionalrealignment.rb setting2.txt 589_seqs_profAligned2.fasta > 589_seqs_mafftMiddleConstrained2.fasta | tee 589_seqs_mafftMiddleConstrained2_so2.txt &
+
+
+
+
+
+
+LG+PMSF+G
+
+# severe model violations improvement: -bnni -T AUTO
+
+cd /Users/nmat471/HD/GitHub/bioinfRhints/flag/profiles_precalculated/ex_AQB_aln/mafft_constrained_aln_v1/
+iqtree -s 589_seqs_mafftMiddleConstrained2.fasta -m LG+G -B 1000 -bnni -T AUTO
+
+iqtree -s <alignment> -m LG+PMSF+G -ft <guide_tree>  -B 1000 -bnni
 

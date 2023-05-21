@@ -1,0 +1,4 @@
+1   503  realign --maxiterate 1000             # Comment can be added after #.
+504  684  preserve                             # Preserve sites 10-24
+685  1682  realign --maxiterate 1000           # Use transmembrane model for sites 25-60
+treeoption --reorder --localpair --thread -1            # "--thread -1" is applicable only on Linux and Mac.
