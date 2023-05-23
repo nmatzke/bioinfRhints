@@ -93,6 +93,8 @@ mafft --genafpair --maxiterate 1000 --reorder 589_seqs_Nterm_aln_cutBigSeqs.fast
 cd /Users/nmat471/HD/GitHub/bioinfRhints/flag/profiles_precalculated/ex_AQB_aln/
 mafft --genafpair --maxiterate 1000 --reorder 589_seqs_Cterm_aln_cutBigSeqs.fasta > 589_seqs_Cterm_aln2_cutBigSeqs.fasta | tee 589_seqs_Cterm_aln2_cutBigSeqs_so.txt &
 
+cd /Users/nmat471/HD/GitHub/bioinfRhints/flag/profiles_precalculated/ex_AQB_aln/
+mafft --genafpair --maxiterate 1000 --reorder 589_seqs_Cterm_aln2_cutBigSeqs.fasta > 589_seqs_Cterm_aln3_cutBigSeqs.fasta | tee 589_seqs_Cterm_aln3_cutBigSeqs_so.txt &
 
 
 

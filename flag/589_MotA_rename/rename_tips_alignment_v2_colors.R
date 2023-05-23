@@ -155,6 +155,15 @@ classify_MotAfam_labels <- function(list_of_strings)
 	for (i in 1:length(list_of_strings))
 		{
 		tmpstr = list_of_strings[i]
+
+		tmpstr = gsub(pattern="  ", replacement=" ", x=tmpstr)
+		tmpstr = gsub(pattern="  ", replacement=" ", x=tmpstr)
+		tmpstr = gsub(pattern="  ", replacement=" ", x=tmpstr)
+		tmpstr = gsub(pattern="  ", replacement=" ", x=tmpstr)
+		tmpstr = gsub(pattern="  ", replacement=" ", x=tmpstr)
+		tmpstr = gdata::trim(tmpstr)
+
+
 		
 		# Add semicolon on the end
 		
@@ -395,6 +404,9 @@ classify_MotAfam_labels <- function(list_of_strings)
 		tmpstr = gsub(pattern="  ", replacement=" ", x=tmpstr)
 		tmpstr = gdata::trim(tmpstr)
 
+		tmpstr = gsub(pattern=" ", replacement="_", x=tmpstr)
+
+
 		if ((tmpstr == "") || (tmpstr == "transporter"))
 			{
 			tmpstr = "transport"
@@ -456,7 +468,7 @@ tmpstrs = readLines(nexfn)
 for (i in 1:length(tmpstrs))
 	{
 	tmpstr = tmpstrs[i]
-	tmpstr = gsub(pattern="'", replacement="", x=tmpstr)
+	#tmpstr = gsub(pattern="'", replacement="", x=tmpstr)
 	
 	for (j in 1:length(gid))
 		{
@@ -477,7 +489,7 @@ tmpstrs = readLines(nexfn)
 for (i in 1:length(tmpstrs))
 	{
 	tmpstr = tmpstrs[i]
-	tmpstr = gsub(pattern="'", replacement="", x=tmpstr)
+	#tmpstr = gsub(pattern="'", replacement="", x=tmpstr)
 	for (j in 1:length(gid))
 		{
 		tmpstr = gsub(pattern=gid[j], replacement=newnames3[j], x=tmpstr)
@@ -527,6 +539,8 @@ library(phytools)
 # Ladderize will flip up/down, so it looks like FigTree
 
 tr2 = phytools::readNexus(outfn3, format="standard")
+checktree(tr2)
+
 
 if (is.binary(tr2) == FALSE)
 	{
@@ -541,6 +555,23 @@ if (is.binary(tr2) == FALSE)
 	brlens[TF3] = min(brlens > 0.0)
 	tr2$edge.length = brlens
 	}
+
+
+if (has.singles(tr2) == TRUE)
+	{
+	tr2 = collapse.singles(tr2)
+	brlens = tr2$edge.length
+	TF1 = is.na(brlens)
+	TF2 = is.nan(brlens)
+	brlens[TF1] = 0.0
+	brlens[TF2] = 0.0
+	TF3 = brlens <= 0.0
+	brlens[TF3] = min(brlens > 0.0)
+	tr2$edge.length = brlens
+	}
+checktree(tr2)
+
+
 
 TF = sort(tr2$tip.label) == sort(newnames3)
 
@@ -570,8 +601,14 @@ tiporder = order(orders[,1])
 char_into_tip_order = orders[tiporder,2]
 
 size_classes = size_classes[char_into_tip_order]
+
+sort(names(size_classes))[1:5]
+sort(tr2$tip.label)[1:5]
+
+# Orders match?
 names(size_classes)[1:5]
 tr2$tip.label[1:5]
+
 
 
 # Create an ordered character
@@ -592,7 +629,7 @@ for (i in 1:nrow(params_matrix))
 	}
 params_matrix	
 
-res = ace(x=size_classes, phy=tr2, type="discrete", model=params_matrix)
+res = ace(x=unname(size_classes), phy=tr2, type="discrete", model=params_matrix)
 
 
 #pdffn = "530_sequences_Alignment_contree_reRootLadder_gIDs_protFirst_sizeColors.pdf"
