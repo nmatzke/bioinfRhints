@@ -1,0 +1,1191 @@
+#NEXUS
+[R-package APE, Thu May 25 17:47:13 2023]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX = 589;
+	TAXLABELS
+		Escherichia_coli_str._K12_substr._MG1655|TolQ|AAC73831.1|230
+		Gemmatimonas_groenlandica|MotA|QJR34785.1|243
+		Sulfidibacter_corallicola|HYP_J3U87_16945|QTD54135.1|469
+		Yersinia_pseudotuberculosis_IP_32953|TolQ|AJJ55217.1|228
+		Yersinia_pestis|TolQ|AJJ31712.1|228
+		Vibrio_parahaemolyticus_RIMD_2210633|TolQ|BAC59320.1|232
+		Cellvibrio_japonicus|AQB|QEI18408.1|170
+		Pseudomonas_aeruginosa_PAO1|TolQ|AAG04358.1|231
+		Leptospira_santarosai_serovar_Shermani_str._LT_821|MotP|EKT86693.1|260
+		Saccharophagus_degradans_240|AQB|ABD81792.1|231
+		Rhodoferax_saidenbachensis|TolQ|APW43236.1|232
+		Caulobacter_vibrioides_NA1000|ExbB|ACL95886.1|302
+		Brevundimonas_subvibrioides_ATCC_15264|AQB|ADL01024.1|293
+		Orientia_tsutsugamushi_str._Ikeda|TolQ|BAG40198.1|229
+		Brevundimonas_subvibrioides_ATCC_15264|TolQ|ADL00174.1|255
+		Caulobacter_vibrioides_NA1000|TolQ|ACL96805.1|232
+		Candidatus_Accumulibacter_similis|motor|QKS28544.1|246
+		Lignipirellula_cremea|PomA|QDU97593.1|256
+		Acinetobacter_pittii_PHEA2|TolA_OM|ADY82611.1|185
+		Luteolibacter_luteus|AQB|QJE97269.1|232
+		Akkermansia_glycaniphila|AQB|SEI00245.1|252
+		Rhizobacter_gummiphilus|TolQ|ATU66653.1|237
+		Rhodobacter_capsulatus_SB_1003|TolQ|ADE86923.1|234
+		Elusimicrobia_bacterium|AQB|UPT72618.1|314
+		Brucella_ovis_ATCC_25840|TolQ|ABQ61581.1|236
+		Methylobacterium_oryzae_CBMB20|TolQ|AIQ88683.1|238
+		Nitrobacter_winogradskyi_Nb255|TolQ|ABA05973.1|237
+		Candidatus_Paracaedibacter_acanthamoebae|ExbB|AIK95558.1|244
+		Rhodospirillum_rubrum_F11|AQB|AEO47594.1|303
+		Magnetospirillum_gryphiswaldense_MSR1_v2|TolQ|CDK97994.1|241
+		Anaplasma_phagocytophilum_str._JM|TolQ|AGR80198.1|234
+		Candidatus_Midichloria_mitochondrii_IricVA|TolQ|AEI88825.1|245
+		Niastella_koreensis_GR2010|OmpA/MotB_domain_protein|AEV97736.1|293
+		Methylobacterium_oryzae_CBMB20|TolQ|AIQ91305.1|229
+		Rhodospirillum_rubrum_F11|AQB|AEO48685.1|296
+		Candidatus_Hydrogenosomobacter_endosymbioticus|HYP_HYD_1220|BDB95989.1|234
+		Acinetobacter_pittii_PHEA2|ExbB|ADY81560.1|293
+		Rhizobacter_gummiphilus|AQB|ATU64277.1|275
+		Candidatus_Accumulibacter_similis|AQB|QKS29102.1|202
+		Euryarchaeota_archaeon|MotA|RMG20999.1|261
+		Eikenella_corrodens|ExbB|SNW07143.1|218
+		Rhodoferax_saidenbachensis|biopoly_transp|APW42557.1|238
+		Lignipirellula_cremea|ExbB|QDU98468.1|257
+		Rhizobacter_gummiphilus|ExbB|ATU63282.1|273
+		Luteolibacter_luteus|AQB|QJE97562.1|260
+		Acinetobacter_pittii_PHEA2|AQB|ADY83951.1|206
+		Rhodoferax_saidenbachensis|MotA|APW44370.1|215
+		Rhizobacter_gummiphilus|AQB|ATU67891.1|219
+		Acinetobacter_pittii_PHEA2|ExbB|ADY81763.1|244
+		Acinetobacter_pittii_PHEA2|ExbB|ADY81773.1|229
+		Cellvibrio_japonicus|AQB|QEI18325.1|175
+		Pseudomonas_aeruginosa_PAO1|ExbB|AAG03587.1|239
+		Nitrobacter_winogradskyi_Nb255|ExbB|ABA05299.1|421
+		Nitrobacter_winogradskyi_Nb255|ExbB|ABA03969.1|400
+		Brucella_ovis_ATCC_25840|ExbB|ABQ60495.1|310
+		Rhodobacter_capsulatus_SB_1003|ExbB|ADE86105.1|261
+		Nitrobacter_winogradskyi_Nb255|ExbB|ABA04528.1|318
+		Nitrobacter_winogradskyi_Nb255|ExbB|ABA05559.1|320
+		Magnetospirillum_gryphiswaldense_MSR1_v2|ExbB|CDK97637.1|229
+		Elusimicrobia_bacterium|AQB|UPT74212.1|191
+		Escherichia_coli_str._K12_substr._MG1655|ExbB|AAC76042.1|244
+		Gemmatimonas_groenlandica|HYP_HKW67_04610|QJR34845.1|246
+		Sulfidibacter_corallicola|AQB|QTD53836.1|254
+		Yersinia_pseudotuberculosis_IP_32953|ExbB|AJJ56099.1|345
+		Yersinia_pestis|ExbB|AJJ31614.1|345
+		Campylobacter_jejuni_subsp._jejuni_NCTC_11168_EQ_ATCC_700819|transport|CAL34348.1|253
+		Luteolibacter_luteus|AQB|QJE95191.1|274
+		Gemmatimonas_aurantiaca_T27|transport|BAH38987.1|233
+		Gemmatimonas_phototrophica|HYP_GEMMAAP_10105|AMW06740.1|235
+		Mariprofundus_ferrinatatus|TolQ|ATX81939.1|229
+		Mariprofundus_aestuarium|TolQ|ATX79746.1|229
+		Thermodesulfovibrio_yellowstonii_DSM_11347|TolQ|ACI22061.1|209
+		Dissulfurispira_thermophila|TolQ|BCB95125.1|207
+		Syntrophus_aciditrophicus_SB|TolQ|ABC76751.1|248
+		Sorangium_cellulosum|TolQ|AUX20279.1|247
+		Terriglobus_roseus_DSM_18391|transport|AFL88265.1|261
+		Terriglobus_roseus_DSM_18391|transport|AFL88606.1|261
+		Acidobacterium_capsulatum_ATCC_51196|AQB|ACO32834.1|254
+		Sphingomonas_alpina|DUF2341_domaincontaining_protein|QNQ08565.1|609
+		Chlorobium_phaeobacteroides_DSM_266|TolQ|ABL64907.1|225
+		Chlorobium_limicola_DSM_245|TolQ|ACD89825.1|225
+		Pelodictyon_phaeoclathratiforme_BU1|TolQ|ACF44367.1|219
+		Chlorobaculum_parvum_NCIB_8327|TolQ|ACF11057.1|220
+		Parachlamydia_acanthamoebae_UV7|unk|CCB87689.1|241
+		Fibrobacter_succinogenes_subsp._succinogenes_S85|AQB|ACX73814.1|224
+		Tepidimonas_taiwanensis|AQB|UBQ06174.1|255
+		Myxococcus_xanthus_DK_1622|AQB|ABF91581.1|236
+		Corallococcus_coralloides_DSM_2259|AQB|AFE07999.1|238
+		Stigmatella_aurantiaca_DW4/31|gliding|ADO74176.1|234
+		Anaeromyxobacter_dehalogenans_2CP1|TolQ|ACL64052.1|257
+		Bradymonas_sediminis|MotA|AWV88602.1|249
+		Paludibaculum_fermentans|MotA|QOY86330.1|288
+		Methylacidimicrobium_sp._B4|AQB|QSR84237.1|213
+		Geobacter_sulfurreducens_PCA|TolQ|AAR33363.1|225
+		Desulfococcus_multivorans|TolQ|AQV01680.1|237
+		Desulfotalea_psychrophila_LSv54|TolQ|CAG37138.1|232
+		Bdellovibrio_bacteriovorus|gliding|AHZ85825.1|224
+		Nitrospira_moscoviensis|TolQ|ALA60092.1|231
+		Leptothermofonsia_sichuanensis_PKUACSCTE412|AQB|QZZ23337.1|212
+		Leptospirillum_ferrooxidans_C23|AQB|BAM06957.1|221
+		Oxynema_aestuarii_AP17|AQB|QIZ71789.1|265
+		Vibrio_cholerae|PomA|QEO41881.1|254
+		Pseudomonas_aeruginosa_PAO1|ExbB2|AAG04082.1|615
+		Candidatus_Accumulibacter_similis|TolQ|QKS27990.1|225
+		Nitrospira_moscoviensis|AQB|ALA61164.1|260
+		Fibrobacteres_bacterium|MotA|QQS05761.1|281
+		Elusimicrobia_bacterium|AQB|UPT75425.1|227
+		Candidatus_Xiphinematobacter_sp._Idaho_Grape|ExbB|ALJ56928.1|262
+		Opitutus_terrae_PB901|AQB|ACB76604.1|234
+		Nibricoccus_aquaticus|MotA|ATC65746.1|228
+		Ereboglobus_luteus|MotA|AWI09757.1|228
+		Victivallales_bacterium_CCUG_44730|HYP_C5Q97_10465|AVM45096.1|263
+		Kiritimatiella_glycovorans|ExbB|AKJ63346.1|247
+		Myxococcus_xanthus_DK_1622|AQB|ABF92363.1|227
+		Bacteroides_nordii|AQB|UAK41566.1|269
+		Corallococcus_coralloides_DSM_2259|AQB|AFE10515.1|225
+		Stigmatella_aurantiaca_DW4/31|TolQ|ADO70054.1|228
+		Sorangium_cellulosum|MotA|AUX23472.1|240
+		Myxococcus_xanthus_DK_1622|TolQ_ExbB_wTonB|ABF92421.1|250
+		Tepidimonas_taiwanensis|TolQ|UBQ04634.1|229
+		Corallococcus_coralloides_DSM_2259|TolQ_ExbB_wTonB|AFE08686.1|251
+		Sorangium_cellulosum|MotA|AUX24210.1|235
+		Anaeromyxobacter_dehalogenans_2CP1|AQB|ACL63649.1|252
+		Terriglobus_roseus_DSM_18391|transport|AFL86415.1|251
+		Acidobacterium_capsulatum_ATCC_51196|AQB|ACO31817.1|247
+		Sphingomonas_alpina|TolQ|QNQ08778.1|232
+		Sulfidibacter_corallicola|AQB|QTD50492.1|504
+		Gemmatimonas_aurantiaca_T27|transport|BAH39052.1|241
+		Oxynema_aestuarii_AP17|MotA|QIZ73618.1|467
+		Myxococcus_xanthus_DK_1622|AQB|ABF85904.1|226
+		Bacteroides_nordii|AQB|UAK42981.1|268
+		Myxococcus_xanthus_DK_1622|AQB|ABF90492.1|240
+		Tepidimonas_taiwanensis|AQB|UBQ05954.1|211
+		Stigmatella_aurantiaca_DW4/31|AQB|ADO76074.1|224
+		Corallococcus_coralloides_DSM_2259|AQB|AFE08685.1|230
+		Stigmatella_aurantiaca_DW4/31|AQB|ADO75002.1|233
+		Anaeromyxobacter_dehalogenans_2CP1|AQB|ACL64950.1|221
+		Bradymonas_sediminis|AQB|AWV89332.1|223
+		Sorangium_cellulosum|biopoly_transp|AUX23532.1|253
+		Paludibaculum_fermentans|MotA|QOY88835.1|285
+		Paludibaculum_fermentans|AQB|QOY88067.1|243
+		Paludibaculum_fermentans|AQB|QOY89286.1|251
+		Bdellovibrio_bacteriovorus|TolQ|AHZ86092.1|209
+		Myxococcus_xanthus_DZ2|AQB|UEO07578.1|240
+		Microcoleus_vaginatus_PCC_9802|AQB|UNU17462.1|219
+		Sulfurospirillum_halorespirans_DSM_13726|TolQ|AOO66426.1|148
+		Verrucomicrobium_sp_PRJEB38681|TolQ|DGBBEKCF_01621|486
+		Microcoleus_vaginatus_PCC_9802|AQB|UNU18280.1|261
+		Tepidimonas_taiwanensis|AQB|UBQ06690.1|289
+		Myxococcus_xanthus_DK_1622|AQB|ABF91342.1|240
+		Corallococcus_coralloides_DSM_2259|AQB|AFE10516.1|239
+		Stigmatella_aurantiaca_DW4/31|AQB|ADO73220.1|235
+		Anaeromyxobacter_dehalogenans_2CP1|AQB|ACL67494.1|233
+		Myxococcus_xanthus_DZ2|AQB|UEO05991.1|240
+		Myxococcus_xanthus_DZ2|AQB|UEO05650.1|245
+		Gloeobacter_violaceus_PCC_7421|gll1141|BAC89082.1|220
+		Endomicrobium_proavitum|AQB|AKL98121.1|207
+		Brachyspira_pilosicoli_WesB|ExbB|CCG56832.1|209
+		Brachyspira_intermedia_PWS/A|ExbB|AEM22241.1|210
+		Verrucomicrobium_sp_PRJEB38681|TolQ|DGBBEKCF_00127|272
+		Ereboglobus_luteus|MotA|AWI09431.1|210
+		Nibricoccus_aquaticus|MotA|ATC62595.1|205
+		Opitutus_terrae_PB901|AQB|ACB77180.1|196
+		Niastella_koreensis_GR2010|multisensor_hybrid_histidine_kinase|AEV99079.1|1192
+		Rhizobacter_gummiphilus|HYP_CPZ87_01790|ATU63381.1|198
+		Vibrio_parahaemolyticus_RIMD_2210633|ExbB_protein|BAC61768.1|230
+		Cellvibrio_japonicus|AQB|QEI19442.1|208
+		Klebsiella_aerogenes|MotA|QXB11670.1|296
+		Vibrio_cholerae|AQB|QEO43084.1|228
+		Fibrobacteres_bacterium|AQB|QQS07318.1|260
+		Mucispirillum_schaedleri_ASF457|PomA|USF23676.1|254
+		Isosphaera_pallida_ATCC_43644|HYP_Isop_1771|ADV62354.1|424
+		Pirellula_staleyi_DSM_6068|AQB|ADB17134.1|274
+		Geovibrio_thiophilus|AQB|QAR33783.1|181
+		Anatilimnocola_aggregata|AQB|QDU27457.1|453
+		Rhodopirellula_baltica_SH_1|ExbB|CAD71937.1|351
+		Rubinisphaera_brasiliensis_DSM_5305|AQB|ADY58376.1|276
+		Isosphaera_pallida_ATCC_43644|AQB|ADV60824.1|345
+		Pirellula_staleyi_DSM_6068|AQB|ADB17547.1|313
+		Tissierella_sp._JN28|MotA|QAT63225.1|269
+		Lignipirellula_cremea|ExbB|QDU92956.1|333
+		Rhodopirellula_baltica_SH_1|TolQ|CAD77369.1|319
+		Saccharophagus_degradans|TolQ|MBU2984437.1|231
+		Saccharophagus_degradans_240|AQB|ABD81321.1|209
+		Lignipirellula_cremea|TolQ|QDU99088.1|313
+		Sorangium_cellulosum|ABC_transporter_permease|AUX27689.1|296
+		Pseudomonas_aeruginosa_PAO1|TolQ|AAG06371.1|211
+		Rhodoferax_saidenbachensis|MotA|APW42522.1|208
+		Nitrospira_japonica|ExbB|SLM48220.1|141
+		Rhizobacter_gummiphilus|AQB|ATU65616.1|215
+		Luteolibacter_luteus|AQB|QJE97567.1|222
+		Acinetobacter_pittii_PHEA2|HYP_BDGL_000943|ADY81529.1|211
+		Mariprofundus_aestuarium|ExbB|ATX80498.1|202
+		Mariprofundus_ferrinatatus|ExbB|ATX81215.1|202
+		Bradymonas_sediminis|AQB|AWV88047.1|235
+		Rhodopirellula_baltica_SH_1|TolQ|CAD74695.1|276
+		Anatilimnocola_aggregata|ExbB|QDU31292.1|350
+		Pirellula_staleyi_DSM_6068|AQB|ADB15652.1|300
+		Anatilimnocola_aggregata|LafT|QDU25289.1|287
+		Rubinisphaera_brasiliensis_DSM_5305|AQB|ADY61978.1|238
+		Sedimentisphaera_salicampi|ExbB|ARN57520.1|258
+		Leptothermofonsia_sichuanensis_PKUACSCTE412|AQB|QZZ19520.1|227
+		Anatilimnocola_aggregata|HYP_ETAA8_36990|QDU28596.1|558
+		Pirellula_staleyi_DSM_6068|AQB|ADB16663.1|278
+		Pirellula_staleyi_DSM_6068|AQB|ADB18835.1|277
+		Geovibrio_thiophilus|AQB|QAR33430.1|203
+		Pirellula_staleyi_DSM_6068|HYP_Psta_0959|ADB15644.1|152
+		Anatilimnocola_aggregata|HYP_ETAA8_61990|QDU31046.1|106
+		Rhodopirellula_baltica_SH_1|TolQ|CAD73493.1|257
+		Rubinisphaera_brasiliensis_DSM_5305|AQB|ADY58081.1|285
+		Sulfidibacter_corallicola|AQB|QTD50766.1|205
+		Isosphaera_pallida_ATCC_43644|AQB|ADV63187.1|292
+		Isosphaera_pallida_ATCC_43644|AQB|ADV63892.1|346
+		Oxynema_aestuarii_AP17|HYP_HCG48_07910|QIZ70514.1|671
+		Cereibacter_sphaeroides|MotA|WP_002721884.1|289
+		Kiritimatiella_glycovorans|ExbB|AKJ64099.1|269
+		Kiritimatiella_glycovorans|ExbB|AKJ63368.1|227
+		Fibrobacteres_bacterium|AQB|QQS07765.1|196
+		Elusimicrobia_bacterium|AQB|UPT76060.1|122
+		Vibrio_cholerae|AQB|QEO41300.1|180
+		Leptothermofonsia_sichuanensis_PKUACSCTE412|AQB|QZZ22141.1|215
+		Rhodopirellula_baltica_SH_1|TolQ|CAD76944.1|235
+		Anatilimnocola_aggregata|TolQ|QDU27583.1|213
+		Pirellula_staleyi_DSM_6068|AQB|ADB17385.1|215
+		Candidatus_Velamenicoccus_archaeovorus|ExbB|QAT17590.1|206
+		Rubinisphaera_brasiliensis_DSM_5305|AQB|ADY58078.1|217
+		Isosphaera_pallida_ATCC_43644|AQB|ADV63710.1|231
+		Sulfidibacter_corallicola|AQB|QTD51577.1|285
+		Arcobacter_nitrofigilis_DSM_7299|AQB|ADG92738.1|169
+		Arcobacter_nitrofigilis_DSM_7299|AQB|ADG92304.1|158
+		Verrucomicrobium_sp_PRJEB38681|TolQ|DGBBEKCF_01299|211
+		Fibrobacter_succinogenes_subsp._succinogenes_S85|AQB|ACX75330.1|188
+		Akkermansia_glycaniphila|AQB|SEH96646.1|213
+		Leptothermofonsia_sichuanensis_PKUACSCTE412|AQB|QZZ21680.1|229
+		Tepidiforma_bonchosmolovskayae|flag|QFG02534.1|266
+		Candidatus_Xiphinematobacter_sp._Idaho_Grape|TolQ|ALJ56692.1|207
+		Mucispirillum_schaedleri_ASF457|ExbB|USF25003.1|202
+		Fibrobacteres_bacterium|AQB|QQS07007.1|216
+		Nibricoccus_aquaticus|MotA|ATC63405.1|238
+		Ereboglobus_luteus|MotA|AWI08418.1|227
+		Opitutus_terrae_PB901|AQB|ACB73533.1|218
+		CAIZXV01_Verrucomicrobium_sp_PRJEB3868|TolQ|PKPEBJJI_00297|254
+		Victivallales_bacterium_CCUG_44730|ExbB|AVM45415.1|215
+		Kiritimatiella_glycovorans|ExbB|AKJ65567.1|212
+		Parachlamydia_acanthamoebae_UV7|unk|CCB87487.1|218
+		Methylacidimicrobium_sp._B4|AQB|QSR84174.1|249
+		Paludibaculum_fermentans|MotA|QOY85080.1|290
+		Sulfidibacter_corallicola|AQB|QTD52661.1|223
+		Marinithermus_hydrothermalis_DSM_14884|AQB|AEB12216.1|207
+		Truepera_radiovictrix_DSM_17093|AQB|ADI15492.1|243
+		Deinococcus_actinosclerus|biopoly_transp|ALW88052.1|228
+		Deinococcus_maricopensis_DSM_21211|AQB|ADV67905.1|222
+		Chlorobium_phaeobacteroides_DSM_266|ExbB|ABL64659.1|248
+		Chlorobium_limicola_DSM_245|AQB|ACD90995.1|248
+		Pelodictyon_phaeoclathratiforme_BU1|AQB|ACF43024.1|248
+		Chlorobaculum_parvum_NCIB_8327|AQB|ACF11913.1|249
+		Chloroherpeton_thalassium_ATCC_35110|AQB|ACF14782.1|250
+		Chloroherpeton_thalassium_ATCC_35110|AQB|ACF14374.1|258
+		Cytophaga_hutchinsonii_ATCC_33406|ExbB|ABG59284.1|275
+		Niastella_koreensis_GR2010|ExbB|AEW03299.1|288
+		Pontibacter_korlensis|MotA|AKD02510.1|288
+		Coprobacter_secundus_subsp._similis|MotA|BCI63438.1|271
+		Akkermansia_glycaniphila|AQB|SEH93354.1|273
+		Pirellula_staleyi_DSM_6068|AQB|ADB17458.1|327
+		Anatilimnocola_aggregata|ExbB|QDU25761.1|269
+		Anatilimnocola_aggregata|PomA|QDU26963.1|258
+		Methylacidimicrobium_sp._B4|AQB|QSR84626.1|255
+		Chthonomonas_calidirosea_T49|s|CCW36281.1|206
+		Sulfurospirillum_halorespirans_DSM_13726|HYP_SHALO_2598|AOO66357.1|701
+		Fimbriimonas_ginsengisoli_Gsoil_348|AQB|AIE86461.1|205
+		Coprobacter_secundus_subsp._similis|ExbB|BCI63565.1|234
+		Akkermansia_glycaniphila|AQB|SEH78546.1|205
+		Pontibacter_korlensis|ExbB|AKD04823.1|236
+		Cytophaga_hutchinsonii_ATCC_33406|ExbB|ABG60812.1|234
+		Niastella_koreensis_GR2010|ExbB|AEW00830.1|238
+		CAIZXV01_Verrucomicrobium_sp_PRJEB3868|TolQ|PKPEBJJI_00344|69
+		Denitrovibrio_acetiphilus_DSM_12809|AQB|ADD67874.1|205
+		Saccharophagus_degradans|AQB|MBU2986144.1|220
+		Flexistipes_sinusarabici_DSM_4947|AQB|AEI15149.1|203
+		Listeria_innocua|MotA|UPH48256.1|283
+		Methylacidimicrobium_sp._B4|AQB|QSR84055.1|245
+		Thermocrinis_albus_DSM_14484|AQB|ADC89509.1|203
+		Hydrogenobacter_thermophilus_TK6|AQB|ADO44512.1|204
+		Thermocrinis_ruber|TolQ|AHE96346.1|204
+		Aquifex_aeolicus_VF5|TolQ|AAC07752.1|204
+		Mariprofundus_aestuarium|ExbB|ATX79248.1|209
+		Mariprofundus_ferrinatatus|ExbB|ATX82358.1|209
+		Dissulfurispira_thermophila|ExbB|BCB95942.1|180
+		Denitrovibrio_acetiphilus_DSM_12809|AQB|ADD67609.1|207
+		Saccharophagus_degradans|AQB|MBU2986356.1|460
+		Saccharophagus_degradans|PomA|MBU2985330.1|253
+		Saccharophagus_degradans_240|AQB|ABD79618.1|175
+		Lignipirellula_cremea|TolQ|QDU94732.1|214
+		Arcobacter_nitrofigilis_DSM_7299|AQB|ADG92230.1|172
+		Lignipirellula_cremea|AQB|QDU95463.1|415
+		Vibrio_parahaemolyticus_RIMD_2210633|ExbB2|BAC58428.1|175
+		Vibrio_parahaemolyticus_RIMD_2210633|ExbB2|BAC61496.1|184
+		Cellvibrio_japonicus|MotA|QEI18926.1|285
+		Saccharophagus_degradans|AQB|MBU2986357.1|175
+		Denitrovibrio_acetiphilus_DSM_12809|AQB|ADD67745.1|171
+		Kiritimatiella_glycovorans|ExbB|AKJ64799.1|212
+		Desulfotalea_psychrophila_LSv54|related_to_ExbB|CAG37702.1|174
+		Vibrio_parahaemolyticus_RIMD_2210633|ExbB|BAC61495.1|455
+		Cellvibrio_japonicus|TolQ|QEI18804.1|228
+		Lignipirellula_cremea|ExbB|QDU94893.1|281
+		Arcobacter_nitrofigilis_DSM_7299|AQB|ADG92231.1|437
+		Saccharophagus_degradans_240|AQB|ABD79617.1|460
+		Saccharophagus_degradans|AQB|MBU2985168.1|242
+		Lignipirellula_cremea|ExbB|QDU93364.1|307
+		Vibrio_parahaemolyticus_RIMD_2210633|TolR|BAC58429.1|453
+		Denitrovibrio_acetiphilus_DSM_12809|AQB|ADD67744.1|447
+		Saccharophagus_degradans|AQB|MBU2987451.1|190
+		Kiritimatiella_glycovorans|ExbB|AKJ65465.1|479
+		Sedimentisphaera_salicampi|ExbB|ARN57239.1|483
+		Kiritimatiella_glycovorans|ExbB|AKJ64800.1|492
+		Saccharophagus_degradans_240|AQB|ABD82072.1|464
+		Leptospira_santarosai_serovar_Shermani_str._LT_821|TolQ|EKT87439.2|204
+		Saccharophagus_degradans_240|AQB|ABD82073.1|131
+		Leptospira_santarosai_serovar_Shermani_str._LT_821|MotA|EKT87417.1|194
+		Campylobacter_jejuni_subsp._jejuni_NCTC_11168_EQ_ATCC_700819|AQB|CAL34280.1|184
+		Campylobacter_concisus|TolQ|ALF47162.1|194
+		Sulfurospirillum_halorespirans_DSM_13726|ExbB|AOO64467.1|196
+		Sulfurimonas_autotrophica_DSM_16294|AQB|ADN08827.1|188
+		Arcobacter_nitrofigilis_DSM_7299|AQB|ADG93991.1|186
+		Sulfurovum_lithotrophicum|biopoly_transp|AKF24510.1|190
+		Kiritimatiella_glycovorans|TolQ|AKJ65464.1|206
+		Sedimentisphaera_salicampi|ExbB|ARN57240.1|209
+		Desulfococcus_multivorans|MotA|AQU99647.1|219
+		Denitrovibrio_acetiphilus_DSM_12809|AQB|ADD68376.1|198
+		Fibrobacter_succinogenes_subsp._succinogenes_S85|AQB|ACX74512.1|234
+		Chlamydiales_bacterium_SCGC_AB751O23|MotA|SCA58681.1|268
+		Denitrovibrio_acetiphilus_DSM_12809|AQB|ADD68377.1|459
+		Desulfococcus_multivorans|MotA|AQU99646.1|465
+		Desulfotalea_psychrophila_LSv54|TolQ|CAG37703.1|463
+		Fibrobacter_succinogenes_subsp._succinogenes_S85|AQB|ACX74513.1|535
+		Fibrobacter_succinogenes_subsp._succinogenes_S85|AQB|ACX73657.1|522
+		Myxococcus_xanthus_DK_1622|AQB|ABF90777.1|245
+		Tepidimonas_taiwanensis|MotA|UBQ05764.1|285
+		Corallococcus_coralloides_DSM_2259|AQB|AFE07995.1|245
+		Stigmatella_aurantiaca_DW4/31|AQB|ADO68798.1|246
+		Anaeromyxobacter_dehalogenans_2CP1|AQB|ACL67782.1|224
+		Bdellovibrio_bacteriovorus|gliding|AHZ86892.1|212
+		Sorangium_cellulosum|MotA|AUX22205.1|219
+		Bdellovibrio_bacteriovorus|gliding|AHZ84904.1|234
+		Bdellovibrio_bacteriovorus|gliding|AHZ86042.1|226
+		Saccharophagus_degradans_240|AQB|ABD82818.1|220
+		Saccharophagus_degradans|AQB|MBU2984729.1|464
+		Cellvibrio_japonicus|AQB|QEI18407.1|458
+		Saccharophagus_degradans_240|AQB|ABD82214.1|242
+		Leptospira_santarosai_serovar_Shermani_str._LT_821|biopoly_transp|EKT88184.1|266
+		Bacteroides_nordii|AQB|UAK41330.1|240
+		Myxococcus_xanthus_DK_1622|AQB|ABF87376.1|260
+		Stigmatella_aurantiaca_DW4/31|AQB|ADO72879.1|244
+		Corallococcus_coralloides_DSM_2259|AQB|AFE07994.1|251
+		Sorangium_cellulosum|MotA|AUX22204.1|225
+		Bradymonas_sediminis|AQB|AWV89791.1|212
+		Bradymonas_sediminis|AQB|AWV89461.1|212
+		Fibrobacter_succinogenes_subsp._succinogenes_S85|AQB|ACX75484.1|212
+		Bdellovibrio_bacteriovorus|gliding|AHZ84037.1|236
+		Paludibaculum_fermentans|flag|QOY85398.1|292
+		Fusobacterium_ulcerans|AQB|AVQ29260.1|206
+		Fibrobacteres_bacterium|AQB|QQS05296.1|216
+		Fusobacterium_ulcerans|AQB|AVQ29523.1|209
+		Pseudoleptotrichia_goodfellowii|AQB|BBM36826.1|211
+		Leptotrichia_buccalis_C1013b|AQB|ACV38437.1|208
+		Paludibaculum_fermentans|AQB|QOY89541.1|135
+		Fusobacterium_ulcerans|AQB|AVQ28424.1|203
+		Verrucomicrobium_sp_PRJEB38681|MotA|DGBBEKCF_02484|287
+		Fibrobacter_succinogenes_subsp._succinogenes_S85|AQB|ACX73656.1|210
+		Nibricoccus_aquaticus|MotA|ATC64798.1|222
+		Nibricoccus_aquaticus|MotA|ATC62712.1|220
+		Opitutus_terrae_PB901|AQB|ACB75629.1|221
+		Ereboglobus_luteus|MotA|AWI08882.1|226
+		Fibrobacteres_bacterium|AQB|QQS07012.1|216
+		Fibrobacteres_bacterium|AQB|QQS05379.1|226
+		Fusobacterium_canifelinum|AQB|QQS88170.1|203
+		Cereibacter_sphaeroides|AQB|WP_015920816.1|253
+		Thermocrinis_ruber|ExbB|AHE96301.1|149
+		Oxynema_aestuarii_AP17|AQB|QIZ70555.1|215
+		Kiritimatiella_glycovorans|ExbB|AKJ64362.1|216
+		Telmatocola_sphagniphila|AQB|QVL33268.1|268
+		Cellvibrio_japonicus|AQB|QEI20720.1|226
+		Myxococcus_xanthus_DZ2|AQB|UEO02151.1|245
+		Telmatocola_sphagniphila|AQB|QVL33094.1|174
+		Gloeobacter_violaceus_PCC_7421|AQB|BAC90343.1|211
+		Gloeobacter_violaceus_PCC_7421|glr1387|BAC89328.1|211
+		Telmatocola_sphagniphila|AQB|QVL32579.1|271
+		Vibrio_cholerae|TolQ|QEO41016.1|227
+		Myxococcus_xanthus_DZ2|AQB|UEO03725.1|227
+		Telmatocola_sphagniphila|AQB|QVL32859.1|220
+		Leptospirillum_ferrooxidans_C23|transport|BAM06053.1|234
+		Limnochorda_pilosa|AQB|BAS27557.1|204
+		Mariprofundus_aestuarium|MotA|ATX78592.1|282
+		Mariprofundus_ferrinatatus|MotA|ATX82928.1|282
+		Bacteroides_nordii|inorganic_phosphate_transporter|UAK41219.1|749
+		Bdellovibrio_bacteriovorus|MotA|AHZ83417.1|269
+		Rhodospirillum_rubrum_F11|AQB|AEO48324.1|275
+		Magnetospirillum_gryphiswaldense_MSR1_v2|motor|CDK98228.1|266
+		Paludibaculum_fermentans|flag|QOY88866.1|291
+		Myxococcus_xanthus_DZ2|AQB|UEO06636.1|236
+		CAIZXV01_Verrucomicrobium_sp_PRJEB3868|MotA|PKPEBJJI_00564|107
+		Geovibrio_thiophilus|MotA|QAR32385.1|254
+		Limnochorda_pilosa|MotP|BAS27507.1|269
+		Mariprofundus_aestuarium|MotA|ATX78565.1|254
+		Mariprofundus_ferrinatatus|MotA|ATX82900.1|254
+		Rhodospirillum_rubrum_F11|AQB|AEO47025.1|272
+		Telmatocola_sphagniphila|AQB|QVL34843.1|196
+		Desulfotalea_psychrophila_LSv54|related_to_flagellar_apparatus_MotA|CAG37394.1|255
+		Moorella_thermoacetica|PomA|APC07901.1|266
+		Klebsiella_aerogenes|tolpal_thioest|QXB09426.1|243
+		Myxococcus_xanthus_DZ2|AQB|UEO04322.1|226
+		Treponema_pallidum_subsp._pertenue|Mot_family_proton_H+_or_sodium_Na+_transporter_MotA|AWG41586.1|259
+		Klebsiella_aerogenes|TolQ|QXB11428.1|230
+		Brachyspira_intermedia_PWS/A|flag|AEM21069.1|263
+		Brachyspira_pilosicoli_WesB|MotA|CCG57546.1|263
+		Verrucomicrobium_sp_PRJEB38681|TolQ|DGBBEKCF_00463|239
+		Bacillus_subtilis_subsp._subtilis_str._168|sodium_MotA|CAB14951.1|272
+		Aquifex_aeolicus_VF5|MotA|AAC07083.1|254
+		Geovibrio_thiophilus|HYP_EP073_10320|QAR33784.1|452
+		Pirellula_staleyi_DSM_6068|AQB|ADB18997.1|259
+		Anatilimnocola_aggregata|ExbB|QDU30851.1|305
+		Rhodopirellula_baltica_SH_1|PomA|CAD76169.1|253
+		Rubinisphaera_brasiliensis_DSM_5305|AQB|ADY60068.1|258
+		Saccharophagus_degradans_240|AQB|ABD82476.1|253
+		Leptospira_santarosai_serovar_Shermani_str._LT_821|endoflag|EKT88755.1|252
+		Vibrio_parahaemolyticus_RIMD_2210633|sodium_MotA|BAC58952.1|253
+		Cellvibrio_japonicus|AQB|QEI19039.1|239
+		Fusobacterium_canifelinum|AQB|QQS88496.1|202
+		Methylobacterium_oryzae_CBMB20|AQB|AIQ92767.1|270
+		Nitrobacter_winogradskyi_Nb255|AQB|ABA04498.1|257
+		Candidatus_Accumulibacter_similis|MotA|QKS29226.1|285
+		Elusimicrobia_bacterium|AQB|UPT73159.1|309
+		Brevibacillus_laterosporus_DSM_25|motor|ATO49114.1|276
+		Treponema_pallidum_subsp._pallidum|MotA|UOY13875.1|259
+		Denitrovibrio_acetiphilus_DSM_12809|AQB|ADD67090.1|254
+		Saccharophagus_degradans|flag|MBU2985819.1|246
+		Campylobacter_concisus|flag|ALF47869.1|255
+		Arcobacter_nitrofigilis_DSM_7299|AQB|ADG94140.1|251
+		Sulfurimonas_autotrophica_DSM_16294|AQB|ADN09321.1|254
+		Methylacidimicrobium_sp._B4|AQB|QSR85862.1|223
+		Chthonomonas_calidirosea_T49|motor|CCW35905.1|260
+		Cellvibrio_japonicus|flag|QEI19744.1|248
+		Leptospira_santarosai_serovar_Shermani_str._LT_821|ExbB|EKT86397.1|201
+		Symbiobacterium_thermophilum_IAM_14863|MotA|BAD41956.1|265
+		Moorella_thermoacetica|PomA|APC08935.1|253
+		Thermoanaerobacter_pseudethanolicus_ATCC_33223|AQB|ABY95376.1|272
+		Moorella_thermoacetica|PomA|APC07539.1|275
+		Caldicellulosiruptor_obsidiansis_OB47|AQB|ADL42743.1|265
+		Clostridium_autoethanogenum_DSM_10061|MotA|ALU36624.1|264
+		Desulfitobacterium_hafniense_DCB2|AQB|ACL22206.1|257
+		Saccharophagus_degradans|AQB|MBU2984728.1|131
+		Saccharophagus_degradans_240|AQB|ABD81419.1|246
+		Cellvibrio_japonicus|energy_transducer_TonB|QEI18324.1|460
+		Pseudomonas_aeruginosa_PAO1|MotC|AAG04849.1|246
+		Luteolibacter_luteus|AQB|QJE97381.1|231
+		Nitrospira_moscoviensis|MotA|ALA58549.1|256
+		Leptospirillum_ferrooxidans_C23|motor|BAM06016.1|259
+		Bdellovibrio_bacteriovorus|MotA|AHZ85791.1|250
+		Anaeromyxobacter_dehalogenans_2CP1|AQB|ACL65905.1|261
+		Dissulfurispira_thermophila|MotA|BCB96091.1|252
+		Thermodesulfovibrio_yellowstonii_DSM_11347|MotA|ACI21187.1|253
+		Geobacter_sulfurreducens_PCA|MotA|AAR36419.1|254
+		Terriglobus_roseus_DSM_18391|motor|AFL88814.1|267
+		Terriglobus_roseus_DSM_18391|motor|AFL88473.1|267
+		Acidobacterium_capsulatum_ATCC_51196|MotA|ACO33277.1|269
+		Shigella_sonnei|tolpal_thioest|QKY94846.1|244
+		Sphingomonas_alpina|AQB|QNQ10683.1|256
+		Bacillus_subtilis_subsp._subtilis_str._168|MotA_MotA_component_of_the_H+coupled_stator_flagellum_complex|CAB13242.1|270
+		Weizmannia_coagulans_DSM_1_EQ_ATCC_7050|AQB|AJH79515.1|267
+		Brevibacillus_laterosporus_DSM_25|MotA|ATO49967.1|267
+		Myxococcus_xanthus_DZ2|AQB|UEO04809.1|250
+		Clostridium_autoethanogenum_DSM_10061|AQB|ALU34477.1|263
+		Thermocrinis_albus_DSM_14484|AQB|ADC89566.1|249
+		Thermocrinis_ruber|MotA|AHE95900.1|248
+		Bacillus_subtilis_subsp._subtilis_str._168|twocomponent_sensor_histidine_kinase_YdfI|CAB12348.1|407
+		Sulfurospirillum_halorespirans_DSM_13726|MotA|AOO65115.1|257
+		Campylobacter_jejuni_subsp._jejuni_NCTC_11168_EQ_ATCC_700819|flag|CAL34488.1|258
+		Caulobacter_vibrioides_NA1000|MotA|ACL94252.1|288
+		Brevundimonas_subvibrioides_ATCC_15264|AQB|ADL02462.1|289
+		Elusimicrobia_bacterium|AQB|UPT72845.1|211
+		Rhodobacter_capsulatus_SB_1003|MotA|ADE87210.1|289
+		Candidatus_Midichloria_mitochondrii_IricVA|MotA_duplicate|AEI88772.1|255
+		Candidatus_Accumulibacter_similis|AQB|QKS29082.1|239
+		Methylobacterium_oryzae_CBMB20|MotA|AIQ89863.1|195
+		Brucella_ovis_ATCC_25840|MotA|ABQ62189.1|339
+		Magnetospirillum_gryphiswaldense_MSR1_v2|MotA|CDK98316.1|286
+		Rhodospirillum_rubrum_F11|motA_MotA|AEO48360.1|301
+		Candidatus_Paracaedibacter_acanthamoebae|MotA|AIK95837.1|286
+		Methylobacterium_oryzae_CBMB20|MotA|AIQ92722.1|287
+		Candidatus_Midichloria_mitochondrii_IricVA|MotA|AEI89251.1|281
+		Yersinia_pestis|MotA|AJJ32465.1|295
+		Yersinia_pseudotuberculosis_IP_32953|MotA|AJJ54987.1|295
+		Chloracidobacterium_thermophilum|AQB|QUV79767.1|212
+		Gemmatimonas_groenlandica|MotA|QJR36484.1|285
+		Escherichia_coli_str._K12_substr._MG1655|MotA|AAC74960.1|295
+		Luteolibacter_luteus|DUF2341_domaincontaining_protein|QJE97904.1|607
+		Rhodoferax_saidenbachensis|MotA|APW43194.1|285
+		Rhodoferax_saidenbachensis|MotA|APW42908.1|285
+		Nitrospira_japonica|TolQ|SLM46359.1|232
+		Rhizobacter_gummiphilus|MotA|ATU66302.1|286
+		Yersinia_pseudotuberculosis_IP_32953|MotA|AJJ56783.1|288
+		Yersinia_pestis|MotA|AJJ32757.1|288
+		Vibrio_parahaemolyticus_RIMD_2210633|LafT|BAC62899.1|285
+		Rhizobacter_gummiphilus|MotA|ATU65955.1|309
+		Pseudomonas_aeruginosa_PAO1|MotA|AAG08339.1|283
+		Lignipirellula_cremea|ExbB|QDU98188.1|284
+		Sphingomonas_alpina|MotA|QNQ09341.1|287
+		Shigella_sonnei|MotA|QKY95842.1|295
+		Acidobacterium_capsulatum_ATCC_51196|MotA|ACO33337.1|299
+		Shigella_sonnei|TolQ|QKY92913.1|230
+		Syntrophus_aciditrophicus_SB|motor|ABC77078.1|303
+		Dissulfurispira_thermophila|MotA|BCB96094.1|285
+		Thermodesulfovibrio_yellowstonii_DSM_11347|lateral_MotA|ACI21445.1|288
+		Gemmatimonas_aurantiaca_T27|MotA|BAH37338.1|285
+		Gemmatimonas_phototrophica|MotA|AMW06484.1|266
+		Luteolibacter_luteus|HYP_HHL09_06260|QJE95399.1|522
+		Chthonomonas_calidirosea_T49|MotA|CCW34551.1|292
+		Bdellovibrio_bacteriovorus|MotA|AHZ83632.1|288
+		Armatimonadetes_bacterium_UphvlAr1|MotA|ARU42506.1|282
+		Nibricoccus_aquaticus|MotA|ATC63650.1|288
+		Opitutus_terrae_PB901|AQB|ACB73691.1|287
+		Cereibacter_sphaeroides|ExbB|WP_015921325.1|349
+		Cereibacter_sphaeroides|TolQ|WP_002720852.1|232
+		Geovibrio_thiophilus|AQB|QAR32927.1|207
+		Paludibaculum_fermentans|AQB|QOY87643.1|225
+		Acidobacterium_capsulatum_ATCC_51196|signal_recognition_particledocking_protein_FtsY|ACO34195.1|324
+		Rubinisphaera_brasiliensis_DSM_5305|HYP_Plabr_2216|ADY59818.1|216
+		Rhodopirellula_baltica_SH_1|HYP|CAD77532.1|222
+		Rhodospirillum_rubrum_F11|sensory_transducer|AEO48101.1|556
+		Rhodospirillum_rubrum_F11|sensory_transducer|AEO48100.1|556
+		Chlorobium_phaeobacteroides_DSM_266|HYP_Cpha266_2232|ABL66229.1|261
+		Sulfidibacter_corallicola|HYP_J3U87_30040|QTD49844.1|300
+		Bdellovibrio_bacteriovorus|HYP_EP01_15820|AHZ86390.1|301
+		Gemmatimonas_aurantiaca_T27|HYP|BAH37227.1|669
+		Fibrobacter_succinogenes_subsp._succinogenes_S85|HYP_Fisuc_3059|ACX76639.1|584
+		Cellvibrio_japonicus|AQB|QEI19895.1|243
+		Campylobacter_concisus|membrane_protein|ALF47932.1|437
+		Campylobacter_jejuni_subsp._jejuni_NCTC_11168_EQ_ATCC_700819|membrane_protein|CAL34744.1|480
+		Sulfurospirillum_halorespirans_DSM_13726|membrane_protein|AOO65010.1|397
+		Sulfurovum_lithotrophicum|HYP_YH65_04225|AKF24681.1|368
+		Leptospirillum_ferrooxidans_C23|HYP_LFE_0155|BAM05883.1|380
+		Methylobacterium_oryzae_CBMB20|unk|AIQ93688.1|326
+		Rhodobacter_capsulatus_SB_1003|AQB|ADE86713.1|401
+		Rhodospirillum_rubrum_F11|AQB|AEO47577.1|398
+		Nitrobacter_winogradskyi_Nb255|conserved_TolQ|ABA05996.1|358
+		Candidatus_Hydrogenosomobacter_endosymbioticus|MotA|BDB96353.1|381
+		Magnetospirillum_gryphiswaldense_MSR1_v2|AQB|CDK97459.1|393
+		Fibrobacter_succinogenes_subsp._succinogenes_S85|HYP_Fisuc_3021|ACX76601.1|632
+		Deinococcus_radiopugnans|HYP_QR90_08530|AIZ45138.1|618
+		Anatilimnocola_aggregata|ExbB|QDU25322.1|267
+		Sphingomonas_alpina|AQB|QNQ12173.1|221
+		Sulfidibacter_corallicola|AQB|QTD52802.1|265
+		Methylacidimicrobium_sp._B4|AQB|QSR84464.1|220
+		Methylacidimicrobium_sp._B4|AQB|QSR83870.1|222
+		Isosphaera_pallida_ATCC_43644|HYP_Isop_2860|ADV63425.1|492
+		Vibrio_cholerae|AQB|QEO41299.1|457
+		Tissierella_sp._JN28|MotA|QAT61614.1|265
+		Pirellula_staleyi_DSM_6068|HYP_Psta_1118|ADB15801.1|296
+		Candidatus_Velamenicoccus_archaeovorus|HYP_BU251_05250|QAT17178.1|231
+		Pirellula_staleyi_DSM_6068|HYP_Psta_4037|ADB18690.1|442
+		Anatilimnocola_aggregata|TolQ|QDU29130.1|316
+		Rhodopirellula_baltica_SH_1|probable|CAD71788.1|499
+		Rubinisphaera_brasiliensis_DSM_5305|AQB|ADY61197.1|432
+		Pseudomonas_aeruginosa_PAO1|HYP_PA1924|AAG05312.1|158
+		Saccharophagus_degradans|AQB|MBU2985725.1|209
+		Rhodoferax_saidenbachensis|transporter_ExbD|APW42573.1|163
+		Sulfidibacter_corallicola|AQB|QTD53280.1|206
+		Dissulfurispira_thermophila|MotA|BCB95963.1|229
+		Rubinisphaera_brasiliensis_DSM_5305|AQB|ADY61698.1|234
+		Clostridium_autoethanogenum_DSM_10061|AQB|ALU35076.1|233
+		Victivallales_bacterium_CCUG_44730|HYP_C5Q97_06090|AVM44306.1|196
+		Campylobacter_concisus|ExbB|ALF47140.1|142
+		Campylobacter_jejuni_subsp._jejuni_NCTC_11168_EQ_ATCC_700819|ExbB_TolQ|CAL35725.1|141
+		Sulfurospirillum_halorespirans_DSM_13726|ExbB|AOO66288.1|144
+		Sulfurovum_lithotrophicum|ExbB|AKF25943.1|141
+		Aquifex_aeolicus_VF5|ExbB|AAC07592.1|148
+		Hydrogenobacter_thermophilus_TK6|ExbB|ADO46046.1|141
+		Thermocrinis_ruber|ExbB|AHE95642.1|141
+		Candidatus_Korarchaeota_archaeon|MotA|RLG45601.1|254
+		Nitrospira_moscoviensis|ExbB|ALA57346.1|141
+		Denitrovibrio_acetiphilus_DSM_12809|ExbB|ADD67695.1|144
+		Syntrophus_aciditrophicus_SB|TolQ|ABC78648.1|144
+		Sulfurimonas_autotrophica_DSM_16294|ExbB|ADN08701.1|149
+		Sulfurospirillum_halorespirans_DSM_13726|TolQ|AOO66396.1|138
+		Arcobacter_nitrofigilis_DSM_7299|ExbB|ADG93510.1|142
+		Chlamydia_muridarum_str._Nigg|AQB|AVM88605.1|232
+		Chlamydia_trachomatis_D/UW3/CX|polysaccharide_transporter|AAC68198.1|232
+		Chlamydia_pecorum_PV3056/3|transport|AGW38400.1|232
+		Chlamydia_pneumoniae_TW183|ExbB|AAP98742.1|232
+	;
+END;
+BEGIN TREES;
+	TRANSLATE
+		1	Escherichia_coli_str._K12_substr._MG1655|TolQ|AAC73831.1|230,
+		2	Gemmatimonas_groenlandica|MotA|QJR34785.1|243,
+		3	Sulfidibacter_corallicola|HYP_J3U87_16945|QTD54135.1|469,
+		4	Yersinia_pseudotuberculosis_IP_32953|TolQ|AJJ55217.1|228,
+		5	Yersinia_pestis|TolQ|AJJ31712.1|228,
+		6	Vibrio_parahaemolyticus_RIMD_2210633|TolQ|BAC59320.1|232,
+		7	Cellvibrio_japonicus|AQB|QEI18408.1|170,
+		8	Pseudomonas_aeruginosa_PAO1|TolQ|AAG04358.1|231,
+		9	Leptospira_santarosai_serovar_Shermani_str._LT_821|MotP|EKT86693.1|260,
+		10	Saccharophagus_degradans_240|AQB|ABD81792.1|231,
+		11	Rhodoferax_saidenbachensis|TolQ|APW43236.1|232,
+		12	Caulobacter_vibrioides_NA1000|ExbB|ACL95886.1|302,
+		13	Brevundimonas_subvibrioides_ATCC_15264|AQB|ADL01024.1|293,
+		14	Orientia_tsutsugamushi_str._Ikeda|TolQ|BAG40198.1|229,
+		15	Brevundimonas_subvibrioides_ATCC_15264|TolQ|ADL00174.1|255,
+		16	Caulobacter_vibrioides_NA1000|TolQ|ACL96805.1|232,
+		17	Candidatus_Accumulibacter_similis|motor|QKS28544.1|246,
+		18	Lignipirellula_cremea|PomA|QDU97593.1|256,
+		19	Acinetobacter_pittii_PHEA2|TolA_OM|ADY82611.1|185,
+		20	Luteolibacter_luteus|AQB|QJE97269.1|232,
+		21	Akkermansia_glycaniphila|AQB|SEI00245.1|252,
+		22	Rhizobacter_gummiphilus|TolQ|ATU66653.1|237,
+		23	Rhodobacter_capsulatus_SB_1003|TolQ|ADE86923.1|234,
+		24	Elusimicrobia_bacterium|AQB|UPT72618.1|314,
+		25	Brucella_ovis_ATCC_25840|TolQ|ABQ61581.1|236,
+		26	Methylobacterium_oryzae_CBMB20|TolQ|AIQ88683.1|238,
+		27	Nitrobacter_winogradskyi_Nb255|TolQ|ABA05973.1|237,
+		28	Candidatus_Paracaedibacter_acanthamoebae|ExbB|AIK95558.1|244,
+		29	Rhodospirillum_rubrum_F11|AQB|AEO47594.1|303,
+		30	Magnetospirillum_gryphiswaldense_MSR1_v2|TolQ|CDK97994.1|241,
+		31	Anaplasma_phagocytophilum_str._JM|TolQ|AGR80198.1|234,
+		32	Candidatus_Midichloria_mitochondrii_IricVA|TolQ|AEI88825.1|245,
+		33	Niastella_koreensis_GR2010|OmpA/MotB_domain_protein|AEV97736.1|293,
+		34	Methylobacterium_oryzae_CBMB20|TolQ|AIQ91305.1|229,
+		35	Rhodospirillum_rubrum_F11|AQB|AEO48685.1|296,
+		36	Candidatus_Hydrogenosomobacter_endosymbioticus|HYP_HYD_1220|BDB95989.1|234,
+		37	Acinetobacter_pittii_PHEA2|ExbB|ADY81560.1|293,
+		38	Rhizobacter_gummiphilus|AQB|ATU64277.1|275,
+		39	Candidatus_Accumulibacter_similis|AQB|QKS29102.1|202,
+		40	Euryarchaeota_archaeon|MotA|RMG20999.1|261,
+		41	Eikenella_corrodens|ExbB|SNW07143.1|218,
+		42	Rhodoferax_saidenbachensis|biopoly_transp|APW42557.1|238,
+		43	Lignipirellula_cremea|ExbB|QDU98468.1|257,
+		44	Rhizobacter_gummiphilus|ExbB|ATU63282.1|273,
+		45	Luteolibacter_luteus|AQB|QJE97562.1|260,
+		46	Acinetobacter_pittii_PHEA2|AQB|ADY83951.1|206,
+		47	Rhodoferax_saidenbachensis|MotA|APW44370.1|215,
+		48	Rhizobacter_gummiphilus|AQB|ATU67891.1|219,
+		49	Acinetobacter_pittii_PHEA2|ExbB|ADY81763.1|244,
+		50	Acinetobacter_pittii_PHEA2|ExbB|ADY81773.1|229,
+		51	Cellvibrio_japonicus|AQB|QEI18325.1|175,
+		52	Pseudomonas_aeruginosa_PAO1|ExbB|AAG03587.1|239,
+		53	Nitrobacter_winogradskyi_Nb255|ExbB|ABA05299.1|421,
+		54	Nitrobacter_winogradskyi_Nb255|ExbB|ABA03969.1|400,
+		55	Brucella_ovis_ATCC_25840|ExbB|ABQ60495.1|310,
+		56	Rhodobacter_capsulatus_SB_1003|ExbB|ADE86105.1|261,
+		57	Nitrobacter_winogradskyi_Nb255|ExbB|ABA04528.1|318,
+		58	Nitrobacter_winogradskyi_Nb255|ExbB|ABA05559.1|320,
+		59	Magnetospirillum_gryphiswaldense_MSR1_v2|ExbB|CDK97637.1|229,
+		60	Elusimicrobia_bacterium|AQB|UPT74212.1|191,
+		61	Escherichia_coli_str._K12_substr._MG1655|ExbB|AAC76042.1|244,
+		62	Gemmatimonas_groenlandica|HYP_HKW67_04610|QJR34845.1|246,
+		63	Sulfidibacter_corallicola|AQB|QTD53836.1|254,
+		64	Yersinia_pseudotuberculosis_IP_32953|ExbB|AJJ56099.1|345,
+		65	Yersinia_pestis|ExbB|AJJ31614.1|345,
+		66	Campylobacter_jejuni_subsp._jejuni_NCTC_11168_EQ_ATCC_700819|transport|CAL34348.1|253,
+		67	Luteolibacter_luteus|AQB|QJE95191.1|274,
+		68	Gemmatimonas_aurantiaca_T27|transport|BAH38987.1|233,
+		69	Gemmatimonas_phototrophica|HYP_GEMMAAP_10105|AMW06740.1|235,
+		70	Mariprofundus_ferrinatatus|TolQ|ATX81939.1|229,
+		71	Mariprofundus_aestuarium|TolQ|ATX79746.1|229,
+		72	Thermodesulfovibrio_yellowstonii_DSM_11347|TolQ|ACI22061.1|209,
+		73	Dissulfurispira_thermophila|TolQ|BCB95125.1|207,
+		74	Syntrophus_aciditrophicus_SB|TolQ|ABC76751.1|248,
+		75	Sorangium_cellulosum|TolQ|AUX20279.1|247,
+		76	Terriglobus_roseus_DSM_18391|transport|AFL88265.1|261,
+		77	Terriglobus_roseus_DSM_18391|transport|AFL88606.1|261,
+		78	Acidobacterium_capsulatum_ATCC_51196|AQB|ACO32834.1|254,
+		79	Sphingomonas_alpina|DUF2341_domaincontaining_protein|QNQ08565.1|609,
+		80	Chlorobium_phaeobacteroides_DSM_266|TolQ|ABL64907.1|225,
+		81	Chlorobium_limicola_DSM_245|TolQ|ACD89825.1|225,
+		82	Pelodictyon_phaeoclathratiforme_BU1|TolQ|ACF44367.1|219,
+		83	Chlorobaculum_parvum_NCIB_8327|TolQ|ACF11057.1|220,
+		84	Parachlamydia_acanthamoebae_UV7|unk|CCB87689.1|241,
+		85	Fibrobacter_succinogenes_subsp._succinogenes_S85|AQB|ACX73814.1|224,
+		86	Tepidimonas_taiwanensis|AQB|UBQ06174.1|255,
+		87	Myxococcus_xanthus_DK_1622|AQB|ABF91581.1|236,
+		88	Corallococcus_coralloides_DSM_2259|AQB|AFE07999.1|238,
+		89	Stigmatella_aurantiaca_DW4/31|gliding|ADO74176.1|234,
+		90	Anaeromyxobacter_dehalogenans_2CP1|TolQ|ACL64052.1|257,
+		91	Bradymonas_sediminis|MotA|AWV88602.1|249,
+		92	Paludibaculum_fermentans|MotA|QOY86330.1|288,
+		93	Methylacidimicrobium_sp._B4|AQB|QSR84237.1|213,
+		94	Geobacter_sulfurreducens_PCA|TolQ|AAR33363.1|225,
+		95	Desulfococcus_multivorans|TolQ|AQV01680.1|237,
+		96	Desulfotalea_psychrophila_LSv54|TolQ|CAG37138.1|232,
+		97	Bdellovibrio_bacteriovorus|gliding|AHZ85825.1|224,
+		98	Nitrospira_moscoviensis|TolQ|ALA60092.1|231,
+		99	Leptothermofonsia_sichuanensis_PKUACSCTE412|AQB|QZZ23337.1|212,
+		100	Leptospirillum_ferrooxidans_C23|AQB|BAM06957.1|221,
+		101	Oxynema_aestuarii_AP17|AQB|QIZ71789.1|265,
+		102	Vibrio_cholerae|PomA|QEO41881.1|254,
+		103	Pseudomonas_aeruginosa_PAO1|ExbB2|AAG04082.1|615,
+		104	Candidatus_Accumulibacter_similis|TolQ|QKS27990.1|225,
+		105	Nitrospira_moscoviensis|AQB|ALA61164.1|260,
+		106	Fibrobacteres_bacterium|MotA|QQS05761.1|281,
+		107	Elusimicrobia_bacterium|AQB|UPT75425.1|227,
+		108	Candidatus_Xiphinematobacter_sp._Idaho_Grape|ExbB|ALJ56928.1|262,
+		109	Opitutus_terrae_PB901|AQB|ACB76604.1|234,
+		110	Nibricoccus_aquaticus|MotA|ATC65746.1|228,
+		111	Ereboglobus_luteus|MotA|AWI09757.1|228,
+		112	Victivallales_bacterium_CCUG_44730|HYP_C5Q97_10465|AVM45096.1|263,
+		113	Kiritimatiella_glycovorans|ExbB|AKJ63346.1|247,
+		114	Myxococcus_xanthus_DK_1622|AQB|ABF92363.1|227,
+		115	Bacteroides_nordii|AQB|UAK41566.1|269,
+		116	Corallococcus_coralloides_DSM_2259|AQB|AFE10515.1|225,
+		117	Stigmatella_aurantiaca_DW4/31|TolQ|ADO70054.1|228,
+		118	Sorangium_cellulosum|MotA|AUX23472.1|240,
+		119	Myxococcus_xanthus_DK_1622|TolQ_ExbB_wTonB|ABF92421.1|250,
+		120	Tepidimonas_taiwanensis|TolQ|UBQ04634.1|229,
+		121	Corallococcus_coralloides_DSM_2259|TolQ_ExbB_wTonB|AFE08686.1|251,
+		122	Sorangium_cellulosum|MotA|AUX24210.1|235,
+		123	Anaeromyxobacter_dehalogenans_2CP1|AQB|ACL63649.1|252,
+		124	Terriglobus_roseus_DSM_18391|transport|AFL86415.1|251,
+		125	Acidobacterium_capsulatum_ATCC_51196|AQB|ACO31817.1|247,
+		126	Sphingomonas_alpina|TolQ|QNQ08778.1|232,
+		127	Sulfidibacter_corallicola|AQB|QTD50492.1|504,
+		128	Gemmatimonas_aurantiaca_T27|transport|BAH39052.1|241,
+		129	Oxynema_aestuarii_AP17|MotA|QIZ73618.1|467,
+		130	Myxococcus_xanthus_DK_1622|AQB|ABF85904.1|226,
+		131	Bacteroides_nordii|AQB|UAK42981.1|268,
+		132	Myxococcus_xanthus_DK_1622|AQB|ABF90492.1|240,
+		133	Tepidimonas_taiwanensis|AQB|UBQ05954.1|211,
+		134	Stigmatella_aurantiaca_DW4/31|AQB|ADO76074.1|224,
+		135	Corallococcus_coralloides_DSM_2259|AQB|AFE08685.1|230,
+		136	Stigmatella_aurantiaca_DW4/31|AQB|ADO75002.1|233,
+		137	Anaeromyxobacter_dehalogenans_2CP1|AQB|ACL64950.1|221,
+		138	Bradymonas_sediminis|AQB|AWV89332.1|223,
+		139	Sorangium_cellulosum|biopoly_transp|AUX23532.1|253,
+		140	Paludibaculum_fermentans|MotA|QOY88835.1|285,
+		141	Paludibaculum_fermentans|AQB|QOY88067.1|243,
+		142	Paludibaculum_fermentans|AQB|QOY89286.1|251,
+		143	Bdellovibrio_bacteriovorus|TolQ|AHZ86092.1|209,
+		144	Myxococcus_xanthus_DZ2|AQB|UEO07578.1|240,
+		145	Microcoleus_vaginatus_PCC_9802|AQB|UNU17462.1|219,
+		146	Sulfurospirillum_halorespirans_DSM_13726|TolQ|AOO66426.1|148,
+		147	Verrucomicrobium_sp_PRJEB38681|TolQ|DGBBEKCF_01621|486,
+		148	Microcoleus_vaginatus_PCC_9802|AQB|UNU18280.1|261,
+		149	Tepidimonas_taiwanensis|AQB|UBQ06690.1|289,
+		150	Myxococcus_xanthus_DK_1622|AQB|ABF91342.1|240,
+		151	Corallococcus_coralloides_DSM_2259|AQB|AFE10516.1|239,
+		152	Stigmatella_aurantiaca_DW4/31|AQB|ADO73220.1|235,
+		153	Anaeromyxobacter_dehalogenans_2CP1|AQB|ACL67494.1|233,
+		154	Myxococcus_xanthus_DZ2|AQB|UEO05991.1|240,
+		155	Myxococcus_xanthus_DZ2|AQB|UEO05650.1|245,
+		156	Gloeobacter_violaceus_PCC_7421|gll1141|BAC89082.1|220,
+		157	Endomicrobium_proavitum|AQB|AKL98121.1|207,
+		158	Brachyspira_pilosicoli_WesB|ExbB|CCG56832.1|209,
+		159	Brachyspira_intermedia_PWS/A|ExbB|AEM22241.1|210,
+		160	Verrucomicrobium_sp_PRJEB38681|TolQ|DGBBEKCF_00127|272,
+		161	Ereboglobus_luteus|MotA|AWI09431.1|210,
+		162	Nibricoccus_aquaticus|MotA|ATC62595.1|205,
+		163	Opitutus_terrae_PB901|AQB|ACB77180.1|196,
+		164	Niastella_koreensis_GR2010|multisensor_hybrid_histidine_kinase|AEV99079.1|1192,
+		165	Rhizobacter_gummiphilus|HYP_CPZ87_01790|ATU63381.1|198,
+		166	Vibrio_parahaemolyticus_RIMD_2210633|ExbB_protein|BAC61768.1|230,
+		167	Cellvibrio_japonicus|AQB|QEI19442.1|208,
+		168	Klebsiella_aerogenes|MotA|QXB11670.1|296,
+		169	Vibrio_cholerae|AQB|QEO43084.1|228,
+		170	Fibrobacteres_bacterium|AQB|QQS07318.1|260,
+		171	Mucispirillum_schaedleri_ASF457|PomA|USF23676.1|254,
+		172	Isosphaera_pallida_ATCC_43644|HYP_Isop_1771|ADV62354.1|424,
+		173	Pirellula_staleyi_DSM_6068|AQB|ADB17134.1|274,
+		174	Geovibrio_thiophilus|AQB|QAR33783.1|181,
+		175	Anatilimnocola_aggregata|AQB|QDU27457.1|453,
+		176	Rhodopirellula_baltica_SH_1|ExbB|CAD71937.1|351,
+		177	Rubinisphaera_brasiliensis_DSM_5305|AQB|ADY58376.1|276,
+		178	Isosphaera_pallida_ATCC_43644|AQB|ADV60824.1|345,
+		179	Pirellula_staleyi_DSM_6068|AQB|ADB17547.1|313,
+		180	Tissierella_sp._JN28|MotA|QAT63225.1|269,
+		181	Lignipirellula_cremea|ExbB|QDU92956.1|333,
+		182	Rhodopirellula_baltica_SH_1|TolQ|CAD77369.1|319,
+		183	Saccharophagus_degradans|TolQ|MBU2984437.1|231,
+		184	Saccharophagus_degradans_240|AQB|ABD81321.1|209,
+		185	Lignipirellula_cremea|TolQ|QDU99088.1|313,
+		186	Sorangium_cellulosum|ABC_transporter_permease|AUX27689.1|296,
+		187	Pseudomonas_aeruginosa_PAO1|TolQ|AAG06371.1|211,
+		188	Rhodoferax_saidenbachensis|MotA|APW42522.1|208,
+		189	Nitrospira_japonica|ExbB|SLM48220.1|141,
+		190	Rhizobacter_gummiphilus|AQB|ATU65616.1|215,
+		191	Luteolibacter_luteus|AQB|QJE97567.1|222,
+		192	Acinetobacter_pittii_PHEA2|HYP_BDGL_000943|ADY81529.1|211,
+		193	Mariprofundus_aestuarium|ExbB|ATX80498.1|202,
+		194	Mariprofundus_ferrinatatus|ExbB|ATX81215.1|202,
+		195	Bradymonas_sediminis|AQB|AWV88047.1|235,
+		196	Rhodopirellula_baltica_SH_1|TolQ|CAD74695.1|276,
+		197	Anatilimnocola_aggregata|ExbB|QDU31292.1|350,
+		198	Pirellula_staleyi_DSM_6068|AQB|ADB15652.1|300,
+		199	Anatilimnocola_aggregata|LafT|QDU25289.1|287,
+		200	Rubinisphaera_brasiliensis_DSM_5305|AQB|ADY61978.1|238,
+		201	Sedimentisphaera_salicampi|ExbB|ARN57520.1|258,
+		202	Leptothermofonsia_sichuanensis_PKUACSCTE412|AQB|QZZ19520.1|227,
+		203	Anatilimnocola_aggregata|HYP_ETAA8_36990|QDU28596.1|558,
+		204	Pirellula_staleyi_DSM_6068|AQB|ADB16663.1|278,
+		205	Pirellula_staleyi_DSM_6068|AQB|ADB18835.1|277,
+		206	Geovibrio_thiophilus|AQB|QAR33430.1|203,
+		207	Pirellula_staleyi_DSM_6068|HYP_Psta_0959|ADB15644.1|152,
+		208	Anatilimnocola_aggregata|HYP_ETAA8_61990|QDU31046.1|106,
+		209	Rhodopirellula_baltica_SH_1|TolQ|CAD73493.1|257,
+		210	Rubinisphaera_brasiliensis_DSM_5305|AQB|ADY58081.1|285,
+		211	Sulfidibacter_corallicola|AQB|QTD50766.1|205,
+		212	Isosphaera_pallida_ATCC_43644|AQB|ADV63187.1|292,
+		213	Isosphaera_pallida_ATCC_43644|AQB|ADV63892.1|346,
+		214	Oxynema_aestuarii_AP17|HYP_HCG48_07910|QIZ70514.1|671,
+		215	Cereibacter_sphaeroides|MotA|WP_002721884.1|289,
+		216	Kiritimatiella_glycovorans|ExbB|AKJ64099.1|269,
+		217	Kiritimatiella_glycovorans|ExbB|AKJ63368.1|227,
+		218	Fibrobacteres_bacterium|AQB|QQS07765.1|196,
+		219	Elusimicrobia_bacterium|AQB|UPT76060.1|122,
+		220	Vibrio_cholerae|AQB|QEO41300.1|180,
+		221	Leptothermofonsia_sichuanensis_PKUACSCTE412|AQB|QZZ22141.1|215,
+		222	Rhodopirellula_baltica_SH_1|TolQ|CAD76944.1|235,
+		223	Anatilimnocola_aggregata|TolQ|QDU27583.1|213,
+		224	Pirellula_staleyi_DSM_6068|AQB|ADB17385.1|215,
+		225	Candidatus_Velamenicoccus_archaeovorus|ExbB|QAT17590.1|206,
+		226	Rubinisphaera_brasiliensis_DSM_5305|AQB|ADY58078.1|217,
+		227	Isosphaera_pallida_ATCC_43644|AQB|ADV63710.1|231,
+		228	Sulfidibacter_corallicola|AQB|QTD51577.1|285,
+		229	Arcobacter_nitrofigilis_DSM_7299|AQB|ADG92738.1|169,
+		230	Arcobacter_nitrofigilis_DSM_7299|AQB|ADG92304.1|158,
+		231	Verrucomicrobium_sp_PRJEB38681|TolQ|DGBBEKCF_01299|211,
+		232	Fibrobacter_succinogenes_subsp._succinogenes_S85|AQB|ACX75330.1|188,
+		233	Akkermansia_glycaniphila|AQB|SEH96646.1|213,
+		234	Leptothermofonsia_sichuanensis_PKUACSCTE412|AQB|QZZ21680.1|229,
+		235	Tepidiforma_bonchosmolovskayae|flag|QFG02534.1|266,
+		236	Candidatus_Xiphinematobacter_sp._Idaho_Grape|TolQ|ALJ56692.1|207,
+		237	Mucispirillum_schaedleri_ASF457|ExbB|USF25003.1|202,
+		238	Fibrobacteres_bacterium|AQB|QQS07007.1|216,
+		239	Nibricoccus_aquaticus|MotA|ATC63405.1|238,
+		240	Ereboglobus_luteus|MotA|AWI08418.1|227,
+		241	Opitutus_terrae_PB901|AQB|ACB73533.1|218,
+		242	CAIZXV01_Verrucomicrobium_sp_PRJEB3868|TolQ|PKPEBJJI_00297|254,
+		243	Victivallales_bacterium_CCUG_44730|ExbB|AVM45415.1|215,
+		244	Kiritimatiella_glycovorans|ExbB|AKJ65567.1|212,
+		245	Parachlamydia_acanthamoebae_UV7|unk|CCB87487.1|218,
+		246	Methylacidimicrobium_sp._B4|AQB|QSR84174.1|249,
+		247	Paludibaculum_fermentans|MotA|QOY85080.1|290,
+		248	Sulfidibacter_corallicola|AQB|QTD52661.1|223,
+		249	Marinithermus_hydrothermalis_DSM_14884|AQB|AEB12216.1|207,
+		250	Truepera_radiovictrix_DSM_17093|AQB|ADI15492.1|243,
+		251	Deinococcus_actinosclerus|biopoly_transp|ALW88052.1|228,
+		252	Deinococcus_maricopensis_DSM_21211|AQB|ADV67905.1|222,
+		253	Chlorobium_phaeobacteroides_DSM_266|ExbB|ABL64659.1|248,
+		254	Chlorobium_limicola_DSM_245|AQB|ACD90995.1|248,
+		255	Pelodictyon_phaeoclathratiforme_BU1|AQB|ACF43024.1|248,
+		256	Chlorobaculum_parvum_NCIB_8327|AQB|ACF11913.1|249,
+		257	Chloroherpeton_thalassium_ATCC_35110|AQB|ACF14782.1|250,
+		258	Chloroherpeton_thalassium_ATCC_35110|AQB|ACF14374.1|258,
+		259	Cytophaga_hutchinsonii_ATCC_33406|ExbB|ABG59284.1|275,
+		260	Niastella_koreensis_GR2010|ExbB|AEW03299.1|288,
+		261	Pontibacter_korlensis|MotA|AKD02510.1|288,
+		262	Coprobacter_secundus_subsp._similis|MotA|BCI63438.1|271,
+		263	Akkermansia_glycaniphila|AQB|SEH93354.1|273,
+		264	Pirellula_staleyi_DSM_6068|AQB|ADB17458.1|327,
+		265	Anatilimnocola_aggregata|ExbB|QDU25761.1|269,
+		266	Anatilimnocola_aggregata|PomA|QDU26963.1|258,
+		267	Methylacidimicrobium_sp._B4|AQB|QSR84626.1|255,
+		268	Chthonomonas_calidirosea_T49|s|CCW36281.1|206,
+		269	Sulfurospirillum_halorespirans_DSM_13726|HYP_SHALO_2598|AOO66357.1|701,
+		270	Fimbriimonas_ginsengisoli_Gsoil_348|AQB|AIE86461.1|205,
+		271	Coprobacter_secundus_subsp._similis|ExbB|BCI63565.1|234,
+		272	Akkermansia_glycaniphila|AQB|SEH78546.1|205,
+		273	Pontibacter_korlensis|ExbB|AKD04823.1|236,
+		274	Cytophaga_hutchinsonii_ATCC_33406|ExbB|ABG60812.1|234,
+		275	Niastella_koreensis_GR2010|ExbB|AEW00830.1|238,
+		276	CAIZXV01_Verrucomicrobium_sp_PRJEB3868|TolQ|PKPEBJJI_00344|69,
+		277	Denitrovibrio_acetiphilus_DSM_12809|AQB|ADD67874.1|205,
+		278	Saccharophagus_degradans|AQB|MBU2986144.1|220,
+		279	Flexistipes_sinusarabici_DSM_4947|AQB|AEI15149.1|203,
+		280	Listeria_innocua|MotA|UPH48256.1|283,
+		281	Methylacidimicrobium_sp._B4|AQB|QSR84055.1|245,
+		282	Thermocrinis_albus_DSM_14484|AQB|ADC89509.1|203,
+		283	Hydrogenobacter_thermophilus_TK6|AQB|ADO44512.1|204,
+		284	Thermocrinis_ruber|TolQ|AHE96346.1|204,
+		285	Aquifex_aeolicus_VF5|TolQ|AAC07752.1|204,
+		286	Mariprofundus_aestuarium|ExbB|ATX79248.1|209,
+		287	Mariprofundus_ferrinatatus|ExbB|ATX82358.1|209,
+		288	Dissulfurispira_thermophila|ExbB|BCB95942.1|180,
+		289	Denitrovibrio_acetiphilus_DSM_12809|AQB|ADD67609.1|207,
+		290	Saccharophagus_degradans|AQB|MBU2986356.1|460,
+		291	Saccharophagus_degradans|PomA|MBU2985330.1|253,
+		292	Saccharophagus_degradans_240|AQB|ABD79618.1|175,
+		293	Lignipirellula_cremea|TolQ|QDU94732.1|214,
+		294	Arcobacter_nitrofigilis_DSM_7299|AQB|ADG92230.1|172,
+		295	Lignipirellula_cremea|AQB|QDU95463.1|415,
+		296	Vibrio_parahaemolyticus_RIMD_2210633|ExbB2|BAC58428.1|175,
+		297	Vibrio_parahaemolyticus_RIMD_2210633|ExbB2|BAC61496.1|184,
+		298	Cellvibrio_japonicus|MotA|QEI18926.1|285,
+		299	Saccharophagus_degradans|AQB|MBU2986357.1|175,
+		300	Denitrovibrio_acetiphilus_DSM_12809|AQB|ADD67745.1|171,
+		301	Kiritimatiella_glycovorans|ExbB|AKJ64799.1|212,
+		302	Desulfotalea_psychrophila_LSv54|related_to_ExbB|CAG37702.1|174,
+		303	Vibrio_parahaemolyticus_RIMD_2210633|ExbB|BAC61495.1|455,
+		304	Cellvibrio_japonicus|TolQ|QEI18804.1|228,
+		305	Lignipirellula_cremea|ExbB|QDU94893.1|281,
+		306	Arcobacter_nitrofigilis_DSM_7299|AQB|ADG92231.1|437,
+		307	Saccharophagus_degradans_240|AQB|ABD79617.1|460,
+		308	Saccharophagus_degradans|AQB|MBU2985168.1|242,
+		309	Lignipirellula_cremea|ExbB|QDU93364.1|307,
+		310	Vibrio_parahaemolyticus_RIMD_2210633|TolR|BAC58429.1|453,
+		311	Denitrovibrio_acetiphilus_DSM_12809|AQB|ADD67744.1|447,
+		312	Saccharophagus_degradans|AQB|MBU2987451.1|190,
+		313	Kiritimatiella_glycovorans|ExbB|AKJ65465.1|479,
+		314	Sedimentisphaera_salicampi|ExbB|ARN57239.1|483,
+		315	Kiritimatiella_glycovorans|ExbB|AKJ64800.1|492,
+		316	Saccharophagus_degradans_240|AQB|ABD82072.1|464,
+		317	Leptospira_santarosai_serovar_Shermani_str._LT_821|TolQ|EKT87439.2|204,
+		318	Saccharophagus_degradans_240|AQB|ABD82073.1|131,
+		319	Leptospira_santarosai_serovar_Shermani_str._LT_821|MotA|EKT87417.1|194,
+		320	Campylobacter_jejuni_subsp._jejuni_NCTC_11168_EQ_ATCC_700819|AQB|CAL34280.1|184,
+		321	Campylobacter_concisus|TolQ|ALF47162.1|194,
+		322	Sulfurospirillum_halorespirans_DSM_13726|ExbB|AOO64467.1|196,
+		323	Sulfurimonas_autotrophica_DSM_16294|AQB|ADN08827.1|188,
+		324	Arcobacter_nitrofigilis_DSM_7299|AQB|ADG93991.1|186,
+		325	Sulfurovum_lithotrophicum|biopoly_transp|AKF24510.1|190,
+		326	Kiritimatiella_glycovorans|TolQ|AKJ65464.1|206,
+		327	Sedimentisphaera_salicampi|ExbB|ARN57240.1|209,
+		328	Desulfococcus_multivorans|MotA|AQU99647.1|219,
+		329	Denitrovibrio_acetiphilus_DSM_12809|AQB|ADD68376.1|198,
+		330	Fibrobacter_succinogenes_subsp._succinogenes_S85|AQB|ACX74512.1|234,
+		331	Chlamydiales_bacterium_SCGC_AB751O23|MotA|SCA58681.1|268,
+		332	Denitrovibrio_acetiphilus_DSM_12809|AQB|ADD68377.1|459,
+		333	Desulfococcus_multivorans|MotA|AQU99646.1|465,
+		334	Desulfotalea_psychrophila_LSv54|TolQ|CAG37703.1|463,
+		335	Fibrobacter_succinogenes_subsp._succinogenes_S85|AQB|ACX74513.1|535,
+		336	Fibrobacter_succinogenes_subsp._succinogenes_S85|AQB|ACX73657.1|522,
+		337	Myxococcus_xanthus_DK_1622|AQB|ABF90777.1|245,
+		338	Tepidimonas_taiwanensis|MotA|UBQ05764.1|285,
+		339	Corallococcus_coralloides_DSM_2259|AQB|AFE07995.1|245,
+		340	Stigmatella_aurantiaca_DW4/31|AQB|ADO68798.1|246,
+		341	Anaeromyxobacter_dehalogenans_2CP1|AQB|ACL67782.1|224,
+		342	Bdellovibrio_bacteriovorus|gliding|AHZ86892.1|212,
+		343	Sorangium_cellulosum|MotA|AUX22205.1|219,
+		344	Bdellovibrio_bacteriovorus|gliding|AHZ84904.1|234,
+		345	Bdellovibrio_bacteriovorus|gliding|AHZ86042.1|226,
+		346	Saccharophagus_degradans_240|AQB|ABD82818.1|220,
+		347	Saccharophagus_degradans|AQB|MBU2984729.1|464,
+		348	Cellvibrio_japonicus|AQB|QEI18407.1|458,
+		349	Saccharophagus_degradans_240|AQB|ABD82214.1|242,
+		350	Leptospira_santarosai_serovar_Shermani_str._LT_821|biopoly_transp|EKT88184.1|266,
+		351	Bacteroides_nordii|AQB|UAK41330.1|240,
+		352	Myxococcus_xanthus_DK_1622|AQB|ABF87376.1|260,
+		353	Stigmatella_aurantiaca_DW4/31|AQB|ADO72879.1|244,
+		354	Corallococcus_coralloides_DSM_2259|AQB|AFE07994.1|251,
+		355	Sorangium_cellulosum|MotA|AUX22204.1|225,
+		356	Bradymonas_sediminis|AQB|AWV89791.1|212,
+		357	Bradymonas_sediminis|AQB|AWV89461.1|212,
+		358	Fibrobacter_succinogenes_subsp._succinogenes_S85|AQB|ACX75484.1|212,
+		359	Bdellovibrio_bacteriovorus|gliding|AHZ84037.1|236,
+		360	Paludibaculum_fermentans|flag|QOY85398.1|292,
+		361	Fusobacterium_ulcerans|AQB|AVQ29260.1|206,
+		362	Fibrobacteres_bacterium|AQB|QQS05296.1|216,
+		363	Fusobacterium_ulcerans|AQB|AVQ29523.1|209,
+		364	Pseudoleptotrichia_goodfellowii|AQB|BBM36826.1|211,
+		365	Leptotrichia_buccalis_C1013b|AQB|ACV38437.1|208,
+		366	Paludibaculum_fermentans|AQB|QOY89541.1|135,
+		367	Fusobacterium_ulcerans|AQB|AVQ28424.1|203,
+		368	Verrucomicrobium_sp_PRJEB38681|MotA|DGBBEKCF_02484|287,
+		369	Fibrobacter_succinogenes_subsp._succinogenes_S85|AQB|ACX73656.1|210,
+		370	Nibricoccus_aquaticus|MotA|ATC64798.1|222,
+		371	Nibricoccus_aquaticus|MotA|ATC62712.1|220,
+		372	Opitutus_terrae_PB901|AQB|ACB75629.1|221,
+		373	Ereboglobus_luteus|MotA|AWI08882.1|226,
+		374	Fibrobacteres_bacterium|AQB|QQS07012.1|216,
+		375	Fibrobacteres_bacterium|AQB|QQS05379.1|226,
+		376	Fusobacterium_canifelinum|AQB|QQS88170.1|203,
+		377	Cereibacter_sphaeroides|AQB|WP_015920816.1|253,
+		378	Thermocrinis_ruber|ExbB|AHE96301.1|149,
+		379	Oxynema_aestuarii_AP17|AQB|QIZ70555.1|215,
+		380	Kiritimatiella_glycovorans|ExbB|AKJ64362.1|216,
+		381	Telmatocola_sphagniphila|AQB|QVL33268.1|268,
+		382	Cellvibrio_japonicus|AQB|QEI20720.1|226,
+		383	Myxococcus_xanthus_DZ2|AQB|UEO02151.1|245,
+		384	Telmatocola_sphagniphila|AQB|QVL33094.1|174,
+		385	Gloeobacter_violaceus_PCC_7421|AQB|BAC90343.1|211,
+		386	Gloeobacter_violaceus_PCC_7421|glr1387|BAC89328.1|211,
+		387	Telmatocola_sphagniphila|AQB|QVL32579.1|271,
+		388	Vibrio_cholerae|TolQ|QEO41016.1|227,
+		389	Myxococcus_xanthus_DZ2|AQB|UEO03725.1|227,
+		390	Telmatocola_sphagniphila|AQB|QVL32859.1|220,
+		391	Leptospirillum_ferrooxidans_C23|transport|BAM06053.1|234,
+		392	Limnochorda_pilosa|AQB|BAS27557.1|204,
+		393	Mariprofundus_aestuarium|MotA|ATX78592.1|282,
+		394	Mariprofundus_ferrinatatus|MotA|ATX82928.1|282,
+		395	Bacteroides_nordii|inorganic_phosphate_transporter|UAK41219.1|749,
+		396	Bdellovibrio_bacteriovorus|MotA|AHZ83417.1|269,
+		397	Rhodospirillum_rubrum_F11|AQB|AEO48324.1|275,
+		398	Magnetospirillum_gryphiswaldense_MSR1_v2|motor|CDK98228.1|266,
+		399	Paludibaculum_fermentans|flag|QOY88866.1|291,
+		400	Myxococcus_xanthus_DZ2|AQB|UEO06636.1|236,
+		401	CAIZXV01_Verrucomicrobium_sp_PRJEB3868|MotA|PKPEBJJI_00564|107,
+		402	Geovibrio_thiophilus|MotA|QAR32385.1|254,
+		403	Limnochorda_pilosa|MotP|BAS27507.1|269,
+		404	Mariprofundus_aestuarium|MotA|ATX78565.1|254,
+		405	Mariprofundus_ferrinatatus|MotA|ATX82900.1|254,
+		406	Rhodospirillum_rubrum_F11|AQB|AEO47025.1|272,
+		407	Telmatocola_sphagniphila|AQB|QVL34843.1|196,
+		408	Desulfotalea_psychrophila_LSv54|related_to_flagellar_apparatus_MotA|CAG37394.1|255,
+		409	Moorella_thermoacetica|PomA|APC07901.1|266,
+		410	Klebsiella_aerogenes|tolpal_thioest|QXB09426.1|243,
+		411	Myxococcus_xanthus_DZ2|AQB|UEO04322.1|226,
+		412	Treponema_pallidum_subsp._pertenue|Mot_family_proton_H+_or_sodium_Na+_transporter_MotA|AWG41586.1|259,
+		413	Klebsiella_aerogenes|TolQ|QXB11428.1|230,
+		414	Brachyspira_intermedia_PWS/A|flag|AEM21069.1|263,
+		415	Brachyspira_pilosicoli_WesB|MotA|CCG57546.1|263,
+		416	Verrucomicrobium_sp_PRJEB38681|TolQ|DGBBEKCF_00463|239,
+		417	Bacillus_subtilis_subsp._subtilis_str._168|sodium_MotA|CAB14951.1|272,
+		418	Aquifex_aeolicus_VF5|MotA|AAC07083.1|254,
+		419	Geovibrio_thiophilus|HYP_EP073_10320|QAR33784.1|452,
+		420	Pirellula_staleyi_DSM_6068|AQB|ADB18997.1|259,
+		421	Anatilimnocola_aggregata|ExbB|QDU30851.1|305,
+		422	Rhodopirellula_baltica_SH_1|PomA|CAD76169.1|253,
+		423	Rubinisphaera_brasiliensis_DSM_5305|AQB|ADY60068.1|258,
+		424	Saccharophagus_degradans_240|AQB|ABD82476.1|253,
+		425	Leptospira_santarosai_serovar_Shermani_str._LT_821|endoflag|EKT88755.1|252,
+		426	Vibrio_parahaemolyticus_RIMD_2210633|sodium_MotA|BAC58952.1|253,
+		427	Cellvibrio_japonicus|AQB|QEI19039.1|239,
+		428	Fusobacterium_canifelinum|AQB|QQS88496.1|202,
+		429	Methylobacterium_oryzae_CBMB20|AQB|AIQ92767.1|270,
+		430	Nitrobacter_winogradskyi_Nb255|AQB|ABA04498.1|257,
+		431	Candidatus_Accumulibacter_similis|MotA|QKS29226.1|285,
+		432	Elusimicrobia_bacterium|AQB|UPT73159.1|309,
+		433	Brevibacillus_laterosporus_DSM_25|motor|ATO49114.1|276,
+		434	Treponema_pallidum_subsp._pallidum|MotA|UOY13875.1|259,
+		435	Denitrovibrio_acetiphilus_DSM_12809|AQB|ADD67090.1|254,
+		436	Saccharophagus_degradans|flag|MBU2985819.1|246,
+		437	Campylobacter_concisus|flag|ALF47869.1|255,
+		438	Arcobacter_nitrofigilis_DSM_7299|AQB|ADG94140.1|251,
+		439	Sulfurimonas_autotrophica_DSM_16294|AQB|ADN09321.1|254,
+		440	Methylacidimicrobium_sp._B4|AQB|QSR85862.1|223,
+		441	Chthonomonas_calidirosea_T49|motor|CCW35905.1|260,
+		442	Cellvibrio_japonicus|flag|QEI19744.1|248,
+		443	Leptospira_santarosai_serovar_Shermani_str._LT_821|ExbB|EKT86397.1|201,
+		444	Symbiobacterium_thermophilum_IAM_14863|MotA|BAD41956.1|265,
+		445	Moorella_thermoacetica|PomA|APC08935.1|253,
+		446	Thermoanaerobacter_pseudethanolicus_ATCC_33223|AQB|ABY95376.1|272,
+		447	Moorella_thermoacetica|PomA|APC07539.1|275,
+		448	Caldicellulosiruptor_obsidiansis_OB47|AQB|ADL42743.1|265,
+		449	Clostridium_autoethanogenum_DSM_10061|MotA|ALU36624.1|264,
+		450	Desulfitobacterium_hafniense_DCB2|AQB|ACL22206.1|257,
+		451	Saccharophagus_degradans|AQB|MBU2984728.1|131,
+		452	Saccharophagus_degradans_240|AQB|ABD81419.1|246,
+		453	Cellvibrio_japonicus|energy_transducer_TonB|QEI18324.1|460,
+		454	Pseudomonas_aeruginosa_PAO1|MotC|AAG04849.1|246,
+		455	Luteolibacter_luteus|AQB|QJE97381.1|231,
+		456	Nitrospira_moscoviensis|MotA|ALA58549.1|256,
+		457	Leptospirillum_ferrooxidans_C23|motor|BAM06016.1|259,
+		458	Bdellovibrio_bacteriovorus|MotA|AHZ85791.1|250,
+		459	Anaeromyxobacter_dehalogenans_2CP1|AQB|ACL65905.1|261,
+		460	Dissulfurispira_thermophila|MotA|BCB96091.1|252,
+		461	Thermodesulfovibrio_yellowstonii_DSM_11347|MotA|ACI21187.1|253,
+		462	Geobacter_sulfurreducens_PCA|MotA|AAR36419.1|254,
+		463	Terriglobus_roseus_DSM_18391|motor|AFL88814.1|267,
+		464	Terriglobus_roseus_DSM_18391|motor|AFL88473.1|267,
+		465	Acidobacterium_capsulatum_ATCC_51196|MotA|ACO33277.1|269,
+		466	Shigella_sonnei|tolpal_thioest|QKY94846.1|244,
+		467	Sphingomonas_alpina|AQB|QNQ10683.1|256,
+		468	Bacillus_subtilis_subsp._subtilis_str._168|MotA_MotA_component_of_the_H+coupled_stator_flagellum_complex|CAB13242.1|270,
+		469	Weizmannia_coagulans_DSM_1_EQ_ATCC_7050|AQB|AJH79515.1|267,
+		470	Brevibacillus_laterosporus_DSM_25|MotA|ATO49967.1|267,
+		471	Myxococcus_xanthus_DZ2|AQB|UEO04809.1|250,
+		472	Clostridium_autoethanogenum_DSM_10061|AQB|ALU34477.1|263,
+		473	Thermocrinis_albus_DSM_14484|AQB|ADC89566.1|249,
+		474	Thermocrinis_ruber|MotA|AHE95900.1|248,
+		475	Bacillus_subtilis_subsp._subtilis_str._168|twocomponent_sensor_histidine_kinase_YdfI|CAB12348.1|407,
+		476	Sulfurospirillum_halorespirans_DSM_13726|MotA|AOO65115.1|257,
+		477	Campylobacter_jejuni_subsp._jejuni_NCTC_11168_EQ_ATCC_700819|flag|CAL34488.1|258,
+		478	Caulobacter_vibrioides_NA1000|MotA|ACL94252.1|288,
+		479	Brevundimonas_subvibrioides_ATCC_15264|AQB|ADL02462.1|289,
+		480	Elusimicrobia_bacterium|AQB|UPT72845.1|211,
+		481	Rhodobacter_capsulatus_SB_1003|MotA|ADE87210.1|289,
+		482	Candidatus_Midichloria_mitochondrii_IricVA|MotA_duplicate|AEI88772.1|255,
+		483	Candidatus_Accumulibacter_similis|AQB|QKS29082.1|239,
+		484	Methylobacterium_oryzae_CBMB20|MotA|AIQ89863.1|195,
+		485	Brucella_ovis_ATCC_25840|MotA|ABQ62189.1|339,
+		486	Magnetospirillum_gryphiswaldense_MSR1_v2|MotA|CDK98316.1|286,
+		487	Rhodospirillum_rubrum_F11|motA_MotA|AEO48360.1|301,
+		488	Candidatus_Paracaedibacter_acanthamoebae|MotA|AIK95837.1|286,
+		489	Methylobacterium_oryzae_CBMB20|MotA|AIQ92722.1|287,
+		490	Candidatus_Midichloria_mitochondrii_IricVA|MotA|AEI89251.1|281,
+		491	Yersinia_pestis|MotA|AJJ32465.1|295,
+		492	Yersinia_pseudotuberculosis_IP_32953|MotA|AJJ54987.1|295,
+		493	Chloracidobacterium_thermophilum|AQB|QUV79767.1|212,
+		494	Gemmatimonas_groenlandica|MotA|QJR36484.1|285,
+		495	Escherichia_coli_str._K12_substr._MG1655|MotA|AAC74960.1|295,
+		496	Luteolibacter_luteus|DUF2341_domaincontaining_protein|QJE97904.1|607,
+		497	Rhodoferax_saidenbachensis|MotA|APW43194.1|285,
+		498	Rhodoferax_saidenbachensis|MotA|APW42908.1|285,
+		499	Nitrospira_japonica|TolQ|SLM46359.1|232,
+		500	Rhizobacter_gummiphilus|MotA|ATU66302.1|286,
+		501	Yersinia_pseudotuberculosis_IP_32953|MotA|AJJ56783.1|288,
+		502	Yersinia_pestis|MotA|AJJ32757.1|288,
+		503	Vibrio_parahaemolyticus_RIMD_2210633|LafT|BAC62899.1|285,
+		504	Rhizobacter_gummiphilus|MotA|ATU65955.1|309,
+		505	Pseudomonas_aeruginosa_PAO1|MotA|AAG08339.1|283,
+		506	Lignipirellula_cremea|ExbB|QDU98188.1|284,
+		507	Sphingomonas_alpina|MotA|QNQ09341.1|287,
+		508	Shigella_sonnei|MotA|QKY95842.1|295,
+		509	Acidobacterium_capsulatum_ATCC_51196|MotA|ACO33337.1|299,
+		510	Shigella_sonnei|TolQ|QKY92913.1|230,
+		511	Syntrophus_aciditrophicus_SB|motor|ABC77078.1|303,
+		512	Dissulfurispira_thermophila|MotA|BCB96094.1|285,
+		513	Thermodesulfovibrio_yellowstonii_DSM_11347|lateral_MotA|ACI21445.1|288,
+		514	Gemmatimonas_aurantiaca_T27|MotA|BAH37338.1|285,
+		515	Gemmatimonas_phototrophica|MotA|AMW06484.1|266,
+		516	Luteolibacter_luteus|HYP_HHL09_06260|QJE95399.1|522,
+		517	Chthonomonas_calidirosea_T49|MotA|CCW34551.1|292,
+		518	Bdellovibrio_bacteriovorus|MotA|AHZ83632.1|288,
+		519	Armatimonadetes_bacterium_UphvlAr1|MotA|ARU42506.1|282,
+		520	Nibricoccus_aquaticus|MotA|ATC63650.1|288,
+		521	Opitutus_terrae_PB901|AQB|ACB73691.1|287,
+		522	Cereibacter_sphaeroides|ExbB|WP_015921325.1|349,
+		523	Cereibacter_sphaeroides|TolQ|WP_002720852.1|232,
+		524	Geovibrio_thiophilus|AQB|QAR32927.1|207,
+		525	Paludibaculum_fermentans|AQB|QOY87643.1|225,
+		526	Acidobacterium_capsulatum_ATCC_51196|signal_recognition_particledocking_protein_FtsY|ACO34195.1|324,
+		527	Rubinisphaera_brasiliensis_DSM_5305|HYP_Plabr_2216|ADY59818.1|216,
+		528	Rhodopirellula_baltica_SH_1|HYP|CAD77532.1|222,
+		529	Rhodospirillum_rubrum_F11|sensory_transducer|AEO48101.1|556,
+		530	Rhodospirillum_rubrum_F11|sensory_transducer|AEO48100.1|556,
+		531	Chlorobium_phaeobacteroides_DSM_266|HYP_Cpha266_2232|ABL66229.1|261,
+		532	Sulfidibacter_corallicola|HYP_J3U87_30040|QTD49844.1|300,
+		533	Bdellovibrio_bacteriovorus|HYP_EP01_15820|AHZ86390.1|301,
+		534	Gemmatimonas_aurantiaca_T27|HYP|BAH37227.1|669,
+		535	Fibrobacter_succinogenes_subsp._succinogenes_S85|HYP_Fisuc_3059|ACX76639.1|584,
+		536	Cellvibrio_japonicus|AQB|QEI19895.1|243,
+		537	Campylobacter_concisus|membrane_protein|ALF47932.1|437,
+		538	Campylobacter_jejuni_subsp._jejuni_NCTC_11168_EQ_ATCC_700819|membrane_protein|CAL34744.1|480,
+		539	Sulfurospirillum_halorespirans_DSM_13726|membrane_protein|AOO65010.1|397,
+		540	Sulfurovum_lithotrophicum|HYP_YH65_04225|AKF24681.1|368,
+		541	Leptospirillum_ferrooxidans_C23|HYP_LFE_0155|BAM05883.1|380,
+		542	Methylobacterium_oryzae_CBMB20|unk|AIQ93688.1|326,
+		543	Rhodobacter_capsulatus_SB_1003|AQB|ADE86713.1|401,
+		544	Rhodospirillum_rubrum_F11|AQB|AEO47577.1|398,
+		545	Nitrobacter_winogradskyi_Nb255|conserved_TolQ|ABA05996.1|358,
+		546	Candidatus_Hydrogenosomobacter_endosymbioticus|MotA|BDB96353.1|381,
+		547	Magnetospirillum_gryphiswaldense_MSR1_v2|AQB|CDK97459.1|393,
+		548	Fibrobacter_succinogenes_subsp._succinogenes_S85|HYP_Fisuc_3021|ACX76601.1|632,
+		549	Deinococcus_radiopugnans|HYP_QR90_08530|AIZ45138.1|618,
+		550	Anatilimnocola_aggregata|ExbB|QDU25322.1|267,
+		551	Sphingomonas_alpina|AQB|QNQ12173.1|221,
+		552	Sulfidibacter_corallicola|AQB|QTD52802.1|265,
+		553	Methylacidimicrobium_sp._B4|AQB|QSR84464.1|220,
+		554	Methylacidimicrobium_sp._B4|AQB|QSR83870.1|222,
+		555	Isosphaera_pallida_ATCC_43644|HYP_Isop_2860|ADV63425.1|492,
+		556	Vibrio_cholerae|AQB|QEO41299.1|457,
+		557	Tissierella_sp._JN28|MotA|QAT61614.1|265,
+		558	Pirellula_staleyi_DSM_6068|HYP_Psta_1118|ADB15801.1|296,
+		559	Candidatus_Velamenicoccus_archaeovorus|HYP_BU251_05250|QAT17178.1|231,
+		560	Pirellula_staleyi_DSM_6068|HYP_Psta_4037|ADB18690.1|442,
+		561	Anatilimnocola_aggregata|TolQ|QDU29130.1|316,
+		562	Rhodopirellula_baltica_SH_1|probable|CAD71788.1|499,
+		563	Rubinisphaera_brasiliensis_DSM_5305|AQB|ADY61197.1|432,
+		564	Pseudomonas_aeruginosa_PAO1|HYP_PA1924|AAG05312.1|158,
+		565	Saccharophagus_degradans|AQB|MBU2985725.1|209,
+		566	Rhodoferax_saidenbachensis|transporter_ExbD|APW42573.1|163,
+		567	Sulfidibacter_corallicola|AQB|QTD53280.1|206,
+		568	Dissulfurispira_thermophila|MotA|BCB95963.1|229,
+		569	Rubinisphaera_brasiliensis_DSM_5305|AQB|ADY61698.1|234,
+		570	Clostridium_autoethanogenum_DSM_10061|AQB|ALU35076.1|233,
+		571	Victivallales_bacterium_CCUG_44730|HYP_C5Q97_06090|AVM44306.1|196,
+		572	Campylobacter_concisus|ExbB|ALF47140.1|142,
+		573	Campylobacter_jejuni_subsp._jejuni_NCTC_11168_EQ_ATCC_700819|ExbB_TolQ|CAL35725.1|141,
+		574	Sulfurospirillum_halorespirans_DSM_13726|ExbB|AOO66288.1|144,
+		575	Sulfurovum_lithotrophicum|ExbB|AKF25943.1|141,
+		576	Aquifex_aeolicus_VF5|ExbB|AAC07592.1|148,
+		577	Hydrogenobacter_thermophilus_TK6|ExbB|ADO46046.1|141,
+		578	Thermocrinis_ruber|ExbB|AHE95642.1|141,
+		579	Candidatus_Korarchaeota_archaeon|MotA|RLG45601.1|254,
+		580	Nitrospira_moscoviensis|ExbB|ALA57346.1|141,
+		581	Denitrovibrio_acetiphilus_DSM_12809|ExbB|ADD67695.1|144,
+		582	Syntrophus_aciditrophicus_SB|TolQ|ABC78648.1|144,
+		583	Sulfurimonas_autotrophica_DSM_16294|ExbB|ADN08701.1|149,
+		584	Sulfurospirillum_halorespirans_DSM_13726|TolQ|AOO66396.1|138,
+		585	Arcobacter_nitrofigilis_DSM_7299|ExbB|ADG93510.1|142,
+		586	Chlamydia_muridarum_str._Nigg|AQB|AVM88605.1|232,
+		587	Chlamydia_trachomatis_D/UW3/CX|polysaccharide_transporter|AAC68198.1|232,
+		588	Chlamydia_pecorum_PV3056/3|transport|AGW38400.1|232,
+		589	Chlamydia_pneumoniae_TW183|ExbB|AAP98742.1|232
+	;
+	TREE * UNTITLED = [&R] ((((((((((((((((((((((((1:1e-06,2:1e-06):0.069201,3:0.014915):0.030195,(4:1e-06,5:1e-06):0.141866):0.358474,(6:0.335106,7:0.129057):0.191608):0.614606,8:0.330149):0.218972,(9:1e-06,10:1e-06):1.134568):0.391966,11:0.366384):0.216021,((((((12:0.08396,13:0.366079):0.894645,14:1.36938):0.290486,(15:0.638546,16:0.418524):0.916241):0.150976,17:0.792126):0.530854,(18:0.701963,19:1.180653):0.166601):0.117631,(20:0.412465,21:0.360989):0.176258):0.274582):0.039092,22:0.512691):0.575521,((((((23:0.245156,24:0.328152):0.472748,25:0.257293):0.296053,(26:0.378656,27:0.251197):0.125244):0.250439,((28:0.840549,29:0.4059):0.051447,30:0.182855):0.253002):0.512859,(31:1.787196,32:0.504138):0.329808):0.104225,(((33:4.741453,34:2e-06):0.495722,35:0.898297):0.570772,36:1.465491):0.144851):0.167824):0.315597,(((((((((((37:0.207769,38:0.433302):0.21939,39:1.201085):0.418917,40:1.294556):0.249613,41:0.510597):0.48037,42:0.603513):0.101517,43:0.49315):0.27749,(44:0.803668,45:1.177094):0.448651):0.322877,46:1.426476):0.155245,(47:0.51414,48:0.499343):0.675895):0.296328,(((49:0.155665,50:0.260734):0.537158,51:0.465977):0.255262,52:0.420734):0.498058):0.412474,((((((((53:1e-06,54:1e-06):0.71754,55:0.458226):0.112994,56:0.957205):0.094505,(57:3e-06,58:0.015374):0.770383):0.169612,59:0.747385):0.253373,60:1.006524):0.383543,(((61:1e-06,62:2e-06):0.26726,63:0.432577):0.303191,(64:2e-06,65:0.005124):0.4885):0.367573):0.569749,66:1.129723):0.433454):0.10161):0.150526,((((((((67:0.763083,68:3e-06):0.248959,69:0.091223):1.220262,(70:0.101746,71:0.143407):0.556343):0.303039,((72:0.642653,73:0.516096):0.308893,74:0.715927):0.214854):0.135395,75:1.987695):0.066503,(((76:3e-06,77:3e-06):0.522603,78:0.657853):0.476604,79:1.218847):0.536151):0.009642,((((80:0.264905,81:0.260511):0.619325,82:0.555514):0.107557,83:0.364733):0.471582,(84:1.833775,85:1.15212):0.824155):0.229753):0.272612,(((((((((86:1e-06,87:1e-06):0.015213,88:0.123565):0.404445,89:0.124403):0.441437,90:0.37847):0.23044,91:0.768755):0.06699,92:2.234194):0.107922,(93:1.016629,94:0.454803):0.301399):0.118855,((95:0.746247,96:0.721005):0.11002,97:1.8646):0.268005):0.202741,((98:0.37909,99:0.491166):0.613583,100:1.300708):0.370845):0.144101):0.248946):0.073582,((((((((101:0.48167,102:0.225596):0.669106,103:1.494386):0.107726,104:0.379603):1.012509,105:0.846529):0.385168,((106:0.47676,107:0.49866):0.242115,108:0.822969):0.153117):0.160324,((109:0.461659,110:0.113682):0.230074,111:0.149807):1.021336):0.251171,112:1.209972):0.116923,113:0.973542):0.863759):0.291921,(((((((114:1e-06,115:1e-06):0.079377,116:0.048237):0.039088,117:0.045971):0.237129,118:0.394165):0.608004,(((119:1e-06,120:1e-06):0.175184,121:0.174268):0.743557,122:0.830919):0.438482):0.101247,123:0.795027):0.162911,((((124:0.144329,125:0.116953):0.117914,126:0.297374):0.135572,127:0.307521):0.237538,(128:0.066637,129:0.103686):0.93176):0.140471):0.56343):0.291047,(((((((((((((((130:1e-06,131:1e-06):0.079419,(132:1e-06,133:1e-06):0.101606):0.09062,134:0.148513):0.046642,135:0.258143):0.062694,136:0.089209):0.510485,137:0.976196):0.178956,138:1.032864):0.105226,139:0.976208):0.1007,(((140:0.154602,141:0.101794):1.197667,142:1.022434):0.634373,143:1.243405):0.358238):0.076097,144:1.298906):0.153636,145:0.902136):0.150693,(146:0.987974,147:1.231053):0.188789):0.227037,148:0.774288):0.22435,(((((((149:1e-06,150:1e-06):0.194373,151:0.159813):0.069558,152:0.197532):0.615272,153:0.723443):0.437437,154:1.967823):0.491185,155:1.417563):0.028609,156:1.591184):0.15269):0.135248,157:1.421278):0.101768):0.234835,((158:0.222019,159:0.290162):0.903882,160:1.380396):0.428798):0.145047,(((((((((161:0.143763,162:0.480627):0.629417,163:0.160768):1.096035,(164:5.971419,165:2e-06):2.554644):0.124432,(166:0.500883,167:0.044956):2.378585):0.42781,((168:1.33492,169:1.000185):0.412516,(170:0.444689,171:0.548533):0.69853):0.33995):0.300791,172:2.130506):0.179939,((((((173:0.123853,174:0.36711):0.277167,175:0.409118):0.133078,176:0.823385):0.10804,177:0.629697):0.299488,178:1.283762):0.270803,(((179:0.291163,180:0.382972):0.184533,181:0.403517):0.108012,182:0.95295):1.06207):0.245722):0.246324,(((((((183:0.003239,184:0.021894):0.517464,185:0.277775):0.301676,(186:4.821592,187:3e-06):0.617034):0.253178,(((188:0.335878,189:0.352503):0.166788,190:0.276229):0.460305,191:0.390241):0.500992):0.116201,192:1.319558):0.136191,(193:0.058622,194:3e-06):0.858468):0.187216,195:1.193562):0.206667):0.097264,(((((((((196:1.01191,197:0.324853):0.231743,198:0.226396):0.196776,199:0.429568):0.442176,200:0.82947):0.402558,(201:1.697315,202:2.232536):0.325004):0.109347,(203:0.496988,204:0.471552):0.619102):0.270263,((((((205:0.27337,206:0.279151):0.168199,207:2.549021):0.132754,208:0.22491):0.132767,209:0.322676):0.452961,210:0.425145):0.272067,((211:1.045651,212:0.864498):0.185586,213:0.796069):0.427065):0.52808):0.204653,(((214:1.267413,215:1.15115):0.280639,216:1.102741):0.116381,217:1.831389):0.159783):0.12998,(((218:0.700002,219:0.419485):0.701028,220:0.656238):0.133253,221:0.834318):0.787967):0.275952):0.114808):0.039392,(((((((222:0.665393,223:0.445857):0.15541,224:0.445012):0.319013,225:1.295115):0.995376,226:1.083722):0.310452,227:1.480118):0.670138,228:1.733437):0.306912,((((229:0.926303,230:0.292846):0.477816,231:2.121843):0.118346,232:1.393559):0.577143,233:1.592262):0.214763):0.334743):0.059688,(((((((((((234:0.826782,235:0.778575):0.704788,236:0.748132):0.141273,(237:0.490753,238:0.637102):0.466119):0.194218,((239:0.194887,240:0.41004):0.091324,241:0.307427):0.888788):0.149333,((242:2.121307,243:0.577074):0.332373,244:0.901897):0.103282):0.165312,245:1.102505):0.132543,((246:3.750475,247:2.233203):0.223858,248:3.618405):0.906776):0.080126,((249:0.745564,250:0.554994):0.318924,(251:0.268456,252:0.651409):1.169955):0.497185):0.111718,(((((((253:0.087767,254:0.110371):0.065542,255:0.057681):0.077119,256:0.047803):0.363876,257:0.324213):0.173005,258:0.867731):0.309497,(((259:0.56005,260:0.519046):0.112564,261:0.406309):0.06456,(262:0.204058,263:0.317323):0.399033):0.239143):1.047414,(((264:0.223372,265:0.333292):0.434533,266:0.327118):0.797158,267:0.719529):0.21418):0.188819):0.048479,((268:0.307673,269:7.589754):0.120568,270:0.280987):1.12811):0.122067,((((271:0.263006,272:0.270363):0.452139,273:0.541875):0.15364,(274:0.778244,275:0.774548):0.157745):0.526714,276:1.458283):0.288453):0.045472):0.037913,((((((277:0.41479,278:0.36845):0.102807,279:0.31641):0.203664,280:0.498684):0.540946,281:1.128784):0.259246,(((282:0.335091,283:0.412865):0.110364,284:0.333675):0.435867,285:0.627391):1.135198):0.21364,(((286:0.260074,287:0.133354):1.52713,288:1.076078):0.366388,(289:0.593757,290:0.637011):1.112652):0.304793):0.056613):0.105728,(((((((((((((((291:1e-06,292:1e-06):0.416604,293:0.909672):0.235578,294:0.966391):0.093479,295:1.528919):0.09704,296:0.856127):0.359293,(297:0.435822,298:0.332437):0.375754):0.943266,(299:1.151463,300:1.184505):0.98935):0.104643,(301:2.122174,302:0.879634):0.700823):0.468685,(((((303:0.319348,304:0.20313):0.655212,305:0.823296):0.064694,306:0.697212):0.117748,((307:1e-06,308:1e-06):0.419178,309:0.210078):0.466744):0.14379,310:0.769576):0.369506):0.051574,(311:0.771389,312:0.538062):0.681233):0.071206,((((313:0.366344,314:0.463268):0.478412,315:0.868828):0.169156,(316:2e-06,317:0.005275):1.543744):0.294593,(318:3e-06,319:0.052096):2.937195):0.143123):0.192652,(((((((320:0.670885,321:0.188975):0.221737,322:0.528182):0.414583,323:0.691835):0.166307,324:0.578865):0.04741,325:0.543121):2.276915,(326:0.722137,327:0.505712):1.110902):0.686663,(((328:1.338364,329:1.700049):0.63059,330:1.68139):0.081354,331:1.454364):0.071227):0.23934):0.114674,((332:0.590491,333:0.796843):0.258215,334:1.137092):0.386953):0.131627,(335:0.90076,336:1.483024):0.502587):0.274402,((((((((((((337:1e-06,338:1e-06):0.151904,339:0.093125):0.103084,340:0.142495):0.27934,341:0.25363):0.255486,(342:1.020505,343:0.671487):0.196681):0.391459,(344:0.632477,345:0.503785):0.639719):0.249876,(((346:3e-06,347:1e-06):0.28343,348:0.267402):0.24065,(349:0.004765,350:1e-06):0.599045):0.679368):0.168948,(((((351:1e-06,352:3e-06):0.100211,353:0.245678):0.171836,354:0.228119):0.653851,355:0.805382):0.31765,356:0.699045):0.201951):0.161699,357:1.303732):0.026534,(358:1.74471,359:1.062755):0.261119):0.217131,360:1.741408):0.271591,((((361:0.798172,362:0.758217):0.408662,363:0.750265):0.264578,(364:0.276703,365:0.326657):0.89587):0.130509,(366:0.705416,367:0.300774):0.505669):0.345904):0.146516):0.140925):0.064626,(368:1.426107,369:1.879886):0.246827):0.163573,(((((((((370:0.444948,371:0.303976):0.042865,372:0.377357):0.160626,373:0.647045):0.445427,(374:0.609509,375:0.286298):0.637776):0.253965,((376:0.778554,377:0.52706):0.186392,(378:2.96399,379:0.96923):0.468323):0.155984):0.314332,380:0.84613):0.146396,(((((381:0.548623,382:0.407226):0.077514,383:0.354034):0.076092,384:0.390384):0.52402,(385:2e-06,386:2e-06):0.767486):0.238155,(((387:0.645423,388:0.25862):0.238409,389:0.206806):0.405169,390:0.890553):0.495205):0.620394):0.085014,391:1.804943):0.222767,392:1.297997):0.102597):0.092548,(((((((((((((((((((((((393:0.038936,394:3e-06):0.546477,395:0.913057):0.633082,396:1.689686):0.101069,((397:0.351274,398:0.400098):0.528105,399:1.296547):0.867532):0.368071,400:1.088563):0.102726,((401:0.547743,402:1.299746):0.198026,403:0.745965):0.139712):0.067808,(((((404:0.112538,405:3e-06):0.518338,406:1.530893):0.111058,(407:0.378685,408:0.636812):0.087359):0.139478,409:0.966328):0.050253,410:0.52267):0.063273):0.147975,(((((411:1e-06,412:1e-06):1.127978,413:1.05173):0.192529,((414:0.048942,415:0.023147):0.797315,416:0.518297):0.164799):0.166052,417:1.097677):0.089571,418:1.18903):0.100977):0.04505,(((419:0.623819,420:0.269359):0.240732,(421:0.252668,422:0.42706):0.20604):0.116962,423:0.573015):0.366199):0.052569,(((((424:1e-06,425:1e-06):0.464558,(426:0.028223,427:0.110287):0.490142):0.263285,(((428:5.212022,429:3e-06):0.429,430:0.364609):0.860842,431:1.687153):0.163343):0.202864,(432:1.082127,433:2.561887):0.216478):0.115773,((((434:0.493922,435:0.262931):0.095955,436:0.250285):0.148535,((437:0.202601,438:1.495423):0.233942,439:0.228505):0.478044):0.091731,440:0.866298):0.113184):0.148194):0.270458,441:0.711301):0.040196,(442:0.908795,443:1.310304):0.172434):0.079041,((444:0.975819,445:0.790097):0.106609,446:0.748812):0.18729):0.060983,(((447:0.68847,448:0.685794):0.096287,449:0.906503):0.072656,450:0.623058):0.108125):0.084909,((((((((451:0.005394,452:2e-06):0.247391,453:0.27235):0.182408,454:0.377471):0.46174,455:0.573139):0.257391,(456:0.457233,457:0.803938):0.23198):0.065877,(458:0.799593,459:0.586043):0.291045):0.096781,((460:0.325306,461:0.541489):0.522822,462:0.519241):0.162967):0.045929,(((463:1e-06,464:1e-06):0.510824,465:0.353563):0.321487,(466:0.723108,467:0.714869):0.282665):0.381465):0.163371):0.12493,((((468:0.282699,469:0.320672):0.182035,470:0.400499):0.121302,471:0.826635):0.210395,472:0.594209):0.314257):0.169212,(((473:0.238454,474:0.104108):0.873153,475:3.155333):0.094724,(476:0.439911,477:0.52323):0.667188):0.48875):0.315682,(((((((((((478:0.175555,479:0.174238):0.253269,(480:0.164556,481:0.204049):0.311588):0.05679,482:0.746255):0.113282,483:0.762088):0.271594,(484:0.474894,485:0.311657):0.806075):0.097895,((((486:0.334721,487:0.258678):0.207388,488:0.478889):0.066174,489:0.515203):0.165935,490:1.408645):0.119421):0.156886,(((((491:0.003562,492:1e-06):0.039604,493:0.074594):0.042866,(494:0.007139,495:3e-06):0.17135):0.49764,496:0.421461):0.071878,(((497:0.045427,498:0.159636):0.05902,499:0.167534):0.088321,500:0.174574):0.20437):0.188144):0.118195,(((((501:0.003693,502:3e-06):0.497285,503:0.409317):0.15011,504:0.437047):0.720237,505:0.516856):0.185491,506:0.493194):0.121461):0.174798,(((((507:0.341658,508:0.362948):0.140387,509:0.410452):0.122312,510:0.578813):0.208294,((511:0.390071,512:0.183457):0.211652,513:0.331008):0.314035):0.096364,((((514:0.040931,515:0.062018):0.036378,516:0.07761):0.344005,517:0.487179):0.117557,(518:0.839199,519:0.476008):0.182489):0.214952):0.057697):0.186169,(((520:0.203253,521:0.372393):0.607386,(522:0.010943,523:3e-06):1.033481):0.138465,524:0.808401):0.235041):0.106366,525:0.883938):1.101612):0.473009,526:2.710123):0.373148,((527:0.605249,528:0.719011):2.450043,(529:0.039492,530:0.032193):2.486372):0.649911):0.397817,(((((((((531:2.197785,532:1.495421):0.74433,533:4.606728):2e-06,534:1.890959):0.315779,535:1.801891):0.662426,536:2.796447):0.206631,((((537:1.378653,538:0.181628):0.300453,539:0.396427):1.028985,540:0.446936):1.5642,541:1.658371):0.749385):0.464014,(((((((542:1.035793,543:0.795651):0.16506,544:0.723595):0.353077,545:0.277269):0.135662,546:2.818498):0.124315,547:0.010911):1.620724,548:3.139105):0.154299,549:3.059914):1.060738):0.441969,550:1.319737):0.610354,((((((551:1.890313,552:1.068342):0.564853,553:0.817763):0.390152,554:1.968457):0.486467,555:2.066803):0.121502,((556:1.818283,557:0.892543):0.240058,558:1.365127):0.405903):0.198393,((((559:0.536249,560:0.491933):0.092961,561:0.538791):0.350778,562:1.569214):0.477341,563:1.391301):0.552844):0.89881):0.329661):0.180148,(((((564:1.063368,565:0.453669):0.39657,566:0.529646):1.261668,567:1.293407):0.250744,(568:1.909563,569:1.549273):0.40864):0.073666,(570:2.658932,571:0.917818):0.348495):1.503175):0.490215,((((((((572:0.185972,573:0.666708):0.582837,574:0.565427):0.620537,(575:0.84249,576:0.454529):0.225943):2e-06,(577:0.329177,578:0.41534):0.090692):0.178387,(((579:3e-06,580:0.064031):0.636442,581:0.631389):0.351847,582:0.311815):0.125076):0.147376,583:0.777991):0.314216,(584:0.496567,585:0.288141):0.368296):1.0673,(((586:0.06995,587:0.026251):0.366153,588:0.156953):0.16071,589:0.032364):1.68771):0.301785):0.389113);
+END;
