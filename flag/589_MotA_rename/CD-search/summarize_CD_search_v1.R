@@ -26,6 +26,7 @@ library(BioGeoBEARS)	# for sourceall
 library(ape)
 library(phytools)
 library(seqinr)				# for read.fasta
+library(stringr)			# for str_squish, 
 sourceall("/GitHub/bioinfRhints/Rsrc/")
 
 wd = "/GitHub/bioinfRhints/flag/589_MotA_rename/CD-search/"
@@ -78,27 +79,58 @@ interesting = names(rev(sort(table(homologous_hits_per_protein_df$Short.name))))
 interesting = interesting[-c(1:4,7)]
 interesting
 
-
-
-alnfn = "motA_hmmalign589_full.fasta"
-
 TF = domain_hits_per_protein_df$Short.name %in% interesting
 interesting_names = domain_hits_per_protein_df$Query[TF]
+interesting_gids = get_first_words(domain_hits_per_protein_df$Query[TF])
+interesting_gids
+
+# Proteins to remove as non-homologous
 names_to_remove = proteins_not_matching_df$Query
-both = c(interesting_names, names_to_remove)
+gids_to_remove = get_first_words(proteins_not_matching_df$Query)
+both = c(names_to_remove, interesting_names)
+both_gids = c(gids_to_remove, interesting_gids)
 
-other_names_TF = (domain_hits_per_protein_df$Query %in% both) == FALSE
-other_names = domain_hits_per_protein_df$Query[other_names_TF]
 
-all_names = c(both, other_names)
-
+# Load alignment to reorder
+alnfn = "motA_hmmalign589_full_tr2_order.fasta"
 aln = read.fasta(alnfn)
-fullnames = 
+gids = unname(sapply(X=aln, FUN=attr, which="name"))
+gids = gsub(pattern=">", replacement="", x=gids)
+gids
+fullnames = sapply(X=aln, FUN=attr, which="Annot")
+fullnames = gsub(pattern=">", replacement="", x=fullnames)
+
+
+
+interesting_gids_in_aln_nums = sort(find_gid_positions_in_nameslist(tmpgids=interesting_gids, nameslist=fullnames))
+
+gids_to_remove_in_aln_nums = sort(find_gid_positions_in_nameslist(tmpgids=gids_to_remove, nameslist=fullnames))
+
+nums_to_move = c(interesting_gids_in_aln_nums, gids_to_remove_in_aln_nums)
+other_nums_TF = (1:length(fullnames)) %in% nums_to_move
+nums_to_keep = (1:length(fullnames))[other_nums_TF == FALSE]
+nums_to_keep
+
+new_order_nums = c(interesting_gids_in_aln_nums, gids_to_remove_in_aln_nums, nums_to_keep)
+length(new_order_nums)
 
 aln2 = list()
-for (i in 1:length(aln))
+fullnames2 = rep("", times=length(new_order_nums))
+for (i in 1:length(new_order_nums))
 	{
-	
+	num = new_order_nums[i]
+	aln2[[i]] = aln[[num]]
+	fullnames2[i] = fullnames[num]
 	}
 
+outfn = gsub(pattern=".fasta", replacement="_domainsOrder.fasta", x=alnfn)
+write.fasta(aln2, names=fullnames2, file.out=outfn)
+
+
+
+# Additional weird ones to cut;
+
+# QDU31046.1 hypothetical protein ETAA8_61990 [Anatilimnocola aggregata]
+
+# Positions 548-809 -- realign outside of this
 

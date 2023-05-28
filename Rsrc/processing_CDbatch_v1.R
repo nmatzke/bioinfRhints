@@ -1,6 +1,12 @@
 #######################################################
 # Processing CD-Batch
 #######################################################
+setup='
+library(gdata)				# for trim
+library(seqinr)				# for read.fasta
+library(stringr)			# for str_squish, 
+'
+
 
 #######################################################
 # Search the concise hits of a NCBI CD (Conserved Domain) batch search
@@ -28,8 +34,6 @@
 
 read_concise_CDbatch_results <- function(search_results_fn)
 	{
-	#tdf = read.table(search_results_fn, header=TRUE, skip=7, sep="\t")
-
 	# Edits
 	lines = readLines(search_results_fn)
 	for (i in 1:length(lines))
@@ -41,8 +45,6 @@ read_concise_CDbatch_results <- function(search_results_fn)
 
 	newfn = gsub(pattern=".txt", replacement="_refmt.txt", x=search_results_fn)
 	writeLines(text=lines, con=newfn)
-
-	#strsplit(lines[8], split="\t")
 
 	tdf = read.table(newfn, header=TRUE, skip=7, sep="\t")
 	return(tdf)
@@ -129,14 +131,48 @@ get_domainsTF_in_CDbatch_results <- function(domain_hits_per_protein_df, domains
 
 
 
-get_first_words <- function(tmpstrs)
+get_first_words <- function(tmpstrs, remove_chars=c(">"))
 	{
 	firstwords = NULL
 	for (i in 1:length(tmpstrs))
 		{
-		words = strsplit(tmpstrs[i], split=" +")[[1]]
+		for (j in 1:length(remove_chars))
+			{
+			tmpstrs[i] = gsub(pattern=remove_chars[j], replacement="", x=tmpstrs[i])
+			} # END for (j in 1:length(remove_chars))
+		
+		words = strsplit(stringr::str_squish(tmpstrs[i]), split=" +")[[1]]
 		firstwords = c(firstwords, words[1])
-		}
+		} # END for (i in 1:length(tmpstrs))
 	return(firstwords)
-	}
+	} # END get_first_words
 
+
+find_gid_positions_in_nameslist <- function(tmpgids, nameslist)
+	{
+	nums = 1:length(nameslist)
+	pos_of_gids_in_nameslist = rep(NA, times=length(tmpgids))
+	warning_tick = FALSE
+	for (i in 1:length(tmpgids))
+		{
+		TF = grepl(pattern=tmpgids[i], x=nameslist)
+		# Error check:
+		if (sum(TF) == 1)
+			{
+			num = nums[TF]
+			pos_of_gids_in_nameslist[i] = num
+			} else if (sum(TF) > 1) {
+			multiple_hits = nameslist[TF]
+			multiple_hits_txt = paste0(multiple_hits, collapse=", ", sep="")
+			txt = paste0("\nWARNING: gid '", tmpgids[i], "' has ", sum(TF), " hits in nameslist: ", multiple_hits_txt)
+			warning_tick = TRUE
+			cat(txt)
+			}
+		}
+	
+	if (warning_tick == TRUE)
+		{
+		cat("\n")
+		}
+	return(pos_of_gids_in_nameslist)
+	}
