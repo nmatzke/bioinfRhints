@@ -2,6 +2,78 @@
 #######################################################
 # Source code for bioinformatics tasks
 #######################################################
+fullnames_from_readFasta <- function(aln)
+	{
+	fullnames = sapply(X=aln, FUN=attr, which="Annot")
+	fullnames = gsub(pattern=">", replacement="", x=fullnames)
+	return(fullnames)
+	}
+
+
+# Assumes: tree tip labels start with a GID
+# "fullnames" can be matched by grepl
+# "fullnames" has no huge problems (e.g. "(" characters)
+relabel_tree_tips_wGID_first <- function(tr, fullnames, split="\\|")
+	{
+	trgids = rep("", length(tr$tip.label))
+	nums = 1:length(fullnames)
+	for (i in 1:length(tr$tip.label))
+		{
+		words = strsplit(tr$tip.label[i], split=split)[[1]]
+		trgids[i] = gdata::trim(stringr::str_squish(words[1]))
+		TF = grepl(pattern=trgids[i], x=fullnames)
+		if (sum(TF) == 1)
+			{
+			num_in_fullnames = nums[TF]
+			tr$tip.label[i] = fullnames[num_in_fullnames]
+			} else if (sum(TF) == 0) {
+			pass=1
+			} else if (sum(TF) > 1) {
+			txt = paste0("\nSTOP ERROR in relabel_tree_tips_wGID_first(): gid '", trgids[i], "' had ", sum(TF), " matches in fullnames. It should only have 1 match. Printing the fullnames matches...\n")
+			cat(txt)
+			print(fullnames[TF])
+			stop(txt)
+			} # END if (sum(TF) == 1)
+		} 
+	return(tr)
+	}
+
+
+
+
+# Assumes: tree tip labels start with a GID
+# "fullnames" can be matched by grepl
+# "fullnames" has no huge problems (e.g. "(" characters)
+relabel_fastaAln_wGID_first <- function(aln_to_rename, fullnames, split="\\|")
+	{
+	alnFullnames = fullnames_from_readFasta(aln_to_rename)
+	nums = 1:length(fullnames)
+	aln2 = list()
+	j = 0
+	for (i in 1:length(aln_to_rename))
+		{
+		words = strsplit(alnFullnames[i], split=split)[[1]]
+		tmp_gid = gdata::trim(stringr::str_squish(words[1]))
+		TF = grepl(pattern=tmp_gid, x=fullnames)
+		if (sum(TF) == 1)
+			{
+			num_in_fullnames = nums[TF]
+			aln2[[(j=j+1)]] = aln_to_rename[[i]]
+			attr(aln2[[j]], which="Annot") = fullnames[num_in_fullnames]
+			} else if (sum(TF) == 0) {
+			pass=1
+			} else if (sum(TF) > 1) {
+			txt = paste0("\nSTOP ERROR in relabel_fastaAln_wGID_first(): gid '", tmp_gid, "' had ", sum(TF), " matches in fullnames. It should only have 1 match. Printing the fullnames matches...\n")
+			cat(txt)
+			print(fullnames[TF])
+			stop(txt)
+			} # END if (sum(TF) == 1)
+		} 
+	return(aln2)
+	}
+
+
+
 
 
 # Handy function

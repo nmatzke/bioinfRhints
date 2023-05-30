@@ -1,0 +1,1011 @@
+
+macro=; 
+lquote [ ; 
+
+/* THIS SCRIPT IS DERIVED FROM AQUICKIE.RUN     */
+/* I HAVE JUST TURNED OFF THE QUESTIONS IT ASKS */
+/* SO THAT IT JUST RUNS ON DEFAULTS             */
+/*                                              */
+/* Various other modifications made for         */
+/* stats, auto-run, etc.                        */
+/*                                              */
+/* -- Nick Matzke                               */
+/* "TNTR" R package                             */
+/* http://phylo.wikidot.com/tntr                */
+/*                                              */
+/* Options being used (change manually)         */
+/* plot synapomorphies: yes (1)                 */
+/* Bremer supports:     no  (0)                 */
+/* Bootstraps:          no  (0)                 */
+
+
+/* EXAMPLE COMMAND */
+/* cd /drives/GDrive/__GDrive_projects/2015-08-01_AFA_cladogram/_02_TNT/2015-08-25_runs/allchars_MP/ */
+/* tnt proc tmpdata.tnt, auto, zzz, ; open auto_logfile.txt; */
+
+
+if ( ntax < 3 ) 
+ if ( windows ) 
+      errmsg You must read the data set before running a quickie! ; 
+ else errmsg &10&10You must read the data set (with &34proc filename.,&34) before running a quickie! ; end 
+ end 
+
+log auto_logfile.txt; 
+
+watch=; 
+
+coll tbr ; 
+
+drift : fitd 2 rfitd 0.1 ; 
+
+var :
+  i j
+  plotapo bootit
+  runquickie dobremer
+  medium big verybig 
+;
+
+
+set medium 100 ;
+set big 500 ; 
+set verybig 1500 ;
+
+/* With these options, 1=yes, 0=no, 2=cancel/exit      */
+set plotapo 1 ;
+set runquickie 1 ; 
+set dobremer 1 ;
+set bootit 1 ; 
+
+
+
+
+/* report character codings (ordered, unordered, Sankoff, weights, etc.) being used */
+quote
+**********************************
+Begin ccodes (ordered/unordered, i.e. additive/nonadditive) being used:
+**********************************
+;
+
+/* Show them (first time, above, reads them, second time prints full constraint(s) */
+ccode ;
+
+quote
+**********************************
+End ccodes (ordered/unordered, i.e. additive/nonadditive) being used:
+**********************************
+;
+
+
+
+/* report which characters are informative */
+quote
+**********************************
+Begin report of which characters are informative (use XINACT to deactivate other characters)
+**********************************
+;
+
+/* Show which characters are informative */
+info +;
+
+quote
+**********************************
+End report of which characters are informative (use XINACT to deactivate other characters)
+**********************************
+;
+
+
+
+/* report which characters are uninformative */
+quote
+**********************************
+Begin report of which characters are uninformative (use XINACT to deactivate these characters)
+**********************************
+;
+
+/* Show which characters are uninformative */
+info -;
+
+quote
+**********************************
+End report of which characters are uninformative (use XINACT to deactivate these characters)
+**********************************
+;
+
+
+
+
+/* report constraints being used */
+quote
+**********************************
+Constraints being used:
+**********************************
+;
+/* Show them (first time, above, reads them, second time prints full constraint(s) */
+force ;
+
+quote
+**********************************
+End constraints being used:
+**********************************
+;
+
+
+
+
+/* Turn on taxa names at terminal nodes */
+taxname =;
+
+
+quote &10
+	------------------------------------------------------------
+	AUTO.RUN HARD-CODED SETTINGS
+	plotapo 'plotapo'
+	runquickie 'runquickie'
+	dobremer 'dobremer'
+	bootit 'bootit'
+	------------------------------------------------------------ ; 
+
+
+if ( ntax > 'medium' ) 
+if ( !windows ) cls ; end 
+if ( ntax < 'verybig' ) 
+quote 
+****************************************************
+ This is a large data set.  A consensus estimation 
+ instead of a complete search is recommended. 
+****************************************************
+; 
+else 
+quote 
+*************************************************************
+ This is a very large data set.  A consensus estimation 
+ instead of a complete search is VERY STRONGLY RECOMMENDED 
+*************************************************************
+;
+end 
+/* if ( !windows ) quote &10&10(press key to continue); pause ; end */
+/* set runquickie getresponse [ Run consensus estimation instead of a complete search? ] ; */
+if ( 'runquickie' == 2 ) proc/; end 
+end
+
+if ( !'runquickie' )
+ if ( windows ) 
+  quote * 
+  TNT will find most parsimonious trees for the data set,
+  with 20 independent hits to the best score, and then 
+  calculate the strict consensus, calculate supports when
+  requested, and save the results in file &34auto_logfile.txt&34.
+  The consensus tree will be saved to &34auto_strict_consensus.nex&34  in
+  Nexus format.;
+  else 
+  if ( !windows ) cls ; end 
+  quote 
+   &10
+    TNT will find most parsimonious trees for the data set,
+    with 20 independent hits to the best score, and then 
+    calculate the strict consensus, calculate supports when
+    requested, and save the results in file &34auto_logfile.txt&34.
+    The consensus tree will be saved to &34auto_strict_consensus.nex&34  in
+    Nexus format.&10&10
+   (press any key to continue);
+ /* pause ; */
+ end 
+ /* set plotapo getresponse [ Do you also wish to plot synapomorphies on the tree? ] ; */
+else 
+if ( windows ) 
+ quote * 
+ TNT will estimate the strict consensus tree for the data set,
+ calculate approximate supports (when requested), and save the
+ results in file &34auto_logfile.txt&34.  The consensus tree will be
+ saved to &34auto_strict_consensus.nex&34  in Nexus format.;
+ else 
+ if ( !windows ) cls ; end 
+ quote 
+   &10
+    TNT will estimate the strict consensus tree for the data set,
+    calculate approximate supports (when requested), and save the
+    results in file &34auto_logfile.txt&34.  The consensus tree will be
+    saved to &34auto_strict_consensus.nex&34  in Nexus format.&10&10
+   (press any key to continue);
+ /* pause ; */
+ end 
+end 
+
+
+
+
+
+
+
+
+
+/* set dobremer getresponse [ Approximate bremer supports with TBR? ] ;	*/
+set dobremer 'dobremer' ;	
+if ( 'dobremer' == 2 ) proc/; end 	
+/* set bootit getresponse [ Calculate group supports with resampling? ] ;	*/
+set bootit 'bootit' ;
+if ( 'bootit' == 2 ) proc/; end 	
+
+
+if ( !windows ) cls ; end
+resettime ;
+
+/* Open a tree file to save topologies */
+if ( 'dobremer') tsave * MP_topologies.tnt; end
+if ( ( ntax > 'medium' ) && 'runquickie' ) 
+  set 0 ntax / 70 ; 
+  set 1 'i' / 2 ; 
+  if ( 'i' < 2 ) set i 2 ; end 
+  if ( 'j' < 3 ) set j 3 ; end 
+  if ( 'j' > 20 ) set j 20 ; end 
+  if ( 'i' > 30 ) set i 30 ; end  
+  sec: xss'/.0i'-'/.0j'+3-1 gocomb 60 fuse 4 drift 5 combstart 5 ;
+  if ( ntax < 'big' )
+       quote &10 
+        ------------------------------------------------------------
+        Search routine used: 
+           a quick consensus estimation (Goloboff &38 Farris 2001),
+           with 15 replications (each with default &34xmult&34  but
+           with 3 starting points instead of the default 5, and using 
+           XSS --see Goloboff &38 Pol 2007).  The sectorial searches
+           analyzing sectors of 60 or more taxa with a combined 
+           strategy (5 starting points, 5 cycles of tree-drifting for
+           each, fusing the results in 4 cycles).  Sectors selections:
+           XSS dividing tree in '/.0i' to '/.0j' parts, 3 times., CSS
+           and RSS with defaults.  For more details of CSS, RSS, 
+           and tree-drifting, see Goloboff 1999., for details of
+           XSS, see Goloboff &38 Pol 2007.  For details of &34xmult&34,
+           see documentation of TNT.
+           Note: for consensus calculation, trees TBR-collapsed. 
+        ------------------------------------------------------------ ; 
+       if ( 'dobremer') 
+           qnelsen [ xmu = rep 3 xss ; save ; ] ;
+       else
+           qnelsen [ xmu = rep 3 xss ; ] ;
+           end 
+
+  else
+   if ( ntax < 'verybig' ) 
+       quote &10 
+        ------------------------------------------------------------
+        Search routine used: 
+           a quick consensus estimation (Goloboff &38 Farris 2001),
+           with 15 random addition sequences, plus TBR, and sectorial 
+           searches using CSS (defaults), RSS (defaults), and 
+           XSS (dividing tree in '/.0i' to '/.0j' parts, 3 times),
+           analyzing sectors of 60 or more taxa with a combined 
+           strategy (5 starting points, 5 cycles of tree-drifting for
+           each, fusing the results in 4 cycles).  For details of 
+           CSS, RSS, and tree-drifting, see Goloboff 1999., for details 
+           of XSS, see Goloboff &38  Pol 2007.   For details of &34xmult&34,
+           see documentation of TNT.
+           Note: for consensus calculation, trees TBR-collapsed. 
+        ------------------------------------------------------------ ; 
+       if ( 'dobremer') 
+          qnelsen [ mu1=ho1 ; sec=xss ; drift=iter5; save ; ] ;
+       else
+          qnelsen [ mu1=ho1 ; sec=xss ; drift=iter5; ] ;
+          end 
+   else 
+       quote &10 
+        ------------------------------------------------------------
+        Search routine used: 
+           a quick consensus estimation (Goloboff &38 Farris 2001),
+           with 15 random addition sequences plus TBR.
+           Note: for consensus calculation, trees TBR-collapsed. 
+        ------------------------------------------------------------ ; 
+       if ( 'dobremer') 
+           qnelsen [ mu1=ho1 ; save ; ] ;
+       else
+           qnelsen [ mu1=ho1 ; ] ;
+           end 
+
+    end 
+  end 
+else 
+  report +/1 ; 
+       if ( !windows ) cls ; end 
+       quote &10
+        ------------------------------------------------------------
+        Search routine used: 
+           finding optimal score 20 times independently, using defaults
+           of &34xmult&34  plus 10 cycles of tree-drifting (Goloboff
+           1999).
+           Note: for consensus calculation, trees TBR-collapsed. 
+           ALSO NOTE: THIS IS AN OVERKILL FOR MOST DATA SETS!
+        ------------------------------------------------------------ ; 
+  hold 1000 ; 
+  sectsch:slack 50;
+  xmu = hit 20 drift 10 ;
+  /*xmult;*/
+  
+  /* Save collected trees to the file MP_topologies.tnt */
+  if ( 'dobremer') save ; end 
+
+  /* Close the file MP_topologies.tnt */
+  /* (saving happened previously */
+  if ( 'dobremer' ) tsave / ; end
+
+	/* Extra close tree file for writing (just in case) */
+	/* tsave / ; */
+	
+	
+  /* Calculate strict consensus tree, save it as the last tree in memory */
+  nelsen * ;
+  
+  
+  if ( 'plotapo') 
+       set i ntrees ; 
+       if ( !windows ) cls ; end 
+       quote &10
+        ------------------------------------------------------------
+        Synapomorphies of 'i' trees plotted on the strict 
+        consensus.  Only unambiguous synapomorphies, occuring in 
+        every tree, are indicated. This makes results much more 
+        conservative! 
+        Synapomorphies SAVED TO: auto_synapos.tnt
+        ------------------------------------------------------------ ; 
+       coll rule 3 ; 
+       set i -- ; 
+       if ( windows )
+          log & aquickie_apo.emf ;
+          end 
+       /* SYNAPOMORPHIES ON TREE, SAVED IN ttags */
+       ttag - ; /* Clear any old tags    */
+       ttag = ; /* Turn on ttags storage */
+       apo [ 0.'i' ;  /* Save apos on tree */
+       tsave * auto_synapos.tnt;
+       save *;
+       tsave / ;
+       /* SYNAPOMORPHIES in text tree, in logfile */
+       ttag - ; /* Clear any old tags    */
+       ttag );  /* Turn off storing tags */
+       apo [ 0.'i' ;
+       /* LIST OF SYNAPOMORPHIES */
+       quote &10
+*****************************************************
+START FULL LIST OF INFERRED SYNAPOMORPHIES
+;
+       ttag - ; /* Clear any old tags    */
+       ttag = ; /* Turn on ttags storage */
+       apo [- 0.'i' ;  /* Save apo full list to logfile */
+       quote &10
+*****************************************************
+END FULL LIST OF INFERRED SYNAPOMORPHIES
+;
+       if ( windows ) log /& ; end 
+       coll tbr ; 
+       end
+  tchoose { strict } ; 
+end     
+
+
+
+
+
+quote
+.
+.
+***************************************************
+Saving the trees, with synapomorphies, to auto_synapos2.tnt
+***************************************************
+;
+
+tsave / ;  /* (Close anything open!)
+
+/* Calculate strict consensus tree, save it as the last tree in memory */
+nelsen * ;
+/* set i ntrees ; */ 
+
+set i ntrees ; 
+quote &10
+------------------------------------------------------------
+Synapomorphies of 'i' trees plotted on the strict 
+consensus.  Only unambiguous synapomorphies, occuring in 
+every tree, are indicated. This makes results much more 
+conservative! 
+Synapomorphies SAVED TO: auto_synapos2.tnt
+------------------------------------------------------------ ; 
+coll rule 3 ; 
+set i -- ; 
+/* SYNAPOMORPHIES ON TREE, SAVED IN ttags */
+ttag - ; /* Clear any old tags    */
+ttag = ; /* Turn on ttags storage */
+apo [ 0.'i' ;  /* Save apos on tree */
+tsave * auto_synapos2.tnt;
+save *;
+tsave / ;
+
+
+
+
+/* Might as well save the node numbers right here */
+quote
+.
+.
+**************************************************************
+Start saving of TNT node numbers.
+Node numbers stored in: auto_nodenums.tnt
+**************************************************************
+;
+
+
+/* Turn on taxa names at terminal nodes */
+taxname =;
+
+/* Turn off "nakednedness" */
+/* (i.e., turn on printing of node numbers) */
+naked -;
+
+/* Clear any existing tree tags */
+ttag - ; 
+
+/* Turn on tree tags */
+ttag = ; 
+
+/* NOTE: "0." means "0.N" which means "trees 1-ntrees" which means all trees! */
+
+quote 
+.
+.
+***************************************************
+Show trees 0-N
+(i.e. copy legends)
+(creates messages with node numbers in the
+tree tags (=ttags, =branch labels))
+***************************************************
+;
+
+/* Plot the tree(s) to the logfile, with TNT-readable tree tags */
+/*   (creates messages to save via ttags) */
+tplot 0.;
+
+quote 
+.
+.
+***************************************************
+Printing tree(s) with node numbers in the
+tree tags (=ttags, =branch labels)
+in text-tree format
+***************************************************
+;
+
+/* Plot the tree(s) to the logfile; *=parenthetical notation */
+/*   (Does not create messages save via ttags) */
+tplot *0.;
+
+
+quote 
+.
+.
+***************************************************
+If desired, here you could save the branch lengths
+to the branch labels/tree tags
+(i.e. copy legends)
+***************************************************;
+/* Copy branch-length legend to branch tree tags */
+/*   (These WILL be saved in the tree tags) */
+/*   (uncomment to add as second tag, after the node numbers) */
+/* blength *0.; */
+
+
+quote 
+.
+.
+***************************************************
+Save tags in a readable form (to logfile)
+***************************************************
+;
+/* Save tags in a readable form (to logfile)  */
+ttags /;
+
+
+quote 
+.
+.
+***************************************************
+Print ttags ON THE TEXT-TREE to logfile
+***************************************************
+;
+/* Print ttags ON THE TEXT-TREE to logfile  */
+ttags;
+
+
+quote 
+.
+.
+***************************************************
+Saving the trees, with branchlabels/tree tags, to auto_nodenums.tnt
+***************************************************
+;
+/* Save the strict consensus tree topolog(y/ies) to TNT format */
+/* Open file */
+tsave * auto_nodenums.tnt;
+/* Save the tree(s), with tags ('*') */
+save *;
+/* Close file */
+tsave / ;
+
+
+quote
+.
+.
+**************************************************************
+Saving of TNT node numbers completed.
+Node numbers stored in: auto_nodenums.tnt
+**************************************************************
+;
+
+
+
+
+
+
+
+/* Save BRANCH LENGTHS */
+quote
+.
+.
+**************************************************************
+Start saving of parsimony branch lengths.
+Node numbers stored in: auto_branchlengths.tnt
+**************************************************************
+;
+
+
+/* Turn on taxa names at terminal nodes */
+taxname =;
+
+/* Turn off "nakednedness" */
+/* (i.e., turn on printing of node numbers) */
+naked -;
+
+/* Clear any existing tree tags */
+ttag - ; 
+
+/* Turn on tree tags */
+ttag = ; 
+
+/* NOTE: "0." means "0.N" which means "trees 1-ntrees" which means all trees! */
+
+quote 
+.
+.
+***************************************************
+Show trees 0-N
+(i.e. copy legends)
+(creates messages with node numbers in the
+tree tags (=ttags, =branch labels))
+***************************************************
+;
+
+/* Plot the tree(s) to the logfile, with TNT-readable tree tags */
+/*   (creates messages to save via ttags) */
+/* tplot 0.; */
+
+quote 
+.
+.
+***************************************************
+Printing tree(s) with node numbers in the
+tree tags (=ttags, =branch labels)
+in text-tree format
+***************************************************
+;
+
+/* Plot the tree(s) to the logfile; *=parenthetical notation */
+/*   (Does not create messages save via ttags) */
+tplot *0.;
+
+
+quote 
+.
+.
+***************************************************
+If desired, here you could save the branch lengths
+to the branch labels/tree tags
+(i.e. copy legends)
+***************************************************;
+/* Copy branch-length legend to branch tree tags */
+/*   (These WILL be saved in the tree tags) */
+/*   (uncomment to add as second tag, after the node numbers) */
+blength *0.;
+
+
+quote 
+.
+.
+***************************************************
+Save tags in a readable form (to logfile)
+***************************************************
+;
+/* Save tags in a readable form (to logfile)  */
+ttags /;
+
+
+quote 
+.
+.
+***************************************************
+Print ttags ON THE TEXT-TREE to logfile
+***************************************************
+;
+/* Print ttags ON THE TEXT-TREE to logfile  */
+ttags;
+
+
+quote 
+.
+.
+***************************************************
+Saving the trees, with branchlabels/tree tags, to outtrees.tnt
+***************************************************
+;
+/* Save the strict consensus tree topolog(y/ies) to TNT format */
+/* Open file */
+tsave * auto_branchlengths.tnt;
+/* Save the tree(s), with tags ('*') */
+save *;
+/* Close file */
+tsave / ;
+
+
+quote
+.
+.
+**************************************************************
+Saving of parsimony branch lengths complete
+Node numbers stored in: auto_branchlengths.tnt
+**************************************************************
+;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Original was inside the below loop: screwy since it ended the if-loop */
+/* tsave / ; end */
+
+
+if ( 'dobremer' )
+   /* (Put tsave command above) */
+   quote &10
+        ------------------------------------------------------------
+        Group supports are calculated by TBR-swapping the trees
+        found, keeping note of the number of steps needed to
+        lose each group.  The labels on branches show absolute
+        and relative bremer supports (Goloboff &38  Farris 2001).
+        Groups indicated with a question mark (?) are those
+        for which the absolute bremer supports appear to be
+        10 or more... 
+        ------------------------------------------------------------ ; 
+   /* Absolute Bremer support */
+   /* turn on taxon names */
+   taxname =;
+   quote 
+***************************************************
+Absolute Bremer support analysis
+***************************************************
+;
+   /* Clear any previous tree tags */
+   ttags -;
+   subopt 9 ; 
+   ttag= ;
+   proc MP_topologies.tnt ;
+   /* Absolute Bremer supports */
+   bsupport !!+0 1. ;
+   quote 
+***************************************************
+Absolute Bremer support: Save tags in a readable form (to logfile)
+;
+   /* Save tags in a readable form (to logfile)  */
+   ttags /;
+   quote 
+***************************************************
+Print ttags ON THE TEXT-TREE to logfile
+;
+   /* Print ttags ON THE TEXT-TREE to logfile  */
+   ttags;
+   quote 
+.
+.
+***************************************************
+Saving the trees, with branchlabels/tree tags, to outtrees.tnt
+;
+   /* Save the strict consensus tree topolog(y/ies) to TNT format */
+   /* Open file */
+   tsave * auto_BremerAbsolute.tnt;
+   /* Save the tree(s), with tags ('*') */
+   save *;
+   /* Close file */
+   tsave / ;
+   quote
+***************************************************
+Absolute Bremer support analysis: done.
+Tree saved to: auto_BremerAbsolute.tnt
+***************************************************
+.
+.
+;
+   /* If Windows, plot to emf file */
+   if ( windows ) log & auto_BremerRelative.emf ; end 
+   ttag;
+   if ( windows ) log /& ; tplot [ ; end 
+   quote
+***************************************************
+Relative Bremer support analysis
+***************************************************
+;
+   /* Clear any previous tree tags */
+   ttags -;
+   /* set suboptimal to N, relative suboptimal to R */
+   subopt 9x0.90 ;
+   ttag= ;
+   proc MP_topologies.tnt ;
+   /* Relative Bremer supports */
+   bsupport !!+0 1. ;
+   quote 
+***************************************************
+Relative Bremer support: Save tags in a readable form (to logfile)
+;
+   /* Save tags in a readable form (to logfile)  */
+   ttags /;
+   quote 
+***************************************************
+Print ttags ON THE TEXT-TREE to logfile
+;
+   /* Print ttags ON THE TEXT-TREE to logfile  */
+   ttags;
+   quote 
+.
+.
+***************************************************
+Saving the trees, with branchlabels/tree tags, to outtrees.tnt
+;
+   /* Save the strict consensus tree topolog(y/ies) to TNT format */
+   /* Open file */
+   tsave * auto_BremerRelative.tnt;
+   /* Save the tree(s), with tags ('*') */
+   save *;
+   /* Close file */
+   tsave / ;
+   quote
+***************************************************
+Relative Bremer support analysis: done.
+Tree saved to: auto_BremerRelative.tnt
+***************************************************
+.
+.
+;
+   /* If Windows, plot to emf file */
+   if ( windows ) log & auto_BremerRelative.emf ; end 
+   ttag;
+   if ( windows ) log /& ; tplot [ ; end 
+   /* Wrap up Bremer analysis */
+   subopt 0 ;
+   keep 1 ;
+   ttag - ; 
+   end
+
+
+if ( 'bootit' ) 
+  ttag = ;
+  if ( !windows ) cls ; end 
+  quote &10
+        ------------------------------------------------------------
+        Resampling is done with 100 replications of symmetric 
+        resampling (see Goloboff et al. 2003), analyzing each data 
+        set with a single random addition sequence plus TBR
+        (collapsing the resulting tree with TBR, see Goloboff &38 
+        Farris, 2001).  The labels on branches show frequency and 
+        frequency differences (see Goloboff et al. 2003).
+        ------------------------------------------------------------ ; 
+  collapse tbr ; 
+  /* freq=absolute frequencies, gc=frequency differences */
+  /* resample [ mu1=ho1; ] rep 100 freq gc from 0 ; */
+  /* mu1=ho1 means: mult 1=hold 1; (= means run as well as change settings) */
+  resample sym rep 100 frequency gc from 0 ; 
+  /* Keep 1 tree */
+  keep 1 ;   
+  quote 
+.
+.
+***************************************************
+Saving the bootstraps, with branchlabels/tree tags, to auto_Bootstraps.tnt
+;
+quote 
+***************************************************
+Bootstrap support: Save tags in a readable form (to logfile)
+;
+  /* Save tags in a readable form (to logfile)  */
+  ttags /;
+  quote 
+***************************************************
+Print ttags ON THE TEXT-TREE to logfile
+;
+  /* Print ttags ON THE TEXT-TREE to logfile  */
+  ttags;
+  /* Save the strict consensus tree topolog(y/ies) to TNT format */
+  /* Open file */
+  tsave * auto_Bootstraps.tnt
+  /* Save the tree(s), with tags ('*') */
+  save *;
+  /* Close file */
+  tsave / ;
+  quote
+***************************************************
+Bootstrap support analysis: done.
+Tree saved to: auto_Bootstraps.tnt
+***************************************************
+.
+.
+;
+  /* If windows, save tree to emf also */
+  if ( windows ) log & auto.emf ; end 
+  ttag ;
+  if ( windows ) log /& ; tplot [ ; end 
+  ttag -;
+  end
+
+
+/* Turn on taxa names at terminal nodes */
+taxname =;
+
+/* Export the strict consensus tree topology to NEXUS */
+export - auto_strict_consensus.nex ;
+
+/* Save the strict consensus tree topology to TNT format */
+/* Open file */
+tsave * auto_strict_consensus.tnt;
+/* Save the tree */
+save /;
+/* Close file */
+tsave / ;
+
+
+
+
+quote 
+***************************************************
+RUNNING OTHER STATS
+***************************************************;
+
+quote 
+***************************************************
+See the implied weights (weight of steps that are
+homoplasious) currently set (whether or not they
+are used is determined by piwe = or piwe -,
+see below
+***************************************************;
+piwe [; 
+
+quote 
+***************************************************
+Are implied weights currently being used?
+***************************************************;
+piwe ; 
+
+quote 
+***************************************************
+Choosing the last tree in memory, discarding the rest
+***************************************************;
+tchoose /;
+
+
+quote
+***************************************************
+Running Stats.run to get CI and RI
+***************************************************;
+Stats.run;
+
+
+quote 
+***************************************************
+Homoplasy for first (last) tree (0th)
+***************************************************;
+chomo 0;
+
+
+quote 
+***************************************************
+Min and Max number of steps
+***************************************************;
+minmax;
+
+
+quote
+***************************************************
+Show branch lengths for current tree
+***************************************************;
+blength 0;
+
+
+quote
+***************************************************
+report length/fit for character(s) L on tree(s) N 
+***************************************************;
+cscores 0;
+
+
+quote
+***************************************************
+report total length, for tree(s) N 
+***************************************************;
+length 0;
+
+
+quote &10
+	------------------------------------------------------------
+	AUTO.RUN HARD-CODED SETTINGS
+	plotapo 'plotapo'
+	runquickie 'runquickie'
+	dobremer 'dobremer'
+	bootit 'bootit'
+	------------------------------------------------------------ ; 
+
+
+
+
+
+
+if ( windows )
+  if ( 'bootit') 
+     quote Tree-diagram (with bremer supports) saved to file aquickie_brem.emf  ;
+     end
+  if ( 'dobremer')
+     quote Tree-diagram (with supports) saved to file auto.emf  ;
+     end 
+  if ( 'plotapo')
+     quote Synapomorphies (as diagram) saved to file aquickie_apo.emf ;
+     end
+  end 
+quote Results saved (as text) to file auto_logfile.txt &10&10; 
+
+
+
+
+
+
+
+log / ; 
+
+set i time ; 
+quote 
+***************************************************
+ANALYSIS COMPLETED (total time used: '/.0i' sec) 
+***************************************************
+
+               Please note!!
+
+    ...for each of the quantities calculated 
+    by this script, it is possible to use more
+    exhaustive and accurate (but more time
+    consuming) algorithms, or viceversa. The
+    routines used by the script are only an
+    approximation which provides a good tredoff
+    between accuracy and run-times for most data
+    sets
+
+
+;
+
+if ( !windows ) quote &10 
+
+       You can now exit TNT, typing &34zzz&34 ;
+end 
+
+proc/; 
+

@@ -1,0 +1,6 @@
+tool=seqboot
+jobname=seqboot
+jobdescription=redirected from job $JOB_NAME
+infile_databox=outfile.out (from job $JOB_NAME)
+infile=$JOB_FOLDER/outfile.out
+infile_wum_data=true

@@ -24,12 +24,61 @@ aln = read.fasta(alnfn)
 
 #trfn = "530_sequences_Alignment_contree_reRootLadder_gIDs.newick"
 #nexfn = "530_sequences_Alignment_contree_reRootLadder_gIDs.nexus"
-trfn = "motA589_ETE_trimmed_midpoint.newick"
-nexfn = "motA589_ETE_trimmed_midpoint.nexus"
-
-
-
+trfn = "motA589_ETE_trimmed_midpoint_protFirst3.newick"
 tr = read.tree(trfn)
+
+# Get tree gids
+
+tmplabels = tr$tip.label
+trgids = rep("", times=length(tr$tip.label))
+for (i in 1:length(tmplabels))
+	{
+	words = strsplit(tmplabels[i], split="\\|")
+	position = length(words[[1]])-1
+	trgids[i] = words[[1]][position]
+	}
+trgids
+trgids2 = gsub(pattern=".1", replacement="", x=trgids)
+
+# Alignment IDs
+fullnames = unlist(lapply(X=aln, FUN=attr, which="Annot"))
+fullnames = gsub(">>", "", x=fullnames)
+gid = unlist(lapply(X=aln, FUN=attr, which="name")) # gid = Genbank IDs
+gid = gsub(pattern=".1", replacement="", x=gid)
+gid = gsub(pattern=">", replacement="", x=gid)
+
+match1 = match(gid, table=trgids2)
+match2 = match(trgids2, table=gid)
+
+head(tr$tip.label)
+head(fullnames[match2])
+
+aln_to_tr_order = rev(match2)
+
+aln2 = list()
+for (i in 1:length(aln_to_tr_order))
+	{
+	aln2[[i]] = aln[[aln_to_tr_order[i]]]
+	}
+write.fasta(aln2, names=fullnames[aln_to_tr_order], file.out="aln_in_tr_order.fasta")
+
+tdf = read.csv("accessions.csv")
+
+
+newlabels = rep("", length(tmplabels))
+for (i in 1:length(tmplabels))
+	{
+	TF = trgids2[i] %in% tdf$protein
+	num = (1:length(tmplabels))[TF]
+	newlabels[i] = tdf$phylum[num]
+	}
+newlabels
+
+
+#nexfn = "motA589_ETE_trimmed_midpoint.nexus"
+
+
+
 tr2 = read.nexus(nexfn)
 
 tr2
@@ -41,8 +90,6 @@ attributes(aln[[1]])
 # Get the full names of all the sequences
 # (lapply = "list apply" = apply the function "attr" to each element in the list "aln")
 # (unlist turns the list of names into a vector)
-fullnames = unlist(lapply(X=aln, FUN=attr, which="Annot"))
-gid = unlist(lapply(X=aln, FUN=attr, which="name")) # gid = Genbank IDs
 
 # Extract the species (between brackets)
 # Examples:
