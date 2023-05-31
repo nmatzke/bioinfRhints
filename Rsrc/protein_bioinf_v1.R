@@ -115,7 +115,7 @@ library(phytools)
 library(seqinr)				# for read.fasta
 library(BioGeoBEARS)	# for cls.df
 library(gdata)				# for trim
-library(xlsx)					# for read.xlsx (replaces gdata::read.xls)
+library(openxlsx)				# for read.xlsx (replaces gdata::read.xls and xlsx::read.xlsx)
 library(stringr) 			# for regmatches
 
 sourceall("/GitHub/bioinfRhints/Rsrc/")
@@ -139,14 +139,14 @@ aln_annotations = gsub(pattern=">", replacement="", x=aln_annotations) # remove 
 
 # Name & load the Excel file containing metadata (e.g. genome filenames, species name etc.)
 xlsfn = "/GitHub/bioinfRhints/flag/gene_order_example/species_list_14102022_1page.xlsx"
-xls = xlsx::read.xlsx(file=xlsfn)
+xls = openxlsx::read.xlsx(xlsxFile=xlsfn, sheet=1)
 
 # Get the genome taxon
 xlstaxa = rep("", times=nrow(xls))
 for (i in 1:nrow(xls))
 	{
 	tmp = paste(xls$Genus[i], xls$Species[i], xls$Strain[i], sep=" ", collapse="")
-	xlstaxa[i] = trim(gsub(pattern="  ", replacement=" ", x=tmp))
+	xlstaxa[i] = stringr::str_squish(tmp)
 	}
 
 protID = "AAC74960.1"
@@ -155,7 +155,13 @@ genome_dir = get_genome_name_from_protID(protID, genome_dirs, aln_annotations, x
 ' # END JUNK
 
 # find a protein in a genome
-get_genome_name_from_protID <- function(protID, genome_dirs, aln_annotations, xls, xlstaxa, returnwhat="genome_dir")
+# protID -> fasta label in aln_annotations
+# -> extract the strain name in [brackets] (at least anything before "=")
+# -> search the strain name in xlstaxa (which comes from xls by merging Genus, species, and strain)
+# -> from that hit, get the genomeID
+# -> return the genome_dir and/or the spname
+#
+get_genome_name_from_protID2 <- function(protID, genome_dirs, aln_annotations, xls, xlstaxa, returnwhat="genome_dir", max.distance=0.13)
 	{
 	TF = grepl(pattern=protID, x=aln_annotations)
 	match_index = (1:length(aln_annotations))[TF]
@@ -180,23 +186,39 @@ get_genome_name_from_protID <- function(protID, genome_dirs, aln_annotations, xl
 		}
 	#tmpname = gsub(pattern="\\=", replacement="EQ", x=spname)
 	
-	match_in_genomes_list = agrep(pattern=spname, x=xlstaxa, ignore.case=TRUE)
+	# agrep = approximate grep
+	match_in_genomes_list = agrep(pattern=spname, x=xlstaxa, max.distance=max.distance, ignore.case=TRUE)
 	
 	if (length(match_in_genomes_list) > 1)
 		{
-		txt = paste0("Warning in get_genome_name_from_protID(protID='", protID, "'...): >1 genome matched spname='", spname, "'. Printing them below, taking the first one.")
-		cat("\n\n")
-		cat(txt)
-		cat("\nxlstaxa[match_in_genomes_list]:\n")
-		print(xlstaxa[match_in_genomes_list])
-		cat("\n")
-		warning(txt)
-		match_in_genomes_list = match_in_genomes_list[1]
+		tmpdists = rep(0, times=length(match_in_genomes_list))
+		
+		for (i in 1:length(match_in_genomes_list))
+			{
+			tmpdists[i] = adist(x=spname, y=xlstaxa[match_in_genomes_list[i]])
+			}
+		
+		TF = order(tmpdists) == 1
+		closest_match = xlstaxa[TF]
+		
+# 		txt = paste0("Warning in get_genome_name_from_protID(protID='", protID, "'...): >1 genome matched spname='", spname, "'. Printing them below, taking the first one.")
+# 		cat("\n\n")
+# 		cat(txt)
+# 		cat("\nxlstaxa[match_in_genomes_list]:\n")
+# 		print(xlstaxa[match_in_genomes_list])
+# 		cat("\n")
+# 		warning(txt)
+		match_in_genomes_list = closest_match[1]
 		}
 	
 	if (length(match_in_genomes_list) == 0)
 		{
-		return(NULL)
+		txt = paste0("WARNING from get_genome_name_from_protID(): no approximate grep (agrep) hit found for protID='", protID, "' at max.distance=", max.distance, ". Returning NA.")
+		cat("\n")
+		cat(txt)
+		cat("\n")
+		warning(txt)
+		return(NA)
 		}
 	
 	
