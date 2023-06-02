@@ -132,11 +132,17 @@ cd /Users/nickm/GitHub/bioinfRhints/flag/589_MotA_rename/CD-search/mafft_constra
 
 ruby regionalrealignment.rb setting3.txt motA_hmmalign589_full_tr2_order_domainsOrder_cutNonHom_ed1.fasta > motA_hmmalign589_full_tr2_order_domainsOrder_cutNonHom_ed1_MiddleConstrained3.fasta | tee motA_hmmalign589_full_tr2_order_domainsOrder_cutNonHom_ed1_MiddleConstrained3_so1.txt &
 
-iqtree -s motA_hmmalign589_full_tr2_order_domainsOrder_cutNonHom_ed1_MiddleConstrained3.fasta -m LG+F+G | tee so1.txt &
+cd /Users/nmat471/HD/GitHub/bioinfRhints/flag/589_MotA_rename/CD-search/mafft_constrained_3/
+
+iqtree -s motA_hmmalign589_full_tr2_order_domainsOrder_cutNonHom_ed1_MiddleConstrained3.fasta -m LG+F+G -bb 1000 | tee so1.txt &
 
 
 
 
+
+cd /Users/nmat471/HD/GitHub/bioinfRhints/flag/589_MotA_rename/CD-search/mafft_constrained_3/455113/
+
+iqtree -s outfile.out_nogaps.fasta -m LG+F+C60 -bb 1000 | tee so1.txt &
 
 
 

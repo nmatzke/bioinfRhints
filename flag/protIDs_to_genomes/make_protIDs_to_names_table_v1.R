@@ -1,4 +1,20 @@
 #######################################################
+# 2023-06-02 NO NO NO
+#
+# much easier to just get the names from the big name of names assembled from
+# the SINGLE megafile of _feature_table.txt files
+# 
+#######################################################
+
+
+
+
+
+
+
+
+
+#######################################################
 # Make a table linking fasta-file names to protein IDs, genome IDs, species names, phyla, etc.
 #######################################################
 
@@ -23,7 +39,7 @@ protID = "AAC74960.1"  # Escherichia coli str. K12 substr. MG1655
 # Get the list of downloaded genomes
 genomes_path = "~/Downloads/Full_genomes/genomes"	 # full dataset
 genome_dirs = list.files(path=genomes_path, pattern=NULL, recursive=FALSE)
-genome_dirs = paste0(genomes_path, "/", genome_dirs)
+#genome_dirs = paste0(genomes_path, "/", genome_dirs)
 head(genome_dirs)
 
 # Name & load the Excel file containing metadata (e.g. genome filenames, species name etc.)
@@ -48,11 +64,29 @@ for (i in 1:nrow(xls))
 
 # Get the genome director for one protID
 protID = "AAC74960.1"  # Escherichia coli str. K12 substr. MG1655
-genome_dir = get_genome_name_from_protID(protID, genome_dirs, aln_annotations, xls, xlstaxa)
+genome_dir = get_genome_name_from_protID2(protID, genome_dirs, aln_annotations, xls, xlstaxa, max.distance=0.2)
 genome_dir
 
 
 
 # Get genome IDs for everything in a FASTA file
 protIDs = gids
-matches = sapply(X=protIDs, FUN=get_genome_name_from_protID2, genome_dirs=genome_dirs, aln_annotations=aln_annotations, xls=xls, xlstaxa=xlstaxa, returnwhat="genome_dir", max.distance=0.13)
+
+protID = protIDs[11]
+returnwhat = "genome_dir"
+genomes_path = "~/Downloads/Full_genomes/"
+max.distance = 0.25
+
+genome_dir = get_genome_name_from_protID2(protIDs[11], genome_dirs=genome_dirs, aln_annotations=aln_annotations, xls=xls, xlstaxa=xlstaxa, returnwhat=returnwhat, genomes_path=genomes_path, max.distance=max.distance)
+genome_dir
+
+
+sourceall("/GitHub/bioinfRhints/Rsrc/") # for protein_bioinf_v1.R
+
+matches = sapply(X=protIDs, FUN=get_genome_name_from_protID2, genome_dirs=genome_dirs, aln_annotations=aln_annotations, xls=xls, xlstaxa=xlstaxa, returnwhat="genome_dir", genomes_path=genomes_path, max.distance=max.distance)
+
+matches
+
+
+
+
