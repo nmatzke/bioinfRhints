@@ -8,25 +8,21 @@ Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan
 
 Host:    sc-sbs-383264.uoa.auckland.ac.nz (AVX2, FMA3, 8 GB RAM)
 Command: iqtree -s outfile.out_nogaps.fasta -m LG+F+C60 -bb 1000
-Seed:    409463 (Using SPRNG - Scalable Parallel Random Number Generator)
-Time:    Fri Jun  2 16:32:17 2023
+Seed:    778999 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Jun  2 16:40:53 2023
 Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
 
 HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
 HINT: -nt AUTO will automatically determine the best number of threads to use.
 
-WARNING: Command-line argument `LG+F+C60` differs from checkpoint `LG+F+C10`
-WARNING: Command-line argument `-bb` differs from checkpoint `-bo`
-WARNING: Command-line argument `1000` differs from checkpoint `100`
-WARNING: Command-line differs from checkpoint!
 Reading alignment file outfile.out_nogaps.fasta ... Fasta format detected
-Reading fasta file: done in 0.00319719 secs using 61.84% CPU
+Reading fasta file: done in 0.001688 secs using 76.07% CPU
 Alignment most likely contains protein sequences
-Constructing alignment: done in 0.0017581 secs using 59.55% CPU
+Constructing alignment: done in 0.000850916 secs using 69.57% CPU
 Alignment has 571 sequences with 141 columns, 141 distinct patterns
 140 parsimony-informative, 0 singleton sites, 1 constant sites
                 Gap/Ambiguity  Composition  p-value
-Analyzing sequences: done in 0.000303984 secs using 89.81% CPU
+Analyzing sequences: done in 0.000177145 secs using 94.84% CPU
    1  QDU28596.1        4.96%    passed     88.26%
    2  QIZ73618.1       17.73%    passed     91.62%
    3  CAL34744.1       36.17%    failed      1.39%
@@ -624,10 +620,10 @@ NOTE: ABA05299.1 is identical to ABA03969.1 but kept for subsequent analysis
 NOTE: MBU2984437.1 is identical to ABD81792.1 but kept for subsequent analysis
 NOTE: AJJ55217.1 is identical to AJJ31712.1 but kept for subsequent analysis
 NOTE: AAC73831.1 is identical to QKY92913.1 but kept for subsequent analysis
-Checking for duplicate sequences: done in 0.00229478 secs using 62.79% CPU
+Checking for duplicate sequences: done in 0.00174594 secs using 68.39% CPU
 
-Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.285 seconds
-Generating 1000 samples for ultrafast bootstrap (seed: 409463)...
+CHECKPOINT: Initial tree restored
+Generating 1000 samples for ultrafast bootstrap (seed: 778999)...
 Model LG+F+C60 is alias for LG+F+POISSON+G+FMIX{C60pi1:1:0.0169698865,C60pi2:1:0.0211683374,C60pi3:1:0.0276589079,C60pi4:1:0.0065675964,C60pi5:1:0.0141221416,C60pi6:1:0.0068774834,C60pi7:1:0.0146909701,C60pi8:1:0.0067225777,C60pi9:1:0.0018396660,C60pi10:1:0.0102547197,C60pi11:1:0.0230896163,C60pi12:1:0.0057941033,C60pi13:1:0.0125394534,C60pi14:1:0.0204526478,C60pi15:1:0.0070629602,C60pi16:1:0.0117982741,C60pi17:1:0.0068334668,C60pi18:1:0.0433775839,C60pi19:1:0.0318278731,C60pi20:1:0.0222546108,C60pi21:1:0.0102264969,C60pi22:1:0.0150545891,C60pi23:1:0.0134159878,C60pi24:1:0.0148552065,C60pi25:1:0.0239111516,C60pi26:1:0.0128776278,C60pi27:1:0.0222318842,C60pi28:1:0.0247444742,C60pi29:1:0.0214274810,C60pi30:1:0.0115001882,C60pi31:1:0.0076017389,C60pi32:1:0.0130258568,C60pi33:1:0.0093701965,C60pi34:1:0.0467194264,C60pi35:1:0.0441940314,C60pi36:1:0.0322263154,C60pi37:1:0.0402999891,C60pi38:1:0.0150234227,C60pi39:1:0.0104589903,C60pi40:1:0.0214742395,C60pi41:1:0.0154957836,C60pi42:1:0.0101789953,C60pi43:1:0.0227980379,C60pi44:1:0.0123204539,C60pi45:1:0.0066777583,C60pi46:1:0.0004150083,C60pi47:1:0.0344385130,C60pi48:1:0.0113663379,C60pi49:1:0.0127143049,C60pi50:1:0.0124323741,C60pi51:1:0.0262124415,C60pi52:1:0.0064994957,C60pi53:1:0.0103203293,C60pi54:1:0.0142463512,C60pi55:1:0.0215600067,C60pi56:1:0.0199150700,C60pi57:1:0.0038964200,C60pi58:1:0.0113448855,C60pi59:1:0.0128595846,C60pi60:1:0.0117656776}
 
 NOTE: 3531 MB RAM (3 GB) is required!

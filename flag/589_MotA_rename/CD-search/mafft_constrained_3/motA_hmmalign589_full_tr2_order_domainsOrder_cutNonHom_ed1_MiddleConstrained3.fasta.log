@@ -11405,3 +11405,643 @@ Number of iterations: 361
 --------------------------------------------------------------------
 Optimizing NNI: done in 67.6238 secs using 95.55% CPU
 Optimizing NNI: done in 83.3916 secs using 83.33% CPU
+
+******************************************************
+CHECKPOINT: Resuming analysis from motA_hmmalign589_full_tr2_order_domainsOrder_cutNonHom_ed1_MiddleConstrained3.fasta.ckp.gz
+
+IQ-TREE multicore version 2.2.0 COVID-edition for Mac OS X 64-bit built Jun  1 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    sc-sbs-383264.uoa.auckland.ac.nz (AVX2, FMA3, 8 GB RAM)
+Command: iqtree -s motA_hmmalign589_full_tr2_order_domainsOrder_cutNonHom_ed1_MiddleConstrained3.fasta -m LG+F+G -bb 1000
+Seed:    805452 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Jun  2 16:41:12 2023
+Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file motA_hmmalign589_full_tr2_order_domainsOrder_cutNonHom_ed1_MiddleConstrained3.fasta ... Fasta format detected
+Reading fasta file: done in 0.0250249 secs using 74.68% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.017107 secs using 72.56% CPU
+WARNING: 1 sites contain only gaps or ambiguous characters.
+Alignment has 571 sequences with 2340 columns, 2123 distinct patterns
+1138 parsimony-informative, 663 singleton sites, 539 constant sites
+                Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00490499 secs using 90.13% CPU
+   1  QDU28596.1       76.15%    failed      0.00%
+   2  QIZ73618.1       80.04%    failed      0.00%
+   3  CAL34744.1       79.49%    failed      0.00%
+   4  ALF47932.1       81.32%    failed      0.00%
+   5  CAG37703.1       80.21%    failed      0.00%
+   6  ADD68377.1       80.38%    failed      0.03%
+   7  MBU2984729.1     80.17%    failed      0.00%
+   8  ABD82072.1       80.17%    failed      0.00%
+   9  AKJ64800.1       78.97%    failed      0.00%
+  10  ARN57239.1       79.36%    failed      0.00%
+  11  AKJ65465.1       79.53%    failed      0.00%
+  12  QAR33784.1       80.68%    failed      0.28%
+  13  ADD67744.1       80.90%    failed      0.09%
+  14  QEI18324.1       80.34%    failed      0.00%
+  15  MBU2986356.1     80.34%    failed      0.00%
+  16  ABD79617.1       80.34%    failed      0.00%
+  17  AOO66357.1       70.04%    failed      0.00%
+  18  DGBBEKCF_01621   79.23%    failed      0.00%
+  19  QNQ08565.1       73.97%    failed      0.00%
+  20  AAG04082.1       73.72%    failed      0.00%
+  21  QJE95399.1       77.69%    failed      0.01%
+  22  QJE97904.1       74.06%    failed      0.00%
+  23  AAP98742.1       90.09%    failed      0.12%
+  24  AGW38400.1       90.09%    failed      0.90%
+  25  AAC68198.1       90.09%    failed      0.15%
+  26  AVM88605.1       90.09%    failed      0.40%
+  27  ADG93510.1       93.93%    failed      0.29%
+  28  AOO66396.1       94.10%    failed      1.31%
+  29  ADN08701.1       93.63%    failed      4.19%
+  30  ABC78648.1       93.85%    passed     19.48%
+  31  ADD67695.1       93.85%    failed      0.54%
+  32  ALA57346.1       93.97%    passed      5.40%
+  33  SLM48220.1       93.97%    passed      7.67%
+  34  AHE95642.1       93.97%    failed      0.44%
+  35  ADO46046.1       93.97%    passed     17.54%
+  36  AAC07592.1       93.68%    failed      3.00%
+  37  AKF25943.1       93.97%    passed      8.93%
+  38  AOO66288.1       93.85%    failed      1.51%
+  39  CAL35725.1       93.97%    failed      1.17%
+  40  ALF47140.1       93.93%    failed      1.64%
+  41  AVM44306.1       91.62%    passed     42.10%
+  42  ALU35076.1       90.04%    failed      0.00%
+  43  ADY61698.1       90.00%    failed      0.01%
+  44  BCB95963.1       90.21%    passed     63.58%
+  45  QVL34843.1       91.62%    failed      0.01%
+  46  APW42573.1       93.03%    passed      7.01%
+  47  MBU2987451.1     91.88%    passed     34.98%
+  48  AAG05312.1       93.25%    failed      0.01%
+  49  ADY61197.1       81.54%    failed      0.00%
+  50  CAD71788.1       78.68%    failed      0.00%
+  51  QDU95463.1       82.26%    failed      0.00%
+  52  ADB18690.1       81.11%    failed      0.00%
+  53  QDU27457.1       80.64%    failed      0.00%
+  54  ADB15801.1       87.35%    passed      7.95%
+  55  QTD50492.1       78.46%    failed      0.00%
+  56  QTD52802.1       88.68%    failed      0.20%
+  57  QVL33268.1       88.55%    failed      2.01%
+  58  QOY89286.1       89.27%    passed     21.92%
+  59  AIZ45138.1       73.59%    failed      0.00%
+  60  CDK97459.1       83.21%    failed      0.00%
+  61  BDB96353.1       83.72%    failed      0.11%
+  62  ABA05996.1       84.70%    failed      1.29%
+  63  AEO47577.1       82.99%    failed      0.00%
+  64  ADE86713.1       82.86%    failed      0.00%
+  65  AIQ93688.1       86.07%    failed      0.00%
+  66  AKF24681.1       84.27%    failed      0.03%
+  67  AOO65010.1       83.03%    failed      0.00%
+  68  QTD54135.1       79.96%    failed      0.00%
+  69  CAD77532.1       90.51%    passed      6.87%
+  70  ADY59818.1       90.77%    failed      0.96%
+  71  QQS05761.1       87.99%    passed     10.17%
+  72  QDU25289.1       87.74%    failed      0.05%
+  73  DGBBEKCF_02484   87.74%    failed      0.19%
+  74  PKPEBJJI_00564   95.43%    passed     53.39%
+  75  ACB73691.1       87.74%    failed      0.06%
+  76  ATC63650.1       87.69%    failed      2.07%
+  77  ARU42506.1       87.95%    failed      0.31%
+  78  AHZ83632.1       87.69%    failed      0.02%
+  79  CCW34551.1       87.52%    failed      0.53%
+  80  QJR36484.1       87.82%    failed      0.66%
+  81  AMW06484.1       88.63%    failed      1.72%
+  82  BAH37338.1       87.82%    failed      1.87%
+  83  ACI21445.1       87.69%    failed      0.06%
+  84  BCB96094.1       87.82%    failed      0.00%
+  85  ABC77078.1       87.05%    failed      1.92%
+  86  QOY85080.1       87.61%    passed      7.83%
+  87  ACO33337.1       87.22%    failed      0.41%
+  88  QOY86330.1       87.69%    failed      0.25%
+  89  QOY88835.1       87.82%    failed      1.66%
+  90  QEI18926.1       87.82%    failed      0.39%
+  91  AAG08339.1       87.91%    failed      1.01%
+  92  ATU65955.1       86.79%    failed      0.15%
+  93  BAC62899.1       87.82%    passed     27.68%
+  94  AJJ32757.1       87.69%    failed      1.96%
+  95  AJJ56783.1       87.69%    failed      2.14%
+  96  ATU66302.1       87.78%    failed      1.77%
+  97  UBQ05764.1       87.82%    failed      3.59%
+  98  APW42908.1       87.82%    failed      2.25%
+  99  APW43194.1       87.82%    failed      1.37%
+ 100  QKS29226.1       87.82%    failed      0.02%
+ 101  AAC74960.1       87.39%    passed      5.99%
+ 102  QKY95842.1       87.39%    passed      5.45%
+ 103  QXB11670.1       87.35%    failed      2.52%
+ 104  AJJ54987.1       87.39%    failed      4.57%
+ 105  AJJ32465.1       87.39%    passed      5.60%
+ 106  AEI89251.1       87.99%    failed      0.00%
+ 107  AIQ92722.1       87.74%    failed      1.14%
+ 108  AIK95837.1       87.78%    passed      9.20%
+ 109  AEO48360.1       87.14%    passed      5.24%
+ 110  CDK98316.1       87.78%    failed      2.21%
+ 111  ABQ62189.1       85.51%    passed     44.49%
+ 112  AIQ89863.1       91.67%    passed      9.04%
+ 113  QNQ09341.1       87.74%    failed      0.04%
+ 114  AEI88772.1       89.10%    passed      6.33%
+ 115  ADE87210.1       87.65%    failed      2.08%
+ 116  WP_002721884.1   87.65%    passed      5.81%
+ 117  ADL02462.1       87.65%    failed      0.11%
+ 118  ACL94252.1       87.69%    failed      0.77%
+ 119  CAL34488.1       88.97%    passed     24.13%
+ 120  AOO65115.1       89.02%    failed      0.04%
+ 121  AHE95900.1       89.40%    failed      0.04%
+ 122  ADC89566.1       89.36%    failed      0.54%
+ 123  ALU34477.1       88.76%    failed      1.19%
+ 124  UPH48256.1       87.91%    failed      1.37%
+ 125  ATO49967.1       88.59%    failed      0.99%
+ 126  AJH79515.1       88.59%    failed      0.70%
+ 127  CAB13242.1       88.46%    failed      0.50%
+ 128  QOY88866.1       87.56%    failed      0.20%
+ 129  QOY85398.1       87.52%    failed      0.00%
+ 130  ACO33277.1       88.50%    failed      0.14%
+ 131  AFL88473.1       88.59%    failed      0.78%
+ 132  AFL88814.1       88.59%    failed      0.78%
+ 133  AAR36419.1       89.15%    failed      0.00%
+ 134  ACI21187.1       89.19%    failed      0.00%
+ 135  BCB96091.1       89.23%    failed      0.00%
+ 136  ACL65905.1       88.85%    failed      0.00%
+ 137  AHZ85791.1       89.32%    failed      0.41%
+ 138  BAM06016.1       88.93%    failed      0.02%
+ 139  ALA58549.1       89.06%    failed      0.00%
+ 140  QKS28544.1       89.49%    failed      0.21%
+ 141  AAG04849.1       89.49%    failed      0.04%
+ 142  QEI19744.1       89.40%    failed      0.61%
+ 143  ABD81419.1       89.49%    passed      9.39%
+ 144  MBU2985819.1     89.49%    passed      6.20%
+ 145  ACL22206.1       89.02%    failed      0.79%
+ 146  ALU36624.1       88.72%    failed      0.14%
+ 147  ADL42743.1       88.68%    failed      0.02%
+ 148  APC07539.1       88.25%    failed      0.55%
+ 149  ABY95376.1       88.38%    failed      0.02%
+ 150  APC08935.1       89.19%    failed      0.05%
+ 151  BAD41956.1       88.68%    failed      0.91%
+ 152  EKT88755.1       89.23%    failed      0.35%
+ 153  QFG02534.1       88.63%    failed      0.39%
+ 154  CCW35905.1       88.89%    failed      0.00%
+ 155  QTD53836.1       89.15%    failed      0.14%
+ 156  ADN09321.1       89.15%    failed      0.09%
+ 157  ADG94140.1       89.27%    failed      0.05%
+ 158  ALF47869.1       89.10%    failed      0.23%
+ 159  QAR32385.1       89.15%    failed      1.89%
+ 160  ADD67090.1       89.15%    failed      0.64%
+ 161  USF23676.1       89.15%    failed      0.79%
+ 162  ATO49114.1       88.21%    failed      0.98%
+ 163  WP_015920816.1   89.19%    failed      0.44%
+ 164  QNQ12173.1       90.56%    failed      0.00%
+ 165  ABA04498.1       89.02%    failed      0.42%
+ 166  AIQ92767.1       88.46%    failed      3.80%
+ 167  QTD49844.1       87.18%    failed      2.85%
+ 168  QEO41881.1       89.15%    failed      0.00%
+ 169  BAC58952.1       89.19%    failed      0.02%
+ 170  MBU2985330.1     89.19%    failed      0.14%
+ 171  ABD82476.1       89.19%    failed      0.14%
+ 172  ADY60068.1       88.97%    failed      0.67%
+ 173  CAD76169.1       89.19%    failed      0.10%
+ 174  QDU97593.1       89.06%    failed      0.22%
+ 175  ADB18997.1       88.93%    failed      0.02%
+ 176  QDU26963.1       88.97%    failed      0.00%
+ 177  AAC07083.1       89.15%    failed      0.00%
+ 178  CAB14951.1       88.38%    passed      5.08%
+ 179  EKT86693.1       88.89%    failed      2.32%
+ 180  CCG57546.1       88.76%    failed      0.05%
+ 181  AEM21069.1       88.76%    failed      0.04%
+ 182  SCA58681.1       88.55%    failed      1.14%
+ 183  AWG41586.1       88.93%    passed     22.81%
+ 184  UOY13875.1       88.93%    passed     22.81%
+ 185  RMG20999.1       88.85%    failed      0.01%
+ 186  APC07901.1       88.63%    failed      1.87%
+ 187  CAG37394.1       89.10%    passed      9.01%
+ 188  RLG45601.1       89.15%    failed      0.00%
+ 189  AEO47025.1       88.38%    failed      0.00%
+ 190  ATX82900.1       89.15%    failed      0.30%
+ 191  ATX78565.1       89.15%    failed      0.28%
+ 192  BAS27507.1       88.50%    failed      0.15%
+ 193  QAT63225.1       88.50%    failed      0.04%
+ 194  QAT61614.1       88.68%    failed      0.20%
+ 195  UPT73159.1       86.79%    failed      1.91%
+ 196  QQS07318.1       88.89%    passed      5.03%
+ 197  CDK98228.1       88.63%    passed     16.00%
+ 198  AEO48324.1       88.25%    passed      7.04%
+ 199  AHZ83417.1       88.50%    failed      0.52%
+ 200  UBQ06690.1       87.65%    failed      0.12%
+ 201  ATX82928.1       87.95%    passed     14.66%
+ 202  ATX78592.1       87.95%    passed     13.09%
+ 203  BAS27557.1       91.28%    failed      0.53%
+ 204  BAM06053.1       90.00%    failed      0.05%
+ 205  QZZ21680.1       90.21%    passed     13.52%
+ 206  UNU18280.1       88.85%    failed      0.01%
+ 207  QIZ71789.1       88.68%    failed      4.69%
+ 208  QZZ19520.1       90.30%    failed      0.18%
+ 209  BAC89328.1       90.98%    failed      1.69%
+ 210  BAC90343.1       90.98%    failed      1.69%
+ 211  QZZ22141.1       90.81%    failed      0.02%
+ 212  UNU17462.1       90.64%    passed     13.35%
+ 213  QIZ70555.1       90.81%    passed      9.53%
+ 214  QZZ23337.1       90.94%    failed      4.06%
+ 215  AKJ64362.1       90.77%    failed      4.47%
+ 216  QJE97567.1       90.51%    passed     24.79%
+ 217  AHE96301.1       93.63%    failed      2.37%
+ 218  PKPEBJJI_00344   97.05%    passed     15.26%
+ 219  QSR85862.1       90.47%    passed     10.32%
+ 220  QSR83870.1       90.51%    failed      1.65%
+ 221  QSR84237.1       90.90%    failed      0.01%
+ 222  AWI08882.1       90.34%    passed     10.60%
+ 223  ACB75629.1       90.56%    passed     18.71%
+ 224  ATC62712.1       90.60%    passed     13.18%
+ 225  ATC64798.1       90.51%    passed     12.78%
+ 226  ACX73656.1       91.03%    passed      7.23%
+ 227  EKT88184.1       88.63%    failed      1.34%
+ 228  AVQ28424.1       91.32%    passed     13.57%
+ 229  QQS88170.1       91.32%    failed      0.06%
+ 230  ACV38437.1       91.11%    failed      2.53%
+ 231  BBM36826.1       90.98%    failed      1.10%
+ 232  AVQ29523.1       91.07%    failed      0.02%
+ 233  QQS88496.1       91.37%    failed      1.67%
+ 234  AVQ29260.1       91.20%    failed      0.09%
+ 235  QQS05296.1       90.77%    failed      1.37%
+ 236  AHZ84037.1       89.91%    passed     11.66%
+ 237  ACX75484.1       90.94%    failed      1.61%
+ 238  AWV89461.1       90.94%    failed      0.06%
+ 239  AWV89791.1       90.94%    failed      0.30%
+ 240  AUX22204.1       90.38%    passed     35.27%
+ 241  AFE07994.1       89.27%    failed      0.16%
+ 242  ADO72879.1       89.57%    passed     30.23%
+ 243  ABF87376.1       88.89%    failed      2.11%
+ 244  UEO02151.1       89.53%    failed      2.65%
+ 245  MBU2985168.1     89.66%    failed      2.14%
+ 246  ABD82214.1       89.66%    failed      3.21%
+ 247  QEI20720.1       90.34%    failed      1.56%
+ 248  MBU2986144.1     90.60%    failed      2.01%
+ 249  ABD82818.1       90.60%    failed      2.01%
+ 250  AHZ86042.1       90.34%    failed      3.70%
+ 251  AHZ84904.1       90.00%    failed      1.00%
+ 252  AUX22205.1       90.64%    failed      3.33%
+ 253  AHZ86892.1       90.94%    passed      9.76%
+ 254  ACL67782.1       90.43%    passed     33.99%
+ 255  ADO68798.1       89.49%    passed      7.62%
+ 256  AFE07995.1       89.53%    failed      0.38%
+ 257  UEO05650.1       89.53%    failed      2.26%
+ 258  ABF90777.1       89.53%    failed      2.26%
+ 259  ACX73657.1       77.69%    failed      0.00%
+ 260  ACX74513.1       77.14%    failed      0.00%
+ 261  AQU99646.1       80.13%    failed      0.00%
+ 262  ACX74512.1       90.00%    passed     15.58%
+ 263  ADD68376.1       91.54%    passed     13.65%
+ 264  AQU99647.1       90.64%    failed      0.77%
+ 265  ARN57240.1       91.07%    passed      7.94%
+ 266  AKJ65464.1       91.20%    passed     23.64%
+ 267  AKF24510.1       91.88%    failed      0.00%
+ 268  ADG93991.1       92.05%    failed      0.00%
+ 269  ADN08827.1       91.97%    failed      0.09%
+ 270  AOO64467.1       91.62%    failed      1.02%
+ 271  ALF47162.1       91.71%    failed      2.25%
+ 272  CAL34280.1       92.14%    failed      0.00%
+ 273  MBU2984728.1     94.40%    failed      2.65%
+ 274  ABD82073.1       94.40%    failed      3.23%
+ 275  BAC58429.1       80.64%    failed      0.00%
+ 276  ADG92231.1       81.32%    failed      0.00%
+ 277  QEI18407.1       80.43%    failed      0.00%
+ 278  QEO41299.1       80.47%    failed      0.00%
+ 279  BAC61495.1       80.56%    failed      0.00%
+ 280  CAG37702.1       92.56%    passed     28.18%
+ 281  AKJ64799.1       90.94%    failed      0.01%
+ 282  ADD67745.1       92.69%    failed      0.65%
+ 283  QAR33783.1       92.26%    passed     23.42%
+ 284  QEO41300.1       92.31%    failed      3.70%
+ 285  BAC61496.1       92.14%    passed     24.65%
+ 286  BAC58428.1       92.52%    passed     37.22%
+ 287  QEI18408.1       92.74%    passed     26.31%
+ 288  ADG92230.1       92.65%    failed      0.01%
+ 289  QEI18325.1       92.52%    passed     30.72%
+ 290  ABD79618.1       92.52%    passed     22.55%
+ 291  MBU2986357.1     92.52%    passed     22.55%
+ 292  QAR33430.1       91.32%    failed      2.53%
+ 293  ADD67609.1       91.15%    passed     11.08%
+ 294  BCB95942.1       92.31%    passed     13.91%
+ 295  ATX82358.1       91.07%    passed      6.68%
+ 296  ATX79248.1       91.07%    failed      4.28%
+ 297  AAC07752.1       91.28%    failed      0.14%
+ 298  AHE96346.1       91.28%    failed      0.00%
+ 299  ADO44512.1       91.28%    failed      0.00%
+ 300  ADC89509.1       91.32%    failed      0.00%
+ 301  QTD50766.1       91.24%    failed      0.25%
+ 302  USF25003.1       91.37%    failed      0.37%
+ 303  AEI15149.1       91.32%    passed      8.93%
+ 304  QAR32927.1       91.15%    failed      2.26%
+ 305  ADD67874.1       91.24%    passed     13.14%
+ 306  QAT17590.1       91.20%    failed      3.60%
+ 307  AEW00830.1       89.83%    failed      3.64%
+ 308  ABG60812.1       90.00%    failed      0.11%
+ 309  AKD04823.1       89.91%    failed      0.60%
+ 310  UAK41330.1       89.74%    failed      0.25%
+ 311  BCI63565.1       90.00%    failed      2.43%
+ 312  AIE86461.1       91.24%    failed      2.77%
+ 313  CCW36281.1       91.20%    failed      2.21%
+ 314  QTD53280.1       91.20%    passed     14.70%
+ 315  QDU92956.1       85.77%    failed      0.02%
+ 316  QDU31292.1       85.04%    failed      0.00%
+ 317  ADB17458.1       86.03%    failed      0.00%
+ 318  UAK41566.1       88.50%    failed      1.32%
+ 319  BCI63438.1       88.42%    failed      0.04%
+ 320  AKD02510.1       87.69%    failed      0.01%
+ 321  AEW03299.1       87.69%    failed      2.00%
+ 322  ABG59284.1       88.25%    failed      0.01%
+ 323  ACF14374.1       88.97%    passed      5.75%
+ 324  ACF14782.1       89.32%    failed      2.66%
+ 325  ACF11913.1       89.36%    passed     13.60%
+ 326  ACF43024.1       89.40%    passed     17.73%
+ 327  ACD90995.1       89.40%    passed      6.83%
+ 328  ABL64659.1       89.40%    passed      6.58%
+ 329  ADV67905.1       90.51%    failed      0.00%
+ 330  ALW88052.1       90.26%    failed      0.00%
+ 331  ADI15492.1       89.62%    failed      0.00%
+ 332  AEB12216.1       91.15%    failed      0.00%
+ 333  QVL33094.1       92.56%    passed      9.70%
+ 334  QOY89541.1       94.23%    passed     11.87%
+ 335  CCB87487.1       90.68%    failed      2.40%
+ 336  AKJ65567.1       90.94%    failed      1.36%
+ 337  AVM45415.1       90.81%    passed      5.97%
+ 338  QAT17178.1       90.13%    failed      0.41%
+ 339  ACB73533.1       90.68%    failed      0.72%
+ 340  AWI08418.1       90.30%    passed     10.77%
+ 341  ATC63405.1       89.83%    failed      1.88%
+ 342  QSR84174.1       89.36%    failed      0.12%
+ 343  ALJ56692.1       91.15%    passed     37.75%
+ 344  QJE97381.1       90.13%    failed      0.15%
+ 345  SEH96646.1       90.90%    failed      4.55%
+ 346  UAK42981.1       88.55%    failed      0.05%
+ 347  ACX75330.1       91.97%    passed      6.44%
+ 348  EKT87417.1       91.71%    failed      0.14%
+ 349  ADG92304.1       93.25%    failed      0.00%
+ 350  ADG92738.1       92.78%    failed      0.00%
+ 351  QVL32859.1       90.60%    passed      6.65%
+ 352  ADV63710.1       90.13%    passed     15.95%
+ 353  ADY58078.1       90.73%    passed     38.31%
+ 354  QDU27583.1       90.90%    passed     87.43%
+ 355  ADB17385.1       90.81%    passed     21.34%
+ 356  QDU94732.1       90.85%    passed     36.75%
+ 357  CAD76944.1       89.96%    passed     12.49%
+ 358  SEI00245.1       89.23%    passed     35.74%
+ 359  QJE95191.1       88.29%    failed      1.73%
+ 360  DGBBEKCF_00463   89.79%    failed      0.09%
+ 361  QSR84626.1       89.10%    failed      0.01%
+ 362  AKJ63368.1       90.30%    failed      0.00%
+ 363  AKJ64099.1       88.50%    failed      0.02%
+ 364  PKPEBJJI_00297   89.15%    failed      0.00%
+ 365  QJE97562.1       88.89%    passed     12.65%
+ 366  ADV63892.1       85.21%    failed      0.00%
+ 367  ADV63187.1       87.52%    failed      0.04%
+ 368  QVL32579.1       88.42%    failed      3.71%
+ 369  ADY58081.1       87.82%    failed      0.26%
+ 370  CAD73493.1       89.02%    failed      0.20%
+ 371  QDU98188.1       87.86%    passed      7.86%
+ 372  ADB15644.1       93.50%    failed      2.58%
+ 373  QDU25322.1       88.59%    passed      6.18%
+ 374  ADB18835.1       88.16%    failed      0.02%
+ 375  ADB16663.1       88.12%    failed      2.46%
+ 376  QDU94893.1       87.99%    failed      2.89%
+ 377  SEH93354.1       88.33%    passed      5.40%
+ 378  ARN57520.1       88.97%    failed      4.72%
+ 379  ADY61978.1       89.83%    passed     26.06%
+ 380  QDU30851.1       86.97%    failed      0.00%
+ 381  ADB15652.1       87.18%    failed      0.00%
+ 382  QDU98468.1       89.02%    failed      0.14%
+ 383  CAD74695.1       88.21%    failed      0.02%
+ 384  AWV88047.1       89.96%    passed     10.34%
+ 385  ATX81215.1       91.37%    failed      1.61%
+ 386  ATX80498.1       91.37%    failed      3.66%
+ 387  ADY81529.1       90.98%    passed     13.12%
+ 388  QKS29102.1       91.37%    failed      1.79%
+ 389  ATU65616.1       90.81%    passed     23.62%
+ 390  UBQ05954.1       90.98%    failed      0.00%
+ 391  APW42522.1       91.11%    failed      1.74%
+ 392  AAG06371.1       90.98%    passed      8.50%
+ 393  QEI19442.1       91.11%    passed     48.34%
+ 394  ABD81321.1       91.07%    passed     17.73%
+ 395  MBU2985725.1     91.07%    passed     20.72%
+ 396  CAD77369.1       86.37%    failed      0.00%
+ 397  QDU99088.1       86.62%    failed      0.03%
+ 398  QDU29130.1       86.50%    failed      2.64%
+ 399  ADB17547.1       86.62%    failed      0.64%
+ 400  ADV60824.1       85.26%    failed      0.00%
+ 401  ADY58376.1       88.21%    passed      6.13%
+ 402  CAD71937.1       85.00%    failed      3.03%
+ 403  QDU93364.1       86.88%    failed      0.01%
+ 404  QDU25761.1       88.50%    failed      0.55%
+ 405  ADB17134.1       88.29%    failed      0.38%
+ 406  ADV62354.1       81.88%    failed      0.00%
+ 407  DGBBEKCF_01299   90.98%    failed      1.91%
+ 408  QSR84464.1       90.60%    failed      1.22%
+ 409  QJE97269.1       90.09%    failed      1.66%
+ 410  SEH78546.1       91.24%    passed      5.69%
+ 411  QEO43084.1       90.26%    failed      0.01%
+ 412  BAC61768.1       90.17%    failed      1.68%
+ 413  ATU63381.1       91.54%    failed      1.91%
+ 414  ACB77180.1       91.62%    failed      3.06%
+ 415  ATC62595.1       91.24%    failed      1.37%
+ 416  AWI09431.1       91.03%    passed      6.94%
+ 417  EKT86397.1       91.41%    failed      0.70%
+ 418  AEM22241.1       91.03%    failed      0.00%
+ 419  CCG56832.1       91.07%    failed      0.00%
+ 420  AKL98121.1       91.15%    failed      0.00%
+ 421  BAC89082.1       90.60%    failed      0.70%
+ 422  UPT72618.1       86.58%    failed      0.00%
+ 423  UPT72845.1       90.98%    failed      1.75%
+ 424  ACL67494.1       90.04%    failed      0.00%
+ 425  ADO73220.1       89.96%    failed      0.00%
+ 426  AFE10516.1       89.79%    failed      0.01%
+ 427  ABF91342.1       89.74%    failed      0.01%
+ 428  UEO07578.1       89.74%    failed      0.01%
+ 429  UPT76060.1       94.79%    passed     13.00%
+ 430  EKT87439.2       91.28%    failed      0.92%
+ 431  AOO66426.1       93.68%    passed     41.46%
+ 432  UPT75425.1       90.30%    failed      0.01%
+ 433  UPT74212.1       91.84%    failed      0.00%
+ 434  AHZ86092.1       91.07%    passed     19.81%
+ 435  QQS07765.1       91.62%    failed      0.01%
+ 436  QQS07007.1       90.77%    failed      0.55%
+ 437  QQS07012.1       90.77%    failed      0.56%
+ 438  AUX23532.1       89.19%    failed      0.00%
+ 439  AWV89332.1       90.47%    failed      2.34%
+ 440  ACL64950.1       90.56%    failed      0.00%
+ 441  ADO75002.1       90.04%    failed      0.07%
+ 442  AFE08685.1       90.17%    failed      0.38%
+ 443  ADO76074.1       90.43%    failed      0.00%
+ 444  UEO05991.1       89.74%    failed      0.50%
+ 445  ABF90492.1       89.74%    failed      0.50%
+ 446  UEO04322.1       90.34%    failed      2.22%
+ 447  ABF85904.1       90.34%    failed      2.22%
+ 448  QJR34785.1       89.62%    failed      2.51%
+ 449  BAH39052.1       89.70%    passed      6.47%
+ 450  QUV79767.1       90.94%    passed     12.48%
+ 451  QOY88067.1       89.62%    failed      4.37%
+ 452  ACO31817.1       89.44%    passed     17.75%
+ 453  AFL86415.1       89.27%    failed      1.24%
+ 454  ACL63649.1       89.23%    failed      0.89%
+ 455  AUX24210.1       89.96%    failed      0.00%
+ 456  AFE08686.1       89.27%    failed      0.00%
+ 457  UEO04809.1       89.32%    failed      0.14%
+ 458  ABF92421.1       89.32%    failed      0.14%
+ 459  AUX23472.1       89.74%    failed      0.09%
+ 460  ADO70054.1       90.26%    failed      0.48%
+ 461  AFE10515.1       90.38%    failed      1.02%
+ 462  UEO03725.1       90.30%    failed      1.31%
+ 463  ABF92363.1       90.30%    failed      1.31%
+ 464  AKJ63346.1       89.44%    failed      0.19%
+ 465  AVM45096.1       88.76%    failed      1.11%
+ 466  AWI09757.1       90.26%    passed     11.29%
+ 467  ATC65746.1       90.26%    passed     20.02%
+ 468  ACB76604.1       90.00%    passed     27.69%
+ 469  ALJ56928.1       88.80%    failed      2.50%
+ 470  DGBBEKCF_00127   88.38%    failed      0.30%
+ 471  QSR84055.1       89.53%    failed      0.16%
+ 472  ALA61164.1       88.89%    passed     39.43%
+ 473  BAM06957.1       90.56%    failed      0.07%
+ 474  SLM46359.1       90.09%    failed      0.51%
+ 475  ALA60092.1       90.13%    failed      1.52%
+ 476  AHZ85825.1       90.43%    passed      5.42%
+ 477  CAG37138.1       90.09%    passed     11.52%
+ 478  AQV01680.1       89.87%    passed     14.26%
+ 479  AAR33363.1       90.38%    failed      3.15%
+ 480  QTD52661.1       90.47%    failed      2.43%
+ 481  QQS05379.1       90.34%    failed      1.18%
+ 482  AWV88602.1       89.36%    passed     17.28%
+ 483  ACL64052.1       89.02%    passed     11.08%
+ 484  ADO74176.1       90.00%    failed      4.29%
+ 485  AFE07999.1       89.83%    failed      0.88%
+ 486  ABF91581.1       89.91%    failed      1.53%
+ 487  UEO06636.1       89.91%    failed      1.53%
+ 488  ACX73814.1       90.43%    passed     14.86%
+ 489  CCB87689.1       89.70%    failed      0.06%
+ 490  ACF11057.1       90.60%    passed     13.50%
+ 491  ACF44367.1       90.64%    failed      2.24%
+ 492  ACD89825.1       90.38%    passed     26.76%
+ 493  ABL64907.1       90.38%    failed      0.46%
+ 494  QOY87643.1       90.38%    failed      0.94%
+ 495  ACO32834.1       89.15%    failed      4.62%
+ 496  AFL88606.1       88.85%    failed      0.00%
+ 497  AFL88265.1       88.85%    failed      0.00%
+ 498  AUX20279.1       89.44%    failed      0.00%
+ 499  ABC76751.1       89.40%    passed      9.30%
+ 500  BCB95125.1       91.15%    passed     14.21%
+ 501  ACI22061.1       91.07%    failed      0.02%
+ 502  ATX79746.1       90.21%    passed     16.30%
+ 503  ATX81939.1       90.21%    passed     35.80%
+ 504  AMW06740.1       89.96%    failed      0.01%
+ 505  BAH38987.1       90.04%    failed      0.01%
+ 506  QJR34845.1       89.49%    failed      0.19%
+ 507  CAL34348.1       89.19%    failed      0.00%
+ 508  AJJ31614.1       85.26%    failed      0.03%
+ 509  AJJ56099.1       85.26%    failed      0.02%
+ 510  QXB09426.1       89.62%    passed     13.75%
+ 511  QKY94846.1       89.57%    passed      6.87%
+ 512  AAC76042.1       89.57%    passed      6.87%
+ 513  WP_015921325.1   85.09%    failed      0.00%
+ 514  CDK97637.1       90.21%    failed      0.01%
+ 515  ABA05559.1       86.32%    failed      0.00%
+ 516  ABA04528.1       86.41%    failed      0.00%
+ 517  ADE86105.1       88.85%    failed      0.00%
+ 518  ABQ60495.1       86.75%    failed      0.00%
+ 519  ABA03969.1       82.91%    failed      0.00%
+ 520  ABA05299.1       82.01%    failed      0.00%
+ 521  AAG03587.1       89.79%    failed      0.01%
+ 522  QEI19895.1       89.62%    failed      1.02%
+ 523  ADY81773.1       90.21%    passed      5.65%
+ 524  ADY81763.1       89.57%    failed      1.16%
+ 525  ATU67891.1       90.64%    failed      0.88%
+ 526  APW44370.1       90.81%    failed      0.03%
+ 527  ADY83951.1       91.20%    failed      0.14%
+ 528  QKS29082.1       89.79%    failed      0.00%
+ 529  ATU63282.1       88.33%    failed      4.64%
+ 530  QEI19039.1       89.79%    failed      2.66%
+ 531  APW42557.1       89.83%    passed      5.01%
+ 532  UBQ06174.1       89.10%    failed      0.03%
+ 533  SNW07143.1       90.68%    passed     15.67%
+ 534  QNQ10683.1       89.06%    failed      0.07%
+ 535  ATU64277.1       88.25%    failed      0.01%
+ 536  ADY81560.1       87.48%    failed      0.76%
+ 537  BDB95989.1       90.00%    passed      5.26%
+ 538  AEO48685.1       87.35%    failed      0.00%
+ 539  AIQ91305.1       90.21%    failed      0.22%
+ 540  AEI88825.1       89.53%    failed      0.03%
+ 541  AGR80198.1       90.00%    failed      1.85%
+ 542  CDK97994.1       89.70%    passed      9.39%
+ 543  AEO47594.1       87.05%    failed      0.72%
+ 544  AIK95558.1       89.57%    passed     28.66%
+ 545  ABA05973.1       89.87%    failed      0.93%
+ 546  AIQ88683.1       89.83%    failed      2.97%
+ 547  ABQ61581.1       89.91%    failed      1.25%
+ 548  WP_002720852.1   90.09%    passed      6.28%
+ 549  ADE86923.1       90.00%    failed      0.15%
+ 550  ATU66653.1       89.87%    failed      2.47%
+ 551  UBQ04634.1       90.21%    failed      1.37%
+ 552  QKS27990.1       90.38%    passed      5.94%
+ 553  ADY82611.1       92.09%    passed     45.02%
+ 554  QEI18804.1       90.26%    failed      3.59%
+ 555  QNQ08778.1       90.09%    failed      0.35%
+ 556  ACL96805.1       90.09%    failed      0.37%
+ 557  ADL00174.1       89.10%    failed      0.02%
+ 558  BAG40198.1       90.21%    failed      0.00%
+ 559  ADL01024.1       87.48%    failed      0.00%
+ 560  ACL95886.1       87.09%    failed      0.00%
+ 561  APW43236.1       90.09%    failed      1.12%
+ 562  ABD81792.1       90.13%    passed      8.49%
+ 563  MBU2984437.1     90.13%    passed      8.49%
+ 564  AAG04358.1       90.13%    passed     31.96%
+ 565  QEO41016.1       90.30%    passed     17.26%
+ 566  BAC59320.1       90.09%    passed     21.68%
+ 567  AJJ31712.1       90.26%    passed      8.84%
+ 568  AJJ55217.1       90.26%    passed      8.84%
+ 569  QXB11428.1       90.17%    passed      6.41%
+ 570  QKY92913.1       90.17%    passed     19.96%
+ 571  AAC73831.1       90.17%    passed     19.96%
+WARNING: 571 sequences contain more than 50% gaps/ambiguity
+****  TOTAL            88.95%  420 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: AFL88814.1 is identical to AFL88473.1 but kept for subsequent analysis
+NOTE: ABD82476.1 is identical to MBU2985330.1 but kept for subsequent analysis
+NOTE: UOY13875.1 is identical to AWG41586.1 but kept for subsequent analysis
+NOTE: BAC90343.1 is identical to BAC89328.1 but kept for subsequent analysis
+NOTE: ABD82818.1 is identical to MBU2986144.1 but kept for subsequent analysis
+NOTE: ABF90777.1 is identical to UEO05650.1 but kept for subsequent analysis
+NOTE: MBU2986357.1 is identical to ABD79618.1 but kept for subsequent analysis
+NOTE: UEO07578.1 is identical to ABF91342.1 but kept for subsequent analysis
+NOTE: ABF90492.1 is identical to UEO05991.1 but kept for subsequent analysis
+NOTE: ABF85904.1 is identical to UEO04322.1 but kept for subsequent analysis
+NOTE: ABF92421.1 is identical to UEO04809.1 but kept for subsequent analysis
+NOTE: ABF92363.1 is identical to UEO03725.1 but kept for subsequent analysis
+NOTE: UEO06636.1 is identical to ABF91581.1 but kept for subsequent analysis
+NOTE: AFL88265.1 is identical to AFL88606.1 but kept for subsequent analysis
+NOTE: AAC76042.1 is identical to QKY94846.1 but kept for subsequent analysis
+NOTE: MBU2984437.1 is identical to ABD81792.1 but kept for subsequent analysis
+NOTE: AJJ55217.1 is identical to AJJ31712.1 but kept for subsequent analysis
+NOTE: AAC73831.1 is identical to QKY92913.1 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.00625086 secs using 84.37% CPU
+
+CHECKPOINT: Initial tree restored
+Generating 1000 samples for ultrafast bootstrap (seed: 805452)...
+CHECKPOINT: 1000 UFBoot trees and 0 UFBootSplits restored
+
+NOTE: 764 MB RAM (0 GB) is required!
+CHECKPOINT: Model parameters restored, LogL: -255082.317
+Wrote distance file to... 
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+CHECKPOINT: Candidate tree set restored, best LogL: -246487.797
+Finish initializing candidate tree set (20)
+Current best tree score: -246487.797 / CPU time: 0.000
+Number of iterations: 363
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 101.589 secs using 79.07% CPU
+Optimizing NNI: done in 115.176 secs using 61.16% CPU
+Optimizing NNI: done in 83.3455 secs using 80.39% CPU
+Optimizing NNI: done in 151.019 secs using 47.87% CPU
