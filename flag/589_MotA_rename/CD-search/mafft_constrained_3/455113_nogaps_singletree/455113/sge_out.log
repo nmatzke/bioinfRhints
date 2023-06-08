@@ -1,0 +1,56 @@
+parse, args = --home	/httpd/bioinfo/phylemon2	--tool	trimal	--outdir	/httpd/bioinfo/wum_sessions_v0.7/1279573/jobs/455113	--log-file	/httpd/bioinfo/wum_sessions_v0.7/1279573/jobs/455113/job.log	--method	automated1	--infile	/httpd/bioinfo/wum_sessions_v0.7/1279573/data/807931/motA_hmmalign589_full_tr2_order_domainsOrder_cutNonHom_ed1_MiddleConstrained3.fasta
+[INFO] (phylemon) OptionUtils ::
+[INFO] (phylemon) OptionUtils :: *********************************************************************************************
+[INFO] (phylemon) OptionUtils :: **** NOT in CMD, Param: w, Value: 1.0, isInCMD: false, Title: Window size, number of positions at each side to consider.
+[INFO] (phylemon) OptionUtils :: *********************************************************************************************
+[INFO] (phylemon) OptionUtils ::
+[INFO] (phylemon) OptionUtils ::
+[INFO] (phylemon) OptionUtils :: *********************************************************************************************
+[INFO] (phylemon) OptionUtils :: **** Param: infile, Value from command line: /httpd/bioinfo/wum_sessions_v0.7/1279573/data/807931/motA_hmmalign589_full_tr2_order_domainsOrder_cutNonHom_ed1_MiddleConstrained3.fasta
+[INFO] (phylemon) OptionUtils :: *********************************************************************************************
+[INFO] (phylemon) OptionUtils ::
+[INFO] (phylemon) OptionUtils ::
+[INFO] (phylemon) OptionUtils :: *********************************************************************************************
+[INFO] (phylemon) OptionUtils :: **** NOT in CMD, Param: spurious, Value: false, isInCMD: false, Title: Delete spurious sequences before trimming.
+[INFO] (phylemon) OptionUtils :: *********************************************************************************************
+[INFO] (phylemon) OptionUtils ::
+[INFO] (phylemon) OptionUtils ::
+[INFO] (phylemon) OptionUtils :: *********************************************************************************************
+[INFO] (phylemon) OptionUtils :: **** NOT in CMD, Param: resoverlap, Value: 0, isInCMD: false, Title: Column overlap.
+[INFO] (phylemon) OptionUtils :: *********************************************************************************************
+[INFO] (phylemon) OptionUtils ::
+[INFO] (phylemon) OptionUtils ::
+[INFO] (phylemon) OptionUtils :: *********************************************************************************************
+[INFO] (phylemon) OptionUtils :: **** NOT in CMD, Param: seqoverlap, Value: 0, isInCMD: false, Title: Sequence overlap.
+[INFO] (phylemon) OptionUtils :: *********************************************************************************************
+[INFO] (phylemon) OptionUtils ::
+[INFO] (phylemon) OptionUtils ::
+[INFO] (phylemon) OptionUtils :: *********************************************************************************************
+[INFO] (phylemon) OptionUtils :: **** NOT in CMD, Param: gt, Value: 0.9, isInCMD: false, Title: Gap threshold, fraction of positions without gaps in a column.
+[INFO] (phylemon) OptionUtils :: *********************************************************************************************
+[INFO] (phylemon) OptionUtils ::
+[INFO] (phylemon) OptionUtils ::
+[INFO] (phylemon) OptionUtils :: *********************************************************************************************
+[INFO] (phylemon) OptionUtils :: **** Param: method, Value from command line: automated1
+[INFO] (phylemon) OptionUtils :: *********************************************************************************************
+[INFO] (phylemon) OptionUtils ::
+[INFO] (phylemon) OptionUtils ::
+[INFO] (phylemon) OptionUtils :: *********************************************************************************************
+[INFO] (phylemon) OptionUtils :: **** NOT in CMD, Param: st, Value: 0.0, isInCMD: false, Title: Similarity threshold, minimum level of residue similarity within a column.
+[INFO] (phylemon) OptionUtils :: *********************************************************************************************
+[INFO] (phylemon) OptionUtils ::
+[INFO] (phylemon) OptionUtils ::
+[INFO] (phylemon) OptionUtils :: *********************************************************************************************
+[INFO] (phylemon) OptionUtils :: **** NOT in CMD, Param: cons, Value: 60.0, isInCMD: false, Title: Minimum percentage of positions to conserve.
+[INFO] (phylemon) OptionUtils :: *********************************************************************************************
+[INFO] (phylemon) OptionUtils ::
+[INFO] (phylemon) TrimAl.java ::
+[INFO] (phylemon) TrimAl.java :: *********************************************************************************************
+[INFO] (phylemon) TrimAl.java :: **** /httpd/bioinfo/phylemon2/bin/TrimAl/trimal -in /httpd/bioinfo/wum_sessions_v0.7/1279573/data/807931/motA_hmmalign589_full_tr2_order_domainsOrder_cutNonHom_ed1_MiddleConstrained3.fasta -out /httpd/bioinfo/wum_sessions_v0.7/1279573/jobs/455113/outfile.out -automated1 
+[INFO] (phylemon) TrimAl.java :: *********************************************************************************************
+[INFO] (phylemon) TrimAl.java ::
+[INFO] (phylemon) TrimAl.java ::
+[INFO] (phylemon) TrimAl.java :: *********************************************************************************************
+[INFO] (phylemon) TrimAl.java :: **** Fichero salida:/httpd/bioinfo/wum_sessions_v0.7/1279573/jobs/455113/outfile.out
+[INFO] (phylemon) TrimAl.java :: *********************************************************************************************
+[INFO] (phylemon) TrimAl.java ::

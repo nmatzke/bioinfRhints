@@ -1,0 +1,1412 @@
+IQ-TREE multicore version 2.2.0 COVID-edition for Mac OS X 64-bit built Jun  1 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    sc-sbs-383264.uoa.auckland.ac.nz (AVX2, FMA3, 8 GB RAM)
+Command: iqtree -s motA589_ETE_trimmed.fa -m LG+F+G
+Seed:    959151 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu May 25 14:53:50 2023
+Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file motA589_ETE_trimmed.fa ... Fasta format detected
+Reading fasta file: done in 0.00321579 secs using 89.09% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.00193906 secs using 70.45% CPU
+Alignment has 589 sequences with 295 columns, 295 distinct patterns
+293 parsimony-informative, 1 singleton sites, 1 constant sites
+WARNING: Some sequence names are changed as follows:
+ABD82818.1_MotA/TolQ/ExbB_proton_channel_[Sacchar -> ABD82818.1_MotA/TolQ/ExbB_proton_channel__Sacchar
+ABD82072.1_MotA/TolQ/ExbB_proton_channel_[Sacchar -> ABD82072.1_MotA/TolQ/ExbB_proton_channel__Sacchar
+APW44370.1_flagellar_motor_protein_MotA_[Rhodofer -> APW44370.1_flagellar_motor_protein_MotA__Rhodofer
+UOY13875.1_motility_protein_A_[Treponema_pallidum -> UOY13875.1_motility_protein_A__Treponema_pallidum
+AGW38400.1_putative_transport_protein_[Chlamydia_ -> AGW38400.1_putative_transport_protein__Chlamydia_
+UAK41219.1_inorganic_phosphate_transporter_[Bacte -> UAK41219.1_inorganic_phosphate_transporter__Bacte
+ABL66229.1_hypothetical_protein_Cpha266_2232_[Chl -> ABL66229.1_hypothetical_protein_Cpha266_2232__Chl
+ATC63650.1_flagellar_motor_protein_MotA_[Nibricoc -> ATC63650.1_flagellar_motor_protein_MotA__Nibricoc
+BCI63438.1_flagellar_motor_protein_MotA_[Coprobac -> BCI63438.1_flagellar_motor_protein_MotA__Coprobac
+ADG92738.1_MotA/TolQ/ExbB_proton_channel_[Arcobac -> ADG92738.1_MotA/TolQ/ExbB_proton_channel__Arcobac
+AAG04358.1_TolQ_protein_[Pseudomonas_aeruginosa_P -> AAG04358.1_TolQ_protein__Pseudomonas_aeruginosa_P
+AUX23532.1_biopolymer_transporter_[Sorangium_cell -> AUX23532.1_biopolymer_transporter__Sorangium_cell
+AKJ65464.1_colicin_uptake_protein_TolQ_[Kiritimat -> AKJ65464.1_colicin_uptake_protein_TolQ__Kiritimat
+UPT72618.1_MAG:_MotA/TolQ/ExbB_proton_channel_fam -> UPT72618.1_MAG__MotA/TolQ/ExbB_proton_channel_fam
+MBU2985819.1_flagellar_motor_protein_[Saccharopha -> MBU2985819.1_flagellar_motor_protein__Saccharopha
+AWV88602.1_flagellar_motor_protein_MotA_[Bradymon -> AWV88602.1_flagellar_motor_protein_MotA__Bradymon
+BCB96091.1_chemotaxis_protein_MotA_[Dissulfurispi -> BCB96091.1_chemotaxis_protein_MotA__Dissulfurispi
+ADO46046.1_tonBsystem_energizer_ExbB_[Hydrogenoba -> ADO46046.1_tonBsystem_energizer_ExbB__Hydrogenoba
+ABD82214.1_MotA/TolQ/ExbB_proton_channel_[Sacchar -> ABD82214.1_MotA/TolQ/ExbB_proton_channel__Sacchar
+AUX24210.1_flagellar_motor_protein_MotA_[Sorangiu -> AUX24210.1_flagellar_motor_protein_MotA__Sorangiu
+ALA61164.1_MotA/TolQ/ExbB_proton_channel_[Nitrosp -> ALA61164.1_MotA/TolQ/ExbB_proton_channel__Nitrosp
+ADD67874.1_MotA/TolQ/ExbB_proton_channel_[Denitro -> ADD67874.1_MotA/TolQ/ExbB_proton_channel__Denitro
+ARN57520.1_Biopolymer_transport_protein_ExbB_[Sed -> ARN57520.1_Biopolymer_transport_protein_ExbB__Sed
+ALF47932.1_putative_membrane_protein_[Campylobact -> ALF47932.1_putative_membrane_protein__Campylobact
+ADC89566.1_MotA/TolQ/ExbB_proton_channel_[Thermoc -> ADC89566.1_MotA/TolQ/ExbB_proton_channel__Thermoc
+AHZ83417.1_motility_protein_A_[Bdellovibrio_bacte -> AHZ83417.1_motility_protein_A__Bdellovibrio_bacte
+ADY81529.1_hypothetical_protein_BDGL_000943_[Acin -> ADY81529.1_hypothetical_protein_BDGL_000943__Acin
+AEI89251.1_flagellar_motor_protein_MotA_[Candidat -> AEI89251.1_flagellar_motor_protein_MotA__Candidat
+ADG92230.1_MotA/TolQ/ExbB_proton_channel_[Arcobac -> ADG92230.1_MotA/TolQ/ExbB_proton_channel__Arcobac
+ADL00174.1_protein_TolQ_[Brevundimonas_subvibrioi -> ADL00174.1_protein_TolQ__Brevundimonas_subvibrioi
+QAT61614.1_motility_protein_A_[Tissierella_sp._JN -> QAT61614.1_motility_protein_A__Tissierella_sp._JN
+ACX75330.1_MotA/TolQ/ExbB_proton_channel_[Fibroba -> ACX75330.1_MotA/TolQ/ExbB_proton_channel__Fibroba
+BBM36826.1_MotA/TolQ/ExbB_proton_channel_[Pseudol -> BBM36826.1_MotA/TolQ/ExbB_proton_channel__Pseudol
+ADY61978.1_MotA/TolQ/ExbB_proton_channel_[Rubinis -> ADY61978.1_MotA/TolQ/ExbB_proton_channel__Rubinis
+QJR34845.1_hypothetical_protein_HKW67_04610_[Gemm -> QJR34845.1_hypothetical_protein_HKW67_04610__Gemm
+ATU66302.1_flagellar_motor_stator_protein_MotA_[R -> ATU66302.1_flagellar_motor_stator_protein_MotA__R
+BCI63565.1_biopolymer_transporter_ExbB_[Coprobact -> BCI63565.1_biopolymer_transporter_ExbB__Coprobact
+CAL34744.1_putative_membrane_protein_[Campylobact -> CAL34744.1_putative_membrane_protein__Campylobact
+ACV38437.1_MotA/TolQ/ExbB_proton_channel_[Leptotr -> ACV38437.1_MotA/TolQ/ExbB_proton_channel__Leptotr
+CCG56832.1_biopolymer_transport_protein_ExbB_[Bra -> CCG56832.1_biopolymer_transport_protein_ExbB__Bra
+ACB73533.1_MotA/TolQ/ExbB_proton_channel_[Opitutu -> ACB73533.1_MotA/TolQ/ExbB_proton_channel__Opitutu
+QDU25289.1_Chemotaxis_protein_LafT_[Anatilimnocol -> QDU25289.1_Chemotaxis_protein_LafT__Anatilimnocol
+CAD77369.1_probable_tolQtype_transport_protein_[R -> CAD77369.1_probable_tolQtype_transport_protein__R
+AUX27689.1_ABC_transporter_permease_[Sorangium_ce -> AUX27689.1_ABC_transporter_permease__Sorangium_ce
+ACL64052.1_protein_TolQ_[Anaeromyxobacter_dehalog -> ACL64052.1_protein_TolQ__Anaeromyxobacter_dehalog
+AEM21069.1_Flagellar_Motor_Protein_[Brachyspira_i -> AEM21069.1_Flagellar_Motor_Protein__Brachyspira_i
+ATX78565.1_chemotaxis_protein_MotA_[Mariprofundus -> ATX78565.1_chemotaxis_protein_MotA__Mariprofundus
+AFL86415.1_biopolymer_transport_protein_[Terriglo -> AFL86415.1_biopolymer_transport_protein__Terriglo
+QKS29226.1_MAG:_flagellar_motor_stator_protein_Mo -> QKS29226.1_MAG__flagellar_motor_stator_protein_Mo
+BAH37227.1_hypothetical_membrane_protein_[Gemmati -> BAH37227.1_hypothetical_membrane_protein__Gemmati
+AEO48324.1_MotA/TolQ/ExbB_proton_channel_[Rhodosp -> AEO48324.1_MotA/TolQ/ExbB_proton_channel__Rhodosp
+ACF44367.1_protein_TolQ_[Pelodictyon_phaeoclathra -> ACF44367.1_protein_TolQ__Pelodictyon_phaeoclathra
+WP_015921325.1_tonBsystem_energizer_ExbB_[Cereiba -> WP_015921325.1_tonBsystem_energizer_ExbB__Cereiba
+AAG04082.1_transport_protein_ExbB2_[Pseudomonas_a -> AAG04082.1_transport_protein_ExbB2__Pseudomonas_a
+APW42573.1_biopolymer_transporter_ExbD_[Rhodofera -> APW42573.1_biopolymer_transporter_ExbD__Rhodofera
+QEI18926.1_flagellar_motor_stator_protein_MotA_[C -> QEI18926.1_flagellar_motor_stator_protein_MotA__C
+AEV97736.1_OmpA/MotB_domain_protein_[Niastella_ko -> AEV97736.1_OmpA/MotB_domain_protein__Niastella_ko
+ABD82476.1_MotA/TolQ/ExbB_proton_channel_[Sacchar -> ABD82476.1_MotA/TolQ/ExbB_proton_channel__Sacchar
+ADE86105.1_biopolymer_transport_protein_ExbB_[Rho -> ADE86105.1_biopolymer_transport_protein_ExbB__Rho
+ATX80498.1_biopolymer_transport_protein_ExbB_[Mar -> ATX80498.1_biopolymer_transport_protein_ExbB__Mar
+ADG93991.1_MotA/TolQ/ExbB_proton_channel_[Arcobac -> ADG93991.1_MotA/TolQ/ExbB_proton_channel__Arcobac
+ACI21445.1_lateral_flagellar_motor_protein_MotA_[ -> ACI21445.1_lateral_flagellar_motor_protein_MotA__
+ACF11913.1_MotA/TolQ/ExbB_proton_channel_[Chlorob -> ACF11913.1_MotA/TolQ/ExbB_proton_channel__Chlorob
+ADB18835.1_MotA/TolQ/ExbB_proton_channel_[Pirellu -> ADB18835.1_MotA/TolQ/ExbB_proton_channel__Pirellu
+ACX75484.1_MotA/TolQ/ExbB_proton_channel_[Fibroba -> ACX75484.1_MotA/TolQ/ExbB_proton_channel__Fibroba
+QNQ08565.1_DUF2341_domaincontaining_protein_[Sphi -> QNQ08565.1_DUF2341_domaincontaining_protein__Sphi
+EKT86693.1_flagellar_motor_protein_MotP_[Leptospi -> EKT86693.1_flagellar_motor_protein_MotP__Leptospi
+CAD73493.1_probable_tolQ_protein_[Rhodopirellula_ -> CAD73493.1_probable_tolQ_protein__Rhodopirellula_
+AJJ56783.1_flagellar_motor_stator_protein_MotA_[Y -> AJJ56783.1_flagellar_motor_stator_protein_MotA__Y
+AHE96301.1_biopolymer_transporter_ExbB_[Thermocri -> AHE96301.1_biopolymer_transporter_ExbB__Thermocri
+CCB87487.1_putative_uncharacterized_protein_[Para -> CCB87487.1_putative_uncharacterized_protein__Para
+ALU36624.1_Chemotaxis_protein_MotA_[Clostridium_a -> ALU36624.1_Chemotaxis_protein_MotA__Clostridium_a
+CAL34348.1_biopolymer_transport_protein_[Campylob -> CAL34348.1_biopolymer_transport_protein__Campylob
+ABA05996.1_conserved_hypothetical_protein_[Nitrob -> ABA05996.1_conserved_hypothetical_protein__Nitrob
+CCG57546.1_flagellar_Motor_Protein_MotA_[Brachysp -> CCG57546.1_flagellar_Motor_Protein_MotA__Brachysp
+AEO47025.1_MotA/TolQ/ExbB_proton_channel_[Rhodosp -> AEO47025.1_MotA/TolQ/ExbB_proton_channel__Rhodosp
+AJJ32465.1_flagellar_motor_stator_protein_MotA_[Y -> AJJ32465.1_flagellar_motor_stator_protein_MotA__Y
+RLG45601.1_MAG:_motility_protein_A_[Candidatus_Ko -> RLG45601.1_MAG__motility_protein_A__Candidatus_Ko
+ATX78592.1_chemotaxis_protein_MotA_[Mariprofundus -> ATX78592.1_chemotaxis_protein_MotA__Mariprofundus
+ACL94252.1_flagellar_motor_stator_protein_MotA_[C -> ACL94252.1_flagellar_motor_stator_protein_MotA__C
+ADB17385.1_MotA/TolQ/ExbB_proton_channel_[Pirellu -> ADB17385.1_MotA/TolQ/ExbB_proton_channel__Pirellu
+ABA04498.1_MotA/TolQ/ExbB_proton_channel_[Nitroba -> ABA04498.1_MotA/TolQ/ExbB_proton_channel__Nitroba
+QDU94893.1_Biopolymer_transport_protein_ExbB_[Lig -> QDU94893.1_Biopolymer_transport_protein_ExbB__Lig
+UBQ05764.1_flagellar_motor_stator_protein_MotA_[T -> UBQ05764.1_flagellar_motor_stator_protein_MotA__T
+QDU31046.1_hypothetical_protein_ETAA8_61990_[Anat -> QDU31046.1_hypothetical_protein_ETAA8_61990__Anat
+ABQ60495.1_ExbB_[Brucella_ovis_ATCC_25840] -> ABQ60495.1_ExbB__Brucella_ovis_ATCC_25840_
+QDU93364.1_Biopolymer_transport_protein_ExbB_[Lig -> QDU93364.1_Biopolymer_transport_protein_ExbB__Lig
+AUX22205.1_flagellar_motor_protein_MotA_[Sorangiu -> AUX22205.1_flagellar_motor_protein_MotA__Sorangiu
+QJR36484.1_flagellar_motor_stator_protein_MotA_[G -> QJR36484.1_flagellar_motor_stator_protein_MotA__G
+SEH96646.1_mota/tolq/exbb_proton_channel_family_[ -> SEH96646.1_mota/tolq/exbb_proton_channel_family__
+ADD67744.1_MotA/TolQ/ExbB_proton_channel_[Denitro -> ADD67744.1_MotA/TolQ/ExbB_proton_channel__Denitro
+UPT76060.1_MAG:_MotA/TolQ/ExbB_proton_channel_fam -> UPT76060.1_MAG__MotA/TolQ/ExbB_proton_channel_fam
+QAT17178.1_hypothetical_protein_BU251_05250_[Cand -> QAT17178.1_hypothetical_protein_BU251_05250__Cand
+AAC76042.1_Ton_complex_subunit_ExbB_[Escherichia_ -> AAC76042.1_Ton_complex_subunit_ExbB__Escherichia_
+ACX76601.1_hypothetical_protein_Fisuc_3021_[Fibro -> ACX76601.1_hypothetical_protein_Fisuc_3021__Fibro
+AAG06371.1_probable_tolQtype_transport_protein_[P -> AAG06371.1_probable_tolQtype_transport_protein__P
+ACX74512.1_MotA/TolQ/ExbB_proton_channel_[Fibroba -> ACX74512.1_MotA/TolQ/ExbB_proton_channel__Fibroba
+ALU34477.1_MotA/TolQ/ExbB_proton_channel_[Clostri -> ALU34477.1_MotA/TolQ/ExbB_proton_channel__Clostri
+CCB87689.1_putative_uncharacterized_protein_[Para -> CCB87689.1_putative_uncharacterized_protein__Para
+QQS05761.1_MAG:_flagellar_motor_stator_protein_Mo -> QQS05761.1_MAG__flagellar_motor_stator_protein_Mo
+ACI22061.1_TolQ_protein_[Thermodesulfovibrio_yell -> ACI22061.1_TolQ_protein__Thermodesulfovibrio_yell
+CAB13242.1_motility_protein_A;_MotA_component_of_ -> CAB13242.1_motility_protein_A__MotA_component_of_
+AAC68198.1_polysaccharide_transporter_[Chlamydia_ -> AAC68198.1_polysaccharide_transporter__Chlamydia_
+CAD76944.1_probable_TolQ_[Rhodopirellula_baltica_ -> CAD76944.1_probable_TolQ__Rhodopirellula_baltica_
+ATC64798.1_flagellar_motor_protein_MotA_[Nibricoc -> ATC64798.1_flagellar_motor_protein_MotA__Nibricoc
+BAC61496.1_TonB_system_transport_protein_ExbB2_[V -> BAC61496.1_TonB_system_transport_protein_ExbB2__V
+ACO33277.1_chemotaxis_MotA_protein_[Acidobacteriu -> ACO33277.1_chemotaxis_MotA_protein__Acidobacteriu
+ATU63282.1_biopolymer_transporter_ExbB_[Rhizobact -> ATU63282.1_biopolymer_transporter_ExbB__Rhizobact
+APW43236.1_protein_TolQ_[Rhodoferax_saidenbachens -> APW43236.1_protein_TolQ__Rhodoferax_saidenbachens
+AHZ85791.1_flagellar_motor_protein_MotA_[Bdellovi -> AHZ85791.1_flagellar_motor_protein_MotA__Bdellovi
+ADD68377.1_MotA/TolQ/ExbB_proton_channel_[Denitro -> ADD68377.1_MotA/TolQ/ExbB_proton_channel__Denitro
+ABC77078.1_chemotaxis_protein_[Syntrophus_aciditr -> ABC77078.1_chemotaxis_protein__Syntrophus_aciditr
+ALA58549.1_Flagellar_motor_protein_MotA_[Nitrospi -> ALA58549.1_Flagellar_motor_protein_MotA__Nitrospi
+ATO49967.1_flagellar_motor_protein_MotA_[Brevibac -> ATO49967.1_flagellar_motor_protein_MotA__Brevibac
+AKJ65567.1_Biopolymer_transport_protein_ExbB_[Kir -> AKJ65567.1_Biopolymer_transport_protein_ExbB__Kir
+ADB15801.1_hypothetical_protein_Psta_1118_[Pirell -> ADB15801.1_hypothetical_protein_Psta_1118__Pirell
+ADE86923.1_TolQ_protein_[Rhodobacter_capsulatus_S -> ADE86923.1_TolQ_protein__Rhodobacter_capsulatus_S
+DGBBEKCF_00127_TolPal_system_protein_TolQ_[Verruc -> DGBBEKCF_00127_TolPal_system_protein_TolQ__Verruc
+CCW34551.1_flagellar_motor_stator_protein_MotA_[C -> CCW34551.1_flagellar_motor_stator_protein_MotA__C
+ALA60092.1_Protein_TolQ_[Nitrospira_moscoviensis] -> ALA60092.1_Protein_TolQ__Nitrospira_moscoviensis_
+QKS28544.1_MAG:_flagellar_motor_protein_[Candidat -> QKS28544.1_MAG__flagellar_motor_protein__Candidat
+PKPEBJJI_00564_Motility_protein_A_[CAIZXV01_Verru -> PKPEBJJI_00564_Motility_protein_A__CAIZXV01_Verru
+ADV62354.1_hypothetical_protein_Isop_1771_[Isosph -> ADV62354.1_hypothetical_protein_Isop_1771__Isosph
+ALF47140.1_TonB_system_transport_protein_ExbB_[Ca -> ALF47140.1_TonB_system_transport_protein_ExbB__Ca
+ATX81215.1_biopolymer_transport_protein_ExbB_[Mar -> ATX81215.1_biopolymer_transport_protein_ExbB__Mar
+ABQ61581.1_protein_TolQ_[Brucella_ovis_ATCC_25840 -> ABQ61581.1_protein_TolQ__Brucella_ovis_ATCC_25840
+QOY88835.1_flagellar_motor_stator_protein_MotA_[P -> QOY88835.1_flagellar_motor_stator_protein_MotA__P
+ACB73691.1_MotA/TolQ/ExbB_proton_channel_[Opitutu -> ACB73691.1_MotA/TolQ/ExbB_proton_channel__Opitutu
+AHE96346.1_TolQ_[Thermocrinis_ruber] -> AHE96346.1_TolQ__Thermocrinis_ruber_
+ADB15652.1_MotA/TolQ/ExbB_proton_channel_[Pirellu -> ADB15652.1_MotA/TolQ/ExbB_proton_channel__Pirellu
+ACL95886.1_TonB_accessory_protein_exbB_[Caulobact -> ACL95886.1_TonB_accessory_protein_exbB__Caulobact
+ADB17458.1_MotA/TolQ/ExbB_proton_channel_[Pirellu -> ADB17458.1_MotA/TolQ/ExbB_proton_channel__Pirellu
+AEB12216.1_MotA/TolQ/ExbB_proton_channel_[Marinit -> AEB12216.1_MotA/TolQ/ExbB_proton_channel__Marinit
+AFL88814.1_flagellar_motor_component_[Terriglobus -> AFL88814.1_flagellar_motor_component__Terriglobus
+CAG37394.1_related_to_flagellar_motor_apparatus_( -> CAG37394.1_related_to_flagellar_motor_apparatus__
+ACX74513.1_MotA/TolQ/ExbB_proton_channel_[Fibroba -> ACX74513.1_MotA/TolQ/ExbB_proton_channel__Fibroba
+ADY59818.1_hypothetical_protein_Plabr_2216_[Rubin -> ADY59818.1_hypothetical_protein_Plabr_2216__Rubin
+USF23676.1_Chemotaxis_protein_PomA_[Mucispirillum -> USF23676.1_Chemotaxis_protein_PomA__Mucispirillum
+AKJ64799.1_ExbB_proton_channel_family_protein_[Ki -> AKJ64799.1_ExbB_proton_channel_family_protein__Ki
+SNW07143.1_biopolymer_transport_protein_ExbB_[Eik -> SNW07143.1_biopolymer_transport_protein_ExbB__Eik
+AGR80198.1_TolQ_protein_[Anaplasma_phagocytophilu -> AGR80198.1_TolQ_protein__Anaplasma_phagocytophilu
+QAT63225.1_motility_protein_A_[Tissierella_sp._JN -> QAT63225.1_motility_protein_A__Tissierella_sp._JN
+MBU2984437.1_protein_TolQ_[Saccharophagus_degrada -> MBU2984437.1_protein_TolQ__Saccharophagus_degrada
+ACL64950.1_MotA/TolQ/ExbB_proton_channel_[Anaerom -> ACL64950.1_MotA/TolQ/ExbB_proton_channel__Anaerom
+ATU65955.1_flagellar_motor_stator_protein_MotA_[R -> ATU65955.1_flagellar_motor_stator_protein_MotA__R
+QDU94732.1_colicin_uptake_protein_TolQ_[Lignipire -> QDU94732.1_colicin_uptake_protein_TolQ__Lignipire
+AIK95558.1_biopolymer_transporter_ExbB_[Candidatu -> AIK95558.1_biopolymer_transporter_ExbB__Candidatu
+APW43194.1_flagellar_motor_stator_protein_MotA_[R -> APW43194.1_flagellar_motor_stator_protein_MotA__R
+ACX73657.1_MotA/TolQ/ExbB_proton_channel_[Fibroba -> ACX73657.1_MotA/TolQ/ExbB_proton_channel__Fibroba
+AKJ63368.1_Biopolymer_transport_protein_ExbB_[Kir -> AKJ63368.1_Biopolymer_transport_protein_ExbB__Kir
+AEI88825.1_Tolq_transport_protein_[Candidatus_Mid -> AEI88825.1_Tolq_transport_protein__Candidatus_Mid
+CAD74695.1_probable_TolQtype_transport_protein_[R -> CAD74695.1_probable_TolQtype_transport_protein__R
+AAG05312.1_hypothetical_protein_PA1924_[Pseudomon -> AAG05312.1_hypothetical_protein_PA1924__Pseudomon
+QDU98188.1_Biopolymer_transport_protein_ExbB_[Lig -> QDU98188.1_Biopolymer_transport_protein_ExbB__Lig
+AQU99647.1_MotA_[Desulfococcus_multivorans] -> AQU99647.1_MotA__Desulfococcus_multivorans_
+BAC61768.1_ExbBlike_protein_[Vibrio_parahaemolyti -> BAC61768.1_ExbBlike_protein__Vibrio_parahaemolyti
+QXB11670.1_flagellar_motor_stator_protein_MotA_[K -> QXB11670.1_flagellar_motor_stator_protein_MotA__K
+AWI09757.1_flagellar_motor_protein_MotA_[Ereboglo -> AWI09757.1_flagellar_motor_protein_MotA__Ereboglo
+SEI00245.1_mota/tolq/exbb_proton_channel_family_[ -> SEI00245.1_mota/tolq/exbb_proton_channel_family__
+QEI19744.1_flagellar_motor_protein_[Cellvibrio_ja -> QEI19744.1_flagellar_motor_protein__Cellvibrio_ja
+QQS07318.1_MAG:_MotA/TolQ/ExbB_proton_channel_fam -> QQS07318.1_MAG__MotA/TolQ/ExbB_proton_channel_fam
+AOO66426.1_TolQ_proton_channel_family_protein_[Su -> AOO66426.1_TolQ_proton_channel_family_protein__Su
+SLM48220.1_Biopolymer_transport_protein_ExbB_[Nit -> SLM48220.1_Biopolymer_transport_protein_ExbB__Nit
+ATC63405.1_flagellar_motor_protein_MotA_[Nibricoc -> ATC63405.1_flagellar_motor_protein_MotA__Nibricoc
+ALW88052.1_biopolymer_transporter_[Deinococcus_ac -> ALW88052.1_biopolymer_transporter__Deinococcus_ac
+QDU27583.1_colicin_uptake_protein_TolQ_[Anatilimn -> QDU27583.1_colicin_uptake_protein_TolQ__Anatilimn
+DGBBEKCF_01621_TolPal_system_protein_TolQ_[Verruc -> DGBBEKCF_01621_TolPal_system_protein_TolQ__Verruc
+UPT74212.1_MAG:_MotA/TolQ/ExbB_proton_channel_fam -> UPT74212.1_MAG__MotA/TolQ/ExbB_proton_channel_fam
+ACO32834.1_transporter,_MotA/TolQ/ExbB_proton_cha -> ACO32834.1_transporter__MotA/TolQ/ExbB_proton_cha
+ADI15492.1_MotA/TolQ/ExbB_proton_channel_[Trueper -> ADI15492.1_MotA/TolQ/ExbB_proton_channel__Trueper
+BCB95963.1_flagellar_motor_protein_MotA_[Dissulfu -> BCB95963.1_flagellar_motor_protein_MotA__Dissulfu
+ACF14374.1_MotA/TolQ/ExbB_proton_channel_[Chloroh -> ACF14374.1_MotA/TolQ/ExbB_proton_channel__Chloroh
+QNQ08778.1_protein_TolQ_[Sphingomonas_alpina] -> QNQ08778.1_protein_TolQ__Sphingomonas_alpina_
+AHZ83632.1_flagellar_motor_protein_MotA_[Bdellovi -> AHZ83632.1_flagellar_motor_protein_MotA__Bdellovi
+ABC78648.1_tolQ_protein_[Syntrophus_aciditrophicu -> ABC78648.1_tolQ_protein__Syntrophus_aciditrophicu
+ACB77180.1_MotA/TolQ/ExbB_proton_channel_[Opitutu -> ACB77180.1_MotA/TolQ/ExbB_proton_channel__Opitutu
+BAC62899.1_chemotaxis_LafT_protein_[Vibrio_paraha -> BAC62899.1_chemotaxis_LafT_protein__Vibrio_paraha
+AKJ64362.1_Biopolymer_transport_protein_ExbB_[Kir -> AKJ64362.1_Biopolymer_transport_protein_ExbB__Kir
+ADV63710.1_MotA/TolQ/ExbB_proton_channel_[Isospha -> ADV63710.1_MotA/TolQ/ExbB_proton_channel__Isospha
+UPT73159.1_MAG:_MotA/TolQ/ExbB_proton_channel_fam -> UPT73159.1_MAG__MotA/TolQ/ExbB_proton_channel_fam
+CDK98316.1_putative_Motility_protein_A_[Magnetosp -> CDK98316.1_putative_Motility_protein_A__Magnetosp
+ADD68376.1_MotA/TolQ/ExbB_proton_channel_[Denitro -> ADD68376.1_MotA/TolQ/ExbB_proton_channel__Denitro
+QEI18804.1_protein_TolQ_[Cellvibrio_japonicus] -> QEI18804.1_protein_TolQ__Cellvibrio_japonicus_
+ADE87210.1_chemotaxis_protein_MotA_[Rhodobacter_c -> ADE87210.1_chemotaxis_protein_MotA__Rhodobacter_c
+CCW36281.1_Biopolymer_transport_proteins_[Chthono -> CCW36281.1_Biopolymer_transport_proteins__Chthono
+QAT17590.1_ferric_siderophore_transport_system,_b -> QAT17590.1_ferric_siderophore_transport_system__b
+AQV01680.1_protein_TolQ_[Desulfococcus_multivoran -> AQV01680.1_protein_TolQ__Desulfococcus_multivoran
+ABF92363.1_transporter,_MotA/TolQ/ExbB_proton_cha -> ABF92363.1_transporter__MotA/TolQ/ExbB_proton_cha
+AHZ86092.1_tolQ_protein_[Bdellovibrio_bacteriovor -> AHZ86092.1_tolQ_protein__Bdellovibrio_bacteriovor
+QQS07012.1_MAG:_MotA/TolQ/ExbB_proton_channel_fam -> QQS07012.1_MAG__MotA/TolQ/ExbB_proton_channel_fam
+ADB17134.1_MotA/TolQ/ExbB_proton_channel_[Pirellu -> ADB17134.1_MotA/TolQ/ExbB_proton_channel__Pirellu
+AWI09431.1_flagellar_motor_protein_MotA_[Ereboglo -> AWI09431.1_flagellar_motor_protein_MotA__Ereboglo
+ALF47869.1_flagellar_motor_protein_[Campylobacter -> ALF47869.1_flagellar_motor_protein__Campylobacter
+ABD81419.1_MotA/TolQ/ExbB_proton_channel_[Sacchar -> ABD81419.1_MotA/TolQ/ExbB_proton_channel__Sacchar
+ADB17547.1_MotA/TolQ/ExbB_proton_channel_[Pirellu -> ADB17547.1_MotA/TolQ/ExbB_proton_channel__Pirellu
+AAC07752.1_TolQlike_protein_[Aquifex_aeolicus_VF5 -> AAC07752.1_TolQlike_protein__Aquifex_aeolicus_VF5
+ACX76639.1_hypothetical_protein_Fisuc_3059_[Fibro -> ACX76639.1_hypothetical_protein_Fisuc_3059__Fibro
+ADY58376.1_MotA/TolQ/ExbB_proton_channel_[Rubinis -> ADY58376.1_MotA/TolQ/ExbB_proton_channel__Rubinis
+ABD81792.1_MotA/TolQ/ExbB_proton_channel_[Sacchar -> ABD81792.1_MotA/TolQ/ExbB_proton_channel__Sacchar
+AFL88265.1_biopolymer_transport_protein_[Terriglo -> AFL88265.1_biopolymer_transport_protein__Terriglo
+USF25003.1_Biopolymer_transport_protein_ExbB_[Muc -> USF25003.1_Biopolymer_transport_protein_ExbB__Muc
+QKS29102.1_MAG:_MotA/TolQ/ExbB_proton_channel_fam -> QKS29102.1_MAG__MotA/TolQ/ExbB_proton_channel_fam
+BAC59320.1_TolQ_protein_[Vibrio_parahaemolyticus_ -> BAC59320.1_TolQ_protein__Vibrio_parahaemolyticus_
+ADG92304.1_MotA/TolQ/ExbB_proton_channel_[Arcobac -> ADG92304.1_MotA/TolQ/ExbB_proton_channel__Arcobac
+AKD02510.1_flagellar_motor_protein_MotA_[Pontibac -> AKD02510.1_flagellar_motor_protein_MotA__Pontibac
+QFG02534.1_flagellar_motor_protein_[Tepidiforma_b -> QFG02534.1_flagellar_motor_protein__Tepidiforma_b
+ADN08827.1_MotA/TolQ/ExbB_proton_channel_[Sulfuri -> ADN08827.1_MotA/TolQ/ExbB_proton_channel__Sulfuri
+ABD79617.1_MotA/TolQ/ExbB_proton_channel_[Sacchar -> ABD79617.1_MotA/TolQ/ExbB_proton_channel__Sacchar
+ACD89825.1_protein_TolQ_[Chlorobium_limicola_DSM_ -> ACD89825.1_protein_TolQ__Chlorobium_limicola_DSM_
+ADY61197.1_MotA/TolQ/ExbB_proton_channel_[Rubinis -> ADY61197.1_MotA/TolQ/ExbB_proton_channel__Rubinis
+QJE97904.1_DUF2341_domaincontaining_protein_[Lute -> QJE97904.1_DUF2341_domaincontaining_protein__Lute
+ACO33337.1_putative_chemotaxis_MotA_protein_[Acid -> ACO33337.1_putative_chemotaxis_MotA_protein__Acid
+ADN09321.1_MotA/TolQ/ExbB_proton_channel_[Sulfuri -> ADN09321.1_MotA/TolQ/ExbB_proton_channel__Sulfuri
+AEM22241.1_biopolymer_transport_protein_ExbB_[Bra -> AEM22241.1_biopolymer_transport_protein_ExbB__Bra
+CDK98228.1_putative_flagellar_motor_component_[Ma -> CDK98228.1_putative_flagellar_motor_component__Ma
+AAC73831.1_TolPal_system_protein_TolQ_[Escherichi -> AAC73831.1_TolPal_system_protein_TolQ__Escherichi
+RMG20999.1_MAG:_motility_protein_A_[Euryarchaeota -> RMG20999.1_MAG__motility_protein_A__Euryarchaeota
+ACL22206.1_MotA/TolQ/ExbB_proton_channel_[Desulfi -> ACL22206.1_MotA/TolQ/ExbB_proton_channel__Desulfi
+AOO66288.1_ferric_siderophore_transport_system,_b -> AOO66288.1_ferric_siderophore_transport_system__b
+QDU99088.1_colicin_uptake_protein_TolQ_[Lignipire -> QDU99088.1_colicin_uptake_protein_TolQ__Lignipire
+BAH37338.1_chemotaxis_MotA_protein_[Gemmatimonas_ -> BAH37338.1_chemotaxis_MotA_protein__Gemmatimonas_
+AUX22204.1_flagellar_motor_protein_MotA_[Sorangiu -> AUX22204.1_flagellar_motor_protein_MotA__Sorangiu
+AFL88606.1_biopolymer_transport_protein_[Terriglo -> AFL88606.1_biopolymer_transport_protein__Terriglo
+AOO66357.1_hypothetical_protein_SHALO_2598_[Sulfu -> AOO66357.1_hypothetical_protein_SHALO_2598__Sulfu
+AJJ54987.1_flagellar_motor_stator_protein_MotA_[Y -> AJJ54987.1_flagellar_motor_stator_protein_MotA__Y
+EKT88755.1_endoflagellar_motor_protein_[Leptospir -> EKT88755.1_endoflagellar_motor_protein__Leptospir
+ACB76604.1_MotA/TolQ/ExbB_proton_channel_[Opitutu -> ACB76604.1_MotA/TolQ/ExbB_proton_channel__Opitutu
+QIZ73618.1_flagellar_motor_protein_MotA_[Oxynema_ -> QIZ73618.1_flagellar_motor_protein_MotA__Oxynema_
+QOY85398.1_flagellar_motor_protein_[Paludibaculum -> QOY85398.1_flagellar_motor_protein__Paludibaculum
+SEH78546.1_mota/tolq/exbb_proton_channel_family_[ -> SEH78546.1_mota/tolq/exbb_proton_channel_family__
+AKF24510.1_biopolymer_transporter_[Sulfurovum_lit -> AKF24510.1_biopolymer_transporter__Sulfurovum_lit
+AAG08339.1_chemotaxis_protein_MotA_[Pseudomonas_a -> AAG08339.1_chemotaxis_protein_MotA__Pseudomonas_a
+BAD41956.1_flagellar_motor_protein_MotA_[Symbioba -> BAD41956.1_flagellar_motor_protein_MotA__Symbioba
+ACB75629.1_MotA/TolQ/ExbB_proton_channel_[Opitutu -> ACB75629.1_MotA/TolQ/ExbB_proton_channel__Opitutu
+ADL01024.1_MotA/TolQ/ExbB_proton_channel_[Brevund -> ADL01024.1_MotA/TolQ/ExbB_proton_channel__Brevund
+ARN57240.1_Biopolymer_transport_protein_ExbB_[Sed -> ARN57240.1_Biopolymer_transport_protein_ExbB__Sed
+AKJ65465.1_Biopolymer_transport_protein_ExbB_[Kir -> AKJ65465.1_Biopolymer_transport_protein_ExbB__Kir
+ADY58078.1_MotA/TolQ/ExbB_proton_channel_[Rubinis -> ADY58078.1_MotA/TolQ/ExbB_proton_channel__Rubinis
+BCB95942.1_biopolymer_transporter_ExbB_[Dissulfur -> BCB95942.1_biopolymer_transporter_ExbB__Dissulfur
+AWI08882.1_flagellar_motor_protein_MotA_[Ereboglo -> AWI08882.1_flagellar_motor_protein_MotA__Ereboglo
+ACL65905.1_MotA/TolQ/ExbB_proton_channel_[Anaerom -> ACL65905.1_MotA/TolQ/ExbB_proton_channel__Anaerom
+QKY92913.1_TolPal_system_protein_TolQ_[Shigella_s -> QKY92913.1_TolPal_system_protein_TolQ__Shigella_s
+SCA58681.1_Motility_protein_A_[Chlamydiales_bacte -> SCA58681.1_Motility_protein_A__Chlamydiales_bacte
+CAG37703.1_related_to_transport_protein_TolQ_[Des -> CAG37703.1_related_to_transport_protein_TolQ__Des
+ADV60824.1_MotA/TolQ/ExbB_proton_channel_[Isospha -> ADV60824.1_MotA/TolQ/ExbB_proton_channel__Isospha
+APC07539.1_chemotaxis_protein_PomA_[Moorella_ther -> APC07539.1_chemotaxis_protein_PomA__Moorella_ther
+BAM05883.1_hypothetical_protein_LFE_0155_[Leptosp -> BAM05883.1_hypothetical_protein_LFE_0155__Leptosp
+ADB16663.1_MotA/TolQ/ExbB_proton_channel_[Pirellu -> ADB16663.1_MotA/TolQ/ExbB_proton_channel__Pirellu
+QEI18324.1_energy_transducer_TonB_[Cellvibrio_jap -> QEI18324.1_energy_transducer_TonB__Cellvibrio_jap
+QOY85080.1_flagellar_motor_stator_protein_MotA_[P -> QOY85080.1_flagellar_motor_stator_protein_MotA__P
+EKT87439.2_TolQ_transporter_[Leptospira_santarosa -> EKT87439.2_TolQ_transporter__Leptospira_santarosa
+APW42522.1_flagellar_motor_protein_MotA_[Rhodofer -> APW42522.1_flagellar_motor_protein_MotA__Rhodofer
+BAC58428.1_TonB_system_transport_protein_ExbB2_[V -> BAC58428.1_TonB_system_transport_protein_ExbB2__V
+ALJ56928.1_Biopolymer_transport_protein_ExbB_[Can -> ALJ56928.1_Biopolymer_transport_protein_ExbB__Can
+AKJ63346.1_Biopolymer_transport_protein_ExbB_[Kir -> AKJ63346.1_Biopolymer_transport_protein_ExbB__Kir
+ADD67090.1_MotA/TolQ/ExbB_proton_channel_[Denitro -> ADD67090.1_MotA/TolQ/ExbB_proton_channel__Denitro
+QDU25322.1_Biopolymer_transport_protein_ExbB_[Ana -> QDU25322.1_Biopolymer_transport_protein_ExbB__Ana
+ACI21187.1_chemotaxis_MotA_protein_[Thermodesulfo -> ACI21187.1_chemotaxis_MotA_protein__Thermodesulfo
+QIZ70514.1_hypothetical_protein_HCG48_07910_[Oxyn -> QIZ70514.1_hypothetical_protein_HCG48_07910__Oxyn
+AKJ64099.1_Biopolymer_transport_protein_ExbB_[Kir -> AKJ64099.1_Biopolymer_transport_protein_ExbB__Kir
+AEO47594.1_MotA/TolQ/ExbB_proton_channel_[Rhodosp -> AEO47594.1_MotA/TolQ/ExbB_proton_channel__Rhodosp
+ALU35076.1_MotA/TolQ/ExbB_proton_channel_[Clostri -> ALU35076.1_MotA/TolQ/ExbB_proton_channel__Clostri
+AVM45415.1_biopolymer_transporter_ExbB_[Victivall -> AVM45415.1_biopolymer_transporter_ExbB__Victivall
+QTD54135.1_hypothetical_protein_J3U87_16945_[Sulf -> QTD54135.1_hypothetical_protein_J3U87_16945__Sulf
+ADV63425.1_hypothetical_protein_Isop_2860_[Isosph -> ADV63425.1_hypothetical_protein_Isop_2860__Isosph
+EKT87417.1_flagellar_motor_protein_MotA_[Leptospi -> EKT87417.1_flagellar_motor_protein_MotA__Leptospi
+AAP98742.1_ExbB_[Chlamydia_pneumoniae_TW183] -> AAP98742.1_ExbB__Chlamydia_pneumoniae_TW183_
+ADL02462.1_MotA/TolQ/ExbB_proton_channel_[Brevund -> ADL02462.1_MotA/TolQ/ExbB_proton_channel__Brevund
+ADL42743.1_MotA/TolQ/ExbB_proton_channel_[Caldice -> ADL42743.1_MotA/TolQ/ExbB_proton_channel__Caldice
+ACX73814.1_MotA/TolQ/ExbB_proton_channel_[Fibroba -> ACX73814.1_MotA/TolQ/ExbB_proton_channel__Fibroba
+BAC58429.1_putative_TolR_[Vibrio_parahaemolyticus -> BAC58429.1_putative_TolR__Vibrio_parahaemolyticus
+AIE86461.1_MotA/TolQ/ExbB_proton_channel_[Fimbrii -> AIE86461.1_MotA/TolQ/ExbB_proton_channel__Fimbrii
+QEO41016.1_protein_TolQ_[Vibrio_cholerae] -> QEO41016.1_protein_TolQ__Vibrio_cholerae_
+ADY61698.1_MotA/TolQ/ExbB_proton_channel_[Rubinis -> ADY61698.1_MotA/TolQ/ExbB_proton_channel__Rubinis
+QJE95399.1_hypothetical_protein_HHL09_06260_[Lute -> QJE95399.1_hypothetical_protein_HHL09_06260__Lute
+AOO66396.1_TolQ_proton_channel_family_protein_[Su -> AOO66396.1_TolQ_proton_channel_family_protein__Su
+AIK95837.1_flagellar_motor_protein_MotA_[Candidat -> AIK95837.1_flagellar_motor_protein_MotA__Candidat
+APC07901.1_chemotaxis_protein_PomA_[Moorella_ther -> APC07901.1_chemotaxis_protein_PomA__Moorella_ther
+AWG41586.1_Mot_family_proton_(H+)_or_sodium_(Na+) -> AWG41586.1_Mot_family_proton__H___or_sodium__Na__
+QKS27990.1_MAG:_protein_TolQ_[Candidatus_Accumuli -> QKS27990.1_MAG__protein_TolQ__Candidatus_Accumuli
+ADV63892.1_MotA/TolQ/ExbB_proton_channel_[Isospha -> ADV63892.1_MotA/TolQ/ExbB_proton_channel__Isospha
+ABQ62189.1_chemotaxis_motA_protein_[Brucella_ovis -> ABQ62189.1_chemotaxis_motA_protein__Brucella_ovis
+BCB95125.1_protein_TolQ_[Dissulfurispira_thermoph -> BCB95125.1_protein_TolQ__Dissulfurispira_thermoph
+EKT88184.1_biopolymer_transporter_[Leptospira_san -> EKT88184.1_biopolymer_transporter__Leptospira_san
+ADD67745.1_MotA/TolQ/ExbB_proton_channel_[Denitro -> ADD67745.1_MotA/TolQ/ExbB_proton_channel__Denitro
+QDU25761.1_Biopolymer_transport_protein_ExbB_[Ana -> QDU25761.1_Biopolymer_transport_protein_ExbB__Ana
+QDU98468.1_Biopolymer_transport_protein_ExbB_[Lig -> QDU98468.1_Biopolymer_transport_protein_ExbB__Lig
+WP_002720852.1_protein_TolQ_[Cereibacter_sphaeroi -> WP_002720852.1_protein_TolQ__Cereibacter_sphaeroi
+AAG04849.1_MotC_[Pseudomonas_aeruginosa_PAO1] -> AAG04849.1_MotC__Pseudomonas_aeruginosa_PAO1_
+ATX82928.1_chemotaxis_protein_MotA_[Mariprofundus -> ATX82928.1_chemotaxis_protein_MotA__Mariprofundus
+BAM06016.1_flagellar_motor_component_[Leptospiril -> BAM06016.1_flagellar_motor_component__Leptospiril
+UPH48256.1_flagellar_motor_stator_protein_MotA_[L -> UPH48256.1_flagellar_motor_stator_protein_MotA__L
+PKPEBJJI_00344_hypothetical_protein_[CAIZXV01_Ver -> PKPEBJJI_00344_hypothetical_protein__CAIZXV01_Ver
+ADC89509.1_MotA/TolQ/ExbB_proton_channel_[Thermoc -> ADC89509.1_MotA/TolQ/ExbB_proton_channel__Thermoc
+QJR34785.1_flagellar_motor_protein_MotA_[Gemmatim -> QJR34785.1_flagellar_motor_protein_MotA__Gemmatim
+AJJ56099.1_tonBsystem_energizer_ExbB_[Yersinia_ps -> AJJ56099.1_tonBsystem_energizer_ExbB__Yersinia_ps
+AVM45096.1_hypothetical_protein_C5Q97_10465_[Vict -> AVM45096.1_hypothetical_protein_C5Q97_10465__Vict
+AWI08418.1_flagellar_motor_protein_MotA_[Ereboglo -> AWI08418.1_flagellar_motor_protein_MotA__Ereboglo
+QEO41881.1_flagellar_motor_protein_PomA_[Vibrio_c -> QEO41881.1_flagellar_motor_protein_PomA__Vibrio_c
+ABD81321.1_MotA/TolQ/ExbB_proton_channel_[Sacchar -> ABD81321.1_MotA/TolQ/ExbB_proton_channel__Sacchar
+AKJ64800.1_Biopolymer_transport_protein_ExbB_[Kir -> AKJ64800.1_Biopolymer_transport_protein_ExbB__Kir
+QOY86330.1_flagellar_motor_stator_protein_MotA_[P -> QOY86330.1_flagellar_motor_stator_protein_MotA__P
+AHZ84904.1_gliding_motility_protein_[Bdellovibrio -> AHZ84904.1_gliding_motility_protein__Bdellovibrio
+AIZ45138.1_hypothetical_protein_QR90_08530_[Deino -> AIZ45138.1_hypothetical_protein_QR90_08530__Deino
+ADD67609.1_MotA/TolQ/ExbB_proton_channel_[Denitro -> ADD67609.1_MotA/TolQ/ExbB_proton_channel__Denitro
+AMW06740.1_hypothetical_protein_GEMMAAP_10105_[Ge -> AMW06740.1_hypothetical_protein_GEMMAAP_10105__Ge
+APW42557.1_biopolymer_transporter_[Rhodoferax_sai -> APW42557.1_biopolymer_transporter__Rhodoferax_sai
+MBU2985330.1_flagellar_motor_protein_PomA_[Saccha -> MBU2985330.1_flagellar_motor_protein_PomA__Saccha
+ADG92231.1_MotA/TolQ/ExbB_proton_channel_[Arcobac -> ADG92231.1_MotA/TolQ/ExbB_proton_channel__Arcobac
+QOY88866.1_flagellar_motor_protein_[Paludibaculum -> QOY88866.1_flagellar_motor_protein__Paludibaculum
+ACO31817.1_transporter,_MotA/TolQ/ExbB_proton_cha -> ACO31817.1_transporter__MotA/TolQ/ExbB_proton_cha
+ACX73656.1_MotA/TolQ/ExbB_proton_channel_[Fibroba -> ACX73656.1_MotA/TolQ/ExbB_proton_channel__Fibroba
+QAR32385.1_motility_protein_A_[Geovibrio_thiophil -> QAR32385.1_motility_protein_A__Geovibrio_thiophil
+ADY60068.1_MotA/TolQ/ExbB_proton_channel_[Rubinis -> ADY60068.1_MotA/TolQ/ExbB_proton_channel__Rubinis
+ATC65746.1_flagellar_motor_protein_MotA_[Nibricoc -> ATC65746.1_flagellar_motor_protein_MotA__Nibricoc
+QDU92956.1_Biopolymer_transport_protein_ExbB_[Lig -> QDU92956.1_Biopolymer_transport_protein_ExbB__Lig
+QQS07007.1_MAG:_MotA/TolQ/ExbB_proton_channel_fam -> QQS07007.1_MAG__MotA/TolQ/ExbB_proton_channel_fam
+ABY95376.1_MotA/TolQ/ExbB_proton_channel_[Thermoa -> ABY95376.1_MotA/TolQ/ExbB_proton_channel__Thermoa
+AJJ32757.1_flagellar_motor_stator_protein_MotA_[Y -> AJJ32757.1_flagellar_motor_stator_protein_MotA__Y
+ARU42506.1_flagellar_motor_stator_protein_MotA_[A -> ARU42506.1_flagellar_motor_stator_protein_MotA__A
+AJJ55217.1_protein_TolQ_[Yersinia_pseudotuberculo -> AJJ55217.1_protein_TolQ__Yersinia_pseudotuberculo
+AJJ31712.1_protein_TolQ_[Yersinia_pestis] -> AJJ31712.1_protein_TolQ__Yersinia_pestis_
+ACF43024.1_MotA/TolQ/ExbB_proton_channel_[Pelodic -> ACF43024.1_MotA/TolQ/ExbB_proton_channel__Pelodic
+UBQ04634.1_protein_TolQ_[Tepidimonas_taiwanensis] -> UBQ04634.1_protein_TolQ__Tepidimonas_taiwanensis_
+ADB18690.1_hypothetical_protein_Psta_4037_[Pirell -> ADB18690.1_hypothetical_protein_Psta_4037__Pirell
+QKY95842.1_flagellar_motor_stator_protein_MotA_[S -> QKY95842.1_flagellar_motor_stator_protein_MotA__S
+AEO48360.1_motA,_chemotaxis_(motility_protein_A)_ -> AEO48360.1_motA__chemotaxis__motility_protein_A__
+ABD79618.1_MotA/TolQ/ExbB_proton_channel_[Sacchar -> ABD79618.1_MotA/TolQ/ExbB_proton_channel__Sacchar
+DGBBEKCF_01299_TolPal_system_protein_TolQ_[Verruc -> DGBBEKCF_01299_TolPal_system_protein_TolQ__Verruc
+ATX82900.1_chemotaxis_protein_MotA_[Mariprofundus -> ATX82900.1_chemotaxis_protein_MotA__Mariprofundus
+AFL88473.1_flagellar_motor_component_[Terriglobus -> AFL88473.1_flagellar_motor_component__Terriglobus
+QNQ09341.1_flagellar_motor_stator_protein_MotA_[S -> QNQ09341.1_flagellar_motor_stator_protein_MotA__S
+ATU66653.1_protein_TolQ_[Rhizobacter_gummiphilus] -> ATU66653.1_protein_TolQ__Rhizobacter_gummiphilus_
+AKL98121.1_putative_Transporter,_MotA/TolQ/ExbB_p -> AKL98121.1_putative_Transporter__MotA/TolQ/ExbB_p
+AIQ93688.1_protein_of_unassigned_function_[Methyl -> AIQ93688.1_protein_of_unassigned_function__Methyl
+ADO44512.1_MotA/TolQ/ExbB_proton_channel_[Hydroge -> ADO44512.1_MotA/TolQ/ExbB_proton_channel__Hydroge
+ALJ56692.1_colicin_uptake_protein_TolQ_[Candidatu -> ALJ56692.1_colicin_uptake_protein_TolQ__Candidatu
+AAG03587.1_transport_protein_ExbB_[Pseudomonas_ae -> AAG03587.1_transport_protein_ExbB__Pseudomonas_ae
+AKF24681.1_hypothetical_protein_YH65_04225_[Sulfu -> AKF24681.1_hypothetical_protein_YH65_04225__Sulfu
+ADV63187.1_MotA/TolQ/ExbB_proton_channel_[Isospha -> ADV63187.1_MotA/TolQ/ExbB_proton_channel__Isospha
+QKS29082.1_MAG:_MotA/TolQ/ExbB_proton_channel_fam -> QKS29082.1_MAG__MotA/TolQ/ExbB_proton_channel_fam
+AIQ91305.1_TolQ_protein_[Methylobacterium_oryzae_ -> AIQ91305.1_TolQ_protein__Methylobacterium_oryzae_
+SEH93354.1_mota/tolq/exbb_proton_channel_family_[ -> SEH93354.1_mota/tolq/exbb_proton_channel_family__
+AKD04823.1_biopolymer_transporter_ExbB_[Pontibact -> AKD04823.1_biopolymer_transporter_ExbB__Pontibact
+ATO49114.1_chemotaxis_protein_[Brevibacillus_late -> ATO49114.1_chemotaxis_protein__Brevibacillus_late
+ACF14782.1_MotA/TolQ/ExbB_proton_channel_[Chloroh -> ACF14782.1_MotA/TolQ/ExbB_proton_channel__Chloroh
+QDU26963.1_Chemotaxis_protein_PomA_[Anatilimnocol -> QDU26963.1_Chemotaxis_protein_PomA__Anatilimnocol
+ABD82073.1_MotA/TolQ/ExbB_proton_channel_[Sacchar -> ABD82073.1_MotA/TolQ/ExbB_proton_channel__Sacchar
+ACD90995.1_MotA/TolQ/ExbB_proton_channel_[Chlorob -> ACD90995.1_MotA/TolQ/ExbB_proton_channel__Chlorob
+ADG93510.1_tonBsystem_energizer_ExbB_[Arcobacter_ -> ADG93510.1_tonBsystem_energizer_ExbB__Arcobacter_
+AIQ88683.1_TolQ_protein_[Methylobacterium_oryzae_ -> AIQ88683.1_TolQ_protein__Methylobacterium_oryzae_
+ADG94140.1_MotA/TolQ/ExbB_proton_channel_[Arcobac -> ADG94140.1_MotA/TolQ/ExbB_proton_channel__Arcobac
+QAR33784.1_hypothetical_protein_EP073_10320_[Geov -> QAR33784.1_hypothetical_protein_EP073_10320__Geov
+AEO48101.1_chemotaxis_sensory_transducer_[Rhodosp -> AEO48101.1_chemotaxis_sensory_transducer__Rhodosp
+BAS27507.1_flagellar_motor_protein_MotP_[Limnocho -> BAS27507.1_flagellar_motor_protein_MotP__Limnocho
+AQU99646.1_MotA_[Desulfococcus_multivorans] -> AQU99646.1_MotA__Desulfococcus_multivorans_
+AJJ31614.1_tonBsystem_energizer_ExbB_[Yersinia_pe -> AJJ31614.1_tonBsystem_energizer_ExbB__Yersinia_pe
+QXB11428.1_TolPal_system_protein_TolQ_[Klebsiella -> QXB11428.1_TolPal_system_protein_TolQ__Klebsiella
+AHE95642.1_biopolymer_transporter_ExbB_[Thermocri -> AHE95642.1_biopolymer_transporter_ExbB__Thermocri
+BAC89082.1_gll1141_[Gloeobacter_violaceus_PCC_742 -> BAC89082.1_gll1141__Gloeobacter_violaceus_PCC_742
+ACL67782.1_MotA/TolQ/ExbB_proton_channel_[Anaerom -> ACL67782.1_MotA/TolQ/ExbB_proton_channel__Anaerom
+ARN57239.1_Biopolymer_transport_protein_ExbB_[Sed -> ARN57239.1_Biopolymer_transport_protein_ExbB__Sed
+QQS07765.1_MAG:_MotA/TolQ/ExbB_proton_channel_fam -> QQS07765.1_MAG__MotA/TolQ/ExbB_proton_channel_fam
+AKF25943.1_biopolymer_transporter_ExbB_[Sulfurovu -> AKF25943.1_biopolymer_transporter_ExbB__Sulfurovu
+QDU28596.1_hypothetical_protein_ETAA8_36990_[Anat -> QDU28596.1_hypothetical_protein_ETAA8_36990__Anat
+APC08935.1_chemotaxis_protein_PomA_[Moorella_ther -> APC08935.1_chemotaxis_protein_PomA__Moorella_ther
+QQS05296.1_MAG:_MotA/TolQ/ExbB_proton_channel_fam -> QQS05296.1_MAG__MotA/TolQ/ExbB_proton_channel_fam
+DGBBEKCF_02484_Motility_protein_A_[Verrucomicrobi -> DGBBEKCF_02484_Motility_protein_A__Verrucomicrobi
+QQS05379.1_MAG:_MotA/TolQ/ExbB_proton_channel_fam -> QQS05379.1_MAG__MotA/TolQ/ExbB_proton_channel_fam
+EKT86397.1_biopolymer_transporter_ExbB_[Leptospir -> EKT86397.1_biopolymer_transporter_ExbB__Leptospir
+AEV99079.1_multisensor_hybrid_histidine_kinase_[N -> AEV99079.1_multisensor_hybrid_histidine_kinase__N
+CDK97994.1_TolQ_protein_[Magnetospirillum_gryphis -> CDK97994.1_TolQ_protein__Magnetospirillum_gryphis
+ADV67905.1_MotA/TolQ/ExbB_proton_channel_[Deinoco -> ADV67905.1_MotA/TolQ/ExbB_proton_channel__Deinoco
+ALF47162.1_TolPal_system_subunit_TolQ_[Campylobac -> ALF47162.1_TolPal_system_subunit_TolQ__Campylobac
+ADB15644.1_hypothetical_protein_Psta_0959_[Pirell -> ADB15644.1_hypothetical_protein_Psta_0959__Pirell
+AOO65010.1_membrane_protein_[Sulfurospirillum_hal -> AOO65010.1_membrane_protein__Sulfurospirillum_hal
+ADY83951.1_MotA/TolQ/ExbB_proton_channel_[Acineto -> ADY83951.1_MotA/TolQ/ExbB_proton_channel__Acineto
+ACL96805.1_TolQ_protein_[Caulobacter_vibrioides_N -> ACL96805.1_TolQ_protein__Caulobacter_vibrioides_N
+AHZ86042.1_gliding_motility_protein_[Bdellovibrio -> AHZ86042.1_gliding_motility_protein__Bdellovibrio
+BDB96353.1_flagellar_motor_protein_MotA_[Candidat -> BDB96353.1_flagellar_motor_protein_MotA__Candidat
+AMW06484.1_flagellar_motor_protein_MotA_[Gemmatim -> AMW06484.1_flagellar_motor_protein_MotA__Gemmatim
+AEO48100.1_chemotaxis_sensory_transducer_[Rhodosp -> AEO48100.1_chemotaxis_sensory_transducer__Rhodosp
+QDU29130.1_colicin_uptake_protein_TolQ_[Anatilimn -> QDU29130.1_colicin_uptake_protein_TolQ__Anatilimn
+QDU97593.1_Chemotaxis_protein_PomA_[Lignipirellul -> QDU97593.1_Chemotaxis_protein_PomA__Lignipirellul
+AVM44306.1_hypothetical_protein_C5Q97_06090_[Vict -> AVM44306.1_hypothetical_protein_C5Q97_06090__Vict
+ATC62712.1_flagellar_motor_protein_MotA_[Nibricoc -> ATC62712.1_flagellar_motor_protein_MotA__Nibricoc
+ADB18997.1_MotA/TolQ/ExbB_proton_channel_[Pirellu -> ADB18997.1_MotA/TolQ/ExbB_proton_channel__Pirellu
+ABF91581.1_transporter,_MotA/TolQ/ExbB_proton_cha -> ABF91581.1_transporter__MotA/TolQ/ExbB_proton_cha
+ACL67494.1_MotA/TolQ/ExbB_proton_channel_[Anaerom -> ACL67494.1_MotA/TolQ/ExbB_proton_channel__Anaerom
+AHE95900.1_flagellar_motor_protein_MotA_[Thermocr -> AHE95900.1_flagellar_motor_protein_MotA__Thermocr
+SLM46359.1_Protein_TolQ_[Nitrospira_japonica] -> SLM46359.1_Protein_TolQ__Nitrospira_japonica_
+ACL63649.1_MotA/TolQ/ExbB_proton_channel_[Anaerom -> ACL63649.1_MotA/TolQ/ExbB_proton_channel__Anaerom
+ADY82611.1_tolerance_to_group_A_colicins,_singles -> ADY82611.1_tolerance_to_group_A_colicins__singles
+DGBBEKCF_00463_TolPal_system_protein_TolQ_[Verruc -> DGBBEKCF_00463_TolPal_system_protein_TolQ__Verruc
+QTD49844.1_hypothetical_protein_J3U87_30040_[Sulf -> QTD49844.1_hypothetical_protein_J3U87_30040__Sulf
+CAB12348.1_twocomponent_sensor_histidine_kinase_[ -> CAB12348.1_twocomponent_sensor_histidine_kinase__
+ABC76751.1_tolQ_protein_[Syntrophus_aciditrophicu -> ABC76751.1_tolQ_protein__Syntrophus_aciditrophicu
+CAD76169.1_chemotaxis_pomA_protein_[Rhodopirellul -> CAD76169.1_chemotaxis_pomA_protein__Rhodopirellul
+AUX20279.1_transport_protein,_tolQ_[Sorangium_cel -> AUX20279.1_transport_protein__tolQ__Sorangium_cel
+AHZ86390.1_hypothetical_protein_EP01_15820_[Bdell -> AHZ86390.1_hypothetical_protein_EP01_15820__Bdell
+QDU31292.1_Biopolymer_transport_protein_ExbB_[Ana -> QDU31292.1_Biopolymer_transport_protein_ExbB__Ana
+UPT72845.1_MAG:_MotA/TolQ/ExbB_proton_channel_fam -> UPT72845.1_MAG__MotA/TolQ/ExbB_proton_channel_fam
+QDU30851.1_Biopolymer_transport_protein_ExbB_[Ana -> QDU30851.1_Biopolymer_transport_protein_ExbB__Ana
+AAC07083.1_flagellar_motor_protein_MotA_[Aquifex_ -> AAC07083.1_flagellar_motor_protein_MotA__Aquifex_
+AEI15149.1_MotA/TolQ/ExbB_proton_channel_[Flexist -> AEI15149.1_MotA/TolQ/ExbB_proton_channel__Flexist
+BAG40198.1_TolQ_protein_[Orientia_tsutsugamushi_s -> BAG40198.1_TolQ_protein__Orientia_tsutsugamushi_s
+APW42908.1_flagellar_motor_stator_protein_MotA_[R -> APW42908.1_flagellar_motor_stator_protein_MotA__R
+ALA57346.1_Biopolymer_transport_protein_exbB_[Nit -> ALA57346.1_Biopolymer_transport_protein_exbB__Nit
+PKPEBJJI_00297_TolPal_system_protein_TolQ_[CAIZXV -> PKPEBJJI_00297_TolPal_system_protein_TolQ__CAIZXV
+ADD67695.1_tonBsystem_energizer_ExbB_[Denitrovibr -> ADD67695.1_tonBsystem_energizer_ExbB__Denitrovibr
+BCB96094.1_flagellar_motor_stator_protein_MotA_[D -> BCB96094.1_flagellar_motor_stator_protein_MotA__D
+BAM06053.1_biopolymer_transport_protein_[Leptospi -> BAM06053.1_biopolymer_transport_protein__Leptospi
+ADO70054.1_TolQ_protein_[Stigmatella_aurantiaca_D -> ADO70054.1_TolQ_protein__Stigmatella_aurantiaca_D
+AAC74960.1_motility_protein_A_[Escherichia_coli_s -> AAC74960.1_motility_protein_A__Escherichia_coli_s
+BDB95989.1_hypothetical_protein_HYD_1220_[Candida -> BDB95989.1_hypothetical_protein_HYD_1220__Candida
+ACF11057.1_protein_TolQ_[Chlorobaculum_parvum_NCI -> ACF11057.1_protein_TolQ__Chlorobaculum_parvum_NCI
+AEO48685.1_MotA/TolQ/ExbB_proton_channel_[Rhodosp -> AEO48685.1_MotA/TolQ/ExbB_proton_channel__Rhodosp
+AAC07592.1_biopolymer_transport_exbB_[Aquifex_aeo -> AAC07592.1_biopolymer_transport_exbB__Aquifex_aeo
+AIQ92767.1_MotA/TolQ/ExbB_proton_channel_[Methylo -> AIQ92767.1_MotA/TolQ/ExbB_proton_channel__Methylo
+BAC89328.1_glr1387_[Gloeobacter_violaceus_PCC_742 -> BAC89328.1_glr1387__Gloeobacter_violaceus_PCC_742
+ATU63381.1_hypothetical_protein_CPZ87_01790_[Rhiz -> ATU63381.1_hypothetical_protein_CPZ87_01790__Rhiz
+CCW35905.1_Flagellar_motor_component_[Chthonomona -> CCW35905.1_Flagellar_motor_component__Chthonomona
+AUX23472.1_flagellar_motor_protein_MotA_[Sorangiu -> AUX23472.1_flagellar_motor_protein_MotA__Sorangiu
+ATC62595.1_flagellar_motor_protein_MotA_[Nibricoc -> ATC62595.1_flagellar_motor_protein_MotA__Nibricoc
+ADY58081.1_MotA/TolQ/ExbB_proton_channel_[Rubinis -> ADY58081.1_MotA/TolQ/ExbB_proton_channel__Rubinis
+UPT75425.1_MAG:_MotA/TolQ/ExbB_proton_channel_fam -> UPT75425.1_MAG__MotA/TolQ/ExbB_proton_channel_fam
+
+                                                   Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000439882 secs using 89.34% CPU
+   1  QTD51577.1_MotA/TolQ/ExbB_proton_channel_family_p   55.93%    failed      0.05%
+   2  ABD82818.1_MotA/TolQ/ExbB_proton_channel__Sacchar   28.81%    passed     86.86%
+   3  AHZ85825.1_adventurous_gliding_motility_protein_X   27.46%    passed     18.01%
+   4  QEI18325.1_MotA/TolQ/ExbB_proton_channel_family_p   63.73%    passed     25.42%
+   5  ABD82072.1_MotA/TolQ/ExbB_proton_channel__Sacchar   31.86%    passed     69.20%
+   6  APW44370.1_flagellar_motor_protein_MotA__Rhodofer   32.54%    failed      0.53%
+   7  ABF90777.1_MotA/TolQ/ExbB_proton_channel_family_p   22.71%    passed     34.97%
+   8  UOY13875.1_motility_protein_A__Treponema_pallidum   12.88%    passed     77.49%
+   9  AGW38400.1_putative_transport_protein__Chlamydia_   58.98%    passed     29.20%
+  10  UAK41219.1_inorganic_phosphate_transporter__Bacte   58.31%    passed     65.16%
+  11  ABL66229.1_hypothetical_protein_Cpha266_2232__Chl   64.75%    passed     15.50%
+  12  AFE10516.1_MotA/TolQ/ExbB_proton_channel_family_p   26.44%    passed     14.82%
+  13  ATC63650.1_flagellar_motor_protein_MotA__Nibricoc    2.37%    passed     32.88%
+  14  BCI63438.1_flagellar_motor_protein_MotA__Coprobac   22.03%    failed      0.08%
+  15  QEI19039.1_MotA/TolQ/ExbB_proton_channel_family_p   28.47%    failed      0.08%
+  16  ADG92738.1_MotA/TolQ/ExbB_proton_channel__Arcobac   57.97%    failed      1.07%
+  17  AAG04358.1_TolQ_protein__Pseudomonas_aeruginosa_P   27.80%    passed     61.31%
+  18  AVQ29260.1_MotA/TolQ/ExbB_proton_channel_family_p   32.20%    failed      0.00%
+  19  AUX23532.1_biopolymer_transporter__Sorangium_cell   27.80%    failed      1.67%
+  20  QJE97562.1_MotA/TolQ/ExbB_proton_channel_family_p   29.15%    passed     47.96%
+  21  QAR33783.1_MotA/TolQ/ExbB_proton_channel_family_p   64.41%    passed     57.88%
+  22  AKJ65464.1_colicin_uptake_protein_TolQ__Kiritimat   44.75%    failed      0.03%
+  23  UPT72618.1_MAG__MotA/TolQ/ExbB_proton_channel_fam   32.88%    passed     23.67%
+  24  MBU2985819.1_flagellar_motor_protein__Saccharopha   17.29%    passed     73.74%
+  25  AWV88602.1_flagellar_motor_protein_MotA__Bradymon   24.07%    passed     12.16%
+  26  BCB96091.1_chemotaxis_protein_MotA__Dissulfurispi   15.25%    passed      7.13%
+  27  QOY89286.1_MotA/TolQ/ExbB_proton_channel_family_p   23.73%    passed     83.21%
+  28  ADO46046.1_tonBsystem_energizer_ExbB__Hydrogenoba   67.80%    passed     74.25%
+  29  ABD82214.1_MotA/TolQ/ExbB_proton_channel__Sacchar   22.03%    passed     47.52%
+  30  AUX24210.1_flagellar_motor_protein_MotA__Sorangiu   26.44%    failed      1.26%
+  31  BAC61495.1_biopolymer_transport_protein_ExbBrelat   45.42%    passed     14.75%
+  32  ALA61164.1_MotA/TolQ/ExbB_proton_channel__Nitrosp   24.07%    passed     75.69%
+  33  AHZ86892.1_adventurous_gliding_motility_protein_R   31.19%    passed     74.53%
+  34  ADD67874.1_MotA/TolQ/ExbB_proton_channel__Denitro   32.88%    passed     80.52%
+  35  ARN57520.1_Biopolymer_transport_protein_ExbB__Sed   31.19%    passed     49.67%
+  36  QVL33268.1_MotA/TolQ/ExbB_proton_channel_family_p   51.86%    passed     34.99%
+  37  QTD52661.1_MotA/TolQ/ExbB_proton_channel_family_p   30.17%    passed     13.62%
+  38  ALF47932.1_putative_membrane_protein__Campylobact   61.36%    failed      0.17%
+  39  ADC89566.1_MotA/TolQ/ExbB_proton_channel__Thermoc   16.27%    passed     73.42%
+  40  AHZ83417.1_motility_protein_A__Bdellovibrio_bacte   10.17%    passed     17.08%
+  41  ADY81529.1_hypothetical_protein_BDGL_000943__Acin   30.51%    passed     66.39%
+  42  AEI89251.1_flagellar_motor_protein_MotA__Candidat    5.42%    failed      0.23%
+  43  ADG92230.1_MotA/TolQ/ExbB_proton_channel__Arcobac   68.14%    passed     10.29%
+  44  ADL00174.1_protein_TolQ__Brevundimonas_subvibrioi   18.64%    failed      1.49%
+  45  QAT61614.1_motility_protein_A__Tissierella_sp._JN   10.85%    passed      9.77%
+  46  ACX75330.1_MotA/TolQ/ExbB_proton_channel__Fibroba   52.54%    passed     20.15%
+  47  BBM36826.1_MotA/TolQ/ExbB_proton_channel__Pseudol   32.20%    failed      2.73%
+  48  QSR85862.1_MotA/TolQ/ExbB_proton_channel_family_p   28.47%    passed     59.91%
+  49  ADY61978.1_MotA/TolQ/ExbB_proton_channel__Rubinis   25.76%    passed     86.53%
+  50  QJR34845.1_hypothetical_protein_HKW67_04610__Gemm   30.17%    passed     53.61%
+  51  ATU66302.1_flagellar_motor_stator_protein_MotA__R    4.07%    failed      2.22%
+  52  BCI63565.1_biopolymer_transporter_ExbB__Coprobact   33.56%    passed     66.16%
+  53  CAL34744.1_putative_membrane_protein__Campylobact   58.64%    failed      0.60%
+  54  ACV38437.1_MotA/TolQ/ExbB_proton_channel__Leptotr   33.22%    passed     18.74%
+  55  CCG56832.1_biopolymer_transport_protein_ExbB__Bra   31.86%    failed      0.10%
+  56  ACB73533.1_MotA/TolQ/ExbB_proton_channel__Opitutu   28.81%    passed     46.30%
+  57  AVM88605.1_MotA/TolQ/ExbB_proton_channel_family_p   58.31%    passed     70.13%
+  58  AWV88047.1_MotA/TolQ/ExbB_proton_channel_family_p   25.76%    passed     85.77%
+  59  QDU25289.1_Chemotaxis_protein_LafT__Anatilimnocol    2.71%    failed      0.05%
+  60  CAD77369.1_probable_tolQtype_transport_protein__R   29.49%    passed     43.96%
+  61  ADO74176.1_Adventurous_gliding_motility_protein_X   29.49%    passed     88.22%
+  62  QZZ21680.1_MotA/TolQ/ExbB_proton_channel_family_p   27.46%    passed     80.59%
+  63  AUX27689.1_ABC_transporter_permease__Sorangium_ce   77.29%    passed     12.92%
+  64  ACL64052.1_protein_TolQ__Anaeromyxobacter_dehalog   33.22%    passed     63.39%
+  65  AEM21069.1_Flagellar_Motor_Protein__Brachyspira_i   12.54%    passed     29.91%
+  66  ATX78565.1_chemotaxis_protein_MotA__Mariprofundus   14.58%    passed     24.53%
+  67  AFL86415.1_biopolymer_transport_protein__Terriglo   32.54%    passed     87.20%
+  68  ABF85904.1_MotA/TolQ/ExbB_proton_channel_family_p   34.24%    passed     78.91%
+  69  QKS29226.1_MAG__flagellar_motor_stator_protein_Mo    3.73%    passed      6.62%
+  70  BAH37227.1_hypothetical_membrane_protein__Gemmati   71.19%    passed     18.44%
+  71  QTD50492.1_MotA/TolQ/ExbB_proton_channel_family_p   58.64%    passed     52.47%
+  72  AEO48324.1_MotA/TolQ/ExbB_proton_channel__Rhodosp   10.51%    passed     77.06%
+  73  ACF44367.1_protein_TolQ__Pelodictyon_phaeoclathra   34.24%    passed     18.29%
+  74  WP_015921325.1_tonBsystem_energizer_ExbB__Cereiba   28.47%    failed      3.39%
+  75  AAG04082.1_transport_protein_ExbB2__Pseudomonas_a   27.46%    passed     24.70%
+  76  APW42573.1_biopolymer_transporter_ExbD__Rhodofera   72.88%    passed     75.87%
+  77  QEI18926.1_flagellar_motor_stator_protein_MotA__C    3.73%    failed      1.57%
+  78  MBU2985725.1_MotA/TolQ/ExbB_proton_channel_family   30.51%    passed     67.74%
+  79  AEV97736.1_OmpA/MotB_domain_protein__Niastella_ko   66.78%    failed      0.00%
+  80  AOO64467.1_putative_biopolymer_transport_protein_   60.68%    passed     91.99%
+  81  ABD82476.1_MotA/TolQ/ExbB_proton_channel__Sacchar   14.92%    passed      5.03%
+  82  ADE86105.1_biopolymer_transport_protein_ExbB__Rho   28.81%    failed      0.10%
+  83  ATX80498.1_biopolymer_transport_protein_ExbB__Mar   32.88%    passed     86.41%
+  84  ADG93991.1_MotA/TolQ/ExbB_proton_channel__Arcobac   67.12%    passed      8.43%
+  85  AEO47577.1_MotA/TolQ/ExbB_proton_channel_family_p   66.10%    passed      7.78%
+  86  ACI21445.1_lateral_flagellar_motor_protein_MotA__    3.05%    passed     11.90%
+  87  ACF11913.1_MotA/TolQ/ExbB_proton_channel__Chlorob   22.37%    passed     63.74%
+  88  QOY87643.1_MotA/TolQ/ExbB_proton_channel_family_p   27.46%    passed     72.63%
+  89  QTD53836.1_MotA/TolQ/ExbB_proton_channel_family_p   14.92%    passed     30.86%
+  90  QQS88170.1_MotA/TolQ/ExbB_proton_channel_family_p   32.88%    failed      0.66%
+  91  ADB18835.1_MotA/TolQ/ExbB_proton_channel__Pirellu   33.22%    passed     21.66%
+  92  ACX75484.1_MotA/TolQ/ExbB_proton_channel__Fibroba   33.22%    passed     36.07%
+  93  QNQ08565.1_DUF2341_domaincontaining_protein__Sphi   54.92%    passed     58.05%
+  94  EKT86693.1_flagellar_motor_protein_MotP__Leptospi   12.88%    passed     14.49%
+  95  CAD73493.1_probable_tolQ_protein__Rhodopirellula_   31.86%    passed     79.59%
+  96  AJJ56783.1_flagellar_motor_stator_protein_MotA__Y    2.37%    failed      2.66%
+  97  AHE96301.1_biopolymer_transporter_ExbB__Thermocri   65.42%    failed      2.31%
+  98  UEO04322.1_MotA/TolQ/ExbB_proton_channel_family_p   34.24%    passed     78.91%
+  99  QNQ10683.1_MotA/TolQ/ExbB_proton_channel_family_p   23.39%    passed     39.28%
+ 100  CCB87487.1_putative_uncharacterized_protein__Para   33.90%    failed      0.63%
+ 101  ALU36624.1_Chemotaxis_protein_MotA__Clostridium_a   12.54%    passed     10.87%
+ 102  CAL34348.1_biopolymer_transport_protein__Campylob   34.58%    failed      0.73%
+ 103  ABA05996.1_conserved_hypothetical_protein__Nitrob   32.88%    passed     46.23%
+ 104  CCG57546.1_flagellar_Motor_Protein_MotA__Brachysp   12.54%    passed     29.10%
+ 105  AEO47025.1_MotA/TolQ/ExbB_proton_channel__Rhodosp   13.90%    passed     14.48%
+ 106  AJJ32465.1_flagellar_motor_stator_protein_MotA__Y    0.00%    passed     77.68%
+ 107  QOY89541.1_MotA/TolQ/ExbB_proton_channel_family_p   59.32%    passed     40.63%
+ 108  RLG45601.1_MAG__motility_protein_A__Candidatus_Ko   14.58%    failed      0.92%
+ 109  ATX78592.1_chemotaxis_protein_MotA__Mariprofundus    8.81%    passed     58.65%
+ 110  ACL94252.1_flagellar_motor_stator_protein_MotA__C    3.39%    failed      0.05%
+ 111  CAL34280.1_putative_MotA/TolQ/ExbB_proton_channel   63.39%    failed      1.59%
+ 112  ADB17385.1_MotA/TolQ/ExbB_proton_channel__Pirellu   36.95%    passed     50.04%
+ 113  QSR84626.1_MotA/TolQ/ExbB_proton_channel_family_p   29.15%    failed      0.46%
+ 114  ABA04498.1_MotA/TolQ/ExbB_proton_channel__Nitroba   13.90%    failed      3.84%
+ 115  UBQ06174.1_MotA/TolQ/ExbB_proton_channel_family_p   26.44%    failed      0.03%
+ 116  QDU94893.1_Biopolymer_transport_protein_ExbB__Lig   30.51%    passed     61.31%
+ 117  UBQ05764.1_flagellar_motor_stator_protein_MotA__T    4.41%    passed     52.10%
+ 118  QDU31046.1_hypothetical_protein_ETAA8_61990__Anat   66.10%    failed      0.32%
+ 119  QSR84055.1_MotA/TolQ/ExbB_proton_channel_family_p   58.98%    passed     91.73%
+ 120  UAK42981.1_MotA/TolQ/ExbB_proton_channel_family_p   31.86%    passed      9.32%
+ 121  BAH38987.1_putative_biopolymer_transport_protein_   30.17%    passed     19.76%
+ 122  ABQ60495.1_ExbB__Brucella_ovis_ATCC_25840_          22.37%    failed      0.91%
+ 123  QDU93364.1_Biopolymer_transport_protein_ExbB__Lig   22.37%    passed     51.72%
+ 124  AUX22205.1_flagellar_motor_protein_MotA__Sorangiu   29.83%    passed      8.30%
+ 125  AFE07995.1_MotA/TolQ/ExbB_proton_channel_family_p   18.64%    passed      7.45%
+ 126  QJR36484.1_flagellar_motor_stator_protein_MotA__G    3.73%    passed     15.66%
+ 127  SEH96646.1_mota/tolq/exbb_proton_channel_family__   29.49%    passed     49.65%
+ 128  ADD67744.1_MotA/TolQ/ExbB_proton_channel__Denitro   30.51%    passed     61.14%
+ 129  QTD52802.1_MotA/TolQ/ExbB_proton_channel_family_p   54.92%    passed     18.49%
+ 130  ABA04528.1_outer_membrane_transport_energization_   25.08%    passed      6.70%
+ 131  UPT76060.1_MAG__MotA/TolQ/ExbB_proton_channel_fam   60.34%    passed     94.30%
+ 132  QAT17178.1_hypothetical_protein_BU251_05250__Cand   29.83%    passed      7.58%
+ 133  ABF90492.1_MotA/TolQ/ExbB_proton_channel_family_p   29.49%    passed     59.06%
+ 134  AAC76042.1_Ton_complex_subunit_ExbB__Escherichia_   25.76%    passed     58.39%
+ 135  ACX76601.1_hypothetical_protein_Fisuc_3021__Fibro   63.05%    passed     31.09%
+ 136  AAG06371.1_probable_tolQtype_transport_protein__P   29.83%    passed     80.48%
+ 137  ACX74512.1_MotA/TolQ/ExbB_proton_channel__Fibroba   27.46%    passed     33.23%
+ 138  ALU34477.1_MotA/TolQ/ExbB_proton_channel__Clostri   11.53%    passed     26.30%
+ 139  AEI88772.1_flagellar_motor_protein_MotA_duplicate   13.90%    passed      7.37%
+ 140  CCB87689.1_putative_uncharacterized_protein__Para   28.14%    failed      0.54%
+ 141  QQS05761.1_MAG__flagellar_motor_stator_protein_Mo    4.75%    passed     45.01%
+ 142  ABA05299.1_outer_membrane_transport_energization_   22.37%    passed      5.73%
+ 143  ACI22061.1_TolQ_protein__Thermodesulfovibrio_yell   33.56%    failed      0.01%
+ 144  ATX81939.1_Cell_division_and_transportassociated_   27.46%    passed     71.47%
+ 145  CAB13242.1_motility_protein_A__MotA_component_of_    9.49%    passed     60.08%
+ 146  AAC68198.1_polysaccharide_transporter__Chlamydia_   58.64%    passed     58.14%
+ 147  CAD76944.1_probable_TolQ__Rhodopirellula_baltica_   32.88%    passed      5.66%
+ 148  ATC64798.1_flagellar_motor_protein_MotA__Nibricoc   31.19%    passed     99.77%
+ 149  BAC61496.1_TonB_system_transport_protein_ExbB2__V   64.41%    passed     46.69%
+ 150  ACO33277.1_chemotaxis_MotA_protein__Acidobacteriu    9.83%    passed     39.73%
+ 151  ATU63282.1_biopolymer_transporter_ExbB__Rhizobact   22.03%    passed     26.40%
+ 152  QNQ12173.1_MotA/TolQ/ExbB_proton_channel_family_p   25.08%    failed      0.00%
+ 153  QSR84237.1_MotA/TolQ/ExbB_proton_channel_family_p   30.17%    passed     28.02%
+ 154  APW43236.1_protein_TolQ__Rhodoferax_saidenbachens   29.49%    passed      6.40%
+ 155  AHZ85791.1_flagellar_motor_protein_MotA__Bdellovi   15.93%    passed     57.66%
+ 156  ADD68377.1_MotA/TolQ/ExbB_proton_channel__Denitro   31.53%    passed     47.49%
+ 157  ABC77078.1_chemotaxis_protein__Syntrophus_aciditr    3.39%    passed     56.21%
+ 158  CAD71788.1_probable_biopolymer_transport_protein_   13.90%    failed      0.02%
+ 159  QVL33094.1_MotA/TolQ/ExbB_proton_channel_family_p   70.51%    passed     33.10%
+ 160  ALA58549.1_Flagellar_motor_protein_MotA__Nitrospi   13.90%    failed      0.30%
+ 161  ATO49967.1_flagellar_motor_protein_MotA__Brevibac   10.17%    passed     81.93%
+ 162  AKJ65567.1_Biopolymer_transport_protein_ExbB__Kir   29.83%    passed     19.38%
+ 163  ADB15801.1_hypothetical_protein_Psta_1118__Pirell   54.24%    passed     91.88%
+ 164  ADE86923.1_TolQ_protein__Rhodobacter_capsulatus_S   59.66%    passed     49.56%
+ 165  DGBBEKCF_00127_TolPal_system_protein_TolQ__Verruc   25.08%    passed     42.16%
+ 166  QZZ19520.1_MotA/TolQ/ExbB_proton_channel_family_p   34.58%    passed     21.64%
+ 167  CCW34551.1_flagellar_motor_stator_protein_MotA__C    1.36%    passed     27.14%
+ 168  ALA60092.1_Protein_TolQ__Nitrospira_moscoviensis_   27.80%    passed     23.33%
+ 169  QKS28544.1_MAG__flagellar_motor_protein__Candidat   17.29%    passed     40.55%
+ 170  PKPEBJJI_00564_Motility_protein_A__CAIZXV01_Verru   63.73%    passed     55.65%
+ 171  ADV62354.1_hypothetical_protein_Isop_1771__Isosph   30.85%    failed      0.65%
+ 172  QVL32859.1_MotA/TolQ/ExbB_proton_channel_family_p   31.19%    passed     38.09%
+ 173  ALF47140.1_TonB_system_transport_protein_ExbB__Ca   66.78%    passed      5.12%
+ 174  ABL64907.1_Cell_division_and_transportassociated_   32.88%    passed      8.70%
+ 175  ATX81215.1_biopolymer_transport_protein_ExbB__Mar   32.88%    passed     57.50%
+ 176  ABQ61581.1_protein_TolQ__Brucella_ovis_ATCC_25840   33.22%    passed     17.11%
+ 177  QOY88835.1_flagellar_motor_stator_protein_MotA__P    3.73%    passed     10.28%
+ 178  ACB73691.1_MotA/TolQ/ExbB_proton_channel__Opitutu    2.71%    passed     12.99%
+ 179  AHE96346.1_TolQ__Thermocrinis_ruber_                33.56%    failed      0.27%
+ 180  ADB15652.1_MotA/TolQ/ExbB_proton_channel__Pirellu   26.10%    passed     21.52%
+ 181  ACL95886.1_TonB_accessory_protein_exbB__Caulobact   23.39%    passed     48.80%
+ 182  ADB17458.1_MotA/TolQ/ExbB_proton_channel__Pirellu   23.05%    passed     74.08%
+ 183  AEB12216.1_MotA/TolQ/ExbB_proton_channel__Marinit   31.86%    failed      0.56%
+ 184  AFL88814.1_flagellar_motor_component__Terriglobus   10.17%    passed     29.27%
+ 185  CAG37394.1_related_to_flagellar_motor_apparatus__   14.24%    passed     32.14%
+ 186  ACX74513.1_MotA/TolQ/ExbB_proton_channel__Fibroba   31.86%    passed     16.15%
+ 187  ADO68798.1_MotA/TolQ/ExbB_proton_channel_family_p   27.46%    passed     60.31%
+ 188  ADY59818.1_hypothetical_protein_Plabr_2216__Rubin   40.00%    passed     17.13%
+ 189  USF23676.1_Chemotaxis_protein_PomA__Mucispirillum   14.58%    passed     25.22%
+ 190  ABF92421.1_tonB_system_transport_protein_ExbB/Tol   20.00%    passed     66.75%
+ 191  AKJ64799.1_ExbB_proton_channel_family_protein__Ki   54.58%    passed      6.29%
+ 192  ADN08701.1_outer_membrane_transport_energization_   68.47%    passed     50.31%
+ 193  SNW07143.1_biopolymer_transport_protein_ExbB__Eik   33.56%    passed     39.48%
+ 194  AGR80198.1_TolQ_protein__Anaplasma_phagocytophilu   27.12%    passed      8.25%
+ 195  UEO05991.1_MotA/TolQ/ExbB_proton_channel_family_p   29.49%    passed     59.06%
+ 196  QAT63225.1_motility_protein_A__Tissierella_sp._JN   10.17%    failed      0.22%
+ 197  QEI18408.1_MotA/TolQ/ExbB_proton_channel_family_p   69.15%    passed      5.14%
+ 198  ABL64659.1_outer_membrane_transport_energization_   28.14%    passed     32.19%
+ 199  MBU2984437.1_protein_TolQ__Saccharophagus_degrada   27.80%    passed     23.16%
+ 200  ACL64950.1_MotA/TolQ/ExbB_proton_channel__Anaerom   30.51%    failed      0.00%
+ 201  ABG59284.1_outer_membrane_transport_energization_   26.78%    failed      3.95%
+ 202  ATU65955.1_flagellar_motor_stator_protein_MotA__R    0.34%    passed     32.42%
+ 203  QDU94732.1_colicin_uptake_protein_TolQ__Lignipire   34.24%    passed     12.70%
+ 204  AIK95558.1_biopolymer_transporter_ExbB__Candidatu   28.81%    passed     65.68%
+ 205  APW43194.1_flagellar_motor_stator_protein_MotA__R    4.41%    failed      2.95%
+ 206  ACX73657.1_MotA/TolQ/ExbB_proton_channel__Fibroba   33.90%    passed     76.12%
+ 207  AKJ63368.1_Biopolymer_transport_protein_ExbB__Kir   25.76%    failed      0.27%
+ 208  AEI88825.1_Tolq_transport_protein__Candidatus_Mid   33.90%    passed     16.86%
+ 209  AFE08685.1_MotA/TolQ/ExbB_proton_channel_family_p   33.56%    passed     80.08%
+ 210  ATX79248.1_outer_membrane_transport_energization_   31.19%    passed     86.77%
+ 211  CAD74695.1_probable_TolQtype_transport_protein__R   20.34%    passed     14.46%
+ 212  AAG05312.1_hypothetical_protein_PA1924__Pseudomon   69.15%    passed     10.19%
+ 213  QDU98188.1_Biopolymer_transport_protein_ExbB__Lig   33.22%    passed     59.89%
+ 214  BAC58952.1_sodiumdriven_polar_flagellar_protein_M   14.92%    failed      1.02%
+ 215  QEI20720.1_MotA/TolQ/ExbB_proton_channel_family_p   27.12%    passed     84.50%
+ 216  AQU99647.1_MotA__Desulfococcus_multivorans_         29.83%    failed      3.70%
+ 217  BAC61768.1_ExbBlike_protein__Vibrio_parahaemolyti   26.78%    passed     39.48%
+ 218  QXB11670.1_flagellar_motor_stator_protein_MotA__K    0.00%    passed     84.01%
+ 219  AWI09757.1_flagellar_motor_protein_MotA__Ereboglo   60.00%    passed     12.71%
+ 220  UEO02151.1_MotA/TolQ/ExbB_proton_channel_family_p   28.47%    passed     20.06%
+ 221  SEI00245.1_mota/tolq/exbb_proton_channel_family__   26.44%    passed     73.93%
+ 222  QEI19744.1_flagellar_motor_protein__Cellvibrio_ja   16.61%    passed     25.90%
+ 223  QQS07318.1_MAG__MotA/TolQ/ExbB_proton_channel_fam   12.88%    passed     22.27%
+ 224  QVL34843.1_MotA/TolQ/ExbB_proton_channel_family_p   52.20%    passed      7.20%
+ 225  AOO66426.1_TolQ_proton_channel_family_protein__Su   69.15%    passed     83.15%
+ 226  SLM48220.1_Biopolymer_transport_protein_ExbB__Nit   69.49%    passed     21.61%
+ 227  ATC63405.1_flagellar_motor_protein_MotA__Nibricoc   27.46%    passed     78.93%
+ 228  AOO65115.1_flagellar_motor_rotation_protein_MotA_   13.56%    failed      0.10%
+ 229  ALW88052.1_biopolymer_transporter__Deinococcus_ac   25.76%    failed      0.00%
+ 230  QDU27583.1_colicin_uptake_protein_TolQ__Anatilimn   36.61%    passed     46.48%
+ 231  DGBBEKCF_01621_TolPal_system_protein_TolQ__Verruc   27.46%    failed      1.92%
+ 232  UPT74212.1_MAG__MotA/TolQ/ExbB_proton_channel_fam   36.61%    failed      0.08%
+ 233  ACO32834.1_transporter__MotA/TolQ/ExbB_proton_cha   23.39%    passed     92.90%
+ 234  ADI15492.1_MotA/TolQ/ExbB_proton_channel__Trueper   27.46%    passed     24.29%
+ 235  BCB95963.1_flagellar_motor_protein_MotA__Dissulfu   53.56%    passed     37.54%
+ 236  ACF14374.1_MotA/TolQ/ExbB_proton_channel__Chloroh   29.15%    passed     41.36%
+ 237  QNQ08778.1_protein_TolQ__Sphingomonas_alpina_       25.08%    failed      2.75%
+ 238  AHZ83632.1_flagellar_motor_protein_MotA__Bdellovi    3.39%    failed      0.01%
+ 239  WP_002721884.1_flagellar_motor_stator_protein_Mot    2.71%    failed      0.84%
+ 240  QUV79767.1_MotA/TolQ/ExbB_proton_channel_family_p   33.22%    passed     75.78%
+ 241  ABC78648.1_tolQ_protein__Syntrophus_aciditrophicu   67.80%    passed     25.34%
+ 242  QTD50766.1_MotA/TolQ/ExbB_proton_channel_family_p   31.86%    passed     11.80%
+ 243  ACB77180.1_MotA/TolQ/ExbB_proton_channel__Opitutu   38.31%    passed     54.30%
+ 244  BAC62899.1_chemotaxis_LafT_protein__Vibrio_paraha    3.39%    passed     27.19%
+ 245  AKJ64362.1_Biopolymer_transport_protein_ExbB__Kir   29.15%    passed     78.80%
+ 246  ADV63710.1_MotA/TolQ/ExbB_proton_channel__Isospha   38.64%    passed     91.99%
+ 247  UPT73159.1_MAG__MotA/TolQ/ExbB_proton_channel_fam    8.47%    passed     62.10%
+ 248  CDK98316.1_putative_Motility_protein_A__Magnetosp    3.39%    failed      0.02%
+ 249  ADD68376.1_MotA/TolQ/ExbB_proton_channel__Denitro   62.03%    passed     55.57%
+ 250  QEI18804.1_protein_TolQ__Cellvibrio_japonicus_      30.17%    passed     33.40%
+ 251  ADE87210.1_chemotaxis_protein_MotA__Rhodobacter_c    3.05%    failed      0.09%
+ 252  CCW36281.1_Biopolymer_transport_proteins__Chthono   32.88%    passed     64.49%
+ 253  QAT17590.1_ferric_siderophore_transport_system__b   31.86%    passed      7.37%
+ 254  AQV01680.1_protein_TolQ__Desulfococcus_multivoran   40.34%    passed     81.91%
+ 255  ABF92363.1_transporter__MotA/TolQ/ExbB_proton_cha   29.15%    passed     57.57%
+ 256  AHZ86092.1_tolQ_protein__Bdellovibrio_bacteriovor   34.58%    passed     89.86%
+ 257  QQS07012.1_MAG__MotA/TolQ/ExbB_proton_channel_fam   28.81%    passed     69.87%
+ 258  ADB17134.1_MotA/TolQ/ExbB_proton_channel__Pirellu   28.14%    passed     87.00%
+ 259  AWI09431.1_flagellar_motor_protein_MotA__Ereboglo   59.32%    passed     48.06%
+ 260  ALF47869.1_flagellar_motor_protein__Campylobacter   14.24%    passed     14.53%
+ 261  ABD81419.1_MotA/TolQ/ExbB_proton_channel__Sacchar   17.29%    passed     81.52%
+ 262  QDU95463.1_MotA/TolQ/ExbB_proton_channel_family_p   47.80%    passed     29.97%
+ 263  ADB17547.1_MotA/TolQ/ExbB_proton_channel__Pirellu   26.10%    passed     88.51%
+ 264  AAC07752.1_TolQlike_protein__Aquifex_aeolicus_VF5   33.90%    passed      7.82%
+ 265  ACX76639.1_hypothetical_protein_Fisuc_3059__Fibro   56.61%    failed      4.27%
+ 266  ADY58376.1_MotA/TolQ/ExbB_proton_channel__Rubinis   29.83%    passed     38.36%
+ 267  QEI19895.1_MotA/TolQ/ExbB_proton_channel_family_p   24.07%    passed      8.33%
+ 268  ABD81792.1_MotA/TolQ/ExbB_proton_channel__Sacchar   27.80%    passed     23.16%
+ 269  AFL88265.1_biopolymer_transport_protein__Terriglo   25.42%    passed     39.32%
+ 270  USF25003.1_Biopolymer_transport_protein_ExbB__Muc   32.88%    passed     54.12%
+ 271  QKS29102.1_MAG__MotA/TolQ/ExbB_proton_channel_fam   33.22%    passed     48.19%
+ 272  CDK97637.1_membrane_spanning_protein_in_TonBExbBE   31.53%    passed     11.63%
+ 273  BAC59320.1_TolQ_protein__Vibrio_parahaemolyticus_   29.83%    passed     83.63%
+ 274  ADG92304.1_MotA/TolQ/ExbB_proton_channel__Arcobac   65.42%    failed      0.81%
+ 275  AKD02510.1_flagellar_motor_protein_MotA__Pontibac   28.47%    passed     10.16%
+ 276  QFG02534.1_flagellar_motor_protein__Tepidiforma_b   10.51%    passed     13.11%
+ 277  ADN08827.1_MotA/TolQ/ExbB_proton_channel__Sulfuri   65.42%    passed     29.24%
+ 278  ABD79617.1_MotA/TolQ/ExbB_proton_channel__Sacchar   51.53%    passed     11.97%
+ 279  ACD89825.1_protein_TolQ__Chlorobium_limicola_DSM_   33.22%    passed     55.75%
+ 280  CAG37138.1_related_to_biopolymer_transport_protei   28.81%    passed      5.00%
+ 281  UEO06636.1_MotA/TolQ/ExbB_proton_channel_family_p   29.83%    passed     59.23%
+ 282  ADY61197.1_MotA/TolQ/ExbB_proton_channel__Rubinis   27.46%    passed     21.88%
+ 283  QJE97904.1_DUF2341_domaincontaining_protein__Lute   21.69%    passed     99.51%
+ 284  ACO33337.1_putative_chemotaxis_MotA_protein__Acid    0.00%    passed     16.53%
+ 285  UAK41566.1_MotA/TolQ/ExbB_proton_channel_family_p   26.78%    passed     21.79%
+ 286  ADN09321.1_MotA/TolQ/ExbB_proton_channel__Sulfuri   14.58%    passed      8.13%
+ 287  AEM22241.1_biopolymer_transport_protein_ExbB__Bra   33.56%    failed      0.03%
+ 288  CDK98228.1_putative_flagellar_motor_component__Ma   10.51%    passed     34.63%
+ 289  AVQ28424.1_MotA/TolQ/ExbB_proton_channel_family_p   32.88%    passed     14.34%
+ 290  AAC73831.1_TolPal_system_protein_TolQ__Escherichi   28.81%    passed     49.83%
+ 291  RMG20999.1_MAG__motility_protein_A__Euryarchaeota   13.90%    passed      9.80%
+ 292  ACL22206.1_MotA/TolQ/ExbB_proton_channel__Desulfi   13.56%    passed     54.23%
+ 293  AOO66288.1_ferric_siderophore_transport_system__b   67.46%    passed     54.28%
+ 294  QAR32927.1_MotA/TolQ/ExbB_proton_channel_family_p   32.54%    passed     51.22%
+ 295  QDU99088.1_colicin_uptake_protein_TolQ__Lignipire   25.08%    passed     59.97%
+ 296  BAH37338.1_chemotaxis_MotA_protein__Gemmatimonas_    3.73%    failed      3.77%
+ 297  UEO04809.1_MotA/TolQ/ExbB_proton_channel_family_p   20.00%    passed     66.75%
+ 298  AUX22204.1_flagellar_motor_protein_MotA__Sorangiu   33.56%    passed     68.81%
+ 299  AFL88606.1_biopolymer_transport_protein__Terriglo   25.42%    passed     39.32%
+ 300  ADY81560.1_putative_biopolymer_transport_protein_   56.95%    passed     33.18%
+ 301  WP_015920816.1_MotA/TolQ/ExbB_proton_channel_fami   14.92%    passed     19.52%
+ 302  CAD71937.1_probable_biopolymer_transport_ExbBrela   24.75%    failed      0.74%
+ 303  AOO66357.1_hypothetical_protein_SHALO_2598__Sulfu   61.02%    passed     52.26%
+ 304  AJJ54987.1_flagellar_motor_stator_protein_MotA__Y    0.00%    passed     69.14%
+ 305  EKT88755.1_endoflagellar_motor_protein__Leptospir   17.63%    passed     51.08%
+ 306  ACB76604.1_MotA/TolQ/ExbB_proton_channel__Opitutu   43.73%    passed     93.70%
+ 307  QIZ73618.1_flagellar_motor_protein_MotA__Oxynema_   47.12%    passed     33.37%
+ 308  AIQ89863.1_Flagellar_motor_rotation_protein_MotA_   39.32%    passed     96.12%
+ 309  QOY85398.1_flagellar_motor_protein__Paludibaculum   11.19%    passed     14.99%
+ 310  SEH78546.1_mota/tolq/exbb_proton_channel_family__   31.86%    passed     75.63%
+ 311  ATX79746.1_Cell_division_and_transportassociated_   28.47%    passed     27.90%
+ 312  QSR84464.1_MotA/TolQ/ExbB_proton_channel_family_p   31.53%    failed      1.34%
+ 313  AKF24510.1_biopolymer_transporter__Sulfurovum_lit   62.71%    passed     43.89%
+ 314  UAK41330.1_MotA/TolQ/ExbB_proton_channel_family_p   32.54%    failed      0.30%
+ 315  BAS27557.1_MotA/TolQ/ExbB_proton_channel_family_p   32.54%    passed     29.19%
+ 316  AAG08339.1_chemotaxis_protein_MotA__Pseudomonas_a    4.75%    passed     51.75%
+ 317  BAD41956.1_flagellar_motor_protein_MotA__Symbioba   10.85%    passed     81.36%
+ 318  ACB75629.1_MotA/TolQ/ExbB_proton_channel__Opitutu   31.86%    passed     99.54%
+ 319  ADL01024.1_MotA/TolQ/ExbB_proton_channel__Brevund   24.75%    passed     65.19%
+ 320  ARN57240.1_Biopolymer_transport_protein_ExbB__Sed   55.25%    passed     12.55%
+ 321  AKJ65465.1_Biopolymer_transport_protein_ExbB__Kir   29.49%    passed     75.38%
+ 322  ADY58078.1_MotA/TolQ/ExbB_proton_channel__Rubinis   33.90%    passed     36.17%
+ 323  BCB95942.1_biopolymer_transporter_ExbB__Dissulfur   56.61%    passed     37.09%
+ 324  AWI08882.1_flagellar_motor_protein_MotA__Ereboglo   29.83%    passed     70.60%
+ 325  ACO34195.1_signal_recognition_particledocking_pro   53.90%    failed      4.01%
+ 326  ACL65905.1_MotA/TolQ/ExbB_proton_channel__Anaerom   12.20%    failed      3.63%
+ 327  QKY92913.1_TolPal_system_protein_TolQ__Shigella_s   28.81%    passed     49.83%
+ 328  SCA58681.1_Motility_protein_A__Chlamydiales_bacte   12.88%    passed     18.57%
+ 329  CAG37703.1_related_to_transport_protein_TolQ__Des   34.24%    passed     68.18%
+ 330  ADV60824.1_MotA/TolQ/ExbB_proton_channel__Isospha   25.76%    failed      0.93%
+ 331  APC07539.1_chemotaxis_protein_PomA__Moorella_ther    8.81%    passed     81.20%
+ 332  BAM05883.1_hypothetical_protein_LFE_0155__Leptosp   75.59%    failed      0.26%
+ 333  ADB16663.1_MotA/TolQ/ExbB_proton_channel__Pirellu   31.19%    passed     98.81%
+ 334  QIZ71789.1_MotA/TolQ/ExbB_proton_channel_family_p   26.10%    failed      3.79%
+ 335  QEI18324.1_energy_transducer_TonB__Cellvibrio_jap   50.85%    passed     11.06%
+ 336  QOY85080.1_flagellar_motor_stator_protein_MotA__P    1.69%    passed      6.21%
+ 337  EKT87439.2_TolQ_transporter__Leptospira_santarosa   34.92%    passed     33.38%
+ 338  APW42522.1_flagellar_motor_protein_MotA__Rhodofer   31.86%    passed     49.30%
+ 339  BAC58428.1_TonB_system_transport_protein_ExbB2__V   58.98%    passed     50.79%
+ 340  ALJ56928.1_Biopolymer_transport_protein_ExbB__Can   58.31%    passed     62.23%
+ 341  QEO43084.1_MotA/TolQ/ExbB_proton_channel_family_p   27.12%    failed      1.70%
+ 342  AKJ63346.1_Biopolymer_transport_protein_ExbB__Kir   28.14%    passed     15.65%
+ 343  ABA05559.1_outer_membrane_transport_energization_   24.75%    passed      7.78%
+ 344  ABG60812.1_outer_membrane_transport_energization_   32.54%    failed      3.04%
+ 345  ADD67090.1_MotA/TolQ/ExbB_proton_channel__Denitro   14.58%    passed     17.92%
+ 346  QDU25322.1_Biopolymer_transport_protein_ExbB__Ana   33.56%    passed     65.62%
+ 347  ACI21187.1_chemotaxis_MotA_protein__Thermodesulfo   14.92%    failed      0.75%
+ 348  MBU2986357.1_MotA/TolQ/ExbB_proton_channel_family   56.61%    passed     68.00%
+ 349  QIZ70514.1_hypothetical_protein_HCG48_07910__Oxyn   73.56%    passed     52.85%
+ 350  AKJ64099.1_Biopolymer_transport_protein_ExbB__Kir   26.44%    failed      3.21%
+ 351  AEO47594.1_MotA/TolQ/ExbB_proton_channel__Rhodosp   30.85%    passed     26.72%
+ 352  AEW03299.1_outer_membrane_transport_energization_   31.86%    passed     38.81%
+ 353  ALU35076.1_MotA/TolQ/ExbB_proton_channel__Clostri   28.81%    failed      0.01%
+ 354  AVM45415.1_biopolymer_transporter_ExbB__Victivall   30.51%    passed     63.88%
+ 355  QEO41300.1_MotA/TolQ/ExbB_proton_channel_family_p   63.73%    passed     51.41%
+ 356  QTD54135.1_hypothetical_protein_J3U87_16945__Sulf   70.17%    failed      4.10%
+ 357  MBU2984729.1_MotA/TolQ/ExbB_proton_channel_family   31.86%    passed     75.65%
+ 358  BAH39052.1_putative_biopolymer_transport_protein_   21.69%    passed      6.51%
+ 359  CDK97459.1_putative_MotA/TolQ/ExbB_proton_channel   66.10%    passed      5.19%
+ 360  AAR33363.1_biopolymer_transport_membrane_proton_c   30.51%    passed     43.46%
+ 361  ADV63425.1_hypothetical_protein_Isop_2860__Isosph   59.66%    passed     59.28%
+ 362  UEO07578.1_MotA/TolQ/ExbB_proton_channel_family_p   26.10%    passed     18.22%
+ 363  EKT87417.1_flagellar_motor_protein_MotA__Leptospi   67.12%    passed     58.32%
+ 364  AAP98742.1_ExbB__Chlamydia_pneumoniae_TW183_        58.31%    passed      8.13%
+ 365  QJE97269.1_MotA/TolQ/ExbB_proton_channel_family_p   28.14%    passed     72.88%
+ 366  ADL02462.1_MotA/TolQ/ExbB_proton_channel__Brevund    2.71%    failed      1.39%
+ 367  AWV89332.1_MotA/TolQ/ExbB_proton_channel_family_p   27.80%    passed     76.27%
+ 368  UEO03725.1_MotA/TolQ/ExbB_proton_channel_family_p   29.15%    passed     57.57%
+ 369  ADL42743.1_MotA/TolQ/ExbB_proton_channel__Caldice   10.85%    passed     14.16%
+ 370  ADO75002.1_MotA/TolQ/ExbB_proton_channel_family_p   31.86%    passed     62.35%
+ 371  ACX73814.1_MotA/TolQ/ExbB_proton_channel__Fibroba   26.78%    passed     38.55%
+ 372  BAC58429.1_putative_TolR__Vibrio_parahaemolyticus   52.20%    passed     98.05%
+ 373  AIE86461.1_MotA/TolQ/ExbB_proton_channel__Fimbrii   33.90%    passed     71.64%
+ 374  BAM06957.1_putative_MotA/TolQ/ExbB_proton_channel   32.88%    failed      2.73%
+ 375  QEO41016.1_protein_TolQ__Vibrio_cholerae_           29.83%    passed     68.39%
+ 376  ADY61698.1_MotA/TolQ/ExbB_proton_channel__Rubinis   40.68%    failed      0.61%
+ 377  QJE97567.1_MotA/TolQ/ExbB_proton_channel_family_p   29.49%    failed      0.00%
+ 378  QJE95399.1_hypothetical_protein_HHL09_06260__Lute   50.51%    passed     77.30%
+ 379  AOO66396.1_TolQ_proton_channel_family_protein__Su   70.17%    passed     21.07%
+ 380  AIK95837.1_flagellar_motor_protein_MotA__Candidat    3.39%    failed      0.00%
+ 381  APC07901.1_chemotaxis_protein_PomA__Moorella_ther   10.17%    passed     14.18%
+ 382  AWG41586.1_Mot_family_proton__H___or_sodium__Na__   12.88%    passed     77.49%
+ 383  QKS27990.1_MAG__protein_TolQ__Candidatus_Accumuli   29.49%    failed      3.04%
+ 384  MBU2986356.1_MotA/TolQ/ExbB_proton_channel_family   51.53%    passed     11.97%
+ 385  MBU2985168.1_MotA/TolQ/ExbB_proton_channel_family   22.03%    passed     38.98%
+ 386  ADV63892.1_MotA/TolQ/ExbB_proton_channel__Isospha   27.12%    passed     89.87%
+ 387  QDU27457.1_MotA/TolQ/ExbB_proton_channel_family_p   42.71%    passed     65.75%
+ 388  ABQ62189.1_chemotaxis_motA_protein__Brucella_ovis    1.69%    passed     55.70%
+ 389  UBQ06690.1_MotA/TolQ/ExbB_proton_channel_family_p    8.47%    passed     10.15%
+ 390  BCB95125.1_protein_TolQ__Dissulfurispira_thermoph   32.20%    passed     14.34%
+ 391  EKT88184.1_biopolymer_transporter__Leptospira_san   31.86%    passed     84.45%
+ 392  ADD67745.1_MotA/TolQ/ExbB_proton_channel__Denitro   64.07%    passed     36.60%
+ 393  QDU25761.1_Biopolymer_transport_protein_ExbB__Ana   28.47%    passed     73.76%
+ 394  QDU98468.1_Biopolymer_transport_protein_ExbB__Lig   26.78%    passed     75.19%
+ 395  WP_002720852.1_protein_TolQ__Cereibacter_sphaeroi   59.32%    passed     80.73%
+ 396  AAG04849.1_MotC__Pseudomonas_aeruginosa_PAO1_       17.29%    passed     52.82%
+ 397  ADO76074.1_MotA/TolQ/ExbB_proton_channel_family_p   34.24%    passed     18.53%
+ 398  ATX82928.1_chemotaxis_protein_MotA__Mariprofundus    8.81%    passed     64.89%
+ 399  BAM06016.1_flagellar_motor_component__Leptospiril   12.88%    passed     28.72%
+ 400  QXB09426.1_tolpal_systemassociated_acylCoA_thioes   29.83%    passed     69.00%
+ 401  UPH48256.1_flagellar_motor_stator_protein_MotA__L    7.80%    passed     24.88%
+ 402  PKPEBJJI_00344_hypothetical_protein__CAIZXV01_Ver   76.61%    passed     30.30%
+ 403  ATU67891.1_MotA/TolQ/ExbB_proton_channel_family_p   55.93%    passed     78.68%
+ 404  CAL35725.1_putative_exbB/tolQ_family_transport_pr   69.15%    passed     13.81%
+ 405  ADC89509.1_MotA/TolQ/ExbB_proton_channel__Thermoc   33.90%    failed      3.59%
+ 406  QJR34785.1_flagellar_motor_protein_MotA__Gemmatim   21.02%    passed     30.12%
+ 407  AJJ56099.1_tonBsystem_energizer_ExbB__Yersinia_ps   25.76%    passed     79.40%
+ 408  AVM45096.1_hypothetical_protein_C5Q97_10465__Vict   21.36%    passed     89.69%
+ 409  AWI08418.1_flagellar_motor_protein_MotA__Ereboglo   27.46%    passed     88.43%
+ 410  QEO41881.1_flagellar_motor_protein_PomA__Vibrio_c   14.58%    failed      0.02%
+ 411  ABD81321.1_MotA/TolQ/ExbB_proton_channel__Sacchar   30.51%    passed     70.94%
+ 412  AKJ64800.1_Biopolymer_transport_protein_ExbB__Kir   33.22%    failed      2.44%
+ 413  QOY86330.1_flagellar_motor_stator_protein_MotA__P    2.71%    passed      9.67%
+ 414  AFE10515.1_MotA/TolQ/ExbB_proton_channel_family_p   27.46%    passed     53.93%
+ 415  AHZ84904.1_gliding_motility_protein__Bdellovibrio   23.39%    passed     45.26%
+ 416  AIZ45138.1_hypothetical_protein_QR90_08530__Deino   75.59%    passed     10.12%
+ 417  QJE97381.1_MotA/TolQ/ExbB_proton_channel_family_p   25.76%    passed     13.70%
+ 418  ADD67609.1_MotA/TolQ/ExbB_proton_channel__Denitro   31.86%    passed     14.62%
+ 419  QOY88067.1_MotA/TolQ/ExbB_proton_channel_family_p   28.81%    passed     45.61%
+ 420  ADO73220.1_MotA/TolQ/ExbB_proton_channel_family_p   26.10%    passed      5.77%
+ 421  QVL32579.1_MotA/TolQ/ExbB_proton_channel_family_p   26.44%    passed     36.34%
+ 422  QEO41299.1_MotA/TolQ/ExbB_proton_channel_family_p   45.42%    failed      1.54%
+ 423  UEO05650.1_MotA/TolQ/ExbB_proton_channel_family_p   22.71%    passed     34.97%
+ 424  AMW06740.1_hypothetical_protein_GEMMAAP_10105__Ge   29.49%    passed     19.07%
+ 425  APW42557.1_biopolymer_transporter__Rhodoferax_sai   28.14%    passed     15.69%
+ 426  MBU2985330.1_flagellar_motor_protein_PomA__Saccha   14.92%    passed      5.03%
+ 427  ADG92231.1_MotA/TolQ/ExbB_proton_channel__Arcobac   55.93%    passed      5.68%
+ 428  AHZ84037.1_adventurous_gliding_motility_protein_R   27.12%    passed     52.17%
+ 429  QOY88866.1_flagellar_motor_protein__Paludibaculum   10.17%    passed     34.12%
+ 430  ACO31817.1_transporter__MotA/TolQ/ExbB_proton_cha   33.56%    passed     55.05%
+ 431  ACX73656.1_MotA/TolQ/ExbB_proton_channel__Fibroba   31.19%    passed     23.68%
+ 432  QAR32385.1_motility_protein_A__Geovibrio_thiophil   14.58%    passed     61.43%
+ 433  ADY60068.1_MotA/TolQ/ExbB_proton_channel__Rubinis   13.56%    passed     58.61%
+ 434  ATC65746.1_flagellar_motor_protein_MotA__Nibricoc   59.32%    passed     90.78%
+ 435  QDU92956.1_Biopolymer_transport_protein_ExbB__Lig   26.10%    passed     81.27%
+ 436  QQS07007.1_MAG__MotA/TolQ/ExbB_proton_channel_fam   28.81%    passed     79.31%
+ 437  ABY95376.1_MotA/TolQ/ExbB_proton_channel__Thermoa    8.47%    failed      4.06%
+ 438  AJJ32757.1_flagellar_motor_stator_protein_MotA__Y    2.37%    failed      3.46%
+ 439  AIQ92722.1_Flagellar_motor_rotation_protein_MotA_    3.05%    failed      4.59%
+ 440  ARU42506.1_flagellar_motor_stator_protein_MotA__A    4.41%    failed      0.12%
+ 441  AJJ55217.1_protein_TolQ__Yersinia_pseudotuberculo   28.81%    passed     22.51%
+ 442  AJJ31712.1_protein_TolQ__Yersinia_pestis_           28.81%    passed     22.51%
+ 443  ACF43024.1_MotA/TolQ/ExbB_proton_channel__Pelodic   20.00%    passed     74.29%
+ 444  UBQ04634.1_protein_TolQ__Tepidimonas_taiwanensis_   27.80%    passed     19.80%
+ 445  ADB18690.1_hypothetical_protein_Psta_4037__Pirell   47.46%    passed     11.71%
+ 446  AWV89461.1_MotA/TolQ/ExbB_proton_channel_family_p   29.83%    passed     16.66%
+ 447  ABF91342.1_MotA/TolQ/ExbB_proton_channel_family_p   26.10%    passed     18.22%
+ 448  QKY95842.1_flagellar_motor_stator_protein_MotA__S    0.00%    passed     82.46%
+ 449  AEO48360.1_motA__chemotaxis__motility_protein_A__    3.73%    failed      1.24%
+ 450  ATX82358.1_outer_membrane_transport_energization_   30.85%    passed     87.93%
+ 451  CAD77532.1_hypothetical_proteintransmembrane_pred   52.20%    passed     63.99%
+ 452  ABD79618.1_MotA/TolQ/ExbB_proton_channel__Sacchar   56.61%    passed     68.00%
+ 453  DGBBEKCF_01299_TolPal_system_protein_TolQ__Verruc   32.20%    passed     53.60%
+ 454  ATX82900.1_chemotaxis_protein_MotA__Mariprofundus   14.58%    passed     18.46%
+ 455  AFL88473.1_flagellar_motor_component__Terriglobus   10.17%    passed     29.27%
+ 456  QNQ09341.1_flagellar_motor_stator_protein_MotA__S    4.07%    failed      1.80%
+ 457  ATU66653.1_protein_TolQ__Rhizobacter_gummiphilus_   26.10%    passed     25.71%
+ 458  AKL98121.1_putative_Transporter__MotA/TolQ/ExbB_p   32.88%    failed      0.50%
+ 459  AIQ93688.1_protein_of_unassigned_function__Methyl   67.12%    passed      8.80%
+ 460  ADO44512.1_MotA/TolQ/ExbB_proton_channel__Hydroge   33.90%    failed      3.55%
+ 461  ALJ56692.1_colicin_uptake_protein_TolQ__Candidatu   31.86%    passed     54.28%
+ 462  AAG03587.1_transport_protein_ExbB__Pseudomonas_ae   26.78%    failed      0.05%
+ 463  AKF24681.1_hypothetical_protein_YH65_04225__Sulfu   65.42%    passed     75.55%
+ 464  ADV63187.1_MotA/TolQ/ExbB_proton_channel__Isospha   28.81%    passed     49.35%
+ 465  QKS29082.1_MAG__MotA/TolQ/ExbB_proton_channel_fam   26.44%    failed      0.02%
+ 466  ADO72879.1_MotA/TolQ/ExbB_proton_channel_family_p   23.39%    passed     71.60%
+ 467  AIQ91305.1_TolQ_protein__Methylobacterium_oryzae_   34.92%    passed     10.73%
+ 468  AFE07994.1_MotA/TolQ/ExbB_proton_channel_family_p   28.14%    passed     30.95%
+ 469  AAR36419.1_flagellar_basal_body_stator_protein_Mo   14.58%    failed      0.28%
+ 470  SEH93354.1_mota/tolq/exbb_proton_channel_family__   27.46%    passed     23.36%
+ 471  AKD04823.1_biopolymer_transporter_ExbB__Pontibact   33.22%    passed     58.07%
+ 472  ATO49114.1_chemotaxis_protein__Brevibacillus_late   11.19%    failed      0.06%
+ 473  ACF14782.1_MotA/TolQ/ExbB_proton_channel__Chloroh   30.51%    failed      3.94%
+ 474  QDU26963.1_Chemotaxis_protein_PomA__Anatilimnocol   13.22%    passed     10.59%
+ 475  ABD82073.1_MotA/TolQ/ExbB_proton_channel__Sacchar   69.15%    passed     16.15%
+ 476  ACD90995.1_MotA/TolQ/ExbB_proton_channel__Chlorob   20.34%    passed     13.91%
+ 477  AFE07999.1_MotA/TolQ/ExbB_proton_channel_family_p   33.22%    passed     33.72%
+ 478  QZZ23337.1_MotA/TolQ/ExbB_proton_channel_family_p   30.17%    passed     83.78%
+ 479  ADG93510.1_tonBsystem_energizer_ExbB__Arcobacter_   68.81%    passed     41.80%
+ 480  AIQ88683.1_TolQ_protein__Methylobacterium_oryzae_   56.27%    passed     67.31%
+ 481  ADG94140.1_MotA/TolQ/ExbB_proton_channel__Arcobac   15.59%    passed     18.22%
+ 482  QAR33784.1_hypothetical_protein_EP073_10320__Geov   33.90%    passed     90.06%
+ 483  AEW00830.1_outer_membrane_transport_energization_   33.22%    failed      3.14%
+ 484  AEO48101.1_chemotaxis_sensory_transducer__Rhodosp   40.00%    failed      1.10%
+ 485  BAS27507.1_flagellar_motor_protein_MotP__Limnocho    9.49%    passed     41.02%
+ 486  AQU99646.1_MotA__Desulfococcus_multivorans_         30.51%    passed     53.73%
+ 487  AJJ31614.1_tonBsystem_energizer_ExbB__Yersinia_pe   25.76%    passed     81.82%
+ 488  QXB11428.1_TolPal_system_protein_TolQ__Klebsiella   28.81%    passed     25.11%
+ 489  AHE95642.1_biopolymer_transporter_ExbB__Thermocri   68.14%    passed     12.45%
+ 490  BAC89082.1_gll1141__Gloeobacter_violaceus_PCC_742   30.51%    passed     12.05%
+ 491  ACL67782.1_MotA/TolQ/ExbB_proton_channel__Anaerom   29.15%    passed     98.58%
+ 492  ARN57239.1_Biopolymer_transport_protein_ExbB__Sed   27.80%    passed     92.97%
+ 493  ABF87376.1_MotA/TolQ/ExbB_proton_channel_family_p   28.47%    passed     20.06%
+ 494  QQS07765.1_MAG__MotA/TolQ/ExbB_proton_channel_fam   48.47%    passed     26.95%
+ 495  QKY94846.1_tolpal_systemassociated_acylCoA_thioes   25.76%    passed     58.39%
+ 496  AKF25943.1_biopolymer_transporter_ExbB__Sulfurovu   67.46%    passed     46.79%
+ 497  QDU28596.1_hypothetical_protein_ETAA8_36990__Anat   41.36%    passed     13.53%
+ 498  APC08935.1_chemotaxis_protein_PomA__Moorella_ther   14.92%    passed     49.30%
+ 499  QTD53280.1_MotA/TolQ/ExbB_proton_channel_family_p   31.19%    passed     90.87%
+ 500  QQS05296.1_MAG__MotA/TolQ/ExbB_proton_channel_fam   29.83%    failed      3.51%
+ 501  CAG37702.1_related_to_biopolymer_transport_protei   66.78%    passed     56.18%
+ 502  DGBBEKCF_02484_Motility_protein_A__Verrucomicrobi    2.71%    failed      2.49%
+ 503  QQS05379.1_MAG__MotA/TolQ/ExbB_proton_channel_fam   30.51%    passed     47.78%
+ 504  AWV89791.1_MotA/TolQ/ExbB_proton_channel_family_p   30.17%    passed     26.96%
+ 505  ABA05973.1_Cell_division_and_transportassociated_   32.20%    failed      2.38%
+ 506  EKT86397.1_biopolymer_transporter_ExbB__Leptospir   38.31%    passed     15.76%
+ 507  AEV99079.1_multisensor_hybrid_histidine_kinase__N   73.90%    passed     73.84%
+ 508  CDK97994.1_TolQ_protein__Magnetospirillum_gryphis   30.85%    passed     39.17%
+ 509  MBU2984728.1_MotA/TolQ/ExbB_proton_channel_family   68.14%    passed     17.22%
+ 510  ADV67905.1_MotA/TolQ/ExbB_proton_channel__Deinoco   26.78%    failed      0.01%
+ 511  ALF47162.1_TolPal_system_subunit_TolQ__Campylobac   61.36%    passed     71.00%
+ 512  ABA03969.1_outer_membrane_transport_energization_   22.37%    passed      5.73%
+ 513  BAC90343.1_MotA/TolQ/ExbB_family_proton_channel_p   31.86%    passed     61.48%
+ 514  ADB15644.1_hypothetical_protein_Psta_0959__Pirell   72.88%    passed     14.06%
+ 515  AJH79515.1_motA/TolQ/ExbB_proton_channel_family_p   10.17%    passed     86.08%
+ 516  AOO65010.1_membrane_protein__Sulfurospirillum_hal   56.95%    passed      7.88%
+ 517  ADY83951.1_MotA/TolQ/ExbB_proton_channel__Acineto   45.08%    failed      0.45%
+ 518  ACL96805.1_TolQ_protein__Caulobacter_vibrioides_N   25.42%    passed     55.72%
+ 519  AHZ86042.1_gliding_motility_protein__Bdellovibrio   29.15%    passed     67.73%
+ 520  BDB96353.1_flagellar_motor_protein_MotA__Candidat   66.10%    failed      0.90%
+ 521  AMW06484.1_flagellar_motor_protein_MotA__Gemmatim   10.17%    failed      0.12%
+ 522  AEO48100.1_chemotaxis_sensory_transducer__Rhodosp   40.00%    failed      0.34%
+ 523  MBU2987451.1_MotA/TolQ/ExbB_proton_channel_family   66.10%    passed     91.71%
+ 524  QDU29130.1_colicin_uptake_protein_TolQ__Anatilimn   26.10%    passed     48.05%
+ 525  QDU97593.1_Chemotaxis_protein_PomA__Lignipirellul   13.90%    passed      5.39%
+ 526  QQS88496.1_MotA/TolQ/ExbB_proton_channel_family_p   33.90%    passed      8.98%
+ 527  CAL34488.1_putative_flagellar_motor_proton_channe   13.22%    passed     61.83%
+ 528  AVM44306.1_hypothetical_protein_C5Q97_06090__Vict   63.73%    passed     48.04%
+ 529  ATC62712.1_flagellar_motor_protein_MotA__Nibricoc   31.86%    passed     98.28%
+ 530  ADB18997.1_MotA/TolQ/ExbB_proton_channel__Pirellu   12.88%    passed      9.01%
+ 531  QEI18407.1_MotA/TolQ/ExbB_proton_channel_family_p   50.17%    passed     13.48%
+ 532  ADE86713.1_motA/TolQ/ExbB_proton_channel_family_p   58.31%    passed     31.16%
+ 533  ABF91581.1_transporter__MotA/TolQ/ExbB_proton_cha   29.83%    passed     59.23%
+ 534  ACL67494.1_MotA/TolQ/ExbB_proton_channel__Anaerom   26.78%    passed     12.15%
+ 535  AHE95900.1_flagellar_motor_protein_MotA__Thermocr   16.61%    passed     31.76%
+ 536  QSR84174.1_MotA/TolQ/ExbB_proton_channel_family_p   26.78%    passed     13.00%
+ 537  SLM46359.1_Protein_TolQ__Nitrospira_japonica_       27.80%    passed     51.06%
+ 538  ACL63649.1_MotA/TolQ/ExbB_proton_channel__Anaerom   23.05%    passed     75.91%
+ 539  ADY82611.1_tolerance_to_group_A_colicins__singles   38.64%    passed     60.42%
+ 540  DGBBEKCF_00463_TolPal_system_protein_TolQ__Verruc   31.86%    passed     45.95%
+ 541  QTD49844.1_hypothetical_protein_J3U87_30040__Sulf   74.24%    passed     68.65%
+ 542  QAR33430.1_MotA/TolQ/ExbB_proton_channel_family_p   34.24%    passed     16.51%
+ 543  CAB12348.1_twocomponent_sensor_histidine_kinase__   48.14%    failed      1.23%
+ 544  ADY81763.1_putative_biopolymer_transport_protein_   23.05%    failed      1.94%
+ 545  UNU18280.1_MotA/TolQ/ExbB_proton_channel_family_p   26.78%    failed      4.86%
+ 546  ABC76751.1_tolQ_protein__Syntrophus_aciditrophicu   25.76%    passed     69.73%
+ 547  CAD76169.1_chemotaxis_pomA_protein__Rhodopirellul   14.92%    passed     47.83%
+ 548  UBQ05954.1_MotA/TolQ/ExbB_proton_channel_family_p   31.86%    failed      3.44%
+ 549  AUX20279.1_transport_protein__tolQ__Sorangium_cel   24.75%    failed      3.62%
+ 550  CAB14951.1_sodium_channel_statorforce_generator_s   10.17%    passed     31.70%
+ 551  AHZ86390.1_hypothetical_protein_EP01_15820__Bdell   73.90%    passed     84.21%
+ 552  QDU31292.1_Biopolymer_transport_protein_ExbB__Ana   25.76%    passed     95.87%
+ 553  UPT72845.1_MAG__MotA/TolQ/ExbB_proton_channel_fam   33.22%    passed     80.94%
+ 554  QDU30851.1_Biopolymer_transport_protein_ExbB__Ana   27.46%    passed      6.82%
+ 555  MBU2986144.1_MotA/TolQ/ExbB_proton_channel_family   28.81%    passed     86.86%
+ 556  AAC07083.1_flagellar_motor_protein_MotA__Aquifex_   14.58%    failed      0.28%
+ 557  AEI15149.1_MotA/TolQ/ExbB_proton_channel__Flexist   33.56%    passed     56.70%
+ 558  BAG40198.1_TolQ_protein__Orientia_tsutsugamushi_s   23.73%    failed      0.00%
+ 559  QIZ70555.1_MotA/TolQ/ExbB_proton_channel_family_p   29.15%    passed     84.34%
+ 560  APW42908.1_flagellar_motor_stator_protein_MotA__R    4.41%    passed     13.95%
+ 561  ALA57346.1_Biopolymer_transport_protein_exbB__Nit   69.49%    passed     14.75%
+ 562  PKPEBJJI_00297_TolPal_system_protein_TolQ__CAIZXV   31.53%    passed     10.95%
+ 563  ADD67695.1_tonBsystem_energizer_ExbB__Denitrovibr   66.44%    passed     12.24%
+ 564  QJE95191.1_MotA/TolQ/ExbB_proton_channel_family_p   24.75%    passed     73.64%
+ 565  ADY81773.1_putative_biopolymer_transport_protein_   24.75%    failed      1.28%
+ 566  BCB96094.1_flagellar_motor_stator_protein_MotA__D    3.39%    failed      1.19%
+ 567  BAM06053.1_biopolymer_transport_protein__Leptospi   26.10%    passed     34.34%
+ 568  ADO70054.1_TolQ_protein__Stigmatella_aurantiaca_D   26.44%    passed     65.21%
+ 569  AAC74960.1_motility_protein_A__Escherichia_coli_s    0.00%    passed     81.86%
+ 570  ATU65616.1_MotA/TolQ/ExbB_proton_channel_family_p   28.81%    passed     90.16%
+ 571  QZZ22141.1_MotA/TolQ/ExbB_proton_channel_family_p   29.49%    passed      5.99%
+ 572  BDB95989.1_hypothetical_protein_HYD_1220__Candida   30.17%    passed      5.66%
+ 573  ACF11057.1_protein_TolQ__Chlorobaculum_parvum_NCI   33.22%    passed     68.62%
+ 574  AEO48685.1_MotA/TolQ/ExbB_proton_channel__Rhodosp   34.24%    passed      6.21%
+ 575  AVQ29523.1_MotA/TolQ/ExbB_proton_channel_family_p   30.85%    failed      0.36%
+ 576  AAC07592.1_biopolymer_transport_exbB__Aquifex_aeo   66.10%    passed     67.38%
+ 577  AIQ92767.1_MotA/TolQ/ExbB_proton_channel__Methylo   14.58%    passed      9.95%
+ 578  QSR83870.1_MotA/TolQ/ExbB_proton_channel_family_p   27.46%    passed     91.25%
+ 579  QEI19442.1_MotA/TolQ/ExbB_proton_channel_family_p   31.19%    passed     93.73%
+ 580  BAC89328.1_glr1387__Gloeobacter_violaceus_PCC_742   31.86%    passed     61.48%
+ 581  ATU64277.1_MotA/TolQ/ExbB_proton_channel_family_p   33.22%    passed     61.73%
+ 582  ATU63381.1_hypothetical_protein_CPZ87_01790__Rhiz   47.80%    passed     49.63%
+ 583  CCW35905.1_Flagellar_motor_component__Chthonomona   12.54%    passed      8.88%
+ 584  AUX23472.1_flagellar_motor_protein_MotA__Sorangiu   27.80%    passed     49.68%
+ 585  ATC62595.1_flagellar_motor_protein_MotA__Nibricoc   60.68%    passed     79.48%
+ 586  ADY58081.1_MotA/TolQ/ExbB_proton_channel__Rubinis   30.85%    passed      8.66%
+ 587  UNU17462.1_MotA/TolQ/ExbB_proton_channel_family_p   28.81%    passed     63.07%
+ 588  UPT75425.1_MAG__MotA/TolQ/ExbB_proton_channel_fam   28.81%    failed      2.38%
+ 589  AFE08686.1_TonB_system_transport_protein_ExbB/Tol   21.02%    passed     13.31%
+WARNING: 111 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                               31.65%  120 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: MBU2986144.1_MotA/TolQ/ExbB_proton_channel_family is identical to ABD82818.1_MotA/TolQ/ExbB_proton_channel__Sacchar but kept for subsequent analysis
+NOTE: UEO05650.1_MotA/TolQ/ExbB_proton_channel_family_p is identical to ABF90777.1_MotA/TolQ/ExbB_proton_channel_family_p but kept for subsequent analysis
+NOTE: AWG41586.1_Mot_family_proton__H___or_sodium__Na__ is identical to UOY13875.1_motility_protein_A__Treponema_pallidum but kept for subsequent analysis
+NOTE: UEO04322.1_MotA/TolQ/ExbB_proton_channel_family_p is identical to ABF85904.1_MotA/TolQ/ExbB_proton_channel_family_p but kept for subsequent analysis
+NOTE: MBU2985330.1_flagellar_motor_protein_PomA__Saccha is identical to ABD82476.1_MotA/TolQ/ExbB_proton_channel__Sacchar but kept for subsequent analysis
+NOTE: UEO05991.1_MotA/TolQ/ExbB_proton_channel_family_p is identical to ABF90492.1_MotA/TolQ/ExbB_proton_channel_family_p but kept for subsequent analysis
+NOTE: QKY94846.1_tolpal_systemassociated_acylCoA_thioes is identical to AAC76042.1_Ton_complex_subunit_ExbB__Escherichia_ but kept for subsequent analysis
+NOTE: ABA03969.1_outer_membrane_transport_energization_ is identical to ABA05299.1_outer_membrane_transport_energization_ but kept for subsequent analysis
+NOTE: AFL88473.1_flagellar_motor_component__Terriglobus is identical to AFL88814.1_flagellar_motor_component__Terriglobus but kept for subsequent analysis
+NOTE: UEO04809.1_MotA/TolQ/ExbB_proton_channel_family_p is identical to ABF92421.1_tonB_system_transport_protein_ExbB/Tol but kept for subsequent analysis
+NOTE: ABD81792.1_MotA/TolQ/ExbB_proton_channel__Sacchar is identical to MBU2984437.1_protein_TolQ__Saccharophagus_degrada but kept for subsequent analysis
+NOTE: ABF87376.1_MotA/TolQ/ExbB_proton_channel_family_p is identical to UEO02151.1_MotA/TolQ/ExbB_proton_channel_family_p but kept for subsequent analysis
+NOTE: UEO03725.1_MotA/TolQ/ExbB_proton_channel_family_p is identical to ABF92363.1_transporter__MotA/TolQ/ExbB_proton_cha but kept for subsequent analysis
+NOTE: AFL88606.1_biopolymer_transport_protein__Terriglo is identical to AFL88265.1_biopolymer_transport_protein__Terriglo but kept for subsequent analysis
+NOTE: MBU2986356.1_MotA/TolQ/ExbB_proton_channel_family is identical to ABD79617.1_MotA/TolQ/ExbB_proton_channel__Sacchar but kept for subsequent analysis
+NOTE: ABF91581.1_transporter__MotA/TolQ/ExbB_proton_cha is identical to UEO06636.1_MotA/TolQ/ExbB_proton_channel_family_p but kept for subsequent analysis
+NOTE: QKY92913.1_TolPal_system_protein_TolQ__Shigella_s is identical to AAC73831.1_TolPal_system_protein_TolQ__Escherichi but kept for subsequent analysis
+NOTE: ABD79618.1_MotA/TolQ/ExbB_proton_channel__Sacchar is identical to MBU2986357.1_MotA/TolQ/ExbB_proton_channel_family but kept for subsequent analysis
+NOTE: ABF91342.1_MotA/TolQ/ExbB_proton_channel_family_p is identical to UEO07578.1_MotA/TolQ/ExbB_proton_channel_family_p but kept for subsequent analysis
+NOTE: AJJ31712.1_protein_TolQ__Yersinia_pestis_ is identical to AJJ55217.1_protein_TolQ__Yersinia_pseudotuberculo but kept for subsequent analysis
+NOTE: BAC89328.1_glr1387__Gloeobacter_violaceus_PCC_742 is identical to BAC90343.1_MotA/TolQ/ExbB_family_proton_channel_p but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.00216699 secs using 75.17% CPU
+Creating fast initial parsimony tree by random order stepwise addition...
+0.504 seconds, parsimony score: 45097 (based on 294 sites)
+
+NOTE: 115 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -200682.976
+2. Current log-likelihood: -194246.518
+3. Current log-likelihood: -193879.441
+4. Current log-likelihood: -193769.542
+5. Current log-likelihood: -193734.453
+6. Current log-likelihood: -193719.193
+7. Current log-likelihood: -193714.928
+8. Current log-likelihood: -193712.872
+9. Current log-likelihood: -193712.399
+Optimal log-likelihood: -193712.299
+Gamma shape alpha: 0.890
+Parameters optimization took 9 rounds (13.654 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 75.2663 secs using 92.78% CPU
+Computing ML distances took 75.279083 sec (of wall-clock time) 69.832881 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 0.00653291 secs using 167.1% CPU
+Constructing RapidNJ tree: done in 0.0229418 secs using 182.9% CPU
+Computing RapidNJ tree took 0.029591 sec (of wall-clock time) 0.053029 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -193088.160
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 43.145 second
+Computing log-likelihood of 98 initial trees ... 52.419 seconds
+Current best score: -193088.160
+
+Do NNI search on 20 best initial trees
+Optimizing NNI: done in 9.87571 secs using 97.39% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -192205.880
+Optimizing NNI: done in 22.1037 secs using 95.85% CPU
+Optimizing NNI: done in 19.6684 secs using 94.24% CPU
+Optimizing NNI: done in 15.3496 secs using 95.64% CPU
+Optimizing NNI: done in 18.4374 secs using 96.84% CPU
+Optimizing NNI: done in 21.8608 secs using 95.03% CPU
+Optimizing NNI: done in 16.4829 secs using 96.82% CPU
+Optimizing NNI: done in 18.9781 secs using 98.71% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 8: -192128.682
+Optimizing NNI: done in 18.2513 secs using 99.04% CPU
+Optimizing NNI: done in 17.389 secs using 98.18% CPU
+Iteration 10 / LogL: -192460.612 / Time: 0h:6m:19s
+Optimizing NNI: done in 17.5309 secs using 98.25% CPU
+Optimizing NNI: done in 16.3016 secs using 98.65% CPU
+Optimizing NNI: done in 16.7078 secs using 99.28% CPU
+Optimizing NNI: done in 24.4145 secs using 99.3% CPU
+Optimizing NNI: done in 19.3951 secs using 99.39% CPU
+Optimizing NNI: done in 21.4213 secs using 99.08% CPU
+Optimizing NNI: done in 15.5371 secs using 98.13% CPU
+Optimizing NNI: done in 20.4903 secs using 98.32% CPU
+Optimizing NNI: done in 21.4631 secs using 98% CPU
+Optimizing NNI: done in 21.3501 secs using 96.09% CPU
+Iteration 20 / LogL: -192203.844 / Time: 0h:9m:35s
+Finish initializing candidate tree set (20)
+Current best tree score: -192128.682 / CPU time: 475.375
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 11.3874 secs using 98.15% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 21: -192076.186
+Optimizing NNI: done in 14.91 secs using 92.07% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -192044.230
+Optimizing NNI: done in 10.9472 secs using 97.57% CPU
+Optimizing NNI: done in 10.9612 secs using 98.01% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 24: -192038.224
+Optimizing NNI: done in 11.1944 secs using 99.01% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 25: -192035.504
+Optimizing NNI: done in 10.293 secs using 98.91% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 26: -192031.464
+Optimizing NNI: done in 10.4177 secs using 97.51% CPU
+Optimizing NNI: done in 11.7449 secs using 98.12% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 28: -191988.180
+Optimizing NNI: done in 9.60741 secs using 98.52% CPU
+Optimizing NNI: done in 10.3303 secs using 98.52% CPU
+Iteration 30 / LogL: -192013.049 / Time: 0h:11m:40s (0h:39m:25s left)
+Optimizing NNI: done in 12.8801 secs using 96.87% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 31: -191911.599
+Optimizing NNI: done in 10.6269 secs using 97.99% CPU
+Optimizing NNI: done in 10.1744 secs using 98.81% CPU
+Optimizing NNI: done in 10.9717 secs using 97.6% CPU
+Optimizing NNI: done in 12.7963 secs using 97.3% CPU
+Optimizing NNI: done in 10.0756 secs using 98.76% CPU
+Optimizing NNI: done in 9.15255 secs using 98.58% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 37: -191863.075
+Optimizing NNI: done in 9.6416 secs using 98.73% CPU
+Optimizing NNI: done in 9.73741 secs using 98.99% CPU
+Optimizing NNI: done in 9.85739 secs using 97.93% CPU
+Iteration 40 / LogL: -191892.332 / Time: 0h:13m:32s (0h:33m:38s left)
+Optimizing NNI: done in 7.94244 secs using 98.35% CPU
+Optimizing NNI: done in 10.4151 secs using 98.72% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 42: -191861.603
+Optimizing NNI: done in 9.73561 secs using 97.94% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 43: -191830.121
+Optimizing NNI: done in 9.34315 secs using 97.86% CPU
+Optimizing NNI: done in 7.87846 secs using 98.44% CPU
+Optimizing NNI: done in 9.24869 secs using 98.43% CPU
+Optimizing NNI: done in 8.51815 secs using 98.57% CPU
+Optimizing NNI: done in 9.63516 secs using 98.56% CPU
+Optimizing NNI: done in 11.4302 secs using 98.76% CPU
+Optimizing NNI: done in 9.8818 secs using 96.18% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 50: -191802.533
+Iteration 50 / LogL: -191802.533 / Time: 0h:15m:11s (0h:30m:59s left)
+Optimizing NNI: done in 11.3595 secs using 97.09% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 51: -191750.330
+Optimizing NNI: done in 9.68821 secs using 97.55% CPU
+Optimizing NNI: done in 10.3834 secs using 98.44% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 53: -191725.412
+Optimizing NNI: done in 10.4676 secs using 98.65% CPU
+Optimizing NNI: done in 8.84333 secs using 98.75% CPU
+Optimizing NNI: done in 9.91687 secs using 98.75% CPU
+Optimizing NNI: done in 9.37631 secs using 97.99% CPU
+Optimizing NNI: done in 10.0218 secs using 98.78% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 58: -191720.598
+Optimizing NNI: done in 9.86769 secs using 98.87% CPU
+Optimizing NNI: done in 10.5263 secs using 98.41% CPU
+Iteration 60 / LogL: -191734.535 / Time: 0h:16m:56s (0h:28m:7s left)
+Optimizing NNI: done in 10.6819 secs using 98.25% CPU
+Optimizing NNI: done in 8.61601 secs using 98.18% CPU
+Optimizing NNI: done in 8.83615 secs using 98.37% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 63: -191719.913
+Optimizing NNI: done in 11.2846 secs using 97.02% CPU
+Optimizing NNI: done in 10.3531 secs using 97.82% CPU
+Optimizing NNI: done in 10.6114 secs using 98.31% CPU
+Optimizing NNI: done in 11.4963 secs using 97.72% CPU
+Optimizing NNI: done in 11.4453 secs using 97.42% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 68: -191708.528
+Optimizing NNI: done in 10.3456 secs using 97.63% CPU
+Optimizing NNI: done in 10.076 secs using 98.15% CPU
+Iteration 70 / LogL: -191714.683 / Time: 0h:18m:43s (0h:26m:34s left)
+Optimizing NNI: done in 8.89974 secs using 96.71% CPU
+Optimizing NNI: done in 11.693 secs using 98.39% CPU
+Optimizing NNI: done in 9.20374 secs using 98.74% CPU
+Optimizing NNI: done in 9.72827 secs using 98.11% CPU
+Optimizing NNI: done in 8.39884 secs using 98.27% CPU
+Optimizing NNI: done in 17.4947 secs using 97.95% CPU
+Optimizing NNI: done in 10.1835 secs using 98.76% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 77: -191706.997
+Optimizing NNI: done in 10.9394 secs using 98.98% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 78: -191706.616
+Optimizing NNI: done in 9.74199 secs using 98.72% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 79: -191701.961
+Optimizing NNI: done in 8.58071 secs using 97.82% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 80: -191678.446
+Iteration 80 / LogL: -191678.446 / Time: 0h:20m:33s (0h:26m:1s left)
+Optimizing NNI: done in 9.14094 secs using 95.9% CPU
+Optimizing NNI: done in 8.84924 secs using 98.29% CPU
+Optimizing NNI: done in 7.96913 secs using 98.52% CPU
+Optimizing NNI: done in 10.4014 secs using 98.5% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 84: -191674.011
+Optimizing NNI: done in 8.65777 secs using 98.63% CPU
+Optimizing NNI: done in 8.99127 secs using 98.6% CPU
+Optimizing NNI: done in 8.3779 secs using 98.01% CPU
+Optimizing NNI: done in 9.46108 secs using 98.04% CPU
+Optimizing NNI: done in 9.17715 secs using 98.58% CPU
+Optimizing NNI: done in 10.6308 secs using 98.39% CPU
+Iteration 90 / LogL: -191700.029 / Time: 0h:22m:7s (0h:23m:21s left)
+Optimizing NNI: done in 9.84094 secs using 97.96% CPU
+Optimizing NNI: done in 9.69207 secs using 98.2% CPU
+Optimizing NNI: done in 10.2588 secs using 98.94% CPU
+Optimizing NNI: done in 10.1995 secs using 98.35% CPU
+Optimizing NNI: done in 9.33954 secs using 98.64% CPU
+Optimizing NNI: done in 8.51413 secs using 98.2% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 96: -191671.169
+Optimizing NNI: done in 7.92056 secs using 98.3% CPU
+Optimizing NNI: done in 10.0139 secs using 98.56% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 98: -191652.719
+Optimizing NNI: done in 10.8505 secs using 95.7% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 99: -191650.635
+Optimizing NNI: done in 9.06518 secs using 97.28% CPU
+Iteration 100 / LogL: -191755.481 / Time: 0h:23m:48s (0h:23m:48s left)
+Optimizing NNI: done in 8.86861 secs using 96.76% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 101: -191646.838
+Optimizing NNI: done in 12.0316 secs using 96.31% CPU
+Optimizing NNI: done in 13.0572 secs using 96.32% CPU
+Optimizing NNI: done in 9.45426 secs using 98.32% CPU
+Optimizing NNI: done in 9.50042 secs using 96.07% CPU
+Optimizing NNI: done in 9.35036 secs using 97.26% CPU
+Optimizing NNI: done in 8.26132 secs using 98.97% CPU
+Optimizing NNI: done in 8.76292 secs using 96.71% CPU
+Optimizing NNI: done in 12.1247 secs using 96.75% CPU
+Optimizing NNI: done in 10.3357 secs using 97.8% CPU
+Iteration 110 / LogL: -191668.522 / Time: 0h:25m:33s (0h:21m:19s left)
+Optimizing NNI: done in 8.2486 secs using 97.5% CPU
+Optimizing NNI: done in 9.95142 secs using 96.79% CPU
+Optimizing NNI: done in 7.95772 secs using 97.59% CPU
+Optimizing NNI: done in 8.55627 secs using 97.03% CPU
+Optimizing NNI: done in 8.48025 secs using 97.28% CPU
+Optimizing NNI: done in 10.524 secs using 93.51% CPU
+Optimizing NNI: done in 11.7172 secs using 92.1% CPU
+Optimizing NNI: done in 9.83241 secs using 95.17% CPU
+Optimizing NNI: done in 12.9226 secs using 95.07% CPU
+Optimizing NNI: done in 9.31205 secs using 95.44% CPU
+Iteration 120 / LogL: -191765.859 / Time: 0h:27m:12s (0h:18m:30s left)
+Optimizing NNI: done in 11.4327 secs using 90.46% CPU
+Optimizing NNI: done in 7.90353 secs using 96.86% CPU
+Optimizing NNI: done in 12.8467 secs using 92% CPU
+Optimizing NNI: done in 8.95478 secs using 98.09% CPU
+Optimizing NNI: done in 8.08285 secs using 98.08% CPU
+Optimizing NNI: done in 10.7787 secs using 98.49% CPU
+Optimizing NNI: done in 13.0011 secs using 87.14% CPU
+Optimizing NNI: done in 12.0437 secs using 88.59% CPU
+Optimizing NNI: done in 10.7224 secs using 90.03% CPU
+Optimizing NNI: done in 15.9149 secs using 72.13% CPU
+Iteration 130 / LogL: -191667.567 / Time: 0h:29m:5s (0h:16m:0s left)
+Optimizing NNI: done in 13.1225 secs using 96.96% CPU
+Optimizing NNI: done in 9.40834 secs using 97.59% CPU
+Optimizing NNI: done in 9.21222 secs using 95.79% CPU
+Optimizing NNI: done in 10.2003 secs using 96.03% CPU
+Optimizing NNI: done in 10.7137 secs using 97% CPU
+Optimizing NNI: done in 12.4013 secs using 96.61% CPU
+Optimizing NNI: done in 10.6407 secs using 96.42% CPU
+Optimizing NNI: done in 8.16406 secs using 97.71% CPU
+Optimizing NNI: done in 11.1566 secs using 98.71% CPU
+Optimizing NNI: done in 8.72244 secs using 98.47% CPU
+Iteration 140 / LogL: -191693.403 / Time: 0h:30m:50s (0h:13m:31s left)
+Optimizing NNI: done in 8.49813 secs using 98.48% CPU
+Optimizing NNI: done in 9.10152 secs using 97.17% CPU
+Optimizing NNI: done in 9.54223 secs using 97.48% CPU
+Optimizing NNI: done in 8.7255 secs using 98.51% CPU
+Optimizing NNI: done in 8.87884 secs using 97.12% CPU
+Optimizing NNI: done in 11.705 secs using 96.77% CPU
+Optimizing NNI: done in 9.23662 secs using 95.01% CPU
+Optimizing NNI: done in 9.33816 secs using 94.92% CPU
+Optimizing NNI: done in 9.20824 secs using 92.5% CPU
+Optimizing NNI: done in 10.2846 secs using 95.72% CPU
+Iteration 150 / LogL: -191679.169 / Time: 0h:32m:26s (0h:11m:5s left)
+Optimizing NNI: done in 10.326 secs using 96.08% CPU
+Optimizing NNI: done in 16.6169 secs using 96.38% CPU
+Optimizing NNI: done in 9.26409 secs using 97.34% CPU
+Optimizing NNI: done in 9.76038 secs using 98.74% CPU
+Optimizing NNI: done in 8.37982 secs using 98.54% CPU
+Optimizing NNI: done in 7.84446 secs using 98.74% CPU
+Optimizing NNI: done in 8.61511 secs using 99.16% CPU
+Optimizing NNI: done in 9.31331 secs using 98.8% CPU
+Optimizing NNI: done in 8.72788 secs using 98.74% CPU
+Optimizing NNI: done in 8.50515 secs using 98.97% CPU
+Iteration 160 / LogL: -191675.404 / Time: 0h:34m:4s (0h:8m:47s left)
+Optimizing NNI: done in 8.58332 secs using 98.59% CPU
+Optimizing NNI: done in 10.2853 secs using 98.71% CPU
+Optimizing NNI: done in 9.85145 secs using 97.63% CPU
+Optimizing NNI: done in 8.34169 secs using 98.3% CPU
+Optimizing NNI: done in 9.27808 secs using 98.57% CPU
+Optimizing NNI: done in 9.00899 secs using 97.95% CPU
+Optimizing NNI: done in 9.46483 secs using 98.63% CPU
+Optimizing NNI: done in 9.22906 secs using 98.14% CPU
+Optimizing NNI: done in 8.99423 secs using 99.12% CPU
+Optimizing NNI: done in 8.66822 secs using 98.72% CPU
+Iteration 170 / LogL: -191664.736 / Time: 0h:35m:37s (0h:6m:31s left)
+Optimizing NNI: done in 9.03823 secs using 98.71% CPU
+Optimizing NNI: done in 8.21057 secs using 98.64% CPU
+Optimizing NNI: done in 8.81902 secs using 98.71% CPU
+Optimizing NNI: done in 9.43108 secs using 98.75% CPU
+Optimizing NNI: done in 8.51628 secs using 98.98% CPU
+Optimizing NNI: done in 9.22535 secs using 98.62% CPU
+Optimizing NNI: done in 10.5755 secs using 98.8% CPU
+Optimizing NNI: done in 9.06999 secs using 98.51% CPU
+Optimizing NNI: done in 8.45705 secs using 98.58% CPU
+Optimizing NNI: done in 8.95797 secs using 98.62% CPU
+Iteration 180 / LogL: -191669.694 / Time: 0h:37m:8s (0h:4m:21s left)
+Optimizing NNI: done in 8.85135 secs using 98.92% CPU
+Optimizing NNI: done in 10.5399 secs using 96.44% CPU
+Optimizing NNI: done in 8.77707 secs using 97.72% CPU
+Optimizing NNI: done in 9.33404 secs using 98.68% CPU
+Optimizing NNI: done in 9.53905 secs using 98.47% CPU
+Optimizing NNI: done in 9.94041 secs using 98.5% CPU
+Optimizing NNI: done in 8.37776 secs using 98.21% CPU
+Optimizing NNI: done in 9.35841 secs using 98.5% CPU
+Optimizing NNI: done in 10.1897 secs using 98.71% CPU
+Optimizing NNI: done in 8.20905 secs using 98.57% CPU
+Iteration 190 / LogL: -191662.352 / Time: 0h:38m:43s (0h:2m:15s left)
+Optimizing NNI: done in 8.96694 secs using 98.59% CPU
+Optimizing NNI: done in 9.82542 secs using 99.08% CPU
+Optimizing NNI: done in 10.5194 secs using 98.56% CPU
+Optimizing NNI: done in 8.12578 secs using 97.49% CPU
+Optimizing NNI: done in 9.46273 secs using 98.65% CPU
+Optimizing NNI: done in 11.0669 secs using 98.44% CPU
+Optimizing NNI: done in 8.94102 secs using 98.92% CPU
+Optimizing NNI: done in 9.13664 secs using 98.58% CPU
+Optimizing NNI: done in 9.11773 secs using 98.82% CPU
+Optimizing NNI: done in 7.95347 secs using 98.66% CPU
+Iteration 200 / LogL: -191669.411 / Time: 0h:40m:17s (0h:0m:12s left)
+Optimizing NNI: done in 9.42963 secs using 98.9% CPU
+Optimizing NNI: done in 9.55058 secs using 97.39% CPU
+TREE SEARCH COMPLETED AFTER 202 ITERATIONS / Time: 0h:40m:36s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -191646.838
+2. Current log-likelihood: -191646.771
+3. Current log-likelihood: -191646.702
+4. Current log-likelihood: -191646.653
+Optimal log-likelihood: -191646.643
+Gamma shape alpha: 0.867
+Parameters optimization took 4 rounds (4.616 sec)
+BEST SCORE FOUND : -191646.643
+Total tree length: 613.085
+
+Total number of iterations: 202
+CPU time used for tree search: 2268.416 sec (0h:37m:48s)
+Wall-clock time used for tree search: 2336.719 sec (0h:38m:56s)
+Total CPU time used: 2366.136 sec (0h:39m:26s)
+Total wall-clock time used: 2441.166 sec (0h:40m:41s)
+
+Analysis results written to: 
+  IQ-TREE report:                motA589_ETE_trimmed.fa.iqtree
+  Maximum-likelihood tree:       motA589_ETE_trimmed.fa.treefile
+  Likelihood distances:          motA589_ETE_trimmed.fa.mldist
+  Screen log file:               motA589_ETE_trimmed.fa.log
+
+ALISIM COMMAND
+--------------
+--alisim simulated_MSA -t motA589_ETE_trimmed.fa.treefile -m "LG+F+G4{0.866854}" --length 295
+
+Date and Time: Thu May 25 15:34:32 2023

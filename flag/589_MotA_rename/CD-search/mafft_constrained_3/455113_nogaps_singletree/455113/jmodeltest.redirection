@@ -1,0 +1,6 @@
+tool=jmodeltest
+jobname=jmodeltest
+jobdescription=redirected from job $JOB_NAME
+d_databox=outfile.out (from job $JOB_NAME)
+d=$JOB_FOLDER/outfile.out
+d_wum_data=true

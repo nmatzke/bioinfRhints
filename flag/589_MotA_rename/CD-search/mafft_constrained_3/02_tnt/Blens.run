@@ -1,0 +1,61 @@
+macro=;
+if ( !argnumber )
+errmsg 
+--------------------------------------------------------
+This macro plots phylograms (i.e. branches proportional)
+Must specify:
+      1 - tree to draw with branch lengths
+      2 - maximum width (width of longest branch,
+          default is 10) 
+--------------------------------------------------------
+;
+end 
+ttag- ;
+ttag= ; 
+naked= ;
+bleng * %1 ;
+var : max fac wid thiswid[ (2*(ntax+1)) ] ; 
+set max 0 ; 
+macfloat 5 ; 
+loop 0 nnodes[ %1 ]
+   if ( #1 == ( ntax+1 ) ) continue ; end 
+   if ( 'max' < ( $ttag #1 ) ) 
+     set max    ( $ttag #1 ) ;
+     end
+stop
+if ( argnumber < 2  )
+     set wid 10 ;
+else set wid %2 ; end
+set fac 'wid' / 'max' ; 
+loop 0 nnodes[ %1 ]
+    if ( #1 == ( ntax+1 ) ) continue ; end 
+    set thiswid[ #1 ]  ( $ttag #1 ) * 'fac' ; 
+stop 
+ttag- ;
+ttag= ;
+tplot %1 ;
+silent = all ;
+naked] ; 
+macfloat 0 ;
+loop 0 nnodes[ %1 ]
+    if ( #1 == ( ntax+1 ) ) continue ; end
+    if ( !'thiswid[ #1 ]' ) continue ; end 
+    loop 1 'thiswid[ #1 ]' 
+       ttag +#1 Ä;
+       stop
+stop 
+macfloat 5 ; 
+silent - all ;
+ttag ;
+ttag- ; 
+proc/;
+
+
+
+
+
+
+
+
+
+

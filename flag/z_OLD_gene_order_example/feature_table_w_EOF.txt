@@ -1,0 +1,5 @@
+feature	class	assembly	assembly_unit	seq_type	chromosome	genomic_accession	start	end	strand	product_accession	non-redundant_refseq	related_accession	name	symbol	GeneID	locus_tag	feature_interval_length	product_length	attributes
+CDS	with_protein	GCA_000005845.2	Primary Assembly	chromosome		U00096.3	2149039	2150985	-	AAC75131.1			putative serine/threonine-protein kinase YegI	yegI		b2070	1947	648	
+gene	protein_coding	GCA_000005845.2	Primary Assembly	chromosome		U00096.3	2151185	2151646	+					yegJ		b2071	462		
+CDS	with_protein	GCA_000005845.2	Primary Assembly	chromosome		U00096.3	2151185	2151646	+	AAC75132.1			DUF2314 domain-containing protein YegJ	yegJ		b2071	462	153	
+gene	protein_coding	GCA_000005845.2	Primary Assembly	chromosome		U00096.3	2151711	2152472	-					pphC		b2072	762		

@@ -1,0 +1,6 @@
+tool=proml
+jobname=proml
+jobdescription=redirected from job $JOB_NAME
+infile_databox=outfile.out (from job $JOB_NAME)
+infile=$JOB_FOLDER/outfile.out
+infile_wum_data=true

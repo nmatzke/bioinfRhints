@@ -1,0 +1,6 @@
+tool=phyml
+jobname=phyml
+jobdescription=redirected from job $JOB_NAME
+input_databox=outfile.out (from job $JOB_NAME)
+input=$JOB_FOLDER/outfile.out
+input_wum_data=true

@@ -508,7 +508,6 @@ sort(table(short_protname))
 
 
 
-
 #######################################################
 # Coloring in the branches by size
 #######################################################
@@ -649,4 +648,72 @@ dev.off()
 cmdstr = paste0("open ", pdffn)
 system(cmdstr)
 
+
+
+
+
+
+
+#######################################################
+# Order alignment by size...
+#######################################################
+alnfn = "motA_hmmalign589_full.fasta"
+aln = read.fasta(alnfn)
+
+# "aln" is an R list, each element is a sequence, with a name and some other attributes:
+attributes(aln[[1]])
+
+# Get the full names of all the sequences
+# (lapply = "list apply" = apply the function "attr" to each element in the list "aln")
+# (unlist turns the list of names into a vector)
+fullnames = unlist(lapply(X=aln, FUN=attr, which="Annot"))
+gids = unlist(lapply(X=aln, FUN=attr, which="name")) # gid = Genbank IDs
+
+# Fix GIDs with "_"
+underscores_in_gids_TF = grepl(pattern="_", x=gids)
+gids_w_underscores = gids[underscores_in_gids_TF]
+gids_wo_underscores = gsub(pattern="_", replacement="", x=gids_w_underscores)
+
+tipnames = tr2$tip.label
+tipnames = gsub(pattern="'", replacement="", x=tipnames)
+tipnames
+
+# Fix tipnames with "_" in gid:
+for (j in 1:length(gids_w_underscores))
+	{
+	matches_alignment_TF = grepl(pattern=gids_w_underscores[j], x=gids)
+	gids[matches_alignment_TF] = gsub(pattern=gids_w_underscores[j], replacement=gids_wo_underscores[j], x=gids[matches_alignment_TF])
+	
+	matches_tips_TF = grepl(pattern=gids_w_underscores[j], x=tipnames)
+	tipnames[matches_tips_TF] = gsub(pattern=gids_w_underscores[j], replacement=gids_wo_underscores[j], x=tipnames[matches_tips_TF])
+	}
+
+
+tipnames2 = rep("", times=length(tipnames))
+for (i in 1:length(tipnames))
+	{
+	words = strsplit(tipnames[i], split="_")[[1]]
+	trgid = words[1]
+	tipnames2[i] = trgid
+	}
+
+tmporder1 = match(gids, table=tipnames2)
+tmporder1
+
+# Are there any unmatched?
+cat(unname(gids[is.na(tmporder1)]), sep="\r")
+
+
+tmporder2 = match(tipnames2, table=gids)
+tmporder2
+
+gids[is.na(tmporder1)]
+tipnames2[is.na(tmporder2)]
+
+
+alnfn_out = gsub(pattern=".fasta", replacement="_tr2_order.fasta", x=alnfn)
+aln2 = aln[tmporder2]
+names2 = fullnames[tmporder2]
+
+write.fasta(sequences=aln2, names=names2, file.out=alnfn_out)
 

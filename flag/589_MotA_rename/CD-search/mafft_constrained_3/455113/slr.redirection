@@ -1,0 +1,6 @@
+tool=slr
+jobname=slr
+jobdescription=redirected from job $JOB_NAME
+seqfile_databox=outfile.out (from job $JOB_NAME)
+seqfile=$JOB_FOLDER/outfile.out
+seqfile_wum_data=true
