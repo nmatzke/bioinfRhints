@@ -1,0 +1,235 @@
+
+
+#######################################################
+# Installing FoldSeek on a Mac
+#######################################################
+
+# 0. Go to Mac terminal
+
+
+# 1. Install wget with MacPorts ("port"): 
+# https://ports.macports.org/port/wget/
+
+# Update MacPorts
+port selfupdate
+
+# Install wget
+sudo port install wget
+
+# See what was installed
+port contents wget
+
+# (looks like it installs to the MacPorts location, /opt/local/bin/wget )
+
+# update at a future date
+sudo port selfupdate && sudo port upgrade wget
+
+
+
+# 2. Install foldseek using wget: 
+# https://github.com/steineggerlab/foldseek/tree/83b4e734e9303fcb0e25cc3f6768c1ca9f774125#create-custom-databases-and-indexes
+
+wget https://mmseqs.com/foldseek/foldseek-osx-universal.tar.gz; tar xvzf foldseek-osx-universal.tar.gz; export PATH=$(pwd)/foldseek/bin/:$PATH
+
+# Installed to:
+cd /Users/nmat471/foldseek/bin
+ls
+
+# Copy to /usr/local/bin
+cd /Users/nmat471/foldseek/bin
+cp foldseek /usr/local/bin
+
+# Copy installation folder to Applications
+cd /Users/nmat471/foldseek/bin
+cd /Users/nmat471/
+mv foldseek /Applications
+cd /Applications/foldseek
+ls
+
+foldseek -h
+
+
+
+# 3. Install mmseqs2
+# https://github.com/soedinglab/MMseqs2/wiki#install-mmseqs2-for-macos
+
+wget https://mmseqs.com/latest/mmseqs-osx-universal.tar.gz
+tar xvzf mmseqs-osx-universal.tar.gz
+export PATH=$(pwd)/mmseqs/bin/:$PATH
+
+# Where did it install?
+
+which mmseqs
+# /usr/local/bin/mmseqs
+
+cd /usr/local/bin/
+ls -la mm*
+cd /usr/local/Cellar/mmseqs2/13-45111/bin
+ls -la mm*
+
+cd ..
+ls
+
+
+# But also to (on my machine):
+cd ~/mmseqs
+
+# I'd rather have the mmseqs documentation available in Applications folder, so:
+cd ~/mmseqs
+cd ..
+mv mmseqs /Applications
+cd /Applications/mmseqs
+ls
+
+
+
+
+# 4. Download/save reformat.pl (Perl script for converting m3a multiple alignment format to fasta format)
+# https://raw.githubusercontent.com/soedinglab/hh-suite/master/scripts/reformat.pl
+
+
+# 5. Also download & unzip the full foldseek source code, e.g. for the examples:
+# a. https://github.com/steineggerlab/foldseek
+# b. Click green "Code" button, download the zip file
+# c. unzip to e.g. /Applications/
+
+
+#######################################################
+# Exploring foldseek options
+#######################################################
+foldseek -h
+# structurealign    	Compute structural alignment using 3Di alphabet, amino acids and neighborhood information
+
+foldseek createdb -h
+foldseek easy-search -h
+# --seed-sub-mat TWIN            Substitution matrix file for k-mer generation [aa:3di.out,nucl:3di.out]
+
+
+foldseek easy-search -h
+#--alignment-type INT           How to compute the alignment:
+                                0: 3di alignment
+                                1: TM alignment
+                                2: 3Di+AA [2]
+
+foldseek easy-search <i:PDB|mmCIF[.gz]> ... <i:PDB|mmCIF[.gz]>|<i:stdin> #<i:targetFastaFile[.gz]>|<i:targetDB> <o:alignmentFile> <tmpDir> [options]
+
+# --sub-mat TWIN                 Substitution matrix file [aa:3di.out,nucl:3di.out]
+
+
+foldseek structurealign -h
+# foldseek structurealign <i:queryDB> <i:targetDB> <i:prefilterDB> <o:resultDB> [options]
+# -a BOOL                        Add backtrace string (convert to alignments with mmseqs convertalis module) [0]
+# --sub-mat TWIN                 Substitution matrix file [aa:3di.out,nucl:3di.out]
+
+
+
+
+
+#######################################################
+# *** PROBABLY THIS IS A CONVERTER, STRUCTURE-TO-3Di
+#######################################################
+
+
+foldseek structureto3didescriptor -h
+
+foldseek structureto3didescriptor example/d1asha_ d1asha_.3di.txt
+
+more example/d1asha_
+more d1asha_.3di.txt
+
+foldseek structureto3didescriptor example/d1asha_ d1asha_.3di.txt -v 3
+
+foldseek structureto3didescriptor example/d1asha_ d1asha_.3di.txt --write-mapping 0
+more d1asha_.3di.txt
+
+foldseek structureto3didescriptor example/d1asha_ d1asha_.3di.txt --write-mapping 1
+more d1asha_.3di.txt
+
+# I *think* that the first sequence is the amino acids, and the second sequence 
+# is the 3di sequence
+
+
+
+
+#######################################################
+# *** THIS DEFINITELY GIVES 3Di SEQUENCES, FROM A 
+#     SPECIFIC DATABASE
+#######################################################
+
+
+#######################################################
+# Download e.g. SwissProt database and look at
+# 3di sequences
+#######################################################
+# https://youtu.be/k5Rbi22TtOA?t=1825
+# "sp_ss.index contains the 3di sequence"
+
+# Download the Swiss-Prot database to "sp"
+# (1.3 gb, several minutes)
+foldseek databases Alphafold/Swiss-Prot sp/sp tmp
+
+# mv sp* sp
+cd sp
+more sp_ss  
+# the file "sp_ss" -- this has the 3di sequences; 
+# it would take some work to connect them to structure names
+
+
+
+
+#######################################################
+# OTHER NOTES
+#######################################################
+#######################################################
+# Example commands
+#######################################################
+
+# Work with example data
+
+cd /Applications/foldseek/example
+ls
+
+# Easy alignment
+cd /Applications/foldseek/
+foldseek easy-search example/d1asha_ example/ aln tmp --alignment-type 1
+
+# Runs fast; results in /tmp:
+cd /Applications/foldseek/tmp
+ls -la
+cd latest
+ls -la
+
+
+# Query centered multiple sequence alignment
+# Foldseek can generate a3m based multiple sequence alignments 
+# using the following commands. a3m can be converted to fasta 
+# format using reformat.pl (reformat.pl in.a3m out.fas).
+
+cd /Applications/foldseek/
+foldseek createdb example/ targetDB
+foldseek createdb example/ queryDB
+foldseek search queryDB targetDB aln tmpFolder -a
+foldseek result2msa queryDB targetDB aln msa --msa-format-mode 6 -v 3
+foldseek unpackdb msa msa_output --unpack-suffix a3m --unpack-name-mode 0
+
+
+
+
+
+
+foldseek cluster example/d1asha_ example/ aln tmp --alignment-mode 0 -c
+more aln
+
+#--alignment-type INT           How to compute the alignment:
+                                0: 3di alignment
+                                1: TM alignment
+                                2: 3Di+AA [2]
+
+
+
+
+
+
+
+
+

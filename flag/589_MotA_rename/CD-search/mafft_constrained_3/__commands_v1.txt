@@ -146,6 +146,19 @@ iqtree -s outfile.out_nogaps.fasta -m LG+F+C60 -bb 1000 | tee so1.txt &
 
 
 
+TrimAl (Trim Alignment):
+http://phylemon2.bioinfo.cipf.es/
+
+nickmatzke.ncse@gmail.com
+1Natpass
+
+Utilities -> Alignment Utilities -> TrimAl (v. 1.3)
+http://phylemon2.bioinfo.cipf.es/utilities.html
+
+Option: gappyout, don't delete spurious sequences
+
+
+
 
 LG+PMSF+G
 

@@ -347,7 +347,7 @@ check_BioGeoBEARS_run(BioGeoBEARS_run_object)
 
 # For a slow analysis, run once, then set runslow=FALSE to just 
 # load the saved result.
-runslow = TRUE
+runslow = FALSE
 resfn = "Motility_Mk_M0_unconstrained_v1.Rdata"
 if (runslow)
     {
@@ -367,7 +367,7 @@ if (runslow)
 # PDF plots
 #######################################################
 pdffn = "Motility_Markov-k_M0_unconstrained_v1.pdf"
-pdf(pdffn, width=12, height=36)
+pdf(pdffn, width=20, height=60)
 
 #######################################################
 # Plot ancestral states - Mk
@@ -399,7 +399,7 @@ model_name = "Mk"
 res = resMk
 
 pdffn = paste0("MkBSM_", model_name, "_v1.pdf")
-pdf(pdffn, width=12, height=36)
+pdf(pdffn, width=20, height=60)
 
 analysis_titletxt = paste0(model_name, " on MkBSM")
 

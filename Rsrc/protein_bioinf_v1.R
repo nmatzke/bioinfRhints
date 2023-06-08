@@ -449,7 +449,7 @@ read_gene_order_table_ATTEMPT <- function(gene_order_table_fn)
 
 
 
-# Get the gene order table 
+# Read a gene order table (aka a protein feature table)
 read_gene_order_table <- function(gene_order_table_fn)
 	{
 	# Remove "#" from first line
@@ -472,7 +472,7 @@ read_gene_order_table <- function(gene_order_table_fn)
 		}
 
 	# This seems to have everything...
-	gene_order_df = gene_order_df2
+	gene_order_df = gene_order_tmp
 	head(gene_order_df)
 	return(gene_order_df)
 	}
@@ -527,4 +527,129 @@ nones_to_NA <- function(x)
 		return(x)
 	end
 	return(x)
+	}
+
+
+
+
+
+
+
+
+
+
+# prokka outputs have just e.g.:
+# 
+junk='
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+DGBBEKCF_00001	CDS	2412	mshA_1	2.4.1.250		D-inositol-3-phosphate glycosyltransferase
+DGBBEKCF_00002	CDS	762				hypothetical protein
+'
+
+# For merging into a huge protein features table,
+# we want to have a _feature_table.txt file with:
+junk='
+# feature	class	assembly	assembly_unit	seq_type	chromosome	genomic_accession	start	end	strand	product_accession	non-redundant_refseq	related_accession	name	symbol	GeneID	locus_tag	feature_interval_length	product_length	attributes
+gene	protein_coding	GCA_900093645.1	Primary Assembly	unplaced scaffold		FLYF01000089.1	3	122	+							AB751O23_DK_00010	120		partial
+CDS	with_protein	GCA_900093645.1	Primary Assembly	unplaced scaffold		FLYF01000089.1	3	122	+	SCA59112.1			hypothetical protein			AB751O23_DK_00010	120	39	partial
+'
+
+convert_prokka_tsv_to_prot_feature_table <- function(tsv_fn, write_to_file=TRUE)
+	{
+	junk='
+	tsv_fn = "/Users/nmat471/Downloads/Full_genomes/genomes/PRJEB38681_Verrucomicrobium_sp_CAISZB01/PRJEB38681_Verrucomicrobium_sp_CAISZB01.tsv"
+	
+	prot_feature_table_df = convert_prokka_tsv_to_prot_feature_table(tsv_fn)
+	
+	prot_feature_table_fn = gsub(pattern=".tsv", replacement="_feature_table.txt", x=tsv_fn)
+	write.table(prot_feature_table_df, file=prot_feature_table_fn, sep="\t", row.names=FALSE, append=FALSE, quote=FALSE, col.names=TRUE)
+
+	tsv_fn = "/Users/nmat471/Downloads/Full_genomes/genomes/PRJEB3868_Verrucomicrobium_sp_CAIZXV01/PRJEB3868_Verrucomicrobium_sp_CAIZXV01.tsv"
+	
+	prot_feature_table_df = convert_prokka_tsv_to_prot_feature_table(tsv_fn)
+
+
+	'
+	
+	headers = c("feature", "class", "assembly", "assembly_unit", "seq_type", "chromosome", "genomic_accession", "start", "end", "strand", "product_accession", "non-redundant_refseq", "related_accession", "name", "symbol", "GeneID", "locus_tag", "feature_interval_length", "product_length", "attributes")
+	
+	tsvdf = read.table(tsv_fn, header=TRUE, comment.char="%", quote="\"", sep="\t", fill=TRUE, stringsAsFactors=FALSE)
+	unique(tsvdf$ftype)
+	
+	# Fill in the fields
+	feature = tsvdf$ftype
+	class = rep("with_protein", times=nrow(tsvdf))
+	class[feature != "CDS"] = ""
+	
+	assembly_name = gsub(pattern=".tsv", replacement="", x=tsv_fn)
+	#words = strsplit(assembly_name, split="_")[[1]]
+	assembly = rep(assembly_name, times=nrow(tsvdf))
+	
+	assembly_unit = rep("prokka assembly", times=nrow(tsvdf))
+	seq_type = rep("prokka unplaced scaffold", times=nrow(tsvdf))
+	chromosome = rep("", times=nrow(tsvdf))
+	genomic_accession = tsvdf$locus_tag
+	
+	# Make fake start and end, based on order in file
+	nums = 1:nrow(tsvdf)
+	startvals = rep(0, nrow(tsvdf))
+	endvals = rep(0, nrow(tsvdf))
+	
+	for (i in 1:nrow(tsvdf))
+		{
+		if (i == 1)
+			{
+			startvals[i] = 1
+			endvals[i] = startvals[i] + tsvdf$length_bp[i] - 1
+			} else {
+			startvals[i] = endvals[i-1] + 1
+			endvals[i] = startvals[i] + tsvdf$length_bp[i] - 1			
+			}
+		}
+	
+	start = startvals
+	end = endvals
+	strand = rep("+", times=nrow(tsvdf))
+	product_accession = tsvdf$locus_tag
+	non.redundant_refseq = rep("", times=nrow(tsvdf))
+	related_accession = rep("", times=nrow(tsvdf))
+	name = tsvdf$product
+	symbol = tsvdf$gene
+	GeneID = rep("", times=nrow(tsvdf))
+	locus_tag = tsvdf$locus_tag
+	feature_interval_length = tsvdf$length_bp
+	product_length = tsvdf$length_bp / 3
+	
+	# enzyme pathway
+	EC_numbers = paste0("EC_number:", tsvdf$EC_number, sep="")
+	EC_numbers[EC_numbers == "EC_number:"] = ""
+	EC_numbers
+	
+	# COGs etc.
+	COGs = paste0("COG:", tsvdf$COG, sep="")
+	COGs[COGs == "COG:"] = ""
+	COGs
+	
+	# merge
+	tmptxt = paste0(EC_numbers, " | ", COGs, sep="")
+	tmptxt[tmptxt == " | "] = ""
+	attributes = tmptxt
+	
+	feature_table_df = cbind(feature, class, assembly, assembly_unit, seq_type, chromosome, genomic_accession, start, end, strand, product_accession, non.redundant_refseq, related_accession, name, symbol, GeneID, locus_tag, feature_interval_length, product_length, attributes)
+	prot_feature_table_df = as.data.frame(feature_table_df, stringsAsFactors=FALSE)
+	names(prot_feature_table_df) = headers
+	
+	prot_feature_table_df$start = as.numeric(prot_feature_table_df$start)
+	prot_feature_table_df$end = as.numeric(prot_feature_table_df$end)
+	prot_feature_table_df$feature_interval_length = as.numeric(prot_feature_table_df$feature_interval_length)
+	prot_feature_table_df$product_length = as.numeric(prot_feature_table_df$product_length)
+	
+	# Also, write to file
+	if (write_to_file == TRUE)
+		{
+		prot_feature_table_fn = gsub(pattern=".tsv", replacement="_feature_table.txt", x=tsv_fn)
+		write.table(prot_feature_table_df, file=prot_feature_table_fn, sep="\t", row.names=FALSE, append=FALSE, quote=FALSE, col.names=TRUE)
+		}
+
+	return(prot_feature_table_df)
 	}
