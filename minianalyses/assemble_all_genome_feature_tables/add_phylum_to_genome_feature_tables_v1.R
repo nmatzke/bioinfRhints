@@ -61,3 +61,31 @@ for (i in 1:length(old_terms))
 	}
 sort(unique(xlsx$Phylum))
 
+
+
+head(prot_feature_tables_all_df)
+
+spnames = sort(unique(prot_feature_tables_all_df$spname))
+genome_ids = sort(unique(prot_feature_tables_all_df$assembly))
+
+strain_name = paste0(xlsx$Genus, " ", xlsx$Species, " ", xlsx$Strain, sep="")
+strain_name
+
+
+TF = spnames %in% strain_name
+sum(TF)
+length(TF)
+
+TF = strain_name %in% spnames
+sum(TF)
+length(TF)
+
+TF = xlsx$GenBank.ID %in% genome_ids
+sum(TF)
+length(TF)
+sort(xlsx$GenBank.ID[TF == FALSE])
+
+TF = genome_ids %in% xlsx$GenBank.ID
+sum(TF)
+length(TF)
+sort(genome_ids[TF == FALSE])
