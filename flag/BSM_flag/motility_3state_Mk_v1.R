@@ -457,7 +457,7 @@ if (runBSMslow == TRUE)
     {
     # Saves to: RES_clado_events_tables.Rdata
     # Saves to: RES_ana_events_tables.Rdata
-    BSM_output = runBSM(res, stochastic_mapping_inputs_list=stochastic_mapping_inputs_list, maxnum_maps_to_try=1000, nummaps_goal=500, maxtries_per_branch=40000, save_after_every_try=TRUE, savedir=getwd(), seedval=12345, wait_before_save=0.01)
+    BSM_output = runBSM(res, stochastic_mapping_inputs_list=stochastic_mapping_inputs_list, maxnum_maps_to_try=1000, nummaps_goal=100, maxtries_per_branch=40000, save_after_every_try=TRUE, savedir=getwd(), seedval=123457, wait_before_save=0.01)
 
     RES_clado_events_tables = BSM_output$RES_clado_events_tables
     RES_ana_events_tables = BSM_output$RES_ana_events_tables
