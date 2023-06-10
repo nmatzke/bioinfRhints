@@ -124,6 +124,15 @@ extract_last_brackets <- function(list_of_strings, replace_spaces=TRUE)
 	return(species_names)
 	}
 
+
+
+firstword <- function(string, split=" ")
+	{
+	words = strsplit(gdata::trim(string), split=split)[[1]]
+	return(gdata::trim(words[1]))
+	}
+
+
 lastword <- function(string, split="/")
 	{
 	words = strsplit(gdata::trim(string), split=split)[[1]]
