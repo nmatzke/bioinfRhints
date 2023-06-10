@@ -94,4 +94,4 @@ head(prot_feature_tables_all_df)
 dim(prot_feature_tables_all_df)
 
 
-system(paste0("open ", prot_feature_tables_all_fn))
+# system(paste0("open ", prot_feature_tables_all_fn))

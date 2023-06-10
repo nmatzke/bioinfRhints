@@ -124,6 +124,11 @@ extract_last_brackets <- function(list_of_strings, replace_spaces=TRUE)
 	return(species_names)
 	}
 
+lastword <- function(string, split="/")
+	{
+	words = strsplit(gdata::trim(string), split=split)[[1]]
+	return(gdata::trim(words[length(words)]))
+	}
 
 
 
@@ -557,14 +562,14 @@ CDS	with_protein	GCA_900093645.1	Primary Assembly	unplaced scaffold		FLYF0100008
 convert_prokka_tsv_to_prot_feature_table <- function(tsv_fn, write_to_file=TRUE)
 	{
 	junk='
-	tsv_fn = "/Users/nmat471/Downloads/Full_genomes/genomes/PRJEB38681_Verrucomicrobium_sp_CAISZB01/PRJEB38681_Verrucomicrobium_sp_CAISZB01.tsv"
+	tsv_fn = "~/Downloads/Full_genomes/genomes/PRJEB38681_Verrucomicrobium_sp_CAISZB01/PRJEB38681_Verrucomicrobium_sp_CAISZB01.tsv"
 	
 	prot_feature_table_df = convert_prokka_tsv_to_prot_feature_table(tsv_fn)
 	
 	prot_feature_table_fn = gsub(pattern=".tsv", replacement="_feature_table.txt", x=tsv_fn)
 	write.table(prot_feature_table_df, file=prot_feature_table_fn, sep="\t", row.names=FALSE, append=FALSE, quote=FALSE, col.names=TRUE)
 
-	tsv_fn = "/Users/nmat471/Downloads/Full_genomes/genomes/PRJEB3868_Verrucomicrobium_sp_CAIZXV01/PRJEB3868_Verrucomicrobium_sp_CAIZXV01.tsv"
+	tsv_fn = "~/Downloads/Full_genomes/genomes/PRJEB3868_Verrucomicrobium_sp_CAIZXV01/PRJEB3868_Verrucomicrobium_sp_CAIZXV01.tsv"
 	
 	prot_feature_table_df = convert_prokka_tsv_to_prot_feature_table(tsv_fn)
 
@@ -581,8 +586,8 @@ convert_prokka_tsv_to_prot_feature_table <- function(tsv_fn, write_to_file=TRUE)
 	class = rep("with_protein", times=nrow(tsvdf))
 	class[feature != "CDS"] = ""
 	
-	assembly_name = gsub(pattern=".tsv", replacement="", x=tsv_fn)
-	#words = strsplit(assembly_name, split="_")[[1]]
+	filename_only_tsv_fn = lastword(tsv_fn)
+	assembly_name = gsub(pattern=".tsv", replacement="", x=filename_only_tsv_fn)
 	assembly = rep(assembly_name, times=nrow(tsvdf))
 	
 	assembly_unit = rep("prokka assembly", times=nrow(tsvdf))
