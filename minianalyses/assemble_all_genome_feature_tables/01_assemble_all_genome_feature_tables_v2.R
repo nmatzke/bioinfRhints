@@ -40,7 +40,7 @@ genome_dirs
 
 prot_feature_tables_all_fn = "/GitHub/bioinfRhints/minianalyses/assemble_all_genome_feature_tables/2023-06-02_prot_feature_tables_all_v1.txt"
 
-local_unzipped_location = "~/Downloads/"
+local_unzipped_location = paste0("~/Downloads/", lastword(prot_feature_tables_all_fn))
 
 
 unzipTF = TRUE
@@ -88,7 +88,7 @@ for (i in 1:length(genome_dirs))
 	} # END for (i in 1:length(genome_dirs))
 
 
-file.copy(prot_feature_tables_all_fn, to=)
+file.copy(prot_feature_tables_all_fn, to=local_unzipped_location, overwrite=TRUE)
 
 prot_feature_tables_all_df = read.table(prot_feature_tables_all_fn, header=TRUE, comment.char="%", quote="\"", sep="\t", fill=TRUE, stringsAsFactors=FALSE)
 dim(prot_feature_tables_all_df)

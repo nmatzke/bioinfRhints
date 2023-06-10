@@ -51,3 +51,35 @@ TF = seq_gids %in% tip_gids
 sum(TF)
 length(TF)
 
+
+aln_to_tip_order = match(x=tip_gids, table=seq_gids)
+aln2 = rev(aln[aln_to_tip_order])
+head(fullnames_from_readFasta(aln2))
+
+head(rev(tr$tip.label))
+
+
+# Find tip_gids in prot_features_table
+tip_gids_in_df_matches = match(tip_gids, table=prot_feature_tables_all_df$product_accession)
+tip_gids_in_df_matches
+
+nonmatches = tip_gids[is.na(tip_gids_in_df_matches)]
+tmplist = c()
+for (i in 1:length(nonmatches))
+	{
+	num = grep(pattern=nonmatches[i], x=fullnames)
+	cat("\n")
+	cat(fullnames[num])
+	tmplist = c(tmplist, fullnames[num])
+	}
+cat("\n")
+
+sort(unique(extract_last_brackets(tmplist)))
+
+
+# Myxococcus xanthus DZ2A
+id="GCA_020827275.2"
+TF = prot_feature_tables_all_df$assembly == id
+prot_feature_tables_all_df[TF,]
+
+
