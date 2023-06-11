@@ -23,8 +23,9 @@ genomes_to_spnames_fn = "species_list_10062023_NJM+group+spname_v1.txt"
 prot_feature_tables_all_df = read.table(prot_feature_tables_all_fn, header=TRUE, comment.char="%", quote="\"", sep="\t", fill=TRUE, stringsAsFactors=FALSE)
 head(prot_feature_tables_all_df)
 
-genomes_to_spnames_df = read.table(genomes_to_spnames_fn, header=TRUE, comment.char="%", quote="\"", sep="\t", fill=TRUE, stringsAsFactors=FALSE)
+genomes_to_spnames_df = read.table(genomes_to_spnames_fn, header=TRUE, comment.char="%", quote="", sep="\t", fill=TRUE, stringsAsFactors=FALSE)
 head(genomes_to_spnames_df)
+dim(genomes_to_spnames_df)
 
 
 
