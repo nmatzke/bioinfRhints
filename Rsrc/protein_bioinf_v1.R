@@ -39,6 +39,398 @@ relabel_tree_tips_wGID_first <- function(tr, fullnames, split="\\|")
 	}
 
 
+# Create "spname", a short & program-universal species/strain name
+# ESPECIALLY, REMOVE THESE CHARACTERS, WHICH MESS UP NEWICK FILES:
+# ( ) ; , \ / [ ]
+clean_gb_spname <- function(spname)
+	{
+	spname = gsub(pattern="serovar", replacement="", x=spname, ignore.case=TRUE)
+	spname = gsub(pattern="unclassified", replacement="", x=spname, ignore.case=TRUE)
+	spname = gsub(pattern="uncultured", replacement="", x=spname, ignore.case=TRUE)
+	spname = gsub(pattern="Candidatus", replacement="", x=spname, ignore.case=TRUE)
+	spname = gsub(pattern="chromosome ", replacement="chrom", x=spname, ignore.case=TRUE)
+	spname = gsub(pattern="sp.", replacement="sp", x=spname, ignore.case=TRUE)
+	spname = gsub(pattern="WGS isolate:", replacement="", x=spname, ignore.case=TRUE)
+	spname = gsub(pattern="plasmid ", replacement="pl_", x=spname, ignore.case=TRUE)
+
+	spname = stringr::str_trim(stringr::str_squish(spname))
+	sum(grepl("Wolfebacteria Wolfebacteria", x=spname))
+	sum(grepl("Wolfebacteria_Wolfebacteria", x=spname))
+
+	spname = gsub(pattern="Korarchaeota Candidatus", replacement="", x=spname, ignore.case=TRUE)
+	spname = gsub(pattern="Chlamydiales bacterium Chlamydiales bacterium", replacement="Chlamydiales bacterium", x=spname, ignore.case=TRUE)
+	spname = gsub(pattern="Candidatus Prometheoarchaeum Candidatus Prometheoarchaeum", replacement="Prometheoarchaeum", x=spname, ignore.case=TRUE)
+
+	spname = gsub(pattern="of Drosophila melanogaster isolate wMel", replacement="Dmelanogaster", x=spname, ignore.case=TRUE)
+	spname = gsub(pattern="Beckwithbacteria Beckwithbacteria", replacement="Beckwithbacteria", x=spname, ignore.case=TRUE)
+	spname = gsub(pattern="Campbellbacteria Campbellbacteria", replacement="Campbellbacteria", x=spname, ignore.case=TRUE)
+
+	spname = gsub(pattern="Moranbacteria Moranbacteria", replacement="Moranbacteria", x=spname, ignore.case=TRUE)
+	spname = gsub(pattern="Uhrbacteria Uhrbacteria", replacement="Uhrbacteria", x=spname, ignore.case=TRUE)
+
+	spname = gsub(pattern="Wolfebacteria Wolfebacteria", replacement="Wolfebacteria", x=spname, ignore.case=TRUE)
+	spname = gsub(pattern="Woesebacteria Woesebacteria", replacement="Woesebacteria", x=spname, ignore.case=TRUE)
+	spname = gsub(pattern="Wolfebacteria_Wolfebacteria", replacement="Wolfebacteria", x=spname, ignore.case=TRUE)
+	spname = gsub(pattern="Woesebacteria_Woesebacteria", replacement="Woesebacteria", x=spname, ignore.case=TRUE)
+
+	sum(grepl("Wolfebacteria Wolfebacteria", x=spname))
+	sum(grepl("Wolfebacteria_Wolfebacteria", x=spname))
+
+# 	spname = gsub(pattern="", replacement="", x=spname, ignore.case=TRUE)
+
+	spname = gsub(pattern=";", replacement="", x=spname, ignore.case=TRUE)
+	spname = gsub(pattern="\\(", replacement="", x=spname, ignore.case=TRUE)
+	spname = gsub(pattern="\\)", replacement="", x=spname, ignore.case=TRUE)
+	spname = gsub(pattern="\\[", replacement="", x=spname, ignore.case=TRUE)
+	spname = gsub(pattern="\\]", replacement="", x=spname, ignore.case=TRUE)
+	spname = gsub(pattern="=", replacement="EQ", x=spname, ignore.case=TRUE)
+	spname = gsub(pattern="\\\\", replacement="", x=spname, ignore.case=TRUE)
+	spname = gsub(pattern="str. ", replacement="", x=spname, ignore.case=TRUE)
+	spname = gsub(pattern="\\.", replacement="", x=spname, ignore.case=TRUE)
+	spname = gsub(pattern="/", replacement="-", x=spname, ignore.case=TRUE)
+	spname = gsub(pattern=":", replacement="", x=spname, ignore.case=TRUE)
+
+	# Remove extra spaces
+	spname = stringr::str_trim(stringr::str_squish(spname))
+
+	# Add underscores
+	spname = gsub(pattern=" ", replacement="_", x=spname, ignore.case=TRUE)
+	#sum(grepl("Wolfebacteria_Wolfebacteria", x=spname))
+	
+	return(spname)
+	}
+
+
+#######################################################
+# Parse the names for protein name info
+#######################################################
+extract_protein_name_info <- function(fullnames)
+	{
+	junk='
+	fullnames = ">ACF14374.1 MotA/TolQ/ExbB proton channel [Chloroherpeton thalassium ATCC 35110]"
+	protein_name = extract_protein_name_info(fullnames)
+	protein_name
+	'
+	
+	protein_name = rep("", times=length(fullnames))
+	species_names_wSpaces = extract_last_brackets(list_of_strings=fullnames, replace_spaces=FALSE)
+
+	for (i in 1:length(fullnames))
+		{
+		orig_name = fullnames[i]
+
+		# Remove ">", ], [
+		subname = gsub(pattern=">", replacement="", x=orig_name)
+		subname = gsub(pattern="\\[", replacement="", x=subname)
+		subname = gsub(pattern="\\]", replacement="", x=subname)
+
+		# Remove GenBank ID:
+		gid = firstword(subname)
+		subname = gsub(pattern=gid, replacement="", x=subname)
+	
+		# Remove species name:
+		subname = gsub(pattern=species_names_wSpaces[i], replacement="", x=subname)
+
+		# REMOVE SEMICOLONS, GD IT
+		subname = gsub(pattern="\\;", replacement="", x=subname, ignore.case=TRUE)
+		# REMOVE EQUALS, GD IT
+		subname = gsub(pattern="\\=", replacement="EQ", x=subname, ignore.case=TRUE)
+
+	
+		# fix spaces
+		subname = gsub(pattern="  ", replacement=" ", x=subname)
+		subname = gsub(pattern="  ", replacement=" ", x=subname)
+		subname = gsub(pattern="  ", replacement=" ", x=subname)
+		subname = gsub(pattern="  ", replacement=" ", x=subname)
+		subname = gdata::trim(subname)
+		
+		protein_name[i] = subname
+		}
+	return(protein_name)
+	}
+
+
+classify_MotAfam_labels <- function(list_of_strings)
+	{
+	junk='
+	
+	list_of_strings = protein_name
+	short_protname = classify_MotAfam_labels(list_of_strings=protein_name)
+	short_protname
+	'
+	
+	
+	short_protname = rep("", length(list_of_strings))
+	for (i in 1:length(list_of_strings))
+		{
+		tmpstr = list_of_strings[i]
+
+		tmpstr = gsub(pattern="  ", replacement=" ", x=tmpstr)
+		tmpstr = gsub(pattern="  ", replacement=" ", x=tmpstr)
+		tmpstr = gsub(pattern="  ", replacement=" ", x=tmpstr)
+		tmpstr = gsub(pattern="  ", replacement=" ", x=tmpstr)
+		tmpstr = gsub(pattern="  ", replacement=" ", x=tmpstr)
+		tmpstr = gdata::trim(tmpstr)
+
+
+		
+		# Add semicolon on the end
+		
+		# Many are just MotA/TolQ/ExbB
+		if (grepl(pattern="MotA/TolQ/ExbB", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "AQB"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="gliding", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "gliding"
+			short_protname[i] = tmpstr
+			next()
+			}
+		
+		# Remove obvious words - flagellum
+		tmpstr = gsub(pattern="transport membrane proton channel, TolQ-related protein", replacement="TolQ", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="transport membrane proton channel, TolQ", replacement="TolQ", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="transport exbB", replacement="ExbB", x=tmpstr, ignore.case=TRUE)
+
+
+		tmpstr = gsub(pattern="flagellar motor rotation protein ", replacement="", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="flagellar motor protein ", replacement="", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="MAG: flagellar motor protein", replacement="", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="chemotaxis protein", replacement="", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="chemotaxis", replacement="", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="proton channel family", replacement="", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="flagellar motor component", replacement="", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="flagellar stator protein MotA", replacement="MotA", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="MotA protein", replacement="MotA", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="motility protein A", replacement="MotA", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="flagellar basal body stator protein MotA", replacement="MotA", x=tmpstr, ignore.case=TRUE)
+ 		tmpstr = gsub(pattern="endoflagellar protein", replacement="flag", x=tmpstr, ignore.case=TRUE)
+ 		tmpstr = gsub(pattern="flagellar protein", replacement="flag", x=tmpstr, ignore.case=TRUE)
+ 		tmpstr = gsub(pattern="MAG\\: flagellar stator protein MotA", replacement="MotA", x=tmpstr, ignore.case=TRUE)
+ 		tmpstr = gsub(pattern="MotA\\; MotA component of the H\\+\\-coupled stator flagellum complex", replacement="MotA", x=tmpstr, ignore.case=TRUE)
+ 		tmpstr = gsub(pattern="Mot family proton \\(H\\+\\) or sodium \\(Na\\+\\) transporter MotA", replacement="MotA", x=tmpstr, ignore.case=TRUE)
+ 		tmpstr = gsub(pattern="sodium channel stator-force generator subunit of flagellar rotation", replacement="sodium_MotA", x=tmpstr, ignore.case=TRUE)
+ 		tmpstr = gsub(pattern="signal recognition particle-docking protein FtsY", replacement="SRP_FtsY", x=tmpstr, ignore.case=TRUE)
+ 		tmpstr = gsub(pattern="sodium-driven polar flag MotA", replacement="sodiumPolarMotA", x=tmpstr, ignore.case=TRUE)
+ 		tmpstr = gsub(pattern="motA\\, \\(MotA\\)", replacement="MotA", x=tmpstr, ignore.case=TRUE)
+ 		tmpstr = gsub(pattern="MAG: flagellar stator protein MotA", replacement="MotA", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="pomA protein", replacement="PomA", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="probable ExbB", replacement="ExbB", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="protein of unassigned function", replacement="unk", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="multi-sensor hybrid histidine kinase", replacement="HistKin", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="MotA\\; MotA component of the H\\+\\-coupled stator flagellum complex", replacement="MotA", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="Mot family proton \\(H+\\) or sodium \\(Na+\\) transporter MotA", replacement="MotA", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="membrane spanning protein in TonB-ExbB-ExbD complex", replacement="ExbB", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="flagellar stator protein MotA", replacement="MotA", x=tmpstr, ignore.case=TRUE)
+		#tmpstr = gsub(pattern="", replacement="", x=tmpstr, ignore.case=TRUE)
+		#tmpstr = gsub(pattern="", replacement="", x=tmpstr, ignore.case=TRUE)
+
+		tmpstr = gsub(pattern="flagellar protein", replacement="flag", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="putative", replacement="", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="motor", replacement="", x=tmpstr, ignore.case=TRUE)
+
+
+
+		tmpstr = gsub(pattern="  ", replacement=" ", x=tmpstr)
+		tmpstr = gsub(pattern="  ", replacement=" ", x=tmpstr)
+		tmpstr = gsub(pattern="  ", replacement=" ", x=tmpstr)
+		tmpstr = gsub(pattern="  ", replacement=" ", x=tmpstr)
+		tmpstr = gsub(pattern="  ", replacement=" ", x=tmpstr)
+		tmpstr = gdata::trim(tmpstr)
+		
+		# Any blank here is just a motor protein
+		if ((tmpstr == "") || (tmpstr == "protein"))
+			{
+			tmpstr = "motor"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="tonB system transport protein ExbB/TolQ", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "TolQ_ExbB_wTonB"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="tonB system transport protein ExbB/TolQ", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "TolQ_ExbB_wTonB"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="ExbB/TolQ", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "ExbB_TolQ"
+			short_protname[i] = tmpstr
+			next()
+			}
+		tmpstr = gsub(pattern="system transport protein", replacement="", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="transport protein", replacement="", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="accessory protein", replacement="", x=tmpstr, ignore.case=TRUE)
+
+
+		if (tolower(tmpstr) == "probable biopolymer transport protein")
+			{
+			tmpstr = "biopoly_transp"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (tolower(tmpstr) == "biopolymer transporter")
+			{
+			tmpstr = "biopoly_transp"
+			short_protname[i] = tmpstr
+			next()
+			}
+		if (tolower(tmpstr) == "biopolymer transport proteins")
+			{
+			tmpstr = "biopoly_transp"
+			short_protname[i] = tmpstr
+			next()
+			}
+		if (tolower(tmpstr) == "biopolymer transport protein")
+			{
+			tmpstr = "biopoly_transp"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+
+		tmpstr = gsub(pattern="hypothetical protein ", replacement="HYP_", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="transport protein", replacement="", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="outer membrane transport energization protein", replacement="", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="Biopolymer", replacement="", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="domain-containing protein", replacement="", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="colicin uptake protein TolQ", replacement="TolQ", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="ExbB-related protein", replacement="ExbB", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="ferric siderophore transport system,", replacement="", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="probable tolQ-type", replacement="TolQ", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="probable tolQ protein", replacement="TolQ", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="Cell division and transport-associated protein TolQ", replacement="TolQ", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="tolQ protein", replacement="TolQ", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="Tol-Pal system protein TolQ", replacement="TolQ", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="Protein TolQ", replacement="TolQ", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="(ExbB-like)", replacement="ExbB", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="Ton complex subunit ExbB", replacement="ExbB", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="TolQ-like protein", replacement="TolQ", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="TolQ transporter", replacement="TolQ", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="Tol-Pal system subunit TolQ", replacement="TolQ", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="\\(ExbB\\)", replacement="ExbB", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="ExbB protein", replacement="ExbB", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="tonB\\-system energizer ExbB", replacement="ExbB", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="TonB exbB", replacement="ExbB", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="probable ExbB", replacement="ExbB", x=tmpstr, ignore.case=TRUE)
+
+		tmpstr = gsub(pattern="  ", replacement=" ", x=tmpstr)
+		tmpstr = gsub(pattern="  ", replacement=" ", x=tmpstr)
+		tmpstr = gsub(pattern="  ", replacement=" ", x=tmpstr)
+		tmpstr = gsub(pattern="  ", replacement=" ", x=tmpstr)
+		tmpstr = gsub(pattern="  ", replacement=" ", x=tmpstr)
+		tmpstr = gdata::trim(tmpstr)
+
+
+		tmpstr = gsub(pattern="Cell division and transportassociated TolQ", replacement="TolQ", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="tonBsystem energizer ExbB", replacement="ExbB", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="TolPal system TolQ", replacement="TolQ", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="TolQtype", replacement="TolQ", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="TolPal system subunit TolQ", replacement="TolQ", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="TolQlike protein", replacement="TolQ", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="TolQrelated protein", replacement="TolQ", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="sodium channel statorforce generator subunit of flagellar rotation", replacement="sodium MotA", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="related to TolQ", replacement="TolQ", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="related to \\(TolQ\\)", replacement="TolQ", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="tolerance to group A colicins, singlestranded DNA filamentous phage, required for OM integrity", replacement="TolA_OM", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="\\(ExbBlike\\)", replacement="ExbB", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="ExbBrelated protein", replacement="ExbB", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="ExbBlike", replacement="ExbB", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="ExbBrelated protein", replacement="ExbB", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="ExbBlike protein", replacement="ExbB", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="Cell division and transportassociated TolQ", replacement="TolQ", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="tonBsystem energizer ExbB", replacement="ExbB", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="TolPal system TolQ", replacement="TolQ", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="tolpal systemassociated acylCoA thioesterase", replacement="tolpal thioest", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="sodiumdriven polar flag MotA", replacement="sodium MotA", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="MotA MotA component of the H+coupled stator flagellum complex", replacement="MotA", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="hypothetical proteintransmembrane prediction", replacement="HYP", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="hypothetical protein", replacement="TolQ", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="probable TolQ", replacement="TolQ", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="membrane spanning protein in TonBExbBExbD complex", replacement="ExbB", x=tmpstr, ignore.case=TRUE)
+
+
+
+
+		tmpstr = gsub(pattern="MAG: TolQ", replacement="TolQ", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="hypothetical membrane protein", replacement="HYP", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="hypothetical protein-transmembrane prediction", replacement="", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern=", tolQ", replacement="TolQ", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="tolerance to group A colicins, single-stranded DNA filamentous phage, required for OM integrity", replacement="colicin-tol", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="tol-pal system-associated acyl-CoA thioesterase ", replacement="TolPal_thioester", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="two-component sensor histidine kinase YdfI", replacement="2compSens_hisKin_YdfI", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="protein of unassigned function", replacement="unk", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="conserved hypothetical protein", replacement="HYP", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="motA\\, \\(MotA\\)", replacement="MotA", x=tmpstr, ignore.case=TRUE)
+
+
+		tmpstr = gsub(pattern="flagellar stator protein MotA", replacement="MotA", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="MAG: MotA", replacement="MotA", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="flagellar protein", replacement="flag", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="flagellar proton channel", replacement="flag", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="MAG\\: MotA", replacement="MotA", x=tmpstr, ignore.case=TRUE)
+
+		tmpstr = gsub(pattern="  ", replacement=" ", x=tmpstr)
+		tmpstr = gsub(pattern="  ", replacement=" ", x=tmpstr)
+		tmpstr = gsub(pattern="  ", replacement=" ", x=tmpstr)
+		tmpstr = gsub(pattern="  ", replacement=" ", x=tmpstr)
+		tmpstr = gsub(pattern="  ", replacement=" ", x=tmpstr)
+		tmpstr = gdata::trim(tmpstr)
+
+		tmpstr = gsub(pattern="tol\\-pal system\\-associated acyl\\-CoA thioesterase", replacement="tolPal_thioest", x=tmpstr, ignore.case=TRUE)
+
+		tmpstr = gsub(pattern="probable ExbB", replacement="ExbB", x=tmpstr, ignore.case=TRUE)
+
+		tmpstr = gsub(pattern="TonB ExbB2", replacement="ExbB2", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="TonB exbB", replacement="ExbB", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="TonB ExbB", replacement="ExbB", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="LafT protein", replacement="LafT", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="Tolq", replacement="TolQ", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="exbB", replacement="ExbB", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="transporter ExbB", replacement="ExbB", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="LafT protein", replacement="LafT", x=tmpstr, ignore.case=TRUE)
+
+		tmpstr = gsub(pattern="uncharacterized protein", replacement="unk", x=tmpstr)
+
+
+		tmpstr = gsub(pattern="  ", replacement=" ", x=tmpstr)
+		tmpstr = gsub(pattern="  ", replacement=" ", x=tmpstr)
+		tmpstr = gsub(pattern="  ", replacement=" ", x=tmpstr)
+		tmpstr = gsub(pattern="  ", replacement=" ", x=tmpstr)
+		tmpstr = gsub(pattern="  ", replacement=" ", x=tmpstr)
+		tmpstr = gdata::trim(tmpstr)
+
+		tmpstr = gsub(pattern=" ", replacement="_", x=tmpstr)
+
+
+		if ((tmpstr == "") || (tmpstr == "transporter"))
+			{
+			tmpstr = "transport"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		
+		short_protname[i] = tmpstr
+		}
+	return(short_protname)
+	} # END classify_MotAfam_labels <- function(list_of_strings)
+
+
+
 
 
 # Assumes: tree tip labels start with a GID
@@ -88,18 +480,45 @@ get_spname_from_assembly_report <- function(assembly_report_table_fn)
 	# Find & remove anything like (E. coli)
 	tmpstrs = unlist(regmatches(spname_line, gregexpr("\\(.+?\\)", spname_line)))
 	tmpstr = tmpstrs[length(tmpstrs)] # take the last bracketed text, if more than 1
-	spname_line = gsub(pattern=tmpstr, replacement="", x=spname_line)
-	spname = trim(gsub(pattern="\\(\\)", replacement="", x=spname_line))
-	spname
+	if (length(tmpstr) == 0)
+		{
+		spname = gdata::trim(stringr::str_squish(spname_line))
+		} else {
+		spname_line = gsub(pattern=tmpstr, replacement="", x=spname_line)
+		spname_line = stringr::str_squish(spname_line)
+		spname = trim(gsub(pattern="\\(\\)", replacement="", x=spname_line))
+		spname
+		}
 	return(spname)
 	}
 
 
+#######################################################
+# Get the sequence lengths (ignoring indels "-")
+#######################################################
+get_seqlengths <- function(aln)
+	{
+	seqlengths = rep(0, times=length(aln))
+	for (i in 1:length(aln))
+		{
+		# Length of this row of the alignment, minus indels ("-")
+		seqlengths[i] = length(aln[[i]]) - sum(aln[[i]] == "-")
+		}
+	return(seqlengths)
+	}
 
 
 # Handy function
 extract_last_brackets <- function(list_of_strings, replace_spaces=TRUE)
 	{
+	junk='
+	tmptxt = ">QQS07318.1 MAG: MotA/TolQ/ExbB proton channel family protein [Fibrobacteres bacterium]"
+	list_of_strings = tmptxt; replace_spaces=TRUE
+	extract_last_brackets(list_of_strings=list_of_strings, replace_spaces=replace_spaces)
+	
+	'
+	
+	
 	species_names = rep("", length(list_of_strings))
 	txt = paste0("\nextract_last_brackets() is processing ", length(list_of_strings), " strings. String #")
 	cat(txt)
@@ -664,6 +1083,102 @@ convert_prokka_tsv_to_prot_feature_table <- function(tsv_fn, write_to_file=TRUE)
 		prot_feature_table_fn = gsub(pattern=".tsv", replacement="_feature_table.txt", x=tsv_fn)
 		write.table(prot_feature_table_df, file=prot_feature_table_fn, sep="\t", row.names=FALSE, append=FALSE, quote=FALSE, col.names=TRUE)
 		}
-
 	return(prot_feature_table_df)
+	} # END convert_prokka_tsv_to_prot_feature_table <- function(tsv_fn, write_to_file=TRUE)
+
+
+
+
+
+
+
+
+get_phylum_from_genome_ID <- function(assembly, genomes_to_spnames_df, printwarnings=FALSE)
+	{
+	junk='
+	wd = "/GitHub/bioinfRhints/minianalyses/assemble_all_genome_feature_tables/"
+	setwd(wd)
+	genomes_to_spnames_fn = "species_list_10062023_NJM+group+spname_v1.txt"
+	genomes_to_spnames_df = read.table(genomes_to_spnames_fn, header=TRUE, comment.char="%", quote="", sep="\t", fill=TRUE, stringsAsFactors=FALSE)
+	assembly = "GCA_000012685.1"
+	phylum = get_phylum_from_genome_ID(assembly, genomes_to_spnames_df)	
+	'
+
+	assembly = firstword(assembly, split="\\.")
+	
+	# Find assembly in genome GenBank IDs
+	genomes_to_spnames_matchnum = grep(pattern=assembly, x=genomes_to_spnames_df$GenBank.ID)
+
+	if (length(genomes_to_spnames_matchnum) == 1)
+		{
+		phylum = genomes_to_spnames_df$Phylum[genomes_to_spnames_matchnum]
+		}
+
+	if (length(genomes_to_spnames_matchnum) > 1)
+		{
+		txt = paste0("Warning: more than 1 match to assembly='", assembly, "' in '", genomes_to_spnames_fn, "'. Probably this is due to multiple chromosomes/plasmids. Taking first hit, this is sufficient to identify the phylum. Taking first hit, but printing matches:")
+		
+		if (printwarnings == TRUE)
+			{
+			cat("\n")
+			cat(txt)
+			cat("\n")
+			print(genomes_to_spnames_df[genomes_to_spnames_matchnum,])
+			cat("\n")
+			}
+		genomes_to_spnames_matchnum = genomes_to_spnames_matchnum[1]
+		phylum = genomes_to_spnames_df$Phylum[genomes_to_spnames_matchnum]
+		warning(txt)
+		}
+
+	if (length(genomes_to_spnames_matchnum) == 0)
+		{
+		# Find assembly in genome RefSeq IDs
+		genomes_to_spnames_matchnum = grep(pattern=assembly, x=genomes_to_spnames_df$RefSeq)
+		if (length(genomes_to_spnames_matchnum) == 1)
+			{
+			phylum = genomes_to_spnames_df$Phylum[genomes_to_spnames_matchnum]
+			}
+		if (length(genomes_to_spnames_matchnum) > 1)
+			{
+			txt = paste0("Warning: more than 1 match to assembly='", assembly, "' in '", genomes_to_spnames_fn, "'. Probably this is due to multiple chromosomes/plasmids. Taking first hit, this is sufficient to identify the phylum, but printing matches:")
+
+			if (printwarnings == TRUE)
+				{
+				cat("\n")
+				cat(txt)
+				cat("\n")
+				print(genomes_to_spnames_df[genomes_to_spnames_matchnum,])
+				cat("\n")
+				}
+			genomes_to_spnames_matchnum = genomes_to_spnames_matchnum[1]
+			phylum = genomes_to_spnames_df$Phylum[genomes_to_spnames_matchnum]
+			warning(txt)
+			}
+	
+		if (length(genomes_to_spnames_matchnum) == 0)
+			{
+			txt = paste0("Warning: 0 matches to assembly='", assembly, "' in '", genomes_to_spnames_fn, "'. The 'Phylum' part of the label will be blank.")
+
+			if (printwarnings == TRUE)
+				{
+				cat("\n")
+				cat(txt)
+				cat("\n")
+				}
+			warning(txt)
+			phylum = ""
+			}
+		} # END if (length(genomes_to_spnames_matchnum) == 0)
+	return(phylum)
+	} # END get_phylum_from_genome_ID <- function(assembly, genomes_to_spnames_df)
+
+
+all_but_suffix <- function(fn, split="\\.")
+	{
+	words = strsplit(fn, split=split)[[1]]
+	word_to_remove = paste0(split, words[length(words)])
+	subfn = gsub(pattern=word_to_remove, replacement="", x=fn)
+	return(subfn)
 	}
+

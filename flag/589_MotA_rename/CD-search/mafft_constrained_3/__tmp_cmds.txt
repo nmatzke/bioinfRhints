@@ -1,0 +1,26 @@
+RMG20999
+
+iqtree -s motA_hmmalign589_full_tr2_order_domainsOrder_cutNonHom_ed1_MiddleConstrained3.fasta -m LG+F+G | tee so1.txt &
+
+
+iqtree -s outfile.out_nogaps.fasta -m LG+F+C10 | tee so1.txt &
+
+
+
+cd /Users/nmat471/HD/GitHub/bioinfRhints/flag/589_MotA_rename/CD-search/mafft_constrained_3/
+cp motA_hmmalign589_full_tr2_order_domainsOrder_cutNonHom_ed1_MiddleConstrained3.fasta motA_hmmalign589_full_tr2_order_domainsOrder_cutNonHom_ed1_MiddleConstrained3copy1.fasta
+
+
+# Just add standard bootstraps to previous run
+iqtree -s motA_hmmalign589_full_tr2_order_domainsOrder_cutNonHom_ed1_MiddleConstrained3.fasta -m LG+F+G -bo 100 --undo | tee so2.txt &
+
+
+cd /Users/nmat471/HD/GitHub/bioinfRhints/flag/589_MotA_rename/CD-search/mafft_constrained_3/455113
+
+iqtree -s outfile.out_nogaps.fasta -m LG+F+C10 -bo 100 --undo | tee so2.txt
+
+
+/Users/nmat471/Downloads/Full_genomes/genomes/GCA_000025605.1_ASM2560v1/GCA_000025605.1_ASM2560v1_feature_table.txt
+
+/Users/nmat471/Downloads/Full_genomes/genomes/GCA_000512735.1_ASM51273v1/GCA_000512735.1_ASM51273v1_feature_table.txt
+

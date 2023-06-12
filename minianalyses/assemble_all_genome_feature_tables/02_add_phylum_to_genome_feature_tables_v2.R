@@ -13,7 +13,7 @@ library(openxlsx)			# for openxlsx::read.xlsx
 sourceall("/GitHub/bioinfRhints/Rsrc/") # for protein_bioinf_v1.R
 
 # Protein feature tables (from all genomes of interest; see: assemble_all_genome_feature_tables_v1.R
-prot_feature_tables_all_fn = "/GitHub/bioinfRhints/minianalyses/assemble_all_genome_feature_tables/2023-06-02_prot_feature_tables_all_v1.txt"
+prot_feature_tables_all_fn = "/GitHub/bioinfRhints/minianalyses/assemble_all_genome_feature_tables/2023-06-12_prot_feature_tables_all_v1.txt"
 # Takes a few seconds
 prot_feature_tables_all_df = read.table(prot_feature_tables_all_fn, header=TRUE, comment.char="%", quote="\"", sep="\t", fill=TRUE, stringsAsFactors=FALSE)
 head(prot_feature_tables_all_df)
@@ -107,78 +107,9 @@ sort(unique(group))
 # Create "spname", a short & program-universal species/strain name
 # ESPECIALLY, REMOVE THESE CHARACTERS, WHICH MESS UP NEWICK FILES:
 # ( ) ; , \ / [ ]
-
+strain_name = paste0(xlsx$Genus, " ", xlsx$Species, " ", xlsx$Strain, sep="")
 spname = paste0(xlsx$Genus, " ", xlsx$Species, " ", xlsx$Strain)
-spname
-
-spname = gsub(pattern="serovar", replacement="", x=spname, ignore.case=TRUE)
-spname = gsub(pattern="unclassified", replacement="", x=spname, ignore.case=TRUE)
-spname = gsub(pattern="uncultured", replacement="", x=spname, ignore.case=TRUE)
-spname = gsub(pattern="Candidatus", replacement="", x=spname, ignore.case=TRUE)
-spname = gsub(pattern="chromosome ", replacement="chrom", x=spname, ignore.case=TRUE)
-spname = gsub(pattern="sp.", replacement="sp", x=spname, ignore.case=TRUE)
-spname = gsub(pattern="WGS isolate:", replacement="", x=spname, ignore.case=TRUE)
-spname = gsub(pattern="plasmid ", replacement="pl_", x=spname, ignore.case=TRUE)
-
-spname = stringr::str_trim(stringr::str_squish(spname))
-sum(grepl("Wolfebacteria Wolfebacteria", x=spname))
-sum(grepl("Wolfebacteria_Wolfebacteria", x=spname))
-
-
-spname = gsub(pattern="Korarchaeota Candidatus", replacement="", x=spname, ignore.case=TRUE)
-spname = gsub(pattern="Chlamydiales bacterium Chlamydiales bacterium", replacement="Chlamydiales bacterium", x=spname, ignore.case=TRUE)
-spname = gsub(pattern="Candidatus Prometheoarchaeum Candidatus Prometheoarchaeum", replacement="Prometheoarchaeum", x=spname, ignore.case=TRUE)
-
-spname = gsub(pattern="of Drosophila melanogaster isolate wMel", replacement="Dmelanogaster", x=spname, ignore.case=TRUE)
-spname = gsub(pattern="Beckwithbacteria Beckwithbacteria", replacement="Beckwithbacteria", x=spname, ignore.case=TRUE)
-spname = gsub(pattern="Campbellbacteria Campbellbacteria", replacement="Campbellbacteria", x=spname, ignore.case=TRUE)
-
-spname = gsub(pattern="Moranbacteria Moranbacteria", replacement="Moranbacteria", x=spname, ignore.case=TRUE)
-spname = gsub(pattern="Uhrbacteria Uhrbacteria", replacement="Uhrbacteria", x=spname, ignore.case=TRUE)
-
-spname = gsub(pattern="Wolfebacteria Wolfebacteria", replacement="Wolfebacteria", x=spname, ignore.case=TRUE)
-spname = gsub(pattern="Woesebacteria Woesebacteria", replacement="Woesebacteria", x=spname, ignore.case=TRUE)
-spname = gsub(pattern="Wolfebacteria_Wolfebacteria", replacement="Wolfebacteria", x=spname, ignore.case=TRUE)
-spname = gsub(pattern="Woesebacteria_Woesebacteria", replacement="Woesebacteria", x=spname, ignore.case=TRUE)
-
-sum(grepl("Wolfebacteria Wolfebacteria", x=spname))
-sum(grepl("Wolfebacteria_Wolfebacteria", x=spname))
-
-spname = gsub(pattern="", replacement="", x=spname, ignore.case=TRUE)
-spname = gsub(pattern="", replacement="", x=spname, ignore.case=TRUE)
-spname = gsub(pattern="", replacement="", x=spname, ignore.case=TRUE)
-spname = gsub(pattern="", replacement="", x=spname, ignore.case=TRUE)
-spname = gsub(pattern="", replacement="", x=spname, ignore.case=TRUE)
-spname = gsub(pattern="", replacement="", x=spname, ignore.case=TRUE)
-spname = gsub(pattern="", replacement="", x=spname, ignore.case=TRUE)
-
-
-
-
-spname = gsub(pattern=";", replacement="", x=spname, ignore.case=TRUE)
-spname = gsub(pattern="\\(", replacement="", x=spname, ignore.case=TRUE)
-spname = gsub(pattern="\\)", replacement="", x=spname, ignore.case=TRUE)
-spname = gsub(pattern="\\[", replacement="", x=spname, ignore.case=TRUE)
-spname = gsub(pattern="\\]", replacement="", x=spname, ignore.case=TRUE)
-spname = gsub(pattern="=", replacement="EQ", x=spname, ignore.case=TRUE)
-spname = gsub(pattern="\\\\", replacement="", x=spname, ignore.case=TRUE)
-spname = gsub(pattern="str. ", replacement="", x=spname, ignore.case=TRUE)
-spname = gsub(pattern="\\.", replacement="", x=spname, ignore.case=TRUE)
-spname = gsub(pattern="/", replacement="-", x=spname, ignore.case=TRUE)
-spname = gsub(pattern=":", replacement="", x=spname, ignore.case=TRUE)
-
-# Remove extra spaces
-spname = stringr::str_trim(stringr::str_squish(spname))
-
-# Add underscores
-spname = gsub(pattern=" ", replacement="_", x=spname, ignore.case=TRUE)
-sum(grepl("Wolfebacteria_Wolfebacteria", x=spname))
-
-#spname = gsub(pattern="", replacement="", x=spname, ignore.case=TRUE)
-#spname = gsub(pattern="", replacement="", x=spname, ignore.case=TRUE)
-#spname = gsub(pattern="", replacement="", x=spname, ignore.case=TRUE)
-#spname = gsub(pattern="", replacement="", x=spname, ignore.case=TRUE)
-
+spname = clean_gb_spname(spname)
 sort(unique(spname))
 
 
@@ -190,10 +121,6 @@ head(prot_feature_tables_all_df)
 
 spnames = sort(unique(prot_feature_tables_all_df$spname))
 genome_ids = sort(unique(prot_feature_tables_all_df$assembly))
-
-strain_name = paste0(xlsx$Genus, " ", xlsx$Species, " ", xlsx$Strain, sep="")
-strain_name
-
 
 TF = spnames %in% strain_name
 sum(TF)
@@ -226,8 +153,7 @@ sort(genome_ids[TF == FALSE])
 # GCF_000691605.1 # Bdellovibrio bacteriovorus (bacteria)
 ##############################################
 
-
-xlsx2 = cbind(xlsx, group, spname)
+xlsx2 = cbind(xlsx, group, spname, strain_name)
 
 write.table(xlsx2, file=genomes_to_spnames_fn, sep="\t", row.names=FALSE, append=FALSE, quote=FALSE, col.names=TRUE)
 

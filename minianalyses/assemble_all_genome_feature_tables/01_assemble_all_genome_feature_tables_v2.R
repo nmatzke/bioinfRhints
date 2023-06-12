@@ -38,7 +38,7 @@ Rscript assemble_all_genome_feature_tables_v1.R
 genome_dirs = list.files(path="genomes", pattern=NULL, recursive=FALSE)
 genome_dirs
 
-prot_feature_tables_all_fn = "/GitHub/bioinfRhints/minianalyses/assemble_all_genome_feature_tables/2023-06-02_prot_feature_tables_all_v1.txt"
+prot_feature_tables_all_fn = "/GitHub/bioinfRhints/minianalyses/assemble_all_genome_feature_tables/2023-06-12_prot_feature_tables_all_v1.txt"
 
 local_unzipped_location = paste0("~/Downloads/", lastword(prot_feature_tables_all_fn))
 
@@ -90,6 +90,8 @@ for (i in 1:length(genome_dirs))
 
 file.copy(prot_feature_tables_all_fn, to=local_unzipped_location, overwrite=TRUE)
 
+
+junk='
 prot_feature_tables_all_df = read.table(prot_feature_tables_all_fn, header=TRUE, comment.char="%", quote="\"", sep="\t", fill=TRUE, stringsAsFactors=FALSE)
 dim(prot_feature_tables_all_df)
 
@@ -97,6 +99,6 @@ head(prot_feature_tables_all_df)
 
 #prot_feature_tables_all_df[3832:3836,]
 dim(prot_feature_tables_all_df)
-
+'
 
 # system(paste0("open ", prot_feature_tables_all_fn))
