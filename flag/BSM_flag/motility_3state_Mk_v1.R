@@ -512,18 +512,18 @@ ana_events_table = ana_events_tables[[1]]
 # Open a PDF
 ############################################
 pdffn = paste0(model_name, "_single_stochastic_map_n1.pdf")
-pdf(file=pdffn, width=6, height=6)
+pdf(file=pdffn, width=15, height=45)
 
 # Convert the BSM into a modified res object
 master_table_cladogenetic_events = clado_events_tables[[1]]
 resmod = stochastic_map_states_into_res(res=res, master_table_cladogenetic_events=master_table_cladogenetic_events, stratified=stratified)
 
-plot_BioGeoBEARS_results(results_object=resmod, analysis_titletxt="Stochastic map", addl_params=list("j"), label.offset=0.5, plotwhat="text", cornercoords_loc=scriptdir, root.edge=TRUE, colors_list_for_states=colors_list_for_states, skiptree=FALSE, show.tip.label=TRUE)
+plot_BioGeoBEARS_results(results_object=resmod, analysis_titletxt="Stochastic map", addl_params=list("j"), label.offset=0.5, plotwhat="text", cornercoords_loc=scriptdir, root.edge=TRUE, colors_list_for_states=colors_list_for_states, skiptree=FALSE, show.tip.label=FALSE)
 
 # Paint on the branch states
 paint_stochastic_map_branches(res=resmod, master_table_cladogenetic_events=master_table_cladogenetic_events, colors_list_for_states=colors_list_for_states, lwd=5, lty=par("lty"), root.edge=TRUE, stratified=stratified)
 
-plot_BioGeoBEARS_results(results_object=resmod, analysis_titletxt="Stochastic map", addl_params=list("j"), plotwhat="text", cornercoords_loc=scriptdir, root.edge=TRUE, colors_list_for_states=colors_list_for_states, skiptree=TRUE, show.tip.label=TRUE)
+plot_BioGeoBEARS_results(results_object=resmod, analysis_titletxt="Stochastic map", addl_params=list("j"), plotwhat="text", cornercoords_loc=scriptdir, root.edge=TRUE, colors_list_for_states=colors_list_for_states, skiptree=TRUE, show.tip.label=FALSE)
 
 ############################################
 # Close PDF
@@ -547,14 +547,14 @@ stratified = stratified
 
 # Loop through the maps and plot to PDF
 pdffn = paste0(model_name, "_", length(clado_events_tables), "BSMs_v1.pdf")
-pdf(file=pdffn, width=6, height=6)
+pdf(file=pdffn, width=15, height=45)
 
 nummaps_goal = 50
 for (i in 1:nummaps_goal)
     {
     clado_events_table = clado_events_tables[[i]]
     analysis_titletxt = paste0(model_name, " - Stochastic Map #", i, "/", nummaps_goal)
-    plot_BSM(results_object=res, clado_events_table=clado_events_table, stratified=stratified, analysis_titletxt=analysis_titletxt, addl_params=list("j"), label.offset=0.5, plotwhat="text", cornercoords_loc=scriptdir, root.edge=TRUE, colors_list_for_states=colors_list_for_states, show.tip.label=TRUE, include_null_range=include_null_range)
+    plot_BSM(results_object=res, clado_events_table=clado_events_table, stratified=stratified, analysis_titletxt=analysis_titletxt, addl_params=list("j"), label.offset=0.5, plotwhat="text", cornercoords_loc=scriptdir, root.edge=TRUE, colors_list_for_states=colors_list_for_states, show.tip.label=FALSE, include_null_range=include_null_range)
     } # END for (i in 1:nummaps_goal)
 
 dev.off()

@@ -21,6 +21,11 @@ head(prot_feature_tables_all_df)
 # Genomes information table
 xlsfn = "/GitHub/bioinfRhints/minianalyses/assemble_all_genome_feature_tables/species_list_10062023_NJM.xlsx"
 xlsx = openxlsx::read.xlsx(xlsxFile=xlsfn, sheet=1)
+for (i in 1:ncol(xlsx))
+	{
+	xlsx[,i] = stringr::str_trim(xlsx[,i])
+	}
+xlsx[4:8,]	
 head(xlsx)
 sort(unique(xlsx$Phylum))
 

@@ -106,7 +106,16 @@ clean_gb_spname <- function(spname)
 #######################################################
 extract_protein_name_info <- function(fullnames)
 	{
-	junk='
+	example_run='
+	library(ape)
+	library(phytools)
+	library(seqinr)				# for read.fasta
+	library(BioGeoBEARS)	# for cls.df
+	library(gdata)				# for trim
+	library(stringr) 			# for regmatches
+	library(openxlsx)			# for openxlsx::read.xlsx
+
+	sourceall("/GitHub/bioinfRhints/Rsrc/") # for 
 	fullnames = ">ACF14374.1 MotA/TolQ/ExbB proton channel [Chloroherpeton thalassium ATCC 35110]"
 	protein_name = extract_protein_name_info(fullnames)
 	protein_name
@@ -511,11 +520,11 @@ get_seqlengths <- function(aln)
 # Handy function
 extract_last_brackets <- function(list_of_strings, replace_spaces=TRUE)
 	{
-	junk='
+	example_code='
 	tmptxt = ">QQS07318.1 MAG: MotA/TolQ/ExbB proton channel family protein [Fibrobacteres bacterium]"
 	list_of_strings = tmptxt; replace_spaces=TRUE
-	extract_last_brackets(list_of_strings=list_of_strings, replace_spaces=replace_spaces)
-	
+	species_names = extract_last_brackets(list_of_strings=list_of_strings, replace_spaces=replace_spaces)
+	species_names
 	'
 	
 	
@@ -547,6 +556,11 @@ extract_last_brackets <- function(list_of_strings, replace_spaces=TRUE)
 
 firstword <- function(string, split=" ")
 	{
+	example_code='
+	tmptxt = ">QQS07318.1 MAG: MotA/TolQ/ExbB proton channel family protein [Fibrobacteres bacterium]"
+	firstword(tmptxt, split=" ")
+	'
+
 	words = strsplit(gdata::trim(string), split=split)[[1]]
 	return(gdata::trim(words[1]))
 	}
@@ -554,6 +568,16 @@ firstword <- function(string, split=" ")
 
 lastword <- function(string, split="/")
 	{
+	example_code='
+	tmptxt = ">QQS07318.1 MAG: MotA/TolQ/ExbB proton channel family protein [Fibrobacteres bacterium]"
+	lastword(tmptxt, split=" ")
+	
+	# Run on multiple inputs
+	tmptxts = c(tmptxt, tmptxt)
+	results = sapply(X=tmptxts, FUN=lastword, split=" ")
+	results
+	unname(results)
+	'
 	words = strsplit(gdata::trim(string), split=split)[[1]]
 	return(gdata::trim(words[length(words)]))
 	}
@@ -1172,6 +1196,108 @@ get_phylum_from_genome_ID <- function(assembly, genomes_to_spnames_df, printwarn
 		} # END if (length(genomes_to_spnames_matchnum) == 0)
 	return(phylum)
 	} # END get_phylum_from_genome_ID <- function(assembly, genomes_to_spnames_df)
+
+
+
+get_group_from_genome_ID <- function(assembly, genomes_to_spnames_df, printwarnings=FALSE)
+	{
+	junk='
+	wd = "/GitHub/bioinfRhints/minianalyses/assemble_all_genome_feature_tables/"
+	setwd(wd)
+	genomes_to_spnames_fn = "species_list_10062023_NJM+group+spname_v1.txt"
+	genomes_to_spnames_df = read.table(genomes_to_spnames_fn, header=TRUE, comment.char="%", quote="", sep="\t", fill=TRUE, stringsAsFactors=FALSE)
+	assembly = "GCA_000012685.1"
+	group = get_group_from_genome_ID(assembly, genomes_to_spnames_df)	
+	'
+
+	assembly = firstword(assembly, split="\\.")
+	
+	# Find assembly in genome GenBank IDs
+	genomes_to_spnames_matchnum = grep(pattern=assembly, x=genomes_to_spnames_df$GenBank.ID)
+
+	if (length(genomes_to_spnames_matchnum) == 1)
+		{
+		group = genomes_to_spnames_df$group[genomes_to_spnames_matchnum]
+		}
+
+	if (length(genomes_to_spnames_matchnum) > 1)
+		{
+		txt = paste0("Warning: more than 1 match to assembly='", assembly, "' in '", genomes_to_spnames_fn, "'. Probably this is due to multiple chromosomes/plasmids. Taking first hit, this is sufficient to identify the group. Taking first hit, but printing matches:")
+		
+		if (printwarnings == TRUE)
+			{
+			cat("\n")
+			cat(txt)
+			cat("\n")
+			print(genomes_to_spnames_df[genomes_to_spnames_matchnum,])
+			cat("\n")
+			}
+		genomes_to_spnames_matchnum = genomes_to_spnames_matchnum[1]
+		group = genomes_to_spnames_df$group[genomes_to_spnames_matchnum]
+		warning(txt)
+		}
+
+	if (length(genomes_to_spnames_matchnum) == 0)
+		{
+		# Find assembly in genome RefSeq IDs
+		genomes_to_spnames_matchnum = grep(pattern=assembly, x=genomes_to_spnames_df$RefSeq)
+		if (length(genomes_to_spnames_matchnum) == 1)
+			{
+			group = genomes_to_spnames_df$group[genomes_to_spnames_matchnum]
+			}
+		if (length(genomes_to_spnames_matchnum) > 1)
+			{
+			txt = paste0("Warning: more than 1 match to assembly='", assembly, "' in '", genomes_to_spnames_fn, "'. Probably this is due to multiple chromosomes/plasmids. Taking first hit, this is sufficient to identify the group, but printing matches:")
+
+			if (printwarnings == TRUE)
+				{
+				cat("\n")
+				cat(txt)
+				cat("\n")
+				print(genomes_to_spnames_df[genomes_to_spnames_matchnum,])
+				cat("\n")
+				}
+			genomes_to_spnames_matchnum = genomes_to_spnames_matchnum[1]
+			group = genomes_to_spnames_df$group[genomes_to_spnames_matchnum]
+			warning(txt)
+			}
+	
+		if (length(genomes_to_spnames_matchnum) == 0)
+			{
+			txt = paste0("Warning: 0 matches to assembly='", assembly, "' in '", genomes_to_spnames_fn, "'. The 'group' part of the label will be blank.")
+
+			if (printwarnings == TRUE)
+				{
+				cat("\n")
+				cat(txt)
+				cat("\n")
+				}
+			warning(txt)
+			group = ""
+			}
+		} # END if (length(genomes_to_spnames_matchnum) == 0)
+	return(group)
+	} # END get_group_from_genome_ID <- function(assembly, genomes_to_spnames_df)
+
+
+# Trim each column of a data.frame
+# # E.g. openxls leaves some annoying \t characters
+trim_each_column <- function(xlsx)
+	{
+	example_code='
+	xlsfn = "/GitHub/bioinfRhints/minianalyses/assemble_all_genome_feature_tables/species_list_10062023_NJM.xlsx"
+	xlsx[4:8,1:5]	
+	xlsx = openxlsx::read.xlsx(xlsxFile=xlsfn, sheet=1)
+	xlsx[4:8,1:5]	
+	'
+
+	for (i in 1:ncol(xlsx))
+		{
+		xlsx[,i] = stringr::str_trim(xlsx[,i])
+		}
+	return(xlsx)
+	} # END trim_each_column <- function(xlsx)
+
 
 
 all_but_suffix <- function(fn, split="\\.")
