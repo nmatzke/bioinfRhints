@@ -1,6 +1,8 @@
 
 #######################################################
+# TASK 02
 # Combine feature table information with e.g. Phylum information
+# ...producing a tab-delimited text file from an Excel genomes/names file
 #######################################################
 library(ape)
 library(phytools)
@@ -21,10 +23,9 @@ head(prot_feature_tables_all_df)
 # Genomes information table
 xlsfn = "/GitHub/bioinfRhints/minianalyses/assemble_all_genome_feature_tables/species_list_10062023_NJM.xlsx"
 xlsx = openxlsx::read.xlsx(xlsxFile=xlsfn, sheet=1)
-for (i in 1:ncol(xlsx))
-	{
-	xlsx[,i] = stringr::str_trim(xlsx[,i])
-	}
+
+# Trim each column to remove e.g. "\t"
+xlsx = trim_each_col_in_df(xlsx)
 xlsx[4:8,]	
 head(xlsx)
 sort(unique(xlsx$Phylum))

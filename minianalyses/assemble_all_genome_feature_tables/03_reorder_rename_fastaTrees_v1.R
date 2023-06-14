@@ -1,5 +1,6 @@
 
 #######################################################
+# TASK 03:
 # Produce various renamings & reorderings
 #######################################################
 library(ape)
@@ -11,6 +12,9 @@ library(stringr) 			# for regmatches
 library(openxlsx)			# for openxlsx::read.xlsx
 
 sourceall("/GitHub/bioinfRhints/Rsrc/") # for protein_bioinf_v1.R
+sourceall("/GitHub/bioinfRhints/R/BEASTmasteR/") 
+# for remove_equals_from_tips()
+# for read.beast.table_original
 
 
 wd = "/GitHub/bioinfRhints/minianalyses/assemble_all_genome_feature_tables/"
@@ -23,17 +27,8 @@ genomes_to_spnames_fn = "species_list_10062023_NJM+group+spname_v1.txt"
 prot_feature_tables_all_df = read.table(prot_feature_tables_all_fn, header=TRUE, comment.char="%", quote="\"", sep="\t", fill=TRUE, stringsAsFactors=FALSE)
 head(prot_feature_tables_all_df)
 
-genomes_to_spnames_df = read.table(genomes_to_spnames_fn, header=TRUE, comment.char="%", quote="\", sep="\t", fill=TRUE, stringsAsFactors=FALSE)
+genomes_to_spnames_df = read.table(genomes_to_spnames_fn, header=TRUE, comment.char="%", quote="", sep="\t", fill=TRUE, stringsAsFactors=FALSE)
 genomes_to_spnames_df[1:10,]
-
-
-
-
-genomes_to_spnames_df = read.table(genomes_to_spnames_fn, header=TRUE, comment.char="%",sep="\t", fill=TRUE, stringsAsFactors=FALSE)
-genomes_to_spnames_df[1:10,1:5]
-
-
-head(genomes_to_spnames_df)
 dim(genomes_to_spnames_df)
 
 
@@ -45,6 +40,30 @@ alnfn = "motA_hmmalign589_full_tr2_order_domainsOrder_cutNonHom_ed1_MiddleConstr
 
 # Read tree, remove "'"
 tr = read.nexus(trfn)
+names(tr)
+
+# Get the node labels (e.g. bootstraps)
+#tr = phytools::readNexus(trfn, format="raxml")
+# Extract the internal node labels
+nodelabels_table = extractBEASTstats_orig(file=trfn, digits=4, printflag=FALSE) 
+bootstraps = nodelabels_table$bs
+
+# Add to tree object
+if (length(bootstraps) == (tr$Nnode-1))
+	{
+	# Add a root node label
+	bootstraps = c(0, bootstraps)
+	}
+
+if (length(bootstraps) == tr$Nnode)
+	{
+	tr$node.label = bootstraps
+	} else {
+	txt = "WARNING: the length of bootstraps does not equal the number of internal nodes, tr$Nnode"
+	warning(txt)
+	}
+
+
 tr$tip.label = gsub(pattern="'", replacement="", x=tr$tip.label)
 tip_gids = tr$tip.label
 head(tip_gids)
@@ -68,6 +87,7 @@ length(TF)
 #######################################################
 # Put alignment in tip-order
 #######################################################
+sourceall("/GitHub/bioinfRhints/Rsrc/") # for protein_bioinf_v1.R
 aln_to_tip_order = match(x=tip_gids, table=seq_gids)
 aln2 = aln[aln_to_tip_order]
 fullnames = fullnames_from_readFasta(aln2)
@@ -75,9 +95,10 @@ list_of_strings = extract_protein_name_info(fullnames)
 abbr_protnames = classify_MotAfam_labels(list_of_strings)
 
 # Check the outputs
-head(fullnames)
+sort(unique(abbr_protnames))
 
-head(rev(tr$tip.label))
+head(fullnames)
+head(tr$tip.label)
 
 TF = names(aln2) == tip_gids
 sum(TF)
@@ -85,6 +106,8 @@ length(TF)
 
 head(names(aln2))
 head(tr$tip.label)
+
+
 
 
 
@@ -135,13 +158,12 @@ for (i in 1:length(tip_gids))
 
 	assembly = prot_feature_tables_all_df$assembly[prot_feature_tables_all_matchnum]
 	group = get_group_from_genome_ID(assembly=assembly, genomes_to_spnames_df=genomes_to_spnames_df, printwarnings=FALSE)	
-	#spname = 
-	
+	spname = get_spname_from_genome_ID(assembly=assembly, genomes_to_spnames_df=genomes_to_spnames_df, printwarnings=FALSE)	
 	
 	group_first_tipname = paste0(group, "|", abbr_protnames[i], "|", spname, "|", tip_gids[i])
 	seqlength = prot_feature_tables_all_df$product_length[prot_feature_tables_all_matchnum]
-	seqlength_first_tipname = paste0(seqlength, "|", abbr_protnames, "|", spname, "|", tip_gids[i])
-	protname_first_tipname = paste0(abbr_protnames, "|", group, "|", spname, "|", tip_gids[i])
+	seqlength_first_tipname = paste0(seqlength, "|", abbr_protnames[i], "|", spname, "|", tip_gids[i])
+	protname_first_tipname = paste0(abbr_protnames[i], "|", group, "|", spname, "|", tip_gids[i])
 
 	group_first_tipnames = c(group_first_tipnames, group_first_tipname)
 	seqlength_first_tipnames = c(seqlength_first_tipnames, seqlength_first_tipname)
@@ -153,20 +175,39 @@ head(group_first_tipnames)
 head(seqlength_first_tipnames)
 head(protname_first_tipnames)
 
+
+
+# Group first (phylum or subphylum)
 tr_group = tr
 tr_group$tip.label = group_first_tipnames
-outfn = paste0(all_but_suffix(trfn), "_group.newick")
-write.tree(tr, file=outfn)
+outfn = paste0(all_but_suffix(trfn), "_groupFirst.nexus")
+write.nexus(tr_group, file=outfn)
 
+# Write alignment in reverse order if desired (ie to match ape plot)
+#revnums = rev(1:length(aln2))
+aln2fn = paste0(all_but_suffix(alnfn), "_groupFirst.fasta")
+write.fasta(sequences=aln2, names=group_first_tipnames, file.out=aln2fn)
+
+
+# Protein sequence length first
 tr_seqlength = tr
-tr_seqlength$tip.label = seqlength_first_tipnames #paste0("'", seqlength_first_tipnames, "'")
-outfn = paste0(all_but_suffix(trfn), "_seqLength.newick")
-write.tree(tr_seqlength, file=outfn)
+tr_seqlength$tip.label = seqlength_first_tipnames
+outfn = paste0(all_but_suffix(trfn), "_seqLength.nexus")
+write.nexus(tr_seqlength, file=outfn)
 
+aln2fn = paste0(all_but_suffix(alnfn), "_seqLength.fasta")
+write.fasta(sequences=aln2, names=seqlength_first_tipnames, file.out=aln2fn)
+
+
+# Protein abbreviation first
 tr_protFirst = tr
 tr_protFirst$tip.label = protname_first_tipnames
-outfn = paste0(all_but_suffix(trfn), "_protFirst.newick")
-write.tree(tr_protFirst, file=outfn)
+outfn = paste0(all_but_suffix(trfn), "_protFirst.nexus")
+write.nexus(tr_protFirst, file=outfn)
+
+aln2fn = paste0(all_but_suffix(alnfn), "_protFirst.fasta")
+write.fasta(sequences=aln2, names=protname_first_tipnames, file.out=aln2fn)
+
 
 
 

@@ -2,6 +2,268 @@
 #######################################################
 # Source code for bioinformatics tasks
 #######################################################
+
+# Run "trim" on each column of a data.frame or similar
+trim_each_col_in_df <- function(xlsx)
+	{
+	for (i in 1:ncol(xlsx))
+		{
+		xlsx[,i] = stringr::str_trim(xlsx[,i])
+		}
+	return(xlsx)
+	}
+
+# In a subsection of a feature_table, copy the info from a nonblank cell 
+# to a blank cell
+copy_over_blankcell <- function(tmpdf2)
+	{
+	tmpnums = 1:nrow(tmpdf2)
+	
+	# Names
+	unique_names = unique(tmpdf2$name[tmpnums])
+	if (sum(isblank_TF(unique_names)) > 0)
+		{
+		unique_names = unique_names[isblank_TF(unique_names) == FALSE]
+		}
+	if (length(unique_names) == 0)
+		{
+		tmpdf2$name[tmpnums] = ""
+		}
+	if (length(unique_names) == 1)
+		{
+		tmpdf2$name[tmpnums] = unique_names
+		}
+	if (length(unique_names) > 1)
+		{
+		tmpdf2$name[tmpnums] = paste0(unique_names, collapse="_")
+		}
+
+
+	# Product accession
+	unique_product_accessions = unique(tmpdf2$product_accession[tmpnums])
+	if (sum(isblank_TF(unique_product_accessions)) > 0)
+		{
+		unique_product_accessions = unique_product_accessions[isblank_TF(unique_product_accessions) == FALSE]
+		}
+	if (length(unique_product_accessions) == 0)
+		{
+		tmpdf2$product_accession[tmpnums] = ""
+		}
+	if (length(unique_product_accessions) == 1)
+		{
+		tmpdf2$product_accession[tmpnums] = unique_product_accessions
+		}
+	if (length(unique_product_accessions) > 1)
+		{
+		tmpdf2$product_accession[tmpnums] = paste0(unique_product_accessions, collapse="_")
+		}
+
+	
+	# Symbol
+	unique_symbols = unique(tmpdf2$symbol[tmpnums])
+	if (sum(isblank_TF(unique_symbols)) > 0)
+		{
+		unique_symbols = unique_symbols[isblank_TF(unique_symbols) == FALSE]
+		}
+	if (length(unique_symbols) == 0)
+		{
+		tmpdf2$symbol[tmpnums] = ""
+		}
+	if (length(unique_symbols) == 1)
+		{
+		tmpdf2$symbol[tmpnums] = unique_symbols
+		}
+	if (length(unique_symbols) > 1)
+		{
+		tmpdf2$symbol[tmpnums] = paste0(unique_symbols, collapse="_")
+		}
+
+	# Strand
+	unique_strands = unique(tmpdf2$strand[tmpnums])
+	if (sum(isblank_TF(unique_strands)) > 0)
+		{
+		unique_strands = unique_strands[isblank_TF(unique_strands) == FALSE]
+		}
+	if (length(unique_strands) == 0)
+		{
+		tmpdf2$strand[tmpnums] = ""
+		}
+	if (length(unique_strands) == 1)
+		{
+		tmpdf2$strand[tmpnums] = unique_strands
+		}
+	if (length(unique_strands) > 1)
+		{
+		tmpdf2$strand[tmpnums] = paste0(unique_strands, collapse="_")
+		}
+	
+	return(tmpdf2)
+	} # END copy_over_blankcell
+
+
+#######################################################
+# Get an adjacent item from a full *_feature_table.txt file
+# 
+# Usually you go up (or down) two rows, but this can
+# break down for e.g. pseudogenes
+#######################################################
+
+get_adjacent_row <- function(rownum, shift, prot_feature_tables_all_df)
+	{
+	countshift = shift
+	nums = rownum:(rownum+3*shift)
+
+	# symbol + locus tag should give something unique to count
+	symbol_locus = paste0(prot_feature_tables_all_df$symbol[nums], "|", prot_feature_tables_all_df$locus_tag[nums])
+	core_gene_symbol_locus = symbol_locus[1]
+	unique_symbol_locus = unique(symbol_locus)
+	keepTF = unique_symbol_locus != core_gene_symbol_locus
+	unique_symbol_locus = unique_symbol_locus[keepTF]
+	
+	TF = symbol_locus %in% unique_symbol_locus
+	tmpnums = (1:length(TF))[TF]
+	index_to_rownum_shifts = tmpnums
+	
+	# Copy info over blanks ""
+	if (shift < 1)
+		{
+		countshift = -1 * shift # for counting backwards if needed
+		}
+	tmpdf = prot_feature_tables_all_df[nums,]
+	usl = unique_symbol_locus[countshift]
+	TF = symbol_locus %in% usl
+	usl_nums = (1:length(TF))[TF]
+	tmpdf2 = tmpdf[usl_nums,]
+	tmpdf2 = copy_over_blankcell(tmpdf2) # fix the issue of blanks
+	
+	# Extract the info
+	strand = tmpdf2$strand[1]
+	symbol = tmpdf2$symbol[1]
+	product_accession = tmpdf2$product_accession[1]
+	name = tmpdf2$name[1]
+	info = c(strand, symbol, product_accession, name)
+	names(info) = c("strand", "symbol", "product_accession", "name")
+	
+	return(info)
+	}	# END get_adjacent_row
+
+
+
+
+
+
+get_adjacent_genes <- function(list_of_protIDs, prot_feature_tables_all_df, genomes_to_spnames_df, printwarnings=FALSE)
+	{
+	genome_names_not_found = NULL
+	protIDs_not_found = NULL
+	gene_neighbors = NULL
+	i=1
+	txt = paste0("\nget_adjacent_genes() is extracting adjacent gene information for ", length(list_of_protIDs), " input protein IDs (GenBank IDs, gids).\ni=")
+	cat(txt)
+	for (i in 1:length(list_of_protIDs))
+		{
+		cat(i, ",", sep="")
+		protID = list_of_protIDs[i]
+	
+		# Slow
+		#gene_num = grep(pattern=protID, x=prot_feature_tables_all_df$product_accession, ignore.case=TRUE)
+		TF = prot_feature_tables_all_df$product_accession == protID
+		gene_num = (1:length(TF))[TF]
+		if (length(gene_num) == 0)
+			{
+			protIDs_not_found = c(protIDs_not_found, protID)
+			genome_names_not_found = c(genome_names_not_found, genome_dir)
+
+			next()
+			}
+	
+		# Get basic info
+		assembly = prot_feature_tables_all_df$assembly[gene_num]
+		
+		if (printwarnings == FALSE)
+			{
+			group = suppressWarnings(get_group_from_genome_ID(assembly=assembly, genomes_to_spnames_df=genomes_to_spnames_df, printwarnings=FALSE))
+			spname = suppressWarnings(get_spname_from_genome_ID(assembly=assembly, genomes_to_spnames_df=genomes_to_spnames_df, printwarnings=FALSE))	
+			} else {
+			group = get_group_from_genome_ID(assembly=assembly, genomes_to_spnames_df=genomes_to_spnames_df, printwarnings=TRUE)
+			spname = get_spname_from_genome_ID(assembly=assembly, genomes_to_spnames_df=genomes_to_spnames_df, printwarnings=TRUE)	
+			}
+
+		# Look at near-neighbors
+		prot_feature_tables_all_df[gene_num,]
+		prot_feature_tables_all_df[gene_num+1,]
+		prot_feature_tables_all_df[gene_num-1,]
+
+		rownum = gene_num
+		info1 = get_adjacent_row(rownum, shift=1, prot_feature_tables_all_df)
+		info2 = get_adjacent_row(rownum, shift=2, prot_feature_tables_all_df)
+		info3 = get_adjacent_row(rownum, shift=3, prot_feature_tables_all_df)
+	
+		infoM1 = get_adjacent_row(rownum, shift=-1, prot_feature_tables_all_df)
+		infoM2 = get_adjacent_row(rownum, shift=-2, prot_feature_tables_all_df)
+		infoM3 = get_adjacent_row(rownum, shift=-3, prot_feature_tables_all_df)
+
+		# Assemble 2 lines: symbols and accessions
+		# symbol line
+		strand0 = nones_to_NA(prot_feature_tables_all_df$strand[gene_num])
+		sym0 = nones_to_NA(prot_feature_tables_all_df$symbol[gene_num])
+		acc0 = nones_to_NA(prot_feature_tables_all_df$product_accession[gene_num])
+		name0 = nones_to_NA(prot_feature_tables_all_df$name[gene_num])
+	
+		strand1 = nones_to_NA(info1["strand"])
+		sym1 = nones_to_NA(info1["symbol"])
+		acc1 = nones_to_NA(info1["product_accession"])
+		name1 = nones_to_NA(info1["name"])
+
+		strand2 = nones_to_NA(info2["strand"])
+		sym2 = nones_to_NA(info2["symbol"])
+		acc2 = nones_to_NA(info2["product_accession"])
+		name2 = nones_to_NA(info2["name"])
+
+		strand3 = nones_to_NA(info3["strand"])
+		sym3 = nones_to_NA(info3["symbol"])
+		acc3 = nones_to_NA(info3["product_accession"])
+		name3 = nones_to_NA(info3["name"])
+
+		strandM1 = nones_to_NA(infoM1["strand"])
+		symM1 = nones_to_NA(infoM1["symbol"])
+		accM1 = nones_to_NA(infoM1["product_accession"])
+		nameM1 = nones_to_NA(infoM1["name"])
+
+		strandM2 = nones_to_NA(infoM2["strand"])
+		symM2 = nones_to_NA(infoM2["symbol"])
+		accM2 = nones_to_NA(infoM2["product_accession"])
+		nameM2 = nones_to_NA(infoM2["name"])
+
+		strandM3 = nones_to_NA(infoM3["strand"])
+		symM3 = nones_to_NA(infoM3["symbol"])
+		accM3 = nones_to_NA(infoM3["product_accession"])
+		nameM3 = nones_to_NA(infoM3["name"])
+	
+		if (strand0 == "+")
+			{
+			tmprow = c(i, protID, spname, group, assembly, symM3, symM2, symM1, sym0, sym1, sym2, sym3, strandM3, strandM2, strandM1, strand0, strand1, strand2, strand3, accM3, accM2, accM1, acc0, acc1, acc2, acc3, nameM3, nameM2, nameM1, name0, name1, name2, name3, prot_feature_tables_all_fn)
+			} else if (strand0 == "-") {
+			tmprow = c(i, protID, spname, group, assembly, sym3, sym2, sym1, sym0, symM1, symM2, symM3, strand3, strand2, strand1, strand0, strandM1, strandM2, strandM3, acc3, acc2, acc1, acc0, accM1, accM2, accM3, name3, name2, name1, name0, nameM1, nameM2, nameM3, prot_feature_tables_all_fn)		
+			}
+	
+		gene_neighbors = rbind(gene_neighbors, tmprow)
+		}
+	cat("...done\n")
+
+	gene_neighbors_df = as.data.frame(gene_neighbors, stringsAsFactors=FALSE)
+	names(gene_neighbors_df) = c("i", "protID", "spname", "group", "assembly", "symM3", "symM2", "symM1", "sym0", "sym1", "sym2", "sym3", "strandM3", "strandM2", "strandM1", "strand0", "strand1", "strand2", "strand3", "accM3", "accM2", "accM1", "acc0", "acc1", "acc2", "acc3", "nameM3", "nameM2", "nameM1", "name0", "name1", "name2", "name3", "prot_feature_tables_all_fn")
+	row.names(gene_neighbors_df) = NULL
+	return(gene_neighbors_df)
+	}
+
+
+
+
+
+
+
+
 fullnames_from_readFasta <- function(aln)
 	{
 	fullnames = sapply(X=aln, FUN=attr, which="Annot")
@@ -181,7 +443,16 @@ classify_MotAfam_labels <- function(list_of_strings)
 		tmpstr = gsub(pattern="  ", replacement=" ", x=tmpstr)
 		tmpstr = gdata::trim(tmpstr)
 
-
+		
+		tmpstr = gsub(pattern="probable biopolymer transport protein", replacement="biopoly_transp", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="Biopolymer transport proteins", replacement="biopoly_transp", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="ExbB protein", replacement="ExbB", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="related to flagellar apparatus MotA", replacement="MotA", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="", replacement="", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="", replacement="", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="", replacement="", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="", replacement="", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="", replacement="", x=tmpstr, ignore.case=TRUE)
 		
 		# Add semicolon on the end
 		
@@ -423,6 +694,16 @@ classify_MotAfam_labels <- function(list_of_strings)
 		tmpstr = gdata::trim(tmpstr)
 
 		tmpstr = gsub(pattern=" ", replacement="_", x=tmpstr)
+
+		tmpstr = gsub(pattern="MotA_MotA_component_of_the_H\\+coupled_stator_flagellum_complex", replacement="MotA", x=tmpstr)
+		tmpstr = gsub(pattern="MotA_MotA", replacement="MotA", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="Mot_family_proton_H\\+_or_sodium_Na\\+_transporter_MotA", replacement="MotA", x=tmpstr)
+		tmpstr = gsub(pattern="related_to_flagellar_apparatus_MotA", replacement="MotA", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="related_to_ExbB", replacement="ExbB", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="transporter_ExbD", replacement="ExbD", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="conserved_TolQ", replacement="TolQ", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="MotA_MotA", replacement="MotA", x=tmpstr, ignore.case=TRUE)
+		
 
 
 		if ((tmpstr == "") || (tmpstr == "transporter"))
@@ -1278,6 +1559,90 @@ get_group_from_genome_ID <- function(assembly, genomes_to_spnames_df, printwarni
 		} # END if (length(genomes_to_spnames_matchnum) == 0)
 	return(group)
 	} # END get_group_from_genome_ID <- function(assembly, genomes_to_spnames_df)
+
+
+
+get_spname_from_genome_ID <- function(assembly, genomes_to_spnames_df, printwarnings=FALSE)
+	{
+	junk='
+	wd = "/GitHub/bioinfRhints/minianalyses/assemble_all_genome_feature_tables/"
+	setwd(wd)
+	genomes_to_spnames_fn = "species_list_10062023_NJM+spname+spname_v1.txt"
+	genomes_to_spnames_df = read.table(genomes_to_spnames_fn, header=TRUE, comment.char="%", quote="", sep="\t", fill=TRUE, stringsAsFactors=FALSE)
+	assembly = "GCA_000012685.1"
+	spname = get_spname_from_genome_ID(assembly, genomes_to_spnames_df)	
+	'
+
+	assembly = firstword(assembly, split="\\.")
+	
+	# Find assembly in genome GenBank IDs
+	genomes_to_spnames_matchnum = grep(pattern=assembly, x=genomes_to_spnames_df$GenBank.ID)
+
+	if (length(genomes_to_spnames_matchnum) == 1)
+		{
+		spname = genomes_to_spnames_df$spname[genomes_to_spnames_matchnum]
+		}
+
+	if (length(genomes_to_spnames_matchnum) > 1)
+		{
+		txt = paste0("Warning: more than 1 match to assembly='", assembly, "' in '", genomes_to_spnames_fn, "'. Probably this is due to multiple chromosomes/plasmids. Taking first hit, this is sufficient to identify the spname. Taking first hit, but printing matches:")
+		
+		if (printwarnings == TRUE)
+			{
+			cat("\n")
+			cat(txt)
+			cat("\n")
+			print(genomes_to_spnames_df[genomes_to_spnames_matchnum,])
+			cat("\n")
+			}
+		genomes_to_spnames_matchnum = genomes_to_spnames_matchnum[1]
+		spname = genomes_to_spnames_df$spname[genomes_to_spnames_matchnum]
+		warning(txt)
+		}
+
+	if (length(genomes_to_spnames_matchnum) == 0)
+		{
+		# Find assembly in genome RefSeq IDs
+		genomes_to_spnames_matchnum = grep(pattern=assembly, x=genomes_to_spnames_df$RefSeq)
+		if (length(genomes_to_spnames_matchnum) == 1)
+			{
+			spname = genomes_to_spnames_df$spname[genomes_to_spnames_matchnum]
+			}
+		if (length(genomes_to_spnames_matchnum) > 1)
+			{
+			txt = paste0("Warning: more than 1 match to assembly='", assembly, "' in '", genomes_to_spnames_fn, "'. Probably this is due to multiple chromosomes/plasmids. Taking first hit, this is sufficient to identify the spname, but printing matches:")
+
+			if (printwarnings == TRUE)
+				{
+				cat("\n")
+				cat(txt)
+				cat("\n")
+				print(genomes_to_spnames_df[genomes_to_spnames_matchnum,])
+				cat("\n")
+				}
+			genomes_to_spnames_matchnum = genomes_to_spnames_matchnum[1]
+			spname = genomes_to_spnames_df$spname[genomes_to_spnames_matchnum]
+			warning(txt)
+			}
+	
+		if (length(genomes_to_spnames_matchnum) == 0)
+			{
+			txt = paste0("Warning: 0 matches to assembly='", assembly, "' in '", genomes_to_spnames_fn, "'. The 'spname' part of the label will be blank.")
+
+			if (printwarnings == TRUE)
+				{
+				cat("\n")
+				cat(txt)
+				cat("\n")
+				}
+			warning(txt)
+			spname = ""
+			}
+		} # END if (length(genomes_to_spnames_matchnum) == 0)
+	return(spname)
+	} # END get_spname_from_genome_ID <- function(assembly, genomes_to_spnames_df)
+
+
 
 
 # Trim each column of a data.frame

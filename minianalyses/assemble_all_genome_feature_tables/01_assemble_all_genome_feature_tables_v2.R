@@ -1,12 +1,18 @@
-
-
-
-
 #######################################################
-# 2023-03-13 Lab meeting
-# Scripts: manipulating alignments, sequence names / tip names, etc.
-#          Extracting gene order from a list of downloaded genomes
+# TASK 01:
+# Go through hundreds of bacterial genomes
+# (in e.g. ~/Downloads/Full_genomes/genomes/)
+# and unzip/copy out the *_feature_table.txt file from
+# each one.  Assemble into a single huge table for
+# searching: 
+# * prot_feature_table_df
+#      ...or...
+# /GitHub/bioinfRhints/minianalyses/
+# /assemble_all_genome_feature_tables/
+# 2023-06-12_prot_feature_tables_all_v1.txt
 #######################################################
+
+# Setup
 library(ape)
 library(phytools)
 library(seqinr)				# for read.fasta
@@ -16,17 +22,11 @@ library(stringr) 			# for regmatches
 
 sourceall("/GitHub/bioinfRhints/Rsrc/") # for protein_bioinf_v1.R
 
-# Set working directory
-#wd = "/GitHub/bioinfRhints/flag/gene_order_example/" # example
-wd = "~/Downloads/Full_genomes/"	 # full dataset
-setwd(wd)
-
 # Get the list of genome directories that have been saved somewhere
 
 # DOWNLOAD FROM:
 #
 # OneDrive > Caroline Puente-Lelievre > Flagellum > data > genomes https://uoa-my.sharepoint.com/personal/cpue388_uoa_auckland_ac_nz/_layouts/15/onedrive.aspx?e=5%3Ae28ad7a76b0041e784fca85609803fd4&at=9&FolderCTID=0x0120001084CF6CCC61BD4F9CD6A8F986921623&id=%2Fpersonal%2Fcpue388%5Fuoa%5Fauckland%5Fac%5Fnz%2FDocuments%2FFlagellum%2Fdata%2Fgenomes&view=0
-
 
 # Run with:
 runcmds='
@@ -34,6 +34,15 @@ cd /GitHub/bioinfRhints/flag/assemble_all_genome_feature_tables/
 Rscript assemble_all_genome_feature_tables_v1.R
 '
 
+
+
+#######################################################
+# File locations
+#######################################################
+# Set working directory
+#wd = "/GitHub/bioinfRhints/flag/gene_order_example/" # example
+wd = "~/Downloads/Full_genomes/"	 # full dataset
+setwd(wd)
 
 genome_dirs = list.files(path="genomes", pattern=NULL, recursive=FALSE)
 genome_dirs
@@ -43,7 +52,12 @@ prot_feature_tables_all_fn = "/GitHub/bioinfRhints/minianalyses/assemble_all_gen
 local_unzipped_location = paste0("~/Downloads/", lastword(prot_feature_tables_all_fn))
 
 
-unzipTF = TRUE
+
+
+#######################################################
+# Assemble the giant features table
+#######################################################
+unzipTF = TRUE  # If true, unzip the zipfiles if needed
 list_of_protIDs_in_genome = list()
 cat("\nMerging protein feature tables (gene order tables) from ", length(genome_dirs), " genome directories...\n")
 for (i in 1:length(genome_dirs))
@@ -88,10 +102,12 @@ for (i in 1:length(genome_dirs))
 	} # END for (i in 1:length(genome_dirs))
 
 
+# Copy the giant feature tables file to local location for further usage
+# (anything over 100 MB is too big to keep on GitHub)
 file.copy(prot_feature_tables_all_fn, to=local_unzipped_location, overwrite=TRUE)
 
 
-junk='
+example_runcode='
 prot_feature_tables_all_df = read.table(prot_feature_tables_all_fn, header=TRUE, comment.char="%", quote="\"", sep="\t", fill=TRUE, stringsAsFactors=FALSE)
 dim(prot_feature_tables_all_df)
 
