@@ -172,7 +172,7 @@ get_adjacent_genes <- function(list_of_protIDs, prot_feature_tables_all_df, geno
 		if (length(gene_num) == 0)
 			{
 			protIDs_not_found = c(protIDs_not_found, protID)
-			genome_names_not_found = c(genome_names_not_found, genome_dir)
+			#genome_names_not_found = c(genome_names_not_found, genome_dir)
 
 			next()
 			}
