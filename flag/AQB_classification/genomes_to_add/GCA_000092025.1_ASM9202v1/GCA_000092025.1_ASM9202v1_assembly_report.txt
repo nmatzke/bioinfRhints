@@ -1,0 +1,31 @@
+# Assembly name:  ASM9202v1
+# Organism name:  Agrobacterium fabrum str. C58 (a-proteobacteria)
+# Infraspecific name:  strain=C58
+# Taxid:          176299
+# BioSample:      SAMN02603108
+# BioProject:     PRJNA283
+# Submitter:      Cereon
+# Date:           2007-11-05
+# Assembly type:  na
+# Release type:   major
+# Assembly level: Complete Genome
+# Genome representation: full
+# Relation to type material: assembly from type material
+# GenBank assembly accession: GCA_000092025.1
+# RefSeq assembly accession: GCF_000092025.1
+# RefSeq assembly and GenBank assemblies identical: yes
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_000092035.1	GCF_000092035.1	Primary Assembly
+#
+# Ordered by chromosome/plasmid; the chromosomes/plasmids are followed by
+# unlocalized scaffolds.
+# Unplaced scaffolds are listed at the end.
+# RefSeq is equal or derived from GenBank object.
+#
+# Sequence-Name	Sequence-Role	Assigned-Molecule	Assigned-Molecule-Location/Type	GenBank-Accn	Relationship	RefSeq-Accn	Assembly-Unit	Sequence-Length	UCSC-style-name
+circular	assembled-molecule	circular	Chromosome	AE007869.2	=	NC_003062.2	Primary Assembly	2841580	na
+linear	assembled-molecule	linear	Chromosome	AE007870.2	=	NC_003063.2	Primary Assembly	2075577	na
+At	assembled-molecule	At	Plasmid	AE007872.2	=	NC_003064.2	Primary Assembly	542868	na
+Ti	assembled-molecule	Ti	Plasmid	AE007871.2	=	NC_003065.3	Primary Assembly	214233	na

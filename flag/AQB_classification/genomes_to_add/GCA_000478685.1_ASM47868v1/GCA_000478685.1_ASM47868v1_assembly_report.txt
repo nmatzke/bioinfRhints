@@ -1,0 +1,39 @@
+# Assembly name:  ASM47868v1
+# Organism name:  Candidatus Photodesmus katoptron Akat1 (g-proteobacteria)
+# Infraspecific name:  strain=Akat1
+# Taxid:          1236703
+# BioSample:      SAMN02471885
+# BioProject:     PRJNA80863
+# Submitter:      University of Michigan
+# Date:           2013-06-17
+# Assembly type:  na
+# Release type:   major
+# Assembly level: Contig
+# Genome representation: full
+# WGS project:    AMSD01
+# Assembly method: MIRA v. 3
+# Genome coverage: 165.0x
+# Sequencing technology: 454; Sanger
+# GenBank assembly accession: GCA_000478685.1
+# RefSeq assembly accession: GCF_000478685.1
+# RefSeq assembly and GenBank assemblies identical: yes
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_000478695.1	GCF_000478695.1	Primary Assembly
+#
+# Ordered by chromosome/plasmid; the chromosomes/plasmids are followed by
+# unlocalized scaffolds.
+# Unplaced scaffolds are listed at the end.
+# RefSeq is equal or derived from GenBank object.
+#
+# Sequence-Name	Sequence-Role	Assigned-Molecule	Assigned-Molecule-Location/Type	GenBank-Accn	Relationship	RefSeq-Accn	Assembly-Unit	Sequence-Length	UCSC-style-name
+pPK001	assembled-molecule	pPK001	Plasmid	AMSD01000003.1	=	NZ_AMSD01000003.1	Primary Assembly	14477	na
+Contig1	unlocalized-scaffold	I	Chromosome	AMSD01000001.1	=	NZ_AMSD01000001.1	Primary Assembly	555626	na
+Contig2	unlocalized-scaffold	II	Chromosome	AMSD01000002.1	=	NZ_AMSD01000002.1	Primary Assembly	431242	na
+Contig4118	unplaced-scaffold	na	na	AMSD01000009.1	=	NZ_AMSD01000009.1	Primary Assembly	2463	na
+Contig4117	unplaced-scaffold	na	na	AMSD01000008.1	=	NZ_AMSD01000008.1	Primary Assembly	3429	na
+Contig582	unplaced-scaffold	na	na	AMSD01000007.1	=	NZ_AMSD01000007.1	Primary Assembly	1078	na
+Contig92	unplaced-scaffold	na	na	AMSD01000006.1	=	NZ_AMSD01000006.1	Primary Assembly	1018	na
+Contig16	unplaced-scaffold	na	na	AMSD01000005.1	=	NZ_AMSD01000005.1	Primary Assembly	1509	na
+Contig14	unplaced-scaffold	na	na	AMSD01000004.1	=	NZ_AMSD01000004.1	Primary Assembly	5079	na
