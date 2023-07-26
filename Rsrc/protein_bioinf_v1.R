@@ -530,6 +530,328 @@ classify_MotAfam_labels <- function(list_of_strings)
 			next()
 			}
 
+
+		if (grepl(pattern="TonB system transport component", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "ExbB_wTonB"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+
+
+		if (grepl(pattern="TonB2 energy transduction system inner membrane component TtpC", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "TtpC_wTonB2"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="TonB2 energy transduction system inner membrane component ExbB", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "ExbB_wTonB2"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="TonB1 energy transduction system for heme uptake inner membrane component ExbB", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "ExbB_wTonB1"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="TonB system-dependent", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "ExbB_wTonB"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="TonB complex protein", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "ExbB_wTonB"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="TolR protein", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "TolR"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+
+
+
+		if (grepl(pattern="TolQ-type precursor", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "TolQ"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="TolQ-transmembrane prediction", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "TolQ"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="TolQ-related transport transmembrane protein", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "TolQ"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="TolQ-like", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "TolQ"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="TolQ transport transmembrane protein", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "TolQ"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="TolQ colicin import protein", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "TolQ"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="TolAQR complex membrane spanning protein", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "TolQ"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="TolA energy-transducing system inner membrane component TolQ", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "TolQ"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+
+
+		if (grepl(pattern="Tol-Pal system TolQ", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "TolQ"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="tol transport systemTolQ", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "TolQ"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="tol protein, membrane-spanning inner membrane protein", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "TolQ"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+
+
+
+
+
+
+
+		if (grepl(pattern="ExbB; membrane protein", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "ExbB"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="ExbB transport", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "ExbB"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="ExbB family protein", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "ExbB"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+
+		if (grepl(pattern="\\(MotA\\) transmembrane", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "MotA"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="transmembrane protein MotA", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "MotA"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+
+		if (grepl(pattern="related to flagellar apparatus \\MotA\\)", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "MotA"
+			short_protname[i] = tmpstr
+			next()
+			}
+		if (grepl(pattern="proton conductor component of flagella", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "MotA"
+			short_protname[i] = tmpstr
+			next()
+			}
+		if (grepl(pattern="proton conductor component of", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "proton_conductor"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="MotA \\(flagellar rotation\\)", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "MotA"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="lateral A", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "lateral_MotA"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="transport-related membrane protein", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "transport"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="transport transmembrane protein", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "transport"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="probable transmembrane protein MotA", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "MotA"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "MotA"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="Na+-coupled flagellar stator MotP", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "MotP"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="stator-force generator of H+ coupled flagellar MotA", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "MotA"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="stator-force generator of Na+ coupled flagellar PomA", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "PomA"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="sodium-driven polar flag", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "PomA"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="sodium MotA", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "PomA"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="Probable transport transmembrane protein", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "transport"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="Polar sodium-driven \\(MotA\\)", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "PomA"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+
+
+
+
+		if (grepl(pattern="TonB1 energy transduction system for heme uptake inner membrane component ExbB", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "ExbB_wTonB1"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="membrane spanning protein in TolA-TolQ-TolR complex; proton channel component", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "TolQ"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="membrane spanning protein in TolA-TolQ-TolR complex", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "TolQ"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+
+		if (grepl(pattern="inner membrane TolQ ", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "TolQ"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+
 		if (grepl(pattern="tonB system transport protein ExbB/TolQ", x=tmpstr, ignore.case=TRUE) == TRUE)
 			{
 			tmpstr = "TolQ_ExbB_wTonB"
@@ -583,7 +905,7 @@ classify_MotAfam_labels <- function(list_of_strings)
 
 
 		tmpstr = gsub(pattern="hypothetical protein ", replacement="HYP_", x=tmpstr, ignore.case=TRUE)
-		tmpstr = gsub(pattern="transport protein", replacement="", x=tmpstr, ignore.case=TRUE)
+		tmpstr = gsub(pattern="transport protein", replacement="transport", x=tmpstr, ignore.case=TRUE)
 		tmpstr = gsub(pattern="outer membrane transport energization protein", replacement="", x=tmpstr, ignore.case=TRUE)
 		tmpstr = gsub(pattern="Biopolymer", replacement="", x=tmpstr, ignore.case=TRUE)
 		tmpstr = gsub(pattern="domain-containing protein", replacement="", x=tmpstr, ignore.case=TRUE)
@@ -704,6 +1026,12 @@ classify_MotAfam_labels <- function(list_of_strings)
 		tmpstr = gsub(pattern="conserved_TolQ", replacement="TolQ", x=tmpstr, ignore.case=TRUE)
 		tmpstr = gsub(pattern="MotA_MotA", replacement="MotA", x=tmpstr, ignore.case=TRUE)
 		
+		if (grepl(pattern="Possible_,_ExbB_family", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "ExbB"
+			short_protname[i] = tmpstr
+			next()
+			}
 
 
 		if ((tmpstr == "") || (tmpstr == "transporter"))
@@ -712,6 +1040,209 @@ classify_MotAfam_labels <- function(list_of_strings)
 			short_protname[i] = tmpstr
 			next()
 			}
+		if (grepl(pattern="transmembrane_protein/_transport", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "transport"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+
+		if (grepl(pattern="MotA:_;_proton_conductor_component_of_,_torque_generator", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "MotA"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="MotA;_membrane_protein;_signal_peptide", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "MotA"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="MotA;_membrane_protein", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "MotA"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="MotA_flagellar_stator_MotA", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "MotA"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="MotA_duplicate", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "MotA"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="MotA_\\(plasmid\\)", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "MotA"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="MotA_(MotA)", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "MotA"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="motA", x=tmpstr, ignore.case=FALSE) == TRUE)
+			{
+			tmpstr = "MotA"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="membrane_spanning_protein_in_TolA-TolQ-TolR_complex;_proton_channel_component", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "TolQ"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="membrane_spanning_protein_in_TolA-TolQ-TolR_complex", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "TolQ"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="inner_membrane_TolQ", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "TolQ"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="inner_membrane_protein", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "transport"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="Hypothetical_MotA_flagellar_transmembrane_protein", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "MotA"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+
+		if (grepl(pattern="flagellar_apparatus", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "MotA"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="flagellar_aparatus", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "MotA"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="ExbB\\TolQ_FAMILY", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "ExbB_TolQ"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="ExbB\\\\TolQ_family", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "ExbB_TolQ"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="ExbB_type-1", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "ExbB"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="ExbB_family_TolQ", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "ExbB_TolQ"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="enterochelin_transporter_(uptake)", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "transport_enterochelin"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="energy_transducer_TonB", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "ExbB_wTonB"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="endoflag", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "MotA"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+
+
+		if (grepl(pattern="colicin-tol", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "TolQ_colchicin"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+
+		if (grepl(pattern="Colicin_uptake_protein", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "TolQ_colchicin"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="\\(MotA\\)", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "MotA"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern=",_ExbB_family", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "ExbB"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (grepl(pattern="biopoly_transp-like_protein", x=tmpstr, ignore.case=TRUE) == TRUE)
+			{
+			tmpstr = "MotA"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+
+
 
 		
 		short_protname[i] = tmpstr
