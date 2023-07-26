@@ -1,0 +1,56 @@
+Merged the old and new AQB sequences in:
+(plus 4 genomes left out before)
+1208_seqs_merged.fasta
+
+# Align sequences to precalculated InterPro profile:
+
+cd /Users/nmat471/Downloads/iqtree_genomes_wLitLinks/
+
+hmmalign --amino --outformat stockholm -o 1208_seqs_merged.sto IPR002898_AQB.hmm 1208_seqs_merged.fasta | tee so1208.txt &
+
+
+# Convert to aligned clustal format
+esl-reformat --informat stockholm clustal 1208_seqs_merged.sto | tee 1208_seqs_merged.clustal
+
+# I cut obviously weak sequences, 1208 left
+1186|EGO62866.1
+0160|AEO48101.1
+0161|AEO48100.1
+0159|QTD49844.1
+0165|QDU31046.1
+0131|ACO34195.1
+0000|AEV97736.1
+0578|PKPEBJJI_00564
+
+# Align outside of 
+481-670
+1208_seqs_merged.fasta
+
+#################################################
+# Try a mafft regional re-alignment
+#################################################
+# https://mafft.cbrc.jp/alignment/software/regionalrealignment.html
+cd /Users/nmat471/Downloads/iqtree_genomes_wLitLinks/
+
+#ruby regionalrealignment.rb setting4_1208seqs.txt 1208_seqs_merged.clustal.fasta > 1208_seqs_merged_mafftMiddleConstrained2.fasta | tee 1208_seqs_merged_mafftMiddleConstrained2.txt &
+
+# Ruby regional alignment, then tree
+ruby regionalrealignment.rb setting4_1208seqs.txt 1208_seqs_merged.clustal.fasta > 1208_seqs_merged_mafftMiddleConstrained2.fasta
+iqtree -t BIONJ -s 1208_seqs_merged_mafftMiddleConstrained2.fasta -m LG+F+G --ufboot 1000 -bnni | tee 1208_seqs_merged_mafftMiddleConstrained2_so1.txt &
+
+
+
+
+# Manually cut to core alignment
+cd /Users/nmat471/Downloads/iqtree_genomes_wLitLinks 
+
+iqtree -t BIONJ -s 1208_seqs_hmmcore.fasta -m LG+F+G --ufboot 1000 -bnni | tee 1208_seqs_hmmcore_so1.txt &
+
+
+# Mafft, middle-constrained alignment
+cd /Users/nmat471/Downloads/iqtree_genomes_wLitLinks 
+
+iqtree -t BIONJ -s 1208_seqs_merged_mafftMiddleConstrained2.fasta -m LG+F+G --ufboot 1000 -bnni | tee 1208_seqs_merged_mafftMiddleConstrained2_so1.txt &
+
+
+
