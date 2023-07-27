@@ -1,0 +1,339 @@
+Merged the old and new AQB sequences in:
+(plus 4 genomes left out before)
+1208_seqs_merged.fasta
+
+# Align sequences to precalculated InterPro profile:
+
+cd ~/Downloads/iqtree_genomes_wLitLinks/
+
+hmmalign --amino --outformat stockholm -o 1208_seqs_merged.sto IPR002898_AQB.hmm 1208_seqs_merged.fasta | tee so1208.txt &
+
+
+# Convert to aligned clustal format
+esl-reformat --informat stockholm clustal 1208_seqs_merged.sto | tee 1208_seqs_merged.clustal
+
+# I cut obviously weak sequences, 1208 left
+1186|EGO62866.1
+0160|AEO48101.1
+0161|AEO48100.1
+0159|QTD49844.1
+0165|QDU31046.1
+0131|ACO34195.1
+0000|AEV97736.1
+0578|PKPEBJJI_00564
+
+# Align outside of 
+481-670
+1208_seqs_merged.fasta
+
+#################################################
+# Try a mafft regional re-alignment
+#################################################
+# https://mafft.cbrc.jp/alignment/software/regionalrealignment.html
+cd ~/Downloads/iqtree_genomes_wLitLinks/
+
+#ruby regionalrealignment.rb setting4_1208seqs.txt 1208_seqs_merged.clustal.fasta > 1208_seqs_merged_mafftMiddleConstrained2.fasta | tee 1208_seqs_merged_mafftMiddleConstrained2.txt &
+
+# Ruby regional alignment, then tree
+ruby regionalrealignment.rb setting4_1208seqs.txt 1208_seqs_merged.clustal.fasta > 1208_seqs_merged_mafftMiddleConstrained2.fasta
+iqtree -t BIONJ -s 1208_seqs_merged_mafftMiddleConstrained2.fasta -m LG+F+G --ufboot 1000 -bnni | tee 1208_seqs_merged_mafftMiddleConstrained2_so1.txt &
+
+
+
+
+# Manually cut to core alignment
+cd ~/Downloads/iqtree_genomes_wLitLinks 
+
+iqtree -t BIONJ -s 1208_seqs_hmmcore.fasta -m LG+F+G --ufboot 1000 -bnni | tee 1208_seqs_hmmcore_so1.txt &
+
+
+# Mafft, middle-constrained alignment
+cd ~/Downloads/iqtree_genomes_wLitLinks 
+
+iqtree -t BIONJ -s 1208_seqs_merged_mafftMiddleConstrained2.fasta -m LG+F+G --ufboot 1000 -bnni | tee 1208_seqs_merged_mafftMiddleConstrained2_so1.txt &
+
+
+
+
+
+#######################################################
+# Post-phylogeny processing
+#######################################################
+
+# Copy proteomes of flag1-5 to z_proteomes_wFns, and actually copy all to ~/Downloads/Full_genomes/genomes/
+cd ~/Downloads/z_genomes_wLitLinks/
+find ~/Downloads/Full_genomes/genomes/* -name "*protein.faa" 
+
+# Rename the annoying Verrucomicrobium prokka assemblies
+cd ~/Downloads/Full_genomes/genomes/
+mv PRJEB3868_Verrucomicrobium_sp_CAIZXV01 VER_PRJEB3868.0_CAIZXV01    
+mv PRJEB38681_Verrucomicrobium_sp_CAISZB01 VER_PRJEB38681.0_CAISZB01   
+
+
+cd ~/Downloads/Full_genomes/genomes/VER_PRJEB3868.0_CAIZXV01     
+
+# Test the renaming
+for f in PRJEB3868_Verrucomicrobium_sp_CAIZXV01*; do echo mv "$f" "${f/PRJEB3868_Verrucomicrobium_sp_CAIZXV01/VER_PRJEB3868.0_CAIZXV01}"; done
+
+# Do the renaming
+for f in PRJEB3868_Verrucomicrobium_sp_CAIZXV01*; do mv "$f" "${f/PRJEB3868_Verrucomicrobium_sp_CAIZXV01/VER_PRJEB3868.0_CAIZXV01}"; done
+
+cd ~/Downloads/Full_genomes/genomes/VER_PRJEB3868.0_CAIZXV01
+find . -type f -name "VER_PRJEB3868.0_CAIZXV01*" -print0 | xargs -0 sed -i '' -e 's/PRJEB3868_Verrucomicrobium_sp_CAIZXV01/VER_PRJEB3868.0_CAIZXV01/g'
+head VER_PRJEB3868.0_CAIZXV01_feature_table.txt
+
+
+cd ~/Downloads/Full_genomes/genomes/VER_PRJEB38681.0_CAISZB01
+ls
+
+# Test the renaming
+for f in PRJEB38681_Verrucomicrobium_sp_CAISZB01*; do echo mv "$f" "${f/PRJEB38681_Verrucomicrobium_sp_CAISZB01/VER_PRJEB38681.0_CAISZB01}"; done
+
+# Do the renaming
+for f in PRJEB38681_Verrucomicrobium_sp_CAISZB01*; do mv "$f" "${f/PRJEB38681_Verrucomicrobium_sp_CAISZB01/VER_PRJEB38681.0_CAISZB01}"; done
+
+cd ~/Downloads/Full_genomes/genomes/VER_PRJEB38681.0_CAISZB01
+find . -type f -name "VER_PRJEB38681.0_CAISZB01*" -print0 | xargs -0 sed -i '' -e 's/PRJEB38681_Verrucomicrobium_sp_CAISZB01/VER_PRJEB38681.0_CAISZB01/g'
+
+
+# Copy all protein files to "z_proteomes_wFns"
+cd ~/Downloads/Full_genomes/genomes/
+find ~/Downloads/Full_genomes/genomes/* -name "*protein.faa" -execdir cp '{}' ~/Downloads/z_proteomes_wFns \;
+cd ~/Downloads/z_proteomes_wFns 
+
+###########################################################
+# Add the filename to each protein (at the end)
+###########################################################
+
+# (adding filenames to the front)
+# cd ~/Downloads/z_proteomes_wFns 
+# for f in *.faa; do awk '/>/{sub(">","&"FILENAME"|");sub(/\.faa/,x)}1' "$f"; done > proteins_orig_plus_flag1-5_wFNs.fasta
+
+# Notes
+# perl -i -0777 -pe ' $x=$ARGV;$x=~s/\.faa//g; s/\>/>${x}_/ ' *faa
+# perl -p -i -e 's/^(>.*)/$1;/' mybacteria.fa
+# perl -p -i -e ' $x=$ARGV;$x=~s/\.faa//g; s/^(>.*)/$1|${x}/' *faa
+
+################
+# Adding "|filename" to the back of each fasta header
+################
+# Test it
+cd ~/Downloads/test 
+cp GCF_020827275.1_ASM2082727v1_protein.faa_orig GCF_020827275.1_ASM2082727v1_protein.faa
+cp GCA_000012365.1_ASM1236v1_protein.faa_orig GCA_000012365.1_ASM1236v1_protein.faa
+head *.faa
+tail *.faa
+
+perl -p -i -e ' $x=$ARGV;$x=~s/\.faa//g; s/^(>.*)/$1|${x}/' *faa
+
+head *.faa
+tail *.faa
+
+# Do it - add filenames to end of each fasta header
+cd ~/Downloads/z_proteomes_wFns
+perl -p -i -e ' $x=$ARGV;$x=~s/\.faa//g; s/^(>.*)/$1|${x}/' *faa
+head GCA_000020465.1_ASM2046v1_protein.faa
+
+
+# Create an SSI binary index for "genomes_wLitLinks.fasta"
+# (requires removal of any repeated GIDs; but very fast
+cd ~/Downloads/z_proteomes_wFns/
+
+# Cat everything to 1 file
+cat *faa > proteins_orig_plus_flag1-5_wFNs.fasta
+ls -la *.fasta
+
+# Remove duplicate entries: https://www.biostars.org/p/143617/
+# (takes 10 seconds)
+awk '/^>/{f=!d[$1];d[$1]=1}f' proteins_orig_plus_flag1-5_wFNs.fasta > proteins_orig_plus_flag1-5_wFNs_noDups.fasta
+mv proteins_orig_plus_flag1-5_wFNs_noDups.fasta proteins_orig_plus_flag1-5_wFNs.fasta
+
+more proteins_orig_plus_flag1-5_wFNs.fasta
+
+
+# Index for fast searching (requires there are no duplicate entries)
+esl-sfetch --index proteins_orig_plus_flag1-5_wFNs.fasta
+ls -la *.fast*
+
+
+
+
+
+
+# Extract proteins of interest from the massive "proteins_orig_plus_flag1-5_wFNs.fasta" file
+# ...that match "1208_seqs_hmmcore.fasta"
+
+# Change e.g. >0001|ABC1235.1 to >ABC1235.1
+# test
+cd ~/Downloads/test/
+cp short_orig.fasta short.fasta
+head short.fasta
+
+perl -i.bak -p -e 's/^(>\d+.\|)/>/' short.fasta
+
+head short.fasta
+
+# Change e.g. >0001|ABC1235.1 to >ABC1235.1
+cd ~/Downloads/z_proteomes_wFns/
+head ~/Downloads/iqtree_genomes_wLitLinks/1208_seqs_hmmcore.fasta 
+
+perl -i.bak -p -e 's/^(>\d+.\|)/>/' ~/Downloads/iqtree_genomes_wLitLinks/1208_seqs_hmmcore.fasta 
+
+head ~/Downloads/iqtree_genomes_wLitLinks/1208_seqs_hmmcore.fasta 
+
+
+# Remove any duplicates from sequences file "1208_seqs_hmmcore.fasta"
+awk '/^>/{f=!d[$1];d[$1]=1}f' ~/Downloads/iqtree_genomes_wLitLinks/1208_seqs_hmmcore.fasta > 1208_seqs_hmmcore_noDups.fasta
+cp 1208_seqs_hmmcore.fasta  1208_seqs_hmmcore.fas_bkup
+mv 1208_seqs_hmmcore_noDups.fasta  1208_seqs_hmmcore.fasta
+
+# Get all of the headers, without the starting ">"
+awk 'sub(/^>/, "")' 1208_seqs_hmmcore.fasta | wc -l
+
+awk 'sub(/^>/, "")' 1208_seqs_hmmcore.fasta | esl-sfetch -f proteins_orig_plus_flag1-5_wFNs.fasta - > AQBs_orig_plus_flag1-5_wFNs.fasta
+
+more AQBs_orig_plus_flag1-5_wFNs.fasta
+
+#######################################################
+# R code: extract these labels
+#######################################################
+# Setup
+library(ape)
+library(phytools)
+library(seqinr)				# for read.fasta
+library(BioGeoBEARS)	# for cls.df
+library(gdata)				# for trim
+library(stringr) 			# for regmatches
+library(seqinr) 			# for read.fasta
+library(openxlsx)			# for openxlsx::read.xlsx
+
+sourceall("/GitHub/bioinfRhints/Rsrc/") # for protein_bioinf_v1.R
+
+wd = "~/Downloads/z_proteomes_wFns/"
+setwd(wd)
+
+trfn = "1208_seqs_hmmcore.fasta.iqtree"
+seqsfn = "AQBs_orig_plus_flag1-5_wFNs.fasta"
+
+seqs = seqinr::read.fasta(seqsfn, seqtype="AA")
+fullnames = fullnames_from_readFasta(seqs)
+seq_gids = names(seqs)
+length(seq_gids)
+
+# Parse the info
+fns = rep("", times=length(fullnames))
+genome_id = rep("", times=length(fullnames))
+assembly_id = rep("", times=length(fullnames))
+gids = rep("", times=length(fullnames))
+desc = rep("", times=length(fullnames))
+taxon = rep("", times=length(fullnames))
+genus = rep("", times=length(fullnames))
+species = rep("", times=length(fullnames))
+strain = rep("", times=length(fullnames))
+
+fullnames2 = unname(fullnames)
+
+i = 1
+cat("\nProcessing ", length(fullnames2), " sequence names: ")
+for (i in 1:length(fullnames2))
+	{
+	cat(i, ",", sep="")
+	
+	# Extract the filename, from the end of the FASTA header
+	words = strsplit(x=fullnames2[i], split="\\|")[[1]]
+	fns[i] = words[length(words)]
+	
+	# Divide the filename into genome and assembly IDs
+	# Replace the first "_" with "|"
+	tmpword = fns[i]
+	tmpword = sub("GCF_", "GCF|", tmpword)
+	tmpword = sub("GCA_", "GCA|", tmpword)
+	tmpword = sub("VER_", "VER|", tmpword)
+	tmpword = sub("Verrucomicrobium_sp", "VerrucomicrobiumSp", tmpword)
+	
+	# Split on the remaining "_"
+	fns_words = strsplit(x=tmpword, split="\\_")[[1]]
+	genome_id[i] = fns_words[1]
+	genome_id[i] = sub("\\|", "_", genome_id[i])
+	genome_id[i] = sub("VerrucomicrobiumSp", "Verrucomicrobium_sp", genome_id[i])
+	assembly_id[i] = fns_words[2]
+
+	# Remove the filename from the end of the FASTA header
+	txt_to_remove = paste0("|", fns[i])
+	fullnames2[i] = gsub(pattern=txt_to_remove, replacement="", x=fullnames2[i])
+	words = strsplit(x=fullnames2[i], split="\\|")[[1]]
+	
+	rest = words[1]
+	gid_words = strsplit(x=rest, split=" ")[[1]]
+	gids[i] = gid_words[1]
+	string_to_strip = paste0(gids[i], " ")
+	remainder = gsub(pattern=string_to_strip, replacement="", x=fullnames2[i])
+	remainder
+
+	if (grepl(pattern="VER_", x=genome_id[i], ignore.case=FALSE) == TRUE)
+		{
+		remainder = paste0(remainder, " [Verrucomicrobium sp uncultured]")
+		}
+	if (grepl(pattern="Verrucomicrobium_sp", x=genome_id[i]) == TRUE)
+		{
+		remainder = paste0(remainder, " [Verrucomicrobium sp uncultured]")
+		}
+	if (grepl(pattern="VER_", x=genome_id[i]) == TRUE)
+		{
+		remainder = paste0(remainder, " [Verrucomicrobium sp uncultured]")
+		}
+	
+	remainder_words = strsplit(x=remainder, split="\\[")[[1]]
+	desc[i] = gdata::trim(remainder_words[1])
+	taxon[i] = gdata::trim(remainder_words[2])
+	taxon[i] = gdata::trim(gsub(pattern="\\]", replacement="", x=taxon[i]))
+	
+	taxon_words = strsplit(x=taxon[i], split=" ")[[1]]
+	genus[i] = taxon_words[1]
+	species[i] = taxon_words[2]
+	if (length(taxon_words) > 2)
+		{
+		strain[i] = paste(taxon_words[3:length(taxon_words)], sep="", collapse=" ")
+		}
+	}
+cat("...done.\n")
+
+translate_table = cbind(fullnames, fns, genome_id, assembly_id, gids, desc, taxon, genus, species, strain)
+translate_df = as.data.frame(translate_table, stringsAsFactors=FALSE)
+names(translate_df) = c("fullnames", "fns", "genome_id", "assembly_id", "gids", "desc", "taxon", "genus", "species", "strain")
+row.names(translate_df) = NULL
+head(translate_df)
+tail(translate_df)
+
+TF = grepl(pattern="VER", x=translate_df$fullnames)
+translate_df[TF,]
+
+TF = grepl(pattern="Chlam", x=translate_df$fullnames)
+translate_df[TF,]
+
+
+
+#######################################################
+# Save to table
+#######################################################
+outfn = "AQBs_orig+flag1-5_wLitLinks_table.txt"
+write.table(x=translate_df, file=outfn, quote=FALSE, sep="\t", row.names=FALSE, col.names=TRUE)
+
+# Hopefully no duplicates
+TF = translate_df$gids == "AEP30903.1"
+translate_df[TF,]
+
+
+
+
+cd ~/Downloads/z_proteomes_wFns
+cp AQBs_orig+flag1-5_wLitLinks_table.txt ~/Downloads/iqtree_genomes_wLitLinks/
+
+
+cd ~/Downloads/iqtree_genomes_wLitLinks/
+
+perl -i.bak -p -e 's/^(>\d+.\|)/>/' 1208_seqs_merged.clustal.fasta
+
+
+
+# Go to: /Users/nmat471/Downloads/iqtree_genomes_wLitLinks/_rename_reorder_seqs_v1.R

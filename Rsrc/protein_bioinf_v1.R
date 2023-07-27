@@ -523,12 +523,12 @@ classify_MotAfam_labels <- function(list_of_strings)
 		tmpstr = gdata::trim(tmpstr)
 		
 		# Any blank here is just a motor protein
-		if ((tmpstr == "") || (tmpstr == "protein"))
-			{
-			tmpstr = "motor"
-			short_protname[i] = tmpstr
-			next()
-			}
+#		if ((tmpstr == "") || (tmpstr == "protein"))
+#			{
+#			tmpstr = "motor"
+#			short_protname[i] = tmpstr
+#			next()
+#			}
 
 
 		if (grepl(pattern="TonB system transport component", x=tmpstr, ignore.case=TRUE) == TRUE)
@@ -762,12 +762,12 @@ classify_MotAfam_labels <- function(list_of_strings)
 			next()
 			}
 
-		if (grepl(pattern="", x=tmpstr, ignore.case=TRUE) == TRUE)
-			{
-			tmpstr = "MotA"
-			short_protname[i] = tmpstr
-			next()
-			}
+		#if (grepl(pattern="", x=tmpstr, ignore.case=TRUE) == TRUE)
+		#	{
+		#	tmpstr = "MotA"
+		#	short_protname[i] = tmpstr
+		#
+		#	}
 
 		if (grepl(pattern="Na+-coupled flagellar stator MotP", x=tmpstr, ignore.case=TRUE) == TRUE)
 			{
@@ -1014,7 +1014,9 @@ classify_MotAfam_labels <- function(list_of_strings)
 		tmpstr = gsub(pattern="  ", replacement=" ", x=tmpstr)
 		tmpstr = gsub(pattern="  ", replacement=" ", x=tmpstr)
 		tmpstr = gdata::trim(tmpstr)
-
+		
+		
+		# Switch to underscores required
 		tmpstr = gsub(pattern=" ", replacement="_", x=tmpstr)
 
 		tmpstr = gsub(pattern="MotA_MotA_component_of_the_H\\+coupled_stator_flagellum_complex", replacement="MotA", x=tmpstr)
@@ -1236,12 +1238,182 @@ classify_MotAfam_labels <- function(list_of_strings)
 
 		if (grepl(pattern="biopoly_transp-like_protein", x=tmpstr, ignore.case=TRUE) == TRUE)
 			{
-			tmpstr = "MotA"
+			tmpstr = "transport"
 			short_protname[i] = tmpstr
 			next()
 			}
 
 
+		tmpstr = gsub(pattern="MULTISPECIES:_", replacement="", x=tmpstr)
+
+		if (tmpstr == "")
+			{
+			tmpstr = "transp"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (tmpstr == "TonB_system_transport_component")
+			{
+			tmpstr = "TonB_transp"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (tmpstr == "TolQ|")
+			{
+			tmpstr = "TolQ"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (tmpstr == "Tol_protein")
+			{
+			tmpstr = "Tol_prot"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (tmpstr == "proton_conductor")
+			{
+			tmpstr = "proton_conduct"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (tmpstr == "ExbB_transport")
+			{
+			tmpstr = "ExbB"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (tmpstr == "TolQ")
+			{
+			tmpstr = "transp"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (tmpstr == "sodiumPolarMotA")
+			{
+			tmpstr = "MotA_Na_polar"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (tmpstr == "MotA|")
+			{
+			tmpstr = "MotA"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (tmpstr == "MotA-")
+			{
+			tmpstr = "MotA"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (tmpstr == "DUFx/ExbB_domain_protein")
+			{
+			tmpstr = "ExbB/DUFx"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (tmpstr == "uptake_of_enterochelin")
+			{
+			tmpstr = "enterochelin_uptake"
+			short_protname[i] = tmpstr
+			next()
+			}
+		if (tmpstr == "enterochelin_transporter_(uptake)")
+			{
+			tmpstr = "enterochelin_uptake"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+
+		if (tmpstr == "TolQ-transmembrane_prediction")
+			{
+			tmpstr = "TolQ"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (tmpstr == "tol_transport_systemTolQ")
+			{
+			tmpstr = "TolQ"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (tmpstr == "stator-force_generator_of_Na+_coupled_flagellar_PomA")
+			{
+			tmpstr = "PomA"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (tmpstr == "stator-force_generator_of_H+_coupled_flagellar_MotA")
+			{
+			tmpstr = "MotA"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (tmpstr == "Polar_sodium-driven_(_MotA)")
+			{
+			tmpstr = "MotA_Na_polar"
+			short_protname[i] = tmpstr
+			next()
+			}
+		if (tmpstr == "Flagellar_sodium-driven_component")
+			{
+			tmpstr = "MotA_Na"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (tmpstr == "Na+-coupled_flagellar_stator_MotP")
+			{
+			tmpstr = "MotP_Na"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (tmpstr == "")
+			{
+			tmpstr = "transp"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (tmpstr == "colicin_import_protein")
+			{
+			tmpstr = "colicin_import"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+		if (tmpstr == "")
+			{
+			tmpstr = "transp"
+			short_protname[i] = tmpstr
+			next()
+			}
+
+
+
+		if (tmpstr == "")
+			{
+			tmpstr = "transp"
+			short_protname[i] = tmpstr
+			next()
+			}
 
 
 		

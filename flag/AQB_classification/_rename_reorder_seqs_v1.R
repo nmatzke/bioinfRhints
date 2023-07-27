@@ -28,14 +28,15 @@ head(translate_df)
 tail(translate_df)
 
 # Alignment used for tree
-alnfn = "1214_seqs_merged_mafftMiddleConstrained2.fasta"
+#alnfn = "1208_seqs_merged.clustal.fasta"
+alnfn = "1208_seqs_hmmcore.fasta"
 aln = seqinr::read.fasta(alnfn, seqtype="AA")
 fullnames = fullnames_from_readFasta(aln)
 aln_gids = names(aln)
 for (i in 1:length(aln_gids))
 	{
-	words = strsplit(aln_gids[i], split="\\|")[[1]]
-	aln_gids[i] = words[2]
+	#words = strsplit(aln_gids[i], split="\\|")[[1]]
+	#aln_gids[i] = words[2]
 	}
 head(aln_gids)
 length(aln_gids)
@@ -60,7 +61,7 @@ aln_gids = aln_gids[nums_to_keep]
 
 
 # Tree
-trfn = "1214_seqs_merged_mafftMiddleConstrained2.fasta.treefile"
+trfn = "1208_seqs_hmmcore.fasta.treefile"
 tr = read.tree(trfn)
 tr2 = phytools::midpoint.root(tr)
 tr3 = ladderize(phy=tr2, right=TRUE)
@@ -98,6 +99,10 @@ head(translate_df3)
 
 short_desc3 = classify_MotAfam_labels(list_of_strings=translate_df3$desc)
 head(short_desc3)
+rev(sort(table(short_desc3)))
+
+
+cbind(short_desc3, translate_df3$desc)
 rev(sort(table(short_desc3)))
 
 
@@ -320,7 +325,7 @@ pdf(file=pdffn, width=18, height=96)
 ape::plot.phylo(ladderize(tr3_groupFirst, right=FALSE), cex=0.5)
 #plot.phylo(tr3_groupFirst, show.tip.label=FALSE)
 add.scale.bar()
-title("IQtree LG+G+F on 1187 MotA homologs, orig+flag1-5")
+title("IQtree LG+G+F on 1205 MotA homologs, orig+flag1-5")
 
 dev.off()
 cmdstr = paste0("open ", pdffn)
