@@ -259,9 +259,10 @@ for (i in 1:length(fullnames2))
 	assembly_id[i] = fns_words[2]
 
 	# Remove the filename from the end of the FASTA header
-	txt_to_remove = paste0("|", fns[i])
+	txt_to_remove = paste0("\\|", fns[i])
 	fullnames2[i] = gsub(pattern=txt_to_remove, replacement="", x=fullnames2[i])
 	words = strsplit(x=fullnames2[i], split="\\|")[[1]]
+	words
 	
 	rest = words[1]
 	gid_words = strsplit(x=rest, split=" ")[[1]]
@@ -332,7 +333,9 @@ cp AQBs_orig+flag1-5_wLitLinks_table.txt ~/Downloads/iqtree_genomes_wLitLinks/
 
 cd ~/Downloads/iqtree_genomes_wLitLinks/
 
+# Remove the >0001| at the beginning of the sequences
 perl -i.bak -p -e 's/^(>\d+.\|)/>/' 1208_seqs_merged.clustal.fasta
+perl -i.bak -p -e 's/^(>\d+.\|)/>/' 1208_seqs_merged_mafftMiddleConstrained2.fasta
 
 
 
