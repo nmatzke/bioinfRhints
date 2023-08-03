@@ -1,0 +1,206 @@
+
+cd ~/Downloads/z_genomes_wLitLinks_adding/
+
+# Unzip all of the protein files in a bunch of downloaded directories
+# https://stackoverflow.com/questions/32307136/unzip-files-in-subdirectories-bash
+
+# Find the protein zipfiles
+find ~/Downloads/z_genomes_wLitLinks_adding/GC* -name "*protein.faa.gz"
+
+
+
+# Find the files and unzip
+find ~/Downloads/z_genomes_wLitLinks_adding/GC* -name "*protein.faa.gz" -execdir gunzip '{}' \;
+
+# Move unzipped files to a new directory
+cd ~/Downloads/z_genomes_wLitLinks_adding/
+
+mkdir 2023-08-03_proteomes_new
+
+# Find the unzipped protein files & copy them to new directory
+cd ~/Downloads/z_genomes_wLitLinks_adding/
+
+find ~/Downloads/z_genomes_wLitLinks_adding/GC* -name "*protein.faa" -exec cp '{}' ./2023-08-03_proteomes_new \;
+
+cd ~/Downloads/z_genomes_wLitLinks_adding/2023-08-03_proteomes_new
+ls
+
+
+###########################################################
+# Add the filename to each protein (at the end)
+###########################################################
+
+# (adding filenames to the front)
+# cd ~/Downloads/z_proteomes_wFns 
+# for f in *.faa; do awk '/>/{sub(">","&"FILENAME"|");sub(/\.faa/,x)}1' "$f"; done > proteins_orig_plus_flag1-5_wFNs.fasta
+
+# Notes
+# perl -i -0777 -pe ' $x=$ARGV;$x=~s/\.faa//g; s/\>/>${x}_/ ' *faa
+# perl -p -i -e 's/^(>.*)/$1;/' mybacteria.fa
+# perl -p -i -e ' $x=$ARGV;$x=~s/\.faa//g; s/^(>.*)/$1|${x}/' *faa
+
+################
+# Adding "|filename" to the back of each fasta header
+################
+# Test it
+cd ~/Downloads/test 
+cp GCF_020827275.1_ASM2082727v1_protein.faa_orig GCF_020827275.1_ASM2082727v1_protein.faa
+cp GCA_000012365.1_ASM1236v1_protein.faa_orig GCA_000012365.1_ASM1236v1_protein.faa
+head *.faa
+tail *.faa
+
+perl -p -i -e ' $x=$ARGV;$x=~s/\.faa//g; s/^(>.*)/$1|${x}/' *faa
+
+head *.faa
+tail *.faa
+
+# Do it - add filenames to end of each fasta header
+cd ~/Downloads/z_genomes_wLitLinks_adding/2023-08-03_proteomes_new
+perl -p -i -e ' $x=$ARGV;$x=~s/\.faa//g; s/^(>.*)/$1|${x}/' *faa
+head *.faa
+
+#######################################################
+# Concatenate all the *.faa proteome files
+#######################################################
+# (find and cat them)
+# find ~/Downloads/z_genomes_wLitLinks_adding/GC* -name "*protein.faa" -execdir cat '{}' \; > genomes_wLitLinks.fasta
+cd ~/Downloads/z_genomes_wLitLinks_adding/2023-08-03_proteomes_new/
+ls
+
+find ~/Downloads/z_genomes_wLitLinks_adding/2023-08-03_proteomes_new/* -name "*protein.faa"
+find ~/Downloads/z_genomes_wLitLinks_adding/2023-08-03_proteomes_new/* -name "*protein.faa" -execdir cat '{}' \; > 22_added_genomes.fasta
+
+cd ~/Downloads/z_genomes_wLitLinks_adding/2023-08-03_proteomes_new/
+ls
+
+
+
+
+
+#######################################################
+# Find the homologs and pull them out
+#######################################################
+
+#hmmsearch --noali -A AQBs_wLitLinks_aln.sto --tblout AQBs_wLitLinks_seqHitsTable.txt motA_homologs_compSamp3_noHypotheticals.hmm genomes_wLitLinks.fasta | tee hmmsearch_screenoutput.txt &
+
+cd ~/Downloads/z_genomes_wLitLinks_adding/2023-08-03_proteomes_new/
+
+hmmsearch --noali -E 10.0 --incdomE 2.0 -A AQBs_22new_wLitLinks_aln.sto --tblout AQBs_22new_wLitLinks_seqHitsTable.txt motA_homologs_compSamp3_noHypotheticals.hmm 22_added_genomes.fasta | tee hmmsearch_22new_screenoutput.txt &
+
+cd ~/Downloads/z_genomes_wLitLinks_adding/2023-08-03_proteomes_new/
+esl-reformat --informat stockholm clustal AQBs_22new_wLitLinks_aln.sto | tee AQBs_22new_wLitLinks_aln.clustal
+
+cp AQBs_22new_wLitLinks_seqHitsTable.txt AQBs_22new_wLitLinks_seqHitsTable_cut_misses.txt
+open AQBs_22new_wLitLinks_seqHitsTable_cut_misses.txt
+
+# Extract the IDs from the hits table
+grep -v "^#" AQBs_22new_wLitLinks_seqHitsTable_cut_misses.txt | awk '{print $1}' > AQBs_22new_wLitLinks_seqHitsTable_IDs.txt
+sort AQBs_22new_wLitLinks_seqHitsTable_IDs.txt | wc -l
+
+# Show duplicates from hits table IDs
+awk 'x[$0]++' AQBs_22new_wLitLinks_seqHitsTable_IDs.txt
+
+# Show uniques from hits table IDs
+awk '!x[$0]++' AQBs_22new_wLitLinks_seqHitsTable_IDs.txt
+
+open AQBs_22new_wLitLinks_seqHitsTable_IDs.txt
+
+
+
+
+# Search, and extract proteins:
+# http://cryptogenomicon.org/extracting-hmmer-results-to-sequence-files-easel-miniapplications.html
+
+# Create an SSI binary index for "genomes_wLitLinks.fasta"
+# (requires removal of any repeated GIDs; but very fast
+esl-sfetch --index 22_added_genomes.fasta
+
+# Couldn't get to work, did manually
+#hmmsearch --tblout -E 0.31 AQBs_4new_wLitLinks_seqHitsTable.txt motA_homologs_compSamp3_noHypotheticals.hmm 4_added_genomes.fasta grep -v "^#" AQBs_4new_wLitLinks_seqHitsTable.txt | awk '{print $1}' | esl-sfetch -f 4_added_genomes.fasta - > AQBs_4new_wLitLinks_aln.fasta
+
+cd ~/Downloads/z_genomes_wLitLinks_adding/2023-08-03_proteomes_new/
+
+# list of IDs: AQBs_22new_wLitLinks_seqHitsTable_IDs.txt
+# list of sequences to choose from (indexed): 22_added_genomes.fasta
+esl-sfetch -f 22_added_genomes.fasta AQBs_22new_wLitLinks_seqHitsTable_IDs.txt > MotAs_new_2023-08-03.fasta
+open MotAs_new_2023-08-03.fasta
+
+# Count number of fasta headers
+grep -c ">" MotAs_new_2023-08-03.fasta
+
+# (all proteins, before last 22 genomes)
+# grep -c ">" ~/Downloads/z_proteomes_wFns/proteins_orig_plus_flag1-5_wFNs.fasta
+
+
+# Merge into larger fasta
+cat ~/Downloads/iqtree_genomes_wLitLinks/1208_seqs_merged.fasta MotAs_new_2023-08-03.fasta > temp.fasta
+grep -c ">" temp.fasta
+
+cat ~/Downloads/iqtree_genomes_wLitLinks/1208_seqs_merged.fasta MotAs_new_2023-08-03.fasta > 1292_seqs_merged.fasta
+grep -c ">" 1292_seqs_merged.fasta
+
+
+# Remove duplicates
+awk '/^>/{f=!d[$1];d[$1]=1}f' 1292_seqs_merged.fasta > noDups.fasta
+grep -c ">" noDups.fasta
+
+awk '/^>/{f=!d[$1];d[$1]=1}f' 1292_seqs_merged.fasta > 1283_AQBs_noDups.fasta
+
+cp 1283_AQBs_noDups.fasta 1283_AQBs.fasta
+cp 1283_AQBs.fasta ~/Downloads/iqtree_genomes_wLitLinks/
+
+
+# Align sequences
+# Align sequences to precalculated InterPro profile:
+
+cd ~/Downloads/iqtree_genomes_wLitLinks/
+hmmalign --amino --outformat stockholm -o 1283_AQBs_aln.sto IPR002898_AQB.hmm 1283_AQBs.fasta | tee 1283_AQBs_so.txt &
+
+esl-reformat --informat stockholm clustal 1283_AQBs_aln.sto | tee 1283_AQBs_aln.clustal
+
+
+
+
+
+
+
+# Re-align edges around core:
+1283_AQBs_aln.fasta
+
+# Preserve
+523-651
+
+open setting4_1283seqs.txt
+
+
+#################################################
+# Try a mafft regional re-alignment
+#################################################
+# https://mafft.cbrc.jp/alignment/software/regionalrealignment.html
+cd ~/Downloads/iqtree_genomes_wLitLinks/
+
+#ruby regionalrealignment.rb setting4_1283_AQBs_aln.txt 1283_AQBs_aln.fasta > 1283_AQBs_mafftMiddleConstrained2.fasta | tee 1283_AQBs_mafftMiddleConstrained2_so1.txt &
+
+# Ruby regional alignment, then tree
+ruby regionalrealignment.rb setting4_1283seqs.txt 1283_AQBs_aln.fasta > 1283_AQBs_mafftMiddleConstrained2.fasta
+
+######################################################
+# IQtree on Mafft, middle-constrained alignment
+######################################################
+cd ~/Downloads/iqtree_genomes_wLitLinks 
+
+iqtree -t BIONJ -s 1283_AQBs_mafftMiddleConstrained2.fasta -m LG+F+G --ufboot 1000 -bnni | tee 1283_AQBs_mafftMiddleConstrained2_so1.txt &
+
+
+
+
+######################################################
+# IQtree on manually cut to HMM core alignment
+######################################################
+cd ~/Downloads/iqtree_genomes_wLitLinks 
+
+iqtree -t BIONJ -s 1283_AQBs_hmmcore.fasta -m LG+F+G --ufboot 1000 -bnni | tee 1283_AQBs_hmmcore_so1.txt &
+
+
+
+
