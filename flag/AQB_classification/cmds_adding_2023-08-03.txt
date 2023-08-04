@@ -204,3 +204,691 @@ iqtree -t BIONJ -s 1283_AQBs_hmmcore.fasta -m LG+F+G --ufboot 1000 -bnni | tee 1
 
 
 
+
+
+
+
+
+#######################################################
+# Make a translation table, from a FASTA file where the .faa filename is attached to each sequence header
+#######################################################
+
+# Move the genome names from the front, to the back, of the FASTA headers
+# Setup
+library(ape)
+library(phytools)
+library(seqinr)				# for read.fasta
+library(BioGeoBEARS)	# for cls.df
+library(gdata)				# for trim
+library(stringr) 			# for regmatches
+library(seqinr) 			# for read.fasta
+library(openxlsx)			# for openxlsx::read.xlsx
+
+wd = "~/Downloads/iqtree_genomes_wLitLinks/"
+setwd(wd)
+
+
+#seqsfn = "AQBs_orig+flag1-5_wLitLinks.fasta" # missing:
+# WP_015872117.1 WP_036768516.1 CBG33586.1 CBG36124.1 WP_011369302.1 WP_011368050.1 WP_011366583.1 WP_027181145.1
+# WP_051363918.1 WP_084976614.1 CBG34882.1 WP_015870803.1 WP_010862954.1 CBG33120.1 WP_010861725.1 WP_011367497.1 
+# WP_011369264.1 WP_010864309.1
+# PomA [Plesiomonas]
+# colicin import protein [Escherichia coli 042]
+# Tol-Pal system protein TolQ [Edwardsiella ictaluri]
+
+seqsfn = "~/Downloads/z_proteomes_wFns/AQBs_orig_plus_flag1-5_wFNs.fasta"
+
+tmplines = readLines(seqsfn)
+for (i in 1:length(tmplines))
+	{
+	if (startsWith(x=tmplines[i], prefix=">") == TRUE)
+		{
+		tmpline = sub(pattern=">", replacement="", x=tmplines[i])
+		words = strsplit(tmpline, split="\\|")[[1]]
+		filename = words[1]
+		txt_to_remove = paste0(filename, "\\|")
+		
+		tmpline = sub(pattern=txt_to_remove, replacement="", x=tmpline)
+		tmpline = paste0(">", tmpline, "|", filename)
+		tmplines[i] = tmpline
+		}
+	}
+
+outfn = gsub(pattern=".fasta", replacement="_fnLast.fasta", x=seqsfn)
+writeLines(text=tmplines, con=outfn)
+moref(outfn)
+
+
+cd ~/Downloads/iqtree_genomes_wLitLinks/
+cp ~/Downloads/z_proteomes_wFns/AQBs_orig_plus_flag1-5_wFNs_fnLast.fasta AQBs_orig_plus_flag1-5_wFNs_fnLast.fasta
+
+
+# Relabel Verrucomicrobium
+cd ~/Downloads/iqtree_genomes_wLitLinks/
+
+sed 's/PRJEB3868_Verrucomicrobium_sp_CAIZXV01/VER_PRJEB3868.0_CAIZXV01/g' AQBs_orig_plus_flag1-5_wFNs_fnLast.fasta > AQBs_orig_plus_flag1-5_wFNs_VERfixed_fnLast.fasta
+
+sed 's/PRJEB38681_Verrucomicrobium_sp_CAISZB01/VER_PRJEB38681.0_CAISZB01/g' AQBs_orig_plus_flag1-5_wFNs_VERfixed_fnLast.fasta > AQBs_orig_plus_flag1-5_wFNs_VERfixed_fnLast2.fasta
+open AQBs_orig_plus_flag1-5_wFNs_VERfixed_fnLast2.fasta
+
+# Merge in the new sequences
+more ~/Downloads/z_genomes_wLitLinks_adding/2023-08-03_proteomes_new/MotAs_new_2023-08-03.fasta
+grep -c ">" AQBs_orig_plus_flag1-5_wFNs_VERfixed_fnLast2.fasta
+grep -c ">" ~/Downloads/z_genomes_wLitLinks_adding/2023-08-03_proteomes_new/MotAs_new_2023-08-03.fasta
+
+# COMBINE 3 FILES TO GET ALL
+cat AQBs_orig+flag1-5_fnLast_VERfixed_wLitLinks2.fasta AQBs_orig_plus_flag1-5_wFNs_VERfixed_fnLast2.fasta ~/Downloads/z_genomes_wLitLinks_adding/2023-08-03_proteomes_new/MotAs_new_2023-08-03.fasta > seqs.fasta
+grep -c ">" seqs.fasta
+
+# Remove duplicates
+awk '/^>/{f=!d[$1];d[$1]=1}f' seqs.fasta > noDups.fasta
+grep -c ">" noDups.fasta
+cp noDups.fasta 1444seqs.fasta
+
+
+head 1444seqs.fasta
+tail 1444seqs.fasta
+grep -c ">" 1444seqs.fasta
+
+
+
+
+#######################################################
+# R code: extract these labels
+#######################################################
+# Setup
+library(ape)
+library(phytools)
+library(seqinr)				# for read.fasta
+library(BioGeoBEARS)	# for cls.df
+library(gdata)				# for trim
+library(stringr) 			# for regmatches
+library(seqinr) 			# for read.fasta
+library(openxlsx)			# for openxlsx::read.xlsx
+
+sourceall("/GitHub/bioinfRhints/Rsrc/") # for protein_bioinf_v1.R
+
+wd = "~/Downloads/iqtree_genomes_wLitLinks/"
+setwd(wd)
+
+seqsfn = "1444seqs.fasta"
+
+seqs = seqinr::read.fasta(seqsfn, seqtype="AA")
+fullnames = fullnames_from_readFasta(seqs)
+seq_gids = names(seqs)
+length(seq_gids)
+
+# Parse the info
+fns = rep("", times=length(fullnames))
+genome_id = rep("", times=length(fullnames))
+assembly_id = rep("", times=length(fullnames))
+gids = rep("", times=length(fullnames))
+desc = rep("", times=length(fullnames))
+taxon = rep("", times=length(fullnames))
+genus = rep("", times=length(fullnames))
+species = rep("", times=length(fullnames))
+strain = rep("", times=length(fullnames))
+
+fullnames2 = unname(fullnames)
+
+i = 1
+cat("\nProcessing ", length(fullnames2), " sequence names: ")
+for (i in 1:length(fullnames2))
+	{
+	cat(i, ",", sep="")
+	words = strsplit(x=fullnames2[i], split="\\|")[[1]]
+	fns[i] = words[length(words)]
+	
+	tmpword = sub("_", "|", fns[i])
+	tmpword = sub("Verrucomicrobium_sp", "VerrucomicrobiumSp", tmpword)
+	
+	fns_words = strsplit(x=tmpword, split="\\_")[[1]]
+	genome_id[i] = fns_words[1]
+	genome_id[i] = sub("\\|", "_", genome_id[i])
+	genome_id[i] = sub("VerrucomicrobiumSp", "Verrucomicrobium_sp", genome_id[i])
+	assembly_id[i] = fns_words[2]
+	
+	rest = words[1]
+	gid_words = strsplit(x=rest, split=" ")[[1]]
+	gids[i] = gid_words[1]
+	string_to_strip = paste0("\\|", fns[i])
+	remainder = gsub(pattern=string_to_strip, replacement="", x=fullnames2[i])
+	remainder
+	
+	if (grepl(pattern="Verrucomicrobium_sp", x=genome_id[i]) == TRUE)
+		{
+		remainder = paste0(remainder, " [Verrucomicrobium sp uncultured]")
+		}
+	
+	remainder_words = strsplit(x=remainder, split="\\[")[[1]]
+	desc[i] = gdata::trim(remainder_words[1])
+	taxon[i] = gdata::trim(remainder_words[2])
+	taxon[i] = gdata::trim(gsub(pattern="\\]", replacement="", x=taxon[i]))
+	
+	taxon_words = strsplit(x=taxon[i], split=" ")[[1]]
+	genus[i] = taxon_words[1]
+	species[i] = taxon_words[2]
+	if (length(taxon_words) > 2)
+		{
+		strain[i] = paste(taxon_words[3:length(taxon_words)], sep="", collapse=" ")
+		}
+	}
+cat("...done.\n")
+
+translate_table = cbind(fullnames, fns, genome_id, assembly_id, gids, desc, taxon, genus, species, strain)
+translate_df = as.data.frame(translate_table, stringsAsFactors=FALSE)
+names(translate_df) = c("fullnames", "fns", "genome_id", "assembly_id", "gids", "desc", "taxon", "genus", "species", "strain")
+row.names(translate_df) = NULL
+head(translate_df)
+tail(translate_df)
+
+TF = grepl(pattern="Verruco", x=translate_df$fullnames)
+translate_df[TF,]
+
+TF = grepl(pattern="Chlam", x=translate_df$fullnames)
+translate_df[TF,]
+
+
+
+#######################################################
+# Save to table
+#######################################################
+outfn = "1444seqs_table.txt"
+write.table(x=translate_df, file=outfn, quote=FALSE, sep="\t", row.names=FALSE, col.names=TRUE)
+
+# Hopefully no duplicates
+TF = translate_df$gids == "AEP30903.1"
+translate_df[TF,]
+
+head(translate_df)
+
+
+
+
+#######################################################
+# Match to old Excel file
+#######################################################
+library(ape)
+library(phytools)
+library(seqinr)				# for read.fasta
+library(BioGeoBEARS)	# for cls.df
+library(gdata)				# for trim
+library(stringr) 			# for regmatches
+library(seqinr) 			# for read.fasta
+library(openxlsx)			# for openxlsx::read.xlsx
+
+sourceall("/GitHub/bioinfRhints/Rsrc/") # for protein_bioinf_v1.R
+
+wd = "~/Downloads/iqtree_genomes_wLitLinks/"
+setwd(wd)
+
+xlsfn = "species_list_10071623_NJMg.xlsx"
+xls = openxlsx::read.xlsx(xlsfn)
+head(xls)
+
+dtf_fn = outfn
+dtf = read.table(file=dtf_fn, header=TRUE, quote="", sep="\t", strip.white=TRUE, fill=TRUE)
+head(dtf)
+tail(dtf)
+
+# HMMcore tree in tip-order
+trfn = "1283_AQBs_hmmcore_reRoot.newick"
+tr = read.tree(trfn)
+tipnames = tr$tip.label
+tipnames = gsub(pattern="'", replacement="", x=tipnames)
+head(tipnames)
+tail(tipnames)
+
+rows_in_dtf_to_match_tipnames = match(x=tipnames, table=dtf$gids)
+
+TF=is.na(rows_in_dtf_to_match_tipnames)
+sum(TF)
+tipnames[TF]
+
+head(cbind(tipnames, dtf[rows_in_dtf_to_match_tipnames,]))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#######################################################
+# Setup
+library(ape)
+library(phytools)
+library(seqinr)				# for read.fasta
+library(BioGeoBEARS)	# for cls.df
+library(gdata)				# for trim
+library(stringr) 			# for regmatches
+library(seqinr) 			# for read.fasta
+library(openxlsx)			# for openxlsx::read.xlsx
+
+sourceall("/GitHub/bioinfRhints/Rsrc/") # for protein_bioinf_v1.R
+
+wd = "~/Downloads/iqtree_genomes_wLitLinks/"
+setwd(wd)
+
+
+
+#######################################################
+# Read translation table
+# generated at: ~/Downloads/z_genomes_wLitLinks_processing/_cmds_unzip_cat_HMMER_v1.txt
+#######################################################
+infn = dtf_fn
+translate_df = read.table(file=infn, header=TRUE, sep="\t", stringsAsFactors=FALSE, fill=TRUE)
+head(translate_df)
+tail(translate_df)
+
+# Alignment used for tree
+#alnfn = "1208_seqs_merged.clustal.fasta"
+alnfn = "1208_seqs_merged_mafftMiddleConstrained2.fasta"
+aln = seqinr::read.fasta(alnfn, seqtype="AA")
+fullnames = fullnames_from_readFasta(aln)
+aln_gids = names(aln)
+for (i in 1:length(aln_gids))
+	{
+	#words = strsplit(aln_gids[i], split="\\|")[[1]]
+	#aln_gids[i] = words[2]
+	}
+head(aln_gids)
+length(aln_gids)
+length(unique(aln_gids))
+head(rev(sort(table(aln_gids))))
+duplicate_gids = names(rev(sort(table(aln_gids))))[rev(sort(table(aln_gids))) > 1]
+duplicate_gids
+
+nums_to_drop = rep(0, times=length(duplicate_gids))
+for (i in 1:length(duplicate_gids))
+	{
+	TF = aln_gids == duplicate_gids[i]
+	nums = (1:length(aln_gids))[TF]
+	nums_to_drop[i] = nums[2]
+	}
+nums_to_keep_TF = ((1:length(aln_gids)) %in% nums_to_drop) == FALSE
+nums_to_keep = (1:length(aln_gids))[nums_to_keep_TF]
+length(nums_to_keep)
+
+aln = aln[nums_to_keep]
+aln_gids = aln_gids[nums_to_keep]
+
+
+# Tree
+trfn = "1208_seqs_merged_mafftMiddleConstrained2.fasta.treefile"
+tr = read.tree(trfn)
+tr2 = phytools::midpoint.root(tr)
+tr3 = ladderize(phy=tr2, right=TRUE)
+tr3 = read.tree(file="", text=write.tree(tr3, file=""))
+plot(tr3, show.tip.label=FALSE)
+tr3
+
+
+# Parse tip labels
+tipnames = tr3$tip.label
+head(tipnames)
+tipnames3 = tipnames
+
+for (i in 1:length(tipnames))
+	{
+	words = strsplit(x=tipnames[i], split="\\|")[[1]]
+	tipnames3[i] = words[2]
+	}
+
+tipnames3
+
+
+# Match to table
+matches1 = match(x=tipnames3, table=translate_df$gids)
+matches2 = match(x=translate_df$gids, table=tipnames3)
+TF = is.na(matches1)
+sum(TF)
+
+
+# Put the seqs into tr3 tip order
+head(tipnames3)
+head(translate_df$gids[matches1])
+translate_df3 = translate_df[matches1,]
+head(translate_df3)
+
+short_desc3 = classify_MotAfam_labels(list_of_strings=translate_df3$desc)
+head(short_desc3)
+rev(sort(table(short_desc3)))
+
+
+# Check the match
+cbind(short_desc3, translate_df3$desc)
+
+translate_df4 = as.data.frame(cbind(short_desc3, translate_df3), stringsAsFactors=FALSE)
+head(translate_df4)
+rev(sort(table(short_desc3)))
+
+
+#######################################################
+# Rename seqs and tree tips in new files
+#######################################################
+xlsfn = "species_list_10071623_NJMg.xlsx"
+xls = openxlsx::read.xlsx(xlsfn)
+
+# Naming group & by previous paper
+rev(sort(table(xls$group)))
+
+TF = xls$group == "Alpha"
+xls$group[TF] = "Alpha_FB21"
+
+TF = xls$group == "Alpha1"
+xls$group[TF] = "Alpha1_LO7"
+
+TF = xls$group == "Alpha2"
+xls$group[TF] = "Alpha2_LO7"
+
+TF = xls$group == "Beta"
+xls$group[TF] = "Beta_FB21"
+
+TF = xls$group == "Delta"
+xls$group[TF] = "Delta_FB21"
+
+TF = xls$group == "Epsilon"
+xls$group[TF] = "Epsilon_FB21"
+
+TF = xls$group == "Gamma"
+xls$group[TF] = "Gamma_FB21"
+
+TF = xls$group == "non-enteric Gamma"
+xls$group[TF] = "nonEntGamma_L07"
+
+TF = xls$group == "enteric Gamma"
+xls$group[TF] = "EntGamma_L07"
+
+TF = xls$group == "non-labeled"
+xls$group[TF] = "nonLab_FB21"
+
+# Gamma by taxonomy
+groupTax = rep("", times=nrow(xls))
+TF = grepl(pattern="Alpha", x=xls$Class); sum(TF)
+groupTax[TF] = "Alpha"
+TF = grepl(pattern="Beta", x=xls$Class); sum(TF)
+groupTax[TF] = "Beta"
+TF = grepl(pattern="Delta", x=xls$Class); sum(TF)
+groupTax[TF] = "Delta"
+TF = grepl(pattern="Gamma", x=xls$Class); sum(TF)
+groupTax[TF] = "Gamma"
+TF1 = grepl(pattern="Entero", x=xls$Order); sum(TF1)
+TF2 = grepl(pattern="Gamma", x=xls$Class); sum(TF2)
+TF = (TF1 + TF2) == 2; sum(TF)
+groupTax[TF] = "Entero"
+TF = grepl(pattern="Epsilon", x=xls$Class); sum(TF)
+groupTax[TF] = "Epsilon"
+TF = grepl(pattern="Zeta", x=xls$Class); sum(TF)
+groupTax[TF] = "Zeta"
+
+unassigned_TF = groupTax == ""
+groupTax[unassigned_TF] = xls$Phylum[unassigned_TF]
+groupTax = gsub(pattern="Candidatus ", replacement="", x=groupTax, ignore.case=FALSE)
+groupTax = gsub(pattern="\\(CPR\\)", replacement="", x=groupTax, ignore.case=FALSE)
+groupTax = gsub(pattern="Desulfobacterota_I", replacement="Desulfobacterota", x=groupTax, ignore.case=FALSE)
+groupTax = gsub(pattern="Thermodesulfobacteriota", replacement="Desulfobacterota", x=groupTax, ignore.case=FALSE)
+groupTax = gsub(pattern="Deinococcota", replacement="Deinococcus-Thermus", x=groupTax, ignore.case=FALSE)
+groupTax = gsub(pattern="Firmicutes_C", replacement="Firmicutes", x=groupTax, ignore.case=FALSE)
+groupTax = gsub(pattern="Patesci group", replacement="Patesci", x=groupTax, ignore.case=FALSE)
+groupTax = gsub(pattern="Spirochaetota", replacement="Spirochaetes", x=groupTax, ignore.case=FALSE)
+groupTax = gsub(pattern="bacteria", replacement="", x=groupTax, ignore.case=FALSE)
+groupTax = gsub(pattern="bacteriota", replacement="", x=groupTax, ignore.case=FALSE)
+groupTax = gsub(pattern="bacterota", replacement="", x=groupTax, ignore.case=FALSE)
+
+groupTax = gsub(pattern="  ", replacement=" ", x=groupTax)
+groupTax = gsub(pattern="  ", replacement=" ", x=groupTax)
+groupTax = gdata::trim(groupTax)
+table(groupTax)
+rev(sort(table(groupTax)))
+
+table(xls$group)
+rev(sort(table(xls$group)))
+
+# Primary and secondary systems
+PrimSec = rep("", times=nrow(xls))
+TF = stringr::str_ends(string=xls$spname_in_lit, pattern=" 1_2"); sum(TF, na.rm=TRUE)
+PrimSec[TF] = "1_2_FB21"
+
+
+#TF = stringr::str_ends(string=xls$spname_in_lit, pattern=" 1"); sum(TF, na.rm=TRUE)
+#PrimSec[TF] = "1_FB21"
+
+#TF = stringr::str_ends(string=xls$spname_in_lit, pattern="Shewanella oneidensis MR 1")
+#PrimSec[TF] = ""
+
+#TF = stringr::str_ends(string=xls$spname_in_lit, pattern=" 2"); sum(TF, na.rm=TRUE)
+#PrimSec[TF] = "2_FB21"
+
+# Flag-1, 2, 3a, 3b, 4, 5
+entflag = rep("", times=nrow(xls))
+
+xls$"flag-1"[is.na(xls$"flag-1")] = ""
+TF1 = ((xls$"flag-1" != "-") + (xls$"flag-1" != "")) == 2
+
+xls$"flag-2"[is.na(xls$"flag-2")] = ""
+TF2 = ((xls$"flag-2" != "-") + (xls$"flag-2" != "")) == 2
+
+xls$"flag-3a"[is.na(xls$"flag-3a")] = ""
+TF3a = ((xls$"flag-3a" != "-") + (xls$"flag-3a" != "")) == 2
+
+xls$"flag-3b"[is.na(xls$"flag-3b")] = ""
+TF3b = ((xls$"flag-3b" != "-") + (xls$"flag-3b" != "")) == 2
+
+xls$"flag-4"[is.na(xls$"flag-4")] = ""
+TF4 = ((xls$"flag-4" != "-") + (xls$"flag-4" != "")) == 2
+
+xls$"flag-5"[is.na(xls$"flag-5")] = ""
+TF5 = ((xls$"flag-5" != "-") + (xls$"flag-5" != "")) == 2
+
+entflag_matrix = matrix(data=c("1","2","3a","3b","4","5"), nrow=nrow(xls), ncol=6, byrow=TRUE)
+head(entflag_matrix)
+entflag_matrix[,1][TF1==FALSE] = ""
+entflag_matrix[,2][TF2==FALSE] = ""
+entflag_matrix[,3][TF3a==FALSE] = ""
+entflag_matrix[,4][TF3b==FALSE] = ""
+entflag_matrix[,5][TF4==FALSE] = ""
+entflag_matrix[,6][TF5==FALSE] = ""
+head(entflag_matrix)
+entflag_matrix[TF1,]
+# Convert to text
+entflag = c(apply(X=entflag_matrix, MARGIN=c(1), FUN=paste0, collapse=""))
+entflag[entflag != ""]
+
+
+PrimSec_entflag_matrix = cbind(PrimSec, entflag_matrix)
+PrimSec_entflag = c(apply(X=PrimSec_entflag_matrix, MARGIN=c(1), FUN=paste0, collapse=""))
+PrimSec_entflag[PrimSec_entflag != ""]
+
+xls2 = cbind(xls, PrimSec_entflag, groupTax)
+
+
+# Rename the tipnames
+length(tipnames3)
+dim(translate_df3)
+length(short_desc3)
+
+# Get genome name for each tip
+head(tipnames3)
+
+matches_to_xls1 = match(x=translate_df3$genome_id, table=xls2$GenBank.ID)
+sum(is.na(matches_to_xls1))
+
+# You get NAs when the genome ID doesn't match, due to GCF vs GCA
+not_matching_nums = (1:length(translate_df3$genome_id))[is.na(matches_to_xls1)]
+
+matches_to_xls2 = match(x=translate_df3$genome_id[not_matching_nums], table=xls2$RefSeq)
+sum(is.na(matches_to_xls2))
+
+# Substitute in the GCF matches
+matches_to_xls1[is.na(matches_to_xls1)] = matches_to_xls2
+
+
+translate_df3$genome_id[is.na(matches_to_xls1)]
+translate_df3[is.na(matches_to_xls1),] # All match
+
+head(translate_df3$genome_id)
+head(xls2$GenBank.ID[matches_to_xls1])
+
+
+rev(sort(table(xls2$groupTax)))
+rev(sort(table(xls2$group)))
+tipnames3_new = paste0(xls2$groupTax[matches_to_xls1], "|", xls2$group[matches_to_xls1], "|", xls2$PrimSec_entflag[matches_to_xls1], "|", tipnames3, "|", short_desc3, " [", translate_df3$taxon, "]")
+
+min(str_count(string=tipnames3_new, pattern="\\|"))
+max(str_count(string=tipnames3_new, pattern="\\|"))
+
+tipnames3_new = gsub(pattern="\\|NA\\|", replacement="|_|", x=tipnames3_new)
+tipnames3_new = gsub(pattern="\\|\\|", replacement="|_|", x=tipnames3_new)
+
+sum(grepl(pattern="=", x=tipnames3_new))
+sum(grepl(pattern=";", x=tipnames3_new))
+sum(grepl(pattern=",", x=tipnames3_new))
+
+tipnames3_new = gsub(pattern=" = ", replacement="eq", x=tipnames3_new)
+tipnames3_new = gsub(pattern="=", replacement="eq", x=tipnames3_new)
+tipnames3_new = paste0("'", tipnames3_new, "'")
+
+head(tipnames3_new)
+sum(grepl(pattern="=", x=tipnames3_new))
+sum(grepl(pattern=";", x=tipnames3_new))
+sum(grepl(pattern=",", x=tipnames3_new))
+
+
+
+
+#######################################################
+# Check for duplicate tips
+#######################################################
+tipnames_that_are_duplicated = names(rev(sort(table(tipnames3_new))))
+TF = rev(sort(table(tipnames3_new))) > 1
+tipnames_that_are_duplicated = tipnames_that_are_duplicated[TF]
+tipnames_that_are_duplicated
+
+tipnums_to_drop = rep(0, length(tipnames_that_are_duplicated))
+for (i in 1:length(tipnames_that_are_duplicated))
+	{
+	TF = tipnames3_new %in% tipnames_that_are_duplicated[i]
+	tipnums_to_drop[i] = (1:length(tipnames3_new))[TF][2]
+	}
+tipnums_to_drop
+
+tr3_uniq = drop.tip(tr3, tip=tipnums_to_drop)
+tipnames3_new_uniq = tipnames3_new[-tipnums_to_drop]
+tipnames3_uniq = tipnames3[-tipnums_to_drop]
+
+tr3_groupFirst = tr3_uniq
+tr3_groupFirst$tip.label = tipnames3_new_uniq
+
+length(tipnames3_new_uniq)
+length(unique(tipnames3_new_uniq))
+
+
+TF = grepl(pattern="NA\\|", x=tipnames3_new_uniq)
+tipnames3_new_uniq[TF]
+
+# Reshuffle alignment
+prefix = "groupTax_"
+prefix2 = "groupTaxRev_"
+
+outtrfn = paste0(prefix, trfn)
+write.tree(phy=tr3_groupFirst, file=outtrfn)
+
+
+pdffn = paste0(prefix, trfn, ".pdf")
+pdf(file=pdffn, width=18, height=96)
+
+ape::plot.phylo(ladderize(tr3_groupFirst, right=FALSE), cex=0.5)
+#plot.phylo(tr3_groupFirst, show.tip.label=FALSE)
+add.scale.bar()
+title("IQtree LG+G+F on 1205 MotA homologs, orig+flag1-5")
+
+dev.off()
+cmdstr = paste0("open ", pdffn)
+system(cmdstr)
+
+
+
+
+match_aln_to_tipnames3 = match(x=tipnames3_uniq, table=aln_gids)
+head(tipnames3_uniq)
+head(aln_gids[match_aln_to_tipnames3])
+
+
+
+aln3 = aln[match_aln_to_tipnames3]
+head(names(aln3))
+head(tipnames3_uniq)
+head(tipnames3_new_uniq)
+
+
+
+names(aln3) = aln_gids[match_aln_to_tipnames3]
+outalnfn = paste0(prefix, alnfn)
+seqinr::write.fasta(sequences=aln3, names=tipnames3_new_uniq, file.out=outalnfn)
+outalnfn = paste0(prefix2, alnfn)
+seqinr::write.fasta(sequences=rev(aln3), names=rev(tipnames3_new_uniq), file.out=outalnfn)
+
+
+
+#######################################################
+# Output the tip-ordered names to a table, along with full information
+#######################################################
+# Subset xls2 to xls3, to match tipnames3_uniq
+# (favouring the later entries in the table)
+xls2b = xls2[rev(1:nrow(xls2)),]
+
+# Match to translation table
+matches1 = match(x=tipnames3_uniq, table=translate_df4$gids)
+matches2 = match(x=translate_df4$gids, table=tipnames3)
+TF = is.na(matches1)
+sum(TF)
+
+tipOrdered_table_tmp = cbind(tipnames3_uniq, tipnames3_new_uniq, translate_df4[matches1,])
+head(tipOrdered_table)
+
+matches_to_xls2a = match(x=tipOrdered_table_tmp$genome_id, table=xls2b$GenBank.ID)
+sum(is.na(matches_to_xls2a))
+
+# Match to genome table
+# You get NAs when the genome ID doesn't match, due to GCF vs GCA
+not_matching_nums = (1:length(tipOrdered_table_tmp$genome_id))[is.na(matches_to_xls2a)]
+
+matches_to_xls2b = match(x=tipOrdered_table_tmp$genome_id[not_matching_nums], table=xls2b$RefSeq)
+sum(is.na(matches_to_xls2b))
+
+# Substitute in the GCF matches
+matches_to_xls2a[is.na(matches_to_xls2a)] = matches_to_xls2b
+sum(is.na(matches_to_xls2a))
+
+xls4 = xls2b[matches_to_xls2a,]
+
+
+tipOrdered_table = cbind(tipnames3_uniq, tipnames3_new_uniq, translate_df4[matches1,], xls4)
+head(tipOrdered_table)
+
+tipOrdered_table$tipnames3_new_uniq = gsub(pattern="'", replacement="", x=tipOrdered_table$tipnames3_new_uniq)
+
+tmpfn = strsplit(trfn, split="\\.")[[1]][1]
+outxlsfn = paste0(prefix, tmpfn, "_v1.xlsx")
+outxlsfn
+openxlsx::write.xlsx(x=tipOrdered_table, file=outxlsfn)
+
+
+
+
+
+
+
+
+
+
+
