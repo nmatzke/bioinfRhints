@@ -12,24 +12,32 @@ library(openxlsx)			# for openxlsx::read.xlsx
 
 sourceall("/GitHub/bioinfRhints/Rsrc/") # for protein_bioinf_v1.R
 
-wd = "~/Downloads/iqtree_genomes_wLitLinks/"
+#wd = "~/Downloads/iqtree_genomes_wLitLinks/"
+wd = "~/GitHub/bioinfRhints/flag/AQB_classification/"
 setwd(wd)
-
 
 
 #######################################################
 # Read translation table
 # generated at: ~/Downloads/z_genomes_wLitLinks_processing/_cmds_unzip_cat_HMMER_v1.txt
 #######################################################
-translation_seqsfn = "AQBs_orig+flag1-5_wLitLinks.fasta"
-infn = "AQBs_orig+flag1-5_wLitLinks_table.txt"
+translation_seqsfn = "1444seqs.fasta"
+infn = "1444seqs_table.txt"
 translate_df = read.table(file=infn, header=TRUE, sep="\t", stringsAsFactors=FALSE, fill=TRUE)
 head(translate_df)
 tail(translate_df)
 
+# Remove gids from desc
+for (i in 1:nrow(translate_df))
+	{
+	text_to_remove = paste0(translate_df$gids[i], " ")
+	translate_df$desc[i] = gsub(pattern=text_to_remove, replacement="", x=translate_df$desc[i])
+	}
+head(translate_df$desc)
+
 # Alignment used for tree
 #alnfn = "1208_seqs_merged.clustal.fasta"
-alnfn = "1208_seqs_hmmcore.fasta"
+alnfn = "1283_AQBs.fasta"
 aln = seqinr::read.fasta(alnfn, seqtype="AA")
 fullnames = fullnames_from_readFasta(aln)
 aln_gids = names(aln)
@@ -61,7 +69,7 @@ aln_gids = aln_gids[nums_to_keep]
 
 
 # Tree
-trfn = "1208_seqs_hmmcore.fasta.treefile"
+trfn = "1283_AQBs_hmmcore2_ABY96489div100_midroot.newick"
 tr = read.tree(trfn)
 tr2 = phytools::midpoint.root(tr)
 tr3 = ladderize(phy=tr2, right=TRUE)
@@ -73,15 +81,18 @@ tr3
 # Parse tip labels
 tipnames = tr3$tip.label
 head(tipnames)
+tipnames = gsub(pattern="'", replacement="", x=tipnames)
 tipnames3 = tipnames
 
 for (i in 1:length(tipnames))
 	{
 	words = strsplit(x=tipnames[i], split="\\|")[[1]]
-	tipnames3[i] = words[2]
+	tipnames3[i] = words[1]
 	}
 
-tipnames3
+head(tipnames3)
+tail(tipnames3)
+
 
 
 # Match to table
@@ -101,10 +112,10 @@ short_desc3 = classify_MotAfam_labels(list_of_strings=translate_df3$desc)
 head(short_desc3)
 rev(sort(table(short_desc3)))
 
-
 cbind(short_desc3, translate_df3$desc)
 rev(sort(table(short_desc3)))
 
+translate_df3 = cbind(translate_df3, short_desc3)
 
 #######################################################
 # Rename seqs and tree tips in new files
@@ -242,7 +253,7 @@ PrimSec_entflag_matrix = cbind(PrimSec, entflag_matrix)
 PrimSec_entflag = c(apply(X=PrimSec_entflag_matrix, MARGIN=c(1), FUN=paste0, collapse=""))
 PrimSec_entflag[PrimSec_entflag != ""]
 
-xls2 = cbind(xls, PrimSec_entflag, groupTax)
+species_xls2 = cbind(xls, PrimSec_entflag, groupTax)
 
 
 # Rename the tipnames
@@ -253,17 +264,26 @@ length(short_desc3)
 # Get genome name for each tip
 head(tipnames3)
 
-matches_to_xls1 = match(x=translate_df3$genome_id, table=xls2$GenBank.ID)
+# GenBank genome matches
+matches_to_xls1 = match(x=translate_df3$genome_id, table=species_xls2$GenBank.ID)
 sum(is.na(matches_to_xls1))
+translate_df3[is.na(matches_to_xls1),]
+
+# RefSeq genome matches
+matches_to_species_xls2 = match(x=translate_df3$genome_id[is.na(matches_to_xls1)], table=species_xls2$RefSeq)
+matches_to_species_xls2
+
+matches_to_xls1[is.na(matches_to_xls1)] = matches_to_species_xls2
 translate_df3[is.na(matches_to_xls1),] # All match
 
+
 head(translate_df3$genome_id)
-head(xls2$GenBank.ID[matches_to_xls1])
+head(species_xls2$GenBank.ID[matches_to_xls1])
 
 
-rev(sort(table(xls2$groupTax)))
-rev(sort(table(xls2$group)))
-tipnames3_new = paste0(xls2$groupTax[matches_to_xls1], "|", xls2$group[matches_to_xls1], "|", xls2$PrimSec_entflag[matches_to_xls1], "|", tipnames3, "|", short_desc3, " [", translate_df3$taxon, "]")
+rev(sort(table(species_xls2$groupTax)))
+rev(sort(table(species_xls2$group)))
+tipnames3_new = paste0(species_xls2$groupTax[matches_to_xls1], "|", species_xls2$group[matches_to_xls1], "|", species_xls2$PrimSec_entflag[matches_to_xls1], "|", tipnames3, "|", short_desc3, " [", translate_df3$taxon, "]")
 tipnames3_new = gsub(pattern="\\|NA\\|", replacement="|_|", x=tipnames3_new)
 
 sum(grepl(pattern="=", x=tipnames3_new))
@@ -299,10 +319,16 @@ for (i in 1:length(tipnames_that_are_duplicated))
 	}
 tipnums_to_drop
 
-tr3_uniq = drop.tip(tr3, tip=tipnums_to_drop)
-tipnames3_new_uniq = tipnames3_new[-tipnums_to_drop]
-tipnames3_uniq = tipnames3[-tipnums_to_drop]
-
+if (!is.na(tipnums_to_drop) == TRUE)
+	{
+	tr3_uniq = drop.tip(tr3, tip=tipnums_to_drop)
+	tipnames3_new_uniq = tipnames3_new[-tipnums_to_drop]
+	tipnames3_uniq = tipnames3[-tipnums_to_drop]
+	} else {
+	tr3_uniq = tr3
+	tipnames3_new_uniq = tipnames3_new
+	tipnames3_uniq = tipnames3
+	}
 tr3_groupFirst = tr3_uniq
 tr3_groupFirst$tip.label = tipnames3_new_uniq
 
@@ -325,7 +351,7 @@ pdf(file=pdffn, width=18, height=96)
 ape::plot.phylo(ladderize(tr3_groupFirst, right=FALSE), cex=0.5)
 #plot.phylo(tr3_groupFirst, show.tip.label=FALSE)
 add.scale.bar()
-title("IQtree LG+G+F on 1205 MotA homologs, orig+flag1-5")
+title("IQtree LG+G+F on 1282 MotA homologs, orig+flag1-5")
 
 dev.off()
 cmdstr = paste0("open ", pdffn)
@@ -353,3 +379,66 @@ seqinr::write.fasta(sequences=aln3, names=tipnames3_new_uniq, file.out=outalnfn)
 outalnfn = paste0(prefix2, alnfn)
 seqinr::write.fasta(sequences=rev(aln3), names=rev(tipnames3_new_uniq), file.out=outalnfn)
 
+
+
+
+#######################################################
+# Open Excel file in tip order, confer matching rows to new tree
+#######################################################
+tipnames_xlsfn = "groupTax_1208_seqs_merged_mafftMiddleConstrained2_v1_2023-07-31.xlsx"
+tipnames_df = openxlsx::read.xlsx(tipnames_xlsfn)
+head(tipnames_df)
+
+convert_xlsx_to_tipnames3 = match(x=tipnames3_uniq, table=tipnames_df$tipnames3_uniq)
+head(tipnames3_uniq)
+head(tipnames_df$tipnames3_uniq[convert_xlsx_to_tipnames3])
+sum(is.na(convert_xlsx_to_tipnames3))
+xlsnew = tipnames_df[convert_xlsx_to_tipnames3,]
+
+# Insert the info you have for the new tipnames
+convert_translate_df3_to_tipnames3 = match(x=tipnames3_uniq, table=translate_df3$gids)
+sum(is.na(convert_translate_df3_to_tipnames3))
+
+head(cbind(tipnames3_uniq, translate_df3$gids[convert_translate_df3_to_tipnames3]))
+
+header_names = names(translate_df3)
+for (i in 1:length(header_names))
+	{
+	txt = paste0("xlsnew$", header_names[i], " = translate_df3$", header_names[i], "[convert_translate_df3_to_tipnames3]")
+	eval(parse(text=txt))
+	}
+head(xlsnew)	
+xlsnew[12,]
+
+newTF = is.na(xlsnew$tipnames3_uniq)
+sum(newTF)
+new = rep("", times=nrow(xlsnew))
+new[newTF] = "y"
+xlsnew$tipnames3_uniq = tipnames3_uniq
+xlsnew$tipnames3_new_uniq = tipnames3_new_uniq
+
+# Add the "new" column
+xlsnew = cbind(new, xlsnew)
+
+# Fill in the genome parts of the "new" rows
+matches1 = match(x=xlsnew$genome_id[newTF], table=species_xls2$GenBank.ID)
+matches2 = match(x=xlsnew$genome_id[newTF][is.na(matches1)], table=species_xls2$RefSeq)
+matches1[is.na(matches1)] = matches2
+matches1
+
+header_names = names(species_xls2)
+for (i in 1:length(header_names))
+	{
+	txt = paste0("xlsnew$'", header_names[i], "'[newTF] = species_xls2$'", header_names[i], "'[matches1]")
+	eval(parse(text=txt))
+	}
+
+
+
+# Write to file
+out_tipnames_xlsfn = "groupTax_1282_hmmcore_2023-08-05.xlsx"
+openxlsx::write.xlsx(x=xlsnew, file=out_tipnames_xlsfn)
+#out_tipnames_xlsfn = "groupTax_1282_hmmcore_2023-08-05_WORKED.xlsx"
+#openxlsx::write.xlsx(x=xlsnew, file=out_tipnames_xlsfn)
+
+system(paste0("open ", out_tipnames_xlsfn))

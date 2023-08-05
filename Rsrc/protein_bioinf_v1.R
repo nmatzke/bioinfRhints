@@ -1246,13 +1246,6 @@ classify_MotAfam_labels <- function(list_of_strings)
 
 		tmpstr = gsub(pattern="MULTISPECIES:_", replacement="", x=tmpstr)
 
-		if (tmpstr == "")
-			{
-			tmpstr = "transp"
-			short_protname[i] = tmpstr
-			next()
-			}
-
 		if (tmpstr == "TonB_system_transport_component")
 			{
 			tmpstr = "TonB_transp"
@@ -1288,12 +1281,6 @@ classify_MotAfam_labels <- function(list_of_strings)
 			next()
 			}
 
-		if (tmpstr == "TolQ")
-			{
-			tmpstr = "transp"
-			short_protname[i] = tmpstr
-			next()
-			}
 
 		if (tmpstr == "sodiumPolarMotA")
 			{
@@ -1385,23 +1372,10 @@ classify_MotAfam_labels <- function(list_of_strings)
 			next()
 			}
 
-		if (tmpstr == "")
-			{
-			tmpstr = "transp"
-			short_protname[i] = tmpstr
-			next()
-			}
 
 		if (tmpstr == "colicin_import_protein")
 			{
 			tmpstr = "colicin_import"
-			short_protname[i] = tmpstr
-			next()
-			}
-
-		if (tmpstr == "")
-			{
-			tmpstr = "transp"
 			short_protname[i] = tmpstr
 			next()
 			}
