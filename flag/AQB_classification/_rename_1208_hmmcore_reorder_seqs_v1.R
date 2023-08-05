@@ -18,9 +18,30 @@ setwd(wd)
 
 
 #######################################################
+# Open the PowerSource notes
+#######################################################
+wd = "~/GitHub/bioinfRhints/flag/AQB_classification/powerSource/"
+setwd(wd)
+
+powerSource_fn = "powerSource_notes_was_flag_OTUs_v3.xlsx"
+powerSource_df = openxlsx::read.xlsx(xlsxFile=powerSource_fn, sheet="powerSource2023")
+head(powerSource_df)
+
+keepTF = !is.na(powerSource_df$MotA_tr_tipname)
+powerSource_df[!keepTF,]
+
+powerSource_df = powerSource_df[keepTF,]
+head(powerSource_df[,1:15])
+tail(powerSource_df[,1:15])
+
+
+#######################################################
 # Read translation table
 # generated at: ~/Downloads/z_genomes_wLitLinks_processing/_cmds_unzip_cat_HMMER_v1.txt
 #######################################################
+wd = "~/GitHub/bioinfRhints/flag/AQB_classification/"
+setwd(wd)
+
 translation_seqsfn = "1444seqs.fasta"
 infn = "1444seqs_table.txt"
 translate_df = read.table(file=infn, header=TRUE, sep="\t", stringsAsFactors=FALSE, fill=TRUE)
@@ -442,3 +463,14 @@ openxlsx::write.xlsx(x=xlsnew, file=out_tipnames_xlsfn)
 #openxlsx::write.xlsx(x=xlsnew, file=out_tipnames_xlsfn)
 
 system(paste0("open ", out_tipnames_xlsfn))
+
+
+
+
+
+
+
+
+
+
+
