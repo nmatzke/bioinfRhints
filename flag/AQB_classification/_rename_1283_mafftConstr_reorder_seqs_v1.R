@@ -356,7 +356,14 @@ head(species_xls2$GenBank.ID[matches_to_xls1])
 
 rev(sort(table(species_xls2$groupTax)))
 rev(sort(table(species_xls2$group)))
-tipnames3_new = paste0(species_xls2$groupTax[matches_to_xls1], "|", species_xls2$group[matches_to_xls1], "|", species_xls2$PrimSec_entflag[matches_to_xls1], "|", tipnames3, "|", short_desc3, " [", translate_df3$taxon, "]")
+
+# Experimental powersource in name
+head(powerSource_df[,1:15])
+powerSource_into_tipnames = match(x=tipnames3, table=powerSource_df$MotA_tr_tipname)
+head(tipnames3)
+expPower = powerSource$MotA_tr_tipname[powerSource_into_tipnames]
+
+tipnames3_new = paste0(species_xls2$groupTax[matches_to_xls1], "|", expPower, "|sp", species_xls2$group[matches_to_xls1], "|", species_xls2$PrimSec_entflag[matches_to_xls1], "|", tipnames3, "|", short_desc3, " [", translate_df3$taxon, "]")
 tipnames3_new = gsub(pattern="\\|NA\\|", replacement="|_|", x=tipnames3_new)
 
 sum(grepl(pattern="=", x=tipnames3_new))
@@ -486,8 +493,13 @@ seqinr::write.fasta(sequences=aln3, names=tipnames3_new_uniq, file.out=outalnfn)
 outalnfn = paste0(prefix2, alnfn)
 seqinr::write.fasta(sequences=rev(aln3), names=rev(tipnames3_new_uniq), file.out=outalnfn)
 
-
-
+# Lengths of each sequence (non-gapped)
+num_aas <- function(seq)
+	{
+	sum(seq != "-")
+	}
+len = sapply(X=aln3, FUN=num_aas)
+hist(len)
 
 #######################################################
 # Open Excel file in tip order, confer matching rows to new tree
@@ -546,7 +558,7 @@ for (i in 1:length(header_names))
 	}
 
 
-# Add the literature power sourc info
+# Add the literature power source info
 head(powerSource_df[,1:15])
 tail(powerSource_df[,1:15])
 
@@ -567,12 +579,15 @@ xlsnew$gids[xls_to_powerSource_df_matches]
 litPower = rep(NA, times=nrow(xlsnew))
 litPower[xls_to_powerSource_df_matches] = litPower_entries
 
-# Split in litPower column
+# Length of each protein
+
+
+# Split table, insert litPower & length columns
 cols_start1 = 1
 cols_end1 = (1:ncol(xlsnew))[names(xlsnew) == "lat_polar"]
 cols_start2 = (1:ncol(xlsnew))[names(xlsnew) == "tipnames3_uniq"]
 cols_end2 = ncol(xlsnew)
-xlsnew = cbind(xlsnew[,cols_start1:cols_end1], litPower, xlsnew[,cols_start2:cols_end2])
+xlsnew = cbind(xlsnew[,cols_start1:cols_end1], len, litPower, xlsnew[,cols_start2:cols_end2])
 
 
 # Write to file
