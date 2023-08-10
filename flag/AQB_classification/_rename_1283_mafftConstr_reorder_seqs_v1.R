@@ -361,7 +361,7 @@ rev(sort(table(species_xls2$group)))
 head(powerSource_df[,1:15])
 powerSource_into_tipnames = match(x=tipnames3, table=powerSource_df$MotA_tr_tipname)
 head(tipnames3)
-expPower = powerSource$MotA_tr_tipname[powerSource_into_tipnames]
+expPower = powerSource_df$powerSource[powerSource_into_tipnames]
 
 tipnames3_new = paste0(species_xls2$groupTax[matches_to_xls1], "|", expPower, "|sp", species_xls2$group[matches_to_xls1], "|", species_xls2$PrimSec_entflag[matches_to_xls1], "|", tipnames3, "|", short_desc3, " [", translate_df3$taxon, "]")
 tipnames3_new = gsub(pattern="\\|NA\\|", replacement="|_|", x=tipnames3_new)
@@ -604,6 +604,99 @@ system(paste0("open ", out_tipnames_xlsfn))
 
 
 
+#######################################################
+# MAKE A BIG PLOT
+#######################################################
+edited_tipinfo_xlsfn = "groupTax_1282_mafftConstr_2023-08-07_edit.xlsx"
+xlsnew = openxlsx::read.xlsx(edited_tipinfo_xlsfn)
+
+
+tr_to_plot = ladderize(tr3_groupFirst, right=FALSE)
+tree_age = get_max_height_tree(tr_to_plot)
+ntips = length(tr_to_plot$tip.label)
+
+pdffn = paste0(prefix, trfn, ".pdf")
+pdf(file=pdffn, width=18, height=96)
+
+#nf <- layout(layout_boxes)
+#layout.show(nf)
+#points(x=1:10, y=1:10, pch="*", cex=10)
+#points(x=1:10, y=1:10, pch="*", cex=10)
+
+ape::plot.phylo(tr_to_plot, cex=0.4, show.tip.label=TRUE, label.offset=4, align.tip.label=TRUE)
+#plot.phylo(tr3_groupFirst, show.tip.label=FALSE)
+#add.scale.bar()
+#title("IQtree LG+G+F on 1283 MotA homologs, orig+flag1-5+litLinks etc., mafft-constrained")
+
+points(x=tree_age+0, y=ntips)
+points(x=tree_age+1, y=ntips)
+points(x=tree_age+2, y=ntips)
+points(x=tree_age+3, y=ntips)
+points(x=tree_age+4, y=ntips)
+
+# Plot data
+xlsnums = 1:nrow(xlsnew)
+
+# Plot power source
+xval = 0.1
+tipnums = xlsnums[!is.na(xlsnew$litPower)]
+ys = ntips - tipnums
+xs = rep(tree_age+xval, times=length(tipnums))
+labs = xlsnew$litPower[tipnums]
+labs = gsub(pattern="H+_hi_pH_N+", replacement="H>pH>Na", x=labs)
+labs = gsub(pattern="\\+", replacement="", x=labs)
+labs = gsub(pattern="PROB", replacement="?", x=labs)
+labs = gsub(pattern="maybe", replacement="?", x=labs)
+labs = gsub(pattern="suggested", replacement="?", x=labs)
+labs = gsub(pattern=" or ", replacement="/", x=labs)
+cols = rep("gray50", times=length(tipnums))
+cols[labs=="H"] = "yellow3"
+cols[labs=="H?"] = "yellow3"
+cols[labs=="H/Na"] = "orange2"
+cols[labs=="Na/H"] = "orange2"
+cols[labs=="Na"] = "red"
+cols[labs=="Na?"] = "red"
+cols[labs=="Na/K"] = "purple"
+cols[labs=="Mg2Ca2St2"] = "purple"
+text(xs, ys, labels=labs, col=cols, cex=0.65)
+
+
+# Plot motor type
+xval = 0.6
+tipnums = xlsnums[!is.na(xlsnew$"flag1-5")]
+ys = ntips - tipnums
+xs = rep(tree_age+xval, times=length(tipnums))
+labs = xlsnew$"flag1-5"[tipnums]
+cols = rep("gray50", times=length(tipnums))
+cols[labs=="ExbB"] = "pink"
+cols[labs=="TolQ"] = "grey"
+cols[grepl(pattern="Agl", x=labs)] = "green2"
+cols[grepl(pattern="glide", x=labs)] = "green2"
+cols[labs=="MotC"] = "darkblue"
+cols[labs=="F5"] = "darkblue"
+cols[labs=="MotP"] = "purple"
+cols[labs=="PomA"] = "red3"
+cols[labs=="F1"] = "coral"
+cols[labs=="F2"] = "green"
+cols[labs=="F3a"] = "lightblue"
+cols[labs=="F3b"] = "blue"
+cols[labs=="F4"] = "darkolivegreen"
+#cols[labs=="F5"] = "pink"
+text(xs, ys, labels=labs, col=cols, cex=0.65)
+
+
+# Make transparent boxes
+key = "TolQ"
+tipnums = xlsnums[xlsnew$L1 == key]
+ybottom = ntips - max(tipnums)
+ytop = ntips - min(tipnums)
+xleft = 0
+xright = tree_age
+rect(xleft, ybottom, xright, ytop, col="grey")
+
+dev.off()
+cmdstr = paste0("open ", pdffn)
+system(cmdstr)
 
 
 
