@@ -615,6 +615,20 @@ tr_to_plot = ladderize(tr3_groupFirst, right=FALSE)
 tree_age = get_max_height_tree(tr_to_plot)
 ntips = length(tr_to_plot$tip.label)
 
+
+internal_nodenums = (length(tr_to_plot$tip.label)+1):(length(tr_to_plot$tip.label)+tr_to_plot$Nnode)
+new_trtable_to_plot = prt(tr_to_plot)
+edge_beneath_each_node = new_trtable_to_plot$parent_br[internal_nodenums]
+#nodelabels(text=tr3_groupFirst$node.label, node=internal_nodenums)
+
+#plot.phylo(tr3_groupFirst, show.tip.label=FALSE)
+
+
+
+
+
+
+# Plot with labels and boxes
 pdffn = paste0(prefix, trfn, ".pdf")
 pdf(file=pdffn, width=18, height=96)
 
@@ -624,9 +638,12 @@ pdf(file=pdffn, width=18, height=96)
 #points(x=1:10, y=1:10, pch="*", cex=10)
 
 ape::plot.phylo(tr_to_plot, cex=0.4, show.tip.label=TRUE, label.offset=4, align.tip.label=TRUE)
-#plot.phylo(tr3_groupFirst, show.tip.label=FALSE)
-#add.scale.bar()
-#title("IQtree LG+G+F on 1283 MotA homologs, orig+flag1-5+litLinks etc., mafft-constrained")
+
+add.scale.bar()
+title("IQtree LG+G+F on 1282 MotA homologs, orig+flag1-5+litLinks etc., mafft-constrained")
+
+edgelabels(text=tr_to_plot$node.label, edge=edge_beneath_each_node, frame="none", bg="none", adj=c(0.5,0.0), cex=0.5)
+
 
 points(x=tree_age+0, y=ntips)
 points(x=tree_age+1, y=ntips)
@@ -681,18 +698,109 @@ cols[labs=="F2"] = "green"
 cols[labs=="F3a"] = "lightblue"
 cols[labs=="F3b"] = "blue"
 cols[labs=="F4"] = "darkolivegreen"
+cols[grepl(pattern="lateral", x=labs)] = "yellow3"
 #cols[labs=="F5"] = "pink"
 text(xs, ys, labels=labs, col=cols, cex=0.65)
 
 
 # Make transparent boxes
+fraction_treeheight_to_left = 0.1
+xleft_orig = 0.0
+xleft = xleft_orig - (fraction_treeheight_to_left * tree_age)
+xleft_group_label = xleft_orig - (3/5*fraction_treeheight_to_left * tree_age)
+xright = tree_age
+
+
 key = "TolQ"
 tipnums = xlsnums[xlsnew$L1 == key]
-ybottom = ntips - max(tipnums)
-ytop = ntips - min(tipnums)
-xleft = 0
-xright = tree_age
-rect(xleft, ybottom, xright, ytop, col="grey")
+ybottom = ntips - max(tipnums, na.rm=TRUE) + 0.5
+ytop = ntips - min(tipnums, na.rm=TRUE) + 1.5
+
+tmpcol = col2rgb(cols[labs==key])[,1]
+color = rgb(red=tmpcol["red"], green=tmpcol["green"], blue=tmpcol["blue"], alpha=100, maxColorValue=255)
+rect(xleft, ybottom, xright, ytop, col=color)
+
+text(x=xleft_group_label, y=mean(c(ytop, ybottom)), label=key, srt=90, pos=NULL, cex=2, col=cols[labs==key])
+
+
+key = "ExbB"
+tipnums = xlsnums[xlsnew$L1 == key]
+ybottom = ntips - max(tipnums, na.rm=TRUE) + 0.5
+ytop = ntips - min(tipnums, na.rm=TRUE) + 1.5
+
+tmpcol = col2rgb(cols[labs==key])[,1]
+color = rgb(red=tmpcol["red"], green=tmpcol["green"], blue=tmpcol["blue"], alpha=100, maxColorValue=255)
+rect(xleft, ybottom, xright, ytop, col=color)
+
+text(x=xleft_group_label, y=mean(c(ytop, ybottom)), label=key, srt=90, pos=NULL, cex=2, col=)
+
+
+
+key = "PomA"
+tipnums = xlsnums[xlsnew$L2 == key]
+ybottom = ntips - max(tipnums, na.rm=TRUE) + 0.5
+ytop = ntips - min(tipnums, na.rm=TRUE) + 1.5
+
+tmpcol = col2rgb(cols[labs==key])[,1]
+color = rgb(red=tmpcol["red"], green=tmpcol["green"], blue=tmpcol["blue"], alpha=100, maxColorValue=255)
+rect(xleft, ybottom, xright, ytop, col=color)
+
+text(x=xleft_group_label, y=mean(c(ytop, ybottom)), label=key, srt=90, pos=NULL, cex=2, col=cols[labs==key])
+
+
+
+key = "Bacillus_alkaline_MotP"
+tipnums = xlsnums[xlsnew$L2 == key]
+ybottom = ntips - max(tipnums, na.rm=TRUE) + 0.5
+ytop = ntips - min(tipnums, na.rm=TRUE) + 1.5
+
+tmpcol = col2rgb("blue")[,1]
+color = rgb(red=tmpcol["red"], green=tmpcol["green"], blue=tmpcol["blue"], alpha=100, maxColorValue=255)
+rect(xleft, ybottom, xright, ytop, col=color)
+
+text(x=xleft_group_label, y=mean(c(ytop, ybottom)), label=key, srt=90, pos=NULL, cex=2, col=cols[labs==key])
+
+
+
+
+key = "MotC"
+tipnums = xlsnums[xlsnew$L2 == key]
+ybottom = ntips - max(tipnums, na.rm=TRUE) + 0.5
+ytop = ntips - min(tipnums, na.rm=TRUE) + 1.5
+
+tmpcol = col2rgb(cols[labs==key])[,1]
+color = rgb(red=tmpcol["red"], green=tmpcol["green"], blue=tmpcol["blue"], alpha=100, maxColorValue=255)
+rect(xleft, ybottom, xright, ytop, col=color)
+
+text(x=xleft_group_label, y=mean(c(ytop, ybottom)), label=key, srt=90, pos=NULL, cex=2, col=cols[labs==key])
+
+
+key = "AglR"
+tipnums = xlsnums[xlsnew$L2 == key]
+ybottom = ntips - max(tipnums, na.rm=TRUE) + 0.5
+ytop = ntips - min(tipnums, na.rm=TRUE) + 1.5
+
+tmpcol = col2rgb(cols[labs==key])[,1]
+color = rgb(red=tmpcol["red"], green=tmpcol["green"], blue=tmpcol["blue"], alpha=100, maxColorValue=255)
+rect(xleft, ybottom, xright, ytop, col=color)
+
+text(x=xleft_group_label, y=mean(c(ytop, ybottom)), label=key, srt=90, pos=NULL, cex=2, col=cols[labs==key])
+
+
+key = "LafT"
+tipnums = xlsnums[xlsnew$L3 == key]
+ybottom = ntips - max(tipnums, na.rm=TRUE) + 0.5
+ytop = ntips - min(tipnums, na.rm=TRUE) + 1.5
+
+tmpcol = col2rgb(cols[labs=="lateral"])[,1]
+color = rgb(red=tmpcol["red"], green=tmpcol["green"], blue=tmpcol["blue"], alpha=100, maxColorValue=255)
+rect(xleft, ybottom, xright, ytop, col=color)
+
+text(x=xleft_group_label, y=mean(c(ytop, ybottom)), label=key, srt=90, pos=NULL, cex=2, col=cols[labs==key])
+
+
+
+
 
 dev.off()
 cmdstr = paste0("open ", pdffn)
