@@ -13,7 +13,7 @@
 # Automated CDD
 # Automated conserved domain
 
-# NCBI Batch Web CD-Search:
+# NCBI Batch Web CD-Search Tool:
 # https://www.ncbi.nlm.nih.gov/Structure/bwrpsb/bwrpsb.cgi
 #
 # Help page on the same:
