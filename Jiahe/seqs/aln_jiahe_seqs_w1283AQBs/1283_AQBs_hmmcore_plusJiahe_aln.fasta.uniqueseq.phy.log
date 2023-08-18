@@ -1,0 +1,1406 @@
+IQ-TREE multicore version 2.2.0 COVID-edition for Mac OS X 64-bit built Jun  1 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    sc-sbs-383264.uoa.auckland.ac.nz (AVX2, FMA3, 8 GB RAM)
+Command: iqtree -t BIONJ -s 1283_AQBs_hmmcore_plusJiahe_aln.fasta.uniqueseq.phy -m LG+F+G --ufboot 1000 -bnni
+Seed:    986445 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Aug 18 15:41:51 2023
+Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file 1283_AQBs_hmmcore_plusJiahe_aln.fasta.uniqueseq.phy ... Phylip format detected
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.00233006 secs using 73.82% CPU
+Alignment has 1275 sequences with 193 columns, 192 distinct patterns
+154 parsimony-informative, 15 singleton sites, 24 constant sites
+                                                                          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00069499 secs using 91.37% CPU
+   1  0000|_Entero|_|spGamma_FB21||GAC25511.1|ExbB                               40.93%    passed     59.64%
+   2  0001|_Entero|_|spGamma_FB21||GAC38236.1|ExbB                               39.38%    passed     58.12%
+   3  0002|_Entero|_|spGamma_FB21||AFS36592.1|AQB                                38.34%    passed     74.66%
+   4  0003|_Entero|_|spNA||AEP30402.1|TonB_transp                                37.31%    passed     69.44%
+   5  0004|_Entero|_|spnonEntGamma_L07||AAV82690.1|TonB_transp                   38.34%    passed     91.04%
+   6  0005|_Entero|_|spGamma_FB21||EHR42234.1|AQB                                38.86%    passed     62.47%
+   7  0006|_Entero|_|spnonEntGamma_L07||AAZ25767.1|AQB                           37.31%    passed     49.66%
+   8  0007|_Entero|_|spGamma_FB21||EAR29317.1|AQB                                36.79%    passed     67.80%
+   9  0008|_Entero|_|spGamma_FB21||CCQ12343.1|AQB                                37.31%    passed     26.01%
+  10  0009|_Entero|_|spGamma_FB21|1_2_FB21|ABV36183.1|AQB                        38.34%    passed     67.53%
+  11  0010|_Entero|_|spNA||BAJ02936.1|AQB                                        38.86%    passed     68.58%
+  12  0011|_Entero|_|spNa-H_interchange||AAN54877.1|TtpC_wTonB2                  38.86%    passed     69.91%
+  13  0012|_Entero|_|spNA||UXK07262.1|AQB                                        38.86%    passed     74.45%
+  14  0013|_Entero|_|spGamma_FB21||AFS36170.1|Tol_prot                           37.31%    passed     52.42%
+  15  0014|_Entero|_|spNA||AEP30903.1|Tol_prot                                   37.82%    passed     11.32%
+  16  0015|_Entero|_|spGamma_FB21||GAC23146.1|ExbB                               43.01%    passed     67.35%
+  17  0016|_Entero|_|spGamma_FB21||GAC39742.1|ExbB                               39.38%    passed     80.07%
+  18  0017|_Entero|_|spnonEntGamma_L07||AAZ24738.1|AQB                           38.34%    passed     34.26%
+  19  0018|_Entero|_|spGamma_FB21||EAR30274.1|Tol_prot                           45.08%    passed     19.64%
+  20  0019|_Entero|_|spGamma_FB21||CCQ10606.1|AQB                                41.45%    passed     14.06%
+  21  0020|_Entero|_|spnonEntGamma_L07||AAV82950.1|TonB_transp                   44.04%    passed     34.48%
+  22  0021|_Gamma|_|spNA||MBU2986356.1|AQB                                       37.82%    passed     20.60%
+  23  0022|_Gamma|_|spNA||ABD79617.1|AQB                                         37.82%    passed     20.60%
+  24  0023|_Gamma|_|spNA||QEI18324.1|ExbB_wTonB                                  37.82%    passed     34.07%
+  25  0024|_Entero|_|spNa_||ABK35895.1|TolR                                      44.04%    passed     92.14%
+  26  0025|_Entero|_|spGamma_FB21||EKB20826.1|HYP_HMPREF1168_01631               44.04%    passed     92.14%
+  27  0026|_Entero|_|spGamma_FB21||ATP10892.1|ExbB/DUFx                          43.01%    passed     84.35%
+  28  0027|_Entero|_|spH_||QCG47236.1|AQB                                        44.04%    passed     94.10%
+  29  0028|_Entero|_|spNa_||EAS76518.1|TolR                                      39.38%    passed     98.94%
+  30  0029|_Gamma|_|spNA||BAC58429.1|TolR                                        39.38%    passed     98.66%
+  31  0030|_Entero|_|spGamma_FB21||BAC93012.1|TolR                               38.86%    passed     93.32%
+  32  0031|_Epsilon|_|spNA||ADG92231.1|AQB                                       45.08%    passed     13.19%
+  33  0032|_Gamma|_|spGamma_FB21||ABA57126.1|ExbB                                45.08%    passed     45.64%
+  34  0033|_Gamma|_|spNA||QEI18407.1|AQB                                         39.38%    passed     38.48%
+  35  0034|_Gamma|_|spNA||AAU90389.1|AQB                                         39.90%    passed     39.02%
+  36  0035|_Entero|_|spGamma_FB21||EKB22828.1|HYP_HMPREF1168_00884               44.04%    passed     77.16%
+  37  0036|_Entero|_|spNa_||ABK39661.1|TonB_transp                               44.04%    passed     77.16%
+  38  0037|_Entero|_|spGamma_FB21||ATP11543.1|ExbB/DUFx                          39.90%    passed     73.97%
+  39  0038|_Entero|_|spH_||QCG49912.1|AQB                                        44.56%    passed     84.48%
+  40  0039|_Alpha|_|spAlpha_FB21||ABI78064.1|AQB                                 40.41%    passed     99.73%
+  41  0040|_Entero|_|spGamma_FB21|1_2_FB21|GAA06515.1|AQB                        38.86%    passed     82.81%
+  42  0041|_Entero|_|spNA||PHZ60572.1|MotA                                       38.86%    passed     82.81%
+  43  0042|_Entero|_|spnonEntGamma_L07|1_2_FB21|CAG22567.1|ExbB                  43.01%    passed     68.81%
+  44  0043|_Entero|_|spnonEntGamma_L07|1_2_FB21|CAG23092.1|ExbB                  44.56%    passed     73.11%
+  45  0044|_Entero|_|spNa_||AAW87263.1|TolQ                                      44.04%    passed     50.83%
+  46  0045|_Entero|_|spNa_||AAW87849.1|TolQ                                      43.01%    passed     80.38%
+  47  0046|_Gamma|_|spNA||BAC61495.1|ExbB                                        38.34%    passed     72.79%
+  48  0047|_Entero|_|spNa_||EAS74532.1|ExbB                                      38.86%    passed     66.76%
+  49  0048|_Entero|_|spNa_||EAP92984.1|ExbB                                      38.34%    passed     46.86%
+  50  0049|_Gamma|_|spNA||QEO41299.1|AQB                                         38.34%    passed     82.43%
+  51  0050|_Entero|_|spNa_||AAF94701.1|ExbB                                      38.34%    passed     82.43%
+  52  0052|_Entero|_|spGamma_FB21||BAC96945.1|ExbB                               44.56%    passed     78.99%
+  53  0053|_Entero|_|spNA||EDL50956.1|ExbB                                       43.52%    passed     30.58%
+  54  0054|_Fibrobacteres|_|spNA||ACX73657.1|AQB                                 41.97%    passed     85.20%
+  55  0055|_Gamma|_|spNA||ABD82072.1|AQB                                         44.04%    passed     96.04%
+  56  0056|_Gamma|_|spNA||MBU2984729.1|AQB                                       44.04%    passed     97.75%
+  57  0057|_Entero|_|spGamma_FB21||AFS38985.1|transport                          44.04%    passed     97.25%
+  58  0058|_Entero|_|spGamma_FB21||EAR27189.1|TolQ                               50.78%    passed     21.56%
+  59  0059|_Entero|_|spGamma_FB21||GAC40346.1|ExbB                               53.37%    passed     97.01%
+  60  0060|_Entero|_|spGamma_FB21||CCQ11586.1|AQB                                50.78%    passed     76.35%
+  61  0061|_Planctomycetes|_|spNA||ARN57239.1|ExbB                               37.82%    passed     74.84%
+  62  0062|_Kiritimatiellaeota|_|spNA||AKJ65465.1|ExbB                           37.82%    passed     82.42%
+  63  0063|_Kiritimatiellaeota|_|spNA||AKJ64800.1|ExbB                           38.86%    passed      6.67%
+  64  0064|_Deferri|_|spNA||ADD67744.1|AQB                                       38.34%    passed     43.34%
+  65  0065|_Deferri|_|spNA||QAR33784.1|HYP_EP073_10320                           47.67%    passed     89.19%
+  66  0066|_Desulfo|_|spDelta_FB21||ACV68938.1|AQB                               45.60%    passed     38.42%
+  67  0067|_Deferri|_|spNA||ADD68377.1|AQB                                       44.56%    passed     42.77%
+  68  0068|_Desulfo|_|spDelta_FB21||WP_027181145.1|AQB                           45.08%    passed     83.46%
+  69  0069|_Delta|_|spNA||CAG37703.1|TolQ                                        45.08%    passed     86.69%
+  70  0070|_Desulfo|_|spDelta_FB21||WP_051363918.1|AQB                           45.08%    passed     31.26%
+  71  0071|_Delta|_|spNA||AQU99646.1|MotA                                        37.82%    passed     75.07%
+  72  0072|_Desulfo|_|spDelta_FB21||ABA88104.1|TolQ                              37.31%    passed     91.00%
+  73  0073|_Desulfo|_|spDelta_FB21||ACN13130.1|TolQ3                             37.31%    failed      2.24%
+  74  0074|_Desulfo|_|spDelta_FB21||SHJ01534.1|ExbB                              37.31%    passed     63.79%
+  75  0075|_Desulfo|_|spDelta_FB21||SHJ92591.1|ExbB                              43.01%    passed     73.97%
+  76  0076|_Desulfo|_|spDelta_FB21||SHJ51022.1|ExbB                              40.41%    passed     15.59%
+  77  0077|_Fibrobacteres|_|spNA||ACX74513.1|AQB                                 40.41%    passed     66.43%
+  78  0078|_Gamma|_|spNA||BAC61496.1|ExbB2                                       39.38%    passed      6.08%
+  79  0079|_Entero|_|spNa_||EAS74531.1|ExbB2                                     40.41%    failed      0.10%
+  80  0080|_Entero|_|spNa_||AAW87848.1|TolQ                                      45.08%    failed      0.77%
+  81  0081|_Entero|_|spNa_||EAP92983.1|TolQ                                      44.56%    passed     30.12%
+  82  0082|_Entero|_|spnonEntGamma_L07|1_2_FB21|CAG22568.1|ExbB2                 45.08%    passed     22.72%
+  83  0083|_Entero|_|spnonEntGamma_L07|1_2_FB21|CAG23091.1|ExbB2                 48.19%    passed     48.30%
+  84  0084|_Entero|_|spGamma_FB21|1_2_FB21|GAA06514.1|AQB                        45.08%    failed      0.82%
+  85  0085|_Entero|_|spNA||PHZ60571.1|AQB                                        45.08%    failed      0.82%
+  86  0086|_Entero|_|spNa_||AAW87264.1|TolQ                                      44.04%    passed     33.75%
+  87  0087|_Entero|_|spGamma_FB21||BAC96944.1|ExbB2                              39.90%    failed      0.52%
+  88  0088|_Gamma|_|spNA||QEO41300.1|AQB                                         44.56%    passed     35.23%
+  89  0089|_Entero|_|spNa_||AAF94700.1|ExbB2                                     44.56%    passed     35.23%
+  90  0090|_Entero|_|spH_||EEW07942.1|ExbB2                                      44.04%    passed     34.95%
+  91  0091|_Entero|_|spNA||EDL50955.1|TolQ                                       47.67%    failed      0.51%
+  92  0092|_Entero|_|spGamma_FB21||CCQ12342.1|ExbB                               46.11%    passed     37.55%
+  93  0093|_Entero|_|spGamma_FB21||EAR29316.1|ExbB2                              46.11%    passed     66.41%
+  94  0094|_Entero|_|spnonEntGamma_L07||AAZ26301.1|ExbB                          47.15%    passed     64.65%
+  95  0095|_Entero|_|spGamma_FB21||EHR42233.1|AQB                                45.08%    passed      9.42%
+  96  0096|_Entero|_|spnonEntGamma_L07||AAV82689.1|TonB_transp                   46.63%    passed     25.58%
+  97  0097|_Entero|_|spNA||AEP30401.1|TonB_transp                                47.15%    passed     21.49%
+  98  0098|_Entero|_|spGamma_FB21||AFS36593.1|TonB_transp                        47.15%    passed     14.40%
+  99  0099|_Entero|_|spGamma_FB21||GAC38235.1|ExbB                               46.63%    passed     49.83%
+ 100  0100|_Entero|_|spGamma_FB21||GAC25510.1|ExbB                               44.04%    passed     16.15%
+ 101  0101|_Entero|_|spNa-H_interchange||AAN54878.2|ExbB_wTonB2                  45.08%    passed     15.14%
+ 102  0102|_Entero|_|spNA||UXK07261.1|AQB                                        44.56%    passed     20.18%
+ 103  0103|_Entero|_|spGamma_FB21|1_2_FB21|ABV36184.1|AQB                        45.08%    passed      8.91%
+ 104  0104|_Entero|_|spNA||BAJ02935.1|ExbB2                                      45.08%    passed     14.68%
+ 105  0105|_Entero|_|spNa_||ABK38544.1|TonB_transp                               45.08%    passed     25.64%
+ 106  0106|_Entero|_|spGamma_FB21||ATP11542.1|ExbB                               45.08%    passed     29.40%
+ 107  0107|_Entero|_|spH_||QCG49911.1|AQB                                        44.04%    passed     12.07%
+ 108  0108|_Entero|_|spGamma_FB21||EKB22829.1|HYP_HMPREF1168_00885               45.08%    passed     38.00%
+ 109  0109|_Entero|_|spGamma_FB21||AFS36171.1|TonB_transp                        44.04%    passed     39.52%
+ 110  0110|_Entero|_|spGamma_FB21||GAC23145.1|ExbB                               44.04%    passed     20.75%
+ 111  0111|_Entero|_|spGamma_FB21||GAC39743.1|ExbB                               44.04%    passed     30.71%
+ 112  0112|_Entero|_|spNA||AEP30902.1|AQB                                        36.79%    failed      4.96%
+ 113  0113|_Entero|_|spnonEntGamma_L07||AAV82949.1|TonB_transp                   43.01%    passed     34.71%
+ 114  0114|_Entero|_|spGamma_FB21||EAR30273.1|ExbB_wTonB                         44.04%    passed     68.61%
+ 115  0115|_Entero|_|spGamma_FB21||CCQ10605.1|ExbB                               44.04%    passed     85.99%
+ 116  0116|_Entero|_|spnonEntGamma_L07||AAZ26991.1|ExbB                          45.08%    passed     36.12%
+ 117  0117|_Gamma|_|spNA||ABD79618.1|AQB                                         37.82%    passed     53.55%
+ 118  0118|_Gamma|_|spNA||MBU2986357.1|AQB                                       37.82%    passed     53.55%
+ 119  0119|_Gamma|_|spNA||QEI18325.1|AQB                                         46.11%    passed     74.00%
+ 120  0120|_Epsilon|_|spNA||ADG92230.1|AQB                                       46.11%    failed      4.14%
+ 121  0121|_Alpha|_|spAlpha_FB21||ABI77570.1|ExbB                                49.74%    passed     49.06%
+ 122  0122|_Entero|_|spNa_||ABK36340.1|ExbB2                                     44.56%    passed     60.74%
+ 123  0123|_Entero|_|spGamma_FB21||EKB20827.1|HYP_HMPREF1168_01632               45.08%    passed     52.82%
+ 124  0124|_Entero|_|spH_||QCG47235.1|AQB                                        45.08%    passed     44.57%
+ 125  0125|_Entero|_|spGamma_FB21||ATP10893.1|ExbB                               44.04%    passed     61.45%
+ 126  0126|_Gamma|_|spNA||BAC58428.1|ExbB2                                       44.04%    passed     70.65%
+ 127  0127|_Entero|_|spNa_||EAS76517.1|ExbB2                                     44.04%    passed     70.65%
+ 128  0128|_Entero|_|spGamma_FB21||BAC93011.1|ExbB2                              38.34%    passed     68.83%
+ 129  0129|_Gamma|_|spNA||QEI18408.1|AQB                                         51.30%    passed     32.71%
+ 130  0130|_Gamma|_|spGamma_FB21||ABA57127.1|ExbB                                41.45%    passed     25.32%
+ 131  0131|_Gamma|_|spNA||AAU90379.1|AQB                                         55.44%    passed     19.79%
+ 132  0132|_Deferri|_|spNA||ADD68376.1|AQB                                       50.26%    passed     14.17%
+ 133  0133|_Desulfo|_|spDelta_FB21||ACV68939.1|AQB                               45.08%    passed     56.34%
+ 134  0134|_Desulfo|_|spDelta_FB21||WP_011368050.1|AQB                           39.38%    passed     88.42%
+ 135  0135|_Delta|_|spNA||CAG37702.1|ExbB                                        52.85%    passed     60.03%
+ 136  0136|_Desulfo|_|spDelta_FB21||SHJ01581.1|ExbB                              44.56%    passed     87.37%
+ 137  0137|_Desulfo|_|spDelta_FB21||SHJ92628.1|ExbB                              47.15%    passed     92.24%
+ 138  0138|_Desulfo|_|spDelta_FB21||ACN13129.1|TolQ2                             51.81%    passed     85.13%
+ 139  0139|_Desulfo|_|spDelta_FB21||SHJ50986.1|ExbB                              44.56%    passed     99.59%
+ 140  0140|_Delta|_|spNA||AQU99647.1|MotA                                        46.11%    passed     16.72%
+ 141  0141|_Desulfo|_|spDelta_FB21||ABA88103.1|TolQ                              47.67%    passed     40.91%
+ 142  0142|_Planctomycetes|_|spNA||ARN57240.1|ExbB                               46.11%    passed     38.31%
+ 143  0143|_Kiritimatiellaeota|_|spNA||AKJ65464.1|TolQ                           46.63%    passed     23.46%
+ 144  0144|_Kiritimatiellaeota|_|spNA||AKJ64799.1|ExbB                           51.81%    passed     35.15%
+ 145  0145|_Desulfo|_|spDelta_FB21||WP_011366583.1|AQB                           40.41%    failed      2.55%
+ 146  0146|_Deferri|_|spNA||QAR33783.1|AQB                                       47.67%    passed     67.28%
+ 147  0147|_Deferri|_|spNA||ADD67745.1|AQB                                       52.33%    passed     48.95%
+ 148  0148|_Fibrobacteres|_|spNA||ACX74512.1|AQB                                 44.04%    passed     52.19%
+ 149  0149|_Fibrobacteres|_|spNA||ACX73656.1|AQB                                 46.63%    passed     91.68%
+ 150  0150|_Gamma|_|spNA||MBU2984728.1|AQB                                       54.92%    failed      3.99%
+ 151  0151|_Gamma|_|spNA||ABD82073.1|AQB                                         56.99%    failed      1.79%
+ 152  0152|_Entero|_|spGamma_FB21||GAC40345.1|AQB                                60.10%    failed      0.01%
+ 153  0153|_Entero|_|spGamma_FB21||EAR27190.1|HYP_PTD2_05950                     56.99%    failed      0.05%
+ 154  0154|_Entero|_|spGamma_FB21||AFS38984.1|HYP_MASE_17470                     54.92%    passed     73.29%
+ 155  0155|_Entero|_|spGamma_FB21||CCQ11587.1|HYP_PALB_24880                     65.28%    passed     13.83%
+ 156  0156|_Gamma|_|spGamma_FB21||EHJ03729.1|AQB                                 37.82%    passed     90.03%
+ 157  0157|_Gamma|_|spNA||ADP97901.1|transport                                   37.82%    passed     90.03%
+ 158  0160|_Gamma|_|spGamma_FB21||ACL71636.1|AQB                                 35.23%    passed     92.13%
+ 159  0161|_Gamma|_|spGamma_FB21||ABM18682.1|ExbB                                35.23%    passed     95.42%
+ 160  0162|_Gamma|_|spNA||CCG95163.1|AQB                                         35.23%    passed     95.42%
+ 161  0163|_Gamma|_|spNA||ADP97633.1|transport                                   35.23%    passed     92.74%
+ 162  0164|_Gamma|_|spNA||ABD82818.1|AQB                                         34.72%    passed     93.95%
+ 163  0165|_Gamma|_|spNA||MBU2986144.1|AQB                                       34.72%    passed     93.95%
+ 164  0166|_Gamma|_|spNA||QEI20720.1|AQB                                         35.75%    passed     66.36%
+ 165  0167|_Entero|_|spGamma_FB21||GAC36657.1|transport                          35.23%    passed     69.54%
+ 166  0168|_Entero|_|spNA||AEP31741.1|gliding                                    35.23%    passed     89.36%
+ 167  0169|_Gamma|_|spNA||ABD82214.1|AQB                                         35.23%    passed     88.86%
+ 168  0170|_Gamma|_|spNA||MBU2985168.1|AQB                                       35.23%    passed     82.70%
+ 169  0171|_Fibrobacteres|_|spNA||ACX75484.1|AQB                                 36.27%    passed     73.63%
+ 170  0172|_Delta|_|spNA||ABF90777.1|AQB                                         36.79%    passed     30.40%
+ 171  0173|_Delta|_|spNA||UEO05650.1|AQB                                         36.79%    passed     30.40%
+ 172  0174|_Delta|_|spNA||AFE07995.1|AQB                                         36.79%    passed     14.31%
+ 173  0175|_Delta|_|spNA||ADO68798.1|AQB                                         37.31%    passed     44.15%
+ 174  0176|_Delta|_|spNA||ACL67782.1|AQB                                         37.82%    passed     90.45%
+ 175  0177|_Bdellovibrionota|_|spNA||AHZ86892.1|gliding                          37.82%    passed     99.46%
+ 176  0178|_Delta|_|spNA||AUX22205.1|MotA                                        35.75%    passed     56.98%
+ 177  0179|_Bdellovibrionota|_|spNA||AHZ86042.1|gliding                          35.75%    passed     96.51%
+ 178  0180|_Bdellovibrionota|_|spNA||AHZ84904.1|gliding                          36.79%    passed     66.40%
+ 179  0181|_Delta|_|spNA||ABF87376.1|AQB                                         37.31%    passed     47.73%
+ 180  0182|_Delta|_|spNA||UEO02151.1|AQB                                         37.31%    passed     47.73%
+ 181  0183|_Delta|_|spNA||ADO72879.1|AQB                                         36.79%    passed     91.07%
+ 182  0184|_Delta|_|spNA||AFE07994.1|AQB                                         37.31%    passed     59.31%
+ 183  0185|_Delta|_|spNA||AUX22204.1|MotA                                        36.79%    passed     62.47%
+ 184  0186|_Delta|_|spNA||AWV89791.1|AQB                                         38.86%    passed     80.55%
+ 185  0187|_Fibrobacteres|_|spNA||QQS05296.1|AQB                                 39.90%    passed     16.14%
+ 186  0188|_Bdellovibrionota|_|spNA||AHZ84037.1|gliding                          36.79%    passed     53.76%
+ 187  0189|_Delta|_|spNA||AWV89461.1|AQB                                         37.31%    passed     24.21%
+ 188  0190|_Fuso|_|spNA||QQS88496.1|AQB                                          36.79%    passed     71.05%
+ 189  0191|_Fuso|_|spNA||AVQ29260.1|AQB                                          47.15%    passed     20.01%
+ 190  0192|_Fuso|_|spNA||AVQ29523.1|AQB                                          44.56%    passed     47.25%
+ 191  0193|_Fuso|_|spNA||BBM36826.1|AQB                                          34.72%    passed     15.46%
+ 192  0194|_Fuso|_|spNA||ACV38437.1|AQB                                          44.04%    passed     87.52%
+ 193  0195|_Fuso|_|spNA||QQS88170.1|AQB                                          44.56%    passed     21.03%
+ 194  0196|_Fuso|_|spNA||AVQ28424.1|AQB                                          37.31%    passed     49.15%
+ 195  0197|_Deinococcus-Thermus|_|spNA||ALW88052.1|biopoly_transp                37.82%    passed     15.51%
+ 196  0198|_Deinococcus-Thermus|_|spNA||ADV67905.1|AQB                           39.90%    passed      8.03%
+ 197  0199|_Deinococcus-Thermus|_|spNA||AAS80673.1|TolQ                          66.84%    passed     58.68%
+ 198  0200|_Deinococcus-Thermus|_|spNA||AEB12216.1|AQB                           46.63%    passed     31.70%
+ 199  0201|_Deinococcus-Thermus|_|spNA||ADI15492.1|AQB                           38.86%    passed     30.75%
+ 200  0202|_Aquificota|_|spNA||ADC89509.1|AQB                                    36.79%    passed     61.18%
+ 201  0203|_Aquificota|_|spNA||AHE96346.1|TolQ                                   44.04%    passed     28.55%
+ 202  0204|_Aquificota|_|spNA||ADO44512.1|AQB                                    36.79%    passed     86.63%
+ 203  0205|_Aquificota|_|spNA||AAC07752.1|TolQ                                   39.90%    passed     21.59%
+ 204  0206|_Beta|_|spNA||ATU65616.1|AQB                                          35.23%    passed     94.13%
+ 205  0207|_Gamma|_|spBeta_FB21||EED66861.1|AQB                                  34.72%    passed     65.86%
+ 206  0208|_Beta|_|spNA||UBQ05954.1|AQB                                          32.64%    passed     10.57%
+ 207  0209|_Beta|_|spNA||APW42522.1|MotA                                         35.23%    passed     76.22%
+ 208  0210|_Gamma|_|spBeta_FB21||EGI75860.1|AQB                                  30.57%    passed     75.98%
+ 209  0211|_Gamma|_|spBeta_FB21||CAJ49708.1|transport                            37.82%    passed     76.34%
+ 210  0212|_Gamma|_|spBeta_FB21||CAQ68548.1|transport                            35.23%    passed     81.35%
+ 211  0213|_Beta|_|spNA||QKS29102.1|AQB                                          37.31%    passed     80.55%
+ 212  0214|_Gamma|_|spBeta_FB21||ABI59754.1|AQB                                  37.82%    passed     87.63%
+ 213  0215|_Gamma|_|spBeta_FB21||ADE11603.1|AQB                                  38.34%    passed     99.11%
+ 214  0216|_Gamma|_|spNA|1_2_FB21|AAQ61012.1|ExbB                                37.82%    passed     98.39%
+ 215  0217|_Gamma|_|spBeta_FB21|1_2_FB21|AAZ97463.1|ExbB                         37.82%    passed     96.76%
+ 216  0218|_Gamma|_|spBeta_FB21||ABE50359.1|AQB                                  37.82%    passed     78.06%
+ 217  0219|_Gamma|_|spBeta_FB21||ACT47556.1|AQB                                  37.82%    passed     93.27%
+ 218  0220|_Gamma|_|spNA||AAU93073.1|AQB                                         36.79%    passed     63.18%
+ 219  0221|_Gamma|_|spNA||AAG06371.1|TolQ                                        36.79%    passed     91.71%
+ 220  0222|_Gamma|_|spH_||AOP57473.1|ExbB                                        36.79%    passed     91.71%
+ 221  0223|_Gamma|_|spGamma_FB21||AAY36681.1|AQB                                 36.27%    passed     48.03%
+ 222  0224|_Gamma|_|spNA||ABY97379.1|AQB                                         36.27%    passed     96.14%
+ 223  0225|_Gamma|_|spGamma_FB21||EGW22187.1|AQB                                 37.82%    passed     47.07%
+ 224  0226|_Gamma|_|spGamma_FB21||ABM18827.1|AQB                                 37.31%    passed     80.69%
+ 225  0227|_Gamma|_|spNA||CCG95042.1|TolQ-type_precursor                         37.31%    passed     74.20%
+ 226  0228|_Gamma|_|spNA||ADP97830.1|AQB                                         37.82%    passed     89.34%
+ 227  0229|_Gamma|_|spGamma_FB21||EHJ06609.1|AQB                                 37.82%    passed     89.34%
+ 228  0230|_Gamma|_|spNA||ABD81321.1|AQB                                         37.82%    passed     96.10%
+ 229  0231|_Gamma|_|spNA||MBU2985725.1|AQB                                       37.82%    passed     99.08%
+ 230  0232|_Gamma|_|spNA||QEI19442.1|AQB                                         37.31%    passed     97.45%
+ 231  0233|_Gamma|_|spNA||ADZ91239.1|AQB                                         37.82%    passed     56.92%
+ 232  0234|_Gamma|_|spGamma_FB21||ABA59126.1|AQB                                 37.31%    passed     98.22%
+ 233  0235|_Gamma|_|spGamma_FB21||ACL72454.1|AQB                                 37.31%    passed     83.96%
+ 234  0236|_Gamma|_|spnonEntGamma_L07||AGH77573.1|transport                      37.31%    passed     41.29%
+ 235  0237|_Gamma|_|spNA||AAM41407.1|transport                                   37.31%    passed     57.83%
+ 236  0238|_Desulfo|_|spDelta_FB21||ABA88751.2|TolQ                              37.31%    passed     14.30%
+ 237  0239|_Zeta|_|spNA||ATX81215.1|ExbB                                         38.34%    passed     82.02%
+ 238  0240|_Zeta|_|spNA||ATX80498.1|ExbB                                         38.34%    passed     89.37%
+ 239  0241|_Delta|_|spNA||AWV88047.1|AQB                                         35.23%    passed     73.22%
+ 240  0242|_Deferri|_|spNA||AEI15149.1|AQB                                       47.67%    passed     97.10%
+ 241  0243|_Deferri|_|spNA||QAR32927.1|AQB                                       46.11%    passed     72.38%
+ 242  0244|_Deferri|_|spNA||ADD67874.1|AQB                                       46.63%    passed     80.76%
+ 243  0245|_Deferri|_|spNA||USF25003.1|ExbB                                      48.70%    passed     92.88%
+ 244  0246|_Acido|_|spNA||QTD50766.1|AQB                                         39.38%    passed     69.15%
+ 245  0247|_Gamma|_|spNA||BAC61768.1|ExbB                                        36.79%    passed     48.38%
+ 246  0248|_Entero|_|spNa_||EAS74010.1|ExbB                                      36.79%    passed     37.12%
+ 247  0249|_Entero|_|spGamma_FB21||BAC96449.1|ExbB1                              36.79%    passed     22.91%
+ 248  0250|_Entero|_|spNa_||EAP96731.1|ExbB                                      36.27%    passed     21.04%
+ 249  0251|_Entero|_|spNA||EDL51172.1|ExbB                                       36.79%    passed     34.46%
+ 250  0252|_Gamma|_|spNA||QEO43084.1|AQB                                         36.27%    passed     80.10%
+ 251  0253|_Entero|_|spNa_||AAF96808.1|ExbB1                                     36.27%    passed     80.10%
+ 252  0254|_Entero|_|spH_||EEW05060.1|ExbB1                                      36.27%    passed     80.38%
+ 253  0255|_Entero|_|spGamma_FB21|1_2_FB21|GAA04317.1|AQB                        36.79%    passed     23.02%
+ 254  0256|_Entero|_|spnonEntGamma_L07|1_2_FB21|CAG20502.1|ExbB                  36.27%    passed     12.38%
+ 255  0257|_Entero|_|spNa_||AAW85719.1|ExbB1                                     49.74%    passed      6.64%
+ 256  0258|_Entero|_|spGamma_FB21||AVQ86603.1|AQB                                38.86%    passed     10.22%
+ 257  0259|_Entero|_|spNA|25|WP_084976614.1|AQB                                  38.86%    passed      9.42%
+ 258  0260|_Entero|_|spNA||UXK07781.1|AQB                                        39.90%    failed      1.37%
+ 259  0261|_Entero|_|spNa-H_interchange||AAN56656.1|ExbB_wTonB1                  41.45%    failed      0.18%
+ 260  0262|_Entero|_|spNA||BAJ03531.1|ExbB1                                      39.38%    passed     42.40%
+ 261  0263|_Verrucomicrobia|_|spNA||AWI09431.1|MotA                              52.85%    passed     88.27%
+ 262  0264|_Verrucomicrobia|_|spNA||ATC62595.1|MotA                              53.37%    passed     90.27%
+ 263  0265|_Verrucomicrobia|_|spNA||ACB77180.1|AQB                               47.15%    passed     84.23%
+ 264  0266|_Verrucomicrobia|_|spNA||SEH78546.1|AQB                               41.45%    passed     99.07%
+ 265  0267|_Verrucomicrobia|_|spNA||QJE97269.1|AQB                               44.56%    passed     76.83%
+ 266  0268|_Verrucomicrobia|_|spNA||QSR84464.1|AQB                               46.11%    passed     47.68%
+ 267  0269|_Verrucomicrobia|_|spNA||DGBBEKCF_01299|TolQ                          37.31%    passed     35.78%
+ 268  0270|_Synergistota|_|spOthers||ACZ19742.1|AQB                              47.67%    passed     18.58%
+ 269  0271|_Desulfo|_|spNA||AAS97278.1|AQB                                       48.19%    passed     30.43%
+ 270  0272|_Desulfo|_|spDelta_FB21||ACV68207.1|AQB                               50.26%    passed     77.58%
+ 271  0273|_Planctomycetes|_|spNA||QDU25761.1|ExbB                               40.41%    passed     99.67%
+ 272  0274|_Planctomycetes|_|spNA||ADB17134.1|AQB                                36.79%    passed     99.61%
+ 273  0275|_Planctomycetes|_|spNA||QDU93364.1|ExbB                               37.31%    passed     92.56%
+ 274  0276|_Planctomycetes|_|spNA||CAD71937.1|ExbB                               39.90%    passed     94.42%
+ 275  0277|_Planctomycetes|_|spNA||ADY58376.1|AQB                                37.31%    passed     95.02%
+ 276  0278|_Planctomycetes|_|spNA||ADV60824.1|AQB                                37.31%    passed     19.88%
+ 277  0279|_Planctomycetes|_|spNA||QDU29130.1|TolQ                               43.01%    passed     99.53%
+ 278  0280|_Planctomycetes|_|spNA||ADB17547.1|AQB                                43.01%    passed     97.72%
+ 279  0281|_Planctomycetes|_|spNA||QDU99088.1|TolQ                               41.97%    passed     79.91%
+ 280  0282|_Planctomycetes|_|spNA||CAD77369.1|TolQ                               37.31%    passed     45.51%
+ 281  0283|_Planctomycetes|_|spNA||ADV62354.1|HYP_Isop_1771                      41.45%    passed      8.44%
+ 282  0284|_Acido|_|spNA||QTD51577.1|AQB                                         48.19%    failed      0.01%
+ 283  0285|_Planctomycetes|_|spNA||QDU25322.1|ExbB                               38.34%    passed     93.09%
+ 284  0286|_Planctomycetes|_|spNA||ADB18835.1|AQB                                37.31%    passed     52.64%
+ 285  0287|_Planctomycetes|_|spNA||QDU98188.1|ExbB                               38.34%    passed     90.31%
+ 286  0288|_Planctomycetes|_|spNA||CAD73493.1|TolQ                               37.82%    passed     97.94%
+ 287  0289|_Planctomycetes|_|spNA||ADY58081.1|AQB                                37.82%    passed     58.40%
+ 288  0290|_Planctomycetes|_|spNA||QVL32579.1|AQB                                38.34%    passed     94.90%
+ 289  0291|_Planctomycetes|_|spNA||ADV63187.1|AQB                                39.38%    passed     63.67%
+ 290  0292|_Planctomycetes|_|spNA||ADV63892.1|AQB                                36.79%    passed     91.20%
+ 291  0293|_Planctomycetes|_|spNA||QDU98468.1|ExbB                               47.67%    passed     91.41%
+ 292  0294|_Planctomycetes|_|spNA||CAD74695.1|TolQ                               45.60%    passed     63.23%
+ 293  0295|_Planctomycetes|_|spNA||QDU30851.1|ExbB                               39.90%    passed     19.32%
+ 294  0296|_Planctomycetes|_|spNA||ADB15652.1|AQB                                45.60%    passed     96.48%
+ 295  0297|_Planctomycetes|_|spNA||ADY61978.1|AQB                                40.93%    passed     97.43%
+ 296  0298|_Planctomycetes|_|spNA||ARN57520.1|ExbB                               47.15%    passed     94.48%
+ 297  0299|_Planctomycetes|_|spNA||QDU94893.1|ExbB                               47.15%    passed     94.94%
+ 298  0300|_Planctomycetes|_|spNA||ADB16663.1|AQB                                45.60%    passed     95.83%
+ 299  0301|_Verrucomicrobia|_|spNA||QJE97562.1|AQB                               37.82%    passed     60.93%
+ 300  0302|_Verrucomicrobia|_|spNA||PKPEBJJI_00297|TolQ                          40.93%    passed     94.31%
+ 301  0303|_Verrucomicrobia|_|spNA||SEH93354.1|AQB                               51.81%    passed     60.41%
+ 302  0304|_Kiritimatiellaeota|_|spNA||AKJ63368.1|ExbB                           37.82%    passed     40.36%
+ 303  0305|_Verrucomicrobia|_|spNA||QSR84626.1|AQB                               35.23%    passed     45.57%
+ 304  0306|_Verrucomicrobia|_|spNA||DGBBEKCF_00463|TolQ                          36.27%    passed     79.97%
+ 305  0307|_Verrucomicrobia|_|spNA||SEI00245.1|AQB                               39.38%    passed     82.87%
+ 306  0308|_Verrucomicrobia|_|spNA||QJE95191.1|AQB                               34.20%    passed     88.55%
+ 307  0309|_Kiritimatiellaeota|_|spNA||AKJ64099.1|ExbB                           36.27%    passed     46.83%
+ 308  0310|_Bacteroidota|_|spNA||WP_048698969.1|AQB                              46.63%    passed     68.64%
+ 309  0311|_Gamma|_|spNA||ADY81529.1|HYP_BDGL_000943                             37.31%    passed     97.75%
+ 310  0312|_Cyano|_|spNA||AFY71449.1|ExbB                                        37.31%    passed     67.61%
+ 311  0313|_Cyano|_|spNA||BAA16604.1|ExbB                                        36.79%    passed     17.82%
+ 312  0314|_Cyano|_|spNA||QIZ70555.1|AQB                                         36.79%    passed     42.46%
+ 313  0315|_Cyano|_|spNA||UNU17462.1|AQB                                         35.75%    passed     57.70%
+ 314  0316|_Cyano|_|spNA||QZZ23337.1|AQB                                         36.27%    passed     49.47%
+ 315  0317|_Cyano|_|spNA||ACC83311.1|AQB                                         36.79%    passed     55.06%
+ 316  0318|_Cyano|_|spNA||ACC79528.1|AQB                                         35.75%    passed     46.04%
+ 317  0319|_Cyano|_|spNA||QZZ22141.1|AQB                                         37.31%    passed     10.54%
+ 318  0320|_Cyano|_|spNA||QZZ19520.1|AQB                                         40.93%    passed     30.68%
+ 319  0321|_Cyano|_|spNA||ACC83506.1|AQB                                         36.79%    passed     80.86%
+ 320  0322|_Cyano|_|spNA||QIZ71789.1|AQB                                         37.31%    passed     90.91%
+ 321  0323|_Cyano|_|spNA||BAA16958.1|ExbB                                        38.86%    passed     66.12%
+ 322  0324|_Cyano|_|spNA||UNU18280.1|AQB                                         37.31%    passed     56.04%
+ 323  0325|_Cyano|_|spNA||AFY68531.1|ExbB                                        36.79%    passed      8.94%
+ 324  0326|_Cyano|_|spNA||QZZ21680.1|AQB                                         36.79%    passed     89.86%
+ 325  0327|_Cyano|_|spNA||BAA10590.1|sll0477                                     37.82%    passed     96.50%
+ 326  0328|_Cyano|_|spNA||BAC90343.1|AQB                                         37.31%    passed     56.69%
+ 327  0329|_Cyano|_|spNA||BAC89328.1|glr1387                                     37.31%    passed     56.69%
+ 328  0330|_Verrucomicrobia|_|spNA||AWI08882.1|MotA                              45.08%    passed     85.86%
+ 329  0331|_Verrucomicrobia|_|spNA||ATC64798.1|MotA                              47.67%    passed     44.83%
+ 330  0332|_Verrucomicrobia|_|spNA||ATC62712.1|MotA                              40.93%    passed     87.35%
+ 331  0333|_Verrucomicrobia|_|spNA||ACB75629.1|AQB                               46.11%    passed     72.58%
+ 332  0334|_Verrucomicrobia|_|spNA||QSR84237.1|AQB                               38.86%    passed     13.51%
+ 333  0335|_Verrucomicrobia|_|spNA||QSR83870.1|AQB                               40.93%    passed     96.03%
+ 334  0336|_Verrucomicrobia|_|spNA||QSR85862.1|AQB                               48.19%    passed     70.14%
+ 335  0337|_Verrucomicrobia|_|spNA||QJE97567.1|AQB                               46.63%    passed      9.72%
+ 336  0338|_Kiritimatiellaeota|_|spNA||AKJ64362.1|ExbB                           41.45%    passed     98.00%
+ 337  0339|_Aquificota|_|spNA||AHE96301.1|ExbB                                   55.96%    failed      2.39%
+ 338  0340|_Gamma|_|spGamma_FB21||AAY35935.1|ExbB                                44.56%    passed     40.39%
+ 339  0341|_Entero|_|spenteric||ACT11863.1|AQB                                   45.60%    passed     91.79%
+ 340  0342|_Entero|_|spNA||KFD16490.1|ferric_siderophore_transporter             45.08%    passed     99.67%
+ 341  0343|_Beta|_|spNA||ATU63381.1|HYP_CPZ87_01790                              38.34%    passed     56.46%
+ 342  0344|_Nitrospirae|_|spNA||BAM06053.1|transport                             41.97%    passed     96.04%
+ 343  0345|_Firmicutes|_|spOthers||EGO61941.1|AQB                                42.49%    passed     58.26%
+ 344  0346|_Armatimonadetes|_|spNA||CCW36281.1|biopoly_transp                    37.31%    passed     50.64%
+ 345  0347|_Armatimonadetes|_|spNA||AIE86461.1|AQB                               38.34%    passed     70.27%
+ 346  0348|_Gamma|_|spGamma_FB21||EHJ02650.1|AQB                                 37.31%    passed     66.85%
+ 347  0349|_Gamma|_|spNA||ADP99653.1|AQB                                         37.31%    passed     73.85%
+ 348  0350|_Gamma|_|spGamma_FB21||ABM17293.1|ExbB                                44.56%    passed     80.41%
+ 349  0351|_Gamma|_|spNA||CCG93687.1|AQB                                         44.56%    passed     85.23%
+ 350  0352|_Firmicutes|_|spOthers||ACL69931.1|AQB                                38.34%    passed     40.73%
+ 351  0353|_Firmicutes|_|spNA||BAS27557.1|AQB                                    44.56%    passed     39.12%
+ 352  0354|_Spirochaetes|_|spNA||EKT86397.1|ExbB                                 43.01%    passed     58.94%
+ 353  0355|_Spirochaetes|_|spNA||AAS70216.1|transport                            43.01%    passed     58.88%
+ 354  0356|_Spirochaetes|_|spNa__or_H_||ABZ97738.1|ExbB                          49.74%    passed     28.00%
+ 355  0357|_Spirochaetes|_|spNA||CCG56832.1|ExbB                                 39.38%    passed      8.39%
+ 356  0358|_Spirochaetes|_|spNA||AEM22241.1|ExbB                                 40.41%    passed     17.91%
+ 357  0359|_Verrucomicrobia|_|spNA||SEH96646.1|AQB                               38.34%    passed     33.16%
+ 358  0360|_Verrucomicrobia|_|spNA||QJE97381.1|AQB                               43.01%    passed     80.21%
+ 359  0361|_Verrucomicrobia|_|spNA||ALJ56692.1|TolQ                              38.86%    passed     77.34%
+ 360  0362|_Verrucomicrobia|_|spNA||QSR84174.1|AQB                               41.45%    passed     33.15%
+ 361  0363|_Verrucomicrobia|_|spNA||DGBBEKCF_01621|TolQ                          38.34%    passed     86.78%
+ 362  0364|_Lentisphaerae|_|spNA||AVM45415.1|ExbB                                38.34%    passed     64.02%
+ 363  0365|_Verrucomicrobia|_|spNA||AWI08418.1|MotA                              37.82%    passed     57.47%
+ 364  0366|_Verrucomicrobia|_|spNA||ATC63405.1|MotA                              38.34%    passed     74.27%
+ 365  0367|_Verrucomicrobia|_|spNA||ACB73533.1|AQB                               38.86%    passed     11.98%
+ 366  0368|_Chlamydiae|_|spNA||CCB87487.1|unk                                    37.82%    passed     82.94%
+ 367  0369|_Kiritimatiellaeota|_|spNA||AKJ65567.1|ExbB                           40.41%    passed     10.99%
+ 368  0370|_Entero|_|spGamma_FB21||GAC24086.1|ExbB                               39.38%    passed     72.72%
+ 369  0371|_Gamma|_|spNA||ADZ89749.1|AQB                                         40.93%    passed     78.66%
+ 370  0372|_Alpha|_|spAlpha_FB21||ABS64497.1|AQB                                 35.23%    passed     70.14%
+ 371  0373|_Entero|_|spnonEntGamma_L07||AAZ26683.1|ExbB                          37.31%    passed     40.70%
+ 372  0374|_Zeta|_|spNA||ATX82358.1|ExbB                                         44.04%    passed     82.74%
+ 373  0375|_Zeta|_|spNA||ATX79248.1|ExbB                                         48.70%    passed     89.11%
+ 374  0376|_Desulfo|_|spDelta_FB21||ABA89630.1|TolQ                              42.49%    passed     98.80%
+ 375  0377|_Deferri|_|spNA||QAR33430.1|AQB                                       43.01%    passed     21.20%
+ 376  0378|_Deferri|_|spNA||ADD67609.1|AQB                                       42.49%    passed     72.96%
+ 377  0379|_Nitrospirae|_|spNA||BCB95942.1|ExbB                                  49.74%    passed     79.51%
+ 378  0380|_Bacteroidota|_|spNA||UAK42981.1|AQB                                  37.82%    passed      5.71%
+ 379  0381|_Bacteroidota|_|spNA||CBW24011.1|membrane_protein                     38.34%    passed      7.36%
+ 380  0382|_Bacteroidota|_|spNA||WP_008766463.1|AQB                              38.34%    passed      6.76%
+ 381  0383|_Bacteroidota|_|spNA||ABC44468.1|AQB                                  37.82%    passed     69.96%
+ 382  0384|_Spirochaetes|_|spNA||EKT88184.1|biopoly_transp                       40.93%    passed     80.86%
+ 383  0385|_Spirochaetes|_|spNA||AAS69506.1|ExbB                                 39.90%    passed     82.83%
+ 384  0386|_Spirochaetes|_|spNa__or_H_||ABZ96294.1|ExbB                          38.86%    passed     91.13%
+ 385  0387|_Planctomycetes|_|spNA||QDU31292.1|ExbB                               33.68%    passed     98.70%
+ 386  0388|_Planctomycetes|_|spNA||ADB17458.1|AQB                                33.16%    passed     41.19%
+ 387  0389|_Planctomycetes|_|spNA||QDU92956.1|ExbB                               37.82%    passed     77.28%
+ 388  0390|_Acido|_|spNA||QTD53280.1|AQB                                         38.86%    passed     99.01%
+ 389  0391|_Bacteroidota|_|spNA||CBW24263.1|transport_related_membrane_protein   36.27%    passed     22.13%
+ 390  0392|_Bacteroidota|_|spNA||WP_008760839.1|AQB                              36.27%    passed     29.28%
+ 391  0393|_Bacteroidota|_|spNA||UAK41330.1|AQB                                  36.27%    passed     18.19%
+ 392  0394|_Bacteroidota|_|spNA||BCI63565.1|ExbB                                 36.79%    passed     61.10%
+ 393  0395|_Bacteroidota|_|spNA||AKD04823.1|ExbB                                 36.27%    passed     35.23%
+ 394  0396|_Bacteroidota|_|spNA||AEW00830.1|ExbB                                 37.31%    passed     14.53%
+ 395  0397|_Bacteroidota|_|spNA||ABG60812.1|ExbB                                 38.34%    passed     12.55%
+ 396  0398|_Bacteroidota|_|spNA||ABC44034.1|transport                            36.79%    passed     70.73%
+ 397  0399|_Omnitrophica|_|spNA||QAT17590.1|ExbB                                 38.34%    passed     44.00%
+ 398  0400|_Bacteroidota|_|spNA||WP_074859237.1|AQB                              45.08%    passed     52.59%
+ 399  0401|_Bacteroidota|_|spNA||CBW24418.1|AQB                                  41.97%    passed     30.84%
+ 400  0402|_Bacteroidota|_|spNA||UAK41566.1|AQB                                  40.41%    passed     23.85%
+ 401  0403|_Bacteroidota|_|spNA||BCI63438.1|MotA                                 39.38%    passed     23.88%
+ 402  0404|_Bacteroidota|_|spNA||AEW03299.1|ExbB                                 34.20%    passed     56.87%
+ 403  0405|_Bacteroidota|_|spNA||ABG59284.1|ExbB                                 43.01%    passed     26.02%
+ 404  0406|_Bacteroidota|_|spNA||AKD02510.1|MotA                                 39.38%    passed      6.74%
+ 405  0407|_Chlorobi|_|spNA||ABL64659.1|ExbB                                     35.75%    passed     68.46%
+ 406  0408|_Chlorobi|_|spNA||ACD90995.1|AQB                                      35.75%    passed     42.01%
+ 407  0409|_Chlorobi|_|spNA||ACF43024.1|AQB                                      40.93%    passed     93.27%
+ 408  0410|_Chlorobi|_|spNA||ACF11913.1|AQB                                      32.64%    passed     95.99%
+ 409  0411|_Chlorobi|_|spNA||ACF14782.1|AQB                                      32.12%    passed     44.50%
+ 410  0412|_Chlorobi|_|spNA||ACF14374.1|AQB                                      44.04%    passed      9.55%
+ 411  0413|_Planctomycetes|_|spNA||QVL32859.1|AQB                                46.11%    passed     56.21%
+ 412  0414|_Entero|_|spNA||AJJ55217.1|TolQ                                       33.16%    passed     68.33%
+ 413  0415|_Entero|_|spH_||EDR32368.1|TolQ                                       33.16%    passed     68.33%
+ 414  0418|_Entero|_|spNA|123b|CNK50903.1|TolQ                                   33.68%    passed     85.14%
+ 415  0419|_Entero|_|spNA|1|KGA74186.1|TolQ                                      33.68%    passed     85.14%
+ 416  0422|_Entero|_|spNA|123b|AMO81721.1|TolQ                                   33.68%    passed     86.19%
+ 417  0423|_Entero|_|spNA|12|EHM38191.1|TolQ                                     33.68%    passed     86.19%
+ 418  0424|_Entero|_|spNA||WP_015872117.1|TolQ                                   33.16%    passed     62.79%
+ 419  0425|_Entero|_|spNA|4|TCV98021.1|TolQ                                      33.16%    passed     91.57%
+ 420  0426|_Entero|_|spNA|14|AHF77788.1|TolQ_colchicin                           32.64%    passed     94.48%
+ 421  0427|_Entero|_|spenteric||ACT12294.1|TolQ                                  33.16%    passed     94.18%
+ 422  0428|_Entero|_|spNA|13b|RYJ17324.1|TolQ                                    33.16%    passed     63.11%
+ 423  0429|_Entero|_|spNA||KFD10354.1|AQB                                        33.16%    passed     74.93%
+ 424  0430|_Entero|_|spNA||QKY92913.1|TolQ                                       33.16%    passed     88.93%
+ 425  0431|_Entero|_|spenteric|1_2_FB21|CBG33586.1|colicin_import                33.16%    passed     88.93%
+ 426  0434|_Entero|_|spH_||AAL19689.1|TolQ                                       33.16%    passed     94.92%
+ 427  0435|_Entero|_|spNA|123b|POT58108.1|TolQ                                   33.68%    passed     86.89%
+ 428  0436|_Entero|_|spNA|13b|KOQ95241.1|TolQ                                    33.16%    passed     91.48%
+ 429  0437|_Entero|_|spNA|12|GHD92658.1|TolQ                                     33.16%    passed     93.66%
+ 430  0438|_Entero|_|spNA|123a|KLP55538.1|TolQ                                   33.16%    passed     76.79%
+ 431  0439|_Entero|_|spNA|13a|KLR23957.1|TolQ                                    33.16%    passed     76.79%
+ 432  0441|_Entero|_|spNA|1|KIU34118.1|TolQ                                      33.68%    passed     90.38%
+ 433  0442|_Entero|_|spNA|1|CCJ72042.1|AQB                                       32.64%    passed     91.98%
+ 434  0443|_Entero|_|spNA||QXB11428.1|TolQ                                       33.16%    passed     91.48%
+ 435  0444|_Entero|_|spNA|123b|RPH30368.1|TolQ                                   33.16%    passed     96.24%
+ 436  0445|_Entero|_|spNA|13b|ORM97150.1|TolQ                                    33.16%    passed     78.05%
+ 437  0446|_Entero|_|spNA|1|ARU97460.1|TolQ                                      33.16%    passed     72.73%
+ 438  0447|_Entero|_|spNA|13a|TCZ27017.1|TolQ                                    33.68%    passed     80.94%
+ 439  0448|_Entero|_|spNA|13b|KTS00194.1|TolQ                                    33.68%    passed     72.34%
+ 440  0449|_Entero|_|spNA|13a|KGT88022.1|TolQ                                    34.20%    passed     59.56%
+ 441  0450|_Entero|_|spNA|13b|KGT90418.1|TolQ                                    33.16%    passed     83.47%
+ 442  0451|_Entero|_|spNA|13a|CBJ45852.1|TolQ                                    33.16%    passed     78.13%
+ 443  0452|_Entero|_|spNA|1|AGG30445.1|AQB                                       33.16%    passed     52.93%
+ 444  0453|_Entero|_|spNA|1|AOM40810.1|TolQ                                      33.68%    passed     76.69%
+ 445  0454|_Entero|_|spGamma_FB21||AVQ86734.1|TolQ                               33.68%    passed     78.35%
+ 446  0455|_Entero|_|spNA|25|WP_036768516.1|TolQ                                 33.68%    passed     78.35%
+ 447  0456|_Entero|_|spNA||PHZ59005.1|TolQ                                       33.68%    passed     95.41%
+ 448  0457|_Entero|_|spGamma_FB21|1_2_FB21|GAA03687.1|TolQ                       33.68%    passed     95.41%
+ 449  0458|_Entero|_|spnonEntGamma_L07|1_2_FB21|CAG20932.1|TolQ                  34.20%    passed     97.86%
+ 450  0459|_Gamma|_|spNA||QEO41016.1|TolQ                                        34.20%    passed     93.87%
+ 451  0460|_Entero|_|spNa_||AAF94987.1|TolQ                                      34.20%    passed     93.87%
+ 452  0461|_Entero|_|spH_||EEW05830.1|TolQ                                       34.20%    passed     95.06%
+ 453  0462|_Gamma|_|spNA||BAC59320.1|TolQ                                        35.23%    passed     92.99%
+ 454  0463|_Entero|_|spNa_||EAS74793.1|TolQ                                      33.68%    passed     86.32%
+ 455  0464|_Entero|_|spGamma_FB21||BAC95042.1|TolQ                               33.68%    passed     77.42%
+ 456  0465|_Entero|_|spNa_||EAP93946.1|TolQ                                      33.68%    passed     86.96%
+ 457  0466|_Entero|_|spNA||EDL51083.1|TolQ                                       34.20%    passed     92.18%
+ 458  0467|_Entero|_|spGamma_FB21||EPE37425.1|TolQ                               33.68%    failed      4.01%
+ 459  0468|_Entero|_|spNa_||AAW85453.1|TolQ                                      33.68%    passed     92.51%
+ 460  0469|_Entero|_|spGamma_FB21||GAC25466.1|TolQ                               34.72%    passed     87.54%
+ 461  0470|_Entero|_|spGamma_FB21||AFS36759.1|TolQ                               37.31%    passed     97.23%
+ 462  0471|_Entero|_|spGamma_FB21||GAC35712.1|TolQ                               35.23%    passed     66.15%
+ 463  0472|_Entero|_|spNA||AEP29364.1|TolQ                                       45.08%    passed     99.46%
+ 464  0473|_Entero|_|spGamma_FB21||EAR26520.1|transport                          35.23%    passed     91.13%
+ 465  0474|_Entero|_|spGamma_FB21||CCQ12287.1|AQB                                34.72%    passed     80.84%
+ 466  0475|_Entero|_|spGamma_FB21||EHR39775.1|TolQ                               34.20%    passed     86.27%
+ 467  0476|_Entero|_|spnonEntGamma_L07||AAZ25922.1|TolQ                          41.45%    passed     98.14%
+ 468  0477|_Entero|_|spGamma_FB21||EKB21204.1|TolQ                               34.20%    passed     82.08%
+ 469  0478|_Entero|_|spNa_||ABK36945.1|TolQ                                      34.20%    passed     84.88%
+ 470  0479|_Entero|_|spGamma_FB21||ATP08218.1|ExbB                               34.20%    passed     88.65%
+ 471  0480|_Entero|_|spH_||QCG49074.1|TolQ                                       34.20%    passed     97.39%
+ 472  0481|_Entero|_|spnonEntGamma_L07||AAV81923.1|TonB_transp                   35.23%    passed     79.07%
+ 473  0482|_Entero|_|spNA||UXK07175.1|TolQ                                       34.72%    passed     87.97%
+ 474  0483|_Entero|_|spNa-H_interchange||AAN55779.1|TolQ                         35.75%    passed     96.40%
+ 475  0484|_Entero|_|spGamma_FB21|1_2_FB21|ABV36465.1|AQB                        33.16%    passed     97.32%
+ 476  0485|_Entero|_|spNA||BAJ01758.1|AQB                                        34.20%    passed     97.13%
+ 477  0486|_Gamma|_|spNA||AAG04358.1|TolQ                                        33.16%    passed     63.82%
+ 478  0487|_Gamma|_|spH_||AOP59474.1|TolQ                                        33.16%    passed     63.82%
+ 479  0488|_Gamma|_|spGamma_FB21||AAY36463.1|TolQ                                32.64%    passed     57.82%
+ 480  0489|_Gamma|_|spNA||ABZ00088.1|TolQ                                        33.16%    passed     50.22%
+ 481  0490|_Gamma|_|spNA||ADZ91220.1|TolQ                                        33.16%    passed     95.54%
+ 482  0491|_Gamma|_|spGamma_FB21||ABM18786.1|TolQ                                33.16%    passed     48.44%
+ 483  0492|_Gamma|_|spNA||CCG95070.1|TolQ                                        33.16%    passed     48.44%
+ 484  0493|_Gamma|_|spGamma_FB21||EHJ06581.1|AQB                                 33.68%    passed     51.80%
+ 485  0494|_Gamma|_|spNA||ADP97802.1|AQB                                         33.68%    passed     48.50%
+ 486  0495|_Gamma|_|spNA||ABD81792.1|AQB                                         32.64%    passed     65.64%
+ 487  0496|_Gamma|_|spNA||MBU2984437.1|TolQ                                      32.64%    passed     65.64%
+ 488  0497|_Gamma|_|spNA||QEI18804.1|TolQ                                        32.64%    passed     81.58%
+ 489  0498|_Gamma|_|spnonEntGamma_L07||AOU50587.1|TolQ                           34.72%    passed     32.45%
+ 490  0499|_Gamma|_|spGamma_FB21||EGW20413.1|TolQ                                33.16%    passed     92.51%
+ 491  0500|_Gamma|_|spNA||AAU92519.1|TolQ                                        35.23%    passed     86.30%
+ 492  0501|_Gamma|_|spGamma_FB21||ABA56675.1|TolQ                                40.41%    passed     82.60%
+ 493  0502|_Gamma|_|spnonEntGamma_L07||AGH78623.1|TolQ                           33.68%    passed      6.50%
+ 494  0503|_Gamma|_|spNA||AAM42292.1|TolQ                                        33.68%    passed      6.50%
+ 495  0504|_Gamma|_|spGamma_FB21||ACL73312.1|TolQ                                33.68%    passed     65.16%
+ 496  0505|_Beta|_|spNA||ATU66653.1|TolQ                                         32.12%    passed     50.55%
+ 497  0506|_Gamma|_|spBeta_FB21||EGI76802.1|transport                            32.12%    passed     61.62%
+ 498  0507|_Beta|_|spNA||APW43236.1|TolQ                                         33.68%    passed     57.47%
+ 499  0508|_Gamma|_|spBeta_FB21||EED66374.1|TolQ                                 33.68%    passed     72.06%
+ 500  0509|_Beta|_|spNA||UBQ04634.1|TolQ                                         32.12%    passed     63.56%
+ 501  0510|_Gamma|_|spBeta_FB21||AAU49638.1|TolQ                                 35.23%    passed     77.85%
+ 502  0511|_Gamma|_|spNA||CAH36769.1|TolQ                                        35.23%    passed     77.85%
+ 503  0512|_Gamma|_|spNA||ABC37274.1|TolQ                                        34.20%    passed     68.57%
+ 504  0513|_Gamma|_|spBeta_FB21||CAQ70254.1|TolQ                                 34.20%    passed     53.32%
+ 505  0514|_Gamma|_|spBeta_FB21||CAJ50522.1|TolQ                                 33.68%    passed     51.15%
+ 506  0515|_Beta|_|spNA||QKS27990.1|TolQ                                         33.16%    passed     48.68%
+ 507  0516|_Gamma|_|spBeta_FB21||ABI58570.1|TolQ                                 33.68%    passed     60.63%
+ 508  0517|_Gamma|_|spBeta_FB21||ADE10757.1|TolQ                                 33.16%    passed     85.03%
+ 509  0518|_Gamma|_|spBeta_FB21|1_2_FB21|AAZ98162.1|AQB                          32.12%    passed     83.86%
+ 510  0519|_Gamma|_|spBeta_FB21||ACT48984.1|TolQ                                 32.64%    passed     61.32%
+ 511  0520|_Gamma|_|spBeta_FB21||ABE50609.1|TolQ                                 32.12%    passed     68.47%
+ 512  0521|_Gamma|_|spNA|1_2_FB21|AAQ58227.1|TolQ                                33.16%    passed     50.19%
+ 513  0522|_Gamma|_|spNA||ADY82611.1|TolQ_colchicin                              45.60%    passed     97.09%
+ 514  0523|_Alpha|_|spNA||AGR80198.1|TolQ                                        37.31%    passed      6.16%
+ 515  0524|_Entero|_|spNA|4|AFA41182.1|TolQ                                      35.75%    failed      1.13%
+ 516  0525|_Gamma|_|spNA||QBZ82916.1|ExbB                                        31.61%    passed     90.69%
+ 517  0526|_Alpha|_|spnonLab_FB21||ABK42996.1|TolQ                               44.04%    passed     96.02%
+ 518  0527|_Entero|_|spNA||QKY94846.1|tolPal_thioest                             44.56%    passed     80.73%
+ 519  0528|_Entero|_|spenteric|1_2_FB21|CBG36124.1|transport                     44.56%    passed     80.73%
+ 520  0531|_Entero|_|spNA|123b|POT56764.1|ExbB                                   47.15%    passed     47.60%
+ 521  0532|_Entero|_|spH_||AAL22033.1|enterochelin_uptake                        37.82%    passed     47.82%
+ 522  0533|_Entero|_|spNA|1|KIU31457.1|ExbB                                      47.67%    passed     45.02%
+ 523  0534|_Entero|_|spNA|13b|KOR01485.1|ExbB                                    47.15%    passed     54.53%
+ 524  0535|_Entero|_|spNA||QXB09426.1|tolPal_thioest                             44.04%    passed     73.86%
+ 525  0536|_Entero|_|spNA|12|GHD95986.1|ExbB                                     44.04%    passed     72.87%
+ 526  0537|_Entero|_|spNA|123a|KLP54537.1|ExbB                                   47.67%    passed     51.18%
+ 527  0538|_Entero|_|spNA|1|PAN73341.1|ExbB                                      47.67%    passed     51.18%
+ 528  0539|_Entero|_|spNA|13a|KLR17658.1|ExbB                                    47.15%    passed     43.05%
+ 529  0540|_Entero|_|spNA|1|CCJ73991.1|AQB                                       39.38%    passed     68.74%
+ 530  0541|_Entero|_|spNA|123b|RPH30908.1|ExbB                                   48.19%    passed     56.36%
+ 531  0542|_Entero|_|spNA|13a|KGT88661.1|ExbB                                    49.22%    passed     53.81%
+ 532  0543|_Entero|_|spNA|13b|KTR97245.1|ExbB                                    49.22%    passed     52.42%
+ 533  0544|_Entero|_|spNA|13a|TCZ27830.1|ExbB                                    47.15%    passed     24.75%
+ 534  0545|_Entero|_|spNA|13b|ORN00568.1|ExbB                                    45.08%    passed     67.97%
+ 535  0546|_Entero|_|spNA|1|ARU96960.1|ExbB                                      47.15%    passed     68.90%
+ 536  0547|_Entero|_|spNA|13a|CBJ47630.1|transport                               44.04%    passed     44.60%
+ 537  0548|_Entero|_|spNA|13b|KGT94672.1|ExbB                                    37.31%    passed     87.06%
+ 538  0549|_Entero|_|spenteric||ACT11404.1|ExbB                                  47.15%    passed     44.10%
+ 539  0550|_Entero|_|spNA|13b|RYJ18968.1|MotA                                    34.72%    passed     60.48%
+ 540  0551|_Entero|_|spNA|4|TCV98891.1|ExbB                                      47.15%    passed     30.92%
+ 541  0552|_Entero|_|spNA|14|AHF78573.1|transport                                47.15%    passed     39.79%
+ 542  0553|_Entero|_|spNA|123b|CNK81352.1|AQB                                    41.45%    passed     68.71%
+ 543  0554|_Entero|_|spNA|1|OWF78218.1|ExbB                                      41.45%    passed     68.71%
+ 544  0555|_Entero|_|spNA|1|KGA69320.1|ExbB                                      44.04%    passed     76.19%
+ 545  0556|_Entero|_|spNA|123b|CFQ35944.1|AQB                                    40.93%    passed     61.27%
+ 546  0557|_Entero|_|spNA|13b|EEQ11058.1|ExbB_wTonB                              44.04%    passed     74.29%
+ 547  0558|_Entero|_|spNA||AJJ56099.1|ExbB                                       38.34%    passed     55.25%
+ 548  0559|_Entero|_|spNA|12|AKS91098.1|ExbB                                     38.34%    passed     55.25%
+ 549  0560|_Entero|_|spNA||AJJ31614.1|ExbB                                       38.34%    passed     47.71%
+ 550  0561|_Entero|_|spH_||EDR30836.1|ExbB                                       38.34%    passed     47.71%
+ 551  0562|_Entero|_|spNA|123b|AMO83848.1|ExbB                                   37.31%    passed     87.27%
+ 552  0563|_Entero|_|spNA|12|EHM39528.1|ExbB                                     45.08%    passed     75.35%
+ 553  0564|_Entero|_|spNA||KFD15213.1|AQB                                        47.15%    passed     45.03%
+ 554  0565|_Entero|_|spNA|1|AOM41204.1|ExbB                                      43.52%    passed     86.66%
+ 555  0566|_Entero|_|spNA|1|AGG29908.1|AQB                                       53.89%    passed     57.58%
+ 556  0567|_Gamma|_|spGamma_FB21||AAY35278.1|ExbB                                46.63%    passed     77.89%
+ 557  0568|_Gamma|_|spNA||ABZ01236.1|ExbB                                        39.90%    passed     96.83%
+ 558  0569|_Alpha|_|spAlpha1_LO7||AHK70455.1|ExbB                                46.63%    passed     65.54%
+ 559  0570|_Alpha|_|spAlpha1_LO7||AHK70543.1|ExbB                                47.67%    passed     71.75%
+ 560  0571|_Alpha|_|spNA||ADE86105.1|ExbB                                        58.03%    passed     53.96%
+ 561  0572|_Alpha|_|spNA||ABA05299.1|ExbB                                        45.60%    passed     80.64%
+ 562  0573|_Alpha|_|spNA||ABA03969.1|ExbB                                        45.60%    passed     80.64%
+ 563  0574|_Alpha|_|spAlpha_FB21||ABS61998.1|ExbB                                36.27%    passed     55.23%
+ 564  0575|_Alpha|_|spNA|1_2_FB21|BAL07623.1|transport                           44.56%    passed     90.27%
+ 565  0576|_Alpha|_|spNA||ABQ60495.1|ExbB                                        50.26%    passed     77.01%
+ 566  0577|_Alpha|_|spAlpha2_LO7||AAK85982.1|transport                           46.11%    passed     58.77%
+ 567  0578|_Alpha|_|spNA||WP_015921325.1|ExbB                                    48.19%    passed     79.41%
+ 568  0579|_Alpha|_|spAlpha2_LO7||CAC46090.1|transport                           51.30%    passed     72.98%
+ 569  0580|_Alpha|_|spNA||CDK97637.1|ExbB                                        46.63%    passed     90.19%
+ 570  0581|_Alpha|_|spNA||ABA05559.1|ExbB                                        39.38%    passed     70.04%
+ 571  0582|_Alpha|_|spNA||ABA04528.1|ExbB                                        39.38%    passed     70.04%
+ 572  0583|_Alpha|_|spNA|1_2_FB21|BAL11187.1|transport                           35.75%    passed     51.97%
+ 573  0584|_Alpha|_|spNA||ADL01024.1|AQB                                         51.81%    passed     15.80%
+ 574  0585|_Alpha|_|spNA||ACL95886.1|ExbB                                        48.70%    passed     15.69%
+ 575  0586|_Alpha|_|spNA||QNQ08778.1|TolQ                                        32.64%    passed     51.81%
+ 576  0587|_Alpha|_|spNA||BAK64925.1|TolQ                                        41.97%    passed     82.53%
+ 577  0588|_Alpha|_|spAlpha_FB21||ACV75590.1|AQB                                 33.68%    passed     40.95%
+ 578  0589|_Alpha|_|spAlpha1_LO7||AHK71676.1|TolQ                                44.04%    passed     79.26%
+ 579  0590|_Alpha|_|spAlpha2_LO7||CAC47321.1|transport                           46.63%    passed     92.30%
+ 580  0591|_Alpha|_|spAlpha2_LO7||AAK89688.2|TolQ                                46.63%    passed     99.04%
+ 581  0592|_Alpha|_|spNA||ABQ61581.1|TolQ                                        47.67%    passed     80.84%
+ 582  0593|_Alpha|_|spNA||ABA05973.1|TolQ                                        46.63%    passed     84.91%
+ 583  0594|_Alpha|_|spNA|1_2_FB21|BAL07539.1|HYP_BJ6T_22600                      46.63%    passed     89.01%
+ 584  0595|_Alpha|_|spNA||AIQ88683.1|TolQ                                        44.04%    passed     86.50%
+ 585  0596|_Alpha|_|spNA||BAG40198.1|TolQ                                        46.63%    passed     51.17%
+ 586  0597|_Alpha|_|spNA||AEI88825.1|TolQ                                        33.16%    passed     52.31%
+ 587  0598|_Alpha|_|spAlpha_FB21||ABS63733.1|TolQ                                46.63%    passed     84.07%
+ 588  0599|_Alpha|_|spNA||ADL00174.1|TolQ                                        47.67%    passed     74.55%
+ 589  0600|_Alpha|_|spNA||ACL96805.1|TolQ                                        45.60%    passed     74.31%
+ 590  0601|_Alpha|_|spNA||AEO47594.1|AQB                                         38.34%    passed     86.60%
+ 591  0602|_Alpha|_|spNA||AIK95558.1|ExbB                                        37.82%    passed     93.99%
+ 592  0603|_Alpha|_|spNA||CDK97994.1|TolQ                                        37.82%    passed     97.40%
+ 593  0604|_Alpha|_|spAlpha_FB21||ABI77898.1|TolQ                                45.60%    passed     96.21%
+ 594  0605|_Alpha|_|spNA||AEP09506.1|TolQ                                        33.68%    passed     53.78%
+ 595  0606|_Alpha|_|spAlpha_FB21||ADE40539.1|transport                           45.60%    passed     61.56%
+ 596  0607|_Alpha|_|spNA||AIQ91305.1|TolQ                                        36.27%    passed     33.74%
+ 597  0608|_Alpha|_|spNA||AEO48685.1|AQB                                         44.56%    passed     75.43%
+ 598  0609|_Alpha|_|spNA||ADE86923.1|TolQ                                        33.68%    passed     88.26%
+ 599  0610|_Alpha|_|spNA||WP_002720852.1|TolQ                                    35.75%    passed     90.72%
+ 600  0611|_Alpha|_|spAlpha_FB21||AGI73193.1|TolQ                                32.64%    passed     99.91%
+ 601  0612|_Alpha|_|spNA||BDB95989.1|HYP_HYD_1220                                49.74%    passed     18.92%
+ 602  0613|_Zeta|_|spNA||ATX81939.1|TolQ                                         37.31%    passed     79.17%
+ 603  0614|_Zeta|_|spNA||ATX79746.1|TolQ                                         29.53%    passed     77.64%
+ 604  0615|_Chlorobi|_|spNA||ACF11057.1|TolQ                                     35.75%    passed     92.03%
+ 605  0616|_Chlorobi|_|spNA||ACF44367.1|TolQ                                     45.08%    passed     69.71%
+ 606  0617|_Chlorobi|_|spNA||ABL64907.1|TolQ                                     43.01%    passed     79.90%
+ 607  0618|_Chlorobi|_|spNA||ACD89825.1|TolQ                                     34.72%    passed     77.06%
+ 608  0619|_Delta|_|spNA||AQV01680.1|TolQ                                        44.04%    passed     60.70%
+ 609  0620|_Desulfo|_|spDelta_FB21||ACN16142.1|TolQ1                             48.19%    passed     84.36%
+ 610  0621|_Desulfo|_|spDelta_FB21||SHI78763.1|TolQ                              47.15%    passed     56.86%
+ 611  0622|_Desulfo|_|spNA||AAS97570.1|TolQ                                      38.34%    passed     78.53%
+ 612  0623|_Desulfo|_|spDelta_FB21||WP_011369302.1|TolQ                          37.82%    passed     97.15%
+ 613  0624|_Desulfo|_|spDelta_FB21||AGC50118.1|AQB                               45.60%    passed     82.64%
+ 614  0625|_Desulfo|_|spNA||AAS96861.1|TolQ                                      45.08%    passed     63.26%
+ 615  0626|_Desulfo|_|spDelta_FB21||BAH74880.1|TolQ                              45.08%    passed     97.65%
+ 616  0627|_Desulfo|_|spDelta_FB21||ACV68872.1|AQB                               38.86%    passed     64.95%
+ 617  0628|_Delta|_|spNA||CAG37138.1|TolQ                                        39.90%    passed     12.96%
+ 618  0629|_Delta|_|spNA||ABF91581.1|AQB                                         45.08%    passed     49.19%
+ 619  0630|_Delta|_|spNA||UEO06636.1|AQB                                         45.08%    passed     49.19%
+ 620  0631|_Delta|_|spNA||AFE07999.1|AQB                                         44.56%    passed     13.40%
+ 621  0632|_Delta|_|spNA||ADO74176.1|gliding                                     44.56%    passed     45.30%
+ 622  0633|_Delta|_|spNA||ACL64052.1|TolQ                                        44.56%    passed     98.59%
+ 623  0634|_Delta|_|spNA||AWV88602.1|MotA                                        44.04%    passed     75.08%
+ 624  0635|_Bdellovibrionota|_|spNA||AHZ85825.1|gliding                          48.19%    passed     80.73%
+ 625  0636|_Delta|_|spNA||AAR33363.1|TolQ                                        44.56%    passed     94.98%
+ 626  0637|_Desulfo|_|spDelta_FB21||ACH40503.1|TolQ                              44.04%    passed     89.89%
+ 627  0638|_Desulfo|_|spDelta_FB21||ABA90213.1|TolQ                              30.05%    passed     80.13%
+ 628  0639|_Acido|_|spNA||AFL88606.1|transport                                   46.11%    passed     82.91%
+ 629  0640|_Acido|_|spNA||AFL88265.1|transport                                   46.11%    passed     82.91%
+ 630  0641|_Acido|_|spNA||ACO32834.1|AQB                                         47.67%    passed     75.43%
+ 631  0642|_Acido|_|spNA||QOY87643.1|AQB                                         46.11%    passed     97.14%
+ 632  0643|_Acido|_|spNA||QTD52661.1|AQB                                         45.60%    passed     91.59%
+ 633  0644|_Nitrospirae|_|spNA||SLM46359.1|TolQ                                  47.67%    passed     87.92%
+ 634  0645|_Nitrospirae|_|spNA||ALA60092.1|TolQ                                  47.15%    passed     36.65%
+ 635  0646|_Nitrospirae|_|spNA||BAM06957.1|AQB                                   45.60%    passed     30.04%
+ 636  0647|_Nitrospirae|_|spNA||BCB95125.1|TolQ                                  37.82%    passed     18.94%
+ 637  0648|_Nitrospirae|_|spNA||ACI22061.1|TolQ                                  38.34%    passed     18.85%
+ 638  0649|_Delta|_|spNA||ABC76751.1|TolQ                                        46.63%    passed     91.71%
+ 639  0650|_Beta|_|spNA||UBQ06174.1|AQB                                          45.60%    passed     13.61%
+ 640  0651|_Gamma|_|spBeta_FB21||EGI77876.1|AQB                                  41.97%    passed     51.47%
+ 641  0652|_Beta|_|spNA||APW42557.1|biopoly_transp                               43.52%    passed     39.14%
+ 642  0653|_Gamma|_|spBeta_FB21||EED66570.1|AQB                                  45.08%    passed     80.00%
+ 643  0654|_Gamma|_|spBeta_FB21||AAU45830.1|AQB                                  44.56%    passed     77.05%
+ 644  0655|_Gamma|_|spNA||CAH37815.1|bipolymer                                   44.56%    passed     77.05%
+ 645  0657|_Gamma|_|spBeta_FB21||CAQ69978.1|transport                            45.60%    passed     58.82%
+ 646  0658|_Gamma|_|spNA||QEI19039.1|AQB                                         47.67%    passed     86.36%
+ 647  0659|_Entero|_|spNA|4|TCV93520.1|ExbB                                      46.63%    passed     35.94%
+ 648  0660|_Entero|_|spenteric||ACT12196.1|AQB                                   48.70%    passed     76.12%
+ 649  0661|_Beta|_|spNA||ATU64277.1|AQB                                          46.63%    passed     29.25%
+ 650  0662|_Gamma|_|spNA||ADY81560.1|ExbB                                        48.70%    passed     82.11%
+ 651  0663|_Alpha|_|spAlpha1_LO7||AHK71268.1|ExbB                                46.11%    passed     72.48%
+ 652  0664|_Gamma|_|spNA|1_2_FB21|AAQ59644.1|transport                           47.15%    passed     12.46%
+ 653  0665|_Gamma|_|spNA|1_2_FB21|AAQ59656.1|transport                           47.15%    passed     12.46%
+ 654  0666|_Alpha|_|spNA||QNQ10683.1|AQB                                         33.16%    passed     71.98%
+ 655  0667|_Alpha|_|spNA||BAK66119.1|ExbB                                        45.08%    passed     88.63%
+ 656  0668|_Alpha|_|spAlpha_FB21||ACV76042.1|AQB                                 34.72%    passed     64.23%
+ 657  0669|_Alpha|_|spAlpha_FB21||ABS62619.1|AQB                                 41.97%    passed     53.19%
+ 658  0670|_Gamma|_|spGamma_FB21||AAY39527.1|ExbB                                46.11%    passed     74.81%
+ 659  0671|_Beta|_|spNA||ATU67891.1|AQB                                          45.60%    passed     84.30%
+ 660  0672|_Beta|_|spNA||APW44370.1|MotA                                         44.04%    passed     56.82%
+ 661  0673|_Gamma|_|spBeta_FB21||EED70308.1|AQB                                  45.08%    failed      1.61%
+ 662  0674|_Gamma|_|spBeta_FB21||AAU49703.1|AQB                                  45.60%    passed     28.25%
+ 663  0675|_Gamma|_|spNA||CAH36950.1|transport                                   45.60%    passed     28.25%
+ 664  0677|_Gamma|_|spnonEntGamma_L07||AGH75547.1|ExbB                           44.04%    passed     73.36%
+ 665  0678|_Gamma|_|spNA||AAM39328.1|ExbB                                        44.04%    passed     73.36%
+ 666  0679|_Gamma|_|spBeta_FB21||ABE49145.1|ExbB                                 38.86%    passed     93.93%
+ 667  0680|_Gamma|_|spBeta_FB21||ABE49289.1|ExbB                                 38.86%    passed     93.93%
+ 668  0681|_Gamma|_|spBeta_FB21||ACT49009.1|AQB                                  33.16%    passed     65.42%
+ 669  0682|_Gamma|_|spGamma_FB21||EGW21661.1|AQB                                 43.01%    passed     92.29%
+ 670  0683|_Beta|_|spNA||QKS29082.1|AQB                                          44.56%    passed     40.81%
+ 671  0684|_Gamma|_|spBeta_FB21|1_2_FB21|AAZ96864.1|AQB                          40.93%    passed     58.28%
+ 672  0685|_Gamma|_|spBeta_FB21||ABI59859.1|ExbB                                 40.41%    passed     81.90%
+ 673  0686|_Beta|_|spNA||ATU63282.1|ExbB                                         42.49%    passed     52.91%
+ 674  0687|_Gamma|_|spBeta_FB21||CAJ49729.1|transport                            38.86%    passed     65.58%
+ 675  0688|_Gamma|_|spBeta_FB21|1_2_FB21|AAZ96665.1|AQB                          41.97%    passed     93.93%
+ 676  0689|_Entero|_|spNa_||ABK38297.1|AQB                                       44.56%    passed     71.84%
+ 677  0690|_Entero|_|spGamma_FB21||ATP09946.1|ExbB                               44.04%    passed     59.03%
+ 678  0691|_Gamma|_|spNA||ADY83951.1|AQB                                         40.41%    passed     66.62%
+ 679  0692|_Gamma|_|spGamma_FB21||ACL71953.1|AQB                                 30.57%    passed     38.11%
+ 680  0693|_Gamma|_|spNA|1_2_FB21|AAQ58077.1|ExbB                                44.56%    passed     63.83%
+ 681  0694|_Beta|_|spNA||SNW07143.1|ExbB                                         48.19%    passed     53.35%
+ 682  0695|_Gamma|_|spGamma_FB21||EGW23523.1|AQB                                 39.90%    passed     45.28%
+ 683  0696|_Gamma|_|spGamma_FB21||EGW23455.1|AQB                                 44.56%    passed     84.82%
+ 684  0697|_Gamma|_|spNA||AAU93206.1|AQB                                         46.63%    passed     93.74%
+ 685  0698|_Gamma|_|spNA||AAU90374.1|AQB                                         44.56%    passed     85.52%
+ 686  0699|_Gamma|_|spBeta_FB21||ADE11626.1|AQB                                  33.16%    passed     56.36%
+ 687  0700|_Gamma|_|spBeta_FB21||ACT47011.1|AQB                                  44.56%    passed     96.33%
+ 688  0701|_Gamma|_|spBeta_FB21||ABE49827.1|ExbB                                 33.68%    passed     78.10%
+ 689  0702|_Gamma|_|spGamma_FB21||EGW23398.1|AQB                                 46.63%    passed     96.44%
+ 690  0703|_Gamma|_|spNA||ADY81773.1|ExbB                                        45.08%    passed     92.94%
+ 691  0704|_Gamma|_|spNA||ADY81763.1|ExbB                                        40.41%    passed     91.90%
+ 692  0705|_Gamma|_|spNA||QEI19895.1|AQB                                         46.11%    passed     96.72%
+ 693  0706|_Gamma|_|spGamma_FB21||AAY39511.1|ExbB                                44.56%    passed     87.67%
+ 694  0707|_Gamma|_|spNA||AAG03587.1|ExbB                                        40.93%    passed     75.45%
+ 695  0708|_Gamma|_|spH_||AOP55732.1|ExbB                                        40.93%    passed     75.45%
+ 696  0709|_Gamma|_|spGamma_FB21||AAY37331.1|ExbB                                45.60%    passed     81.68%
+ 697  0710|_Gamma|_|spNA||ABZ01109.1|AQB                                         46.11%    passed     91.76%
+ 698  0711|_Entero|_|spenteric||ACT11209.1|AQB                                   44.56%    passed     97.44%
+ 699  0712|_Entero|_|spNA|1|ARU98537.1|ExbB                                      44.04%    passed     94.10%
+ 700  0713|_Gamma|_|spGamma_FB21||AAY35209.1|ExbB                                44.04%    passed     98.61%
+ 701  0714|_Entero|_|spNA|4|TCV98947.1|ExbB                                      46.11%    passed     62.04%
+ 702  0715|_Alpha|_|spnonLab_FB21||ABK46047.1|ExbB                               46.63%    passed     27.92%
+ 703  0716|_Delta|_|spNA||AUX20279.1|TolQ                                        46.11%    passed     66.56%
+ 704  0717|_Epsilon|_|spNA||CAL34348.1|transport                                 40.41%    passed     46.49%
+ 705  0718|_Chlamydiae|_|spNA||AVM88605.1|AQB                                    46.11%    passed     94.94%
+ 706  0719|_Chlamydiae|_|spNA||AAC68198.1|polysaccharide_transporter             46.11%    passed     88.62%
+ 707  0720|_Chlamydiae|_|spNA||AGW38400.1|transport                              46.63%    passed     59.89%
+ 708  0721|_Chlamydiae|_|spNA||AAP98742.1|ExbB                                   45.60%    passed     11.88%
+ 709  0722|_Chlamydiae|_|spNA||CCB87689.1|unk                                    43.01%    passed     50.55%
+ 710  0723|_Lentisphaerae|_|spNA||AVM45096.1|HYP_C5Q97_10465                     44.56%    passed     89.39%
+ 711  0724|_Verrucomicrobia|_|spNA||ACB76604.1|AQB                               41.45%    passed     58.45%
+ 712  0725|_Verrucomicrobia|_|spNA||ATC65746.1|MotA                              44.04%    passed     61.33%
+ 713  0726|_Verrucomicrobia|_|spNA||AWI09757.1|MotA                              44.04%    passed     20.19%
+ 714  0727|_Kiritimatiellaeota|_|spNA||AKJ63346.1|ExbB                           44.04%    failed      1.68%
+ 715  0728|_Verrucomicrobia|_|spNA||QSR84055.1|AQB                               44.04%    passed     97.49%
+ 716  0729|_Verrucomicrobia|_|spNA||DGBBEKCF_00127|TolQ                          46.11%    passed     70.70%
+ 717  0730|_Verrucomicrobia|_|spNA||ALJ56928.1|ExbB                              44.04%    passed     71.95%
+ 718  0731|_Nitrospirae|_|spNA||ALA61164.1|AQB                                   44.04%    passed     93.29%
+ 719  0732|_Verrucomicrobia|_|spNA||QJE97904.1|DUF2341                           44.56%    passed     88.51%
+ 720  0733|_Verrucomicrobia|_|spNA||QJE95399.1|HYP_HHL09_06260                   39.90%    passed     61.51%
+ 721  0734|_Gamma|_|spBeta_FB21|1_2_FB21|AAZ96310.1|ExbB2                        45.60%    passed     76.90%
+ 722  0735|_Gamma|_|spNA||AAU91782.1|AQB                                         47.15%    passed     63.11%
+ 723  0736|_Gamma|_|spNA||AAG04082.1|ExbB2                                       44.04%    passed     92.90%
+ 724  0737|_Gamma|_|spH_||AOP59747.1|ExbB                                        44.04%    passed     92.90%
+ 725  0738|_Alpha|_|spNA||QNQ08565.1|DUF2341                                     47.15%    passed     86.01%
+ 726  0739|_Gamma|_|spBeta_FB21||ABE50669.1|ExbB                                 31.61%    passed     34.10%
+ 727  0740|_Fibrobacteres|_|spNA||QQS05379.1|AQB                                 33.68%    passed     16.31%
+ 728  0741|_Fibrobacteres|_|spNA||ACX73814.1|AQB                                 44.56%    passed     88.48%
+ 729  0742|_Gemmatimonadetes|_|spNA||QJR34845.1|HYP_HKW67_04610                  45.08%    passed     92.03%
+ 730  0743|_Gemmatimonadetes|_|spNA||BAH38987.1|transport                        44.56%    passed     76.52%
+ 731  0744|_Gemmatimonadetes|_|spNA||AMW06740.1|HYP_GEMMAAP_10105                44.04%    passed     78.11%
+ 732  0745|_Delta|_|spNA||ABF92363.1|AQB                                         37.82%    passed     87.62%
+ 733  0746|_Delta|_|spNA||UEO03725.1|AQB                                         37.82%    passed     87.62%
+ 734  0747|_Delta|_|spNA||AFE10515.1|AQB                                         37.82%    passed     90.89%
+ 735  0748|_Delta|_|spNA||ADO70054.1|TolQ                                        37.82%    passed     94.31%
+ 736  0749|_Delta|_|spNA||AUX23472.1|MotA                                        48.19%    passed     68.71%
+ 737  0750|_Delta|_|spNA||ACL63649.1|AQB                                         49.22%    passed     57.81%
+ 738  0751|_Delta|_|spNA||ABF92421.1|TolQ_ExbB_wTonB                             48.19%    passed     37.22%
+ 739  0752|_Delta|_|spNA||UEO04809.1|AQB                                         48.19%    passed     37.22%
+ 740  0753|_Delta|_|spNA||AFE08686.1|TolQ_ExbB_wTonB                             47.15%    passed     50.18%
+ 741  0754|_Delta|_|spNA||AUX24210.1|MotA                                        46.63%    passed     15.82%
+ 742  0755|_Gemmatimonadetes|_|spNA||QJR34785.1|MotA                             44.56%    passed     54.68%
+ 743  0756|_Gemmatimonadetes|_|spNA||BAH39052.1|transport                        44.56%    passed     52.02%
+ 744  0757|_Acido|_|spNA||AFL86415.1|transport                                   32.12%    passed     67.52%
+ 745  0758|_Acido|_|spNA||ACO31817.1|AQB                                         31.09%    passed     57.07%
+ 746  0759|_Acido|_|spNA||QOY88067.1|AQB                                         34.20%    passed     64.94%
+ 747  0760|_Acido|_|spNA||QUV79767.1|AQB                                         32.64%    passed     51.54%
+ 748  0761|_Acido|_|spNA||QOY89541.1|AQB                                         45.08%    passed     39.82%
+ 749  0762|_Elusimicrobia|_|spNA||AKL98121.1|AQB                                 37.82%    passed      5.45%
+ 750  0763|_Aquificota|_|spNA||AAC07592.1|ExbB                                   53.37%    passed     14.59%
+ 751  0764|_Aquificota|_|spNA||ADO46046.1|ExbB                                   53.89%    passed     65.62%
+ 752  0765|_Aquificota|_|spNA||AHE95642.1|ExbB                                   52.85%    passed     14.06%
+ 753  0766|_Delta|_|spNA||ABC78648.1|TolQ                                        54.92%    passed      8.14%
+ 754  0767|_Nitrospirae|_|spNA||SLM48220.1|ExbB                                  55.96%    passed     17.64%
+ 755  0768|_Nitrospirae|_|spNA||ALA57346.1|ExbB                                  55.96%    passed     11.85%
+ 756  0769|_Deferri|_|spNA||ADD67695.1|ExbB                                      52.85%    passed     24.82%
+ 757  0770|_Epsilon|_|spNA||AOO66396.1|TolQ                                      46.63%    failed      2.20%
+ 758  0771|_Epsilon|_|spNA||ADG93510.1|ExbB                                      50.26%    passed     14.32%
+ 759  0772|_Epsilon|_|spNA||ADN08701.1|ExbB                                      53.89%    passed     47.00%
+ 760  0773|_Epsilon|_|spNA||AKF25943.1|ExbB                                      43.01%    passed     69.51%
+ 761  0774|_Epsilon|_|spH_||AFV42666.1|transport                                 54.40%    passed     67.81%
+ 762  0775|_Epsilon|_|spNA||CAL35725.1|ExbB_TolQ                                 53.89%    passed     16.51%
+ 763  0776|_Epsilon|_|spH_||AFV42557.1|transport                                 52.33%    passed     19.87%
+ 764  0777|_Epsilon|_|spNA||ALF47140.1|ExbB                                      51.81%    passed     17.50%
+ 765  0778|_Campylo|_|spEpsilon_FB21||CAE10490.1|ExbB                            51.81%    passed     38.18%
+ 766  0779|_Epsilon|_|spNA||AOO66288.1|ExbB                                      52.33%    passed     69.30%
+ 767  0780|_Gamma|_|spNA||QBZ83654.1|ExbB                                        53.37%    passed     36.89%
+ 768  0781|_Campylo|_|spEpsilon_FB21||CAE09990.1|ExbB                            50.78%    passed     94.35%
+ 769  0782|_Epsilon|_|spNA||AOO66426.1|TolQ                                      55.96%    passed     46.20%
+ 770  0783|_Bdellovibrionota|_|spNA||AHZ86092.1|TolQ                             38.34%    passed     75.65%
+ 771  0784|_Spirochaetes|_|spNA||EKT87439.2|TolQ                                 44.56%    passed     72.59%
+ 772  0785|_Spirochaetes|_|spNA||AAS72242.1|ExbB                                 45.08%    passed     73.54%
+ 773  0786|_Spirochaetes|_|spNa__or_H_||ABZ99622.1|AQB                           42.49%    passed     21.72%
+ 774  0787|_Spirochaetes|_|spNa__or_H_||ABZ99085.1|ExbB                          37.31%    passed     44.30%
+ 775  0788|_Epsilon|_|spNA||CAL34280.1|AQB                                       47.67%    failed      2.30%
+ 776  0789|_Epsilon|_|spNA||ALF47162.1|TolQ                                      45.60%    passed      6.50%
+ 777  0790|_Epsilon|_|spNA||AOO64467.1|ExbB                                      53.89%    passed     54.51%
+ 778  0791|_Campylo|_|spEpsilon_FB21||CAE09655.1|ExbB_TolQ                       46.11%    passed     21.09%
+ 779  0792|_Epsilon|_|spH_||AFV42343.1|transport                                 44.04%    passed     39.73%
+ 780  0793|_Epsilon|_|spNA||AKF24510.1|biopoly_transp                            49.74%    passed     22.27%
+ 781  0794|_Epsilon|_|spNA||ADG93991.1|AQB                                       55.96%    passed      7.20%
+ 782  0795|_Epsilon|_|spNA||ADN08827.1|AQB                                       48.70%    passed     21.83%
+ 783  0796|_Campylo|_|spEpsilon_FB21||ACM93623.1|ExbB_TolQ                       52.33%    passed     26.84%
+ 784  0797|_Fibrobacteres|_|spNA||QQS07012.1|AQB                                 45.60%    passed     99.58%
+ 785  0798|_Fibrobacteres|_|spNA||QQS07007.1|AQB                                 45.08%    passed     97.60%
+ 786  0799|_Fibrobacteres|_|spNA||QQS07765.1|AQB                                 43.01%    passed     37.31%
+ 787  0800|_Delta|_|spNA||ABF90492.1|AQB                                         36.79%    passed     91.18%
+ 788  0801|_Delta|_|spNA||UEO05991.1|AQB                                         36.79%    passed     91.18%
+ 789  0802|_Delta|_|spNA||ABF85904.1|AQB                                         36.27%    passed     94.36%
+ 790  0803|_Delta|_|spNA||UEO04322.1|AQB                                         36.27%    passed     94.36%
+ 791  0804|_Delta|_|spNA||AFE08685.1|AQB                                         36.79%    passed     89.57%
+ 792  0805|_Delta|_|spNA||ADO76074.1|AQB                                         38.34%    passed     77.81%
+ 793  0806|_Delta|_|spNA||ADO75002.1|AQB                                         37.31%    passed     95.38%
+ 794  0807|_Delta|_|spNA||ACL64950.1|AQB                                         37.31%    passed      6.93%
+ 795  0808|_Delta|_|spNA||AWV89332.1|AQB                                         38.34%    passed     86.11%
+ 796  0809|_Elusimicrobia|_|spNA||UPT74212.1|AQB                                 49.74%    passed     49.43%
+ 797  0810|_Delta|_|spNA||AUX23532.1|biopoly_transp                              33.16%    failed      1.92%
+ 798  0811|_Elusimicrobia|_|spNA||UPT75425.1|AQB                                 39.90%    passed     23.20%
+ 799  0812|_Elusimicrobia|_|spNA||UPT76060.1|AQB                                 45.60%    passed     80.69%
+ 800  0813|_Delta|_|spNA||ABF91342.1|AQB                                         34.20%    passed     47.81%
+ 801  0814|_Delta|_|spNA||UEO07578.1|AQB                                         34.20%    passed     47.81%
+ 802  0815|_Delta|_|spNA||AFE10516.1|AQB                                         34.20%    passed     30.01%
+ 803  0816|_Delta|_|spNA||ADO73220.1|AQB                                         35.23%    passed     28.17%
+ 804  0817|_Delta|_|spNA||ACL67494.1|AQB                                         35.75%    passed      8.13%
+ 805  0818|_Elusimicrobia|_|spNA||UPT72845.1|AQB                                 42.49%    passed     60.65%
+ 806  0819|_Elusimicrobia|_|spNA||UPT72618.1|AQB                                 46.63%    passed     35.29%
+ 807  0820|_Cyano|_|spNA||BAC89082.1|gll1141                                     46.63%    passed     40.39%
+ 808  0821|_Omnitrophica|_|spNA||QAT17178.1|HYP_BU251_05250                      36.27%    passed     61.18%
+ 809  0822|_Epsilon|_|spNA||ADG92738.1|AQB                                       39.38%    failed      1.43%
+ 810  0823|_Epsilon|_|spNA||ADG92304.1|AQB                                       45.60%    failed      1.43%
+ 811  0824|_Fibrobacteres|_|spNA||ACX75330.1|AQB                                 40.41%    passed     50.33%
+ 812  0825|_Gamma|Na_PROB|spNA||AAG04849.1|MotC                                  38.86%    passed     98.20%
+ 813  0826|_Gamma|Na_PROB|spH_||AOP58989.1|flag                                  38.86%    passed     98.20%
+ 814  0827|_Gamma|_|spGamma_FB21||AAY38464.1|AQB                                 38.34%    passed     97.99%
+ 815  0828|_Gamma|Na_|spNA||ABY99795.1|AQB                                       37.82%    passed     94.13%
+ 816  0829|_Gamma|_|spNA||ABD81419.1|AQB                                         38.86%    passed     53.72%
+ 817  0830|_Gamma|_|spNA||MBU2985819.1|flag                                      38.86%    passed     53.72%
+ 818  0831|_Gamma|_|spNA||QEI19744.1|flag                                        38.34%    passed     53.51%
+ 819  0832|_Gamma|_|spGamma_FB21||ABM19051.1|AQB                                 41.45%    passed     93.36%
+ 820  0833|_Gamma|_|spNA||CCG94812.1|transport                                   41.45%    passed     93.36%
+ 821  0834|_Gamma|_|spGamma_FB21||EHJ04494.1|flag                                41.45%    passed     96.29%
+ 822  0835|_Gamma|_|spNA||ADP98060.1|MotA                                        41.45%    passed     96.29%
+ 823  0836|_Gamma|Na_PROB|spnonEntGamma_L07||AGH77405.1|flag                     38.86%    passed     92.22%
+ 824  0837|_Gamma|_|spNA||AAM41180.1|MotA                                        38.86%    passed     97.03%
+ 825  0838|_Gamma|_|spGamma_FB21||ACL72428.1|AQB                                 37.82%    passed     87.11%
+ 826  0839|_Gamma|_|spGamma_FB21||EGW21349.1|AQB                                 38.34%    passed     71.83%
+ 827  0840|_Entero|Na_PROB|spNa_||ABK36904.1|MotA                                38.34%    failed      1.64%
+ 828  0841|_Entero|_|spGamma_FB21||EKB18759.1|HYP_HMPREF1168_02533               38.34%    failed      0.68%
+ 829  0842|_Entero|_|spH_||QCG47006.1|flag                                       38.34%    failed      1.30%
+ 830  0843|_Entero|_|spNa-H_interchange||AAN57256.1|MotA                         39.90%    passed      7.20%
+ 831  0844|_Entero|_|spGamma_FB21||AVQ86535.1|flag                               40.93%    passed     12.81%
+ 832  0845|_Entero|_|spNA|25|WP_010861725.1|flag                                 40.93%    passed     12.81%
+ 833  0846|_Entero|H_maybe|spGamma_FB21||ATP10434.1|MotA                         42.49%    passed     53.70%
+ 834  0847|_Entero|Na_PROB|spNa_||ABK38289.1|MotA                                42.49%    passed     70.51%
+ 835  0848|_Entero|_|spGamma_FB21||EKB20016.1|HYP_HMPREF1168_01964               42.49%    passed     70.57%
+ 836  0849|_Entero|_|spH_||QCG47681.1|flag                                       42.49%    passed     84.32%
+ 837  0850|_Entero|_|spnonEntGamma_L07||AAZ25503.1|MotA                          38.34%    passed     31.51%
+ 838  0851|_Entero|_|spGamma_FB21||EAR29516.1|MotA                               40.93%    passed     34.00%
+ 839  0852|_Entero|_|spGamma_FB21||EHR42267.1|MotA                               39.90%    passed     78.35%
+ 840  0853|_Gamma|_|spnonEntGamma_L07||AOU49318.1|flag                           41.97%    passed     96.31%
+ 841  0854|_Gamma|_|spBeta_FB21||ACT48178.1|AQB                                  38.34%    passed     59.86%
+ 842  0855|_Gamma|_|spBeta_FB21||ABE50216.1|AQB                                  38.34%    passed     90.56%
+ 843  0856|_Gamma|_|spBeta_FB21|1_2_FB21|AAZ97203.1|MotA                         39.38%    passed     96.41%
+ 844  0857|_Beta|_|spNA||QKS28544.1|transport                                    38.34%    passed     96.80%
+ 845  0858|_Gamma|_|spNA|1_2_FB21|AAQ58696.1|MotA                                40.41%    passed     98.97%
+ 846  0859|_Gamma|_|spBeta_FB21||ADE10800.1|AQB                                  37.82%    passed     84.68%
+ 847  0860|_Epsilon|_|spNA||CAL34488.1|flag                                      40.41%    failed      4.94%
+ 848  0861|_Epsilon|H|spH_||AFV42026.1|MotA                                      39.38%    passed     13.25%
+ 849  0862|_Epsilon|_|spNA||AOO65115.1|MotA                                      39.38%    failed      0.80%
+ 850  0863|_Aquificota|_|spNA||AHE95900.1|MotA                                   37.82%    failed      1.11%
+ 851  0864|_Aquificota|_|spNA||ADC89566.1|AQB                                    38.34%    passed     27.57%
+ 852  0865|_Bdellovibrionota|_|spNA||AHZ85791.1|MotA                             39.38%    passed     76.03%
+ 853  0866|_Delta|_|spNA||ACL65905.1|AQB                                         41.45%    passed     82.09%
+ 854  0867|_Nitrospirae|_|spNA||BAM06016.1|transport                             43.01%    passed     73.92%
+ 855  0868|_Nitrospirae|_|spNA||ALA58549.1|MotA                                  39.90%    failed      0.26%
+ 856  0869|_Acido|_|spNA||AFL88814.1|transport                                   38.86%    passed     21.21%
+ 857  0870|_Acido|_|spNA||AFL88473.1|transport                                   38.86%    passed     21.21%
+ 858  0871|_Acido|_|spNA||ACO33277.1|MotA                                        39.38%    passed     57.40%
+ 859  0872|_Acido|_|spNA||QOY88866.1|flag                                        40.41%    passed     58.66%
+ 860  0873|_Acido|_|spNA||QOY85398.1|flag                                        38.34%    passed     33.52%
+ 861  0874|_Delta|_|spNA||AAR36419.1|MotA                                        39.90%    passed     28.92%
+ 862  0875|_Desulfo|_|spDelta_FB21||ACH40744.1|MotA                              37.31%    passed     34.37%
+ 863  0876|_Nitrospirae|_|spNA||BCB96091.1|MotA                                  39.90%    passed     19.73%
+ 864  0877|_Nitrospirae|_|spNA||ACI21187.1|MotA                                  38.34%    failed      0.30%
+ 865  0878|_Firmicutes|Mg2Ca2St2|spbication||GAK41226.1|MotA                     39.90%    passed     92.34%
+ 866  0879|_Firmicutes|_|spNA||ADL42743.1|AQB                                    40.41%    passed     61.82%
+ 867  0880|_Firmicutes|_|spNA||APC07539.1|PomA                                   40.41%    passed     95.57%
+ 868  0881|_Firmicutes|_|spNA||ALU36624.1|MotA                                   40.93%    passed     57.09%
+ 869  0882|_Firmicutes|_|spNA||ACL22206.1|AQB                                    37.82%    passed     93.49%
+ 870  0883|_Firmicutes|_|spNA||BAD41956.1|MotA                                   39.90%    passed     95.56%
+ 871  0884|_Gamma|_|spNA||ADZ92428.1|AQB                                         42.49%    passed     82.64%
+ 872  0885|_Firmicutes|_|spNA||APC08935.1|PomA                                   41.45%    passed     99.35%
+ 873  0886|_Armatimonadetes|_|spNA||CCW35905.1|transport                         38.86%    passed     55.82%
+ 874  0887|_Firmicutes|_|spNa_||BAI84979.1|MotA                                  38.34%    passed     79.76%
+ 875  0888|_Firmicutes|_|spNa_||UUH67684.1|MotA                                  38.34%    passed     79.76%
+ 876  0890|_Firmicutes|H|spH_||AAU40425.3|MotA                                   38.34%    passed     88.53%
+ 877  0891|_Bacillota|H|spH_||BAD76815.1|MotA                                    39.90%    passed     97.89%
+ 878  0892|_Firmicutes|_|spNA||AJH79515.1|AQB                                    38.34%    passed     88.36%
+ 879  0893|_Firmicutes|H|spH_||BAC14501.1|MotA                                   38.34%    passed     69.75%
+ 880  0894|_Firmicutes|H__hi_pH_N_|spNa__or_H_||BAD64518.1|MotA                  39.90%    passed     48.35%
+ 881  0895|_Firmicutes|_|spNA||ATO49967.1|MotA                                   38.86%    passed     97.20%
+ 882  0896|_Firmicutes|H_suggested|spbication||GAK43333.1|MotA                   39.90%    passed     38.13%
+ 883  0897|_Firmicutes|_|spOthers||EGO64297.1|MotA                               39.38%    passed     98.08%
+ 884  0898|_Firmicutes|Na_Near|spNA||AAS43541.1|MotA                             39.38%    passed     30.68%
+ 885  0899|_Firmicutes|_|spNA||ALU34477.1|AQB                                    38.86%    passed     96.00%
+ 886  0900|_Firmicutes|_|spNA||UPH48256.1|MotA                                   38.34%    passed     69.70%
+ 887  0901|_Chloroflexi|_|spNA||QFG02534.1|flag                                  38.86%    passed     26.34%
+ 888  0902|_Spirochaetes|_|spNA||EKT88755.1|MotA                                 37.82%    passed     87.04%
+ 889  0903|_Spirochaetes|_|spNA||AAS71482.1|MotA                                 37.82%    passed     87.83%
+ 890  0904|_Spirochaetes|Na                                                      37.82%    passed     15.69%
+ 891  0905|_Firmicutes|_|spNA||ABY95376.1|AQB                                    39.90%    passed     13.21%
+ 892  0906|_Firmicutes|_|spNA||ATO49114.1|transport                              42.49%    failed      0.03%
+ 893  0907|_Planctomycetes|_|spNA||QDU26963.1|PomA                               38.34%    passed     53.91%
+ 894  0908|_Planctomycetes|_|spNA||ADB18997.1|AQB                                40.93%    passed     58.44%
+ 895  0909|_Planctomycetes|_|spNA||QDU97593.1|PomA                               38.34%    passed     31.60%
+ 896  0910|_Planctomycetes|_|spNA||CAD76169.1|PomA                               38.86%    passed     72.13%
+ 897  0911|_Planctomycetes|_|spNA||ADY60068.1|AQB                                38.34%    passed     82.17%
+ 898  0912|_Firmicutes|NaKRb|spNa__or_K__or_Rb_||KGA96618.1|MotP                 40.41%    passed     60.87%
+ 899  0913|_Firmicutes|Na_                                                       40.41%    passed     37.17%
+ 900  0914|_Firmicutes|Na|spNa_||BAB06959.1|MotA                                 40.41%    passed     46.47%
+ 901  0915|_Firmicutes|Na_|spNa_||ADC48830.1|motP                                40.93%    passed     32.36%
+ 902  0916|_Firmicutes|Na|spH_||BAC14181.1|MotA                                  40.41%    passed     45.97%
+ 903  0917|_Firmicutes|Na|spNA||CAB14951.1|sodium_MotA                           39.90%    passed     17.59%
+ 904  0918|_Firmicutes|Na|spNa_||BAI86480.1|MotP                                 39.90%    passed     17.59%
+ 905  0920|_Firmicutes|Na|spH_||AAU41985.1|MotP_Na                               39.90%    failed      0.69%
+ 906  0921|_Spirochaetes|_|spNA||UOY13875.1|MotA                                 38.34%    passed      5.49%
+ 907  0922|_Spirochaetes|Na                                                      38.34%    passed      5.49%
+ 908  0924|_Spirochaetes|_|spNA||AAS13283.1|MotA                                 38.34%    failed      3.89%
+ 909  0925|_Spirochaetes|_|spOthers||ACK74719.1|MotA                             43.01%    passed     79.63%
+ 910  0926|_Bacillota|_|spNA||AAO36203.1|MotA                                    38.34%    passed     43.37%
+ 911  0927|_Spirochaetes|_|spNA||EKT86693.1|MotP                                 38.86%    passed      9.55%
+ 912  0928|_Spirochaetes|_|spNA||AAS69243.1|MotA                                 38.86%    passed     14.36%
+ 913  0929|_Spirochaetes|_|spNa__or_H_||ABZ96341.1|MotA                          39.38%    passed     81.65%
+ 914  0930|_Spirochaetes|_|spNA||CCG57546.1|MotA                                 39.38%    passed     99.62%
+ 915  0931|_Spirochaetes|_|spNA||AEM21069.1|flag                                 38.86%    passed     99.55%
+ 916  0932|_Synergistota|_|spOthers||ACZ19557.1|AQB                              38.34%    passed     47.51%
+ 917  0933|_Aquificota|Na|spNA||AAC07083.1|MotA                                  43.01%    passed     17.74%
+ 918  0934|_Thermotogota|H|spNA||AAD35759.1|MotA                                 39.38%    passed     28.73%
+ 919  0935|_Thermotogota|H|spOthers||ACM24086.1|MotA                             38.86%    passed     18.37%
+ 920  0936|_Firmicutes|_|spNA||APC07901.1|PomA                                   37.82%    passed     21.55%
+ 921  0937|_Firmicutes|_|spOthers||ACL70428.1|AQB                                40.41%    passed     33.44%
+ 922  0938|_Firmicutes|_|spNA||BAS27507.1|MotP                                   40.41%    passed     74.69%
+ 923  0939|_Firmicutes|_|spNA||QAT61614.1|MotA                                   40.41%    passed     84.06%
+ 924  0940|_Firmicutes|_|spNA||WP_010167663.1|AQB                                37.82%    passed     52.94%
+ 925  0941|_Firmicutes|_|spNA||QAT63225.1|MotA                                   39.90%    failed      4.43%
+ 926  0942|_Alpha|_|spNA||CDK98228.1|transport                                   43.01%    passed     79.05%
+ 927  0943|_Alpha|_|spNA||AEO48324.1|AQB                                         43.01%    passed     97.32%
+ 928  0944|_Fibrobacteres|_|spNA||QQS07318.1|AQB                                 44.56%    passed     42.18%
+ 929  0945|_Entero|Na|spNa_||AAW87256.1|MotA2                                    37.82%    passed     29.20%
+ 930  0946|_Desulfo|Na_PROB|spDelta_FB21||BAH75114.1|MotA                        39.90%    passed     44.24%
+ 931  0947|_Beta|_|spNA||UBQ06690.1|AQB                                          37.82%    passed     77.06%
+ 932  0948|_Gamma|_|spGamma_FB21||ACL73103.1|AQB                                 37.31%    passed     22.04%
+ 933  0949|_Gamma|_|spGamma_FB21||EGW21193.1|AQB                                 37.31%    passed     36.64%
+ 934  0950|_Zeta|_|spNA||ATX82928.1|MotA                                         37.82%    passed     24.15%
+ 935  0951|_Zeta|_|spNA||ATX78592.1|MotA                                         37.82%    passed     22.12%
+ 936  0952|_Bdellovibrionota|_|spNA||AHZ83417.1|MotA                             38.86%    passed     74.30%
+ 937  0953|_Desulfo|_|spDelta_FB21||ACN16726.1|MotA3                             43.01%    passed     40.38%
+ 938  0954|_Gamma|_|spNA||QBZ82337.1|PomA                                        32.64%    passed     11.57%
+ 939  0955|_Elusimicrobia|_|spNA||UPT73159.1|AQB                                 39.90%    passed     82.33%
+ 940  0956|_Bacteroidota|_|spNA||ABC44529.1|MotA                                 42.49%    passed      5.38%
+ 941  0957|_Firmicutes|Na_Nearish|spNA||AAS40674.1|MotA_                         39.90%    passed     18.91%
+ 942  0958|_Desulfo|_|spDelta_FB21||ACN14746.1|MotA1                             39.90%    passed      7.27%
+ 943  0959|_Epsilon|_|spNA||ALF47869.1|flag                                      40.41%    passed     29.42%
+ 944  0960|_Campylo|_|spEpsilon_FB21||CAE11089.1|MotA                            41.97%    passed     96.35%
+ 945  0961|_Epsilon|_|spNA||ADN09321.1|AQB                                       38.34%    passed     45.24%
+ 946  0962|_Campylo|_|spEpsilon_FB21||ACM93313.1|MotA                            39.90%    passed     17.28%
+ 947  0963|_Epsilon|_|spNA||ADG94140.1|AQB                                       40.41%    passed     78.97%
+ 948  0964|_Chlamydiae|_|spNA||SCA58681.1|MotA                                   38.34%    passed     27.82%
+ 949  0965|_Deferri|_|spNA||USF23676.1|PomA                                      38.34%    passed     46.60%
+ 950  0966|_Deferri|_|spNA||ADD67090.1|AQB                                       39.38%    passed     74.36%
+ 951  0967|_Deferri|_|spNA||QAR32385.1|MotA                                      37.82%    passed     82.28%
+ 952  0968|_Acido|_|spNA||QTD53836.1|AQB                                         38.86%    passed     51.94%
+ 953  0969|_Zeta|_|spNA||ATX82900.1|MotA                                         39.90%    passed     36.56%
+ 954  0970|_Zeta|_|spNA||ATX78565.1|MotA                                         39.90%    passed     45.09%
+ 955  0971|_Delta|_|spNA||CAG37394.1|MotA                                        39.90%    passed     64.67%
+ 956  0972|_Desulfo|_|spDelta_FB21||ACV67875.1|AQB                               39.38%    passed     53.85%
+ 957  0973|_Desulfo|_|spDelta_FB21||ABA88421.1|MotA                              39.90%    passed     15.91%
+ 958  0974|_Archaea|_|spNA||RLG45601.1|MotA                                      38.86%    passed     18.19%
+ 959  0975|_Desulfo|_|spDelta_FB21||SHJ21761.1|MotA                              38.34%    passed     57.84%
+ 960  0976|_Desulfo|_|spNA||AAS94534.1|MotA                                      38.34%    passed     85.44%
+ 961  0977|_Desulfo|_|spDelta_FB21||WP_011369264.1|flag                          37.82%    passed     81.10%
+ 962  0978|_Archaea|_|spNA||RMG20999.1|MotA                                      38.34%    passed     13.17%
+ 963  0979|_Desulfo|_|spNA||AAS96702.1|MotA                                      40.41%    passed     88.06%
+ 964  0980|_Desulfo|_|spDelta_FB21||AGC49899.1|AQB                               40.93%    passed     71.10%
+ 965  0981|_Desulfo|_|spDelta_FB21||WP_011367497.1|MotA                          41.45%    passed     79.69%
+ 966  0982|_Desulfo|Na_PROB|spDelta_FB21||BAH74758.1|MotA                        39.38%    passed     98.63%
+ 967  0983|_Gamma|_|spNA||ADZ91331.1|AQB                                         39.38%    passed     37.17%
+ 968  0984|_Desulfo|_|spDelta_FB21||ACN15951.1|MotA2                             41.45%    passed     81.64%
+ 969  0985|_Desulfo|_|spNA||AAS95121.1|PomA                                      41.97%    passed     54.17%
+ 970  0986|_Entero|_|spGamma_FB21||GAC24033.1|MotA                               40.93%    passed     31.59%
+ 971  0987|_Entero|_|spGamma_FB21||GAC39796.1|flag                               40.41%    passed     20.00%
+ 972  0988|_Entero|_|spGamma_FB21||AFS37991.1|PomA                               40.93%    passed     65.15%
+ 973  0989|_Entero|_|spNA||AEP29247.1|PomA                                       41.97%    passed     37.46%
+ 974  0990|_Entero|_|spnonEntGamma_L07||AAV82967.1|transport                     39.38%    passed     72.51%
+ 975  0991|_Entero|_|spGamma_FB21||CCQ09345.1|MotA                               41.45%    passed     36.24%
+ 976  0992|_Entero|_|spnonEntGamma_L07||AAZ25713.1|PomA                          39.38%    passed      7.40%
+ 977  0993|_Entero|_|spGamma_FB21||EAR29227.1|flag                               40.41%    passed     82.31%
+ 978  0994|_Entero|_|spGamma_FB21||EHR39921.1|PomA                               40.93%    passed     35.63%
+ 979  0995|_Entero|Na_PROB|spNA||UXK07481.1|PomA                                 39.38%    passed     50.35%
+ 980  0996|_Entero|Na|spNa-H_interchange||AAN54589.1|PomA                        39.38%    passed     66.09%
+ 981  0997|_Entero|_|spGamma_FB21|1_2_FB21|ABV37930.1|AQB                        39.38%    passed     17.22%
+ 982  0998|_Entero|Na_PROB|spNA||BAJ01094.1|PomA                                 39.38%    passed      9.47%
+ 983  0999|_Entero|_|spGamma_FB21||EKB20878.1|HYP_HMPREF1168_01683               40.93%    passed     36.40%
+ 984  1000|_Entero|Na_PROB|spNa_||ABK38943.1|PomA                                40.41%    passed     51.99%
+ 985  1001|_Entero|_|spH_||QCG47067.1|PomA                                       40.93%    passed     26.17%
+ 986  1002|_Entero|Na_PROB|spGamma_FB21||ATP10768.1|PomA                         40.41%    passed     17.16%
+ 987  1003|_Gamma|_|spNA||QEO41881.1|PomA                                        39.90%    passed     17.09%
+ 988  1004|_Entero|Na|spNa_||AAF94054.1|PomA                                     39.90%    passed     17.09%
+ 989  1005|_Entero|Na_|spH_||EEW08145.1|flag                                     39.90%    passed     18.99%
+ 990  1006|_Entero|_|spGamma_FB21||EPE37367.1|PomA                               42.49%    failed      1.69%
+ 991  1007|_Entero|Na_|spNA||EDL52007.1|PomA                                     41.45%    passed     34.87%
+ 992  1008|_Entero|_|spGamma_FB21||BAC93635.1|transport                          39.90%    passed     31.33%
+ 993  1009|_Gamma|Na|spNA||BAC58952.1|MotA_Na_polar                              39.90%    passed     23.01%
+ 994  1010|_Entero|Na|spNa_||EAS76273.1|flag                                     39.90%    passed     19.61%
+ 995  1011|_Entero|Na|spNa_||EAP91937.1|flag                                     39.90%    passed     56.55%
+ 996  1012|_Entero|Na|spNa_||AAW85209.1|MotA1                                    39.38%    passed     69.51%
+ 997  1013|_Entero|_|spnonEntGamma_L07|1_2_FB21|CAG19221.1|MotA_Na_polar         40.41%    passed     29.89%
+ 998  1014|_Entero|_|spGamma_FB21|1_2_FB21|GAA03428.1|AQB                        40.93%    passed     56.46%
+ 999  1015|_Entero|_|spGamma_FB21||AVQ88446.1|PomA                               39.90%    passed     47.60%
+1000  1016|_Entero|_|spNA|25|WP_010864309.1|PomA                                 39.90%    passed     47.60%
+1001  1017|_Gamma|_|spNA||ABD82476.1|AQB                                         40.93%    passed     11.18%
+1002  1018|_Gamma|_|spNA||MBU2985330.1|PomA                                      40.93%    passed     11.18%
+1003  1019|_Gamma|_|spNA||ADZ90279.1|AQB                                         39.90%    failed      1.64%
+1004  1020|_Gamma|_|spGamma_FB21||EHJ02744.1|AQB                                 40.93%    passed     42.21%
+1005  1021|_Gamma|_|spNA||ADP99774.1|PomA                                        40.41%    passed     48.83%
+1006  1022|_Gamma|_|spGamma_FB21||ABM17419.1|AQB                                 40.93%    passed     57.49%
+1007  1023|_Gamma|_|spNA||CCG93764.1|MotA_Na                                     40.93%    passed     57.49%
+1008  1024|_Gamma|_|spGamma_FB21||ABA57346.1|AQB                                 40.41%    passed     61.21%
+1009  1025|_Gamma|_|spGamma_FB21||EHJ02504.1|AQB                                 39.90%    passed     38.85%
+1010  1026|_Gamma|_|spNA||ADP99515.1|AQB                                         40.41%    passed     33.78%
+1011  1027|_Gamma|_|spGamma_FB21||ABM17156.1|AQB                                 41.45%    passed     34.62%
+1012  1028|_Gamma|_|spNA||CCG93539.1|MotA_Na_polar                               41.45%    passed     34.62%
+1013  1029|_Gamma|_|spNA||QBZ83559.1|PomA                                        40.41%    passed     94.98%
+1014  1030|_Alpha|_|spNA||ABA04498.1|AQB                                         40.93%    failed      2.09%
+1015  1031|_Alpha|_|spNA|1_2_FB21|BAL11317.1|HYP_BJ6T_60630                      40.93%    failed      0.13%
+1016  1032|_Alpha|_|spNA||AIQ92767.1|AQB                                         41.45%    passed     22.67%
+1017  1033|_Alpha|_|spnonLab_FB21||ABK44453.1|AQB                                40.41%    passed     99.34%
+1018  1034|_Alpha|_|spAlpha_FB21||ACV75191.1|AQB                                 44.04%    passed     35.08%
+1019  1035|_Alpha|_|spNA||BAK65983.1|MotA                                        43.01%    passed     26.72%
+1020  1036|_Alpha|_|spNA||QNQ12173.1|AQB                                         44.56%    passed     10.49%
+1021  1037|_Alpha|_|spAlpha_FB21||ADE39056.1|AQB                                 38.34%    passed     25.29%
+1022  1038|_Alpha|_|spAlpha_FB21||AGI74729.1|MotA                                38.34%    passed     74.62%
+1023  1039|_Alpha|_|spNA||WP_015920816.1|AQB                                     39.38%    passed     33.44%
+1024  1040|_Alpha|_|spNA||AEO47025.1|AQB                                         44.56%    passed     87.84%
+1025  1041|_Alpha|_|spNA||AEP09097.1|AQB                                         41.45%    passed     40.84%
+1026  1042|_Entero|_|spNA||AAP17322.1|proton_conductor                           46.63%    passed     79.09%
+1027  1043|_Entero|_|spenteric|1_2_FB21|CBG34882.1|MotA                          46.63%    passed     77.91%
+1028  1044|_Entero|_|spNA||QKY95842.1|MotA                                       46.63%    passed     80.88%
+1029  1045|_Entero|H|spNA||AAC74960.1|MotA                                       46.63%    passed     84.02%
+1030  1046|_Entero|_|spNA|123b|POT59380.1|MotA                                   46.11%    passed     78.78%
+1031  1047|_Entero|_|spNA|13b|KOQ92299.1|MotA                                    40.41%    passed     97.51%
+1032  1048|_Entero|H|spH_||AAL20839.1|proton_conductor                           46.11%    passed     89.96%
+1033  1049|_Entero|_|spNA|123a|KLP57512.1|MotA                                   46.11%    passed     92.99%
+1034  1050|_Entero|_|spNA|1|PAN74106.1|MotA                                      46.11%    passed     92.99%
+1035  1052|_Entero|_|spNA|12|GHD90461.1|MotA                                     45.60%    passed     92.36%
+1036  1053|_Entero|_|spNA|1|CCJ73890.1|MotA                                      39.90%    passed     98.14%
+1037  1054|_Entero|_|spNA|123b|RPH29934.1|MotA                                   39.90%    passed     93.58%
+1038  1055|_Entero|_|spNA|1|KIU35409.1|MotA                                      38.86%    passed     93.57%
+1039  1056|_Entero|_|spNA|13b|ORN01923.1|MotA                                    40.41%    passed     61.20%
+1040  1057|_Entero|_|spNA|13a|TCZ23880.1|MotA                                    40.41%    passed     56.32%
+1041  1058|_Entero|_|spNA|13a|KGT93171.1|MotA                                    40.41%    passed     54.80%
+1042  1059|_Entero|_|spNA|13b|KTS00802.1|MotA                                    38.34%    passed     57.44%
+1043  1060|_Entero|_|spNA|1|ARU98272.1|MotA                                      39.90%    passed     73.29%
+1044  1061|_Entero|_|spNA|13b|KGT90535.1|MotA                                    40.41%    passed     54.57%
+1045  1062|_Entero|_|spNA|13a|CBJ46707.1|transport                               40.93%    passed     61.45%
+1046  1063|_Entero|_|spenteric||ACT13643.1|MotA                                  40.93%    passed     92.40%
+1047  1064|_Entero|_|spNA|14|AHF75711.1|transport                                46.63%    passed     96.49%
+1048  1065|_Entero|_|spNA|123b|CNJ97189.1|MotA                                   39.90%    passed     92.15%
+1049  1066|_Entero|_|spNA|1|OWF82396.1|MotA                                      39.90%    passed     92.15%
+1050  1069|_Entero|_|spNA|123b|CFQ30487.1|MotA                                   37.82%    passed     96.90%
+1051  1070|_Entero|_|spNA||AJJ32465.1|MotA                                       39.90%    passed     94.43%
+1052  1071|_Entero|H|spH_||EDR32241.1|MotA                                       39.90%    passed     94.43%
+1053  1074|_Entero|_|spNA||QXB11670.1|MotA                                       39.90%    passed     94.03%
+1054  1075|_Entero|_|spNA||KFD13175.1|MotA_family_flagellar_rotation_protein     39.90%    passed     92.24%
+1055  1076|_Entero|_|spNA|1|AOM39478.1|MotA                                      39.90%    passed     93.92%
+1056  1077|_Entero|_|spNA|1|AGG30804.1|MotA                                      44.56%    passed     96.28%
+1057  1078|_Entero|_|spNA|12|EHM44252.1|MotA                                     37.82%    passed     68.69%
+1058  1079|_Entero|_|spNA|123b|AMO81194.1|MotA                                   37.82%    passed     68.69%
+1059  1080|_Entero|_|spNA||WP_015870803.1|MotA                                   41.45%    passed     88.26%
+1060  1081|_Entero|_|spNA|13b|RYJ17830.1|MotA                                    45.08%    passed     88.62%
+1061  1082|_Entero|_|spNA|123b|CNK31042.1|MotA                                   42.49%    passed     73.97%
+1062  1083|_Entero|_|spNA|123b|CFQ36265.1|MotA                                   45.60%    passed     41.37%
+1063  1084|_Entero|_|spNA|13b|EEQ10987.1|HYP_ymoll0001_33250                     40.93%    passed     86.38%
+1064  1085|_Entero|_|spNA|123b|AMO83554.1|MotA                                   40.41%    passed     79.15%
+1065  1086|_Entero|_|spNA|13b|KOR05141.1|MotA                                    46.63%    passed     91.78%
+1066  1087|_Entero|_|spNA|13b|RYJ18907.1|MotA                                    43.01%    passed     83.63%
+1067  1088|_Entero|_|spNA|123b|RPH29221.1|MotA                                   46.11%    passed     82.93%
+1068  1089|_Entero|_|spNA|13b|KGT93325.1|MotA                                    39.90%    passed     40.55%
+1069  1090|_Entero|_|spNA|13b|ORN02638.1|MotA                                    46.11%    passed     90.68%
+1070  1091|_Entero|_|spNA|13b|KTS01372.1|MotA                                    42.49%    passed     62.93%
+1071  1092|_Entero|_|spNA|123b|POT54755.1|MotA                                   45.60%    passed     71.28%
+1072  1093|_Entero|_|spNA|123a|KLP57591.1|MotA                                   46.11%    passed     95.75%
+1073  1094|_Entero|_|spNA|13a|KLR25774.1|MotA                                    46.11%    passed     95.75%
+1074  1095|_Entero|_|spNA|13a|TCZ24251.1|MotA                                    47.15%    passed     77.59%
+1075  1096|_Entero|_|spNA|13a|KGT89687.1|MotA                                    41.97%    passed     96.93%
+1076  1097|_Entero|_|spNA|13a|CBJ47214.1|MotA                                    46.11%    passed     94.54%
+1077  1098|_Entero|_|spNA|4|AFA40896.1|MotA                                      42.49%    passed     32.09%
+1078  1099|_Entero|_|spNA|14|AHF75241.1|transport                                46.11%    passed     35.40%
+1079  1100|_Entero|_|spNA|4|TCV95526.1|MotA                                      46.63%    passed     29.60%
+1080  1101|_Gamma|_|spBeta_FB21||CAJ49280.1|transport                            41.97%    passed     96.10%
+1081  1102|_Gamma|_|spBeta_FB21||CAP63447.1|proton_conductor                     39.90%    passed     53.26%
+1082  1103|_Gamma|_|spBeta_FB21||AAU48340.1|MotA                                 40.41%    passed     75.34%
+1083  1104|_Gamma|_|spNA||CAH37322.1|MotA                                        40.41%    passed     75.34%
+1084  1105|_Gamma|_|spNA||ABC37631.1|MotA                                        40.93%    passed     77.71%
+1085  1106|_Beta|_|spNA||QKS29226.1|MotA                                         48.19%    passed     14.00%
+1086  1107|_Gamma|_|spNA|1_2_FB21|AAQ59698.1|MotA                                49.74%    failed      4.54%
+1087  1108|_Gamma|_|spBeta_FB21||ACT48168.1|MotA                                 39.90%    passed     28.59%
+1088  1109|_Gamma|_|spBeta_FB21||ABE50207.1|MotA                                 43.01%    passed     19.03%
+1089  1110|_Gamma|_|spBeta_FB21|1_2_FB21|AAZ97196.1|MotA                         40.41%    passed     14.61%
+1090  1111|_Gamma|_|spBeta_FB21||ABI58474.1|MotA                                 46.11%    passed     52.57%
+1091  1112|_Gamma|_|spBeta_FB21||ADE10782.1|AQB                                  41.45%    passed     11.65%
+1092  1113|_Gamma|_|spnonEntGamma_L07||AOU49824.1|MotA                           48.19%    passed     44.09%
+1093  1114|_Gamma|_|spGamma_FB21||EGW19847.1|MotA                                45.08%    passed     61.48%
+1094  1115|_Gamma|_|spBeta_FB21||EED69694.1|AQB                                  39.90%    passed     56.84%
+1095  1116|_Gamma|_|spBeta_FB21||EGI75401.1|AQB                                  41.97%    passed     94.25%
+1096  1117|_Beta|_|spNA||ATU66302.1|MotA                                         40.41%    passed     49.40%
+1097  1118|_Beta|_|spNA||APW43194.1|MotA                                         40.41%    passed     57.95%
+1098  1119|_Beta|_|spNA||APW42908.1|MotA                                         43.01%    passed     62.22%
+1099  1120|_Beta|_|spNA||UBQ05764.1|MotA                                         39.90%    passed     75.77%
+1100  1121|_Alpha|_|spNA||QNQ09341.1|MotA                                        50.26%    passed     51.81%
+1101  1122|_Alpha|_|spAlpha_FB21||ACV75203.1|MotA                                47.15%    passed     50.54%
+1102  1123|_Alpha|_|spNA||BAK65995.1|MotA                                        48.70%    passed     44.21%
+1103  1124|_Alpha|_|spAlpha_FB21||ABI78158.1|MotA                                43.01%    passed     19.52%
+1104  1125|_Alpha|_|spNA||ADL02462.1|AQB                                         41.45%    passed     17.17%
+1105  1126|_Alpha|_|spNA||ACL94252.1|MotA                                        46.63%    failed      4.91%
+1106  1127|_Alpha|_|spNA||ADE87210.1|MotA                                        48.19%    passed     37.09%
+1107  1128|_Alpha|H|spNA||WP_002721884.1|MotA                                    48.70%    passed     68.05%
+1108  1129|_Alpha|_|spAlpha_FB21||ABI75725.1|MotA                                50.26%    passed     72.71%
+1109  1130|_Alpha|_|spNA||AEI88772.1|MotA                                        48.19%    passed     27.03%
+1110  1131|_Alpha|_|spAlpha1_LO7||AHK70059.1|MotA                                45.08%    passed     86.96%
+1111  1132|_Alpha|_|spNA||AIQ89863.1|MotA                                        47.67%    passed     98.42%
+1112  1133|_Alpha|_|spNA|1_2_FB21|BAL07794.1|transport                           50.26%    passed     98.12%
+1113  1134|_Alpha|_|spNA||ABQ62189.1|MotA                                        48.70%    passed     95.88%
+1114  1135|_Alpha|_|spAlpha2_LO7||CAC45226.1|MotA                                47.67%    passed     75.20%
+1115  1136|_Alpha|_|spAlpha2_LO7||AAK86372.1|flag                                50.78%    passed     48.89%
+1116  1137|_Alpha|_|spNA||AIQ92722.1|MotA                                        48.19%    passed     64.22%
+1117  1138|_Alpha|_|spAlpha_FB21||ABS64494.1|AQB                                 47.15%    passed     94.76%
+1118  1139|_Alpha|_|spNA||AIK95837.1|MotA                                        40.93%    failed      0.96%
+1119  1140|_Alpha|_|spNA||CDK98316.1|MotA                                        44.56%    passed      5.22%
+1120  1141|_Alpha|_|spNA||AEO48360.1|MotA                                        47.15%    passed      6.88%
+1121  1142|_Alpha|_|spNA||AEI89251.1|MotA                                        49.74%    passed     94.19%
+1122  1143|_Alpha|_|spNA||AEP09307.1|MotA                                        46.63%    passed     46.13%
+1123  1144|_Entero|_|spNA||AJJ32757.1|MotA                                       46.11%    failed      0.56%
+1124  1145|_Entero|_|spNA|12|AKS88796.1|MotA                                     46.11%    failed      0.56%
+1125  1148|_Entero|_|spNA|123b|CFQ41296.1|lateral_MotA                           47.15%    failed      0.85%
+1126  1149|_Entero|_|spNA|123b|CNK28457.1|lateral_MotA                           47.15%    failed      1.43%
+1127  1150|_Entero|_|spNA|123a|KLP54162.1|MotA                                   45.60%    failed      3.04%
+1128  1151|_Entero|_|spNA|123b|RPH29430.1|MotA                                   45.60%    failed      0.87%
+1129  1152|_Entero|_|spNA|12|EHM37796.1|MotA                                     45.60%    failed      0.50%
+1130  1153|_Entero|_|spNA|123b|AMO80266.1|MotA                                   45.60%    failed      1.15%
+1131  1154|_Entero|_|spNA|12|GHD92256.1|MotA                                     46.63%    failed      3.41%
+1132  1155|_Entero|_|spenteric|1_2_FB21|CBG33120.1|lateral_MotA                  46.63%    failed      3.41%
+1133  1156|_Entero|_|spNA|123b|POT58639.1|MotA                                   46.63%    failed      3.08%
+1134  1157|_Beta|_|spNA||ATU65955.1|MotA                                         45.08%    passed     23.58%
+1135  1158|_Gamma|_|spNA|1_2_FB21|AAQ60658.1|LafT                                44.56%    passed     52.19%
+1136  1159|_Gamma|_|spNA||ABC35881.1|MotA                                        46.63%    passed     75.03%
+1137  1160|_Entero|_|spGamma_FB21|1_2_FB21|GAA06067.1|AQB                        40.93%    passed     35.17%
+1138  1161|_Entero|H_|spNA||EDL53290.1|MotA                                      42.49%    failed      4.38%
+1139  1162|_Entero|H_|spH_||EEW07885.1|LafT                                      40.93%    failed      2.80%
+1140  1163|_Gamma|H_|spNA||BAC62899.1|LafT                                       40.93%    passed     56.18%
+1141  1164|_Entero|H|spNa_||EAS78267.1|flag                                      40.93%    passed     43.15%
+1142  1165|_Entero|_|spGamma_FB21||AVQ87684.1|MotA                               41.97%    passed     93.86%
+1143  1166|_Entero|_|spNA|25|WP_010862954.1|MotA                                 41.97%    passed     93.86%
+1144  1167|_Entero|_|spnonEntGamma_L07|1_2_FB21|CAG18503.1|MotA                  39.90%    passed     31.93%
+1145  1168|_Entero|H|spH_||QCG49373.1|MotA                                       48.19%    failed      0.71%
+1146  1169|_Entero|_|spGamma_FB21|1_2_FB21|ABV34663.1|AQB                        45.60%    passed     12.45%
+1147  1170|_Entero|_|spNA||EDL51997.1|AQB                                        41.45%    passed     10.98%
+1148  1171|_Gamma|_|spNA||QBZ82350.1|LafT                                        52.85%    passed     75.58%
+1149  1172|_Gamma|_|spNA||ADZ91789.1|MotA                                        47.67%    passed     11.52%
+1150  1173|_Gamma|_|spGamma_FB21||ABM19854.1|transport                           53.89%    passed     45.79%
+1151  1174|_Gamma|_|spNA||CCG96131.1|MotA                                        53.89%    passed     45.79%
+1152  1175|_Gamma|_|spNA||ADP98274.1|MotA                                        55.44%    passed     77.45%
+1153  1176|_Gamma|_|spGamma_FB21||EHJ04192.1|transport                           55.44%    passed     77.45%
+1154  1177|_Gamma|_|spNA||AAG08339.1|MotA                                        45.08%    passed      8.03%
+1155  1178|_Gamma|_|spH_||AOP60447.1|MotA                                        45.08%    passed      8.03%
+1156  1179|_Gamma|_|spGamma_FB21||AAY35631.1|MotA                                45.60%    passed     19.16%
+1157  1180|_Gamma|H_|spNA||ABZ00843.1|flagellar_MotA                             45.08%    passed     12.32%
+1158  1181|_Gamma|_|spNA||QEI18926.1|MotA                                        44.56%    passed     66.89%
+1159  1182|_Gamma|_|spGamma_FB21||ACL72407.1|MotA                                43.01%    passed     79.32%
+1160  1183|_Gamma|_|spNA||QBZ83464.1|MotA                                        48.19%    passed     14.30%
+1161  1184|_Gamma|H_PROB|spnonEntGamma_L07||AGH79162.1|MotA                      48.19%    failed      0.51%
+1162  1185|_Gamma|_|spNA||AAM42923.1|transport                                   48.70%    failed      0.52%
+1163  1186|_Desulfo|Na|spNA||AAS97080.1|MotA                                     47.15%    failed      1.10%
+1164  1187|_Desulfo|_|spDelta_FB21||AGC49895.1|MotA                              45.60%    passed     31.04%
+1165  1188|_Desulfo|H_PROB|spDelta_FB21||BAH75058.1|MotA                         51.30%    passed     27.00%
+1166  1189|_Desulfo|H|spDelta_FB21||BAH74235.1|MotA                              38.86%    failed      4.50%
+1167  1190|_Desulfo|H_PROB|spDelta_FB21||BAH77464.1|MotA                         48.19%    passed     35.98%
+1168  1191|_Delta|_|spNA||ABC77078.1|transport                                   57.51%    passed     13.13%
+1169  1192|_Nitrospirae|_|spNA||BCB96094.1|MotA                                  46.11%    passed     14.37%
+1170  1193|_Nitrospirae|_|spNA||ACI21445.1|lateral_MotA                          41.45%    passed     17.20%
+1171  1194|_Acido|_|spNA||QOY88835.1|MotA                                        50.26%    passed     54.14%
+1172  1195|_Acido|_|spNA||QOY86330.1|MotA                                        49.22%    passed      7.47%
+1173  1196|_Acido|_|spNA||ACO33337.1|MotA                                        42.49%    failed      0.61%
+1174  1197|_Acido|_|spNA||QOY85080.1|MotA                                        41.97%    passed     18.87%
+1175  1198|_Gemmatimonadetes|_|spNA||BAH37338.1|MotA                             47.15%    failed      2.05%
+1176  1199|_Gemmatimonadetes|_|spNA||AMW06484.1|MotA                             47.67%    failed      1.66%
+1177  1200|_Gemmatimonadetes|_|spNA||QJR36484.1|MotA                             46.63%    passed     29.88%
+1178  1201|_Armatimonadetes|_|spNA||CCW34551.1|MotA                              46.11%    passed     49.95%
+1179  1202|_Bdellovibrionota|_|spNA||AHZ83632.1|MotA                             46.11%    failed      1.54%
+1180  1203|_Armatimonadetes|_|spNA||ARU42506.1|MotA                              48.19%    passed     55.43%
+1181  1204|_Fibrobacteres|_|spNA||QQS05761.1|MotA                                45.08%    passed     91.39%
+1182  1205|_Verrucomicrobia|_|spNA||ATC63650.1|MotA                              42.49%    passed     85.11%
+1183  1206|_Verrucomicrobia|_|spNA||ACB73691.1|AQB                               45.08%    passed     45.38%
+1184  1207|_Verrucomicrobia|_|spNA||PKPEBJJI_00564|MotA                          70.47%    passed     68.77%
+1185  1208|_Verrucomicrobia|_|spNA||DGBBEKCF_02484|MotA                          40.41%    passed     60.97%
+1186  1209|_Planctomycetes|_|spNA||QDU25289.1|LafT                               47.15%    passed     15.94%
+1187  1210|_Planctomycetes|_|spNA||CAD77532.1|TolQ                               60.62%    passed     49.26%
+1188  1211|_Planctomycetes|_|spNA||ADY59818.1|HYP_Plabr_2216                     59.07%    passed     79.15%
+1189  1212|_Planctomycetes|_|spNA||QVL33094.1|AQB                                60.62%    passed     19.32%
+1190  1214|_Chlorobi|_|spNA||ABL66229.1|HYP_Cpha266_2232                         60.10%    passed     18.70%
+1191  1215|_Gemmatimonadetes|_|spNA||BAH37227.1|HYP                              65.28%    passed     53.26%
+1192  1216|_Deinococcus-Thermus|_|spNA||AIZ45138.1|HYP_QR90_08530                65.28%    failed      2.15%
+1193  1217|_Fibrobacteres|_|spNA||ACX76639.1|HYP_Fisuc_3059                      59.59%    passed     33.82%
+1194  1218|_Nitrospirae|_|spNA||BAM05883.1|HYP_LFE_0155                          72.02%    failed      0.12%
+1195  1219|_Cyano|_|spNA||QIZ70514.1|HYP_HCG48_07910                             67.88%    passed     18.99%
+1196  1220|_Acido|_|spNA||QTD54135.1|HYP_J3U87_16945                             61.66%    failed      0.94%
+1197  1221|_Epsilon|_|spNA||ALF47932.1|membrane_protein                          60.62%    failed      4.21%
+1198  1222|_Epsilon|_|spNA||CAL34744.1|membrane_protein                          56.48%    failed      3.00%
+1199  1223|_Epsilon|_|spNA||AOO65010.1|membrane_protein                          55.96%    passed      9.09%
+1200  1224|_Epsilon|_|spNA||AKF24681.1|HYP_YH65_04225                            51.30%    passed     13.09%
+1201  1225|_Firmicutes|_|spNA||WP_029487897.1|AQB                                56.48%    passed     11.10%
+1202  1226|_Bdellovibrionota|_|spNA||AHZ86390.1|HYP_EP01_15820                   66.84%    passed     78.00%
+1203  1227|_Gamma|_|spGamma_FB21||EHJ02753.1|AQB                                 56.48%    passed     29.50%
+1204  1228|_Gamma|_|spNA||ADP99806.1|AQB                                         56.48%    passed     29.50%
+1205  1229|_Gamma|_|spGamma_FB21||ABM17428.1|AQB                                 56.48%    passed     12.84%
+1206  1230|_Gamma|_|spGamma_FB21||ACL73342.1|AQB                                 70.47%    failed      1.33%
+1207  1231|_Alpha|_|spNA||CDK97459.1|AQB                                         75.13%    passed     10.48%
+1208  1232|_Alpha|_|spNA||AEO47577.1|AQB                                         77.72%    passed     72.78%
+1209  1233|_Alpha|_|spNA||AIQ93688.1|unk                                         56.48%    passed      6.80%
+1210  1234|_Alpha|_|spNA||ABA05996.1|TolQ                                        73.58%    passed     68.34%
+1211  1235|_Alpha|_|spNA||ADE86713.1|AQB                                         52.85%    passed     74.46%
+1212  1236|_Alpha|_|spNA||BDB96353.1|MotA                                        74.09%    failed      3.24%
+1213  1237|_Epsilon|_|spNA||AOO66357.1|HYP_SHALO_2598                            45.08%    failed      0.11%
+1214  1238|_Fibrobacteres|_|spNA||ACX76601.1|HYP_Fisuc_3021                      54.40%    passed     33.34%
+1215  1239|_Entero|_|spnonEntGamma_L07||AAV83016.1|ExbB                          44.56%    passed     55.95%
+1216  1240|_Entero|_|spGamma_FB21||CCQ11600.1|ExbB                               44.04%    passed     56.40%
+1217  1241|_Entero|_|spGamma_FB21||AFS38914.1|ExbB                               44.56%    passed     58.14%
+1218  1242|_Acido|_|spNA||QTD52802.1|AQB                                         41.97%    passed     56.31%
+1219  1243|_Planctomycetes|_|spNA||QVL33268.1|AQB                                41.45%    passed     75.38%
+1220  1244|_Acido|_|spNA||QOY89286.1|AQB                                         46.63%    passed     89.26%
+1221  1245|_Acido|_|spNA||QTD50492.1|AQB                                         41.97%    passed     74.04%
+1222  1246|_Planctomycetes|_|spNA||QDU28596.1|HYP_ETAA8_36990                    36.79%    passed      6.12%
+1223  1247|_Planctomycetes|_|spNA||ADB15801.1|HYP_Psta_1118                      41.45%    passed     86.21%
+1224  1248|_Planctomycetes|_|spNA||ADV63425.1|HYP_Isop_2860                      54.92%    passed     75.98%
+1225  1249|_Cyano|_|spNA||QIZ73618.1|MotA                                        58.03%    passed     51.36%
+1226  1250|_Planctomycetes|_|spNA||QDU27457.1|AQB                                41.45%    passed     70.49%
+1227  1251|_Planctomycetes|_|spNA||ADB18690.1|HYP_Psta_4037                      40.41%    passed     30.53%
+1228  1252|_Planctomycetes|_|spNA||QDU95463.1|AQB                                38.34%    passed     26.44%
+1229  1253|_Planctomycetes|_|spNA||CAD71788.1|biopoly_transp                     50.26%    passed     15.54%
+1230  1254|_Planctomycetes|_|spNA||ADY61197.1|AQB                                39.90%    passed     45.47%
+1231  1255|_Gamma|_|spBeta_FB21||ABE48388.1|ExbB                                 56.48%    passed     32.58%
+1232  1256|_Gamma|_|spBeta_FB21||ACT47185.1|AQB                                  51.81%    passed     62.38%
+1233  1257|_Methano|_|spNA||ADL58647.1|predicted_transporter_protein             48.19%    passed     82.76%
+1234  1258|_Firmicutes|_|spNA||ALU35076.1|AQB                                    55.44%    passed     18.54%
+1235  1259|_Bacteroidota|_|spNA||WP_074858756.1|AQB                              60.62%    passed     89.51%
+1236  1260|_Bacteroidota|_|spNA||CBW23216.1|membrane_protein                     60.62%    passed     89.51%
+1237  1261|_Bacteroidota|_|spNA||CBW23015.1|transport                            53.89%    passed     96.82%
+1238  1262|_Lentisphaerae|_|spNA||AVM44306.1|HYP_C5Q97_06090                     51.81%    passed     22.48%
+1239  1263|_Nitrospirae|_|spNA||BCB95963.1|MotA                                  46.11%    passed     75.35%
+1240  1264|_Entero|_|spNA||UXK10160.1|AQB                                        47.15%    passed     91.75%
+1241  1265|_Alpha|_|spNA||BAK65755.1|conserved_HYP                               53.89%    passed     98.00%
+1242  1266|_Planctomycetes|_|spNA||QVL34843.1|AQB                                59.59%    passed      5.87%
+1243  1267|_Planctomycetes|_|spNA||ADY61698.1|AQB                                45.60%    passed     14.50%
+1244  1268|_Gamma|_|spNA||AAG05312.1|HYP_PA1924                                  64.77%    passed     93.10%
+1245  1269|_Gamma|_|spH_||AOP58524.1|ExbD                                        64.77%    passed     93.10%
+1246  1270|_Gamma|_|spNA||MBU2987451.1|AQB                                       65.28%    passed     84.54%
+1247  1271|_Entero|_|spNA||BAJ02636.1|TolQ                                       65.80%    passed     74.16%
+1248  1272|_Methano|_|spNA||ADL58991.1|predicted                                 38.86%    passed     24.10%
+1249  1273|_Planctomycetes|_|spNA||QDU27583.1|TolQ                               51.30%    passed     91.39%
+1250  1274|_Planctomycetes|_|spNA||ADB17385.1|AQB                                56.48%    passed     73.47%
+1251  1275|_Planctomycetes|_|spNA||QDU94732.1|TolQ                               55.44%    passed     33.04%
+1252  1276|_Planctomycetes|_|spNA||CAD76944.1|TolQ                               50.78%    passed     59.21%
+1253  1277|_Planctomycetes|_|spNA||ADY58078.1|AQB                                44.04%    passed     95.34%
+1254  1278|_Planctomycetes|_|spNA||ADV63710.1|AQB                                45.08%    passed     75.77%
+1255  1279|_Spirochaetes|_|spNA||EKT87417.1|MotA                                 49.74%    passed     43.84%
+1256  1280|_Spirochaetes|_|spNA||AAS72198.1|AQB                                  59.59%    passed     65.93%
+1257  1281|_Spirochaetes|_|spNa__or_H_||ABZ99689.1|AQB                           52.85%    passed     88.04%
+1258  1282|WP_012077079.1                                                        44.04%    passed     92.32%
+1259  1283|WP_012723652.1                                                        44.04%    passed     86.66%
+1260  1284|ECV11682.1                                                            34.72%    passed     89.24%
+1261  1285|WP_008763543.1                                                        45.08%    passed     52.59%
+1262  1286|WP_011506916.1                                                        51.30%    failed      4.08%
+1263  1287|WP_011341388.1                                                        69.43%    passed     47.47%
+1264  1288|WP_009839052.1                                                        50.78%    passed     21.56%
+1265  1289|WP_021023792.1                                                        37.82%    passed     64.29%
+1266  1290|WP_077460840.1                                                        37.82%    passed     64.29%
+1267  1291|WP_077576145.1                                                        37.82%    passed     51.06%
+1268  1293|WP_039446787.1                                                        44.56%    passed     78.99%
+1269  1294|KHT49528.1                                                            38.34%    passed     60.24%
+1270  1295|WP_080609797.1                                                        45.08%    passed     78.86%
+1271  1296|WP_080537315.1                                                        45.08%    passed     78.86%
+1272  1297|WP_008967786.1                                                        43.52%    passed     61.50%
+1273  1298|AHF90302.1                                                            44.56%    passed     79.18%
+1274  1299|EIP98959.1                                                            44.56%    passed     79.18%
+1275  1300|BAM92501.1                                                            44.04%    passed     54.03%
+WARNING: 113 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                      42.21%  77 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: 0022|_Gamma|_|spNA||ABD79617.1|AQB is identical to 0021|_Gamma|_|spNA||MBU2986356.1|AQB but kept for subsequent analysis
+NOTE: 0025|_Entero|_|spGamma_FB21||EKB20826.1|HYP_HMPREF1168_01631 is identical to 0024|_Entero|_|spNa_||ABK35895.1|TolR but kept for subsequent analysis
+NOTE: 0036|_Entero|_|spNa_||ABK39661.1|TonB_transp is identical to 0035|_Entero|_|spGamma_FB21||EKB22828.1|HYP_HMPREF1168_00884 but kept for subsequent analysis
+NOTE: 0041|_Entero|_|spNA||PHZ60572.1|MotA is identical to 0040|_Entero|_|spGamma_FB21|1_2_FB21|GAA06515.1|AQB but kept for subsequent analysis
+NOTE: 0050|_Entero|_|spNa_||AAF94701.1|ExbB is identical to 0049|_Gamma|_|spNA||QEO41299.1|AQB but kept for subsequent analysis
+NOTE: 1293|WP_039446787.1 is identical to 0052|_Entero|_|spGamma_FB21||BAC96945.1|ExbB but kept for subsequent analysis
+NOTE: 1288|WP_009839052.1 is identical to 0058|_Entero|_|spGamma_FB21||EAR27189.1|TolQ but kept for subsequent analysis
+NOTE: 0085|_Entero|_|spNA||PHZ60571.1|AQB is identical to 0084|_Entero|_|spGamma_FB21|1_2_FB21|GAA06514.1|AQB but kept for subsequent analysis
+NOTE: 0089|_Entero|_|spNa_||AAF94700.1|ExbB2 is identical to 0088|_Gamma|_|spNA||QEO41300.1|AQB but kept for subsequent analysis
+NOTE: 0118|_Gamma|_|spNA||MBU2986357.1|AQB is identical to 0117|_Gamma|_|spNA||ABD79618.1|AQB but kept for subsequent analysis
+NOTE: 0127|_Entero|_|spNa_||EAS76517.1|ExbB2 is identical to 0126|_Gamma|_|spNA||BAC58428.1|ExbB2 but kept for subsequent analysis
+NOTE: 0157|_Gamma|_|spNA||ADP97901.1|transport is identical to 0156|_Gamma|_|spGamma_FB21||EHJ03729.1|AQB but kept for subsequent analysis
+NOTE: 0162|_Gamma|_|spNA||CCG95163.1|AQB is identical to 0161|_Gamma|_|spGamma_FB21||ABM18682.1|ExbB but kept for subsequent analysis
+NOTE: 0165|_Gamma|_|spNA||MBU2986144.1|AQB is identical to 0164|_Gamma|_|spNA||ABD82818.1|AQB but kept for subsequent analysis
+NOTE: 0173|_Delta|_|spNA||UEO05650.1|AQB is identical to 0172|_Delta|_|spNA||ABF90777.1|AQB but kept for subsequent analysis
+NOTE: 0182|_Delta|_|spNA||UEO02151.1|AQB is identical to 0181|_Delta|_|spNA||ABF87376.1|AQB but kept for subsequent analysis
+NOTE: 0222|_Gamma|_|spH_||AOP57473.1|ExbB is identical to 0221|_Gamma|_|spNA||AAG06371.1|TolQ but kept for subsequent analysis
+NOTE: 0229|_Gamma|_|spGamma_FB21||EHJ06609.1|AQB is identical to 0228|_Gamma|_|spNA||ADP97830.1|AQB but kept for subsequent analysis
+NOTE: 0253|_Entero|_|spNa_||AAF96808.1|ExbB1 is identical to 0252|_Gamma|_|spNA||QEO43084.1|AQB but kept for subsequent analysis
+NOTE: 0329|_Cyano|_|spNA||BAC89328.1|glr1387 is identical to 0328|_Cyano|_|spNA||BAC90343.1|AQB but kept for subsequent analysis
+NOTE: 1285|WP_008763543.1 is identical to 0400|_Bacteroidota|_|spNA||WP_074859237.1|AQB but kept for subsequent analysis
+NOTE: 0415|_Entero|_|spH_||EDR32368.1|TolQ is identical to 0414|_Entero|_|spNA||AJJ55217.1|TolQ but kept for subsequent analysis
+NOTE: 0419|_Entero|_|spNA|1|KGA74186.1|TolQ is identical to 0418|_Entero|_|spNA|123b|CNK50903.1|TolQ but kept for subsequent analysis
+NOTE: 0423|_Entero|_|spNA|12|EHM38191.1|TolQ is identical to 0422|_Entero|_|spNA|123b|AMO81721.1|TolQ but kept for subsequent analysis
+NOTE: 0431|_Entero|_|spenteric|1_2_FB21|CBG33586.1|colicin_import is identical to 0430|_Entero|_|spNA||QKY92913.1|TolQ but kept for subsequent analysis
+NOTE: 0443|_Entero|_|spNA||QXB11428.1|TolQ is identical to 0436|_Entero|_|spNA|13b|KOQ95241.1|TolQ but kept for subsequent analysis
+NOTE: 0439|_Entero|_|spNA|13a|KLR23957.1|TolQ is identical to 0438|_Entero|_|spNA|123a|KLP55538.1|TolQ but kept for subsequent analysis
+NOTE: 0455|_Entero|_|spNA|25|WP_036768516.1|TolQ is identical to 0454|_Entero|_|spGamma_FB21||AVQ86734.1|TolQ but kept for subsequent analysis
+NOTE: 0457|_Entero|_|spGamma_FB21|1_2_FB21|GAA03687.1|TolQ is identical to 0456|_Entero|_|spNA||PHZ59005.1|TolQ but kept for subsequent analysis
+NOTE: 0460|_Entero|_|spNa_||AAF94987.1|TolQ is identical to 0459|_Gamma|_|spNA||QEO41016.1|TolQ but kept for subsequent analysis
+NOTE: 0487|_Gamma|_|spH_||AOP59474.1|TolQ is identical to 0486|_Gamma|_|spNA||AAG04358.1|TolQ but kept for subsequent analysis
+NOTE: 0492|_Gamma|_|spNA||CCG95070.1|TolQ is identical to 0491|_Gamma|_|spGamma_FB21||ABM18786.1|TolQ but kept for subsequent analysis
+NOTE: 0496|_Gamma|_|spNA||MBU2984437.1|TolQ is identical to 0495|_Gamma|_|spNA||ABD81792.1|AQB but kept for subsequent analysis
+NOTE: 0503|_Gamma|_|spNA||AAM42292.1|TolQ is identical to 0502|_Gamma|_|spnonEntGamma_L07||AGH78623.1|TolQ but kept for subsequent analysis
+NOTE: 0511|_Gamma|_|spNA||CAH36769.1|TolQ is identical to 0510|_Gamma|_|spBeta_FB21||AAU49638.1|TolQ but kept for subsequent analysis
+NOTE: 0528|_Entero|_|spenteric|1_2_FB21|CBG36124.1|transport is identical to 0527|_Entero|_|spNA||QKY94846.1|tolPal_thioest but kept for subsequent analysis
+NOTE: 0538|_Entero|_|spNA|1|PAN73341.1|ExbB is identical to 0537|_Entero|_|spNA|123a|KLP54537.1|ExbB but kept for subsequent analysis
+NOTE: 0554|_Entero|_|spNA|1|OWF78218.1|ExbB is identical to 0553|_Entero|_|spNA|123b|CNK81352.1|AQB but kept for subsequent analysis
+NOTE: 0559|_Entero|_|spNA|12|AKS91098.1|ExbB is identical to 0558|_Entero|_|spNA||AJJ56099.1|ExbB but kept for subsequent analysis
+NOTE: 0561|_Entero|_|spH_||EDR30836.1|ExbB is identical to 0560|_Entero|_|spNA||AJJ31614.1|ExbB but kept for subsequent analysis
+NOTE: 0573|_Alpha|_|spNA||ABA03969.1|ExbB is identical to 0572|_Alpha|_|spNA||ABA05299.1|ExbB but kept for subsequent analysis
+NOTE: 0582|_Alpha|_|spNA||ABA04528.1|ExbB is identical to 0581|_Alpha|_|spNA||ABA05559.1|ExbB but kept for subsequent analysis
+NOTE: 0630|_Delta|_|spNA||UEO06636.1|AQB is identical to 0629|_Delta|_|spNA||ABF91581.1|AQB but kept for subsequent analysis
+NOTE: 0640|_Acido|_|spNA||AFL88265.1|transport is identical to 0639|_Acido|_|spNA||AFL88606.1|transport but kept for subsequent analysis
+NOTE: 0655|_Gamma|_|spNA||CAH37815.1|bipolymer is identical to 0654|_Gamma|_|spBeta_FB21||AAU45830.1|AQB but kept for subsequent analysis
+NOTE: 0665|_Gamma|_|spNA|1_2_FB21|AAQ59656.1|transport is identical to 0664|_Gamma|_|spNA|1_2_FB21|AAQ59644.1|transport but kept for subsequent analysis
+NOTE: 0675|_Gamma|_|spNA||CAH36950.1|transport is identical to 0674|_Gamma|_|spBeta_FB21||AAU49703.1|AQB but kept for subsequent analysis
+NOTE: 0678|_Gamma|_|spNA||AAM39328.1|ExbB is identical to 0677|_Gamma|_|spnonEntGamma_L07||AGH75547.1|ExbB but kept for subsequent analysis
+NOTE: 0680|_Gamma|_|spBeta_FB21||ABE49289.1|ExbB is identical to 0679|_Gamma|_|spBeta_FB21||ABE49145.1|ExbB but kept for subsequent analysis
+NOTE: 0708|_Gamma|_|spH_||AOP55732.1|ExbB is identical to 0707|_Gamma|_|spNA||AAG03587.1|ExbB but kept for subsequent analysis
+NOTE: 0737|_Gamma|_|spH_||AOP59747.1|ExbB is identical to 0736|_Gamma|_|spNA||AAG04082.1|ExbB2 but kept for subsequent analysis
+NOTE: 0746|_Delta|_|spNA||UEO03725.1|AQB is identical to 0745|_Delta|_|spNA||ABF92363.1|AQB but kept for subsequent analysis
+NOTE: 0752|_Delta|_|spNA||UEO04809.1|AQB is identical to 0751|_Delta|_|spNA||ABF92421.1|TolQ_ExbB_wTonB but kept for subsequent analysis
+NOTE: 0801|_Delta|_|spNA||UEO05991.1|AQB is identical to 0800|_Delta|_|spNA||ABF90492.1|AQB but kept for subsequent analysis
+NOTE: 0803|_Delta|_|spNA||UEO04322.1|AQB is identical to 0802|_Delta|_|spNA||ABF85904.1|AQB but kept for subsequent analysis
+NOTE: 0814|_Delta|_|spNA||UEO07578.1|AQB is identical to 0813|_Delta|_|spNA||ABF91342.1|AQB but kept for subsequent analysis
+NOTE: 0826|_Gamma|Na_PROB|spH_||AOP58989.1|flag is identical to 0825|_Gamma|Na_PROB|spNA||AAG04849.1|MotC but kept for subsequent analysis
+NOTE: 0830|_Gamma|_|spNA||MBU2985819.1|flag is identical to 0829|_Gamma|_|spNA||ABD81419.1|AQB but kept for subsequent analysis
+NOTE: 0833|_Gamma|_|spNA||CCG94812.1|transport is identical to 0832|_Gamma|_|spGamma_FB21||ABM19051.1|AQB but kept for subsequent analysis
+NOTE: 0835|_Gamma|_|spNA||ADP98060.1|MotA is identical to 0834|_Gamma|_|spGamma_FB21||EHJ04494.1|flag but kept for subsequent analysis
+NOTE: 0845|_Entero|_|spNA|25|WP_010861725.1|flag is identical to 0844|_Entero|_|spGamma_FB21||AVQ86535.1|flag but kept for subsequent analysis
+NOTE: 0870|_Acido|_|spNA||AFL88473.1|transport is identical to 0869|_Acido|_|spNA||AFL88814.1|transport but kept for subsequent analysis
+NOTE: 0888|_Firmicutes|_|spNa_||UUH67684.1|MotA is identical to 0887|_Firmicutes|_|spNa_||BAI84979.1|MotA but kept for subsequent analysis
+NOTE: 0918|_Firmicutes|Na|spNa_||BAI86480.1|MotP is identical to 0917|_Firmicutes|Na|spNA||CAB14951.1|sodium_MotA but kept for subsequent analysis
+NOTE: 0922|_Spirochaetes|Na is identical to 0921|_Spirochaetes|_|spNA||UOY13875.1|MotA but kept for subsequent analysis
+NOTE: 1004|_Entero|Na|spNa_||AAF94054.1|PomA is identical to 1003|_Gamma|_|spNA||QEO41881.1|PomA but kept for subsequent analysis
+NOTE: 1016|_Entero|_|spNA|25|WP_010864309.1|PomA is identical to 1015|_Entero|_|spGamma_FB21||AVQ88446.1|PomA but kept for subsequent analysis
+NOTE: 1018|_Gamma|_|spNA||MBU2985330.1|PomA is identical to 1017|_Gamma|_|spNA||ABD82476.1|AQB but kept for subsequent analysis
+NOTE: 1023|_Gamma|_|spNA||CCG93764.1|MotA_Na is identical to 1022|_Gamma|_|spGamma_FB21||ABM17419.1|AQB but kept for subsequent analysis
+NOTE: 1028|_Gamma|_|spNA||CCG93539.1|MotA_Na_polar is identical to 1027|_Gamma|_|spGamma_FB21||ABM17156.1|AQB but kept for subsequent analysis
+NOTE: 1050|_Entero|_|spNA|1|PAN74106.1|MotA is identical to 1049|_Entero|_|spNA|123a|KLP57512.1|MotA but kept for subsequent analysis
+NOTE: 1066|_Entero|_|spNA|1|OWF82396.1|MotA is identical to 1065|_Entero|_|spNA|123b|CNJ97189.1|MotA but kept for subsequent analysis
+NOTE: 1071|_Entero|H|spH_||EDR32241.1|MotA is identical to 1070|_Entero|_|spNA||AJJ32465.1|MotA but kept for subsequent analysis
+NOTE: 1079|_Entero|_|spNA|123b|AMO81194.1|MotA is identical to 1078|_Entero|_|spNA|12|EHM44252.1|MotA but kept for subsequent analysis
+NOTE: 1094|_Entero|_|spNA|13a|KLR25774.1|MotA is identical to 1093|_Entero|_|spNA|123a|KLP57591.1|MotA but kept for subsequent analysis
+NOTE: 1104|_Gamma|_|spNA||CAH37322.1|MotA is identical to 1103|_Gamma|_|spBeta_FB21||AAU48340.1|MotA but kept for subsequent analysis
+NOTE: 1145|_Entero|_|spNA|12|AKS88796.1|MotA is identical to 1144|_Entero|_|spNA||AJJ32757.1|MotA but kept for subsequent analysis
+NOTE: 1155|_Entero|_|spenteric|1_2_FB21|CBG33120.1|lateral_MotA is identical to 1154|_Entero|_|spNA|12|GHD92256.1|MotA but kept for subsequent analysis
+NOTE: 1166|_Entero|_|spNA|25|WP_010862954.1|MotA is identical to 1165|_Entero|_|spGamma_FB21||AVQ87684.1|MotA but kept for subsequent analysis
+NOTE: 1174|_Gamma|_|spNA||CCG96131.1|MotA is identical to 1173|_Gamma|_|spGamma_FB21||ABM19854.1|transport but kept for subsequent analysis
+NOTE: 1176|_Gamma|_|spGamma_FB21||EHJ04192.1|transport is identical to 1175|_Gamma|_|spNA||ADP98274.1|MotA but kept for subsequent analysis
+NOTE: 1178|_Gamma|_|spH_||AOP60447.1|MotA is identical to 1177|_Gamma|_|spNA||AAG08339.1|MotA but kept for subsequent analysis
+NOTE: 1228|_Gamma|_|spNA||ADP99806.1|AQB is identical to 1227|_Gamma|_|spGamma_FB21||EHJ02753.1|AQB but kept for subsequent analysis
+NOTE: 1260|_Bacteroidota|_|spNA||CBW23216.1|membrane_protein is identical to 1259|_Bacteroidota|_|spNA||WP_074858756.1|AQB but kept for subsequent analysis
+NOTE: 1269|_Gamma|_|spH_||AOP58524.1|ExbD is identical to 1268|_Gamma|_|spNA||AAG05312.1|HYP_PA1924 but kept for subsequent analysis
+NOTE: 1290|WP_077460840.1 is identical to 1289|WP_021023792.1 but kept for subsequent analysis
+NOTE: 1296|WP_080537315.1 is identical to 1295|WP_080609797.1 but kept for subsequent analysis
+NOTE: 1299|EIP98959.1 is identical to 1298|AHF90302.1 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.005826 secs using 78.84% CPU
+Computing Jukes-Cantor distances...
+Calculating observed distances: done in 0.323063 secs using 94.88% CPU
+Computing Jukes-Cantor distances...
+Calculating observed distances: done in 0.00846004 secs using 87.01% CPU
+Constructing BIONJ tree: done in 0.430925 secs using 173.8% CPU
+Computing BIONJ tree took 0.430982 sec (of wall-clock time) 0.749023 sec (of CPU time)
+WARNING: 12 undefined/negative branch lengths are initialized with parsimony
+Generating 1000 samples for ultrafast bootstrap (seed: 986445)...
+
+NOTE: 167 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -150009.814
+2. Current log-likelihood: -141808.030
+3. Current log-likelihood: -141754.235
+4. Current log-likelihood: -141751.971
+Optimal log-likelihood: -141751.906
+Gamma shape alpha: 0.908
+Parameters optimization took 4 rounds (11.948 sec)
+Wrote distance file to... 1283_AQBs_hmmcore_plusJiahe_aln.fasta.uniqueseq.phy.mldist
+Computing ML distances based on estimated model parameters...

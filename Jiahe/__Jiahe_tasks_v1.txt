@@ -132,9 +132,11 @@ esl-reformat --informat stockholm clustal 1283_AQBs_plusJiahe.sto | tee 1283_AQB
 1283_AQBs_hmmcore_plusJiahe_aln.fasta
 
 
+
+
 # Do a phylogeny
 
-# fast:
+# fast (CRASHES)
 cd ~/GitHub/bioinfRhints/Jiahe/seqs/aln_jiahe_seqs_w1283AQBs
 iqtree -fast -t BIONJ -s 1283_AQBs_hmmcore_plusJiahe_aln_NJ.fasta
 
@@ -146,6 +148,19 @@ cd ~/GitHub/bioinfRhints/Jiahe/seqs/aln_jiahe_seqs_w1283AQBs
 
 iqtree -t BIONJ -s 1283_AQBs_hmmcore_plusJiahe_aln.fasta -m LG+F+G --ufboot 1000 -bnni | tee 1283_AQBs_hmmcore_plusJiahe_aln_so1.txt &
 job
+
+
+
+
+
+# Slow alignment with mafft at edges
+
+# Ruby regional alignment, then tree
+cd ~/GitHub/bioinfRhints/Jiahe/seqs/aln_jiahe_seqs_w1283AQBs
+
+ruby regionalrealignment.rb settings_for_1283_AQBs_plusJiahe_aln.txt 1283_AQBs_plusJiahe_aln.fasta > 1283_AQBs_plusJiahe_aln_mafftMiddleConstrained2.fasta
+iqtree -t BIONJ -s 1283_AQBs_plusJiahe_aln_mafftMiddleConstrained2.fasta -m LG+F+G --ufboot 1000 -bnni | tee 1283_AQBs_plusJiahe_aln_mafftMiddleConstrained2.fasta_so1.txt &
+
 
 
 
