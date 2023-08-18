@@ -1,0 +1,44 @@
+IQ-TREE multicore version 2.2.0 COVID-edition for Mac OS X 64-bit built Jun  1 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    sc-sbs-383264.uoa.auckland.ac.nz (AVX2, FMA3, 8 GB RAM)
+Command: iqtree -fast -t BIONJ -s 1283_AQBs_hmmcore_plusJiahe_aln_NJ.fasta.uniqueseq.phy
+Seed:    760156 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Aug 18 15:18:21 2023
+Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file 1283_AQBs_hmmcore_plusJiahe_aln_NJ.fasta.uniqueseq.phy ... Phylip format detected
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.00239992 secs using 73.04% CPU
+WARNING: 1 sites contain only gaps or ambiguous characters.
+Alignment has 1276 sequences with 194 columns, 193 distinct patterns
+154 parsimony-informative, 15 singleton sites, 24 constant sites
+Analyzing sequences: done in 0.0017941 secs using 81.88% CPU
+WARNING: 114 sequences contain more than 50% gaps/ambiguity
+Checking for duplicate sequences: done in 0.00722718 secs using 81.82% CPU
+Computing Jukes-Cantor distances...
+Calculating observed distances: done in 0.368477 secs using 87.7% CPU
+
+ERROR: STACK TRACE FOR DEBUGGING:
+ERROR: 2   _sigtramp()
+ERROR: 4   Alignment::printDist(char const*, double*)
+ERROR: 6   __kmp_invoke_microtask()
+ERROR: 7   __kmp_invoke_task_func()
+ERROR: 8   __kmp_fork_call()
+ERROR: 9   __kmpc_fork_call()
+ERROR: 10   PhyloTree::computeBioNJ(Params&)
+ERROR: 11   IQTree::computeInitialTree(LikelihoodKernel)
+ERROR: 12   computeFastMLTree(Params&, Alignment*, ModelCheckpoint&, ModelsBlock*, int&, int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>)
+ERROR: 13   runModelFinder(Params&, IQTree&, ModelCheckpoint&)
+ERROR: 14   startTreeReconstruction(Params&, IQTree*&, ModelCheckpoint&)
+ERROR: 15   runPhyloAnalysis(Params&, Checkpoint*, IQTree*&, Alignment*&)
+ERROR: 16   runPhyloAnalysis(Params&, Checkpoint*)
+ERROR: 
+ERROR: *** IQ-TREE CRASHES WITH SIGNAL SEGMENTATION FAULT
+ERROR: *** For bug report please send to developers:
+ERROR: ***    Log file: 1283_AQBs_hmmcore_plusJiahe_aln_NJ.fasta.uniqueseq.phy.log
+ERROR: ***    Alignment files (if possible)
