@@ -657,7 +657,7 @@ xlsnums = 1:nrow(xlsnew)
 # Plot power source
 xval = 0.1
 tipnums = xlsnums[!is.na(xlsnew$litPower)]
-ys = ntips - tipnums
+ys = ntips - (tipnums - 1)
 xs = rep(tree_age+xval, times=length(tipnums))
 labs = xlsnew$litPower[tipnums]
 labs = gsub(pattern="H+_hi_pH_N+", replacement="H>pH>Na", x=labs)
@@ -681,7 +681,7 @@ text(xs, ys, labels=labs, col=cols, cex=0.65)
 # Plot motor type
 xval = 0.6
 tipnums = xlsnums[!is.na(xlsnew$"flag1-5")]
-ys = ntips - tipnums
+ys = ntips - (tipnums - 1)
 xs = rep(tree_age+xval, times=length(tipnums))
 labs = xlsnew$"flag1-5"[tipnums]
 cols = rep("gray50", times=length(tipnums))
@@ -715,6 +715,10 @@ key = "TolQ"
 tipnums = xlsnums[xlsnew$L2 == key]
 ybottom = ntips - max(tipnums, na.rm=TRUE) + 0.5
 ytop = ntips - min(tipnums, na.rm=TRUE) + 1.5
+node_for_clade = getMRCA(phy=tr_to_plot, tip=tipnums[!is.na(tipnums)])
+age_of_clade = new_trtable_to_plot$time_bp[node_for_clade]
+xleft = xleft_orig + tree_age * ((tree_age-age_of_clade)/tree_age) - (fraction_treeheight_to_left * tree_age)
+xleft_group_label = xleft + (2/5*fraction_treeheight_to_left * tree_age)
 
 tmpcol = col2rgb(cols[labs==key])[,1]
 color = rgb(red=tmpcol["red"], green=tmpcol["green"], blue=tmpcol["blue"], alpha=100, maxColorValue=255)
@@ -727,6 +731,10 @@ key = "ExbB"
 tipnums = xlsnums[xlsnew$L2 == key]
 ybottom = ntips - max(tipnums, na.rm=TRUE) + 0.5
 ytop = ntips - min(tipnums, na.rm=TRUE) + 1.5
+node_for_clade = getMRCA(phy=tr_to_plot, tip=tipnums[!is.na(tipnums)])
+age_of_clade = new_trtable_to_plot$time_bp[node_for_clade]
+xleft = xleft_orig + tree_age * ((tree_age-age_of_clade)/tree_age) - (fraction_treeheight_to_left * tree_age)
+xleft_group_label = xleft + (2/5*fraction_treeheight_to_left * tree_age)
 
 tmpcol = col2rgb(cols[labs==key])[,1]
 color = rgb(red=tmpcol["red"], green=tmpcol["green"], blue=tmpcol["blue"], alpha=100, maxColorValue=255)
@@ -740,6 +748,10 @@ key = "PomA"
 tipnums = xlsnums[xlsnew$L2 == key]
 ybottom = ntips - max(tipnums, na.rm=TRUE) + 0.5
 ytop = ntips - min(tipnums, na.rm=TRUE) + 1.5
+node_for_clade = getMRCA(phy=tr_to_plot, tip=tipnums[!is.na(tipnums)])
+age_of_clade = new_trtable_to_plot$time_bp[node_for_clade]
+xleft = xleft_orig + tree_age * ((tree_age-age_of_clade)/tree_age) - (fraction_treeheight_to_left * tree_age)
+xleft_group_label = xleft + (2/5*fraction_treeheight_to_left * tree_age)
 
 tmpcol = col2rgb(cols[labs==key])[,1]
 color = rgb(red=tmpcol["red"], green=tmpcol["green"], blue=tmpcol["blue"], alpha=100, maxColorValue=255)
@@ -753,6 +765,10 @@ key = "Bacillus_alkaline_MotP"
 tipnums = xlsnums[xlsnew$L2 == key]
 ybottom = ntips - max(tipnums, na.rm=TRUE) + 0.5
 ytop = ntips - min(tipnums, na.rm=TRUE) + 1.5
+node_for_clade = getMRCA(phy=tr_to_plot, tip=tipnums[!is.na(tipnums)])
+age_of_clade = new_trtable_to_plot$time_bp[node_for_clade]
+xleft = xleft_orig + tree_age * ((tree_age-age_of_clade)/tree_age) - (fraction_treeheight_to_left * tree_age)
+xleft_group_label = xleft + (2/5*fraction_treeheight_to_left * tree_age)
 
 colortxt = "blue"
 tmpcol = col2rgb(colortxt)[,1]
@@ -768,6 +784,10 @@ key = "MotC"
 tipnums = xlsnums[xlsnew$L2 == key]
 ybottom = ntips - max(tipnums, na.rm=TRUE) + 0.5
 ytop = ntips - min(tipnums, na.rm=TRUE) + 1.5
+node_for_clade = getMRCA(phy=tr_to_plot, tip=tipnums[!is.na(tipnums)])
+age_of_clade = new_trtable_to_plot$time_bp[node_for_clade]
+xleft = xleft_orig + tree_age * ((tree_age-age_of_clade)/tree_age) - (fraction_treeheight_to_left * tree_age)
+xleft_group_label = xleft + (2/5*fraction_treeheight_to_left * tree_age)
 
 tmpcol = col2rgb(cols[labs==key])[,1]
 color = rgb(red=tmpcol["red"], green=tmpcol["green"], blue=tmpcol["blue"], alpha=100, maxColorValue=255)
@@ -780,6 +800,10 @@ key = "AglR"
 tipnums = xlsnums[xlsnew$L3 == key]
 ybottom = ntips - max(tipnums, na.rm=TRUE) + 0.5
 ytop = ntips - min(tipnums, na.rm=TRUE) + 1.5
+node_for_clade = getMRCA(phy=tr_to_plot, tip=tipnums[!is.na(tipnums)])
+age_of_clade = new_trtable_to_plot$time_bp[node_for_clade]
+xleft = xleft_orig + tree_age * ((tree_age-age_of_clade)/tree_age) - (fraction_treeheight_to_left * tree_age)
+xleft_group_label = xleft + (2/5*fraction_treeheight_to_left * tree_age)
 
 tmpcol = col2rgb(cols[labs==key])[,1]
 color = rgb(red=tmpcol["red"], green=tmpcol["green"], blue=tmpcol["blue"], alpha=100, maxColorValue=255)
@@ -792,6 +816,10 @@ key = "LafT"
 tipnums = xlsnums[xlsnew$L3 == key]
 ybottom = ntips - max(tipnums, na.rm=TRUE) + 0.5
 ytop = ntips - min(tipnums, na.rm=TRUE) + 1.5
+node_for_clade = getMRCA(phy=tr_to_plot, tip=tipnums[!is.na(tipnums)])
+age_of_clade = new_trtable_to_plot$time_bp[node_for_clade]
+xleft = xleft_orig + tree_age * ((tree_age-age_of_clade)/tree_age) - (fraction_treeheight_to_left * tree_age)
+xleft_group_label = xleft + (2/5*fraction_treeheight_to_left * tree_age)
 
 
 #tmpcol = col2rgb(cols[labs=="lateral"])[,1]
@@ -811,6 +839,10 @@ key = "entero"
 tipnums = xlsnums[xlsnew$L3 == key]
 ybottom = ntips - max(tipnums, na.rm=TRUE) + 0.5
 ytop = ntips - min(tipnums, na.rm=TRUE) + 1.5
+node_for_clade = getMRCA(phy=tr_to_plot, tip=tipnums[!is.na(tipnums)])
+age_of_clade = new_trtable_to_plot$time_bp[node_for_clade]
+xleft = xleft_orig + tree_age * ((tree_age-age_of_clade)/tree_age) - (fraction_treeheight_to_left * tree_age)
+xleft_group_label = xleft + (2/5*fraction_treeheight_to_left * tree_age)
 
 
 #tmpcol = col2rgb(cols[labs=="lateral"])[,1]
@@ -827,6 +859,10 @@ key = "BetaGamma"
 tipnums = xlsnums[xlsnew$L3 == key]
 ybottom = ntips - max(tipnums, na.rm=TRUE) + 0.5
 ytop = ntips - min(tipnums, na.rm=TRUE) + 1.5
+node_for_clade = getMRCA(phy=tr_to_plot, tip=tipnums[!is.na(tipnums)])
+age_of_clade = new_trtable_to_plot$time_bp[node_for_clade]
+xleft = xleft_orig + tree_age * ((tree_age-age_of_clade)/tree_age) - (fraction_treeheight_to_left * tree_age)
+xleft_group_label = xleft + (2/5*fraction_treeheight_to_left * tree_age)
 
 
 #tmpcol = col2rgb(cols[labs=="lateral"])[,1]
@@ -844,6 +880,10 @@ key = "Beta"
 tipnums = xlsnums[xlsnew$L3 == key]
 ybottom = ntips - max(tipnums, na.rm=TRUE) + 0.5
 ytop = ntips - min(tipnums, na.rm=TRUE) + 1.5
+node_for_clade = getMRCA(phy=tr_to_plot, tip=tipnums[!is.na(tipnums)])
+age_of_clade = new_trtable_to_plot$time_bp[node_for_clade]
+xleft = xleft_orig + tree_age * ((tree_age-age_of_clade)/tree_age) - (fraction_treeheight_to_left * tree_age)
+xleft_group_label = xleft + (2/5*fraction_treeheight_to_left * tree_age)
 
 
 #tmpcol = col2rgb(cols[labs=="lateral"])[,1]
@@ -862,6 +902,10 @@ key = "Alpha"
 tipnums = xlsnums[xlsnew$L3 == key]
 ybottom = ntips - max(tipnums, na.rm=TRUE) + 0.5
 ytop = ntips - min(tipnums, na.rm=TRUE) + 1.5
+node_for_clade = getMRCA(phy=tr_to_plot, tip=tipnums[!is.na(tipnums)])
+age_of_clade = new_trtable_to_plot$time_bp[node_for_clade]
+xleft = xleft_orig + tree_age * ((tree_age-age_of_clade)/tree_age) - (fraction_treeheight_to_left * tree_age)
+xleft_group_label = xleft + (2/5*fraction_treeheight_to_left * tree_age)
 
 
 #tmpcol = col2rgb(cols[labs=="lateral"])[,1]
@@ -883,6 +927,10 @@ key = "DUF3450"
 tipnums = xlsnums[xlsnew$L2 == key]
 ybottom = ntips - max(tipnums, na.rm=TRUE) + 0.5
 ytop = ntips - min(tipnums, na.rm=TRUE) + 1.5
+node_for_clade = getMRCA(phy=tr_to_plot, tip=tipnums[!is.na(tipnums)])
+age_of_clade = new_trtable_to_plot$time_bp[node_for_clade]
+xleft = xleft_orig + tree_age * ((tree_age-age_of_clade)/tree_age) - (fraction_treeheight_to_left * tree_age)
+xleft_group_label = xleft + (2/5*fraction_treeheight_to_left * tree_age)
 
 
 #tmpcol = col2rgb(cols[labs=="lateral"])[,1]
