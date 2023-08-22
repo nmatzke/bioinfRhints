@@ -687,8 +687,8 @@ labs = xlsnew$"flag1-5"[tipnums]
 cols = rep("gray50", times=length(tipnums))
 cols[labs=="ExbB"] = "pink"
 cols[labs=="TolQ"] = "grey"
-cols[grepl(pattern="Agl", x=labs)] = "green2"
-cols[grepl(pattern="glide", x=labs)] = "green2"
+cols[grepl(pattern="Agl", x=labs)] = "gold2"
+cols[grepl(pattern="glide", x=labs)] = "gold2"
 cols[labs=="MotC"] = "darkblue"
 cols[labs=="F5"] = "darkblue"
 cols[labs=="MotP"] = "purple"
@@ -712,7 +712,7 @@ xright = tree_age
 
 
 key = "TolQ"
-tipnums = xlsnums[xlsnew$L1 == key]
+tipnums = xlsnums[xlsnew$L2 == key]
 ybottom = ntips - max(tipnums, na.rm=TRUE) + 0.5
 ytop = ntips - min(tipnums, na.rm=TRUE) + 1.5
 
@@ -724,7 +724,7 @@ text(x=xleft_group_label, y=mean(c(ytop, ybottom)), label=key, srt=90, pos=NULL,
 
 
 key = "ExbB"
-tipnums = xlsnums[xlsnew$L1 == key]
+tipnums = xlsnums[xlsnew$L2 == key]
 ybottom = ntips - max(tipnums, na.rm=TRUE) + 0.5
 ytop = ntips - min(tipnums, na.rm=TRUE) + 1.5
 
@@ -754,11 +754,12 @@ tipnums = xlsnums[xlsnew$L2 == key]
 ybottom = ntips - max(tipnums, na.rm=TRUE) + 0.5
 ytop = ntips - min(tipnums, na.rm=TRUE) + 1.5
 
-tmpcol = col2rgb("blue")[,1]
+colortxt = "blue"
+tmpcol = col2rgb(colortxt)[,1]
 color = rgb(red=tmpcol["red"], green=tmpcol["green"], blue=tmpcol["blue"], alpha=100, maxColorValue=255)
 rect(xleft, ybottom, xright, ytop, col=color)
 
-text(x=xleft_group_label, y=mean(c(ytop, ybottom)), label=key, srt=90, pos=NULL, cex=2, col=cols[labs==key])
+text(x=xleft_group_label, y=mean(c(ytop, ybottom)), label=key, srt=90, pos=NULL, cex=1, col=colortxt)
 
 
 
@@ -776,7 +777,7 @@ text(x=xleft_group_label, y=mean(c(ytop, ybottom)), label=key, srt=90, pos=NULL,
 
 
 key = "AglR"
-tipnums = xlsnums[xlsnew$L2 == key]
+tipnums = xlsnums[xlsnew$L3 == key]
 ybottom = ntips - max(tipnums, na.rm=TRUE) + 0.5
 ytop = ntips - min(tipnums, na.rm=TRUE) + 1.5
 
@@ -792,11 +793,108 @@ tipnums = xlsnums[xlsnew$L3 == key]
 ybottom = ntips - max(tipnums, na.rm=TRUE) + 0.5
 ytop = ntips - min(tipnums, na.rm=TRUE) + 1.5
 
-tmpcol = col2rgb(cols[labs=="lateral"])[,1]
+
+#tmpcol = col2rgb(cols[labs=="lateral"])[,1]
+colortxt = "darkgreen"
+tmpcol = col2rgb(colortxt)[,1]
 color = rgb(red=tmpcol["red"], green=tmpcol["green"], blue=tmpcol["blue"], alpha=100, maxColorValue=255)
 rect(xleft, ybottom, xright, ytop, col=color)
 
-text(x=xleft_group_label, y=mean(c(ytop, ybottom)), label=key, srt=90, pos=NULL, cex=2, col=cols[labs==key])
+text(x=xleft_group_label, y=mean(c(ytop, ybottom)), label=key, srt=90, pos=NULL, cex=2, col=colortxt)
+
+
+
+
+
+
+key = "entero"
+tipnums = xlsnums[xlsnew$L3 == key]
+ybottom = ntips - max(tipnums, na.rm=TRUE) + 0.5
+ytop = ntips - min(tipnums, na.rm=TRUE) + 1.5
+
+
+#tmpcol = col2rgb(cols[labs=="lateral"])[,1]
+colortxt = "seagreen1"
+tmpcol = col2rgb(colortxt)[,1]
+color = rgb(red=tmpcol["red"], green=tmpcol["green"], blue=tmpcol["blue"], alpha=100, maxColorValue=255)
+rect(xleft, ybottom, xright, ytop, col=color)
+
+text(x=xleft_group_label, y=mean(c(ytop, ybottom)), label=key, srt=90, pos=NULL, cex=2, col=colortxt)
+
+
+
+key = "BetaGamma"
+tipnums = xlsnums[xlsnew$L3 == key]
+ybottom = ntips - max(tipnums, na.rm=TRUE) + 0.5
+ytop = ntips - min(tipnums, na.rm=TRUE) + 1.5
+
+
+#tmpcol = col2rgb(cols[labs=="lateral"])[,1]
+colortxt = "green1"
+tmpcol = col2rgb(colortxt)[,1]
+color = rgb(red=tmpcol["red"], green=tmpcol["green"], blue=tmpcol["blue"], alpha=100, maxColorValue=255)
+rect(xleft, ybottom, xright, ytop, col=color)
+
+text(x=xleft_group_label, y=mean(c(ytop, ybottom)), label=key, srt=90, pos=NULL, cex=0.8, col=colortxt)
+
+
+
+
+key = "Beta"
+tipnums = xlsnums[xlsnew$L3 == key]
+ybottom = ntips - max(tipnums, na.rm=TRUE) + 0.5
+ytop = ntips - min(tipnums, na.rm=TRUE) + 1.5
+
+
+#tmpcol = col2rgb(cols[labs=="lateral"])[,1]
+colortxt = "green2"
+tmpcol = col2rgb(colortxt)[,1]
+color = rgb(red=tmpcol["red"], green=tmpcol["green"], blue=tmpcol["blue"], alpha=100, maxColorValue=255)
+rect(xleft, ybottom, xright, ytop, col=color)
+
+text(x=xleft_group_label, y=mean(c(ytop, ybottom)), label=key, srt=90, pos=NULL, cex=1, col=colortxt)
+
+
+
+
+
+key = "Alpha"
+tipnums = xlsnums[xlsnew$L3 == key]
+ybottom = ntips - max(tipnums, na.rm=TRUE) + 0.5
+ytop = ntips - min(tipnums, na.rm=TRUE) + 1.5
+
+
+#tmpcol = col2rgb(cols[labs=="lateral"])[,1]
+colortxt = "green3"
+tmpcol = col2rgb(colortxt)[,1]
+color = rgb(red=tmpcol["red"], green=tmpcol["green"], blue=tmpcol["blue"], alpha=100, maxColorValue=255)
+rect(xleft, ybottom, xright, ytop, col=color)
+
+text(x=xleft_group_label, y=mean(c(ytop, ybottom)), label=key, srt=90, pos=NULL, cex=1, col=colortxt)
+
+
+
+
+
+
+
+
+key = "DUF3450"
+tipnums = xlsnums[xlsnew$L2 == key]
+ybottom = ntips - max(tipnums, na.rm=TRUE) + 0.5
+ytop = ntips - min(tipnums, na.rm=TRUE) + 1.5
+
+
+#tmpcol = col2rgb(cols[labs=="lateral"])[,1]
+colortxt = "gray70"
+tmpcol = col2rgb(colortxt)[,1]
+color = rgb(red=tmpcol["red"], green=tmpcol["green"], blue=tmpcol["blue"], alpha=100, maxColorValue=255)
+rect(xleft, ybottom, xright, ytop, col=color)
+
+text(x=xleft_group_label, y=mean(c(ytop, ybottom)), label=key, srt=90, pos=NULL, cex=2, col=colortxt)
+
+
+
 
 
 
