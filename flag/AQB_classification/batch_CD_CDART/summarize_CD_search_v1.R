@@ -19,7 +19,43 @@
 # Help page on the same:
 # https://www.ncbi.nlm.nih.gov/Structure/cdd/cdd_help.shtml#SearchMethodBatchQuery
 
-# 1. Put in a fasta file of proteins (1000 max)
+# 1. Get gids from fasta file:
+#
+cmds="
+cd /Users/nickm/GitHub/bioinfRhints/flag/AQB_classification/batch_CD_CDART/
+grep -o -E "^>\w+" 1283_AQBs_noQs.fasta | tr -d ">"
+grep -o '^>\w+' 1283_AQBs_noQs.fasta
+
+# Extract the 5th element in a "|" delimited FASTA header, with ">" in front
+awk 'BEGIN{FS="|"}{if(/^>/){print ">"$5}else{print $0}}' 1283_AQBs_noQs.fasta | head
+
+# Extract the 5th element in a "|" delimited FASTA header, without ">" in front
+awk 'BEGIN{FS="|"}{if(/^>/){print ""$5}else{print $0}}' 1283_AQBs_noQs.fasta | head
+
+# Extract the 5th element in a "|" delimited FASTA header, without ">" in front; DON'T print sequence
+awk 'BEGIN{FS="|"}{if(/^>/){print ""$5}}' 1283_AQBs_noQs.fasta | head
+
+# Extract 5th item to gids file, output to text
+cd /Users/nickm/GitHub/bioinfRhints/flag/AQB_classification/batch_CD_CDART/
+awk 'BEGIN{FS="|"}{if(/^>/){print ""$5}}' 1283_AQBs_noQs.fasta > 1283_AQBs_gids.txt
+more 1283_AQBs_gids.txt
+
+wc -l 1283_AQBs_gids.txt
+# 1282 - 600 = 682
+head -50 1283_AQBs_gids.txt > 1283_AQBs_gids_pt0.txt
+head -600 1283_AQBs_gids.txt > 1283_AQBs_gids_pt1.txt
+tail -682 1283_AQBs_gids.txt > 1283_AQBs_gids_pt2.txt
+
+# Merge files at end (but this duplicates headers)
+cat 1283_AQBs_gids_pt1_hitdata.txt 1283_AQBs_gids_pt2_hitdata.txt > 1283_AQBs_gids_hitdata.txt 
+wc -l 1283_AQBs_gids_hitdata.txt
+
+" # END cmds
+
+# 
+# 1. Put in a fasta file of proteins (1000 max, or gids as above)
+#
+# 1a. Extract 
 #
 # 2. For the results Download, click:
 #    * Domain Hits, Data Mode: Concise, click "Superfamily Only"
@@ -36,11 +72,18 @@ library(seqinr)				# for read.fasta
 library(stringr)			# for str_squish, 
 sourceall("/GitHub/bioinfRhints/Rsrc/")
 
-wd = "/GitHub/bioinfRhints/flag/589_MotA_rename/CD-search/"
+#wd = "/GitHub/bioinfRhints/flag/589_MotA_rename/CD-search/"
+wd = "/GitHub/bioinfRhints/flag/AQB_classification/batch_CD_CDART/"
 setwd(wd)
 
-search_results_fn = "589seqs_hitdata_concise.txt"
-tdf = read_concise_CDbatch_results(search_results_fn)
+search_results_fn = "1283_AQBs_gids_pt1_hitdata.txt"
+tdf1 = read_concise_CDbatch_results(search_results_fn)
+search_results_fn = "1283_AQBs_gids_pt2_hitdata.txt"
+tdf2 = read_concise_CDbatch_results(search_results_fn)
+tdf = rbind(tdf1, tdf2)
+
+search_results_fn = "1283_AQBs_gids_hitdata.txt"
+write.table(tdf, file=search_results_fn, sep="\t", quote=FALSE,row.names=FALSE, col.names=TRUE)
 head(tdf)
 
 # Most common hits
@@ -99,7 +142,7 @@ both_gids = c(gids_to_remove, interesting_gids)
 
 
 # Load alignment to reorder
-alnfn = "motA_hmmalign589_full_tr2_order.fasta"
+alnfn = "groupTax_1283_AQBs_mafftMiddleConstrained2.fasta"
 aln = read.fasta(alnfn)
 gids = unname(sapply(X=aln, FUN=attr, which="name"))
 gids = gsub(pattern=">", replacement="", x=gids)
@@ -112,6 +155,8 @@ fullnames = gsub(pattern=">", replacement="", x=fullnames)
 interesting_gids_in_aln_nums = sort(find_gid_positions_in_nameslist(tmpgids=interesting_gids, nameslist=fullnames))
 
 gids_to_remove_in_aln_nums = sort(find_gid_positions_in_nameslist(tmpgids=gids_to_remove, nameslist=fullnames))
+
+fullnames[gids_to_remove_in_aln_nums]
 
 nums_to_move = c(interesting_gids_in_aln_nums, gids_to_remove_in_aln_nums)
 other_nums_TF = (1:length(fullnames)) %in% nums_to_move
