@@ -2,9 +2,16 @@
 # Search the concise hits of a NCBI CD (Conserved Domain) batch search
 # 
 # Identify input proteins that don't match any domains of interest
+#
+# (automated CDART, basically)
 #######################################################
 
-# 
+# Batch CDART
+# Automated CDART
+# Batch CDD
+# Batch conserved domain
+# Automated CDD
+# Automated conserved domain
 
 # NCBI Batch Web CD-Search:
 # https://www.ncbi.nlm.nih.gov/Structure/bwrpsb/bwrpsb.cgi

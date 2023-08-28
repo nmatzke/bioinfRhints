@@ -38,10 +38,35 @@ read_concise_CDbatch_results <- function(search_results_fn)
 	lines = readLines(search_results_fn)
 	for (i in 1:length(lines))
 		{
+		# Skip comment lines
+		if (startsWith(x=lines[i], prefix="#"))
+			{
+			next()
+			}
+		
+		# Skip blank lines
+		if (lines[i] == "")
+			{
+			next()
+			}
+		
 		lines[i] = gsub(pattern="Query", replacement="Num\tQuery", x=lines[i])
 		lines[i] = gsub(pattern="Q\\#", replacement="", x=lines[i])
 		lines[i] = gsub(pattern=" - >", replacement="\t", x=lines[i])
-		}
+		
+		# Correct " - gid" to "blank gid"
+		words = strsplit(lines[i], split="\t")[[1]]
+		for (j in 1:length(words))
+			{
+			#print(words[j])
+			if (words[j] != " - ")
+				{
+				words[j] = gsub(pattern=" \\- ", replacement="\t", x=words[j])
+				}
+			} # END for (j in 1:length(words))
+	#	words
+		lines[i] = paste(words, sep="", collapse="\t")
+		} # END or (i in 1:length(lines))
 
 	newfn = gsub(pattern=".txt", replacement="_refmt.txt", x=search_results_fn)
 	writeLines(text=lines, con=newfn)

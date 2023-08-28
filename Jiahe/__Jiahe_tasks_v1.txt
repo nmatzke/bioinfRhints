@@ -1,0 +1,303 @@
+JIAHE - TASKS IN REVERSE ORDER
+
+
+Suggested long-run project goals:
+
+Something like (Caroline may have better ideas):
+
+* produce & visualize alphafold structures that cover major variations in MotA / TolQ / ExbB (AQB) structures
+
+* make a figure showing where these structures appear on a big AQB phylogeny
+
+* make a figure showing where the major structure variation occurs on an alignment of AQB sequences
+
+* research what these structural variants might be doing (e.g. SMC domains / SBC domans, etc.)
+
+* write up implications for evolution of the system
+
+Cheers!
+Nick
+
+
+
+2023-08-18
+
+1. Install GitHub on laptop
+
+We will keep your stuff in the "Jiahe" folder, here:
+
+https://github.com/nmatzke/bioinfRhints
+
+
+
+2. Look at the sequences in AliView, and look at an alignment
+
+(doing setup with Nick on 2023-08-18)
+
+
+
+Simple way to do alignment: Clustal online
+https://www.ebi.ac.uk/Tools/msa/clustalo/
+
+Clustal is:
+* easy to use
+* online
+* pretty fast
+* probably: not so great for distantly-related sequences
+
+Hmmer ("hammer") is:
+* command-line
+* hard to use
+* but has tons of options, including
+* aligning a sequence against a pre-computed profile (a statistical description of a protein alignment)
+* This is probably more powerful & more accurate, for distantly-related sequences
+* HMM = Hidden Markov Model = a way of statistically describing a sequence of probabilities, e.g. a sequence of amino acids
+
+
+COMMANDS:
+
+
+# Align sequences to precalculated InterPro profile:
+
+cd ~/HD/GitHub/bioinfRhints/Jiahe/seqs 
+
+
+hmmalign --amino --outformat stockholm -o jiahe_add_extra_domains.sto IPR002898_AQB.hmm jiahe_add_extra_domains.fasta | tee jiahe_add_extra_domains_so1.txt &
+
+( NOTES:
+hmmalign = alignment program in hmmer
+--amino = amino acids
+--outformat stockholm = output format
+ -o jiahe_add_extra_domains.sto output alignment
+.sto = stockholm format (a quite complex format)
+IPR002898_AQB.hmm = a pre-calculated HMM for MotA/TolQ/ExbB (AQB) proteins
+jiahe_add_extra_domains.fasta -- input file
+
+| = "pipe"
+tee jiahe_add_extra_domains_so1.txt &
+= "tee" sends program output to the screen AND to a text file jiahe_add_extra_domains_so1.txt (so1 = screenoutput 1)
+
+& = allows you to type after the command starts; 
+
+To see running programs, type "jobs"
+
+
+
+
+# Convert stockholm to aligned clustal format
+esl-reformat --informat stockholm clustal jiahe_add_extra_domains.sto | tee jiahe_add_extra_domains.clustal
+
+# Convert to FASTA alignment:
+* open "jiahe_add_extra_domains.clustal" in AliView
+* File -> Save As FASTA
+* save to " jiahe_add_extra_domains_aln.fasta"
+
+
+
+
+# Read a online clustal alignment
+* copy-paste fasta-formatted align from website to text file
+* name text file "jiahe_add_extra_domains_clustalomega.fasta"
+* open in AliView
+
+
+
+
+# Take sequences, put in big alignment, run hmmer on that
+
+* in terminal, merge
+1283_AQBs_noQs.fasta
+jiahe_add_extra_domains.fasta
+
+cd ~/GitHub/bioinfRhints/Jiahe/seqs/aln_jiahe_seqs_w1283AQBs
+
+cat 1283_AQBs_noQs.fasta jiahe_add_extra_domains.fasta > 1283_AQBs_plusJiahe.fasta
+
+head 1283_AQBs_plusJiahe.fasta
+tail 1283_AQBs_plusJiahe.fasta
+
+
+# Do big alignment with hmmalign
+cd ~/GitHub/bioinfRhints/Jiahe/seqs/aln_jiahe_seqs_w1283AQBs
+
+hmmalign --amino --outformat stockholm -o 1283_AQBs_plusJiahe.sto IPR002898_AQB.hmm 1283_AQBs_plusJiahe.fasta | tee 1283_AQBs_plusJiahe_so1.txt &
+
+# Convert stockholm to aligned clustal format
+esl-reformat --informat stockholm clustal 1283_AQBs_plusJiahe.sto | tee 1283_AQBs_plusJiahe.clustal
+
+# In AliView, Save as FASTA
+1283_AQBs_plusJiahe_aln.fasta
+
+# In AliView, cut to core region
+1283_AQBs_hmmcore_plusJiahe_aln.fasta
+
+
+
+
+# Do a phylogeny
+
+# fast (CRASHES)
+cd ~/GitHub/bioinfRhints/Jiahe/seqs/aln_jiahe_seqs_w1283AQBs
+iqtree -fast -t BIONJ -s 1283_AQBs_hmmcore_plusJiahe_aln_NJ.fasta
+
+iqtree -fast -t BIONJ -s 1283_AQBs_hmmcore_plusJiahe_aln_NJ.fasta.uniqueseq.phy
+
+
+# slow:
+cd ~/GitHub/bioinfRhints/Jiahe/seqs/aln_jiahe_seqs_w1283AQBs
+
+iqtree -t BIONJ -s 1283_AQBs_hmmcore_plusJiahe_aln.fasta -m LG+F+G --ufboot 1000 -bnni | tee 1283_AQBs_hmmcore_plusJiahe_aln_so1.txt &
+job
+
+
+
+
+
+# Slow alignment with mafft at edges
+
+# Ruby regional alignment, then tree
+cd ~/GitHub/bioinfRhints/Jiahe/seqs/aln_jiahe_seqs_w1283AQBs
+
+ruby regionalrealignment.rb settings_for_1283_AQBs_plusJiahe_aln.txt 1283_AQBs_plusJiahe_aln.fasta > 1283_AQBs_plusJiahe_aln_mafftMiddleConstrained2.fasta
+iqtree -t BIONJ -s 1283_AQBs_plusJiahe_aln_mafftMiddleConstrained2.fasta -m LG+F+G --ufboot 1000 -bnni | tee 1283_AQBs_plusJiahe_aln_mafftMiddleConstrained2.fasta_so1.txt &
+
+
+
+
+
+3. Download/install on your computer:
+
+esl (for esl-reformat etc.)
+hmmer
+iqtree
+
+
+
+4. Instead of running the big slow iqtree analysis, just run IQtree on the small alignment file: 
+"1283_AQBs_plusJiahe_aln.fasta"
+
+(just so it runs fast)
+
+Then, look at the outputs in text editor, FigTree, etc.
+
+
+2023-08-08
+
+
+Hi Jiahe,
+
+From our conversation, a practice task:
+
+ADVICE:
+
+* Find a good plain-text editor program
+
+BAD: Word, Notepad, etc.
+
+GOOD: BBedit, TextWrangler; on Windows, NoteTab is good
+
+
+
+Practice tasks for Jiahe:
+
+We need to accumulate a set of example proteins that are:
+
+* homologs of MotA / ExbB / TolQ
+* have an extra domain attached, e.g. as shown by CDART (Conserved Domain Architecture Retrieval Tool)
+
+Once we have a set of these, we can run them through Alphafold or a similar structural prediction.
+
+Also, after we have the FASTA sequences, we can add them to a version of the big MotA/ExbB/TolQ homology alignment & phylogeny.
+
+
+Task to gather sequences:
+
+0. Find a good plain-text editor program for your computer
+
+1. Google "Genbank Protein"
+
+2. Search on an example protein ID from the MotA/ExbB/TolQ group, e.g. "EEW07943.1"
+
+(note: from: biopolymer transport protein ExbB-related protein [Vibrio mimicus VM603] )
+
+
+3. Click on "Identify Conserved Domains"
+
+
+4. Click on "Search for similar domain architectures"
+
+
+5. We would like ~4 sequences from each different "domain architecture"
+
+Criteria:
+* has more than only a MotA/TolQ/ExbB domain
+* do not repeat very similar domain architectures
+
+Example:
+
+Record domain architecture:
+COG5306 + TolQ
+
+Notes on domain: cl34978: COG5306 Superfamily
+Uncharacterized protein [Function unknown]
+
+Record ~4 representative sequences:
+* command-click to open sequence
+* click "FASTA" to see fasta sequence
+* paste FASTA sequence (including header) into text file
+
+>NP_249384.1 transporter ExbB [Pseudomonas aeruginosa PAO1]
+MYRLLLTSLICLGLLAPASASAWWQDDWQYRKQVSVDTTPQGAAINDSLGRLPLLVRLHTGNFTFDGVNE
+NGSDIRFVAADDKTVLRHQVESFDPLMGMALIWVDVPRVEGGQRQDIWMYYGNAKAPESGNGQSVFDPDY
+TLVYHFDGAPGTPPRDSTAYANNAQTAAGSPVEGVIGRSAQLLGQPLLLPASPSLAVSAGGTFSFSGWVR
+PDQLAGEQVLLSRREGGNALLVGLAQGAPFVELNGQRAAASQALAQGQWQHLALVADGTRLALYLGGREV
+ASLAAALPAFSGAIAIGAEGQGAPAVATEAASGEGEASAAAPTLQPFQGAIDELRLSKIARPAALLLADA
+TAQGAESRLVAYGVDEKQSGFGFGKLGFLLNAVPLDAWVIIAILALMMVQSWVIMYRKNQNVGRVSRANG
+LFRERFAEVGTRLELLADDRELAARLQHSSLWRLYQVAVKEIRTRREQGADTSSVSAATIEAIRASMDGV
+RTKENQQLGSRLSSLSNAIAGGPYIGLLGTVLGIMVVFLGTAMAGDVNINAIAPGMAAALLATAMGLFVA
+IPALFGYNRLVTRNKEVSADMRVFVDEFVTRLAEVHGESQLSEVAHRRNGQPLPA
+
+>WP_003134444.1 MULTISPECIES: MotA/TolQ/ExbB proton channel family protein [Pseudomonas]
+MYRLLLTSLICLGLLAPASASAWWQDDWQYRKQVSVDTTPQGAAINDSLGRLPLLVRLHTGNFTFDGVNE
+NGSDIRFVAADDKTVLRHQVESFDPLMGMALIWVDVPRVEGGQRQDIWMYYGNAKAPESGNGQSVFDPDY
+TLVYHFDGAPGTPPRDSTAYANNAQTAAGSPVEGVIGRSAQLLGQPLLLPASPSLAVSAGGTFSFSGWVR
+PDQLAGEQVLLSRREGGNALLVGLAQGAPFVELNGQRAAASQALAQGQWQHLALVADGTRLALYLGGREV
+ASLAAALPAFSGAIAIGAEGQAAPAAATEAASGEGEASAAAPTLQPFQGAIDELRLSKIARPAALLLADA
+TAQGAESRLVAYGVDEKQSGFGFGKLGFLLNAVPLDAWVIIAILALMMVQSWVIMYRKNQNVGRVSRANG
+LFRERFAEVGTRLELLADDRELAARLQHSSLWRLYQVAVKEIRTRREQGADTSSVSAATIEAIRASMDGV
+RTKENQQLGSRLSSLSNAIAGGPYIGLLGTVLGIMVVFLGTAMAGDVNINAIAPGMAAALLATAMGLFVA
+IPALFGYNRLVTRNKEVSADMRVFVDEFVTRLAEVHGESQLSEVAHRRNGQPLPA
+
+[...]
+
+
+Domain architectures to definitely get:
+
+DUF2341 - LamG - TolQ
+
+EnvC - TolQ
+
+SMC_prok_B - TolQ
+
+DUF2341 / COG5306 - TOLQ
+
+SMC - TolQ
+
+Uso1_p115_C - TolQ
+
+DUF4200-TolQ
+
+DUF2341 / COG5306 / LamG - TOLQ
+
+COG4372-TolQ
+
+SMC_prok_B/HemX - TolQ
+
+mukB - TolQ
+
+PRK07003-TolQ
+
+HemX - TolQ
+
+
+

@@ -1,0 +1,2995 @@
+Seq-annot ::= {
+  id {
+    local str "QM3-qcdsearch-359F6DC06108DDAB-12FC3AE14F5DD51E"
+  },
+  name "Batch CD-search tool - NIH/NLM/NCBI",
+  desc {
+    comment "status=0"
+  },
+  data ids {
+    local str "aligns Concise Results(Superfamily only)"
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#1 - GAC25511.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 494051552,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          314,
+          2,
+          -1,
+          19,
+          331,
+          22
+        },
+        lens {
+          17,
+          3,
+          99
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#1 - GAC25511.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 494051552,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          314,
+          2,
+          -1,
+          19,
+          331,
+          22
+        },
+        lens {
+          17,
+          3,
+          99
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    },
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 494051552,
+          general {
+            db "CDD",
+            tag id 181442
+          }
+        },
+        starts {
+          24,
+          40,
+          -1,
+          90,
+          74,
+          95
+        },
+        lens {
+          50,
+          5,
+          24
+        },
+        scores {
+        }
+      },
+      id {
+        id 451261,
+        str "cl21478",
+        str "ATP-synt_B superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#2 - GAC38236.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 494912992,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          314,
+          2,
+          -1,
+          11,
+          323,
+          14
+        },
+        lens {
+          9,
+          3,
+          107
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#3 - AFS36592.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 504761601,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          316,
+          2,
+          -1,
+          17,
+          331,
+          20
+        },
+        lens {
+          15,
+          3,
+          101
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#4 - AEP30402.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 503875281,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          316,
+          0,
+          -1,
+          17,
+          333,
+          20
+        },
+        lens {
+          17,
+          3,
+          101
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#5 - AAV82690.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 499554307,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          320,
+          1,
+          -1,
+          16,
+          335,
+          19
+        },
+        lens {
+          15,
+          3,
+          102
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#5 - AAV82690.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 499554307,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          320,
+          1,
+          -1,
+          16,
+          335,
+          19
+        },
+        lens {
+          15,
+          3,
+          102
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    },
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 499554307,
+          general {
+            db "CDD",
+            tag id 224117
+          }
+        },
+        starts {
+          22,
+          400,
+          57,
+          -1,
+          58,
+          435
+        },
+        lens {
+          35,
+          1,
+          58
+        },
+        scores {
+        }
+      },
+      id {
+        id 224117,
+        str "cl34174",
+        str "Smc superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#6 - EHR42234.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 496235599,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          319,
+          2,
+          -1,
+          11,
+          328,
+          14
+        },
+        lens {
+          9,
+          3,
+          107
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#7 - AAZ25767.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 499355811,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          311,
+          0,
+          -1,
+          19,
+          330,
+          22
+        },
+        lens {
+          19,
+          3,
+          96
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#8 - EAR29317.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 497522994,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          316,
+          0,
+          -1,
+          11,
+          327,
+          14
+        },
+        lens {
+          11,
+          3,
+          85
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#9 - CCQ12343.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 441747503,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          320,
+          4,
+          -1,
+          11,
+          327,
+          14
+        },
+        lens {
+          7,
+          3,
+          85
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#9 - CCQ12343.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 441747503,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          320,
+          4,
+          -1,
+          11,
+          327,
+          14
+        },
+        lens {
+          7,
+          3,
+          85
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    },
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 9,
+        ids {
+          gi 441747503,
+          general {
+            db "CDD",
+            tag id 173412
+          }
+        },
+        starts {
+          27,
+          1432,
+          73,
+          -1,
+          74,
+          1478,
+          87,
+          -1,
+          88,
+          1491,
+          112,
+          -1,
+          117,
+          1515,
+          130,
+          -1,
+          132,
+          1528
+        },
+        lens {
+          46,
+          1,
+          13,
+          1,
+          24,
+          5,
+          13,
+          2,
+          42
+        },
+        scores {
+        }
+      },
+      id {
+        id 173412,
+        str "cl31754",
+        str "PTZ00121 superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#10 - ABV36183.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 501091739,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          314,
+          1,
+          -1,
+          16,
+          329,
+          19
+        },
+        lens {
+          15,
+          3,
+          102
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#11 - BAJ02936.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 502817259,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          314,
+          1,
+          -1,
+          11,
+          324,
+          14
+        },
+        lens {
+          10,
+          3,
+          107
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#12 - AAN54877.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 24373390,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          314,
+          1,
+          -1,
+          11,
+          324,
+          14
+        },
+        lens {
+          10,
+          3,
+          107
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#13 - UXK07262.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 500268202,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          314,
+          1,
+          -1,
+          16,
+          329,
+          19
+        },
+        lens {
+          15,
+          3,
+          102
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#14 - AFS36170.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 504761186,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          318,
+          0,
+          -1,
+          11,
+          329,
+          14
+        },
+        lens {
+          11,
+          3,
+          107
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#14 - AFS36170.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 504761186,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          318,
+          0,
+          -1,
+          11,
+          329,
+          14
+        },
+        lens {
+          11,
+          3,
+          107
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    },
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 7,
+        ids {
+          gi 504761186,
+          general {
+            db "CDD",
+            tag id 235316
+          }
+        },
+        starts {
+          30,
+          607,
+          40,
+          -1,
+          41,
+          617,
+          63,
+          -1,
+          66,
+          639,
+          89,
+          -1,
+          93,
+          662
+        },
+        lens {
+          10,
+          1,
+          22,
+          3,
+          23,
+          4,
+          21
+        },
+        scores {
+        }
+      },
+      id {
+        id 235316,
+        str "cl35272",
+        str "mukB superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#15 - AEP30903.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 5,
+        ids {
+          gi 347947553,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          341,
+          1,
+          -1,
+          10,
+          350,
+          12,
+          -1,
+          19,
+          357,
+          20
+        },
+        lens {
+          9,
+          2,
+          7,
+          1,
+          101
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#16 - GAC23146.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 410154811,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          325,
+          0,
+          -1,
+          11,
+          336,
+          14
+        },
+        lens {
+          11,
+          3,
+          107
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#17 - GAC39742.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 494916101,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          319,
+          1,
+          -1,
+          11,
+          329,
+          14
+        },
+        lens {
+          10,
+          3,
+          107
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#18 - AAZ24738.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 5,
+        ids {
+          gi 499356022,
+          general {
+            db "CDD",
+            tag id 223881
+          }
+        },
+        starts {
+          265,
+          18,
+          -1,
+          41,
+          288,
+          44,
+          -1,
+          66,
+          310,
+          79
+        },
+        lens {
+          23,
+          3,
+          22,
+          13,
+          128
+        },
+        scores {
+        }
+      },
+      id {
+        id 223881,
+        str "cl42820",
+        str "TolQ superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#19 - EAR30274.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 497522376,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          319,
+          1,
+          -1,
+          20,
+          338,
+          23
+        },
+        lens {
+          19,
+          3,
+          98
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#20 - CCQ10606.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 5,
+        ids {
+          gi 441748826,
+          general {
+            db "CDD",
+            tag id 223881
+          }
+        },
+        starts {
+          280,
+          23,
+          -1,
+          45,
+          302,
+          48,
+          -1,
+          66,
+          320,
+          79
+        },
+        lens {
+          22,
+          3,
+          18,
+          13,
+          128
+        },
+        scores {
+        }
+      },
+      id {
+        id 223881,
+        str "cl42820",
+        str "TolQ superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#21 - AAV82950.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 499554563,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          323,
+          1,
+          -1,
+          9,
+          331,
+          12
+        },
+        lens {
+          8,
+          3,
+          109
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#22 - MBU2986356.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          genbank {
+            accession "MBU2986356",
+            version 1
+          },
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          325,
+          1,
+          -1,
+          15,
+          339,
+          18
+        },
+        lens {
+          14,
+          3,
+          103
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#22 - MBU2986356.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          genbank {
+            accession "MBU2986356",
+            version 1
+          },
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          325,
+          1,
+          -1,
+          15,
+          339,
+          18
+        },
+        lens {
+          14,
+          3,
+          103
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    },
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 9,
+        ids {
+          genbank {
+            accession "MBU2986356",
+            version 1
+          },
+          general {
+            db "CDD",
+            tag id 223496
+          }
+        },
+        starts {
+          24,
+          149,
+          59,
+          -1,
+          60,
+          184,
+          -1,
+          230,
+          106,
+          237,
+          129,
+          -1,
+          131,
+          260,
+          -1,
+          285,
+          156,
+          286
+        },
+        lens {
+          35,
+          1,
+          46,
+          7,
+          23,
+          2,
+          25,
+          1,
+          33
+        },
+        scores {
+        }
+      },
+      id {
+        id 223496,
+        str "cl33865",
+        str "SbcC superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#23 - ABD79617.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 499786107,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          325,
+          1,
+          -1,
+          15,
+          339,
+          18
+        },
+        lens {
+          14,
+          3,
+          103
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#23 - ABD79617.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 499786107,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          325,
+          1,
+          -1,
+          15,
+          339,
+          18
+        },
+        lens {
+          14,
+          3,
+          103
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    },
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 9,
+        ids {
+          gi 499786107,
+          general {
+            db "CDD",
+            tag id 223496
+          }
+        },
+        starts {
+          24,
+          149,
+          59,
+          -1,
+          60,
+          184,
+          -1,
+          230,
+          106,
+          237,
+          129,
+          -1,
+          131,
+          260,
+          -1,
+          285,
+          156,
+          286
+        },
+        lens {
+          35,
+          1,
+          46,
+          7,
+          23,
+          2,
+          25,
+          1,
+          33
+        },
+        scores {
+        }
+      },
+      id {
+        id 223496,
+        str "cl33865",
+        str "SbcC superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#24 - QEI18324.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 501462707,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          321,
+          0,
+          -1,
+          20,
+          341,
+          23
+        },
+        lens {
+          20,
+          3,
+          98
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#24 - QEI18324.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 501462707,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          321,
+          0,
+          -1,
+          20,
+          341,
+          23
+        },
+        lens {
+          20,
+          3,
+          98
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    },
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 5,
+        ids {
+          gi 501462707,
+          general {
+            db "CDD",
+            tag id 173412
+          }
+        },
+        starts {
+          22,
+          1413,
+          -1,
+          1456,
+          65,
+          1460,
+          92,
+          -1,
+          96,
+          1487
+        },
+        lens {
+          43,
+          4,
+          27,
+          4,
+          6
+        },
+        scores {
+        }
+      },
+      id {
+        id 173412,
+        str "cl31754",
+        str "PTZ00121 superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#25 - ABK35895.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 117617540,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          316,
+          2,
+          -1,
+          16,
+          330,
+          19
+        },
+        lens {
+          14,
+          3,
+          102
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#26 - EKB20826.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 491485696,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          316,
+          2,
+          -1,
+          16,
+          330,
+          19
+        },
+        lens {
+          14,
+          3,
+          102
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#27 - ATP10892.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 544709446,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          316,
+          2,
+          -1,
+          16,
+          330,
+          19
+        },
+        lens {
+          14,
+          3,
+          102
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#28 - QCG47236.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 1,
+        ids {
+          gi 1626014523,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          330,
+          19
+        },
+        lens {
+          102
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#29 - EAS76518.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 491521736,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          314,
+          2,
+          -1,
+          16,
+          328,
+          19
+        },
+        lens {
+          14,
+          3,
+          102
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#30 - BAC58429.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 28896940,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          314,
+          2,
+          -1,
+          16,
+          328,
+          19
+        },
+        lens {
+          14,
+          3,
+          102
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#31 - BAC93012.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 499462086,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          314,
+          2,
+          -1,
+          16,
+          328,
+          19
+        },
+        lens {
+          14,
+          3,
+          102
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#31 - BAC93012.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 499462086,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          314,
+          2,
+          -1,
+          16,
+          328,
+          19
+        },
+        lens {
+          14,
+          3,
+          102
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    },
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 499462086,
+          general {
+            db "CDD",
+            tag id 224241
+          }
+        },
+        starts {
+          7,
+          38,
+          77,
+          -1,
+          79,
+          108
+        },
+        lens {
+          70,
+          2,
+          24
+        },
+        scores {
+        }
+      },
+      id {
+        id 224241,
+        str "cl34228",
+        str "RmuC superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#32 - ADG92231.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 1,
+        ids {
+          gi 502899400,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          331,
+          31
+        },
+        lens {
+          90
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#33 - ABA57126.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 5,
+        ids {
+          gi 488903189,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          331,
+          0,
+          340,
+          -1,
+          342,
+          9,
+          -1,
+          15,
+          348,
+          21
+        },
+        lens {
+          9,
+          2,
+          6,
+          6,
+          100
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#33 - ABA57126.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 5,
+        ids {
+          gi 488903189,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          331,
+          0,
+          340,
+          -1,
+          342,
+          9,
+          -1,
+          15,
+          348,
+          21
+        },
+        lens {
+          9,
+          2,
+          6,
+          6,
+          100
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    },
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 5,
+        ids {
+          gi 488903189,
+          general {
+            db "CDD",
+            tag id 236942
+          }
+        },
+        starts {
+          49,
+          163,
+          -1,
+          172,
+          58,
+          176,
+          86,
+          -1,
+          93,
+          204
+        },
+        lens {
+          9,
+          4,
+          28,
+          7,
+          34
+        },
+        scores {
+        }
+      },
+      id {
+        id 236942,
+        str "cl36038",
+        str "PRK11637 superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#34 - QEI18407.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 501462802,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          317,
+          1,
+          -1,
+          18,
+          334,
+          20
+        },
+        lens {
+          17,
+          2,
+          100
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#35 - AAU90389.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 499262255,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          251,
+          0,
+          -1,
+          9,
+          260,
+          12
+        },
+        lens {
+          9,
+          3,
+          108
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#36 - EKB22828.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 491484627,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          290,
+          0,
+          -1,
+          15,
+          305,
+          18
+        },
+        lens {
+          15,
+          3,
+          98
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#37 - ABK39661.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 117621306,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          291,
+          0,
+          -1,
+          15,
+          306,
+          18
+        },
+        lens {
+          15,
+          3,
+          98
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#38 - ATP11543.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 1272197882,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          287,
+          0,
+          -1,
+          14,
+          301,
+          17
+        },
+        lens {
+          14,
+          3,
+          99
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#39 - QCG49912.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 1626016260,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          284,
+          0,
+          -1,
+          11,
+          295,
+          14
+        },
+        lens {
+          11,
+          3,
+          107
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#40 - ABI78064.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 499966903,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          325,
+          2,
+          -1,
+          16,
+          339,
+          19
+        },
+        lens {
+          14,
+          3,
+          99
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#40 - ABI78064.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 499966903,
+          general {
+            db "CDD",
+            tag id 426347
+          }
+        },
+        starts {
+          325,
+          2,
+          -1,
+          16,
+          339,
+          19
+        },
+        lens {
+          14,
+          3,
+          99
+        },
+        scores {
+        }
+      },
+      id {
+        id 444982,
+        str "cl00568",
+        str "MotA_ExbB superfamily"
+      }
+    },
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 5,
+        ids {
+          gi 499966903,
+          general {
+            db "CDD",
+            tag id 181619
+          }
+        },
+        starts {
+          32,
+          64,
+          -1,
+          80,
+          48,
+          83,
+          92,
+          -1,
+          100,
+          127
+        },
+        lens {
+          16,
+          3,
+          44,
+          8,
+          17
+        },
+        scores {
+        }
+      },
+      id {
+        id 181619,
+        str "cl32341",
+        str "PRK09039 superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#41 - GAA06515.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 7,
+        ids {
+          gi 496277361,
+          general {
+            db "CDD",
+            tag id 223881
+          }
+        },
+        starts {
+          257,
+          1,
+          -1,
+          19,
+          275,
+          23,
+          -1,
+          42,
+          294,
+          61,
+          -1,
+          67,
+          300,
+          74
+        },
+        lens {
+          18,
+          4,
+          19,
+          19,
+          6,
+          7,
+          142
+        },
+        scores {
+        }
+      },
+      id {
+        id 223881,
+        str "cl42820",
+        str "TolQ superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#42 - PHZ60572.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 7,
+        ids {
+          gi 1273066726,
+          general {
+            db "CDD",
+            tag id 223881
+          }
+        },
+        starts {
+          257,
+          1,
+          -1,
+          19,
+          275,
+          23,
+          -1,
+          42,
+          294,
+          61,
+          -1,
+          67,
+          300,
+          74
+        },
+        lens {
+          18,
+          4,
+          19,
+          19,
+          6,
+          7,
+          142
+        },
+        scores {
+        }
+      },
+      id {
+        id 223881,
+        str "cl42820",
+        str "TolQ superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#43 - CAG22567.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 9,
+        ids {
+          gi 499539998,
+          general {
+            db "CDD",
+            tag id 223881
+          }
+        },
+        starts {
+          265,
+          3,
+          -1,
+          21,
+          283,
+          25,
+          300,
+          -1,
+          301,
+          42,
+          -1,
+          66,
+          325,
+          76,
+          -1,
+          86,
+          335,
+          97
+        },
+        lens {
+          18,
+          4,
+          17,
+          1,
+          24,
+          10,
+          10,
+          11,
+          119
+        },
+        scores {
+        }
+      },
+      id {
+        id 223881,
+        str "cl42820",
+        str "TolQ superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#44 - CAG23092.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 3,
+        ids {
+          gi 499540495,
+          general {
+            db "CDD",
+            tag id 223881
+          }
+        },
+        starts {
+          267,
+          33,
+          324,
+          -1,
+          327,
+          90
+        },
+        lens {
+          57,
+          3,
+          126
+        },
+        scores {
+        }
+      },
+      id {
+        id 223881,
+        str "cl42820",
+        str "TolQ superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#45 - AAW87263.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 1,
+        ids {
+          gi 59713376,
+          general {
+            db "CDD",
+            tag id 223881
+          }
+        },
+        starts {
+          305,
+          77
+        },
+        lens {
+          136
+        },
+        scores {
+        }
+      },
+      id {
+        id 223881,
+        str "cl42820",
+        str "TolQ superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#46 - AAW87849.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 7,
+        ids {
+          gi 59713962,
+          general {
+            db "CDD",
+            tag id 223881
+          }
+        },
+        starts {
+          258,
+          15,
+          -1,
+          22,
+          265,
+          27,
+          -1,
+          42,
+          280,
+          46,
+          -1,
+          70,
+          304,
+          77
+        },
+        lens {
+          7,
+          5,
+          15,
+          4,
+          24,
+          7,
+          139
+        },
+        scores {
+        }
+      },
+      id {
+        id 223881,
+        str "cl42820",
+        str "TolQ superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#47 - BAC61495.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 7,
+        ids {
+          gi 28900007,
+          general {
+            db "CDD",
+            tag id 223881
+          }
+        },
+        starts {
+          259,
+          17,
+          -1,
+          44,
+          286,
+          47,
+          -1,
+          54,
+          293,
+          60,
+          -1,
+          71,
+          304,
+          78
+        },
+        lens {
+          27,
+          3,
+          7,
+          6,
+          11,
+          7,
+          134
+        },
+        scores {
+        }
+      },
+      id {
+        id 223881,
+        str "cl42820",
+        str "TolQ superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#48 - EAS74532.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 1,
+        ids {
+          gi 491516627,
+          general {
+            db "CDD",
+            tag id 223881
+          }
+        },
+        starts {
+          303,
+          77
+        },
+        lens {
+          135
+        },
+        scores {
+        }
+      },
+      id {
+        id 223881,
+        str "cl42820",
+        str "TolQ superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#49 - EAP92984.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 5,
+        ids {
+          gi 490869127,
+          general {
+            db "CDD",
+            tag id 223881
+          }
+        },
+        starts {
+          262,
+          15,
+          -1,
+          37,
+          284,
+          47,
+          -1,
+          69,
+          306,
+          75
+        },
+        lens {
+          22,
+          10,
+          22,
+          6,
+          138
+        },
+        scores {
+        }
+      },
+      id {
+        id 223881,
+        str "cl42820",
+        str "TolQ superfamily"
+      }
+    }
+  }
+}
+Seq-annot ::= {
+  desc {
+    title "Q#50 - QEO41299.1"
+  },
+  data align {
+    {
+      type partial,
+      segs denseg {
+        dim 2,
+        numseg 7,
+        ids {
+          gi 446097460,
+          general {
+            db "CDD",
+            tag id 223881
+          }
+        },
+        starts {
+          261,
+          15,
+          -1,
+          21,
+          267,
+          26,
+          286,
+          -1,
+          287,
+          45,
+          -1,
+          65,
+          307,
+          77
+        },
+        lens {
+          6,
+          5,
+          19,
+          1,
+          20,
+          12,
+          139
+        },
+        scores {
+        }
+      },
+      id {
+        id 223881,
+        str "cl42820",
+        str "TolQ superfamily"
+      }
+    }
+  }
+}
