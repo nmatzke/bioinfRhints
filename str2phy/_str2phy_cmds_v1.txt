@@ -1,0 +1,102 @@
+
+# Installation of iqtree
+http://www.iqtree.org/#download
+
+# Make a symbolic link so you can access iqtree2 from
+# the "iqtree" command anywhere
+cd /usr/local/bin/
+sudo ln -s /Applications/iqtree-2.2.2.7-MacOSX/bin/iqtree2 iqtree
+
+# Installation of foldseek
+# https://github.com/steineggerlab/foldseek#installation
+# Type "wget" to see if you have wget installed.
+# If not, try: 
+# https://www.jcchouinard.com/wget/#Download_and_Install_Wget_on_Mac
+
+# MacOS
+wget --no-check-certificate https://mmseqs.com/foldseek/foldseek-osx-universal.tar.gz; tar xvzf foldseek-osx-universal.tar.gz; export PATH=$(pwd)/foldseek/bin/:$PATH
+
+# Make a symbolic link so you can access foldseek from
+# the "foldseek" command anywhere (see for iqtree, above)
+
+# Download some structures: https://www.rcsb.org/
+6YKM - Structure of C. jejuni MotAB
+6YE4 - Structure of ExbB pentamer from Serratia marcescens by single particle cryo electron microscopy
+8GQY - CryoEM structure of pentameric MotA from Aquifex aeolicus
+6YSL - Structure of the flagellar MotAB stator complex from Bacillus subtilis
+6YSF - Structure of the flagellar MotAB stator complex from Clostridium sporogenes
+5ZFV - Structure of the ExbB/ExbD pentameric complex (ExbB5ExbD1TM)
+5ZFP - Structure of the ExbB/ExbD hexameric complex
+5SV1 - Structure of the ExbB/ExbD complex from E. coli at pH 4.5
+
+# Ashar:
+#foldseek createdb 1hv4.pdb 3di.dump
+#foldseek convert2fasta 3di.dump Fasta_3Di.fa
+
+5zfp.cif
+6ye4.cif
+6ykm.cif
+6ysf.cif
+6ysl.cif
+8gqy.cif
+
+cd /GitHub/bioinfRhints/str2phy/
+foldseek createdb 5zfp.cif 3di.dump
+more 3di.dump
+
+foldseek convert2fasta 3di.dump 3di.fasta
+head 3di.fasta
+
+foldseek createdb 5zfp.cif 3di.dump
+foldseek convert2fasta 3di.dump 3di.fasta
+more 3di.fasta
+
+# 6YE4 - Structure of ExbB pentamer from Serratia marcescens 
+# by single particle cryo electron microscopy
+foldseek createdb 6ye4.cif 6ye4.3di
+foldseek convert2fasta 6ye4.3di 6ye4.3di.fasta
+
+# E. coli ExbB - Convert a ExbB structure to "3di" structural character format
+5ZFV - Structure of the ExbB/ExbD pentameric complex (ExbB5ExbD1TM)
+5ZFP - Structure of the ExbB/ExbD hexameric complex
+5SV1 - Structure of the ExbB/ExbD complex from E. coli at pH 4.5
+foldseek createdb 5zfv.cif 5zfv.3di
+foldseek convert2fasta 5zfv.3di 5zfv.3di.fasta
+
+
+# 8GQY - CryoEM structure of pentameric MotA from Aquifex aeolicus
+foldseek createdb 8gqy.cif 8gqy.3di
+foldseek convert2fasta 8gqy.3di 8gqy.3di.fasta
+
+# 6YKM - Structure of C. jejuni MotAB
+foldseek createdb 6ykm.cif 6ykm.3di
+foldseek convert2fasta 6ykm.3di 6ykm.3di.fasta
+
+# 6YSF - Structure of the flagellar MotAB stator complex 
+# from Clostridium sporogenes
+foldseek createdb 6ysf.cif 6ysf.3di
+foldseek convert2fasta 6ysf.3di 6ysf.3di.fasta
+
+# 6YSL - Structure of the flagellar MotAB stator complex from Bacillus subtilis
+foldseek createdb 6ysl.cif 6ysl.3di
+foldseek convert2fasta 6ysl.3di 6ysl.3di.fasta
+
+
+
+
+iqtree -t BIONJ -s 3di_seqs.clustal_edit2.fasta -m Poisson+F+G --ufboot 1000 -bnni | tee 3di_seqs.clustal_edit2_so1.txt &
+
+
+
+
+
+cat 6ysf.3di.fasta 6ykm.3di.fasta 6ysl.3di.fasta 8gqy.3di.fasta 6ye4.3di.fasta 5zfv.3di.fasta > MotA_ExbB.3di.fasta
+
+6YSF
+
+
+
+
+
+
+

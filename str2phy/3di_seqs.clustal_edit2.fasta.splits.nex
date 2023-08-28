@@ -1,0 +1,37 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=6;
+TAXLABELS
+[1] '6ye4.cif_A'
+[2] '5zfv.cif_C'
+[3] '8gqy.cif_A'
+[4] '6ykm.cif_A'
+[5] '6ysf.cif_E'
+[6] '6ysl.cif_G'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=6 nsplits=16;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 2,
+	100	 3,
+	100	 5,
+	71	 3 5,
+	100	 4,
+	100	 6,
+	65	 4 6,
+	100	 1 2,
+	100	 1,
+	27	 1 2 4,
+	18	 1 2 5,
+	4	 1 2 6,
+	8	 1 2 3,
+	4	 3 4,
+	4	 5 6,
+	0	 3 6,
+;
+END; [Splits]
+
