@@ -82,20 +82,24 @@ foldseek createdb 6ysl.cif 6ysl.3di
 foldseek convert2fasta 6ysl.3di 6ysl.3di.fasta
 
 
+# Stick
+cat 6ysf.3di.fasta 6ykm.3di.fasta 6ysl.3di.fasta 8gqy.3di.fasta 6ye4.3di.fasta 5zfv.3di.fasta > MotA_ExbB.3di.fasta
+
 
 
 iqtree -t BIONJ -s 3di_seqs.clustal_edit2.fasta -m Poisson+F+G --ufboot 1000 -bnni | tee 3di_seqs.clustal_edit2_so1.txt &
 
 
 
+# Tasks:
+1. Check if alphafold structure can go through "foldseek createdb" command
+2. Check on models foldseek uses to align protein structures
+3. Why aren't protein chains always identical 3di sequences?
+4. Clearer view on what that alphabet is
+5. Output files
 
-
-cat 6ysf.3di.fasta 6ykm.3di.fasta 6ysl.3di.fasta 8gqy.3di.fasta 6ye4.3di.fasta 5zfv.3di.fasta > MotA_ExbB.3di.fasta
-
-6YSF
-
-
-
+6. Take charge, efficient path to fast paper
+- quick comparison of 4 methods: AA seqs, structural distance, secondary structure, 3di structure
 
 
 
