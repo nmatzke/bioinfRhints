@@ -29,6 +29,38 @@ wget --no-check-certificate https://mmseqs.com/foldseek/foldseek-osx-universal.t
 5ZFP - Structure of the ExbB/ExbD hexameric complex
 5SV1 - Structure of the ExbB/ExbD complex from E. coli at pH 4.5
 
+5ZFP.A.cif
+6YE4.A.cif
+6YKM.A.cif
+6YSF.E.cif
+6YSL.E.cif
+8GQY.A.cif
+
+5zfp,A
+6ye4,A
+6ykm,A
+6ysf,E
+6ysl,A
+8gqy,A
+
+
+5ZFPA Structure of the ExbB/ExbD hexameric complex
+6YE4A Structure of ExbB pentamer from Serratia marcescens by single particle cryo electron microscopy
+6YKMA Structure of C. jejuni MotAB
+6YSFE Structure of the flagellar MotAB stator complex from Clostridium sporogenes
+6YSLA Structure of the flagellar MotAB stator complex from Bacillus subtilis
+8GQYA CryoEM structure of pentameric MotA from Aquifex aeolicus
+
+6YKM - Structure of C. jejuni MotAB
+6YE4 - Structure of ExbB pentamer from Serratia marcescens by single particle cryo electron microscopy
+8GQY - CryoEM structure of pentameric MotA from Aquifex aeolicus
+6YSL - Structure of the flagellar MotAB stator complex from Bacillus subtilis
+6YSF - Structure of the flagellar MotAB stator complex from Clostridium sporogenes
+5ZFV - Structure of the ExbB/ExbD pentameric complex (ExbB5ExbD1TM)
+5SV1 - Structure of the ExbB/ExbD complex from E. coli at pH 4.5
+
+
+
 # Ashar:
 #foldseek createdb 1hv4.pdb 3di.dump
 #foldseek convert2fasta 3di.dump Fasta_3Di.fa
