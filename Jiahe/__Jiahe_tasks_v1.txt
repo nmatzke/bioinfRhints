@@ -150,6 +150,8 @@ iqtree -t BIONJ -s 1283_AQBs_hmmcore_plusJiahe_aln.fasta -m LG+F+G --ufboot 1000
 job
 
 
+iqtree -t BIONJ -s 1283_AQBs_hmmcore_plusJiahe_aln.fasta.uniqueseq.phy -m LG+F+G --ufboot 1000 -bnni | tee 1283_AQBs_hmmcore_plusJiahe_aln_so1.txt &
+
 
 
 

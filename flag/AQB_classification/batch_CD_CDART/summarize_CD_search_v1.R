@@ -22,7 +22,7 @@
 # 1. Get gids from fasta file:
 #
 cmds="
-cd /Users/nickm/GitHub/bioinfRhints/flag/AQB_classification/batch_CD_CDART/
+cd /GitHub/bioinfRhints/flag/AQB_classification/batch_CD_CDART/
 grep -o -E "^>\w+" 1283_AQBs_noQs.fasta | tr -d ">"
 grep -o '^>\w+' 1283_AQBs_noQs.fasta
 
@@ -36,7 +36,7 @@ awk 'BEGIN{FS="|"}{if(/^>/){print ""$5}else{print $0}}' 1283_AQBs_noQs.fasta | h
 awk 'BEGIN{FS="|"}{if(/^>/){print ""$5}}' 1283_AQBs_noQs.fasta | head
 
 # Extract 5th item to gids file, output to text
-cd /Users/nickm/GitHub/bioinfRhints/flag/AQB_classification/batch_CD_CDART/
+cd /GitHub/bioinfRhints/flag/AQB_classification/batch_CD_CDART/
 awk 'BEGIN{FS="|"}{if(/^>/){print ""$5}}' 1283_AQBs_noQs.fasta > 1283_AQBs_gids.txt
 more 1283_AQBs_gids.txt
 
@@ -46,10 +46,21 @@ head -50 1283_AQBs_gids.txt > 1283_AQBs_gids_pt0.txt
 head -600 1283_AQBs_gids.txt > 1283_AQBs_gids_pt1.txt
 tail -682 1283_AQBs_gids.txt > 1283_AQBs_gids_pt2.txt
 
-# Merge files at end (but this duplicates headers)
-cat 1283_AQBs_gids_pt1_hitdata.txt 1283_AQBs_gids_pt2_hitdata.txt > 1283_AQBs_gids_hitdata.txt 
+# DOESN'T WORK: Merge files at end (but this duplicates headers)
+# cat 1283_AQBs_gids_pt1_hitdata.txt 1283_AQBs_gids_pt2_hitdata.txt > 1283_AQBs_gids_hitdata.txt 
 wc -l 1283_AQBs_gids_hitdata.txt
 
+
+wc -l 1283_AQBs_gids_pt2_hitdata.txt
+# 698
+
+tail -690 1283_AQBs_gids_pt2_hitdata.txt | more
+tail -690 1283_AQBs_gids_pt2_hitdata.txt > 1283_AQBs_gids_pt2_hitdata_noHeader.txt
+
+cat 1283_AQBs_gids_pt1_hitdata.txt 1283_AQBs_gids_pt2_hitdata_noHeader.txt > 1283_AQBs_gids_hitdataB.txt 
+head 1283_AQBs_gids_hitdataB.txt 
+wc -l 1283_AQBs_gids_hitdataB.txt 
+# 1334
 " # END cmds
 
 # 
@@ -70,6 +81,7 @@ library(ape)
 library(phytools)
 library(seqinr)				# for read.fasta
 library(stringr)			# for str_squish, 
+library(openxlsx)			# for read.xlsx
 sourceall("/GitHub/bioinfRhints/Rsrc/")
 
 #wd = "/GitHub/bioinfRhints/flag/589_MotA_rename/CD-search/"
@@ -185,4 +197,180 @@ write.fasta(aln2, names=fullnames2, file.out=outfn)
 # QDU31046.1 hypothetical protein ETAA8_61990 [Anatilimnocola aggregata]
 
 # Positions 548-809 -- realign outside of this
+
+
+#######################################################
+# Read CD hit table, identify domains to cut
+#######################################################
+wd = "/GitHub/bioinfRhints/flag/AQB_classification/batch_CD_CDART/"
+setwd(wd)
+
+library(openxlsx)			# for read.xlsx
+
+cdhits_fn = "1283_AQBs_gids_hitdata_v1.xlsx"
+xlsfn = "/GitHub/bioinfRhints/flag/AQB_classification/groupTax_1282_mafftConstr_2023-08-07_edit.xlsx"
+
+cdxls = read.xlsx(cdhits_fn)
+xls = read.xlsx(xlsfn)
+hist(xls$len, breaks=50)
+# A single-core domain protein can be up to 350 aas
+
+numhits_by_gid = rev(sort(table(cdxls$Query)))
+max(numhits_by_gid)
+min(numhits_by_gid)
+
+rev(sort(table(cdxls$Short.name)))
+
+uniq_CD_names = names(rev(sort(table(cdxls$Short.name))))
+
+core_domains = c("MotA_ExbB superfamily", "TolQ superfamily", "MotA superfamily")
+
+core_start = rep(NA, times=nrow(xls))
+core_stop = rep(NA, times=nrow(xls))
+
+alt1_start = rep(NA, times=nrow(xls))
+alt1_stop = rep(NA, times=nrow(xls))
+alt2_start = rep(NA, times=nrow(xls))
+alt2_stop = rep(NA, times=nrow(xls))
+alt3_start = rep(NA, times=nrow(xls))
+alt3_stop = rep(NA, times=nrow(xls))
+alt4_start = rep(NA, times=nrow(xls))
+alt4_stop = rep(NA, times=nrow(xls))
+
+num_domains = rep(0, times=nrow(xls))
+
+core_dom_name = rep("", times=nrow(xls))
+alt1_dom_name = rep("", times=nrow(xls))
+alt2_dom_name = rep("", times=nrow(xls))
+alt3_dom_name = rep("", times=nrow(xls))
+alt4_dom_name = rep("", times=nrow(xls))
+
+i = 1
+uniq_gids = unique(cdxls$Query)
+
+gid = uniq_gids[i]
+
+
+TF = xls$tipnames3_uniq == gid
+xlsrownum = (1:length(TF))[TF]
+xlsrow = xls[xlsrownum,]
+
+TF = cdxls$Query == gid
+cdrows = cdxls[TF,]
+
+TF = cdrows$Short.name %in% core_domains
+core_rows = cdrows[TF,]
+noncore_rows = cdrows[TF==FALSE,]
+
+protein_len = xls$len[xlsrownum]
+
+if (nrow(core_rows) < 1)
+	{
+	num_domains[xlsrownum] = 0
+	core_start[xlsrownum] = 1
+	core_stop[xlsrownum] = protein_len
+	next()
+	}
+
+if ((nrow(core_rows) == 1) && (nrow(cdrows)==2))
+	{
+	num_domains[xlsrownum] = 1
+	core_start[xlsrownum] = 1
+	core_stop[xlsrownum] = protein_len
+	next()
+	}
+
+
+if ((nrow(core_rows) == 2) && (nrow(cdrows)==2))
+	{
+	num_domains[xlsrownum] = 1
+	core_start[xlsrownum] = 1
+	core_stop[xlsrownum] = protein_len
+	next()
+	}
+
+if ((nrow(core_rows) == 1) && (nrow(cdrows)==2))
+	{
+	num_domains[xlsrownum] = 1
+	
+	core_hit_start = core_rows$From[1]
+	core_hit_stop = core_rows$To[1]
+	
+	alt1_hit_start = noncore_rows$From[1]
+	alt1_hit_stop = noncore_rows$To[1]
+	
+	
+	# Which side of the protein is the core on?
+	middle_of_protein = round(protein_len/2)
+	middle_of_core = (core_hit_start + core_hit_stop) / 2
+	
+	if (middle_of_core >= middle_of_protein)
+		{
+		start_of_core_option1 = core_hit_start
+		start_of_core_option2 = core_hit_stop - 250
+		if (start_of_core_option2 <= alt1_hit_stop)
+			{
+			start_of_core_option2 = alt1_hit_stop + 1
+			core_hit_start = min(c(start_of_core_option1, start_of_core_option2))
+			core_hit_stop = protein_len
+			
+			alt1_hit_start = 1
+			alt1_hit_stop = core_hit_start - 1
+			} else {
+			core_hit_start = min(c(start_of_core_option1, start_of_core_option2))
+			core_hit_stop = protein_len
+			
+			alt1_hit_start = 1
+			alt1_hit_stop = core_hit_start - 1
+			}
+		}
+		
+		
+	if (middle_of_core < middle_of_protein)
+		{
+		stop_of_core_option1 = core_hit_stop
+		stop_of_core_option2 = 250
+		if (start_of_core_option2 <= alt1_hit_start)
+			{
+			stop_of_core_option2 = alt1_hit_start - 1
+			core_hit_start = 1
+			core_hit_stop = max(c(stop_of_core_option1, stop_of_core_option2))
+			
+			alt1_hit_start = core_hit_stop + 1
+			alt1_hit_stop = protein_len
+			} else {
+			core_hit_start = 1
+			core_hit_stop = max(c(stop_of_core_option1, stop_of_core_option2))
+			
+			alt1_hit_start = core_hit_stop + 1
+			alt1_hit_stop = protein_len
+			}
+		}
+		
+		
+		
+		}
+	
+	
+	core_start[xlsrownum] = 
+	core_stop[xlsrownum] = protein_len
+	next()
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
