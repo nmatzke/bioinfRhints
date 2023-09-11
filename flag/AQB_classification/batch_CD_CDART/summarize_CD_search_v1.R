@@ -264,3 +264,132 @@ system(cmdtxt)
 
 
 
+
+
+
+#######################################################
+# Extract single-domain AQB homologs
+#######################################################
+wd = "/GitHub/bioinfRhints/flag/AQB_classification/"
+setwd(wd)
+xls_plus_CD_fn = "groupTax_1282_mafftConstr_2023-08-07_edit_PLUS_DOMAINS.xlsx"
+xls_plus_CD = read.xlsx(xls_plus_CD_fn)
+head(xls_plus_CD)
+
+TF = xls_plus_CD$use2 == 1
+TF[is.na(TF)] = FALSE
+gids = xls_plus_CD$gid_for_CD[TF]
+length(gids)
+
+CDhits_subset_fn = "CDhits_subset_gids.txt"
+writeLines(text=gids, con=CDhits_subset_fn)
+moref(CDhits_subset_fn)
+opd()
+
+
+
+# Copy files over
+cif_fns = list.files(path="/GitHub/str2phy/aln_3di_to_aln", pattern="*.cif", full.names=TRUE)
+cif_fns
+
+aa_fns = list.files(path="/GitHub/str2phy/aln_3di_to_aln", pattern="*_aa.fasta", full.names=TRUE)
+aa_fns
+
+di3_fns = list.files(path="/GitHub/str2phy/aln_3di_to_aln", pattern="*_3di.fasta", full.names=TRUE)
+di3_fns
+
+outdir = "/GitHub/str2phy/ex/CDhits_subset/chains/"
+
+for (i in 1:length(gids))
+	{
+	fn_to_move = paste0(gids[i], "_alphafold.cif")
+	TF = grepl(pattern=fn_to_move, x=cif_fns)
+	file.copy(from=cif_fns[TF], to=outdir, overwrite=TRUE)
+
+	fn_to_move = paste0(gids[i], "_alphafold_aa.fasta")
+	TF = grepl(pattern=fn_to_move, x=aa_fns)
+	file.copy(from=aa_fns[TF], to=outdir, overwrite=TRUE)
+
+	fn_to_move = paste0(gids[i], "_alphafold_3di.fasta")
+	TF = grepl(pattern=fn_to_move, x=di3_fns)
+	file.copy(from=di3_fns[TF], to=outdir, overwrite=TRUE)
+	}
+
+
+
+terminal_cmds='
+cd /GitHub/str2phy/ex/CDhits_subset/chains
+ls *.cif > list_of_chains.txt
+mv list_of_chains.txt /GitHub/str2phy/ex/CDhits_subset
+cd /GitHub/str2phy/ex/CDhits_subset/
+more list_of_chains.txt
+
+cd /GitHub/str2phy/ex/CDhits_subset/
+USalign -dir chains/ list_of_chains.txt -mol prot -mm 4 | tee usalign_test1.txt &
+
+# Re-save to:
+usalign_test1_aa.fasta
+
+iqtree -t BIONJ -s usalign_test1_aa.fasta -m LG+F+G --ufboot 1000 -bnni | tee usalign_test1_aa_so1.txt &
+
+
+'
+
+
+
+# Convert an aa fasta file to a 3di fasta file
+library(msa)
+library(seqinr)
+library(BioGeoBEARS)
+source("/GitHub/str2phy/Rsrc/str2phy_v1.R")
+
+
+wd = "/GitHub/str2phy/ex/CDhits_subset/"
+setwd(wd)
+
+aligned_fasta_fn = "usalign_test1_aa.fasta"
+seqs1 = ape::read.FASTA(aligned_fasta_fn, type="AA")
+
+tmpnames = names(seqs1)
+tmpnames = gsub(pattern="WP_", replacement="WP|", x=tmpnames)
+for (i in 1:length(tmpnames))
+	{
+	words = strsplit(tmpnames[i], split="_")[[1]]
+	tmpnames[i] = words[1]
+	}
+tmpnames = gsub(pattern="WP\\|", replacement="WP_", x=tmpnames)
+tmpnames
+
+
+
+
+
+aln = msa(inputSeqs=c(a,b), method="ClustalW", type="protein", order="input")
+
+aln2 = msaConvert(aln, type="ape::AAbin")
+aln2
+
+aln3 = add_labels_to_AAbin(aln2)
+names(aln2)
+names(aln3)
+names(aln3) = c("a","b")
+labels(aln3)
+
+seqs_list = as.character(aln3)
+
+
+#######################################################
+# Convert the non-blank positions of the 2nd sequence into positions in the 1st sequence
+#######################################################
+observed_positions = 1:length(seqs_list[[2]])
+
+TF = seqs_list[[2]] != "-"
+nonblank_positions = rep(NA, times=length(seqs_list[[2]]))
+nonblank_positions[TF] = 1:sum(TF)
+
+
+rbind(observed_positions, nonblank_positions)
+
+
+
+
