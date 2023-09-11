@@ -212,161 +212,51 @@ xlsfn = "/GitHub/bioinfRhints/flag/AQB_classification/groupTax_1282_mafftConstr_
 
 cdxls = read.xlsx(cdhits_fn)
 xls = read.xlsx(xlsfn)
+
+gids_in_xls = xls$tipnames3_uniq
+head(rev(sort(table(gids_in_xls))))
 hist(xls$len, breaks=50)
 # A single-core domain protein can be up to 350 aas
 
 numhits_by_gid = rev(sort(table(cdxls$Query)))
 max(numhits_by_gid)
 min(numhits_by_gid)
+head(numhits_by_gid)
 
-rev(sort(table(cdxls$Short.name)))
+# 4 domains
+cdxls[cdxls$Query == "QNQ08565.1", ]
+# 3 domains
+cdxls[cdxls$Query == "QJE97904.1", ]
+cdxls[cdxls$Query == "ABE50669.1", ]
+cdxls[cdxls$Query == "AAZ96310.1", ]
+cdxls[cdxls$Query == "AAU91782.1", ]
 
-uniq_CD_names = names(rev(sort(table(cdxls$Short.name))))
+# ...manually edit 3-4 domain hits entries, to be just 2 domains
+cdhits_fn = "1283_AQBs_gids_hitdata_v2merge34.xlsx"
+cdxls = read.xlsx(cdhits_fn)
+numhits_by_gid = rev(sort(table(cdxls$Query)))
+max(numhits_by_gid)
+min(numhits_by_gid)
+head(numhits_by_gid)
 
+source("/GitHub/str2phy/Rsrc/str2phy_v1.R")
+max_core_length = 225
+proteins_over_this_will_be_split = max_core_length * 1.5
+proteins_over_this_will_be_split
 core_domains = c("MotA_ExbB superfamily", "TolQ superfamily", "MotA superfamily")
-
-core_start = rep(NA, times=nrow(xls))
-core_stop = rep(NA, times=nrow(xls))
-
-alt1_start = rep(NA, times=nrow(xls))
-alt1_stop = rep(NA, times=nrow(xls))
-alt2_start = rep(NA, times=nrow(xls))
-alt2_stop = rep(NA, times=nrow(xls))
-alt3_start = rep(NA, times=nrow(xls))
-alt3_stop = rep(NA, times=nrow(xls))
-alt4_start = rep(NA, times=nrow(xls))
-alt4_stop = rep(NA, times=nrow(xls))
-
-num_domains = rep(0, times=nrow(xls))
-
-core_dom_name = rep("", times=nrow(xls))
-alt1_dom_name = rep("", times=nrow(xls))
-alt2_dom_name = rep("", times=nrow(xls))
-alt3_dom_name = rep("", times=nrow(xls))
-alt4_dom_name = rep("", times=nrow(xls))
-
-i = 1
-uniq_gids = unique(cdxls$Query)
-
-gid = uniq_gids[i]
+cdhits_df = process_CDhits(cdxls, xls, max_core_length=max_core_length, core_domains=core_domains)
 
 
-TF = xls$tipnames3_uniq == gid
-xlsrownum = (1:length(TF))[TF]
-xlsrow = xls[xlsrownum,]
-
-TF = cdxls$Query == gid
-cdrows = cdxls[TF,]
-
-TF = cdrows$Short.name %in% core_domains
-core_rows = cdrows[TF,]
-noncore_rows = cdrows[TF==FALSE,]
-
-protein_len = xls$len[xlsrownum]
-
-if (nrow(core_rows) < 1)
-	{
-	num_domains[xlsrownum] = 0
-	core_start[xlsrownum] = 1
-	core_stop[xlsrownum] = protein_len
-	next()
-	}
-
-if ((nrow(core_rows) == 1) && (nrow(cdrows)==2))
-	{
-	num_domains[xlsrownum] = 1
-	core_start[xlsrownum] = 1
-	core_stop[xlsrownum] = protein_len
-	next()
-	}
+head(cdhits_df)
+tail(cdhits_df)
+dim(cdhits_df)
 
 
-if ((nrow(core_rows) == 2) && (nrow(cdrows)==2))
-	{
-	num_domains[xlsrownum] = 1
-	core_start[xlsrownum] = 1
-	core_stop[xlsrownum] = protein_len
-	next()
-	}
-
-if ((nrow(core_rows) == 1) && (nrow(cdrows)==2))
-	{
-	num_domains[xlsrownum] = 1
-	
-	core_hit_start = core_rows$From[1]
-	core_hit_stop = core_rows$To[1]
-	
-	alt1_hit_start = noncore_rows$From[1]
-	alt1_hit_stop = noncore_rows$To[1]
-	
-	
-	# Which side of the protein is the core on?
-	middle_of_protein = round(protein_len/2)
-	middle_of_core = (core_hit_start + core_hit_stop) / 2
-	
-	if (middle_of_core >= middle_of_protein)
-		{
-		start_of_core_option1 = core_hit_start
-		start_of_core_option2 = core_hit_stop - 250
-		if (start_of_core_option2 <= alt1_hit_stop)
-			{
-			start_of_core_option2 = alt1_hit_stop + 1
-			core_hit_start = min(c(start_of_core_option1, start_of_core_option2))
-			core_hit_stop = protein_len
-			
-			alt1_hit_start = 1
-			alt1_hit_stop = core_hit_start - 1
-			} else {
-			core_hit_start = min(c(start_of_core_option1, start_of_core_option2))
-			core_hit_stop = protein_len
-			
-			alt1_hit_start = 1
-			alt1_hit_stop = core_hit_start - 1
-			}
-		}
-		
-		
-	if (middle_of_core < middle_of_protein)
-		{
-		stop_of_core_option1 = core_hit_stop
-		stop_of_core_option2 = 250
-		if (start_of_core_option2 <= alt1_hit_start)
-			{
-			stop_of_core_option2 = alt1_hit_start - 1
-			core_hit_start = 1
-			core_hit_stop = max(c(stop_of_core_option1, stop_of_core_option2))
-			
-			alt1_hit_start = core_hit_stop + 1
-			alt1_hit_stop = protein_len
-			} else {
-			core_hit_start = 1
-			core_hit_stop = max(c(stop_of_core_option1, stop_of_core_option2))
-			
-			alt1_hit_start = core_hit_stop + 1
-			alt1_hit_stop = protein_len
-			}
-		}
-		
-		
-		
-		}
-	
-	
-	core_start[xlsrownum] = 
-	core_stop[xlsrownum] = protein_len
-	next()
-	}
-
-
-
-
-
-
-
-
-
-
-
+cdhits_outfn = gsub(pattern=".xlsx", replacement="_processed.xlsx", x=cdhits_fn)
+write.xlsx(x=cdhits_df, file=cdhits_outfn)
+cmdtxt = paste0("open ", cdhits_outfn)
+cmdtxt
+system(cmdtxt)
 
 
 
