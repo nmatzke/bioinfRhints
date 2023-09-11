@@ -341,55 +341,111 @@ iqtree -t BIONJ -s usalign_test1_aa.fasta -m LG+F+G --ufboot 1000 -bnni | tee us
 library(msa)
 library(seqinr)
 library(BioGeoBEARS)
+sourceall("/GitHub/bioinfRhints/Rsrc")
 source("/GitHub/str2phy/Rsrc/str2phy_v1.R")
 
 
 wd = "/GitHub/str2phy/ex/CDhits_subset/"
 setwd(wd)
 
-aligned_fasta_fn = "usalign_test1_aa.fasta"
-seqs1 = ape::read.FASTA(aligned_fasta_fn, type="AA")
+# Specify file locations
+fasta_fn = "/Users/nickm/GitHub/bioinfRhints/flag/AQB_classification/1283_AQBs.fasta"
+usaln_fn = "usalign_test1_aa.fasta"
+di3s_dir = "/GitHub/str2phy/aln_3di_to_aln"
 
-tmpnames = names(seqs1)
-tmpnames = gsub(pattern="WP_", replacement="WP|", x=tmpnames)
-for (i in 1:length(tmpnames))
+# Read in files
+raw_seqs = as.character(ape::read.FASTA(fasta_fn, type="AA"))
+raw_names = unname(sapply(X=names(raw_seqs), FUN=firstword))
+
+usaln_aaBin = ape::read.FASTA(usaln_fn, type="AA")
+numcols = max(as.numeric(summary(usaln_aaBin)[,"Length"]))
+usaln_seqs = as.character(usaln_aaBin)
+usaln_names = names(usaln_seqs)
+usaln_names = gsub(pattern="WP_", replacement="WP|", x=tmpnames)
+for (i in 1:length(usaln_names))
 	{
-	words = strsplit(tmpnames[i], split="_")[[1]]
-	tmpnames[i] = words[1]
+	words = strsplit(usaln_names[i], split="_")[[1]]
+	usaln_names[i] = words[1]
 	}
-tmpnames = gsub(pattern="WP\\|", replacement="WP_", x=tmpnames)
-tmpnames
+usaln_names = gsub(pattern="WP\\|", replacement="WP_", x=usaln_names)
+usaln_names
 
-
-
-
-
-aln = msa(inputSeqs=c(a,b), method="ClustalW", type="protein", order="input")
-
-aln2 = msaConvert(aln, type="ape::AAbin")
-aln2
-
-aln3 = add_labels_to_AAbin(aln2)
-names(aln2)
-names(aln3)
-names(aln3) = c("a","b")
-labels(aln3)
-
-seqs_list = as.character(aln3)
+di3s_fns = list.files(di3s_dir, pattern="*_3di.fasta", full.names=TRUE)
+di3s_fns
 
 
 #######################################################
-# Convert the non-blank positions of the 2nd sequence into positions in the 1st sequence
+# Align each 3di sequence to the US-aligned version
 #######################################################
-observed_positions = 1:length(seqs_list[[2]])
+i=51
+di3_alignment_list = list()
+for (i in 1:length(usaln_seqs))
+	{
+	usaln_name = usaln_names[i]
+	usaln_seq = usaln_seqs[[i]]
+	usaln_nogaps = usaln_seq[usaln_seq != "-"]
+	usaln_positions = 1:length(usaln_seq)
+	usaln_positions = usaln_positions[usaln_seq != "-"]
+	usaln_positions
+	
+	aln_seq = paste0(usaln_seq, collapse="")
+	aln_seq_nogaps = aln_seq
+	
+	TF = raw_names == usaln_name
+	raw_num = (1:length(TF))[TF]
+	raw_seq = paste0(raw_seqs[[raw_num]], collapse="")
+	conversion_table = aln_2nd_seq_to_1st(aln_seq, raw_seq)
+	conversion_table[,200:210]
+	dim(conversion_table)
+	
+	# For rare cases where conversion table is too long (e.g. seqs right at the end)
+	if (dim(conversion_table)[2] > numcols)
+		{
+		num_to_subtract_from_front = dim(conversion_table)[2] - numcols
+		conversion_table[1,] = conversion_table[1,] - num_to_subtract_from_front
+		cols_to_keep = (num_to_subtract_from_front+1):dim(conversion_table)[2] 
+		conversion_table = conversion_table[, cols_to_keep]
+		}
+	
+	max(conversion_table[1,], na.rm=TRUE)
+	max(conversion_table[2,], na.rm=TRUE)
+	conversion_table[,(ncol(conversion_table)-10):(ncol(conversion_table)-0)]
+	# max position of 2nd row
+	colnums = 1:ncol(conversion_table)
+	colnums = colnums[!is.na(conversion_table[2,])]
+	colnums
+	conversion_table[2,][colnums]
+	
+	# Get the 3di file
+	TF = grepl(pattern=usaln_name, x=di3s_fns)
+	di3_fn = di3s_fns[TF]
+	
+	di3_seq = as.character(ape::read.FASTA(di3_fn, type="AA"))[[1]]
+	
+	di3_alned = rep("-", times=numcols)
+	
+	# Get the non-blank positions
+	#pos_to_fill_TF = !is.na(conversion_table["unaligned_seq_pos",])
+	
+	#di3_positions = conversion_table["unaligned_seq_pos",][pos_to_fill_TF]
+	di3_alned[colnums] = di3_seq
+	di3_alned
+	
+	di3_alignment_list[[usaln_name]] = di3_alned
+	}
 
-TF = seqs_list[[2]] != "-"
-nonblank_positions = rep(NA, times=length(seqs_list[[2]]))
-nonblank_positions[TF] = 1:sum(TF)
+di3_alignment_list
+#di3_alignment_str = sapply(di3_alignment_list, FUN=paste0, collapse="")
+#di3_alignment_str
 
+di3_alignment = ape::as.AAbin(di3_alignment_list)
+di3_chars = as.character(di3_alignment)
+TF = sapply(di3_chars, length) > 950
+num = (1:length(TF))[TF]
+num
 
-rbind(observed_positions, nonblank_positions)
+di3_chars[51]
+di3_chars[87]
 
-
-
-
+di3_outfn = gsub(pattern="_aa.fasta", replacement="_3di.fasta", x=usaln_fn)
+ape::write.FASTA(di3_alignment, file=di3_outfn)
