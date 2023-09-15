@@ -349,7 +349,7 @@ wd = "/GitHub/str2phy/ex/CDhits_subset/"
 setwd(wd)
 
 # Specify file locations
-fasta_fn = "/Users/nickm/GitHub/bioinfRhints/flag/AQB_classification/1283_AQBs.fasta"
+fasta_fn = "/GitHub/bioinfRhints/flag/AQB_classification/1283_AQBs.fasta"
 usaln_fn = "usalign_test1_aa.fasta"
 di3s_dir = "/GitHub/str2phy/aln_3di_to_aln"
 
@@ -361,7 +361,7 @@ usaln_aaBin = ape::read.FASTA(usaln_fn, type="AA")
 numcols = max(as.numeric(summary(usaln_aaBin)[,"Length"]))
 usaln_seqs = as.character(usaln_aaBin)
 usaln_names = names(usaln_seqs)
-usaln_names = gsub(pattern="WP_", replacement="WP|", x=tmpnames)
+usaln_names = gsub(pattern="WP_", replacement="WP|", x=usaln_names)
 for (i in 1:length(usaln_names))
 	{
 	words = strsplit(usaln_names[i], split="_")[[1]]
@@ -377,11 +377,18 @@ di3s_fns
 #######################################################
 # Align each 3di sequence to the US-aligned version
 #######################################################
-i=51
+gids_to_skip = c("ACM24086.1", "AHZ85825.1", "APC07901.1", "CCQ11587.1", "QTD50766.1", "QVL32859.1", "QVL33268.1", "UPT72618.1")
+i=1
 di3_alignment_list = list()
+aa_alignment_list = list()
 for (i in 1:length(usaln_seqs))
 	{
 	usaln_name = usaln_names[i]
+	if (usaln_name %in% gids_to_skip)
+		{
+		next()  # skip as it's problematic
+		}
+
 	usaln_seq = usaln_seqs[[i]]
 	usaln_nogaps = usaln_seq[usaln_seq != "-"]
 	usaln_positions = 1:length(usaln_seq)
@@ -389,63 +396,111 @@ for (i in 1:length(usaln_seqs))
 	usaln_positions
 	
 	aln_seq = paste0(usaln_seq, collapse="")
-	aln_seq_nogaps = aln_seq
+	aln_seq_string = aln_seq
 	
 	TF = raw_names == usaln_name
 	raw_num = (1:length(TF))[TF]
-	raw_seq = paste0(raw_seqs[[raw_num]], collapse="")
-	conversion_table = aln_2nd_seq_to_1st(aln_seq, raw_seq)
-	conversion_table[,200:210]
-	dim(conversion_table)
+	raw_seq = raw_seqs[[raw_num]]
+	raw_seq_str = paste0(raw_seq, collapse="")
 	
-	# For rare cases where conversion table is too long (e.g. seqs right at the end)
-	if (dim(conversion_table)[2] > numcols)
+	if (nchar(raw_seq_str) != length(usaln_nogaps))
 		{
-		num_to_subtract_from_front = dim(conversion_table)[2] - numcols
-		conversion_table[1,] = conversion_table[1,] - num_to_subtract_from_front
-		cols_to_keep = (num_to_subtract_from_front+1):dim(conversion_table)[2] 
-		conversion_table = conversion_table[, cols_to_keep]
+		txt = paste0("STOP ERROR at i=", i, " in aligning 3di sequence!  For gid='", usaln_name, "', The aligned amino acids sequence has ", length(usaln_nogaps), " non-gap characters, but the raw fasta AA sequence has length ", nchar(raw_seq), ". These MUST match.") 
+		cat("\n\n")
+		cat(txt)
+		cat("\n\n")
+		stop(txt)
 		}
 	
-	max(conversion_table[1,], na.rm=TRUE)
-	max(conversion_table[2,], na.rm=TRUE)
-	conversion_table[,(ncol(conversion_table)-10):(ncol(conversion_table)-0)]
-	# max position of 2nd row
-	colnums = 1:ncol(conversion_table)
-	colnums = colnums[!is.na(conversion_table[2,])]
-	colnums
-	conversion_table[2,][colnums]
-	
-	# Get the 3di file
+		# Get the 3di file
 	TF = grepl(pattern=usaln_name, x=di3s_fns)
 	di3_fn = di3s_fns[TF]
 	
 	di3_seq = as.character(ape::read.FASTA(di3_fn, type="AA"))[[1]]
+
+	if (nchar(raw_seq_str) != length(di3_seq))
+		{
+		txt = paste0("STOP ERROR at i=", i, " in aligning 3di sequence!  For gid='", usaln_name, "', The aligned amino acids sequence has ", length(usaln_nogaps), " non-gap characters, but the raw 3di sequence has length ", length(di3_seq), ". These MUST match.") 
+		cat("\n\n")
+		cat(txt)
+		cat("\n\n")
+		stop(txt)
+		}
 	
+	# Output aligned AA sequences (which might not always be exactly identical to closest-match structure sequences)
+	aa_alned = rep("-", times=numcols)
+	aa_alned[usaln_positions] = raw_seq
+	aa_alignment_list[[usaln_name]] = aa_alned
+	
+	# Output aligned 3di sequences
 	di3_alned = rep("-", times=numcols)
-	
-	# Get the non-blank positions
-	#pos_to_fill_TF = !is.na(conversion_table["unaligned_seq_pos",])
-	
-	#di3_positions = conversion_table["unaligned_seq_pos",][pos_to_fill_TF]
-	di3_alned[colnums] = di3_seq
-	di3_alned
-	
+	di3_alned[usaln_positions] = di3_seq
 	di3_alignment_list[[usaln_name]] = di3_alned
 	}
 
 di3_alignment_list
-#di3_alignment_str = sapply(di3_alignment_list, FUN=paste0, collapse="")
-#di3_alignment_str
+length(di3_alignment_list)
 
-di3_alignment = ape::as.AAbin(di3_alignment_list)
+# Get the names in 
+ordered_AA_fasta_fn = "/GitHub/bioinfRhints/flag/AQB_classification/groupTax_1283_AQBs_mafftMiddleConstrained2.fasta"
+ordered_AA_fasta = ape::read.FASTA(ordered_AA_fasta_fn, type="AA")
+ordered_AA_fasta_names = rep("", times=length(ordered_AA_fasta))
+for (i in 1:length(ordered_AA_fasta))
+	{
+	string = names(ordered_AA_fasta)[i]
+	words = strsplit(string, split="\\|")[[1]]
+	ordered_AA_fasta_names[i] = words[5]
+	}
+ordered_AA_fasta_names
+
+matchvals = order(match(x=names(aa_alignment_list), table=ordered_AA_fasta_names))
+
+aa_alignment = ape::as.AAbin(aa_alignment_list[matchvals])
+aa_chars = as.character(aa_alignment)
+
+di3_alignment = ape::as.AAbin(di3_alignment_list[matchvals])
 di3_chars = as.character(di3_alignment)
 TF = sapply(di3_chars, length) > 950
 num = (1:length(TF))[TF]
 num
 
-di3_chars[51]
-di3_chars[87]
+aa_outfn = gsub(pattern="_aa.fasta", replacement="_origAA.fasta", x=usaln_fn)
+ape::write.FASTA(aa_alignment, file=aa_outfn)
 
 di3_outfn = gsub(pattern="_aa.fasta", replacement="_3di.fasta", x=usaln_fn)
 ape::write.FASTA(di3_alignment, file=di3_outfn)
+
+
+# Both AA and 3di; ordered by ordered_AA_fasta_names
+aa3di_alignment_list = list()
+for (i in 1:length(aa_chars))
+	{
+	aln_name = names(aa_alignment)[i]
+	aa3di_alignment_list[[aln_name]] = c(aa_chars[[aln_name]], di3_chars[[aln_name]])
+	}
+
+aa3di_alignment = ape::as.AAbin(aa3di_alignment_list)
+aa3di_alignment
+aa3di_outfn = gsub(pattern="_aa.fasta", replacement="_aa3di.fasta", x=usaln_fn)
+ape::write.FASTA(aa3di_alignment, file=aa3di_outfn)
+
+
+
+#######################################################
+# IQtree partitioned
+#######################################################
+cd /GitHub/str2phy/ex/CDhits_subset/iqtree/poisson/
+
+iqtree -t BIONJ -s usalign_test1_3di.fasta -m Poisson+F+G --ufboot 1000 -bnni | tee usalign_test1_3di_Poisson_so1.txt &
+
+
+cd /GitHub/str2phy/ex/CDhits_subset/iqtree/
+
+iqtree -t BIONJ -s usalign_test1_3di.fasta -m 3di_substmat+F+G --ufboot 1000 -bnni | tee usalign_test1_3di_3di_substmat_so1.txt &
+
+cd /GitHub/str2phy/ex/CDhits_subset/iqtree/
+
+iqtree -t BIONJ -s usalign_test1_origAA.fasta -m LG+F+G --ufboot 1000 -bnni | tee usalign_test1_origAA_so1.txt &
+
+
+
