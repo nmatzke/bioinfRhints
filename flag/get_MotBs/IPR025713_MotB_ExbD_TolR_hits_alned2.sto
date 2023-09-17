@@ -1,0 +1,1141 @@
+# STOCKHOLM 1.0
+#=GF ID MotB_plug
+#=GF AC PF13677.9
+#=GF DE Membrane MotB of proton-channel complex MotA/MotB
+#=GF AU hmmsearch (HMMER 3.3.2)
+
+#=GS ACL22207.1/4-56      DE [subseq from] OmpA/MotB domain protein [Desulfitobacterium hafniense DCB-2]|GCA_000021925.1_ASM2192v1_protein
+#=GS ALU36625.1/2-56      DE [subseq from] Motility protein B [Clostridium autoethanogenum DSM 10061]|GCA_001484725.1_ASM148472v1_protein
+#=GS ALA58548.1/3-55      DE [subseq from] Flagellar motor protein MotB [Nitrospira moscoviensis]|GCA_001273775.1_ASM127377v1_protein
+#=GS AAQ59488.1/5-58      DE [subseq from] chemotaxis motB protein [Chromobacterium violaceum ATCC 12472]|GCA_000007705.1_ASM770v1_protein
+#=GS AAU40424.1/3-59      DE [subseq from] motility protein B flagellar stator MotB [Bacillus licheniformis DSM 13 = ATCC 14580]|GCA_000008425.1_ASM842v1_protein
+#=GS AGH77404.1/4-57      DE [subseq from] flagellar motor protein MotD [Xanthomonas axonopodis Xac29-1]|GCA_000348585.1_ASM34858v1_protein
+#=GS GAK43334.1/3-59      DE [subseq from] flagellar motor protein MotB [Paenibacillus sp. TCA20]|GCA_000732325.1_ASM73232v1_protein
+#=GS AAG04850.1/4-57      DE [subseq from] MotD [Pseudomonas aeruginosa PAO1]|GCA_000006765.1_ASM676v1_protein
+#=GS AOP58988.1/4-57      DE [subseq from] flagellar motor protein MotD [Pseudomonas aeruginosa]|GCA_001729505.1_ASM172950v1_protein
+#=GS QKS28545.1/4-56      DE [subseq from] MAG: flagellar motor protein MotD [Candidatus Accumulibacter similis]|GCA_013347225.1_ASM1334722v1_protein
+#=GS BAB06958.1/2-53      DE [subseq from] BH3239 [Halalkalibacterium halodurans C-125]|GCA_000011145.1_ASM1114v1_protein
+#=GS CFQ30491.1/12-67     DE [subseq from] flagellar motor protein MotB [Yersinia bercovieri]|GCA_001319955.1_5139_5_3_protein
+#=GS EGW21350.1/4-58      DE [subseq from] OmpA/MotB domain protein [Methylobacter tundripaludum SV96]|GCA_000190755.3_ASM19075v3_protein
+#=GS RYJ17831.1/13-67     DE [subseq from] motility protein MotB [Rahnella variigena]|GCA_004150405.1_ASM415040v1_protein
+#=GS ACH40743.1/4-57      DE [subseq from] flagellar basal body stator protein MotB [Citrifermentans bemidjiense Bem]|GCA_000020725.1_ASM2072v1_protein
+#=GS BAD76816.1/3-57      DE [subseq from] motility protein B (flagellar motor rotation) [Geobacillus kaustophilus HTA426]|GCA_000009785.1_ASM978v1_protein
+#=GS RYJ18906.1/13-65     DE [subseq from] motility protein MotB [Rahnella variigena]|GCA_004150405.1_ASM415040v1_protein
+#=GS KGT89686.1/12-65     DE [subseq from] chemotaxis protein MotB [Enterobacter cancerogenus]|GCA_000773965.1_ASM77396v1_protein
+#=GS CCJ73889.1/12-67     DE [subseq from] Flagellar motor rotation protein MotB [Cronobacter condimenti 1330]|GCA_000319285.1_ASM31928v1_protein
+#=GS RPH29222.1/13-65     DE [subseq from] motility protein MotB [Buttiauxella warmboldiae]|GCA_003818135.1_ASM381813v1_protein
+#=GS EGO64296.1/3-58      DE [subseq from] ompa/motb domain-containing protein [Acetonema longum DSM 6540]|GCA_000219125.2_ASM21912v1_protein
+#=GS KGA70726.1/12-67     DE [subseq from] motility B domain protein [Yersinia enterocolitica]|GCA_000755055.1_YEG_1_protein
+#=GS ADC48829.1/3-53      DE [subseq from] Flagellar motor rotation protein motS [Alkalihalophilus pseudofirmus OF4]|GCA_000005825.2_ASM582v2_protein
+#=GS AAY38463.1/4-55      DE [subseq from] OmpA/MotB [Pseudomonas syringae pv. syringae B728a]|GCA_000012245.1_ASM1224v1_protein
+#=GS AJH78804.1/4-58      DE [subseq from] membrane MotB of proton-channel complex MotA/MotB family protein [Weizmannia coagulans DSM 1 = ATCC 7050]|GCA_000832905.1_ASM83290v1_protein
+#=GS KTS00803.1/13-66     DE [subseq from] flagellar motor protein MotB [Pantoea dispersa]|GCA_001476295.1_ASM147629v1_protein
+#=GS CNJ97168.1/12-67     DE [subseq from] flagellar motor protein MotB [Yersinia frederiksenii]|GCA_001171065.1_4840_6_7_protein
+#=GS OWF82397.1/12-67     DE [subseq from] flagellar motor protein MotB [Yersinia frederiksenii]|GCA_002192835.1_ASM219283v1_protein
+#=GS CFQ36261.1/13-66     DE [subseq from] flagellar motor protein MotB [Yersinia bercovieri]|GCA_001319955.1_5139_5_3_protein
+#=GS RPH29935.1/13-66     DE [subseq from] motility protein MotB [Buttiauxella warmboldiae]|GCA_003818135.1_ASM381813v1_protein
+#=GS POT59379.1/13-67     DE [subseq from] motility protein MotB [Citrobacter amalonaticus]|GCA_002918555.1_ASM291855v1_protein
+#=GS KOR05142.1/13-65     DE [subseq from] hypothetical protein ABW48_01955 [Pluralibacter gergoviae]|GCA_001276415.1_ASM127641v1_protein
+#=GS POT54756.1/13-64     DE [subseq from] motility protein MotB [Citrobacter amalonaticus]|GCA_002918555.1_ASM291855v1_protein
+#=GS CAB13241.1/3-58      DE [subseq from] motility protein B; MotB component of the H+-coupled stator flagellum complex [Bacillus subtilis subsp. subtilis str. 168]|GCA_000009045.1_ASM904v1_protein
+#=GS ORN02589.1/11-64     DE [subseq from] hypothetical protein HA46_03290 [Pantoea septica]|GCA_002095575.1_ASM209557v1_protein
+#=GS AGG30805.1/12-67     DE [subseq from] Flagellar motor rotation protein MotB [Morganella morganii subsp. morganii KT]|GCA_000286435.2_ASM28643v2_protein
+#=GS KIU35410.1/12-67     DE [subseq from] flagellar motor protein MotB [Atlantibacter hermannii]|GCA_000878365.1_ASM87836v1_protein
+#=GS ACT48179.1/7-59      DE [subseq from] OmpA/MotB domain protein [Methylotenera mobilis JLW8]|GCA_000023705.1_ASM2370v1_protein
+#=GS ORN01922.1/12-66     DE [subseq from] flagellar motor protein MotB [Pantoea septica]|GCA_002095575.1_ASM209557v1_protein
+#=GS ATO49968.1/3-55      DE [subseq from] flagellar motor protein MotB [Brevibacillus laterosporus DSM 25]|GCA_002706795.1_ASM270679v1_protein
+#=GS KGT90536.1/13-66     DE [subseq from] flagellar motor protein MotB [Erwinia typographi]|GCA_000773975.1_ASM77397v1_protein
+#=GS ACL65906.1/3-55      DE [subseq from] OmpA/MotB domain protein [Anaeromyxobacter dehalogenans 2CP-1]|GCA_000022145.1_ASM2214v1_protein
+#=GS AAO68628.1/13-67     DE [subseq from] motility protein B [Salmonella enterica subsp. enterica serovar Typhi str. Ty2]|GCA_000007545.1_ASM754v1_protein
+#=GS AAL20838.1/13-67     DE [subseq from] enables flagellar motor rotation [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]|GCA_000006945.2_ASM694v2_protein
+#=GS TCZ23881.1/13-66     DE [subseq from] motility protein MotB [Pantoea agglomerans]|GCA_004344785.1_ASM434478v1_protein
+#=GS AAR36420.1/5-56      DE [subseq from] flagellar basal body stator protein MotB [Geobacter sulfurreducens PCA]|GCA_000007985.2_ASM798v2_protein
+#=GS AOU49317.1/4-57      DE [subseq from] flagellar motor protein MotD [Legionella pneumophila]|GCA_001753085.1_ASM175308v1_protein
+#=GS ADE10801.1/6-56      DE [subseq from] OmpA/MotB domain protein [Sideroxydans lithotrophicus ES-1]|GCA_000025705.1_ASM2570v1_protein
+#=GS ACO31774.1/3-55      DE [subseq from] chemotaxis protein MotB [Acidobacterium capsulatum ATCC 51196]|GCA_000022565.1_ASM2256v1_protein
+#=GS BAC14180.1/7-56      DE [subseq from] flagellar motor aparatus [Oceanobacillus iheyensis HTE831]|GCA_000011245.1_ASM1124v1_protein
+#=GS GHD90463.1/13-67     DE [subseq from] flagellar motor protein MotB [Pseudocitrobacter faecalis]|GCA_014653055.1_ASM1465305v1_protein
+#=GS TCZ24252.1/11-64     DE [subseq from] motility protein MotB [Pantoea agglomerans]|GCA_004344785.1_ASM434478v1_protein
+#=GS ADP98059.1/3-57      DE [subseq from] flagellar motor protein MotD [Marinobacter adhaerens HP15]|GCA_000166295.1_ASM16629v1_protein
+#=GS EHJ04495.1/3-57      DE [subseq from] flagellar motor protein MotD [Marinobacter manganoxydans MnI7-9]|GCA_000235625.2_ASM23562v1_protein
+#=GS ABY95375.1/5-56      DE [subseq from] OmpA/MotB domain protein [Thermoanaerobacter pseudethanolicus ATCC 33223]|GCA_000019085.1_ASM1908v1_protein
+#=GS ABM19050.1/3-57      DE [subseq from] OmpA/MotB domain protein [Marinobacter nauticus VT8]|GCA_000015365.1_ASM1536v1_protein
+#=GS CCG94813.1/3-57      DE [subseq from] Proton-driven flagellar motor component [Marinobacter nauticus ATCC 49840]|GCA_000284615.1_ASM28461v1_protein
+#=GS QEI19743.1/4-56      DE [subseq from] flagellar motor protein MotD [Cellvibrio japonicus]|GCA_008120875.1_ASM812087v1_protein
+#=GS ACL72429.1/4-58      DE [subseq from] OmpA/MotB domain protein [Thioalkalivibrio sulfidiphilus HL-EbGr7]|GCA_000021985.1_ASM2198v1_protein
+#=GS PAN74107.1/12-67     DE [subseq from] motility protein MotB [Enterobacter cloacae]|GCA_002278205.1_ASM227820v1_protein
+#=GS KLP57511.1/12-67     DE [subseq from] flagellar motor protein MotB [Enterobacter genomosp. O]|GCA_001022965.1_ASM102296v1_protein
+#=GS QQS05760.1/12-65     DE [subseq from] OmpA family protein [Fibrobacteres bacterium]|GCA_016699655.1_ASM1669965v1_protein
+#=GS AHZ85792.1/3-54      DE [subseq from] chemotaxis protein MotB [Bdellovibrio bacteriovorus]|GCA_000691605.1_ASM69160v1_protein
+#=GS WP_011162757.1/3-54  DE [subseq from] OmpA family protein [Bdellovibrio bacteriovorus]|GCF_000691605.1_ASM69160v1_protein
+#=GS ARU98271.1/13-66     DE [subseq from] flagellar motor protein MotB [Tatumella citrea]|GCA_002163605.1_ASM216360v1_protein
+#=GS TCV95527.1/12-64     DE [subseq from] chemotaxis protein MotB [Biostraticola tofi]|GCA_004343195.1_ASM434319v1_protein
+#=GS CBJ47213.1/11-64     DE [subseq from] chemotaxis protein (motility protein B) [Erwinia amylovora ATCC 49946]|GCA_000027205.1_ASM2720v1_protein
+#=GS QXB11671.1/12-65     DE [subseq from] flagellar motor protein MotB [Klebsiella aerogenes]|GCA_019048125.1_ASM1904812v1_protein
+#=GS KLR25636.1/12-67     DE [subseq from] flagellar motor protein MotB [Enterobacter bugandensis]|GCA_001023305.1_ASM102330v1_protein
+#=GS KGT93170.1/13-66     DE [subseq from] flagellar motor protein MotB [Enterobacter cancerogenus]|GCA_000773965.1_ASM77396v1_protein
+#=GS AAO36202.1/11-63     DE [subseq from] chemotaxis motB protein [Clostridium tetani E88]|GCA_000007625.1_ASM762v1_protein
+#=GS AFA40897.1/16-65     DE [subseq from] MotB family proton-channel complex protein [Wigglesworthia glossinidia endosymbiont of Glossina morsitans morsitans (Yale colony)]|GCA_000247565.1_ASM24756v1_protein
+#=GS MBU2985818.1/6-56    DE [subseq from] flagellar motor protein MotD [Saccharophagus degradans]|GCA_018860445.1_ASM1886044v1_protein
+#=GS ABD81418.1/6-56      DE [subseq from] OmpA/MotB [Saccharophagus degradans 2-40]|GCA_000013665.1_ASM1366v1_protein
+#=GS AMO81195.1/12-67     DE [subseq from] flagellar motor protein MotB [Obesumbacterium proteus]|GCA_001586165.1_ASM158616v1_protein
+#=GS AAZ97204.1/13-66     DE [subseq from] outer membrane chemotaxis MotB protein [Thiobacillus denitrificans ATCC 25259]|GCA_000012745.1_ASM1274v1_protein
+#=GS CAH37321.1/15-66     DE [subseq from] chemotaxis protein MotB [Burkholderia pseudomallei K96243]|GCA_000011545.1_ASM1154v1_protein
+#=GS ABC39131.1/15-66     DE [subseq from] chemotaxis protein MotB [Burkholderia thailandensis E264]|GCA_000012365.1_ASM1236v1_protein
+#=GS CBJ46706.1/13-66     DE [subseq from] chemotaxis protein [Erwinia amylovora ATCC 49946]|GCA_000027205.1_ASM2720v1_protein
+#=GS ABC77077.1/12-64     DE [subseq from] chemotaxis protein [Syntrophus aciditrophicus SB]|GCA_000013405.1_ASM1340v1_protein
+#=GS CNK31023.1/12-65     DE [subseq from] flagellar motor protein MotB [Yersinia frederiksenii]|GCA_001171065.1_4840_6_7_protein
+#=GS EHM44253.1/12-67     DE [subseq from] chemotaxis protein MotB [Hafnia alvei ATCC 51873]|GCA_000239255.1_ASM23925v1_protein
+#=GS ALU34476.1/4-55      DE [subseq from] Motility protein B N-terminal domain-containing protein [Clostridium autoethanogenum DSM 10061]|GCA_001484725.1_ASM148472v1_protein
+#=GS KTS01373.1/11-65     DE [subseq from] hypothetical protein NS375_02975 [Pantoea dispersa]|GCA_001476295.1_ASM147629v1_protein
+#=GS KLR25773.1/11-64     DE [subseq from] chemotaxis protein MotB [Enterobacter bugandensis]|GCA_001023305.1_ASM102330v1_protein
+#=GS ACL95109.1/12-65     DE [subseq from] chemotaxis protein MotB [Caulobacter vibrioides NA1000]|GCA_000022005.1_ASM2200v1_protein
+#=GS ACT13642.1/10-64     DE [subseq from] OmpA/MotB domain protein [Pectobacterium carotovorum subsp. carotovorum PC1]|GCA_000023605.1_ASM2360v1_protein
+#=GS UUH67683.1/4-57      DE [subseq from] flagellar motor protein MotB [Bacillus subtilis subsp. natto]|GCA_024507815.1_ASM2450781v1_protein
+#=GS CBG34881.1/13-66     DE [subseq from] chemotaxis protein MotB (motility protein B) [Escherichia coli 042]|GCA_000027125.1_ASM2712v1_protein
+#=GS AAC74959.1/13-66     DE [subseq from] motility protein B [Escherichia coli str. K-12 substr. MG1655]|GCA_000005845.2_ASM584v2_protein
+#=GS QKY95843.1/13-66     DE [subseq from] flagellar motor protein MotB [Shigella sonnei]|GCA_013374815.1_ASM1337481v1_protein
+#=GS AAP17321.1/13-66     DE [subseq from] chemotaxis protein MotB [Shigella flexneri 2a str. 2457T]|GCA_000007405.1_ASM740v1_protein
+#=GS EGW19848.1/10-64     DE [subseq from] OmpA/MotB domain protein [Methylobacter tundripaludum SV96]|GCA_000190755.3_ASM19075v3_protein
+#=GS ADL01836.1/10-62     DE [subseq from] OmpA/MotB domain protein [Brevundimonas subvibrioides ATCC 15264]|GCA_000144605.1_ASM14460v1_protein
+#=GS KGA96617.1/4-54      DE [subseq from] flagellar motor protein MotS [Alkalihalobacillus alcalophilus ATCC 27647 = CGMCC 1.3604]|GCA_000292245.2_ASM29224v2_protein
+#=GS APC07538.1/8-56      DE [subseq from] motility protein B [Moorella thermoacetica]|GCA_001874605.1_ASM187460v1_protein
+#=GS QOY85399.1/4-56      DE [subseq from] OmpA family protein [Paludibaculum fermentans]|GCA_015277775.1_ASM1527777v1_protein
+#=GS ACN14747.1/23-71     DE [subseq from] MotB1 [Desulforapulum autotrophicum HRM2]|GCA_000020365.1_ASM2036v1_protein
+#=GS AGH79163.1/13-65     DE [subseq from] flagellar motor protein MotB [Xanthomonas axonopodis Xac29-1]|GCA_000348585.1_ASM34858v1_protein
+#=GS CCW35906.1/11-61     DE [subseq from] Flagellar motor protein [Chthonomonas calidirosea T49]|GCA_000427095.1_T49_protein
+#=GS ACV75204.1/22-72     DE [subseq from] OmpA/MotB domain protein [Zymomonas mobilis subsp. mobilis NCIMB 11163]|GCA_000024245.1_ASM2424v1_protein
+#=GS QNQ09342.1/23-72     DE [subseq from] OmpA family protein [Sphingomonas alpina]|GCA_014490665.1_ASM1449066v1_protein
+#=GS ABI75584.1/15-67     DE [subseq from] putative chemotaxis MotB protein [Hyphomonas neptunium ATCC 15444]|GCA_000013025.1_ASM1302v1_protein
+#=GS BCB96095.1/11-62     DE [subseq from] hypothetical protein JZK55_10170 [Dissulfurispira thermophila]|GCA_014701235.1_ASM1470123v1_protein
+#=GS ABE50217.1/4-57      DE [subseq from] OmpA/MotB [Methylobacillus flagellatus KT]|GCA_000013705.1_ASM1370v1_protein
+#=GS ACT48167.1/12-66     DE [subseq from] OmpA/MotB domain protein [Methylotenera mobilis JLW8]|GCA_000023705.1_ASM2370v1_protein
+#=GS ADE83771.1/14-66     DE [subseq from] chemotaxis protein MotB [Rhodobacter capsulatus SB 1003]|GCA_000021865.1_ASM2186v1_protein
+#=GS KOQ92300.1/12-67     DE [subseq from] flagellar motor protein MotB [Pluralibacter gergoviae]|GCA_001276415.1_ASM127641v1_protein
+#=GS ADL42742.1/4-55      DE [subseq from] OmpA/MotB domain protein [Caldicellulosiruptor obsidiansis OB47]|GCA_000145215.1_ASM14521v1_protein
+#=GS AAS94532.1/7-60      DE [subseq from] chemotaxis protein MotB [Desulfovibrio vulgaris str. Hildenborough]|GCA_000195755.1_ASM19575v1_protein
+#=GS BAM06017.1/4-56      DE [subseq from] putative flagellar motor protein [Leptospirillum ferrooxidans C2-3]|GCA_000284315.1_ASM28431v1_protein
+#=GS ABE50206.1/14-65     DE [subseq from] OmpA/MotB [Methylobacillus flagellatus KT]|GCA_000013705.1_ASM1370v1_protein
+#=GS EED69693.1/13-66     DE [subseq from] OmpA/MotB domain protein [Comamonas testosteroni KF-1]|GCA_000168855.1_ASM16885v1_protein
+#=GS KLP57590.1/11-64     DE [subseq from] chemotaxis protein MotB [Enterobacter genomosp. O]|GCA_001022965.1_ASM102296v1_protein
+#=GS WP_041669859.1/14-66 DE [subseq from] flagellar motor protein MotB [Cereibacter sphaeroides]|GCF_000021005.1_ASM2100v1_protein|GCF_000021005.1_ASM2100v1_protein
+#=GS ACV67876.1/3-57      DE [subseq from] OmpA/MotB domain protein [Desulfohalobium retbaense DSM 5692]|GCA_000024325.1_ASM2432v1_protein
+#=GS UPH48257.1/3-55      DE [subseq from] flagellar motor protein MotB [Listeria innocua]|GCA_004636665.2_ASM463666v2_protein
+#=GS ACM02562.1/21-73     DE [subseq from] chemotaxis MotB protein [Cereibacter sphaeroides KD131]|GCA_000021005.1_ASM2100v1_protein
+#=GS BAE51363.1/5-55      DE [subseq from] Flagellar motor protein [Magnetospirillum magneticum AMB-1]|GCA_000009985.1_ASM998v1_protein
+#=GS AAS71881.1/14-64     DE [subseq from] MotB [Leptospira interrogans serovar Copenhageni str. Fiocruz L1-130]|GCA_000007685.1_ASM768v1_protein
+#=GS ACI21439.1/12-63     DE [subseq from] chemotaxis protein MotB [Thermodesulfovibrio yellowstonii DSM 11347]|GCA_000020985.1_ASM2098v1_protein
+#=GS ABS64493.1/13-63     DE [subseq from] OmpA/MotB domain protein [Parvibaculum lavamentivorans DS-1]|GCA_000017565.1_ASM1756v1_protein
+#=GS AAQ59699.1/12-66     DE [subseq from] chemotaxis motB protein [Chromobacterium violaceum ATCC 12472]|GCA_000007705.1_ASM770v1_protein
+#=GS EHJ02743.1/7-55      DE [subseq from] flagellar motor protein MotB [Marinobacter manganoxydans MnI7-9]|GCA_000235625.2_ASM23562v1_protein
+#=GS ADP99773.1/7-55      DE [subseq from] flagellar motor protein MotB [Marinobacter adhaerens HP15]|GCA_000166295.1_ASM16629v1_protein
+#=GS CAG37395.1/9-61      DE [subseq from] related to flagellar motor protein (MotB) [Desulfotalea psychrophila LSv54]|GCA_000025945.1_ASM2594v1_protein
+#=GS AHF75242.1/15-64     DE [subseq from] Chemotaxis protein [Sodalis praecaptivus]|GCA_000517425.1_ASM51742v1_protein
+#=GS UBQ05765.1/15-68     DE [subseq from] flagellar motor protein MotB [Tepidimonas taiwanensis]|GCA_020162115.1_ASM2016211v1_protein
+#=GS CCG93763.1/7-55      DE [subseq from] sodium-driven flagellar motor component [Marinobacter nauticus ATCC 49840]|GCA_000284615.1_ASM28461v1_protein
+#=GS ABM17418.1/7-55      DE [subseq from] OmpA/MotB domain protein [Marinobacter nauticus VT8]|GCA_000015365.1_ASM1536v1_protein
+#=GS AJJ29914.1/13-67     DE [subseq from] motility protein B [Yersinia pestis]|GCA_000834775.1_ASM83477v1_protein
+#=GS EDR32220.1/13-67     DE [subseq from] chemotaxis MotB protein [Yersinia pestis biovar Orientalis str. IP275]|GCA_000168235.2_ASM16823v2_protein
+#=GS AKS90521.1/13-67     DE [subseq from] motility protein B [Yersinia pestis 8787]|GCA_001188755.1_ASM118875v1_protein
+#=GS AJJ55678.1/13-67     DE [subseq from] motility protein B [Yersinia pseudotuberculosis IP 32953]|GCA_000834295.1_ASM83429v1_protein
+#=GS APC08936.1/17-66     DE [subseq from] motility protein B [Moorella thermoacetica]|GCA_001874605.1_ASM187460v1_protein
+#=GS AOU49825.1/36-89     DE [subseq from] flagellar motor protein MotB [Legionella pneumophila]|GCA_001753085.1_ASM175308v1_protein
+#=GS CAJ49281.1/13-65     DE [subseq from] chemotaxis protein [Bordetella avium 197N]|GCA_000070465.1_ASM7046v1_protein
+#=GS CAP63448.1/15-66     DE [subseq from] Chemotaxis protein MotB; Flagellar motor rotation, linking torque machinery to cell wall [Cupriavidus taiwanensis LMG 19424]|GCA_000069785.1_ASM6978v1_protein
+#=GS PHZ60298.1/7-58      DE [subseq from] chemotaxis protein [Photobacterium leiognathi]|GCA_002631085.2_ASM263108v2_protein
+#=GS QAT61615.1/3-52      DE [subseq from] flagellar motor protein MotB [Tissierella sp. JN-28]|GCA_004103715.1_ASM410371v1_protein
+#=GS AIQ92723.1/7-60      DE [subseq from] OmpA/MotB domain-containing protein [Methylobacterium oryzae CBMB20]|GCA_000757795.1_ASM75779v1_protein
+#=GS GAA06066.1/13-64     DE [subseq from] ompA family protein [Photobacterium leiognathi subsp. mandapamensis svers.1.1.]|GCA_000211495.1_ASM21149v1_protein
+#=GS AAZ97197.1/12-65     DE [subseq from] outer membrane chemotaxis MotB protein [Thiobacillus denitrificans ATCC 25259]|GCA_000012745.1_ASM1274v1_protein
+#=GS ATU66303.1/15-68     DE [subseq from] motility protein MotB [Rhizobacter gummiphilus]|GCA_002762215.1_ASM276221v1_protein
+#=GS ABV37929.1/4-57      DE [subseq from] OmpA/MotB domain protein [Shewanella sediminis HAW-EB3]|GCA_000018025.1_ASM1802v1_protein
+#=GS CAC45246.1/20-68     DE [subseq from] Chemotaxis (motility protein B) transmembrane [Sinorhizobium meliloti 1021]|GCA_000006965.1_ASM696v1_protein
+#=GS ABA88420.1/4-56      DE [subseq from] flagellar basal body stator protein MotB [Syntrophotalea carbinolica DSM 2380]|GCA_000012885.1_ASM1288v1_protein
+#=GS APW41584.1/15-67     DE [subseq from] flagellar motor protein MotB [Rhodoferax saidenbachensis]|GCA_001955715.1_ASM195571v1_protein
+#=GS AAK86380.1/19-69     DE [subseq from] flagellar motor protein, PAL/OmpA family [Agrobacterium fabrum str. C58]|GCA_000092025.1_ASM9202v1_protein
+#=GS ADE10783.1/13-66     DE [subseq from] OmpA/MotB domain protein [Sideroxydans lithotrophicus ES-1]|GCA_000025705.1_ASM2570v1_protein
+#=GS WP_035609574.1/12-67 DE [subseq from] flagellar motor protein MotB [Edwardsiella ictaluri ATCC 33202]|GCF_000264785.1_ASM26478v1_protein
+#=GS ACZ19556.1/3-57      DE [subseq from] OmpA/MotB domain protein [Thermanaerovibrio acidaminovorans DSM 6589]|GCA_000024905.1_ASM2490v1_protein
+#=GS ACI20276.1/5-58      DE [subseq from] chemotaxis protein MotB [Thermodesulfovibrio yellowstonii DSM 11347]|GCA_000020985.1_ASM2098v1_protein
+#=GS ABA04499.1/3-56      DE [subseq from] OmpA/MotB [Nitrobacter winogradskyi Nb-255]|GCA_000012725.1_ASM1272v1_protein
+#=GS EKT87314.1/15-64     DE [subseq from] endoflagellar motor protein [Leptospira santarosai serovar Shermani str. LT 821]|GCA_000313175.2_ASM31317v2_protein
+#=GS BAL07815.1/18-64     DE [subseq from] hypothetical protein BJ6T_25370 [Bradyrhizobium japonicum USDA 6]|GCA_000284375.1_ASM28437v1_protein
+#=GS ABI58475.1/14-66     DE [subseq from] OmpA/MotB domain protein [Nitrosomonas eutropha C91]|GCA_000014765.1_ASM1476v1_protein
+#=GS AAD35760.1/5-55      DE [subseq from] motility protein B [Thermotoga maritima MSB8]|GCA_000008545.1_ASM854v1_protein
+#=GS QKS29227.1/14-65     DE [subseq from] MAG: flagellar motor protein MotB [Candidatus Accumulibacter similis]|GCA_013347225.1_ASM1334722v1_protein
+#=GS BAH77463.1/14-65     DE [subseq from] chemotaxis protein MotB [Solidesulfovibrio magneticus RS-1]|GCA_000010665.1_ASM1066v1_protein
+#=GS QFG02533.1/4-57      DE [subseq from] OmpA family protein [Tepidiforma bonchosmolovskayae]|GCA_008838325.1_ASM883832v1_protein
+#=GS BCB96092.1/3-57      DE [subseq from] chemotaxis protein MotB [Dissulfurispira thermophila]|GCA_014701235.1_ASM1470123v1_protein
+#=GS AAG08338.1/14-63     DE [subseq from] chemotaxis protein MotB [Pseudomonas aeruginosa PAO1]|GCA_000006765.1_ASM676v1_protein
+#=GS AOP60446.1/14-63     DE [subseq from] flagellar motor protein MotB [Pseudomonas aeruginosa]|GCA_001729505.1_ASM172950v1_protein
+#=GS AAY35632.1/16-63     DE [subseq from] OmpA/MotB [Pseudomonas syringae pv. syringae B728a]|GCA_000012245.1_ASM1224v1_protein
+#=GS AEI89250.1/18-64     DE [subseq from] flagellar motor protein MotB [Candidatus Midichloria mitochondrii IricVA]|GCA_000219355.1_ASM21935v1_protein
+#=GS AAV82966.1/17-63     DE [subseq from] Flagellar motor protein [Idiomarina loihiensis L2TR]|GCA_000008465.1_ASM846v1_protein
+#=GS EGI75400.1/15-67     DE [subseq from] OmpA/MotB [Hylemonella gracilis ATCC 19624]|GCA_000211835.2_ASM21183v1_protein
+#=GS BAD41955.1/18-66     DE [subseq from] flagellar motor protein MotB [Symbiobacterium thermophilum IAM 14863]|GCA_000009905.1_ASM990v1_protein
+#=GS AFL88474.1/3-55      DE [subseq from] flagellar motor protein [Terriglobus roseus DSM 18391]|GCA_000265425.1_ASM26542v1_protein
+#=GS AFL88815.1/3-55      DE [subseq from] flagellar motor protein [Terriglobus roseus DSM 18391]|GCA_000265425.1_ASM26542v1_protein
+#=GS AEP29248.1/7-56      DE [subseq from] flagellar motor protein MotB [Glaciecola nitratireducens FR1064]|GCA_000226565.1_ASM22656v1_protein
+#=GS ACL70427.1/7-58      DE [subseq from] OmpA/MotB domain protein [Halothermothrix orenii H 168]|GCA_000020485.1_ASM2048v1_protein
+#=GS ACM24085.1/5-54      DE [subseq from] Motility protein B [Thermotoga neapolitana DSM 4359]|GCA_000018945.1_ASM1894v1_protein
+#=GS BAL11316.1/3-56      DE [subseq from] hypothetical protein BJ6T_60620 [Bradyrhizobium japonicum USDA 6]|GCA_000284375.1_ASM28437v1_protein
+#=GS BAC62900.1/10-63     DE [subseq from] chemotaxis LafU protein [Vibrio parahaemolyticus RIMD 2210633]|GCA_000196095.1_ASM19609v1_protein
+#=GS AAU41984.1/8-57      DE [subseq from] Na+-coupled flagellar stator MotS [Bacillus licheniformis DSM 13 = ATCC 14580]|GCA_000008425.1_ASM842v1_protein
+#=GS CDK98315.1/11-63     DE [subseq from] putative Flagellar motor protein [Magnetospirillum gryphiswaldense MSR-1 v2]|GCA_000513295.1_MGMSRv2_protein
+#=GS WP_084978200.1/12-57 DE [subseq from] MotB family protein [Plesiomonas shigelloides LS1]|GCF_002093895.1_ASM209389v1_protein
+#=GS AVQ88447.1/12-57     DE [subseq from] flagellar motor protein MotB [Plesiomonas shigelloides]|GCA_003019855.1_ASM301985v1_protein
+#=GS AEO48361.1/10-60     DE [subseq from] OmpA/MotB [Rhodospirillum rubrum F11]|GCA_000225955.1_ASM22595v1_protein
+#=GS BAC14500.1/5-57      DE [subseq from] motility protein B (flagellar motor rotation) [Oceanobacillus iheyensis HTE831]|GCA_000011245.1_ASM1124v1_protein
+#=GS QEI18927.1/12-64     DE [subseq from] flagellar motor protein MotB [Cellvibrio japonicus]|GCA_008120875.1_ASM812087v1_protein
+#=GS WP_027181326.1/16-67 DE [subseq from] flagellar motor protein MotB [Oleidesulfovibrio alaskensis DSM 16109]|GCF_000482745.1_ASM48274v1_protein
+#=GS MBU2985331.1/10-58   DE [subseq from] flagellar motor protein MotB [Saccharophagus degradans]|GCA_018860445.1_ASM1886044v1_protein
+#=GS ABD82475.1/10-58     DE [subseq from] OmpA/MotB [Saccharophagus degradans 2-40]|GCA_000013665.1_ASM1366v1_protein
+#=GS APC07902.1/6-54      DE [subseq from] motility protein B [Moorella thermoacetica]|GCA_001874605.1_ASM187460v1_protein
+#=GS AHK70060.1/21-66     DE [subseq from] flagellar motor protein MotB [Gluconobacter oxydans DSM 3504]|GCA_000583855.1_ASM58385v1_protein
+#=GS CAG19222.1/9-55      DE [subseq from] putative sodium-driven polar flagellar protein MotB [Photobacterium profundum SS9]|GCA_000196255.1_ASM19625v1_protein
+#=GS BAE51383.1/12-63     DE [subseq from] Flagellar motor protein [Magnetospirillum magneticum AMB-1]|GCA_000009985.1_ASM998v1_protein
+#=GS GAC24034.1/7-56      DE [subseq from] chemotaxis protein MotB [Paraglaciecola mesophila KMM 241]|GCA_000315015.1_ASM31501v1_protein
+#=GS QOY86331.1/15-65     DE [subseq from] OmpA family protein [Paludibaculum fermentans]|GCA_015277775.1_ASM1527777v1_protein
+#=GS QOY88867.1/3-51      DE [subseq from] OmpA family protein [Paludibaculum fermentans]|GCA_015277775.1_ASM1527777v1_protein
+#=GS AAW85210.1/10-56     DE [subseq from] flagellar motor protein MotB1 [Aliivibrio fischeri ES114]|GCA_000011805.1_ASM1180v1_protein
+#=GS AAZ26642.1/6-58      DE [subseq from] putative chemotaxis MotB protein [Colwellia psychrerythraea 34H]|GCA_000012325.1_ASM1232v1_protein
+#=GS CCG96130.1/9-62      DE [subseq from] protein that enables flagellar motor rotation [Marinobacter nauticus ATCC 49840]|GCA_000284615.1_ASM28461v1_protein
+#=GS GAC39797.1/5-56      DE [subseq from] chemotaxis protein MotB [Paraglaciecola psychrophila 170]|GCA_000315075.1_ASM31507v1_protein
+#=GS AFS37990.1/5-57      DE [subseq from] flagellar motor protein MotB [Alteromonas macleodii ATCC 27126]|GCA_000172635.2_ASM17263v2_protein
+#=GS QCG47005.1/3-54      DE [subseq from] flagellar motor protein MotB [Aeromonas schubertii]|GCA_004919485.1_ASM491948v1_protein
+#=GS QTD53837.1/15-62     DE [subseq from] OmpA family protein [Sulfidibacter corallicola]|GCA_017498545.1_ASM1749854v1_protein
+#=GS AAZ27154.1/7-56      DE [subseq from] sodium-driven polar flagellar protein [Colwellia psychrerythraea 34H]|GCA_000012325.1_ASM1232v1_protein
+#=GS ADD67091.1/3-55      DE [subseq from] OmpA/MotB domain protein [Denitrovibrio acetiphilus DSM 12809]|GCA_000025725.1_ASM2572v1_protein
+#=GS EKB18758.1/3-54      DE [subseq from] hypothetical protein HMPREF1168_02532 [Aeromonas veronii AMC34]|GCA_000298015.1_Aero_vero_AMC34_V1_protein
+#=GS ABK38240.1/3-54      DE [subseq from] chemotaxis protein MotB [Aeromonas hydrophila subsp. hydrophila ATCC 7966]|GCA_000014805.1_ASM1480v1_protein
+#=GS ARU39646.1/10-61     DE [subseq from] hypothetical protein CCB80_00190 [Armatimonadetes bacterium Uphvl-Ar1]|GCA_002162075.1_ASM216207v1_protein
+#=GS AAN54590.1/10-54     DE [subseq from] stator-force generator of Na+ coupled flagellar motor PomB [Shewanella oneidensis MR-1]|GCA_000146165.2_ASM14616v2_protein
+#=GS CCQ09344.1/8-57      DE [subseq from] Flagellar motor rotation protein MotB [Pseudoalteromonas luteoviolacea B = ATCC 29581]|GCA_000333235.1_ASM33323v1_protein
+#=GS AAN57255.1/3-53      DE [subseq from] stator-force generator of H+ coupled flagellar motor MotB [Shewanella oneidensis MR-1]|GCA_000146165.2_ASM14616v2_protein
+#=GS AIQ92766.1/4-55      DE [subseq from] OmpA/MotB domain-containing protein [Methylobacterium oryzae CBMB20]|GCA_000757795.1_ASM75779v1_protein
+#=GS QJR36485.1/14-65     DE [subseq from] OmpA family protein [Gemmatimonas groenlandica]|GCA_013004105.1_ASM1300410v1_protein
+#=GS AVQ86534.1/6-60      DE [subseq from] flagellar motor protein MotB [Plesiomonas shigelloides]|GCA_003019855.1_ASM301985v1_protein
+#=GS WP_064977618.1/6-60  DE [subseq from] MotB family protein [Plesiomonas shigelloides LS1]|GCF_002093895.1_ASM209389v1_protein
+#=GS WP_011369263.1/4-57  DE [subseq from] flagellar motor protein MotB [Oleidesulfovibrio alaskensis DSM 16109]|GCF_000482745.1_ASM48274v1_protein
+#=GS UXK07480.1/5-54      DE [subseq from] flagellar motor protein MotB [Shewanella putrefaciens]|GCA_025402875.1_ASM2540287v1_protein
+#=GS ACM92318.1/6-56      DE [subseq from] OmpA/MotB [Nautilia profundicola AmH]|GCA_000021725.1_ASM2172v1_protein
+#=GS BAI86479.1/15-62     DE [subseq from] flagellar motor protein MotS [Bacillus subtilis subsp. natto BEST195]|GCA_000209795.2_ASM20979v2_protein
+#=GS CAB14950.1/15-62     DE [subseq from] sodium channel stator-force generator peptidoglycan binding subunit of flagellar rotation [Bacillus subtilis subsp. subtilis str. 168]|GCA_000009045.1_ASM904v1_protein
+#=GS UUH65170.1/15-62     DE [subseq from] flagellar motor protein MotB [Bacillus subtilis subsp. natto]|GCA_024507815.1_ASM2450781v1_protein
+#=GS ABK44454.1/4-55      DE [subseq from] OmpA/MotB domain protein [Magnetococcus marinus MC-1]|GCA_000014865.1_ASM1486v1_protein
+#=GS ADE39057.1/12-67     DE [subseq from] flagellar MotB protein [Candidatus Puniceispirillum marinum IMCC1322]|GCA_000024465.1_ASM2446v1_protein
+#=GS CAG18504.1/12-65     DE [subseq from] Hypothetical chemotaxis LafU protein [Photobacterium profundum SS9]|GCA_000196255.1_ASM19625v1_protein
+#=GS ABZ96282.1/11-59     DE [subseq from] Putative MotB protein [Leptospira biflexa serovar Patoc strain 'Patoc 1 (Paris)']|GCA_000017685.1_ASM1768v1_protein
+#=GS QBZ83463.1/14-63     DE [subseq from] Motility protein B [Hydrogenovibrio crunogenus]|GCA_004786015.1_ASM478601v1_protein
+#=GS RPH29429.1/15-65     DE [subseq from] putative lateral flagellar export/assembly protein LafU [Buttiauxella warmboldiae]|GCA_003818135.1_ASM381813v1_protein
+#=GS EAP91936.1/12-57     DE [subseq from] flagellar motor protein [Vibrio splendidus 12B01]|GCA_000152765.1_ASM15276v1_protein
+#=GS AAF94055.1/8-57      DE [subseq from] chemotaxis protein PomB [Vibrio cholerae O1 biovar El Tor str. N16961]|GCA_000006745.1_ASM674v1_protein
+#=GS QEO41880.1/8-57      DE [subseq from] flagellar motor protein MotB [Vibrio cholerae]|GCA_008369605.1_ASM836960v1_protein
+#=GS AHZ83416.1/13-60     DE [subseq from] flagellar motor protein MotB [Bdellovibrio bacteriovorus]|GCA_000691605.1_ASM69160v1_protein
+#=GS WP_038448257.1/13-60 DE [subseq from] OmpA family protein [Bdellovibrio bacteriovorus]|GCF_000691605.1_ASM69160v1_protein
+#=GS BAH37337.1/14-65     DE [subseq from] chemotaxis MotB protein [Gemmatimonas aurantiaca T-27]|GCA_000010305.1_ASM1030v1_protein
+#=GS BAS27508.1/6-58      DE [subseq from] flagellar motor protein MotB [Limnochorda pilosa]|GCA_001544015.1_ASM154401v1_protein
+#=GS ABM19853.1/9-62      DE [subseq from] OmpA/MotB domain protein [Marinobacter nauticus VT8]|GCA_000015365.1_ASM1536v1_protein
+#=GS QBZ83558.1/9-50      DE [subseq from] Motility protein B [Hydrogenovibrio crunogenus]|GCA_004786015.1_ASM478601v1_protein
+#=GS ADN09320.1/4-55      DE [subseq from] OmpA/MotB domain protein [Sulfurimonas autotrophica DSM 16294]|GCA_000147355.1_ASM14735v1_protein
+#=GS AAS95120.1/25-71     DE [subseq from] chemotaxis protein PomB [Desulfovibrio vulgaris str. Hildenborough]|GCA_000195755.1_ASM19575v1_protein
+#=GS AAS13282.1/4-53      DE [subseq from] flagellar motor rotation protein B [Treponema denticola ATCC 35405]|GCA_000008185.1_ASM818v1_protein
+#=GS EPE37368.1/10-60     DE [subseq from] ompA [Candidatus Photodesmus katoptron Akat1]|GCA_000478685.1_ASM47868v1_protein
+#=GS QCG47068.1/10-54     DE [subseq from] flagellar motor protein MotB [Aeromonas schubertii]|GCA_004919485.1_ASM491948v1_protein
+#=GS EKB20017.1/3-58      DE [subseq from] hypothetical protein HMPREF1168_01965 [Aeromonas veronii AMC34]|GCA_000298015.1_Aero_vero_AMC34_V1_protein
+#=GS ADP99516.1/8-59      DE [subseq from] flagellar motor protein MotB [Marinobacter adhaerens HP15]|GCA_000166295.1_ASM16629v1_protein
+#=GS EHJ02505.1/7-59      DE [subseq from] OmpA/MotB domain-containing protein [Marinobacter manganoxydans MnI7-9]|GCA_000235625.2_ASM23562v1_protein
+#=GS QCG47682.1/5-60      DE [subseq from] cell envelope biogenesis protein OmpA [Aeromonas schubertii]|GCA_004919485.1_ASM491948v1_protein
+#=GS ABK39834.1/3-58      DE [subseq from] ompA family protein [Aeromonas hydrophila subsp. hydrophila ATCC 7966]|GCA_000014805.1_ASM1480v1_protein
+#=GS BAC58953.1/16-58     DE [subseq from] sodium-driven polar flagellar protein MotB [Vibrio parahaemolyticus RIMD 2210633]|GCA_000196095.1_ASM19609v1_protein
+#=GS ATP10433.1/3-58      DE [subseq from] flagellar motor protein MotB [Aeromonas salmonicida subsp. pectinolytica 34mel]|GCA_002735225.1_ASM273522v1_protein
+#=GS CCG93540.1/12-59     DE [subseq from] stator component of flagellar motor [Marinobacter nauticus ATCC 49840]|GCA_000284615.1_ASM28461v1_protein
+#=GS ABM17157.1/12-59     DE [subseq from] OmpA/MotB domain protein [Marinobacter nauticus VT8]|GCA_000015365.1_ASM1536v1_protein
+#=GS EAS78266.1/16-64     DE [subseq from] chemotaxis LafU protein [Vibrio alginolyticus 12G01]|GCA_000153505.1_ASM15350v1_protein
+#=GS AGI74730.1/15-67     DE [subseq from] putative MotB-like flagellar motor protein (plasmid) [Octadecabacter arcticus 238]|GCA_000155735.2_ASM15573v2_protein
+#=GS BAC93636.1/16-58     DE [subseq from] flagellar motor protein [Vibrio vulnificus YJ016]|GCA_000009745.1_ASM974v1_protein
+#=GS AHF75712.1/10-64     DE [subseq from] Flagellar motor protein [Sodalis praecaptivus]|GCA_000517425.1_ASM51742v1_protein
+#=GS BAD64519.1/4-56      DE [subseq from] motility protein B [Alkalihalobacillus clausii KSM-K16]|GCA_000009825.1_ASM982v1_protein
+#=GS AAS94533.1/13-54     DE [subseq from] OmpA family protein [Desulfovibrio vulgaris str. Hildenborough]|GCA_000195755.1_ASM19575v1_protein
+#=GS QOY85081.1/15-56     DE [subseq from] OmpA family protein [Paludibaculum fermentans]|GCA_015277775.1_ASM1527777v1_protein
+#=GS ACL72406.1/17-65     DE [subseq from] chemotaxis MotB protein [Thioalkalivibrio sulfidiphilus HL-EbGr7]|GCA_000021985.1_ASM2198v1_protein
+#=GS QQS07319.1/16-62     DE [subseq from] flagellar motor protein MotB [Fibrobacteres bacterium]|GCA_016699655.1_ASM1669965v1_protein
+#=GS ALF47868.1/15-57     DE [subseq from] flagellar motor protein [Campylobacter concisus]|GCA_001298465.1_ASM129846v1_protein
+#=GS ABK39376.1/12-54     DE [subseq from] sodium-driven polar flagellar protein [Aeromonas hydrophila subsp. hydrophila ATCC 7966]|GCA_000014805.1_ASM1480v1_protein
+#=GS BAH75057.1/18-64     DE [subseq from] chemotaxis protein MotB [Solidesulfovibrio magneticus RS-1]|GCA_000010665.1_ASM1066v1_protein
+#=GS CCW34550.1/17-67     DE [subseq from] Flagellar motor protein [Chthonomonas calidirosea T49]|GCA_000427095.1_T49_protein
+#=GS EAR29515.1/11-59     DE [subseq from] putative chemotaxis protein [Pseudoalteromonas tunicata D2]|GCA_000153245.1_ASM15324v1_protein
+#=GS ACB73690.1/5-53      DE [subseq from] OmpA/MotB domain protein [Opitutus terrae PB90-1]|GCA_000019965.1_ASM1996v1_protein
+#=GS ACO34085.1/13-61     DE [subseq from] chemotaxis protein MotB [Acidobacterium capsulatum ATCC 51196]|GCA_000022565.1_ASM2256v1_protein
+#=GS AAS97081.1/4-48      DE [subseq from] chemotaxis MotB protein, putative [Desulfovibrio vulgaris str. Hildenborough]|GCA_000195755.1_ASM19575v1_protein
+#=GS KTR97549.1/13-63     DE [subseq from] flagellar motor protein B [Pantoea dispersa]|GCA_001476295.1_ASM147629v1_protein
+#=GS ATP10767.1/7-54      DE [subseq from] flagellar motor protein PomB [Aeromonas salmonicida subsp. pectinolytica 34mel]|GCA_002735225.1_ASM273522v1_protein
+#=GS ACN15952.1/15-55     DE [subseq from] MotB2 [Desulforapulum autotrophicum HRM2]|GCA_000020365.1_ASM2036v1_protein
+#=GS AMO80267.1/16-67     DE [subseq from] flagellar motor protein B [Obesumbacterium proteus]|GCA_001586165.1_ASM158616v1_protein
+#=GS EHM37795.1/17-67     DE [subseq from] OmpA family protein [Hafnia alvei ATCC 51873]|GCA_000239255.1_ASM23925v1_protein
+#=GS ADZ90280.1/16-59     DE [subseq from] OmpA/MotB domain protein [Marinomonas mediterranea MMB-1]|GCA_000192865.1_ASM19286v1_protein
+#=GS AVQ87683.1/13-64     DE [subseq from] hypothetical protein C7R88_10490 [Plesiomonas shigelloides]|GCA_003019855.1_ASM301985v1_protein
+#=GS WP_084977072.1/13-64 DE [subseq from] OmpA family protein [Plesiomonas shigelloides LS1]|GCF_002093895.1_ASM209389v1_protein
+#=GS QOY88834.1/16-62     DE [subseq from] OmpA family protein [Paludibaculum fermentans]|GCA_015277775.1_ASM1527777v1_protein
+#=GS EKB20879.1/10-54     DE [subseq from] hypothetical protein HMPREF1168_01684 [Aeromonas veronii AMC34]|GCA_000298015.1_Aero_vero_AMC34_V1_protein
+#=GS WP_011367498.1/13-62 DE [subseq from] flagellar motor protein MotB [Oleidesulfovibrio alaskensis DSM 16109]|GCF_000482745.1_ASM48274v1_protein
+#=GS EHR39922.1/9-58      DE [subseq from] flagellar motor protein MotB [Alishewanella jeotgali KCTC 22429]|GCA_000245735.2_ASM24573v2_protein
+#=GS EHR42266.1/5-58      DE [subseq from] chemotaxis MotB protein [Alishewanella jeotgali KCTC 22429]|GCA_000245735.2_ASM24573v2_protein
+#=GS SHJ21848.1/6-54      DE [subseq from] chemotaxis protein MotB [Desulfatibacillum alkenivorans DSM 16219]|GCA_900142135.1_IMG-taxon_2585428156_annotated_assembly_protein
+#=GS CAL34487.1/3-55      DE [subseq from] putative flagellar motor protein [Campylobacter jejuni subsp. jejuni NCTC 11168 = ATCC 700819]|GCA_000009085.1_ASM908v1_protein
+#=GS AAC07084.1/4-55      DE [subseq from] flagellar motor protein MotB [Aquifex aeolicus VF5]|GCA_000008625.1_ASM862v1_protein
+#=GS CFQ41305.1/18-67     DE [subseq from] flagellar motor protein [Yersinia bercovieri]|GCA_001319955.1_5139_5_3_protein
+#=GS ABV34662.1/12-64     DE [subseq from] OmpA/MotB [Shewanella sediminis HAW-EB3]|GCA_000018025.1_ASM1802v1_protein
+#=GS QAR32386.1/5-55      DE [subseq from] flagellar motor protein MotB [Geovibrio thiophilus]|GCA_004087915.1_ASM408791v1_protein
+#=GS ABC35029.1/16-65     DE [subseq from] Chemotaxis lafU protein [Burkholderia thailandensis E264]|GCA_000012365.1_ASM1236v1_protein
+#=GS ABA57347.1/12-62     DE [subseq from] OmpA/MotB [Nitrosococcus oceani ATCC 19707]|GCA_000012805.1_ASM1280v1_protein
+#=GS ADZ91788.1/12-64     DE [subseq from] OmpA/MotB domain protein [Marinomonas mediterranea MMB-1]|GCA_000192865.1_ASM19286v1_protein
+#=GS USF23675.1/3-52      DE [subseq from] Motility protein B [Mucispirillum schaedleri ASF457]|GCA_000487995.2_ASM48799v2_protein
+#=GS AJJ32917.1/17-67     DE [subseq from] membrane MotB of proton-channel complex MotA/MotB family protein [Yersinia pestis]|GCA_000834775.1_ASM83477v1_protein
+#=GS AKS90452.1/17-67     DE [subseq from] membrane MotB of proton-channel complex MotA/MotB family protein [Yersinia pestis 8787]|GCA_001188755.1_ASM118875v1_protein
+#=GS EDR31653.1/17-67     DE [subseq from] flagellar motor protein B [Yersinia pestis biovar Orientalis str. IP275]|GCA_000168235.2_ASM16823v2_protein
+#=GS AJJ55251.1/17-67     DE [subseq from] membrane MotB of proton-channel complex MotA/MotB family protein [Yersinia pseudotuberculosis IP 32953]|GCA_000834295.1_ASM83429v1_protein
+#=GS AAC07085.1/4-53      DE [subseq from] flagellar motor protein MotB-like [Aquifex aeolicus VF5]|GCA_000008625.1_ASM862v1_protein
+#=GS AGH96261.1/17-62     DE [subseq from] chemotaxis MotB protein [Pseudobdellovibrio exovorus JSS]|GCA_000348725.1_ASM34872v1_protein
+#=GS WP_015470751.1/17-62 DE [subseq from] flagellar motor protein MotB [Pseudobdellovibrio exovorus]|GCF_000348725.1_ASM34872v1_protein
+#=GS AIQ89827.1/16-63     DE [subseq from] Flagellar motor rotation protein MotB [Methylobacterium oryzae CBMB20]|GCA_000757795.1_ASM75779v1_protein
+#=GS QBZ82351.1/4-53      DE [subseq from] Motility protein B [Hydrogenovibrio crunogenus]|GCA_004786015.1_ASM478601v1_protein
+#=GS GAK41227.1/1-40      DE [subseq from] flagellar motor protein MotB [Paenibacillus sp. TCA20]|GCA_000732325.1_ASM73232v1_protein
+#=GS AHZ83631.1/18-62     DE [subseq from] chemotaxis protein MotB [Bdellovibrio bacteriovorus]|GCA_000691605.1_ASM69160v1_protein
+#=GS WP_011165606.1/18-62 DE [subseq from] chemotaxis protein MotB [Bdellovibrio bacteriovorus]|GCF_000691605.1_ASM69160v1_protein
+#=GS QCG49372.1/11-63     DE [subseq from] LafU [Aeromonas schubertii]|GCA_004919485.1_ASM491948v1_protein
+#=GS AFV42027.1/4-54      DE [subseq from] flagellar motor protein MotB [Helicobacter pylori 26695]|GCA_000307795.1_ASM30779v1_protein
+#=GS CNK28478.1/17-67     DE [subseq from] flagellar motor protein [Yersinia frederiksenii]|GCA_001171065.1_4840_6_7_protein
+#=GS CBG33121.1/19-70     DE [subseq from] lateral flagellar motor protein B (MotB-like) [Escherichia coli 042]|GCA_000027125.1_ASM2712v1_protein
+#=GS AAQ60657.1/20-64     DE [subseq from] chemotaxis lafU protein [Chromobacterium violaceum ATCC 12472]|GCA_000007705.1_ASM770v1_protein
+#=GS POT58638.1/19-70     DE [subseq from] putative lateral flagellar export/assembly protein LafU [Citrobacter amalonaticus]|GCA_002918555.1_ASM291855v1_protein
+#=GS WP_027182583.1/4-43  DE [subseq from] flagellar motor protein MotB [Oleidesulfovibrio alaskensis DSM 16109]|GCF_000482745.1_ASM48274v1_protein
+#=GS ABZ96342.1/4-56      DE [subseq from] Chemotaxis MotB protein [Leptospira biflexa serovar Patoc strain 'Patoc 1 (Paris)']|GCA_000017685.1_ASM1768v1_protein
+#=GS KLP54163.1/16-65     DE [subseq from] flagellar motor protein B [Enterobacter genomosp. O]|GCA_001022965.1_ASM102296v1_protein
+#=GS ADC89567.1/4-55      DE [subseq from] OmpA/MotB domain protein [Thermocrinis albus DSM 14484]|GCA_000025605.1_ASM2560v1_protein
+#=GS AHE95899.1/3-55      DE [subseq from] flagellar motor protein MotB [Thermocrinis ruber]|GCA_000512735.1_ASM51273v1_protein
+#=GS ADB18998.1/9-55      DE [subseq from] OmpA/MotB domain protein [Pirellula staleyi DSM 6068]|GCA_000025185.1_ASM2518v1_protein
+#=GS CAE09443.1/4-57      DE [subseq from] MOTB PROTEIN [Wolinella succinogenes]|GCA_000196135.1_ASM19613v1_protein
+#=GS CDK98227.1/7-54      DE [subseq from] putative flagellar motor apparatus component [Magnetospirillum gryphiswaldense MSR-1 v2]|GCA_000513295.1_MGMSRv2_protein
+#=GS AWG41585.1/5-51      DE [subseq from] Mot family proton (H+) or sodium (Na+) transporter MotB [Treponema pallidum subsp. pertenue]|GCA_003076575.1_ASM307657v1_protein
+#=GS UOY13874.1/5-51      DE [subseq from] flagellar motor protein MotB [Treponema pallidum subsp. pallidum]|GCA_023016405.1_ASM2301640v1_protein
+#=GS SCA58682.1/11-54     DE [subseq from] hypothetical protein AB751O23_AK_00090 [Chlamydiales bacterium SCGC AB-751-O23]|GCA_900093645.1_AB751O23_protein
+#=GS QDU26962.1/14-59     DE [subseq from] flagellar motor protein MotS [Anatilimnocola aggregata]|GCA_007747655.1_ASM774765v1_protein
+#=GS CAD76170.1/10-54     DE [subseq from] probable MotB homolog [Rhodopirellula baltica SH 1]|GCA_000196115.1_ASM19611v1_protein
+#=GS ABC43839.1/7-45      DE [subseq from] probable chemotaxis protein [Salinibacter ruber DSM 13855]|GCA_000013045.1_ASM1304v1_protein
+#=GS ATU65954.1/24-70     DE [subseq from] histidine kinase [Rhizobacter gummiphilus]|GCA_002762215.1_ASM276221v1_protein
+#=GS BAH75113.1/11-58     DE [subseq from] chemotaxis protein MotB [Solidesulfovibrio magneticus RS-1]|GCA_000010665.1_ASM1066v1_protein
+#=GS ADG94139.1/14-56     DE [subseq from] OmpA/MotB domain protein [Arcobacter nitrofigilis DSM 7299]|GCA_000092245.1_ASM9224v1_protein
+#=GS ATX82902.1/4-52      DE [subseq from] chemotaxis protein MotB [Mariprofundus ferrinatatus]|GCA_002795825.1_ASM279582v1_protein
+#=GS CAE11090.1/5-60      DE [subseq from] HYPOTHETICAL PROTEIN-PUTATIVE FLAGELLAR MOTOR PROTEIN [Wolinella succinogenes]|GCA_000196135.1_ASM19613v1_protein
+#=GS ADZ92427.1/20-69     DE [subseq from] OmpA/MotB domain protein [Marinomonas mediterranea MMB-1]|GCA_000192865.1_ASM19286v1_protein
+#=GS ATC63649.1/3-47      DE [subseq from] flagellar motor protein MotB [Nibricoccus aquaticus]|GCA_002310495.1_ASM231049v1_protein
+#=GS BAH74759.1/20-68     DE [subseq from] chemotaxis protein MotB [Solidesulfovibrio magneticus RS-1]|GCA_000010665.1_ASM1066v1_protein
+#=GS QDU25288.1/3-48      DE [subseq from] Motility protein B [Anatilimnocola aggregata]|GCA_007747655.1_ASM774765v1_protein
+#=GS AAW87257.1/12-49     DE [subseq from] flagellar motor protein MotB2 [Aliivibrio fischeri ES114]|GCA_000011805.1_ASM1180v1_protein
+#=GS ADY60069.1/5-61      DE [subseq from] OmpA/MotB domain protein [Rubinisphaera brasiliensis DSM 5305]|GCA_000165715.3_ASM16571v3_protein
+#=GS ATX78567.1/4-52      DE [subseq from] chemotaxis protein MotB [Mariprofundus aestuarium]|GCA_002795805.1_ASM279580v1_protein
+#=GS AOO65114.1/4-53      DE [subseq from] flagellar motor rotation protein MotB [Sulfurospirillum halorespirans DSM 13726]|GCA_001723605.1_ASM172360v1_protein
+#=GS AAS69244.1/10-54     DE [subseq from] sodium translocating Bacterial Flagellar Motor protein [Leptospira interrogans serovar Copenhageni str. Fiocruz L1-130]|GCA_000007685.1_ASM768v1_protein
+#=GS EKT86692.1/10-54     DE [subseq from] flagellar motor protein MotB [Leptospira santarosai serovar Shermani str. LT 821]|GCA_000313175.2_ASM31317v2_protein
+#=GS ADZ91330.1/12-53     DE [subseq from] OmpA/MotB domain protein [Marinomonas mediterranea MMB-1]|GCA_000192865.1_ASM19286v1_protein
+#=GS ABI77549.1/17-62     DE [subseq from] putative chemotaxis protein MotB [Hyphomonas neptunium ATCC 15444]|GCA_000013025.1_ASM1302v1_protein
+#=GS DGBBEKCF_02485/3-47  DE [subseq from] Chemotaxis protein LafU|VER_PRJEB38681.0_CAISZB01_protein
+#=GS PKPEBJJI_00565/3-47  DE [subseq from] Chemotaxis protein LafU|VER_PRJEB3868.0_CAIZXV01_protein
+#=GS ADY58689.1/9-47      DE [subseq from] OmpA/MotB domain protein [Rubinisphaera brasiliensis DSM 5305]|GCA_000165715.3_ASM16571v3_protein
+#=GS QDU97594.1/12-54     DE [subseq from] Motility protein B [Lignipirellula cremea]|GCA_007751035.1_ASM775103v1_protein
+#=GS AGC49896.1/3-43      DE [subseq from] OmpA/MotB domain-containing protein [Lawsonia intracellularis N343]|GCA_000331715.1_ASM33171v1_protein
+#=GS GAA03429.1/1-40      DE [subseq from] ompA family protein [Photobacterium leiognathi subsp. mandapamensis svers.1.1.]|GCA_000211495.1_ASM21149v1_protein
+#=GS EAR29228.1/1-40      DE [subseq from] flagellar motor protein [Pseudoalteromonas tunicata D2]|GCA_000153245.1_ASM15324v1_protein
+#=GS ACM01413.1/24-74     DE [subseq from] OmpA/MotB domain protein [Cereibacter sphaeroides KD131]|GCA_000021005.1_ASM2100v1_protein
+#=GS WP_015920815.1/24-74 DE [subseq from] OmpA family protein [Cereibacter sphaeroides]|GCF_000021005.1_ASM2100v1_protein|GCF_000021005.1_ASM2100v1_protein
+#=GS AAS96701.1/15-59     DE [subseq from] motB protein, putative [Desulfovibrio vulgaris str. Hildenborough]|GCA_000195755.1_ASM19575v1_protein
+#=GS AEO48325.1/11-61     DE [subseq from] OmpA/MotB [Rhodospirillum rubrum F11]|GCA_000225955.1_ASM22595v1_protein
+#=GS AEO49368.1/25-53     DE [subseq from] hypothetical protein F11_14530 [Rhodospirillum rubrum F11]|GCA_000225955.1_ASM22595v1_protein
+#=GS AEM21070.1/14-69     DE [subseq from] putative flagellar motor protein [Brachyspira intermedia PWS/A]|GCA_000223215.1_ASM22321v1_protein
+#=GS EAS76272.1/13-38     DE [subseq from] flagellar motor protein, partial [Vibrio alginolyticus 12G01]|GCA_000153505.1_ASM15350v1_protein
+#=GS CCG57547.1/14-69     DE [subseq from] flagellar motor protein MotB [Brachyspira pilosicoli WesB]|GCA_000319185.1_ASM31918v1_protein
+#=GS ACK74465.1/7-42      DE [subseq from] flagellar motor apparatus [Borreliella burgdorferi ZS7]|GCA_000021405.1_ASM2140v1_protein
+#=GS AGC49900.1/13-58     DE [subseq from] OmpA/MotB domain-containing protein [Lawsonia intracellularis N343]|GCA_000331715.1_ASM33171v1_protein
+#=GS QAT63224.1/15-48     DE [subseq from] hypothetical protein EQM13_17475 [Tissierella sp. JN-28]|GCA_004103715.1_ASM410371v1_protein
+#=GS BAH74234.1/2-37      DE [subseq from] chemotaxis protein MotB [Solidesulfovibrio magneticus RS-1]|GCA_000010665.1_ASM1066v1_protein
+#=GS EEQ12176.1/1-33      DE [subseq from] hypothetical protein ymoll0001_14990 [Yersinia mollaretii ATCC 43969]|GCA_000167995.1_ASM16799v1_protein
+#=GS EEQ10988.1/1-32      DE [subseq from] Flagellar motor protein [Yersinia mollaretii ATCC 43969]|GCA_000167995.1_ASM16799v1_protein
+#=GS QBZ82339.1/9-45      DE [subseq from] Motility protein B [Hydrogenovibrio crunogenus]|GCA_004786015.1_ASM478601v1_protein
+#=GS EHM44109.1/13-46     DE [subseq from] hypothetical protein HMPREF0454_01628 [Hafnia alvei ATCC 51873]|GCA_000239255.1_ASM23925v1_protein
+#=GS ATX78593.1/36-64     DE [subseq from] chemotaxis protein MotB [Mariprofundus aestuarium]|GCA_002795805.1_ASM279580v1_protein
+#=GS ATX82929.1/36-64     DE [subseq from] chemotaxis protein MotB [Mariprofundus ferrinatatus]|GCA_002795825.1_ASM279582v1_protein
+#=GS AMO80629.1/14-45     DE [subseq from] hypothetical protein DSM2777_05965 [Obesumbacterium proteus]|GCA_001586165.1_ASM158616v1_protein
+#=GS GHD92254.1/2-36      DE [subseq from] hypothetical protein GCM10011445_14800 [Pseudocitrobacter faecalis]|GCA_014653055.1_ASM1465305v1_protein
+#=GS UBQ06689.1/68-98     DE [subseq from] OmpA family protein [Tepidimonas taiwanensis]|GCA_020162115.1_ASM2016211v1_protein
+#=GS ACL73102.1/26-57     DE [subseq from] OmpA/MotB domain-containing protein [Thioalkalivibrio sulfidiphilus HL-EbGr7]|GCA_000021985.1_ASM2198v1_protein
+#=GS ATO49113.1/11-47     DE [subseq from] chemotaxis protein [Brevibacillus laterosporus DSM 25]|GCA_002706795.1_ASM270679v1_protein
+#=GS ABK43517.1/16-51     DE [subseq from] OmpA/MotB domain protein [Magnetococcus marinus MC-1]|GCA_000014865.1_ASM1486v1_protein
+#=GS ACN16727.1/49-73     DE [subseq from] MotB3 [Desulforapulum autotrophicum HRM2]|GCA_000020365.1_ASM2036v1_protein
+#=GS CAQ68801.1/14-42     DE [subseq from] conserved hypothetical protein; putative outer membrane protein, OmpA motif [Cupriavidus taiwanensis LMG 19424]|GCA_000069785.1_ASM6978v1_protein
+#=GS ALA59738.1/15-41     DE [subseq from] OmpA/MotB domain protein [Nitrospira moscoviensis]|GCA_001273775.1_ASM127377v1_protein
+#=GS ATX82901.1/4-56      DE [subseq from] chemotaxis protein MotB [Mariprofundus ferrinatatus]|GCA_002795825.1_ASM279582v1_protein
+#=GS ACV75190.1/6-44      DE [subseq from] hypothetical protein Za10_0642 [Zymomonas mobilis subsp. mobilis NCIMB 11163]|GCA_000024245.1_ASM2424v1_protein
+#=GS ATX78566.1/11-57     DE [subseq from] Flagellar motor protein MotB [Mariprofundus aestuarium]|GCA_002795805.1_ASM279580v1_protein
+#=GS BAI84978.2/2-27      DE [subseq from] flagellar motor protein MotB [Bacillus subtilis subsp. natto BEST195]|GCA_000209795.2_ASM20979v2_protein
+#=GS SHJ21804.1/27-58     DE [subseq from] chemotaxis protein MotB [Desulfatibacillum alkenivorans DSM 16219]|GCA_900142135.1_IMG-taxon_2585428156_annotated_assembly_protein
+#=GS AEO49370.1/25-57     DE [subseq from] hypothetical protein F11_14540 [Rhodospirillum rubrum F11]|GCA_000225955.1_ASM22595v1_protein
+#=GS QNQ09332.1/12-45     DE [subseq from] flagellar motor protein MotB [Sphingomonas alpina]|GCA_014490665.1_ASM1449066v1_protein
+
+ACL22207.1/4-56              -KRIE---EPEKDNSER.WLLTYSDLITLLMIFFVVMYSM..SKVDA.E.KFQSIAESLSVA-
+#=GR ACL22207.1/4-56      PP .3333...4678899**.**********************..*****.*.*********977.
+ALU36625.1/2-56              -KKKNK-KPDEGPSAER.WMLSYADFMTLLMIFFVVMYAM..SQVDQ.T.KYNKLSQSLSIA-
+#=GR ALU36625.1/2-56      PP .33444.46688899**.**********************..*****.*.*********876.
+ALA58548.1/3-55              -KKKHE----EHENHER.WLVSYADFITLLFAFFVVMYSV..SAVNE.G.KFRTVSESIKAAL
+#=GR ALA58548.1/3-55      PP .44444....344889*.**********************..*****.*.*********9875
+AAQ59488.1/5-58              -RRKQE---EEHENHER.WLVSYADFITLLFAFFVVMYAI..SSLNE.G.KYRVMSSAIMDAF
+#=GR AAQ59488.1/5-58      PP .33333...3456889*.**********************..*****.*.**********998
+AAU40424.1/3-59              RK-KKHKKDHEEHVDES.WLIPYADLLTLLLALFIVLFAM..SSIDA.K.KFDMLSKSFNAVF
+#=GR AAU40424.1/3-59      PP 44.445577899999**.**********************..*****.*.*********9876
+AGH77404.1/4-57              -RRK---HHEEHGNHEA.WAIPYADLMTLLLAFFVVMYAI..SSLNE.G.KYKVMAQALTSAF
+#=GR AGH77404.1/4-57      PP .333...34567899**.**********************..*****.*.**********998
+GAK43334.1/3-59              -KTKKRHEEHEEHVDES.WLLPYSDLMTLLLALFITLFSM..SSIDA.Q.KFEQMASALSSAL
+#=GR GAK43334.1/3-59      PP .6666667889999999.**********************..*****.*.*********9986
+AAG04850.1/4-57              -R-RRH--QEEHENHER.WLVSYADFITLLFAFFVVMYSI..SSINE.G.KYKILSETLTGVF
+#=GR AAG04850.1/4-57      PP .3.333..34456889*.**********************..*****.*.*******998765
+AOP58988.1/4-57              -R-RRH--QEEHENHER.WLVSYADFITLLFAFFVVMYSI..SSINE.G.KYKILSETLTGVF
+#=GR AOP58988.1/4-57      PP .3.333..34456889*.**********************..*****.*.*******998765
+QKS28545.1/4-56              -R-RH---EEEHDNHER.WLVSYADFITLLFAFFVVMYAL..SSVNE.G.KYRILSNSMVVAF
+#=GR QKS28545.1/4-56      PP .3.33...34556999*.**********************..*****.*.*********8877
+BAB06958.1/2-53              -KRRKRQPE---KGAPR.WMVTFSDLMTLILVFFILLFSM..SVVDA.Q.KFRAIAESFQQ--
+#=GR BAB06958.1/2-53      PP .34444333...34478.**********************..*****.*.*********98..
+CFQ30491.1/12-67             -K-KRKAKHGGGHHGGS.WKIAYADFMTAMMAFFLVMWLL..SVSSP.Q.QLTQIADYFRTPL
+#=GR CFQ30491.1/12-67     PP .3.44445679999999.**********************..*****.*.**********985
+EGW21350.1/4-58              ---RRKRPIADTNNHDR.WMVSYADFITLLFAFFVVMYSI..SSVNE.G.KYKTLSDSLGEAF
+#=GR EGW21350.1/4-58      PP ...333456788899**.**********************..*****.*.*********9998
+RYJ17831.1/13-67             -K--KKNKHGGGHHGGS.WKIAYADFMTAMMAFFLVMWLI..SISSP.K.ELVQIAEYFRTPL
+#=GR RYJ17831.1/13-67     PP .3..3334678999999.**********************..*****.*.**********985
+ACH40743.1/4-57              ---KQKGH-EKEPNHER.WLVSYADFITLLFAVFVTLYAM..SQTDK.K.KAEEVLQSMRESF
+#=GR ACH40743.1/4-57      PP ...34434.567899**.**********************..*****.*.**********998
+BAD76816.1/3-57              -K--KKKNKHDDHMSEA.WLIPYADLLTLLLALFIVLFAS..SQIDQ.K.KFQEIARAFSTAF
+#=GR BAD76816.1/3-57      PP .3..33346789999**.**********************..*****.*.**********998
+RYJ18906.1/13-65             -KRKK---HKHGHHGGS.WKIAYADFMTAMMAFFLVMWLL..SSSTP.L.QREQIADYFKMP-
+#=GR RYJ18906.1/13-65     PP .4444...356889999.**********************..*****.*.*********987.
+KGT89686.1/12-65             -RRKKH---KHAHHGGT.WKIAYADFITAMMAFFLVMWLL..SQSTA.Q.QREMIADYFRTPL
+#=GR KGT89686.1/12-65     PP .44443...46789999.**********************..*****.*.**********985
+CCJ73889.1/12-67             KKRKH--KGHGGGSHGS.WKIAYADFMTAMMAFFLVMWLI..SISSP.K.ELTQIAEYFRTPL
+#=GR CCJ73889.1/12-67     PP 34444..57889999**.**********************..*****.*.**********985
+RPH29222.1/13-65             -KRKKH---KHAHHGGS.WKIAYADFMTAMMAFFLVMWLL..STSSP.L.QREQIADYFKMP-
+#=GR RPH29222.1/13-65     PP .44443...56789999.**********************..*****.*.*********987.
+EGO64296.1/3-58              -R-KKHVEPHEEHADES.WLIPYADIMTLLLALFIVLYSS..SQIDQ.K.KLDAISQSLGMAF
+#=GR EGO64296.1/3-58      PP .3.3444578999****.**********************..*****.*.*********9887
+KGA70726.1/12-67             -K-KRKAKHGQAHHGGS.WKIAYADFMTAMMAFFLVMWLL..SVSSP.Q.ELTQIAEYFRTPL
+#=GR KGA70726.1/12-67     PP .3.34445678999***.**********************..*****.*.**********985
+ADC48829.1/3-53              --RRRRQQE--KG-APK.WMVTFSDMMTLILVFFILLFSM..SVVDA.Q.KFRAISESFQQ--
+#=GR ADC48829.1/3-53      PP ..3444333..23.345.**********************..*****.*.*********98..
+AAY38463.1/4-55              -RRQVE----EHENHER.WLVSYADFITLLFAFFVVMYSI..SSVNE.G.KYKILSQALVGV-
+#=GR AAY38463.1/4-55      PP .44443....445899*.**********************..*****.*.*******99765.
+AJH78804.1/4-58              -KRKK--RQEEEGNSEA.WLLPYSDLLTLLLALFIVLFAM..SSIDA.Q.KFQKFSKVLNGVF
+#=GR AJH78804.1/4-58      PP .3333..4567899***.**********************..*****.*.*******999866
+KTS00803.1/13-66             -RRKHK---KHEGSHGS.WKIAYADFMTAMMAFFMVMWLI..SIANP.Q.ELVQIAEYFKTPL
+#=GR KTS00803.1/13-66     PP .44444...55678899.**********************..*****.*.**********985
+CNJ97168.1/12-67             -K-KRKAKHGAAHHGGS.WKIAYADFMTAMMAFFLVMWLL..SVSSP.Q.ELTQIAEYFRTPL
+#=GR CNJ97168.1/12-67     PP .3.444456789999**.**********************..*****.*.**********985
+OWF82397.1/12-67             -K-KRKAKHGAAHHGGS.WKIAYADFMTAMMAFFLVMWLL..SVSSP.Q.ELTQIAEYFRTPL
+#=GR OWF82397.1/12-67     PP .3.444456789999**.**********************..*****.*.**********985
+CFQ36261.1/13-66             -KRKRH---KAEHHGGS.WKIAYADFMTAMMAFFLVMWLL..SSSTP.L.QREQIADYFKTPL
+#=GR CFQ36261.1/13-66     PP .44443...46789999.**********************..*****.*.**********985
+RPH29935.1/13-66             -RRK---HKGHGGAHGS.WKIAYADFMTAMMAFFLVMWLI..SISSP.K.ELAQIADYFRTPL
+#=GR RPH29935.1/13-66     PP .333...45788999**.**********************..*****.*.**********985
+POT59379.1/13-67             -RRKHK--GHKGGAHGS.WKIAYADFMTAMMAFFLVMWLI..SISSP.K.ELIQIAEYFRTPL
+#=GR POT59379.1/13-67     PP .44554..788999***.**********************..*****.*.**********985
+KOR05142.1/13-65             -KRKS---HKHGHHGGS.WKIAYADFMTAMMAFFLVMWLL..STSTP.L.QREQIADYFKMP-
+#=GR KOR05142.1/13-65     PP .3333...357899999.**********************..*****.*.*********987.
+POT54756.1/13-64             ---GKK--HKHAHHGGS.WKIAYADFMTAMMAFFLVMWLL..ATSTP.T.QRQQIAEYFRMP-
+#=GR POT54756.1/13-64     PP ...232..45789999*.**********************..*****.*.*********987.
+CAB13241.1/3-58              RKKKKK--HEDEHVDES.WLVPYADILTLLLALFIVLYAS..SSIDA.A.KFQMLSKSFNEVF
+#=GR CAB13241.1/3-58      PP 343333..457889999.**********************..*****.*.**********976
+ORN02589.1/11-64             ---KKK-GHGGGHHGGS.WKIAYADFMTAMMAFFLVMWLL..STSTP.L.QREQIAEYFKTPL
+#=GR ORN02589.1/11-64     PP ...333.3468899999.**********************..*****.*.**********985
+AGG30805.1/12-67             --KKRGGHGHGGGHGGS.WKIAYADFMTAMMAFFLVMWLI..SISSP.Q.ELTQIAEYFRTPL
+#=GR AGG30805.1/12-67     PP ..5677799********.**********************..*****.*.**********985
+KIU35410.1/12-67             KKRKH--KGHGGGSHGS.WKIAYADFMTAMMAFFLVMWLI..SIASP.K.ELVQIADYFRTPL
+#=GR KIU35410.1/12-67     PP 34444..57889999**.**********************..*****.*.**********985
+ACT48179.1/7-59              -KRVE----EDQENHER.WLVSYADFITLLFAFFVVMYSI..SSVEI.G.KYKQLTNSIGTAF
+#=GR ACT48179.1/7-59      PP .3333....3456899*.**********************..*****.*.********99987
+ORN01922.1/12-66             KKRKH---KGHEGGHGS.WKIAYADFMTAMMAFFMVMWLI..SISSP.Q.ELVQIAEYFKTPL
+#=GR ORN01922.1/12-66     PP 34444...455566799.**********************..*****.*.**********985
+ATO49968.1/3-55              -KRKK---KHEEHIDET.WLIPYSDLLTLLLALFIVLFAA..SSVDA.K.KFSQMAASFNVA-
+#=GR ATO49968.1/3-55      PP .3344...467889999.**********************..*****.*.*********987.
+KGT90536.1/13-66             -RKKH---KRHEGGHGS.WKIAYADFMTAMMAFFMVMWLL..SISNP.Q.ELVQIADYFKTPL
+#=GR KGT90536.1/13-66     PP .3333...345566799.**********************..*****.*.**********985
+ACL65906.1/3-55              RRRREEE----HENHER.WLVSYADFMTLLFAFFVVMYAV..SRVDN.K.RIVQATESIRWA-
+#=GR ACL65906.1/3-55      PP 3444443....34889*.**********************..*****.*.********9866.
+AAO68628.1/13-67             -RRRHK--PHGGGAHGS.WKIAYADFMTAMMAFFLVMWLI..SISSP.K.ELIQIAEYFRTPL
+#=GR AAO68628.1/13-67     PP .44454..6789999**.**********************..*****.*.**********985
+AAL20838.1/13-67             -RRRHK--PHGGGAHGS.WKIAYADFMTAMMAFFLVMWLI..SISSP.K.ELIQIAEYFRTPL
+#=GR AAL20838.1/13-67     PP .44454..6789999**.**********************..*****.*.**********985
+TCZ23881.1/13-66             -KRK---HKGHEGSHGS.WKIAYADFMTAMMAFFMVMWLL..SIANP.Q.ELVQIADYFKTPL
+#=GR TCZ23881.1/13-66     PP .333...456778899*.**********************..*****.*.**********985
+AAR36420.1/5-56              -----KK-HEKEPNHER.WLVSYADFITLLFAVFVTLYAM..GQSDK.E.KIEQVMQSMRESF
+#=GR AAR36420.1/5-56      PP .....22.3466799**.**********************..*****.*.**********998
+AOU49317.1/4-57              --KQKKTEEHQDSH--R.WVVSYADFITLLFAFFVVMYAI..SSVNV.S.KYKSLSEGMKSAF
+#=GR AOU49317.1/4-57      PP ..555555666666..9.**********************..*****.*.**********998
+ADE10801.1/6-56              ----K---RAEHDNHER.WMVSYADFITLLFAFFVVMYGI..SSVNE.G.KYKVFSVSVNQAF
+#=GR ADE10801.1/6-56      PP ....2...34556999*.**********************..*****.*.***********98
+ACO31774.1/3-55              -RKRHE----SHPNHER.WLVSYADFITLLFAFFVVLYAS..SKADL.R.KQQQFAQSIHSAF
+#=GR ACO31774.1/3-55      PP .44444....345899*.**********************..*****.*.*********9998
+BAC14180.1/7-56              ------RHQSKKG-APK.WMVTYSDMITLILVFFILLFSM..SQIDQ.T.KFDQVTESFQNR-
+#=GR BAC14180.1/7-56      PP ......2443444.456.**********************..*****.*.**********86.
+GHD90463.1/13-67             ---RRKAKSHGGGAHGS.WKIAYADFMTAMMAFFLVMWLI..SISSP.K.ELIQIAEYFRTPL
+#=GR GHD90463.1/13-67     PP ...34455788999***.**********************..*****.*.**********985
+TCZ24252.1/11-64             RKRGRK---KHAHHGGT.WKIAYADFMTAMMAFFLVMWLL..SQSSE.M.DKQQIAGYFSAP-
+#=GR TCZ24252.1/11-64     PP 444444...56789999.**********************..*****.*.*********987.
+ADP98059.1/3-57              ---RRRQPQDDLHNKER.WLISYADFITLLFAFFVVMYSV..SSVNE.G.KYKVLSETLTGVF
+#=GR ADP98059.1/3-57      PP ...4556778899****.**********************..*****.*.*******998765
+EHJ04495.1/3-57              ---RRRQPQDDLHNKER.WLISYADFITLLFAFFVVMYSV..SSVNE.G.KYKVLSETLTGVF
+#=GR EHJ04495.1/3-57      PP ...4556778899****.**********************..*****.*.*******998765
+ABY95375.1/5-56              ------EEDESKPNHDR.WVLTYSDMMSLLLVFFIVLYSI..STVNA.T.KFAQIASSLSKTF
+#=GR ABY95375.1/5-56      PP ......456788999**.**********************..*****.*.*********9987
+ABM19050.1/3-57              ---RRRPPQDDLHNKER.WLISYADFITLLFAFFVVMYSV..SSVNE.G.KYKVLSETFTGVF
+#=GR ABM19050.1/3-57      PP ...4455678899****.**********************..*****.*.*********9766
+CCG94813.1/3-57              ---RRRPPQDDLHNKER.WLISYADFITLLFAFFVVMYSV..SSVNE.G.KYKVLSETFTGVF
+#=GR CCG94813.1/3-57      PP ...4455678899****.**********************..*****.*.*********9766
+QEI19743.1/4-56              -RRREDIH----VNHER.WLVSYADFITLLFAFFVVMYSI..SQVSE.S.KYRVLSQTFVQAF
+#=GR QEI19743.1/4-56      PP .4444433....3889*.**********************..*****.*.**********998
+ACL72429.1/4-58              --RSRK-HHEEHVNHEA.WAIPYGDLITLLLAFFVVMYAI..SSVNE.G.KYRVLSDSLVAAF
+#=GR ACL72429.1/4-58      PP ..3444.44566689**.**********************..*****.*.*********9987
+PAN74107.1/12-67             KKRKHK--GGGHGAHGS.WKIAYADFMTAMMAFFLVMWLI..SISSP.K.ELIQIAEYFRTPL
+#=GR PAN74107.1/12-67     PP 344444..66788899*.**********************..*****.*.**********985
+KLP57511.1/12-67             KKRKHK--GGGHGAHGS.WKIAYADFMTAMMAFFLVMWLI..SISSP.K.ELIQIAEYFRTPL
+#=GR KLP57511.1/12-67     PP 344444..66788899*.**********************..*****.*.**********985
+QQS05760.1/12-65             RKKKK---HDHPHHGGA.WKVAFADFMTSMFALFLVLWII..SSTSA.S.QKEAVAQYFRNP-
+#=GR QQS05760.1/12-65     PP 34333...356789999.**********************..*****.*.*********986.
+AHZ85792.1/3-54              -K-KHRKHE-EHENHER.WLVSYADFITLLFAFFVVMYAT..STSNE.E.KQKEFEDSVK---
+#=GR AHZ85792.1/3-54      PP .3.344444.556889*.**********************..*****.*.****999876...
+WP_011162757.1/3-54          -K-KHRKHE-EHENHER.WLVSYADFITLLFAFFVVMYAT..STSNE.E.KQKEFEDSVK---
+#=GR WP_011162757.1/3-54  PP .3.344444.556889*.**********************..*****.*.****999876...
+ARU98271.1/13-66             ---KGKSS-EHHGSHGS.WKIAYADFMTAMMAFFMVMWLV..SVSTP.K.ELQQIAEYFKTPL
+#=GR ARU98271.1/13-66     PP ...33333.45567799.**********************..*****.*.**********985
+TCV95527.1/12-64             --KRK--SPKTAHHGGT.WKIAYADFMTAMMAFFLVMWLL..SSSSP.E.ERKQVADYFKMP-
+#=GR TCV95527.1/12-64     PP ..333..356899999*.**********************..*****.*.*********987.
+CBJ47213.1/11-64             ---RKRKHKKHAHHGGT.WKIAYADFMTAMMAFFLVMWLL..ASSSD.M.QREMIADYFRMP-
+#=GR CBJ47213.1/11-64     PP ...44446678899999.**********************..*****.*.*********976.
+QXB11671.1/12-65             -KRKS---HQPAHHGGS.WKIAYADFMTAMMAFFLVMWLL..AIASP.Q.ELTQIAEYFRTPL
+#=GR QXB11671.1/12-65     PP .4333...467899999.**********************..*****.*.**********985
+KLR25636.1/12-67             KKRKHK--GGGHGSHGS.WKIAYADFMTAMMAFFLVMWLI..SISSP.K.ELIQIAEYFRTPL
+#=GR KLR25636.1/12-67     PP 344444..66777889*.**********************..*****.*.**********985
+KGT93170.1/13-66             -KRKH---KGHHGSHGS.WKIAYADFMTAMMAFFMVMWLL..SISSP.K.ELIQIAEYFRTPL
+#=GR KGT93170.1/13-66     PP .4444...456677899.**********************..*****.*.**********985
+AAO36202.1/11-63             -RKR---GKGEGVNGEG.WLQTYADTVTLLLTFFVLLYSF..SSVDA.Q.KFKQISTAFQSV-
+#=GR AAO36202.1/11-63     PP .333...3456778888.**********************..*****.*.*********985.
+AFA40897.1/16-65             -------AQNSSHHGGS.WKIAYADFMTAMMAFFLVMWLL..STSTP.Q.QREQIADYFRMP-
+#=GR AFA40897.1/16-65     PP .......345688999*.**********************..*****.*.*********976.
+MBU2985818.1/6-56            -------PIETKINHER.WLVSYADFITLLFAFFVVMYSV..SQVNE.T.KYRTLSETLGNAF
+#=GR MBU2985818.1/6-56    PP .......45667899**.**********************..*****.*.*********9998
+ABD81418.1/6-56              -------PIETKINHER.WLVSYADFITLLFAFFVVMYSV..SQVNE.T.KYRTLSETLGNAF
+#=GR ABD81418.1/6-56      PP .......45667899**.**********************..*****.*.*********9998
+AMO81195.1/12-67             -KK-RKSSHKGGHHGGS.WKIAYADFMTAMMAFFLVMWLL..AIASP.Q.ELTKIAEYFRTPL
+#=GR AMO81195.1/12-67     PP .33.3444568999999.**********************..*****.*.**********985
+AAZ97204.1/13-66             --RRRI--DSDHENHDR.WLVSYADFITLLFAFFVVMYAV..SAVNE.G.KYRVLANALGGAF
+#=GR AAZ97204.1/13-66     PP ..3333..34566889*.**********************..*****.*.********99887
+CAH37321.1/15-66             ----N--QQKKGHHGGA.WKLAYADFMTAMMAFFLLMWLL..SAVTP.V.QLKGIAEYFNTPL
+#=GR CAH37321.1/15-66     PP ....3..356799999*.**********************..*****.*.**********985
+ABC39131.1/15-66             ----N--QQKKGHHGGA.WKLAYADFMTAMMAFFLLMWLL..SAVTP.V.QLKGIAEYFNTPL
+#=GR ABC39131.1/15-66     PP ....3..356799999*.**********************..*****.*.**********985
+CBJ46706.1/13-66             --R-KKSH-KHVGSHGS.WKIAYADFMTAMMAFFLVMWLI..SISSP.Q.QLVQIADYFKTPL
+#=GR CBJ46706.1/13-66     PP ..2.3333.4677889*.**********************..*****.*.**********985
+ABC77077.1/12-64             --KVKK-RHHDGHHGGS.WKVAYADFVTAMMAFFLLLWLI..TMVSP.E.KRSAVAEYFKT--
+#=GR ABC77077.1/12-64     PP ..3444.568999****.**********************..*****.*.*********85..
+CNK31023.1/12-65             RKRKRA---KHSHHGGT.WKIAYADFMTAMMAFFLVMWLL..SSSTP.L.QREQIADYFKMP-
+#=GR CNK31023.1/12-65     PP 566665...45678899.**********************..*****.*.*********987.
+EHM44253.1/12-67             --KKRKPSKKGGHHGGS.WKIAYADFMTAMMAFFLVMWLL..AIASP.Q.ELTKIAEYFRTPL
+#=GR EHM44253.1/12-67     PP ..3455567889999**.**********************..*****.*.**********985
+ALU34476.1/4-55              -----KRQHHEEHVDET.WLIPYADMLTLLLALFIVMFAI..SKVDQ.E.KLAKISQQFNVI-
+#=GR ALU34476.1/4-55      PP .....223577889999.**********************..*****.*.*********965.
+KTS01373.1/11-65             RKRKP---KKHAHHGGS.WKIAYADFMTVVMAFFMVMWLL..STATP.E.QRQGIADYFKTPL
+#=GR KTS01373.1/11-65     PP 34444...456789999.**********************..*****.*.**********985
+KLR25773.1/11-64             RKRKKK---KHAHHGGT.WKIAYADFMTAMMAFFLVMWLL..SQSTD.M.ERELIADYFRMP-
+#=GR KLR25773.1/11-64     PP 455555...45688999.**********************..*****.*.*********987.
+ACL95109.1/12-65             -KKVK-KGGGHGHHGGA.WKVAYADFVTAMMAFFLLMWLL..NTTSP.E.QKQGIADYFAP--
+#=GR ACL95109.1/12-65     PP .4444.5678999****.**********************..*****.*.*********86..
+ACT13642.1/10-64             -K--KRKSGHGGHHGGS.WKIAYADFMTAMMALFLVMWLI..AISTP.M.QLAQIAEYFRTPL
+#=GR ACT13642.1/10-64     PP .3..33457899*****.**********************..*****.*.**********985
+UUH67683.1/4-57              -KKKK---HEDEQVDES.WLVPYADILTLLLALFIVLYAS..SSIDA.A.KFQMLSKSFNEVF
+#=GR UUH67683.1/4-57      PP .3333...345668899.**********************..*****.*.**********976
+CBG34881.1/13-66             -RRKA---KSHGAAHGS.WKIAYADFMTAMMAFFLVMWLI..SISSP.K.ELIQIAEYFRTPL
+#=GR CBG34881.1/13-66     PP .3333...46778899*.**********************..*****.*.**********985
+AAC74959.1/13-66             -RRKA---KSHGAAHGS.WKIAYADFMTAMMAFFLVMWLI..SISSP.K.ELIQIAEYFRTPL
+#=GR AAC74959.1/13-66     PP .3333...46778899*.**********************..*****.*.**********985
+QKY95843.1/13-66             -RRKA---KSHGAAHGS.WKIAYADFMTAMMAFFLVMWLI..SISSP.K.ELIQIAEYFRTPL
+#=GR QKY95843.1/13-66     PP .3333...46778899*.**********************..*****.*.**********985
+AAP17321.1/13-66             -RRKA---KSHGAAHGS.WKIAYADFMTAMMAFFLVMWLI..SISSP.K.ELIQIAEYFRTPL
+#=GR AAP17321.1/13-66     PP .3333...46778899*.**********************..*****.*.**********985
+EGW19848.1/10-64             -KKVK--KGGHAHHGGA.WKLAYADFVTAMMAFFLLMWLL..GTTSE.P.ERKGIAEYFQDPF
+#=GR EGW19848.1/10-64     PP .4444..478899****.**********************..*****.*.***********98
+ADL01836.1/10-62             --KVK-KVVGGGHHGGA.WKVAYADFVTAMMAFFLLMWLI..NTTDP.E.QKRGIAEYFAP--
+#=GR ADL01836.1/10-62     PP ..333.4567899999*.**********************..*****.*.*********86..
+KGA96617.1/4-54              -RRKQV---PEKG-APK.WMVTFSDLMTLILVFFVMLFSM..SEIDN.Q.RFRAMADSFNQ--
+#=GR KGA96617.1/4-54      PP .33333...2333.356.**********************..*****.*.*********97..
+APC07538.1/8-56              --------HASKDNHER.WLLTYSDLITLLMIFFVVMYAI..SDTNA.Q.KMAALANSLAQT-
+#=GR APC07538.1/8-56      PP ........4567899**.**********************..*****.*.*********986.
+QOY85399.1/4-56              -K--RK--AGDHPNHER.WLVSYADFMTLLFAFFVMMYAN..SQTNK.E.KATLISHAFREAM
+#=GR QOY85399.1/4-56      PP .3..22..34456899*.**********************..*****.*.**********985
+ACN14747.1/23-71             ---------GKGGGSPE.WMATFADLVTLLMCFFVLLFAM..STTQQ.E.TFKELVESLRSAL
+#=GR ACN14747.1/23-71     PP .........44555566.**********************..*****.*.**********986
+AGH79163.1/13-65             ---VKK-VQGGGHHGGA.WKVAFADFVTAMMAFFLVLWLM..AATTK.E.QRAAISEYFRNP-
+#=GR AGH79163.1/13-65     PP ...444.3568999999.**********************..*****.*.*********985.
+CCW35906.1/11-61             -------QPEHRENLER.WLLTYADMITLLMAFFLMLYSM..SVMSR.G.KFQQMAISVRQGF
+#=GR CCW35906.1/11-61     PP .......34567789**.**********************..*****.*.******9999866
+ACV75204.1/22-72             ------DEGHGGHHGGA.WKVAYADFVTAMMAFFLLLWLL..GATNE.K.ERKGIADYFNPS-
+#=GR ACV75204.1/22-72     PP ......467899*****.**********************..*****.*.*********986.
+QNQ09342.1/23-72             -------EGHGGHHGGA.WKVAYADFVTAMMAFFLLMWLL..GATNE.K.QRKALADYFSPT-
+#=GR QNQ09342.1/23-72     PP .......57899*****.**********************..*****.*.*********975.
+ABI75584.1/15-67             --R-KKVYKADGHHGGA.WKVAYADFVTAMMAFFLLMWLL..NATTE.E.QRKGIADYFNP--
+#=GR ABI75584.1/15-67     PP ..2.33345789999**.**********************..*****.*.*********96..
+BCB96095.1/11-62             -KKVKK--GHEGHHGGA.WKVAYADFVTAMMAFFLLMWLL..AMVSP.E.KRAALSEYFK---
+#=GR BCB96095.1/11-62     PP .44554..7899*****.**********************..*****.*.*********8...
+ABE50217.1/4-57              -RRKFE---DEPDNNDR.WLVSYADFITLLFAFFVVMYGI..SSVND.Q.KYKELTSALGSAF
+#=GR ABE50217.1/4-57      PP .33333...4556889*.**********************..*****.*.*********9987
+ACT48167.1/12-66             -KKIKK--GGGGHHGGA.WKIAYADFVTAMMAFFLLMWLL..GSTSK.A.QKEGISEYFKTPL
+#=GR ACT48167.1/12-66     PP .44444..7789999**.**********************..*****.*.**********985
+ADE83771.1/14-66             --R-KKVVGGGGHHGGA.WKVAYADFVTAMMAFFLLMWLL..NATTE.K.QRKGIADYFNP--
+#=GR ADE83771.1/14-66     PP ..3.333467899999*.**********************..*****.*.*********96..
+KOQ92300.1/12-67             RRRKPK--AHGGGGHGS.WKIAYADFMTAMMAFFLVMWLI..AISSP.K.ELIQLAEYFRTPL
+#=GR KOQ92300.1/12-67     PP 455555..56788889*.**********************..*****.*.**********985
+ADL42742.1/4-55              --KRME--EPAHENHER.WLITYADLITLLLIYFIVMYSM..SKLDM.D.KFKNFTESLTS--
+#=GR ADL42742.1/4-55      PP ..3333..45567889*.**********************..*****.*.********987..
+AAS94532.1/7-60              -KTRRKPHQ-HIP--QQgWMLTYSDLVTLLLAFFVLLVSM..SSVDR.V.QFERMASSLRQP-
+#=GR AAS94532.1/7-60      PP .44444333.333..333**********************..*****.*.*********985.
+BAM06017.1/4-56              -----KARHEEHENLER.WLVSYADFITLLFAFFVMLYAI..SSLNT.G.KFRVMSNAITATF
+#=GR BAM06017.1/4-56      PP .....22334556889*.**********************..*****.*.*******998766
+ABE50206.1/14-65             ----N--KHAGGHHGGA.WKIAYADFVTAMMAFFLLMWLL..GSTTK.A.DLQGISEYFKTPL
+#=GR ABE50206.1/14-65     PP ....3..3578999999.**********************..*****.*.**********985
+EED69693.1/13-66             --RVKK--TAHAHHGGA.WKIAYADFVTAMMAFFLLMWLL..GSTAQ.G.ELQGIAAYFNSPL
+#=GR EED69693.1/13-66     PP ..4444..5788999**.**********************..*****.*.**********985
+KLP57590.1/11-64             RKRKKK---KHAHHGGT.WKIAYADFMTAMMAFFLVMWLL..AQSTD.M.ERELIADYFRMP-
+#=GR KLP57590.1/11-64     PP 455555...45688999.**********************..*****.*.*********987.
+WP_041669859.1/14-66         --RKK-VVQGGGHHGGA.WKVAYADFVTAMMAFFMLMWLL..NATTE.K.QRKGLADYFNP--
+#=GR WP_041669859.1/14-66 PP ..333.34578999999.**********************..*****.*.*********96..
+ACV67876.1/3-57              -RKKKK--NGGGGGSPA.WMVTYSDMVTLLLTFFVLLLSM..ADINQ.I.KFTKAIGSLRGAL
+#=GR ACV67876.1/3-57      PP .33333..345666678.**********************..*****.*.*********9985
+UPH48257.1/3-55              -KRRKK--PQEEHVDET.WLIPYSDLLTLLLALFIVLFAS..SSVDA.K.KFEQMGNAFKK--
+#=GR UPH48257.1/3-55      PP .33443..567889999.**********************..*****.*.********986..
+ACM02562.1/21-73             --RKK-VVQGGGHHGGA.WKVAYADFVTAMMAFFMLMWLL..NATTE.K.QRKGLADYFNP--
+#=GR ACM02562.1/21-73     PP ..333.34578999999.**********************..*****.*.*********96..
+BAE51363.1/5-55              -----KFHKENKEAAED.WLLSYADMITLLMAFFIVLVSM..SKIDK.N.KYEQVQQGMAK--
+#=GR BAE51363.1/5-55      PP .....445667788899.**********************..*****.*.*****999875..
+AAS71881.1/14-64             -----R-KEESHENRER.WLLTYADMITLLLGLFIIMYSI..SQVDQ.T.KLKQVADVIRGG-
+#=GR AAS71881.1/14-64     PP .....2.344566899*.**********************..*****.*.******998865.
+ACI21439.1/12-63             -KKIKK--GHEAHHGGS.WKVAYADFTTAMMAFFLLLWLL..SMLDP.V.KRAAIADYFR---
+#=GR ACI21439.1/12-63     PP .44554..78899****.**********************..*****.*.*********8...
+ABS64493.1/13-63             --KVK--KVVHGHHGGA.WKIAYADFVTAMMAFFLLMWLI..SMTTP.E.QKQGLADYFA---
+#=GR ABS64493.1/13-63     PP ..333..467899****.**********************..*****.*.*********7...
+AAQ59699.1/12-66             -KKIKK--GGHGHHGGA.WKIAYADFVTAMMAFFLLMWLL..GSASQ.G.TLNGISEYFKTPL
+#=GR AAQ59699.1/12-66     PP .44444..78999****.**********************..*****.*.**********985
+EHJ02743.1/7-55              ---------EEKPGIPA.WVVTFADLMSLLMCFFVLLLSF..SEIDA.Q.KFKQIAGELSKAF
+#=GR EHJ02743.1/7-55      PP .........34444567.**********************..*****.*.**********998
+ADP99773.1/7-55              ---------EEKPGIPA.WVVTFADLMSLLMCFFVLLLSF..SEIDA.Q.KFKQIAGELSKAF
+#=GR ADP99773.1/7-55      PP .........34444567.**********************..*****.*.**********998
+CAG37395.1/9-61              --KKEK--KCAAG-APA.WMVTYSDLVTLLLTFFVLLLSM..SNVDP.V.RMSQASSSIKDAF
+#=GR CAG37395.1/9-61      PP ..2333..33333.356.**********************..*****.*.***********98
+AHF75242.1/15-64             -------AQHANHHVGS.WKIAYADFMTAMMAFFLVMWLL..GATTP.Q.QREQIAEYFRMP-
+#=GR AHF75242.1/15-64     PP .......346789999*.**********************..*****.*.*********987.
+UBQ05765.1/15-68             --RVKK--GGHGAHGGA.WKIAYADFVTAMMAFFLLMWLL..GSTTE.G.DRKGIADYFNQPL
+#=GR UBQ05765.1/15-68     PP ..4444..6788999**.**********************..*****.*.**********986
+CCG93763.1/7-55              ---------EEKPGIPA.WVVTFADLMSLLMCFFVLLLSF..SEIDA.Q.KFKQIAGELSKAF
+#=GR CCG93763.1/7-55      PP .........33344467.**********************..*****.*.**********998
+ABM17418.1/7-55              ---------EEKPGIPA.WVVTFADLMSLLMCFFVLLLSF..SEIDA.Q.KFKQIAGELSKAF
+#=GR ABM17418.1/7-55      PP .........33344467.**********************..*****.*.**********998
+AJJ29914.1/13-67             ---KRKTKHGAAHYGGS.WKIAYADFMTAMMAFFLVMWLL..AVSSP.Q.ELTQIAEYFRTPL
+#=GR AJJ29914.1/13-67     PP ...33344668899999.**********************..*****.*.**********985
+EDR32220.1/13-67             ---KRKTKHGAAHYGGS.WKIAYADFMTAMMAFFLVMWLL..AVSSP.Q.ELTQIAEYFRTPL
+#=GR EDR32220.1/13-67     PP ...33344668899999.**********************..*****.*.**********985
+AKS90521.1/13-67             ---KRKTKHGAAHYGGS.WKIAYADFMTAMMAFFLVMWLL..AVSSP.Q.ELTQIAEYFRTPL
+#=GR AKS90521.1/13-67     PP ...33344668899999.**********************..*****.*.**********985
+AJJ55678.1/13-67             ---KRKTKHGAAHYGGS.WKIAYADFMTAMMAFFLVMWLL..AVSSP.Q.ELTQIAEYFRTPL
+#=GR AJJ55678.1/13-67     PP ...33344668899999.**********************..*****.*.**********985
+APC08936.1/17-66             --------SHAGAGSMR.WLLTYADLITLLMAFFIVMYAV..SKVDM.A.RYQQLAQALSQIF
+#=GR APC08936.1/17-66     PP ........334444557.**********************..*****.*.*********9876
+AOU49825.1/36-89             --KIKK--NDHKHHGGS.WKIAFADFVTAMMAFFLLMWLV..ASLNK.A.QKAGIAEYFKQPM
+#=GR AOU49825.1/36-89     PP ..3444..46789999*.**********************..*****.*.**********985
+CAJ49281.1/13-65             -RKRS---SAKAHHGGS.WKIAYADFITAMMAFFLVMWLV..SIVPR.E.ELKGIADYFRMP-
+#=GR CAJ49281.1/13-65     PP .3333...466799999.**********************..*****.*.*********987.
+CAP63448.1/15-66             --AKSHA---RPHGNHS.WKIAYADFMTAMMALFLVLWLL..SSANK.K.TLEGIAEYFRMP-
+#=GR CAP63448.1/15-66     PP ..23322...2333347.**********************..*****.*.*********987.
+PHZ60298.1/7-58              -----AKRHSNEHHGGA.WKVAFADFMIALMALFLVLWLM..QVVDQ.Q.ERKAIVAYVNSA-
+#=GR PHZ60298.1/7-58      PP .....3346789999**.**********************..*****.*.********9986.
+QAT61615.1/3-52              --KKRE---ADNVNTSS.WLNTYADMITLLLCFFVAIYAF..SNVDK.A.KFDTMVQSFR---
+#=GR QAT61615.1/3-52      PP ..3333...34457889.**********************..*****.*.*********8...
+AIQ92723.1/7-60              -KKVKK--AAHAHHGGA.WKIAYADFVTAMMAFFLLMWLI..SMTTQ.E.QKIGLAEYFSPA-
+#=GR AIQ92723.1/7-60      PP .44444..5778999**.**********************..*****.*.*********975.
+GAA06066.1/13-64             -----AKRHSNEHHGGA.WKVAFADFMIALMALFLVLWLM..QVVDQ.Q.ERKAIVAYVNSA-
+#=GR GAA06066.1/13-64     PP .....3346789999**.**********************..*****.*.********9986.
+AAZ97197.1/12-65             --RIKK--TSGGHHGGA.WKIAYADFVTAMMAFFLLMWLL..GSTTR.G.DLEGIAEYFKTPL
+#=GR AAZ97197.1/12-65     PP ..4444..678999***.**********************..*****.*.**********985
+ATU66303.1/15-68             --RVKK--GGHAAHGGA.WKIAYADFVTAMMAFFLLMWLL..GSTTE.G.DKKGIADYFQNPL
+#=GR ATU66303.1/15-68     PP ..4444..6778899**.**********************..*****.*.**********986
+ABV37929.1/4-57              -KEKCDCP---PPGAPL.WLATFADLMSLLMCFFVLLLAF..SEMDV.M.KFKQIAGSMKYAF
+#=GR ABV37929.1/4-57      PP .3333333...333344.**********************..*****.*.*********9887
+CAC45246.1/20-68             ------ADSHDGHHGGG.WKIAYADFMTAMMAFFLVMWLI..NAANE.E.TKAAIAAYFN---
+#=GR CAC45246.1/20-68     PP ......45678999999.**********************..*****.*.*********8...
+ABA88420.1/4-56              -KKNKK---AAA-GAPA.WMVTYSDMVTLLLTFFVLLLSM..ANMDK.R.KFFDALGSLKGAF
+#=GR ABA88420.1/4-56      PP .33333...223.3356.**********************..*****.*.**********998
+APW41584.1/15-67             --RVKK--GGHAAHGGA.WKIAYADFVTAMMAFFLLMWLL..GSTSE.G.DRKGISDYFQSP-
+#=GR APW41584.1/15-67     PP ..4444..6778899**.**********************..*****.*.**********97.
+AAK86380.1/19-69             ----RHKGGHDGAHGGA.WKIAYADFMTAMMAFFLVMWLV..NAANE.E.TKASVASYFN---
+#=GR AAK86380.1/19-69     PP ....33357889999**.**********************..*****.*.*********8...
+ADE10783.1/13-66             --RIKK--VAGGHHGGA.WKIAYADFVTAMMAFFLLMWLL..GSTAK.G.DLQGISEYFKTPL
+#=GR ADE10783.1/13-66     PP ..4444..678999***.**********************..*****.*.**********985
+WP_035609574.1/12-67         -KKKRS-SHAQASHGGS.WKIAYADFMTAMMAFFLVMWLL..AIASP.Q.ELTRIAEYFRTPL
+#=GR WP_035609574.1/12-67 PP .44444.456778999*.**********************..*****.*.**********985
+ACZ19556.1/3-57              --RKKKQPEGPTG--APlFMATYGDMVTLLLTFFVFLYSF..SSIDV.Q.KFQKMIFSFQGAL
+#=GR ACZ19556.1/3-57      PP ..34444444444..477**********************..*****.*.**********986
+ACI20276.1/5-58              -KRNN---NNEEENVHR.WLISYSDFLTLLFTFFVALYAL..SSVDV.T.KAEKMTSSLRKVF
+#=GR ACI20276.1/5-58      PP .3333...344556679.**********************..*****.*.*********9976
+ABA04499.1/3-56              -KK-KRGDAHGGGH--G.WFVTFADLMGLMMSFFVMLVAF..STMDN.Q.KLKIVAGSMRDAF
+#=GR ABA04499.1/3-56      PP .33.3323334444..5.**********************..*****.*.***********98
+EKT87314.1/15-64             -------KGESHENRER.WLLTYADMITLLLGLFIIMYSI..SQVDQ.A.KLKQVADVIRGG-
+#=GR EKT87314.1/15-64     PP .......244566899*.**********************..*****.*.******998865.
+BAL07815.1/18-64             --------AEEAHHGGV.WKIAYADFMTAMMAFFLVMWLL..NALNQ.D.QKQVVASYFN---
+#=GR BAL07815.1/18-64     PP ........467899999.**********************..*****.*.*********8...
+ABI58475.1/14-66             --RIKK--VSGQHHGGA.WKIAYADFVTAMMAFFLLMWLL..GSTTQ.G.DKEGISEYFKMP-
+#=GR ABI58475.1/14-66     PP ..4444..67889999*.**********************..*****.*.*********987.
+AAD35760.1/5-55              ---KREEE---QKGSPQ.WMTTYSDMVTLLLTFFVALISM..STISP.G.KFQQVAVGLRIA-
+#=GR AAD35760.1/5-55      PP ...23222...233456.**********************..*****.*.******999866.
+QKS29227.1/14-65             ----RK--VAGGHHGGA.WKIAYADFVTAMMAFFLLMWLL..GSTAS.G.DLKGIADYFQNPL
+#=GR QKS29227.1/14-65     PP ....44..6789999**.**********************..*****.*.**********986
+BAH77463.1/14-65             --KIKK--ISAGAHGGS.WKVAYADLVTAMMAFFLLMWLL..SNAPQ.E.KKEEIANYFNE--
+#=GR BAH77463.1/14-65     PP ..4444..567889999.**********************..*****.*.*********96..
+QFG02533.1/4-57              ----KAPEAEKPENHER.WIVSYADMVTLLFALFVVLYAT..SDANP.Q.KLQSVRVSIEQAF
+#=GR QFG02533.1/4-57      PP ....33345567899**.**********************..*****.*.*********9998
+BCB96092.1/3-57              --KRRKT-HFERPSHER.WLISYADFITLMFTFFAALYAL..SSVDK.A.KVESFSGSLKHAF
+#=GR BCB96092.1/3-57      PP ..33333.45677889*.**********************..*****.*.**********998
+AAG08338.1/14-63             -----R--YAAGHHGGS.WKIAFADFATAMMAFFLVLWLL..SSATP.E.QKKAISGYFQDP-
+#=GR AAG08338.1/14-63     PP .....3..5679999**.**********************..*****.*.**********97.
+AOP60446.1/14-63             -----R--YAAGHHGGS.WKIAFADFATAMMAFFLVLWLL..SSATP.E.QKKAISGYFQDP-
+#=GR AOP60446.1/14-63     PP .....3..5679999**.**********************..*****.*.**********97.
+AAY35632.1/16-63             ---------GGGHHGGA.WKIAFADFATAMMAFFLVLWLM..SSATP.E.QLLAVAGYFKDP-
+#=GR AAY35632.1/16-63     PP .........5789999*.**********************..*****.*.*********986.
+AEI89250.1/18-64             ---------KDSHHGGA.WKVAYADFVTAMMAFFLLLWLL..NSTPS.Q.KLKGIAQYFEP--
+#=GR AEI89250.1/18-64     PP .........4678999*.**********************..*****.*.*********85..
+AAV82966.1/17-63             ----------PPPGLPM.WMATFADLMTLLMCFFVLLLAF..SEMDV.L.KFKQIAGSMKYA-
+#=GR AAV82966.1/17-63     PP ..........4444455.**********************..*****.*.*********976.
+EGI75400.1/15-67             --RVKK--GGHGVHGGA.WKIAYADFVTAMMAFFLLMWLL..GSTSK.G.DLKGLADYFRAP-
+#=GR EGI75400.1/15-67     PP ..4444..6778899**.**********************..*****.*.*********987.
+BAD41955.1/18-66             ---------GHGSGTAR.WMVSYADFMTLMFIVFVVMFSF..ARVDT.A.KYQSLARSLGQAL
+#=GR BAD41955.1/18-66     PP .........22333346.**********************..*****.*.*********9985
+AFL88474.1/3-55              -KKKHA----EHVNHER.WLVSWADLLTLLFAFFVVMFAS..SVSDK.K.KSSKMAAAMQTAF
+#=GR AFL88474.1/3-55      PP .34444....34489**.**********************..*****.*.***********98
+AFL88815.1/3-55              -KKKHA----EHVNHER.WLVSWADLLTLLFAFFVVMFAS..SVSDK.K.KSSKMAAAMQTAF
+#=GR AFL88815.1/3-55      PP .34444....34489**.**********************..*****.*.***********98
+AEP29248.1/7-56              --------KCPPAGLPA.WMGTFADLMSLLMCFFVLLLSF..SEMDV.R.KFKQIAGSMKFAF
+#=GR AEP29248.1/7-56      PP ........444444567.**********************..*****.*.*********9887
+ACL70427.1/7-58              ------DLEEENKNTSPgWMVTYGDMMTLLLVFFVFLYSF..SVMNV.E.KFEGFISALQAK-
+#=GR ACL70427.1/7-58      PP ......233455566667**********************..*****.*.*********975.
+ACM24085.1/5-54              -----KQEE--QKGSPQ.WMTTYSDMVTLLLTFFVALISM..STISP.G.KFQQVAVGLRIA-
+#=GR ACM24085.1/5-54      PP .....2222..223345.**********************..*****.*.******999866.
+BAL11316.1/3-56              -KK-KRGDAHGGGH--G.WFVTFADLMGLMMSFFVMLVAF..STQDA.N.KLKIVAGSMRDAF
+#=GR BAL11316.1/3-56      PP .33.3323334444..5.**********************..*****.*.***********98
+BAC62900.1/10-63             --KRAKAHGHDEPHGGA.WKVAFADFMIALMALFLVLWVM..QVVDK.E.ERKAIVAHLHS--
+#=GR BAC62900.1/10-63     PP ..45678999*******.**********************..*****.*.******99875..
+AAU41984.1/8-57              --RKR----EQGRKSPN.WIITFSDLITLILVFFILLFSM..SQIDL.N.KFKAAVGSFQD--
+#=GR AAU41984.1/8-57      PP ..222....22334445.**********************..*****.*.*********97..
+CDK98315.1/11-63             --RVKK--VAAGHHGGA.WKVAYADFVTAMMAFFLLLWLL..NAVTE.E.QLTGISNYFAPS-
+#=GR CDK98315.1/11-63     PP ..4444..678999***.**********************..*****.*.*********865.
+WP_084978200.1/12-57         ------------GGAPA.YMTTFADLMTLLLCFFVLLLSF..SEMDV.E.KYKQIAGSVRSAF
+#=GR WP_084978200.1/12-57 PP ............34467.**********************..*****.*.**********998
+AVQ88447.1/12-57             ------------GGAPA.YMTTFADLMTLLLCFFVLLLSF..SEMDV.E.KYKQIAGSVRSAF
+#=GR AVQ88447.1/12-57     PP ............34467.**********************..*****.*.**********998
+AEO48361.1/10-60             --RIKK--GGHAHHGGA.WKLAYADFVTAMMAFFLLLWLL..NSVTE.E.QLVGISNYFA---
+#=GR AEO48361.1/10-60     PP ..4444..67899****.**********************..*****.*.********97...
+BAC14500.1/5-57              ---GK--KKSQSHMDES.WLLPYADLLTLLVALFIVLFAM..SDINI.Q.KYEQLASVFRSEF
+#=GR BAC14500.1/5-57      PP ...23..3466789999.**********************..*****.*.*********9987
+QEI18927.1/12-64             -KRKG---RGHGHHGSS.WKVALADFMTAMMAFFLLMWLL..GGTTE.E.EKKAISQYFQDP-
+#=GR QEI18927.1/12-64     PP .3333...457788888.**********************..*****.*.**********85.
+WP_027181326.1/16-67         -----DDTPCEEG-LPP.WMATFADMMSLLLCFFVLLLSF..AQQDA.N.KFKTLMGSIKEAF
+#=GR WP_027181326.1/16-67 PP .....33334443.466.**********************..*****.*.**********998
+MBU2985331.1/10-58           ----------DCPAGLPpWMGTFADLMSLLMCFFVLLLSF..SEMDA.M.KFKRLAGSMAQAF
+#=GR MBU2985331.1/10-58   PP ..........33444455**********************..*****.*.***********98
+ABD82475.1/10-58             ----------DCPAGLPpWMGTFADLMSLLMCFFVLLLSF..SEMDA.M.KFKRLAGSMAQAF
+#=GR ABD82475.1/10-58     PP ..........33444455**********************..*****.*.***********98
+APC07902.1/6-54              -----WQKKPEEGA-PT.WMITYSDLMTQLVVFFVLLFSF..SVINQ.Q.KFQQFIASYQ---
+#=GR APC07902.1/6-54      PP .....333444444.56.**********************..*****.*.******9976...
+AHK70060.1/21-66             ---------EGGHHGGA.WKIAYADFVTAMMAFFLVMWLI..NATTE.E.QRKGIANFFN---
+#=GR AHK70060.1/21-66     PP .........57899999.**********************..*****.*.******9997...
+CAG19222.1/9-55              ----------PPGA--PlWMATFADLATLLMCFFVLLLSF..SEMDV.L.KFKQIAGSMKFAF
+#=GR CAG19222.1/9-55      PP ..........3333..56**********************..*****.*.*********9887
+BAE51383.1/12-63             --RVKK--VAGGAHGGA.WKVAYADFVTAMMAFFLLLWLL..NAVTE.E.QLTGVSNYFAP--
+#=GR BAE51383.1/12-63     PP ..4444..67789999*.**********************..*****.*.*********86..
+GAC24034.1/7-56              --------KCPPAGLPA.WMGTFADLMSLLMCFFVLLLSF..SEMDV.L.KFKQIAGSMKFAF
+#=GR GAC24034.1/7-56      PP ........444444567.**********************..*****.*.*********9887
+QOY86331.1/15-65             -----KKKGHGGHHGGA.WKVAYADFVTAMMALFIVLWLL..S-SDE.K.VKKAVGGYFMDP-
+#=GR QOY86331.1/15-65     PP .....3347899*****.**********************..6.699.9.999999999875.
+QOY88867.1/3-51              -RRRKT--DH-PVSHDR.WLISYADFITLLFALFVVMFAA..SQTDK.T.KMAAIQES-----
+#=GR QOY88867.1/3-51      PP .44443..23.346689.**********************..*****.*.****9887.....
+AAW85210.1/10-56             ----------PPGA--PlWMATFADLATLLMCFFVLLLSF..SEMDV.L.KFKQIAGSMKFAF
+#=GR AAW85210.1/10-56     PP ..........3333..56**********************..*****.*.*********9887
+AAZ26642.1/6-58              --KRRAAVEHDNI--HR.WLVSYADYMTLMFALFVVLYAM..AMVNE.K.PFESITESFGRV-
+#=GR AAZ26642.1/6-58      PP ..33433344444..49.**********************..*****.*.*********765.
+CCG96130.1/9-62              -KRKKK--VVGGHHGGS.WKVAFADFATAMMAFFLVLWLT..ATASP.E.QKRAVEGYFKDP-
+#=GR CCG96130.1/9-62      PP .44444..68899****.**********************..*****.*.*********986.
+GAC39797.1/5-56              ------CPKCPPEGLPA.WMGTFADLMALLMCFFVLLLSF..SEMDV.L.KFKQIAGSMKFAF
+#=GR GAC39797.1/5-56      PP ......45555556678.**********************..*****.*.*********9887
+AFS37990.1/5-57              -----ECPKCPPEGLPA.WMGTFADLMSLLMCFFVLLLSF..SEMDV.L.KFKQIAGSMKFAF
+#=GR AFS37990.1/5-57      PP .....556666666678.**********************..*****.*.*********9887
+QCG47005.1/3-54              --KKK---AEAPENHER.WLVSYADFMTLLFALFVVLYSF..AMAKQ.S.EARVIIQGFIES-
+#=GR QCG47005.1/3-54      PP ..233...23456899*.**********************..*****.*.******999765.
+QTD53837.1/15-62             ---------CEAG-APR.WVVTFGDMMSLLLCFFVLLLSF..STTDV.I.KYRELTGSLKDAF
+#=GR QTD53837.1/15-62     PP .........3344.367.**********************..*****.*.***********98
+AAZ27154.1/7-56              --------KCPPPGLPA.WMGTFADLMSLLMCFFVLLLSF..SEMDV.L.KFKQIAGSMKFAF
+#=GR AAZ27154.1/7-56      PP ........334445567.**********************..*****.*.*********9887
+ADD67091.1/3-55              -KKKCE--ECKPGA-PM.WMSTFSDMATLLMTFFILLLSM..ASMDK.R.KIKVALGSLQGS-
+#=GR ADD67091.1/3-55      PP .34444..333444.44.**********************..*****.*.*********987.
+EKB18758.1/3-54              -KKKK---AEAPENHER.WLVSYADFMTLLFALFVVLYSF..AMAKQ.S.ETRVLIQGFIE--
+#=GR EKB18758.1/3-54      PP .3333...23456899*.**********************..*****.*.****9999976..
+ABK38240.1/3-54              -KKKK---AEAPENHER.WLVSYADFMTLLFALFVVLYSF..AMAKQ.S.ETRVLIQGFIE--
+#=GR ABK38240.1/3-54      PP .3333...23456899*.**********************..*****.*.****9999976..
+ARU39646.1/10-61             -KKVKK--GGHGHHGGA.WKVAYADFVTAMMAFFMVMWIL..G-MSQ.P.EKEAIAAYFSD--
+#=GR ARU39646.1/10-61     PP .44444..78999****.*********************9..6.788.8.889******97..
+AAN54590.1/10-54             ------------GA--PlWLATFADLMSLLMCFFVLLLSF..SEMDV.M.KYKQIAGSMKYAF
+#=GR AAN54590.1/10-54     PP ............22..44**********************..*****.*.*********9887
+CCQ09344.1/8-57              -----K---CPPPGLPA.WMGTFADLMSLLMCFFVLLLAF..SEMDV.L.KFKQIAGSMKFAF
+#=GR CCQ09344.1/8-57      PP .....3...33444567.**********************..*****.*.*********9887
+AAN57255.1/3-53              --KK---KVDPPENHER.WLISYADFMTLLFALFVVLYSF..AMSDK.N.EAKFMVEGLID--
+#=GR AAN57255.1/3-53      PP ..22...34566799**.**********************..*****.*.*9999998866..
+AIQ92766.1/4-55              ---KKRG-GAHGGH--G.WFVTFADLMALLMSFFVMIAAY..STQDQ.K.KMQMVAGSMRDAF
+#=GR AIQ92766.1/4-55      PP ...2221.222333..4.**********************..*****.*.***********98
+QJR36485.1/14-65             ----KKVAGHGGHHGGS.WKVAYADFVTAMMAFFMVMWIL..G-MDD.K.TKQAIEGYFANP-
+#=GR QJR36485.1/14-65     PP ....34457899*****.********************99..5.999.9.99******9986.
+AVQ86534.1/6-60              --RKRR-GDGGHENHER.WLVSYADYMTLLFALFVVLYAF..AMTKE.T.TTRAMIQGLIDSF
+#=GR AVQ86534.1/6-60      PP ..3333.35567789**.**********************..*****.*.*******998876
+WP_064977618.1/6-60          --RKRR-GDGGHENHER.WLVSYADYMTLLFALFVVLYAF..AMTKE.T.TTRAMIQGLIDSF
+#=GR WP_064977618.1/6-60  PP ..3333.35567789**.**********************..*****.*.*******998876
+WP_011369263.1/4-57          -KKNK---KGGGGGAPK.WLITFSDMMTLMLTFFVLLVSM..SVLDE.R.RKLVVLASVTGAF
+#=GR WP_011369263.1/4-57  PP .3333...344555566.**********************..*****.*.**99999999887
+UXK07480.1/5-54              -----KCPPPGA----PlWLATFADLMSLLMCFFVLLLSF..SEMDV.L.KFKQIAGSMKFAF
+#=GR UXK07480.1/5-54      PP .....4444322....34**********************..*****.*.*********9887
+ACM92318.1/6-56              ---KCECPK---C-MPG.WLATFGDLMSLLLCFFVLLLSM..STMDA.K.KVKEAIGSLAGAL
+#=GR ACM92318.1/6-56      PP ...222222...2.223.**********************..*****.*.*********9875
+BAI86479.1/15-62             --------GKNSQSSSS.WMVTFTDLITLILVFFILLFSM..SQIDL.Q.KFKAAVDSIQK--
+#=GR BAI86479.1/15-62     PP ........344556678.**********************..*****.*.********996..
+CAB14950.1/15-62             --------GKNSQSSSS.WMVTFTDLITLILVFFILLFSM..SQIDL.Q.KFKAAVDSIQK--
+#=GR CAB14950.1/15-62     PP ........344556678.**********************..*****.*.********996..
+UUH65170.1/15-62             --------GKNSQSSSS.WMVTFTDLITLILVFFILLFSM..SQIDL.Q.KFKAAVDSIQK--
+#=GR UUH65170.1/15-62     PP ........344556678.**********************..*****.*.********996..
+ABK44454.1/4-55              -----KCPPCKKGA--PgWMVTFGDLMSLLLTFFVLLLSF..AQLDI.V.KFEKVSGSMKDAF
+#=GR ABK44454.1/4-55      PP .....455555555..44**********************..*****.*.***********98
+ADE39057.1/12-67             --EEEDCPKCPPVGAPA.WMATFADMATLLMAFFVLILSF..AEFNV.P.KFKQISGSLKNAF
+#=GR ADE39057.1/12-67     PP ..556666666666677.**********************..*****.*.***********98
+CAG18504.1/12-65             -K--RARRHHDEHHGGA.WKVAFADFAIAMMAFFMVLWLM..GITTQ.E.ERIEIEQRLQTA-
+#=GR CAG18504.1/12-65     PP .3..333467899****.**********************..*****.*.*****9999986.
+ABZ96282.1/11-59             -------EEEHVESHDR.WLLTYADMITLLLGLFIILYAV..SKVDS.K.RLNEVAKDIKR--
+#=GR ABZ96282.1/11-59     PP .......345667889*.**********************..*****.*.******98876..
+QBZ83463.1/14-63             -----KCP--HCAHGGA.WKVAFADFMTAAMAFFLMLWIL..GGVND.E.EMKAMAEYFRDP-
+#=GR QBZ83463.1/14-63     PP .....443..467899*.**********************..*****.*.*********986.
+RPH29429.1/15-65             ----SARREHHAPHGGA.WKVAFADFTLAMMALFMVLWIM..SSVTE.E.ERKEVVAHLT---
+#=GR RPH29429.1/15-65     PP ....33356889999**.**********************..*****.*.*****99886...
+EAP91936.1/12-57             ------------PGLPQ.WMGTFADLMSLLMCFFVLLLSF..SEMDV.L.KFKQIAGSMKFAF
+#=GR EAP91936.1/12-57     PP ............34456.**********************..*****.*.*********9887
+AAF94055.1/8-57              --------KCPPPGLPA.WLGTFADLMSLLMCFFVLLLSF..SEMDV.L.KFKQIAGSMKFAF
+#=GR AAF94055.1/8-57      PP ........334445567.**********************..*****.*.*********9887
+QEO41880.1/8-57              --------KCPPPGLPA.WLGTFADLMSLLMCFFVLLLSF..SEMDV.L.KFKQIAGSMKFAF
+#=GR QEO41880.1/8-57      PP ........334445567.**********************..*****.*.*********9887
+AHZ83416.1/13-60             -----EEHEHEMAHDESnWLVSYADMMTLLFGFFVLMYSM..SRFDN.T.KFDLVRK------
+#=GR AHZ83416.1/13-60     PP .....5688888899999**********************..*****.*.**86655......
+WP_038448257.1/13-60         -----EEHEHEMAHDESnWLVSYADMMTLLFGFFVLMYSM..SRFDN.T.KFDLVRK------
+#=GR WP_038448257.1/13-60 PP .....5688888899999**********************..*****.*.**86655......
+BAH37337.1/14-65             ----KKVAGGGGHHGGS.WKVAYADFVTAMMAFFMVMWIL..G-MDD.K.TKQAIEGYFANP-
+#=GR BAH37337.1/14-65     PP ....33457789999**.********************99..5.999.9.99******9986.
+BAS27508.1/6-58              --RRRE-P--PGIKGSPhWMTTYADMMSLILVFFVMLFTF..SSLDV.Q.RFQTMLQAIQGS-
+#=GR BAS27508.1/6-58      PP ..2333.2..23333344**********************..*****.*.********9986.
+ABM19853.1/9-62              -KRKKK--VVGGHHGGS.WKVAFADFATAMMAFFLVLWLT..ATATP.E.QKLAVEGYFKDP-
+#=GR ABM19853.1/9-62      PP .44444..68899****.**********************..*****.*.*********986.
+QBZ83558.1/9-50              ---------------PT.WLATFADLMSLLMAVFVLLFAM..STLDA.K.KYEGIVESLTNT-
+#=GR QBZ83558.1/9-50      PP ...............35.**********************..*****.*.*********986.
+ADN09320.1/4-55              ----QKCPECEE-CLPA.WLAAFGDLMSLLLCFFVLLLSM..SSMDA.K.KISEAIGSLSGA-
+#=GR ADN09320.1/4-55      PP ....34444434.3467.**********************..*****.*.*********987.
+AAS95120.1/25-71             -----------GGDIPE.WIVTFADMMSLLLCFFILLLSF..AKTDI.A.KFQAALGSIQDAF
+#=GR AAS95120.1/25-71     PP ...........333345.**********************..*****.*.***********98
+AAS13282.1/4-53              --KKK--H-GPSAAGSG.WLTTYADMVTLMLCFFVMLFEP..SEVDV.T.QLMALSASIS---
+#=GR AAS13282.1/4-53      PP ..222..2.23334445.**********************..*****.*.*******987...
+EPE37368.1/10-60             --------KSNTSAGLPlWMATFADLMSLLMCFFVLLLSF..SEMDV.L.KFKQISGSMKFAF
+#=GR EPE37368.1/10-60     PP ........3444556677**********************..*****.*.*********9887
+QCG47068.1/10-54             -------------GLPA.YMGTFADLMSLLMCFFVLLLSF..AEMDV.Q.KFKQIAGSMEKAF
+#=GR QCG47068.1/10-54     PP .............3457.**********************..*****.*.**********998
+EKB20017.1/3-58              --KRYRLHLQGREHLDR.WLVSYADYMTLIFALFVVLYSV..ALVNK.D.KYRAVIDGMSQAF
+#=GR EKB20017.1/3-58      PP ..4445567788899**.**********************..*****.*.***********98
+ADP99516.1/8-59              ---NRK---RLQNQTPA.WIVTFADLATLLLTFFILLLSF..AEMDV.E.KYRAMANSMAVAF
+#=GR ADP99516.1/8-59      PP ...332...22334557.**********************..*****.*.*********9887
+EHJ02505.1/7-59              --KNRKR---LQNQTPA.WIVTFADLATLLLTFFILLLSF..AEMDV.E.KYRAMANSMAVAF
+#=GR EHJ02505.1/7-59      PP ..33332...2334557.**********************..*****.*.*********9887
+QCG47682.1/5-60              --RRSPLHLRGHEHLDR.WLVSYADYMTLIFALFVVLYSV..AMVNK.E.KYKEVLEGVTQAF
+#=GR QCG47682.1/5-60      PP ..444455566778899.**********************..*****.*.********99998
+ABK39834.1/3-58              --KRYRLHLQGREHLDR.WLVSYADYMTLIFALFVVLYSV..ALVNK.D.KYRAVIDGMTQAF
+#=GR ABK39834.1/3-58      PP ..4445567788899**.**********************..*****.*.***********98
+BAC58953.1/16-58             ----------------PlWMGTFADLMSLLMCFFVLLLSF..SEMDV.L.KFKQIAGSMKFAF
+#=GR BAC58953.1/16-58     PP ................44**********************..*****.*.*********9887
+ATP10433.1/3-58              --KRYRLHLQGREHLDR.WLVSYADYMTLIFALFVVLYSV..ALVNK.D.KYRAVIDGMTQAF
+#=GR ATP10433.1/3-58      PP ..4445567788899**.**********************..*****.*.***********98
+CCG93540.1/12-59             ----------GKKGTPD.WIVTFADLATLLLTFFILLLSF..AEMDV.E.KYRAMANSMSLAF
+#=GR CCG93540.1/12-59     PP ..........2233445.**********************..*****.*.*********9776
+ABM17157.1/12-59             ----------GKKGTPD.WIVTFADLATLLLTFFILLLSF..AEMDV.E.KYRAMANSMSLAF
+#=GR ABM17157.1/12-59     PP ..........2233445.**********************..*****.*.*********9776
+EAS78266.1/16-64             -------SHDESSHGGA.WKVAFADFMIALMALFLVLWVM..QVVDK.E.ERKAIVAHLHS--
+#=GR EAS78266.1/16-64     PP .......456778999*.**********************..*****.*.******99875..
+AGI74730.1/15-67             -----ECPKCPPVGAPA.WMATFADLATLLMAFFVLILSF..AEMNV.P.KFKQIQGSLKDSF
+#=GR AGI74730.1/15-67     PP .....555555555677.**********************..*****.*.**********998
+BAC93636.1/16-58             ----------------PlWMGTFADLMSLLMCFFVLLLSF..SEMDV.L.KFKQIAGSMKFAF
+#=GR BAC93636.1/16-58     PP ................44**********************..*****.*.*********9887
+AHF75712.1/10-64             ---KRKPARASGAHAGS.WKIVFADFMTSMMAFFLVMWLL..AIASP.Q.ELTRLAEYFRTPL
+#=GR AHF75712.1/10-64     PP ...3444567888999*.**********************..*****.*.**********985
+BAD64519.1/4-56              -KRRPRRHDSNTHVDET.WLLPYADMLTLLVALFIVLFAM..GQIDQ.A.KYDQLKIVL----
+#=GR BAD64519.1/4-56      PP .566677899999999*.**********************..*****.*.***997655....
+AAS94533.1/13-54             ------------QEGQPgWLLTYSDLMTLLLAFFVLLVSM..STIDE.R.RRRMVIES-----
+#=GR AAS94533.1/13-54     PP ............223344**********************..*****.*.*****998.....
+QOY85081.1/15-56             -----KHAEHDEEHGGA.WKVAYADFVTAMMALFIVLWLL..SSSES.V.KK-----------
+#=GR QOY85081.1/15-56     PP .....4456788999**.**********************..*9988.7.74...........
+ACL72406.1/17-65             --------KKGGHHGGA.WKIAFADFATAMMAFFLLLWIL..GFTDD.E.QKAAISEFFQNP-
+#=GR ACL72406.1/17-65     PP ........357899999.**********************..*****.*.*********986.
+QQS07319.1/16-62             ---------EGEATEED.WLISYADMVTLLMCFFLAMLTI..SKVDV.T.LFEQMKKGLRS--
+#=GR QQS07319.1/16-62     PP .........33444456.**********************..*****.*.*******9987..
+ALF47868.1/15-57             ---------------PE.WLATFGDLMSLLLCFFVLLLSM..ATMDA.K.KMEAAVGSLAGAL
+#=GR ALF47868.1/15-57     PP ...............46.**********************..*****.*.*********9875
+ABK39376.1/12-54             ---------------PG.YMGTFADLMSLLMCFFVLLLSF..AEMDV.Q.KFKQIAGSMEKAF
+#=GR ABK39376.1/12-54     PP ...............23.9*********************..*****.*.**********998
+BAH75057.1/18-64             ---------FPKAHGSS.WKVAYADFVTAMMAFFLLMWII..NMVPP.A.TLKQLEQYFKD--
+#=GR BAH75057.1/18-64     PP .........45678888.**********************..*****.*.*********97..
+CCW34550.1/17-67             -----KKKRSGGHHGGA.WKVAYADFVTAMMAFFLVMWIV..G-LSK.P.IRDAIAAYFRDP-
+#=GR CCW34550.1/17-67     PP .....2345789999**.********************99..5.889.9.999999999986.
+EAR29515.1/11-59             ---------SENNHVER.WLVSYADYMTLMFALFVVLYSL..AITKE.E.EFSVLSDSLESIF
+#=GR EAR29515.1/11-59     PP .........5667899*.**********************..*****.*.*********9765
+ACB73690.1/5-53              --------KAAAGHGGA.WKVAYADFVTAMMALFMVLW-I..SAQDQ.K.ILIATSQYFQNPF
+#=GR ACB73690.1/5-53      PP ........45678999*.********************.7..89***.*.***********98
+ACO34085.1/13-61             ------KVSHGGHHGGA.WKVAYADFVTAMMSLFIVLWLM..NTSTP.I.K-KIIAGYFRD--
+#=GR ACO34085.1/13-61     PP ......2357899999*.**********************..77666.5.5.778888887..
+AAS97081.1/4-48              -----------GKGGGS.WKVAYADFVTAMMAFFLLMWIL..NMTSK.E.TKEGLAGYFSS--
+#=GR AAS97081.1/4-48      PP ...........556789.**********************..*****.*.*********86..
+KTR97549.1/13-63             ----S-RKAHHGAHGGA.WKVAFADFTLAMMALFMVLWIM..GAVTE.D.ERKEIVAQLNG--
+#=GR KTR97549.1/13-63     PP ....3.346789999**.**********************..*****.*.*******9985..
+ATP10767.1/7-54              -------PP---PGLPA.YMGTFADLMSLLMCFFVLLLSF..AEMDV.L.KFKQIAGSMRNAF
+#=GR ATP10767.1/7-54      PP .......33...33457.**********************..*****.*.***********98
+ACN15952.1/15-55             --------------DEAgWLVTYADLMTLLLVFFILLFSL..SNIDR.E.RYKAAIETV----
+#=GR ACN15952.1/15-55     PP ..............4556**********************..*****.*.****99865....
+AMO80267.1/16-67             ---SS-RKSHDAIHGGA.WKVAFADFTLAMMALFMVLWIM..GSVTE.E.ERKEIVSTLNS--
+#=GR AMO80267.1/16-67     PP ...33.346778999**.**********************..*****.*.*******9986..
+EHM37795.1/17-67             -----ARKSHDAIHGGA.WKVAFADFTLAMMALFMVLWIM..GSVTE.E.ERKEIVSNLNG--
+#=GR EHM37795.1/17-67     PP .....3346788999**.**********************..*****.*.******99985..
+ADZ90280.1/16-59             --------------LPA.YMGTFADLMSLLMCFFVLLLSF..AEMDV.L.KFKQLAGSMREAF
+#=GR ADZ90280.1/16-59     PP ..............356.**********************..*****.*.***********98
+AVQ87683.1/13-64             --KV-QHDDHDEGHGGA.WKVAFADFAIAMMAFFMVLWVM..EVATK.D.ERQKVQQYMA---
+#=GR AVQ87683.1/13-64     PP ..33.34678999****.**********************..*****.*.*******997...
+WP_084977072.1/13-64         --KV-QHDDHDEGHGGA.WKVAFADFAIAMMAFFMVLWVM..EVATK.D.ERQKVQQYMA---
+#=GR WP_084977072.1/13-64 PP ..33.34678999****.**********************..*****.*.*******997...
+QOY88834.1/16-62             --------VHGGHHGGA.WKVAYADFVTAMMALFIVLWLL..-NSNQ.K.IQKAVGGYFND--
+#=GR QOY88834.1/16-62     PP ........57899****.**********************...5788.8.89999999987..
+EKB20879.1/10-54             -------------GLPA.YMGTFADLMSLLMCFFVLLLSF..AEMDV.L.KFKQIAGSMKNAF
+#=GR EKB20879.1/10-54     PP .............3457.**********************..*****.*.***********98
+WP_011367498.1/13-62         --------QEEEDRTDE.WIVTFADLATLLLVFFILLFSM..SVIDE.Q.RFTDSFTSVRTVF
+#=GR WP_011367498.1/13-62 PP ........345566778.**********************..*****.*.**99999988765
+EHR39922.1/9-58              --------KCPPPGLPQ.YMGTFADLMALLMCFFVLLLAF..SEMDV.L.KFKQIAGSMKFAF
+#=GR EHR39922.1/9-58      PP ........344444566.**********************..*****.*.*********9887
+EHR42266.1/5-58              --RRHQ-QTTEREDLDR.WLVSYADYMTLMFALFVVLYAL..SLLKQ.E.EYSVLTESLTRI-
+#=GR EHR42266.1/5-58      PP ..4444.4456667799.**********************..*****.*.********9875.
+SHJ21848.1/6-54              -------KEIESPDTTM.WMVTFADLVTLLMTFFVLLLTM..SSMDT.K.ALQTMFTLFAG--
+#=GR SHJ21848.1/6-54      PP .......3445556667.**********************..*****.*.****9988865..
+CAL34487.1/3-55              --KKHKCPE--CPAGEK.WAVPYADFLSLLLALFIALWAI..SKTNP.A.KVEALKTEFVKI-
+#=GR CAL34487.1/3-55      PP ..5666666..56678*.**********************..*****.*.*****9999765.
+AAC07084.1/4-55              -KKKEECPK-----PPA.WLTSFGDLMSLLLTFFILLYSM..SIISL.E.KFYQVLKGIVSAF
+#=GR AAC07084.1/4-55      PP .44444333.....346.**********************..*****.*.******9998887
+CFQ41305.1/18-67             ----R--KKQGGGHSGA.WKVAFADFTLAMMALFMVLWIV..GVVSE.E.ERQEIVAQLNG--
+#=GR CFQ41305.1/18-67     PP ....3..35789999**.**********************..*****.*.*******9985..
+ABV34662.1/12-64             --RRKRQ-KRSATHGGA.WKVAFADFTLAMMALFMVLWIL..QIADQ.Q.ERTMIVQYLNG--
+#=GR ABV34662.1/12-64     PP ..33433.45678999*.**********************..*****.*.*********97..
+QAR32386.1/5-55              ----KKSCDCEKG-SPK.WMTTFTDMNMLLLTFFVLLVSM..STLDK.K.KILESLGSFQG--
+#=GR QAR32386.1/5-55      PP ....333334444.355.**********************..*****.*.*********96..
+ABC35029.1/16-65             --RAHK--RHEEHSGGA.WKVAFADFTLALMALFMVLWVM..NVTPE.K.ERKQVAAEI----
+#=GR ABC35029.1/16-65     PP ..4444..567889999.**********************..*****.*.*****9976....
+ABA57347.1/12-62             -------SQEERTGAPA.WVITLADLMSLLMSFFVLLLSF..SEMDV.L.KYKQVAGSMKFAF
+#=GR ABA57347.1/12-62     PP .......3333334456.**********************..*****.*.*********9887
+ADZ91788.1/12-64             ----KR-RKKAGHHGGA.WKIALADFALAMMAFFLVLWII..NVASP.Q.ELAAIEGYFNDPL
+#=GR ADZ91788.1/12-64     PP ....22.3457899999.**********************..*****.*.**********985
+USF23675.1/3-52              ---KKKCPECPKGA-PK.WMTTFSDMTTLLLTFFVLLLSM..ANFDK.V.KIEQSFGIL----
+#=GR USF23675.1/3-52      PP ...45556666665.55.**********************..*****.*.***987665....
+AJJ32917.1/17-67             ----N-RKKHHVRHSGA.WKVAFADFTLAMMALFMVLWIV..GVVSE.E.ERQEIVAQLNG--
+#=GR AJJ32917.1/17-67     PP ....3.345788899**.**********************..*****.*.*******9985..
+AKS90452.1/17-67             ----N-RKKHHVRHSGA.WKVAFADFTLAMMALFMVLWIV..GVVSE.E.ERQEIVAQLNG--
+#=GR AKS90452.1/17-67     PP ....3.345788899**.**********************..*****.*.*******9985..
+EDR31653.1/17-67             ----N-RKKHHVRHSGA.WKVAFADFTLAMMALFMVLWIV..GVVSE.E.ERQEIVAQLNG--
+#=GR EDR31653.1/17-67     PP ....3.345788899**.**********************..*****.*.*******9985..
+AJJ55251.1/17-67             ----N-RKKHHVRHSGA.WKVAFADFTLAMMALFMVLWIV..GVVSE.E.ERQEIVAQLNG--
+#=GR AJJ55251.1/17-67     PP ....3.345788899**.**********************..*****.*.*******9985..
+AAC07085.1/4-53              -KKKEECPK-----PPA.WLTSFSDLMSLLLTFFILLYAM..STLEI.P.ALEKFLSYFRK--
+#=GR AAC07085.1/4-53      PP .44444333.....346.**********************..*****.*.*********96..
+AGH96261.1/17-62             ---------GGGHHGGS.WKVALADFMTALMAFFLVMWLV..GQSEE.T.-KKAVSDYFST--
+#=GR AGH96261.1/17-62     PP .........57899999.**********************..97765.5..5789999986..
+WP_015470751.1/17-62         ---------GGGHHGGS.WKVALADFMTALMAFFLVMWLV..GQSEE.T.-KKAVSDYFST--
+#=GR WP_015470751.1/17-62 PP .........57899999.**********************..97765.5..5789999986..
+AIQ89827.1/16-63             -------QDDNEHHGGV.WKIAFADFMTTLMALFLVLWLT..RVTSD.E.TKTSIANYFN---
+#=GR AIQ89827.1/16-63     PP .......4567899999.**********************..*****.*.*********8...
+QBZ82351.1/4-53              -RQRHEECP---EEGGA.WEIALADLMTTLMVFFLVMWLT..SIVDP.D.KRKAFVEAL----
+#=GR QBZ82351.1/4-53      PP .44444444...34567.**********************..*****.*.*****9998....
+GAK41227.1/1-40              -----------------.-MITYADLITLLLIFFVMMYAM..SRLDA.S.KYEEVTSSLQTTF
+#=GR GAK41227.1/1-40      PP ...................8********************..*****.*.**********987
+AHZ83631.1/18-62             ----------GGHHGGS.WKVALADFMTALMAFFLVMWLV..GQSEE.T.-KKAVSDYFST--
+#=GR AHZ83631.1/18-62     PP ..........6899999.**********************..97765.5..5789999986..
+WP_011165606.1/18-62         ----------GGHHGGS.WKVALADFMTALMAFFLVMWLV..GQSEE.T.-KKAVSDYFST--
+#=GR WP_011165606.1/18-62 PP ..........6899999.**********************..97765.5..5789999986..
+QCG49372.1/11-63             --RQQR-RNHGPKAGGA.WKVAFADFTLAMMAFFMVLWIL..AVSNQ.E.ERTAVASRLRD--
+#=GR QCG49372.1/11-63     PP ..3333.456778899*.**********************..*****.*.******99986..
+AFV42027.1/4-54              -----KNKPTECPAGEK.WAVPYADFLSLLLTLFIALYAI..SAVNK.S.KVEALKTEFIK--
+#=GR AFV42027.1/4-54      PP .....33456778899*.**********************..*****.*.*****999865..
+CNK28478.1/17-67             ----AR-KKYESGHSGA.WKVAFADFTLAMMALFMVLWIV..GVVSE.E.ERQEIVAQLNG--
+#=GR CNK28478.1/17-67     PP ....33.34567899**.**********************..*****.*.*******9985..
+CBG33121.1/19-70             -RQIK--KNHAGHHGGA.WKVAFADFTLAMMALFMTLWIV..NSVSK.S.ERESIIAALH---
+#=GR CBG33121.1/19-70     PP .3334..467899****.**********************..*****.*.******9986...
+AAQ60657.1/20-64             -----R-RNAEEGHGGA.WKVAFADFVLALMCLFLVLWVL..AARDQ.E.NLQQLL-------
+#=GR AAQ60657.1/20-64     PP .....3.45678999**.**********************..*****.*.***986.......
+POT58638.1/19-70             -RQVK--KNHGGHHGGA.WKVAFADFTLAMMALFMTLWIV..NSVSK.A.DRENIVAALH---
+#=GR POT58638.1/19-70     PP .3333..467899****.**********************..*****.*.*****99986...
+WP_027182583.1/4-43          ----EKKPP-EEEGVPM.WLVTFSDLVTLLLTFFVLLLSM..ASMDQ.V.-------------
+#=GR WP_027182583.1/4-43  PP ....23233.3333355.**********************..****9.6..............
+ABZ96342.1/4-56              --KKEKCPEC-IQKVPE.FMATYGDMVTLLLCFFILLYTT..GKTDA.K.EMQIILSAFKS--
+#=GR ABZ96342.1/4-56      PP ..45555554.444566.**********************..*****.*.*********97..
+KLP54163.1/16-65             ----SR-KSHDTFHGGA.WKVAFADFTLAMMALFMVLWIM..GAVTE.E.ERKEIVSLLN---
+#=GR KLP54163.1/16-65     PP ....33.456788999*.**********************..*****.*.*****99887...
+ADC89567.1/4-55              ---RKK---CPEEVSER.WAIPYADFLTLLLCLFIALFAM..AQAGK.Q.AALEYAQAFARAF
+#=GR ADC89567.1/4-55      PP ...333...3445789*.**********************..*****.*.*********9997
+AHE95899.1/3-55              --KKKK---CPEEVSEK.WAIPYADFLTLLLCLFIALFAM..AQAGK.Q.AALEYAQAFAKAF
+#=GR AHE95899.1/3-55      PP ..3344...44467789.**********************..*****.*.**********998
+ADB18998.1/9-55              -----------AGI-PE.WVVTFGDMMSLLLTFFILLASM..SEIKQ.NdKFQGVADSMHEQF
+#=GR ADB18998.1/9-55      PP ...........333.45.**********************..***98.66*********9887
+CAE09443.1/4-57              -----KCPPCDCKKGLPlWLGTFGDLMSLLLTFFILLLSM..ATFEK.Q.KIEQAIGSIQGAL
+#=GR CAE09443.1/4-57      PP .....4556666667788**********************..*****.*.**********985
+CDK98227.1/7-54              --------KQSQEVDAS.WMETYGDMVTLLLCFFIMLASI..SKIDT.V.LFEKVQSGMTS--
+#=GR CDK98227.1/7-54      PP ........233334458.**********************..*****.*.****9998875..
+AWG41585.1/5-51              ----RR---APRGAAQG.WLTTYSDMVTLMLCFFVMLFNP..TEVDI.T.VLQSIAASI----
+#=GR AWG41585.1/5-51      PP ....33...23345556.**********************..*****.*.******997....
+UOY13874.1/5-51              ----RR---APRGAAQG.WLTTYSDMVTLMLCFFVMLFNP..TEVDI.T.VLQSIAASI----
+#=GR UOY13874.1/5-51      PP ....33...23345556.**********************..*****.*.******997....
+SCA58682.1/11-54             --------------TAPfFMLTYGDLMTLLLTFFILLFTM..STIQV.V.KFQAQIGAIKGA-
+#=GR SCA58682.1/11-54     PP ..............44559*********************..*****.*.******999987.
+QDU26962.1/14-59             -------------RTPD.WLITYSDLMTLLLVMFVLLFSL..SEFKQsE.KFQGVARSIHAKF
+#=GR QDU26962.1/14-59     PP .............4456.**********************..**98736.9******998766
+CAD76170.1/10-54             --------------IPE.WVVTFGDMMSLLLTFFIMLVSL..SEIKE.EeTYQALVDSMQQQF
+#=GR CAD76170.1/10-54     PP ..............345.**********************..***87.5389********987
+ABC43839.1/7-45              -----------------.WMTTYGDIMTLLVTFFVLLISM..SEIRM.K.KFRDAISNFQR--
+#=GR ABC43839.1/7-45      PP ..................**********************..*****.*.********996..
+ATU65954.1/24-70             ---GGKRHE-HDEHGGA.WKVAFADFCLALMCLFLVLWLM..AARQQ.E.LIQEVM-------
+#=GR ATU65954.1/24-70     PP ...444454.566889*.**********************..***99.9.999987.......
+BAH75113.1/11-58             ---R--------HEDEDlWPISLADMMTLLLCFFLLIVAV..SHVDL.N.RYERVADSMQQAM
+#=GR BAH75113.1/11-58     PP ...2........233344**********************..*****.*.**********986
+ADG94139.1/14-56             ----------------PgWLVQFGDLMSLLLTFFILLLSM..AVMDK.K.KVEEYFDIMRKAM
+#=GR ADG94139.1/14-56     PP ................22**********************..*****.*.******9999885
+ATX82902.1/4-52              -KREK--KKPEKVDTEG.WVMTFGDLISLMLTFFVLIVSM..STMDD.L.TLKEISD------
+#=GR ATX82902.1/4-52      PP .3333..3445566778.**********************..*****.*.**99986......
+CAE11090.1/5-60              -KRKCKPCD--CVKGLPlWLGTFGDLMSLLLTFFILLLSM..ATFDA.K.KLTEAEGSIQGAL
+#=GR CAE11090.1/5-60      PP .45555444..4444577**********************..*****.*.*********9985
+ADZ92427.1/20-69             --------SSADKGKDR.WVLSYADFITLLFAFFVALYSI..SLKQA.G.NEKQLTETLNGVF
+#=GR ADZ92427.1/20-69     PP ........445556789.**********************..*****.*.********99876
+ATC63649.1/3-47              ------------GKGGA.WKVAYADFVTAMMALFMVLWIC..S-QDK.E.VLIATSEYFQNPF
+#=GR ATC63649.1/3-47      PP ............57889.********************99..5.8**.*.***********98
+BAH74759.1/20-68             ---------EESEAPSE.WLTTLADMSMLLMSFFIMLFSM..SSLDV.K.KFSESFTSVKTAL
+#=GR BAH74759.1/20-68     PP .........44555567.**********************..*****.*.******9999875
+QDU25288.1/3-48              -----------GGGGGA.WKVAYADFVTAMMAFFMVMWLV..GQ-KE.D.LKEAVAHHFNHPF
+#=GR QDU25288.1/3-48      PP ...........567899.**********************..85.56.6.6788888888776
+AAW87257.1/12-49             -------------DDND.WMMTYSDAITLLLAFFVLIVAV..SQVNE.G.KLEELK-------
+#=GR AAW87257.1/12-49     PP .............3447.**********************..*****.*.***986.......
+ADY60069.1/5-61              -KKQVVQD-EPPPGVPE.WVVTYGDMMSLLLTFFIMLVSL..SEMKQ.DgEMRAMLDALEERF
+#=GR ADY60069.1/5-61      PP .4444444.44555577.**********************..***98.659999999998766
+ATX78567.1/4-52              -KREK--KTPEKVDTEG.WVMTFGDLISLMLTFFVLIVSM..STMDN.L.TLKEISD------
+#=GR ATX78567.1/4-52      PP .3333..3445666778.**********************..*****.*.**99986......
+AOO65114.1/4-53              -----KCKKVVCEAGEK.WAVPFSDFFSLLLALFIALFAI..ASTNT.E.KMKALKEEFV---
+#=GR AOO65114.1/4-53      PP .....33345567889*.**********************..*****.*.*****99986...
+AAS69244.1/10-54             -----------IQNIPE.YMLTYGDMVTLLLCFFIMLYTT..GKTNA.I.EMQIILSAFKT--
+#=GR AAS69244.1/10-54     PP ...........345566.**********************..*****.*.*********97..
+EKT86692.1/10-54             -----------IQNIPE.YMLTYGDMVTLLLCFFIMLYTT..GKTNA.I.EMQIILSAFKT--
+#=GR EKT86692.1/10-54     PP ...........345566.**********************..*****.*.*********97..
+ADZ91330.1/12-53             ---------------AG.WIVTYADLMSLLLVFFILLYSL..SKLTE.S.TLVSALSSIQIA-
+#=GR ADZ91330.1/12-53     PP ...............23.**********************..*****.*.*****9999976.
+ABI77549.1/17-62             ---------MPTRKTGT.WKLAYADFLTALVAFFMLMWLV..SGVSK.E.DRAVIASEFT---
+#=GR ABI77549.1/17-62     PP .........55667889.**********************..*****.*.*******997...
+DGBBEKCF_02485/3-47          ----------GGHGGGS.WKVAYADFMTSMFALFLCLWIM..G-ADE.E.TKRAIEDYFQG--
+#=GR DGBBEKCF_02485/3-47  PP ..........5677889.**********************..6.799.9.999*****996..
+PKPEBJJI_00565/3-47          ----------GGHGGGS.WKVAYADFMTSMFALFLCLWIM..G-ADE.E.TKRAIEDYFQG--
+#=GR PKPEBJJI_00565/3-47  PP ..........5677889.**********************..6.799.9.999*****996..
+ADY58689.1/9-47              --------------VPE.WVVTYGDMMSLLLTFFIMLVSL..SEVKA.EkKYRAIIE------
+#=GR ADY58689.1/9-47      PP ..............346.**********************..***98.626677666......
+QDU97594.1/12-54             ----------------E.WVVTFGDMMSLLLTFFIMLVSL..SEIKQ.EdKYQAMLASLHAQF
+#=GR QDU97594.1/12-54     PP ................5.**********************..***97.669*******98876
+AGC49896.1/3-43              ---------------GS.WKVAYADFVTAMMAFFLLMWIL..AMTPP.E.VKEGLAAYFSS--
+#=GR AGC49896.1/3-43      PP ...............78.**********************..*****.*.*********97..
+GAA03429.1/1-40              -----------------.-MATFADLATLLMCFFVLLLSF..SEMDV.L.KFKQIAGSMKYAF
+#=GR GAA03429.1/1-40      PP ...................89*******************..*****.*.*********9887
+EAR29228.1/1-40              -----------------.-MGTFADLMSLLMCFFVLLLAM..SEMDV.L.KFKQIAGSMKFAF
+#=GR EAR29228.1/1-40      PP ...................669******************..*****.*.*********9887
+ACM01413.1/24-74             -------PKCPPPGAPA.WLATFADIATNLMAFFVLILGF..AKFDE.P.SFSKMAGAMRETF
+#=GR ACM01413.1/24-74     PP .......4555566678.**********************..*****.*.**********987
+WP_015920815.1/24-74         -------PKCPPPGAPA.WLATFADIATNLMAFFVLILGF..AKFDE.P.SFSKMAGAMRETF
+#=GR WP_015920815.1/24-74 PP .......4555566678.**********************..*****.*.**********987
+AAS96701.1/15-59             ---------DEPPN--E.WMTTLSDISMLLLAFFILLFSL..SSIDK.K.RFAESFETVRM--
+#=GR AAS96701.1/15-59     PP .........33444..7.**********************..*****.*.**998887765..
+AEO48325.1/11-61             ----HDAP--EHDDTDA.WLISFADMSCLLLGFFAMLASI..SSVDL.V.QYEKVKAGIQES-
+#=GR AEO48325.1/11-61     PP ....3333..3445568.**********************..*****.*.*****9999875.
+AEO49368.1/25-53             -------------AANL.WLVTFSDLVLLLLAFFVMLFAM..SPM--.-.-------------
+#=GR AEO49368.1/25-53     PP .............3345.**********************..*87..................
+AEM21070.1/14-69             ----GDKAQVPGPSAPL.WLQTYGDFVTLVLTFFVMLLATmsSSVND.S.SIQLIATAFQGSF
+#=GR AEM21070.1/14-69     PP ....3334445555555.*******************9844489***.*.**********987
+EAS76272.1/13-38             ------------PGL-PlWMGTFADLMSLLMCFFVLLLS-..-----.-.-------------
+#=GR EAS76272.1/13-38     PP ............232.44*******************87........................
+CCG57547.1/14-69             ----GDKAQVPGPSAPL.WLQTYGDFVTLVLTFFVLLLSTmsESISD.S.TMQLLATAFQGSF
+#=GR CCG57547.1/14-69     PP ....3334445555555.*******************9852257999.9.99******99987
+ACK74465.1/7-42              --KPSK---CDEG-SPD.YMLTYGDMVTLLLVFFVTMFSL..NDI--.-.-------------
+#=GR ACK74465.1/7-42      PP ..3333...3333.345.*********************9..976..................
+AGC49900.1/13-58             ------------DKNDG.WLTVFCDISLLLLTFFILILSM..SSLDK.E.KFDSSFSAIRDTF
+#=GR AGC49900.1/13-58     PP ............33455.**********************..*****.*.*****99999987
+QAT63224.1/15-48             -----------DDESPG.WLTSYSDMMTDLLAIFVILFSF..AIADR.V.-------------
+#=GR QAT63224.1/15-48     PP ...........333344.**********************..99886.5..............
+BAH74234.1/2-37              -----------------.---AYADFVTAMMAFFLLLWLV..VSLKP.Q.TKQELSLVFQD--
+#=GR BAH74234.1/2-37      PP .....................8******************..*****.*.*****999986..
+EEQ12176.1/1-33              -----------------.--------MTAMMAFFLVMWLL..SVSSP.Q.ELTQIADYFRTPL
+#=GR EEQ12176.1/1-33      PP ..........................9*************..*****.*.**********985
+EEQ10988.1/1-32              -----------------.--------MTAMMAFFLVMWLL..SSSTP.L.QREQIADYFKMP-
+#=GR EEQ10988.1/1-32      PP ..........................9*************..*****.*.*********987.
+QBZ82339.1/9-45              --------------RSS.WLFSFGDLVTLLITFFIMMIVL..NKGEI.S.QVQKWA-------
+#=GR QBZ82339.1/9-45      PP ..............457.********************99..99888.8.887765.......
+EHM44109.1/13-46             ----------GDEAEKP.FWISYADLMTAMMVLFLVVMVA..SLSSV.-.-------------
+#=GR EHM44109.1/13-46     PP ..........2234457.99**************775544..43333................
+ATX78593.1/36-64             -----------EITQDT.WMVSYLDLVTLLLSLFIVMGTL..N----.-.-------------
+#=GR ATX78593.1/36-64     PP ...........445678.*******************766..5....................
+ATX82929.1/36-64             -----------EITQDT.WMVSYLDLVTLLLSLFIVMGTL..N----.-.-------------
+#=GR ATX82929.1/36-64     PP ...........445678.*******************766..5....................
+AMO80629.1/14-45             -----------DEAEKP.FWISYADLMTAMMVLFLVVMVA..SLSS-.-.-------------
+#=GR AMO80629.1/14-45     PP ...........334557.99**************765443..3332.................
+GHD92254.1/2-36              -----------------.---AFADFTLAMMALFMTLWIV..NSVSK.S.ERESIMAALH---
+#=GR GHD92254.1/2-36      PP .....................8******************..*****.*.******9986...
+UBQ06689.1/68-98             ----------AVPEEEG.WLITYLDVMTLLLVMLVLMLAF..SE---.-.-------------
+#=GR UBQ06689.1/68-98     PP ..........4445566.**********************..96...................
+ACL73102.1/26-57             -----------DEH--A.WILTYLDMLTLVLVLFVVLLAY..TRPEE.D.-------------
+#=GR ACL73102.1/26-57     PP ...........233..6.********************98..76655.5..............
+ATO49113.1/11-47             ------------ELEKS.WLLSYSDLITLLFIIVIIIAAM..YSAQV.K.QQQQ---------
+#=GR ATO49113.1/11-47     PP ............34457.**********************..99998.8.8877.........
+ABK43517.1/16-51             --------------DNP.FWISYADLMTALVMLFLVVMSI..SMIAV.A.SRDEV--------
+#=GR ABK43517.1/16-51     PP ..............347.89********************..*9988.7.77665........
+ACN16727.1/49-73             --------------RGG.WSVSWSDLMMTMFILFVVMYVY..-----.-.-------------
+#=GR ACN16727.1/49-73     PP ..............355.********************86.......................
+CAQ68801.1/14-42             -----------EEGEKP.FWISFSDLMTALMVLFLVALSV..A----.-.-------------
+#=GR CAQ68801.1/14-42     PP ...........222347.99***************97776..5....................
+ALA59738.1/15-41             ----------EP--EKP.FWISFSDLMTALMVLFLVAMSV..-----.-.-------------
+#=GR ALA59738.1/15-41     PP ..........22..236.99**************996655.......................
+ATX82901.1/4-56              --KSKKESEDPKSN---.FDMLFLQLMMIMMAFFILLSAL..SVIID.E.KRLKALNSIAGAF
+#=GR ATX82901.1/4-56      PP ..445544545555....9999999***************..*****.*.*999999999887
+ACV75190.1/6-44              --------------NSR.WTVSYIDLLMTILGFFVLLYAR..----E.H.DPKEVADSLRSA-
+#=GR ACV75190.1/6-44      PP ..............468.********************86......4.4.455555665555.
+ATX78566.1/11-57             --------EDPKSN---.FDMLFLQLMMIMMAFFILLSAL..SVIVD.E.KRLKALNSIAGAF
+#=GR ATX78566.1/11-57     PP ........334444....77778889**************..*****.*.**99999999887
+BAI84978.2/2-27              -----------------.---------------FIVLYAS..SSIDA.A.KFQMLSKSFNEVF
+#=GR BAI84978.2/2-27      PP .................................*******..*****.*.**********976
+SHJ21804.1/27-58             -----------------.---------IILLAFFIVLNSI..AVVDE.Q.AKREALGSLIGSF
+#=GR SHJ21804.1/27-58     PP ...........................67***********..*****.*.******9997766
+AEO49370.1/25-57             -----------------.--------YLLLLAFFIALVSV..SIPEQ.P.RAQAVVDSLTKTF
+#=GR AEO49370.1/25-57     PP ..........................579***********..*****.*.*********9987
+QNQ09332.1/12-45             -------------GR-PiWLMTLADLALLLVGFFVFVQAA..QHLDQ.K.AL-----------
+#=GR QNQ09332.1/12-45     PP .............23.45*******************999..99999.8.76...........
+#=GC PP_cons                 34444444556677788.**********************..*****.*.*********9886
+#=GC RF                      xxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxx..xxxxx.x.xxxxxxxxxxxxx
+//

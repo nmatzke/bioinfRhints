@@ -152,7 +152,7 @@ get_adjacent_row <- function(rownum, shift, prot_feature_tables_all_df)
 
 
 
-get_adjacent_genes <- function(list_of_protIDs, prot_feature_tables_all_df, genomes_to_spnames_df, printwarnings=FALSE)
+get_adjacent_genes <- function(list_of_protIDs, prot_feature_tables_all_df, genomes_to_spnames_df=NULL, printwarnings=FALSE, prot_feature_tables_all_fn=NA)
 	{
 	genome_names_not_found = NULL
 	protIDs_not_found = NULL
@@ -180,13 +180,19 @@ get_adjacent_genes <- function(list_of_protIDs, prot_feature_tables_all_df, geno
 		# Get basic info
 		assembly = prot_feature_tables_all_df$assembly[gene_num]
 		
-		if (printwarnings == FALSE)
+		if (is.null(genomes_to_spnames_df) == TRUE)
 			{
-			group = suppressWarnings(get_group_from_genome_ID(assembly=assembly, genomes_to_spnames_df=genomes_to_spnames_df, printwarnings=FALSE))
-			spname = suppressWarnings(get_spname_from_genome_ID(assembly=assembly, genomes_to_spnames_df=genomes_to_spnames_df, printwarnings=FALSE))	
+			group = NA
+			spname = NA
 			} else {
-			group = get_group_from_genome_ID(assembly=assembly, genomes_to_spnames_df=genomes_to_spnames_df, printwarnings=TRUE)
-			spname = get_spname_from_genome_ID(assembly=assembly, genomes_to_spnames_df=genomes_to_spnames_df, printwarnings=TRUE)	
+			if (printwarnings == FALSE)
+				{
+				group = suppressWarnings(get_group_from_genome_ID(assembly=assembly, genomes_to_spnames_df=genomes_to_spnames_df, printwarnings=FALSE))
+				spname = suppressWarnings(get_spname_from_genome_ID(assembly=assembly, genomes_to_spnames_df=genomes_to_spnames_df, printwarnings=FALSE))	
+				} else {
+				group = get_group_from_genome_ID(assembly=assembly, genomes_to_spnames_df=genomes_to_spnames_df, printwarnings=TRUE)
+				spname = get_spname_from_genome_ID(assembly=assembly, genomes_to_spnames_df=genomes_to_spnames_df, printwarnings=TRUE)	
+				}
 			}
 
 		# Look at near-neighbors

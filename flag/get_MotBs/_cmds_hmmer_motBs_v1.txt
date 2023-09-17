@@ -1,0 +1,218 @@
+#######################################################
+# Get MotB homologs using HMMER
+#######################################################
+# 2023-05-17
+# Pre-calculated protein profiles are available for download here:
+# https://www.ebi.ac.uk/interpro/download/Pfam/
+# 
+# These may be useful for aligning our sequences against these profiles, via hmmalign
+# I downloaded:
+#   Pfam-A Seed alignment	Annotation and seed alignments of all Pfam-A families in Pfam format.
+# ...and copied out the relevant profiles (MotA, MotB, homologs etc.) to separate text/hmm files.
+#
+# To:
+# ~/Downloads/hmmer_try1/Pfam-A.hmm.gz  - 293 MB
+# ~/Downloads/hmmer_try1/Pfam-A.seed.gz - 153 mb
+# ~/Downloads/hmmer_try1/Pfam-A.seed    - 520 mb
+# 
+#
+# We could maybe do this with the 
+#   Pfam-A Full alignment	Annotation and full alignments of all Pfam-A families in Pfam format.
+# 
+# ...which is 4 times bigger, but I bet the difference is marginal.
+# 
+##########################################################################
+
+# Produce hmm profile files (.hmm), from downloaded Interpro stockholm-format profile files (.sto)
+# IPR002898_AQB.hmm
+
+# Pre-calculated Interpro profiles of MotB & homologs:
+https://www.ebi.ac.uk/interpro/search/text/MotB/?page=1#table
+
+IPR025713
+Motility protein B-like, N-terminal domain
+
+IPR025713	Motility protein B-like, N-terminal domain	
+INTERPRO
+Motility protein B-like, N-terminal domain
+InterPro entry 
+Short name	MotB-like_N_dom
+Description
+This domain is found in MotB, a component of the Escherichia coli MotA/MotB proton-channel complex that forms the stator of the bacterial membrane flagellar motor. Key residues in MotB act as a plug to prevent premature proton flow. The plug is in the periplasm just C-terminal to the MotB TM (transmembrane helix), consisting of an amphipathic α-helix flanked by Pro-52 and Pro-65, eg in D3V2T1. In addition to the Pro residues, Ile-58, Tyr-61, and Phe 62 are also essential for plug function [1, 2].
+
+This domain is also found in ZorB, a distant homologue of MotB. ZorB is a component of the antiviral defense system Zorya type I, composed of ZorA, ZorB, ZorC and ZorD. ZorA and ZorB may assemble in the cell inner membrane [3].
+
+
+IPR006665	OmpA-like domain	
+INTERPRO
+Description
+This entry represents a domain with a β/α/β/α-β(2) structure found in the C-terminal region of many Gram-negative bacterial outer membrane proteins [1], such as porin-like integral membrane proteins (such as ompA) [2], small lipid-anchored proteins (such as pal) [3], and MotB proton channels [4]. The N-terminal half is variable although some of the proteins in this group have the OmpA-like transmembrane domain IPR000498 at the N terminus. OmpA from Escherichia coli is required for pathogenesis, and can interact with host receptor molecules [5]. MotB (and MotA) serves two functions in E. coli, the MotA(4)-MotB(2) complex attaches to the cell wall via MotB to form the stator of the flagellar motor, and the MotA-MotB complex couples the flow of ions across the cell membrane to movement of the rotor [4].
+Other Gram-negative outer membrane proteins with this domain:
+
+
+ * Outer membrane protein P5 from Haemophilus influenzae.
+ * Outer membrane protein P.III/class IV from Neisseria.
+ * Outer membrane porin F (gene oprF) from Pseudomonas.
+ * Protein TpN50 from Treponema pallidum [6].
+ * Peptidoglycan-associated lipoprotein (gene pal) from Escherichia coli, Haemophilus influenzae, Legionella pneumophila and Pseudomonas putida.
+ * Outer membrane lipoprotein P6 from Haemophilus influenzae.
+ * Escherichia coli hypothetical lipoprotein yiaD.
+ * Vibrio parahaemolyticus sodium-type flagellar protein motY [7, 8].
+
+The OmpA-like domain is thought to be responsible for non-covalent interactions with peptidoglycan
+
+
+
+IPR003400.sto
+Biopolymer transport protein ExbD/TolR
+
+IPR006665.sto
+OmpA_domain
+#=GF DR   INTERPRO; IPR006665;
+#=GF DR   PROSITE; PDOC00819;
+#=GF DR   TC; 1.B.6;
+#=GF DR   SCOP; 1r1m; fa;
+#=GF DR   SO; 0100021; polypeptide_conserved_region;
+#=GF CC   The Pfam entry also includes MotB and related proteins which are
+#=GF CC   not included in the Prosite family
+
+IPR025713.sto
+MotB_plug
+#=GF RT   Arrangement of core membrane segments in the MotA/MotB
+#=GF RT   proton-channel complex of Escherichia coli.
+#=GF RA   Braun TF, Al-Mawsawi LQ, Kojima S, Blair DF;
+#=GF RL   Biochemistry. 2004;43:35-45.
+#=GF DR   INTERPRO; IPR025713
+
+
+
+#######################################################
+# Convert precalculated Interpro alignments/profiles to hmmer hmm format
+#######################################################
+cd /GitHub/bioinfRhints/flag/get_MotBs/precalculated_profiles_MotBs/
+
+hmmbuild IPR003400.hmm IPR003400.sto
+hmmbuild IPR006665.hmm IPR006665.sto
+hmmbuild IPR025713.hmm IPR025713.sto
+cp *.hmm /GitHub/bioinfRhints/flag/get_MotBs/
+cd ..
+
+
+# Downloaded genomes to search are at:
+# /Downloads/z_genomes_wLitLinks_processing/genomes_wLitLinks.fasta
+# /Downloads/z_genomes_wLitLinks_adding/2023-08-03_proteomes_new/22_added_genomes.fasta
+genomes_wLitLinks.fasta
+
+cat ~/Downloads/z_genomes_wLitLinks_processing/genomes_wLitLinks.fasta ~/Downloads/z_genomes_wLitLinks_adding/4_added_genomes.fasta ~/Downloads/z_genomes_wLitLinks_adding/2023-08-03_proteomes_new/22_added_genomes.fasta > ~/Downloads/z_genomes_wLitLinks_processing/genomes_wLitLinks+4+22.fasta
+
+ls -la  ~/Downloads/z_genomes_wLitLinks_processing/*.fasta
+wc -l ~/Downloads/z_genomes_wLitLinks_processing/genomes_wLitLinks+4+22.fasta
+
+#   --noali          : don't output alignments, so output is smaller
+# save multiple alignment of all hits to file: 
+# -A IPR003400_MotB_ExbD_TolR_hits_alned.sto
+# save parseable table of per-sequence hits to file:
+# --tblout IPR003400_MotB_ExbD_TolR_seqHitsTable.txt
+
+
+
+# Run HMM searches with various hmm profiles and databases
+cd /GitHub/bioinfRhints/flag/get_MotBs/
+
+hmmsearch --noali -E 10.0 --incdomE 2.0 -A IPR003400_MotB_ExbD_TolR_hits_alned1.sto --tblout IPR003400_MotB_ExbD_TolR_seqHitsTable1.txt IPR003400.hmm ~/Downloads/z_genomes_wLitLinks_processing/genomes_wLitLinks+4+22.fasta | tee IPR003400_hmmsearch_screenoutput1.txt &
+
+hmmsearch --noali -E 10.0 --incdomE 2.0 -A IPR003400_MotB_ExbD_TolR_hits_alned2.sto --tblout IPR003400_MotB_ExbD_TolR_seqHitsTable2.txt IPR003400.hmm ~/Downloads/z_proteomes_wFns/proteins_orig_plus_flag1-5_wFNs.fasta | tee IPR003400_hmmsearch_screenoutput2.txt &
+
+
+hmmsearch --noali -E 10.0 --incdomE 2.0 -A IPR006665_MotB_ExbD_TolR_hits_alned1.sto --tblout IPR006665_MotB_ExbD_TolR_seqHitsTable1.txt IPR006665.hmm ~/Downloads/z_genomes_wLitLinks_processing/genomes_wLitLinks+4+22.fasta | tee IPR006665_hmmsearch_screenoutput1.txt &
+
+hmmsearch --noali -E 10.0 --incdomE 2.0 -A IPR006665_MotB_ExbD_TolR_hits_alned2.sto --tblout IPR006665_MotB_ExbD_TolR_seqHitsTable2.txt IPR006665.hmm ~/Downloads/z_proteomes_wFns/proteins_orig_plus_flag1-5_wFNs.fasta | tee IPR006665_hmmsearch_screenoutput2.txt &
+
+
+hmmsearch --noali -E 10.0 --incdomE 2.0 -A IPR025713_MotB_ExbD_TolR_hits_alned1.sto --tblout IPR025713_MotB_ExbD_TolR_seqHitsTable1.txt IPR025713.hmm ~/Downloads/z_genomes_wLitLinks_processing/genomes_wLitLinks+4+22.fasta | tee IPR025713_hmmsearch_screenoutput1.txt &
+
+hmmsearch --noali -E 10.0 --incdomE 2.0 -A IPR025713_MotB_ExbD_TolR_hits_alned2.sto --tblout IPR025713_MotB_ExbD_TolR_seqHitsTable2.txt IPR025713.hmm ~/Downloads/z_proteomes_wFns/proteins_orig_plus_flag1-5_wFNs.fasta | tee IPR025713_hmmsearch_screenoutput2.txt &
+
+
+# Manually edit the hits table
+
+cp IPR003400_MotB_ExbD_TolR_seqHitsTable1.txt IPR003400_MotB_ExbD_TolR_seqHitsTable1_cut_misses.txt
+open IPR003400_MotB_ExbD_TolR_seqHitsTable1_cut_misses.txt
+
+cp IPR003400_MotB_ExbD_TolR_seqHitsTable2.txt IPR003400_MotB_ExbD_TolR_seqHitsTable2_cut_misses.txt
+open IPR003400_MotB_ExbD_TolR_seqHitsTable2_cut_misses.txt
+
+
+cp IPR006665_MotB_ExbD_TolR_seqHitsTable1.txt IPR006665_MotB_ExbD_TolR_seqHitsTable1_cut_misses.txt
+open IPR006665_MotB_ExbD_TolR_seqHitsTable1_cut_misses.txt
+
+cp IPR006665_MotB_ExbD_TolR_seqHitsTable2.txt IPR006665_MotB_ExbD_TolR_seqHitsTable2_cut_misses.txt
+open IPR006665_MotB_ExbD_TolR_seqHitsTable2_cut_misses.txt
+
+
+cp IPR025713_MotB_ExbD_TolR_seqHitsTable1.txt IPR025713_MotB_ExbD_TolR_seqHitsTable1_cut_misses.txt
+open IPR025713_MotB_ExbD_TolR_seqHitsTable1_cut_misses.txt
+
+cp IPR025713_MotB_ExbD_TolR_seqHitsTable2.txt IPR025713_MotB_ExbD_TolR_seqHitsTable2_cut_misses.txt
+open IPR025713_MotB_ExbD_TolR_seqHitsTable2_cut_misses.txt
+
+mkdir z_2023-09-17_cut_misses_manual
+cd z_2023-09-17_cut_misses_manual
+cp ../*_cut_misses.txt .
+ls -la *_cut_misses.txt 
+cd ..
+
+# Extract the IDs from the hits table
+grep -v "^#" IPR003400_MotB_ExbD_TolR_seqHitsTable1_cut_misses.txt | awk '{print $1}' > IPR003400_MotB_ExbD_TolR_seqHitsTable1_cut_misses_IDs.txt
+grep -v "^#" IPR003400_MotB_ExbD_TolR_seqHitsTable2_cut_misses.txt | awk '{print $1}' > IPR003400_MotB_ExbD_TolR_seqHitsTable2_cut_misses_IDs.txt
+grep -v "^#" IPR006665_MotB_ExbD_TolR_seqHitsTable1_cut_misses.txt | awk '{print $1}' > IPR006665_MotB_ExbD_TolR_seqHitsTable1_cut_misses_IDs.txt
+grep -v "^#" IPR006665_MotB_ExbD_TolR_seqHitsTable2_cut_misses.txt | awk '{print $1}' > IPR006665_MotB_ExbD_TolR_seqHitsTable2_cut_misses_IDs.txt
+grep -v "^#" IPR025713_MotB_ExbD_TolR_seqHitsTable1_cut_misses.txt | awk '{print $1}' > IPR025713_MotB_ExbD_TolR_seqHitsTable1_cut_misses_IDs.txt
+grep -v "^#" IPR025713_MotB_ExbD_TolR_seqHitsTable2_cut_misses.txt | awk '{print $1}' > IPR025713_MotB_ExbD_TolR_seqHitsTable2_cut_misses_IDs.txt
+
+cat *_cut_misses_IDs.txt > all_MotB_ExbD_TolR_hits_IDs.txt
+
+# Show duplicates from hits table IDs
+awk 'x[$0]++' all_MotB_ExbD_TolR_hits_IDs.txt | wc -l
+
+# Show uniques from hits table IDs
+awk '!x[$0]++' all_MotB_ExbD_TolR_hits_IDs.txt | wc -l
+
+awk '!x[$0]++' all_MotB_ExbD_TolR_hits_IDs.txt > unique_MotB_ExbD_TolR_hits_IDs.txt
+
+
+open unique_MotB_ExbD_TolR_hits_IDs.txt
+
+
+#######################################################
+# Now, let's see which of these HMMER hits match a neighbor of a MotA/AQB homologs
+#######################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+cd ~/Downloads/z_genomes_wLitLinks_adding/2023-08-03_proteomes_new/
+
+# Align sequences
+# Align sequences to precalculated InterPro profile:
+
+cd ~/Downloads/iqtree_genomes_wLitLinks/
+hmmalign --amino --outformat stockholm -o 1283_AQBs_aln.sto IPR002898_AQB.hmm 1283_AQBs.fasta | tee 1283_AQBs_so.txt &
+
+esl-reformat --informat stockholm clustal 1283_AQBs_aln.sto | tee 1283_AQBs_aln.clustal
+
+
+
+hmmsearch --noali -E 10.0 --incdomE 2.0 -A AQBs_22new_wLitLinks_aln.sto --tblout AQBs_22new_wLitLinks_seqHitsTable.txt motA_homologs_compSamp3_noHypotheticals.hmm 22_added_genomes.fasta | tee hmmsearch_22new_screenoutput.txt &
