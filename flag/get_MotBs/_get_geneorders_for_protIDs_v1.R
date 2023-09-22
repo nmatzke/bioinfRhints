@@ -139,12 +139,12 @@ file.copy(from=outfn, to="/GitHub/bioinfRhints/flag/get_MotBs/")
 # /Users/nmat471/HD/GitHub/bioinfRhints/flag/get_MotBs/_cmds_hmmer_motBs_v1.txt
 
 wd = "/Users/nmat471/HD/GitHub/bioinfRhints/flag/get_MotBs/"
-getwd(wd)
+setwd(wd)
 
 xlsfn = "groupTax_1282_mafftConstr_2023-08-07_edit_wGeneOrder.xlsx"
 xls = openxlsx::read.xlsx(xlsfn)
 
-gids = c(xls$acc0, xls$acc1, xls$acc2)
+gids = c(xls$accM3, xls$accM2, xls$accM1, xls$acc1, xls$acc2, xls$acc3)
 
 gids2 = readLines("unique_MotB_ExbD_TolR_hits_IDs.txt")
 
@@ -165,3 +165,105 @@ length(gids2a)
 
 gids2a[TF3]
 length(gids2a)
+length(TF3)
+
+#######################################################
+# Add *matching* MotBs from gene order, and from hmmsearch, to new columns in the Excel file
+#######################################################
+TF_M3 = xls$accM3 %in% gids2a
+TFtmp = grepl(pattern="MotB", x=xls$nameM3, ignore.case=TRUE); TF_M3[TFtmp] = TRUE
+TFtmp = grepl(pattern="ExbD", x=xls$nameM3, ignore.case=TRUE); TF_M3[TFtmp] = TRUE
+TFtmp = grepl(pattern="TolR", x=xls$nameM3, ignore.case=TRUE); TF_M3[TFtmp] = TRUE
+TFtmp = grepl(pattern="AglS", x=xls$nameM3, ignore.case=TRUE); TF_M3[TFtmp] = TRUE
+length(TF_M3)
+sum(TF_M3)
+xls[TF_M3,]
+
+TF_M2 = xls$accM2 %in% gids2a
+TFtmp = grepl(pattern="MotB", x=xls$nameM2, ignore.case=TRUE); TF_M2[TFtmp] = TRUE
+TFtmp = grepl(pattern="ExbD", x=xls$nameM2, ignore.case=TRUE); TF_M2[TFtmp] = TRUE
+TFtmp = grepl(pattern="TolR", x=xls$nameM2, ignore.case=TRUE); TF_M2[TFtmp] = TRUE
+TFtmp = grepl(pattern="AglS", x=xls$nameM2, ignore.case=TRUE); TF_M2[TFtmp] = TRUE
+length(TF_M2)
+sum(TF_M2)
+
+TF_M1 = xls$accM1 %in% gids2a
+TFtmp = grepl(pattern="MotB", x=xls$nameM1, ignore.case=TRUE); TF_M1[TFtmp] = TRUE
+TFtmp = grepl(pattern="ExbD", x=xls$nameM1, ignore.case=TRUE); TF_M1[TFtmp] = TRUE
+TFtmp = grepl(pattern="TolR", x=xls$nameM1, ignore.case=TRUE); TF_M1[TFtmp] = TRUE
+TFtmp = grepl(pattern="AglS", x=xls$nameM1, ignore.case=TRUE); TF_M1[TFtmp] = TRUE
+length(TF_M1)
+sum(TF_M1)
+# 1094
+
+
+TF1 = xls$acc1 %in% gids2a
+TFtmp = grepl(pattern="MotB", x=xls$name1, ignore.case=TRUE); TF1[TFtmp] = TRUE
+TFtmp = grepl(pattern="ExbD", x=xls$name1, ignore.case=TRUE); TF1[TFtmp] = TRUE
+TFtmp = grepl(pattern="TolR", x=xls$name1, ignore.case=TRUE); TF1[TFtmp] = TRUE
+TFtmp = grepl(pattern="AglS", x=xls$name1, ignore.case=TRUE); TF1[TFtmp] = TRUE
+length(TF1)
+sum(TF1)
+# 1094
+
+TF2 = xls$acc2 %in% gids2a
+TFtmp = grepl(pattern="MotB", x=xls$name2, ignore.case=TRUE); TF2[TFtmp] = TRUE
+TFtmp = grepl(pattern="ExbD", x=xls$name2, ignore.case=TRUE); TF2[TFtmp] = TRUE
+TFtmp = grepl(pattern="TolR", x=xls$name2, ignore.case=TRUE); TF2[TFtmp] = TRUE
+TFtmp = grepl(pattern="AglS", x=xls$name2, ignore.case=TRUE); TF2[TFtmp] = TRUE
+length(TF2)
+sum(TF2)
+
+TF3 = xls$acc3 %in% gids2a
+TFtmp = grepl(pattern="MotB", x=xls$name3, ignore.case=TRUE); TF3[TFtmp] = TRUE
+TFtmp = grepl(pattern="ExbD", x=xls$name3, ignore.case=TRUE); TF3[TFtmp] = TRUE
+TFtmp = grepl(pattern="TolR", x=xls$name3, ignore.case=TRUE); TF3[TFtmp] = TRUE
+TFtmp = grepl(pattern="AglS", x=xls$name3, ignore.case=TRUE); TF3[TFtmp] = TRUE
+length(TF3)
+sum(TF3)
+xls[TF3,]
+
+# Choose 1st, 2nd, or 3rd neighbor (choose closest)
+TFs_table = cbind(TF_M3, TF_M2, TF_M1, TF1, TF2, TF3)
+colnums = rep(NA, times=nrow(TFs_table))
+MotB_bestMatch_gid = rep("", times=nrow(TFs_table))
+MotB_bestMatch_name = rep("", times=nrow(TFs_table))
+MotB_bestMatch_symbol = rep("", times=nrow(TFs_table))
+nums = 1:6
+score = c(1,2,3,6,5,4)
+xls_acc = xls[,c("accM3","accM2","accM1","acc1","acc2","acc3")]
+xls_name = xls[,c("nameM3","nameM2","nameM1","name1","name2","name3")]
+xls_symbol = xls[,c("sym3","symM2","symM1","sym1","sym2","sym3")]
+for (i in 1:nrow(TFs_table))
+	{
+	tmpTFs = TFs_table[i,]
+	if (sum(tmpTFs) == 0)
+		{
+		colnums[i] = NA
+		MotB_bestMatch_gid[i] = ""
+		MotB_bestMatch_name[i] = ""
+		MotB_bestMatch_symbol[i] = ""
+		} else {
+		max_score = max(score[tmpTFs])
+		max_score_TF = score == max_score
+		colnums[i] = nums[max_score_TF]
+		MotB_bestMatch_gid[i] = xls_acc[i,colnums[i]]
+		MotB_bestMatch_name[i] = xls_name[i,colnums[i]]
+		MotB_bestMatch_symbol[i] = xls_symbol[i,colnums[i]]
+		} # END if (is.infinite(colnums[i]) == TRUE)
+	} # END for (i in 1:nrow(TFs_table))
+
+MotB_bestmatches_df = as.data.frame(cbind(MotB_bestMatch_gid, MotB_bestMatch_name, MotB_bestMatch_symbol), stringsAsFactors=FALSE)
+head(MotB_bestmatches_df)
+dim(MotB_bestmatches_df)
+sum(MotB_bestmatches_df$MotB_bestMatch_gid == "")
+
+# Add back to the excel spreadsheet
+xls2 = cbind(xls, MotB_bestmatches_df)
+
+outfn2 = "groupTax_1282_mafftConstr_2023-08-07_edit_wGeneOrder_BestMotBs.xlsx"
+openxlsx::write.xlsx(x=xls2, file=outfn2)
+system(paste0("open ", outfn2))
+
+
+

@@ -1440,7 +1440,7 @@ relabel_fastaAln_wGID_first <- function(aln_to_rename, fullnames, split="\\|")
 
 
 
-get_spname_from_assembly_report <- function(assembly_report_table_fn)
+get_spname_from_assembly_report <- function(assembly_report_table_fn, genome_dir)
 	{
 	# Also get the species name from the 
 	# GCA_000005845.2_ASM584v2_assembly_report.txt

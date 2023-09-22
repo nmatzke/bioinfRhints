@@ -185,11 +185,78 @@ open unique_MotB_ExbD_TolR_hits_IDs.txt
 
 
 #######################################################
+# Find the genome file for each hit
+#######################################################
+cd /GitHub/bioinfRhints/flag/get_MotBs/
+head unique_MotB_ExbD_TolR_hits_IDs.txt
+
+
+# This has genome IDs attached:
+~/Downloads/z_proteomes_wFns/proteins_orig_plus_flag1-5_wFNs.fasta
+
+# This does not:
+~/Downloads/z_genomes_wLitLinks_processing/genomes_wLitLinks+4+22.fasta
+
+# Cat everything to 1 file
+# cat *faa > proteins_orig_plus_flag1-5_wFNs.fasta
+# ls -la *.fasta
+
+# Remove duplicate entries: https://www.biostars.org/p/143617/
+# (takes 10 seconds)
+awk '/^>/{f=!d[$1];d[$1]=1}f' proteins_orig_plus_flag1-5_wFNs.fasta > proteins_orig_plus_flag1-5_wFNs_noDups.fasta
+mv proteins_orig_plus_flag1-5_wFNs_noDups.fasta proteins_orig_plus_flag1-5_wFNs.fasta
+
+more proteins_orig_plus_flag1-5_wFNs.fasta
+
+
+# Index for fast searching (requires there are no duplicate entries)
+cat ~/Downloads/z_proteomes_wFns/proteins_orig_plus_flag1-5_wFNs.fasta ~/Downloads/z_genomes_wLitLinks_processing/genomes_wLitLinks+4+22.fasta >  ~/Downloads/z_proteomes_wFns/allprots.fasta
+
+# Remove duplicate entries: https://www.biostars.org/p/143617/
+# (takes 10 seconds)
+awk '/^>/{f=!d[$1];d[$1]=1}f' ~/Downloads/z_proteomes_wFns/allprots.fasta > ~/Downloads/z_proteomes_wFns/allprots_noDups.fasta
+
+mv ~/Downloads/z_proteomes_wFns/allprots_noDups.fasta ~/Downloads/z_proteomes_wFns/allprots.fasta
+
+
+esl-sfetch --index ~/Downloads/z_proteomes_wFns/allprots.fasta
+# Indexed 1230794 sequences (1230794 names).
+# SSI index written to file ~/Downloads/z_proteomes_wFns/allprots.fasta.ssi
+
+
+esl-sfetch -f ~/Downloads/z_proteomes_wFns/allprots.fasta unique_MotB_ExbD_TolR_hits_IDs.txt > unique_MotB_ExbD_TolR_hits_IDs.fasta
+grep -c ">" unique_MotB_ExbD_TolR_hits_IDs.fasta
+# 3281 FASTA entries
+
+
+
+
+
+
+grep -r EGW21660.1 ~/Downloads/z_proteomes_wFns/*.faa
+
+cd /GitHub/bioinfRhints/flag/get_MotBs/
+
+grep -w -f /GitHub/bioinfRhints/flag/get_MotBs/unique_MotB_ExbD_TolR_hits_IDs.txt -r ~/Downloads/z_proteomes_wFns/*.faa | tee output.txt &
+
+
+# Quite slow, but works:
+for each in `cat /GitHub/bioinfRhints/flag/get_MotBs/unique_MotB_ExbD_TolR_hits_IDs.txt`; do
+    fgrep -r -A1 -w $each ~/Downloads/z_proteomes_wFns/*.faa >> /GitHub/bioinfRhints/flag/get_MotBs/unique_MotB_ExbD_TolR_hits_IDs_GenomeIDs.txt
+done &
+jobs
+
+tail /GitHub/bioinfRhints/flag/get_MotBs/unique_MotB_ExbD_TolR_hits_IDs_GenomeIDs.txt; wc -l /GitHub/bioinfRhints/flag/get_MotBs/unique_MotB_ExbD_TolR_hits_IDs_GenomeIDs.txt
+
+open /GitHub/bioinfRhints/flag/get_MotBs/unique_MotB_ExbD_TolR_hits_IDs_GenomeIDs.txt
+
+
+#######################################################
 # Now, let's see which of these HMMER hits match a neighbor of a MotA/AQB homologs
 #######################################################
 
-
-
+# See script:
+# /GitHub/bioinfRhints/flag/get_MotBs/_get_geneorders_for_protIDs_v1.R
 
 
 
