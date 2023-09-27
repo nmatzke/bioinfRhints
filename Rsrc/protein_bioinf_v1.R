@@ -1937,6 +1937,137 @@ read_gene_order_table_HALF <- function(gene_order_table_fn)
 
 
 
+
+
+
+check_xls_for_homologous_gene_neighbor <- function(xls, domains_of_interest, homologous_hits_per_protein_df)
+	{
+	motB_besthit_rows = NULL
+	empty_row = rep("", times=13)
+	names(empty_row) = c("Num", "Query", "Hit.type", "PSSM.ID", "From", "To", "E.Value", "Bitscore", "Accession", "Short.name", "Incomplete", "Superfamily", "numdomains")
+	cat("\nProcessing possible gene neighbor homologs for ", nrow(xls), " rows. Processing row #\n")
+
+	previous_nrow = 0
+	previous_nrow2 = 0
+	for (i in 1:nrow(xls))
+		{
+		cat(i, ",", sep="")
+	
+		if (i > 1)
+			{
+			previous_nrow2 = nrow(motB_besthit_rows)
+			if (previous_nrow != previous_nrow2)
+				{
+				stop()
+				}
+			}
+		previous_nrow = previous_nrow + 1
+
+		# Best guesses, in order
+		tmprow = checkrow_for_homologous_gene_neighbor(i, xls, acc="acc1", name="name1", sym="sym1", domains_of_interest, homologous_hits_per_protein_df); tmprow
+		if (is.null(tmprow) == FALSE) { motB_besthit_rows = rbind(motB_besthit_rows, tmprow); next() }	
+
+		tmprow = checkrow_for_homologous_gene_neighbor(i, xls, acc="acc2", name="name2", sym="sym2", domains_of_interest, homologous_hits_per_protein_df); tmprow
+		if (is.null(tmprow) == FALSE) { motB_besthit_rows = rbind(motB_besthit_rows, tmprow); next() }	
+
+		tmprow = checkrow_for_homologous_gene_neighbor(i, xls, acc="acc3", name="name3", sym="sym3", domains_of_interest, homologous_hits_per_protein_df); tmprow
+		if (is.null(tmprow) == FALSE) { motB_besthit_rows = rbind(motB_besthit_rows, tmprow); next() }	
+	
+		tmprow = checkrow_for_homologous_gene_neighbor(i, xls, acc="accM1", name="nameM1", sym="sym1", domains_of_interest, homologous_hits_per_protein_df); tmprow
+		if (is.null(tmprow) == FALSE) { motB_besthit_rows = rbind(motB_besthit_rows, tmprow); next() }	
+
+		tmprow = checkrow_for_homologous_gene_neighbor(i, xls, acc="accM2", name="nameM2", sym="symM2", domains_of_interest, homologous_hits_per_protein_df); tmprow
+		if (is.null(tmprow) == FALSE) { motB_besthit_rows = rbind(motB_besthit_rows, tmprow); next() }	
+
+		tmprow = checkrow_for_homologous_gene_neighbor(i, xls, acc="accM3", name="nameM3", sym="symM3", domains_of_interest, homologous_hits_per_protein_df); tmprow
+		if (is.null(tmprow) == FALSE) { motB_besthit_rows = rbind(motB_besthit_rows, tmprow); next() }	
+
+		if (is.null(tmprow) == TRUE)
+			{
+			tmprow = empty_row
+			cat(i, ",", sep="")
+
+			}
+		motB_besthit_rows = rbind(motB_besthit_rows, tmprow)
+		}
+	cat("...done.\n")
+	return(motB_besthit_rows)
+	}
+
+
+checkrow_for_homologous_gene_neighbor <- function(i, xls, acc="acc1", name="name1", sym="sym1", domains_of_interest, homologous_hits_per_protein_df)
+	{
+	# Best guesses, in order
+	gid = strsplit(xls[,acc][i], split="\\.")[[1]][1]
+	if (length(gid) == 0)
+		{
+		return(NULL)
+		}
+
+	if (is.na(gid) == TRUE)
+		{
+		return(NULL)
+		}
+
+	
+	foundTF = FALSE
+	for (j in 1:length(domains_of_interest))
+		{
+		if (grepl(pattern=domains_of_interest[j], x=xls[,name][i], ignore.case=TRUE) == TRUE)
+			{
+			foundTF = TRUE
+			} else {
+			if (grepl(pattern=domains_of_interest[j], x=xls[,sym][i], ignore.case=TRUE) == TRUE)
+				{
+				foundTF = TRUE
+				}
+			}
+		} # END
+	if (foundTF == TRUE)
+		{
+		TFrow = grepl(pattern=gid, x=domain_hits_per_protein_df$Query, ignore.case=TRUE)
+		rownum = (1:nrow(domain_hits_per_protein_df))[TFrow]
+		tmprow = domain_hits_per_protein_df[rownum, ]
+		
+		if (nrow(tmprow) == 0)
+			{
+			foundTF = FALSE
+			}
+		}
+	
+	# If still not found, try homologous_hits_per_protein_df
+	if (foundTF == FALSE)
+		{
+		TFrow = grepl(pattern=gid, x=homologous_hits_per_protein_df$Query, ignore.case=TRUE)
+		#print(gid)
+		if (sum(TFrow) > 0)
+			{
+			rownum = (1:nrow(homologous_hits_per_protein_df))[TFrow]
+			tmprow = homologous_hits_per_protein_df[rownum, ]
+			foundTF = TRUE
+			if (nrow(tmprow) == 0)
+				{
+				foundTF = FALSE
+				}
+			}
+		}
+	
+	if (foundTF == TRUE)
+		{
+		return(tmprow)
+		} else {
+		return(NULL)
+		}
+	}
+
+
+
+
+
+
+
+
+
 nones_to_NA <- function(x)
 	{
 	if (length(x) == 0)

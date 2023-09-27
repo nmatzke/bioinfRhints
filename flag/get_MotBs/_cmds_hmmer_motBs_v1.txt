@@ -230,25 +230,7 @@ grep -c ">" unique_MotB_ExbD_TolR_hits_IDs.fasta
 
 
 
-
-
-
-grep -r EGW21660.1 ~/Downloads/z_proteomes_wFns/*.faa
-
-cd /GitHub/bioinfRhints/flag/get_MotBs/
-
-grep -w -f /GitHub/bioinfRhints/flag/get_MotBs/unique_MotB_ExbD_TolR_hits_IDs.txt -r ~/Downloads/z_proteomes_wFns/*.faa | tee output.txt &
-
-
-# Quite slow, but works:
-for each in `cat /GitHub/bioinfRhints/flag/get_MotBs/unique_MotB_ExbD_TolR_hits_IDs.txt`; do
-    fgrep -r -A1 -w $each ~/Downloads/z_proteomes_wFns/*.faa >> /GitHub/bioinfRhints/flag/get_MotBs/unique_MotB_ExbD_TolR_hits_IDs_GenomeIDs.txt
-done &
-jobs
-
-tail /GitHub/bioinfRhints/flag/get_MotBs/unique_MotB_ExbD_TolR_hits_IDs_GenomeIDs.txt; wc -l /GitHub/bioinfRhints/flag/get_MotBs/unique_MotB_ExbD_TolR_hits_IDs_GenomeIDs.txt
-
-open /GitHub/bioinfRhints/flag/get_MotBs/unique_MotB_ExbD_TolR_hits_IDs_GenomeIDs.txt
+cp unique_MotB_ExbD_TolR_hits_IDs.fasta /GitHub/str2phy/ex/MotB/unique_MotB_ExbD_TolR_hits_IDs.fasta
 
 
 #######################################################
