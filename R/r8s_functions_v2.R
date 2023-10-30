@@ -70,7 +70,7 @@ run_r8s_1calib <- function(tr, calibration_node_tip_specifiers, r8s_method="LF",
 	
 	
 	# Output cmd
-	outcmd = paste(r8s_path, " -v -f ", paste(tmpwd, tmp_r8s_nexus_fn, sep=""), " >> ", paste(tmpwd, tmp_r8s_nexus_log_fn, sep=""), sep="")
+	outcmd = paste(r8s_path, " -v -f ", paste(tmpwd, tmp_r8s_nexus_fn, sep=""), " > ", paste(tmpwd, tmp_r8s_nexus_log_fn, sep=""), sep="")
 
 	print(outcmd)
 	
