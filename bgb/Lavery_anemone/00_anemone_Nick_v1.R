@@ -30,7 +30,7 @@ library(BioGeoBEARS)
 
 # NJM
 # wd = np("~/Documents/desktop stuff/anemones-Jasper Vining/anemone BioGeoBears")   ###anemone
-wd = np("/GitHub/bioinfRhints/bgb/Lavery_Gondwana/")   ###anemone
+wd = np("/GitHub/bioinfRhints/bgb/Lavery_anemone/")   ###anemone
 setwd(wd)
 
 # Double-check your working directory with getwd()
