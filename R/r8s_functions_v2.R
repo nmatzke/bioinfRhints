@@ -17,6 +17,20 @@
 #source(paste(sourcedir, source3, sep=""))
 
 
+checkwd <- function(tmpwd, lastchar_should_be = "/")
+	{
+	# Error check: tmpwd must end in slash.
+	# (for Windows, \\ )
+	
+	characters = strsplit(tmpwd, "")[[1]]
+	if (characters[length(characters)] != "/")
+		{
+		tmpwd = paste(tmpwd, "/", sep="")
+		} else {
+		tmpwd
+		}
+	return(tmpwd)
+	}
 
 
 # Run LF or NPRS algorithm in r8s
