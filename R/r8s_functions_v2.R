@@ -12,9 +12,9 @@
 #source(paste(sourcedir, source3, sep=""))
 
 # Generic R functions - for checkwd
-sourcedir = '/drives/Dropbox/_njm/'
-source3 = '_genericR_v1.R'
-source(paste(sourcedir, source3, sep=""))
+#sourcedir = '/drives/Dropbox/_njm/'
+#source3 = '_genericR_v1.R'
+#source(paste(sourcedir, source3, sep=""))
 
 
 
