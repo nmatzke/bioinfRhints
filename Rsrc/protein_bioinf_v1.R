@@ -3,6 +3,131 @@
 # Source code for bioinformatics tasks
 #######################################################
 
+get_column_widths <- function(header_txt, replace_with_underscores="# ")
+	{
+	ex='
+	header_txt = "# target_name        accession  query_name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description_of_target"
+	replace_with_underscores="# "
+	list_of_column_lengths = get_column_widths(header_txt, replace_with_underscores="# ")
+	list_of_column_lengths
+	'
+	
+	# Replacement text
+	num_underscores = nchar(replace_with_underscores)
+	underscores = rep("_", times=num_underscores)
+	replacement_txt = paste(underscores, collapse="", sep="")
+	replacement_txt
+	header_txt = gsub(pattern=replace_with_underscores, replacement=replacement_txt, x=header_txt)
+	
+	space_positions = gregexpr(pattern=" ", text=header_txt)[[1]]
+
+	list_of_last_spaces = NULL
+	list_of_column_lengths = NULL
+	previous_column_end = 0
+	for (i in 1:(length(space_positions)-1))
+		{
+		current_position = space_positions[i]
+		if (current_position == (space_positions[i+1]-1))
+			{
+			next()
+			} else {
+			list_of_last_spaces = c(list_of_last_spaces, current_position)
+			new_column_end = current_position - previous_column_end
+			previous_column_end = current_position
+			list_of_column_lengths = c(list_of_column_lengths, new_column_end)
+			}
+		}
+	list_of_last_spaces
+	list_of_column_lengths
+	
+	last_width = space_positions[length(space_positions)] - current_position
+	list_of_column_lengths = c(list_of_column_lengths, last_width, 150)
+	
+	return(list_of_column_lengths)
+	} # END get_column_widths <- function(header_txt, replace_with_underscores="# ")
+
+
+
+get_column_widths2 <- function(header_txt, replace_with_dashes="#")
+	{
+	ex='
+	header_txt = "#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------"
+	replace_with_underscores="#"
+	list_of_column_lengths = get_column_widths2(header_txt, replace_with_underscores="# ")
+	list_of_column_lengths
+	'
+	
+	# Replacement text
+	num_underscores = nchar(replace_with_underscores)
+	underscores = rep("-", times=num_underscores)
+	replacement_txt = paste(underscores, collapse="", sep="")
+	replacement_txt
+	header_txt = gsub(pattern=replace_with_underscores, replacement=replacement_txt, x=header_txt)
+	
+	space_positions = gregexpr(pattern=" ", text=header_txt)[[1]]
+
+	list_of_last_spaces = NULL
+	list_of_column_lengths = NULL
+	previous_column_end = 0
+	for (i in 1:(length(space_positions)-1))
+		{
+		current_position = space_positions[i]
+		if (current_position == (space_positions[i+1]-1))
+			{
+			next()
+			} else {
+			list_of_last_spaces = c(list_of_last_spaces, current_position)
+			new_column_end = current_position - previous_column_end
+			previous_column_end = current_position
+			list_of_column_lengths = c(list_of_column_lengths, new_column_end)
+			}
+		}
+	list_of_last_spaces
+	list_of_column_lengths
+	
+	last_width = space_positions[length(space_positions)] - current_position
+	list_of_column_lengths = c(list_of_column_lengths, last_width, 150)
+	
+	return(list_of_column_lengths)
+	} # END get_column_widths <- function(header_txt, replace_with_underscores="# ")
+
+
+
+
+
+
+read_hmmer_hits_table <- function(fn, replace_with_dashes="#")
+	{
+	ex = '
+	library(utils)
+	source("~/GitHub/bioinfRhints/Rsrc/protein_bioinf_v1.R")
+	
+	fn = "~/GitHub/str2phy/ex/ZorAB/Taylor_etal_2023_ZorAB/PADLOC_for_HMMs/ZorB3_00001_seqHitsTable.txt"
+	replace_with_dashes="#"
+	dtf = read_hmmer_hits_table(fn, replace_with_dashes="#")
+	head(dtf)
+	'
+	
+	lines = readLines(fn)
+	header_txt = lines[3]
+	header_txt_for_parsing = lines[2]
+
+	header_txt_for_parsing = gsub(pattern="# target name", replacement="target_name", x=header_txt_for_parsing)
+	header_txt_for_parsing = gsub(pattern="query name", replacement="query_name", x=header_txt_for_parsing)
+	header_txt_for_parsing = gsub(pattern="description of target", replacement="description_of_target", x=header_txt_for_parsing)
+
+	col_names = strsplit(header_txt_for_parsing, split=" +")[[1]]
+
+	widths = get_column_widths2(header_txt=header_txt, replace_with_dashes=replace_with_dashes)
+	widths
+
+	dtf = utils::read.fwf(file=fn, widths=widths, header=FALSE, sep = "\t", skip=0, row.names=NULL, col.names=col_names, comment.char="#", strip.white=TRUE)
+	dtf = as.data.frame(dtf)
+
+	return(dtf)
+	}
+
+
 # Run "trim" on each column of a data.frame or similar
 trim_each_col_in_df <- function(xlsx)
 	{
