@@ -58,11 +58,11 @@ get_column_widths2 <- function(header_txt, replace_with_dashes="#")
 	'
 	
 	# Replacement text
-	num_underscores = nchar(replace_with_underscores)
+	num_underscores = nchar(replace_with_dashes)
 	underscores = rep("-", times=num_underscores)
 	replacement_txt = paste(underscores, collapse="", sep="")
 	replacement_txt
-	header_txt = gsub(pattern=replace_with_underscores, replacement=replacement_txt, x=header_txt)
+	header_txt = gsub(pattern=replace_with_dashes, replacement=replacement_txt, x=header_txt)
 	
 	space_positions = gregexpr(pattern=" ", text=header_txt)[[1]]
 
@@ -89,7 +89,7 @@ get_column_widths2 <- function(header_txt, replace_with_dashes="#")
 	list_of_column_lengths = c(list_of_column_lengths, last_width, 150)
 	
 	return(list_of_column_lengths)
-	} # END get_column_widths <- function(header_txt, replace_with_underscores="# ")
+	} # END get_column_widths <- function(header_txt, replace_with_dashes="# ")
 
 
 
