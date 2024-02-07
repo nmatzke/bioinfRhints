@@ -1,0 +1,159 @@
+
+# Terminal command-line example commands and files
+cd /GitHub/bioinfRhints/terminal/
+
+
+# Print a UNIX manual "man" page to text
+man sed | col -bx > sed_man_page.txt
+
+
+
+
+
+
+cd ~/Downloads/z_genomes_wLitLinks_adding/
+
+# Unzip all of the protein files in a bunch of downloaded directories
+# https://stackoverflow.com/questions/32307136/unzip-files-in-subdirectories-bash
+
+# Find the protein zipfiles
+find ~/Downloads/z_genomes_wLitLinks_adding/GC* -name "*protein.faa.gz"
+
+
+
+# Find the files and unzip
+find ~/Downloads/z_genomes_wLitLinks_adding/GC* -name "*protein.faa.gz" -execdir gunzip '{}' \;
+
+# Move unzipped files to a new directory
+cd ~/Downloads/z_genomes_wLitLinks_adding/
+
+mkdir 2023-08-03_proteomes_new
+
+# Find the unzipped protein files & copy them to new directory
+cd ~/Downloads/z_genomes_wLitLinks_adding/
+
+find ~/Downloads/z_genomes_wLitLinks_adding/GC* -name "*protein.faa" -exec cp '{}' ./2023-08-03_proteomes_new \;
+
+cd ~/Downloads/z_genomes_wLitLinks_adding/2023-08-03_proteomes_new
+ls
+
+#######################################################
+# Concatenate all the *.faa proteome files
+#######################################################
+# (find and cat them)
+# find ~/Downloads/z_genomes_wLitLinks_adding/GC* -name "*protein.faa" -execdir cat '{}' \; > genomes_wLitLinks.fasta
+cd ~/Downloads/z_genomes_wLitLinks_adding/2023-08-03_proteomes_new/
+ls
+
+find ~/Downloads/z_genomes_wLitLinks_adding/2023-08-03_proteomes_new/* -name "*protein.faa"
+find ~/Downloads/z_genomes_wLitLinks_adding/2023-08-03_proteomes_new/* -name "*protein.faa" -execdir cat '{}' \; > 22_added_genomes.fasta
+
+cd ~/Downloads/z_genomes_wLitLinks_adding/2023-08-03_proteomes_new/
+ls
+
+
+
+
+
+
+
+
+
+
+
+
+# Get some data
+cp ~/Downloads/z_genomes_wLitLinks_adding/2024-02-04_proteomes_new/2024-02-04_new_genomes.fasta .
+cp ~/Downloads/z_genomes_wLitLinks_adding/2024-02-04_proteomes_new/2024-02-04_new_genomes.fasta protlist.fasta
+
+# Word counts
+wc protlist.fasta
+
+# Number of lines
+wc -l protlist.fasta
+
+# Count number of fasta headers
+grep -c ">" protlist.fasta
+
+# Concatenate 2 files
+cat protlist.fasta protlist.fasta > protlist2.fasta
+wc -l protlist2.fasta
+grep -c ">" protlist2.fasta
+
+# Remove duplicate fasta entries, based on the first word (gid, $1)
+grep -c ">" protlist2.fasta
+awk '/^>/{f=!d[$1];d[$1]=1}f' protlist2.fasta > temp.fasta
+grep -c ">" temp.fasta
+
+
+
+
+# Fast sequence fetch (sfetch)
+# Create an SSI binary index for "genomes_wLitLinks.fasta"
+# (requires removal of any repeated GIDs; but very fast
+
+# Fails due to duplicates
+esl-sfetch --index protlist2.fasta
+
+# Works
+esl-sfetch --index protlist.fasta
+head protlist.fasta.ssi
+
+
+
+###########################################################
+# Add the filenames to end of each FASTA header (at the end) - with Perl
+###########################################################
+cp AQB_hits3.fasta AQB_hits3.wFNend.fasta 
+cp BRD_hits3.fasta BRD_hits3.wFNend.fasta 
+perl -p -i -e ' $x=$ARGV;$x=~s/\.wFNend.fasta//g; s/^(>.*)/$1|${x}/ ' *.wFNend.fasta
+
+head AQB_hits3.fasta
+head AQB_hits3.wFNend.fasta
+
+head BRD_hits3.fasta
+head BRD_hits3.wFNend.fasta 
+
+###########################################################
+# Add the filenames to beginning of each FASTA header (at the beginning) - with Perl
+# use sed (String EDitor) to convert "|>" to "|"
+#     ("-i" edits in-place)
+# rm the backups
+###########################################################
+cp AQB_hits3.fasta AQB_hits3.wFNbeg.fasta 
+cp BRD_hits3.fasta BRD_hits3.wFNbeg.fasta 
+perl -p -i -e ' $x=$ARGV;$x=~s/\.wFNbeg.fasta//g; s/^(>.*)/>${x}|$1/ ' *.wFNbeg.fasta
+for f in *.wFNbeg.fasta; do sed -i.bak 's/|>/|/g' "$f"; done
+rm *.wFNbeg.fasta.bak
+
+head AQB_hits3.fasta
+head AQB_hits3.wFNbeg.fasta
+
+head BRD_hits3.fasta
+head BRD_hits3.wFNbeg.fasta 
+
+
+
+
+
+
+
+
+# Search the new genomes for the flagella stuff
+# cd ~/GitHub/str2phy/ex/ZorAB/Taylor_etal_2023_ZorAB/PADLOC_for_HMMs 
+
+
+hmmsearch -E 0.31 --tblout MotA_ExbB_TolQ_seqHitsTable3.txt IPR002898_AQB.hmm 2024-02-04_new_genomes.fasta 
+hmmsearch -E 0.31 --tblout MotB_ExbD_TolR_seqHitsTable3.txt IPR003400_ExbD_TolR.hmm 2024-02-04_new_genomes.fasta 
+
+
+# Show duplicates from hits table IDs
+awk 'x[$0]++' MotA_ExbB_TolQ_seqHitsTable3.txt
+
+# Show uniques from hits table IDs
+awk '!x[$0]++' MotA_ExbB_TolQ_seqHitsTable3.txt
+
+
+
+
+

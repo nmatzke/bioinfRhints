@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ABV20546.1           -          ExbD                 PF02472.19   5.4e-34  116.6   0.5     6e-34  116.4   0.5   1.0   1   0   0   1   1   1   1 TonB system transport protein ExbD [Escherichia coli O139:H28 str. E24377A]
+OOC67639.1           -          ExbD                 PF02472.19   5.4e-34  116.6   0.5     6e-34  116.4   0.5   1.0   1   0   0   1   1   1   1 biopolymer transporter ExbD [Escherichia coli ATCC 8739]
+ABV16648.1           -          ExbD                 PF02472.19   2.2e-23   82.2   0.4   2.5e-23   82.1   0.4   1.0   1   0   0   1   1   1   1 protein TolR [Escherichia coli O139:H28 str. E24377A]
+OOC67006.1           -          ExbD                 PF02472.19   2.2e-23   82.2   0.4   2.5e-23   82.1   0.4   1.0   1   0   0   1   1   1   1 protein TolR [Escherichia coli ATCC 8739]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      IPR003400_ExbD_TolR.hmm
+# Target file:     2024-02-04_new_genomes.fasta
+# Option settings: hmmsearch --tblout MotB_ExbD_TolR_seqHitsTable3.txt -E 0.31 IPR003400_ExbD_TolR.hmm 2024-02-04_new_genomes.fasta 
+# Current dir:     /Users/nmat471/HD/GitHub/bioinfRhints/terminal
+# Date:            Wed Feb  7 15:25:00 2024
+# [ok]

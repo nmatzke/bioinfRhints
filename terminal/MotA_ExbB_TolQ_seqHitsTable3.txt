@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ABV18268.1           -          MotA_ExbB            PF01618.19   6.4e-40  135.3   0.3     1e-39  134.7   0.3   1.2   1   0   0   1   1   1   1 protein TolQ [Escherichia coli O139:H28 str. E24377A]
+OOC67005.1           -          MotA_ExbB            PF01618.19   6.4e-40  135.3   0.3     1e-39  134.7   0.3   1.2   1   0   0   1   1   1   1 protein TolQ [Escherichia coli ATCC 8739]
+ABV17816.1           -          MotA_ExbB            PF01618.19   5.1e-33  113.0   1.1   5.1e-33  113.0   1.1   1.7   1   1   0   1   1   1   1 TonB-system energizer ExbB [Escherichia coli O139:H28 str. E24377A]
+OOC67638.1           -          MotA_ExbB            PF01618.19   5.1e-33  113.0   1.1   5.1e-33  113.0   1.1   1.7   1   1   0   1   1   1   1 biopolymer transporter ExbB [Escherichia coli ATCC 8739]
+EAL07244.1           -          MotA_ExbB            PF01618.19   7.3e-31  106.0   0.0   7.3e-31  106.0   0.0   2.8   2   1   0   2   2   2   1 chemotaxis protein MotA [Listeria monocytogenes str. 1/2a F6854]
+ABV18176.1           -          MotA_ExbB            PF01618.19   2.8e-13   49.2   0.6   2.8e-13   49.2   0.6   1.6   2   0   0   2   2   2   1 chemotaxis protein MotA [Escherichia coli O139:H28 str. E24377A]
+OOC70575.1           -          MotA_ExbB            PF01618.19   3.3e-13   49.0   0.8   3.3e-13   49.0   0.8   1.6   2   0   0   2   2   2   1 motility protein A [Escherichia coli ATCC 8739]
+OOC68160.1           -          MotA_ExbB            PF01618.19   7.7e-12   44.6   0.4   1.2e-11   44.0   0.4   1.3   1   0   0   1   1   1   1 flagellar motor stator protein MotA [Escherichia coli ATCC 8739]
+OOC68711.1           -          MotA_ExbB            PF01618.19     9e-07   28.2   0.8     9e-07   28.2   0.8   3.6   3   0   0   3   3   3   1 hypothetical protein BWP13_12405 [Escherichia coli ATCC 8739]
+EAL06164.1           -          MotA_ExbB            PF01618.19     0.029   13.6   4.0      0.13   11.5   4.0   2.2   1   0   0   1   1   1   0 PTS system, IIC component [Listeria monocytogenes str. 1/2a F6854]
+ABV17222.1           -          MotA_ExbB            PF01618.19      0.13   11.5   0.0      0.13   11.5   0.0   3.6   4   1   0   4   4   4   0 hypothetical protein EcE24377A_0285 [Escherichia coli O139:H28 str. E24377A]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      IPR002898_AQB.hmm
+# Target file:     2024-02-04_new_genomes.fasta
+# Option settings: hmmsearch --tblout MotA_ExbB_TolQ_seqHitsTable3.txt -E 0.31 IPR002898_AQB.hmm 2024-02-04_new_genomes.fasta 
+# Current dir:     /Users/nmat471/HD/GitHub/bioinfRhints/terminal
+# Date:            Wed Feb  7 15:25:00 2024
+# [ok]

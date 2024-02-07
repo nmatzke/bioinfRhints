@@ -1,0 +1,593 @@
+https://www.mankier.com/package/hmmer-easel
+
+esl-afetch	retrieve alignments from a multi-MSA database
+esl-alimanip	manipulate a multiple sequence alignment
+esl-alimap	map two alignments to each other
+esl-alimask	remove columns from a multiple sequence alignment
+esl-alimerge	merge alignments based on their reference (RF) annotation
+esl-alipid	calculate pairwise percent identities for all sequence pairs in an MSA
+esl-alirev	reverse complement a multiple alignment
+esl-alistat	summarize a multiple sequence alignment file
+esl-compalign	compare two multiple sequence alignments
+esl-compstruct	calculate accuracy of RNA secondary structure predictions
+esl-construct	describe or create a consensus secondary structure
+esl-histplot	collate data histogram, output xmgrace datafile
+esl-mask	mask sequence residues with X's (or other characters)
+esl-mixdchlet	fitting mixture Dirichlets to count data
+esl-reformat	convert sequence file formats
+esl-selectn	select random subset of lines from file
+esl-seqrange	determine a range of sequences for one of many parallel processes
+esl-seqstat	summarize contents of a sequence file
+esl-sfetch	retrieve (sub-)sequences from a sequence file
+esl-shuffle	shuffling sequences or generating random ones
+esl-ssdraw	create postscript secondary structure diagrams
+esl-translate	translate DNA sequence in six frames into individual ORFs
+esl-weight	calculate sequence weights in MSA(s)
+
+
+# esl-sfetch :: retrieve sequence(s) from a file
+# Easel 0.47 (Jul 2020)
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Usage: esl-sfetch [options] <sqfile> <name>        (one seq named <name>)
+Usage: esl-sfetch [options] -f <sqfile> <namefile> (all seqs in <namefile>)
+Usage: esl-sfetch [options] --index <sqfile>       (index <sqfile>)
+
+ where general options are:
+  -h     : help; show brief info on version and usage
+  -o <f> : output sequences to file <f> instead of stdout
+  -O     : output sequence to file named <key>
+  -n <s> : rename the sequence <s>
+  -r     : reverse complement the seq(s)
+
+ Options for retrieving subsequences:
+  -c <s> : retrieve subsequence coords <from>..<to>
+  -C     : <namefile> in <f> contains subseq coords too
+
+  On command line, subseq coords are separated by any nonnumeric, nonspace character(s).
+  for example, -c 23..100 or -c 23/100 or -c 23-100 all work.
+
+  Additionally, to retrieve a suffix to the end, omit the end coord or set it to zero; -c 23.. 
+  will work, as will -c 23..0
+
+  By default, the subseq will be named <source name>/<from>-<to>. To assign a name of
+  your choice, use -n <newname>.
+
+  In retrieving subsequences listed in a file (-C -f, or just -Cf), each line of the file
+  is in GDF format: <newname> <from> <to> <source seqname>, space/tab delimited.
+
+  When <start> coordinate is greater than <end>, for DNA or RNA, the reverse complement is
+  retrieved; in protein sequence, this is an error. The -r option is another way to revcomp.
+
+ other options:
+  --informat <s> : specify that input file is in format <s>
+
+
+
+
+
+trimAl v1.4.rev22 build[2015-05-21]. 2009-2015. Salvador Capella-Gutierrez and Toni Gabaldón.
+
+trimAl webpage: http://trimal.cgenomics.org
+
+This program is free software: you can redistribute it and/or modify 
+it under the terms of the GNU General Public License as published by 
+the Free Software Foundation, the last available version.
+
+Please cite:
+		trimAl: a tool for automated alignment trimming in large-scale phylogenetic analyses.
+		Salvador Capella-Gutierrez; Jose M. Silla-Martinez; Toni Gabaldon.
+		Bioinformatics 2009, 25:1972-1973.
+
+Basic usage
+	trimal -in <inputfile> -out <outputfile> -(other options).
+
+Common options (for a complete list please see the User Guide or visit http://trimal.cgenomics.org):
+
+    -h                          Print this information and show some examples.
+    --version                   Print the trimAl version.
+
+    -in <inputfile>             Input file in several formats (clustal, fasta, NBRF/PIR, nexus, phylip3.2, phylip).
+
+    -compareset <inputfile>     Input list of paths for the files containing the alignments to compare.
+    -forceselect <inputfile>    Force selection of the given input file in the files comparison method.
+
+    -backtrans <inputfile>      Use a Coding Sequences file to get a backtranslation for a given AA alignment
+    -ignorestopcodon            Ignore stop codons in the input coding sequences
+    -splitbystopcodon           Split input coding sequences up to first stop codon appearance
+
+    -matrix <inpufile>          Input file for user-defined similarity matrix (default is Blosum62).
+    --alternative_matrix <name> Select an alternative similarity matrix already loaded. 
+                                Only available 'degenerated_nt_identity'
+
+    -out <outputfile>           Output alignment in the same input format (default stdout). (default input format)
+    -htmlout <outputfile>       Get a summary of trimal's work in an HTML file.
+
+    -keepheader                 Keep original sequence header including non-alphanumeric characters.
+                                Only available for input FASTA format files. (future versions will extend this feature)
+
+    -nbrf                       Output file in NBRF/PIR format
+    -mega                       Output file in MEGA format
+    -nexus                      Output file in NEXUS format
+    -clustal                    Output file in CLUSTAL format
+
+    -fasta                      Output file in FASTA format
+    -fasta_m10                  Output file in FASTA format. Sequences name length up to 10 characters.
+
+    -phylip                     Output file in PHYLIP/PHYLIP4 format
+    -phylip_m10                 Output file in PHYLIP/PHYLIP4 format. Sequences name length up to 10 characters.
+    -phylip_paml                Output file in PHYLIP format compatible with PAML
+    -phylip_paml_m10            Output file in PHYLIP format compatible with PAML. Sequences name length up to 10 characters.
+    -phylip3.2                  Output file in PHYLIP3.2 format
+    -phylip3.2_m10              Output file in PHYLIP3.2 format. Sequences name length up to 10 characters.
+
+    -complementary              Get the complementary alignment.
+    -colnumbering               Get the relationship between the columns in the old and new alignment.
+
+    -selectcols { n,l,m-k }     Selection of columns to be removed from the alignment. Range: [0 - (Number of Columns - 1)]. (see User Guide).
+    -selectseqs { n,l,m-k }     Selection of sequences to be removed from the alignment. Range: [0 - (Number of Sequences - 1)]. (see User Guide).
+
+    -gt -gapthreshold <n>       1 - (fraction of sequences with a gap allowed). Range: [0 - 1]
+    -st -simthreshold <n>       Minimum average similarity allowed. Range: [0 - 1]
+    -ct -conthreshold <n>       Minimum consistency value allowed.Range: [0 - 1]
+    -cons <n>                   Minimum percentage of the positions in the original alignment to conserve. Range: [0 - 100]
+
+    -nogaps                     Remove all positions with gaps in the alignment.
+    -noallgaps                  Remove columns composed only by gaps.
+    -keepseqs                   Keep sequences even if they are composed only by gaps.
+
+    -gappyout                   Use automated selection on "gappyout" mode. This method only uses information based on gaps' distribution. (see User Guide).
+    -strict                     Use automated selection on "strict" mode. (see User Guide).
+    -strictplus                 Use automated selection on "strictplus" mode. (see User Guide).
+                               (Optimized for Neighbour Joining phylogenetic tree reconstruction).
+
+    -automated1                 Use a heuristic selection of the automatic method based on similarity statistics. (see User Guide). (Optimized for Maximum Likelihood phylogenetic tree reconstruction).
+
+    -terminalonly               Only columns out of internal boundaries (first and last column without gaps) are 
+                                candidates to be trimmed depending on the selected method
+    --set_boundaries { l,r }    Set manually left (l) and right (r) boundaries - only columns out of these boundaries are 
+                                candidates to be trimmed depending on the selected method. Range: [0 - (Number of Columns - 1)]
+    -block <n>                  Minimum column block size to be kept in the trimmed alignment. Available with manual and automatic (gappyout) methods
+
+    -resoverlap                 Minimum overlap of a positions with other positions in the column to be considered a "good position". Range: [0 - 1]. (see User Guide).
+    -seqoverlap                 Minimum percentage of "good positions" that a sequence must have in order to be conserved. Range: [0 - 100](see User Guide).
+
+    -clusters <n>               Get the most Nth representatives sequences from a given alignment. Range: [1 - (Number of sequences)]
+    -maxidentity <n>            Get the representatives sequences for a given identity threshold. Range: [0 - 1].
+
+    -w <n>                      (half) Window size, score of position i is the average of the window (i - n) to (i + n).
+    -gw <n>                     (half) Window size only applies to statistics/methods based on Gaps.
+    -sw <n>                     (half) Window size only applies to statistics/methods based on Similarity.
+    -cw <n>                     (half) Window size only applies to statistics/methods based on Consistency.
+
+    -sgc                        Print gap scores for each column in the input alignment.
+    -sgt                        Print accumulated gap scores for the input alignment.
+    -ssc                        Print similarity scores for each column in the input alignment.
+    -sst                        Print accumulated similarity scores for the input alignment.
+    -sfc                        Print sum-of-pairs scores for each column from the selected alignment
+    -sft                        Print accumulated sum-of-pairs scores for the selected alignment
+    -sident                     Print identity scores matrix for all sequences in the input alignment. (see User Guide).
+    -soverlap                   Print overlap scores matrix for all sequences in the input alignment. (see User Guide).
+    
+    
+    
+    
+
+
+
+
+SED(1)                      General Commands Manual                     SED(1)
+
+NAME
+     sed – stream editor
+
+SYNOPSIS
+     sed [-Ealnru] command [-I extension] [-i extension] [file ...]
+     sed [-Ealnru] [-e command] [-f command_file] [-I extension]
+         [-i extension] [file ...]
+
+DESCRIPTION
+     The sed utility reads the specified files, or the standard input if no
+     files are specified, modifying the input as specified by a list of
+     commands.  The input is then written to the standard output.
+
+     A single command may be specified as the first argument to sed.  Multiple
+     commands may be specified by using the -e or -f options.  All commands
+     are applied to the input in the order they are specified regardless of
+     their origin.
+
+     The following options are available:
+
+     -E      Interpret regular expressions as extended (modern) regular
+             expressions rather than basic regular expressions (BRE's).  The
+             re_format(7) manual page fully describes both formats.
+
+     -a      The files listed as parameters for the “w” functions are created
+             (or truncated) before any processing begins, by default.  The -a
+             option causes sed to delay opening each file until a command
+             containing the related “w” function is applied to a line of
+             input.
+
+     -e command
+             Append the editing commands specified by the command argument to
+             the list of commands.
+
+     -f command_file
+             Append the editing commands found in the file command_file to the
+             list of commands.  The editing commands should each be listed on
+             a separate line.  The commands are read from the standard input
+             if command_file is “-”.
+
+     -I extension
+             Edit files in-place, saving backups with the specified extension.
+             If a zero-length extension is given, no backup will be saved.  It
+             is not recommended to give a zero-length extension when in-place
+             editing files, as you risk corruption or partial content in
+             situations where disk space is exhausted, etc.
+
+             Note that in-place editing with -I still takes place in a single
+             continuous line address space covering all files, although each
+             file preserves its individuality instead of forming one output
+             stream.  The line counter is never reset between files, address
+             ranges can span file boundaries, and the “$” address matches only
+             the last line of the last file.  (See Sed Addresses.) That can
+             lead to unexpected results in many cases of in-place editing,
+             where using -i is desired.
+
+     -i extension
+             Edit files in-place similarly to -I, but treat each file
+             independently from other files.  In particular, line numbers in
+             each file start at 1, the “$” address matches the last line of
+             the current file, and address ranges are limited to the current
+             file.  (See Sed Addresses.) The net result is as though each file
+             were edited by a separate sed instance.
+
+     -l      Make output line buffered.
+
+     -n      By default, each line of input is echoed to the standard output
+             after all of the commands have been applied to it.  The -n option
+             suppresses this behavior.
+
+     -r      Same as -E for compatibility with GNU sed.
+
+     -u      Make output unbuffered.
+
+     The form of a sed command is as follows:
+
+           [address[,address]]function[arguments]
+
+     Whitespace may be inserted before the first address and the function
+     portions of the command.
+
+     Normally, sed cyclically copies a line of input, not including its
+     terminating newline character, into a pattern space, (unless there is
+     something left after a “D” function), applies all of the commands with
+     addresses that select that pattern space, copies the pattern space to the
+     standard output, appending a newline, and deletes the pattern space.
+
+     Some of the functions use a hold space to save all or part of the pattern
+     space for subsequent retrieval.
+
+Sed Addresses
+     An address is not required, but if specified must have one of the
+     following formats:
+
+           •   a number that counts input lines cumulatively across input
+               files (or in each file independently if a -i option is in
+               effect);
+
+           •   a dollar (“$”) character that addresses the last line of input
+               (or the last line of the current file if a -i option was
+               specified);
+
+           •   a context address that consists of a regular expression
+               preceded and followed by a delimiter.  The closing delimiter
+               can also optionally be followed by the “I” character, to
+               indicate that the regular expression is to be matched in a
+               case-insensitive way.
+
+     A command line with no addresses selects every pattern space.
+
+     A command line with one address selects all of the pattern spaces that
+     match the address.
+
+     A command line with two addresses selects an inclusive range.  This range
+     starts with the first pattern space that matches the first address.  The
+     end of the range is the next following pattern space that matches the
+     second address.  If the second address is a number less than or equal to
+     the line number first selected, only that line is selected.  The number
+     in the second address may be prefixed with a (“+”) to specify the number
+     of lines to match after the first pattern.  In the case when the second
+     address is a context address, sed does not re-match the second address
+     against the pattern space that matched the first address.  Starting at
+     the first line following the selected range, sed starts looking again for
+     the first address.
+
+     Editing commands can be applied to non-selected pattern spaces by use of
+     the exclamation character (“!”) function.
+
+Sed Regular Expressions
+     The regular expressions used in sed, by default, are basic regular
+     expressions (BREs, see re_format(7) for more information), but extended
+     (modern) regular expressions can be used instead if the -E flag is given.
+     In addition, sed has the following two additions to regular expressions:
+
+     1.   In a context address, any character other than a backslash (“\”) or
+          newline character may be used to delimit the regular expression.
+          The opening delimiter needs to be preceded by a backslash unless it
+          is a slash.  For example, the context address \xabcx is equivalent
+          to /abc/.  Also, putting a backslash character before the delimiting
+          character within the regular expression causes the character to be
+          treated literally.  For example, in the context address \xabc\xdefx,
+          the RE delimiter is an “x” and the second “x” stands for itself, so
+          that the regular expression is “abcxdef”.
+
+     2.   The escape sequence \n matches a newline character embedded in the
+          pattern space.  You cannot, however, use a literal newline character
+          in an address or in the substitute command.
+
+     One special feature of sed regular expressions is that they can default
+     to the last regular expression used.  If a regular expression is empty,
+     i.e., just the delimiter characters are specified, the last regular
+     expression encountered is used instead.  The last regular expression is
+     defined as the last regular expression used as part of an address or
+     substitute command, and at run-time, not compile-time.  For example, the
+     command “/abc/s//XXX/” will substitute “XXX” for the pattern “abc”.
+
+Sed Functions
+     In the following list of commands, the maximum number of permissible
+     addresses for each command is indicated by [0addr], [1addr], or [2addr],
+     representing zero, one, or two addresses.
+
+     The argument text consists of one or more lines.  To embed a newline in
+     the text, precede it with a backslash.  Other backslashes in text are
+     deleted and the following character taken literally.
+
+     The “r” and “w” functions take an optional file parameter, which should
+     be separated from the function letter by white space.  Each file given as
+     an argument to sed is created (or its contents truncated) before any
+     input processing begins.
+
+     The “b”, “r”, “s”, “t”, “w”, “y”, “!”, and “:” functions all accept
+     additional arguments.  The following synopses indicate which arguments
+     have to be separated from the function letters by white space characters.
+
+     Two of the functions take a function-list.  This is a list of sed
+     functions separated by newlines, as follows:
+
+           { function
+             function
+             ...
+             function
+           }
+
+     The “{” can be preceded by white space and can be followed by white
+     space.  The function can be preceded by white space.  The terminating “}”
+     must be preceded by a newline, and may also be preceded by white space.
+
+     [2addr] function-list
+             Execute function-list only when the pattern space is selected.
+
+     [1addr]a\
+     text    Write text to standard output immediately before each attempt to
+             read a line of input, whether by executing the “N” function or by
+             beginning a new cycle.
+
+     [2addr]b[label]
+             Branch to the “:” function with the specified label.  If the
+             label is not specified, branch to the end of the script.
+
+     [2addr]c\
+     text    Delete the pattern space.  With 0 or 1 address or at the end of a
+             2-address range, text is written to the standard output.
+
+     [2addr]d
+             Delete the pattern space and start the next cycle.
+
+     [2addr]D
+             Delete the initial segment of the pattern space through the first
+             newline character and start the next cycle.
+
+     [2addr]g
+             Replace the contents of the pattern space with the contents of
+             the hold space.
+
+     [2addr]G
+             Append a newline character followed by the contents of the hold
+             space to the pattern space.
+
+     [2addr]h
+             Replace the contents of the hold space with the contents of the
+             pattern space.
+
+     [2addr]H
+             Append a newline character followed by the contents of the
+             pattern space to the hold space.
+
+     [1addr]i\
+     text    Write text to the standard output.
+
+     [2addr]l
+             (The letter ell.)  Write the pattern space to the standard output
+             in a visually unambiguous form.  This form is as follows:
+
+                   backslash          \\
+                   alert              \a
+                   form-feed          \f
+                   carriage-return    \r
+                   tab                \t
+                   vertical tab       \v
+
+             Nonprintable characters are written as three-digit octal numbers
+             (with a preceding backslash) for each byte in the character (most
+             significant byte first).  Long lines are folded, with the point
+             of folding indicated by displaying a backslash followed by a
+             newline.  The end of each line is marked with a “$”.
+
+     [2addr]n
+             Write the pattern space to the standard output if the default
+             output has not been suppressed, and replace the pattern space
+             with the next line of input.
+
+     [2addr]N
+             Append the next line of input to the pattern space, using an
+             embedded newline character to separate the appended material from
+             the original contents.  Note that the current line number
+             changes.
+
+     [2addr]p
+             Write the pattern space to standard output.
+
+     [2addr]P
+             Write the pattern space, up to the first newline character to the
+             standard output.
+
+     [1addr]q
+             Branch to the end of the script and quit without starting a new
+             cycle.
+
+     [1addr]r file
+             Copy the contents of file to the standard output immediately
+             before the next attempt to read a line of input.  If file cannot
+             be read for any reason, it is silently ignored and no error
+             condition is set.
+
+     [2addr]s/regular expression/replacement/flags
+             Substitute the replacement string for the first instance of the
+             regular expression in the pattern space.  Any character other
+             than backslash or newline can be used instead of a slash to
+             delimit the RE and the replacement.  Within the RE and the
+             replacement, the RE delimiter itself can be used as a literal
+             character if it is preceded by a backslash.
+
+             An ampersand (“&”) appearing in the replacement is replaced by
+             the string matching the RE.  The special meaning of “&” in this
+             context can be suppressed by preceding it by a backslash.  The
+             string “\#”, where “#” is a digit, is replaced by the text
+             matched by the corresponding backreference expression (see
+             re_format(7)).
+
+             A line can be split by substituting a newline character into it.
+             To specify a newline character in the replacement string, precede
+             it with a backslash.
+
+             The value of flags in the substitute function is zero or more of
+             the following:
+
+                   N       Make the substitution only for the N'th occurrence
+                           of the regular expression in the pattern space.
+
+                   g       Make the substitution for all non-overlapping
+                           matches of the regular expression, not just the
+                           first one.
+
+                   p       Write the pattern space to standard output if a
+                           replacement was made.  If the replacement string is
+                           identical to that which it replaces, it is still
+                           considered to have been a replacement.
+
+                   w file  Append the pattern space to file if a replacement
+                           was made.  If the replacement string is identical
+                           to that which it replaces, it is still considered
+                           to have been a replacement.
+
+                   i or I  Match the regular expression in a case-insensitive
+                           way.
+
+     [2addr]t [label]
+             Branch to the “:” function bearing the label if any substitutions
+             have been made since the most recent reading of an input line or
+             execution of a “t” function.  If no label is specified, branch to
+             the end of the script.
+
+     [2addr]w file
+             Append the pattern space to the file.
+
+     [2addr]x
+             Swap the contents of the pattern and hold spaces.
+
+     [2addr]y/string1/string2/
+             Replace all occurrences of characters in string1 in the pattern
+             space with the corresponding characters from string2.  Any
+             character other than a backslash or newline can be used instead
+             of a slash to delimit the strings.  Within string1 and string2, a
+             backslash followed by any character other than a newline is that
+             literal character, and a backslash followed by an ``n'' is
+             replaced by a newline character.
+
+     [2addr]!function
+     [2addr]!function-list
+             Apply the function or function-list only to the lines that are
+             not selected by the address(es).
+
+     [0addr]:label
+             This function does nothing; it bears a label to which the “b” and
+             “t” commands may branch.
+
+     [1addr]=
+             Write the line number to the standard output followed by a
+             newline character.
+
+     [0addr]
+             Empty lines are ignored.
+
+     [0addr]#
+             The “#” and the remainder of the line are ignored (treated as a
+             comment), with the single exception that if the first two
+             characters in the file are “#n”, the default output is
+             suppressed.  This is the same as specifying the -n option on the
+             command line.
+
+ENVIRONMENT
+     The COLUMNS, LANG, LC_ALL, LC_CTYPE and LC_COLLATE environment variables
+     affect the execution of sed as described in environ(7).
+
+EXIT STATUS
+     The sed utility exits 0 on success, and >0 if an error occurs.
+
+EXAMPLES
+     Replace ‘bar’ with ‘baz’ when piped from another command:
+
+           echo "An alternate word, like bar, is sometimes used in examples." | sed 's/bar/baz/'
+
+     Using backlashes can sometimes be hard to read and follow:
+
+           echo "/home/example" | sed  's/\/home\/example/\/usr\/local\/example/'
+
+     Using a different separator can be handy when working with paths:
+
+           echo "/home/example" | sed 's#/home/example#/usr/local/example#'
+
+     Replace all occurances of ‘foo’ with ‘bar’ in the file test.txt, without
+     creating a backup of the file:
+
+           sed -i '' -e 's/foo/bar/g' test.txt
+
+SEE ALSO
+     awk(1), ed(1), grep(1), regex(3), re_format(7)
+
+STANDARDS
+     The sed utility is expected to be a superset of the IEEE Std 1003.2
+     (“POSIX.2”) specification.
+
+     The -E, -I, -a and -i options, the special meaning of -f -, the prefixing
+     “+” in the second member of an address range, as well as the “I” flag to
+     the address regular expression and substitution command are non-standard
+     FreeBSD extensions and may not be available on other operating systems.
+
+HISTORY
+     A sed command, written by L. E. McMahon, appeared in Version 7 AT&T UNIX.
+
+AUTHORS
+     Diomidis D. Spinellis <dds@FreeBSD.org>
+
+BUGS
+     Multibyte characters containing a byte with value 0x5C (ASCII ‘\’) may be
+     incorrectly treated as line continuation characters in arguments to the
+     “a”, “c” and “i” commands.  Multibyte characters cannot be used as
+     delimiters with the “s” and “y” commands.
+
+macOS 13.6                       June 10, 2020                      macOS 13.6
+
+
