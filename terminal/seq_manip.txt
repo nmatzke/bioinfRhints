@@ -85,6 +85,9 @@ grep -c ">" protlist2.fasta
 awk '/^>/{f=!d[$1];d[$1]=1}f' protlist2.fasta > temp.fasta
 grep -c ">" temp.fasta
 
+# Remove duplicate entries: https://www.biostars.org/p/143617/
+# (takes 10 seconds)
+# awk '/^>/{f=!d[$1];d[$1]=1}f' proteins_orig_plus_flag1-5_wFNs.fasta > proteins_orig_plus_flag1-5_wFNs_noDups.fasta
 
 
 
@@ -135,6 +138,25 @@ head BRD_hits3.wFNbeg.fasta
 
 
 
+# Rearranging order of descriptors in fasta file header
+# Switch order in FASTA header
+# https://www.biostars.org/p/252222/
+
+# Delimit based on "|" and "["; Re-order to: 2, 3, 1
+# awk -F'[|\[]' '/^>/{print ">"$2"|"$3"|"$1; next}{print}' BRD_hits3.wFNbeg.fasta
+
+# Change first " |" to "|"
+# sed 's/ *|/|/' 
+
+# Change first "]|" to "|"
+sed 's/]\|>/|/'
+
+# Change ALL "|" to " | "
+sed 's/|/ | /g'
+
+# All together:
+awk -F'[|\[]' '/^>/{print ">"$2"|"$3"|"$1; next}{print}' BRD_hits3.wFNbeg.fasta | sed 's/ *|/|/' | sed 's/]\|>/|/' | sed 's/|/ | /g'
+
 
 
 
@@ -152,6 +174,63 @@ awk 'x[$0]++' MotA_ExbB_TolQ_seqHitsTable3.txt
 
 # Show uniques from hits table IDs
 awk '!x[$0]++' MotA_ExbB_TolQ_seqHitsTable3.txt
+
+
+
+
+#######################################################
+# Rscript with inputs from Terminal
+# See: 
+#       Rscript --helpd
+#######################################################
+
+##################################################
+#!/usr/bin/env Rscript
+runtxt='
+cd /GitHub/bioinfRhints/terminal/
+Rscript --vanilla ex1.R 1 2
+' # END runtxt
+
+# Read in arguments
+args = commandArgs(trailingOnly=TRUE)
+
+# test if there is at least one argument: if not, return an error
+if (length(args)==0)
+	{
+  stop("At least one input argument must be supplied.n", call.=FALSE)
+	} else if (length(args)==1) {
+  # default output file
+  args[2] = 1
+	} # END if (length(args)==0)
+
+args = as.numeric(args)
+sumval = args[1] + args[2]
+txt = paste0(args[1], " + ", args[2], " = ", sumval)
+cat(txt)
+cat("\n")
+##################################################
+
+
+# Run with:
+cd /GitHub/bioinfRhints/terminal/
+Rscript --vanilla ex1.R 1 2
+
+
+
+
+
+#######################################################
+# Terminal / UNIX shell scripts with inputs
+# https://www.redhat.com/sysadmin/process-script-inputs
+#######################################################
+./ex1.sh 
+./ex1.sh aa bb
+./ex1.sh aa bb cc
+
+
+
+
+
 
 
 
