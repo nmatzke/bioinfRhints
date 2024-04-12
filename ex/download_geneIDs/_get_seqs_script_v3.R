@@ -60,3 +60,21 @@ opd()
 
 # I WILL HAVE TO MANUALLY ADD THESE, FROM PROKKA: DGBBEKCF..., PKPEBJJI...
 
+
+
+
+#######################################################
+# Get sequences by BLAST
+#######################################################
+
+install_cmds='
+if (!require("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+BiocManager::install("Biostrings")
+install.packages("rBLAST", repos = "https://mhahsler.r-universe.dev")
+' # END install_cmds
+
+library(Biostrings)
+
+library(rBLAST)
+

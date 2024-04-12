@@ -1655,6 +1655,18 @@ firstword <- function(string, split=" ")
 	}
 
 
+secondword <- function(string, split=" ")
+	{
+	example_code='
+	tmptxt = ">QQS07318.1 MAG: MotA/TolQ/ExbB proton channel family protein [Fibrobacteres bacterium]"
+	secondword(tmptxt, split=" ")
+	'
+
+	words = strsplit(gdata::trim(string), split=split)[[1]]
+	return(gdata::trim(words[2]))
+	}
+
+
 lastword <- function(string, split="/")
 	{
 	example_code='
