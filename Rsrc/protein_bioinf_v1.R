@@ -1607,7 +1607,7 @@ get_seqlengths <- function(aln)
 
 
 # Handy function
-extract_last_brackets <- function(list_of_strings, replace_spaces=TRUE)
+extract_last_brackets <- function(list_of_strings, replace_spaces=TRUE, prflag=FALSE)
 	{
 	example_code='
 	tmptxt = ">QQS07318.1 MAG: MotA/TolQ/ExbB proton channel family protein [Fibrobacteres bacterium]"
@@ -1618,8 +1618,13 @@ extract_last_brackets <- function(list_of_strings, replace_spaces=TRUE)
 	
 	
 	species_names = rep("", length(list_of_strings))
-	txt = paste0("\nextract_last_brackets() is processing ", length(list_of_strings), " strings. String #")
-	cat(txt)
+	
+	if (prflag == TRUE)
+		{
+		txt = paste0("\nextract_last_brackets() is processing ", length(list_of_strings), " strings. String #")
+		cat(txt)
+		}
+	
 	for (i in 1:length(list_of_strings))
 		{
 		cat(i, ",", sep="")
