@@ -1685,6 +1685,37 @@ lastword <- function(string, split="/")
 
 
 
+colnums_wo_colnames <- function(tdf, names_to_exclude)
+	{
+	colnums = (1:ncol(tdf))
+	TF = (names(tdf) %in% names_to_exclude) == FALSE
+	colnums = colnums[TF]
+	return(colnums)
+	}
+
+
+grepl_to_hitnum <- function(pattern, x)
+	{
+	#TF = rep(FALSE, times=length(x))
+	TF = grepl(pattern=pattern, x=x)
+	num = (1:length(TF))[TF]
+	return(num)
+	}
+
+grepl_to_hitnums <- function(patterns, xvec)
+	{
+	nums = sapply(X=patterns, FUN=grepl_to_hitnum, x=xvec)
+	return(nums)
+	}
+
+grepl_to_hitnums_lapply <- function(patterns, xvec)
+	{
+	nums = lapply(X=patterns, FUN=grepl_to_hitnum, x=xvec)
+	return(nums)
+	}
+
+
+
 ##############
 # JUNK: Example code inside 'junk'
 ##############
