@@ -28,7 +28,6 @@ open .gitignore
 **/.DS_Store
 
 
-
 # permanently remove .DS_Store from GitHub Desktop commits:
 # https://brandoncaples.com/martech/2022/git-remove-ds-store
 # Terminal in the root of the particular GitHub archive:
@@ -37,6 +36,8 @@ open .gitignore
 # 
 # open .gitignore
 **/.DS_Store
+
+perm remove DS_Store: https://brandoncaples.com/martech/2022/git-remove-ds-store
 
 
 # Commit:
