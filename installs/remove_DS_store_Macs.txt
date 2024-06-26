@@ -1,0 +1,28 @@
+HOW TO: Remove, and then permanently hide, .DS_Store files from the GitHub Desktop commits etc.
+
+
+https://brandoncaples.com/martech/2022/git-remove-ds-store#:~:text=Use%20the%20terminal%20command%20'find,remove%20them%20from%20your%20project.
+
+Remove existing .DS_Store files from your Git repository and prevent them from being saved in the future.
+
+Project Root
+Make sure you are in the root of your project folder.
+
+Remove .DS_Store
+Use the terminal command 'find . -name .DS_Store -print0 | xargs -0 git rm --ignore-unmatch' to find all previously committed .DS_Store files and remove them from your project.
+
+Add to .gitignore
+To prevent .DS_Store from entering your project code again, add '**/.DS_Store' to your .gitignore file. If it does not exist, create the .gitignore file in the root folder of your project.
+
+Commit Changes
+Commit your changes and push them to your remote repository.
+
+
+
+permanently remove .DS_Store: https://brandoncaples.com/martech/2022/git-remove-ds-store#:~:text=Use%20the%20terminal%20command%20'find,remove%20them%20from%20your%20project.
+
+find . -name .DS_Store -print0 | xargs -0 git rm --ignore-unmatch
+
+
+open .gitignore
+**/.DS_Store
