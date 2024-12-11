@@ -33,6 +33,59 @@ checkwd <- function(tmpwd, lastchar_should_be = "/")
 	}
 
 
+# Backup file, if it exists
+fn_bkup <- function(tmpdir, fn)
+	{
+	# Check if the old log file exists
+	files_list = list.files(path=tmpdir)
+	if (fn %in% files_list)
+		{
+		cmdstr = paste("mv ", fn, " ", paste(fn, ".bkup", sep=""), sep="")
+		system(cmdstr)
+		}
+	}
+
+
+# Extract a newick string from a NEXUS newick string
+extract_newickstr_from_nexusstr <- function(nexusstr, delimiter = " = ")
+	{
+	words = strsplit(nexusstr, split=delimiter)[[1]]
+	newickstr = words[2]
+	return(newickstr)
+	}
+
+
+# Extract the strings that have a certain word at a certain position
+extract_lines_with_word_at_wordnum <- function(lines, word_to_find, wordnum=1, delimiter=" ", printflag=FALSE)
+	{
+	linenums_to_keep = c()
+	
+	for (i in 1:length(lines))
+		{
+		tmpline = lines[i]
+		if (tmpline == "")
+			{
+			next
+			}
+		words = strsplit(tmpline, split=delimiter)[[1]]
+		#print(words)
+		if (words[wordnum] == word_to_find)
+			{
+			#print(words[wordnum])
+			linenums_to_keep[length(linenums_to_keep)+1] = i
+			if(printflag)
+				{			
+				print(paste("Storing line #", i, sep=""))
+				}
+
+			}
+		}
+	#print(linenums_to_keep)
+	newlines = lines[linenums_to_keep]
+	return(newlines)
+	}
+
+
 # Run LF or NPRS algorithm in r8s
 # Assumes 1 single calibration point
 # Returns the name of the log file
