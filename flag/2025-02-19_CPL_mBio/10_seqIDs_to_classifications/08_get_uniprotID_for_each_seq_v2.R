@@ -121,6 +121,7 @@ catn(seqids[1:10])
 #######################################################
 runslow = FALSE
 tmpfn = "./gb_files.gp"
+rds_local_fn = "~/Downloads/recs.rds"
 if (runslow)
 	{
 	gb_files <- reutils::efetch(uid=seqids, db="protein", rettype = "gp", retmode = "text")
@@ -131,6 +132,7 @@ if (runslow)
 	#load(file="gb_files.Rdata")
 	gb_files = readLines(tmpfn)
 	}
+runslow = TRUE
 if (runslow)
 	{
 	# parse the efetch object into a gbRecord instance; seems absurdly slow, ~1 per second
@@ -138,7 +140,11 @@ if (runslow)
 	recs <- biofiles::gbRecord(rcd=tmpfn, progress=TRUE)
 	endtime2 = Sys.time()
 	endtime2 - starttime2 # 7.5 minutes
-	saveRDS(recs, file="recs.rds") # ~5 minutes
+	
+	starttime3  = Sys.time()
+	saveRDS(recs, file=rds_local_fn) # ~5 minutes
+	endtime3 = Sys.time()
+	endtime3 - starttime3 # 5 minutes
 	
 	# Parallelisation doesn't seem to work well in R.app - try Terminal
 	# parse (locally saved)
@@ -153,7 +159,7 @@ if (runslow)
 	'
 	} else {
 	# Loads to: recs
-	recs = readRDS(file="recs.rds") # 1-2 minutes
+	recs = readRDS(file=rds_local_fn) # 1-2 minutes
 	}
 
 
@@ -219,7 +225,56 @@ dbsource_accession
 
 catn(dbsource_accession)
 
+seq_labels2 = seq_labels
+for (i in 1:length(seq_labels))
+	{
+	words = strsplit(seq_labels2[i], split="\\[")[[1]]
+	seq_labels2[i] = gdata::trim(words[1])
+	}
+seq_labels2
 
+tgi5_1 = "QDU25289"
+tgi5_2 = "AAC74960"
+
+tgi4_1 = "AAG04849"
+tgi4_2 = "CAL34488"
+
+
+t51 = match_grepl(tgi5_1, tr$tip.label, return_counts=FALSE)
+t52 = match_grepl(tgi5_2, tr$tip.label, return_counts=FALSE)
+t41 = match_grepl(tgi4_1, tr$tip.label, return_counts=FALSE)
+t42 = match_grepl(tgi4_2, tr$tip.label, return_counts=FALSE)
+t51
+t42
+
+
+tgi5 = getMRCA(phy=tr, tip=c(t51, t52))
+tgi4 = getMRCA(phy=tr, tip=c(t41, t42))
+fit = getMRCA(phy=tr, tip=c(t41, t51))
+# 652
+
+trtable = prt(tr)
+ids_in_tgi5 = get_leading_seqids_from_name(strsplit(trtable$tipnames[tgi5], split=",")[[1]])
+ids_in_tgi4 = get_leading_seqids_from_name(strsplit(trtable$tipnames[tgi4], split=",")[[1]])
+ids_in_fit = get_leading_seqids_from_name(strsplit(trtable$tipnames[fit], split=",")[[1]])
+
+nums_in_tgi5 = match_grepl(ids_in_tgi5, accessions, return_counts=FALSE)
+nums_in_tgi4 = match_grepl(ids_in_tgi4, accessions, return_counts=FALSE)
+nums_in_fit = match_grepl(ids_in_fit, accessions, return_counts=FALSE)
+
+git_TF = (1:length(tr$tip.label) %in% nums_in_fit) == FALSE
+sum(git_TF)
+nums_in_git = (1:length(git_TF))[git_TF]
+
+t(t(rev(sort(table(seq_labels2[nums_in_tgi5])))[1:10]))
+t(t(rev(sort(table(seq_labels2[nums_in_tgi4])))[1:10]))
+t(t(rev(sort(table(seq_labels2[nums_in_fit])))[1:10]))
+t(t(rev(sort(table(seq_labels2[nums_in_git])))[1:10]))
+
+t(t(round(rev(sort(table(seq_labels2[nums_in_tgi5])))[1:10] / sum(table(seq_labels2[nums_in_tgi5])), 4) * 100))
+t(t(round(rev(sort(table(seq_labels2[nums_in_tgi4])))[1:10] / sum(table(seq_labels2[nums_in_tgi4])), 4) * 100))
+t(t(round(rev(sort(table(seq_labels2[nums_in_fit])))[1:10] / sum(table(seq_labels2[nums_in_fit])), 4) * 100))
+t(t(round(rev(sort(table(seq_labels2[nums_in_git])))[1:10] / sum(table(seq_labels2[nums_in_git])), 4) * 100))
 
 
 # Retrieve/ID mapping

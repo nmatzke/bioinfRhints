@@ -384,19 +384,52 @@ seqids = c("AAC07752",
 "USF23676",
 "USF25003")
 
-tmplist = list()
-for (i in 1:length(seqids))
+runslow = FALSE
+motA_identical_protIDs_fn = "protIDs_identical_to_MotA_seqIDs_v1.Rdata"
+if (runslow)
 	{
-	cat(i, ",", sep="")
-	result = try(getNCBIIdenticalProteins(seqids[i]))
-	if ("try-error" %in% class(result))
+	tmplist = list()
+	for (i in 1:length(seqids))
 		{
-		tmplist[[i]] = NA
-		} else {
-		tmplist[[i]] = unique(result[[1]])
+		cat(i, ",", sep="")
+		result = try(getNCBIIdenticalProteins(seqids[i]))
+		if ("try-error" %in% class(result))
+			{
+			tmplist[[i]] = NA
+			} else {
+			tmplist[[i]] = unique(result[[1]])
+			}
 		}
+	save(tmplist, file=motA_identical_protIDs_fn)
+	} else {
+	# Loads to tmplist
+	load(file=motA_identical_protIDs_fn)
 	}
 
-save(tmplist, file="protIDs_identical_to_MotA_seqIDs_v1.Rdata")
+# Counts
+counts = sapply(FUN=length, X=tmplist)
+rev(sort(counts))
+sort(counts)
 
+# Take a list of identical proteins, return just the ones that match genbank_prefixes()
 
+# Extract IDs with genbank prefixes
+recodes = genbank_prefixes()
+
+function reduce_identical_proteins_to_matching_codes <- function(identical_seqids, codes=genbank_prefixes())
+	{
+	ex='
+	codes=genbank_prefixes()
+	'
+	
+	matchnums = match_grepl(patterns=codes, x=identical_seqids, return_counts=FALSE)
+	if (all(is.na(matchnums)) == TRUE)
+		{
+		identical_seqids_matched = NULL
+		} else {
+		matchnums = matchnums[!is.na(matchnums)]
+		identical_seqids_matched = identical_seqids[matchnums]
+		}
+	
+	return(identical_seqids_matched)
+	} # END function reduce_identical_proteins_to_matching <- function(identical_seqids, recodes=genbank_prefixes())
