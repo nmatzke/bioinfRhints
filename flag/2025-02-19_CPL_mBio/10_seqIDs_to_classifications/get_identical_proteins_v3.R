@@ -90,12 +90,14 @@ bigdf_outdf = cbind(bigdf_outdf, counts_identical_proteins, seqids_wGenBank_code
 bigdf_outdf
 
 
-
-
-
-
-
+# 5-10 minutes the first time
 bigdf_outdf = get_uniprot_data_on_seqids(seqids, runslow=TRUE, base_fn="379_AQBs", version="v1")
+head(bigdf_outdf)
+dim(bigdf_outdf)
+
+
+# 30 seconds
+bigdf_outdf = get_uniprot_data_on_seqids(seqids, runslow=FALSE, base_fn="379_AQBs", version="v1")
 head(bigdf_outdf)
 dim(bigdf_outdf)
 
