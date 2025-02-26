@@ -388,26 +388,26 @@ runslow = FALSE
 motA_identical_protIDs_fn = "protIDs_identical_to_MotA_seqIDs_v1.Rdata"
 if (runslow)
 	{
-	tmplist = list()
+	identical_protein_seqids_list = list()
 	for (i in 1:length(seqids))
 		{
 		cat(i, ",", sep="")
 		result = try(getNCBIIdenticalProteins(seqids[i]))
 		if ("try-error" %in% class(result))
 			{
-			tmplist[[i]] = NA
+			identical_protein_seqids_list[[i]] = NA
 			} else {
-			tmplist[[i]] = unique(result[[1]])
+			identical_protein_seqids_list[[i]] = unique(result[[1]])
 			}
 		}
-	save(tmplist, file=motA_identical_protIDs_fn)
+	save(identical_protein_seqids_list, file=motA_identical_protIDs_fn)
 	} else {
-	# Loads to tmplist
+	# Loads to identical_protein_seqids_list
 	load(file=motA_identical_protIDs_fn)
 	}
 
 # Counts
-counts = sapply(FUN=length, X=tmplist)
+counts = sapply(FUN=length, X=identical_protein_seqids_list)
 rev(sort(counts))
 sort(counts)
 
@@ -416,20 +416,17 @@ sort(counts)
 # Extract IDs with genbank prefixes
 recodes = genbank_prefixes()
 
-function reduce_identical_proteins_to_matching_codes <- function(identical_seqids, codes=genbank_prefixes())
-	{
-	ex='
-	codes=genbank_prefixes()
-	'
-	
-	matchnums = match_grepl(patterns=codes, x=identical_seqids, return_counts=FALSE)
-	if (all(is.na(matchnums)) == TRUE)
-		{
-		identical_seqids_matched = NULL
-		} else {
-		matchnums = matchnums[!is.na(matchnums)]
-		identical_seqids_matched = identical_seqids[matchnums]
-		}
-	
-	return(identical_seqids_matched)
-	} # END function reduce_identical_proteins_to_matching <- function(identical_seqids, recodes=genbank_prefixes())
+
+
+identical_protein_seqids_list_wGenBank_codes = sapply(X=identical_protein_seqids_list, FUN=reduce_identical_proteins_to_matching_codes, codes=recodes)
+identical_protein_seqids_list_wGenBank_codes_lengths = sapply(X=identical_protein_seqids_list_wGenBank_codes, FUN=length)
+
+x = unlist(identical_protein_seqids_list)
+TF = gdata::startsWith(x=x, prefix="P", ignore.case=FALSE)
+sum(TF)
+xTF = x[TF]
+tail(xTF)
+
+start = 1
+xTF[(start=start+400):(start+400)]
+

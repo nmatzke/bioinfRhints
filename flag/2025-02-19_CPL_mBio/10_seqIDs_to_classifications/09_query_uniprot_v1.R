@@ -26,6 +26,30 @@ query <- list("xref" = seqid)
 df <- query_uniprot(query, show_progress = FALSE)
 head(df)
 
+seqid = "WP_000131314.1"
+query <- list("xref" = seqid)
+df <- query_uniprot(query, columns=c("xref_pdbsum", "xref_pdb"), show_progress = FALSE)
+head(df)
+
+
+seqid = "AAC73831"
+query <- list("xref" = seqid)
+df <- query_uniprot(query, show_progress = FALSE)
+head(df)
+
+
+seqid = "ABC76751"
+query <- list("xref" = seqid)
+df <- query_uniprot(query, show_progress = FALSE)
+head(df)
+
+
+seqid = "USF25003"
+query <- list("xref" = seqid)
+df <- query_uniprot(query, show_progress = FALSE)
+head(df)
+
+
 query <- list("xrefcount" = seqid)
 df <- query_uniprot(query, show_progress = FALSE)
 head(df)

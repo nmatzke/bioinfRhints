@@ -197,11 +197,9 @@ dbxrefs_table = get_db_xref_for_seqids(seqids, recs)
 
 
 
-
 #######################################################
 # Add the accession info, etc.
 #######################################################
-
 accessions = biofiles::getAccession(recs)
 #> [1] "CP002806"
 geneIDs = biofiles::getGeneID(recs)
@@ -275,6 +273,9 @@ t(t(round(rev(sort(table(seq_labels2[nums_in_tgi5])))[1:10] / sum(table(seq_labe
 t(t(round(rev(sort(table(seq_labels2[nums_in_tgi4])))[1:10] / sum(table(seq_labels2[nums_in_tgi4])), 4) * 100))
 t(t(round(rev(sort(table(seq_labels2[nums_in_fit])))[1:10] / sum(table(seq_labels2[nums_in_fit])), 4) * 100))
 t(t(round(rev(sort(table(seq_labels2[nums_in_git])))[1:10] / sum(table(seq_labels2[nums_in_git])), 4) * 100))
+
+cbind(seq_labels2, 
+
 
 
 # Retrieve/ID mapping
