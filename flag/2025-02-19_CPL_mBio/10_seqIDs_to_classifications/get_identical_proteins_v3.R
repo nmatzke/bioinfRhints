@@ -96,5 +96,6 @@ bigdf_outdf
 
 
 bigdf_outdf = get_uniprot_data_on_seqids(seqids, runslow=TRUE, base_fn="379_AQBs", version="v1")
-
+head(bigdf_outdf)
+dim(bigdf_outdf)
 
