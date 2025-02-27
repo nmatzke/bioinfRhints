@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_4817869</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>165</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_4817869</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>165</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_169455671.1|</Hit_id>
+  <Hit_def>peptide deformylase [Luteolibacter luteus] &gt;gb|QJE97271.1| peptide deformylase [Luteolibacter luteus]</Hit_def>
+  <Hit_accession>WP_169455671</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>311.227</Hsp_bit-score>
+      <Hsp_score>796</Hsp_score>
+      <Hsp_evalue>7.4036e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>LEIVQYGNPVLRERCKRVEQVDESIRILA--MLETMY----------QVGVAIRLAVVDVAHDPECISFLKVNGE--PLASIMPLTFINPELEFTGPKERDTEGCLSIHDVRAEVSRPSSLKATLPQLDGSVLVIETDGLLARAIQHETDHLNGVLFTDRVSPATKI-LRRKLRRLVEEG</Hsp_qseq>
+      <Hsp_hseq>LEIVQYGNPVLRERCKRVEQVDESIRILAADMLETMYDANGVGLAAPQVGVAIRLAVVDVAHDPECISFLKVNGEDAPLASIMPLTFINPELEFTGPKERDTEGCLSIHDVRAEVSRPSSLKATLPQLDGSVLVIETDGLLARAIQHETDHLNGVLFTDRVSPATKISLRRKLRRLVEEG</Hsp_hseq>
+      <Hsp_midline>LEIVQYGNPVLRERCKRVEQVDESIRILA  MLETMY          QVGVAIRLAVVDVAHDPECISFLKVNGE  PLASIMPLTFINPELEFTGPKERDTEGCLSIHDVRAEVSRPSSLKATLPQLDGSVLVIETDGLLARAIQHETDHLNGVLFTDRVSPATKI LRRKLRRLVEEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_035607934.1|</Hit_id>
+  <Hit_def>peptide deformylase [Haloferula sp. BvORR071]</Hit_def>
+  <Hit_accession>WP_035607934</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.337</Hsp_bit-score>
+      <Hsp_score>721</Hsp_score>
+      <Hsp_evalue>2.3285e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>LEIVQYGNPVLRERCKRVEQVDESIRILA--MLETMY----------QVGVAIRLAVVDVAHDPECISFLKVNGE--PLASIMPLTFINPELEFTGPKERDTEGCLSIHDVRAEVSRPSSLKATLPQLDGSVLVIETDGLLARAIQHETDHLNGVLFTDRVSPATKI-LRRKLRRLVEEG</Hsp_qseq>
+      <Hsp_hseq>LEIVQYGNPVLRERCKRVEQVDDAIRILADDMLETMYDANGVGLAAPQVGVALRLAVVDVSHDPECITFLRVDGKDAPLASIMPLKFINPELEFIAPKERDTEGCLSIHDIRAEVNRPAAVKATLPQLDGSTLVIETDGLLARALQHETDHLNGVLFTDRVSPAAKISLRRKLKRLAEEG</Hsp_hseq>
+      <Hsp_midline>LEIVQYGNPVLRERCKRVEQVD++IRILA  MLETMY          QVGVA+RLAVVDV+HDPECI+FL+V+G+  PLASIMPL FINPELEF  PKERDTEGCLSIHD+RAEV+RP+++KATLPQLDGS LVIETDGLLARA+QHETDHLNGVLFTDRVSPA KI LRRKL+RL EEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_367871354.1|</Hit_id>
+  <Hit_def>peptide deformylase [Luteolibacter sp. Populi] &gt;gb|XDA92427.1| peptide deformylase [Luteolibacter sp. Populi]</Hit_def>
+  <Hit_accession>WP_367871354</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.567</Hsp_bit-score>
+      <Hsp_score>719</Hsp_score>
+      <Hsp_evalue>3.94129e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>LEIVQYGNPVLRERCKRVEQVDESIRILA--MLETMY----------QVGVAIRLAVVDVAHDPECISFLKVNGE--PLASIMPLTFINPELEFTGPKERDTEGCLSIHDVRAEVSRPSSLKATLPQLDGSVLVIETDGLLARAIQHETDHLNGVLFTDRVSPATKI-LRRKLRRLVEEG</Hsp_qseq>
+      <Hsp_hseq>LEIVQYGHPVLRERCKRVEQVDDAIRILADDMLETMYDANGVGLAAPQVGVAIRLAVIDVAHDPDCISFLKVDGKDAPLASIMPLKFINPELEFIAPKERDTEGCLSIQDLRAEVNRPAAVKATLPQLDGSVLVIETDGLLARAIQHETDHLNGVLFTDRVSPAMKISLRRKLRRLAEDG</Hsp_hseq>
+      <Hsp_midline>LEIVQYG+PVLRERCKRVEQVD++IRILA  MLETMY          QVGVAIRLAV+DVAHDP+CISFLKV+G+  PLASIMPL FINPELEF  PKERDTEGCLSI D+RAEV+RP+++KATLPQLDGSVLVIETDGLLARAIQHETDHLNGVLFTDRVSPA KI LRRKLRRL E+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_264516306.1|</Hit_id>
+  <Hit_def>peptide deformylase [Luteolibacter rhizosphaerae] &gt;gb|MCW1916719.1| peptide deformylase [Luteolibacter rhizosphaerae]</Hit_def>
+  <Hit_accession>WP_264516306</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>276.944</Hsp_bit-score>
+      <Hsp_score>707</Hsp_score>
+      <Hsp_evalue>2.89832e-92</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>LEIVQYGNPVLRERCKRVEQVDESIRILA--MLETMY----------QVGVAIRLAVVDVAHDPECISFLKVNGE--PLASIMPLTFINPELEFTGPKERDTEGCLSIHDVRAEVSRPSSLKATLPQLDGSVLVIETDGLLARAIQHETDHLNGVLFTDRVSPATKI-LRRKLRRLVEEG</Hsp_qseq>
+      <Hsp_hseq>LEIVQYGHPVLRERCKRVEQVDDSIRILADDMLETMYDANGVGLAAPQVGIALRLAVVDVSHDPECISFLKVDGKDAPLASIMPLKFINPELEFTGPKERDAEGCLSIQDIRAEVNRPSAVKATLTLLDGTVTVIETDGLLARAIQHETDHLNGVLFIDRVSPATKISLRRKLKRLTEEG</Hsp_hseq>
+      <Hsp_midline>LEIVQYG+PVLRERCKRVEQVD+SIRILA  MLETMY          QVG+A+RLAVVDV+HDPECISFLKV+G+  PLASIMPL FINPELEFTGPKERD EGCLSI D+RAEV+RPS++KATL  LDG+V VIETDGLLARAIQHETDHLNGVLF DRVSPATKI LRRKL+RL EEG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_193210792.1|</Hit_id>
+  <Hit_def>peptide deformylase [Luteolibacter marinus]</Hit_def>
+  <Hit_accession>WP_193210792</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>269.24</Hsp_bit-score>
+      <Hsp_score>687</Hsp_score>
+      <Hsp_evalue>3.41146e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>LEIVQYGNPVLRERCKRVEQVDESIRILA--MLETMY----------QVGVAIRLAVVDVAHDPECISFLKVNGE--PLASIMPLTFINPELEFTGPKERDTEGCLSIHDVRAEVSRPSSLKATLPQLDGSVLVIETDGLLARAIQHETDHLNGVLFTDRVSPATKI-LRRKLRRLVEEG</Hsp_qseq>
+      <Hsp_hseq>LEIVQYGHPVLRERCKTVDKVDDDLRKLVADMLETMYDASGVGLAAPQIGVALRLAVVDVSHDPECITFLKVGGEDAPLESIMPLVFINPELEFTGPKERDMEGCLSIHDVRAEVSRPSSLKATLPQLDGSVLEIETDGLLARAIQHETDHLNGVLFIDRVSPATKLSLKRKLRRLAAGG</Hsp_hseq>
+      <Hsp_midline>LEIVQYG+PVLRERCK V++VD+ +R L   MLETMY          Q+GVA+RLAVVDV+HDPECI+FLKV GE  PL SIMPL FINPELEFTGPKERD EGCLSIHDVRAEVSRPSSLKATLPQLDGSVL IETDGLLARAIQHETDHLNGVLF DRVSPATK+ L+RKLRRL   G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_264501320.1|</Hit_id>
+  <Hit_def>peptide deformylase [Luteolibacter flavescens] &gt;gb|MCW1885365.1| peptide deformylase [Luteolibacter flavescens]</Hit_def>
+  <Hit_accession>WP_264501320</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.085</Hsp_bit-score>
+      <Hsp_score>684</Hsp_score>
+      <Hsp_evalue>9.25006e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>LEIVQYGNPVLRERCKRVEQVDESIRILA--MLETMY----------QVGVAIRLAVVDVAHDPECISFLKVNGE--PLASIMPLTFINPELEFTGPKERDTEGCLSIHDVRAEVSRPSSLKATLPQLDGSVLVIETDGLLARAIQHETDHLNGVLFTDRVSPATKI-LRRKLRRLVEE</Hsp_qseq>
+      <Hsp_hseq>LDIVQYGHPVLRERCKPVEKVDDDLRKLAADMLETMYHANGVGLAAPQIGLAIRLAVVDVAHDPECITFLKVAGEDAPLESIMPLTFINPELEFTGPKEKDTEGCLSIHDVRADVSRPSALKAKLPQLDGTVLEIETDGLLARAIQHETDHLNGILFIDRVAPATKISLRRKLRRLAAD</Hsp_hseq>
+      <Hsp_midline>L+IVQYG+PVLRERCK VE+VD+ +R LA  MLETMY          Q+G+AIRLAVVDVAHDPECI+FLKV GE  PL SIMPLTFINPELEFTGPKE+DTEGCLSIHDVRA+VSRPS+LKA LPQLDG+VL IETDGLLARAIQHETDHLNG+LF DRV+PATKI LRRKLRRL  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|RYD60663.1|</Hit_id>
+  <Hit_def>MAG: peptide deformylase [Verrucomicrobiaceae bacterium]</Hit_def>
+  <Hit_accession>RYD60663</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.314</Hsp_bit-score>
+      <Hsp_score>682</Hsp_score>
+      <Hsp_evalue>1.69031e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>LEIVQYGNPVLRERCKRVEQVDESIRILA--MLETMY----------QVGVAIRLAVVDVAHDPECISFLKVNGE--PLASIMPLTFINPELEFTGPKERDTEGCLSIHDVRAEVSRPSSLKATLPQLDGSVLVIETDGLLARAIQHETDHLNGVLFTDRVSPATKI-LRRKLRRLVEE</Hsp_qseq>
+      <Hsp_hseq>LDIVQYGHPVLRERCKPVEKVDDDLRKLAADMLETMYDANGVGLAAPQIGIAIRLAVIDVAHDPECITFLKVAGEDAPLSSIMPLIFINPELEFTGPKEKDTEGCLSIHDVRADVSRPSSLKAKLPQLDGTVLEIETDGLLARALQHETDHLNGILFIDRVAPATKISLRRKLKRLAAE</Hsp_hseq>
+      <Hsp_midline>L+IVQYG+PVLRERCK VE+VD+ +R LA  MLETMY          Q+G+AIRLAV+DVAHDPECI+FLKV GE  PL+SIMPL FINPELEFTGPKE+DTEGCLSIHDVRA+VSRPSSLKA LPQLDG+VL IETDGLLARA+QHETDHLNG+LF DRV+PATKI LRRKL+RL  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_341404252.1|</Hit_id>
+  <Hit_def>peptide deformylase [Luteolibacter soli] &gt;gb|MEK7950644.1| peptide deformylase [Luteolibacter soli]</Hit_def>
+  <Hit_accession>WP_341404252</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>260.766</Hsp_bit-score>
+      <Hsp_score>665</Hsp_score>
+      <Hsp_evalue>7.3285e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>LEIVQYGNPVLRERCKRVEQVDESIRILA--MLETMY----------QVGVAIRLAVVDVAHDPECISFLKVNGE--PLASIMPLTFINPELEFTGPKERDTEGCLSIHDVRAEVSRPSSLKATLPQLDGSVLVIETDGLLARAIQHETDHLNGVLFTDRVSPATKI-LRRKLRRLVEE</Hsp_qseq>
+      <Hsp_hseq>LDIVQYGHPVLRERCKPVETVDDDLRKLAADMLETMYDANGVGLAAPQIGVAIRLAVVDVAHDPECITFLKVAGEDAPLSSIMPLVFINPELEFTGPKEKDTEGCLSIRDLRADVSRPGALKAKLPQLDGTVLEIETDGLLARALQHETDHLNGILFIDRVAPATKISLRRKLKRLAAE</Hsp_hseq>
+      <Hsp_midline>L+IVQYG+PVLRERCK VE VD+ +R LA  MLETMY          Q+GVAIRLAVVDVAHDPECI+FLKV GE  PL+SIMPL FINPELEFTGPKE+DTEGCLSI D+RA+VSRP +LKA LPQLDG+VL IETDGLLARA+QHETDHLNG+LF DRV+PATKI LRRKL+RL  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|PAW73531.1|</Hit_id>
+  <Hit_def>MAG: peptide deformylase [Verrucomicrobiia bacterium Tous-C4TDCM]</Hit_def>
+  <Hit_accession>PAW73531</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.996</Hsp_bit-score>
+      <Hsp_score>663</Hsp_score>
+      <Hsp_evalue>1.39905e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>LEIVQYGNPVLRERCKRVEQVDESIRILA--MLETMY----------QVGVAIRLAVVDVAHDPECISFLKVNGE--PLASIMPLTFINPELEFTGPKERDTEGCLSIHDVRAEVSRPSSLKATLPQLDGSVLVIETDGLLARAIQHETDHLNGVLFTDRVSPATKI-LRRKLRRLVEE</Hsp_qseq>
+      <Hsp_hseq>LEIVQYGHPVLRERCKPVVEIDDALQQLVADMLETMYDANGVGLAAPQVGVALRLAVVDVSHDPECISFLKVAGQDAPLASIMPLVFINPELEFTGPKERDTEGCLSIQDLRAEVNRPGAIKAKLPQLDGSVLEIETDGLLARAIQHETDHLNGVLFIDRVSPAAKISLRRKLRRLADE</Hsp_hseq>
+      <Hsp_midline>LEIVQYG+PVLRERCK V ++D++++ L   MLETMY          QVGVA+RLAVVDV+HDPECISFLKV G+  PLASIMPL FINPELEFTGPKERDTEGCLSI D+RAEV+RP ++KA LPQLDGSVL IETDGLLARAIQHETDHLNGVLF DRVSPA KI LRRKLRRL +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_264489595.1|</Hit_id>
+  <Hit_def>peptide deformylase [Luteolibacter arcticus] &gt;gb|MCW1925489.1| peptide deformylase [Luteolibacter arcticus]</Hit_def>
+  <Hit_accession>WP_264489595</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.996</Hsp_bit-score>
+      <Hsp_score>663</Hsp_score>
+      <Hsp_evalue>1.47785e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>LEIVQYGNPVLRERCKRVEQVDESIRILA--MLETMY----------QVGVAIRLAVVDVAHDPECISFLKVNGE--PLASIMPLTFINPELEFTGPKERDTEGCLSIHDVRAEVSRPSSLKATLPQLDGSVLVIETDGLLARAIQHETDHLNGVLFTDRVSPATKI-LRRKLRRLVEE</Hsp_qseq>
+      <Hsp_hseq>LEIVQYGHPVLRERCKPVETVDDDLRKLAADMLETMYDANGVGLAAPQIGVALRLAVIDVAHDPECITFLKVGGEDAPLDSIMPLIFINPELEFTGPKEKDTEGCLSIRDVRADVSRPGSLKAKLPQLDGTVLEIETDGLLARALQHETDHLNGILFIDRVAPATKISLRRKLKRLAAD</Hsp_hseq>
+      <Hsp_midline>LEIVQYG+PVLRERCK VE VD+ +R LA  MLETMY          Q+GVA+RLAV+DVAHDPECI+FLKV GE  PL SIMPL FINPELEFTGPKE+DTEGCLSI DVRA+VSRP SLKA LPQLDG+VL IETDGLLARA+QHETDHLNG+LF DRV+PATKI LRRKL+RL  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|MDB6079577.1|</Hit_id>
+  <Hit_def>peptide deformylase [Akkermansiaceae bacterium]</Hit_def>
+  <Hit_accession>MDB6079577</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.529</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>3.91454e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>LEIVQYGNPVLRERCKRVEQVDESIRILA--MLETMY----------QVGVAIRLAVVDVAHDPECISFLKVNGE--PLASIMPLTFINPELEFTGPKERDTEGCLSIHDVRAEVSRPSSLKATLPQLDGSVLVIETDGLLARAIQHETDHLNGVLFTDRVSPATKI-LRRKLRRLVEEG</Hsp_qseq>
+      <Hsp_hseq>LPIVQYGHPVLRERCKPVEEVTEEIRTLAADMLETMYDANGVGLAAPQIGVALRLAVIDVAHDPECISFLKVNGEDAALESIMPLIFINPELELVGEKERDTEGCLSIRDMRAEVTRPNAVKATLPQFDGSVLVIETDGLLARALQHETDHLNGVLFIDRLSPATKLSIKRKLRRLAAEG</Hsp_hseq>
+      <Hsp_midline>L IVQYG+PVLRERCK VE+V E IR LA  MLETMY          Q+GVA+RLAV+DVAHDPECISFLKVNGE   L SIMPL FINPELE  G KERDTEGCLSI D+RAEV+RP+++KATLPQ DGSVLVIETDGLLARA+QHETDHLNGVLF DR+SPATK+ ++RKLRRL  EG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|TAE78249.1|</Hit_id>
+  <Hit_def>MAG: peptide deformylase [Verrucomicrobiota bacterium] &gt;gb|TAE87472.1| MAG: peptide deformylase [Verrucomicrobiota bacterium] &gt;gb|TAF25755.1| MAG: peptide deformylase [Verrucomicrobiota bacterium] &gt;gb|TAF41542.1| MAG: peptide deformylase [Verrucomicrobiota bacterium]</Hit_def>
+  <Hit_accession>TAE78249</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.521</Hsp_bit-score>
+      <Hsp_score>641</Hsp_score>
+      <Hsp_evalue>2.93549e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>LEIVQYGNPVLRERCKRVEQVDESIRILA--MLETMY----------QVGVAIRLAVVDVAHDPECISFLKVNGE--PLASIMPLTFINPELEFTGPKERDTEGCLSIHDVRAEVSRPSSLKATLPQLDGSVLVIETDGLLARAIQHETDHLNGVLFTDRVSPATKI-LRRKLRRLVEE</Hsp_qseq>
+      <Hsp_hseq>LEIVQYGHPVLRERCKPVGVVDDSLRQLVGDMLETMNDANGVGLAAPQVGVALRLAVVDVSHDPECISFLKVGGQDAPLASIMPLVFINPELEFVGPKERDTEGCLSIRDLRADVSRPSVIKARLPQLDGTVLEIETDGLLARAIQHETDHLNGVLYIDRVSPAAKISLRRQLRRLAAE</Hsp_hseq>
+      <Hsp_midline>LEIVQYG+PVLRERCK V  VD+S+R L   MLETM           QVGVA+RLAVVDV+HDPECISFLKV G+  PLASIMPL FINPELEF GPKERDTEGCLSI D+RA+VSRPS +KA LPQLDG+VL IETDGLLARAIQHETDHLNGVL+ DRVSPA KI LRR+LRRL  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_379710981.1|</Hit_id>
+  <Hit_def>peptide deformylase [Haloferula chungangensis] &gt;gb|MFC7337043.1| peptide deformylase [Haloferula chungangensis]</Hit_def>
+  <Hit_accession>WP_379710981</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.276</Hsp_bit-score>
+      <Hsp_score>617</Hsp_score>
+      <Hsp_evalue>1.33839e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>LEIVQYGNPVLRERCKRVEQVDESIRILA--MLETMY----------QVGVAIRLAVVDVAHDPECISFLKVNGEP--LASIMPLTFINPELEFTGPKERDTEGCLSIHDVRAEVSRPSSLKATLPQLDGSVLVIETDGLLARAIQHETDHLNGVLFTDRVSPATKI-LRRKLRRLVEEG</Hsp_qseq>
+      <Hsp_hseq>LDIVQLGHPVLRERCKPVEKVDEELHKLVADMLETMYDAEGVGLAAPQVAVPLRLAVVDVSHDPECISFLKVNGKDAELSSIMPLVFINPELEFGDDREKDTEGCLSIRDVKADVNRPASLKAILPQIDGSVLEIETDGLLARAIQHETDHLNGVLFIDRVSPATKVSLKRKLKRLAAEG</Hsp_hseq>
+      <Hsp_midline>L+IVQ G+PVLRERCK VE+VDE +  L   MLETMY          QV V +RLAVVDV+HDPECISFLKVNG+   L+SIMPL FINPELEF   +E+DTEGCLSI DV+A+V+RP+SLKA LPQ+DGSVL IETDGLLARAIQHETDHLNGVLF DRVSPATK+ L+RKL+RL  EG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_338685897.1|</Hit_id>
+  <Hit_def>peptide deformylase [Haloferula helveola] &gt;dbj|BCX49346.1| peptide deformylase [Haloferula helveola] &gt;dbj|GAA5476775.1| peptide deformylase [Haloferula helveola]</Hit_def>
+  <Hit_accession>WP_338685897</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.121</Hsp_bit-score>
+      <Hsp_score>614</Hsp_score>
+      <Hsp_evalue>4.82153e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>LEIVQYGNPVLRERCKRVEQVDESIRILA--MLETMY----------QVGVAIRLAVVDVAHDPECISFLKVNGE--PLASIMPLTFINPELEFTGPKERDTEGCLSIHDVRAEVSRPSSLKATLPQLDGSVLVIETDGLLARAIQHETDHLNGVLFTDRVSPATKI-LRRKLRRLVEEG</Hsp_qseq>
+      <Hsp_hseq>LDIVQYGHPVLRERCQPVERVDDEVRKLAEDMVETMYDAQGVGLAAPQVGVALRLAVVDVAHDPECVSFLKVNGEDAKLEDWMPLVFINPELDLGTEKEKDTEGCLSIRDIRADVSRPAALRAKLPQLDGTVIELETDGLLARAIQHETDHLNGVLFIDRVSPATKVSLRRKLKRLAAGG</Hsp_hseq>
+      <Hsp_midline>L+IVQYG+PVLRERC+ VE+VD+ +R LA  M+ETMY          QVGVA+RLAVVDVAHDPEC+SFLKVNGE   L   MPL FINPEL+    KE+DTEGCLSI D+RA+VSRP++L+A LPQLDG+V+ +ETDGLLARAIQHETDHLNGVLF DRVSPATK+ LRRKL+RL   G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|MEM1085091.1|</Hit_id>
+  <Hit_def>peptide deformylase [Verrucomicrobiota bacterium] &gt;gb|MEM9236869.1| peptide deformylase [Verrucomicrobiota bacterium]</Hit_def>
+  <Hit_accession>MEM1085091</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>239.58</Hsp_bit-score>
+      <Hsp_score>610</Hsp_score>
+      <Hsp_evalue>1.55666e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>LEIVQYGNPVLRERCKRVEQVDESIR--ILAMLETMY----------QVGVAIRLAVVDVAHDPECISFLKVNGEP--LASIMPLTFINPELEFTGPKERDTEGCLSIHDVRAEVSRPSSLKATLPQLDGSVLVIETDGLLARAIQHETDHLNGVLFTDRVSPATKI-LRRKLRRLVEEG</Hsp_qseq>
+      <Hsp_hseq>LDIVQYGHPVLRERCKAVAEVDDKLRELVANMLETMYDANGVGLAAPQVGIALRLAVVDVAHNPECVSFLKVNGEDAELTSIMPLVFINPELELGEEREKDTEGCLSIRDVQADVKRPGSLKARLPQLDGSVLELETDGLLARAIQHETDHLNGVLFIDRVSSATKISLKRKLKRLAAGG</Hsp_hseq>
+      <Hsp_midline>L+IVQYG+PVLRERCK V +VD+ +R  +  MLETMY          QVG+A+RLAVVDVAH+PEC+SFLKVNGE   L SIMPL FINPELE    +E+DTEGCLSI DV+A+V RP SLKA LPQLDGSVL +ETDGLLARAIQHETDHLNGVLF DRVS ATKI L+RKL+RL   G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|MEP4078763.1|</Hit_id>
+  <Hit_def>peptide deformylase [Haloferula sp.] &gt;gb|MEP4932567.1| peptide deformylase [Haloferula sp.]</Hit_def>
+  <Hit_accession>MEP4078763</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>237.269</Hsp_bit-score>
+      <Hsp_score>604</Hsp_score>
+      <Hsp_evalue>1.67658e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>LEIVQYGNPVLRERCKRVEQVDESIRILA--MLETMY----------QVGVAIRLAVVDVAHDPECISFLKVNGEP--LASIMPLTFINPELEFTGPKERDTEGCLSIHDVRAEVSRPSSLKATLPQLDGSVLVIETDGLLARAIQHETDHLNGVLFTDRVSPATKI-LRRKLRRLVEEG</Hsp_qseq>
+      <Hsp_hseq>LDIVQYGHPVLRERCKPVEKIDDDLNKLVADMLETMVEAQGVGLAAPQVGIALRLAVVDVSHDPECISFLKVNGEDAELDSIMPLVFINPELELGDQREKDKEGCLSIRDVQADVNRPQSLKASLPQIDGSTLEIETDGLLARAIQHETDHLNGVLFIDRVSPATKISLKRKLKRLAAGG</Hsp_hseq>
+      <Hsp_midline>L+IVQYG+PVLRERCK VE++D+ +  L   MLETM           QVG+A+RLAVVDV+HDPECISFLKVNGE   L SIMPL FINPELE    +E+D EGCLSI DV+A+V+RP SLKA+LPQ+DGS L IETDGLLARAIQHETDHLNGVLF DRVSPATKI L+RKL+RL   G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_200279245.1|</Hit_id>
+  <Hit_def>peptide deformylase [Haloferula rosea] &gt;gb|MBK1827593.1| peptide deformylase [Haloferula rosea]</Hit_def>
+  <Hit_accession>WP_200279245</Hit_accession>
+  <Hit_len>181</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>236.498</Hsp_bit-score>
+      <Hsp_score>602</Hsp_score>
+      <Hsp_evalue>3.34101e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>LEIVQYGNPVLRERCKRVEQVDESIRILA--MLETMY----------QVGVAIRLAVVDVAHDPECISFLKVNGEP--LASIMPLTFINPELEFTGPKERDTEGCLSIHDVRAEVSRPSSLKATLPQLDGSVLVIETDGLLARAIQHETDHLNGVLFTDRVSPATKI-LRRKLRRLVE</Hsp_qseq>
+      <Hsp_hseq>LDIVQYGDPVLRERCGKVEEVDDELRKLVDDMIETMYDAQGVGLAAPQIGKAIRLAVVDVSHDPECISFLKVDGKDADLASIMPLVFINPELEFGKEREKDTEGCLSISEIRADVRRPAVVKAKLPQLDGRVLEIETDGLLSRAIQHETDHLNGVLFIDRVSPAAKVSVKRKLKRLVE</Hsp_hseq>
+      <Hsp_midline>L+IVQYG+PVLRERC +VE+VD+ +R L   M+ETMY          Q+G AIRLAVVDV+HDPECISFLKV+G+   LASIMPL FINPELEF   +E+DTEGCLSI ++RA+V RP+ +KA LPQLDG VL IETDGLL+RAIQHETDHLNGVLF DRVSPA K+ ++RKL+RLVE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_396261643.1|</Hit_id>
+  <Hit_def>peptide deformylase [Haloferula sp. A504] &gt;gb|MCH7228191.1| peptide deformylase [Verrucomicrobiaceae bacterium E54] &gt;gb|MFI2795212.1| peptide deformylase [Haloferula sp. A504]</Hit_def>
+  <Hit_accession>WP_396261643</Hit_accession>
+  <Hit_len>183</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>232.261</Hsp_bit-score>
+      <Hsp_score>591</Hsp_score>
+      <Hsp_evalue>1.41537e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>LEIVQYGNPVLRERCKRVEQVDESIRILA--MLETMY----------QVGVAIRLAVVDVAHDPECISFLKVNGEP--LASIMPLTFINPELEFTGPKERDTEGCLSIHDVRAEVSRPSSLKATLPQLDGSVLVIETDGLLARAIQHETDHLNGVLFTDRVSPATKI-LRRKLRRLV</Hsp_qseq>
+      <Hsp_hseq>LDIVQLGHPVLRERCRPVERVDDDIRRLVDDMIETMHAAQGVGLAAPQVGVAQRLAIVDVAHDPDCVSFLRVNGEEAELADLMPLVFINPELEFGEHKESDIEGCLSIQDVRAEVKRPAALKATLPQLDGTILEVETDGLLARAIQHETDHLNGVLFIDRISPAAKVRLKRKLKRLM</Hsp_hseq>
+      <Hsp_midline>L+IVQ G+PVLRERC+ VE+VD+ IR L   M+ETM+          QVGVA RLA+VDVAHDP+C+SFL+VNGE   LA +MPL FINPELEF   KE D EGCLSI DVRAEV RP++LKATLPQLDG++L +ETDGLLARAIQHETDHLNGVLF DR+SPA K+ L+RKL+RL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_184021101.1|</Hit_id>
+  <Hit_def>peptide deformylase [Haloferula luteola] &gt;gb|MBB5353322.1| peptide deformylase [Haloferula luteola]</Hit_def>
+  <Hit_accession>WP_184021101</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>229.95</Hsp_bit-score>
+      <Hsp_score>585</Hsp_score>
+      <Hsp_evalue>1.26346e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>LEIVQYGNPVLRERCKRVEQVDESIR--ILAMLETMY----------QVGVAIRLAVVDVAHDPECISFLKVNGE--PLASIMPLTFINPELEFTGPKERDTEGCLSIHDVRAEVSRPSSLKATLPQLDGSVLVIETDGLLARAIQHETDHLNGVLFTDRVSPATKI-LRRKLRRLVE</Hsp_qseq>
+      <Hsp_hseq>LEIVQYGHPVLRDRCAPVEKVDDKLKELVASMLETMVDAQGVGLAAPQIGVPLRLAVVDVSHDPECISYLRVNGEDAQLADIMPLIFINPELEFGTRKEKDTEGCLSIDGIRAEVNRPAEIKARLPQLDGSELVIETDGLLARAIQHETDHLNGVLFIDRVSPAAKVRLKGKLKRLLD</Hsp_hseq>
+      <Hsp_midline>LEIVQYG+PVLR+RC  VE+VD+ ++  + +MLETM           Q+GV +RLAVVDV+HDPECIS+L+VNGE   LA IMPL FINPELEF   KE+DTEGCLSI  +RAEV+RP+ +KA LPQLDGS LVIETDGLLARAIQHETDHLNGVLF DRVSPA K+ L+ KL+RL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|MFM2241708.1|</Hit_id>
+  <Hit_def>peptide deformylase [Verrucomicrobiota bacterium]</Hit_def>
+  <Hit_accession>MFM2241708</Hit_accession>
+  <Hit_len>181</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.794</Hsp_bit-score>
+      <Hsp_score>582</Hsp_score>
+      <Hsp_evalue>2.7501e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>LEIVQYGNPVLRERCKRVEQVDESIRILA--MLETMY----------QVGVAIRLAVVDVAHDPECISFLKVNGE--PLASIMPLTFINPELEFTGPKERDTEGCLSIHDVRAEVSRPSSLKATLPQLDGSVLVIETDGLLARAIQHETDHLNGVLFTDRVSPATKI-LRRKLRRLVEE</Hsp_qseq>
+      <Hsp_hseq>LEIVQYGDPVLREKCRAVEEVDETVRQLVADMIETMYEAHGVGLAAPQVGVPLRLAVVDVSHDPECISYLRVDGREVPLEEIMPLVFINPELEFGTRKEKSAEGCLSIDGIRAEVSRPADIKARLPQLDGRVMELETDGLLARAIQHETDHLNGVLFVDRISPAAKVRIKGRLRRLTEE</Hsp_hseq>
+      <Hsp_midline>LEIVQYG+PVLRE+C+ VE+VDE++R L   M+ETMY          QVGV +RLAVVDV+HDPECIS+L+V+G   PL  IMPL FINPELEF   KE+  EGCLSI  +RAEVSRP+ +KA LPQLDG V+ +ETDGLLARAIQHETDHLNGVLF DR+SPA K+ ++ +LRRL EE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>877781531</Statistics_db-num>
+      <Statistics_db-len>334720180573</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
