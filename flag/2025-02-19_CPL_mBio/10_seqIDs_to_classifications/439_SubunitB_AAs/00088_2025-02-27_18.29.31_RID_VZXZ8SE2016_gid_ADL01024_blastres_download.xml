@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_6918417</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>140</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_6918417</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>140</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_013269127.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Brevundimonas subvibrioides] &gt;gb|ADL01025.1| Biopolymer transport protein ExbD/TolR [Brevundimonas subvibrioides ATCC 15264] &gt;emb|CAL1691518.1| Biopolymer transport protein ExbD [Brevundimonas subvibrioides]</Hit_def>
+  <Hit_accession>WP_013269127</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>271.552</Hsp_bit-score>
+      <Hsp_score>693</Hsp_score>
+      <Hsp_evalue>4.60534e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>MAAKLGGSGGGKYQVEQTADINVTPFVDIMLVLLIIFMVASSVATVSVVV--PVALAPPAENPPKPVFISIRTDGRVFIGDGETTFDTLGAELTSQIGRRDPTKERIFI---QQTRYGDFMQTMNALQDAGFYSVALVGEDKAPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKLGGSGGGKYQVEQTADINVTPFVDIMLVLLIIFMVASSVATVSVVVKLPVALAPPAENPPKPVFISIRTDGRVFIGDGETTFDTLGAELTSQIGRRDPTKERIFIRADQQTRYGDFMQTMNALQDAGFYSVALVGEDKAPQ</Hsp_hseq>
+      <Hsp_midline>MAAKLGGSGGGKYQVEQTADINVTPFVDIMLVLLIIFMVASSVATVSVVV  PVALAPPAENPPKPVFISIRTDGRVFIGDGETTFDTLGAELTSQIGRRDPTKERIFI   QQTRYGDFMQTMNALQDAGFYSVALVGEDKAPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_269514155.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Brevundimonas subvibrioides]</Hit_def>
+  <Hit_accession>WP_269514155</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.144</Hsp_bit-score>
+      <Hsp_score>653</Hsp_score>
+      <Hsp_evalue>5.5461e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>MAAKLGGSGGGKYQVEQTADINVTPFVDIMLVLLIIFMVASSVATVSVVV--PVALAPPAENPPKPVFISIRTDGRVFIGDGETTFDTLGAELTSQIGRRDPTKERIFI---QQTRYGDFMQTMNALQDAGFYSVALVGEDKAPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKLGGSGGGKYHVEQTADINVTPFVDIMLVLLIIFMVASSVATVSIEVKLPVALAPPAENPPKPVFISIQTDGRVFIGDHETSFDTLGGELTEQIGRRDPTKERIYIRADQQTRYGDFMQTMNALQDAGFYSVALVGEDQAPQ</Hsp_hseq>
+      <Hsp_midline>MAAKLGGSGGGKY VEQTADINVTPFVDIMLVLLIIFMVASSVATVS+ V  PVALAPPAENPPKPVFISI+TDGRVFIGD ET+FDTLG ELT QIGRRDPTKERI+I   QQTRYGDFMQTMNALQDAGFYSVALVGED+APQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_209320308.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Brevundimonas sp. AJA228-03] &gt;gb|QTN18209.1| biopolymer transporter ExbD [Brevundimonas sp. AJA228-03]</Hit_def>
+  <Hit_accession>WP_209320308</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.521</Hsp_bit-score>
+      <Hsp_score>641</Hsp_score>
+      <Hsp_evalue>3.91493e-83</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>MAAKLGGSGGGKYQVEQTADINVTPFVDIMLVLLIIFMVASSVATVSVVV--PVALAPPAENPPKPVFISIRTDGRVFIGDGETTFDTLGAELTSQIGRRDPTKERIFI---QQTRYGDFMQTMNALQDAGFYSVALVGEDKAPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKLGGSGGGKYHVEQTADINVTPFVDIMLVLLIIFMVASSVATVSIEVKLPVALAPPQENPPKPVFISIQTDGRVFIGDYETSFDTLGTQLTEQIGQRDPTKERIYIRADQQTRYGDFMQTMNALQDAGFYSVALVGEDKAPQ</Hsp_hseq>
+      <Hsp_midline>MAAKLGGSGGGKY VEQTADINVTPFVDIMLVLLIIFMVASSVATVS+ V  PVALAPP ENPPKPVFISI+TDGRVFIGD ET+FDTLG +LT QIG+RDPTKERI+I   QQTRYGDFMQTMNALQDAGFYSVALVGEDKAPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_207868055.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Brevundimonas goettingensis] &gt;gb|QTC89791.1| biopolymer transporter ExbD [Brevundimonas goettingensis]</Hit_def>
+  <Hit_accession>WP_207868055</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>235.343</Hsp_bit-score>
+      <Hsp_score>599</Hsp_score>
+      <Hsp_evalue>8.76809e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MAAKLGGSGGGKYQVEQTADINVTPFVDIMLVLLIIFMVASSVATVSVVV--PVALAPPAENPPKPVFISIRTDGRVFIGDGETTFDTLGAELTSQIGRRDPTKERIFI---QQTRYGDFMQTMNALQDAGFYSVALVGEDKA</Hsp_qseq>
+      <Hsp_hseq>MAAKLGGPGGGKYHVEQNADINVTPFVDIMLVLLIIFMVASSVATVSVEVKLPLSQVPPGENPPKPVFISITIDGRVYIGDGESSFDTLGADLNSQIGRRDPTKERIFIRADQQTRYGDFMHAMNSLQDAGFYSVALVGEDKA</Hsp_hseq>
+      <Hsp_midline>MAAKLGG GGGKY VEQ ADINVTPFVDIMLVLLIIFMVASSVATVSV V  P++  PP ENPPKPVFISI  DGRV+IGDGE++FDTLGA+L SQIGRRDPTKERIFI   QQTRYGDFM  MN+LQDAGFYSVALVGEDKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_271144928.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Brevundimonas sp. NIBR10] &gt;gb|WGM48630.1| Biopolymer transport protein ExbD [Brevundimonas sp. NIBR10]</Hit_def>
+  <Hit_accession>WP_271144928</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>235.343</Hsp_bit-score>
+      <Hsp_score>599</Hsp_score>
+      <Hsp_evalue>9.26237e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MAAKLGGSGGGKYQVEQTADINVTPFVDIMLVLLIIFMVASSVAT--VSVVVPVALAPPAENPPKPVFISIRTDGRVFIGDGETTFDTLGAELTSQIGRRDPTKERIFI---QQTRYGDFMQTMNALQDAGFYSVALVGEDK</Hsp_qseq>
+      <Hsp_hseq>MAAKLGGSGGGKYHVEQNAEINVTPFVDIMLVLLIIFMVASAVATPGVEVKLPIALAPPSENPPKPVFISITTDGRVYIGDGESSYDTLGSDLTAQIGRRDPTKERIYIRGDQDTRYGDFMQAMNSLQDAGFYSVALVGEDK</Hsp_hseq>
+      <Hsp_midline>MAAKLGGSGGGKY VEQ A+INVTPFVDIMLVLLIIFMVAS+VAT  V V +P+ALAPP+ENPPKPVFISI TDGRV+IGDGE+++DTLG++LT+QIGRRDPTKERI+I   Q TRYGDFMQ MN+LQDAGFYSVALVGEDK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_077355872.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Brevundimonas sp. LM2] &gt;gb|AQR62307.1| biopolymer transporter ExbD [Brevundimonas sp. LM2]</Hit_def>
+  <Hit_accession>WP_077355872</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>233.032</Hsp_bit-score>
+      <Hsp_score>593</Hsp_score>
+      <Hsp_evalue>7.44612e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>MAAKLGGSGGGKYQVEQTADINVTPFVDIMLVLLIIFMVASSVATVSVV--VPVALAPPAENPPKPVFISIRTDGRVFIGDGETTFDTLGAELTSQIGRRDPTKERIFI---QQTRYGDFMQTMNALQDAGFYSVALVGEDKAP</Hsp_qseq>
+      <Hsp_hseq>MAAKLGGSGGGKYQVEQTADINVTPFVDIMLVLLIIFMVASSVATVSVVVKLPVALAPPAENPPKPVFISVQQDGRVFIGDGETSFDSLGAELSTMIGRRDPSKERIFIRADQQTRYGDFMQAMNALQDAGFYSVALVGEDKAP</Hsp_hseq>
+      <Hsp_midline>MAAKLGGSGGGKYQVEQTADINVTPFVDIMLVLLIIFMVASSVATVSVV  +PVALAPPAENPPKPVFIS++ DGRVFIGDGET+FD+LGAEL++ IGRRDP+KERIFI   QQTRYGDFMQ MNALQDAGFYSVALVGEDKAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_292155384.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Brevundimonas sp.] &gt;gb|MBJ7486110.1| biopolymer transporter ExbD [Brevundimonas sp.]</Hit_def>
+  <Hit_accession>WP_292155384</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>232.261</Hsp_bit-score>
+      <Hsp_score>591</Hsp_score>
+      <Hsp_evalue>1.55194e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MAAKLGGSGGGKYQVEQTADINVTPFVDIMLVLLIIFMVASSVAT--VSVVVPVALAPPAENPPKPVFISIRTDGRVFIGDGETTFDTLGAELTSQIGRRDPTKERIFI---QQTRYGDFMQTMNALQDAGFYSVALVGEDK</Hsp_qseq>
+      <Hsp_hseq>MAAKLGGSGGGKYHVEQNADINVTPFVDIMLVLLIIFMVASAVATPGIEVKLPIALAKPTDNPPKPVFISITTDGRVYIGDGETSYETLGADLTSQIGRRDPTKERIYIRGDQDTRYGDFMQAMNSLQDSGFYSVALVGEDK</Hsp_hseq>
+      <Hsp_midline>MAAKLGGSGGGKY VEQ ADINVTPFVDIMLVLLIIFMVAS+VAT  + V +P+ALA P +NPPKPVFISI TDGRV+IGDGET+++TLGA+LTSQIGRRDPTKERI+I   Q TRYGDFMQ MN+LQD+GFYSVALVGEDK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_395650227.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Brevundimonas sp.]</Hit_def>
+  <Hit_accession>WP_395650227</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.491</Hsp_bit-score>
+      <Hsp_score>589</Hsp_score>
+      <Hsp_evalue>2.43217e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MAAKLGGSGGGKYQVEQTADINVTPFVDIMLVLLIIFMVASSVAT--VSVVVPVALAPPAENPPKPVFISIRTDGRVFIGDGETTFDTLGAELTSQIGRRDPTKERIFI---QQTRYGDFMQTMNALQDAGFYSVALVGEDKA</Hsp_qseq>
+      <Hsp_hseq>MAAKLGGSGGGKYHVEQNAEINVTPFVDIMLVLLIIFMVASAVATPGVEVKLPIALVPPSDNPPKPVFISITTDGRVYIGDGESSYDTLGSDLTAQIGRRDPTKERIYIRGDQDTRYGDFMQAMNSLQDAGFYSVALVGEDKG</Hsp_hseq>
+      <Hsp_midline>MAAKLGGSGGGKY VEQ A+INVTPFVDIMLVLLIIFMVAS+VAT  V V +P+AL PP++NPPKPVFISI TDGRV+IGDGE+++DTLG++LT+QIGRRDPTKERI+I   Q TRYGDFMQ MN+LQDAGFYSVALVGEDK </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|RYG08199.1|</Hit_id>
+  <Hit_def>MAG: biopolymer transporter ExbD, partial [Caulobacteraceae bacterium]</Hit_def>
+  <Hit_accession>RYG08199</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.491</Hsp_bit-score>
+      <Hsp_score>589</Hsp_score>
+      <Hsp_evalue>2.65521e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MAAKLGGSGGGKYQVEQTADINVTPFVDIMLVLLIIFMVASSVATVSVVV--PVALAPPAENPPKPVFISIRTDGRVFIGDGETTFDTLGAELTSQIGRRDPTKERIFI---QQTRYGDFMQTMNALQDAGFYSVALVGEDK</Hsp_qseq>
+      <Hsp_hseq>MAAKLGGQGGGKYHVEQNADINVTPFVDIMLVLLIIFMVASAVATVSVEVKLPIALAPPAENPPKPVFISVTTDGSVYIGDGQSSFETLGADLNASIGRRDPTQERIYIRADQETRYGDFMQAMNSLQDAGFYSVALVGEDK</Hsp_hseq>
+      <Hsp_midline>MAAKLGG GGGKY VEQ ADINVTPFVDIMLVLLIIFMVAS+VATVSV V  P+ALAPPAENPPKPVFIS+ TDG V+IGDG+++F+TLGA+L + IGRRDPT+ERI+I   Q+TRYGDFMQ MN+LQDAGFYSVALVGEDK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|MDB5422184.1|</Hit_id>
+  <Hit_def>Biopolymer transport protein ExbD/TolR [Brevundimonas sp.]</Hit_def>
+  <Hit_accession>MDB5422184</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>230.335</Hsp_bit-score>
+      <Hsp_score>586</Hsp_score>
+      <Hsp_evalue>7.86689e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MAAKLGGSGGGKYQVEQTADINVTPFVDIMLVLLIIFMVASSVATVSVVV--PVALAPPAENPPKPVFISIRTDGRVFIGDGETTFDTLGAELTSQIGRRDPTKERIFI---QQTRYGDFMQTMNALQDAGFYSVALVGEDK</Hsp_qseq>
+      <Hsp_hseq>MAAKLGGQGGGKYHVEQNAEINVTPFVDIMLVLLIIFMVASAVATVSVEVKLPIALAPPAENPPKPVFISVTTDGSVYIGDGQSSFETLGADLNEQIGRRDPTLERIYIRADQETRYGDFMQAMNSLQDAGFYSVALVGEDK</Hsp_hseq>
+      <Hsp_midline>MAAKLGG GGGKY VEQ A+INVTPFVDIMLVLLIIFMVAS+VATVSV V  P+ALAPPAENPPKPVFIS+ TDG V+IGDG+++F+TLGA+L  QIGRRDPT ERI+I   Q+TRYGDFMQ MN+LQDAGFYSVALVGEDK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|NBW08522.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Caulobacteraceae bacterium]</Hit_def>
+  <Hit_accession>NBW08522</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>224.942</Hsp_bit-score>
+      <Hsp_score>572</Hsp_score>
+      <Hsp_evalue>1.04701e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MAAKLGGSGGGKYQVEQTADINVTPFVDIMLVLLIIFMVASSVATVSVVV--PVALAPPAENPPKPVFISIRTDGRVFIGDGETTFDTLGAELTSQIGRRDPTKERIFI---QQTRYGDFMQTMNALQDAGFYSVALVGEDKA</Hsp_qseq>
+      <Hsp_hseq>MAAKLGGQGGGKYHVQQNAEINVTPFVDIMLVLLIIFMVASSVATVSVEVKLPLSQVPPGVNPPKPVFISITTDGRVYIGDTESSFDTLGSDLNASIGRRDPTKERIFIRADQQTRYGDFMHAMNSLQDAGFYSVALVGEDKA</Hsp_hseq>
+      <Hsp_midline>MAAKLGG GGGKY V+Q A+INVTPFVDIMLVLLIIFMVASSVATVSV V  P++  PP  NPPKPVFISI TDGRV+IGD E++FDTLG++L + IGRRDPTKERIFI   QQTRYGDFM  MN+LQDAGFYSVALVGEDKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_056103492.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Brevundimonas sp. Leaf363] &gt;gb|KQS54182.1| biopolymer transporter [Brevundimonas sp. Leaf363] &gt;gb|RZJ96878.1| MAG: biopolymer transporter ExbD [Brevundimonas sp.]</Hit_def>
+  <Hit_accession>WP_056103492</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.09</Hsp_bit-score>
+      <Hsp_score>562</Hsp_score>
+      <Hsp_evalue>3.53753e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>MAAKLGGSGGGKYQVEQTADINVTPFVDIMLVLLIIFMVASSVATVSVVV--PVALAPPAENPPKPVFISIRTDGRVFIGDGETTFDTLGAELTSQIGRRDPTKERIFI---QQTRYGDFMQTMNALQDAGFYSVALVGEDKAPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKLDSGGGGKYHVEANAEINVTPFVDIMLVLLIIFMVASAVATVSVEVTLPVAATKPTENPPKPVFISINTEGRVYIGDYETSFGSLGSELNAAIGARDPSKERIFIRADQNTRYGDFMQTMNALQDAGFYSVALVGEDKAPQ</Hsp_hseq>
+      <Hsp_midline>MAAKL   GGGKY VE  A+INVTPFVDIMLVLLIIFMVAS+VATVSV V  PVA   P ENPPKPVFISI T+GRV+IGD ET+F +LG+EL + IG RDP+KERIFI   Q TRYGDFMQTMNALQDAGFYSVALVGEDKAPQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>tpg|HEX8471150.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Brevundimonas sp.]</Hit_def>
+  <Hit_accession>HEX8471150</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.164</Hsp_bit-score>
+      <Hsp_score>557</Hsp_score>
+      <Hsp_evalue>1.60482e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MAAKLGGSGGGKYQVEQTADINVTPFVDIMLVLLIIFMVASSVATVSVVV--PVALAPPAENPPKPVFISIRTDGRVFIGDGETTFDTLGAELTSQIGRRDPTKERIFI---QQTRYGDFMQTMNALQDAGFYSVALV</Hsp_qseq>
+      <Hsp_hseq>MAAKLGGSGGGRYHVDQNAEINVTPFVDIMLVLLIIFMVASSVATVSVEVKLPIAVAKAQENPPKPVFISVTTDGGVFIGDGQSSFATLGSDLTSQIGRRDPSKERIFIRADQQTRYGDFMQAMNALQDAGFYSVALV</Hsp_hseq>
+      <Hsp_midline>MAAKLGGSGGG+Y V+Q A+INVTPFVDIMLVLLIIFMVASSVATVSV V  P+A+A   ENPPKPVFIS+ TDG VFIGDG+++F TLG++LTSQIGRRDP+KERIFI   QQTRYGDFMQ MNALQDAGFYSVALV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|NBB52945.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Rhizobium sp. CRIBSB]</Hit_def>
+  <Hit_accession>NBB52945</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.009</Hsp_bit-score>
+      <Hsp_score>554</Hsp_score>
+      <Hsp_evalue>5.72952e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MAAKLGGSGGGKYQVEQTADINVTPFVDIMLVLLIIFMVASSVAT--VSVVVPVALAPPAENPPKPVFISIRTDGRVFIGDGETTFDTLGAELTSQIGRRDPTKERIFI---QQTRYGDFMQTMNALQDAGFYSVALVGEDKA</Hsp_qseq>
+      <Hsp_hseq>MAAKLGGTGGGKYHVEQNADINVTPFVDIMLVLLIIFMVASAVATPGVEVKLPISAAEATQSPPKPVFISIKDDGSVYLGDGLTSFDTIGPDLVAQIGQRDPTKERIYIRADQQTRYGDFMQTMNALQDAGFYSVALVGEDKA</Hsp_hseq>
+      <Hsp_midline>MAAKLGG+GGGKY VEQ ADINVTPFVDIMLVLLIIFMVAS+VAT  V V +P++ A   ++PPKPVFISI+ DG V++GDG T+FDT+G +L +QIG+RDPTKERI+I   QQTRYGDFMQTMNALQDAGFYSVALVGEDKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_300447935.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Brevundimonas sp.] &gt;gb|MDI1282312.1| biopolymer transporter ExbD [Brevundimonas sp.] &gt;gb|MFT4914012.1| biopolymer transport protein ExbD [Brevundimonas sp.]</Hit_def>
+  <Hit_accession>WP_300447935</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.698</Hsp_bit-score>
+      <Hsp_score>548</Hsp_score>
+      <Hsp_evalue>5.66594e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MAAKLGGSGGGKYQVEQTADINVTPFVDIMLVLLIIFMVASSVATVSVVV--PVALAPPAENPPKPVFISIRTDGRVFIGDGETTFDTLGAELTSQIGRRDPTKERIFI---QQTRYGDFMQTMNALQDAGFYSVALVGEDKA</Hsp_qseq>
+      <Hsp_hseq>MAAKLSGSGGGKYHVEANADINVTPFVDIMLVLLIIFMVAAPLATVSVPVTLPRAVAPPAQNPPKPVFISIQNDGDVFIGDFRTSVDSLGADLTAQIGRRNPAEERIFIRADQQTRYGDFMQVMNALQDNGFYSVALVGEDQS</Hsp_hseq>
+      <Hsp_midline>MAAKL GSGGGKY VE  ADINVTPFVDIMLVLLIIFMVA+ +ATVSV V  P A+APPA+NPPKPVFISI+ DG VFIGD  T+ D+LGA+LT+QIGRR+P +ERIFI   QQTRYGDFMQ MNALQD GFYSVALVGED++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_339873403.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [uncultured Brevundimonas sp.]</Hit_def>
+  <Hit_accession>WP_339873403</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.92</Hsp_bit-score>
+      <Hsp_score>533</Hsp_score>
+      <Hsp_evalue>9.17027e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MAAKLGGSGGGKYQVEQTADINVTPFVDIMLVLLIIFMVASSVATVSVVV--PVALAPPAENPPKPVFISIRTDGRVFIGDGETTFDTLGAELTSQIGRRDPTKERIFI---QQTRYGDFMQTMNALQDAGFYSVALVGEDKA</Hsp_qseq>
+      <Hsp_hseq>MAAKLSGSGGGKYHVEANSDINVTPFVDIMLVLLIIFMVAAPLATVSVPVTLPRAVAPPAQNPPKPVFISIQNDGDVFIGDFRTDVGSLGADLTTQIGRRNPAEERIFIRADQQTRYGDFMQVMNALQDNGFYSVALVGEDQS</Hsp_hseq>
+      <Hsp_midline>MAAKL GSGGGKY VE  +DINVTPFVDIMLVLLIIFMVA+ +ATVSV V  P A+APPA+NPPKPVFISI+ DG VFIGD  T   +LGA+LT+QIGRR+P +ERIFI   QQTRYGDFMQ MNALQD GFYSVALVGED++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_292258382.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Brevundimonas sp.] &gt;gb|MBX3476203.1| biopolymer transporter ExbD [Brevundimonas sp.]</Hit_def>
+  <Hit_accession>WP_292258382</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.379</Hsp_bit-score>
+      <Hsp_score>529</Hsp_score>
+      <Hsp_evalue>4.11661e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>MAAKLGGSGGGKYQVEQTADINVTPFVDIMLVLLIIFMVASSVATVSVVV--PVALAPPAENPPKPVFISIRTDGRVFIGDGETTFDTLGAELTSQIGRRDPTKERIFI---QQTRYGDFMQTMNALQDAGFYSVALVGEDKAPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKLSGGGGGKYQVEQNSEINVTPFVDVMLVLLIIFMVAAPLATVSVEVKLPRAVAPPAQNPPKPIFISIQDDGDVFIGDFRTDVASMGTELTTQIGRRNPADERIFIRADQQTRYGDFMQVMNALQDSGFYSVALVGEDTSKQ</Hsp_hseq>
+      <Hsp_midline>MAAKL G GGGKYQVEQ ++INVTPFVD+MLVLLIIFMVA+ +ATVSV V  P A+APPA+NPPKP+FISI+ DG VFIGD  T   ++G ELT+QIGRR+P  ERIFI   QQTRYGDFMQ MNALQD+GFYSVALVGED + Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_322296182.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Brevundimonas sp.] &gt;gb|MDZ4362074.1| biopolymer transporter ExbD [Brevundimonas sp.]</Hit_def>
+  <Hit_accession>WP_322296182</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.223</Hsp_bit-score>
+      <Hsp_score>526</Hsp_score>
+      <Hsp_evalue>1.11615e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>MAAKLGGSGGGKYQVEQTADINVTPFVDIMLVLLIIFMVASSVATVSVVV--PVALAPPAENPPKPVFISIRTDGRVFIGDGETTFDTLGAELTSQIGRRDPTKERIFI---QQTRYGDFMQTMNALQDAGFYSVALVGEDKAPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKLSGGGGGKYHVEQNSDINVTPFVDIMLVLLIIFMVAAPLATVSVEVTLPRAVAPPQENPPKPVFISIQSDGDVFIGDGRTSVEGLGEDLRRLIGGRNPDDERIFIRADQQTRYGDFMQVMNALQDNGFYSVALVGEDTAPQ</Hsp_hseq>
+      <Hsp_midline>MAAKL G GGGKY VEQ +DINVTPFVDIMLVLLIIFMVA+ +ATVSV V  P A+APP ENPPKPVFISI++DG VFIGDG T+ + LG +L   IG R+P  ERIFI   QQTRYGDFMQ MNALQD GFYSVALVGED APQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_339930317.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [uncultured Brevundimonas sp.]</Hit_def>
+  <Hit_accession>WP_339930317</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.068</Hsp_bit-score>
+      <Hsp_score>523</Hsp_score>
+      <Hsp_evalue>3.09367e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MAAKLGGSGGGKYQVEQTADINVTPFVDIMLVLLIIFMVASSVATVSVVV--PVALAPPAENPPKPVFISIRTDGRVFIGDGETTFDTLGAELTSQIGRRDPTKERIFI---QQTRYGDFMQTMNALQDAGFYSVALVGEDKA</Hsp_qseq>
+      <Hsp_hseq>MAAKLSGSGGGKYHVEANSDINVTPFVDIMLVLLIIFMVAAPLATVSVPVTLPRAVAPPQQNPPKPVFISIQNDGDVFIGDFRTDIGSIGSDLTAQIGRRNPAEERIFIRADQQTRYGDFMQVMNALQDNGFYSVALVGEDQS</Hsp_hseq>
+      <Hsp_midline>MAAKL GSGGGKY VE  +DINVTPFVDIMLVLLIIFMVA+ +ATVSV V  P A+APP +NPPKPVFISI+ DG VFIGD  T   ++G++LT+QIGRR+P +ERIFI   QQTRYGDFMQ MNALQD GFYSVALVGED++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_298159919.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Brevundimonas sp.]</Hit_def>
+  <Hit_accession>WP_298159919</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>203.756</Hsp_bit-score>
+      <Hsp_score>517</Hsp_score>
+      <Hsp_evalue>2.7694e-64</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>MAAKLGGSGGGKYQVEQTADINVTPFVDIMLVLLIIFMVASSVATVSVVV--PVALAPPAENPPKPVFISIRTDGRVFIGDGETTFDTLGAELTSQIGRRDPTKERIFI---QQTRYGDFMQTMNALQDAGFYSVALVGEDKAPQ</Hsp_qseq>
+      <Hsp_hseq>MAAKLSGGGGGKYHVEQNSDINVTPFVDIMLVLLIIFMVAAPLATVSVEVKLPTAVAPPQENPPKPVFISIQNDGDVFIGDGRSSPEQLGDDLRRLIRTRNPEEERIFIRGDQQTRYGDFMQVMNALQDNGFYSVALVGEDNSPQ</Hsp_hseq>
+      <Hsp_midline>MAAKL G GGGKY VEQ +DINVTPFVDIMLVLLIIFMVA+ +ATVSV V  P A+APP ENPPKPVFISI+ DG VFIGDG ++ + LG +L   I  R+P +ERIFI   QQTRYGDFMQ MNALQD GFYSVALVGED +PQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>877105751</Statistics_db-num>
+      <Statistics_db-len>334462191313</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

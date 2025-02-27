@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_8378637</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>133</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_8378637</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>133</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_100265341.1|</Hit_id>
+  <Hit_def>protein TolR [Mariprofundus ferrinatatus] &gt;gb|ATX81938.1| Cell division and transport-associated protein TolR [Mariprofundus ferrinatatus]</Hit_def>
+  <Hit_accession>WP_100265341</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>257.299</Hsp_bit-score>
+      <Hsp_score>656</Hsp_score>
+      <Hsp_evalue>1.17334e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MWAGQSKWSKDSEPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNV--PDAESPAMQQNVEPLVVTIRADGAIFMQKLPIDIKQLAPRIKAMREQKPGLPVFI---AKTPYGRVAEVMSLLESAGIRKVGLVTEPHR</Hsp_qseq>
+      <Hsp_hseq>MWAGQSKWSKDSEPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNVDLPDAESPAMQQNVEPLVVTIRADGAIFMQKLPIDIKQLAPRIKAMREQKPGLPVFIRGDAKTPYGRVAEVMSLLESAGIRKVGLVTEPHR</Hsp_hseq>
+      <Hsp_midline>MWAGQSKWSKDSEPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNV  PDAESPAMQQNVEPLVVTIRADGAIFMQKLPIDIKQLAPRIKAMREQKPGLPVFI   AKTPYGRVAEVMSLLESAGIRKVGLVTEPHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_100277607.1|</Hit_id>
+  <Hit_def>protein TolR [Mariprofundus aestuarium] &gt;gb|ATX79747.1| Cell division and transport-associated protein TolR [Mariprofundus aestuarium]</Hit_def>
+  <Hit_accession>WP_100277607</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.662</Hsp_bit-score>
+      <Hsp_score>618</Hsp_score>
+      <Hsp_evalue>6.4162e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MWAGQSKWSKDSEPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNV--PDAESPAMQQNVEPLVVTIRADGAIFMQKLPIDIKQLAPRIKAMREQKPGLPVFI---AKTPYGRVAEVMSLLESAGIRKVGLVTEPHR</Hsp_qseq>
+      <Hsp_hseq>MWAGQSKWSKDSEPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNVDLPDADAPAMQQNIQPLVVTIRANGDIFMQKTAVDIKQLAPRIKAMREQKPGLPVFIRGDAKTPYGRVAEVMSLLETAGIRKVGLVTEPHR</Hsp_hseq>
+      <Hsp_midline>MWAGQSKWSKDSEPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNV  PDA++PAMQQN++PLVVTIRA+G IFMQK  +DIKQLAPRIKAMREQKPGLPVFI   AKTPYGRVAEVMSLLE+AGIRKVGLVTEPHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_138260652.1|</Hit_id>
+  <Hit_def>protein TolR [Mariprofundus erugo] &gt;gb|TLS76238.1| protein TolR [Mariprofundus erugo]</Hit_def>
+  <Hit_accession>WP_138260652</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.876</Hsp_bit-score>
+      <Hsp_score>590</Hsp_score>
+      <Hsp_evalue>1.3906e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MWAGQSKWSKDSEPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNV--PDAESPAMQQNVEPLVVTIRADGAIFMQKLPIDIKQLAPRIKAMREQKPGLPVFI---AKTPYGRVAEVMSLLESAGIRKVGLVTEPHR</Hsp_qseq>
+      <Hsp_hseq>MWAGQSKWDRDSEPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNVDLPDSESPAMQQNVEPLVVTIQADGQIYMQDHAIAIEQLAPRIEAMRQQKPGLPVFIRGDAKTPYGRVAEVMSLLETSGIRKVGLVTEPHR</Hsp_hseq>
+      <Hsp_midline>MWAGQSKW +DSEPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNV  PD+ESPAMQQNVEPLVVTI+ADG I+MQ   I I+QLAPRI+AMR+QKPGLPVFI   AKTPYGRVAEVMSLLE++GIRKVGLVTEPHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_138239008.1|</Hit_id>
+  <Hit_def>protein TolR [Mariprofundus erugo] &gt;gb|TLS67575.1| protein TolR [Mariprofundus erugo]</Hit_def>
+  <Hit_accession>WP_138239008</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.491</Hsp_bit-score>
+      <Hsp_score>589</Hsp_score>
+      <Hsp_evalue>1.80944e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MWAGQSKWSKDSEPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNV--PDAESPAMQQNVEPLVVTIRADGAIFMQKLPIDIKQLAPRIKAMREQKPGLPVFI---AKTPYGRVAEVMSLLESAGIRKVGLVTEPHR</Hsp_qseq>
+      <Hsp_hseq>MWAGQSKWDRDSEPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNVDLPDSESPAMQQNVEPLVVTIQADGQIYMQDHAIAIEQLAPRIEAMRQQKPGLPIFIRGDAKTPYGRVAEVMSLLETSGIRKVGLVTEPHR</Hsp_hseq>
+      <Hsp_midline>MWAGQSKW +DSEPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNV  PD+ESPAMQQNVEPLVVTI+ADG I+MQ   I I+QLAPRI+AMR+QKPGLP+FI   AKTPYGRVAEVMSLLE++GIRKVGLVTEPHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_176962957.1|</Hit_id>
+  <Hit_def>protein TolR [Mariprofundus sp. NF] &gt;gb|NWF39279.1| protein TolR [Mariprofundus sp. NF]</Hit_def>
+  <Hit_accession>WP_176962957</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.491</Hsp_bit-score>
+      <Hsp_score>589</Hsp_score>
+      <Hsp_evalue>2.02058e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MWAGQSKWSKDSEPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNV--PDAESPAMQQNVEPLVVTIRADGAIFM--QKLPIDIKQLAPRIKAMREQKPGLPVFI---AKTPYGRVAEVMSLLESAGIRKVGLVTEPHR</Hsp_qseq>
+      <Hsp_hseq>MWAGQSKWSKENEPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNVDLPDAEAPAMQQNIEPLVVTIRANGDIFMQKQKQPISIKQLAPRIQAMRQQKPGLPVFIRGDAKTPYGRVAEVMSLLETAGIRKVGLVTEPRR</Hsp_hseq>
+      <Hsp_midline>MWAGQSKWSK++EPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNV  PDAE+PAMQQN+EPLVVTIRA+G IFM  QK PI IKQLAPRI+AMR+QKPGLPVFI   AKTPYGRVAEVMSLLE+AGIRKVGLVTEP R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|PIW47924.1|</Hit_id>
+  <Hit_def>MAG: protein TolR [Zetaproteobacteria bacterium CG12_big_fil_rev_8_21_14_0_65_54_13] &gt;gb|PIX53814.1| MAG: protein TolR [Zetaproteobacteria bacterium CG_4_10_14_3_um_filter_54_28] &gt;gb|PJA30844.1| MAG: protein TolR [Zetaproteobacteria bacterium CG_4_9_14_3_um_filter_54_145]</Hit_def>
+  <Hit_accession>PIW47924</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.106</Hsp_bit-score>
+      <Hsp_score>588</Hsp_score>
+      <Hsp_evalue>2.32875e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MWAGQSKWSKDSEPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNV--PDAESPAMQQNVEPLVVTIRADGAIFMQKLPIDIKQLAPRIKAMREQKPGLPVFI---AKTPYGRVAEVMSLLESAGIRKVGLVTEPHR</Hsp_qseq>
+      <Hsp_hseq>MWAGQSKWDKGNEPMGEINVTPLVDVMLVLLIIFMVTAPLLSQGVNVDLPDAESPAMQQNVEPLVVSIKADGTLYIQKLAIDIKQLAPRIQAMRQQKPGLPVFIRGDSKTPYGRVAEILSLLETAGIQKVGLVTEPHR</Hsp_hseq>
+      <Hsp_midline>MWAGQSKW K +EPMGEINVTPLVDVMLVLLIIFMVTAPLL+QGVNV  PDAESPAMQQNVEPLVV+I+ADG +++QKL IDIKQLAPRI+AMR+QKPGLPVFI   +KTPYGRVAE++SLLE+AGI+KVGLVTEPHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_176957451.1|</Hit_id>
+  <Hit_def>protein TolR [Mariprofundus sp. KV] &gt;gb|NWF35476.1| protein TolR [Mariprofundus sp. KV]</Hit_def>
+  <Hit_accession>WP_176957451</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>227.639</Hsp_bit-score>
+      <Hsp_score>579</Hsp_score>
+      <Hsp_evalue>6.12435e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MWAGQSKWSKDSEPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNV--PDAESPAMQQNVEPLVVTIRADGAIFM--QKLPIDIKQLAPRIKAMREQKPGLPVFI---AKTPYGRVAEVMSLLESAGIRKVGLVTEPHR</Hsp_qseq>
+      <Hsp_hseq>MWAGQSKWSKENEPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNVDLPDAEAPAMQQNIEPLVVTIRANGDIYMQKQKQPISIKQLAPRIQAMRQQKPELPVFIRGDAKTPYGRVAEVMSLLETAGIRKVGLVTEPRR</Hsp_hseq>
+      <Hsp_midline>MWAGQSKWSK++EPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNV  PDAE+PAMQQN+EPLVVTIRA+G I+M  QK PI IKQLAPRI+AMR+QKP LPVFI   AKTPYGRVAEVMSLLE+AGIRKVGLVTEP R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_009850577.1|</Hit_id>
+  <Hit_def>protein TolR [Mariprofundus ferrooxydans] &gt;gb|EAU55558.1| Biopolymer transport protein [Mariprofundus ferrooxydans PV-1] &gt;gb|KON48701.1| biopolymer transporter ExbD [Mariprofundus ferrooxydans]</Hit_def>
+  <Hit_accession>WP_009850577</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>227.254</Hsp_bit-score>
+      <Hsp_score>578</Hsp_score>
+      <Hsp_evalue>7.53954e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MWAGQSKWSKDSEPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNV--PDAESPAMQQNVEPLVVTIRADGAIFMQKLPIDIKQLAPRIKAMREQKPGLPVFI---AKTPYGRVAEVMSLLESAGIRKVGLVTEPHR</Hsp_qseq>
+      <Hsp_hseq>MWAGQSKWDKGTEPMGEINVTPLVDVMLVLLIIFMVTAPLLSQGVNVDLPDAESPAMQQNVEPLVVSIQADGKLFIQKQAIELKQLAPRIEAIRKQKPGLPVFIRGDSKTPYGRVAEVMSLLETAGIRKVGLVTEPHR</Hsp_hseq>
+      <Hsp_midline>MWAGQSKW K +EPMGEINVTPLVDVMLVLLIIFMVTAPLL+QGVNV  PDAESPAMQQNVEPLVV+I+ADG +F+QK  I++KQLAPRI+A+R+QKPGLPVFI   +KTPYGRVAEVMSLLE+AGIRKVGLVTEPHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_072660409.1|</Hit_id>
+  <Hit_def>protein TolR [Mariprofundus micogutta] &gt;dbj|GAV21101.1| biopolymer transport protein TolR [Mariprofundus micogutta]</Hit_def>
+  <Hit_accession>WP_072660409</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.787</Hsp_bit-score>
+      <Hsp_score>569</Hsp_score>
+      <Hsp_evalue>1.89625e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MWAGQSKWSKDSEPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNV--PDAESPAMQQNVEPLVVTIRADGAIFMQKLPIDIKQLAPRIKAMREQKPGLPVFI---AKTPYGRVAEVMSLLESAGIRKVGLVTEPHR</Hsp_qseq>
+      <Hsp_hseq>MWAGQSKWTKDTEPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNVDLPDADAPAMQQNLEPLVVSIKANGQLYIQKKNISIKQLAPRIEAIRKEKPGLPVFIRGDAKTPYGKVAEVMSLLETAGIKKVGLVTEPHR</Hsp_hseq>
+      <Hsp_midline>MWAGQSKW+KD+EPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNV  PDA++PAMQQN+EPLVV+I+A+G +++QK  I IKQLAPRI+A+R++KPGLPVFI   AKTPYG+VAEVMSLLE+AGI+KVGLVTEPHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|PJA31550.1|</Hit_id>
+  <Hit_def>MAG: protein TolR [Zetaproteobacteria bacterium CG_4_9_14_3_um_filter_53_7]</Hit_def>
+  <Hit_accession>PJA31550</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>220.32</Hsp_bit-score>
+      <Hsp_score>560</Hsp_score>
+      <Hsp_evalue>5.68282e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MWAGQSKWSKDSEPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNV--PDAESPAMQQNVEPLVVTIRADGAIFMQKLPIDIKQLAPRIKAMREQKPGLPVFI---AKTPYGRVAEVMSLLESAGIRKVGLVTEPHR</Hsp_qseq>
+      <Hsp_hseq>MWAGQSKWSKDNEPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNVDLPDADAPAMQQNVEPLVVSIQANGDVFLQKNSISIQQLAPRIEAILKQKPGTPVFIRGDAKTPYGKVAEVMGLLETAGIKKVGLVTEPHR</Hsp_hseq>
+      <Hsp_midline>MWAGQSKWSKD+EPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNV  PDA++PAMQQNVEPLVV+I+A+G +F+QK  I I+QLAPRI+A+ +QKPG PVFI   AKTPYG+VAEVM LLE+AGI+KVGLVTEPHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|MDQ6999352.1|</Hit_id>
+  <Hit_def>protein TolR [Mariprofundus sp.]</Hit_def>
+  <Hit_accession>MDQ6999352</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.164</Hsp_bit-score>
+      <Hsp_score>557</Hsp_score>
+      <Hsp_evalue>1.55876e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MWAGQSKWSKDSEPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNV--PDAESPAMQQNVEPLVVTIRADGAIFMQKLPIDIKQLAPRIKAMREQKPGLPVFI---AKTPYGRVAEVMSLLESAGIRKVGLVTEPHR</Hsp_qseq>
+      <Hsp_hseq>MWAGQSKWDKDLEPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNVDLPEADAPSLQQNVEPLVVTIHANGNIYIQKHDIDIKQLAPRIQAMRKANPDLPVFIRGDAKTPYGRVAEVMALLESSGIKKVGLVTEPHR</Hsp_hseq>
+      <Hsp_midline>MWAGQSKW KD EPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNV  P+A++P++QQNVEPLVVTI A+G I++QK  IDIKQLAPRI+AMR+  P LPVFI   AKTPYGRVAEVM+LLES+GI+KVGLVTEPHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|MFQ5581737.1|</Hit_id>
+  <Hit_def>protein TolR [Mariprofundaceae bacterium]</Hit_def>
+  <Hit_accession>MFQ5581737</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.779</Hsp_bit-score>
+      <Hsp_score>556</Hsp_score>
+      <Hsp_evalue>1.79763e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MWAGQSKWSKDSEPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNV--PDAESPAMQQNVEPLVVTIRADGAIFMQKLPIDIKQLAPRIKAMREQKPGLPVFI---AKTPYGRVAEVMSLLESAGIRKVGLVTEPHR</Hsp_qseq>
+      <Hsp_hseq>MWAGQSKWDKETEPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNVDLPDTEAPPMQQNVEPLVITIQADGKVFMQKHTIDLKQLAPRIKAMRQQKPKLPVFIRGDAKTPYQYIAEVMSLLEQAGIQKIGLVTEPRR</Hsp_hseq>
+      <Hsp_midline>MWAGQSKW K++EPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNV  PD E+P MQQNVEPLV+TI+ADG +FMQK  ID+KQLAPRIKAMR+QKP LPVFI   AKTPY  +AEVMSLLE AGI+K+GLVTEP R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|MFQ5345809.1|</Hit_id>
+  <Hit_def>protein TolR [Mariprofundus sp.]</Hit_def>
+  <Hit_accession>MFQ5345809</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.394</Hsp_bit-score>
+      <Hsp_score>555</Hsp_score>
+      <Hsp_evalue>2.36471e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MWAGQSKWSKDSEPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNV--PDAESPAMQQNVEPLVVTIRADGAIFMQKLPIDIKQLAPRIKAMREQKPGLPVFI---AKTPYGRVAEVMSLLESAGIRKVGLVTEPHR</Hsp_qseq>
+      <Hsp_hseq>MWAGQSKWDKDLEPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNVDLPEADAPSLQQNVEPLVVTIAADGDIHIQKHTINIKQLAPRIQAMRKVKPDLPVFIRGDAKTPYGRVAEVMALLESAGIKKVGLVTEPHR</Hsp_hseq>
+      <Hsp_midline>MWAGQSKW KD EPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNV  P+A++P++QQNVEPLVVTI ADG I +QK  I+IKQLAPRI+AMR+ KP LPVFI   AKTPYGRVAEVM+LLESAGI+KVGLVTEPHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|MDQ7011155.1|</Hit_id>
+  <Hit_def>protein TolR [Mariprofundaceae bacterium]</Hit_def>
+  <Hit_accession>MDQ7011155</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.009</Hsp_bit-score>
+      <Hsp_score>554</Hsp_score>
+      <Hsp_evalue>3.50953e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MWAGQSKWSKDSEPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNV--PDAESPAMQQNVEPLVVTIRADGAIFMQKLPIDIKQLAPRIKAMREQKPGLPVFI---AKTPYGRVAEVMSLLESAGIRKVGLVTEPHR</Hsp_qseq>
+      <Hsp_hseq>MWAGQSKWGKDTEPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNVDLPDTEAPPMQQNVEPLVVTIRADGKVFMQKHAVALRQLAPRIKAMRRQKPNLPVFIRSDARTPYQHIAEVLSLLEQAGIRKIGLVTEPRR</Hsp_hseq>
+      <Hsp_midline>MWAGQSKW KD+EPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNV  PD E+P MQQNVEPLVVTIRADG +FMQK  + ++QLAPRIKAMR QKP LPVFI   A+TPY  +AEV+SLLE AGIRK+GLVTEP R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|MDQ6993493.1|</Hit_id>
+  <Hit_def>protein TolR [Mariprofundus sp.]</Hit_def>
+  <Hit_accession>MDQ6993493</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>217.624</Hsp_bit-score>
+      <Hsp_score>553</Hsp_score>
+      <Hsp_evalue>5.87641e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MWAGQSKWSKDSEPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNV--PDAESPAMQQNVEPLVVTIRADGAIFMQKLPIDIKQLAPRIKAMREQKPGLPVFI---AKTPYGRVAEVMSLLESAGIRKVGLVTEPHR</Hsp_qseq>
+      <Hsp_hseq>MWNSHNRWEKENEPMGEINVTPLVDVMLVLLIIFMVTAPLLSQGVNVDLPDAESPAMQLNIEPLVVSVRADGSIFMRKNPIDIKQLAPRITAIRKQKPELPVFIRGDSKTPYGRIAEIMSLLETAGIRKVGLVTEPQR</Hsp_hseq>
+      <Hsp_midline>MW   ++W K++EPMGEINVTPLVDVMLVLLIIFMVTAPLL+QGVNV  PDAESPAMQ N+EPLVV++RADG+IFM+K PIDIKQLAPRI A+R+QKP LPVFI   +KTPYGR+AE+MSLLE+AGIRKVGLVTEP R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|OIO69296.1|</Hit_id>
+  <Hit_def>MAG: protein TolR [Zetaproteobacteria bacterium CG1_02_53_45]</Hit_def>
+  <Hit_accession>OIO69296</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.853</Hsp_bit-score>
+      <Hsp_score>551</Hsp_score>
+      <Hsp_evalue>1.11011e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MWAGQSKWSKDSEPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNV--PDAESPAMQQNVEPLVVTIRADGAIFMQKLPIDIKQLAPRIKAMREQKPGLPVFI---AKTPYGRVAEVMSLLESAGIRKVGLVTEPHR</Hsp_qseq>
+      <Hsp_hseq>MWAGQSKWSKDNEPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNVDLPDADAPAMQQNVTPLVVSIKANGEIFIQKNSILIEQLAPRIEAVLKQKPGTPVFIRGDAKTPYGKVAEVMGLLETAGIKKVGLVTEPHR</Hsp_hseq>
+      <Hsp_midline>MWAGQSKWSKD+EPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNV  PDA++PAMQQNV PLVV+I+A+G IF+QK  I I+QLAPRI+A+ +QKPG PVFI   AKTPYG+VAEVM LLE+AGI+KVGLVTEPHR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|MBL4776016.1|</Hit_id>
+  <Hit_def>protein TolR [Mariprofundus sp.]</Hit_def>
+  <Hit_accession>MBL4776016</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.698</Hsp_bit-score>
+      <Hsp_score>548</Hsp_score>
+      <Hsp_evalue>3.04474e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MWAGQSKWSKDSEPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNV--PDAESPAMQQNVEPLVVTIRADGAIFMQKLPIDIKQLAPRIKAMREQKPGLPVFI---AKTPYGRVAEVMSLLESAGIRKVGLVTEPHR</Hsp_qseq>
+      <Hsp_hseq>MWAGKSNWSQDTEPMGEINVTPLVDVMLVLLIIFMITAPLLTQGVNVDLPETESSALQQNIEPLVITIQANGKIYMQKHAIDLKQLVPRIQAMRKQKPGLPVFIRGDAKTPYGRIASVMSSLESAGIKKIGLVTEPRR</Hsp_hseq>
+      <Hsp_midline>MWAG+S WS+D+EPMGEINVTPLVDVMLVLLIIFM+TAPLLTQGVNV  P+ ES A+QQN+EPLV+TI+A+G I+MQK  ID+KQL PRI+AMR+QKPGLPVFI   AKTPYGR+A VMS LESAGI+K+GLVTEP R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|MDQ6982725.1|</Hit_id>
+  <Hit_def>protein TolR [Mariprofundus sp.]</Hit_def>
+  <Hit_accession>MDQ6982725</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.927</Hsp_bit-score>
+      <Hsp_score>546</Hsp_score>
+      <Hsp_evalue>5.94401e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MWAGQSKWSKDSEPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNV--PDAESPAMQQNVEPLVVTIRADGAIFMQKLPIDIKQLAPRIKAMREQKPGLPVFI---AKTPYGRVAEVMSLLESAGIRKVGLVTEPHR</Hsp_qseq>
+      <Hsp_hseq>MWAGQSKWGKDLEPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNVDLPEADAPSLQQNIEPLVITIRANGNIYIQKHDIDIKQLAPRIQAMRKAKSDLPIFIRGDAKTPYGRVAEVMALLESSGIKKVGLVTEPRR</Hsp_hseq>
+      <Hsp_midline>MWAGQSKW KD EPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNV  P+A++P++QQN+EPLV+TIRA+G I++QK  IDIKQLAPRI+AMR+ K  LP+FI   AKTPYGRVAEVM+LLES+GI+KVGLVTEP R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_121543911.1|</Hit_id>
+  <Hit_def>protein TolR [Mariprofundus sp. EBB-1] &gt;gb|RLL50523.1| protein TolR [Mariprofundus sp. EBB-1]</Hit_def>
+  <Hit_accession>WP_121543911</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.542</Hsp_bit-score>
+      <Hsp_score>545</Hsp_score>
+      <Hsp_evalue>1.01731e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MWAGQSKWSKDSEPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNV--PDAESPAMQQNVEPLVVTIRADGAIFMQKLPIDIKQLAPRIKAMREQKPGLPVFI---AKTPYGRVAEVMSLLESAGIRKVGLVTEPHR</Hsp_qseq>
+      <Hsp_hseq>MWAGKSKWSQDTEPMGEINVTPLVDVMLVLLIIFMITAPLLTQGVNVDLPETESSALQQNIEPLVISIRANGEIFMQKHAIKIEQLAPRIQAMQKQKPGIPVFIRGDAKTPYGRIASVMSSLETAGIKKVGLVTEPRR</Hsp_hseq>
+      <Hsp_midline>MWAG+SKWS+D+EPMGEINVTPLVDVMLVLLIIFM+TAPLLTQGVNV  P+ ES A+QQN+EPLV++IRA+G IFMQK  I I+QLAPRI+AM++QKPG+PVFI   AKTPYGR+A VMS LE+AGI+KVGLVTEP R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>tpg|HKI60809.1|</Hit_id>
+  <Hit_def>protein TolR [Mariprofundaceae bacterium]</Hit_def>
+  <Hit_accession>HKI60809</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>211.846</Hsp_bit-score>
+      <Hsp_score>538</Hsp_score>
+      <Hsp_evalue>9.84692e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MWAGQSKWSKDSEPMGEINVTPLVDVMLVLLIIFMVTAPLLTQGVNV--PDAESPAMQQNVEPLVVTIRADGAIFMQKLPIDIKQLAPRIKAMREQKPGLPVFI---AKTPYGRVAEVMSLLESAGIRKVGLVTEPHR</Hsp_qseq>
+      <Hsp_hseq>MWAGSSKWGKNAEPMSEINVTPLVDVMLVLLIIFMVTAPLLTQGVNVDLPDADSPPMQQNIEPLVVSIRANGKIYLQKHPIELKQLAPRISEMRKQKPDLPVFIRGDAKTPYEQVARVMSLLESAGIRKVGLVTEPGR</Hsp_hseq>
+      <Hsp_midline>MWAG SKW K++EPM EINVTPLVDVMLVLLIIFMVTAPLLTQGVNV  PDA+SP MQQN+EPLVV+IRA+G I++QK PI++KQLAPRI  MR+QKP LPVFI   AKTPY +VA VMSLLESAGIRKVGLVTEP R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>877781531</Statistics_db-num>
+      <Statistics_db-len>334720180573</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

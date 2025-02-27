@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_3321131</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>225</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_3321131</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>225</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_018674365.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Brevibacillus laterosporus] &gt;gb|ATO49968.1| flagellar motor protein MotB [Brevibacillus laterosporus DSM 25] &gt;gb|AYB39837.1| flagellar motor protein MotB [Brevibacillus laterosporus] &gt;gb|MBG9775713.1| flagellar motor protein MotB [Brevibacillus laterosporus] &gt;gb|MBG9799280.1| flagellar motor protein MotB [Brevibacillus laterosporus] &gt;gb|MBG9803700.1| flagellar motor protein MotB [Brevibacillus laterosporus]</Hit_def>
+  <Hit_accession>WP_018674365</Hit_accession>
+  <Hit_len>264</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.542</Hsp_bit-score>
+      <Hsp_score>1072</Hsp_score>
+      <Hsp_evalue>1.26992e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>264</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>225</Hsp_identity>
+      <Hsp_positive>225</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>MAKRKKKHEEHIDETWLIPYSDLLTLLLALF--LFAASSVDAKKFSQMAASFNVALNGGASVLDFPSPVEPIDSE-----------QIVDKNQYEQQMKYLQETEKLDQLKKQLDGYLESNNLTGKLHTKV-------------------AKVKEEARNLAFEISKLLEPDGRR-TVSGHTDTVPIRNSQFSSNWELSSQRALNFMTILLENKKLDP---SARAYGEFQPVASNQ-ND--ATNRRVEVAILRNFEKDKSSEIKK</Hsp_qseq>
+      <Hsp_hseq>MAKRKKKHEEHIDETWLIPYSDLLTLLLALFIVLFAASSVDAKKFSQMAASFNVALNGGASVLDFPSPVEPIDSEEQSLMKPGGNEQIVDKNQYEQQMKYLQETEKLDQLKKQLDGYLESNNLTGKLHTKVTDEGLLITIMDNALFASGSAKVKEEARNLAFEISKLLEPDGRRVTVSGHTDTVPIRNSQFSSNWELSSQRALNFMTILLENKKLDPRKFSARAYGEFQPVASNQTNDGRATNRRVEVAILRNFEKDKSSEIKK</Hsp_hseq>
+      <Hsp_midline>MAKRKKKHEEHIDETWLIPYSDLLTLLLALF  LFAASSVDAKKFSQMAASFNVALNGGASVLDFPSPVEPIDSE           QIVDKNQYEQQMKYLQETEKLDQLKKQLDGYLESNNLTGKLHTKV                   AKVKEEARNLAFEISKLLEPDGRR TVSGHTDTVPIRNSQFSSNWELSSQRALNFMTILLENKKLDP   SARAYGEFQPVASNQ ND  ATNRRVEVAILRNFEKDKSSEIKK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|RAP27917.1|</Hit_id>
+  <Hit_def>hypothetical protein C2W64_00736 [Brevibacillus laterosporus] &gt;gb|TPG70872.1| flagellar motor protein MotB [Brevibacillus laterosporus] &gt;gb|TPG75222.1| flagellar motor protein MotB [Brevibacillus laterosporus]</Hit_def>
+  <Hit_accession>RAP27917</Hit_accession>
+  <Hit_len>264</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.474</Hsp_bit-score>
+      <Hsp_score>955</Hsp_score>
+      <Hsp_evalue>9.48114e-128</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>264</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>MAKRKKKHEEHIDETWLIPYSDLLTLLLALF--LFAASSVDAKKFSQMAASFNVALNGGASVLDFPSPVEPI-----------DSEQIVDKNQYEQQMKYLQETEKLDQLKKQLDGYLESNNLTGKLHTKV-------------------AKVKEEARNLAFEISKLLEPDGRR-TVSGHTDTVPIRNSQFSSNWELSSQRALNFMTILLENKKLDP---SARAYGEFQPVASNQ-ND--ATNRRVEVAILRNFEKDKSSEIKK</Hsp_qseq>
+      <Hsp_hseq>MAKRKKKHEEHIDETWLIPYSDLLTLLLALFIVLFAASSVDAKKFSQLAASFNAALNGGVSVLDFPSPVEPITQEEQSLMKPGGNEQIVDKNKYEQQMKYLQETEKLDQLKKQLDAYLESNNLTGKLHTKVTDEGLLITIMDNALFASGSAKVKAEARNLASEISKLLEPDGRRVTVSGHTDTVPIRNSQFSSNWELSSQRALNFMTILLENKKLDPRKFSARAFGEFQPVATNQTNDGRATNRRVEVAILRNFEKEKGSEMHK</Hsp_hseq>
+      <Hsp_midline>MAKRKKKHEEHIDETWLIPYSDLLTLLLALF  LFAASSVDAKKFSQ+AASFN ALNGG SVLDFPSPVEPI            +EQIVDKN+YEQQMKYLQETEKLDQLKKQLD YLESNNLTGKLHTKV                   AKVK EARNLA EISKLLEPDGRR TVSGHTDTVPIRNSQFSSNWELSSQRALNFMTILLENKKLDP   SARA+GEFQPVA+NQ ND  ATNRRVEVAILRNFEK+K SE+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|QDX92564.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Brevibacillus laterosporus]</Hit_def>
+  <Hit_accession>QDX92564</Hit_accession>
+  <Hit_len>264</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>371.703</Hsp_bit-score>
+      <Hsp_score>953</Hsp_score>
+      <Hsp_evalue>1.8497e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>264</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>MAKRKKKHEEHIDETWLIPYSDLLTLLLALF--LFAASSVDAKKFSQMAASFNVALNGGASVLDFPSPVEPI-----------DSEQIVDKNQYEQQMKYLQETEKLDQLKKQLDGYLESNNLTGKLHTKV-------------------AKVKEEARNLAFEISKLLEPDGRR-TVSGHTDTVPIRNSQFSSNWELSSQRALNFMTILLENKKLDP---SARAYGEFQPVASNQ-ND--ATNRRVEVAILRNFEKDKSSEIKK</Hsp_qseq>
+      <Hsp_hseq>MAKRKKKHEEHIDETWLIPYSDLLTLLLALFIVLFAASSVDAKKFSQLAASFNAALNGGVSVLDFPSPVEPITQEEQSLMKPGGNEQIVDKNKYEQQMKYLQETEKLDQLKKQLDAYLESNNLTGKLHTKVTDEGLLITIMDNALFASGSAKVKVEARNLASEISKLLEPDGRRVTVSGHTDTVPIRNSQFSSNWELSSQRALNFMTILLENKKLDPRKFSARAFGEFQPVATNQTNDGRATNRRVEVAILRNFEKEKGSEMHK</Hsp_hseq>
+      <Hsp_midline>MAKRKKKHEEHIDETWLIPYSDLLTLLLALF  LFAASSVDAKKFSQ+AASFN ALNGG SVLDFPSPVEPI            +EQIVDKN+YEQQMKYLQETEKLDQLKKQLD YLESNNLTGKLHTKV                   AKVK EARNLA EISKLLEPDGRR TVSGHTDTVPIRNSQFSSNWELSSQRALNFMTILLENKKLDP   SARA+GEFQPVA+NQ ND  ATNRRVEVAILRNFEK+K SE+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_094702856.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Brevibacillus laterosporus]</Hit_def>
+  <Hit_accession>WP_094702856</Hit_accession>
+  <Hit_len>264</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.081</Hsp_bit-score>
+      <Hsp_score>941</Hsp_score>
+      <Hsp_evalue>1.52934e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>264</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>MAKRKKKHEEHIDETWLIPYSDLLTLLLALF--LFAASSVDAKKFSQMAASFNVALNGGASVLDFPSPVEPIDSE-----------QIVDKNQYEQQMKYLQETEKLDQLKKQLDGYLESNNLTGKLHTKV-------------------AKVKEEARNLAFEISKLLEPDGRR-TVSGHTDTVPIRNSQFSSNWELSSQRALNFMTILLENKKLDP---SARAYGEFQPVASNQ-ND--ATNRRVEVAILRNFEKDKSSEIKK</Hsp_qseq>
+      <Hsp_hseq>MAKRKKKHEEHIDETWLIPYSDLLTLLLALFIVLFAASTVDAKKFSQLAQSFNVALNGGVSVLEFPSPVEPINSEEQSLMKPGGNEQIVDKTKYEQQMKYLQETEKLDQLKRQLDGYLKANNLTGKLHTKVTDEGLLITIMDNALFASGSAKVKPEARNLAFEISKLLEPDGRRVTVSGHTDNVPIRNSRFESNWQLSSERAMNFMTILLENKKLDPSKFSARAYGEFQPVASNKTNDGRATNRRVEVAILRNFEKEKSSEIKK</Hsp_hseq>
+      <Hsp_midline>MAKRKKKHEEHIDETWLIPYSDLLTLLLALF  LFAAS+VDAKKFSQ+A SFNVALNGG SVL+FPSPVEPI+SE           QIVDK +YEQQMKYLQETEKLDQLK+QLDGYL++NNLTGKLHTKV                   AKVK EARNLAFEISKLLEPDGRR TVSGHTD VPIRNS+F SNW+LSS+RA+NFMTILLENKKLDP   SARAYGEFQPVASN+ ND  ATNRRVEVAILRNFEK+KSSEIKK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_328209861.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Brevibacillus laterosporus] &gt;gb|MED1791013.1| flagellar motor protein MotB [Brevibacillus laterosporus]</Hit_def>
+  <Hit_accession>WP_328209861</Hit_accession>
+  <Hit_len>264</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>365.925</Hsp_bit-score>
+      <Hsp_score>938</Hsp_score>
+      <Hsp_evalue>4.05441e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>264</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>MAKRKKKHEEHIDETWLIPYSDLLTLLLALF--LFAASSVDAKKFSQMAASFNVALNGGASVLDFPSPVEPIDSE-----------QIVDKNQYEQQMKYLQETEKLDQLKKQLDGYLESNNLTGKLHTKV-------------------AKVKEEARNLAFEISKLLEPDGRR-TVSGHTDTVPIRNSQFSSNWELSSQRALNFMTILLENKKLDP---SARAYGEFQPVASNQ-ND--ATNRRVEVAILRNFEKDKSSEIKK</Hsp_qseq>
+      <Hsp_hseq>MAKRKKKHEEHIDETWLIPYSDLLTLLLALFIVLFAASTVDAKKFSQLAQSFNVALNGGVSVLEFPSPVEPINSEEQSLMKPGGNEQIVDKTKYEQQMKYLQETEKLDQLKRQLDGYLKENNLTGKLHTKVTDEGLLITIMDNALFASGSAKVKPEARNLAFEISKLLEPDGRRVTVSGHTDNVPIRNSRFESNWQLSSERAMNFMTILLENKKLDPSKFSARAYGEFQPVASNKTNDGRATNRRVEVAIMRNFEKEKSSEIKK</Hsp_hseq>
+      <Hsp_midline>MAKRKKKHEEHIDETWLIPYSDLLTLLLALF  LFAAS+VDAKKFSQ+A SFNVALNGG SVL+FPSPVEPI+SE           QIVDK +YEQQMKYLQETEKLDQLK+QLDGYL+ NNLTGKLHTKV                   AKVK EARNLAFEISKLLEPDGRR TVSGHTD VPIRNS+F SNW+LSS+RA+NFMTILLENKKLDP   SARAYGEFQPVASN+ ND  ATNRRVEVAI+RNFEK+KSSEIKK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_094701575.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Brevibacillus laterosporus] &gt;gb|MBG9789885.1| flagellar motor protein MotB [Brevibacillus laterosporus] &gt;gb|MCG7320121.1| flagellar motor protein MotB [Brevibacillus laterosporus] &gt;gb|MED1790907.1| flagellar motor protein MotB [Brevibacillus laterosporus]</Hit_def>
+  <Hit_accession>WP_094701575</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>363.999</Hsp_bit-score>
+      <Hsp_score>933</Hsp_score>
+      <Hsp_evalue>1.85063e-124</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>MAKRKKKHEEHIDETWLIPYSDLLTLLLALF--LFAASSVDAKKFSQMAASFNVALNGGASVLDFPSPVEPIDSE-----------QIVDKNQYEQQMKYLQETEKLDQLKKQLDGYLESNNLTGKLHTKV-------------------AKVKEEARNLAFEISKLLEPDGRR-TVSGHTDTVPIRNSQFSSNWELSSQRALNFMTILLENKKLDP---SARAYGEFQPVASNQ-ND--ATNRRVEVAILRNFEKDKSSEIKK</Hsp_qseq>
+      <Hsp_hseq>MAKRKKKHEEHIDETWLIPYSDLLTLLLALFIVLFAASSVDAKKFSQMAASFNVALNGGASVLDFPSPVEPIDSEEQSLMKPGGNEQIVDKNQYEQQMKYLQETEKLDQLKKQLDGYLKANNLTGKLHTKVTDEGLLITIMDNALFASGSAKVKPEARNLAFEISKLLEPDGRRVTVSGHTDNVPIRSSRFESNWHLSSARAMNFMTILLENKKLDPSKFSTRAFGEFQPVASNKTNDGRATNRRVEVAILRNFE--KSSETTK</Hsp_hseq>
+      <Hsp_midline>MAKRKKKHEEHIDETWLIPYSDLLTLLLALF  LFAASSVDAKKFSQMAASFNVALNGGASVLDFPSPVEPIDSE           QIVDKNQYEQQMKYLQETEKLDQLKKQLDGYL++NNLTGKLHTKV                   AKVK EARNLAFEISKLLEPDGRR TVSGHTD VPIR+S+F SNW LSS RA+NFMTILLENKKLDP   S RA+GEFQPVASN+ ND  ATNRRVEVAILRNFE  KSSE  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_301812148.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Brevibacillus laterosporus] &gt;gb|MDN9012778.1| flagellar motor protein MotB [Brevibacillus laterosporus] &gt;gb|MDO0943866.1| flagellar motor protein MotB [Brevibacillus laterosporus]</Hit_def>
+  <Hit_accession>WP_301812148</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>354.755</Hsp_bit-score>
+      <Hsp_score>909</Hsp_score>
+      <Hsp_evalue>8.99631e-121</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>MAKRKKKHEEHIDETWLIPYSDLLTLLLALF--LFAASSVDAKKFSQMAASFNVALNGGASVLDFPSPVEPIDSE-----------QIVDKNQYEQQMKYLQETEKLDQLKKQLDGYLESNNLTGKLHTKV-------------------AKVKEEARNLAFEISKLLEPDGRR-TVSGHTDTVPIRNSQFSSNWELSSQRALNFMTILLENKKLDP---SARAYGEFQPVASNQ---NDATNRRVEVAILRNFEKDKSSEIKK</Hsp_qseq>
+      <Hsp_hseq>MAKRKKKHEEHIDETWLIPYSDLLTLLLALFIVLFAASSVDAKKFSQLAQSFNVALNGGVSVLDFPSPVEPINSEEQSLMKPGGNEQIVDKTKYEQQMKYLQETEKLDQLKKQLDGYLKENNLTGKLHTKVTDEGLLITIMDNALFASGSAKVKPEARNLAFEISKLLEPDGRRVTVSGHTDNVPIRNSRFESNWQLSSERALNFMTILLENKKLDPSKLSIRAFGEFQPVASNKTVDGRATNRRVEVAILRNFE--KSSETTK</Hsp_hseq>
+      <Hsp_midline>MAKRKKKHEEHIDETWLIPYSDLLTLLLALF  LFAASSVDAKKFSQ+A SFNVALNGG SVLDFPSPVEPI+SE           QIVDK +YEQQMKYLQETEKLDQLKKQLDGYL+ NNLTGKLHTKV                   AKVK EARNLAFEISKLLEPDGRR TVSGHTD VPIRNS+F SNW+LSS+RALNFMTILLENKKLDP   S RA+GEFQPVASN+     ATNRRVEVAILRNFE  KSSE  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_031411927.1|</Hit_id>
+  <Hit_def>MULTISPECIES: flagellar motor protein MotB [Brevibacillus] &gt;gb|AKF93179.1| flagellar motor protein MotB [Brevibacillus laterosporus] &gt;gb|MCR8986521.1| flagellar motor protein MotB [Brevibacillus laterosporus] &gt;gb|MCZ0832256.1| flagellar motor protein MotB [Brevibacillus halotolerans] &gt;gb|OAJ74366.1| flagellar motor protein MotB [Brevibacillus sp. SKDU10] &gt;dbj|GIO03153.1| flagellar motor protein MotB [Brevibacillus halotolerans]</Hit_def>
+  <Hit_accession>WP_031411927</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>354.755</Hsp_bit-score>
+      <Hsp_score>909</Hsp_score>
+      <Hsp_evalue>1.04871e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>MAKRKKKHEEHIDETWLIPYSDLLTLLLALF--LFAASSVDAKKFSQMAASFNVALNGGASVLDFPSPVEPIDSE-----------QIVDKNQYEQQMKYLQETEKLDQLKKQLDGYLESNNLTGKLHTKV-------------------AKVKEEARNLAFEISKLLEPDGRR-TVSGHTDTVPIRNSQFSSNWELSSQRALNFMTILLENKKLDP---SARAYGEFQPVASNQ-ND--ATNRRVEVAILRNFEKDKSSEIKK</Hsp_qseq>
+      <Hsp_hseq>MAKRKKKHEEHIDETWLIPYSDLLTLLLALFIVLFAASSVDAKKFSQLAASFNVALNGGVSVLDFPSPVEPINSEEQSLMKPGGNEQIVDKTKYEQQMKYLQETEKLDQLKKQLDSYLKENNLTGKLHTKVTDEGLLITIMDNALFASGSAKVKPEARNLAFEISKLLEPDGRRVTVSGHTDNVPIRNSRFESNWHLSSARAMNFMTILLENKKLDPSKFSARAFGEFQPVASNKTNDGRATNRRVEVAILRNFEKN--SQITK</Hsp_hseq>
+      <Hsp_midline>MAKRKKKHEEHIDETWLIPYSDLLTLLLALF  LFAASSVDAKKFSQ+AASFNVALNGG SVLDFPSPVEPI+SE           QIVDK +YEQQMKYLQETEKLDQLKKQLD YL+ NNLTGKLHTKV                   AKVK EARNLAFEISKLLEPDGRR TVSGHTD VPIRNS+F SNW LSS RA+NFMTILLENKKLDP   SARA+GEFQPVASN+ ND  ATNRRVEVAILRNFEK+  S+I K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_373985884.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Brevibacillus laterosporus] &gt;gb|MFB0831579.1| flagellar motor protein MotB [Brevibacillus laterosporus]</Hit_def>
+  <Hit_accession>WP_373985884</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>347.821</Hsp_bit-score>
+      <Hsp_score>891</Hsp_score>
+      <Hsp_evalue>5.1608e-118</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>MAKRKKKHEEHIDETWLIPYSDLLTLLLALF--LFAASSVDAKKFSQMAASFNVALNGGASVLDFPSPVEPIDSE-----------QIVDKNQYEQQMKYLQETEKLDQLKKQLDGYLESNNLTGKLHTKV-------------------AKVKEEARNLAFEISKLLEPDGRR-TVSGHTDTVPIRNSQFSSNWELSSQRALNFMTILLENKKLDP---SARAYGEFQPVASNQ-ND--ATNRRVEVAILRNFEKDKSSEIKK</Hsp_qseq>
+      <Hsp_hseq>MAKRKKKHEEHIDETWLIPYSDLLTLLLALFIVLFAASSVDAKKFSQLAGSFNAALNGGVSVLDFPSPVEPINSEEQSLMKPEGNEQIVDKTKYEQQMKYLQETEKLDQLKKQLDSYLKENNLTGKLHTKVTDEGLLITIMDNALFASGSAKVKPEARNLASEISKLLEPDGRRVTVSGHTDNVPIRNSRFESNWHLSSARAMNFMTILLENKKLDPSKFSARAFGEFQPVASNKTNDGRATNRRVEVAILRNFEKN--SQITK</Hsp_hseq>
+      <Hsp_midline>MAKRKKKHEEHIDETWLIPYSDLLTLLLALF  LFAASSVDAKKFSQ+A SFN ALNGG SVLDFPSPVEPI+SE           QIVDK +YEQQMKYLQETEKLDQLKKQLD YL+ NNLTGKLHTKV                   AKVK EARNLA EISKLLEPDGRR TVSGHTD VPIRNS+F SNW LSS RA+NFMTILLENKKLDP   SARA+GEFQPVASN+ ND  ATNRRVEVAILRNFEK+  S+I K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_101667413.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Brevibacillus laterosporus] &gt;gb|AUM63634.1| flagellar motor protein MotB [Brevibacillus laterosporus]</Hit_def>
+  <Hit_accession>WP_101667413</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>347.436</Hsp_bit-score>
+      <Hsp_score>890</Hsp_score>
+      <Hsp_evalue>6.1491e-118</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>199</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>MAKRKKKHEEHIDETWLIPYSDLLTLLLALF--LFAASSVDAKKFSQMAASFNVALNGGASVLDFPSPVEPIDSE-----------QIVDKNQYEQQMKYLQETEKLDQLKKQLDGYLESNNLTGKLHTKV-------------------AKVKEEARNLAFEISKLLEPDGRR-TVSGHTDTVPIRNSQFSSNWELSSQRALNFMTILLENKKLDP---SARAYGEFQPVASNQ-ND--ATNRRVEVAILRNFEKDKSSEIKK</Hsp_qseq>
+      <Hsp_hseq>MAKRKKKHEEHIDETWLIPYSDLLTLLLALFIVLFAASSVDAKKFSQLAGSFNAALNGGVSVLDFPSPVEPINSEEQSLMKPGGNEQVVDKTKYEQQMKYLQETEKLDQLKKQLDSYLKENNLTGKLHTKVTDEGLLITIMDNALFASGSAKVKPEARNLASEISKLLEPDGRRVTVSGHTDNVPIRNSRFESNWHLSSARAMNFMTILLENKKLDPSKFSARAFGEFQPVASNKTNDGRATNRRVEVAILRNFEKN--SQITK</Hsp_hseq>
+      <Hsp_midline>MAKRKKKHEEHIDETWLIPYSDLLTLLLALF  LFAASSVDAKKFSQ+A SFN ALNGG SVLDFPSPVEPI+SE           Q+VDK +YEQQMKYLQETEKLDQLKKQLD YL+ NNLTGKLHTKV                   AKVK EARNLA EISKLLEPDGRR TVSGHTD VPIRNS+F SNW LSS RA+NFMTILLENKKLDP   SARA+GEFQPVASN+ ND  ATNRRVEVAILRNFEK+  S+I K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_163246312.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Brevibacillus sp. 7WMA2] &gt;gb|QIC07508.1| flagellar motor protein MotB [Brevibacillus sp. 7WMA2]</Hit_def>
+  <Hit_accession>WP_163246312</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>347.436</Hsp_bit-score>
+      <Hsp_score>890</Hsp_score>
+      <Hsp_evalue>6.42444e-118</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>199</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>MAKRKKKHEEHIDETWLIPYSDLLTLLLALF--LFAASSVDAKKFSQMAASFNVALNGGASVLDFPSPVEPIDSE-----------QIVDKNQYEQQMKYLQETEKLDQLKKQLDGYLESNNLTGKLHTKV-------------------AKVKEEARNLAFEISKLLEPDGRR-TVSGHTDTVPIRNSQFSSNWELSSQRALNFMTILLENKKLDP---SARAYGEFQPVASNQ-ND--ATNRRVEVAILRNFEKDKSSEIKK</Hsp_qseq>
+      <Hsp_hseq>MAKRKKKHEEHIDETWLIPYSDLLTLLLALFIVLFAASSVDAKKFSQLAGSFNAALNGGVSVLDFPSPVEPINSEEQSLMKPGGNEQVVDKTKYEQQMKYLQETEKLDQLKKQLDSYLKENNLTGKLHTKVTDEGLLITIMDNALFASGSAKVKPEARNLAAEISKLLEPDGRRVTVSGHTDNVPIRNSRFESNWHLSSARAMNFMTILLENKKLDPSKFSARAFGEFQPVASNKTNDGRATNRRVEVAILRNFEKN--SQITK</Hsp_hseq>
+      <Hsp_midline>MAKRKKKHEEHIDETWLIPYSDLLTLLLALF  LFAASSVDAKKFSQ+A SFN ALNGG SVLDFPSPVEPI+SE           Q+VDK +YEQQMKYLQETEKLDQLKKQLD YL+ NNLTGKLHTKV                   AKVK EARNLA EISKLLEPDGRR TVSGHTD VPIRNS+F SNW LSS RA+NFMTILLENKKLDP   SARA+GEFQPVASN+ ND  ATNRRVEVAILRNFEK+  S+I K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_068793768.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Brevibacillus laterosporus]</Hit_def>
+  <Hit_accession>WP_068793768</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>346.28</Hsp_bit-score>
+      <Hsp_score>887</Hsp_score>
+      <Hsp_evalue>2.36473e-117</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>199</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>MAKRKKKHEEHIDETWLIPYSDLLTLLLALF--LFAASSVDAKKFSQMAASFNVALNGGASVLDFPSPVEPIDSE-----------QIVDKNQYEQQMKYLQETEKLDQLKKQLDGYLESNNLTGKLHTKV-------------------AKVKEEARNLAFEISKLLEPDGRR-TVSGHTDTVPIRNSQFSSNWELSSQRALNFMTILLENKKLDP---SARAYGEFQPVASNQ-ND--ATNRRVEVAILRNFEKDKSSEIKK</Hsp_qseq>
+      <Hsp_hseq>MAKRKKKHEEHIDETWLIPYSDLLTLLLALFIVLFAASSVDAKKFSQLAGSFNAALNGGVSVLDFPSPVEPINSEEQSLMKPEGNEQIVDKTKYEQQMKYLQETEKLDQLKKQLDSYLKENNLTGKLHTKVTDEGLLITIMDNALFASGSAKVKPEARNLASEISKLLEPDGRRVTVSGHTDNVPIRNSRFESNWHLSSARAMNFMTILLENKKLDPSKFSTRAFGEFQPVASNKTNDGRATNRRVEVAILRNFEKN--SQITK</Hsp_hseq>
+      <Hsp_midline>MAKRKKKHEEHIDETWLIPYSDLLTLLLALF  LFAASSVDAKKFSQ+A SFN ALNGG SVLDFPSPVEPI+SE           QIVDK +YEQQMKYLQETEKLDQLKKQLD YL+ NNLTGKLHTKV                   AKVK EARNLA EISKLLEPDGRR TVSGHTD VPIRNS+F SNW LSS RA+NFMTILLENKKLDP   S RA+GEFQPVASN+ ND  ATNRRVEVAILRNFEK+  S+I K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_003344995.1|</Hit_id>
+  <Hit_def>MULTISPECIES: flagellar motor protein MotB [Brevibacillus] &gt;gb|ERM16688.1| flagellar motor protein MotB [Brevibacillus laterosporus PE36] &gt;gb|MBA4535323.1| flagellar motor protein MotB [Brevibacillus halotolerans] &gt;gb|MCR8964042.1| flagellar motor protein MotB [Brevibacillus laterosporus] &gt;gb|MCZ0836197.1| flagellar motor protein MotB [Brevibacillus halotolerans] &gt;gb|MDF9413449.1| flagellar motor protein MotB [Brevibacillus laterosporus]</Hit_def>
+  <Hit_accession>WP_003344995</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>345.895</Hsp_bit-score>
+      <Hsp_score>886</Hsp_score>
+      <Hsp_evalue>2.78687e-117</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>MAKRKKKHEEHIDETWLIPYSDLLTLLLALF--LFAASSVDAKKFSQMAASFNVALNGGASVLDFPSPVEPIDSE-----------QIVDKNQYEQQMKYLQETEKLDQLKKQLDGYLESNNLTGKLHTKV-------------------AKVKEEARNLAFEISKLLEPDGRR-TVSGHTDTVPIRNSQFSSNWELSSQRALNFMTILLENKKLDP---SARAYGEFQPVASNQ-ND--ATNRRVEVAILRNFEKDKSSEIKK</Hsp_qseq>
+      <Hsp_hseq>MAKRKKKHEEHIDETWLIPYSDLLTLLLALFIVLFAASSVDAKKFSQLAGSFNAALNGGVSVLDFPSPVEPINSEEQSLMKPGGNEQVVDKTKYEQQMKYLQETEKLDQLKKQLDSYLKENNLTGKLHTKVTDEGLLITIMDNALFASGSAKVKPEARNLASEISKLLEPDGRRVTVSGHTDNVPIRNSRFESNWHLSSARAMNFMTILLENKKLDPSKFSTRAFGEFQPVASNKTNDGRATNRRVEVAILRNFEKN--SQITK</Hsp_hseq>
+      <Hsp_midline>MAKRKKKHEEHIDETWLIPYSDLLTLLLALF  LFAASSVDAKKFSQ+A SFN ALNGG SVLDFPSPVEPI+SE           Q+VDK +YEQQMKYLQETEKLDQLKKQLD YL+ NNLTGKLHTKV                   AKVK EARNLA EISKLLEPDGRR TVSGHTD VPIRNS+F SNW LSS RA+NFMTILLENKKLDP   S RA+GEFQPVASN+ ND  ATNRRVEVAILRNFEK+  S+I K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_003335510.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Brevibacillus laterosporus] &gt;tpg|HAS01972.1| flagellar motor protein MotB [Brevibacillus sp.] &gt;gb|AIG25007.1| chemotaxis protein MotB [Brevibacillus laterosporus LMG 15441] &gt;gb|AYK06636.1| flagellar motor protein MotB [Brevibacillus laterosporus] &gt;gb|MCR8996777.1| flagellar motor protein MotB [Brevibacillus laterosporus] &gt;gb|RJL07250.1| flagellar motor protein MotB [Brevibacillus laterosporus]</Hit_def>
+  <Hit_accession>WP_003335510</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>345.895</Hsp_bit-score>
+      <Hsp_score>886</Hsp_score>
+      <Hsp_evalue>3.21323e-117</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>MAKRKKKHEEHIDETWLIPYSDLLTLLLALF--LFAASSVDAKKFSQMAASFNVALNGGASVLDFPSPVEPIDSE-----------QIVDKNQYEQQMKYLQETEKLDQLKKQLDGYLESNNLTGKLHTKV-------------------AKVKEEARNLAFEISKLLEPDGRR-TVSGHTDTVPIRNSQFSSNWELSSQRALNFMTILLENKKLDP---SARAYGEFQPVASNQ-ND--ATNRRVEVAILRNFEKDKSSEIKK</Hsp_qseq>
+      <Hsp_hseq>MAKRKKKHEEHIDETWLIPYSDLLTLLLALFIVLFAASSVDAKKFSQLAGSFNAALNGGVSVLDFPSPVEPINSEEQSLMKPEGNEQVVDKTKYEQQMKYLQETEKLDQLKKQLDSYLKENNLTGKLHTKVTDEGLLITIMDNALFASGSAKVKPEARNLASEISKLLEPDGRRVTVSGHTDNVPIRNSRFESNWHLSSARAMNFMTILLENKKLDPSKFSTRAFGEFQPVASNKTNDGRATNRRVEVAILRNFEKN--SQITK</Hsp_hseq>
+      <Hsp_midline>MAKRKKKHEEHIDETWLIPYSDLLTLLLALF  LFAASSVDAKKFSQ+A SFN ALNGG SVLDFPSPVEPI+SE           Q+VDK +YEQQMKYLQETEKLDQLKKQLD YL+ NNLTGKLHTKV                   AKVK EARNLA EISKLLEPDGRR TVSGHTD VPIRNS+F SNW LSS RA+NFMTILLENKKLDP   S RA+GEFQPVASN+ ND  ATNRRVEVAILRNFEK+  S+I K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_232697703.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Brevibacillus daliensis]</Hit_def>
+  <Hit_accession>WP_232697703</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.161</Hsp_bit-score>
+      <Hsp_score>814</Hsp_score>
+      <Hsp_evalue>2.49732e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>MAKRKKKHEEHIDETWLIPYSDLLTLLLALF--LFAASSVDAKKFSQMAASFNVALNGGASVLDFPSPVEPIDSE-----------QIVDKNQYEQQMKYLQETEKLDQLKKQLDGYLESNNLTGKLHTKV-------------------AKVKEEARNLAFEISKLLEPDGRR-TVSGHTDTVPIRNSQFSSNWELSSQRALNFMTILLENKKLDP---SARAYGEFQPVASN---QNDATNRRVEVAILRNFEKDKS</Hsp_qseq>
+      <Hsp_hseq>MAKRKKKHDEHIDESWLIPYADILTLLLALFIVLFASSSVDSQKFQQMMNSFNSALTGGVGVLDMPSPVDPVNPVSTSPIGGNADIQLVEKKKYEQQMNFLQETEKLEQLKQQLDIYLEENSLTGKLHTKVTEAGLLITIMDNALFASGSAQVRADAKELASEISKLLEPDGRRVTVSGHTDNVPIRNSQFSSNWQLSSQRALNFMTILLENKKLDPRNFSAIAYGEYHPTASNDTAEGRAKNRRVELAILRNFEKEKT</Hsp_hseq>
+      <Hsp_midline>MAKRKKKH+EHIDE+WLIPY+D+LTLLLALF  LFA+SSVD++KF QM  SFN AL GG  VLD PSPV+P++             Q+V+K +YEQQM +LQETEKL+QLK+QLD YLE N+LTGKLHTKV                   A+V+ +A+ LA EISKLLEPDGRR TVSGHTD VPIRNSQFSSNW+LSSQRALNFMTILLENKKLDP   SA AYGE+ P ASN   +  A NRRVE+AILRNFEK+K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_116335486.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB, partial [Brevibacillus sp. VP] &gt;gb|RFB28195.1| flagellar motor protein MotB, partial [Brevibacillus sp. VP]</Hit_def>
+  <Hit_accession>WP_116335486</Hit_accession>
+  <Hit_len>187</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>264.233</Hsp_bit-score>
+      <Hsp_score>674</Hsp_score>
+      <Hsp_evalue>3.75543e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>MAKRKKKHEEHIDETWLIPYSDLLTLLLALF--LFAASSVDAKKFSQMAASFNVALNGGASVLDFPSPVEPIDSE-----------QIVDKNQYEQQMKYLQETEKLDQLKKQLDGYLESNNLTGKLHTKV-------------------AKVKEEARNLAFEISKLLEPDGRR-TVSGHTDTVPIR</Hsp_qseq>
+      <Hsp_hseq>MAKRKKKHEEHIDETWLIPYSDLLTLLLALFIVLFAASSVDAKKFSQMAASFNVALNGGASVLDFPSPVEPIDSEEQSLMKPGGNEQIVDKNQYEQQMKYLQETEKLDQLKKQLDGYLKANNLTGKLHTKVTDEGLLITIMDNALFASGSAKVKPEARNLAFEISKLLEPDGRRVTVSGHTDNVPIR</Hsp_hseq>
+      <Hsp_midline>MAKRKKKHEEHIDETWLIPYSDLLTLLLALF  LFAASSVDAKKFSQMAASFNVALNGGASVLDFPSPVEPIDSE           QIVDKNQYEQQMKYLQETEKLDQLKKQLDGYL++NNLTGKLHTKV                   AKVK EARNLAFEISKLLEPDGRR TVSGHTD VPIR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_139492126.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Brevibacillus dissolubilis]</Hit_def>
+  <Hit_accession>WP_139492126</Hit_accession>
+  <Hit_len>264</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>225.713</Hsp_bit-score>
+      <Hsp_score>574</Hsp_score>
+      <Hsp_evalue>6.86742e-70</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>IDETWLIPYSDLLTLLLALF--LFAASSVDAKKFSQMAASFNVALNGGASVLDFPS--PVEPIDSEQIVDKNQ------------YEQQMKYLQETEKLDQLKKQLDGYLESNNLTGKLHTKV-------------------AKVKEEARNLAFEISKLLEPDGRR-TVSGHTDTVPIRNSQFSSNWELSSQRALNFMTILLENKKLDP---SARAYGEFQPVASN---QNDATNRRVEVAILRNFEK</Hsp_qseq>
+      <Hsp_hseq>IDETWLIPYADLLTLLLALFIVLFASSSVDAKKFNQLVRSLNVALNGGTSIFQNPSALPIPEEVAQQSLERNQAEESEEKKDKKKFEQAEKFQQETEQLGELKEQLDKYIANNNLKDKLQTKITDMGLLITITDSALFDSGSALVRPEARKLAGEISKLLVPDARRVTVSGHTDNVPIRTSQFPSNWDLSSERALNFMKILLENKSLNPSNFSATGYGEYQPIAPNTTLQGRAKNRRVEVAILRNYEK</Hsp_hseq>
+      <Hsp_midline>IDETWLIPY+DLLTLLLALF  LFA+SSVDAKKF+Q+  S NVALNGG S+   PS  P+    ++Q +++NQ            +EQ  K+ QETE+L +LK+QLD Y+ +NNL  KL TK+                   A V+ EAR LA EISKLL PD RR TVSGHTD VPIR SQF SNW+LSS+RALNFM ILLENK L+P   SA  YGE+QP+A N   Q  A NRRVEVAILRN+EK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_408108992.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Brevibacillus sp. B_LB10_24] &gt;gb|MFM1653353.1| flagellar motor protein MotB [Brevibacillus sp. B_LB10_24]</Hit_def>
+  <Hit_accession>WP_408108992</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.787</Hsp_bit-score>
+      <Hsp_score>569</Hsp_score>
+      <Hsp_evalue>2.94941e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>MAKRKK--KHEEHIDETWLIPYSDLLTLLLALF--LFAASSVDAKKFSQMAASFNVALNGGASVLDFPSPVE-PIDSEQIVD------KNQYEQQMKYLQETEKLDQLKKQLDGYLESNNLTGKLHTKV-------------------AKVKEEARNLAFEISKLLEPDGRR-TVSGHTDTVPIRNSQFSSNWELSSQRALNFMTILLENKKLDP---SARAYGEFQPVASN---QNDATNRRVEVAILRN</Hsp_qseq>
+      <Hsp_hseq>MAKRRRHGSEEEHIDETWLIPYSDLLTLLLALFIVLFASSKLDVKKFDQLAQSFNVAFTGGTSILESPAPITMPPDTLQIPDDVTMMSKAEQEQAERYRQETEDLEKAKEQLDTYILEHALQEKLHTKVTETGLLITIMDNALFNSGSAQVRPEARELASEISKLLVPQPRQITVSGHTDNVPIHTAEFPSNWDLSSKRALNFMKILLQNPQLDPQKFSATGYGEYHPIAPNDSAEGRAKNRRVEVAILRN</Hsp_hseq>
+      <Hsp_midline>MAKR++    EEHIDETWLIPYSDLLTLLLALF  LFA+S +D KKF Q+A SFNVA  GG S+L+ P+P+  P D+ QI D      K + EQ  +Y QETE L++ K+QLD Y+  + L  KLHTKV                   A+V+ EAR LA EISKLL P  R+ TVSGHTD VPI  ++F SNW+LSS+RALNFM ILL+N +LDP   SA  YGE+ P+A N   +  A NRRVEVAILRN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_019121542.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Brevibacillus massiliensis]</Hit_def>
+  <Hit_accession>WP_019121542</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.476</Hsp_bit-score>
+      <Hsp_score>563</Hsp_score>
+      <Hsp_evalue>2.60536e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>254</Hsp_align-len>
+      <Hsp_qseq>MAKRKK--KHEEHIDETWLIPYSDLLTLLLALF--LFAASSVDAKKFSQMAASFNVALNGGASVLDFPSPVE-PIDSEQIVD------KNQYEQQMKYLQETEKLDQLKKQLDGYLESNNLTGKLHTKV-------------------AKVKEEARNLAFEISKLLEPDGRR-TVSGHTDTVPIRNSQFSSNWELSSQRALNFMTILLENKKLDP---SARAYGEFQPVASN---QNDATNRRVEVAILRNFEK</Hsp_qseq>
+      <Hsp_hseq>MAKRRRHGSGEDHIDETWLIPYSDLLTLLLALFIVLFASSKIDVKKFDQLAQSFNVAFTGGTGIMESPAPVTMPPDTLQIPDDVKMMSKAEQEQAERYRQETEDLEKAKGQLDAYILEHALQDKLHTKVTETGLLITIMDNALFDSGSAQVRPEARELANEISKLLVPQPRQITVSGHTDNVPIHTAEFPSNWDLSSKRALNFMKILLQNPQLDPQKFSATGYGEYHPIAPNDTAEGRAKNRRVEVAILRNNPK</Hsp_hseq>
+      <Hsp_midline>MAKR++    E+HIDETWLIPYSDLLTLLLALF  LFA+S +D KKF Q+A SFNVA  GG  +++ P+PV  P D+ QI D      K + EQ  +Y QETE L++ K QLD Y+  + L  KLHTKV                   A+V+ EAR LA EISKLL P  R+ TVSGHTD VPI  ++F SNW+LSS+RALNFM ILL+N +LDP   SA  YGE+ P+A N   +  A NRRVEVAILRN  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|MBO8164556.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Brevibacillus sp.]</Hit_def>
+  <Hit_accession>MBO8164556</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.779</Hsp_bit-score>
+      <Hsp_score>556</Hsp_score>
+      <Hsp_evalue>2.80991e-67</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>KRKKKHEEHIDETWLIPYSDLLTLLLALF--LFAASSVDAKKFSQMAASFNVALNGGASVLDFP--------SPVEPIDSEQIVDKNQYEQQMKYLQETEKLDQLKKQLDGYLESNNLTGKLHTKV-------------------AKVKEEARNLAFEISKLLEPDGRR-TVSGHTDTVPIRNSQFSSNWELSSQRALNFMTILLENKKLDP---SARAYGEFQPVASN---QNDATNRRVEVAILRNFEK</Hsp_qseq>
+      <Hsp_hseq>KRKHQHEEHIDETWLIPYADLLTLLLALFIVLFASSKLDAQKFDQLVQSLTVAFNGGTGFFQSPNPLPAPPNSPVPTIEMKHVKTKEQEEQEKRFQQETQELQKLKGQLDSYIGESGLKDKLETKITDLGLLITILDNALFDSGSAEVRPEARQLAAEIAKLLETQPREVTVAGHTDNVPIHTREFPSNWELSSKRALNFMKILLENPKLDPRRFSATGYGEYRPIASNDTAEGRAKNRRVEVSILRNFPK</Hsp_hseq>
+      <Hsp_midline>KRK +HEEHIDETWLIPY+DLLTLLLALF  LFA+S +DA+KF Q+  S  VA NGG      P        SPV  I+ + +  K Q EQ+ ++ QET++L +LK QLD Y+  + L  KL TK+                   A+V+ EAR LA EI+KLLE   R  TV+GHTD VPI   +F SNWELSS+RALNFM ILLEN KLDP   SA  YGE++P+ASN   +  A NRRVEV+ILRNF K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>877781531</Statistics_db-num>
+      <Statistics_db-len>334720180573</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

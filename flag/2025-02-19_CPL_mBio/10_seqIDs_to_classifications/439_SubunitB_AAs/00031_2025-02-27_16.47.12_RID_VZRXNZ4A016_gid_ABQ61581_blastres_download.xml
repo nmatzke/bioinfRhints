@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_6688837</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>269</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_6688837</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>269</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_006016411.1|</Hit_id>
+  <Hit_def>class 1 fructose-bisphosphatase [Brucella ovis] &gt;sp|A5VVE8.1| RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Brucella ovis ATCC 25840] &gt;gb|ABQ62795.1| fructose-1-6-bisphosphatase [Brucella ovis ATCC 25840] &gt;gb|ENQ99506.1| fructose-1,6-bisphosphatase class 1 [Brucella ovis 80/125] &gt;gb|ENR05478.1| fructose-1,6-bisphosphatase class 1 [Brucella ovis F8/05B] &gt;gb|ENS92487.1| fructose-1,6-bisphosphatase class 1 [Brucella ovis 63/96] &gt;gb|ENS95998.1| fructose-1,6-bisphosphatase class 1 [Brucella ovis 81/8]</Hit_def>
+  <Hit_accession>WP_006016411</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>463.766</Hsp_bit-score>
+      <Hsp_score>1192</Hsp_score>
+      <Hsp_evalue>6.09863e-162</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>265</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MTLVGNFSPLVLVGDSDR-------------------RLATANAIK--LSGAGRLVG----GY----------VNSDQDQQKSIDVGSHNLFVELLIAAGVASI-----EAPVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSY----DLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRN-----LGAAVGDMHRIMQRG----------PGYER---------LPIAFLAREAGSKATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_qseq>
+      <Hsp_hseq>MTLVGNFSPLVLVGDSDRVEAETVGAYLDGWAGHDKVRLATANAIKAILSGAGRLVGRIARGYLPGDPGKLVGVNSDQDQQKSIDVGSHNLFVELLIAAGVASILSEEADLPVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSYGNSVDLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRNFNMRWLGAAVGDMHRIMQRGGLFFYVNDSRPGYEKGRLRLVYEANPIAFLAREAGSKATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_hseq>
+      <Hsp_midline>MTLVGNFSPLVLVGDSDR                   RLATANAIK  LSGAGRLVG    GY          VNSDQDQQKSIDVGSHNLFVELLIAAGVASI     + PVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSY    DLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRN     LGAAVGDMHRIMQRG          PGYE+          PIAFLAREAGSKATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_006138290.1|</Hit_id>
+  <Hit_def>class 1 fructose-bisphosphatase [Brucella melitensis] &gt;gb|ENS56049.1| fructose-1,6-bisphosphatase class 1 [Brucella melitensis F1/06 B10] &gt;gb|MEN3391419.1| class 1 fructose-bisphosphatase [Brucella melitensis] &gt;gb|MEN3433016.1| class 1 fructose-bisphosphatase [Brucella melitensis]</Hit_def>
+  <Hit_accession>WP_006138290</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>462.611</Hsp_bit-score>
+      <Hsp_score>1189</Hsp_score>
+      <Hsp_evalue>1.92626e-161</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>264</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MTLVGNFSPLVLVGDSDR-------------------RLATANAIK--LSGAGRLVG----GY----------VNSDQDQQKSIDVGSHNLFVELLIAAGVASI-----EAPVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSY----DLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRN-----LGAAVGDMHRIMQRG----------PGYER---------LPIAFLAREAGSKATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_qseq>
+      <Hsp_hseq>MTLVGNFSPLVLVGDSDRVEAETVGAYLDGWAGHDKVRLATANAIKAILSGAGRLVGRIARGYLPGDPGKLVGVNSDQDQQKSIDVGSHNLFVELLIAAGVASILSEEADLPVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSYGNSVDLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRNFNMRWLGAAVGDMHRIMQRGGLFFYVNDSRPGYEKGRLRLVYEANPIAFLAREAGCKATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_hseq>
+      <Hsp_midline>MTLVGNFSPLVLVGDSDR                   RLATANAIK  LSGAGRLVG    GY          VNSDQDQQKSIDVGSHNLFVELLIAAGVASI     + PVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSY    DLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRN     LGAAVGDMHRIMQRG          PGYE+          PIAFLAREAG KATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_002965774.1|</Hit_id>
+  <Hit_def>MULTISPECIES: class 1 fructose-bisphosphatase [Brucella] &gt;sp|A9WZF8.1| RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Brucella suis ATCC 23445] &gt;sp|B2SAG4.1| RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Brucella abortus S19] &gt;sp|C0RM19.1| RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Brucella melitensis ATCC 23457] &gt;sp|Q2YIQ9.1| RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Brucella abortus 2308] &gt;sp|Q578Z3.1| RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Brucella abortus bv. 1 str. 9-941] &gt;sp|Q8YCV6.1| RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Brucella melitensis bv. 1 str. 16M] &gt;gb|ERM86604.1| fructose-1 6-bisphosphatase [Brucella abortus 82] &gt;gb|EXU84643.1| fructose-1 6-bisphosphatase [Brucella melitensis 548] &gt;gb|KFH18532.1| fructose 1,6-bisphosphatase [Brucella abortus LMN1] &gt;gb|KFH21947.1| fructose 1,6-bisphosphatase [Brucella abortus LMN2] &gt;gb|AAL53664.1| fructose-1,6-bisphosphatase [Brucella melitensis bv. 1 str. 16M]</Hit_def>
+  <Hit_accession>WP_002965774</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>461.84</Hsp_bit-score>
+      <Hsp_score>1187</Hsp_score>
+      <Hsp_evalue>4.62663e-161</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>264</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MTLVGNFSPLVLVGDSDR-------------------RLATANAIK--LSGAGRLVG----GY----------VNSDQDQQKSIDVGSHNLFVELLIAAGVASI-----EAPVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSY----DLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRN-----LGAAVGDMHRIMQRG----------PGYER---------LPIAFLAREAGSKATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_qseq>
+      <Hsp_hseq>MTLVGNFSPLVLVGDSDRVEAETVGAYLDGWAGHDKVRLATANAIKAILSGAGRLVGRIARGYLPGDPGKLVGVNSDQDQQKSIDVGSHNLFVELLIAAGVASILSEEADLPVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSYGNSVDLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRNFNMRWLGAAVGDMHRIMQRGGLFFYVNDSRPGYEKGRLRLVYEANPIAFLAREAGGKATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_hseq>
+      <Hsp_midline>MTLVGNFSPLVLVGDSDR                   RLATANAIK  LSGAGRLVG    GY          VNSDQDQQKSIDVGSHNLFVELLIAAGVASI     + PVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSY    DLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRN     LGAAVGDMHRIMQRG          PGYE+          PIAFLAREAG KATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_023080517.1|</Hit_id>
+  <Hit_def>class 1 fructose-bisphosphatase [Brucella abortus] &gt;gb|ERT91782.1| fructose-1,6-bisphosphatase class 1 [Brucella abortus 99-9971-159] &gt;gb|ERT98902.1| fructose-1,6-bisphosphatase class 1 [Brucella abortus 99-9971-135] &gt;gb|MBJ8142253.1| class 1 fructose-bisphosphatase [Brucella abortus] &gt;gb|MBJ8144840.1| class 1 fructose-bisphosphatase [Brucella abortus]</Hit_def>
+  <Hit_accession>WP_023080517</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>461.455</Hsp_bit-score>
+      <Hsp_score>1186</Hsp_score>
+      <Hsp_evalue>6.49721e-161</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>264</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MTLVGNFSPLVLVGDSDR-------------------RLATANAIK--LSGAGRLVG----GY----------VNSDQDQQKSIDVGSHNLFVELLIAAGVASI-----EAPVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSY----DLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRN-----LGAAVGDMHRIMQRG----------PGYER---------LPIAFLAREAGSKATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_qseq>
+      <Hsp_hseq>MTLVGNFSPLVLVGDSDRVEAETVGVYLDGWAGHDKVRLATANAIKAILSGAGRLVGRIARGYLPGDPGKLVGVNSDQDQQKSIDVGSHNLFVELLIAAGVASILSEEADLPVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSYGNSVDLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRNFNMRWLGAAVGDMHRIMQRGGLFFYVNDSRPGYEKGRLRLVYEANPIAFLAREAGGKATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_hseq>
+      <Hsp_midline>MTLVGNFSPLVLVGDSDR                   RLATANAIK  LSGAGRLVG    GY          VNSDQDQQKSIDVGSHNLFVELLIAAGVASI     + PVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSY    DLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRN     LGAAVGDMHRIMQRG          PGYE+          PIAFLAREAG KATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_105984583.1|</Hit_id>
+  <Hit_def>MULTISPECIES: class 1 fructose-bisphosphatase [unclassified Brucella]</Hit_def>
+  <Hit_accession>WP_105984583</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>461.07</Hsp_bit-score>
+      <Hsp_score>1185</Hsp_score>
+      <Hsp_evalue>6.93854e-161</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MTLVGNFSPLVLVGDSDR-------------------RLATANAIK--LSGAGRLVG----GY----------VNSDQDQQKSIDVGSHNLFVELLIAAGVASI-----EAPVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSY----DLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRN-----LGAAVGDMHRIMQRG----------PGYER---------LPIAFLAREAGSKATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_qseq>
+      <Hsp_hseq>MTLVGNFSPLVLVGDSDRVEAETVGAYLDGWAGHDKVRLATANAIKAILSGAGRLVGRIARGYLPGDPGKLVGVNSDQDQQKSIDVGSHNLFVELLIAAGVASILSEEADLPIAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSYGNSVDLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRNFNMRWLGAAVGDMHRIMQRGGLFFYVNDSRPGYEKGRLRLVYEANPIAFLAREAGGKATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_hseq>
+      <Hsp_midline>MTLVGNFSPLVLVGDSDR                   RLATANAIK  LSGAGRLVG    GY          VNSDQDQQKSIDVGSHNLFVELLIAAGVASI     + P+AGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSY    DLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRN     LGAAVGDMHRIMQRG          PGYE+          PIAFLAREAG KATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_004692176.1|</Hit_id>
+  <Hit_def>MULTISPECIES: class 1 fructose-bisphosphatase [Brucella] &gt;sp|A9MCF4.1| RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Brucella canis ATCC 23365] &gt;gb|ABX64041.1| Fructose-1,6-bisphosphatase [Brucella canis ATCC 23365] &gt;gb|AEW16290.1| inositol phosphatase/fructose-1,6-bisphosphatase [Brucella canis HSK A52141] &gt;gb|AHZ83044.1| fructose 1,6-bisphosphatase [Brucella canis] &gt;gb|AIJ83697.1| fructose-1-6-bisphosphatase family protein [Brucella canis] &gt;gb|AIJ97038.1| fructose-1-6-bisphosphatase family protein [Brucella suis]</Hit_def>
+  <Hit_accession>WP_004692176</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>461.07</Hsp_bit-score>
+      <Hsp_score>1185</Hsp_score>
+      <Hsp_evalue>9.53269e-161</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MTLVGNFSPLVLVGDSDR-------------------RLATANAIK--LSGAGRLVG----GY----------VNSDQDQQKSIDVGSHNLFVELLIAAGVASI-----EAPVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSY----DLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRN-----LGAAVGDMHRIMQRG----------PGYER---------LPIAFLAREAGSKATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_qseq>
+      <Hsp_hseq>MTLVGNFSPLVLVGDSDRVEAETVGAYLDGWAGHDKVRLATANAIKAILSGAGRLVGSIARGYLPGDPGKLVGVNSDQDQQKSIDVGSHNLFVELLIAAGVASILSEEADLPVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSYGNSVDLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRNFNMRWLGAAVGDMHRIMQRGGLFFYVNDSRPGYEKGRLRLVYEANPIAFLAREAGGKATDGSRPILDIVPQTYHERSALVFGVAEELDILGEY</Hsp_hseq>
+      <Hsp_midline>MTLVGNFSPLVLVGDSDR                   RLATANAIK  LSGAGRLVG    GY          VNSDQDQQKSIDVGSHNLFVELLIAAGVASI     + PVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSY    DLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRN     LGAAVGDMHRIMQRG          PGYE+          PIAFLAREAG KATDGSRPILDIVPQTYHERSALVFGVAEE+DILGEY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_004690340.1|</Hit_id>
+  <Hit_def>MULTISPECIES: class 1 fructose-bisphosphatase [Brucella] &gt;sp|Q8FVG9.1| RecName: Full=Fructose-1,6-bisphosphatase class 1; Short=FBPase class 1; AltName: Full=D-fructose-1,6-bisphosphate 1-phosphohydrolase class 1 [Brucella suis 1330] &gt;gb|AAN34045.1| fructose-1-6-bisphosphatase [Brucella suis 1330] &gt;gb|AEM20322.1| fructose-1,6-bisphosphatase [Brucella suis 1330] &gt;gb|AEU07993.1| fructose-1,6-bisphosphatase [Brucella suis VBI22] &gt;gb|AHN48588.1| fbp [Brucella suis bv. 1 str. S2] &gt;gb|AIJ69919.1| fructose-1-6-bisphosphatase family protein [Brucella suis bv. 3 str. 686]</Hit_def>
+  <Hit_accession>WP_004690340</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>460.685</Hsp_bit-score>
+      <Hsp_score>1184</Hsp_score>
+      <Hsp_evalue>1.2954e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MTLVGNFSPLVLVGDSDR-------------------RLATANAIK--LSGAGRLVG----GY----------VNSDQDQQKSIDVGSHNLFVELLIAAGVASI-----EAPVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSY----DLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRN-----LGAAVGDMHRIMQRG----------PGYER---------LPIAFLAREAGSKATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_qseq>
+      <Hsp_hseq>MTLVGNFSPLVLVGDSDRVEAETVGAYLDGWAGHDKVRLATANAIKAILSGAGRLVGRIARGYLPGDPGKLVGVNSDQDQQKSIDVGSHNLFVELLIAAGVASILSEEADLPVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSYGNSVDLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRNFNMRWLGAAVGDMHRIMQRGGLFFYVNDSRPGYEKGRLRLVYEANPIAFLAREAGGKATDGSRPILDIVPQTYHERSALVFGVAEELDILGEY</Hsp_hseq>
+      <Hsp_midline>MTLVGNFSPLVLVGDSDR                   RLATANAIK  LSGAGRLVG    GY          VNSDQDQQKSIDVGSHNLFVELLIAAGVASI     + PVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSY    DLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRN     LGAAVGDMHRIMQRG          PGYE+          PIAFLAREAG KATDGSRPILDIVPQTYHERSALVFGVAEE+DILGEY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|EEH12879.1|</Hit_id>
+  <Hit_def>Fructose-1,6-bisphosphatase [Brucella ceti str. Cudo] &gt;gb|EEP61885.1| Fructose-1,6-bisphosphatase [Brucella abortus str. 2308 A]</Hit_def>
+  <Hit_accession>EEH12879</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>461.07</Hsp_bit-score>
+      <Hsp_score>1185</Hsp_score>
+      <Hsp_evalue>1.83952e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>358</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>264</Hsp_identity>
+      <Hsp_positive>266</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MTLVGNFSPLVLVGDSDR-------------------RLATANAIK--LSGAGRLVG----GY----------VNSDQDQQKSIDVGSHNLFVELLIAAGVASI-----EAPVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSY----DLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRN-----LGAAVGDMHRIMQRG----------PGYER---------LPIAFLAREAGSKATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_qseq>
+      <Hsp_hseq>MTLVGNFSPLVLVGDSDRVEAETVGAYLDGWAGHDKVRLATANAIKAILSGAGRLVGRIARGYLPGDPGKLVGVNSDQDQQKSIDVGSHNLFVELLIAAGVASILSEEADLPVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSYGNSVDLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRNFNMRWLGAAVGDMHRIMQRGGLFFYVNDSRPGYEKGRLRLVYEANPIAFLAREAGGKATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_hseq>
+      <Hsp_midline>MTLVGNFSPLVLVGDSDR                   RLATANAIK  LSGAGRLVG    GY          VNSDQDQQKSIDVGSHNLFVELLIAAGVASI     + PVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSY    DLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRN     LGAAVGDMHRIMQRG          PGYE+          PIAFLAREAG KATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_008936673.1|</Hit_id>
+  <Hit_def>MULTISPECIES: class 1 fructose-bisphosphatase [unclassified Brucella] &gt;gb|EEZ34126.1| inositol phosphatase/fructose-16-bisphosphatase [Brucella sp. 83/13] &gt;gb|EFM62484.1| fructose-1,6-bisphosphatase [Brucella sp. NF 2653]</Hit_def>
+  <Hit_accession>WP_008936673</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.914</Hsp_bit-score>
+      <Hsp_score>1182</Hsp_score>
+      <Hsp_evalue>2.1206e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MTLVGNFSPLVLVGDSDR-------------------RLATANAIK--LSGAGRLVG----GY----------VNSDQDQQKSIDVGSHNLFVELLIAAGVASI-----EAPVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSY----DLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRN-----LGAAVGDMHRIMQRG----------PGYER---------LPIAFLAREAGSKATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_qseq>
+      <Hsp_hseq>MTLAGNFSPLVLVGDSDRVEAETVGAYLDGWAGHDKVRLATANAIKAILSGAGRLVGRIARGYLPGDPGKLVGVNSDQDQQKSIDVGSHNLFVELLITAGVASILSEEAELPVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSYGNSVDLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRNFNMRWLGAAVGDMHRIMQRGGLFFYVNDSRPGYEKGRLRLIYEANPIAFLAREAGGKATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_hseq>
+      <Hsp_midline>MTL GNFSPLVLVGDSDR                   RLATANAIK  LSGAGRLVG    GY          VNSDQDQQKSIDVGSHNLFVELLI AGVASI     E PVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSY    DLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRN     LGAAVGDMHRIMQRG          PGYE+          PIAFLAREAG KATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_070998066.1|</Hit_id>
+  <Hit_def>MULTISPECIES: class 1 fructose-bisphosphatase [Brucella] &gt;gb|APY16055.1| fructose-bisphosphatase [Brucella sp. 09RB8910] &gt;gb|MRN43028.1| class 1 fructose-bisphosphatase [Brucella sp. 09RB8913] &gt;gb|MRN47341.1| class 1 fructose-bisphosphatase [Brucella sp. 10RB9212] &gt;gb|MRN50191.1| class 1 fructose-bisphosphatase [Brucella sp. 10RB9214] &gt;gb|MRN57747.1| class 1 fructose-bisphosphatase [Brucella sp. 09RB8918]</Hit_def>
+  <Hit_accession>WP_070998066</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.529</Hsp_bit-score>
+      <Hsp_score>1181</Hsp_score>
+      <Hsp_evalue>2.91342e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MTLVGNFSPLVLVGDSDR-------------------RLATANAIK--LSGAGRLVG----GY----------VNSDQDQQKSIDVGSHNLFVELLIAAGVASI-----EAPVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSY----DLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRN-----LGAAVGDMHRIMQRG----------PGYER---------LPIAFLAREAGSKATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_qseq>
+      <Hsp_hseq>MTLAGNFSPLVLVGDSDRVEAETVGAYLDGWAGHDKVRLATANAIKAILSGAGRLVGRIARGYLPGDPGKLVGVNSDQDQQKSIDVGSHNLFVELLIAAGVASILSEEADLPVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSYGNSVDLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRNFNMRWLGAAVGDMHRIMQRGGLFFYVNDSRPGYEKGRLRLIYEANPIAFLAREAGGKATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_hseq>
+      <Hsp_midline>MTL GNFSPLVLVGDSDR                   RLATANAIK  LSGAGRLVG    GY          VNSDQDQQKSIDVGSHNLFVELLIAAGVASI     + PVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSY    DLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRN     LGAAVGDMHRIMQRG          PGYE+          PIAFLAREAG KATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_006262068.1|</Hit_id>
+  <Hit_def>MULTISPECIES: class 1 fructose-bisphosphatase [Brucella] &gt;gb|KEY04768.1| fructose 1,6-bisphosphatase [Brucella suis bv. 4 str. 40] &gt;gb|EFM55201.1| fructose-1,6-bisphosphatase [Brucella inopinata BO1] &gt;gb|ENQ81614.1| fructose-1,6-bisphosphatase class 1 [Brucella melitensis F2/06-6] &gt;gb|MDL2332792.1| class 1 fructose-bisphosphatase [Brucella inopinata] &gt;gb|MRN77940.1| class 1 fructose-bisphosphatase [Brucella sp. 10RB9210]</Hit_def>
+  <Hit_accession>WP_006262068</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.529</Hsp_bit-score>
+      <Hsp_score>1181</Hsp_score>
+      <Hsp_evalue>2.94551e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MTLVGNFSPLVLVGDSDR-------------------RLATANAIK--LSGAGRLVG----GY----------VNSDQDQQKSIDVGSHNLFVELLIAAGVASI-----EAPVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSY----DLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRN-----LGAAVGDMHRIMQRG----------PGYER---------LPIAFLAREAGSKATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_qseq>
+      <Hsp_hseq>MTLAGNFSPLVLVGDSDRVEAETVGAYLDGWAGHDKVRLATANAIKAILSGAGRLVGRIARGYLPGDPGKLVGVNSDQDQQKSIDVGSHNLFVELLIAAGVASILSEEADLPVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSYGNSVDLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRNFNMRWLGAAVGDMHRIMQRGGLFFYVNDSRPGYEKGRLRLVYEANPIAFLAREAGGKATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_hseq>
+      <Hsp_midline>MTL GNFSPLVLVGDSDR                   RLATANAIK  LSGAGRLVG    GY          VNSDQDQQKSIDVGSHNLFVELLIAAGVASI     + PVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSY    DLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRN     LGAAVGDMHRIMQRG          PGYE+          PIAFLAREAG KATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_005972467.1|</Hit_id>
+  <Hit_def>class 1 fructose-bisphosphatase [Brucella melitensis] &gt;gb|ENQ84759.1| fructose-1,6-bisphosphatase class 1 [Brucella melitensis F3/02] &gt;gb|ENT66543.1| fructose-1,6-bisphosphatase class 1 [Brucella melitensis B115] &gt;tpg|HAJ69485.1| class 1 fructose-bisphosphatase [Brucella melitensis] &gt;tpg|HAK19427.1| class 1 fructose-bisphosphatase [Brucella melitensis] &gt;tpg|HCZ31146.1| class 1 fructose-bisphosphatase [Brucella melitensis]</Hit_def>
+  <Hit_accession>WP_005972467</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.529</Hsp_bit-score>
+      <Hsp_score>1181</Hsp_score>
+      <Hsp_evalue>2.94551e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MTLVGNFSPLVLVGDSDR-------------------RLATANAIK--LSGAGRLVG----GY----------VNSDQDQQKSIDVGSHNLFVELLIAAGVASI-----EAPVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSY----DLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRN-----LGAAVGDMHRIMQRG----------PGYER---------LPIAFLAREAGSKATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_qseq>
+      <Hsp_hseq>MTLVGNFSPLVLVGDSDRVEAETVGAYLDGWAGHDKVRLATANAIKAILSGAGRLVGRIARGYLPGDPGKLVGVNSDQDQQKSIDAGSHNLFVELLIAAGVASILSEEADLPVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSYGNSVDLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRNFNMRWLGAAVGDMHRIMQRGGLFFYVNDSRPGYEKGRLRLVYEANPIAFLAREAGGKATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_hseq>
+      <Hsp_midline>MTLVGNFSPLVLVGDSDR                   RLATANAIK  LSGAGRLVG    GY          VNSDQDQQKSID GSHNLFVELLIAAGVASI     + PVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSY    DLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRN     LGAAVGDMHRIMQRG          PGYE+          PIAFLAREAG KATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_004689105.1|</Hit_id>
+  <Hit_def>class 1 fructose-bisphosphatase [Brucella suis] &gt;gb|AIJ66070.1| fructose-1-6-bisphosphatase family protein [Brucella suis] &gt;gb|EEY28244.1| inositol phosphatase/fructose-16-bisphosphatase [Brucella suis bv. 5 str. 513] &gt;gb|QOK68291.1| class 1 fructose-bisphosphatase [Brucella suis bv. 5]</Hit_def>
+  <Hit_accession>WP_004689105</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.529</Hsp_bit-score>
+      <Hsp_score>1181</Hsp_score>
+      <Hsp_evalue>3.0439e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MTLVGNFSPLVLVGDSDR-------------------RLATANAIK--LSGAGRLVG----GY----------VNSDQDQQKSIDVGSHNLFVELLIAAGVASI-----EAPVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSY----DLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRN-----LGAAVGDMHRIMQRG----------PGYER---------LPIAFLAREAGSKATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_qseq>
+      <Hsp_hseq>MTLVGNFSPLVLVGDSDRVEAETVGAYLDGWAGHDKVRLATANAIKAILSGAGRLVGRIARGYLPGDPGKLVGVNSDQDQQKSIDVGSHNLFVELLIAACVASILSEEADLPVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSYGNSVDLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRNFNMRWLGAAVGDMHRIMQRGGLFFYVNDSRPGYEKGRLRLVYEANPIAFLAREAGGKATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_hseq>
+      <Hsp_midline>MTLVGNFSPLVLVGDSDR                   RLATANAIK  LSGAGRLVG    GY          VNSDQDQQKSIDVGSHNLFVELLIAA VASI     + PVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSY    DLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRN     LGAAVGDMHRIMQRG          PGYE+          PIAFLAREAG KATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_155801998.1|</Hit_id>
+  <Hit_def>class 1 fructose-bisphosphatase [Brucella abortus] &gt;gb|MUJ95282.1| class 1 fructose-bisphosphatase [Brucella abortus]</Hit_def>
+  <Hit_accession>WP_155801998</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.144</Hsp_bit-score>
+      <Hsp_score>1180</Hsp_score>
+      <Hsp_evalue>4.41731e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MTLVGNFSPLVLVGDSDR-------------------RLATANAIK--LSGAGRLVG----GY----------VNSDQDQQKSIDVGSHNLFVELLIAAGVASI-----EAPVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSY----DLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRN-----LGAAVGDMHRIMQRG----------PGYER---------LPIAFLAREAGSKATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_qseq>
+      <Hsp_hseq>MTLVGNFSPLVLVGDSDRVEAETVGAYLDGWAGHDKVRLATANAIKAILSGAGRLVGRIARGYLPGDPGKLVGVNSDQDQQKSIDVGSHNLFVELLIAAGVASILSEEADLPVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSYGNSVDLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRNFNMRWLGAAVGDMHRIMQRGGLFFYVNDSRPGYEKGRLRLVYEANSIAFLAREAGGKATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_hseq>
+      <Hsp_midline>MTLVGNFSPLVLVGDSDR                   RLATANAIK  LSGAGRLVG    GY          VNSDQDQQKSIDVGSHNLFVELLIAAGVASI     + PVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSY    DLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRN     LGAAVGDMHRIMQRG          PGYE+           IAFLAREAG KATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_154167828.1|</Hit_id>
+  <Hit_def>class 1 fructose-bisphosphatase [Brucella sp. 10RB9213] &gt;gb|MRN65661.1| class 1 fructose-bisphosphatase [Brucella sp. 10RB9213]</Hit_def>
+  <Hit_accession>WP_154167828</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>458.373</Hsp_bit-score>
+      <Hsp_score>1178</Hsp_score>
+      <Hsp_evalue>1.02664e-159</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>262</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MTLVGNFSPLVLVGDSDR-------------------RLATANAIK--LSGAGRLVG----GY----------VNSDQDQQKSIDVGSHNLFVELLIAAGVASI-----EAPVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSY----DLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRN-----LGAAVGDMHRIMQRG----------PGYER---------LPIAFLAREAGSKATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_qseq>
+      <Hsp_hseq>MTLAGNFSPLVLVGDSDRVEAETVGAYLDGWAGHDKVRLATANAIKAILSGAGRLVGRIARGYLPGDPGKLVGVNSDQDQQKSIDVGSHNLFVELLIAAGVASILSEEADLPVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSYGNSVDLGFSVGEGVIFATLDPASGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRNFNMRWLGAAVGDMHRIMQRGGLFFYVNDSRPGYEKGRLRLIYEANPIAFLAREAGGKATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_hseq>
+      <Hsp_midline>MTL GNFSPLVLVGDSDR                   RLATANAIK  LSGAGRLVG    GY          VNSDQDQQKSIDVGSHNLFVELLIAAGVASI     + PVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSY    DLGFSVGEGVIFATLDP SGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRN     LGAAVGDMHRIMQRG          PGYE+          PIAFLAREAG KATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_069714729.1|</Hit_id>
+  <Hit_def>MULTISPECIES: class 1 fructose-bisphosphatase [unclassified Brucella] &gt;gb|OEI83284.1| fructose-bisphosphatase [Brucella sp. B13-0095] &gt;gb|QMV28342.1| class 1 fructose-bisphosphatase [Brucella sp. BO3]</Hit_def>
+  <Hit_accession>WP_069714729</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>457.603</Hsp_bit-score>
+      <Hsp_score>1176</Hsp_score>
+      <Hsp_evalue>1.8547e-159</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>262</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MTLVGNFSPLVLVGDSDR-------------------RLATANAIK--LSGAGRLVG----GY----------VNSDQDQQKSIDVGSHNLFVELLIAAGVASI-----EAPVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSY----DLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRN-----LGAAVGDMHRIMQRG----------PGYER---------LPIAFLAREAGSKATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_qseq>
+      <Hsp_hseq>MTLAGNFSPLVLVGDSDRVEAETVGAYLDGWAGHDKVRLATANAIKAILSGAGRLVGRIARGYLPGDPGKLVGVNSDQDQQKSIDVGSHNLFVELLIAAGVASILSEEADLPVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSYGNSVDLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRNFNMRWLGAAVGDMHRIMQRGGLFFYVNDSRPGYEKGRLRLVYEANPIAFLAREAGGKATDGLRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_hseq>
+      <Hsp_midline>MTL GNFSPLVLVGDSDR                   RLATANAIK  LSGAGRLVG    GY          VNSDQDQQKSIDVGSHNLFVELLIAAGVASI     + PVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSY    DLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRN     LGAAVGDMHRIMQRG          PGYE+          PIAFLAREAG KATDG RPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_009364166.1|</Hit_id>
+  <Hit_def>MULTISPECIES: class 1 fructose-bisphosphatase [unclassified Brucella] &gt;gb|EFM59760.1| fructose-1,6-bisphosphatase [Brucella sp. BO2] &gt;gb|QPN27463.1| class 1 fructose-bisphosphatase [Brucella sp. BO2] &gt;gb|UWF60787.1| class 1 fructose-bisphosphatase [Brucella sp. 2716]</Hit_def>
+  <Hit_accession>WP_009364166</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>457.218</Hsp_bit-score>
+      <Hsp_score>1175</Hsp_score>
+      <Hsp_evalue>2.43886e-159</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>262</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MTLVGNFSPLVLVGDSDR-------------------RLATANAIK--LSGAGRLVG----GY----------VNSDQDQQKSIDVGSHNLFVELLIAAGVASI-----EAPVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSY----DLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRN-----LGAAVGDMHRIMQRG----------PGYER---------LPIAFLAREAGSKATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_qseq>
+      <Hsp_hseq>MTLAGNFSPLVLVGDSDRVEAETVGAYLDGWAGHDKVRLATANAIKAILSGAGRLVGRIARGYLPGDPGKLVGVNSDQDQQKSIDVGSHNLFVELLIAAGVASILSEEADLPVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSYGNSVDLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRNFNMRWLGAAVGDMHRIMQRGGLFFYVNDSRPGYEKGRLRLIYEANPIAFLAREAGGKATDGLRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_hseq>
+      <Hsp_midline>MTL GNFSPLVLVGDSDR                   RLATANAIK  LSGAGRLVG    GY          VNSDQDQQKSIDVGSHNLFVELLIAAGVASI     + PVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSY    DLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRN     LGAAVGDMHRIMQRG          PGYE+          PIAFLAREAG KATDG RPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_346203713.1|</Hit_id>
+  <Hit_def>class 1 fructose-bisphosphatase [Brucella melitensis] &gt;gb|MEN3396348.1| class 1 fructose-bisphosphatase [Brucella melitensis]</Hit_def>
+  <Hit_accession>WP_346203713</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>456.447</Hsp_bit-score>
+      <Hsp_score>1173</Hsp_score>
+      <Hsp_evalue>5.92191e-159</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>262</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MTLVGNFSPLVLVGDSDR-------------------RLATANAIK--LSGAGRLVG----GY----------VNSDQDQQKSIDVGSHNLFVELLIAAGVASI-----EAPVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSY----DLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRN-----LGAAVGDMHRIMQRG----------PGYER---------LPIAFLAREAGSKATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_qseq>
+      <Hsp_hseq>MTLVGNFSPLVLVGDSDRVEAETVGAYLDGWAGHDKVRLATANAIKAILSGAGRLVGRIARGYLPGDPGKLVGVNSVQDQQKSIDVGSHNLFVELLIAAGVASILSEEADLPVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSYGNSVDLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRNFNMRWLGAAVGDMHRIMQRGGLFFYVNDSRPGYEKGRLRLVYEANPIAFLAREAGCKATDGSRPILDIVPQTYHERSALVFGVAVEVDILGEY</Hsp_hseq>
+      <Hsp_midline>MTLVGNFSPLVLVGDSDR                   RLATANAIK  LSGAGRLVG    GY          VNS QDQQKSIDVGSHNLFVELLIAAGVASI     + PVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSY    DLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRN     LGAAVGDMHRIMQRG          PGYE+          PIAFLAREAG KATDGSRPILDIVPQTYHERSALVFGVA EVDILGEY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_006274321.1|</Hit_id>
+  <Hit_def>MULTISPECIES: class 1 fructose-bisphosphatase [Brucella] &gt;gb|ENR07599.1| fructose-1,6-bisphosphatase class 1 [Brucella sp. UK38/05] &gt;gb|XNV53760.1| class 1 fructose-bisphosphatase [Brucella ceti] &gt;gb|XNV53805.1| class 1 fructose-bisphosphatase [Brucella ceti] &gt;gb|XNV62212.1| class 1 fructose-bisphosphatase [Brucella ceti]</Hit_def>
+  <Hit_accession>WP_006274321</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>456.062</Hsp_bit-score>
+      <Hsp_score>1172</Hsp_score>
+      <Hsp_evalue>8.22536e-159</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>262</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MTLVGNFSPLVLVGDSDR-------------------RLATANAIK--LSGAGRLVG----GY----------VNSDQDQQKSIDVGSHNLFVELLIAAGVASI-----EAPVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSY----DLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRN-----LGAAVGDMHRIMQR----------GPGYER---------LPIAFLAREAGSKATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_qseq>
+      <Hsp_hseq>MTLVGNFSPLVLVGDSDRVEAETVGAYLDGWAGHDKVRLATANAIKAILSGAGRLVGRIARGYLPDDPGKLVGVNSDQDQQKSIDVGSHNLFVELLIAAGVASILSEEADLPVAGKADGLVAVAIDPLDGLGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSYGNSVDLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRNFNMRWLGAAVGDMHRIMQRRGLFFYVNDSRPGYEKGRLRLVYEANPIAFLAREAGGKATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_hseq>
+      <Hsp_midline>MTLVGNFSPLVLVGDSDR                   RLATANAIK  LSGAGRLVG    GY          VNSDQDQQKSIDVGSHNLFVELLIAAGVASI     + PVAGKADGLVAVAIDPLDG GNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSY    DLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRN     LGAAVGDMHRIMQR           PGYE+          PIAFLAREAG KATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_006175285.1|</Hit_id>
+  <Hit_def>MULTISPECIES: class 1 fructose-bisphosphatase [Brucella] &gt;gb|AHB03156.1| fructose-1,6-bisphosphatase [Brucella ceti TE28753-12] &gt;gb|AHB00724.1| fructose-1,6-bisphosphatase [Brucella ceti TE10759-12] &gt;gb|EEX89121.1| inositol phosphatase/fructose-16-bisphosphatase [Brucella ceti M13/05/1] &gt;gb|EEX96524.1| inositol phosphatase/fructose-16-bisphosphatase [Brucella ceti M644/93/1] &gt;gb|ENT08908.1| fructose-1,6-bisphosphatase class 1 [Brucella sp. F5/06]</Hit_def>
+  <Hit_accession>WP_006175285</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>455.677</Hsp_bit-score>
+      <Hsp_score>1171</Hsp_score>
+      <Hsp_evalue>9.58837e-159</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>262</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MTLVGNFSPLVLVGDSDR-------------------RLATANAIK--LSGAGRLVG----GY----------VNSDQDQQKSIDVGSHNLFVELLIAAGVASI-----EAPVAGKADGLVAVAIDPLDGSGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSY----DLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRN-----LGAAVGDMHRIMQR----------GPGYER---------LPIAFLAREAGSKATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_qseq>
+      <Hsp_hseq>MTLVGNFSPLVLVGDSDRVEAETVGAYLDGWAGHDKVRLATANAIKAILSGAGRLVGRIARGYLPGDPGKLVGVNSDQDQQKSIDVGSHNLFVELLIAAGVASILSEEADLPVAGKADGLVAVAIDPLDGLGNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSYGNSVDLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRNFNMRWLGAAVGDMHRIMQRRGLFFYVNDSRPGYEKGRLRLVYEANPIAFLAREAGGKATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_hseq>
+      <Hsp_midline>MTLVGNFSPLVLVGDSDR                   RLATANAIK  LSGAGRLVG    GY          VNSDQDQQKSIDVGSHNLFVELLIAAGVASI     + PVAGKADGLVAVAIDPLDG GNVGLGAPLGTIFSIFPADVEEPFLQPGNRQIAAGYVSY    DLGFSVGEGVIFATLDPVSGQFHITRRNVKLPERTSDLAFNASVQRHLSAGMQAYVNDAFLGKDGPRGRN     LGAAVGDMHRIMQR           PGYE+          PIAFLAREAG KATDGSRPILDIVPQTYHERSALVFGVAEEVDILGEY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>877105751</Statistics_db-num>
+      <Statistics_db-len>334462191313</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

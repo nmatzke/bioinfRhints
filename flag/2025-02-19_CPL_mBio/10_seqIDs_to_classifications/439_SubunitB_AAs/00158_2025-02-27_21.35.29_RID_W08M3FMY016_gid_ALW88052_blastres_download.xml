@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_654351</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>142</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_654351</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>142</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_062157393.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Deinococcus actinosclerus] &gt;gb|ALW88053.1| biopolymer transporter [Deinococcus actinosclerus]</Hit_def>
+  <Hit_accession>WP_062157393</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.7</Hsp_bit-score>
+      <Hsp_score>683</Hsp_score>
+      <Hsp_evalue>1.77389e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MTRPARRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALPL--PRASSSVQETPDLPIVSVSRAGQVFLNGKATTLTALGAQLRPLAAASGGVVGL---ERGSYGTVVGVMDEIKKAGGTRLALGTQTDAARAAGGSAP</Hsp_qseq>
+      <Hsp_hseq>MTRPARRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALPLDLPRASSSVQETPDLPIVSVSRAGQVFLNGKATTLTALGAQLRPLAAASGGVVGLRADERGSYGTVVGVMDEIKKAGGTRLALGTQTDAARAAGGSAP</Hsp_hseq>
+      <Hsp_midline>MTRPARRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALPL  PRASSSVQETPDLPIVSVSRAGQVFLNGKATTLTALGAQLRPLAAASGGVVGL   ERGSYGTVVGVMDEIKKAGGTRLALGTQTDAARAAGGSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_155298248.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Deinococcus kurensis]</Hit_def>
+  <Hit_accession>WP_155298248</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>265.388</Hsp_bit-score>
+      <Hsp_score>677</Hsp_score>
+      <Hsp_evalue>1.38052e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MTRPARRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALPL--PRASSSVQETPDLPIVSVSRAGQVFLNGKATTLTALGAQLRPLAAASGGVVGL---ERGSYGTVVGVMDEIKKAGGTRLALGTQTDAARAAGGSAP</Hsp_qseq>
+      <Hsp_hseq>MTRPARRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALPLDLPRASSSVQETPDLPIVSVSSAGQVFLNGKATTLTALGAQLRPLAAASGGVVGLRADERGSYGTVVGVMDEIKKAGGTRLALGTQTDAARAAGGSAP</Hsp_hseq>
+      <Hsp_midline>MTRPARRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALPL  PRASSSVQETPDLPIVSVS AGQVFLNGKATTLTALGAQLRPLAAASGGVVGL   ERGSYGTVVGVMDEIKKAGGTRLALGTQTDAARAAGGSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_110828629.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Deinococcus arenae] &gt;dbj|GGM51342.1| biopolymer transporter ExbD [Deinococcus arenae]</Hit_def>
+  <Hit_accession>WP_110828629</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>262.692</Hsp_bit-score>
+      <Hsp_score>670</Hsp_score>
+      <Hsp_evalue>1.57729e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MTRPARRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALPL--PRASSSVQETPDLPIVSVSRAGQVFLNGKATTLTALGAQLRPLAAASGGVVGL---ERGSYGTVVGVMDEIKKAGGTRLALGTQTDAARAAGGSAP</Hsp_qseq>
+      <Hsp_hseq>MTRPARRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALPLDLPRASSSVQETPDLPIVSVSSAGQVFLNGKATTLTALGAQLRPLTAASGGVVGLRADERGSYGTVVGVMDEIKKAGGTRLALGTQTDAARASGGSAP</Hsp_hseq>
+      <Hsp_midline>MTRPARRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALPL  PRASSSVQETPDLPIVSVS AGQVFLNGKATTLTALGAQLRPL AASGGVVGL   ERGSYGTVVGVMDEIKKAGGTRLALGTQTDAARA+GGSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_046843261.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ExbD/TolR family protein [Deinococcus] &gt;gb|AKH16689.1| biopolymer transporter [Deinococcus soli (ex Cha et al. 2016)] &gt;gb|MDK2013471.1| biopolymer transporter ExbD [Deinococcus sp. 43] &gt;gb|MFC3602884.1| ExbD/TolR family protein [Deinococcus soli (ex Cha et al. 2016)] &gt;dbj|GGB66700.1| biopolymer transporter ExbD [Deinococcus soli (ex Cha et al. 2016)]</Hit_def>
+  <Hit_accession>WP_046843261</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>239.965</Hsp_bit-score>
+      <Hsp_score>611</Hsp_score>
+      <Hsp_evalue>1.55625e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>MTRPARRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALPL--PRASSSVQETPDLPIVSVSRAGQVFLNGKATTLTALGAQLRPLAAASGGVVGL---ERGSYGTVVGVMDEIKKAGGTRLALGTQT</Hsp_qseq>
+      <Hsp_hseq>MTRPARRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALPLDLPRASSSVQETPDLPVVSVNRAGQVFLNGTATTLTRLGAQLRPLAAASGGMVGLRADERGSYGTVVGVMDEIKKAGGTRLALGTQT</Hsp_hseq>
+      <Hsp_midline>MTRPARRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALPL  PRASSSVQETPDLP+VSV+RAGQVFLNG ATTLT LGAQLRPLAAASGG+VGL   ERGSYGTVVGVMDEIKKAGGTRLALGTQT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_160980608.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Deinococcus xianganensis] &gt;gb|MXV20808.1| biopolymer transporter ExbD [Deinococcus xianganensis]</Hit_def>
+  <Hit_accession>WP_160980608</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.016</Hsp_bit-score>
+      <Hsp_score>567</Hsp_score>
+      <Hsp_evalue>7.01034e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MTRPARRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALPL--PRASSSVQETPDLPIVSVSRAGQVFLNGKATTLTALGAQLRPLAAASGGVVGL---ERGSYGTVVGVMDEIKKAGGTRLALGTQTDAARAAGGSAP</Hsp_qseq>
+      <Hsp_hseq>MTRPARRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALPLDLPRASSSVQETPDLPVVSVNRAGQVFLNGQATTLGALGAQLRPLAAASGGVVGLRADERGSYGTVVGVMDEIKKAGGTRLALGTQTG---SEGGAAP</Hsp_hseq>
+      <Hsp_midline>MTRPARRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALPL  PRASSSVQETPDLP+VSV+RAGQVFLNG+ATTL ALGAQLRPLAAASGGVVGL   ERGSYGTVVGVMDEIKKAGGTRLALGTQT    + GG+AP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_189056978.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Deinococcus daejeonensis] &gt;dbj|GGN39363.1| biopolymer transporter ExbD [Deinococcus daejeonensis]</Hit_def>
+  <Hit_accession>WP_189056978</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.09</Hsp_bit-score>
+      <Hsp_score>562</Hsp_score>
+      <Hsp_evalue>4.23336e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MTRPARRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALPL--PRASSSVQETPDLPIVSVSRAGQVFLNGKATTLTALGAQLRPLAAASGGVVGL---ERGSYGTVVGVMDEIKKAGGTRLALGTQTDAARAAGGSAP</Hsp_qseq>
+      <Hsp_hseq>MTRPARRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALPLDLPRASSSVQETPDLPVVSVNRAGQVFLNGQATTLGALGAQLRPLAAASGGVVGLRADERGSYGTVVGVMDEIKKAGGTRLALGTQTG---RDGGAAP</Hsp_hseq>
+      <Hsp_midline>MTRPARRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALPL  PRASSSVQETPDLP+VSV+RAGQVFLNG+ATTL ALGAQLRPLAAASGGVVGL   ERGSYGTVVGVMDEIKKAGGTRLALGTQT      GG+AP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_309856249.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Deinococcus soli (ex Cha et al. 2016)] &gt;gb|MDR6220170.1| biopolymer transport protein ExbD [Deinococcus soli (ex Cha et al. 2016)] &gt;gb|MDR6330025.1| biopolymer transport protein ExbD [Deinococcus soli (ex Cha et al. 2016)] &gt;gb|MDR6753344.1| biopolymer transport protein ExbD [Deinococcus soli (ex Cha et al. 2016)]</Hit_def>
+  <Hit_accession>WP_309856249</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.935</Hsp_bit-score>
+      <Hsp_score>559</Hsp_score>
+      <Hsp_evalue>1.26723e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MTRPARRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALPL--PRASSSVQETPDLPIVSVSRAGQVFLNGKATTLTALGAQLRPLAAASGGVVGL---ERGSYGTVVGVMDEIKKAGGTRLALGTQTDAARAAGGSAP</Hsp_qseq>
+      <Hsp_hseq>MTRPARRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALPLDLPRASSSVQETPDLPVVSVNRAGQVFLNGQATTLGTLGAQLRPLAAASGGVVGLRADERGSYGTVVGVMDEIKKAGGTRLALGTQTG---QDGGAAP</Hsp_hseq>
+      <Hsp_midline>MTRPARRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALPL  PRASSSVQETPDLP+VSV+RAGQVFLNG+ATTL  LGAQLRPLAAASGGVVGL   ERGSYGTVVGVMDEIKKAGGTRLALGTQT      GG+AP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_189073286.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Deinococcus sedimenti] &gt;dbj|GGR95372.1| biopolymer transporter ExbD [Deinococcus sedimenti]</Hit_def>
+  <Hit_accession>WP_189073286</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.935</Hsp_bit-score>
+      <Hsp_score>559</Hsp_score>
+      <Hsp_evalue>1.29532e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MTRPARRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALP--LPRASSSVQETPDLPIVSVSRAGQVFLNGKATTLTALGAQLRPLAAASGGVVGL---ERGSYGTVVGVMDEIKKAGGTRLALGTQTDAARAAGGSAP</Hsp_qseq>
+      <Hsp_hseq>MTRPARRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALPLDLPRASSSVQETPDLPIVSVNRAGQVFLNGKATTLAKLGAQLRPLAEQSGGVVGLRADERGSYGTVVGVMDEIKKAGGTRLALGTQTG---QDGGAAP</Hsp_hseq>
+      <Hsp_midline>MTRPARRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALP  LPRASSSVQETPDLPIVSV+RAGQVFLNGKATTL  LGAQLRPLA  SGGVVGL   ERGSYGTVVGVMDEIKKAGGTRLALGTQT      GG+AP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_189070111.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Deinococcus radiotolerans] &gt;dbj|GGL12020.1| biopolymer transporter ExbD [Deinococcus radiotolerans]</Hit_def>
+  <Hit_accession>WP_189070111</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.55</Hsp_bit-score>
+      <Hsp_score>558</Hsp_score>
+      <Hsp_evalue>1.83971e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MTRPARRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALPL--PRASSSVQETPDLPIVSVSRAGQVFLNGKATTLTALGAQLRPLAAASGGVVGL---ERGSYGTVVGVMDEIKKAGGTRLALGTQTDAARAAGGSAP</Hsp_qseq>
+      <Hsp_hseq>MTRPARRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALPLDLPRASSSVQETPDLPVVSVNRAGQVFLNGQATTLGTLGAQLRPLAAASGGVVGLRADERGSYGTVVGVMDEIKKAGGTRLALGTQTG---RDGGAAP</Hsp_hseq>
+      <Hsp_midline>MTRPARRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALPL  PRASSSVQETPDLP+VSV+RAGQVFLNG+ATTL  LGAQLRPLAAASGGVVGL   ERGSYGTVVGVMDEIKKAGGTRLALGTQT      GG+AP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_058975234.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Deinococcus grandis] &gt;dbj|BBN95879.1| biopolymer transporter ExbD [Deinococcus grandis] &gt;dbj|GAQ20638.1| biopolymer transport protein ExbD/TolR [Deinococcus grandis]</Hit_def>
+  <Hit_accession>WP_058975234</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.164</Hsp_bit-score>
+      <Hsp_score>557</Hsp_score>
+      <Hsp_evalue>2.41984e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MTRPARRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALP--LPRASSSVQETPDLPIVSVSRAGQVFLNGKATTLTALGAQLRPLAAASGGVVGL---ERGSYGTVVGVMDEIKKAGGTRLALGTQTDAARAAGGSAP</Hsp_qseq>
+      <Hsp_hseq>MTRPARRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALPLDLPRASSSVQETPDLPVVSVNRAGQVFLNGKATTLGALGAQLRPLAEQSGGVVGLRADERGSYGTVVGVMDEIKKAGGTRLALGTQTG---RDGGAAP</Hsp_hseq>
+      <Hsp_midline>MTRPARRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALP  LPRASSSVQETPDLP+VSV+RAGQVFLNGKATTL ALGAQLRPLA  SGGVVGL   ERGSYGTVVGVMDEIKKAGGTRLALGTQT      GG+AP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_119673647.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Deinococcus sp. RM] &gt;gb|RIY04842.1| biopolymer transporter ExbD [Deinococcus sp. RM]</Hit_def>
+  <Hit_accession>WP_119673647</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.312</Hsp_bit-score>
+      <Hsp_score>547</Hsp_score>
+      <Hsp_evalue>8.16901e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MTRPARRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALPL--PRASSSVQETPDLPIVSVSRAGQVFLNGKATTLTALGAQLRPLAAASGGVVGL---ERGSYGTVVGVMDEIKKAGGTRLALGTQTDAARAAGGSAP</Hsp_qseq>
+      <Hsp_hseq>MTRPARRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGASQNALPLDLPRASSSVQETPDLPVVSVNRAGQVFLNGQATTLGALGAQLRPLAEQSGGVVGLRADERGSYGTVVGVMDEIKKAGGTRLALGTQTG---RDGGAAP</Hsp_hseq>
+      <Hsp_midline>MTRPARRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGA QNALPL  PRASSSVQETPDLP+VSV+RAGQVFLNG+ATTL ALGAQLRPLA  SGGVVGL   ERGSYGTVVGVMDEIKKAGGTRLALGTQT      GG+AP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_371810073.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Deinococcus sp. JMULE3]</Hit_def>
+  <Hit_accession>WP_371810073</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.157</Hsp_bit-score>
+      <Hsp_score>544</Hsp_score>
+      <Hsp_evalue>2.49915e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MTRPARRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALPL--PRASSSVQETPDLPIVSVSRAGQVFLNGKATTLTALGAQLRPLAAASGGVVGL---ERGSYGTVVGVMDEIKKAGGTRLALGTQTDAARAAGGSAP</Hsp_qseq>
+      <Hsp_hseq>MTRPLRRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALPLDLPRASSSVQETPDLPVVSVNRAGQVFLNGKSTTLGALGAQLRPLAEQSGGVVGLRADERGSYGTVVGVMDEIKKAGGTRLALGTQ---PAQDGGAAP</Hsp_hseq>
+      <Hsp_midline>MTRP RRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALPL  PRASSSVQETPDLP+VSV+RAGQVFLNGK+TTL ALGAQLRPLA  SGGVVGL   ERGSYGTVVGVMDEIKKAGGTRLALGTQ       GG+AP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|NTY01417.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Deinococcus sp. JMULE3]</Hit_def>
+  <Hit_accession>NTY01417</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.453</Hsp_bit-score>
+      <Hsp_score>524</Hsp_score>
+      <Hsp_evalue>2.16394e-65</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>RRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALPL--PRASSSVQETPDLPIVSVSRAGQVFLNGKATTLTALGAQLRPLAAASGGVVGL---ERGSYGTVVGVMDEIKKAGGTRLALGTQTDAARAAGGSAP</Hsp_qseq>
+      <Hsp_hseq>RRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALPLDLPRASSSVQETPDLPVVSVNRAGQVFLNGKSTTLGALGAQLRPLAEQSGGVVGLRADERGSYGTVVGVMDEIKKAGGTRLALGTQ---PAQDGGAAP</Hsp_hseq>
+      <Hsp_midline>RRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALPL  PRASSSVQETPDLP+VSV+RAGQVFLNGK+TTL ALGAQLRPLA  SGGVVGL   ERGSYGTVVGVMDEIKKAGGTRLALGTQ       GG+AP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_225476642.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Deinococcus taeanensis] &gt;gb|UBV43001.1| biopolymer transporter ExbD [Deinococcus taeanensis]</Hit_def>
+  <Hit_accession>WP_225476642</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.749</Hsp_bit-score>
+      <Hsp_score>504</Hsp_score>
+      <Hsp_evalue>2.68838e-62</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>RRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALPL--PRASSSVQETPDLPIVSVSRAGQVFLNGKATTLTALGAQLRPLAAASGGVVGL---ERGSYGTVVGVMDEIKKAGGTRLALGTQTD</Hsp_qseq>
+      <Hsp_hseq>RRFRADHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALPLDLPRASRTVQETPDLPIVSVNRAGQVFLNGQATTLTRLGTQLKPLAAASGGVVGVRADKRGSYGTVVSVMDEIKKAGGTRLALGTQTE</Hsp_hseq>
+      <Hsp_midline>RRFR DHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALPL  PRAS +VQETPDLPIVSV+RAGQVFLNG+ATTLT LG QL+PLAAASGGVVG+   +RGSYGTVV VMDEIKKAGGTRLALGTQT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_414741099.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Deinococcus sp. A31D244] &gt;gb|MFT2719924.1| ExbD/TolR family protein [Deinococcus sp. A31D244]</Hit_def>
+  <Hit_accession>WP_414741099</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.422</Hsp_bit-score>
+      <Hsp_score>472</Hsp_score>
+      <Hsp_evalue>2.30382e-57</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>ARRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALPL--PRASSSVQETPDLPIVSVSRAGQVFLNGKATTLTALGAQLRPLAAASGGVVGL---ERGSYGTVVGVMDEIKKAGGTRLALGTQTDAARAAGGSAP</Hsp_qseq>
+      <Hsp_hseq>ARRRFREDADTVTFDFAPMVDIVLLLLIFFFLTSNLGARQNALPLDLPRASSTVQETPDLPIVSVSRAGKVFLNGQETTLTRLGGLLQPLARASGGLVGLRADERGNYGTVVRVMDEIKKAGGSRLALGTQPDG--AAGESTP</Hsp_hseq>
+      <Hsp_midline>ARRRFR D D VTFDFAPMVDIVLLLLIFFFLTS LGARQNALPL  PRASS+VQETPDLPIVSVSRAG+VFLNG+ TTLT LG  L+PLA ASGG+VGL   ERG+YGTVV VMDEIKKAGG+RLALGTQ D   AAG S P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_078300755.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ExbD/TolR family protein [unclassified Deinococcus] &gt;gb|MFN4253231.1| ExbD/TolR family protein [Deinococcus sp.] &gt;gb|OOV13991.1| biopolymer transporter ExbD [Deinococcus sp. LM3]</Hit_def>
+  <Hit_accession>WP_078300755</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.267</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>5.53319e-57</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>ARRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALPL--PRASSSVQETPDLPIVSVSRAGQVFLNGKATTLTALGAQLRPLAAASGGVVGL---ERGSYGTVVGVMDEIKKAGGTRLALGTQTDAARAAGGSAP</Hsp_qseq>
+      <Hsp_hseq>ARRRFREDGDDVTFDFAPMVDIVLLLLIFFFLTSNLGARQNALPLDLPRASSTVQETPDLPIVSVTRAGKVFLNGQETTLTRLRGRLEPLAKASGGLVGLRADERGNYGTVVRVMDEIKKAGGSRLALGTQPDG--AAGESAP</Hsp_hseq>
+      <Hsp_midline>ARRRFR D D VTFDFAPMVDIVLLLLIFFFLTS LGARQNALPL  PRASS+VQETPDLPIVSV+RAG+VFLNG+ TTLT L  +L PLA ASGG+VGL   ERG+YGTVV VMDEIKKAGG+RLALGTQ D   AAG SAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_189064234.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Deinococcus seoulensis] &gt;dbj|GGR53268.1| biopolymer transporter ExbD [Deinococcus seoulensis]</Hit_def>
+  <Hit_accession>WP_189064234</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.882</Hsp_bit-score>
+      <Hsp_score>468</Hsp_score>
+      <Hsp_evalue>8.4816e-57</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>ARRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALPL--PRASSSVQETPDLPIVSVSRAGQVFLNGKATTLTALGAQLRPLAAASGGVVGL---ERGSYGTVVGVMDEIKKAGGTRLALGTQTDAARAAGGSAP</Hsp_qseq>
+      <Hsp_hseq>ARRRFREDADTVTFDFAPMVDIVLLLLIFFFLTSNLGARQNALPLDLPRASSTVQETPDLPIVSVTRTGKVFLNGQETTLTRLGGRLEPLARASGGLVGLRADERGNYGTVVRVMDEIKKAGGSRLALGTQPDG--AAGESTP</Hsp_hseq>
+      <Hsp_midline>ARRRFR D D VTFDFAPMVDIVLLLLIFFFLTS LGARQNALPL  PRASS+VQETPDLPIVSV+R G+VFLNG+ TTLT LG +L PLA ASGG+VGL   ERG+YGTVV VMDEIKKAGG+RLALGTQ D   AAG S P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_345441753.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Deinococcus caeni] &gt;gb|MFC6801521.1| ExbD/TolR family protein [Deinococcus caeni] &gt;dbj|GAA5439084.1| tol-Pal system protein TolR [Deinococcus caeni]</Hit_def>
+  <Hit_accession>WP_345441753</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.956</Hsp_bit-score>
+      <Hsp_score>463</Hsp_score>
+      <Hsp_evalue>4.89559e-56</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>ARRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALPL--PRASSSVQETPDLPIVSVSRAGQVFLNGKATTLTALGAQLRPLAAASGGVVGL---ERGSYGTVVGVMDEIKKAGGTRLALGTQTDAARAAGGSAP</Hsp_qseq>
+      <Hsp_hseq>ARRRFREDGDAVTFDFAPMVDIVLLLLIFFFLTSNLGARQNALPLDLPRASSAVQETPDLPIVSVTRAGKVFLNGQETTLTRLRGRLEPLARASGGLVGLRADERGNYGTVVRVMDEIKKAGGSRLALGTQPD---TAGESAP</Hsp_hseq>
+      <Hsp_midline>ARRRFR D D VTFDFAPMVDIVLLLLIFFFLTS LGARQNALPL  PRASS+VQETPDLPIVSV+RAG+VFLNG+ TTLT L  +L PLA ASGG+VGL   ERG+YGTVV VMDEIKKAGG+RLALGTQ D    AG SAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_221590889.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Deinococcus sp. RIT780] &gt;gb|MBX8466017.1| biopolymer transporter ExbD [Deinococcus sp. RIT780]</Hit_def>
+  <Hit_accession>WP_221590889</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.956</Hsp_bit-score>
+      <Hsp_score>463</Hsp_score>
+      <Hsp_evalue>5.2816e-56</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>ARRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALPL--PRASSSVQETPDLPIVSVSRAGQVFLNGKATTLTALGAQLRPLAAASGGVVGL---ERGSYGTVVGVMDEIKKAGGTRLALGTQTDAARAAGGSAP</Hsp_qseq>
+      <Hsp_hseq>ARRRFREDGDDVTFDFAPMVDIVLLLLIFFFLTSNLGARQNALPLDLPRASSTVQETPDLPIVSVTRAGKVFLNGQETTLTRLRGRLEPLARASGGLVGLRADERGNYGMVVRVMDEIKKAGGSRLALGTQPDG--AAGESAP</Hsp_hseq>
+      <Hsp_midline>ARRRFR D D VTFDFAPMVDIVLLLLIFFFLTS LGARQNALPL  PRASS+VQETPDLPIVSV+RAG+VFLNG+ TTLT L  +L PLA ASGG+VGL   ERG+YG VV VMDEIKKAGG+RLALGTQ D   AAG SAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_099748348.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Deinococcus sp. UR1] &gt;gb|PIG98858.1| biopolymer transporter ExbD [Deinococcus sp. UR1]</Hit_def>
+  <Hit_accession>WP_099748348</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.57</Hsp_bit-score>
+      <Hsp_score>462</Hsp_score>
+      <Hsp_evalue>6.08967e-56</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>ARRRFRGDHDPVTFDFAPMVDIVLLLLIFFFLTSTLGARQNALPL--PRASSSVQETPDLPIVSVSRAGQVFLNGKATTLTALGAQLRPLAAASGGVVGL---ERGSYGTVVGVMDEIKKAGGTRLALGTQTDAARAAGGSAP</Hsp_qseq>
+      <Hsp_hseq>ARRRFREDGDDVTFDFAPMVDIVLLLLIFFFLTSNLGARQNALPLDLPRASSTVQETPDLPIVSVTRSGKVFLNGQETTLSRLRGRLEPLARASGGLVGLRADERGNYGTVVRVMDEIKKAGGSRLALGTQPDG--AAGESAP</Hsp_hseq>
+      <Hsp_midline>ARRRFR D D VTFDFAPMVDIVLLLLIFFFLTS LGARQNALPL  PRASS+VQETPDLPIVSV+R+G+VFLNG+ TTL+ L  +L PLA ASGG+VGL   ERG+YGTVV VMDEIKKAGG+RLALGTQ D   AAG SAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>877781531</Statistics_db-num>
+      <Statistics_db-len>334720180573</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

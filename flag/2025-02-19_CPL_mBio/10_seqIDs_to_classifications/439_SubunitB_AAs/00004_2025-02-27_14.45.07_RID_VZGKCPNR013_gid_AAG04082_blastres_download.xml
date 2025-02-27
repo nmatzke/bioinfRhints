@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_5671889</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>133</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_5671889</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>133</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|MCO3636832.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>MCO3636832</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>248.054</Hsp_bit-score>
+      <Hsp_score>632</Hsp_score>
+      <Hsp_evalue>4.70247e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILT-TAQVAGIQI--PKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVV---ATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_qseq>
+      <Hsp_hseq>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILTATAQVAGIQINLPKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVVRGAATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_hseq>
+      <Hsp_midline>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILT TAQVAGIQI  PKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVV   ATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_134260478.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Pseudomonas aeruginosa] &gt;gb|TEP57633.1| biopolymer transporter ExbD [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_134260478</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>248.054</Hsp_bit-score>
+      <Hsp_score>632</Hsp_score>
+      <Hsp_evalue>5.13393e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILT-TAQVAGIQI--PKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVV---ATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_qseq>
+      <Hsp_hseq>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILTATAQVAGIQINLPKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVVRCDATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_hseq>
+      <Hsp_midline>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILT TAQVAGIQI  PKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVV   ATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_049328139.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Pseudomonas aeruginosa] &gt;gb|OKQ88586.1| biopolymer transporter ExbD [Pseudomonas aeruginosa] &gt;tpg|HEK2507214.1| biopolymer transporter ExbD [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_049328139</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>248.054</Hsp_bit-score>
+      <Hsp_score>632</Hsp_score>
+      <Hsp_evalue>5.13393e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILT-TAQVAGIQI--PKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVV---ATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_qseq>
+      <Hsp_hseq>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILTATAQVAGIQISLPKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVVRGDATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_hseq>
+      <Hsp_midline>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILT TAQVAGIQI  PKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVV   ATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|MCO3261267.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>MCO3261267</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>248.054</Hsp_bit-score>
+      <Hsp_score>632</Hsp_score>
+      <Hsp_evalue>5.60497e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILT-TAQVAGIQI--PKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVV---ATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_qseq>
+      <Hsp_hseq>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILTATAQVAGIQINLPKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVVRSDATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_hseq>
+      <Hsp_midline>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILT TAQVAGIQI  PKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVV   ATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_070743484.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Pseudomonas aeruginosa] &gt;gb|MBG3951019.1| biopolymer transporter ExbD [Pseudomonas aeruginosa] &gt;gb|MBI8281783.1| biopolymer transporter ExbD [Pseudomonas aeruginosa] &gt;gb|MBV5640940.1| biopolymer transporter ExbD [Pseudomonas aeruginosa] &gt;gb|MBV5958648.1| biopolymer transporter ExbD [Pseudomonas aeruginosa] &gt;gb|MCC0318751.1| biopolymer transporter ExbD [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_070743484</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>248.054</Hsp_bit-score>
+      <Hsp_score>632</Hsp_score>
+      <Hsp_evalue>5.60497e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILT-TAQVAGIQI--PKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVV---ATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_qseq>
+      <Hsp_hseq>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILTATAQVAGIQINLPKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVVRGGATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_hseq>
+      <Hsp_midline>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILT TAQVAGIQI  PKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVV   ATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>tpg|HCT2658871.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Pseudomonas aeruginosa] &gt;tpg|HFT7982515.1| ExbD/TolR family protein [Pseudomonas aeruginosa] &gt;tpg|HFT7987533.1| ExbD/TolR family protein [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>HCT2658871</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>248.054</Hsp_bit-score>
+      <Hsp_score>632</Hsp_score>
+      <Hsp_evalue>5.79255e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILT-TAQVAGIQI--PKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVV---ATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_qseq>
+      <Hsp_hseq>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILTATAQVAGIQINLPKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVVRGEATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_hseq>
+      <Hsp_midline>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILT TAQVAGIQI  PKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVV   ATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_003085366.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ExbD/TolR family protein [Pseudomonadaceae] &gt;ref|NP_249385.1| transporter ExbD [Pseudomonas aeruginosa PAO1] &gt;gb|AID83236.1| biopolymer transporter ExbD [Pseudomonas aeruginosa VRFPA04] &gt;gb|EAZ56513.1| transport protein ExbD [Pseudomonas aeruginosa C3719] &gt;gb|EAZ62372.1| transport protein ExbD [Pseudomonas aeruginosa 2192] &gt;gb|EOQ81240.1| transport protein ExbD [Pseudomonas aeruginosa VRFPA02] &gt;gb|EQL41930.1| biopolymer transporter ExbD [Pseudomonas aeruginosa VRFPA03] &gt;gb|ESR72586.1| biopolymer transporter ExbD [Pseudomonas aeruginosa VRFPA05] &gt;gb|ETD75959.1| biopolymer transporter ExbD [Pseudomonas aeruginosa VRFPA06] &gt;gb|ETU86159.1| transporter ExbD [Pseudomonas aeruginosa BWHPSA048] &gt;gb|EVT87352.1| biopolymer transporter ExbD [Pseudomonas aeruginosa VRFPA09] &gt;gb|KEA20459.1| biopolymer transporter ExbD [Pseudomonas aeruginosa C2159M] &gt;gb|KEA22764.1| biopolymer transporter ExbD [Pseudomonas aeruginosa C1913C] &gt;gb|KEA27693.1| biopolymer transporter ExbD [Pseudomonas aeruginosa C2773C] &gt;gb|KEA28757.1| biopolymer transporter ExbD [Pseudomonas aeruginosa C0324C] &gt;gb|KFB20014.1| biopolymer transporter ExbD [Pseudomonas aeruginosa PGPR2] &gt;gb|MBQ9380150.1| biopolymer transporter ExbD [Pseudomonas sp.] &gt;gb|MED5481688.1| biopolymer transporter ExbD [Pseudomonadota bacterium] &gt;emb|CDI94399.1| transport protein ExbD [Pseudomonas aeruginosa PA38182] &gt;emb|SAJ28191.1| biopolymer transport protein ExbD [Enterobacter cloacae] &gt;emb|SCY38933.1| Biopolymer transport protein ExbD [Acinetobacter baumannii] &gt;emb|VEE47891.1| transport protein ExbD [Pseudomonas fluorescens] &gt;tpg|HCL2592140.1| biopolymer transporter ExbD [Pseudomonas aeruginosa C40A] &gt;tpg|HCL2631905.1| biopolymer transporter ExbD [Pseudomonas aeruginosa 3C2A] &gt;tpg|HCL2711360.1| biopolymer transporter ExbD [Pseudomonas aeruginosa EF8E] &gt;tpg|HCL2747249.1| biopolymer transporter ExbD [Pseudomonas aeruginosa 449A] &gt;tpg|HCL2779972.1| biopolymer transporter ExbD [Pseudomonas aeruginosa AC9A] &gt;tpg|HCL2789352.1| biopolymer transporter ExbD [Pseudomonas aeruginosa 1BAE] &gt;tpg|HCL2909952.1| biopolymer transporter ExbD [Pseudomonas aeruginosa 059A] &gt;tpg|HCL3097695.1| biopolymer transporter ExbD [Pseudomonas aeruginosa AF9A]</Hit_def>
+  <Hit_accession>WP_003085366</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>247.669</Hsp_bit-score>
+      <Hsp_score>631</Hsp_score>
+      <Hsp_evalue>6.68068e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILT-TAQVAGIQI--PKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVV---ATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_qseq>
+      <Hsp_hseq>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILTATAQVAGIQINLPKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVVRGDATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_hseq>
+      <Hsp_midline>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILT TAQVAGIQI  PKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVV   ATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_124984984.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Pseudomonas aeruginosa] &gt;gb|RRH82282.1| biopolymer transporter ExbD [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_124984984</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>247.669</Hsp_bit-score>
+      <Hsp_score>631</Hsp_score>
+      <Hsp_evalue>7.05745e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILT-TAQVAGIQI--PKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVV---ATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_qseq>
+      <Hsp_hseq>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILTVTAQVAGIQINLPKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVVRGDATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_hseq>
+      <Hsp_midline>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILT TAQVAGIQI  PKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVV   ATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_033993480.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Pseudomonas aeruginosa] &gt;gb|KSK40343.1| transporter ExbD [Pseudomonas aeruginosa] &gt;gb|MEA8426676.1| biopolymer transporter ExbD [Pseudomonas aeruginosa] &gt;gb|MFG8210988.1| ExbD/TolR family protein [Pseudomonas aeruginosa] &gt;gb|MFU4223266.1| ExbD/TolR family protein [Pseudomonas aeruginosa] &gt;gb|RTX27988.1| biopolymer transporter ExbD [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_033993480</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>247.284</Hsp_bit-score>
+      <Hsp_score>630</Hsp_score>
+      <Hsp_evalue>1.04762e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILT-TAQVAGIQI--PKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVV---ATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_qseq>
+      <Hsp_hseq>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILTATAQVAGIQINLPKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVVRGDATVQYQKIIEVLDLLRRLELSQVGLVTGKPT</Hsp_hseq>
+      <Hsp_midline>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILT TAQVAGIQI  PKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVV   ATVQYQK+IEVLDLLRRLELSQVGLVTGKPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|MBI7312439.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>MBI7312439</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>247.284</Hsp_bit-score>
+      <Hsp_score>630</Hsp_score>
+      <Hsp_evalue>1.04762e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILT-TAQVAGIQI--PKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVV---ATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_qseq>
+      <Hsp_hseq>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILTATAQVAGIQINLPKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVVRGDATVQYQKVIEILDLLRRLELSQVGLVTGKPT</Hsp_hseq>
+      <Hsp_midline>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILT TAQVAGIQI  PKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVV   ATVQYQKVIE+LDLLRRLELSQVGLVTGKPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_126634521.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Pseudomonas aeruginosa] &gt;gb|MDP5553176.1| biopolymer transporter ExbD [Pseudomonas aeruginosa] &gt;gb|RTX55412.1| biopolymer transporter ExbD [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_126634521</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.899</Hsp_bit-score>
+      <Hsp_score>629</Hsp_score>
+      <Hsp_evalue>1.48832e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILT-TAQVAGIQI--PKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVV---ATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_qseq>
+      <Hsp_hseq>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILTATAQVAGIQVNLPKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVVRGDATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_hseq>
+      <Hsp_midline>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILT TAQVAGIQ+  PKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVV   ATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_238759756.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Pseudomonas aeruginosa] &gt;gb|MFL4029838.1| biopolymer transporter ExbD [Pseudomonas aeruginosa] &gt;gb|MFO8107646.1| biopolymer transporter ExbD [Pseudomonas aeruginosa] &gt;tpg|HCE0606062.1| biopolymer transporter ExbD [Pseudomonas aeruginosa] &gt;tpg|HFH4451410.1| ExbD/TolR family protein [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_238759756</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.899</Hsp_bit-score>
+      <Hsp_score>629</Hsp_score>
+      <Hsp_evalue>1.48832e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILT-TAQVAGIQI--PKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVV---ATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_qseq>
+      <Hsp_hseq>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILTATAQVAGVQINLPKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVVRGDATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_hseq>
+      <Hsp_midline>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILT TAQVAG+QI  PKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVV   ATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_134236586.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Pseudomonas aeruginosa] &gt;gb|TES03776.1| biopolymer transporter ExbD [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_134236586</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.899</Hsp_bit-score>
+      <Hsp_score>629</Hsp_score>
+      <Hsp_evalue>1.69777e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILT-TAQVAGIQI--PKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVV---ATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_qseq>
+      <Hsp_hseq>MASVNSSHDDDDDGAVDSINITPLVDMLMVVLVMFILTATAQVAGIQINLPKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVVRGDATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_hseq>
+      <Hsp_midline>MASVNSSHDDDDDGAVDSINITPLVD+LMVVLVMFILT TAQVAGIQI  PKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVV   ATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>tpg|HGM5126948.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Pseudomonas aeruginosa] &gt;tpg|HGM5128232.1| ExbD/TolR family protein [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>HGM5126948</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.899</Hsp_bit-score>
+      <Hsp_score>629</Hsp_score>
+      <Hsp_evalue>1.69777e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILT-TAQVAGIQI--PKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVV---ATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_qseq>
+      <Hsp_hseq>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILTATAQVAGIQINLPKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVMVRGDATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_hseq>
+      <Hsp_midline>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILT TAQVAGIQI  PKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPV+V   ATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_023464285.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ExbD/TolR family protein [Pseudomonas] &gt;gb|AMA39414.1| biopolymer transporter ExbD [Pseudomonas aeruginosa DHS01] &gt;gb|AWE82515.1| biopolymer transport ExbD/TolR family protein [Pseudomonas aeruginosa] &gt;gb|AWR44077.1| biopolymer transporter ExbD [Pseudomonas aeruginosa] &gt;gb|EIU5018339.1| biopolymer transporter ExbD [Pseudomonas aeruginosa] &gt;gb|EIZ7650788.1| biopolymer transporter ExbD [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_023464285</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.899</Hsp_bit-score>
+      <Hsp_score>629</Hsp_score>
+      <Hsp_evalue>1.69777e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILT-TAQVAGIQI--PKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVV---ATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_qseq>
+      <Hsp_hseq>MASMNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILTATAQVAGIQINLPKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVVRGDATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_hseq>
+      <Hsp_midline>MAS+NSSHDDDDDGAVDSINITPLVDVLMVVLVMFILT TAQVAGIQI  PKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVV   ATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>tpg|HBO2801893.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>HBO2801893</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.899</Hsp_bit-score>
+      <Hsp_score>629</Hsp_score>
+      <Hsp_evalue>1.69777e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILT-TAQVAGIQI--PKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVV---ATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_qseq>
+      <Hsp_hseq>MASVNSSHDDDDDGAVDSINITPLMDVLMVVLVMFILTATAQVAGIQINLPKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVVRGDATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_hseq>
+      <Hsp_midline>MASVNSSHDDDDDGAVDSINITPL+DVLMVVLVMFILT TAQVAGIQI  PKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVV   ATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_031688577.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Pseudomonas aeruginosa] &gt;gb|ELM3770588.1| biopolymer transporter ExbD [Pseudomonas aeruginosa] &gt;gb|ELP2760484.1| biopolymer transporter ExbD [Pseudomonas aeruginosa] &gt;gb|EZN84394.1| transporter ExbD [Pseudomonas aeruginosa BWH029] &gt;gb|MBH3944003.1| biopolymer transporter ExbD [Pseudomonas aeruginosa] &gt;gb|MBV5974638.1| biopolymer transporter ExbD [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_031688577</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.514</Hsp_bit-score>
+      <Hsp_score>628</Hsp_score>
+      <Hsp_evalue>1.93671e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILT-TAQVAGIQI--PKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVV---ATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_qseq>
+      <Hsp_hseq>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILTATAQVAGIQINLPKASATVALSQPKTKAITVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVVRGDATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_hseq>
+      <Hsp_midline>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILT TAQVAGIQI  PKASATVALSQPKTKAI+VNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVV   ATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_023112398.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Pseudomonas aeruginosa] &gt;gb|ERV89359.1| transporter ExbD [Pseudomonas aeruginosa BWHPSA026] &gt;gb|ETU74276.1| transporter ExbD [Pseudomonas aeruginosa PS50] &gt;gb|KRU54429.1| biopolymer transporter ExbD [Pseudomonas aeruginosa] &gt;gb|MCT5522615.1| biopolymer transporter ExbD [Pseudomonas aeruginosa] &gt;gb|MCV0130486.1| biopolymer transporter ExbD [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_023112398</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.514</Hsp_bit-score>
+      <Hsp_score>628</Hsp_score>
+      <Hsp_evalue>1.93671e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILT-TAQVAGIQI--PKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVV---ATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_qseq>
+      <Hsp_hseq>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILTATAQVAGIQINLPKASATVALSQPKTKAISVNDAGQVFLDAYPVSLPELEDRLRTEKALNPDFPVVVRGDATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_hseq>
+      <Hsp_midline>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILT TAQVAGIQI  PKASATVALSQPKTKAISVNDAGQVFLDAYPV+LPELEDRLRTEKALNPDFPVVV   ATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_108083739.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Pseudomonas aeruginosa] &gt;gb|MER0770175.1| biopolymer transporter ExbD [Pseudomonas aeruginosa] &gt;gb|PUA02970.1| biopolymer transporter ExbD [Pseudomonas aeruginosa] &gt;gb|RQG21715.1| biopolymer transporter ExbD [Pseudomonas aeruginosa] &gt;gb|WOJ11213.1| biopolymer transporter ExbD [Pseudomonas aeruginosa] &gt;tpg|HBP1117435.1| biopolymer transporter ExbD [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_108083739</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.514</Hsp_bit-score>
+      <Hsp_score>628</Hsp_score>
+      <Hsp_evalue>1.93671e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILT-TAQVAGIQI--PKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVV---ATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_qseq>
+      <Hsp_hseq>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILTATAQVAGIQINLPKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKSLNPDFPVVVRGDATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_hseq>
+      <Hsp_midline>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILT TAQVAGIQI  PKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEK+LNPDFPVVV   ATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|MBH9515667.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>MBH9515667</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.514</Hsp_bit-score>
+      <Hsp_score>628</Hsp_score>
+      <Hsp_evalue>2.0236e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILT-TAQVAGIQI--PKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVV---ATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_qseq>
+      <Hsp_hseq>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFLLTATAQVAGIQINLPKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVVRGDATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_hseq>
+      <Hsp_midline>MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMF+LT TAQVAGIQI  PKASATVALSQPKTKAISVNDAGQVFLDAYPVTLPELEDRLRTEKALNPDFPVVV   ATVQYQKVIEVLDLLRRLELSQVGLVTGKPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>877105751</Statistics_db-num>
+      <Statistics_db-len>334462191313</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

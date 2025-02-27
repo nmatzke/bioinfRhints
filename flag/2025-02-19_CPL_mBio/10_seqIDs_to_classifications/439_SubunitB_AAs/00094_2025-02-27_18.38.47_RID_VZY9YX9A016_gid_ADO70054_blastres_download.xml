@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_3803015</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>132</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_3803015</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>132</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_013375120.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Stigmatella aurantiaca] &gt;gb|ADO70053.1| Biopolymer transport protein, ExbD/TolR family [Stigmatella aurantiaca DW4/3-1]</Hit_def>
+  <Hit_accession>WP_013375120</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>249.21</Hsp_bit-score>
+      <Hsp_score>635</Hsp_score>
+      <Hsp_evalue>1.66085e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>MGMAVGPNKGIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSV--PKAQNTEKDKTDSDPLILSVTPDKKTFLENDEFDAAGLETKLREELGKTPGRKILL---NTLEVGDVRRVMDIARKAQAKSIALGVEELKE</Hsp_qseq>
+      <Hsp_hseq>MGMAVGPNKGIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSVTLPKAQNTEKDKTDSDPLILSVTPDKKTFLENDEFDAAGLETKLREELGKTPGRKILLKGDNTLEVGDVRRVMDIARKAQAKSIALGVEELKE</Hsp_hseq>
+      <Hsp_midline>MGMAVGPNKGIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSV  PKAQNTEKDKTDSDPLILSVTPDKKTFLENDEFDAAGLETKLREELGKTPGRKILL   NTLEVGDVRRVMDIARKAQAKSIALGVEELKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_272144526.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Stigmatella ashevillena] &gt;gb|MDC0714027.1| biopolymer transporter ExbD [Stigmatella ashevillena]</Hit_def>
+  <Hit_accession>WP_272144526</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>247.669</Hsp_bit-score>
+      <Hsp_score>631</Hsp_score>
+      <Hsp_evalue>6.47562e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>MGMAVGPNKGIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSV--PKAQNTEKDKTDSDPLILSVTPDKKTFLENDEFDAAGLETKLREELGKTPGRKILL---NTLEVGDVRRVMDIARKAQAKSIALGVEELKE</Hsp_qseq>
+      <Hsp_hseq>MGMAVGPNKGIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSVTLPKAQNTEKDKTDSDPLILSVTPDKKTFLENDEFDAAGLETKLREELGKTPGRKILLKGDNTLDVGDVRRVMDIARKAQAKSIALGVEELKE</Hsp_hseq>
+      <Hsp_midline>MGMAVGPNKGIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSV  PKAQNTEKDKTDSDPLILSVTPDKKTFLENDEFDAAGLETKLREELGKTPGRKILL   NTL+VGDVRRVMDIARKAQAKSIALGVEELKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|EAU69478.1|</Hit_id>
+  <Hit_def>TolR protein [Stigmatella aurantiaca DW4/3-1]</Hit_def>
+  <Hit_accession>EAU69478</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.588</Hsp_bit-score>
+      <Hsp_score>623</Hsp_score>
+      <Hsp_evalue>8.81137e-81</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>MAVGPNKGIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSV--PKAQNTEKDKTDSDPLILSVTPDKKTFLENDEFDAAGLETKLREELGKTPGRKILL---NTLEVGDVRRVMDIARKAQAKSIALGVEELKE</Hsp_qseq>
+      <Hsp_hseq>MAVGPNKGIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSVTLPKAQNTEKDKTDSDPLILSVTPDKKTFLENDEFDAAGLETKLREELGKTPGRKILLKGDNTLEVGDVRRVMDIARKAQAKSIALGVEELKE</Hsp_hseq>
+      <Hsp_midline>MAVGPNKGIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSV  PKAQNTEKDKTDSDPLILSVTPDKKTFLENDEFDAAGLETKLREELGKTPGRKILL   NTLEVGDVRRVMDIARKAQAKSIALGVEELKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_075004586.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ExbD/TolR family protein [Stigmatella] &gt;emb|SEK33125.1| outer membrane transport energization protein ExbD [Stigmatella aurantiaca] &gt;emb|SEU15667.1| outer membrane transport energization protein ExbD [Stigmatella erecta]</Hit_def>
+  <Hit_accession>WP_075004586</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>243.047</Hsp_bit-score>
+      <Hsp_score>619</Hsp_score>
+      <Hsp_evalue>5.27536e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>MGMAVGPNKGIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSV--PKAQNTEKDKTDSDPLILSVTPDKKTFLENDEFDAAGLETKLREELGKTPGRKILL---NTLEVGDVRRVMDIARKAQAKSIALGVEELKE</Hsp_qseq>
+      <Hsp_hseq>MGMSAGSNKGIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSVTLPKAQNTEKDKTDSDPLILSVTPDKKTFLENDEFDAAGLETKLREELGKTPGRKILLKGDNTLDVGDVRRVMDIARKAQAKSIALGVEELKE</Hsp_hseq>
+      <Hsp_midline>MGM+ G NKGIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSV  PKAQNTEKDKTDSDPLILSVTPDKKTFLENDEFDAAGLETKLREELGKTPGRKILL   NTL+VGDVRRVMDIARKAQAKSIALGVEELKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>tpg|HLK98964.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Myxococcaceae bacterium]</Hit_def>
+  <Hit_accession>HLK98964</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.06</Hsp_bit-score>
+      <Hsp_score>510</Hsp_score>
+      <Hsp_evalue>2.05906e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>MGMAVGPNKGIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSV--PKAQNTEKDKTDSDPLILSVTPDKKTFLENDEFDAAGLETKLREELGKTPGRKILL---NTLEVGDVRRVMDIARKAQAKSIALGVEELKE</Hsp_qseq>
+      <Hsp_hseq>MGMAVGPSSGIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSVTLPKAQNTEKENKGADPLILSVTPDKKTFVENDEFDSAGLETKLREELQKDPSRRILLKGDNTLNVGDVRRVMDVARKANAKSISLGVEELKE</Hsp_hseq>
+      <Hsp_midline>MGMAVGP+ GIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSV  PKAQNTEK+   +DPLILSVTPDKKTF+ENDEFD+AGLETKLREEL K P R+ILL   NTL VGDVRRVMD+ARKA AKSI+LGVEELKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>tpg|HEX8704705.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Myxococcaceae bacterium]</Hit_def>
+  <Hit_accession>HEX8704705</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>199.519</Hsp_bit-score>
+      <Hsp_score>506</Hsp_score>
+      <Hsp_evalue>8.01799e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>MGMAVGPNKGIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSV--PKAQNTEKDKTDSDPLILSVTPDKKTFLENDEFDAAGLETKLREELGKTPGRKILL---NTLEVGDVRRVMDIARKAQAKSIALGVEELKE</Hsp_qseq>
+      <Hsp_hseq>MGMAVGPSSGIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSVTLPKAQNIEKEKKGADPLILSVTPDKKTFVENDEFDAAGLETRLREELQQDPSRRILLKGDNTLNVGDVRRVMDVARKANAKSISLGVEELKE</Hsp_hseq>
+      <Hsp_midline>MGMAVGP+ GIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSV  PKAQN EK+K  +DPLILSVTPDKKTF+ENDEFDAAGLET+LREEL + P R+ILL   NTL VGDVRRVMD+ARKA AKSI+LGVEELKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>tpg|HLM43448.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Myxococcaceae bacterium]</Hit_def>
+  <Hit_accession>HLM43448</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.749</Hsp_bit-score>
+      <Hsp_score>504</Hsp_score>
+      <Hsp_evalue>1.43352e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>MGMAVGPNKGIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSV--PKAQNTEKDKTDSDPLILSVTPDKKTFLENDEFDAAGLETKLREELGKTPGRKILL---NTLEVGDVRRVMDIARKAQAKSIALGVEELKE</Hsp_qseq>
+      <Hsp_hseq>MGMAVGPSSGIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSVTLPKAQNTEKENKGADPLILSVTPDKKTFVENDEFDSAGLETKLREELQKDPTRRILLKGDNTLNVGDVRRVMDVARKANAKAISLGVEELKE</Hsp_hseq>
+      <Hsp_midline>MGMAVGP+ GIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSV  PKAQNTEK+   +DPLILSVTPDKKTF+ENDEFD+AGLETKLREEL K P R+ILL   NTL VGDVRRVMD+ARKA AK+I+LGVEELKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_321547953.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Hyalangium rubrum] &gt;gb|MDY7229233.1| biopolymer transporter ExbD [Hyalangium rubrum]</Hit_def>
+  <Hit_accession>WP_321547953</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.897</Hsp_bit-score>
+      <Hsp_score>494</Hsp_score>
+      <Hsp_evalue>6.07869e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>141</Hsp_align-len>
+      <Hsp_qseq>MGMAVGPNKGIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSV--PKAQNTEKDK---TDSDPLILSVTPDKKTFLENDEF-DAAGLETKLREELGKTPGRKILL---NTLEVGDVRRVMDIARKAQAKSIALGVEELKE</Hsp_qseq>
+      <Hsp_hseq>MGMAVGPNKGIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSVTLPKAQNIEKEKKGGAESDPLILSVTPDKKTFVENDEYADPAGLETRIRDELTKSPGKRILLKGDNTLNVGDVRKVMDVARKAQAKSIALGVEELKE</Hsp_hseq>
+      <Hsp_midline>MGMAVGPNKGIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSV  PKAQN EK+K    +SDPLILSVTPDKKTF+ENDE+ D AGLET++R+EL K+PG++ILL   NTL VGDVR+VMD+ARKAQAKSIALGVEELKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_224365872.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Hyalangium versicolor]</Hit_def>
+  <Hit_accession>WP_224365872</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.815</Hsp_bit-score>
+      <Hsp_score>486</Hsp_score>
+      <Hsp_evalue>7.91609e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>MGMAVGPNKGIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSV--PKAQNTEKDKTDSDPLILSVTPDKKTFLENDEFDAAGLETKLREELGKTPGRKILL---NTLEVGDVRRVMDIARKAQAKSIALGVEELKE</Hsp_qseq>
+      <Hsp_hseq>MGMAAGPSKGIKNEINITPLVDVVLVLLIIFMVITPMLQRGKSVTLPKATNISKEKTETDPMILSVTPDKKMFLENDEYDAAGLENKLREELETNPGKRILLKGDSSLQVGDVRRAMEIARKAKAKSIALGVEELKE</Hsp_hseq>
+      <Hsp_midline>MGMA GP+KGIKNEIN+TPLVDVVLVLLIIFMVITPMLQRGKSV  PKA N  K+KT++DP+ILSVTPDKK FLENDE+DAAGLE KLREEL   PG++ILL   ++L+VGDVRR M+IARKA+AKSIALGVEELKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_224241751.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Hyalangium gracile]</Hit_def>
+  <Hit_accession>WP_224241751</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.274</Hsp_bit-score>
+      <Hsp_score>482</Hsp_score>
+      <Hsp_evalue>3.75343e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>MGMAVGPNKGIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSV--PKAQNTEKDKTDSDPLILSVTPDKKTFLENDEFDAAGLETKLREELGKTPGRKILL---NTLEVGDVRRVMDIARKAQAKSIALGVEELKE</Hsp_qseq>
+      <Hsp_hseq>MGMSAGPSKGIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSVTLPKATNIEKDKAEADPLILSVTPDKKMFLENDEYDATGMEKKLREELETNPGKRILLKGDSSLQVSDVRKVMDIARKAKAKSIALGVEELKE</Hsp_hseq>
+      <Hsp_midline>MGM+ GP+KGIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSV  PKA N EKDK ++DPLILSVTPDKK FLENDE+DA G+E KLREEL   PG++ILL   ++L+V DVR+VMDIARKA+AKSIALGVEELKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_407735969.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Hyalangium sp.] &gt;gb|MFL5343688.1| ExbD/TolR family protein [Hyalangium sp.]</Hit_def>
+  <Hit_accession>WP_407735969</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.808</Hsp_bit-score>
+      <Hsp_score>473</Hsp_score>
+      <Hsp_evalue>7.81335e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>MGMAVGPNKGIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSV--PKAQNTEKDKTDSDPLILSVTPDKKTFLENDEFDAAGLETKLREELGKTPGRKILL---NTLEVGDVRRVMDIARKAQAKSIALGVEELKE</Hsp_qseq>
+      <Hsp_hseq>MGMAAGSKQGIKNEINITPLVDVVLVLLIIFMVITPMLQRGKSVSLPKATNIEKDKSETDPMILSVTPDKKMFLENDEYDAAGLEKKLREELEANPTKRILLKGDSSLQVGDVRKTMDIARKAKAKSIALGVEELKE</Hsp_hseq>
+      <Hsp_midline>MGMA G  +GIKNEIN+TPLVDVVLVLLIIFMVITPMLQRGKSV  PKA N EKDK+++DP+ILSVTPDKK FLENDE+DAAGLE KLREEL   P ++ILL   ++L+VGDVR+ MDIARKA+AKSIALGVEELKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_044190534.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Hyalangium minutum] &gt;gb|KFE67695.1| Biopolymer transport protein ExbD/TolR [Hyalangium minutum]</Hit_def>
+  <Hit_accession>WP_044190534</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.267</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>4.03733e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MGMAVGPNKGIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSV--PKAQNTEKDKT--DSDPLILSVTPDKKTFLENDEFDAAGLETKLREELGKTPGRKILLN---TLEVGDVRRVMDIARKAQAKSIALGVEELKE</Hsp_qseq>
+      <Hsp_hseq>MGMAVGPSSGIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSVTLPKAQNIEKEKKGGDQDPLILSVTPDKKMFLENDELDAAGLENKIREELEVTPGRRILLKGDASLTVLDVRKAMDIARKAKAKSIALGVEELKE</Hsp_hseq>
+      <Hsp_midline>MGMAVGP+ GIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSV  PKAQN EK+K   D DPLILSVTPDKK FLENDE DAAGLE K+REEL  TPGR+ILL    +L V DVR+ MDIARKA+AKSIALGVEELKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|MBN1208312.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Myxococcaceae bacterium]</Hit_def>
+  <Hit_accession>MBN1208312</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.956</Hsp_bit-score>
+      <Hsp_score>463</Hsp_score>
+      <Hsp_evalue>3.13289e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MGMAVGPNKGIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSV--PKAQNTEKDK--TDSDPLILSVTPDKKTFLENDEFDAAGLETKLREELGKTPGRKILLN---TLEVGDVRRVMDIARKAQAKSIALGVEELKE</Hsp_qseq>
+      <Hsp_hseq>MGMATGPSGGIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSVTLPKAQNIEKEKKGADQDPLILSVTPDKKMFLENDEFDAAGLENKIREELEAKPGRRILLKGDMSLNVIDVRKAMDIARKGKAKSIALGVEELKE</Hsp_hseq>
+      <Hsp_midline>MGMA GP+ GIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSV  PKAQN EK+K   D DPLILSVTPDKK FLENDEFDAAGLE K+REEL   PGR+ILL    +L V DVR+ MDIARK +AKSIALGVEELKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_324994769.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Hyalangium sp.] &gt;tpg|HYI02410.1| biopolymer transporter ExbD [Hyalangium sp.]</Hit_def>
+  <Hit_accession>WP_324994769</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.022</Hsp_bit-score>
+      <Hsp_score>445</Hsp_score>
+      <Hsp_evalue>1.43065e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MGMAVGPNKGIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSV--PKAQNTE--KDKTDSDPLILSVTPDKKTFLENDEFDAAGLETKLREELGKTPGRKILLN---TLEVGDVRRVMDIARKAQAKSIALGVEELKE</Hsp_qseq>
+      <Hsp_hseq>MGMSAGPSQGIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSVTLPKATNIEKKKDSGEQDPLILSVTPDKKMYLENDELDAAGLENAIRSELEETPGRRILLKGDASLNVADVRKTMEIARKAKAKSIALGVEELKE</Hsp_hseq>
+      <Hsp_midline>MGM+ GP++GIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSV  PKA N E  KD  + DPLILSVTPDKK +LENDE DAAGLE  +R EL +TPGR+ILL    +L V DVR+ M+IARKA+AKSIALGVEELKE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>tpg|HZI12260.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Myxococcus sp.]</Hit_def>
+  <Hit_accession>HZI12260</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.925</Hsp_bit-score>
+      <Hsp_score>411</Hsp_score>
+      <Hsp_evalue>2.33574e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MGMAVGPNKGIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSV--PKAQNTE--KDKTDSDPLILSVTPDKKTFLENDEFDAAGLETKLREELGKTPGRKILL---NTLEVGDVRRVMDIARKAQAKSIALGVEELK</Hsp_qseq>
+      <Hsp_hseq>MGMSAGPKGGIKSDINVTPLVDVVLVLLIIFMVITPMLQRGKSVELPKANKVEDDKDKGAADPLILSITPDKKVFLENDQVDDEALQTKLSEELVKDPGKKILLKGDNALNVGDVRRVLDIARKSKAKTIALGVEEKK</Hsp_hseq>
+      <Hsp_midline>MGM+ GP  GIK++INVTPLVDVVLVLLIIFMVITPMLQRGKSV  PKA   E  KDK  +DPLILS+TPDKK FLEND+ D   L+TKL EEL K PG+KILL   N L VGDVRRV+DIARK++AK+IALGVEE K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_163868210.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ExbD/TolR family protein [Myxococcus] &gt;gb|MCP3163095.1| biopolymer transporter ExbD [Myxococcus qinghaiensis] &gt;gb|NVJ27032.1| biopolymer transporter ExbD [Myxococcus sp. AM011]</Hit_def>
+  <Hit_accession>WP_163868210</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.54</Hsp_bit-score>
+      <Hsp_score>410</Hsp_score>
+      <Hsp_evalue>3.07543e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>MGMAVGPNKGIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSV--PKAQNTEKDK-TDSDPLILSVTPDKKTFLENDEFDAAGLETKLREELGKTPGRKILL---NTLEVGDVRRVMDIARKAQAKSIALGVEELK</Hsp_qseq>
+      <Hsp_hseq>MGMSAGPKGGIKSEINVTPLVDVVLVLLIIFMVVTPMLQRGKSVELPKATEIEKEKGKDSDPLYVSITPDKKVFLENDQVDEQALQDRLAEELAKDPGKKILLKGDNTVNVGDVRRVLDVARKAKAKQIALGVEEKK</Hsp_hseq>
+      <Hsp_midline>MGM+ GP  GIK+EINVTPLVDVVLVLLIIFMV+TPMLQRGKSV  PKA   EK+K  DSDPL +S+TPDKK FLEND+ D   L+ +L EEL K PG+KILL   NT+ VGDVRRV+D+ARKA+AK IALGVEE K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_206880606.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Corallococcus exiguus] &gt;gb|MBN8469385.1| biopolymer transporter ExbD [Corallococcus exiguus]</Hit_def>
+  <Hit_accession>WP_206880606</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.54</Hsp_bit-score>
+      <Hsp_score>410</Hsp_score>
+      <Hsp_evalue>3.17811e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>MGMAVGPNKGIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSV--PKAQNTEKD-KTDSDPLILSVTPDKKTFLENDEFDAAGLETKLREELGKTPGRKILL---NTLEVGDVRRVMDIARKAQAKSIALGVEELK</Hsp_qseq>
+      <Hsp_hseq>MGMSAGPKGGIKSEINVTPLVDVVLVLLIIFMVVTPMLQRGKSVELPKATEIEKDGKTDADPLILSITPDKKMFVENDEVDEKGLQEKIAAELVKDPGKKILLKGDNALNVGDVRKVLDTARKAKAKQIALGVEEKK</Hsp_hseq>
+      <Hsp_midline>MGM+ GP  GIK+EINVTPLVDVVLVLLIIFMV+TPMLQRGKSV  PKA   EKD KTD+DPLILS+TPDKK F+ENDE D  GL+ K+  EL K PG+KILL   N L VGDVR+V+D ARKA+AK IALGVEE K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_206721325.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Pyxidicoccus parkwaysis] &gt;gb|QSQ19742.1| biopolymer transporter ExbD [Pyxidicoccus parkwaysis]</Hit_def>
+  <Hit_accession>WP_206721325</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.54</Hsp_bit-score>
+      <Hsp_score>410</Hsp_score>
+      <Hsp_evalue>3.24846e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>MGMAVGPNKGIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSV--PKAQNTEKDK-TDSDPLILSVTPDKKTFLENDEFDAAGLETKLREELGKTPGRKILL---NTLEVGDVRRVMDIARKAQAKSIALGVEELK</Hsp_qseq>
+      <Hsp_hseq>MGMSAGPKGGIKSEINVTPLVDVVLVLLIIFMVVTPMLQRGKSVELPKATEIEKEKGKDADPLVLSITPDKKVFVENDQVDDQALQAKLSEELAKDPGKKILLKGDNTLNVGDVRKVLDVARKSKAKQIALGVEEKK</Hsp_hseq>
+      <Hsp_midline>MGM+ GP  GIK+EINVTPLVDVVLVLLIIFMV+TPMLQRGKSV  PKA   EK+K  D+DPL+LS+TPDKK F+END+ D   L+ KL EEL K PG+KILL   NTL VGDVR+V+D+ARK++AK IALGVEE K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|MEN9798561.1|</Hit_id>
+  <Hit_def>Biopolymer transport protein ExbD/TolR family [Pseudomonadota bacterium]</Hit_def>
+  <Hit_accession>MEN9798561</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.77</Hsp_bit-score>
+      <Hsp_score>408</Hsp_score>
+      <Hsp_evalue>7.70256e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>MGMAVGPNKGIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSV--PKAQNTEKDKTDSDPLILSVTPDKKTFLENDEFDAAGLETKLREELGKTPGRKILLN---TLEVGDVRRVMDIARKAQAKSIALGVEELK</Hsp_qseq>
+      <Hsp_hseq>MGMSAGPRGGIKNEINVTPLVDVVLVLLIIFMVVTPMLQRGKSVALPRSKSTEKEKKDSDPLILSITVDKQVYLENDAFDDAGLEAALRRELAKKPDRRILLKGDEKLPYAEVRRVMNVARKAGARGIHLGVEELK</Hsp_hseq>
+      <Hsp_midline>MGM+ GP  GIKNEINVTPLVDVVLVLLIIFMV+TPMLQRGKSV  P++++TEK+K DSDPLILS+T DK+ +LEND FD AGLE  LR EL K P R+ILL     L   +VRRVM++ARKA A+ I LGVEELK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_141647757.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ExbD/TolR family protein [Myxococcus] &gt;gb|NTX04903.1| biopolymer transporter ExbD [Myxococcus sp. CA040A] &gt;gb|NTX15254.1| biopolymer transporter ExbD [Myxococcus sp. CA056] &gt;gb|NTX37992.1| biopolymer transporter ExbD [Myxococcus sp. CA033] &gt;gb|NTX56414.1| biopolymer transporter ExbD [Myxococcus sp. CA039A] &gt;gb|NTX61641.1| biopolymer transporter ExbD [Myxococcus sp. CA051A]</Hit_def>
+  <Hit_accession>WP_141647757</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.384</Hsp_bit-score>
+      <Hsp_score>407</Hsp_score>
+      <Hsp_evalue>7.97143e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>MGMAVGPNKGIKNEINVTPLVDVVLVLLIIFMVITPMLQRGKSV--PKAQNTEKDK-TDSDPLILSVTPDKKTFLENDEFDAAGLETKLREELGKTPGRKILL---NTLEVGDVRRVMDIARKAQAKSIALGVEELK</Hsp_qseq>
+      <Hsp_hseq>MGMSAGPKGGIKSEINVTPLVDVVLVLLIIFMVVTPMLQRGKSVELPKATEIEKEKGKDSDPLYVSITPDKKVFLENDQVDEQALQDRLTQELAKDPGKKILLKGDNTVNVGDVRRVLDVARKAKAKQIALGVEEKK</Hsp_hseq>
+      <Hsp_midline>MGM+ GP  GIK+EINVTPLVDVVLVLLIIFMV+TPMLQRGKSV  PKA   EK+K  DSDPL +S+TPDKK FLEND+ D   L+ +L +EL K PG+KILL   NT+ VGDVRRV+D+ARKA+AK IALGVEE K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>877105751</Statistics_db-num>
+      <Statistics_db-len>334462191313</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_5625369</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>182</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_5625369</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>182</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_012819886.1|</Hit_id>
+  <Hit_def>MULTISPECIES: MotA/TolQ/ExbB proton channel family protein [Fibrobacter] &gt;gb|ACX73656.1| MotA/TolQ/ExbB proton channel [Fibrobacter succinogenes subsp. succinogenes S85]</Hit_def>
+  <Hit_accession>WP_012819886</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>322.398</Hsp_bit-score>
+      <Hsp_score>825</Hsp_score>
+      <Hsp_evalue>1.53674e-109</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MDEYSVIEATMSILLRGGW-LLPL--IGWL-WFLMF----YYF----------FKDLDTVGEEAAFAKLRKRRFGYFLALVENVRKYRN--PVAVRNAMLATRHE---SLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETIKQFGFGNP--LADGISEALLTTQAGLLV---LMLVYNYLESRVDSIGDFAWGEALKFEERCFAKEVE</Hsp_qseq>
+      <Hsp_hseq>MDEYSVIEATMSILLRGGWVLLPLFLIGWLGWFLMFERYGYYFMLKGTSTSKFFKDLDTVGEEAAFAKLRKRRFGYFLALVENVRKYRNDGPVAVRNAMLATRHELDVSLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETIKQFGFGNPVLLADGISEALLTTQAGLLVAFPLMLVYNYLESRVDSIGDFAWGEALKFEERCFAKEVE</Hsp_hseq>
+      <Hsp_midline>MDEYSVIEATMSILLRGGW LLPL  IGWL WFLMF    YYF          FKDLDTVGEEAAFAKLRKRRFGYFLALVENVRKYRN  PVAVRNAMLATRHE   SLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETIKQFGFGNP  LADGISEALLTTQAGLLV   LMLVYNYLESRVDSIGDFAWGEALKFEERCFAKEVE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_088659038.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Fibrobacter sp. UWB2] &gt;gb|OWV24176.1| flagellar motor protein MotA [Fibrobacter sp. UWB2]</Hit_def>
+  <Hit_accession>WP_088659038</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>320.472</Hsp_bit-score>
+      <Hsp_score>820</Hsp_score>
+      <Hsp_evalue>9.69381e-109</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MDEYSVIEATMSILLRGGW-LLPL--IGWL-WFLMF----YYF----------FKDLDTVGEEAAFAKLRKRRFGYFLALVENVRKYRN--PVAVRNAMLATRHE---SLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETIKQFGFGNP--LADGISEALLTTQAGLLV---LMLVYNYLESRVDSIGDFAWGEALKFEERCFAKEVE</Hsp_qseq>
+      <Hsp_hseq>MDEYSVIEATMSILLRGGWVLLPLFMIGWLGWFLMFERYGYYFMLKGTSTSKFFKDLDTVGEEAAFAKLRKRRFGYFLALVENVRKYRKDGPVAVRNAMLATRHELDVSLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETIKQFGFGNPVLLADGISEALLTTQAGLLVAFPLMLVYNYLESRVDSIGDFAWGEALKFEERCFAKEVE</Hsp_hseq>
+      <Hsp_midline>MDEYSVIEATMSILLRGGW LLPL  IGWL WFLMF    YYF          FKDLDTVGEEAAFAKLRKRRFGYFLALVENVRKYR   PVAVRNAMLATRHE   SLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETIKQFGFGNP  LADGISEALLTTQAGLLV   LMLVYNYLESRVDSIGDFAWGEALKFEERCFAKEVE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_290761849.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Fibrobacter sp. UBA4297]</Hit_def>
+  <Hit_accession>WP_290761849</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>320.472</Hsp_bit-score>
+      <Hsp_score>820</Hsp_score>
+      <Hsp_evalue>1.14265e-108</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MDEYSVIEATMSILLRGGW-LLPL--IGWL-WFLMF----YY----------FFKDLDTVGEEAAFAKLRKRRFGYFLALVENVRKYRN--PVAVRNAMLATRHE---SLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETIKQFGFGNP--LADGISEALLTTQAGLLV---LMLVYNYLESRVDSIGDFAWGEALKFEERCFAKEVE</Hsp_qseq>
+      <Hsp_hseq>MDEYSVIEATMSILLRGGWVLLPLFLIGWLGWFLMFERFGYYLMLKGRSTTKFFKDLDTVGEEAAFAKLRKRRFGYFLALVENVRKYRNDGPVAVRNAMLATRHELDVSLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETIKQFGFGNPVLLADGISEALLTTQAGLLVAFPLMLVYNYLERRVDSIGDFAWGEALKFEERCFAKEVE</Hsp_hseq>
+      <Hsp_midline>MDEYSVIEATMSILLRGGW LLPL  IGWL WFLMF    YY          FFKDLDTVGEEAAFAKLRKRRFGYFLALVENVRKYRN  PVAVRNAMLATRHE   SLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETIKQFGFGNP  LADGISEALLTTQAGLLV   LMLVYNYLE RVDSIGDFAWGEALKFEERCFAKEVE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_085490132.1|</Hit_id>
+  <Hit_def>MULTISPECIES: MotA/TolQ/ExbB proton channel family protein [unclassified Fibrobacter] &gt;emb|SMG09064.1| biopolymer transport protein ExbB [Fibrobacter sp. UWB13]</Hit_def>
+  <Hit_accession>WP_085490132</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>320.087</Hsp_bit-score>
+      <Hsp_score>819</Hsp_score>
+      <Hsp_evalue>1.27504e-108</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MDEYSVIEATMSILLRGGW-LLPL--IGWL-WFLMF----YYF----------FKDLDTVGEEAAFAKLRKRRFGYFLALVENVRKYRN--PVAVRNAMLATRHE---SLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETIKQFGFGNP--LADGISEALLTTQAGLLV---LMLVYNYLESRVDSIGDFAWGEALKFEERCFAKEVE</Hsp_qseq>
+      <Hsp_hseq>MDEYSVIEATMSILLRGGWVLLPLFLIGWLGWFLMFERYGYYFMLKGTSTSKFFKDLDTVGEEAAFAKLRKRRFGYFLALVENVRKYRKDGPVAVRNAMLATRHELDVSLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETIKQFGFGNPVLLADGISEALLTTQAGLLVAFPLMLVYNYLESRVDSIGDFAWGEALKFEERCFAKEVE</Hsp_hseq>
+      <Hsp_midline>MDEYSVIEATMSILLRGGW LLPL  IGWL WFLMF    YYF          FKDLDTVGEEAAFAKLRKRRFGYFLALVENVRKYR   PVAVRNAMLATRHE   SLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETIKQFGFGNP  LADGISEALLTTQAGLLV   LMLVYNYLESRVDSIGDFAWGEALKFEERCFAKEVE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_109572164.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Fibrobacter succinogenes] &gt;gb|PWJ37323.1| biopolymer transport protein ExbB [Fibrobacter succinogenes subsp. elongatus] &gt;emb|SUQ19570.1| outer membrane transport energization protein ExbB (TC 2.C.1.1.1) [Fibrobacter succinogenes]</Hit_def>
+  <Hit_accession>WP_109572164</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.546</Hsp_bit-score>
+      <Hsp_score>815</Hsp_score>
+      <Hsp_evalue>5.78838e-108</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MDEYSVIEATMSILLRGGW-LLPL--IGWL-WFLMF----YYF----------FKDLDTVGEEAAFAKLRKRRFGYFLALVENVRKYRN--PVAVRNAMLATRHE---SLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETIKQFGFGNP--LADGISEALLTTQAGLLV---LMLVYNYLESRVDSIGDFAWGEALKFEERCFAKEVE</Hsp_qseq>
+      <Hsp_hseq>MDEYSVIEATMSILLRGGWVLLPLFLIGWLGWFLMFERYGYYFMLKGTSTSKFFKDLDTVGEEAAFAKLRKRRFGYFLALVENVREYRKDGPVAVRNAMLATRHELDVSLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETIKQFGFGNPVLLADGISEALLTTQAGLLVAFPLMLVYNYLESRVDSIGDFAWGEALKFEERCFAKEVE</Hsp_hseq>
+      <Hsp_midline>MDEYSVIEATMSILLRGGW LLPL  IGWL WFLMF    YYF          FKDLDTVGEEAAFAKLRKRRFGYFLALVENVR+YR   PVAVRNAMLATRHE   SLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETIKQFGFGNP  LADGISEALLTTQAGLLV   LMLVYNYLESRVDSIGDFAWGEALKFEERCFAKEVE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|MDY6332091.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Fibrobacter sp.]</Hit_def>
+  <Hit_accession>MDY6332091</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.546</Hsp_bit-score>
+      <Hsp_score>815</Hsp_score>
+      <Hsp_evalue>6.3886e-108</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MDEYSVIEATMSILLRGGW-LLPL--IGWL-WFLMF----YY----------FFKDLDTVGEEAAFAKLRKRRFGYFLALVENVRKYRN--PVAVRNAMLATRHE---SLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETIKQFGFGNP--LADGISEALLTTQAGLLV---LMLVYNYLESRVDSIGDFAWGEALKFEERCFAKEVE</Hsp_qseq>
+      <Hsp_hseq>MDEYSVIEATMSILLRGGWVLLPLFLIGWLGWFLMFERFGYYLMLKGRSTTKFFKDLDTVGEEAAFAKLRKRRFGYFLALVENVRKYRNEGPVAVRNAMLATRHELDVSLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFEMIKQFGFGNPVLLADGISEALLTTQAGLLVAFPLMLVYNYLERRVDSIGDFAWGEALKFEERCFAKEVE</Hsp_hseq>
+      <Hsp_midline>MDEYSVIEATMSILLRGGW LLPL  IGWL WFLMF    YY          FFKDLDTVGEEAAFAKLRKRRFGYFLALVENVRKYRN  PVAVRNAMLATRHE   SLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFE IKQFGFGNP  LADGISEALLTTQAGLLV   LMLVYNYLE RVDSIGDFAWGEALKFEERCFAKEVE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_073424495.1|</Hit_id>
+  <Hit_def>MULTISPECIES: MotA/TolQ/ExbB proton channel family protein [unclassified Fibrobacter] &gt;gb|MBO4829298.1| MotA/TolQ/ExbB proton channel family protein [Fibrobacter sp.] &gt;emb|SHM57591.1| biopolymer transport protein ExbB [Fibrobacter sp. UWB7] &gt;emb|SOD14011.1| biopolymer transport protein ExbB [Fibrobacter sp. UWB16]</Hit_def>
+  <Hit_accession>WP_073424495</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.546</Hsp_bit-score>
+      <Hsp_score>815</Hsp_score>
+      <Hsp_evalue>6.45903e-108</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MDEYSVIEATMSILLRGGW-LLPL--IGWL-WFLMF----YYF----------FKDLDTVGEEAAFAKLRKRRFGYFLALVENVRKYRN--PVAVRNAMLATRHE---SLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETIKQFGFGNP--LADGISEALLTTQAGLLV---LMLVYNYLESRVDSIGDFAWGEALKFEERCFAKEVE</Hsp_qseq>
+      <Hsp_hseq>MDEYSVIEATMSILLRGGWVLLPLFLIGWLGWFLMFERYGYYFMLKGTSTSKFFKDLDTVGEEAAFAKLRKRRFGYFLALVENVRKYRNDGPVAVRNAMLATRHELDVSLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETIKQFGFGNPVLLADGISEALLTTQAGLLVAFPLMLVYNYLERRVDSIGDFAWSEALKFEERCFAKEVE</Hsp_hseq>
+      <Hsp_midline>MDEYSVIEATMSILLRGGW LLPL  IGWL WFLMF    YYF          FKDLDTVGEEAAFAKLRKRRFGYFLALVENVRKYRN  PVAVRNAMLATRHE   SLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETIKQFGFGNP  LADGISEALLTTQAGLLV   LMLVYNYLE RVDSIGDFAW EALKFEERCFAKEVE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_295070089.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [uncultured Fibrobacter sp.]</Hit_def>
+  <Hit_accession>WP_295070089</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.161</Hsp_bit-score>
+      <Hsp_score>814</Hsp_score>
+      <Hsp_evalue>9.17317e-108</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MDEYSVIEATMSILLRGGW-LLPL--IGWL-WFLMF----YYF----------FKDLDTVGEEAAFAKLRKRRFGYFLALVENVRKYRN--PVAVRNAMLATRHE---SLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETIKQFGFGNP--LADGISEALLTTQAGLLV---LMLVYNYLESRVDSIGDFAWGEALKFEERCFAKEVE</Hsp_qseq>
+      <Hsp_hseq>MDEYSVIEATMSILLRGGWVLLPLFLIGWLGWFLMFERYGYYFMLKGTSTSKFFKDLDTVGEEAAFAKLRKRRFGYFLALVENVRKYRKDGPVAVRNAMLATRHELDVSLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETIKQFGFGNPVLLADGISEALLTTQAGLLVAFPLMLVYNYLERRVDSIGDFAWGEALKFEERCFAKEVE</Hsp_hseq>
+      <Hsp_midline>MDEYSVIEATMSILLRGGW LLPL  IGWL WFLMF    YYF          FKDLDTVGEEAAFAKLRKRRFGYFLALVENVRKYR   PVAVRNAMLATRHE   SLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETIKQFGFGNP  LADGISEALLTTQAGLLV   LMLVYNYLE RVDSIGDFAWGEALKFEERCFAKEVE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_295054294.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [uncultured Fibrobacter sp.]</Hit_def>
+  <Hit_accession>WP_295054294</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>1.77083e-107</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MDEYSVIEATMSILLRGGW-LLPL--IGWL-WFLMF----YY----------FFKDLDTVGEEAAFAKLRKRRFGYFLALVENVRKYRN--PVAVRNAMLATRHE---SLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETIKQFGFGNP--LADGISEALLTTQAGLLV---LMLVYNYLESRVDSIGDFAWGEALKFEERCFAKEVE</Hsp_qseq>
+      <Hsp_hseq>MDEYSVIEATMSILLRGGWVLLPLFLIGWLGWFLMFERFGYYLMLKGTSTSKFFKDLDSVGEEAAFEKLRKRRFGYFLALVENVRKYRNEGPVAVRNAMLATRHELDVSLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETIKQFGFGNPVLLADGISEALLTTQAGLLVAFPLMLVYNYLERRVDSIGDFAWGEALKFEERCFAKEVE</Hsp_hseq>
+      <Hsp_midline>MDEYSVIEATMSILLRGGW LLPL  IGWL WFLMF    YY          FFKDLD+VGEEAAF KLRKRRFGYFLALVENVRKYRN  PVAVRNAMLATRHE   SLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETIKQFGFGNP  LADGISEALLTTQAGLLV   LMLVYNYLE RVDSIGDFAWGEALKFEERCFAKEVE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_173468533.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Fibrobacter succinogenes]</Hit_def>
+  <Hit_accession>WP_173468533</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.005</Hsp_bit-score>
+      <Hsp_score>811</Hsp_score>
+      <Hsp_evalue>2.62767e-107</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MDEYSVIEATMSILLRGGW-LLPL--IGWL-WFLMF----YYF----------FKDLDTVGEEAAFAKLRKRRFGYFLALVENVRKYRN--PVAVRNAMLATRHE---SLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETIKQFGFGNP--LADGISEALLTTQAGLLV---LMLVYNYLESRVDSIGDFAWGEALKFEERCFAKEVE</Hsp_qseq>
+      <Hsp_hseq>MDEYSVIEVTMSILLRGGWVLLPLFLIGWLGWFLMFERYGYYFMLKGTSTSKFFKDLDTVGEEAAFAKLRKRRFGYFLALVENVRKYRNDGPVAVRNAMLATRHELDVSLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETIKQFGFGNPVLLADGISEALLTTQAGLLVAFPLMLVYNYLERRVDSIGDFAWSEALKFEERCFAKEVE</Hsp_hseq>
+      <Hsp_midline>MDEYSVIE TMSILLRGGW LLPL  IGWL WFLMF    YYF          FKDLDTVGEEAAFAKLRKRRFGYFLALVENVRKYRN  PVAVRNAMLATRHE   SLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETIKQFGFGNP  LADGISEALLTTQAGLLV   LMLVYNYLE RVDSIGDFAW EALKFEERCFAKEVE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_088629171.1|</Hit_id>
+  <Hit_def>MULTISPECIES: MotA/TolQ/ExbB proton channel family protein [unclassified Fibrobacter] &gt;gb|OWV16481.1| flagellar motor protein MotA [Fibrobacter sp. UWB4] &gt;gb|OWV22758.1| flagellar motor protein MotA [Fibrobacter sp. UWB3]</Hit_def>
+  <Hit_accession>WP_088629171</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>316.235</Hsp_bit-score>
+      <Hsp_score>809</Hsp_score>
+      <Hsp_evalue>4.90841e-107</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MDEYSVIEATMSILLRGGW-LLPL--IGWL-WFLMF----YYF----------FKDLDTVGEEAAFAKLRKRRFGYFLALVENVRKYRN--PVAVRNAMLATRHE---SLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETIKQFGFGNP--LADGISEALLTTQAGLLV---LMLVYNYLESRVDSIGDFAWGEALKFEERCFAKEVE</Hsp_qseq>
+      <Hsp_hseq>MDEYSVIEATMSILLRGGWVLLPLFLIGWLGWFLMFERYGYYFMLKGTSTSKFFKDLDTVGEEAAFAKLRKRRFGYFLALVENVRKYRKDGPVAVRNAMLATRHELDVSLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETIKQFGFGNPVLLADGISEALLTTQAGLLVAFPLMLVYNYLERRVDSIGDFAWSEALKFEERCFAKEVE</Hsp_hseq>
+      <Hsp_midline>MDEYSVIEATMSILLRGGW LLPL  IGWL WFLMF    YYF          FKDLDTVGEEAAFAKLRKRRFGYFLALVENVRKYR   PVAVRNAMLATRHE   SLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETIKQFGFGNP  LADGISEALLTTQAGLLV   LMLVYNYLE RVDSIGDFAW EALKFEERCFAKEVE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|MBQ3777642.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Fibrobacter sp.]</Hit_def>
+  <Hit_accession>MBQ3777642</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>310.842</Hsp_bit-score>
+      <Hsp_score>795</Hsp_score>
+      <Hsp_evalue>6.51894e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MDEYSVIEATMSILLRGGW-LLPL--IGWL-WFLMF----YY----------FFKDLDTVGEEAAFAKLRKRRFGYFLALVENVRKYRN--PVAVRNAMLATRHE---SLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETIKQFGFGNP--LADGISEALLTTQAGLLV---LMLVYNYLESRVDSIGDFAWGEALKFEERCFAKEVE</Hsp_qseq>
+      <Hsp_hseq>MDEYSVIEATMSILLRGGWVLLPLFLIGWLGWFLMFERFGYYLMLKGRSTTKFFKDLDSVGEEAAFANLNKRRFGYFRALVENVRKYRNEGPVAVRNAMLATRHELDVSLSKSLKTIVTCAQIAPLLGLLGTVSGMVHTFKTIQQFGFGNPVLLADGISEALLTTQAGLLVAFPLMLVYNYLESRVDSIGDFAWGEALKFEERCFAKEVE</Hsp_hseq>
+      <Hsp_midline>MDEYSVIEATMSILLRGGW LLPL  IGWL WFLMF    YY          FFKDLD+VGEEAAFA L KRRFGYF ALVENVRKYRN  PVAVRNAMLATRHE   SLSKSLKTIVTCA IAPLLGLLGTVSGMVHTF+TI+QFGFGNP  LADGISEALLTTQAGLLV   LMLVYNYLESRVDSIGDFAWGEALKFEERCFAKEVE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_074208268.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Fibrobacter sp. UWB11] &gt;emb|SIN97663.1| biopolymer transport protein ExbB [Fibrobacter sp. UWB11]</Hit_def>
+  <Hit_accession>WP_074208268</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>308.531</Hsp_bit-score>
+      <Hsp_score>789</Hsp_score>
+      <Hsp_evalue>5.46603e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MDEYSVIEATMSILLRGGW-LLPL--IGWL-WFLMF----YY----------FFKDLDTVGEEAAFAKLRKRRFGYFLALVENVRKYRN--PVAVRNAMLATRHE---SLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETIKQFGFGNP--LADGISEALLTTQAGLLV---LMLVYNYLESRVDSIGDFAWGEALKFEERCFAKEVE</Hsp_qseq>
+      <Hsp_hseq>MDEYSVIEATMSILLRGGWVLLPLFLIGWLGWFLMFERYGYYLMLKGRSASAFFKDLDAVGEEAAFARLKKRRFGYFLALVENVREYRKDGPVAVRNAMLATRHQLDVSLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETIQKFGFGNPVLLADGISEALLTTQAGLLVAFPLMLVYNYLESRVDSIGDYAWGEALKYEERCFAKEVE</Hsp_hseq>
+      <Hsp_midline>MDEYSVIEATMSILLRGGW LLPL  IGWL WFLMF    YY          FFKDLD VGEEAAFA+L+KRRFGYFLALVENVR+YR   PVAVRNAMLATRH+   SLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETI++FGFGNP  LADGISEALLTTQAGLLV   LMLVYNYLESRVDSIGD+AWGEALK+EERCFAKEVE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|MBR6453056.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Fibrobacter sp.]</Hit_def>
+  <Hit_accession>MBR6453056</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.22</Hsp_bit-score>
+      <Hsp_score>783</Hsp_score>
+      <Hsp_evalue>4.63327e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MDEYSVIEATMSILLRGGW-LLPL--IGWL-WFLMF----YY----------FFKDLDTVGEEAAFAKLRKRRFGYFLALVENVRKYRNP--VAVRNAMLATRHE---SLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETIKQFGFGNP--LADGISEALLTTQAGLLV---LMLVYNYLESRVDSIGDFAWGEALKFEERCFAKEVE</Hsp_qseq>
+      <Hsp_hseq>MDEYSVIEATMSILLRGGWVLLPLFLIGWLGWFLMFERFGYYLMLKGRSTTKFFKDLDSVGEEAAFAKLRKRRFGYFLALVENVREYRSEGHVAVRNAMTATRHSLDVSLSKSLRTIVTCASIAPLLGLLGTVSGMVHTFKTIQQFGFGNPVLLADGISEALLTTQAGLLVAFPLMLVYNYLESRVDSIGDFAWGEALKFEERCFAKEVQ</Hsp_hseq>
+      <Hsp_midline>MDEYSVIEATMSILLRGGW LLPL  IGWL WFLMF    YY          FFKDLD+VGEEAAFAKLRKRRFGYFLALVENVR+YR+   VAVRNAM ATRH    SLSKSL+TIVTCASIAPLLGLLGTVSGMVHTF+TI+QFGFGNP  LADGISEALLTTQAGLLV   LMLVYNYLESRVDSIGDFAWGEALKFEERCFAKEV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_072828098.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Fibrobacter sp. UWB12] &gt;emb|SHK59579.1| biopolymer transport protein ExbB [Fibrobacter sp. UWB12]</Hit_def>
+  <Hit_accession>WP_072828098</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.22</Hsp_bit-score>
+      <Hsp_score>783</Hsp_score>
+      <Hsp_evalue>4.84091e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MDEYSVIEATMSILLRGGW-LLPL--IGWL-WFLMF----YY----------FFKDLDTVGEEAAFAKLRKRRFGYFLALVENVRKYRN--PVAVRNAMLATRHE---SLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETIKQFGFGNP--LADGISEALLTTQAGLLV---LMLVYNYLESRVDSIGDFAWGEALKFEERCFAKEVE</Hsp_qseq>
+      <Hsp_hseq>MDEYSVIEATMSILLRGGWVLLPLFLIGWLGWFLMFERYGYYLMLKGRSASAFFKDLDAVGEEAAFARLKKRRFGYFLALVENVREYRKDGPVAVRNAMLATRHNLDVSLSKSLKTIATCASIAPLLGLLGTVSGMVHTFETIQKFGFGNPVLLADGISEALLTTQAGLLVAFPLMLVYNYLESRVDSIGDYAWGEALKYEERCFAKEVE</Hsp_hseq>
+      <Hsp_midline>MDEYSVIEATMSILLRGGW LLPL  IGWL WFLMF    YY          FFKDLD VGEEAAFA+L+KRRFGYFLALVENVR+YR   PVAVRNAMLATRH    SLSKSLKTI TCASIAPLLGLLGTVSGMVHTFETI++FGFGNP  LADGISEALLTTQAGLLV   LMLVYNYLESRVDSIGD+AWGEALK+EERCFAKEVE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|MBR6454057.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Fibrobacter sp.]</Hit_def>
+  <Hit_accession>MBR6454057</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>304.294</Hsp_bit-score>
+      <Hsp_score>778</Hsp_score>
+      <Hsp_evalue>2.24549e-102</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MDEYSVIEATMSILLRGGW-LLPL--IGWL-WFLMF----YY----------FFKDLDTVGEEAAFAKLRKRRFGYFLALVENVRKYRN--PVAVRNAMLATRHE---SLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETIKQFGFGNP--LADGISEALLTTQAGLLV---LMLVYNYLESRVDSIGDFAWGEALKFEERCFAKEVE</Hsp_qseq>
+      <Hsp_hseq>MDEYSVIEATMSILLRGGWVLLPLFLIGWLGWFLMFERFGYYLMLKGRSASAFFKDLDAVGEEAAFAKLRKRRFGYFLALAENVREYRKDGPVAVRNAMTATRHRLDVSLSKSLKTIVTCAAIAPLLGLLGTVSGMVHTFETIQKFGFGNPVLLADGISEALLTTQAGLLVAFPLMLVYNYLESRVDSIGDYAWSEALKFEERCFAKEVE</Hsp_hseq>
+      <Hsp_midline>MDEYSVIEATMSILLRGGW LLPL  IGWL WFLMF    YY          FFKDLD VGEEAAFAKLRKRRFGYFLAL ENVR+YR   PVAVRNAM ATRH    SLSKSLKTIVTCA+IAPLLGLLGTVSGMVHTFETI++FGFGNP  LADGISEALLTTQAGLLV   LMLVYNYLESRVDSIGD+AW EALKFEERCFAKEVE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_290923986.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Fibrobacter sp.] &gt;gb|MBQ7079765.1| MotA/TolQ/ExbB proton channel family protein [Fibrobacter sp.]</Hit_def>
+  <Hit_accession>WP_290923986</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>304.294</Hsp_bit-score>
+      <Hsp_score>778</Hsp_score>
+      <Hsp_evalue>2.88926e-102</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MDEYSVIEATMSILLRGGW-LLPL--IGWL-WFLMF----YY----------FFKDLDTVGEEAAFAKLRKRRFGYFLALVENVRKYRN--PVAVRNAMLATRHE---SLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETIKQFGFGNP--LADGISEALLTTQAGLLV---LMLVYNYLESRVDSIGDFAWGEALKFEERCFAKEVE</Hsp_qseq>
+      <Hsp_hseq>MDEYSVIEATMSILLRGGWVLLPLFLIGWLGWFLMFERYGYYLMLKGRSTSTFFKDLDAFGEEAAFARLKKRRFGYFLALVENIREYRKDGPVAVRNAMIATRHRLDVSLSKSLKTIATCASIAPLLGLLGTVSGMVHTFETIQKFGFGNPVLLADGISEALLTTQAGLLVAFPLMLVYNYLESRVDSIGDFAWGEALKFEERCFAKEVE</Hsp_hseq>
+      <Hsp_midline>MDEYSVIEATMSILLRGGW LLPL  IGWL WFLMF    YY          FFKDLD  GEEAAFA+L+KRRFGYFLALVEN+R+YR   PVAVRNAM+ATRH    SLSKSLKTI TCASIAPLLGLLGTVSGMVHTFETI++FGFGNP  LADGISEALLTTQAGLLV   LMLVYNYLESRVDSIGDFAWGEALKFEERCFAKEVE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|MBR2095602.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Fibrobacter sp.]</Hit_def>
+  <Hit_accession>MBR2095602</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>302.753</Hsp_bit-score>
+      <Hsp_score>774</Hsp_score>
+      <Hsp_evalue>8.74016e-102</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MDEYSVIEATMSILLRGGW-LLPL--IGWL-WFLMF----YY----------FFKDLDTVGEEAAFAKLRKRRFGYFLALVENVRKYRN--PVAVRNAMLATRHE---SLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETIKQFGFGNP--LADGISEALLTTQAGLLV---LMLVYNYLESRVDSIGDFAWGEALKFEERCFAKEVE</Hsp_qseq>
+      <Hsp_hseq>MDEYSVIEATMSILLRGGWVLLPLFLIGWLGWFLMFERFGYYLMLKGRSTTKFFKDLDSVGEEAAFANLNKRRFGYFRALVENVRKYRNEGPVAVRNAMTATRHSLDVSLSKSLKTIVTCAQIAPLLGLLGTVSGMVHTFKTIQQFGFGNPVLLADGISEALLTTQAGLLVAFPLMLVYNYLERRVDSIGDFAWSEALKFEERCFAKEVE</Hsp_hseq>
+      <Hsp_midline>MDEYSVIEATMSILLRGGW LLPL  IGWL WFLMF    YY          FFKDLD+VGEEAAFA L KRRFGYF ALVENVRKYRN  PVAVRNAM ATRH    SLSKSLKTIVTCA IAPLLGLLGTVSGMVHTF+TI+QFGFGNP  LADGISEALLTTQAGLLV   LMLVYNYLE RVDSIGDFAW EALKFEERCFAKEVE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_173473252.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Fibrobacter succinogenes]</Hit_def>
+  <Hit_accession>WP_173473252</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>302.753</Hsp_bit-score>
+      <Hsp_score>774</Hsp_score>
+      <Hsp_evalue>9.0323e-102</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MDEYSVIEATMSILLRGGW-LLPL--IGWL-WFLMF----YY----------FFKDLDTVGEEAAFAKLRKRRFGYFLALVENVRKYRN--PVAVRNAMLATRHE---SLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETIKQFGFGNP--LADGISEALLTTQAGLLV---LMLVYNYLESRVDSIGDFAWGEALKFEERCFAKEVE</Hsp_qseq>
+      <Hsp_hseq>MDEYSVIEATMSILLRGGWVLLPLFLIGWLGWFLMFERYGYYLMLKGRSTSTFFKDLDAFGEEAAFARLKKRRFGYFLALVENIREYRKDGPVAVRNAMLATRHNLDVSLSKSLKTIATCASIAPLLGLLGTVSGMVHTFETIQKFGFGNPVLLADGISEALLTTQAGLLVAFPLMLVYNYLESRVDSIGDYAWGEALKYEERCFAKEVE</Hsp_hseq>
+      <Hsp_midline>MDEYSVIEATMSILLRGGW LLPL  IGWL WFLMF    YY          FFKDLD  GEEAAFA+L+KRRFGYFLALVEN+R+YR   PVAVRNAMLATRH    SLSKSLKTI TCASIAPLLGLLGTVSGMVHTFETI++FGFGNP  LADGISEALLTTQAGLLV   LMLVYNYLESRVDSIGD+AWGEALK+EERCFAKEVE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|ADL24883.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Fibrobacter succinogenes subsp. succinogenes S85]</Hit_def>
+  <Hit_accession>ADL24883</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>302.368</Hsp_bit-score>
+      <Hsp_score>773</Hsp_score>
+      <Hsp_evalue>1.00219e-101</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>MSILLRGGW-LLPL--IGWL-WFLMF----YYF----------FKDLDTVGEEAAFAKLRKRRFGYFLALVENVRKYRN--PVAVRNAMLATRHE---SLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETIKQFGFGNP--LADGISEALLTTQAGLLV---LMLVYNYLESRVDSIGDFAWGEALKFEERCFAKEVE</Hsp_qseq>
+      <Hsp_hseq>MSILLRGGWVLLPLFLIGWLGWFLMFERYGYYFMLKGTSTSKFFKDLDTVGEEAAFAKLRKRRFGYFLALVENVRKYRNDGPVAVRNAMLATRHELDVSLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETIKQFGFGNPVLLADGISEALLTTQAGLLVAFPLMLVYNYLESRVDSIGDFAWGEALKFEERCFAKEVE</Hsp_hseq>
+      <Hsp_midline>MSILLRGGW LLPL  IGWL WFLMF    YYF          FKDLDTVGEEAAFAKLRKRRFGYFLALVENVRKYRN  PVAVRNAMLATRHE   SLSKSLKTIVTCASIAPLLGLLGTVSGMVHTFETIKQFGFGNP  LADGISEALLTTQAGLLV   LMLVYNYLESRVDSIGDFAWGEALKFEERCFAKEVE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>877105751</Statistics_db-num>
+      <Statistics_db-len>334462191313</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_2123501</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>181</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_2123501</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>181</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_011120827.1|</Hit_id>
+  <Hit_def>hypothetical protein [Rhodopirellula baltica] &gt;emb|CAD74694.1| hypothetical protein RB6257 [Rhodopirellula baltica SH 1]</Hit_def>
+  <Hit_accession>WP_011120827</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>316.235</Hsp_bit-score>
+      <Hsp_score>809</Hsp_score>
+      <Hsp_evalue>3.93692e-107</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>MTLPTDGPMDH-EKKNRWFGG--TLAVMLMSISTTVIAQPPTDDWKELELPTV--PN---ADEAEE---KALEGDPLNPTGDGMLDDVLSVI--RGSVLDGSVLDSQIDPLGDAVSGRAAG-----TASKRLPGPAESFRLAEQLLATAR---KTSPFSKTNRVPRIIGSDDLVKPR-----VETLVYQMRLRAVQLMQSGLNASSE</Hsp_qseq>
+      <Hsp_hseq>MTLPTDGPMDHFEKKNRWFGGRMTLAVMLMSISTTVIAQPPTDDWKELELPTVETPNGTPADEAEEKIQKALEGDPLNPTGDGMLDDVLSVIRKRGSVLDGSVLDSQIDPLGDAVSGRAAGSESGETASKRLPGPAESFRLAEQLLATARRLEKTSPFSKTNRVPRIIGSDDLVKPRADMLPVETLVYQMRLRAVQLMQSGLNASSE</Hsp_hseq>
+      <Hsp_midline>MTLPTDGPMDH EKKNRWFGG  TLAVMLMSISTTVIAQPPTDDWKELELPTV  PN   ADEAEE   KALEGDPLNPTGDGMLDDVLSVI  RGSVLDGSVLDSQIDPLGDAVSGRAAG     TASKRLPGPAESFRLAEQLLATAR   KTSPFSKTNRVPRIIGSDDLVKPR     VETLVYQMRLRAVQLMQSGLNASSE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_164922847.1|</Hit_id>
+  <Hit_def>hypothetical protein [Rhodopirellula baltica] &gt;tpg|HBE62477.1| hypothetical protein [Rhodopirellula baltica]</Hit_def>
+  <Hit_accession>WP_164922847</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.056</Hsp_bit-score>
+      <Hsp_score>767</Hsp_score>
+      <Hsp_evalue>8.61476e-101</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MDH-EKKNRWFGG--TLAVMLMSISTTVIAQPPTDDWKELELPTV--PN---ADEAEE---KALEGDPLNPTGDGMLDDVLSVI--RGSVLDGSVLDSQIDPLGDAVSGRAAG-----TASKRLPGPAESFRLAEQLLATAR---KTSPFSKTNRVPRIIGSDDLVKPR-----VETLVYQMRLRAVQLMQSGLNASSE</Hsp_qseq>
+      <Hsp_hseq>MDHFEKKNRWFGGRMTLAVMLMSISTTVIAQPPTDDWKELELPTVETPNGTPADEAEEKIQKALEGDPLNPTGDGMLDDVLSVIRKRGSVLDGSVLDSQIDPLGDAVSGRAAGSESGETASKRLPGPAESFRLAEQLLATARRLEKTSPFSKTNRVPRIIGSDDLVKPRADMLPVETLVYQMRLRAVQLMQSGLNASSE</Hsp_hseq>
+      <Hsp_midline>MDH EKKNRWFGG  TLAVMLMSISTTVIAQPPTDDWKELELPTV  PN   ADEAEE   KALEGDPLNPTGDGMLDDVLSVI  RGSVLDGSVLDSQIDPLGDAVSGRAAG     TASKRLPGPAESFRLAEQLLATAR   KTSPFSKTNRVPRIIGSDDLVKPR     VETLVYQMRLRAVQLMQSGLNASSE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_007333319.1|</Hit_id>
+  <Hit_def>hypothetical protein [Rhodopirellula baltica] &gt;gb|EKK01028.1| hypothetical protein RBSH_03702 [Rhodopirellula baltica SH28]</Hit_def>
+  <Hit_accession>WP_007333319</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.819</Hsp_bit-score>
+      <Hsp_score>756</Hsp_score>
+      <Hsp_evalue>4.03744e-99</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MDH-EKKNRWFGG--TLAVMLMSISTTVIAQPPTDDWKELELPTVPN-----ADEAEE---KALEGDPLNPTGDGMLDDVLSVI--RGSVLDGSVLDSQIDPLGDAVSGRAAG-----TASKRLPGPAESFRLAEQLLATAR---KTSPFSKTNRVPRIIGSDDLVKPR-----VETLVYQMRLRAVQLMQSGLNASSE</Hsp_qseq>
+      <Hsp_hseq>MDHFEKKNRWFGGRMTLAVMLMSIATAVIAQPPTDDWKELELPTVETPSGTPADEAEEKIQKALEGDPLNPTGDGMLDDVLSVIRKRGSVLDGSVLDSQIDPLGDAVSGRAAGSESGETASKRLPGPAESFRLAEQLLATARRLEKTSPFSKTNRVPRIIGSDDLVKPRADMLPVETLVYQMRLRAVQLMQSGLNASSE</Hsp_hseq>
+      <Hsp_midline>MDH EKKNRWFGG  TLAVMLMSI+T VIAQPPTDDWKELELPTV       ADEAEE   KALEGDPLNPTGDGMLDDVLSVI  RGSVLDGSVLDSQIDPLGDAVSGRAAG     TASKRLPGPAESFRLAEQLLATAR   KTSPFSKTNRVPRIIGSDDLVKPR     VETLVYQMRLRAVQLMQSGLNASSE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_007329740.1|</Hit_id>
+  <Hit_def>hypothetical protein [Rhodopirellula baltica] &gt;gb|EGF24221.1| conserved hypothetical protein, secreted [Rhodopirellula baltica WH47]</Hit_def>
+  <Hit_accession>WP_007329740</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>291.197</Hsp_bit-score>
+      <Hsp_score>744</Hsp_score>
+      <Hsp_evalue>2.30412e-97</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MDH-EKKNRWFGG--TLAVMLMSISTTVIAQPPTDDWKELELPTV--PN---ADEAEE---KALEGDPLNPTGDGMLDDVLSVI--RGSVLDGSVLDSQIDPLGDAVSGRAAG-----TASKRLPGPAESFRLAEQLLATAR---KTSPFSKTNRVPRIIGSDDLVKPR-----VETLVYQMRLRAVQLMQSGLNASSE</Hsp_qseq>
+      <Hsp_hseq>MDHFAKKNRWFGGRMMLAVMLMSIATAVIAQPPTDDWKELELPTVETPNGTPADEAEEKIHKALEGDPLNPTGDGMLDDVLSVIRKRGSVLDGSVLDSQIDPLGDAVSGRAAGSESGETASKRLPGPAESFRLAEQLLATARRLEKASPFSKTNRVPRIIGSDDLVKPRADMLSVETLVYQMRLRAVQLMQSGLNASSE</Hsp_hseq>
+      <Hsp_midline>MDH  KKNRWFGG   LAVMLMSI+T VIAQPPTDDWKELELPTV  PN   ADEAEE   KALEGDPLNPTGDGMLDDVLSVI  RGSVLDGSVLDSQIDPLGDAVSGRAAG     TASKRLPGPAESFRLAEQLLATAR   K SPFSKTNRVPRIIGSDDLVKPR     VETLVYQMRLRAVQLMQSGLNASSE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_007339132.1|</Hit_id>
+  <Hit_def>hypothetical protein [Rhodopirellula baltica] &gt;gb|ELP31888.1| hypothetical protein RBSWK_04394 [Rhodopirellula baltica SWK14]</Hit_def>
+  <Hit_accession>WP_007339132</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>286.96</Hsp_bit-score>
+      <Hsp_score>733</Hsp_score>
+      <Hsp_evalue>1.30012e-95</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MDH-EKKNRWFGG--TLAVMLMSISTTVIAQPPTDDWKELELPTV--PN---ADEAEEK---ALEGDPLNPTGDGMLDDVLSVIR--GSVLDGSVLDSQIDPLGDAVSGRAAG-----TASKRLPGPAESFRLAEQLLATAR---KTSPFSKTNRVPRIIGSDDLVKPR-----VETLVYQMRLRAVQLMQSGLNASSE</Hsp_qseq>
+      <Hsp_hseq>MDHFEKKNRWFGGRMMLAVMLMSTATAVIAQPPTDDWKELELPTVETPNGTPADEAEEKIQKALEGDPLNPTGDGMLDDVLSVIRKRGSVLDGSVLDSQIDPLGDAVSGRAAGSESGETASKRLSGPAESFRLAEQLLATARRLEKASPFSKTNRVPRIIGSDDLVKPRADMLPVETLVYQMRLRAVQLMQSGLNTSSE</Hsp_hseq>
+      <Hsp_midline>MDH EKKNRWFGG   LAVMLMS +T VIAQPPTDDWKELELPTV  PN   ADEAEEK   ALEGDPLNPTGDGMLDDVLSVIR  GSVLDGSVLDSQIDPLGDAVSGRAAG     TASKRL GPAESFRLAEQLLATAR   K SPFSKTNRVPRIIGSDDLVKPR     VETLVYQMRLRAVQLMQSGLN SSE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_286764541.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Rhodopirellula]</Hit_def>
+  <Hit_accession>WP_286764541</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>233.032</Hsp_bit-score>
+      <Hsp_score>593</Hsp_score>
+      <Hsp_evalue>2.04446e-74</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MDHE-KKNRWFGGTL--AVMLMSISTTVIAQPPTDDWKELELPTVPN-----ADEAEEK---ALEGDPLNPTGDGMLDDVLSVI--RGSVLDGSVLDSQIDPLGD-----AVSGRAAGTASKRLPGPAESFRLAEQLLATAR---KTSPFSKTNRVPRIIGSDDLVKPR-----VETLVYQMRLRAVQLMQSGLNASSE</Hsp_qseq>
+      <Hsp_hseq>MDHSAKKSRWFGGRMTPAVMLMSIATAAIAQPPTDDWKEAELPTVKTPSGAPPDKAAEKIQQALDGDPLNSTGDGMLDDVLSVIKRRGSVLDGSVLDSQIDPLGDVAGENSTSPESGESVSKRSSGPIETFRLAEQLLATARRLEKASQFSKTNRAPRIVSGDDLAKPRADMLPVETLVYQMRLRAVQLMQSGLNASRE</Hsp_hseq>
+      <Hsp_midline>MDH  KK+RWFGG +  AVMLMSI+T  IAQPPTDDWKE ELPTV        D+A EK   AL+GDPLN TGDGMLDDVLSVI  RGSVLDGSVLDSQIDPLGD     + S  +  + SKR  GP E+FRLAEQLLATAR   K S FSKTNR PRI+  DDL KPR     VETLVYQMRLRAVQLMQSGLNAS E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_008662781.1|</Hit_id>
+  <Hit_def>hypothetical protein [Rhodopirellula europaea] &gt;gb|EMI29330.1| putative secreted protein [Rhodopirellula europaea SH398]</Hit_def>
+  <Hit_accession>WP_008662781</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.794</Hsp_bit-score>
+      <Hsp_score>582</Hsp_score>
+      <Hsp_evalue>1.01563e-72</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MDHE-KKNRWFGGTL--AVMLMSISTTVIAQPPTDDWKELELPTVPN-----ADEAEEK---ALEGDPLNPTGDGMLDDVLSVI--RGSVLDGSVLDSQIDPLGD-----AVSGRAAGTASKRLPGPAESFRLAEQLLATAR---KTSPFSKTNRVPRIIGSDDLVKPR-----VETLVYQMRLRAVQLMQSGLNASSE</Hsp_qseq>
+      <Hsp_hseq>MDHSAKKKHWFGGRMTPAVMLMSIATAAIAQPPTDDWKEAELPTVKTPSGAPPDKAVEKIQQALDGDPLNSTGDGMLDDVLSVIKRRGSVLDGSVLDSQIDPLGDVAGENSTSLQSGKSASKRSSGPTETFRLAEQLLATARRLEKASQVSKTNRAPRIVSGDDLAKPHADMLPVETLVYQMRLRAVQLMQSGLNASRE</Hsp_hseq>
+      <Hsp_midline>MDH  KK  WFGG +  AVMLMSI+T  IAQPPTDDWKE ELPTV        D+A EK   AL+GDPLN TGDGMLDDVLSVI  RGSVLDGSVLDSQIDPLGD     + S ++  +ASKR  GP E+FRLAEQLLATAR   K S  SKTNR PRI+  DDL KP      VETLVYQMRLRAVQLMQSGLNAS E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|MAP08702.1|</Hit_id>
+  <Hit_def>hypothetical protein [Rhodopirellula sp.]</Hit_def>
+  <Hit_accession>MAP08702</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>226.483</Hsp_bit-score>
+      <Hsp_score>576</Hsp_score>
+      <Hsp_evalue>9.66774e-72</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MDHE-KKNRWFGGTL--AVMLMSISTTVIAQPPTDDWKELELPTVPN-----ADEAEEK---ALEGDPLNPTGDGMLDDVLSVI--RGSVLDGSVLDSQIDPLGD-----AVSGRAAGTASKRLPGPAESFRLAEQLLATARK---TSPFSKTNRVPRIIGSDDLVKPR-----VETLVYQMRLRAVQLMQSGLNASSE</Hsp_qseq>
+      <Hsp_hseq>MDHSAKKKHWFGGRMTPAVMLMSIATAAIAQPPTDDWKEAELPTVKTPSGAPPDKAVEKIQQALDGDPLNSTGDGMLDDVLSVIKRRGSVLDGSVLDSQIDPLGDVAGENSTSLQSGKSASKRSSGPTETFRLAEQLLATARRLEXASQXSKTNRAPRIVSGDDLAKPXADMLPVETLVYQMRLRAVQLMQSGLNASRE</Hsp_hseq>
+      <Hsp_midline>MDH  KK  WFGG +  AVMLMSI+T  IAQPPTDDWKE ELPTV        D+A EK   AL+GDPLN TGDGMLDDVLSVI  RGSVLDGSVLDSQIDPLGD     + S ++  +ASKR  GP E+FRLAEQLLATAR+    S  SKTNR PRI+  DDL KP      VETLVYQMRLRAVQLMQSGLNAS E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_008659647.1|</Hit_id>
+  <Hit_def>hypothetical protein [Rhodopirellula europaea] &gt;gb|EMB14968.1| putative secreted protein [Rhodopirellula europaea 6C]</Hit_def>
+  <Hit_accession>WP_008659647</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>225.713</Hsp_bit-score>
+      <Hsp_score>574</Hsp_score>
+      <Hsp_evalue>1.90472e-71</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>MDHE-KKNRWFGGTL--AVMLMSISTTVIAQPPTDDWKELELPTVPN-----ADEAEEK---ALEGDPLNPTGDGMLDDVLSVI--RGSVLDGSVLDSQIDPLGDAVSGRAAG-----TASKRLPGPAESFRLAEQLLATAR---KTSPFSKTNRVPRIIGSDDLVKPR-----VETLVYQMRLRAVQLMQSGLNASSE</Hsp_qseq>
+      <Hsp_hseq>MDHSAKKSRWFGGRMTPAVMLMSIATAAIAQPPTDDWKEAELPTVKTPSGAPPDKAAEKIQQALDGDPLNSTGDGMLDDVLSVIKRRGSVLDGSVLDSEIDPLGDVAGENSNGLESGKSASKRSSGPTETFRLAEQLLATARRLEKASQVSKANRAPRIVSGDDLAKPRADMLPVETLVYQMRLRAVLLMQSGLNSSRE</Hsp_hseq>
+      <Hsp_midline>MDH  KK+RWFGG +  AVMLMSI+T  IAQPPTDDWKE ELPTV        D+A EK   AL+GDPLN TGDGMLDDVLSVI  RGSVLDGSVLDS+IDPLGD     + G     +ASKR  GP E+FRLAEQLLATAR   K S  SK NR PRI+  DDL KPR     VETLVYQMRLRAV LMQSGLN+S E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_274407835.1|</Hit_id>
+  <Hit_def>hypothetical protein [Rhodopirellula sp. P2] &gt;gb|WDQ19088.1| hypothetical protein PSR62_11235 [Rhodopirellula sp. P2]</Hit_def>
+  <Hit_accession>WP_274407835</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.096</Hsp_bit-score>
+      <Hsp_score>440</Hsp_score>
+      <Hsp_evalue>5.14869e-51</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>AVMLMSISTTVIAQPPTDDWKELELPT-----VPNADEAEE---KALEGDPLNPTGDGMLDDVLSVI--RGSVLDGSVLDSQIDPLGDAVSGRA--AGTASK---RLPGPAESFRLAEQLLATAR---KTSPFSKTNRVPRIIGSDDLVKP-----RVETLVYQMRLRAVQLMQSGLNASSE</Hsp_qseq>
+      <Hsp_hseq>AMALALVATSAIAQPPVDDWKKLELPTVERPVVPPSDRAAEKIQKALEGDAPVPTGDGMLDDVLNIIQRRGSVLDGSVLDSEIDPLSDPADQRSKVSGPGTKDVGSLSGPAASFRLAEQLLATARRLEKAIPSRKAERTPRIVTGEDLAKPPAEMLPVESLVYQLRLRAVELMQSGLQASRE</Hsp_hseq>
+      <Hsp_midline>A+ L  ++T+ IAQPP DDWK+LELPT     VP +D A E   KALEGD   PTGDGMLDDVL++I  RGSVLDGSVLDS+IDPL D    R+  +G  +K    L GPA SFRLAEQLLATAR   K  P  K  R PRI+  +DL KP      VE+LVYQ+RLRAV+LMQSGL AS E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_348200529.1|</Hit_id>
+  <Hit_def>hypothetical protein [Rhodopirellula bahusiensis] &gt;gb|MEO9930966.1| hypothetical protein [Rhodopirellula bahusiensis] &gt;gb|MEP0061051.1| hypothetical protein [Rhodopirellula bahusiensis] &gt;gb|MEP0346673.1| hypothetical protein [Rhodopirellula bahusiensis] &gt;gb|MEP0428809.1| hypothetical protein [Rhodopirellula bahusiensis] &gt;gb|MEP1644331.1| hypothetical protein [Rhodopirellula bahusiensis]</Hit_def>
+  <Hit_accession>WP_348200529</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.94</Hsp_bit-score>
+      <Hsp_score>437</Hsp_score>
+      <Hsp_evalue>1.36344e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>MTLPTDGPMDHE-KKNRWFGGTL--AVMLMSISTTVIAQPPTDDWKELELPTVP--------NADEAEEKALEGDPLNPTGDGMLDDVLSVI--RGSVLDGSVLDSQIDPLGDAVSGRA--AGTASKRLPGPA----ESFRLAEQLLATAR---KTSPFSKTNRVPRIIGSDDLVKPR-----VETLVYQMRLRAVQLMQSGLNASSE</Hsp_qseq>
+      <Hsp_hseq>MNRPMDGRMNVSLKRASWLWGKLLPAVLLMSIASAVIAQPPTDDWKEIELPAIKLPKGSASNKAAEKIQKALDGDMLAPTGDGALDDVIGIIHERGSVMDGSVLDSEIDPLADLV-GRSSEAPDSGKSEPFEACSSTESFRLAEQLLATARMMEDATQASDTDRTPRIVNGKNSANTKTEMLPVKSLVYQMRLRAVELMQSGLKASSE</Hsp_hseq>
+      <Hsp_midline>M  P DG M+   K+  W  G L  AV+LMSI++ VIAQPPTDDWKE+ELP +          A E  +KAL+GD L PTGDG LDDV+ +I  RGSV+DGSVLDS+IDPL D V GR+  A  + K  P  A    ESFRLAEQLLATAR     +  S T+R PRI+   +    +     V++LVYQMRLRAV+LMQSGL ASSE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_236696078.1|</Hit_id>
+  <Hit_def>hypothetical protein [Rhodopirellula islandica]</Hit_def>
+  <Hit_accession>WP_236696078</Hit_accession>
+  <Hit_len>184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>171.4</Hsp_bit-score>
+      <Hsp_score>433</Hsp_score>
+      <Hsp_evalue>3.30103e-50</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>181</Hsp_align-len>
+      <Hsp_qseq>VMLMSISTTVIAQPPTDDWKELELPTV-----PNADEAEEK---ALEGDPLNPTGDGMLDDVLSVI--RGSVLDGSVLDSQIDPLGDAVSGRAAGTASKR-----LPGPAESFRLAEQLLATARKTS---PFSKTNRVPRIIGSDDLVKPRVE-----TLVYQMRLRAVQLMQSGLNASSE</Hsp_qseq>
+      <Hsp_hseq>ISLALIATLAIAQPPVDDWKKLELPTVDTPVVPSSDRATEKIQKALEGVAPVPTGDGMLDDVLNIIQRRGSVLDGSVLDSEIDPLSDPADQRSKVSGAGKNDVDSLSGPAASFRLAEQLLATARRLERAIPSEKAERIPRIVTGEDLAKPPVEMLPVETLVYQMRLRAVELMKSGLEASRE</Hsp_hseq>
+      <Hsp_midline>+ L  I+T  IAQPP DDWK+LELPTV     P++D A EK   ALEG    PTGDGMLDDVL++I  RGSVLDGSVLDS+IDPL D    R+  + + +     L GPA SFRLAEQLLATAR+     P  K  R+PRI+  +DL KP VE     TLVYQMRLRAV+LM+SGL AS E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|KLU06325.1|</Hit_id>
+  <Hit_def>hypothetical protein RISK_001536 [Rhodopirellula islandica]</Hit_def>
+  <Hit_accession>KLU06325</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>171.014</Hsp_bit-score>
+      <Hsp_score>432</Hsp_score>
+      <Hsp_evalue>3.51502e-50</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>ISTTVIAQPPTDDWKELELPTV-----PNADEAEEK---ALEGDPLNPTGDGMLDDVLSVI--RGSVLDGSVLDSQIDPLGDAVSGRAAGTASKR-----LPGPAESFRLAEQLLATARKTS---PFSKTNRVPRIIGSDDLVKPRVE-----TLVYQMRLRAVQLMQSGLNASSE</Hsp_qseq>
+      <Hsp_hseq>IATLAIAQPPVDDWKKLELPTVDTPVVPSSDRATEKIQKALEGVAPVPTGDGMLDDVLNIIQRRGSVLDGSVLDSEIDPLSDPADQRSKVSGAGKNDVDSLSGPAASFRLAEQLLATARRLERAIPSEKAERIPRIVTGEDLAKPPVEMLPVETLVYQMRLRAVELMKSGLEASRE</Hsp_hseq>
+      <Hsp_midline>I+T  IAQPP DDWK+LELPTV     P++D A EK   ALEG    PTGDGMLDDVL++I  RGSVLDGSVLDS+IDPL D    R+  + + +     L GPA SFRLAEQLLATAR+     P  K  R+PRI+  +DL KP VE     TLVYQMRLRAV+LM+SGL AS E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_348162674.1|</Hit_id>
+  <Hit_def>hypothetical protein [Rhodopirellula bahusiensis] &gt;gb|MEO9591227.1| hypothetical protein [Rhodopirellula bahusiensis] &gt;gb|MEP2309902.1| hypothetical protein [Rhodopirellula bahusiensis] &gt;gb|MEP3833705.1| hypothetical protein [Rhodopirellula bahusiensis]</Hit_def>
+  <Hit_accession>WP_348162674</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.859</Hsp_bit-score>
+      <Hsp_score>429</Hsp_score>
+      <Hsp_evalue>1.95811e-49</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>KKNRWFGGTL--AVMLMSISTTVIAQPPTDDWKELELPTVP--------NADEAEEKALEGDPLNPTGDGMLDDVLSVI--RGSVLDGSVLDSQIDPLGDAVSGRA--AGTASKRLPGPA----ESFRLAEQLLATAR---KTSPFSKTNRVPRIIGSDDLVKPR-----VETLVYQMRLRAVQLMQSGLNASSE</Hsp_qseq>
+      <Hsp_hseq>KRASWLWGKLLPAVLLMSIASAVIAQPPTDDWKEIELPAIKLPKGSASNKAAEKIQKALDGDMLAPTGDGALDDVIGIIHERGSVMDGSVLDSEIDPLADLV-GRSSEAPDSGKSEPFEACSSTESFRLAEQLLATARMMEDATQASDTDRTPRIVNGKNSANTKTEMLPVKSLVYQMRLRAVELMQSGLKASSE</Hsp_hseq>
+      <Hsp_midline>K+  W  G L  AV+LMSI++ VIAQPPTDDWKE+ELP +          A E  +KAL+GD L PTGDG LDDV+ +I  RGSV+DGSVLDS+IDPL D V GR+  A  + K  P  A    ESFRLAEQLLATAR     +  S T+R PRI+   +    +     V++LVYQMRLRAV+LMQSGL ASSE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_099261457.1|</Hit_id>
+  <Hit_def>hypothetical protein [Rhodopirellula bahusiensis] &gt;gb|PHQ34709.1| hypothetical protein CEE69_14755 [Rhodopirellula bahusiensis]</Hit_def>
+  <Hit_accession>WP_099261457</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>167.548</Hsp_bit-score>
+      <Hsp_score>423</Hsp_score>
+      <Hsp_evalue>1.30301e-48</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>KKNRWFGGTL--AVMLMSISTTVIAQPPTDDWKELELPTVP--------NADEAEEKALEGDPLNPTGDGMLDDVLSVI--RGSVLDGSVLDSQIDPLGDAVSGR--AAGTASKRLPGPA----ESFRLAEQLLATAR---KTSPFSKTNRVPRIIGSDDLVKPR-----VETLVYQMRLRAVQLMQSGLNASSE</Hsp_qseq>
+      <Hsp_hseq>KRASWLCGKLLPAVLLMSIASAVIAQPPTDDWKEIELPAIKLPKGSASNKAAEKIQKALDGDMLAPTGDGALDDVIGIIHERGSVIDGSVLDSEFDPLADLV-GRPSEAPDSGKSEPFEACSSTESFRLAEQLLATARMMEDATQASDTDRTPRIVNGKNSANTKTEMLPVKSLVYQMRLRAVELMQSGLKASSE</Hsp_hseq>
+      <Hsp_midline>K+  W  G L  AV+LMSI++ VIAQPPTDDWKE+ELP +          A E  +KAL+GD L PTGDG LDDV+ +I  RGSV+DGSVLDS+ DPL D V GR   A  + K  P  A    ESFRLAEQLLATAR     +  S T+R PRI+   +    +     V++LVYQMRLRAV+LMQSGL ASSE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_392557227.1|</Hit_id>
+  <Hit_def>hypothetical protein [Rhodopirellula sp. JB055] &gt;gb|MFG0267281.1| hypothetical protein [Rhodopirellula sp. JB055]</Hit_def>
+  <Hit_accession>WP_392557227</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.081</Hsp_bit-score>
+      <Hsp_score>414</Hsp_score>
+      <Hsp_evalue>6.38359e-47</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>WFGGTLAVMLMSISTTVIAQPPTDDWKELELPTV------PNADEAE--EKALEGDPLNPTGDGMLDDVLSVI--RGSVLDGSVLDSQIDPLGDAVSGRAAGTASKR-----LPGPAESFRLAEQLLATAR---KTSPFSKTNRVPRIIGSDDLVKPR-----VETLVYQMRLRAVQLMQSGLNASSE</Hsp_qseq>
+      <Hsp_hseq>WRRFAPALVLSLVATLAIAQPPVGDLEKVELPVIKAPVAPPSGEAAEKIQKALQGDAPAPTGDGMLDDVLSIIEKRGSVLDGSVLDSEIDPLSDPADQRSKASGAGKNDVGPLSGPAASFRLAEQLLATARRLERATPSKAADRTPRIVTHDDLAKPSVEMLPVESLVYQMRLRAVELMKSGLEASRE</Hsp_hseq>
+      <Hsp_midline>W     A++L  ++T  IAQPP  D +++ELP +      P+ + AE  +KAL+GD   PTGDGMLDDVLS+I  RGSVLDGSVLDS+IDPL D    R+  + + +     L GPA SFRLAEQLLATAR   + +P    +R PRI+  DDL KP      VE+LVYQMRLRAV+LM+SGL AS E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|MEP4680384.1|</Hit_id>
+  <Hit_def>hypothetical protein [Rhodopirellula bahusiensis]</Hit_def>
+  <Hit_accession>MEP4680384</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.079</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>1.11081e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>MTLPTDGPMDHE-KKNRWFGGTL--AVMLMSISTTVIAQPPTDDWKELELPTVP--------NADEAEEKALEGDPLNPTGDGMLDDVLSVI--RGSVLDGSVLDSQIDPLGDAVSGRAA</Hsp_qseq>
+      <Hsp_hseq>MNRPMDGRMNVSLKRASWLWGKLLPAVLLMSIASAVIAQPPTDDWKEIELPAIKLPKGSASNKAAEKIQKALDGDMLAPTGDGALDDVIGIIHERGSVMDGSVLDSEIDPLADLV-GRSS</Hsp_hseq>
+      <Hsp_midline>M  P DG M+   K+  W  G L  AV+LMSI++ VIAQPPTDDWKE+ELP +          A E  +KAL+GD L PTGDG LDDV+ +I  RGSV+DGSVLDS+IDPL D V GR++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_230255572.1|</Hit_id>
+  <Hit_def>hypothetical protein [Rhodopirellula halodulae] &gt;gb|MCC9657930.1| hypothetical protein [Rhodopirellula halodulae]</Hit_def>
+  <Hit_accession>WP_230255572</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.3521</Hsp_bit-score>
+      <Hsp_score>220</Hsp_score>
+      <Hsp_evalue>4.95213e-18</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>NRW----FGGTLAVMLMSISTTVIAQPP---------TDDW-------------KEL---ELPTVPNADEAE--EKALEGDPLNPTGDGMLDDVLSVI--RGSVLDGSVLDSQIDPL------GDAVSGRAAGTASKRLPGPAESFRLAEQLLATARK------TSPFSKTNRVPRIIGSDDLVKPRVETLVYQMRLRAVQLMQSGLNASSE</Hsp_qseq>
+      <Hsp_hseq>NRWMEPCFGSLILCAAFCFASLASATPPPNQNAASAKKDDHANGVEESVQNEVAKELPKAKLPVIEKGDASARIKSALDGSEVSPTGDGMLDDVLDVIRKRGSVLDGSVLDSELPSVLPATGKGESKEQEDSESDADQARASSELFELAEQLLRTARRLEKVGMSAALKRQSQGPRGAHAVPSELMSIDQMVYQMRLRAVELMRRGLKVSVE</Hsp_hseq>
+      <Hsp_midline>NRW    FG  +       ++   A PP          DD              KEL   +LP +   D +   + AL+G  ++PTGDGMLDDVL VI  RGSVLDGSVLDS++  +      G++     + + + +    +E F LAEQLL TAR+      ++   + ++ PR   +       ++ +VYQMRLRAV+LM+ GL  S E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_230271708.1|</Hit_id>
+  <Hit_def>hypothetical protein [Rhodopirellula halodulae] &gt;gb|MCC9641521.1| hypothetical protein [Rhodopirellula halodulae]</Hit_def>
+  <Hit_accession>WP_230271708</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.5817</Hsp_bit-score>
+      <Hsp_score>218</Hsp_score>
+      <Hsp_evalue>1.20459e-17</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>KEL---ELPTVPNADEAE--EKALEGDPLNPTGDGMLDDVLSVI--RGSVLDGSVLDSQIDPL------GDAVSGRAAGTASKRLPGPAESFRLAEQLLATARK------TSPFSKTNRVPRIIGSDDLVKPRVETLVYQMRLRAVQLMQSGLNASSE</Hsp_qseq>
+      <Hsp_hseq>KELPKAKLPAIEKGDASARIKNALEGSEVSPTGDGMLDDVLDVIRKRGSVLDGSVLDSELPSVLPATGKGESEEQEDSESDADHTRASSELFELAEQLLRTARRLEKVGMSAALKRQSQGPRGAHAVPSELMSIDQMVYQMRLRAVELMRRGLKVSVE</Hsp_hseq>
+      <Hsp_midline>KEL   +LP +   D +   + ALEG  ++PTGDGMLDDVL VI  RGSVLDGSVLDS++  +      G++     + + +      +E F LAEQLL TAR+      ++   + ++ PR   +       ++ +VYQMRLRAV+LM+ GL  S E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|MFK8110799.1|</Hit_id>
+  <Hit_def>hypothetical protein [Rubripirellula sp.]</Hit_def>
+  <Hit_accession>MFK8110799</Hit_accession>
+  <Hit_len>133</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>6.61658e-10</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>RWFGGTLAVMLMSISTTVIAQPPTDDWKELELPTVPNADEAEEKALEGDPLNPTGDGMLDDVLSVI--RGSVLDGSVLDSQIDPLGDAVSGRAAGTASKRLPGPAESFRLAEQLLATARKTSPFSKTNRVPRIIGSDDLVKPRVETLVYQMRLRAVQLM</Hsp_qseq>
+      <Hsp_hseq>RWIG--LAVVAAFAVQLVIAEPPQSE------PS--TAEQHIRRVLEGDSAGSAGDMVLDDVLQVIQRRGSILDGSILDE--SPEQPSLSGQAAATVS------AKAF-AAEQLLKAARLVEKVDAEN------------AKRVQ-LVSQMRAEARKLL</Hsp_hseq>
+      <Hsp_midline>RW G  LAV+       VIA+PP  +      P+   A++   + LEGD     GD +LDDVL VI  RGS+LDGS+LD    P   ++SG+AA T S      A++F  AEQLL  AR        N              RV+ LV QMR  A +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>877781531</Statistics_db-num>
+      <Statistics_db-len>334720180573</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

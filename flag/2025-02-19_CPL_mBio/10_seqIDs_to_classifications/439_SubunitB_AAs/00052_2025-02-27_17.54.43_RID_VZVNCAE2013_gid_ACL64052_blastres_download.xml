@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_4874431</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>141</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_4874431</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>141</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_011419720.1|</Hit_id>
+  <Hit_def>MULTISPECIES: protein TolR [Anaeromyxobacter] &gt;gb|ABC80437.1| Cell division and transport-associated protein TolR [Anaeromyxobacter dehalogenans 2CP-C] &gt;gb|ACG71934.1| protein TolR [Anaeromyxobacter sp. K] &gt;gb|ACL64051.1| protein TolR [Anaeromyxobacter dehalogenans 2CP-1]</Hit_def>
+  <Hit_accession>WP_011419720</Hit_accession>
+  <Hit_len>150</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.922</Hsp_bit-score>
+      <Hsp_score>668</Hsp_score>
+      <Hsp_evalue>3.41733e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>141</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>MSSGGSGRQSLTEINVTPLVDVMLVLLIIFMVT-PLIQQGVEV--PDARAKAVEAQEQKLVLSIKSDKSLW--TTEDAA-VPYDELEDKLRANSRAQKEHELYL---KTLPYGFVVDVMATVQRAGIVNVGMITNPAPERVKPEREARRR</Hsp_qseq>
+      <Hsp_hseq>MSSGGSGRQSLTEINVTPLVDVMLVLLIIFMVTAPLIQQGVEVNLPDARAKAVEAQEQKLVLSIKSDKSLWLGTTEDAAHVPYDELEDKLRANSRAQKEHELYLMADKTLPYGFVVDVMATVQRAGIVNVGMITNPAPERVKPEREARRR</Hsp_hseq>
+      <Hsp_midline>MSSGGSGRQSLTEINVTPLVDVMLVLLIIFMVT PLIQQGVEV  PDARAKAVEAQEQKLVLSIKSDKSLW  TTEDAA VPYDELEDKLRANSRAQKEHELYL   KTLPYGFVVDVMATVQRAGIVNVGMITNPAPERVKPEREARRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_059439354.1|</Hit_id>
+  <Hit_def>protein TolR [Anaeromyxobacter sp. PSR-1] &gt;dbj|GAO05264.1| protein TolR [Anaeromyxobacter sp. PSR-1]</Hit_def>
+  <Hit_accession>WP_059439354</Hit_accession>
+  <Hit_len>150</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.61</Hsp_bit-score>
+      <Hsp_score>662</Hsp_score>
+      <Hsp_evalue>2.6589e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>141</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>MSSGGSGRQSLTEINVTPLVDVMLVLLIIFMVT-PLIQQGVEV--PDARAKAVEAQEQKLVLSIKSDKSLW--TTEDAA-VPYDELEDKLRANSRAQKEHELYL---KTLPYGFVVDVMATVQRAGIVNVGMITNPAPERVKPEREARRR</Hsp_qseq>
+      <Hsp_hseq>MSSGGSGRQSLTEINVTPLVDVMLVLLIIFMVTAPLIQQGVEVNLPDARAKAVEAQEQKLVLSIKSDKSLWLGTTEDAAHVAYDELEDKLRANSRAQKEHELYLMADKTLPYGFVVDVMATVQRAGIVNVGMITNPAPERVKPEREARRR</Hsp_hseq>
+      <Hsp_midline>MSSGGSGRQSLTEINVTPLVDVMLVLLIIFMVT PLIQQGVEV  PDARAKAVEAQEQKLVLSIKSDKSLW  TTEDAA V YDELEDKLRANSRAQKEHELYL   KTLPYGFVVDVMATVQRAGIVNVGMITNPAPERVKPEREARRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>tpg|HTN53681.1|</Hit_id>
+  <Hit_def>protein TolR [Anaeromyxobacter sp.]</Hit_def>
+  <Hit_accession>HTN53681</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>233.802</Hsp_bit-score>
+      <Hsp_score>595</Hsp_score>
+      <Hsp_evalue>5.84847e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>MSSGGSGRQSLTEINVTPLVDVMLVLLIIFMVT-PLIQQGVEV--PDARAKAVEAQEQKLVLSIKSDKSLW--TTEDAA-VPYDELEDKLRANSRAQKEHELYL---KTLPYGFVVDVMATVQRAGIVNVGMITNPAPERVKPEREARR</Hsp_qseq>
+      <Hsp_hseq>LSSGGSGRQSLSEINVTPLVDVMLVLLIIFMVTAPLIQQGVEVSLPEARAKPVEAQEQKLVLSIKADRSLWLGTSEDAARIPYDLLEDKLRSNVRAQKDHELYLMADKSLPYGFVVDVMATVQRAGIVNVGMITNPAPERVRAEREGRR</Hsp_hseq>
+      <Hsp_midline>+SSGGSGRQSL+EINVTPLVDVMLVLLIIFMVT PLIQQGVEV  P+ARAK VEAQEQKLVLSIK+D+SLW  T+EDAA +PYD LEDKLR+N RAQK+HELYL   K+LPYGFVVDVMATVQRAGIVNVGMITNPAPERV+ ERE RR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>tpg|HET8732280.1|</Hit_id>
+  <Hit_def>protein TolR [Anaeromyxobacteraceae bacterium]</Hit_def>
+  <Hit_accession>HET8732280</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.106</Hsp_bit-score>
+      <Hsp_score>588</Hsp_score>
+      <Hsp_evalue>5.97134e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>141</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>MSSGGSGRQSLTEINVTPLVDVMLVLLIIFMVT-PLIQQGVEV--PDARAKAVEAQEQKLVLSIKSDKSLW--TTEDAA-VPYDELEDKLRANSRAQKEHELYL---KTLPYGFVVDVMATVQRAGIVNVGMITNPAPERVKPEREARRR</Hsp_qseq>
+      <Hsp_hseq>MSSGGSGRQTLTEINVTPLVDVMLVLLIIFMVTAPLIQQGVEVKLPEARAKAVDAEEQKLVLSIKADKSLWLGTSEDAAAVPLDDLEDKLRANTRAQKDHELYLMADRTLPYGFVVEVMATVQRAGIVNMGMITNPAPERVK-EQGARRR</Hsp_hseq>
+      <Hsp_midline>MSSGGSGRQ+LTEINVTPLVDVMLVLLIIFMVT PLIQQGVEV  P+ARAKAV+A+EQKLVLSIK+DKSLW  T+EDAA VP D+LEDKLRAN+RAQK+HELYL   +TLPYGFVV+VMATVQRAGIVN+GMITNPAPERVK E+ ARRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_242394533.1|</Hit_id>
+  <Hit_def>protein TolR [Anaeromyxobacter oryzisoli]</Hit_def>
+  <Hit_accession>WP_242394533</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>229.95</Hsp_bit-score>
+      <Hsp_score>585</Hsp_score>
+      <Hsp_evalue>1.51843e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>141</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MSSGGSGRQSLTEINVTPLVDVMLVLLIIFMVT-PLIQQGVEV--PDARAKAVEAQEQKLVLSIKSDKSLW--TTEDAA-VPYDELEDKLRANSRAQKEHELYL---KTLPYGFVVDVMATVQRAGIVNVGMITNPAPERVK--PEREARRR</Hsp_qseq>
+      <Hsp_hseq>MSSGGGGRQTLTEINVTPLVDVMLVLLIIFMVAAPLIQQGVEVNLPDARAKAVDAEEQKLVLSIKRDRTLWLGSTEDAAEIPYDRLEDKLRANPRAQKDHELYLMADKGLPYGFVVDVMATVQRAGIVNVGMITNPAPEHVRAAPEKEARRR</Hsp_hseq>
+      <Hsp_midline>MSSGG GRQ+LTEINVTPLVDVMLVLLIIFMV  PLIQQGVEV  PDARAKAV+A+EQKLVLSIK D++LW  +TEDAA +PYD LEDKLRAN RAQK+HELYL   K LPYGFVVDVMATVQRAGIVNVGMITNPAPE V+  PE+EARRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>dbj|BDG04317.1|</Hit_id>
+  <Hit_def>protein TolR [Anaeromyxobacter oryzae]</Hit_def>
+  <Hit_accession>BDG04317</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>229.95</Hsp_bit-score>
+      <Hsp_score>585</Hsp_score>
+      <Hsp_evalue>1.73338e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>141</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MSSGGSGRQSLTEINVTPLVDVMLVLLIIFMVT-PLIQQGVEV--PDARAKAVEAQEQKLVLSIKSDKSLW--TTEDAA-VPYDELEDKLRANSRAQKEHELYL---KTLPYGFVVDVMATVQRAGIVNVGMITNPAPERVK--PEREARRR</Hsp_qseq>
+      <Hsp_hseq>MSSGGGGRQTLTEINVTPLVDVMLVLLIIFMVTAPLIQQGVEVNLPDARAKPVDAEEQKLVLSIKRDKTLWLGSTEDAAQIPYDLLEDKLRANPRAQKDHELYLMADKGLPYGFVVDVMATVQRAGIVNVGMITNPAPEHVRAAPEKEARRR</Hsp_hseq>
+      <Hsp_midline>MSSGG GRQ+LTEINVTPLVDVMLVLLIIFMVT PLIQQGVEV  PDARAK V+A+EQKLVLSIK DK+LW  +TEDAA +PYD LEDKLRAN RAQK+HELYL   K LPYGFVVDVMATVQRAGIVNVGMITNPAPE V+  PE+EARRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_248362540.1|</Hit_id>
+  <Hit_def>protein TolR [Anaeromyxobacter oryzae]</Hit_def>
+  <Hit_accession>WP_248362540</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>229.95</Hsp_bit-score>
+      <Hsp_score>585</Hsp_score>
+      <Hsp_evalue>1.78988e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>141</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MSSGGSGRQSLTEINVTPLVDVMLVLLIIFMVT-PLIQQGVEV--PDARAKAVEAQEQKLVLSIKSDKSLW--TTEDAA-VPYDELEDKLRANSRAQKEHELYL---KTLPYGFVVDVMATVQRAGIVNVGMITNPAPERVK--PEREARRR</Hsp_qseq>
+      <Hsp_hseq>MSSGGGGRQTLTEINVTPLVDVMLVLLIIFMVTAPLIQQGVEVNLPDARAKPVDAEEQKLVLSIKRDKTLWLGSTEDAAQIPYDLLEDKLRANPRAQKDHELYLMADKGLPYGFVVDVMATVQRAGIVNVGMITNPAPEHVRAAPEKEARRR</Hsp_hseq>
+      <Hsp_midline>MSSGG GRQ+LTEINVTPLVDVMLVLLIIFMVT PLIQQGVEV  PDARAK V+A+EQKLVLSIK DK+LW  +TEDAA +PYD LEDKLRAN RAQK+HELYL   K LPYGFVVDVMATVQRAGIVNVGMITNPAPE V+  PE+EARRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>tpg|HUL58921.1|</Hit_id>
+  <Hit_def>protein TolR [Anaeromyxobacteraceae bacterium]</Hit_def>
+  <Hit_accession>HUL58921</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>226.098</Hsp_bit-score>
+      <Hsp_score>575</Hsp_score>
+      <Hsp_evalue>6.97455e-73</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>SSGGSGRQSLTEINVTPLVDVMLVLLIIFMVT-PLIQQGVEV--PDARAKAVEAQEQKLVLSIKSDKSLW--TTEDAA-VPYDELEDKLRANSRAQKEHELYL---KTLPYGFVVDVMATVQRAGIVNVGMITNPAPERVKPEREAR</Hsp_qseq>
+      <Hsp_hseq>GTGGSGRQSLTEINVTPLVDVMLVLLIIFMVTAPLIQQGVEVNLPEARAKTVDAQEQKLVLSIKADRSLWLGTTDDAARVAYDDLEDKLRANPRAQKDHELFLMADKTLPYGFVVDVMATVQRAGITSMGMITNPAPERVKPARQSR</Hsp_hseq>
+      <Hsp_midline> +GGSGRQSLTEINVTPLVDVMLVLLIIFMVT PLIQQGVEV  P+ARAK V+AQEQKLVLSIK+D+SLW  TT+DAA V YD+LEDKLRAN RAQK+HEL+L   KTLPYGFVVDVMATVQRAGI ++GMITNPAPERVKP R++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_011985024.1|</Hit_id>
+  <Hit_def>protein TolR [Anaeromyxobacter sp. Fw109-5] &gt;gb|ABS24918.1| Biopolymer transport protein ExbD/TolR [Anaeromyxobacter sp. Fw109-5]</Hit_def>
+  <Hit_accession>WP_011985024</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.394</Hsp_bit-score>
+      <Hsp_score>555</Hsp_score>
+      <Hsp_evalue>6.37688e-70</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>141</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>SSGGSGRQSLTEINVTPLVDVMLVLLIIFMVT-PLIQQGVEV--PDARAKAVEAQEQKLVLSIKSDKSLW--TTEDAA-VPYDELEDKLRANSRAQKEHELYL---KTLPYGFVVDVMATVQRAGIVNVGMITNPAPERVKPEREARRR</Hsp_qseq>
+      <Hsp_hseq>SSGGSGRQTLTEINVTPLVDVMLVLLIIFMVTAPLIQQGVEVSLPEARAKAVDAEEQKLVLSIKSDKSLYLGTSEDAARVPYDALEDKLRANTRAMKDRELYLMADKALPYGFVVDVMATVQRAGIVNVGMITNPAADKVRDKSQEGRR</Hsp_hseq>
+      <Hsp_midline>SSGGSGRQ+LTEINVTPLVDVMLVLLIIFMVT PLIQQGVEV  P+ARAKAV+A+EQKLVLSIKSDKSL+  T+EDAA VPYD LEDKLRAN+RA K+ ELYL   K LPYGFVVDVMATVQRAGIVNVGMITNPA ++V+ + +  RR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>tpg|HYG67553.1|</Hit_id>
+  <Hit_def>protein TolR [Anaeromyxobacteraceae bacterium]</Hit_def>
+  <Hit_accession>HYG67553</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.083</Hsp_bit-score>
+      <Hsp_score>549</Hsp_score>
+      <Hsp_evalue>5.11796e-69</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>141</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>SSGGSGRQSLTEINVTPLVDVMLVLLIIFMVT-PLIQQGVEV--PDARAKAVEAQEQKLVLSIKSDKSLW--TTEDAA-VPYDELEDKLRANSRAQKEHELYL---KTLPYGFVVDVMATVQRAGIVNVGMITNPAPERVKPER-EARRR</Hsp_qseq>
+      <Hsp_hseq>SNGGMGRQSLTEINVTPLVDVMLVLLIIFMVTAPLIQQGVEVALPEARAKAVDAEEQKLVLSIKADKSLWLGTSEDAARIPTDALEDKLRANARAMKDRELYLMADRNLPYGFVVEVMATVQRAGITNVGMITNPAPERVKPAKHEGARR</Hsp_hseq>
+      <Hsp_midline>S+GG GRQSLTEINVTPLVDVMLVLLIIFMVT PLIQQGVEV  P+ARAKAV+A+EQKLVLSIK+DKSLW  T+EDAA +P D LEDKLRAN+RA K+ ELYL   + LPYGFVV+VMATVQRAGI NVGMITNPAPERVKP + E  RR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>tpg|HSD22552.1|</Hit_id>
+  <Hit_def>protein TolR [Anaeromyxobacter sp.]</Hit_def>
+  <Hit_accession>HSD22552</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.312</Hsp_bit-score>
+      <Hsp_score>547</Hsp_score>
+      <Hsp_evalue>1.16444e-68</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>141</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>SSGGSGRQSLTEINVTPLVDVMLVLLIIFMVT-PLIQQGVEV--PDARAKAVEAQEQKLVLSIKSDKSLW--TTEDAA-VPYDELEDKLRANSRAQKEHELYL---KTLPYGFVVDVMATVQRAGIVNVGMITNPAPERVKPEREARRR</Hsp_qseq>
+      <Hsp_hseq>SSGGSGRQTLTEINVTPLVDVMLVLLIIFMVTAPLIQQGVEVSLPEARAKAVDAEEQKLVLSIKSDKSLYLGSSEDAARIPFDALEDKLRANARAMKDRELYLMADKTLPYGYVVDVMATVQRAGITNVGMITNPAADKVREARTEGRR</Hsp_hseq>
+      <Hsp_midline>SSGGSGRQ+LTEINVTPLVDVMLVLLIIFMVT PLIQQGVEV  P+ARAKAV+A+EQKLVLSIKSDKSL+  ++EDAA +P+D LEDKLRAN+RA K+ ELYL   KTLPYG+VVDVMATVQRAGI NVGMITNPA ++V+  R   RR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_242340543.1|</Hit_id>
+  <Hit_def>MULTISPECIES: protein TolR [Anaeromyxobacter]</Hit_def>
+  <Hit_accession>WP_242340543</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.772</Hsp_bit-score>
+      <Hsp_score>543</Hsp_score>
+      <Hsp_evalue>4.24433e-68</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>141</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>SSGGSGRQSLTEINVTPLVDVMLVLLIIFMVT-PLIQQGVEV--PDARAKAVEAQEQKLVLSIKSDKSLW--TTEDAA-VPYDELEDKLRANSRAQKEHELYL---KTLPYGFVVDVMATVQRAGIVNVGMITNPAPERVKPEREARRR</Hsp_qseq>
+      <Hsp_hseq>SSGGSGRQTLTEINVTPLVDVMLVLLIIFMVTAPLIQQGVEVSLPEARAKAVEAEDQKLVLSIKSDHSLYLGSSEDAARIPFESLEDKLRANARAMKDRELYLMADKTLPYGFVVDVMATVQRAGITNVGMITNPAADKVREARQEGRR</Hsp_hseq>
+      <Hsp_midline>SSGGSGRQ+LTEINVTPLVDVMLVLLIIFMVT PLIQQGVEV  P+ARAKAVEA++QKLVLSIKSD SL+  ++EDAA +P++ LEDKLRAN+RA K+ ELYL   KTLPYGFVVDVMATVQRAGI NVGMITNPA ++V+  R+  RR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>tpg|HEX9050965.1|</Hit_id>
+  <Hit_def>protein TolR [Anaeromyxobacter sp.]</Hit_def>
+  <Hit_accession>HEX9050965</Hit_accession>
+  <Hit_len>150</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>211.46</Hsp_bit-score>
+      <Hsp_score>537</Hsp_score>
+      <Hsp_evalue>2.82662e-67</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>SSGGSGRQSLTEINVTPLVDVMLVLLIIFMVT-PLIQQGVEV--PDARAKAVEAQEQKLVLSIKSDKSLW--TTEDAA-VPYDELEDKLRANSRAQKEHELYL---KTLPYGFVVDVMATVQRAGIVNVGMITNPAPERVKPEREARR</Hsp_qseq>
+      <Hsp_hseq>STGGSGRQTLNEINVTPLVDVMLVLLIIFMVTAPLIQQGVEVSLPEARAKAVDAEEQKLVLSIRPDKTIYLGTSDQAAKVPYDALEDKLRANARAQKDKELYLFADKGLPYGFVVDVMATVQRAGIVNVGMITNPMPDKIREAREAKR</Hsp_hseq>
+      <Hsp_midline>S+GGSGRQ+L EINVTPLVDVMLVLLIIFMVT PLIQQGVEV  P+ARAKAV+A+EQKLVLSI+ DK+++  T++ AA VPYD LEDKLRAN+RAQK+ ELYL   K LPYGFVVDVMATVQRAGIVNVGMITNP P++++  REA+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_242346653.1|</Hit_id>
+  <Hit_def>protein TolR [Anaeromyxobacter terrae]</Hit_def>
+  <Hit_accession>WP_242346653</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>211.46</Hsp_bit-score>
+      <Hsp_score>537</Hsp_score>
+      <Hsp_evalue>3.97026e-67</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>141</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>SSGGSGRQSLTEINVTPLVDVMLVLLIIFMVT-PLIQQGVEV--PDARAKAVEAQEQKLVLSIKSDKSLW--TTEDAA-VPYDELEDKLRANSRAQKEHELYL---KTLPYGFVVDVMATVQRAGIVNVGMITNPAPERVKPEREARRR</Hsp_qseq>
+      <Hsp_hseq>SSGGSGRQTLTEINVTPLVDVMLVLLIIFMVTAPLIQQGVEVSLPEARAKAVDAEDQKLVLSIKSDHSLYLGSSEDAARIPFESLEDKLRANARAMKDRELYLMADKTLPYGFVVDVMATVQRAGITNVGMITNPAADKVREAKQEGRR</Hsp_hseq>
+      <Hsp_midline>SSGGSGRQ+LTEINVTPLVDVMLVLLIIFMVT PLIQQGVEV  P+ARAKAV+A++QKLVLSIKSD SL+  ++EDAA +P++ LEDKLRAN+RA K+ ELYL   KTLPYGFVVDVMATVQRAGI NVGMITNPA ++V+  ++  RR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>tpg|HVI95082.1|</Hit_id>
+  <Hit_def>protein TolR [Anaeromyxobacter sp.]</Hit_def>
+  <Hit_accession>HVI95082</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.764</Hsp_bit-score>
+      <Hsp_score>530</Hsp_score>
+      <Hsp_evalue>3.40162e-66</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>SSGGSGRQSLTEINVTPLVDVMLVLLIIFMVT-PLIQQGVEV--PDARAKAVEAQEQKLVLSIKSDKSLW--TTEDAA-VPYDELEDKLRANSRAQKEHELYL---KTLPYGFVVDVMATVQRAGIVNVGMITNPAPERVKPEREAR</Hsp_qseq>
+      <Hsp_hseq>STGGSGRQSLTEINVTPLVDVMLVLLIIFMVTAPLIQQGVEVNLPETRAKTVDSEEQKLVLSIKADKSLYLGTSEDAARVPYDALEDKLRANARATKDKALYLMADKSLPYGFVVDVMATVQRAGITNVGMITNPAPAKV---REAK</Hsp_hseq>
+      <Hsp_midline>S+GGSGRQSLTEINVTPLVDVMLVLLIIFMVT PLIQQGVEV  P+ RAK V+++EQKLVLSIK+DKSL+  T+EDAA VPYD LEDKLRAN+RA K+  LYL   K+LPYGFVVDVMATVQRAGI NVGMITNPAP +V   REA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>tpg|HET8541166.1|</Hit_id>
+  <Hit_def>protein TolR [Anaeromyxobacter sp.]</Hit_def>
+  <Hit_accession>HET8541166</Hit_accession>
+  <Hit_len>151</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.838</Hsp_bit-score>
+      <Hsp_score>525</Hsp_score>
+      <Hsp_evalue>2.26506e-65</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>SGGSGRQSLTEINVTPLVDVMLVLLIIFMVT-PLIQQGVEV--PDARAKAVEAQEQKLVLSIKSDKSLW--TTEDAA-VPYDELEDKLRANSRAQKEHELYL---KTLPYGFVVDVMATVQRAGIVNVGMITNPAPERVKPEREARR</Hsp_qseq>
+      <Hsp_hseq>TGGSGRQTLNEINVTPLVDVMLVLLIIFMVTAPLIQQGVEVNLPEARAKSVDADEQKLVLSIRSDRSLFLGTSEDAARIPLDALEDKLRANVRAQKDRELYLHADKALPYGFVVDVMATVQRAGIVNVGMITNPVSDTIREAREAKR</Hsp_hseq>
+      <Hsp_midline>+GGSGRQ+L EINVTPLVDVMLVLLIIFMVT PLIQQGVEV  P+ARAK+V+A EQKLVLSI+SD+SL+  T+EDAA +P D LEDKLRAN RAQK+ ELYL   K LPYGFVVDVMATVQRAGIVNVGMITNP  + ++  REA+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>tpg|HET6412156.1|</Hit_id>
+  <Hit_def>protein TolR [Anaeromyxobacter sp.]</Hit_def>
+  <Hit_accession>HET6412156</Hit_accession>
+  <Hit_len>150</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.912</Hsp_bit-score>
+      <Hsp_score>520</Hsp_score>
+      <Hsp_evalue>1.27962e-64</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MSSGGSGRQSLTEINVTPLVDVMLVLLIIFMVT-PLIQQGVEV--PDARAKAVEAQEQKLVLSIKSDKSLW--TTEDAA-VPYDELEDKLRANSRAQKEHELYL---KTLPYGFVVDVMATVQRAGIVNVGMITNPAPERVKPEREAR</Hsp_qseq>
+      <Hsp_hseq>FTSGGIGRQTLTEINVTPLVDVMLVLLIIFMVTAPLIQQGVEVNLPDARAKPVKAEEEKLVLSIKADRSIWLGTSEDAARIPFETLEDKLRANARLQKDHEVYLMADKTLPYGYVVDVMATLQRAGILNLGMITNPSPGRKTSEEAAK</Hsp_hseq>
+      <Hsp_midline> +SGG GRQ+LTEINVTPLVDVMLVLLIIFMVT PLIQQGVEV  PDARAK V+A+E+KLVLSIK+D+S+W  T+EDAA +P++ LEDKLRAN+R QK+HE+YL   KTLPYG+VVDVMAT+QRAGI+N+GMITNP+P R   E  A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>tpg|HEY6001368.1|</Hit_id>
+  <Hit_def>protein TolR [Anaeromyxobacter sp.]</Hit_def>
+  <Hit_accession>HEY6001368</Hit_accession>
+  <Hit_len>151</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.142</Hsp_bit-score>
+      <Hsp_score>518</Hsp_score>
+      <Hsp_evalue>2.52382e-64</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>SSGGSGRQSLTEINVTPLVDVMLVLLIIFMVT-PLIQQGVEV--PDARAKAVEAQEQKLVLSIKSDKSLW--TTEDAA-VPYDELEDKLRANSRAQKEHELYL---KTLPYGFVVDVMATVQRAGIVNVGMITNPAPERVKPEREARR</Hsp_qseq>
+      <Hsp_hseq>STGGSGRQTLNEINVTPLVDVMLVLLIIFMVTAPLIQQGVQVNLPEAKAKAVEAEEQKLVLSIKADKTLWLGTSEDAARIPIDRLEEKLRGNARAQKDKELFLHADKTLPYGFIVEVMAAVQRAGVLNVGMITNPTPVRVREKPEAVR</Hsp_hseq>
+      <Hsp_midline>S+GGSGRQ+L EINVTPLVDVMLVLLIIFMVT PLIQQGV+V  P+A+AKAVEA+EQKLVLSIK+DK+LW  T+EDAA +P D LE+KLR N+RAQK+ EL+L   KTLPYGF+V+VMA VQRAG++NVGMITNP P RV+ + EA R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>tpg|HEX9306861.1|</Hit_id>
+  <Hit_def>protein TolR [Anaeromyxobacter sp.]</Hit_def>
+  <Hit_accession>HEX9306861</Hit_accession>
+  <Hit_len>150</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>203.756</Hsp_bit-score>
+      <Hsp_score>517</Hsp_score>
+      <Hsp_evalue>3.74507e-64</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>141</Hsp_align-len>
+      <Hsp_qseq>SSGGSGRQSLTEINVTPLVDVMLVLLIIFMVT-PLIQQGVEV--PDARAKAVEAQEQKLVLSIKSDKSLW--TTEDAA-VPYDELEDKLRANSRAQKEHELYL---KTLPYGFVVDVMATVQRAGIVNVGMITNPAPERVK</Hsp_qseq>
+      <Hsp_hseq>ASGGSGRQSLSEINVTPLVDVMLVLLIIFMVTAPLIQQGVEVKLPEAHAKAIDAEEQKLVLSIRADRSMYLGTGDDAARVPFDRLEDKLRANARAMKDRELYLMADRALPYGFVVEVMATVQRAGVVNLGMITNPAPERIR</Hsp_hseq>
+      <Hsp_midline>+SGGSGRQSL+EINVTPLVDVMLVLLIIFMVT PLIQQGVEV  P+A AKA++A+EQKLVLSI++D+S++  T +DAA VP+D LEDKLRAN+RA K+ ELYL   + LPYGFVV+VMATVQRAG+VN+GMITNPAPER++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>tpg|HET6440596.1|</Hit_id>
+  <Hit_def>protein TolR [Anaeromyxobacter sp.]</Hit_def>
+  <Hit_accession>HET6440596</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.216</Hsp_bit-score>
+      <Hsp_score>513</Hsp_score>
+      <Hsp_evalue>1.23815e-63</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GRQSLTEINVTPLVDVMLVLLIIFMVT-PLIQQGVEV--PDARAKAVEAQEQKLVLSIKSDKSLW--TTEDAA-VPYDELEDKLRANSRAQKEHELYL---KTLPYGFVVDVMATVQRAGIVNVGMITNPAPERVKPEREARR</Hsp_qseq>
+      <Hsp_hseq>GRQTLTEINVTPLVDVMLVLLIIFMVTAPLIQQGVEVNLPDARAKPVKAEEQKLVLSIKADKTVWLGTSEDAARIPFDALEQKLKANARVQKDHELYLMADKALPYGFVVDVMATMQRAGVVNVGMITNPSPGKAKNSEEAEK</Hsp_hseq>
+      <Hsp_midline>GRQ+LTEINVTPLVDVMLVLLIIFMVT PLIQQGVEV  PDARAK V+A+EQKLVLSIK+DK++W  T+EDAA +P+D LE KL+AN+R QK+HELYL   K LPYGFVVDVMAT+QRAG+VNVGMITNP+P + K   EA +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>877105751</Statistics_db-num>
+      <Statistics_db-len>334462191313</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

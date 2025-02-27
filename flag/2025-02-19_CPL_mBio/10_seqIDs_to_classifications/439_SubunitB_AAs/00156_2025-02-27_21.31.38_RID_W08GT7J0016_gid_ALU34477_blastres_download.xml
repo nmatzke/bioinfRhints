@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_461427</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>215</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_461427</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>215</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_013238625.1|</Hit_id>
+  <Hit_def>MULTISPECIES: flagellar motor protein MotB [Clostridium] &gt;gb|ADK15033.1| predicted flagellar motor protein MotB [Clostridium ljungdahlii DSM 13528] &gt;gb|AGY74285.1| OmpA family protein [Clostridium autoethanogenum DSM 10061] &gt;gb|ALU34476.1| Motility protein B N-terminal domain-containing protein [Clostridium autoethanogenum DSM 10061] &gt;gb|OAA87694.1| Motility protein B [Clostridium ljungdahlii DSM 13528] &gt;gb|OVY51196.1| Motility protein B [Clostridium autoethanogenum]</Hit_def>
+  <Hit_accession>WP_013238625</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.897</Hsp_bit-score>
+      <Hsp_score>1021</Hsp_score>
+      <Hsp_evalue>4.10973e-138</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>MGKKRQHHEEHVDETWLIPYADMLTLLLALF----------QEK--KISQQFNVIFSGEKSIQNNGGSSTNQFIETGEST--PD---GKTEQDT------TLDAKIKQDGYDDKVKVEISKDGLGISIQEAILFNSGDAEVLTHIHPLLISISEM-------IRIAGHTDN--IHNSKFRSNWDLSAMRAINVMNFMVKNGGINITKVSIQAYSEYQPKSTNLTKE--AQNRRVEIFIVRKYPLSTNIK</Hsp_qseq>
+      <Hsp_hseq>MGKKRQHHEEHVDETWLIPYADMLTLLLALFIVMFAISKVDQEKLAKISQQFNVIFSGEKSIQNNGGSSTNQFIETGESTDKPDESAGKTEQDTMNEIKKTLDAKIKQDGYDDKVKVEISKDGLGISIQEAILFNSGDAEVLTHIHPLLISISEMIRNLDNNIRIAGHTDNVPIHNSKFRSNWDLSAMRAINVMNFMVKNGGINITKVSIQAYSEYQPKSTNLTKEGRAQNRRVEIFIVRKYPLSTNIK</Hsp_hseq>
+      <Hsp_midline>MGKKRQHHEEHVDETWLIPYADMLTLLLALF          QEK  KISQQFNVIFSGEKSIQNNGGSSTNQFIETGEST  PD   GKTEQDT      TLDAKIKQDGYDDKVKVEISKDGLGISIQEAILFNSGDAEVLTHIHPLLISISEM       IRIAGHTDN  IHNSKFRSNWDLSAMRAINVMNFMVKNGGINITKVSIQAYSEYQPKSTNLTKE  AQNRRVEIFIVRKYPLSTNIK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_122058223.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Clostridium autoethanogenum] &gt;gb|RMD02556.1| chemotaxis protein MotB [Clostridium autoethanogenum]</Hit_def>
+  <Hit_accession>WP_122058223</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.185</Hsp_bit-score>
+      <Hsp_score>988</Hsp_score>
+      <Hsp_evalue>3.59731e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>MGKKRQHHEEHVDETWLIPYADMLTLLLALF----------QEK--KISQQFNVIFSGEKSIQNNGGSSTNQFIETGEST--PD---GKTEQDT------TLDAKIKQDGYDDKVKVEISKDGLGISIQEAILFNSGDAEVLTHIHPLLISISEM-------IRIAGHTDN--IHNSKFRSNWDLSAMRAINVMNFMVKNGGINITKVSIQAYSEYQPKSTNLTKEA--QNRRVEIFIVRKYPLSTNIK</Hsp_qseq>
+      <Hsp_hseq>MGKKKQHHEEHVDETWLIPYADMLTLLLALFIVMFAISKIDQEKLAKISQQFNVIFSGEKSIQNTGGSSTNQFIETGESTDKPDESAGKTEQDTMNGIKKTLDAKIKQDGYDGKVKVEISKDGLGISIQEAVLFNSGDAEVLTHIHPLLISISEMIVNLDNNIRIAGHTDNVPIHNSKFRSNWDLSAMRAINVMNFMVESGGINITKVSIQAYSEYQPKSTNLTKEGRDQNRRVEIFIVRKYPLSTNIK</Hsp_hseq>
+      <Hsp_midline>MGKK+QHHEEHVDETWLIPYADMLTLLLALF          QEK  KISQQFNVIFSGEKSIQN GGSSTNQFIETGEST  PD   GKTEQDT      TLDAKIKQDGYD KVKVEISKDGLGISIQEA+LFNSGDAEVLTHIHPLLISISEM       IRIAGHTDN  IHNSKFRSNWDLSAMRAINVMNFMV++GGINITKVSIQAYSEYQPKSTNLTKE   QNRRVEIFIVRKYPLSTNIK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_065079959.1|</Hit_id>
+  <Hit_def>MULTISPECIES: flagellar motor protein MotB [Clostridium] &gt;gb|OBR89681.1| motility protein B [Clostridium ragsdalei P11] &gt;gb|QXE21054.1| chemotaxis protein MotB [Clostridium sp. 001]</Hit_def>
+  <Hit_accession>WP_065079959</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>383.259</Hsp_bit-score>
+      <Hsp_score>983</Hsp_score>
+      <Hsp_evalue>1.9891e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>MGKKRQHHEEHVDETWLIPYADMLTLLLALF----------QEK--KISQQFNVIFSGEKSIQNNGGSSTNQFIETGEST--PD---GKTEQDT------TLDAKIKQDGYDDKVKVEISKDGLGISIQEAILFNSGDAEVLTHIHPLLISISEMI-------RIAGHTDN--IHNSKFRSNWDLSAMRAINVMNFMVKNGGINITKVSIQAYSEYQPKSTNLTKEA--QNRRVEIFIVRKYPLSTNIK</Hsp_qseq>
+      <Hsp_hseq>MGKKRQHHEEHVDETWLIPYADMLTLLLALFIVMFAISKIDQEKLAKISQQFNVIFSGEKSIQNTGGSSTNQFIETGQSTDKPDESAGKTEQYTMNEIKKTLDAKIKQDGYDGKVKVEISKDGLGISIQEAVLFNSGDAEVLTHIHPLLISISEMIENLDNNIRIAGHTDNVPIHNSKFRSNWDLSAMRAINVMNFMVKSGGINITKVSIQAYSEYQPKSTNLTKEGRDQNRRVEIFIVRKYPLSTNIK</Hsp_hseq>
+      <Hsp_midline>MGKKRQHHEEHVDETWLIPYADMLTLLLALF          QEK  KISQQFNVIFSGEKSIQN GGSSTNQFIETG+ST  PD   GKTEQ T      TLDAKIKQDGYD KVKVEISKDGLGISIQEA+LFNSGDAEVLTHIHPLLISISEMI       RIAGHTDN  IHNSKFRSNWDLSAMRAINVMNFMVK+GGINITKVSIQAYSEYQPKSTNLTKE   QNRRVEIFIVRKYPLSTNIK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_127721178.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Clostridium sp. AWRP] &gt;gb|AZV56908.1| chemotaxis protein MotB [Clostridium sp. AWRP]</Hit_def>
+  <Hit_accession>WP_127721178</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>382.489</Hsp_bit-score>
+      <Hsp_score>981</Hsp_score>
+      <Hsp_evalue>3.89197e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>MGKKRQHHEEHVDETWLIPYADMLTLLLALF----------QEK--KISQQFNVIFSGEKSIQNNGGSSTNQFIETGESTPD-----GKTEQDT------TLDAKIKQDGYDDKVKVEISKDGLGISIQEAILFNSGDAEVLTHIHPLLISISEM-------IRIAGHTDN--IHNSKFRSNWDLSAMRAINVMNFMVKNGGINITKVSIQAYSEYQPKSTNLTKEA--QNRRVEIFIVRKYPLSTNI</Hsp_qseq>
+      <Hsp_hseq>MGKKRQHHEEHVDETWLIPYADMLTLLLALFIVMFAISKIDQEKLAKISQQFDVIFSGEKSIQNDGGSSTNQFIETGESADKTDKSAGKTEQDTMNEIKKTLDAKIKQDGYDDKVKVEISKDGLGISIQEAVLFNSGDAEVLTHIHPLLISISEMIRNLDNNIRIAGHTDNVPIHNSKFRSNWDLSAMRAINVMNFMAGNGGINITKVSIQAYSEYQPKSTNLTKEGRDQNRRVEIFIVRKYPLSTNI</Hsp_hseq>
+      <Hsp_midline>MGKKRQHHEEHVDETWLIPYADMLTLLLALF          QEK  KISQQF+VIFSGEKSIQN+GGSSTNQFIETGES        GKTEQDT      TLDAKIKQDGYDDKVKVEISKDGLGISIQEA+LFNSGDAEVLTHIHPLLISISEM       IRIAGHTDN  IHNSKFRSNWDLSAMRAINVMNFM  NGGINITKVSIQAYSEYQPKSTNLTKE   QNRRVEIFIVRKYPLSTNI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_261853401.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Clostridium folliculivorans] &gt;dbj|GKU26499.1| chemotaxis protein MotB [Clostridium folliculivorans] &gt;dbj|GKU29069.1| chemotaxis protein MotB [Clostridium folliculivorans]</Hit_def>
+  <Hit_accession>WP_261853401</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>252.292</Hsp_bit-score>
+      <Hsp_score>643</Hsp_score>
+      <Hsp_evalue>1.40448e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MGKKRQHHEEHVDETWLIPYADMLTLLLALF------------QEKKISQQFNVIFSGEKSIQNNGGSSTNQFIET-----GESTPDGKT--EQDT------TLDAKIKQDGYDDKVKVEISKDGLGISIQEAILFNSGDAEVLTHIHPLLISISEMIR-------IAGHTDN--IHNSKFRSNWDLSAMRAINVMNFMVKNGGINITKVSIQAYSEYQPKSTNLTKE--AQNRRVEIFIVRKYP</Hsp_qseq>
+      <Hsp_hseq>MRKKKEHHEEHVDETWLIPYADMLTLLLALFIVMFAMSKVDSQKLEKLSAEFNVIFSGGSSVMSEGGTNATAVVQSQAANAGTSAEKSNTQKEEDTMNGLKQSLESEIQSKGYADNVKVEVNKEGLEVSIQDAALFNSGDAQVLQNVNPLLLEISKMVRGLDNEIKVVGHTDNVPISTSKFRSNWDLSAMRAINVMNFMVNSGGVGTNKISIQAYGEYRPKYSNDTAEGRAKNRRVEIFIIRKYA</Hsp_hseq>
+      <Hsp_midline>M KK++HHEEHVDETWLIPYADMLTLLLALF            + +K+S +FNVIFSG  S+ + GG++    +++     G S     T  E+DT      +L+++I+  GY D VKVE++K+GL +SIQ+A LFNSGDA+VL +++PLL+ IS+M+R       + GHTDN  I  SKFRSNWDLSAMRAINVMNFMV +GG+   K+SIQAY EY+PK +N T E  A+NRRVEIFI+RKY </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_039773011.1|</Hit_id>
+  <Hit_def>MULTISPECIES: flagellar motor protein MotB [Clostridium] &gt;gb|AVK48760.1| chemotaxis protein MotB [Clostridium sp. MF28] &gt;gb|MBC2455669.1| OmpA family protein [Clostridium beijerinckii] &gt;gb|MBC2473146.1| OmpA family protein [Clostridium beijerinckii] &gt;gb|MBN7574526.1| OmpA family protein [Clostridium beijerinckii] &gt;gb|MBN7579879.1| OmpA family protein [Clostridium beijerinckii]</Hit_def>
+  <Hit_accession>WP_039773011</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>245.743</Hsp_bit-score>
+      <Hsp_score>626</Hsp_score>
+      <Hsp_evalue>3.45464e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>MGKKRQHHEEHVDETWLIPYADMLTLLLALF------------QEKKISQQFNVIFSGEKSIQNNGGSSTNQFIETGESTPDGKTEQDTT------LDAKIKQDGYDDKVKVEISKDGLGISIQEAILFNSGDAEVLTHIHPLLISISEM-------IRIAGHTDN--IHNSKFRSNWDLSAMRAINVMNFMVKNGGINITKVSIQAYSEYQPKSTNLTKE--AQNRRVEIFIVRKYPLST</Hsp_qseq>
+      <Hsp_hseq>MSKKKQHHEEHVDEAWLLPYSDMLTLLLALFIVMFAMGQTDKAKLQSMAKEFNIIFAGGSGVMHQDGNSAIPMEESGIS--DNKAEEDKMTEIKKMIEAEIKEEGYSDKVKVDLNNEGLAISIQDVVLFNSGEADVLKDVSPLLLKISHMLYGLDNEIKVAGYTDNVPINNGKFRSNWDLSAMRAINVLNYMVSTGGINQEKISIQAYGEHMPKASNATEDGRAKNRRVEIFVVRKYPVPT</Hsp_hseq>
+      <Hsp_midline>M KK+QHHEEHVDE WL+PY+DMLTLLLALF            + + ++++FN+IF+G   + +  G+S     E+G S  D K E+D        ++A+IK++GY DKVKV+++ +GL ISIQ+ +LFNSG+A+VL  + PLL+ IS M       I++AG+TDN  I+N KFRSNWDLSAMRAINV+N+MV  GGIN  K+SIQAY E+ PK++N T++  A+NRRVEIF+VRKYP+ T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_238898885.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Clostridium sp. YIM B02500]</Hit_def>
+  <Hit_accession>WP_238898885</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>245.743</Hsp_bit-score>
+      <Hsp_score>626</Hsp_score>
+      <Hsp_evalue>3.72906e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>MGKKRQHHEEHVDETWLIPYADMLTLLLALF------------QEKKISQQFNVIFSGEKSIQNNGGSSTNQFIETGESTPDGKTEQDTTLDAK------IKQDGYDDKVKVEISKDGLGISIQEAILFNSGDAEVLTHIHPLLISISEM-------IRIAGHTDN--IHNSKFRSNWDLSAMRAINVMNFMVKNGGINITKVSIQAYSEYQPKSTNLTKE--AQNRRVEIFIVRKYPLST</Hsp_qseq>
+      <Hsp_hseq>MSKKKQHHEEHVDEAWLLPYSDMLTLLLALFIVMFAMGQTDKAKLQSMAKEFNIIFAGGSGVMHQDGNSAIPMEESGVS--DNKAEEDKMTEVKKMIEEEIKKEGYSDKVKVDLNSEGLAISIQDVVLFNSGEADVLNNVSPLLLKISHMLYGLDNEIKVAGYTDNVPINNGKFRSNWDLSAMRAINVLNYMVSTGGINQEKISIQAYGEHMPKASNATEDGRAKNRRVEIFVVRKYPVPT</Hsp_hseq>
+      <Hsp_midline>M KK+QHHEEHVDE WL+PY+DMLTLLLALF            + + ++++FN+IF+G   + +  G+S     E+G S  D K E+D   + K      IK++GY DKVKV+++ +GL ISIQ+ +LFNSG+A+VL ++ PLL+ IS M       I++AG+TDN  I+N KFRSNWDLSAMRAINV+N+MV  GGIN  K+SIQAY E+ PK++N T++  A+NRRVEIF+VRKYP+ T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_310940780.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Clostridium sp. SHJSY1] &gt;gb|MDS0528279.1| OmpA family protein [Clostridium sp. SHJSY1]</Hit_def>
+  <Hit_accession>WP_310940780</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>245.358</Hsp_bit-score>
+      <Hsp_score>625</Hsp_score>
+      <Hsp_evalue>6.28432e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MGKKRQHHEEHVDETWLIPYADMLTLLLALF----------QEK--KISQQFNVIFSGEKSIQNNGGSSTNQFIETGESTP-----DGKTEQDTT------LDAKIKQDGYDDKVKVEISKDGLGISIQEAILFNSGDAEVLTHIHPLLISISEMIR-------IAGHTDN--IHNSKFRSNWDLSAMRAINVMNFMVKNGGINITKVSIQAYSEYQPKSTNLTKE--AQNRRVEIFIVRKYPLS</Hsp_qseq>
+      <Hsp_hseq>MGKKKQHHEEHVDETWLIPYSDMLTLLLALFIVMFAMSKVDQEKIQKAGKEFNQVFAGSNGVLDGSGTEVSGEEEAGASAEITGEDATKTEEDKMNEVKKMIDQEIATEGYADKVKTELNGDGLEISIQDVVLFNSGDAEVVGGVSPLLLKISAMIRNLDNEIKVVGHTDNVPISNQKFRSNWDLSSMRAVNVMNFMVNSGGVHPNKVSIQAYGEYAPKYDNSTEDGRARNRRVEIFVVRKFPLS</Hsp_hseq>
+      <Hsp_midline>MGKK+QHHEEHVDETWLIPY+DMLTLLLALF          QEK  K  ++FN +F+G   + +  G+  +   E G S         KTE+D        +D +I  +GY DKVK E++ DGL ISIQ+ +LFNSGDAEV+  + PLL+ IS MIR       + GHTDN  I N KFRSNWDLS+MRA+NVMNFMV +GG++  KVSIQAY EY PK  N T++  A+NRRVEIF+VRK+PLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_017212176.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Clostridium beijerinckii]</Hit_def>
+  <Hit_accession>WP_017212176</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.588</Hsp_bit-score>
+      <Hsp_score>623</Hsp_score>
+      <Hsp_evalue>1.2127e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>MGKKRQHHEEHVDETWLIPYADMLTLLLALF------------QEKKISQQFNVIFSGEKSIQNNGGSSTNQFIETGESTPDGKTEQDTTLDAK------IKQDGYDDKVKVEISKDGLGISIQEAILFNSGDAEVLTHIHPLLISISEM-------IRIAGHTDN--IHNSKFRSNWDLSAMRAINVMNFMVKNGGINITKVSIQAYSEYQPKSTNLTKE--AQNRRVEIFIVRKYPLST</Hsp_qseq>
+      <Hsp_hseq>MSKKKQHHEEHVDEAWLLPYSDMLTLLLALFIVMFAMGQTDKAKLQSMAKEFNIIFAGGSGVMHQDGNSAIPMEESGIS--DNKAEEDKMTEVKKMIEEEIKKEGYSDKVKVDLNSEGLAISIQDVVLFNSGEADVLKDVSPLLLKISHMLYGLDNEIKVAGYTDNVPINNGKFRSNWDLSAMRAINVLNYMVSTGGINQEKISIQAYGEHMPKASNATEDGRAKNRRVEIFVVRKYPVPT</Hsp_hseq>
+      <Hsp_midline>M KK+QHHEEHVDE WL+PY+DMLTLLLALF            + + ++++FN+IF+G   + +  G+S     E+G S  D K E+D   + K      IK++GY DKVKV+++ +GL ISIQ+ +LFNSG+A+VL  + PLL+ IS M       I++AG+TDN  I+N KFRSNWDLSAMRAINV+N+MV  GGIN  K+SIQAY E+ PK++N T++  A+NRRVEIF+VRKYP+ T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_297417612.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Clostridium sp.]</Hit_def>
+  <Hit_accession>WP_297417612</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.202</Hsp_bit-score>
+      <Hsp_score>622</Hsp_score>
+      <Hsp_evalue>1.83349e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>MGKKRQHHEEHVDETWLIPYADMLTLLLALF-------QEKK-----ISQQFNVIFSGEKSIQNNGGSSTNQFIETGESTPDGKT----EQD------TTLDAKIKQDGYDDKVKVEISKDGLGISIQEAILFNSGDAEVLTHIHPLLISISEM-------IRIAGHTDN--IHNSKFRSNWDLSAMRAINVMNFMVKNGGINITKVSIQAYSEYQPKSTNLTKE--AQNRRVEIFIVRKYPLSTNIK</Hsp_qseq>
+      <Hsp_hseq>MSRKKQHHEEHVDEAWLLPYSDMLTLLLALFIVMFAMGQTDKAKLAAMAKEFNVIFAGGPGQMSKDGNAAIPMEETGTSDSVGATDSQIEEDKMNQIKNMLDKEIKEEGYSDKIKVDLNGEGLEIAIQDVVLFNSGEADVLKEVSPLLLKISDMLKSLNNQIRVAGYTDNVPISNNKFRSNWDLSAMRAINVMNFMVSSGGIKQDNVSIQAYGEYKPKTTNSTEEGRAQNRRVEIYVVRNFPVATDGK</Hsp_hseq>
+      <Hsp_midline>M +K+QHHEEHVDE WL+PY+DMLTLLLALF       Q  K     ++++FNVIF+G     +  G++     ETG S   G T    E+D        LD +IK++GY DK+KV+++ +GL I+IQ+ +LFNSG+A+VL  + PLL+ IS+M       IR+AG+TDN  I N+KFRSNWDLSAMRAINVMNFMV +GGI    VSIQAY EY+PK+TN T+E  AQNRRVEI++VR +P++T+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_022744314.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Clostridium saccharobutylicum] &gt;gb|AGX42030.1| motility protein B [Clostridium saccharobutylicum DSM 13864] &gt;gb|AQR89309.1| motility protein B [Clostridium saccharobutylicum] &gt;gb|AQR99210.1| motility protein B [Clostridium saccharobutylicum] &gt;gb|AQS08947.1| motility protein B [Clostridium saccharobutylicum] &gt;gb|AQS13198.1| motility protein B [Clostridium saccharobutylicum]</Hit_def>
+  <Hit_accession>WP_022744314</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>243.432</Hsp_bit-score>
+      <Hsp_score>620</Hsp_score>
+      <Hsp_evalue>3.34422e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>MGKKRQHHEEHVDETWLIPYADMLTLLLALF------------QEKKISQQFNVIFSGEKSIQNNGGSSTNQFIETGEST--PDGKTEQDTT------LDAKIKQDGYDDKVKVEISKDGLGISIQEAILFNSGDAEVLTHIHPLLISISEM-------IRIAGHTDN--IHNSKFRSNWDLSAMRAINVMNFMVKNGGINITKVSIQAYSEYQPKSTNLTKE--AQNRRVEIFIVRKYPLST</Hsp_qseq>
+      <Hsp_hseq>MAKKKQHHEEHVDEAWLLPYSDMLTLLLALFIVMFAMGQTDKAKLQQMSKQFNIIFAGGSSFMNNDGNSVVPMEETSEGTGKSDSENEEDKMTQIEKQLNDEISKENYSDKIKVELNNDGLDIAIQDIVLFNSGEADVLQNVNPLLTKISGMLQGLDNEIKVVGHTDNVPISNSKFRSNWDLSAMRAINVMNFMVSSGGISQEKVSIQAYGDQKPKYDNSTEEGRAKNRRVEIFVERKYPPKT</Hsp_hseq>
+      <Hsp_midline>M KK+QHHEEHVDE WL+PY+DMLTLLLALF            + +++S+QFN+IF+G  S  NN G+S     ET E T   D + E+D        L+ +I ++ Y DK+KVE++ DGL I+IQ+ +LFNSG+A+VL +++PLL  IS M       I++ GHTDN  I NSKFRSNWDLSAMRAINVMNFMV +GGI+  KVSIQAY + +PK  N T+E  A+NRRVEIF+ RKYP  T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_173709272.1|</Hit_id>
+  <Hit_def>MULTISPECIES: flagellar motor protein MotB [Clostridium] &gt;gb|MFL0163941.1| flagellar motor protein MotB [Clostridium sp. WILCCON 0112] &gt;gb|NRT74270.1| chemotaxis protein MotB [Clostridium beijerinckii]</Hit_def>
+  <Hit_accession>WP_173709272</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.662</Hsp_bit-score>
+      <Hsp_score>618</Hsp_score>
+      <Hsp_evalue>6.73295e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>MGKKRQHHEEHVDETWLIPYADMLTLLLALF------------QEKKISQQFNVIFSGEKSIQNNGGSSTNQFIETGESTPDGKTEQDTTLDAK------IKQDGYDDKVKVEISKDGLGISIQEAILFNSGDAEVLTHIHPLLISISEM-------IRIAGHTDN--IHNSKFRSNWDLSAMRAINVMNFMVKNGGINITKVSIQAYSEYQPKSTNLTKE--AQNRRVEIFIVRKYPLST</Hsp_qseq>
+      <Hsp_hseq>MSKKKQHHEEHVDEAWLLPYSDMLTLLLALFIVMFAMGQTDKAKLQSMAKEFNIIFAGGSGVMHQDGNSAIPLEESGVS--DNKTEEDKMTEVKKMIEEEIKKEGYSDKVKVDLNNEGLAISIQDVVLFNSGEADVLKDVSQLLLKISHMLYGLDNEIKVAGYTDNVPINNGKFRSNWDLSAMRAINVLNYMVSTGGINQEKISIQAYGEHMPKASNATEDGRAKNRRVEIFVVRKYPVPT</Hsp_hseq>
+      <Hsp_midline>M KK+QHHEEHVDE WL+PY+DMLTLLLALF            + + ++++FN+IF+G   + +  G+S     E+G S  D KTE+D   + K      IK++GY DKVKV+++ +GL ISIQ+ +LFNSG+A+VL  +  LL+ IS M       I++AG+TDN  I+N KFRSNWDLSAMRAINV+N+MV  GGIN  K+SIQAY E+ PK++N T++  A+NRRVEIF+VRKYP+ T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_078114250.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Clostridium beijerinckii] &gt;gb|MZK49591.1| OmpA family protein [Clostridium beijerinckii] &gt;gb|MZK58316.1| OmpA family protein [Clostridium beijerinckii] &gt;gb|MZK68174.1| OmpA family protein [Clostridium beijerinckii] &gt;gb|MZK73259.1| OmpA family protein [Clostridium beijerinckii] &gt;gb|MZK83245.1| OmpA family protein [Clostridium beijerinckii]</Hit_def>
+  <Hit_accession>WP_078114250</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.276</Hsp_bit-score>
+      <Hsp_score>617</Hsp_score>
+      <Hsp_evalue>8.10607e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>MGKKRQHHEEHVDETWLIPYADMLTLLLALF------------QEKKISQQFNVIFSGEKSIQNNGGSSTNQFIETGESTPDGKTEQDTTLDAK------IKQDGYDDKVKVEISKDGLGISIQEAILFNSGDAEVLTHIHPLLISISEM-------IRIAGHTDN--IHNSKFRSNWDLSAMRAINVMNFMVKNGGINITKVSIQAYSEYQPKSTNLTKE--AQNRRVEIFIVRKYPLST</Hsp_qseq>
+      <Hsp_hseq>MSKKKQHHEEHVDEAWLLPYSDMLTLLLALFIVMFAMGQTDKAKLQSMAKEFNIIFAGGSGVMHQDGNSAIPLEESGVS--DNKTEEDKMTEVKKMIEEEIKKEGYSDKVKVDLNNEGLAISIQDVVLFNSGEADVLKDVSQLLLKISHMLYGLDNEIKVAGYTDNVPINNGKFRSNWDLSAMRAINVLNYMVSTGGINQEKISIQAYGEHMPKASNATEDGRAKNRRVEIFVVRKYPVPT</Hsp_hseq>
+      <Hsp_midline>M KK+QHHEEHVDE WL+PY+DMLTLLLALF            + + ++++FN+IF+G   + +  G+S     E+G S  D KTE+D   + K      IK++GY DKVKV+++ +GL ISIQ+ +LFNSG+A+VL  +  LL+ IS M       I++AG+TDN  I+N KFRSNWDLSAMRAINV+N+MV  GGIN  K+SIQAY E+ PK++N T++  A+NRRVEIF+VRKYP+ T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_026885198.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Clostridium beijerinckii]</Hit_def>
+  <Hit_accession>WP_026885198</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.276</Hsp_bit-score>
+      <Hsp_score>617</Hsp_score>
+      <Hsp_evalue>8.37596e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>MGKKRQHHEEHVDETWLIPYADMLTLLLALF------------QEKKISQQFNVIFSGEKSIQNNGGSSTNQFIETGESTPDGKTEQDTTLDAK------IKQDGYDDKVKVEISKDGLGISIQEAILFNSGDAEVLTHIHPLLISISEM-------IRIAGHTDN--IHNSKFRSNWDLSAMRAINVMNFMVKNGGINITKVSIQAYSEYQPKSTNLTKE--AQNRRVEIFIVRKYPLSTNIK</Hsp_qseq>
+      <Hsp_hseq>MSKKKQHHEEHVDEAWLLPYSDMLTLLLALFIVMFAMGQTDKAKFQSMAKEFNMIFAGGTGVMHQDGNSTIPMEESGIS--DNKAEEDKMTEVKKMIEEEIKKEGYSDKVKVDLNSEGLAISIQDVVLFNSGEADVLKDVSQLLLKISHMLYGLDNEIKVAGYTDNVPISNGKFRSNWDLSAMRAINVLNYMVSTGGINQEKISIQAYGEHMPKASNSTEDGRAKNRRVEIFVVRKYPVSTDEK</Hsp_hseq>
+      <Hsp_midline>M KK+QHHEEHVDE WL+PY+DMLTLLLALF            + + ++++FN+IF+G   + +  G+ST    E+G S  D K E+D   + K      IK++GY DKVKV+++ +GL ISIQ+ +LFNSG+A+VL  +  LL+ IS M       I++AG+TDN  I N KFRSNWDLSAMRAINV+N+MV  GGIN  K+SIQAY E+ PK++N T++  A+NRRVEIF+VRKYP+ST+ K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_077867362.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Clostridium saccharobutylicum] &gt;gb|OOM06468.1| motility protein B [Clostridium saccharobutylicum]</Hit_def>
+  <Hit_accession>WP_077867362</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.891</Hsp_bit-score>
+      <Hsp_score>616</Hsp_score>
+      <Hsp_evalue>1.61053e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>MGKKRQHHEEHVDETWLIPYADMLTLLLALF------------QEKKISQQFNVIFSGEKSIQNNGGSSTNQFIETGEST--PDGKTEQDTT------LDAKIKQDGYDDKVKVEISKDGLGISIQEAILFNSGDAEVLTHIHPLLISISEMI-------RIAGHTDNI--HNSKFRSNWDLSAMRAINVMNFMVKNGGINITKVSIQAYSEYQPKSTNLTKE--AQNRRVEIFIVRKYPLST</Hsp_qseq>
+      <Hsp_hseq>MAKKKQHHEEHVDEAWLLPYSDMLTLLLALFIVMFAMGQTDKAKLQQMSKQFNIIFSGGSSFMNNDGNSVVPMEETSEGTGKSDSENEEDKMAQIEKQLNDEISKENYSDKIKVELNNDGLDIAIQDIVLFNSGEADVLQDVNPLLTKISGMLQGLDNQMKVVGHTDNIPISNSKFRSNWDLSAMRAINVMNFMVNSGGISQEKLSIQAYGDQKPKYDNSTEEGRAKNRRVEIFVERKYPSKT</Hsp_hseq>
+      <Hsp_midline>M KK+QHHEEHVDE WL+PY+DMLTLLLALF            + +++S+QFN+IFSG  S  NN G+S     ET E T   D + E+D        L+ +I ++ Y DK+KVE++ DGL I+IQ+ +LFNSG+A+VL  ++PLL  IS M+       ++ GHTDNI   NSKFRSNWDLSAMRAINVMNFMV +GGI+  K+SIQAY + +PK  N T+E  A+NRRVEIF+ RKYP  T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_012060982.1|</Hit_id>
+  <Hit_def>MULTISPECIES: flagellar motor protein MotB [Clostridium] &gt;gb|ABR36937.1| OmpA/MotB domain protein [Clostridium beijerinckii NCIMB 8052] &gt;gb|AIU02953.1| OmpA/MotB domain-containing protein [Clostridium beijerinckii ATCC 35702] &gt;gb|AJH01900.1| chemotaxis protein MotB [Clostridium beijerinckii] &gt;gb|AQS07697.1| motility protein B [Clostridium beijerinckii] &gt;gb|MBA2884326.1| chemotaxis protein MotB [Clostridium beijerinckii]</Hit_def>
+  <Hit_accession>WP_012060982</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>239.965</Hsp_bit-score>
+      <Hsp_score>611</Hsp_score>
+      <Hsp_evalue>6.10826e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>MGKKRQHHEEHVDETWLIPYADMLTLLLALF------------QEKKISQQFNVIFSGEKSIQNNGGSSTNQFIETGESTPDGKTEQDTTLDAK------IKQDGYDDKVKVEISKDGLGISIQEAILFNSGDAEVLTHIHPLLISISEM-------IRIAGHTDN--IHNSKFRSNWDLSAMRAINVMNFMVKNGGINITKVSIQAYSEYQPKSTNLTKE--AQNRRVEIFIVRKYPLST</Hsp_qseq>
+      <Hsp_hseq>MSKKKQHHEEHVDEAWLLPYSDMLTLLLALFIVMFAMGQTDKAKFQSMAKEFNMIFAGGTGVMHQDGNSAISMEESGVS--DNKAEEDKMTEVKKMIEEEIKKEGYSDKVKVDLNSEGLAISIQDVVLFNSGEADVLKDVSQLLLKISHMLYGLDNEIKVAGYTDNVPINNGKFRSNWDLSAMRAINVLNYMVSTGGINQEKISIQAYGEHMPKASNATEDGRAKNRRVEIFVVRKYPVPT</Hsp_hseq>
+      <Hsp_midline>M KK+QHHEEHVDE WL+PY+DMLTLLLALF            + + ++++FN+IF+G   + +  G+S     E+G S  D K E+D   + K      IK++GY DKVKV+++ +GL ISIQ+ +LFNSG+A+VL  +  LL+ IS M       I++AG+TDN  I+N KFRSNWDLSAMRAINV+N+MV  GGIN  K+SIQAY E+ PK++N T++  A+NRRVEIF+VRKYP+ T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_119365915.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Clostridium chromiireducens] &gt;gb|MVX62944.1| OmpA family protein [Clostridium chromiireducens] &gt;gb|RII36720.1| chemotaxis protein MotB [Clostridium chromiireducens]</Hit_def>
+  <Hit_accession>WP_119365915</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>239.965</Hsp_bit-score>
+      <Hsp_score>611</Hsp_score>
+      <Hsp_evalue>6.58628e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>MGKKRQHHEEHVDETWLIPYADMLTLLLALF------------QEKKISQQFNVIFSGEKSIQNNGGSSTNQFIETGES----TPDGKTEQDTT------LDAKIKQDGYDDKVKVEISKDGLGISIQEAILFNSGDAEVLTHIHPLLISISEM-------IRIAGHTDN--IHNSKFRSNWDLSAMRAINVMNFMVKNGGINITKVSIQAYSEYQPKSTNLTKE--AQNRRVEIFIVRKYPL</Hsp_qseq>
+      <Hsp_hseq>MSRKKQHHEEHVDEAWLLPYSDMLTLLLALFIVMFAMGQTDKAKMQAMAKEFNIIFAGGSGMMEKDGNSMIPMEDAGESDSISTNDSQIEEDKMTEIKKKLEQEIKQEGYADKIKVDLNGEGLDIAIQDVVLFNSGEADVLKEVSPVLLKISKMLNGLDNQIRVAGYTDNVPISNGKFRSNWDLSAMRAINVMNFMVSSGGIKQDNVSIQAYGEYKPKTSNSTEEGKAQNRRVEIYVVRNFPV</Hsp_hseq>
+      <Hsp_midline>M +K+QHHEEHVDE WL+PY+DMLTLLLALF            + + ++++FN+IF+G   +    G+S     + GES    T D + E+D        L+ +IKQ+GY DK+KV+++ +GL I+IQ+ +LFNSG+A+VL  + P+L+ IS+M       IR+AG+TDN  I N KFRSNWDLSAMRAINVMNFMV +GGI    VSIQAY EY+PK++N T+E  AQNRRVEI++VR +P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_079437995.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Clostridium chromiireducens] &gt;gb|OPJ65827.1| motility protein B [Clostridium chromiireducens]</Hit_def>
+  <Hit_accession>WP_079437995</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>239.965</Hsp_bit-score>
+      <Hsp_score>611</Hsp_score>
+      <Hsp_evalue>7.1064e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>MGKKRQHHEEHVDETWLIPYADMLTLLLALF------------QEKKISQQFNVIFSGEKSIQNNGGSSTNQFIETGES----TPDGKTEQDTT------LDAKIKQDGYDDKVKVEISKDGLGISIQEAILFNSGDAEVLTHIHPLLISISEM-------IRIAGHTDN--IHNSKFRSNWDLSAMRAINVMNFMVKNGGINITKVSIQAYSEYQPKSTNLTKE--AQNRRVEIFIVRKYPL</Hsp_qseq>
+      <Hsp_hseq>MSRKKQHHEEHVDEAWLLPYSDMLTLLLALFIVMFAMGQTDKAKMQAMAKEFNIIFAGGSGMMEKDGNSMIPMEDAGESDSISTNDSQIEEDKMTEIKKKLEQEIKQEGYADKIKVDLNGEGLDIAIQDVVLFNSGEADVLKEVSPVLLKISKMLNGLDNQIRVAGYTDNVPISNGKFRSNWDLSAMRAINVMNFMVSSGGIKQDNVSIQAYGEYKPKTSNSTEEGKAQNRRVEIYVVRNFPV</Hsp_hseq>
+      <Hsp_midline>M +K+QHHEEHVDE WL+PY+DMLTLLLALF            + + ++++FN+IF+G   +    G+S     + GES    T D + E+D        L+ +IKQ+GY DK+KV+++ +GL I+IQ+ +LFNSG+A+VL  + P+L+ IS+M       IR+AG+TDN  I N KFRSNWDLSAMRAINVMNFMV +GGI    VSIQAY EY+PK++N T+E  AQNRRVEI++VR +P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_008429357.1|</Hit_id>
+  <Hit_def>MULTISPECIES: flagellar motor protein MotB [unclassified Clostridium] &gt;gb|EKQ50383.1| MAG: flagellar motor protein [Clostridium sp. Maddingley MBC34-26]</Hit_def>
+  <Hit_accession>WP_008429357</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>239.965</Hsp_bit-score>
+      <Hsp_score>611</Hsp_score>
+      <Hsp_evalue>9.12623e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>MGKKRQHHEEHVDETWLIPYADMLTLLLALF-------QEKK-----ISQQFNVIFSGEKSIQNNGGSSTNQFIETGESTPDGKTEQD----------TTLDAKIKQDGYDDKVKVEISKDGLGISIQEAILFNSGDAEVLTHIHPLLISISEM-------IRIAGHTDN--IHNSKFRSNWDLSAMRAINVMNFMVKNGGINITKVSIQAYSEYQPKSTNLTKE--AQNRRVEIFIVRKYPLSTNIK</Hsp_qseq>
+      <Hsp_hseq>MSRKKQHHEEHVDEAWLLPYSDMLTLLLALFIVMFAMGQTDKNKLAAMAKEFNVIFSGGPGQMSKDGNAAIPMEEAGTSDSLGASDSQIEEQKMNQIKNMLDKEIKEEGYSDKIKVDVNGEGLEIAIQDVVLFNSGEADVLKEVSPLLLKISNMLKSLDNQIRVAGYTDNVPISNSKFRSNWDLSAMRAINVMNFMVTSGGIKQDNVSIQAYGEYKPKTTNSTDEGKAQNRRVEIYVVRNFPVAADGK</Hsp_hseq>
+      <Hsp_midline>M +K+QHHEEHVDE WL+PY+DMLTLLLALF       Q  K     ++++FNVIFSG     +  G++     E G S   G ++              LD +IK++GY DK+KV+++ +GL I+IQ+ +LFNSG+A+VL  + PLL+ IS M       IR+AG+TDN  I NSKFRSNWDLSAMRAINVMNFMV +GGI    VSIQAY EY+PK+TN T E  AQNRRVEI++VR +P++ + K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_077856968.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Clostridium beijerinckii] &gt;gb|NSB12346.1| chemotaxis protein MotB [Clostridium beijerinckii] &gt;gb|OOM19419.1| motility protein B [Clostridium beijerinckii]</Hit_def>
+  <Hit_accession>WP_077856968</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>238.81</Hsp_bit-score>
+      <Hsp_score>608</Hsp_score>
+      <Hsp_evalue>2.23898e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>MGKKRQHHEEHVDETWLIPYADMLTLLLALF------------QEKKISQQFNVIFSGEKSIQNNGGSSTNQFIETGESTPDGKTEQDTTLDAK------IKQDGYDDKVKVEISKDGLGISIQEAILFNSGDAEVLTHIHPLLISISEM-------IRIAGHTDN--IHNSKFRSNWDLSAMRAINVMNFMVKNGGINITKVSIQAYSEYQPKSTNLTKE--AQNRRVEIFIVRKYPL</Hsp_qseq>
+      <Hsp_hseq>MSKKKQHHEEHVDEAWLLPYSDMLTLLLALFIVMFAMGQTDKAKFQSMAKEFNMIFAGGTGVMHQDGNSAISMEESGVS--DNKAEEDKMTEVKKMIEEEIKKEGYSDKVKVDLNSEGLAISIQDVVLFNSGEADVLKDVSQLLLKISHMLYGLDNEIKVAGYTDNVPINNGKFRSNWDLSAMRAINVLNYMVSTGGINQEKISIQAYGEHMPKASNATEDGRAKNRRVEIFVVRKYPV</Hsp_hseq>
+      <Hsp_midline>M KK+QHHEEHVDE WL+PY+DMLTLLLALF            + + ++++FN+IF+G   + +  G+S     E+G S  D K E+D   + K      IK++GY DKVKV+++ +GL ISIQ+ +LFNSG+A+VL  +  LL+ IS M       I++AG+TDN  I+N KFRSNWDLSAMRAINV+N+MV  GGIN  K+SIQAY E+ PK++N T++  A+NRRVEIF+VRKYP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>877781531</Statistics_db-num>
+      <Statistics_db-len>334720180573</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

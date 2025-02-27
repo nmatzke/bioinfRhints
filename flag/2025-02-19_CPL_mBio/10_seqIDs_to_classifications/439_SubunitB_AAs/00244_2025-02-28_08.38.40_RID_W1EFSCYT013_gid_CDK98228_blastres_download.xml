@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_304909</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>197</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_304909</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>197</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_024079259.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Magnetospirillum gryphiswaldense] &gt;emb|CDK98227.1| putative flagellar motor apparatus component [Magnetospirillum gryphiswaldense MSR-1 v2]</Hit_def>
+  <Hit_accession>WP_024079259</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>381.333</Hsp_bit-score>
+      <Hsp_score>978</Hsp_score>
+      <Hsp_evalue>2.16029e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MSLFEKKQSQEVDASWMETYGDMVTLLLCFF----------TVLFEKVQSGMTSEIGKQPP--PIENMRQELTQAAATVQGSDDA---GTDDRGVVMNLDAGAMFTPGSADIKPTMVPLLKELAGTLNQPRFDNYRLEIQGHTDSTPVKTAQFPSNFDLASARALATMRAFVSLGVAESKMIVAAYGQYAPRVPNT-EDG-------ALNRRVAIHIYPR</Hsp_qseq>
+      <Hsp_hseq>MSLFEKKQSQEVDASWMETYGDMVTLLLCFFIMLASISKIDTVLFEKVQSGMTSEIGKQPPQRPIENMRQELTQAAATVQGSDDAVDVGTDDRGVVMNLDAGAMFTPGSADIKPTMVPLLKELAGTLNQPRFDNYRLEIQGHTDSTPVKTAQFPSNFDLASARALATMRAFVSLGVAESKMIVAAYGQYAPRVPNTLEDGTPLPANQALNRRVAIHIYPR</Hsp_hseq>
+      <Hsp_midline>MSLFEKKQSQEVDASWMETYGDMVTLLLCFF          TVLFEKVQSGMTSEIGKQPP  PIENMRQELTQAAATVQGSDDA   GTDDRGVVMNLDAGAMFTPGSADIKPTMVPLLKELAGTLNQPRFDNYRLEIQGHTDSTPVKTAQFPSNFDLASARALATMRAFVSLGVAESKMIVAAYGQYAPRVPNT EDG       ALNRRVAIHIYPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_106001866.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Magnetospirillum gryphiswaldense] &gt;gb|AVM73743.1| motility protein B2 [Magnetospirillum gryphiswaldense MSR-1] &gt;gb|AVM77646.1| motility protein B2 [Magnetospirillum gryphiswaldense] &gt;emb|CAM76800.1| OmpA/MotB [Magnetospirillum gryphiswaldense MSR-1]</Hit_def>
+  <Hit_accession>WP_106001866</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>375.17</Hsp_bit-score>
+      <Hsp_score>962</Hsp_score>
+      <Hsp_evalue>6.91897e-130</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MSLFEKKQSQEVDASWMETYGDMVTLLLCFF----------TVLFEKVQSGMTSEIGKQPP--PIENMRQELTQAAATVQGSDDA---GTDDRGVVMNLDAGAMFTPGSADIKPTMVPLLKELAGTLNQPRFDNYRLEIQGHTDSTPVKTAQFPSNFDLASARALATMRAFVSLGVAESKMIVAAYGQYAPRVPNT-EDG-------ALNRRVAIHIYPR</Hsp_qseq>
+      <Hsp_hseq>MSLFEKKQSQEVDSSWMETYGDMVTLLLCFFILLASISKVDSVIYEKVQSGMTSEIGKQPPQRPIENMRQELTQAAATVQGSDDAVDVGTDDRGVVMNLDAGAMFTPGSADIKPTMVPLLKELAGTLNQPRFDNYRLEIQGHTDSTPVKTAQFPSNFDLASARALATMRAFVSLGVAESKMIVAAYGQFAPRVPNTLEDGTPLPANQALNRRVAIHIYPR</Hsp_hseq>
+      <Hsp_midline>MSLFEKKQSQEVD+SWMETYGDMVTLLLCFF          +V++EKVQSGMTSEIGKQPP  PIENMRQELTQAAATVQGSDDA   GTDDRGVVMNLDAGAMFTPGSADIKPTMVPLLKELAGTLNQPRFDNYRLEIQGHTDSTPVKTAQFPSNFDLASARALATMRAFVSLGVAESKMIVAAYGQ+APRVPNT EDG       ALNRRVAIHIYPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|KAF0220013.1|</Hit_id>
+  <Hit_def>MAG: hypothetical protein FD176_3401 [Rhodospirillaceae bacterium]</Hit_def>
+  <Hit_accession>KAF0220013</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.474</Hsp_bit-score>
+      <Hsp_score>955</Hsp_score>
+      <Hsp_evalue>6.5536e-129</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MSLFEKKQSQEVDASWMETYGDMVTLLLCFF----------TVLFEKVQSGMTSEIGKQPP--PIENMRQELTQAAATVQGSDDA---GTDDRGVVMNLDAGAMFTPGSADIKPTMVPLLKELAGTLNQPRFDNYRLEIQGHTDSTPVKTAQFPSNFDLASARALATMRAFVSLGVAESKMIVAAYGQYAPRVPNT-EDG-------ALNRRVAIHIYPR</Hsp_qseq>
+      <Hsp_hseq>MSLFEKKQSQEVDSSWMETYGDMVTLLLCFFIMLASISKVDTVLFEKVQSGMTSEIGKQPPQRPIENMRQELTQAAATVQGSDDAVDVGTDDRGVVLNLDAGAMFAPASADIKPTMVPLLKELAGTLNQPRFDNYRLEIQGHTDSSPVKTAQFPSNFDLASARALATMRAFVALGVAESKMIVAAYGQYAPRVPNTLEDGTPLPANQALNRRVAIHIYPR</Hsp_hseq>
+      <Hsp_midline>MSLFEKKQSQEVD+SWMETYGDMVTLLLCFF          TVLFEKVQSGMTSEIGKQPP  PIENMRQELTQAAATVQGSDDA   GTDDRGVV+NLDAGAMF P SADIKPTMVPLLKELAGTLNQPRFDNYRLEIQGHTDS+PVKTAQFPSNFDLASARALATMRAFV+LGVAESKMIVAAYGQYAPRVPNT EDG       ALNRRVAIHIYPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_291717011.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Magnetospirillum sp. 64-120] &gt;gb|OJX81137.1| MAG: hypothetical protein BGO92_08710 [Magnetospirillum sp. 64-120]</Hit_def>
+  <Hit_accession>WP_291717011</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>341.658</Hsp_bit-score>
+      <Hsp_score>875</Hsp_score>
+      <Hsp_evalue>1.1989e-116</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MSLFEKKQSQEVDASWMETYGDMVTLLLCFF----------TVLFEKVQSGMTSEIGKQPP--PIENMRQELTQAAATVQGSDDA---GTDDRGVVMNLDAGAMFTPGSADIKPTMVPLLKELAGTLNQPRFDNYRLEIQGHTDSTPVKTAQFPSNFDLASARALATMRAFVSLGVAESKMIVAAYGQYAPRVPNT-EDG-------ALNRRVAIHIYPR</Hsp_qseq>
+      <Hsp_hseq>MSLFEKKQSQEVDASWMETYGDMVTLLLCFFIMLASISKIDTVLFEKVQSGMTSEIGKQPPQRPIETMKQELTQAAANVQGSDDAVDVGTDDRGVVLNLDSGAMFDPGSANIKPGMMPLLKELVGTFQQPRFENYRLEIQGHTDNTPVKTAQFPSNFDLAAARALATMRAFAALGMKEEKMIVSAYGQYAPRVPNTLEDGTPLPANQSLNRRVAVHVFPR</Hsp_hseq>
+      <Hsp_midline>MSLFEKKQSQEVDASWMETYGDMVTLLLCFF          TVLFEKVQSGMTSEIGKQPP  PIE M+QELTQAAA VQGSDDA   GTDDRGVV+NLD+GAMF PGSA+IKP M+PLLKEL GT  QPRF+NYRLEIQGHTD+TPVKTAQFPSNFDLA+ARALATMRAF +LG+ E KMIV+AYGQYAPRVPNT EDG       +LNRRVA+H++PR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|MCA1907673.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Magnetospirillum sp.]</Hit_def>
+  <Hit_accession>MCA1907673</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>335.495</Hsp_bit-score>
+      <Hsp_score>859</Hsp_score>
+      <Hsp_evalue>2.69523e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MSLFEKKQSQEVDASWMETYGDMVTLLLCFF----------TVLFEKVQSGMTSEIGKQPP--PIENMRQELTQAAATVQGSDDA---GTDDRGVVMNLDAGAMFTPGSADIKPTMVPLLKELAGTLNQPRFDNYRLEIQGHTDSTPVKTAQFPSNFDLASARALATMRAFVSLGVAESKMIVAAYGQYAPRVPNT-EDG-------ALNRRVAIHIYPR</Hsp_qseq>
+      <Hsp_hseq>MSLFQKRSSPEVDSSWMETYGDMVTLLLCFFIMLASISKIDTVLFEKVQSGMTKEIGKQPPQRPIETMKQELTQAAANVQGSDDAVDVGTDDKGVVLNLDSGAMFAPGSADIKPGMMPLLKELVGTFQQPRFENYRLEIQGHTDNTPVKTAQFPSNFDLAAARALATMRAFVALGMKEDKMIVSAYGQYAPRVPNTLEDGTPLPANQSLNRRVAVHVYPR</Hsp_hseq>
+      <Hsp_midline>MSLF+K+ S EVD+SWMETYGDMVTLLLCFF          TVLFEKVQSGMT EIGKQPP  PIE M+QELTQAAA VQGSDDA   GTDD+GVV+NLD+GAMF PGSADIKP M+PLLKEL GT  QPRF+NYRLEIQGHTD+TPVKTAQFPSNFDLA+ARALATMRAFV+LG+ E KMIV+AYGQYAPRVPNT EDG       +LNRRVA+H+YPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|MBI2241362.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Magnetospirillum gryphiswaldense]</Hit_def>
+  <Hit_accession>MBI2241362</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>326.635</Hsp_bit-score>
+      <Hsp_score>836</Hsp_score>
+      <Hsp_evalue>1.00163e-110</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MSLFEKKQSQEVDASWMETYGDMVTLLLCFF----------TVLFEKVQSGMTSEIGKQPP--PIENMRQELTQAAATVQGSDDA---GTDDRGVVMNLDAGAMFTPGSADIKPTMVPLLKELAGTLNQPRFDNYRLEIQGHTDSTPVKTAQFPSNFDLASARALATMRAFVSLGVAESKMIVAAYGQYAPRVPNT-EDG-------ALNRRVAIHIYPR</Hsp_qseq>
+      <Hsp_hseq>MSLFQKKPSLEPDSSWMETYGDMVTLLLCFFIILASISKIDTVLFEKVQSGMTKEIGKQPPQRPIETMKQELTQAAANVQGSDDAVDVGTDDRGVVLNLDSGAMFDLGSANIKPGMMPLLKELVGTFQQPRFENYRLEIQGHTDNTPVKTAQFPSNFDLAAARALATMRAFVALGMKEEKMIVSAYGQYAPRVPNTLEDGTPLPANQSLNRRVAVHVFPR</Hsp_hseq>
+      <Hsp_midline>MSLF+KK S E D+SWMETYGDMVTLLLCFF          TVLFEKVQSGMT EIGKQPP  PIE M+QELTQAAA VQGSDDA   GTDDRGVV+NLD+GAMF  GSA+IKP M+PLLKEL GT  QPRF+NYRLEIQGHTD+TPVKTAQFPSNFDLA+ARALATMRAFV+LG+ E KMIV+AYGQYAPRVPNT EDG       +LNRRVA+H++PR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_211545932.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Magnetospirillum sulfuroxidans] &gt;gb|MBR9970439.1| flagellar motor protein MotB [Magnetospirillum sulfuroxidans]</Hit_def>
+  <Hit_accession>WP_211545932</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>319.316</Hsp_bit-score>
+      <Hsp_score>817</Hsp_score>
+      <Hsp_evalue>8.01614e-108</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MSLFEKKQSQEVDASWMETYGDMVTLLLCFF----------TVLFEKVQSGMTSEIGKQPP--PIENMRQELTQAAATVQGSD---DAGTDDRGVVMNLDAGAMFTPGSADIKPTMVPLLKELAGTLNQPRFDNYRLEIQGHTDSTPVKTAQFPSNFDLASARALATMRAFVSLGVAESKMIVAAYGQYAPRVPNT-EDG-------ALNRRVAIHIYPR</Hsp_qseq>
+      <Hsp_hseq>MSLFQNKRSNEVDASWMETYGDMVTLLLCFFIMLASISKIDTVLFEKVQSGMTKEIGKQPPQRPIESMRKELADVVTAFQGGDEAADVGTDERGVVLNLDSGAMFAPGSADIKPGMVPLMKELVGTLAQPRFENYRLEIQGHTDNVPVKTATFASNFDLSSARALATMRALVSLGLSESKMIVAAYGQFSPRVPNTLEDGTPLPANQALNRRVAIHVYPR</Hsp_hseq>
+      <Hsp_midline>MSLF+ K+S EVDASWMETYGDMVTLLLCFF          TVLFEKVQSGMT EIGKQPP  PIE+MR+EL       QG D   D GTD+RGVV+NLD+GAMF PGSADIKP MVPL+KEL GTL QPRF+NYRLEIQGHTD+ PVKTA F SNFDL+SARALATMRA VSLG++ESKMIVAAYGQ++PRVPNT EDG       ALNRRVAIH+YPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_173980686.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Magnetospirillum sp. UT-4] &gt;emb|CAA7615245.1| OmpA/MotB [Magnetospirillum sp. UT-4]</Hit_def>
+  <Hit_accession>WP_173980686</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>269.24</Hsp_bit-score>
+      <Hsp_score>687</Hsp_score>
+      <Hsp_evalue>3.93744e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MSLFEKKQSQEVDASWMETYGDMVTLLLCFF----------TVLFEKVQSGMTSEIGKQPP--PIENMRQELTQAA---ATVQGSDDAGTDDRGVVMNLDAGAMFTPGSADIKPTMVPLLKELAGTLNQPRFDNYRLEIQGHTDSTPVKTAQFPSNFDLASARALATMRAFVSLGVAESKMIVAAYGQYAPRVPN-TEDG-------ALNRRVAIHIYPR</Hsp_qseq>
+      <Hsp_hseq>MSAFEKKAPQEPDGSWMETYGDMVTLLLCFFILLASVSKVDSVLYEQVQSGMTSEIGKQPPQRPIESMRKELTEVVNAAAGGSDAADVATDDRGVVLNLDAGALFQPGSAEIKSELQPLLKEVVETLVQPRFETYRFEIQGHTDDTPVQTAQFPSNFDLAAARALSTMRAMVALGLPAERILVTSFGPFAPRVPNRLEDGTPLPANQGLNRRVAVHVYPR</Hsp_hseq>
+      <Hsp_midline>MS FEKK  QE D SWMETYGDMVTLLLCFF          +VL+E+VQSGMTSEIGKQPP  PIE+MR+ELT+     A    + D  TDDRGVV+NLDAGA+F PGSA+IK  + PLLKE+  TL QPRF+ YR EIQGHTD TPV+TAQFPSNFDLA+ARAL+TMRA V+LG+   +++V ++G +APRVPN  EDG        LNRRVA+H+YPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_163674827.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Magnetospirillum aberrantis] &gt;gb|NFV79087.1| flagellar motor protein MotB [Magnetospirillum aberrantis SpK]</Hit_def>
+  <Hit_accession>WP_163674827</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.7</Hsp_bit-score>
+      <Hsp_score>683</Hsp_score>
+      <Hsp_evalue>1.84082e-87</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>KQSQEVDASWMETYGDMVTLLLCFF----------TVLFEKVQSGMTSEIGKQPP--PIENMRQELTQAAATVQGSD---DAGTDDRGVVMNLDAGAMFTPGSADIKPTMVPLLKELAGTLNQPRFDNYRLEIQGHTDSTPVKTAQFPSNFDLASARALATMRAFVSLGVAESKMIVAAYGQYAPRVPN-TEDG-------ALNRRVAIHIYPR</Hsp_qseq>
+      <Hsp_hseq>RKPAEVDSSWMETYGDMVTLLLCFFILLASISKIDTVLYEKVQSGMTKEIGKMPPQRPIEDMKKELTEVVSAMSGGDAMADVATDDRGVVMNLDAGAMFKPGSAEVRSEAMPLLKEMATTLGHPRFATYLLEIQGHTDDTPVATAQYPTNFDLAAARALSTMRVMKSLGIEESRMIVAAFGQYKPRVPNRTPEGTPLPVNQALNRRVSVHVVPH</Hsp_hseq>
+      <Hsp_midline>++  EVD+SWMETYGDMVTLLLCFF          TVL+EKVQSGMT EIGK PP  PIE+M++ELT+  + + G D   D  TDDRGVVMNLDAGAMF PGSA+++   +PLLKE+A TL  PRF  Y LEIQGHTD TPV TAQ+P+NFDLA+ARAL+TMR   SLG+ ES+MIVAA+GQY PRVPN T +G       ALNRRV++H+ P </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_173974367.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Magnetospirillum sp. LM-5] &gt;emb|CAA7613853.1| OmpA/MotB [Magnetospirillum sp. LM-5]</Hit_def>
+  <Hit_accession>WP_173974367</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>266.159</Hsp_bit-score>
+      <Hsp_score>679</Hsp_score>
+      <Hsp_evalue>7.80511e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MSLFEKKQSQEVDASWMETYGDMVTLLLCFF----------TVLFEKVQSGMTSEIGKQPP--PIENMRQELTQ---AAATVQGSDDAGTDDRGVVMNLDAGAMFTPGSADIKPTMVPLLKELAGTLNQPRFDNYRLEIQGHTDSTPVKTAQFPSNFDLASARALATMRAFVSLGVAESKMIVAAYGQYAPRVPN-TEDG-------ALNRRVAIHIYPR</Hsp_qseq>
+      <Hsp_hseq>MSRFEQKK-EEVDGSWMETYGDMVTLLLCFFILMASVSKVDSTLYEKVQSGMTSEMGKQPSERPIETLKNELAQVINALDTTGQAADVGTDDRGVVLNLDSGAMFTAGSAEMKPEFMPLMRELVATLNNPRFAAYRFEIQGHTDDTPVKTPQFPSNFDLAAARALVTMRALASLGLPPEQMVVSSYGQFAPRVPNRREDGTALPINQTLNRRVSIHVNPR</Hsp_hseq>
+      <Hsp_midline>MS FE+K+ +EVD SWMETYGDMVTLLLCFF          + L+EKVQSGMTSE+GKQP   PIE ++ EL Q   A  T   + D GTDDRGVV+NLD+GAMFT GSA++KP  +PL++EL  TLN PRF  YR EIQGHTD TPVKT QFPSNFDLA+ARAL TMRA  SLG+   +M+V++YGQ+APRVPN  EDG        LNRRV+IH+ PR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_068497597.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Magnetospirillum moscoviense] &gt;gb|OAN58027.1| hypothetical protein A6A05_07600 [Magnetospirillum moscoviense]</Hit_def>
+  <Hit_accession>WP_068497597</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>265.774</Hsp_bit-score>
+      <Hsp_score>678</Hsp_score>
+      <Hsp_evalue>8.4265e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MSLFEKKQSQEVDASWMETYGDMVTLLLCFF----------TVLFEKVQSGMTSEIGKQPP--PIENMRQELTQ---AAATVQGSDDAGTDDRGVVMNLDAGAMFTPGSADIKPTMVPLLKELAGTLNQPRFDNYRLEIQGHTDSTPVKTAQFPSNFDLASARALATMRAFVSLGVAESKMIVAAYGQYAPRVPN-TEDG-------ALNRRVAIHIYPR</Hsp_qseq>
+      <Hsp_hseq>MSRFEQKK-EEVDGSWMETYGDMVTLLLCFFILMASVSKVDSTLYEKVQSGMTSEMGKHPSERPIETLKNELAQVINALDTTGQAADVGTDDRGVVLNLDSGAMFTAGSAEMKPEFMPLMRELVATLNNPRFAAYRFEIQGHTDDTPVKTPQFPSNFDLAAARALVTMRALASLGLPPEQMIVASYGQFAPRVPNRREDGTALPINQTLNRRVSIHVNPR</Hsp_hseq>
+      <Hsp_midline>MS FE+K+ +EVD SWMETYGDMVTLLLCFF          + L+EKVQSGMTSE+GK P   PIE ++ EL Q   A  T   + D GTDDRGVV+NLD+GAMFT GSA++KP  +PL++EL  TLN PRF  YR EIQGHTD TPVKT QFPSNFDLA+ARAL TMRA  SLG+   +MIVA+YGQ+APRVPN  EDG        LNRRV+IH+ PR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|MBF0325882.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Alphaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MBF0325882</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>260.766</Hsp_bit-score>
+      <Hsp_score>665</Hsp_score>
+      <Hsp_evalue>8.53261e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MSLFEKKQSQEVDASWMETYGDMVTLLLCFF----------TVLFEKVQSGMTSEIGKQPP--PIENMRQELTQ---AAATVQGSDDAGTDDRGVVMNLDAGAMFTPGSADIKPTMVPLLKELAGTLNQPRFDNYRLEIQGHTDSTPVKTAQFPSNFDLASARALATMRAFVSLGVAESKMIVAAYGQYAPRVPN-TEDG-------ALNRRVAIHIYPR</Hsp_qseq>
+      <Hsp_hseq>MSRFEKKK-EEVDGSWMDTYGDMVTLLLCFFILLASVSKVDSTLYEQVQSGMTSEMGKSQSERPIETLKNELAQVINALDTTGQAADVGTDDRGVVLNLDSGAMFTAGSAEMKPEFMPLMRELVATLNNPRFAAYRFEIQGHTDDTPVKTPQFPSNFDLAAARALVTMRALASLGLPPEQMIVASYGQFAPRVPNRREDGTALPINQTLNRRVSIHVNPR</Hsp_hseq>
+      <Hsp_midline>MS FEKK+ +EVD SWM+TYGDMVTLLLCFF          + L+E+VQSGMTSE+GK     PIE ++ EL Q   A  T   + D GTDDRGVV+NLD+GAMFT GSA++KP  +PL++EL  TLN PRF  YR EIQGHTD TPVKT QFPSNFDLA+ARAL TMRA  SLG+   +MIVA+YGQ+APRVPN  EDG        LNRRV+IH+ PR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|MEW5726445.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Pseudomonadota bacterium]</Hit_def>
+  <Hit_accession>MEW5726445</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.144</Hsp_bit-score>
+      <Hsp_score>653</Hsp_score>
+      <Hsp_evalue>7.49247e-83</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MSLFEKKQSQE-VDASWMETYGDMVTLLLCFF----------TVLFEKVQSGMTSEIGKQPP--PIENMRQELTQ--AAATVQGSDDAGTDDRGVVMNLDAGAMFTPGSADIKPTMVPLLKELAGTLNQPRFDNYRLEIQGHTDSTPVKTAQFPSNFDLASARALATMRAFVSLGVAESKMIVAAYGQYAPRVPNT-EDG-------ALNRRVAIHIYPR</Hsp_qseq>
+      <Hsp_hseq>MSLLDRKGGPPPVDESWMGTYGDMVTLLLCFFILLAAISKVDTVLFEAVQSGMTKEIGKMPPQRPIESMKREMMDVVAAYDSQNATDVGTDDRGLVLNLDGGTLFQPGSAELKPEIMTLLKEMATTLANVRFENYRIEIQGHTDNVPVATAQFPSNFDLAAARALSTMRALVSFGVPESRILVSSFGAYAPRAPNTLDDGTPLPANQALNRRVSIRVYPR</Hsp_hseq>
+      <Hsp_midline>MSL ++K     VD SWM TYGDMVTLLLCFF          TVLFE VQSGMT EIGK PP  PIE+M++E+    AA   Q + D GTDDRG+V+NLD G +F PGSA++KP ++ LLKE+A TL   RF+NYR+EIQGHTD+ PV TAQFPSNFDLA+ARAL+TMRA VS GV ES+++V+++G YAPR PNT +DG       ALNRRV+I +YPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|MBX9634814.1|</Hit_id>
+  <Hit_def>OmpA family protein [Magnetospirillum sp.]</Hit_def>
+  <Hit_accession>MBX9634814</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.787</Hsp_bit-score>
+      <Hsp_score>569</Hsp_score>
+      <Hsp_evalue>3.39638e-70</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>QSQEVDASWMETYGDMVTLLLCFFTVL----------FEKVQSGMTSEIGKQPP--PIENMRQELTQAAATVQGSDDA---GTDDRGVVMNLDAGAMFTPGSADIKPTMVPLLKELAGTLNQPRFDNYRLEIQGHTDSTPVKTAQFPSNFDLASARALATMRAFVSLGVAESKMIVAAYGQYAPRVPN-TEDG-------ALNRRVAIHIYPR</Hsp_qseq>
+      <Hsp_hseq>KNEEPMEDWLLSYADMITLLMAFFVMLAAISKVDANLYEKVQSGMAQDVGNRNSARPIETIRKELAQTISATKGGDDAVDVGTDERGVVLNLDANAMFKPGSAEMRPEIMPVIKGISDTLNNERFATYRIEVQGHTDDIPVKTAQFPSNFDLAAARALIAMRTLASLGLPEERMLMSSFGQYAPRAPNHREDGTPLPVNQSLNRRVSIHVYPH</Hsp_hseq>
+      <Hsp_midline>+++E    W+ +Y DM+TLL+ FF +L          +EKVQSGM  ++G +    PIE +R+EL Q  +  +G DDA   GTD+RGVV+NLDA AMF PGSA+++P ++P++K ++ TLN  RF  YR+E+QGHTD  PVKTAQFPSNFDLA+ARAL  MR   SLG+ E +M+++++GQYAPR PN  EDG       +LNRRV+IH+YP </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|MDO8606416.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Phaeospirillum sp.]</Hit_def>
+  <Hit_accession>MDO8606416</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.55</Hsp_bit-score>
+      <Hsp_score>558</Hsp_score>
+      <Hsp_evalue>1.64201e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MSLFEKKQSQEVDASWMETYGDMVTLLLCFFTVL----------FEKVQSGMTSEIGKQP--PPIENMRQELTQ--AAATVQGSDDAGTDDRGVVMNLDAGAMFTPGSADIKPTMVPLLKELAGTLNQPRFDNYRLEIQGHTDSTPVKTAQFPSNFDLASARALATMRAFVSLGVAESKMIVAAYGQYAPRVPNTEDG--------ALNRRVAIHIYPR</Hsp_qseq>
+      <Hsp_hseq>MSKF-AKHNKEAAEDWLLSYADMITLLMAFFIVLVSMSKIDPNKYEEVQAGMAKDVGNREVTKPLQDMKSELLGEVAGAGVEDSVDVGKDDRGIVLNLASGAMFKPGSADIRPEILPLIKEITGTLNQKRFENYQIEIQGHTDDTPVRTQQFPTNWDLSAARALSTLKLLGDLGISQARMKIAAMADTAPRVPNRSDSGKPYPENQAINRRVEIHIYPR</Hsp_hseq>
+      <Hsp_midline>MS F  K ++E    W+ +Y DM+TLL+ FF VL          +E+VQ+GM  ++G +    P+++M+ EL    A A V+ S D G DDRG+V+NL +GAMF PGSADI+P ++PL+KE+ GTLNQ RF+NY++EIQGHTD TPV+T QFP+N+DL++ARAL+T++    LG+++++M +AA    APRVPN  D         A+NRRV IHIYPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|MCR6632011.1|</Hit_id>
+  <Hit_def>OmpA family protein [Magnetospirillum sp.]</Hit_def>
+  <Hit_accession>MCR6632011</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.779</Hsp_bit-score>
+      <Hsp_score>556</Hsp_score>
+      <Hsp_evalue>4.09969e-68</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>FEKKQSQEVDASWMETYGDMVTLLLCFFTVL----------FEKVQSGMTSEIGKQ--PPPIENMRQELTQAAATVQGSDDA---GTDDRGVVMNLDAGAMFTPGSADIKPTMVPLLKELAGTLNQPRFDNYRLEIQGHTDSTPVKTAQFPSNFDLASARALATMRAFVSLGVAESKMIVAAYGQYAPRVPNTEDG--------ALNRRVAIHIYP</Hsp_qseq>
+      <Hsp_hseq>FHTKNEEPLE-DWLLSYADMITLIMAFFVMLAAISKVDANLYEKVQSGMAKDIGKRTASTPLDNVRKELAQVVSATRGGDDAVDVGSDERGVVLNLDANAMFKPASAEIRPEIMPIIKGIAETLNNERFASYRIEVQGHTDDTPIKTQQFPSNFDLAAARALTAMRIMNGLGLPEERMTMSSFGQYSPRAPNHRDDGTPLPVNQSLNRRISIHVYP</Hsp_hseq>
+      <Hsp_midline>F  K  + ++  W+ +Y DM+TL++ FF +L          +EKVQSGM  +IGK+    P++N+R+EL Q  +  +G DDA   G+D+RGVV+NLDA AMF P SA+I+P ++P++K +A TLN  RF +YR+E+QGHTD TP+KT QFPSNFDLA+ARAL  MR    LG+ E +M ++++GQY+PR PN  D         +LNRR++IH+YP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>tpg|HLO79058.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Magnetospirillum sp.]</Hit_def>
+  <Hit_accession>HLO79058</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.083</Hsp_bit-score>
+      <Hsp_score>549</Hsp_score>
+      <Hsp_evalue>4.89003e-67</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>FEKKQSQEVDASWMETYGDMVTLLLCFFTVL----------FEKVQSGMTSEIGKQPP--PIENMRQELTQAAATVQGSDDA---GTDDRGVVMNLDAGAMFTPGSADIKPTMVPLLKELAGTLNQPRFDNYRLEIQGHTDSTPVKTAQFPSNFDLASARALATMRAFVSLGVAESKMIVAAYGQYAPRVPN-TEDG-------ALNRRVAIHIYP</Hsp_qseq>
+      <Hsp_hseq>FHTKNEEPLE-DWLLSYADMITLIMAFFVMLAAISKVDANLYEKVQSGMAKDIGNREAARPLETVRKELAQVIATTRGGEDAVDVGSDERGVVLNMDADAMFKPGSAEIRPEIMPVVKGIAETLNNDRFATYRIEVQGHTDDTPVNTPQFPSNFELAAARALSAMRTMNKLGLPEQRMTITSFGQYSPRVPNHREDGTPLPVNQALNRRISIHVFP</Hsp_hseq>
+      <Hsp_midline>F  K  + ++  W+ +Y DM+TL++ FF +L          +EKVQSGM  +IG +    P+E +R+EL Q  AT +G +DA   G+D+RGVV+N+DA AMF PGSA+I+P ++P++K +A TLN  RF  YR+E+QGHTD TPV T QFPSNF+LA+ARAL+ MR    LG+ E +M + ++GQY+PRVPN  EDG       ALNRR++IH++P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|MBI2235560.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Magnetospirillum sp.]</Hit_def>
+  <Hit_accession>MBI2235560</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.927</Hsp_bit-score>
+      <Hsp_score>546</Hsp_score>
+      <Hsp_evalue>9.33074e-67</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>EVDASWMETYGDMVTLLLCFFTVL----------FEKVQSGMTSEIGKQ--PPPIENMRQELTQAAATVQGSD---DAGTDDRGVVMNLDAGAMFTPGSADIKPTMVPLLKELAGTLNQPRFDNYRLEIQGHTDSTPVKTAQFPSNFDLASARALATMRAFVSLGVAESKMIVAAYGQYAPRVPNT--------EDGALNRRVAIHIYPR</Hsp_qseq>
+      <Hsp_hseq>EVDNSWMDTFGDMVSLLLCFFIMLAAISKVDANLYEQVQSGMAKEIGNQNVAKPLQDLKTQMDQMVAGM-GADEAVDVGRDDKGLVLNLAAGAMFKVGSAEIQSQMLPVLKEIAETLSNPRFATYTIEIQGHTDDTPMRTGQYPTNWDLSSARALTTLKAFAQLGMAQSRMRLAALADVAPRAPNRSPDGNPYPENQALNRRIEVHVYPR</Hsp_hseq>
+      <Hsp_midline>EVD SWM+T+GDMV+LLLCFF +L          +E+VQSGM  EIG Q    P+++++ ++ Q  A + G+D   D G DD+G+V+NL AGAMF  GSA+I+  M+P+LKE+A TL+ PRF  Y +EIQGHTD TP++T Q+P+N+DL+SARAL T++AF  LG+A+S+M +AA    APR PN         E+ ALNRR+ +H+YPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_021132758.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Magnetospirillum fulvum] &gt;gb|EPY01179.1| flagellar motor protein [Magnetospirillum fulvum MGU-K5]</Hit_def>
+  <Hit_accession>WP_021132758</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.542</Hsp_bit-score>
+      <Hsp_score>545</Hsp_score>
+      <Hsp_evalue>1.75755e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MSLFEKKQSQEVDASWMETYGDMVTLLLCFFTVL----------FEKVQSGMTSEIGKQP--PPIENMRQELTQA--AATVQGSDDAGTDDRGVVMNLDAGAMFTPGSADIKPTMVPLLKELAGTLNQPRFDNYRLEIQGHTDSTPVKTAQFPSNFDLASARALATMRAFVSLGVAESKMIVAAYGQYAPRVPNT--------EDGALNRRVAIHIYPR</Hsp_qseq>
+      <Hsp_hseq>MSRFEKKNEEPLE-DWLLSYADMITLVMAFFIILVSMSKIDANKYEEVQSGMARDIGNREVTKPLQDLRSELLGAIAGAGVDESVDIGRDDRGVVLNLASGTMFQPGSADIRPEIRPVMKEIATTLGQPRFTGYQIEIQGHTDDTPVRTPQFPSNWDLSVARALATLKLLNELGVDQARMKIAAYADTAPRVPNRSDTGRPYPENQAINRRVQIHVYPR</Hsp_hseq>
+      <Hsp_midline>MS FEKK  + ++  W+ +Y DM+TL++ FF +L          +E+VQSGM  +IG +    P++++R EL  A   A V  S D G DDRGVV+NL +G MF PGSADI+P + P++KE+A TL QPRF  Y++EIQGHTD TPV+T QFPSN+DL+ ARALAT++    LGV +++M +AAY   APRVPN         E+ A+NRRV IH+YPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_074769627.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Magnetospirillum fulvum] &gt;emb|SEH52740.1| chemotaxis protein MotB [Magnetospirillum fulvum]</Hit_def>
+  <Hit_accession>WP_074769627</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.386</Hsp_bit-score>
+      <Hsp_score>542</Hsp_score>
+      <Hsp_evalue>4.79813e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MSLFEKKQSQEVDASWMETYGDMVTLLLCFFTVL----------FEKVQSGMTSEIGKQP--PPIENMRQEL--TQAAATVQGSDDAGTDDRGVVMNLDAGAMFTPGSADIKPTMVPLLKELAGTLNQPRFDNYRLEIQGHTDSTPVKTAQFPSNFDLASARALATMRAFVSLGVAESKMIVAAYGQYAPRVPNT--------EDGALNRRVAIHIYPR</Hsp_qseq>
+      <Hsp_hseq>MSRFEKKNEEPLE-DWLLSYADMITLIMAFFIILVSMSKIDANKYEEVQSGMARDIGNREVTKPLQDLRSELLGAVAGAGVDESVDIGRDDRGIVLNLASGTMFQPGSADIRPEIRPVMKEISATLGQPRFTGYQIEIQGHTDDTPVRTPQYPSNWDLSAARALATLKLLNELGIEQPRMKIAAYADTAPRVPNRSDTGRAYPENQAINRRVQIHVYPR</Hsp_hseq>
+      <Hsp_midline>MS FEKK  + ++  W+ +Y DM+TL++ FF +L          +E+VQSGM  +IG +    P++++R EL    A A V  S D G DDRG+V+NL +G MF PGSADI+P + P++KE++ TL QPRF  Y++EIQGHTD TPV+T Q+PSN+DL++ARALAT++    LG+ + +M +AAY   APRVPN         E+ A+NRRV IH+YPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>877781531</Statistics_db-num>
+      <Statistics_db-len>334720180573</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
