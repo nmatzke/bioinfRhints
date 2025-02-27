@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1098733</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>307</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1098733</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>307</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|EFE4179542.1|</Hit_id>
+  <Hit_def>chemotaxis protein CheA [Escherichia coli] &gt;gb|EFE4205163.1| chemotaxis protein CheA [Escherichia coli] &gt;gb|EFE4221280.1| chemotaxis protein CheA [Escherichia coli] &gt;gb|EFE4283942.1| chemotaxis protein CheA [Escherichia coli] &gt;gb|EFE4289133.1| chemotaxis protein CheA [Escherichia coli]</Hit_def>
+  <Hit_accession>EFE4179542</Hit_accession>
+  <Hit_len>614</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>452.981</Hsp_bit-score>
+      <Hsp_score>1164</Hsp_score>
+      <Hsp_evalue>5.23655e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>536</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>300</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>214</Hsp_gaps>
+      <Hsp_align-len>521</Hsp_align-len>
+      <Hsp_qseq>ADELLADMEQHLLVLQPEAP-------------------GTFGFS---ETT--MENLL-----------TDIINLFLD---------------------------------ALEAKGETPSAVTRLSVVAKSEPQDEQSRSQ---RIILSRL-----EVLEEE-------------------------------AVLCFVIEADQITFETVEVSPKISTPPVLKLAAEQA--GRV---KTTRSNESTSIRVAVEKVDQLINLVGELVITQSML----------NHGDLI--MGQLQRNARDLQESVMSIRMMP-------------------------TLVGSSTE-------------------SLDHGIELPEKRLAAGKNSV-----------GNICIEVTDDGAGLNRER-------------------------FAPGFSTAEQVTDVSGRGDGMS----------EVNAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_qseq>
+      <Hsp_hseq>ADELLADMEQHLLVLQPEAPDAEQLNAIFRAAHSIKGGAGTFGFSVLQETTHLMENLLDEARRGEMQLNTDIINLFLETKDIMQEQLDAYKQSQEPDAASFDYICQALRQLALEAKGETPSAVTRLSVVAKSEPQDEQSRSQLPRRIILSRLKASEVDLLEEELGHLTTLTDVVKGADSLSAILPGDIAEDDITAVLCFVIEADQITFETVEVSPKISTPPVLKLAAEQAPTGRVEREKTTRSSESTSIRVAVEKVDQLINLVGELVITQSMLAQRSSELDPVNHGDLITSMGQLQRNARDLQESVMSIRMMPMEYVFSRYPRLVRDLAGKLGKQVELTLVGSSTELDKSLIERIIDPLTHLVRNSLDHGIELPEKRLAAGKNSVGNLILSAEHQGGNICIEVTDDGAGLNRERILAKAASQGLTVSENMSDDEVAMLIFAPGFSTAEQVTDVSGRGVGMSVRVADEVFILPLNAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_hseq>
+      <Hsp_midline>ADELLADMEQHLLVLQPEAP                   GTFGFS   ETT  MENLL           TDIINLFL+                                 ALEAKGETPSAVTRLSVVAKSEPQDEQSRSQ   RIILSRL     ++LEEE                               AVLCFVIEADQITFETVEVSPKISTPPVLKLAAEQA  GRV   KTTRS+ESTSIRVAVEKVDQLINLVGELVITQSML          NHGDLI  MGQLQRNARDLQESVMSIRMMP                         TLVGSSTE                   SLDHGIELPEKRLAAGKNSV           GNICIEVTDDGAGLNRER                         FAPGFSTAEQVTDVSGRG GMS           +NAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_021546091.1|</Hit_id>
+  <Hit_def>chemotaxis protein CheA [Escherichia coli] &gt;gb|EQV14622.1| chemotaxis protein CheA [Escherichia coli HVH 222 (4-2977443)]</Hit_def>
+  <Hit_accession>WP_021546091</Hit_accession>
+  <Hit_len>614</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>449.899</Hsp_bit-score>
+      <Hsp_score>1156</Hsp_score>
+      <Hsp_evalue>7.86255e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>536</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>298</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>214</Hsp_gaps>
+      <Hsp_align-len>521</Hsp_align-len>
+      <Hsp_qseq>ADELLADMEQHLLVLQPEAP-------------------GTFGFS---ETT--MENLL-----------TDIINLFLD---------------------------------ALEAKGETPSAVTRLSVVAKSEPQDEQSRSQ---RIILSRL-----EVLEEE-------------------------------AVLCFVIEADQITFETVEVSPKISTPPVLKLAAEQA--GRV---KTTRSNESTSIRVAVEKVDQLINLVGELVITQSML----------NHGDLI--MGQLQRNARDLQESVMSIRMMP-------------------------TLVGSSTE-------------------SLDHGIELPEKRLAAGKNSV-----------GNICIEVTDDGAGLNRER-------------------------FAPGFSTAEQVTDVSGRGDGMS----------EVNAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_qseq>
+      <Hsp_hseq>ADELLADMEQHLLVLQPEAPDAEQLNAIFRAAHSIKGGAGTFGFSVLQETTHLMENLLDEARRGEMQLNTDIINLFLETKDIMQEQLDAYKQSQEPDAASFNYICQALRQLALEAKGETPSAVTRLSVVAKSEPQDEQSRSQSPRRIILSRLKAGEVDLLEEELGHLTTLTDVVKGADSLSAILPDDIAEDDITAVLCFVIEADQITFETVDVSPKISTPPMLKLAAEQAPIGRVEREKTTRSSESTSIRVAVEKVDQLINLVGELVITQSMLAQRSSELDPVNHGDLITSMGQLQRNARDLQESVMSIRMMPMEYVFSRYPRLVRDLAGKLGKQVELTLVGSSTELDKSLIERIIDPLTHLVRNSLDHGIELPEKRLAAGKNSVGNLILSAEHQGGNICIEVTDDGAGLNRERILAKAASQGLTVSENMSDDEVAMLIFAPGFSTAEQVTDVSGRGVGMSVRVADEVFILPLNAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_hseq>
+      <Hsp_midline>ADELLADMEQHLLVLQPEAP                   GTFGFS   ETT  MENLL           TDIINLFL+                                 ALEAKGETPSAVTRLSVVAKSEPQDEQSRSQ   RIILSRL     ++LEEE                               AVLCFVIEADQITFETV+VSPKISTPP+LKLAAEQA  GRV   KTTRS+ESTSIRVAVEKVDQLINLVGELVITQSML          NHGDLI  MGQLQRNARDLQESVMSIRMMP                         TLVGSSTE                   SLDHGIELPEKRLAAGKNSV           GNICIEVTDDGAGLNRER                         FAPGFSTAEQVTDVSGRG GMS           +NAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_258141602.1|</Hit_id>
+  <Hit_def>chemotaxis protein CheA [Escherichia coli] &gt;gb|EOK3178920.1| chemotaxis protein CheA [Escherichia coli] &gt;tpg|HGU5656247.1| chemotaxis protein CheA [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_258141602</Hit_accession>
+  <Hit_len>633</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>446.432</Hsp_bit-score>
+      <Hsp_score>1147</Hsp_score>
+      <Hsp_evalue>3.21063e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>555</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>301</Hsp_identity>
+      <Hsp_positive>304</Hsp_positive>
+      <Hsp_gaps>233</Hsp_gaps>
+      <Hsp_align-len>540</Hsp_align-len>
+      <Hsp_qseq>ADELLADMEQHLLVLQPEAP-------------------GTFGFS---ETT--MENLL-----------TDIINLFLD---------------------------------ALEAKGETPSAVTRLSVVAKSEPQDEQSRSQ---RIILSRL-----EVLEEE-------------------------------AVLCFVIEADQITFETVEVSPKISTPPVLKLAAEQA--GRV---KTTRSNESTSIRVAVEKVDQLINLVGELVITQSML----------NHGDLI--MGQLQRNARDLQESVMSIRMMP-------------------------TLVGSSTE-------------------SLDHGIELPEKRLAAGKNSVGN-----------ICIEVTDDGAGLNRER-------------------------FAPGFSTAEQVTDVSGRGDGMSEV-----------------------------NAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_qseq>
+      <Hsp_hseq>ADELLADMEQHLLVLQPEAPDAEQLNAIFRAAHSIKGGAGTFGFSVLQETTHLMENLLDEARRGEMQLNTDIINLFLETKDIMQEQLDAYKQSQEPDAASFDYICQALRQLALEAKGETPSAVTRLSVVAKSEPQDEQSRSQSPRRIILSRLKAGEVDLLEEELGHLTTLTDVVKGADSLSAILPGDIAEDDITAVLCFVIEADQITFETVEVSPKISTPPVLKLAAEQAPTGRVEREKTTRSNESTSIRVAVEKVDQLINLVGELVITQSMLAQRSSELDPVNHGDLITSMGQLQRNARDLQESVMSIRMMPMEYVFSRYPRLVRDLAGKLGKQVELTLVGSSTELDKSLIERIIDPLTHLVRNSLDHGIELPEKRLAAGKNSVGNLILSAEHQGGNICIEVTDDGAGLNRERILAKAASQGLTVSENMSDDEVAMLIFAPGFSTAEQVTDVSGRGVGMDVVKRNIQEMGGHVEIQSKQGTGTTIRILLPLNAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_hseq>
+      <Hsp_midline>ADELLADMEQHLLVLQPEAP                   GTFGFS   ETT  MENLL           TDIINLFL+                                 ALEAKGETPSAVTRLSVVAKSEPQDEQSRSQ   RIILSRL     ++LEEE                               AVLCFVIEADQITFETVEVSPKISTPPVLKLAAEQA  GRV   KTTRSNESTSIRVAVEKVDQLINLVGELVITQSML          NHGDLI  MGQLQRNARDLQESVMSIRMMP                         TLVGSSTE                   SLDHGIELPEKRLAAGKNSVGN           ICIEVTDDGAGLNRER                         FAPGFSTAEQVTDVSGRG GM  V                             NAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_163332133.1|</Hit_id>
+  <Hit_def>chemotaxis protein CheA [Escherichia coli] &gt;gb|MED6765161.1| chemotaxis protein CheA [Escherichia coli O157] &gt;gb|EFE9241521.1| chemotaxis protein CheA [Escherichia coli] &gt;gb|MBF7174369.1| chemotaxis protein CheA [Escherichia coli] &gt;gb|MBF7219954.1| chemotaxis protein CheA [Escherichia coli] &gt;gb|MBF7225108.1| chemotaxis protein CheA [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_163332133</Hit_accession>
+  <Hit_len>633</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>2.15154e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>555</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>300</Hsp_identity>
+      <Hsp_positive>304</Hsp_positive>
+      <Hsp_gaps>233</Hsp_gaps>
+      <Hsp_align-len>540</Hsp_align-len>
+      <Hsp_qseq>ADELLADMEQHLLVLQPEAP-------------------GTFGFS---ETT--MENLL-----------TDIINLFLD---------------------------------ALEAKGETPSAVTRLSVVAKSEPQDEQSRSQ---RIILSRL-----EVLEEE-------------------------------AVLCFVIEADQITFETVEVSPKISTPPVLKLAAEQA--GRV---KTTRSNESTSIRVAVEKVDQLINLVGELVITQSML----------NHGDLI--MGQLQRNARDLQESVMSIRMMP-------------------------TLVGSSTE-------------------SLDHGIELPEKRLAAGKNSVGN-----------ICIEVTDDGAGLNRER-------------------------FAPGFSTAEQVTDVSGRGDGMSEV-----------------------------NAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_qseq>
+      <Hsp_hseq>ADELLADMEQHLLVLQPEAPDAEQLNAIFRAAHSIKGGAGTFGFSVLQETTHLMENLLDEARRGEMQLNTDIINLFLETKDIMQEQLDAYKQSQEPDAASFDYICQALRQLALEAKGETPSAVTRLSVVAKSEPQDEQSRSQLPRRIILSRLKASEVDLLEEELGHLTTLTDVVKGADSLSAILPGDIAEDDITAVLCFVIEADQITFETVEVSPKISTPPVLKLAAEQAPTGRVEREKTTRSSESTSIRVAVEKVDQLINLVGELVITQSMLAQRSSELDPVNHGDLITSMGQLQRNARDLQESVMSIRMMPMEYVFSRYPRLVRDLAGKLGKQVELTLVGSSTELDKSLIERIIDPLTHLVRNSLDHGIELPEKRLAAGKNSVGNLILSAEHQGGNICIEVTDDGAGLNRERILAKAASQGLTVSENMSDDEVAMLIFAPGFSTAEQVTDVSGRGVGMDVVKRNIQEMGGHVEIQSKQGTGTTIRILLPLNAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_hseq>
+      <Hsp_midline>ADELLADMEQHLLVLQPEAP                   GTFGFS   ETT  MENLL           TDIINLFL+                                 ALEAKGETPSAVTRLSVVAKSEPQDEQSRSQ   RIILSRL     ++LEEE                               AVLCFVIEADQITFETVEVSPKISTPPVLKLAAEQA  GRV   KTTRS+ESTSIRVAVEKVDQLINLVGELVITQSML          NHGDLI  MGQLQRNARDLQESVMSIRMMP                         TLVGSSTE                   SLDHGIELPEKRLAAGKNSVGN           ICIEVTDDGAGLNRER                         FAPGFSTAEQVTDVSGRG GM  V                             NAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|END2150315.1|</Hit_id>
+  <Hit_def>chemotaxis protein CheA [Escherichia coli]</Hit_def>
+  <Hit_accession>END2150315</Hit_accession>
+  <Hit_len>633</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>2.22286e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>555</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>300</Hsp_identity>
+      <Hsp_positive>304</Hsp_positive>
+      <Hsp_gaps>233</Hsp_gaps>
+      <Hsp_align-len>540</Hsp_align-len>
+      <Hsp_qseq>ADELLADMEQHLLVLQPEAP-------------------GTFGFS---ETT--MENLL-----------TDIINLFLD---------------------------------ALEAKGETPSAVTRLSVVAKSEPQDEQSRSQ---RIILSRL-----EVLEEE-------------------------------AVLCFVIEADQITFETVEVSPKISTPPVLKLAAEQA--GRV---KTTRSNESTSIRVAVEKVDQLINLVGELVITQSML----------NHGDLI--MGQLQRNARDLQESVMSIRMMP-------------------------TLVGSSTE-------------------SLDHGIELPEKRLAAGKNSVGN-----------ICIEVTDDGAGLNRER-------------------------FAPGFSTAEQVTDVSGRGDGMSEV-----------------------------NAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_qseq>
+      <Hsp_hseq>ADELLADMEQHLLVLQPEAPDAEQLNAIFRAAHSIKGGAGTFGFSVLQETTHLMENLLDEARRGEMQLNTDIINLFLETKDIMQEQLDAYKQSQEPDAASFDYICQALRQLALEAKGETPSAVTRLSVVAKSEPQDEQSRSQLPRRIILSRLKAGEVDLLEEELGHLTTLTDVVKGADSLSAILPGDIAEDDITAVLCFVIEADQITFETVEVSPKISTPPVLKLAAEQAPTGRVEREKTTRSSESTSIRVAVEKVDQLINLVGELVITQSMLAQRSSELDPVNHGDLITSMGQLQRNARDLQESVMSIRMMPMEYVFSRYPRLVRDLAGKLGKQVELTLVGSSTELDKSLIERIIDPLTHLVRNSLDHGIELPEKRLAAGKNSVGNLILSAEHQGGNICIEVTDDGAGLNRERILAKAASQGLTVSENMSDDEVAMLIFAPGFSTAEQVTDVSGRGVGMDVVKRNIQEMGGHVEIQSKQGTGTTIRILLPLNAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_hseq>
+      <Hsp_midline>ADELLADMEQHLLVLQPEAP                   GTFGFS   ETT  MENLL           TDIINLFL+                                 ALEAKGETPSAVTRLSVVAKSEPQDEQSRSQ   RIILSRL     ++LEEE                               AVLCFVIEADQITFETVEVSPKISTPPVLKLAAEQA  GRV   KTTRS+ESTSIRVAVEKVDQLINLVGELVITQSML          NHGDLI  MGQLQRNARDLQESVMSIRMMP                         TLVGSSTE                   SLDHGIELPEKRLAAGKNSVGN           ICIEVTDDGAGLNRER                         FAPGFSTAEQVTDVSGRG GM  V                             NAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|EEQ1965258.1|</Hit_id>
+  <Hit_def>chemotaxis protein CheA [Escherichia coli] &gt;gb|EGB4822157.1| chemotaxis protein CheA [Escherichia coli] &gt;gb|EIO1701989.1| chemotaxis protein CheA [Escherichia coli] &gt;gb|EJR5674192.1| chemotaxis protein CheA [Escherichia coli] &gt;gb|EKB0164937.1| chemotaxis protein CheA [Escherichia coli]</Hit_def>
+  <Hit_accession>EEQ1965258</Hit_accession>
+  <Hit_len>633</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.121</Hsp_bit-score>
+      <Hsp_score>1141</Hsp_score>
+      <Hsp_evalue>2.674e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>555</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>299</Hsp_identity>
+      <Hsp_positive>304</Hsp_positive>
+      <Hsp_gaps>233</Hsp_gaps>
+      <Hsp_align-len>540</Hsp_align-len>
+      <Hsp_qseq>ADELLADMEQHLLVLQPEAP-------------------GTFGFS---ETT--MENLL-----------TDIINLFLD---------------------------------ALEAKGETPSAVTRLSVVAKSEPQDEQSRSQ---RIILSRL-----EVLEEE-------------------------------AVLCFVIEADQITFETVEVSPKISTPPVLKLAAEQA--GRV---KTTRSNESTSIRVAVEKVDQLINLVGELVITQSML----------NHGDLI--MGQLQRNARDLQESVMSIRMMP-------------------------TLVGSSTE-------------------SLDHGIELPEKRLAAGKNSVGN-----------ICIEVTDDGAGLNRER-------------------------FAPGFSTAEQVTDVSGRGDGMSEV-----------------------------NAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_qseq>
+      <Hsp_hseq>ADELLADMEQHLLVLQPEAPDAEQLNAIFRAAHSIKGGAGTFGFSVLQETTHLMENLLDEARRGEMQLNTDIINLFLETKDIMQEQLDAYKQSQETDAASFDYICQALRQLALEAKGETPSAVTRLSVVAKSEPQDEQSRSQSPRRIILSRLKAGEVDLLEEELGHLTTLTDVVKGADSLSAILPDDIAEDDITAVLCFVIEADQITFETVDVSPKISTPPVLKLAAEQAPTGRVEREKTTRSSESTSIRVAVEKVDQLINLVGELVITQSMLAQRSSELDPVNHGDLITSMGQLQRNARDLQESVMSIRMMPMEYVFSRYPRLVRDLAGKLGKQVELTLVGSSTELDKSLIERIIDPLTHLVRNSLDHGIELPEKRLAAGKNSVGNLILSAEHQGGNICIEVTDDGAGLNRERILAKAASQGLTVSENMSDDEVAMLIFAPGFSTAEQVTDVSGRGVGMDVVKRNIQEMGGHVEIQSKQGTGTTIRILLPLNAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_hseq>
+      <Hsp_midline>ADELLADMEQHLLVLQPEAP                   GTFGFS   ETT  MENLL           TDIINLFL+                                 ALEAKGETPSAVTRLSVVAKSEPQDEQSRSQ   RIILSRL     ++LEEE                               AVLCFVIEADQITFETV+VSPKISTPPVLKLAAEQA  GRV   KTTRS+ESTSIRVAVEKVDQLINLVGELVITQSML          NHGDLI  MGQLQRNARDLQESVMSIRMMP                         TLVGSSTE                   SLDHGIELPEKRLAAGKNSVGN           ICIEVTDDGAGLNRER                         FAPGFSTAEQVTDVSGRG GM  V                             NAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|EFW0374255.1|</Hit_id>
+  <Hit_def>chemotaxis protein CheA [Shigella flexneri] &gt;gb|EOC2216469.1| chemotaxis protein CheA [Shigella flexneri]</Hit_def>
+  <Hit_accession>EFW0374255</Hit_accession>
+  <Hit_len>633</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>443.351</Hsp_bit-score>
+      <Hsp_score>1139</Hsp_score>
+      <Hsp_evalue>7.03532e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>555</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>299</Hsp_identity>
+      <Hsp_positive>304</Hsp_positive>
+      <Hsp_gaps>233</Hsp_gaps>
+      <Hsp_align-len>540</Hsp_align-len>
+      <Hsp_qseq>ADELLADMEQHLLVLQPEAP-------------------GTFGFS---ETT--MENLL-----------TDIINLFLD---------------------------------ALEAKGETPSAVTRLSVVAKSEPQDEQSRSQ---RIILSRL-----EVLEEE-------------------------------AVLCFVIEADQITFETVEVSPKISTPPVLKLAAEQA--GRV---KTTRSNESTSIRVAVEKVDQLINLVGELVITQSML----------NHGDLI--MGQLQRNARDLQESVMSIRMMP-------------------------TLVGSSTE-------------------SLDHGIELPEKRLAAGKNSVGN-----------ICIEVTDDGAGLNRER-------------------------FAPGFSTAEQVTDVSGRGDGMSEV-----------------------------NAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_qseq>
+      <Hsp_hseq>ADELLADMEQHLLVLQPEAPDAEQLNAIFRAAHSIKGGAGTFGFSVLQETTHLMENLLDEARRGEMQLNTDIINLFLETKDIMQEQLDAYKQSQEPDAASYDYICQALRQLALEAKGETPSAVTRLSVVAKSEPQDEQSRSQLPRRIILSRLKAGEVDLLEEELGHLTTLNDVVKGADSLSAILPGDIAEDDITAVLCFVIEADQITFETVEVSPKIATPPVLKLAAEQAPTGRVEREKTTRSSESTSIRVAVEKVDQLINLVGELVITQSMLAQRSSELDPVNHGDLITSMGQLQRNARDLQESVMSIRMMPMEYVFSRYPRLVRDLAGKLGKQVELTLVGSSTELDKSLIERIIDPLTHLVRNSLDHGIELPEKRLAAGKNSVGNLILSAEHQGGNICIEVTDDGAGLNRERILAKAASQGLTVSENMSDDEVAMLIFAPGFSTAEQVTDVSGRGVGMDVVKRNIQEMGGHVEIQSKQGTGTTIRILLPLNAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_hseq>
+      <Hsp_midline>ADELLADMEQHLLVLQPEAP                   GTFGFS   ETT  MENLL           TDIINLFL+                                 ALEAKGETPSAVTRLSVVAKSEPQDEQSRSQ   RIILSRL     ++LEEE                               AVLCFVIEADQITFETVEVSPKI+TPPVLKLAAEQA  GRV   KTTRS+ESTSIRVAVEKVDQLINLVGELVITQSML          NHGDLI  MGQLQRNARDLQESVMSIRMMP                         TLVGSSTE                   SLDHGIELPEKRLAAGKNSVGN           ICIEVTDDGAGLNRER                         FAPGFSTAEQVTDVSGRG GM  V                             NAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|ELP8200158.1|</Hit_id>
+  <Hit_def>chemotaxis protein CheA [Escherichia coli]</Hit_def>
+  <Hit_accession>ELP8200158</Hit_accession>
+  <Hit_len>632</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>442.965</Hsp_bit-score>
+      <Hsp_score>1138</Hsp_score>
+      <Hsp_evalue>9.55651e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>554</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>299</Hsp_identity>
+      <Hsp_positive>303</Hsp_positive>
+      <Hsp_gaps>232</Hsp_gaps>
+      <Hsp_align-len>539</Hsp_align-len>
+      <Hsp_qseq>ADELLADMEQHLLVLQPEAP-------------------GTFGFS---ETT--MENLL-----------TDIINLFLD---------------------------------ALEAKGETPSAVTRLSVVAKSEPQDEQSRSQ---RIILSRL-----EVLEEE-------------------------------AVLCFVIEADQITFETVEVSPKISTPPVLKLAAEQA--GRV---KTTRSNESTSIRVAVEKVDQLINLVGELVITQSML----------NHGDLI--MGQLQRNARDLQESVMSIRMMP-------------------------TLVGSSTE-------------------SLDHGIELPEKRLAAGKNSVGN-----------ICIEVTDDGAGLNRER-------------------------FAPGFSTAEQVTDVSGRGDGMSEV----------------------------NAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_qseq>
+      <Hsp_hseq>ADELLADMEQHLLVLQPEAPDAEQLNAIFRAAHSIKGGAGTFGFGVLQETTHLMENLLDEARRGEMQLNTDIINLFLETKDIMQEQLDAYKQSQEPDAASFDYICQALRQLALEAKGETPSAVTRLSVVAKSEPQDEQSRSQLPRRIILSRLKAGEVDLLEEELGHLTTLTDVVKGADSLSAILPGDIAEDDITAVLCFVIEADQITFETVEVSPKISTPPVLKLAAEQAPTGRVEREKTTRSSESTSIRVAVEKVDQLINLVGELVITQSMLAQRSSELDPVNHGDLITSMGQLQRNARDLQESVMSIRMMPMEYVFSRYPRLVRDLAGKLGKQVELTLVGSSTELDKSLIERIIDPLTHLVRNSLDHGIELPEKRLAAGKNSVGNLILSAEHQGGNICIEVTDDGAGLNRERILAKAASQGLTVSENMSDDEVAMLIFAPGFSTAEQVTDVSGRGVGMDVVKRNIQEMGGHVEIQSKQGTGTTIRILPLNAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_hseq>
+      <Hsp_midline>ADELLADMEQHLLVLQPEAP                   GTFGF    ETT  MENLL           TDIINLFL+                                 ALEAKGETPSAVTRLSVVAKSEPQDEQSRSQ   RIILSRL     ++LEEE                               AVLCFVIEADQITFETVEVSPKISTPPVLKLAAEQA  GRV   KTTRS+ESTSIRVAVEKVDQLINLVGELVITQSML          NHGDLI  MGQLQRNARDLQESVMSIRMMP                         TLVGSSTE                   SLDHGIELPEKRLAAGKNSVGN           ICIEVTDDGAGLNRER                         FAPGFSTAEQVTDVSGRG GM  V                            NAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_241231606.1|</Hit_id>
+  <Hit_def>chemotaxis protein CheA [Escherichia coli] &gt;gb|MCH7002494.1| chemotaxis protein CheA [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_241231606</Hit_accession>
+  <Hit_len>633</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>442.195</Hsp_bit-score>
+      <Hsp_score>1136</Hsp_score>
+      <Hsp_evalue>1.57246e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>555</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>299</Hsp_identity>
+      <Hsp_positive>303</Hsp_positive>
+      <Hsp_gaps>233</Hsp_gaps>
+      <Hsp_align-len>540</Hsp_align-len>
+      <Hsp_qseq>ADELLADMEQHLLVLQPEAP-------------------GTFGFS---ETT--MENLL-----------TDIINLFLD---------------------------------ALEAKGETPSAVTRLSVVAKSEPQDEQSRSQ---RIILSRL-----EVLEEE-------------------------------AVLCFVIEADQITFETVEVSPKISTPPVLKLAAEQA--GRV---KTTRSNESTSIRVAVEKVDQLINLVGELVITQSML----------NHGDLI--MGQLQRNARDLQESVMSIRMMP-------------------------TLVGSSTE-------------------SLDHGIELPEKRLAAGKNSVGN-----------ICIEVTDDGAGLNRER-------------------------FAPGFSTAEQVTDVSGRGDGMS-----------------------------EVNAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_qseq>
+      <Hsp_hseq>ADELLADMEQHLLVLQPEAPDAEQLNAIFRAAHSIKGGAGTFGFSVLQETTHLMENLLDEARRGEMQLNTDIINLFLETKDIMQEQLDAYKQSQEPDAASFDYICQALRQLALEAKGETPSAVTRLSVVAKSEPQDEQSRSQLPRRIILSRLKAGEVDLLEEELGHLTTLTDVVKGADSLSAILPGDLAEDDITAVLCFVIEADQITFETVEVSPKISTPPVLKLAAEQAPTGRVEREKTTRSNESTSIRVAVEKVDQLINLVGELVITQSMLAQRSSELDPVNHGDLITSMGQLQRNARDLQESVMSIRMMPMEYVFSRYPRLVRDLAGKLGKQVELTLVGSSTELDKSLIERIIDPLTHLVRNSLDHGIELPEKRLAAGKNSVGNLILSAEHQGGNICIEVTDDGAGLNRERILAKAASQGLTVSENMSDDEVAMLIFAPGFSTAEQVTDVSGRGVGMDVAKRNIQEMGGHVEIQSKQGTGTTIRILLPLNAVMESLQPCEADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_hseq>
+      <Hsp_midline>ADELLADMEQHLLVLQPEAP                   GTFGFS   ETT  MENLL           TDIINLFL+                                 ALEAKGETPSAVTRLSVVAKSEPQDEQSRSQ   RIILSRL     ++LEEE                               AVLCFVIEADQITFETVEVSPKISTPPVLKLAAEQA  GRV   KTTRSNESTSIRVAVEKVDQLINLVGELVITQSML          NHGDLI  MGQLQRNARDLQESVMSIRMMP                         TLVGSSTE                   SLDHGIELPEKRLAAGKNSVGN           ICIEVTDDGAGLNRER                         FAPGFSTAEQVTDVSGRG GM                               +NAVMESLQP EADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>tpg|HCP9345438.1|</Hit_id>
+  <Hit_def>chemotaxis protein CheA [Escherichia coli]</Hit_def>
+  <Hit_accession>HCP9345438</Hit_accession>
+  <Hit_len>633</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>440.269</Hsp_bit-score>
+      <Hsp_score>1131</Hsp_score>
+      <Hsp_evalue>1.13656e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>555</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>298</Hsp_identity>
+      <Hsp_positive>302</Hsp_positive>
+      <Hsp_gaps>233</Hsp_gaps>
+      <Hsp_align-len>540</Hsp_align-len>
+      <Hsp_qseq>ADELLADMEQHLLVLQPEAP-------------------GTFGFS---ETT--MENLL-----------TDIINLFLD---------------------------------ALEAKGETPSAVTRLSVVAKSEPQDEQSRSQ---RIILSRL-----EVLEEE-------------------------------AVLCFVIEADQITFETVEVSPKISTPPVLKLAAEQA--GRV---KTTRSNESTSIRVAVEKVDQLINLVGELVITQSML----------NHGDLI--MGQLQRNARDLQESVMSIRMMP-------------------------TLVGSSTE-------------------SLDHGIELPEKRLAAGKNSVGN-----------ICIEVTDDGAGLNRER-------------------------FAPGFSTAEQVTDVSGRGDGMSEV-----------------------------NAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_qseq>
+      <Hsp_hseq>ADELLADMEQHLLVLQPEAPDAEQLNAIFRAAHSIKGGAGTFGFSVLQETTHLMENLLDEARRGEMQLNTDIINLFLETKDIMQEQLDAYKQSQEPDAASFDYICQALRQLALEAKGETPSAVTRLSVVAKSEPQDEQSRDQSPRRIILSRLKAGEVDLLEEELGHLTTLTDVVKGADSLSAILPGDIAEDDITAVLCFVIEADQITFETVEVSPKISPPPVLKLAAEQAPTGRVEREKTTRSSESTSIRVAVEKVDQLINLVGELVITQSMLAQRSSELDPVNHGDLITSMGQLQRNARDLQESVMSIRMMPMEYVFSRYPRLVRDLAGKLGKQVELTLVGSSTELDKSLIERIIDPLTHLVRNSLDHGIELPEKRLAAGKNSVGNLILSAEHQGGNICIEVTDDGAGLNRERILAKAASQGLTVSENMSDDEVAMLIFAPGFSTAEQVTDVSGRGVGMDVVKRNIQEMGGHVEIQSKQGTGTTIRILLPLNAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_hseq>
+      <Hsp_midline>ADELLADMEQHLLVLQPEAP                   GTFGFS   ETT  MENLL           TDIINLFL+                                 ALEAKGETPSAVTRLSVVAKSEPQDEQSR Q   RIILSRL     ++LEEE                               AVLCFVIEADQITFETVEVSPKIS PPVLKLAAEQA  GRV   KTTRS+ESTSIRVAVEKVDQLINLVGELVITQSML          NHGDLI  MGQLQRNARDLQESVMSIRMMP                         TLVGSSTE                   SLDHGIELPEKRLAAGKNSVGN           ICIEVTDDGAGLNRER                         FAPGFSTAEQVTDVSGRG GM  V                             NAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>tpg|HFI4497260.1|</Hit_id>
+  <Hit_def>chemotaxis protein CheA [Escherichia coli]</Hit_def>
+  <Hit_accession>HFI4497260</Hit_accession>
+  <Hit_len>633</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>440.269</Hsp_bit-score>
+      <Hsp_score>1131</Hsp_score>
+      <Hsp_evalue>1.14898e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>555</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>298</Hsp_identity>
+      <Hsp_positive>303</Hsp_positive>
+      <Hsp_gaps>233</Hsp_gaps>
+      <Hsp_align-len>540</Hsp_align-len>
+      <Hsp_qseq>ADELLADMEQHLLVLQPEAP-------------------GTFGFS---ETT--MENLL-----------TDIINLFLD---------------------------------ALEAKGETPSAVTRLSVVAKSEPQDEQSRSQ---RIILSRL-----EVLEEE-------------------------------AVLCFVIEADQITFETVEVSPKISTPPVLKLAAEQA--GRV---KTTRSNESTSIRVAVEKVDQLINLVGELVITQSML----------NHGDLI--MGQLQRNARDLQESVMSIRMMP-------------------------TLVGSSTE-------------------SLDHGIELPEKRLAAGKNSVGN-----------ICIEVTDDGAGLNRER-------------------------FAPGFSTAEQVTDVSGRGDGMSEV-----------------------------NAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_qseq>
+      <Hsp_hseq>ADELLADMEQHLLVLQPEAPDAEQLNAIFRAAHSIKGGAGTFGFSVLQETTHLMENLLDEARRGEMQLNTDIINLFLETKDIMQEQLDAYKQSQEPDAASFDYICQALRQLALEAKDETPSAVTRLSVVAKSEPQDEQSRSQSPRRIILSRLKAGEVDLLEEELGHLTTLTDVVKGADSLSAILPGDIAEDDITAVLCFVIEADQITFETVDVSPKISTPPVLKLAAEQAPTGRVEREKTTRSSESTSIRVAVEKVDQLINLVGELVITQSMLAQRSSELDPVNHGDLITSMGQLQRNARDLQESVMSIRMMPMEYVFSRYPRLVRDLAGKLGKQVELTLVGSSTELDKSLIERIIDPLTHLVRNSLDHGIELPEKRLAAGKNSVGNLILSAEHQGGNICIEVTDDGAGLNRERILAKAASQGLTVSENMSDDEVAMLIFAPGFSTAEQVTDVSGRGVGMDVVKRNIQEMGGHVEIQSKQGTGTTIRILLPLNAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_hseq>
+      <Hsp_midline>ADELLADMEQHLLVLQPEAP                   GTFGFS   ETT  MENLL           TDIINLFL+                                 ALEAK ETPSAVTRLSVVAKSEPQDEQSRSQ   RIILSRL     ++LEEE                               AVLCFVIEADQITFETV+VSPKISTPPVLKLAAEQA  GRV   KTTRS+ESTSIRVAVEKVDQLINLVGELVITQSML          NHGDLI  MGQLQRNARDLQESVMSIRMMP                         TLVGSSTE                   SLDHGIELPEKRLAAGKNSVGN           ICIEVTDDGAGLNRER                         FAPGFSTAEQVTDVSGRG GM  V                             NAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_128430242.1|</Hit_id>
+  <Hit_def>chemotaxis protein CheA [Escherichia coli] &gt;gb|EIH8039218.1| chemotaxis protein CheA [Escherichia coli] &gt;gb|EIL6251411.1| chemotaxis protein CheA [Escherichia coli] &gt;gb|EJH4507370.1| chemotaxis protein CheA [Escherichia coli] &gt;gb|EJK0117798.1| chemotaxis protein CheA [Escherichia coli] &gt;gb|ENB8568967.1| chemotaxis protein CheA [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_128430242</Hit_accession>
+  <Hit_len>633</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>439.884</Hsp_bit-score>
+      <Hsp_score>1130</Hsp_score>
+      <Hsp_evalue>1.52413e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>555</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>297</Hsp_identity>
+      <Hsp_positive>303</Hsp_positive>
+      <Hsp_gaps>233</Hsp_gaps>
+      <Hsp_align-len>540</Hsp_align-len>
+      <Hsp_qseq>ADELLADMEQHLLVLQPEAP-------------------GTFGFS---ETT--MENLL-----------TDIINLFLD---------------------------------ALEAKGETPSAVTRLSVVAKSEPQDEQSRSQ---RIILSRL-----EVLEEE-------------------------------AVLCFVIEADQITFETVEVSPKISTPPVLKLAAEQA--GRV---KTTRSNESTSIRVAVEKVDQLINLVGELVITQSML----------NHGDLI--MGQLQRNARDLQESVMSIRMMP-------------------------TLVGSSTE-------------------SLDHGIELPEKRLAAGKNSVGN-----------ICIEVTDDGAGLNRER-------------------------FAPGFSTAEQVTDVSGRGDGMSEV-----------------------------NAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_qseq>
+      <Hsp_hseq>ADELLADMEQHLLVLQPEAPDAEQLNAIFRAAHSIKGGAGTFGFGVLQETTHLMENLLDEARRGEMQLNTDIINLFLETKDIMQEQLDAYKQSQEPDAASFDYICQALRQLALEAKGETPSAVTRLSVVAKSEPQDEQSRSQLPRRIILSRLKAGEVDLLKEELGHLTTLTDVVKGADSLSAILPGDIAEDDITAVLCFVIEADQITFETVDVSPKISTPPVLKLAAEQAPTGRVEREKTTRSSESTSIRVAVEKVDQLINLVGELVITQSMLAQRSSELDPVNHGDLITSMGQLQRNARDLQESVMSIRMMPMEYVFSRYPRLVRDLAGKLGKQVELTLVGSSTELDKSLIERIIDPLTHLVRNSLDHGIELPEKRLAAGKNSVGNLILSAEHQGGNICIEVTDDGAGLNRERILAKAASQGLTVSENMSDDEVAMLIFAPGFSTAEQVTDVSGRGVGMDVVKRNIQEMGGHVEIQSKQGTGTTIRILLPLNAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_hseq>
+      <Hsp_midline>ADELLADMEQHLLVLQPEAP                   GTFGF    ETT  MENLL           TDIINLFL+                                 ALEAKGETPSAVTRLSVVAKSEPQDEQSRSQ   RIILSRL     ++L+EE                               AVLCFVIEADQITFETV+VSPKISTPPVLKLAAEQA  GRV   KTTRS+ESTSIRVAVEKVDQLINLVGELVITQSML          NHGDLI  MGQLQRNARDLQESVMSIRMMP                         TLVGSSTE                   SLDHGIELPEKRLAAGKNSVGN           ICIEVTDDGAGLNRER                         FAPGFSTAEQVTDVSGRG GM  V                             NAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|EIH7343653.1|</Hit_id>
+  <Hit_def>chemotaxis protein CheA [Escherichia coli]</Hit_def>
+  <Hit_accession>EIH7343653</Hit_accession>
+  <Hit_len>633</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>439.499</Hsp_bit-score>
+      <Hsp_score>1129</Hsp_score>
+      <Hsp_evalue>1.71766e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>555</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>297</Hsp_identity>
+      <Hsp_positive>303</Hsp_positive>
+      <Hsp_gaps>233</Hsp_gaps>
+      <Hsp_align-len>540</Hsp_align-len>
+      <Hsp_qseq>ADELLADMEQHLLVLQPEAP-------------------GTFGFS---ETT--MENLL-----------TDIINLFLD---------------------------------ALEAKGETPSAVTRLSVVAKSEPQDEQSRSQ---RIILSRL-----EVLEEE-------------------------------AVLCFVIEADQITFETVEVSPKISTPPVLKLAAEQA--GRV---KTTRSNESTSIRVAVEKVDQLINLVGELVITQSML----------NHGDLI--MGQLQRNARDLQESVMSIRMMP-------------------------TLVGSSTE-------------------SLDHGIELPEKRLAAGKNSVGN-----------ICIEVTDDGAGLNRER-------------------------FAPGFSTAEQVTDVSGRGDGMSEV-----------------------------NAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_qseq>
+      <Hsp_hseq>ADELLADMEQHLLVLQPEAPDAEQLNAIFRAAHSIKGGAGTFGFGVLQETTHLMENLLDEARRGEMQLNTDIINLFLETKDIMQEQLNAYKQSQEPDAASFDYICQALRQLALEAKGETPSAVTRLSVVAKSEPQDEQSRSQLPRRIILSRLKAGEVDLLKEELGHLTTLTDVVKGADSLSAILPGDIAEDDITAVLCFVIEADQITFETVDVSPKISTPPVLKLAAEQAPTGRVEREKTTRSSESTSIRVAVEKVDQLINLVGELVITQSMLAQRSSELDPVNHGDLITSMGQLQRNARDLQESVMSIRMMPMEYVFSRYPRLVRDLAGKLGKQVELTLVGSSTELDKSLIERIIDPLTHLVRNSLDHGIELPEKRLAAGKNSVGNLILSAEHQGGNICIEVTDDGAGLNRERILAKAASQGLTVSENMSDDEVAMLIFAPGFSTAEQVTDVSGRGVGMDVVKRNIQEMGGHVEIQSKQGTGTTIRILLPLNAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_hseq>
+      <Hsp_midline>ADELLADMEQHLLVLQPEAP                   GTFGF    ETT  MENLL           TDIINLFL+                                 ALEAKGETPSAVTRLSVVAKSEPQDEQSRSQ   RIILSRL     ++L+EE                               AVLCFVIEADQITFETV+VSPKISTPPVLKLAAEQA  GRV   KTTRS+ESTSIRVAVEKVDQLINLVGELVITQSML          NHGDLI  MGQLQRNARDLQESVMSIRMMP                         TLVGSSTE                   SLDHGIELPEKRLAAGKNSVGN           ICIEVTDDGAGLNRER                         FAPGFSTAEQVTDVSGRG GM  V                             NAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_094188932.1|</Hit_id>
+  <Hit_def>chemotaxis protein CheA [Shigella flexneri]</Hit_def>
+  <Hit_accession>WP_094188932</Hit_accession>
+  <Hit_len>633</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>439.499</Hsp_bit-score>
+      <Hsp_score>1129</Hsp_score>
+      <Hsp_evalue>1.77458e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>555</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>298</Hsp_identity>
+      <Hsp_positive>303</Hsp_positive>
+      <Hsp_gaps>233</Hsp_gaps>
+      <Hsp_align-len>540</Hsp_align-len>
+      <Hsp_qseq>ADELLADMEQHLLVLQPEAP-------------------GTFGFS---ETT--MENLL-----------TDIINLFLD---------------------------------ALEAKGETPSAVTRLSVVAKSEPQDEQSRSQ---RIILSRL-----EVLEEE-------------------------------AVLCFVIEADQITFETVEVSPKISTPPVLKLAAEQA--GRV---KTTRSNESTSIRVAVEKVDQLINLVGELVITQSML----------NHGDLI--MGQLQRNARDLQESVMSIRMMP-------------------------TLVGSSTE-------------------SLDHGIELPEKRLAAGKNSVGN-----------ICIEVTDDGAGLNRER-------------------------FAPGFSTAEQVTDVSGRGDGMSEV-----------------------------NAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_qseq>
+      <Hsp_hseq>ADELLADMEQHLLVLQPEAPDAEQLNAIFRAAHSIKGGAGTFGFSVLQETTHLMENLLDEARRGEMQLNTDIINLFLETKDIMQEQLDAYKQSQEPDAASYDYICQALRQLALEAKGETPSAVTRLSVVAKSEPQDEQSRSQLPRRIILSRLKAGEVDLLEEELGHLTTLNDVVKGADSLSAILPGDIAEDDITAVLCFVIEADQITFETVEVSPKIATPPVLKLAAEQAPTGRVEREKTTRSSESTSIRVAVEKVDQLINLVGELVITQSMLAQRSSELDPVNHGDLITSMGQLQRNARDLQESVMSIRMMPMEYVFSRYPRLVRDLAGKLGKQVELTLVGSSTELDKSLIERIIDPLTHLVRNSLDHGIELPEKRLAAGKNSVGNLILSTEHQGGNICIEVTDDGAGLNRERILAKAASQGLTVSENMSDDEVAMLIFALGFSTAEQVTDVSGRGVGMDVVKRNIQEMGGHVEIQSKQGTGTTIRILLPLNAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_hseq>
+      <Hsp_midline>ADELLADMEQHLLVLQPEAP                   GTFGFS   ETT  MENLL           TDIINLFL+                                 ALEAKGETPSAVTRLSVVAKSEPQDEQSRSQ   RIILSRL     ++LEEE                               AVLCFVIEADQITFETVEVSPKI+TPPVLKLAAEQA  GRV   KTTRS+ESTSIRVAVEKVDQLINLVGELVITQSML          NHGDLI  MGQLQRNARDLQESVMSIRMMP                         TLVGSSTE                   SLDHGIELPEKRLAAGKNSVGN           ICIEVTDDGAGLNRER                         FA GFSTAEQVTDVSGRG GM  V                             NAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|ELX1720379.1|</Hit_id>
+  <Hit_def>chemotaxis protein CheA [Escherichia coli]</Hit_def>
+  <Hit_accession>ELX1720379</Hit_accession>
+  <Hit_len>604</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>437.958</Hsp_bit-score>
+      <Hsp_score>1125</Hsp_score>
+      <Hsp_evalue>2.92109e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>576</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>302</Hsp_identity>
+      <Hsp_positive>306</Hsp_positive>
+      <Hsp_gaps>254</Hsp_gaps>
+      <Hsp_align-len>561</Hsp_align-len>
+      <Hsp_qseq>ADELLADMEQHLLVLQPEAP-------------------GTFGFS---ETT--MENLL-----------TDIINLFLD---------------------------------ALEAKGETPSAVTRLSVVAKSEPQDEQSRSQ---RIILSRL-----EVLEEE-------------------------------AVLCFVIEADQITFETVEVSPKISTPPVLKLAAEQA--GRV---KTTRSNESTSIRVAVEKVDQLINLVGELVITQSML----------NHGDLI--MGQLQRNARDLQESVMSIRMMP-------------------------TLVGSSTE-------------------SLDHGIELPEKRLAAGKNSV-----------GNICIEVTDDGAGLNRER-------------------------FAPGFSTAEQVTDVSGRG----------------------------------------DGMS----------EVNAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_qseq>
+      <Hsp_hseq>ADELLADMEQHLLVLQPEAPDAEQLNAIFRAAHSIKGGAGTFGFSVLQETTHLMENLLDEARRGEMQLNTDIINLFLETKDIMQEQLDAYKQSQEPDAVSFDYICQALRQLALEAKGETPSAVTRLSVVAKSEPQDEQSRSQSPRRIILSRLKAGEVDLLEEELGHLTTLTDVVKGADSLSAILPGDIAEDDITAVLCFVIEADQITFETVEVSPKISTPPVLKLAAEQAPTGRVEREKTTRSNESTSIRVAVEKVDQLINLVGELVITQSMLAQRSSELDPVNHGDLITSMGQLQRNARDLQESVMSIRMMPMEYVFSRYPRLVRDLAGKLGKQVELTLVGSSTELDKSLIERIIDPLTHLVRNSLDHGIELPEKRLAAGKNSVGNLILSAEHQGGNICIEVTDDGAGLNRERILAKAASQGLTVSENMSDDEVAMLIFAPGFSTAEQVTDVSGRGVGMDVVKRNIQEMGGHVEIQSKQGTGTTIRILLPLTLAILDGMSVRVADEVFILPLNAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_hseq>
+      <Hsp_midline>ADELLADMEQHLLVLQPEAP                   GTFGFS   ETT  MENLL           TDIINLFL+                                 ALEAKGETPSAVTRLSVVAKSEPQDEQSRSQ   RIILSRL     ++LEEE                               AVLCFVIEADQITFETVEVSPKISTPPVLKLAAEQA  GRV   KTTRSNESTSIRVAVEKVDQLINLVGELVITQSML          NHGDLI  MGQLQRNARDLQESVMSIRMMP                         TLVGSSTE                   SLDHGIELPEKRLAAGKNSV           GNICIEVTDDGAGLNRER                         FAPGFSTAEQVTDVSGRG                                        DGMS           +NAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|EET5381992.1|</Hit_id>
+  <Hit_def>chemotaxis protein CheA [Escherichia coli]</Hit_def>
+  <Hit_accession>EET5381992</Hit_accession>
+  <Hit_len>648</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>439.113</Hsp_bit-score>
+      <Hsp_score>1128</Hsp_score>
+      <Hsp_evalue>4.09593e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>570</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>301</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>248</Hsp_gaps>
+      <Hsp_align-len>555</Hsp_align-len>
+      <Hsp_qseq>ADELLADMEQHLLVLQPEAP-------------------GTFGFS---ETT--MENLL-----------TDIINLFLD---------------------------------ALEAKGETPSAVTRLSVVAKSEPQDEQSRSQ---RIILSRL-----EVLEEE-------------------------AVLCFVIEADQITFETVEVSPKISTPPVLKLAAEQA--GRV---KTTRSNESTSIRVAVEKVDQLINLVGELVITQSML----------NHGDLI--MGQLQRNARDLQESVMSIRMMP-------------------------TLVGSSTE-------------------SLDHGIELPEKRLAAGKNSV-----------GNICIEVTDDGAGLNRER-------------------------FAPGFSTAEQVTDVSGRG----------------------------------------DGMS----------EVNAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_qseq>
+      <Hsp_hseq>ADELLADMEQHLLVLQPEAPDAEQLNAIFRAAHSIKGGAGTFGFSVLQETTHLMENLLDEARRGEMQLNTDIINLFLETKDIMQEQLDAYKQSQEPDAASFDYICQALRQLALEAKGETPSAVTRLSVVAKSEPQDEQSRSQSPRRIILSRLKAGEVDLLEETLTDVVKGADSLSAILPGDIAEDDITAVLCFVIEADQITFETVEVSPKISTPPVLKLAAEQAPTGRVEREKTTRSNESTSIRVAVEKVDQLINLVGELVITQSMLAQRSSELDPVNHGDLITSMGQLQRNARDLQESVMSIRMMPMEYVFSRYPRLVRDLAGKLGKQVELTLVGSSTELDKSLIERIIDPLTHLVRNSLDHGIELPEKRLAAGKNSVGNLILSAEHQGGNICIEVTDDGAGLNRERILAKAASQGLTVSENMSDDEVAMLIFAPGFSTAEQVTDVSGRGVGMDVVKRNIQEMGGHVEIQSKQGTGTTIRILLPLTLAILDGMSVRVADEVFILPLNAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_hseq>
+      <Hsp_midline>ADELLADMEQHLLVLQPEAP                   GTFGFS   ETT  MENLL           TDIINLFL+                                 ALEAKGETPSAVTRLSVVAKSEPQDEQSRSQ   RIILSRL     ++LEE                          AVLCFVIEADQITFETVEVSPKISTPPVLKLAAEQA  GRV   KTTRSNESTSIRVAVEKVDQLINLVGELVITQSML          NHGDLI  MGQLQRNARDLQESVMSIRMMP                         TLVGSSTE                   SLDHGIELPEKRLAAGKNSV           GNICIEVTDDGAGLNRER                         FAPGFSTAEQVTDVSGRG                                        DGMS           +NAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|EEY1459914.1|</Hit_id>
+  <Hit_def>chemotaxis protein CheA [Escherichia coli]</Hit_def>
+  <Hit_accession>EEY1459914</Hit_accession>
+  <Hit_len>655</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>438.728</Hsp_bit-score>
+      <Hsp_score>1127</Hsp_score>
+      <Hsp_evalue>7.40002e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>577</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>302</Hsp_identity>
+      <Hsp_positive>306</Hsp_positive>
+      <Hsp_gaps>255</Hsp_gaps>
+      <Hsp_align-len>562</Hsp_align-len>
+      <Hsp_qseq>ADELLADMEQHLLVLQPEAP-------------------GTFGFS---ETT--MENLL-----------TDIINLFLD----------------------------------ALEAKGETPSAVTRLSVVAKSEPQDEQSRSQ---RIILSRL-----EVLEEE-------------------------------AVLCFVIEADQITFETVEVSPKISTPPVLKLAAEQA--GRV---KTTRSNESTSIRVAVEKVDQLINLVGELVITQSML----------NHGDLI--MGQLQRNARDLQESVMSIRMMP-------------------------TLVGSSTE-------------------SLDHGIELPEKRLAAGKNSV-----------GNICIEVTDDGAGLNRER-------------------------FAPGFSTAEQVTDVSGRG----------------------------------------DGMS----------EVNAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_qseq>
+      <Hsp_hseq>ADELLADMEQHLLVLQPEAPDAEQLNAIFRAAHSIKGGAGTFGFSVLQETTHLMENLLDEARRGEMQLNTDIINLFLETKDIMQEQLDAYKQSQEEPDAASFDYICQALRQLALEAKGETPSAVTRLSVVAKSEPQDEQSRSQSPRRIILSRLKAGEVDLLEEELGHLTTLTDVVKGADSLSAILPGDIAEDDITAVLCFVIEADQITFETVEVSPKISTPPVLKLAAEQAPTGRVEREKTTRSNESTSIRVAVEKVDQLINLVGELVITQSMLAQRSSELDPVNHGDLITSMGQLQRNARDLQESVMSIRMMPMEYVFSRYPRLVRDLAGKLGKQVELTLVGSSTELDKSLIERIIDPLTHLVRNSLDHGIELPEKRLAAGKNSVGNLILSAEHQGGNICIEVTDDGAGLNRERILAKAASQGLTVSENMSDDEVAMLIFAPGFSTAEQVTDVSGRGVGMDVVKRNIQEMGGHVEIQSKQGTGTTIRILLPLTLAILDGMSVRVADEVFILPLNAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_hseq>
+      <Hsp_midline>ADELLADMEQHLLVLQPEAP                   GTFGFS   ETT  MENLL           TDIINLFL+                                  ALEAKGETPSAVTRLSVVAKSEPQDEQSRSQ   RIILSRL     ++LEEE                               AVLCFVIEADQITFETVEVSPKISTPPVLKLAAEQA  GRV   KTTRSNESTSIRVAVEKVDQLINLVGELVITQSML          NHGDLI  MGQLQRNARDLQESVMSIRMMP                         TLVGSSTE                   SLDHGIELPEKRLAAGKNSV           GNICIEVTDDGAGLNRER                         FAPGFSTAEQVTDVSGRG                                        DGMS           +NAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|ENV4921294.1|</Hit_id>
+  <Hit_def>chemotaxis protein CheA [Escherichia coli]</Hit_def>
+  <Hit_accession>ENV4921294</Hit_accession>
+  <Hit_len>654</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>437.958</Hsp_bit-score>
+      <Hsp_score>1125</Hsp_score>
+      <Hsp_evalue>1.76834e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>576</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>301</Hsp_identity>
+      <Hsp_positive>306</Hsp_positive>
+      <Hsp_gaps>254</Hsp_gaps>
+      <Hsp_align-len>561</Hsp_align-len>
+      <Hsp_qseq>ADELLADMEQHLLVLQPEAP-------------------GTFGFS---ETT--MENLL-----------TDIINLFLD---------------------------------ALEAKGETPSAVTRLSVVAKSEPQDEQSRSQ---RIILSRLEV-----LEEE-------------------------------AVLCFVIEADQITFETVEVSPKISTPPVLKLAAEQA--GRV---KTTRSNESTSIRVAVEKVDQLINLVGELVITQSML----------NHGDLI--MGQLQRNARDLQESVMSIRMMP-------------------------TLVGSSTE-------------------SLDHGIELPEKRLAAGKNSV-----------GNICIEVTDDGAGLNRER-------------------------FAPGFSTAEQVTDVSGRG----------------------------------------DGMS----------EVNAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_qseq>
+      <Hsp_hseq>ADELLADMEQHLLVLQPEAPDAEQLNAIFRAAHSIKGGAGTFGFSVLQETTHLMENLLDEARRGEMQLNTDIINLFLETKDIMQEQLDAYKQSQETDAASFDYICQALRQLALEAKGETPSAVTRLSVVAKSEPQDEQSRSQSPRRIILSRLKVGEVDLLEEELGHLTTLTDVVKGADSLSAILPDDIAEDDITAVLCFVIEADQITFETVDVSPKISTPPVLKLAAEQAPTGRVEREKTTRSSESTSIRVAVEKVDQLINLVGELVITQSMLAQRSSELDPVNHGDLITSMGQLQRNARDLQESVMSIRMMPMEYVFSRYPRLVRDLAGKLGKQVELTLVGSSTELDKSLIERIIDPLTHLVRNSLDHGIELPEKRLAAGKNSVGNLILSAEHQGGNICIEVTDDGAGLNRERILAKAASQGLTVSENMSDDEVAMLIFAPGFSTAEQVTDVSGRGVGMDVVKRNIQEMGGHVEIQSKQGTGTTIRILLPLTLAILDGMSVRVADEVFILPLNAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_hseq>
+      <Hsp_midline>ADELLADMEQHLLVLQPEAP                   GTFGFS   ETT  MENLL           TDIINLFL+                                 ALEAKGETPSAVTRLSVVAKSEPQDEQSRSQ   RIILSRL+V     LEEE                               AVLCFVIEADQITFETV+VSPKISTPPVLKLAAEQA  GRV   KTTRS+ESTSIRVAVEKVDQLINLVGELVITQSML          NHGDLI  MGQLQRNARDLQESVMSIRMMP                         TLVGSSTE                   SLDHGIELPEKRLAAGKNSV           GNICIEVTDDGAGLNRER                         FAPGFSTAEQVTDVSGRG                                        DGMS           +NAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_074430939.1|</Hit_id>
+  <Hit_def>chemotaxis protein CheA [Escherichia coli] &gt;gb|EFW8105716.1| chemotaxis protein CheA [Shigella sonnei] &gt;gb|EIH4989061.1| chemotaxis protein CheA [Shigella boydii] &gt;tpg|HDL6811270.1| chemotaxis protein CheA [Escherichia coli 371_08] &gt;tpg|HDL6815776.1| chemotaxis protein CheA [Escherichia coli 290_10] &gt;tpg|HDL6829990.1| chemotaxis protein CheA [Escherichia coli 229_11] &gt;tpg|HDL7557906.1| chemotaxis protein CheA [Escherichia coli 151_06]</Hit_def>
+  <Hit_accession>WP_074430939</Hit_accession>
+  <Hit_len>654</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>437.187</Hsp_bit-score>
+      <Hsp_score>1123</Hsp_score>
+      <Hsp_evalue>3.24821e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>576</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>300</Hsp_identity>
+      <Hsp_positive>306</Hsp_positive>
+      <Hsp_gaps>254</Hsp_gaps>
+      <Hsp_align-len>561</Hsp_align-len>
+      <Hsp_qseq>ADELLADMEQHLLVLQPEAP-------------------GTFGFS---ETT--MENLL-----------TDIINLFLD---------------------------------ALEAKGETPSAVTRLSVVAKSEPQDEQSRSQ---RIILSRL-----EVLEEE-------------------------------AVLCFVIEADQITFETVEVSPKISTPPVLKLAAEQA--GRV---KTTRSNESTSIRVAVEKVDQLINLVGELVITQSML----------NHGDLI--MGQLQRNARDLQESVMSIRMMP-------------------------TLVGSSTE-------------------SLDHGIELPEKRLAAGKNSV-----------GNICIEVTDDGAGLNRER-------------------------FAPGFSTAEQVTDVSGRG----------------------------------------DGMS----------EVNAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_qseq>
+      <Hsp_hseq>ADELLADMEQHLLVLQPEAPDAEQLNAIFRAAHSIKGGAGTFGFSVLQETTHLMENLLDEARRGEMQLNTDIINLFLETKDIMQEQLDAYKQSQETDAASFDYICQALRQLALEAKGETPSAVTRLSVVAKSEPQDEQSRSQSPRRIILSRLKAGEVDLLEEELGHLTTLTDVVKGADSLSAILPDDIAEDDITAVLCFVIEADQITFETVDVSPKISTPPVLKLAAEQAPTGRVEREKTTRSSESTSIRVAVEKVDQLINLVGELVITQSMLAQRSSELDPVNHGDLITSMGQLQRNARDLQESVMSIRMMPMEYVFSRYPRLVRDLAGKLGKQVELTLVGSSTELDKSLIERIIDPLTHLVRNSLDHGIELPEKRLAAGKNSVGNLILSAEHQGGNICIEVTDDGAGLNRERILAKAASQGLTVSENMSDDEVAMLIFAPGFSTAEQVTDVSGRGVGMDVVKRNIQEMGGHVEIQSKQGTGTTIRILLPLTLAILDGMSVRVADEVFILPLNAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_hseq>
+      <Hsp_midline>ADELLADMEQHLLVLQPEAP                   GTFGFS   ETT  MENLL           TDIINLFL+                                 ALEAKGETPSAVTRLSVVAKSEPQDEQSRSQ   RIILSRL     ++LEEE                               AVLCFVIEADQITFETV+VSPKISTPPVLKLAAEQA  GRV   KTTRS+ESTSIRVAVEKVDQLINLVGELVITQSML          NHGDLI  MGQLQRNARDLQESVMSIRMMP                         TLVGSSTE                   SLDHGIELPEKRLAAGKNSV           GNICIEVTDDGAGLNRER                         FAPGFSTAEQVTDVSGRG                                        DGMS           +NAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|ELH3444892.1|</Hit_id>
+  <Hit_def>chemotaxis protein CheA [Escherichia coli]</Hit_def>
+  <Hit_accession>ELH3444892</Hit_accession>
+  <Hit_len>654</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>436.802</Hsp_bit-score>
+      <Hsp_score>1122</Hsp_score>
+      <Hsp_evalue>4.26121e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>576</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>300</Hsp_identity>
+      <Hsp_positive>306</Hsp_positive>
+      <Hsp_gaps>254</Hsp_gaps>
+      <Hsp_align-len>561</Hsp_align-len>
+      <Hsp_qseq>ADELLADMEQHLLVLQPEAP-------------------GTFGFS---ETT--MENLL-----------TDIINLFLD---------------------------------ALEAKGETPSAVTRLSVVAKSEPQDEQSRSQ---RIILSRL-----EVLEEE-------------------------------AVLCFVIEADQITFETVEVSPKISTPPVLKLAAEQA--GRV---KTTRSNESTSIRVAVEKVDQLINLVGELVITQSML----------NHGDLI--MGQLQRNARDLQESVMSIRMMP-------------------------TLVGSSTE-------------------SLDHGIELPEKRLAAGKNSV-----------GNICIEVTDDGAGLNRER-------------------------FAPGFSTAEQVTDVSGRG----------------------------------------DGMS----------EVNAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_qseq>
+      <Hsp_hseq>ADELLADMEQHLLVLQPEAPDAEQLNAIFRAAHSIKGGAGTFGFSVLQETTHLMENLLDEARRGEMQLNTDIINLFLETKDIMQEQLDAYKQSQETDAASFDYICQALRQLALEAKGETPSAVTRLSVVAKSEPQDEQSRSQSPRRIILSRLKAGEVDLLEEELGHLTTLTDVVKGADSLSAILPDDIAEDDITAVLCFVIEADQITFETVDVSPKISTPPVLKLAAEQAPTGRVEREKTTRSSESTSIRVAVEKVDQLINLVGELVITQSMLAQRSSELDPANHGDLITSMGQLQRNARDLQESVMSIRMMPMEYVFSRYPRLVRDLAGKLGKQVELTLVGSSTELDKSLIERIIDPLTHLVRNSLDHGIELPEKRLAAGKNSVGNLILSAEHQGGNICIEVTDDGAGLNRERILAKAASQGLTVSENMSDDEVAMLIFAPGFSTAEQVTDVSGRGVGMDVVKRNIQEMGGHVEIQSKQGTGTTIRILLPLTLAILDGMSVRVADEVFILPLNAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_hseq>
+      <Hsp_midline>ADELLADMEQHLLVLQPEAP                   GTFGFS   ETT  MENLL           TDIINLFL+                                 ALEAKGETPSAVTRLSVVAKSEPQDEQSRSQ   RIILSRL     ++LEEE                               AVLCFVIEADQITFETV+VSPKISTPPVLKLAAEQA  GRV   KTTRS+ESTSIRVAVEKVDQLINLVGELVITQSML          NHGDLI  MGQLQRNARDLQESVMSIRMMP                         TLVGSSTE                   SLDHGIELPEKRLAAGKNSV           GNICIEVTDDGAGLNRER                         FAPGFSTAEQVTDVSGRG                                        DGMS           +NAVMESLQPREADLHPLAGGERVLEVRGEYLPIVELWKVFNVAGAKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>877781531</Statistics_db-num>
+      <Statistics_db-len>334720180573</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
