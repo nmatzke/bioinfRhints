@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_6312401</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>213</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_6312401</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>213</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_062351603.1|</Hit_id>
+  <Hit_def>MULTISPECIES: OmpA family protein [Pseudoxanthomonas] &gt;gb|MDR7070275.1| flagellar motor protein MotB [Pseudoxanthomonas japonensis]</Hit_def>
+  <Hit_accession>WP_062351603</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>420.239</Hsp_bit-score>
+      <Hsp_score>1079</Hsp_score>
+      <Hsp_evalue>1.14336e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEVKRRELEAQQRKALEEALAEPLAEGRVTIVDGRIGIRGNVLFALNSDQLQPEGRELLKGLAAPLAGYLRTRDEILMVSGFTDDRQVSGSNRQFADNWELSAQRSLTVTRTLIADGVPSSSVFAAAFGAEQPVSANDSEDGRARNRRVEIAPMPRPTTRKAAP</Hsp_qseq>
+      <Hsp_hseq>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEVKRRELEAQQRKALEEALAEPLAEGRVTIVDGRIGIRGNVLFALNSDQLQPEGRELLKGLAAPLAGYLRTRDEILMVSGFTDDRQVSGSNRQFADNWELSAQRSLTVTRTLIADGVPSSSVFAAAFGAEQPVSANDSEDGRARNRRVEIAPMPRPTTRKAAP</Hsp_hseq>
+      <Hsp_midline>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEVKRRELEAQQRKALEEALAEPLAEGRVTIVDGRIGIRGNVLFALNSDQLQPEGRELLKGLAAPLAGYLRTRDEILMVSGFTDDRQVSGSNRQFADNWELSAQRSLTVTRTLIADGVPSSSVFAAAFGAEQPVSANDSEDGRARNRRVEIAPMPRPTTRKAAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|MBA3930232.1|</Hit_id>
+  <Hit_def>hypothetical protein [Xanthomonas sp.] &gt;gb|MBL8255694.1| OmpA family protein [Pseudoxanthomonas mexicana]</Hit_def>
+  <Hit_accession>MBA3930232</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>419.853</Hsp_bit-score>
+      <Hsp_score>1078</Hsp_score>
+      <Hsp_evalue>2.06772e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEVKRRELEAQQRKALEEALAEPLAEGRVTIVDGRIGIRGNVLFALNSDQLQPEGRELLKGLAAPLAGYLRTRDEILMVSGFTDDRQVSGSNRQFADNWELSAQRSLTVTRTLIADGVPSSSVFAAAFGAEQPVSANDSEDGRARNRRVEIAPMPRPTTRKAAP</Hsp_qseq>
+      <Hsp_hseq>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEVKRRELESQQRKALEEALAEPLAEGRVTIVDGRIGIRGNVLFALNSDQLQPEGRELLKGLAAPLAGYLRTRDEILMVSGFTDDRQVSGSNRQFADNWELSAQRSLTVTRTLIADGVPSSSVFAAAFGAEQPVSANDSEDGRARNRRVEIAPMPRPTTRKAAP</Hsp_hseq>
+      <Hsp_midline>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEVKRRELE+QQRKALEEALAEPLAEGRVTIVDGRIGIRGNVLFALNSDQLQPEGRELLKGLAAPLAGYLRTRDEILMVSGFTDDRQVSGSNRQFADNWELSAQRSLTVTRTLIADGVPSSSVFAAAFGAEQPVSANDSEDGRARNRRVEIAPMPRPTTRKAAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_213604915.1|</Hit_id>
+  <Hit_def>OmpA family protein [Pseudoxanthomonas japonensis] &gt;gb|MFC6185415.1| OmpA family protein [Pseudoxanthomonas japonensis] &gt;gb|NCT71257.1| OmpA family protein [Lysobacteraceae bacterium] &gt;gb|XIJ09080.1| OmpA family protein [Pseudoxanthomonas japonensis]</Hit_def>
+  <Hit_accession>WP_213604915</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>407.527</Hsp_bit-score>
+      <Hsp_score>1046</Hsp_score>
+      <Hsp_evalue>1.51431e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEVKRRELEAQQRKALEEALAEPLAEGRVTIVDGRIGIRGNVLFALNSDQLQPEGRELLKGLAAPLAGYLRTRDEILMVSGFTDDRQVSGSNRQFADNWELSAQRSLTVTRTLIADGVPSSSVFAAAFGAEQPVSANDSEDGRARNRRVEIAPMPRPTTRKAAP</Hsp_qseq>
+      <Hsp_hseq>MSVETGDDTDLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEVKRRELEAQQRKALEEALAEPLAEGRVTIVDGRIGIRGNVLFALNSDQLQPEGRELLKGLAAPLARYLRTRDEILMVSGFTDDRQVSGNNRQFADNWELSAQRSLTVTRTLIADGVPSSSVFAAAFGAEQPVSANDSEDGRARNRRVEIAPIPRPAKHKAAP</Hsp_hseq>
+      <Hsp_midline>MSVETGDD DLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEVKRRELEAQQRKALEEALAEPLAEGRVTIVDGRIGIRGNVLFALNSDQLQPEGRELLKGLAAPLA YLRTRDEILMVSGFTDDRQVSG+NRQFADNWELSAQRSLTVTRTLIADGVPSSSVFAAAFGAEQPVSANDSEDGRARNRRVEIAP+PRP   KAAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_192268271.1|</Hit_id>
+  <Hit_def>OmpA family protein [Pseudoxanthomonas sp. PXM01] &gt;gb|MBD9467838.1| OmpA family protein [Pseudoxanthomonas sp. PXM01]</Hit_def>
+  <Hit_accession>WP_192268271</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>405.986</Hsp_bit-score>
+      <Hsp_score>1042</Hsp_score>
+      <Hsp_evalue>4.79152e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEVKRRELEAQQRKALEEALAEPLAEGRVTIVDGRIGIRGNVLFALNSDQLQPEGRELLKGLAAPLAGYLRTRDEILMVSGFTDDRQVSGSNRQFADNWELSAQRSLTVTRTLIADGVPSSSVFAAAFGAEQPVSANDSEDGRARNRRVEIAPMPRPTTRKAAP</Hsp_qseq>
+      <Hsp_hseq>MSVETGDDAELGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEVKRRELEAQQRKALEEALAEPLAEGRVTIVDGRIGIRGNVLFALNSDQLQPEGRELLKGLAAPLAGYLRTRDEILMVSGFTDDRQVSGNNRQFADNWELSAQRSLTVTRTLIADGVPSSSVFAAAFGAEQPVSANDSEDGRARNRRVEIAPIARPAKRQATP</Hsp_hseq>
+      <Hsp_midline>MSVETGDDA+LGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEVKRRELEAQQRKALEEALAEPLAEGRVTIVDGRIGIRGNVLFALNSDQLQPEGRELLKGLAAPLAGYLRTRDEILMVSGFTDDRQVSG+NRQFADNWELSAQRSLTVTRTLIADGVPSSSVFAAAFGAEQPVSANDSEDGRARNRRVEIAP+ RP  R+A P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_313928031.1|</Hit_id>
+  <Hit_def>OmpA family protein [Pseudoxanthomonas sp.] &gt;gb|MCR6627533.1| OmpA family protein [Pseudoxanthomonas sp.]</Hit_def>
+  <Hit_accession>WP_313928031</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>405.601</Hsp_bit-score>
+      <Hsp_score>1041</Hsp_score>
+      <Hsp_evalue>8.85675e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEVKRRELEAQQRKALEEALAEPLAEGRVTIVDGRIGIRGNVLFALNSDQLQPEGRELLKGLAAPLAGYLRTRDEILMVSGFTDDRQVSGSNRQFADNWELSAQRSLTVTRTLIADGVPSSSVFAAAFGAEQPVSANDSEDGRARNRRVEIAPMPRPTTRKAAP</Hsp_qseq>
+      <Hsp_hseq>MSVETGDDTDLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEVKRRELEAQQRKALEEALAEPLAEGRVTIVDGRIGIRGNVLFALNSDQLQPEGRELLKGLAAPLARYLRTRDEILMVSGFTDDRQVSGNNRQFADNWELSAQRSLTVTRTLIADGVPSSSVFAAAFGAEQPVSANDSEDGRARNRRVEIAPIPRPAKRQATP</Hsp_hseq>
+      <Hsp_midline>MSVETGDD DLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEVKRRELEAQQRKALEEALAEPLAEGRVTIVDGRIGIRGNVLFALNSDQLQPEGRELLKGLAAPLA YLRTRDEILMVSGFTDDRQVSG+NRQFADNWELSAQRSLTVTRTLIADGVPSSSVFAAAFGAEQPVSANDSEDGRARNRRVEIAP+PRP  R+A P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_334179394.1|</Hit_id>
+  <Hit_def>OmpA family protein [Pseudoxanthomonas sp.]</Hit_def>
+  <Hit_accession>WP_334179394</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.445</Hsp_bit-score>
+      <Hsp_score>1038</Hsp_score>
+      <Hsp_evalue>1.97273e-141</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEVKRRELEAQQRKALEEALAEPLAEGRVTIVDGRIGIRGNVLFALNSDQLQPEGRELLKGLAAPLAGYLRTRDEILMVSGFTDDRQVSGSNRQFADNWELSAQRSLTVTRTLIADGVPSSSVFAAAFGAEQPVSANDSEDGRARNRRVEIAPMPRPTTRKAAP</Hsp_qseq>
+      <Hsp_hseq>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVHAQLSQRLDEEVKRRELEAQQRKALEDALAEPLAEGRVTLVDGRIGIRGNVLFALNSDQLQPEGRELLKGLAAPLAGYLRTRDEILMVSGFTDDRQVSGNNRLFADNWELSAQRSLTVTRTLIADGVPSSSVFAAAFGAEQPVSANDSEDGRARNRRVEIAPIPRPAKRKATP</Hsp_hseq>
+      <Hsp_midline>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAV AQLSQRLDEEVKRRELEAQQRKALE+ALAEPLAEGRVT+VDGRIGIRGNVLFALNSDQLQPEGRELLKGLAAPLAGYLRTRDEILMVSGFTDDRQVSG+NR FADNWELSAQRSLTVTRTLIADGVPSSSVFAAAFGAEQPVSANDSEDGRARNRRVEIAP+PRP  RKA P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_162337391.1|</Hit_id>
+  <Hit_def>OmpA family protein [Pseudoxanthomonas japonensis] &gt;gb|KAF1725669.1| hypothetical protein CSC78_08045 [Pseudoxanthomonas japonensis]</Hit_def>
+  <Hit_accession>WP_162337391</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>401.749</Hsp_bit-score>
+      <Hsp_score>1031</Hsp_score>
+      <Hsp_evalue>2.37979e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEVKRRELEAQQRKALEEALAEPLAEGRVTIVDGRIGIRGNVLFALNSDQLQPEGRELLKGLAAPLAGYLRTRDEILMVSGFTDDRQVSGSNRQFADNWELSAQRSLTVTRTLIADGVPSSSVFAAAFGAEQPVSANDSEDGRARNRRVEIAPMPRPTTRKAAP</Hsp_qseq>
+      <Hsp_hseq>MSVETGDDTDLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEVKRRELEAQQRKALEEALAEPLAEGRVTIVDGRIGIRGNVLFALNSDQLQPEGRELLKGLAAPLARYLRTRDEILMVSGFPDARQVSGNNRQFADNWELSAQRSLTVTRTLIADGVPSSSVFAAAFGAEQPVSANDSEDGRARNRRVEIAPIPRPAKHKAAP</Hsp_hseq>
+      <Hsp_midline>MSVETGDD DLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEVKRRELEAQQRKALEEALAEPLAEGRVTIVDGRIGIRGNVLFALNSDQLQPEGRELLKGLAAPLA YLRTRDEILMVSGF D RQVSG+NRQFADNWELSAQRSLTVTRTLIADGVPSSSVFAAAFGAEQPVSANDSEDGRARNRRVEIAP+PRP   KAAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_192308829.1|</Hit_id>
+  <Hit_def>OmpA family protein [Pseudoxanthomonas sp. PXM02] &gt;gb|MBD9477516.1| OmpA family protein [Pseudoxanthomonas sp. PXM02]</Hit_def>
+  <Hit_accession>WP_192308829</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>399.438</Hsp_bit-score>
+      <Hsp_score>1025</Hsp_score>
+      <Hsp_evalue>2.29331e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEVKRRELEAQQRKALEEALAEPLAEGRVTIVDGRIGIRGNVLFALNSDQLQPEGRELLKGLAAPLAGYLRTRDEILMVSGFTDDRQVSGSNRQFADNWELSAQRSLTVTRTLIADGVPSSSVFAAAFGAEQPVSANDSEDGRARNRRVEIAPMPRPTTRKAA</Hsp_qseq>
+      <Hsp_hseq>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEVKRREQEAQQRKALEEALAEPLAEGRVTLVDGRIGIRGNVLFALNSDQLQPEGRELLKGLAAPLAGYLRTRDEILMVSGFTDDRQVSGNNRQFADNWELSAQRSLTVMRTLIADGVPSSSVFAAAFGAEQPVSANDSEAGRARNRRVEIAPIPRPAKRAAA</Hsp_hseq>
+      <Hsp_midline>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEVKRRE EAQQRKALEEALAEPLAEGRVT+VDGRIGIRGNVLFALNSDQLQPEGRELLKGLAAPLAGYLRTRDEILMVSGFTDDRQVSG+NRQFADNWELSAQRSLTV RTLIADGVPSSSVFAAAFGAEQPVSANDSE GRARNRRVEIAP+PRP  R AA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_296280707.1|</Hit_id>
+  <Hit_def>OmpA family protein [Pseudoxanthomonas sp.]</Hit_def>
+  <Hit_accession>WP_296280707</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>398.667</Hsp_bit-score>
+      <Hsp_score>1023</Hsp_score>
+      <Hsp_evalue>5.23617e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEVKRRELEAQQRKALEEALAEPLAEGRVTIVDGRIGIRGNVLFALNSDQLQPEGRELLKGLAAPLAGYLRTRDEILMVSGFTDDRQVSGSNRQFADNWELSAQRSLTVTRTLIADGVPSSSVFAAAFGAEQPVSANDSEDGRARNRRVEIAPMPRPTTRKAAP</Hsp_qseq>
+      <Hsp_hseq>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEVRRRELEAQQRKALEEALAEPLAEGRVTLVDGRIGIRGNVLFALNSDQLQPEGRELLKGLAAPLAGYLRTRDEILMVSGFTDDRQVSGNNRQFADNWELSAQRSLTVTRTLIAEGVPSGSVFAAAFGAEQPVSANDSDEGRARNRRVEIAPIPRPPKRDVAP</Hsp_hseq>
+      <Hsp_midline>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEV+RRELEAQQRKALEEALAEPLAEGRVT+VDGRIGIRGNVLFALNSDQLQPEGRELLKGLAAPLAGYLRTRDEILMVSGFTDDRQVSG+NRQFADNWELSAQRSLTVTRTLIA+GVPS SVFAAAFGAEQPVSANDS++GRARNRRVEIAP+PRP  R  AP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_299342472.1|</Hit_id>
+  <Hit_def>OmpA family protein [uncultured Pseudoxanthomonas sp.]</Hit_def>
+  <Hit_accession>WP_299342472</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>396.741</Hsp_bit-score>
+      <Hsp_score>1018</Hsp_score>
+      <Hsp_evalue>2.99537e-138</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEVKRRELEAQQRKALEEALAEPLAEGRVTIVDGRIGIRGNVLFALNSDQLQPEGRELLKGLAAPLAGYLRTRDEILMVSGFTDDRQVSGSNRQFADNWELSAQRSLTVTRTLIADGVPSSSVFAAAFGAEQPVSANDSEDGRARNRRVEIAPMPRPTTRKAAP</Hsp_qseq>
+      <Hsp_hseq>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEVRRRELEAQQRKALEEALAEPLAEGRVTLVDGRIGIRGNVLFALNSDQLQPEGRELLKGLAAPLAGYLRTRDEILMVSGFTDDRQVSGNNRQFADNWELSAQRSLTVTRTLIAEGVPSGSVFAAAFGAEQPVSPNDSDEGRARNRRVEIAPIPRPPKRDVAP</Hsp_hseq>
+      <Hsp_midline>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEV+RRELEAQQRKALEEALAEPLAEGRVT+VDGRIGIRGNVLFALNSDQLQPEGRELLKGLAAPLAGYLRTRDEILMVSGFTDDRQVSG+NRQFADNWELSAQRSLTVTRTLIA+GVPS SVFAAAFGAEQPVS NDS++GRARNRRVEIAP+PRP  R  AP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_241044055.1|</Hit_id>
+  <Hit_def>OmpA family protein [Pseudoxanthomonas sp. LH2527] &gt;gb|MCH6482057.1| OmpA family protein [Pseudoxanthomonas sp. LH2527]</Hit_def>
+  <Hit_accession>WP_241044055</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>393.66</Hsp_bit-score>
+      <Hsp_score>1010</Hsp_score>
+      <Hsp_evalue>3.9437e-137</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEVKRRELEAQQRKALEEALAEPLAEGRVTIVDGRIGIRGNVLFALNSDQLQPEGRELLKGLAAPLAGYLRTRDEILMVSGFTDDRQVSGSNRQFADNWELSAQRSLTVTRTLIADGVPSSSVFAAAFGAEQPVSANDSEDGRARNRRVEIAPMPRPTTRKAA</Hsp_qseq>
+      <Hsp_hseq>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEVRRRELETQQRTALEKALAVPLAEGRVTLVDGRIGIRGNVLFALNSDQLEPEGRELLKGLAAPLAGYLRTRDEILMVSGFTDDRQVSGNNRQFADNWELSAQRALTVTRTLIADGVPSSSVFAAAFGAEQPVSANDSEDGRARNRRVEIAPVPRPAKRDAS</Hsp_hseq>
+      <Hsp_midline>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEV+RRELE QQR ALE+ALA PLAEGRVT+VDGRIGIRGNVLFALNSDQL+PEGRELLKGLAAPLAGYLRTRDEILMVSGFTDDRQVSG+NRQFADNWELSAQR+LTVTRTLIADGVPSSSVFAAAFGAEQPVSANDSEDGRARNRRVEIAP+PRP  R A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_055943046.1|</Hit_id>
+  <Hit_def>OmpA family protein [Pseudoxanthomonas sp. Root65] &gt;gb|KRA52773.1| hypothetical protein ASD77_14240 [Pseudoxanthomonas sp. Root65]</Hit_def>
+  <Hit_accession>WP_055943046</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>393.66</Hsp_bit-score>
+      <Hsp_score>1010</Hsp_score>
+      <Hsp_evalue>5.42059e-137</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEVKRRELEAQQRKALEEALAEPLAEGRVTIVDGRIGIRGNVLFALNSDQLQPEGRELLKGLAAPLAGYLRTRDEILMVSGFTDDRQVSGSNRQFADNWELSAQRSLTVTRTLIADGVPSSSVFAAAFGAEQPVSANDSEDGRARNRRVEIAPMPRPTTRKA</Hsp_qseq>
+      <Hsp_hseq>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEVRRRELETQQRTALEKALAVPLAEGRVTLVDGRIGIRGNVLFALNSDQLEPEGRELLKGLAAPLAGYLRTRDEILMVSGFTDDRQVSGNNRQFADNWELSAQRALTVTRTLIADGVPSSSVFAAAFGAEQPVSANDSEDGRARNRRVEIAPVPRPAQRDA</Hsp_hseq>
+      <Hsp_midline>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEV+RRELE QQR ALE+ALA PLAEGRVT+VDGRIGIRGNVLFALNSDQL+PEGRELLKGLAAPLAGYLRTRDEILMVSGFTDDRQVSG+NRQFADNWELSAQR+LTVTRTLIADGVPSSSVFAAAFGAEQPVSANDSEDGRARNRRVEIAP+PRP  R A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_298132092.1|</Hit_id>
+  <Hit_def>OmpA family protein [uncultured Pseudoxanthomonas sp.]</Hit_def>
+  <Hit_accession>WP_298132092</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>391.349</Hsp_bit-score>
+      <Hsp_score>1004</Hsp_score>
+      <Hsp_evalue>3.49815e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEVKRRELEAQQRKALEEALAEPLAEGRVTIVDGRIGIRGNVLFALNSDQLQPEGRELLKGLAAPLAGYLRTRDEILMVSGFTDDRQVSGSNRQFADNWELSAQRSLTVTRTLIADGVPSSSVFAAAFGAEQPVSANDSEDGRARNRRVEIAPMPRPTTRKA</Hsp_qseq>
+      <Hsp_hseq>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEVRRRELETQQRTALEKALAVPLAEGRVTLIDGRIGIRGNVLFALNSDQLEPEGRELLKGLAAPLAGYLRTREEILMVSGFTDDRQVSGNNRQFADNWELSAQRALTVTRTLIADGVPSSSVFAAAFGAEQPVSANDSEDGRARNRRVEIAPVPRPAQRDA</Hsp_hseq>
+      <Hsp_midline>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEV+RRELE QQR ALE+ALA PLAEGRVT++DGRIGIRGNVLFALNSDQL+PEGRELLKGLAAPLAGYLRTR+EILMVSGFTDDRQVSG+NRQFADNWELSAQR+LTVTRTLIADGVPSSSVFAAAFGAEQPVSANDSEDGRARNRRVEIAP+PRP  R A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|MFT3668290.1|</Hit_id>
+  <Hit_def>OmpA family protein [Pseudoxanthomonas sp.]</Hit_def>
+  <Hit_accession>MFT3668290</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>381.333</Hsp_bit-score>
+      <Hsp_score>978</Hsp_score>
+      <Hsp_evalue>3.54529e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEVKRRELEAQQRKALEEALAEPLAEGRVTIVDGRIGIRGNVLFALNSDQLQPEGRELLKGLAAPLAGYLRTRDEILMVSGFTDDRQVSGSNRQFADNWELSAQRSLTVTRTLIADGVPSSSVFAAAFGAEQPVSANDSEDGRARNRRVEIAPMPRPTTRKA</Hsp_qseq>
+      <Hsp_hseq>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLAQRLDEETRRREQEAQQRKALEDALAAPLAEGRVTLVDGRIGIRGNVLFALNSDQLQPEGRDLLKSLAAPLAGYLRTREEILMVSGFTDDRQVSGSNRQFADNWDLSAQRALTVTRTLIDEGVPSSSVFAAAFGAEQPVSANTSEEGRARNRRVEIAPIPRPTSKRS</Hsp_hseq>
+      <Hsp_midline>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQL+QRLDEE +RRE EAQQRKALE+ALA PLAEGRVT+VDGRIGIRGNVLFALNSDQLQPEGR+LLK LAAPLAGYLRTR+EILMVSGFTDDRQVSGSNRQFADNW+LSAQR+LTVTRTLI +GVPSSSVFAAAFGAEQPVSAN SE+GRARNRRVEIAP+PRPT++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_093298003.1|</Hit_id>
+  <Hit_def>OmpA family protein [Pseudoxanthomonas sp. CF385] &gt;emb|SDQ64569.1| Flagellar motor protein MotB [Pseudoxanthomonas sp. CF385]</Hit_def>
+  <Hit_accession>WP_093298003</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>380.563</Hsp_bit-score>
+      <Hsp_score>976</Hsp_score>
+      <Hsp_evalue>8.33976e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEVKRRELEAQQRKALEEALAEPLAEGRVTIVDGRIGIRGNVLFALNSDQLQPEGRELLKGLAAPLAGYLRTRDEILMVSGFTDDRQVSGSNRQFADNWELSAQRSLTVTRTLIADGVPSSSVFAAAFGAEQPVSANDSEDGRARNRRVEIAPMPRPTTRKA</Hsp_qseq>
+      <Hsp_hseq>MSVETGEDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLAQRLDEETRRREQEAQQRKALEDALAAPLAEGRVTLVDGRIGIRGNVLFALNSDQLQPEGRDLLKSLAAPLAGYLRTREEILMVSGFTDDRQVSGSNRQFADNWDLSAQRALTVTRTLIEEGVPSSSVFAAAFGAEQPVSANTSEEGRARNRRVEIAPIPRPTSKRS</Hsp_hseq>
+      <Hsp_midline>MSVETG+DADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQL+QRLDEE +RRE EAQQRKALE+ALA PLAEGRVT+VDGRIGIRGNVLFALNSDQLQPEGR+LLK LAAPLAGYLRTR+EILMVSGFTDDRQVSGSNRQFADNW+LSAQR+LTVTRTLI +GVPSSSVFAAAFGAEQPVSAN SE+GRARNRRVEIAP+PRPT++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_313223514.1|</Hit_id>
+  <Hit_def>OmpA family protein [Pseudoxanthomonas mexicana]</Hit_def>
+  <Hit_accession>WP_313223514</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>379.407</Hsp_bit-score>
+      <Hsp_score>973</Hsp_score>
+      <Hsp_evalue>1.73416e-131</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEVKRRELEAQQRKALEEALAEPLAEGRVTIVDGRIGIRGNVLFALNSDQLQPEGRELLKGLAAPLAGYLRTRDEILMVSGFTDDRQVSGSNRQFADNWELSAQRSLTVTRTLIADGVPSSSVFAAAFGAEQPVSANDSEDGRARNRRVEIAPMPRPTTRK</Hsp_qseq>
+      <Hsp_hseq>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLAQRLDEETRRREQEAQQRKALEDALAAPLAEGRVTLVDGRIGIRGNVLFALNSDQLQPEGRDLLKSLAAPLAGYLRTREEILMVSGFTDDRQVSGSNRQFDDNWDLSAQRALTVTRTLIAEGVPSSSVFAAAFGAEQPVSANTSEEGRARNRRVEIAPIPRPAKRR</Hsp_hseq>
+      <Hsp_midline>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQL+QRLDEE +RRE EAQQRKALE+ALA PLAEGRVT+VDGRIGIRGNVLFALNSDQLQPEGR+LLK LAAPLAGYLRTR+EILMVSGFTDDRQVSGSNRQF DNW+LSAQR+LTVTRTLIA+GVPSSSVFAAAFGAEQPVSAN SE+GRARNRRVEIAP+PRP  R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_271249938.1|</Hit_id>
+  <Hit_def>MULTISPECIES: OmpA family protein [Pseudoxanthomonas] &gt;gb|MBP7657889.1| OmpA family protein [Pseudoxanthomonas sp.] &gt;gb|MEI2797009.1| OmpA family protein [Pseudoxanthomonas sp. F11] &gt;gb|WBX93248.1| OmpA family protein [Pseudoxanthomonas mexicana] &gt;tpg|HMM26597.1| OmpA family protein [Pseudoxanthomonas mexicana]</Hit_def>
+  <Hit_accession>WP_271249938</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>379.407</Hsp_bit-score>
+      <Hsp_score>973</Hsp_score>
+      <Hsp_evalue>2.11262e-131</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEVKRRELEAQQRKALEEALAEPLAEGRVTIVDGRIGIRGNVLFALNSDQLQPEGRELLKGLAAPLAGYLRTRDEILMVSGFTDDRQVSGSNRQFADNWELSAQRSLTVTRTLIADGVPSSSVFAAAFGAEQPVSANDSEDGRARNRRVEIAPMPRPTTRK</Hsp_qseq>
+      <Hsp_hseq>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLAQRLDEETRRREQEAQQRKALEDALAAPLAEGRVTLVDGRIGIRGNVLFALNSDQLQPEGRDLLKSLAAPLAGYLRTREEILMVSGFTDDRQVSGSNRQFDDNWDLSAQRALTVTRTLIAEGVPSSSVFAAAFGAEQPVSANTSEEGRARNRRVEIAPIPRPAKRR</Hsp_hseq>
+      <Hsp_midline>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQL+QRLDEE +RRE EAQQRKALE+ALA PLAEGRVT+VDGRIGIRGNVLFALNSDQLQPEGR+LLK LAAPLAGYLRTR+EILMVSGFTDDRQVSGSNRQF DNW+LSAQR+LTVTRTLIA+GVPSSSVFAAAFGAEQPVSAN SE+GRARNRRVEIAP+PRP  R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_298122231.1|</Hit_id>
+  <Hit_def>OmpA family protein [uncultured Pseudoxanthomonas sp.]</Hit_def>
+  <Hit_accession>WP_298122231</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>379.022</Hsp_bit-score>
+      <Hsp_score>972</Hsp_score>
+      <Hsp_evalue>2.57366e-131</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEVKRRELEAQQRKALEEALAEPLAEGRVTIVDGRIGIRGNVLFALNSDQLQPEGRELLKGLAAPLAGYLRTRDEILMVSGFTDDRQVSGSNRQFADNWELSAQRSLTVTRTLIADGVPSSSVFAAAFGAEQPVSANDSEDGRARNRRVEIAPMPRPTTR</Hsp_qseq>
+      <Hsp_hseq>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEVRRRELETQQRDALEKALAVPLAEGRVTLVDGRIGIRGNVLFALNSDQLQPEGRDLLKGLAAPLAGYLRTRDEILMVSGFTDDRQVRDSNRRFADNWELSAQRSLTVTRTLIAEGVPSSSVFAAAFGAEQPVSANTDEEGRARNRRVEIAPIPRPAKR</Hsp_hseq>
+      <Hsp_midline>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEV+RRELE QQR ALE+ALA PLAEGRVT+VDGRIGIRGNVLFALNSDQLQPEGR+LLKGLAAPLAGYLRTRDEILMVSGFTDDRQV  SNR+FADNWELSAQRSLTVTRTLIA+GVPSSSVFAAAFGAEQPVSAN  E+GRARNRRVEIAP+PRP  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_327482902.1|</Hit_id>
+  <Hit_def>OmpA family protein [Pseudoxanthomonas sp.] &gt;tpg|HEV7270730.1| OmpA family protein [Pseudoxanthomonas sp.]</Hit_def>
+  <Hit_accession>WP_327482902</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>378.252</Hsp_bit-score>
+      <Hsp_score>970</Hsp_score>
+      <Hsp_evalue>5.24967e-131</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEVKRRELEAQQRKALEEALAEPLAEGRVTIVDGRIGIRGNVLFALNSDQLQPEGRELLKGLAAPLAGYLRTRDEILMVSGFTDDRQVSGSNRQFADNWELSAQRSLTVTRTLIADGVPSSSVFAAAFGAEQPVSANDSEDGRARNRRVEIAPMPRPTTRK</Hsp_qseq>
+      <Hsp_hseq>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLAQRLDEETRRREQEAQQRKALEDALAAPLAEGRVTLVDGRIGIRGNVLFALNSDQLQPEGRDLLKSLAAPLAGYLRTREEILMVSGFTDDRQVSGSNRQFDDNWDLSAQRALTVTRTLIAEGVPSASVFAAAFGAEQPVSANTSEEGRARNRRVEIAPIPRPAKRR</Hsp_hseq>
+      <Hsp_midline>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQL+QRLDEE +RRE EAQQRKALE+ALA PLAEGRVT+VDGRIGIRGNVLFALNSDQLQPEGR+LLK LAAPLAGYLRTR+EILMVSGFTDDRQVSGSNRQF DNW+LSAQR+LTVTRTLIA+GVPS+SVFAAAFGAEQPVSAN SE+GRARNRRVEIAP+PRP  R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_284449084.1|</Hit_id>
+  <Hit_def>OmpA family protein [Pseudoxanthomonas mexicana]</Hit_def>
+  <Hit_accession>WP_284449084</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>377.867</Hsp_bit-score>
+      <Hsp_score>969</Hsp_score>
+      <Hsp_evalue>6.75578e-131</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLSQRLDEEVKRRELEAQQRKALEEALAEPLAEGRVTIVDGRIGIRGNVLFALNSDQLQPEGRELLKGLAAPLAGYLRTRDEILMVSGFTDDRQVSGSNRQFADNWELSAQRSLTVTRTLIADGVPSSSVFAAAFGAEQPVSANDSEDGRARNRRVEIAPMPRPTTRK</Hsp_qseq>
+      <Hsp_hseq>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQLAQRLDEETRRREQEAQQRKALEDALAAPLAEGRVTLVDGRIGIRGNVLFALNSDQLQPEGRDLLKSLAAPLAGYLRTREEILMVSGFTDDRQVSGSNRQFDDNWDLSAQRALTVTRTLIAEGVPSASVFAAAFGAEQPVSANTSEEGRARNRRVEIAPIPRPAKRR</Hsp_hseq>
+      <Hsp_midline>MSVETGDDADLGAPVWASFGDLMSVLLGAFVLVLVGVIAVQAQL+QRLDEE +RRE EAQQRKALE+ALA PLAEGRVT+VDGRIGIRGNVLFALNSDQLQPEGR+LLK LAAPLAGYLRTR+EILMVSGFTDDRQVSGSNRQF DNW+LSAQR+LTVTRTLIA+GVPS+SVFAAAFGAEQPVSAN SE+GRARNRRVEIAP+PRP  R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>878262366</Statistics_db-num>
+      <Statistics_db-len>334928218419</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

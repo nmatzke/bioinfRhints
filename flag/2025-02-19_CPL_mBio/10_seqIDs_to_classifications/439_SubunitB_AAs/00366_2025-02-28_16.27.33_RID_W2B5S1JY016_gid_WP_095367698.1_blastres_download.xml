@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_8304643</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>213</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_8304643</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>213</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_095367698.1|</Hit_id>
+  <Hit_def>OmpA family protein [Pseudoalteromonas sp. NBT06-2] &gt;gb|PAJ73335.1| hypothetical protein CJF42_16215 [Pseudoalteromonas sp. NBT06-2]</Hit_def>
+  <Hit_accession>WP_095367698</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>2.39641e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MLFNTQDAEESGLAISDLMTALMALFLLGTLLAIEKRDFISQHIGNSQVISPQKYSKVEQVLYSHINGLAKQDNSLQWDQQRNTLTAWFKFDSGESMLSEQAKKTLNSICPKLIEMVRHKKNQIDKIVIRGHTDDGWSGKGNAFVGNMRVSYERAMNAMDHCLQSLDKKETAVATKFVAQGFSFSQKDNEITKGKEHLQRRVEILFKYKHETD</Hsp_qseq>
+      <Hsp_hseq>MLFNTQDAEESGLAISDLMTALMALFLLGTLLAIEKRDFISQHIGNSQVISPQKYSKVEQVLYSHINGLAKQDNSLQWDQQRNTLTAWFKFDSGESMLSEQAKKTLNSICPKLIEMVRHKKNQIDKIVIRGHTDDGWSGKGNAFVGNMRVSYERAMNAMDHCLQSLDKKETAVATKFVAQGFSFSQKDNEITKGKEHLQRRVEILFKYKHETD</Hsp_hseq>
+      <Hsp_midline>MLFNTQDAEESGLAISDLMTALMALFLLGTLLAIEKRDFISQHIGNSQVISPQKYSKVEQVLYSHINGLAKQDNSLQWDQQRNTLTAWFKFDSGESMLSEQAKKTLNSICPKLIEMVRHKKNQIDKIVIRGHTDDGWSGKGNAFVGNMRVSYERAMNAMDHCLQSLDKKETAVATKFVAQGFSFSQKDNEITKGKEHLQRRVEILFKYKHETD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_042152489.1|</Hit_id>
+  <Hit_def>MULTISPECIES: OmpA family protein [unclassified Pseudoalteromonas]</Hit_def>
+  <Hit_accession>WP_042152489</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>335.109</Hsp_bit-score>
+      <Hsp_score>858</Hsp_score>
+      <Hsp_evalue>5.14588e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>MLFNTQDAEESGLAISDLMTALMALFLLGTLLAIEKRDFISQHIGNSQVISPQKYSKVEQVLYSHINGLAKQDNSLQWDQQRNTLTAWFKFDSGESMLSEQAKKTLNSICPKLIEMVRHKKNQIDKIVIRGHTDDGWSGKGNAFVGNMRVSYERAMNAMDHCLQSLDKKETAVATKFVAQGFSFSQKDNEITKGKEHLQRRVEILFKYKHETD</Hsp_qseq>
+      <Hsp_hseq>MLFNIQDDEESGLAISDLMTALMALFLLGTLLALEKRDFISQHIGNSQVNTPHKYSKVENVLFSHLYDLAKQDSSLQWDEERNILTTWFKFESAKATLSIEAKNTLNSICPKLIEMVRREKNKIYNIVIRGHTDTSWSGKGNAFVGNMRVSYERAMNTMDHCLQSLGKNETAVATKFVAQGFSFSQANNEITQGKGDLQRRVEILFNYKHNSD</Hsp_hseq>
+      <Hsp_midline>MLFN QD EESGLAISDLMTALMALFLLGTLLA+EKRDFISQHIGNSQV +P KYSKVE VL+SH+  LAKQD+SLQWD++RN LT WFKF+S ++ LS +AK TLNSICPKLIEMVR +KN+I  IVIRGHTD  WSGKGNAFVGNMRVSYERAMN MDHCLQSL K ETAVATKFVAQGFSFSQ +NEIT+GK  LQRRVEILF YKH +D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_211001040.1|</Hit_id>
+  <Hit_def>MULTISPECIES: OmpA family protein [unclassified Pseudoalteromonas] &gt;gb|MBQ4798648.1| hypothetical protein [Pseudoalteromonas sp. MMG006] &gt;gb|MBQ4859172.1| hypothetical protein [Pseudoalteromonas sp. MMG007]</Hit_def>
+  <Hit_accession>WP_211001040</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>239.58</Hsp_bit-score>
+      <Hsp_score>610</Hsp_score>
+      <Hsp_evalue>2.64009e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MLFNTQDAEESGLAISDLMTALMALFLLGTLLAIEKRDFISQHIGNSQVISPQKYSKVEQVLYSHINGLAKQDNSLQWDQQRNTLTAWFKFDSGESMLSEQAKKTLNSICPKLIEMVRHKKNQIDKIVIRGHTDDGWSGKGNAFVGNMRVSYERAMNAMDHCLQSLDKKETAVATKFVAQGFSFSQKDNEITKGKEHLQRRVEILFKYKH</Hsp_qseq>
+      <Hsp_hseq>MLIGSQDMEDSGLAISDLMTVLMTIFLLGTLLAIEKRELMSKFAEQSGSKVQTEQLQINKKFFEELEALSENDQSLYWDEKNSVLTAWFKFKRNDSSLTKKVQNSLDVICPKIINVTKNPDSNIEKVVFRGHTDKSWSGEGNKFVGNMRVSFERAMNTMDYCLHSLPRNNTAIASKFMAQGFSFIESDNKLTRGQSNLQRRVEILFKERQ</Hsp_hseq>
+      <Hsp_midline>ML  +QD E+SGLAISDLMT LM +FLLGTLLAIEKR+ +S+    S      +  ++ +  +  +  L++ D SL WD++ + LTAWFKF   +S L+++ + +L+ ICPK+I + ++  + I+K+V RGHTD  WSG+GN FVGNMRVS+ERAMN MD+CL SL +  TA+A+KF+AQGFSF + DN++T+G+ +LQRRVEILFK + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_119863335.1|</Hit_id>
+  <Hit_def>OmpA family protein [Pseudoalteromonas sp. MSK9-3] &gt;gb|RJE71146.1| hypothetical protein BGP78_21970 [Pseudoalteromonas sp. MSK9-3]</Hit_def>
+  <Hit_accession>WP_119863335</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>239.58</Hsp_bit-score>
+      <Hsp_score>610</Hsp_score>
+      <Hsp_evalue>4.41806e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>MLFNTQDAEESGLAISDLMTALMALFLLGTLLAIEKRDFISQHIGNSQVISPQKYSKVEQVLYSHINGLAKQDNSLQWDQQRNTLTAWFKFDSGESMLSEQAKKTLNSICPKLIEMVRHKKNQIDKIVIRGHTDDGWSGKGNAFVGNMRVSYERAMNAMDHCLQSLDKKETAVATKFVAQGFSFSQKDNEITKGKEHLQRRVEILFKYKHE</Hsp_qseq>
+      <Hsp_hseq>MLFNAQDTEDSGLAISDLMTALTAVFLLGTLLAIEKRDLISEYEAFNSTSFENNLLNGKRRVGKLLETMSNNKSKLHWDESRHALTVWLQFEKNDSKLTESAKATLNMLCPKLISIVGNHGSSIGKVIIRGHTDRSWSGKGNDFVGNMRVSYERAMNTTDYCLASLPKKEVVIASKFAAEGVSFLYADSPLTKGQENLQRRVEILFDYTQQ</Hsp_hseq>
+      <Hsp_midline>MLFN QD E+SGLAISDLMTAL A+FLLGTLLAIEKRD IS++   +           ++ +   +  ++   + L WD+ R+ LT W +F+  +S L+E AK TLN +CPKLI +V +  + I K++IRGHTD  WSGKGN FVGNMRVSYERAMN  D+CL SL KKE  +A+KF A+G SF   D+ +TKG+E+LQRRVEILF Y  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_010367419.1|</Hit_id>
+  <Hit_def>OmpA family protein [Pseudoalteromonas citrea] &gt;gb|KAF7764413.1| hypothetical protein PCIT_b0409 [Pseudoalteromonas citrea]</Hit_def>
+  <Hit_accession>WP_010367419</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>233.417</Hsp_bit-score>
+      <Hsp_score>594</Hsp_score>
+      <Hsp_evalue>1.04139e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>MLFNTQDAEESGLAISDLMTALMALFLLGTLLAIEKRDFISQHIGNSQVISPQKYSKVEQVLYSHINGLAKQDNSLQWDQQRNTLTAWFKFDSGESMLSEQAKKTLNSICPKLIEMVRHKKNQIDKIVIRGHTDDGWSGKGNAFVGNMRVSYERAMNAMDHCLQSLDKKETAVATKFVAQGFSFSQKDNEITKGKEHLQRRVEILFKYKHE</Hsp_qseq>
+      <Hsp_hseq>MLFNAQGTEDSGLAISDLMTALTAVFLLGTLLAIEKRDLRSEYEAFNNTSFENNLLNEKRRVGKLLETVSNNKSKLHWDESRHALTVWLQFEKNDSKLTESAKATLNMLCPKLISIVGNHGSSIGKVIIRGHTDRSWSGKGNDFVGNMRVSYERAMNTTDYCLASLPKKEVVIASKFAAEGVSFLYADSSLTKGQENLQRRVEILFDYTQQ</Hsp_hseq>
+      <Hsp_midline>MLFN Q  E+SGLAISDLMTAL A+FLLGTLLAIEKRD  S++   +           ++ +   +  ++   + L WD+ R+ LT W +F+  +S L+E AK TLN +CPKLI +V +  + I K++IRGHTD  WSGKGN FVGNMRVSYERAMN  D+CL SL KKE  +A+KF A+G SF   D+ +TKG+E+LQRRVEILF Y  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|MBX2809704.1|</Hit_id>
+  <Hit_def>hypothetical protein [Cellvibrionaceae bacterium]</Hit_def>
+  <Hit_accession>MBX2809704</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.4413</Hsp_bit-score>
+      <Hsp_score>241</Hsp_score>
+      <Hsp_evalue>1.27578e-20</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>FNTQDAEESGLAISDLMTALMALFLLGTLLAIEKRDFISQHIGNSQVISPQKYSKVEQVLYSHINGLAKQDNSLQWDQQRNTLTAWFKFD----SGESMLSEQAKKTLNSICPKLIEMVRHKKNQIDKIVIRGHTDDGWSGKGNAFVGNMRVSYERAMNAMDHCLQSLDKKE-TAVATKFVAQGFSFSQKDNEITKGKEHLQR--RVEILFKY</Hsp_qseq>
+      <Hsp_hseq>FYPEENEGDFFPIADLMSALMAVFMCATIIII-------MHLDDAGRSSTQVQQSVMQAFHRTI-----RDDLKQWDAEFFPEQGYVKFNAVFGSGVQTPSSRFRQELDDYCPKLRRLLEKHPKLFREIRVEGHTSDQWQGEGDPFIGNMAVAQGRALYTMEYCLQASGMADMPALRDKFTSVGMSF--KKPITTNGLINWQRSKRVEFWFVF</Hsp_hseq>
+      <Hsp_midline>F  ++ E     I+DLM+ALMA+F+  T++ I        H+ ++   S Q    V Q  +  I     +D+  QWD +      + KF+    SG    S + ++ L+  CPKL  ++        +I + GHT D W G+G+ F+GNM V+  RA+  M++CLQ+    +  A+  KF + G SF  K    T G  + QR  RVE  F +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|MBR3782685.1|</Hit_id>
+  <Hit_def>OmpA family protein [Alphaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MBR3782685</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.5666</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>2.27685e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>204</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MLFNTQDAEESGLAISDLMTALMALFLLGTLLAIEKRDFISQHIGNSQVISPQ-KYSKVEQVLYSHINGLAKQDNSLQWDQQRN--TLTAWF-----KFDSGESMLSEQAKKTLNSICPKLIEMVRHKKNQIDKIVIRGHTDD-GWSGKG--NAFVGNMRVSYERAMNAMDHC--LQSLDKKETAVATKFV-AQGFSFSQKDNEITKGKEH--LQRRVEI</Hsp_qseq>
+      <Hsp_hseq>MFIKNRDDSSHFISLSDIMTALMMVFLFVSVAIIMQ---IQKH--NEIVTNIQANYKKQKEMLYADLQAEFKEDMS-KWGAKINEDTLSVYFVGDDVRFDTGQSDVKPEFKATLAEFFPRYVQLIKKHKEAIQEVRIEGYTDSTGKAGQTMEERYFYNMKLSQDRTRSVLEYCLTLPNFTKDDFNYMKDFITANGLSFSRYIRD-SKGQEDKAASRRVEF</Hsp_hseq>
+      <Hsp_midline>M    +D     +++SD+MTALM +FL  ++  I +   I +H  N  V + Q  Y K +++LY+ +    K+D S +W  + N  TL+ +F     +FD+G+S +  + K TL    P+ +++++  K  I ++ I G+TD  G +G+     +  NM++S +R  + +++C  L +  K +      F+ A G SFS+   + +KG+E     RRVE </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|MCZ0931618.1|</Hit_id>
+  <Hit_def>OmpA family protein [Oligoflexia bacterium]</Hit_def>
+  <Hit_accession>MCZ0931618</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>3.62596e-11</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>QDAEESGLAISDLMTALMALFLLGTLLAIEKRDFISQHIGNS----QVISPQKYSKVEQVLYSHINGLAKQDNSLQWDQQR-------NTLTAWFKFDSGESMLSEQAKKTLNSICPKLIEMVRHKKNQIDKIVIRGHTDDGWSG---KGNAFVGNMRVSYERAMNAMDHCL</Hsp_qseq>
+      <Hsp_hseq>EETDAQWMPISDIMTVLMVIFLFISILYIKRIQQQIQIIQKSNEAIQEIS-KEYTDYKQIIYDHLKKEFNEDLK-KWDAELLKDPIVIRFLSPEIMFHAGKSTIQPRYRGILQDFCPRYFTVLNRFKKLIEEIRIEGHTSLEWHGAKTKIEAYFKNLRLSQNRTISVLEYCI</Hsp_hseq>
+      <Hsp_midline>++ +   + ISD+MT LM +FL  ++L I++     Q I  S    Q IS ++Y+  +Q++Y H+     +D   +WD +          L+    F +G+S +  + +  L   CP+   ++   K  I++I I GHT   W G   K  A+  N+R+S  R ++ +++C+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_262255874.1|</Hit_id>
+  <Hit_def>type II Zorya anti-phage system protein ZorB2 [Serratia liquefaciens] &gt;emb|CAI2501025.1| flagellar motor protein MotB [Serratia liquefaciens]</Hit_def>
+  <Hit_accession>WP_262255874</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.3218</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>6.38028e-10</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>ESGLAISDLMTALMALFLLGTLLAIEKRDFISQHIGNSQVISPQKYSKVEQVLYSHINGLAKQDNSLQWDQQ--RNTLTAWFK-----FDSGESMLSEQAKKTLNSICPKLIEMVRHKKNQIDKIVIRGHTDDGWSGKGN---AFVGNMRVSYERAMNAMD--HCLQSLDKKETAVATKFVAQGFSFSQKDNEITKGKEHLQRRVEILFK</Hsp_qseq>
+      <Hsp_hseq>EHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAV----AYEQAQQQLYNALNIEFSKDLP-DWDAEIDKQTLEVRFKSPDVLFGLGSSELKPKFKEILNNFFPRYLKVLDQYKEHITEVRIEGHTSTDWTGAANQDEAYFNNMELSQGRTRAVLQYVHSLKESSAHQKWVKSKFSAVGYSSSHPILN-TAGKEDPNRSRRVTFK</Hsp_hseq>
+      <Hsp_midline>E  +++SDLM  LM +F+  ++  +       + I    V     Y + +Q LY+ +N    +D    WD +  + TL   FK     F  G S L  + K+ LN+  P+ ++++   K  I ++ I GHT   W+G  N   A+  NM +S  R    +   H L+     +  V +KF A G+S S      T GKE   R   + FK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|MCK9238442.1|</Hit_id>
+  <Hit_def>OmpA family protein [Thiopseudomonas sp.] &gt;gb|MCK9533524.1| OmpA family protein [Pseudomonas sp.]</Hit_def>
+  <Hit_accession>MCK9238442</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.3218</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>6.83601e-10</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>TQDAEESGLAISDLMTALMALFLLGTLLAIEKRDFISQHIGNSQVISPQKYSKVEQVLYSHINGLAKQDNSLQWDQQRNTLTAWFKFDSGESM-------LSEQAKKTLNSICPKLIEMVRHKKNQIDKIVIRGHTDDGW---SGKGNAFVGNMRVSYERAMNAMDHC--LQSLDKKETAVATKFVAQGFSFSQ</Hsp_qseq>
+      <Hsp_hseq>SAEAGEHWVSLSDLMAGLMMVFML---ISIAFMQYVKEREGNITDVAA-AYQNTQVALFEQLYEEFKSDLSV-WDAEINKETLEFSFNSPEVLFDTGAITLKPQFKQILDDFFPRYLGVIKNFKDSISEIRIEGHTSSIWNRFTSDTEAYFNNMELSQGRTRAVLQHVYTLDRVVEEQEWIKSKFAAVGFSSSK</Hsp_hseq>
+      <Hsp_midline>+ +A E  +++SDLM  LM +F+L   ++I    ++ +  GN   ++   Y   +  L+  +    K D S+ WD + N  T  F F+S E +       L  Q K+ L+   P+ + ++++ K+ I +I I GHT   W   +    A+  NM +S  R    + H   L  + +++  + +KF A GFS S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|KIM02580.1|</Hit_id>
+  <Hit_def>MAG: hypothetical protein KU29_14200 [Sulfurovum sp. FS06-10]</Hit_def>
+  <Hit_accession>KIM02580</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.9366</Hsp_bit-score>
+      <Hsp_score>167</Hsp_score>
+      <Hsp_evalue>8.07347e-10</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>LAISDLMTALMALFLLGTLLAIEKRDFISQHIGNSQVISPQKYSKVEQVLYSHINGLAKQDNSLQWD---QQRNTLT---AWFKFDSGESMLSEQAKKTLNSICPKLIEMVRHKK--NQIDKIVIRGHTDDGWSGKGNA---FVGNMRVSYERAMNAMDHCL----QSLDKKETAVATKFVAQGFSFSQ</Hsp_qseq>
+      <Hsp_hseq>MSISDMMSGLMLIFMF---IAISFMIQIQTDKDKMKEIAIT-YNKDKKELNKDLNLEFSKDLT-KWEAQISQDNIITFNSPDVLFEGGESQIKEEFKNILNDFFPRYIKVLSSKKYIHEIDEIRIEGHTSDNWNGTTNAKDIYLNNMKLSQERANNVLSYCYTIDAPFIQNNRVWLEQHFRANGMAFSK</Hsp_hseq>
+      <Hsp_midline>++ISD+M+ LM +F+    +AI     I       + I+   Y+K ++ L   +N    +D + +W+    Q N +T       F+ GES + E+ K  LN   P+ I+++  KK  ++ID+I I GHT D W+G  NA   ++ NM++S ERA N + +C       +      +   F A G +FS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_261163390.1|</Hit_id>
+  <Hit_def>type II Zorya anti-phage system protein ZorB2 [Serratia grimesii]</Hit_def>
+  <Hit_accession>WP_261163390</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.9366</Hsp_bit-score>
+      <Hsp_score>167</Hsp_score>
+      <Hsp_evalue>8.29885e-10</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>ESGLAISDLMTALMALFLLGTLLAIEKRDFISQHIGNSQVISPQKYSKVEQVLYSHINGLAKQDNSLQWDQQ--RNTLTAWFK-----FDSGESMLSEQAKKTLNSICPKLIEMVRHKKNQIDKIVIRGHTDDGWSGKGN---AFVGNMRVSYERAMNAMD--HCLQSLDKKETAVATKFVAQGFSFSQKDNEITKGKEHLQRRVEILFK</Hsp_qseq>
+      <Hsp_hseq>EHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAV----AYEQAQQQLYNALNIEFSKDLP-AWDAEIDKQTLEVRFKSPDVLFGLGSSNLKPQFKEILNNFFPRYLKVLDQYKEHITEVRIEGHTSTDWTGAANQDEAYFNNMELSQGRTRAVLQYVHSLKESSSHQKWVKSKFSAVGYSSSHPILN-AAGKEDPNRSRRVTFK</Hsp_hseq>
+      <Hsp_midline>E  +++SDLM  LM +F+  ++  +       + I    V     Y + +Q LY+ +N    +D    WD +  + TL   FK     F  G S L  Q K+ LN+  P+ ++++   K  I ++ I GHT   W+G  N   A+  NM +S  R    +   H L+     +  V +KF A G+S S        GKE   R   + FK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_060457148.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type II Zorya anti-phage system protein ZorB2 [Serratia] &gt;gb|EIY8599246.1| OmpA family protein [Serratia marcescens] &gt;gb|EIY8854181.1| OmpA family protein [Serratia marcescens] &gt;gb|EIY8864194.1| OmpA family protein [Serratia marcescens] &gt;gb|EIY9013694.1| OmpA family protein [Serratia marcescens] &gt;gb|EMF5177248.1| OmpA family protein [Serratia marcescens]</Hit_def>
+  <Hit_accession>WP_060457148</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.9366</Hsp_bit-score>
+      <Hsp_score>167</Hsp_score>
+      <Hsp_evalue>9.3689e-10</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>ESGLAISDLMTALMALFLLGTLLAIEKRDFISQHIGNSQVISPQKYSKVEQVLYSHINGLAKQDNSLQWDQQ--RNTLTAWFK-----FDSGESMLSEQAKKTLNSICPKLIEMVRHKKNQIDKIVIRGHTDDGWSGKGN---AFVGNMRVSYERAMNAMD--HCLQSLDKKETAVATKFVAQGFSFSQKDNEITKGKEHLQRRVEILFK</Hsp_qseq>
+      <Hsp_hseq>EHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAV----AYEQAQQQLYNALN-IEFSNDLPDWDAEIDKQTLEVRFKSPDVLFGLGSSELKPKFKEILNNFFPRYLKVLDQYKEHITEVRIEGHTSTDWTGAANQDEAYFNNMELSQGRTRAVLQYVHSLKESSAHQKWVKSKFSAVGYSSSHPILN-TMGKEDQNRSRRVTFK</Hsp_hseq>
+      <Hsp_midline>E  +++SDLM  LM +F+  ++  +       + I    V     Y + +Q LY+ +N +   ++   WD +  + TL   FK     F  G S L  + K+ LN+  P+ ++++   K  I ++ I GHT   W+G  N   A+  NM +S  R    +   H L+     +  V +KF A G+S S      T GKE   R   + FK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|MDE0285878.1|</Hit_id>
+  <Hit_def>OmpA family protein [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MDE0285878</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>1.49967e-09</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>LFNTQDAEESG---LAISDLMTALMALFLLGTLLAIEKRDFISQHIGNSQVISPQKYSKVEQVLYSHINGLAKQDNSLQWDQQ--RNTLTAWFK-----FDSGESMLSEQAKKTLNSICPKLIEMVRHKKNQIDKIVIRGHTDDGWSGKGN---AFVGNMRVSYERAMNAMDHC--LQSLDKKETAVATKFVAQGFSFSQ</Hsp_qseq>
+      <Hsp_hseq>IFGTIRSGDEGDHWLSVSDMMAGLMMVFLLISV-ALMRSAFIERDQIKDVAVT---YQEGQVAIHDALMDEFKSDLE-KWDARIDRDTLSVEFKSPEVLFETGEADLQSHFEAILNDFFPRYLSVLRRFRKNIEEVRIEGHTSSGWTSAVNPDEAYFNNMWLSQERTRSVLKYIYELPAVADDRGWVKNKVVAVGFSSSR</Hsp_hseq>
+      <Hsp_midline>+F T  + + G   L++SD+M  LM +FLL ++ A+ +  FI +       ++   Y + +  ++  +    K D   +WD +  R+TL+  FK     F++GE+ L    +  LN   P+ + ++R  +  I+++ I GHT  GW+   N   A+  NM +S ER  + + +   L ++      V  K VA GFS S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_063930420.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type II Zorya anti-phage system protein ZorB2 [Enterobacterales] &gt;gb|MCI1896816.1| OmpA family protein [Enterobacter sp.] &gt;gb|EMZ5184910.1| OmpA family protein [Yersinia enterocolitica] &gt;gb|MBE9966521.1| OmpA family protein [Citrobacter freundii] &gt;gb|MBE9976965.1| OmpA family protein [Citrobacter freundii] &gt;gb|MBE9986500.1| OmpA family protein [Citrobacter freundii]</Hit_def>
+  <Hit_accession>WP_063930420</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>1.61619e-09</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>NTQDAEESGLAISDLMTALMALFLLGTLLAIEKRDFISQHIGNSQVISPQKYSKVEQVLYSHINGLAKQDNSLQWDQQ--RNTLTAWFK-----FDSGESMLSEQAKKTLNSICPKLIEMVRHKKNQIDKIVIRGHTDDGWSGKGN---AFVGNMRVSYERAMNAMDHCLQSLDKKETA---VATKFVAQGFSFSQKDNEITKGKEHLQRRVEILFK</Hsp_qseq>
+      <Hsp_hseq>STQD-NEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAV----AYEQAQQQLYNALEIEFSKDLS-SWDAEIDKQTLEVRFKSPDVLFGLGSSELKPKFKEILNDFFPRYLRVLDQYKQHITEVRIEGHTSTDWTGAANQDVAYFNNMELSQGRTRAVLQYVY-SLKESETHQKWVKSKFAAVGYSSSHPILS-PAGKEDPNRSRRVTFK</Hsp_hseq>
+      <Hsp_midline>+TQD  E  +++SDLM  LM +F+  ++  +       + I    V     Y + +Q LY+ +     +D S  WD +  + TL   FK     F  G S L  + K+ LN   P+ + ++   K  I ++ I GHT   W+G  N   A+  NM +S  R    + +   SL + ET    V +KF A G+S S        GKE   R   + FK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|MDE0157755.1|</Hit_id>
+  <Hit_def>OmpA family protein [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MDE0157755</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>1.62565e-09</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>LFNTQDAEESG---LAISDLMTALMALFLLGTLLAIEKRDFISQ-HIGNSQVISPQKYSKVEQVLYSHINGLAKQDNSLQWDQQ--RNTLTAWFK-----FDSGESMLSEQAKKTLNSICPKLIEMVRHKKNQIDKIVIRGHTDDGWSGKGN---AFVGNMRVSYERAMNAMDHCLQSLDKKETA--VATKFVAQGFSFSQ</Hsp_qseq>
+      <Hsp_hseq>IFGTIRSGEEGEHWLSVSDMMAGLMMVFLLISV-ALMRSAFIERDQIKDVAV----TYQEGQVAIHDALMDEFKSDLE-KWDARIDRDTLSVEFKSPEVLFETGEANLQSHFEAILNDFFPRYLSVLRRFRKNIEEVRIEGHTSSGWTSAVNPDEAYFNNTWLSQERTRSVLKYVYELPDVADDRGWVKSKVVAVGFSSSR</Hsp_hseq>
+      <Hsp_midline>+F T  + E G   L++SD+M  LM +FLL ++ A+ +  FI +  I +  V     Y + +  ++  +    K D   +WD +  R+TL+  FK     F++GE+ L    +  LN   P+ + ++R  +  I+++ I GHT  GW+   N   A+  N  +S ER  + + +  +  D  +    V +K VA GFS S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_250131294.1|</Hit_id>
+  <Hit_def>type II Zorya anti-phage system protein ZorB2, partial [Serratia marcescens]</Hit_def>
+  <Hit_accession>WP_250131294</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.781</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>2.14185e-09</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>ESGLAISDLMTALMALFLLGTLLAIEKRDFISQHIGNSQVISPQKYSKVEQVLYSHINGLAKQDNSLQWDQQ--RNTLTAWFK-----FDSGESMLSEQAKKTLNSICPKLIEMVRHKKNQIDKIVIRGHTDDGWSGKGN---AFVGNMRVSYERAMNAMD--HCLQSLDKKETAVATKFVAQGFSFSQKD-NEITKGKEHLQRRV</Hsp_qseq>
+      <Hsp_hseq>EHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAV----AYEQAQQQLYNALNVEFSKDLP-DWDAEIDKQTLEVRFKSPDVLFGLGSSELKPKFKEILNNFFPRYLKVLDQYKEHITEVRIEGHTSTDWTGAANQDEAYFNNMELSQGRTRAVLQYVHSLKESSAHQKWVKSKFSAVGYSSSHPILNAMGKEDQNRSRRV</Hsp_hseq>
+      <Hsp_midline>E  +++SDLM  LM +F+  ++  +       + I    V     Y + +Q LY+ +N    +D    WD +  + TL   FK     F  G S L  + K+ LN+  P+ ++++   K  I ++ I GHT   W+G  N   A+  NM +S  R    +   H L+     +  V +KF A G+S S    N + K  ++  RRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_243647268.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Aestuariirhabdus litorea]</Hit_def>
+  <Hit_accession>WP_243647268</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.781</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>2.68017e-09</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>EESGLAISDLMTALMALFLLGTLLAIEKRDFISQHIGNSQVISPQKYSKVEQVLYSHIN-----GLAKQDNSLQWDQQRNTLTAWFKFDSGESMLSEQAKKTLNSICPKLIEMVRHK--KNQIDKIVIRGHTDDGW---SGKGNAFVGNMRVSYERAMNAMDHC--LQSLDKKETAVATKFVAQGFSFSQKDNEITKGKEHLQRRVEILFKYKHETD</Hsp_qseq>
+      <Hsp_hseq>EEHWIAVSDLMGGLMMVFLLIALVFMVMVELERRKIHDVAVV----YERLRTQLYEDLKREFEADLPRWGAELSPDLSIRFLRTELLFDRGKAELKEDFSAILADFFPRYVRIITSDSYRNDINEVRIEGHTDRGWSDASSEDDAYVRNMELSQARTRTTLAYVLGLEAVGYRKPWLKSHLTANGLS-SSKPVLLANGKEDSDRSRRVEFRLRTDAE</Hsp_hseq>
+      <Hsp_midline>EE  +A+SDLM  LM +FLL  L+ +   +   + I +  V+    Y ++   LY  +       L +    L  D     L     FD G++ L E     L    P+ + ++     +N I+++ I GHTD GW   S + +A+V NM +S  R    + +   L+++  ++  + +   A G S S K   +  GKE   R   + F+ + + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_346418683.1|</Hit_id>
+  <Hit_def>type II Zorya anti-phage system protein ZorB2 [Serratia marcescens] &gt;gb|MEN4173483.1| OmpA family protein [Serratia marcescens] &gt;tpg|HBN5894328.1| OmpA family protein [Serratia marcescens] &gt;tpg|HGM7052874.1| type II Zorya anti-phage system protein ZorB2 [Serratia marcescens]</Hit_def>
+  <Hit_accession>WP_346418683</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>3.1122e-09</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>ESGLAISDLMTALMALFLLGTLLAIEKRDFISQHIGNSQVISPQKYSKVEQVLYSHINGLAKQDNSLQWDQQ--RNTLTAWFK-----FDSGESMLSEQAKKTLNSICPKLIEMVRHKKNQIDKIVIRGHTDDGWSGKGN---AFVGNMRVSYERAMNAMD--HCLQSLDKKETAVATKFVAQGFSFSQKD-NEITKGKEHLQRRV</Hsp_qseq>
+      <Hsp_hseq>EHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAV----AYEQAQQQLYNALNVEFSKDLP-DWDAEIDKQTLEVRFKSPDVLFGLGSSELKPKFKEILNNFFPRYLKVLDQYKEHITEVRIEGHTSTDWTGAANQDEAYFNNMELSQGRTRAVLQYVHSLKESSAHQKWVKSKFSAVGYSSSHPILNAMGKEDQNRSRRV</Hsp_hseq>
+      <Hsp_midline>E  +++SDLM  LM +F+  ++  +       + I    V     Y + +Q LY+ +N    +D    WD +  + TL   FK     F  G S L  + K+ LN+  P+ ++++   K  I ++ I GHT   W+G  N   A+  NM +S  R    +   H L+     +  V +KF A G+S S    N + K  ++  RRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_060436766.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type II Zorya anti-phage system protein ZorB2 [Serratia] &gt;gb|EGT0502506.1| OmpA family protein [Serratia marcescens] &gt;gb|EHT9827580.1| OmpA family protein [Serratia marcescens] &gt;gb|EIU0969036.1| OmpA family protein [Serratia marcescens] &gt;gb|EMB7752069.1| OmpA family protein [Serratia marcescens] &gt;gb|EMG3685770.1| OmpA family protein [Serratia marcescens]</Hit_def>
+  <Hit_accession>WP_060436766</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>3.17552e-09</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>ESGLAISDLMTALMALFLLGTLLAIEKRDFISQHIGNSQVISPQKYSKVEQVLYSHINGLAKQDNSLQWDQQ--RNTLTAWFK-----FDSGESMLSEQAKKTLNSICPKLIEMVRHKKNQIDKIVIRGHTDDGWSGKGN---AFVGNMRVSYERAMNAMD--HCLQSLDKKETAVATKFVAQGFSFSQKD-NEITKGKEHLQRRV</Hsp_qseq>
+      <Hsp_hseq>EHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAV----AYEQAQQQLYNALN-IEFSNDLPDWDAEIDKQTLEVRFKSPDVLFGLGSSELKPKFKEILNNFFPRYLKVLDQYKEHITEVRIEGHTSTDWTGAANQDEAYFNNMELSQGRTRAVLQYVHSLKESSAHQKWVKSKFSAVGYSSSHPILNAMGKEDQNRSRRV</Hsp_hseq>
+      <Hsp_midline>E  +++SDLM  LM +F+  ++  +       + I    V     Y + +Q LY+ +N +   ++   WD +  + TL   FK     F  G S L  + K+ LN+  P+ ++++   K  I ++ I GHT   W+G  N   A+  NM +S  R    +   H L+     +  V +KF A G+S S    N + K  ++  RRV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>878262366</Statistics_db-num>
+      <Statistics_db-len>334928218419</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

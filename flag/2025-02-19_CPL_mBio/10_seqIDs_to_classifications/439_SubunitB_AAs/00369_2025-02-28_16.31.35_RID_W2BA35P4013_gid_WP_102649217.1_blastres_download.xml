@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_4522055</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>215</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_4522055</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>215</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_102649217.1|</Hit_id>
+  <Hit_def>OmpA family protein [Trinickia dabaoshanensis] &gt;gb|PMS14616.1| hypothetical protein C0Z18_30675 [Trinickia dabaoshanensis]</Hit_def>
+  <Hit_accession>WP_102649217</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>428.328</Hsp_bit-score>
+      <Hsp_score>1100</Hsp_score>
+      <Hsp_evalue>8.65139e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MNDEIDGGVEPTAPVWAAFADLMSVLVGAFVLILVGVIGLQLELSARLEDQVKQRQVEAQRRKTLEQALAGPLAAGRVTLVNGRIGISGSLLFALNSDQLQPQGRDLLKSLAGPLTLYLHSHEEILMVSGFADDQQVRAGNRRFADNWELSAQRALTVTRALIDAGVPASSVFAAAFGSQQPVSSNADDAGRAKNRRVEIAPVPKRSGATAQQHE</Hsp_qseq>
+      <Hsp_hseq>MNDEIDGGVEPTAPVWAAFADLMSVLVGAFVLILVGVIGLQLELSARLEDQVKQRQVEAQRRKTLEQALAGPLAAGRVTLVNGRIGISGSLLFALNSDQLQPQGRDLLKSLAGPLTLYLHSHEEILMVSGFADDQQVRAGNRRFADNWELSAQRALTVTRALIDAGVPASSVFAAAFGSQQPVSSNADDAGRAKNRRVEIAPVPKRSGATAQQHE</Hsp_hseq>
+      <Hsp_midline>MNDEIDGGVEPTAPVWAAFADLMSVLVGAFVLILVGVIGLQLELSARLEDQVKQRQVEAQRRKTLEQALAGPLAAGRVTLVNGRIGISGSLLFALNSDQLQPQGRDLLKSLAGPLTLYLHSHEEILMVSGFADDQQVRAGNRRFADNWELSAQRALTVTRALIDAGVPASSVFAAAFGSQQPVSSNADDAGRAKNRRVEIAPVPKRSGATAQQHE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_116138365.1|</Hit_id>
+  <Hit_def>OmpA family protein [Trinickia diaoshuihuensis]</Hit_def>
+  <Hit_accession>WP_116138365</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>411.764</Hsp_bit-score>
+      <Hsp_score>1057</Hsp_score>
+      <Hsp_evalue>3.55267e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MNDEIDGGVEPTAPVWAAFADLMSVLVGAFVLILVGVIGLQLELSARLEDQVKQRQVEAQRRKTLEQALAGPLAAGRVTLVNGRIGISGSLLFALNSDQLQPQGRDLLKSLAGPLTLYLHSHEEILMVSGFADDQQVRAGNRRFADNWELSAQRALTVTRALIDAGVPASSVFAAAFGSQQPVSSNADDAGRAKNRRVEIAPVPKRSGATAQQHE</Hsp_qseq>
+      <Hsp_hseq>MNEEIDGGVEPSAPVWAAFADLMSVLVGAFVLILVGVIGLQLELSARLEDQVKQRQVEAQRRKTLEQALAGPLAAGRVTLVNGRIGISGSLLFALNSDQLQPQGRDLLRSLAGPLRVYLQSHEEILMVSGFADDQQVRAGNRRFADNWELSAQRALTVTRALIDAGVPASSVFAAAFGSQQPVSSNADDAGRAKNRRVEIAPVPKRSNATAQPHE</Hsp_hseq>
+      <Hsp_midline>MN+EIDGGVEP+APVWAAFADLMSVLVGAFVLILVGVIGLQLELSARLEDQVKQRQVEAQRRKTLEQALAGPLAAGRVTLVNGRIGISGSLLFALNSDQLQPQGRDLL+SLAGPL +YL SHEEILMVSGFADDQQVRAGNRRFADNWELSAQRALTVTRALIDAGVPASSVFAAAFGSQQPVSSNADDAGRAKNRRVEIAPVPKRS ATAQ HE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_118183448.1|</Hit_id>
+  <Hit_def>OmpA family protein [Paraburkholderia phosphatilytica]</Hit_def>
+  <Hit_accession>WP_118183448</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>408.297</Hsp_bit-score>
+      <Hsp_score>1048</Hsp_score>
+      <Hsp_evalue>7.49947e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MNDEIDGGVEPTAPVWAAFADLMSVLVGAFVLILVGVIGLQLELSARLEDQVKQRQVEAQRRKTLEQALAGPLAAGRVTLVNGRIGISGSLLFALNSDQLQPQGRDLLKSLAGPLTLYLHSHEEILMVSGFADDQQVRAGNRRFADNWELSAQRALTVTRALIDAGVPASSVFAAAFGSQQPVSSNADDAGRAKNRRVEIAPVPKRSGATAQQHE</Hsp_qseq>
+      <Hsp_hseq>MNDEIDGGVEPTAPVWAAFADLMSVLVGAFVLILVGVIGLQLELSARLHDQVKQRQLEAERRKTLEQAIAGPLAAGRVTLTNGRIGISGNLLFALNSDQLQPQGRDLLKSLAGPLSVYLQSHDEILMVSGFADDQQVRAGNRRFADNWELSAQRALTVTRALIDAGVPASSVFAAAFGSQQPVSSNADDAGRAKNRRVEIAPVPKRTGAAAEQHE</Hsp_hseq>
+      <Hsp_midline>MNDEIDGGVEPTAPVWAAFADLMSVLVGAFVLILVGVIGLQLELSARL DQVKQRQ+EA+RRKTLEQA+AGPLAAGRVTL NGRIGISG+LLFALNSDQLQPQGRDLLKSLAGPL++YL SH+EILMVSGFADDQQVRAGNRRFADNWELSAQRALTVTRALIDAGVPASSVFAAAFGSQQPVSSNADDAGRAKNRRVEIAPVPKR+GA A+QHE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_206956306.1|</Hit_id>
+  <Hit_def>OmpA family protein [Trinickia acidisoli]</Hit_def>
+  <Hit_accession>WP_206956306</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.06</Hsp_bit-score>
+      <Hsp_score>1037</Hsp_score>
+      <Hsp_evalue>3.76549e-141</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MNDEIDGGVEPTAPVWAAFADLMSVLVGAFVLILVGVIGLQLELSARLEDQVKQRQVEAQRRKTLEQALAGPLAAGRVTLVNGRIGISGSLLFALNSDQLQPQGRDLLKSLAGPLTLYLHSHEEILMVSGFADDQQVRAGNRRFADNWELSAQRALTVTRALIDAGVPASSVFAAAFGSQQPVSSNADDAGRAKNRRVEIAPVPKRSGATAQQHE</Hsp_qseq>
+      <Hsp_hseq>MNDEIDGGTEPTAPVWAAFADLMSVLVGAFVLILVGVIGLQLELSTRLEDQVKQRQLEAQRRKTLEQALAGPLAAGRVTLVNGRIGISGSLLFALNSDQLQPQGRDLLKSLAGTLAVYLRSRDEILMVSGFADDQQVRAGNRHFADNWELSAQRALTVTRALIDAGVPASSVFAAAFGSQQPVSSNADDAGRAKNRRVEIAPVPKRSGATPEQHE</Hsp_hseq>
+      <Hsp_midline>MNDEIDGG EPTAPVWAAFADLMSVLVGAFVLILVGVIGLQLELS RLEDQVKQRQ+EAQRRKTLEQALAGPLAAGRVTLVNGRIGISGSLLFALNSDQLQPQGRDLLKSLAG L +YL S +EILMVSGFADDQQVRAGNR FADNWELSAQRALTVTRALIDAGVPASSVFAAAFGSQQPVSSNADDAGRAKNRRVEIAPVPKRSGAT +QHE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_115533602.1|</Hit_id>
+  <Hit_def>OmpA family protein [Trinickia dinghuensis] &gt;gb|RDU98787.1| hypothetical protein DWV00_11000 [Trinickia dinghuensis]</Hit_def>
+  <Hit_accession>WP_115533602</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>397.512</Hsp_bit-score>
+      <Hsp_score>1020</Hsp_score>
+      <Hsp_evalue>1.60498e-138</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MNDEIDGGVEPTAPVWAAFADLMSVLVGAFVLILVGVIGLQLELSARLEDQVKQRQVEAQRRKTLEQALAGPLAAGRVTLVNGRIGISGSLLFALNSDQLQPQGRDLLKSLAGPLTLYLHSHEEILMVSGFADDQQVRAGNRRFADNWELSAQRALTVTRALIDAGVPASSVFAAAFGSQQPVSSNADDAGRAKNRRVEIAPVPKRSGATAQQHE</Hsp_qseq>
+      <Hsp_hseq>MNDEIDGGIEPTAPVWAAFADLMSVLVGAFVLILAGVIGLQLELSVRLEDQVKQRQIEAQRRKTLEEALAGPLAAGRVTLVNGRIGISGSLLFALNSDQLQPQGRDLLKSLAGPLVVYLRSHDEILMVSGFTDDHQVRAGNRSFADNWELSAQRALTVTRALIEAGVPAQSVFAAAFGSQQPVSSNADEAGRAKNRRVEIAPVPKRSAGSAEQHE</Hsp_hseq>
+      <Hsp_midline>MNDEIDGG+EPTAPVWAAFADLMSVLVGAFVLIL GVIGLQLELS RLEDQVKQRQ+EAQRRKTLE+ALAGPLAAGRVTLVNGRIGISGSLLFALNSDQLQPQGRDLLKSLAGPL +YL SH+EILMVSGF DD QVRAGNR FADNWELSAQRALTVTRALI+AGVPA SVFAAAFGSQQPVSSNAD+AGRAKNRRVEIAPVPKRS  +A+QHE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>tpg|HTH77210.1|</Hit_id>
+  <Hit_def>OmpA family protein [Trinickia sp.]</Hit_def>
+  <Hit_accession>HTH77210</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>391.349</Hsp_bit-score>
+      <Hsp_score>1004</Hsp_score>
+      <Hsp_evalue>3.78188e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>194</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MNDEIDGGVEPTAPVWAAFADLMSVLVGAFVLILVGVIGLQLELSARLEDQVKQRQVEAQRRKTLEQALAGPLAAGRVTLVNGRIGISGSLLFALNSDQLQPQGRDLLKSLAGPLTLYLHSHEEILMVSGFADDQQVRAGNRRFADNWELSAQRALTVTRALIDAGVPASSVFAAAFGSQQPVSSNADDAGRAKNRRVEIAPVPKRSGATAQQHE</Hsp_qseq>
+      <Hsp_hseq>MSEEIDGGAEPTAPVWAAFADLMSVLVGAFVLILVGVIGLQLELSARLEDQVKERQLEAQRRKTLEQALAGPLAAGRVTLVNGRIGISGSLLFALNSDQLQPQGRDLLKSLAGPLTVYLRSHDEILMVSGFTDDQQVRAGSRHFADNWELSAQRALTVMRSLIDAGVPAQSMFAAAFGAQQPVSSNTDEAGRAKNRRVEIAPVPKRSDSGAQQHE</Hsp_hseq>
+      <Hsp_midline>M++EIDGG EPTAPVWAAFADLMSVLVGAFVLILVGVIGLQLELSARLEDQVK+RQ+EAQRRKTLEQALAGPLAAGRVTLVNGRIGISGSLLFALNSDQLQPQGRDLLKSLAGPLT+YL SH+EILMVSGF DDQQVRAG+R FADNWELSAQRALTV R+LIDAGVPA S+FAAAFG+QQPVSSN D+AGRAKNRRVEIAPVPKRS + AQQHE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>tpg|HEX7684672.1|</Hit_id>
+  <Hit_def>OmpA family protein [Trinickia sp.]</Hit_def>
+  <Hit_accession>HEX7684672</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.956</Hsp_bit-score>
+      <Hsp_score>990</Hsp_score>
+      <Hsp_evalue>4.82008e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>MNDEIDGGVEPTAPVWAAFADLMSVLVGAFVLILVGVIGLQLELSARLEDQVKQRQVEAQRRKTLEQALAGPLAAGRVTLVNGRIGISGSLLFALNSDQLQPQGRDLLKSLAGPLTLYLHSHEEILMVSGFADDQQVRAGNRRFADNWELSAQRALTVTRALIDAGVPASSVFAAAFGSQQPVSSNADDAGRAKNRRVEIAPVPKRSGATAQQH</Hsp_qseq>
+      <Hsp_hseq>MNEEIDGGAEPAAPVWPAFADLMSVLVGAFVLILVGVIGLQLELSARLEDQVKQRQLEAQRRKTLEQALAGPLAAGRVTLENGRIGISGSLLFALNSDQLQPQGRDLLKSLAGPLGVYLRSHEEILMVSGFTDDQQVRAGSRHFADNWELSAQRALTVTRALIDAGIPARAVFAAAFGSQQPVSSNADENGRAKNRRVEIAPVPKRSGQAAERH</Hsp_hseq>
+      <Hsp_midline>MN+EIDGG EP APVW AFADLMSVLVGAFVLILVGVIGLQLELSARLEDQVKQRQ+EAQRRKTLEQALAGPLAAGRVTL NGRIGISGSLLFALNSDQLQPQGRDLLKSLAGPL +YL SHEEILMVSGF DDQQVRAG+R FADNWELSAQRALTVTRALIDAG+PA +VFAAAFGSQQPVSSNAD+ GRAKNRRVEIAPVPKRSG  A++H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_209931452.1|</Hit_id>
+  <Hit_def>OmpA family protein [Paraburkholderia sp. LEh10] &gt;gb|MBP0590202.1| OmpA family protein [Paraburkholderia sp. LEh10]</Hit_def>
+  <Hit_accession>WP_209931452</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>380.178</Hsp_bit-score>
+      <Hsp_score>975</Hsp_score>
+      <Hsp_evalue>1.01708e-131</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>186</Hsp_identity>
+      <Hsp_positive>203</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MNDEIDGGVEPTAPVWAAFADLMSVLVGAFVLILVGVIGLQLELSARLEDQVKQRQVEAQRRKTLEQALAGPLAAGRVTLVNGRIGISGSLLFALNSDQLQPQGRDLLKSLAGPLTLYLHSHEEILMVSGFADDQQVRAGNRRFADNWELSAQRALTVTRALIDAGVPASSVFAAAFGSQQPVSSNADDAGRAKNRRVEIAPVPKRSGATAQQHE</Hsp_qseq>
+      <Hsp_hseq>MSDEIDGGVEPTMPIWAAFSDLMSVLLGAFVLILVGVIGVQLELSSRLDDAVKQRQIEAQRRKTLEQALAGPLAAGRVTLVNGRIGISGNVLFAINSDQLQPQGRELLRSLAGPLSAYLKSHEEILMVSGFADDQQVRAGNRRFADNWELSAQRALTVTRAFIDAGIPASSVFAAAFGSEQPVSSNADNEGRAKNRRVEIAAVPKPSTANGAQHE</Hsp_hseq>
+      <Hsp_midline>M+DEIDGGVEPT P+WAAF+DLMSVL+GAFVLILVGVIG+QLELS+RL+D VKQRQ+EAQRRKTLEQALAGPLAAGRVTLVNGRIGISG++LFA+NSDQLQPQGR+LL+SLAGPL+ YL SHEEILMVSGFADDQQVRAGNRRFADNWELSAQRALTVTRA IDAG+PASSVFAAAFGS+QPVSSNAD+ GRAKNRRVEIA VPK S A   QHE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_060607797.1|</Hit_id>
+  <Hit_def>MULTISPECIES: OmpA family protein [Paraburkholderia] &gt;gb|ALP67002.1| hypothetical protein AN416_30230 [Paraburkholderia caribensis] &gt;gb|AMV47564.1| hypothetical protein ATN79_43605 [Paraburkholderia caribensis] &gt;gb|AUT56705.1| hypothetical protein C2L66_33150 [Paraburkholderia caribensis] &gt;gb|MCO4878737.1| OmpA family protein [Paraburkholderia caribensis] &gt;gb|MDR6382532.1| flagellar motor protein MotB [Paraburkholderia caribensis]</Hit_def>
+  <Hit_accession>WP_060607797</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>371.318</Hsp_bit-score>
+      <Hsp_score>952</Hsp_score>
+      <Hsp_evalue>2.88508e-128</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>MNDEIDGGVEPTAPVWAAFADLMSVLVGAFVLILVGVIGLQLELSARLEDQVKQRQVEAQRRKTLEQALAGPLAAGRVTLVNGRIGISGSLLFALNSDQLQPQGRDLLKSLAGPLTLYLHSHEEILMVSGFADDQQVRAGNRRFADNWELSAQRALTVTRALIDAGVPASSVFAAAFGSQQPVSSNADDAGRAKNRRVEIAPVPK</Hsp_qseq>
+      <Hsp_hseq>MNDDIDGGVEPTTPIWAAFSDLMSVLLGAFVLILVGVIGVQLELSARLDDAVKQRQMEAQRRKTLEQALAGPLAAGRVTLVNGRIGISGNVLFALNSDQLQPQGRDLLKSLAGPLSAYLRSHDEILMVSGFADDQQVRSGNRRFADNWELSAQRALTVTRSFIDAGVPASSVFAAAFGSEQPVSSNADSEGRAKNRRVEIAAVPR</Hsp_hseq>
+      <Hsp_midline>MND+IDGGVEPT P+WAAF+DLMSVL+GAFVLILVGVIG+QLELSARL+D VKQRQ+EAQRRKTLEQALAGPLAAGRVTLVNGRIGISG++LFALNSDQLQPQGRDLLKSLAGPL+ YL SH+EILMVSGFADDQQVR+GNRRFADNWELSAQRALTVTR+ IDAGVPASSVFAAAFGS+QPVSSNAD  GRAKNRRVEIA VP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_224099260.1|</Hit_id>
+  <Hit_def>OmpA family protein [Paraburkholderia caribensis] &gt;emb|CAG9188883.1| OmpA-like domain-containing protein [Paraburkholderia caribensis]</Hit_def>
+  <Hit_accession>WP_224099260</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>371.318</Hsp_bit-score>
+      <Hsp_score>952</Hsp_score>
+      <Hsp_evalue>3.75363e-128</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MNDEIDGGVEPTAPVWAAFADLMSVLVGAFVLILVGVIGLQLELSARLEDQVKQRQVEAQRRKTLEQALAGPLAAGRVTLVNGRIGISGSLLFALNSDQLQPQGRDLLKSLAGPLTLYLHSHEEILMVSGFADDQQVRAGNRRFADNWELSAQRALTVTRALIDAGVPASSVFAAAFGSQQPVSSNADDAGRAKNRRVEIAPVPKRSGATAQQHE</Hsp_qseq>
+      <Hsp_hseq>MNDDIDGGVEPTTPIWAAFSDLMSVLLGAFVLILVGVIGVQLELSARLDDAVKQRQMEAQRRKTLEQALAGPLAAGRVTLVNGRIGISGNVLFALNSDQLQPQGRDLLKSLAGPLSAYLRSHDEILMVSGFADDQQVRSGNRRFADNWELSAQRALTVTRSFIDAGVPASSVFAAAFGSEQPVSSNADSEGRAKNRRVEIAAVPRPAASGGGNRE</Hsp_hseq>
+      <Hsp_midline>MND+IDGGVEPT P+WAAF+DLMSVL+GAFVLILVGVIG+QLELSARL+D VKQRQ+EAQRRKTLEQALAGPLAAGRVTLVNGRIGISG++LFALNSDQLQPQGRDLLKSLAGPL+ YL SH+EILMVSGFADDQQVR+GNRRFADNWELSAQRALTVTR+ IDAGVPASSVFAAAFGS+QPVSSNAD  GRAKNRRVEIA VP+ + +     E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_205811405.1|</Hit_id>
+  <Hit_def>OmpA family protein [Burkholderia sp. Ac-20365] &gt;gb|MBN3765880.1| OmpA family protein [Burkholderia sp. Ac-20365]</Hit_def>
+  <Hit_accession>WP_205811405</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>369.777</Hsp_bit-score>
+      <Hsp_score>948</Hsp_score>
+      <Hsp_evalue>1.59608e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MNDEIDGGVEPTAPVWAAFADLMSVLVGAFVLILVGVIGLQLELSARLEDQVKQRQVEAQRRKTLEQALAGPLAAGRVTLVNGRIGISGSLLFALNSDQLQPQGRDLLKSLAGPLTLYLHSHEEILMVSGFADDQQVRAGNRRFADNWELSAQRALTVTRALIDAGVPASSVFAAAFGSQQPVSSNADDAGRAKNRRVEIAPVPKRSGATAQQHE</Hsp_qseq>
+      <Hsp_hseq>MNEEIDGGVEPTTPIWAAFSDLMSVLLGAFVLILVGVIGVQLELSARLDDAVKQRQMEAQRRKTLEQALAGPLAAGRVTLVNGRIGISGNVLFALNSDQLQPQGRDLLKSLAAPLSAYLRSHDEILMVSGFADDQQVRSGNRRFADNWELSAQRALTVTRSFIDAGIPASSVFAAAFGSEQPVSSNADSEGRAKNRRVEIAAVPRPASSGSGNRE</Hsp_hseq>
+      <Hsp_midline>MN+EIDGGVEPT P+WAAF+DLMSVL+GAFVLILVGVIG+QLELSARL+D VKQRQ+EAQRRKTLEQALAGPLAAGRVTLVNGRIGISG++LFALNSDQLQPQGRDLLKSLA PL+ YL SH+EILMVSGFADDQQVR+GNRRFADNWELSAQRALTVTR+ IDAG+PASSVFAAAFGS+QPVSSNAD  GRAKNRRVEIA VP+ + + +   E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_042306208.1|</Hit_id>
+  <Hit_def>MULTISPECIES: OmpA family protein [Paraburkholderia] &gt;gb|MFP3554577.1| OmpA family protein [Paraburkholderia sp. SIMBA_049] &gt;gb|AUT64753.1| hypothetical protein C2L65_34520 [Paraburkholderia terrae] &gt;emb|SDH15642.1| Flagellar motor protein MotB [Paraburkholderia steynii] &gt;dbj|BCZ84240.1| membrane protein [Paraburkholderia terrae] &gt;dbj|BDC44477.1| membrane protein [Paraburkholderia terrae]</Hit_def>
+  <Hit_accession>WP_042306208</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>369.392</Hsp_bit-score>
+      <Hsp_score>947</Hsp_score>
+      <Hsp_evalue>1.90216e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>MNDEIDGGVEPTAPVWAAFADLMSVLVGAFVLILVGVIGLQLELSARLEDQVKQRQVEAQRRKTLEQALAGPLAAGRVTLVNGRIGISGSLLFALNSDQLQPQGRDLLKSLAGPLTLYLHSHEEILMVSGFADDQQVRAGNRRFADNWELSAQRALTVTRALIDAGVPASSVFAAAFGSQQPVSSNADDAGRAKNRRVEIAPVPK</Hsp_qseq>
+      <Hsp_hseq>MNDDIDGGVEPTTPIWAAFSDLMSVLLGAFVLILVGVIGVQLELSARLDDAVKQRQMEAQRRKTLEQALAGPLAAGRVTLVNGRIGISGNVLFALNSDQLQPQGRDLLKSLAGPLSAYLRSHDEILMVSGFADDQQVRSSNRRFADNWELSAQRALTVTRSFIDAGVPASSVFAAAFGSEQPVSSNADSEGRAKNRRVEIAAVPR</Hsp_hseq>
+      <Hsp_midline>MND+IDGGVEPT P+WAAF+DLMSVL+GAFVLILVGVIG+QLELSARL+D VKQRQ+EAQRRKTLEQALAGPLAAGRVTLVNGRIGISG++LFALNSDQLQPQGRDLLKSLAGPL+ YL SH+EILMVSGFADDQQVR+ NRRFADNWELSAQRALTVTR+ IDAGVPASSVFAAAFGS+QPVSSNAD  GRAKNRRVEIA VP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_318225859.1|</Hit_id>
+  <Hit_def>OmpA family protein [Paraburkholderia terrae] &gt;gb|MDW3657861.1| OmpA family protein [Paraburkholderia terrae] &gt;dbj|BFG78734.1| OmpA family protein [Paraburkholderia terrae]</Hit_def>
+  <Hit_accession>WP_318225859</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>369.392</Hsp_bit-score>
+      <Hsp_score>947</Hsp_score>
+      <Hsp_evalue>2.16967e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>MNDEIDGGVEPTAPVWAAFADLMSVLVGAFVLILVGVIGLQLELSARLEDQVKQRQVEAQRRKTLEQALAGPLAAGRVTLVNGRIGISGSLLFALNSDQLQPQGRDLLKSLAGPLTLYLHSHEEILMVSGFADDQQVRAGNRRFADNWELSAQRALTVTRALIDAGVPASSVFAAAFGSQQPVSSNADDAGRAKNRRVEIAPVPK</Hsp_qseq>
+      <Hsp_hseq>MNDDIDGGVEPTTPIWAAFSDLMSVLLGAFVLILVGVIGVQLELSARLDDAVKQRQMEAQRRKTLEQALAGPLAAGRVTLVNGRIGISGNVLFALNSDQLQPQGRDLLKSLAGPLSAYLRSHDEILMVSGFADDQQVRSSNRRFADNWELSAQRALTVTRSFIDAGVPASSVFAAAFGSEQPVSSNADSEGRAKNRRVEIAAVPR</Hsp_hseq>
+      <Hsp_midline>MND+IDGGVEPT P+WAAF+DLMSVL+GAFVLILVGVIG+QLELSARL+D VKQRQ+EAQRRKTLEQALAGPLAAGRVTLVNGRIGISG++LFALNSDQLQPQGRDLLKSLAGPL+ YL SH+EILMVSGFADDQQVR+ NRRFADNWELSAQRALTVTR+ IDAGVPASSVFAAAFGS+QPVSSNAD  GRAKNRRVEIA VP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_012405616.1|</Hit_id>
+  <Hit_def>OmpA family protein [Paraburkholderia phymatum] &gt;gb|ACC75457.1| OmpA/MotB domain protein [Paraburkholderia phymatum STM815] &gt;gb|MEP9322148.1| OmpA family protein [Paraburkholderia phymatum]</Hit_def>
+  <Hit_accession>WP_012405616</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>369.007</Hsp_bit-score>
+      <Hsp_score>946</Hsp_score>
+      <Hsp_evalue>2.58575e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MNDEIDGGVEPTAPVWAAFADLMSVLVGAFVLILVGVIGLQLELSARLEDQVKQRQVEAQRRKTLEQALAGPLAAGRVTLVNGRIGISGSLLFALNSDQLQPQGRDLLKSLAGPLTLYLHSHEEILMVSGFADDQQVRAGNRRFADNWELSAQRALTVTRALIDAGVPASSVFAAAFGSQQPVSSNADDAGRAKNRRVEIAPVPKRSGATAQQHE</Hsp_qseq>
+      <Hsp_hseq>MNEDIDGGVEPTTPIWAAFSDLMSVLLGAFVLLLVAVIGVQLELSARLDDAVKQRQMEAQRRKTLEQALAGPLAAGRVTLVNGRIGISGNVLFALNSDQLQPQGRDLLKSLAAPLSAYLRSHDEILMVSGFADDQQVRAGNRRFADNWELSAQRALTVTRAFIDSGIPASSVFAAAFGSEQPVSSNADSEGRAKNRRVEIAAVPRPSSAGSSNRE</Hsp_hseq>
+      <Hsp_midline>MN++IDGGVEPT P+WAAF+DLMSVL+GAFVL+LV VIG+QLELSARL+D VKQRQ+EAQRRKTLEQALAGPLAAGRVTLVNGRIGISG++LFALNSDQLQPQGRDLLKSLA PL+ YL SH+EILMVSGFADDQQVRAGNRRFADNWELSAQRALTVTRA ID+G+PASSVFAAAFGS+QPVSSNAD  GRAKNRRVEIA VP+ S A +   E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_007585194.1|</Hit_id>
+  <Hit_def>MULTISPECIES: OmpA family protein [Paraburkholderia] &gt;gb|AUT74178.1| hypothetical protein C2L64_38520 [Paraburkholderia hospita] &gt;gb|AXF03815.1| hypothetical protein CUJ88_35540 [Paraburkholderia hospita] &gt;gb|EIM98663.1| hypothetical protein WQE_23143 [Paraburkholderia hospita] &gt;gb|MFM0017499.1| OmpA family protein [Paraburkholderia azotifigens] &gt;gb|MFP3640468.1| OmpA family protein [Paraburkholderia sp. SIMBA_054]</Hit_def>
+  <Hit_accession>WP_007585194</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>369.007</Hsp_bit-score>
+      <Hsp_score>946</Hsp_score>
+      <Hsp_evalue>2.58575e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>MNDEIDGGVEPTAPVWAAFADLMSVLVGAFVLILVGVIGLQLELSARLEDQVKQRQVEAQRRKTLEQALAGPLAAGRVTLVNGRIGISGSLLFALNSDQLQPQGRDLLKSLAGPLTLYLHSHEEILMVSGFADDQQVRAGNRRFADNWELSAQRALTVTRALIDAGVPASSVFAAAFGSQQPVSSNADDAGRAKNRRVEIAPVPK</Hsp_qseq>
+      <Hsp_hseq>MNDDIDGGVEPTTPIWAAFSDLMSVLLGAFVLILVGVIGVQLELSARLDDAVKQRQMEAQRRKTLEQALAGPLAAGRVTLVNGRIGISGNVLFALNSDQLQPQGRDLLKSLAGPLSAYLRSHDEILMVSGFADDQQVRSSNRRFADNWELSAQRALTVTRSFIDAGIPASSVFAAAFGSEQPVSSNADSEGRAKNRRVEIAAVPR</Hsp_hseq>
+      <Hsp_midline>MND+IDGGVEPT P+WAAF+DLMSVL+GAFVLILVGVIG+QLELSARL+D VKQRQ+EAQRRKTLEQALAGPLAAGRVTLVNGRIGISG++LFALNSDQLQPQGRDLLKSLAGPL+ YL SH+EILMVSGFADDQQVR+ NRRFADNWELSAQRALTVTR+ IDAG+PASSVFAAAFGS+QPVSSNAD  GRAKNRRVEIA VP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_368725710.1|</Hit_id>
+  <Hit_def>OmpA family protein [Paraburkholderia phymatum] &gt;gb|MEX3936943.1| OmpA family protein [Paraburkholderia phymatum]</Hit_def>
+  <Hit_accession>WP_368725710</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>368.622</Hsp_bit-score>
+      <Hsp_score>945</Hsp_score>
+      <Hsp_evalue>3.51499e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>MNDEIDGGVEPTAPVWAAFADLMSVLVGAFVLILVGVIGLQLELSARLEDQVKQRQVEAQRRKTLEQALAGPLAAGRVTLVNGRIGISGSLLFALNSDQLQPQGRDLLKSLAGPLTLYLHSHEEILMVSGFADDQQVRAGNRRFADNWELSAQRALTVTRALIDAGVPASSVFAAAFGSQQPVSSNADDAGRAKNRRVEIAPVPKRSGATA</Hsp_qseq>
+      <Hsp_hseq>MNDEIDGGMEPTTPIWAAFGDLMSVLLGAFVLILVGVIGMQLELTTRLHDEVRQRQMEAQRRKTLEQALAGPLAAGRVTLVNGRIGISGSVLFALNSDQLQPQGRELLKSLSGPLSTYLKSRDEILMVSGFADDQQVRAGNRRFADNWELSAQRALTVTRAFIDAGIPASSVFAAAFGSEQPVSSNADDVGRARNRRVEIAAVPRPASSSA</Hsp_hseq>
+      <Hsp_midline>MNDEIDGG+EPT P+WAAF DLMSVL+GAFVLILVGVIG+QLEL+ RL D+V+QRQ+EAQRRKTLEQALAGPLAAGRVTLVNGRIGISGS+LFALNSDQLQPQGR+LLKSL+GPL+ YL S +EILMVSGFADDQQVRAGNRRFADNWELSAQRALTVTRA IDAG+PASSVFAAAFGS+QPVSSNADD GRA+NRRVEIA VP+ + ++A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_180734579.1|</Hit_id>
+  <Hit_def>OmpA family protein [Paraburkholderia sp. PGU19] &gt;dbj|BCG01873.1| membrane protein [Paraburkholderia sp. PGU19]</Hit_def>
+  <Hit_accession>WP_180734579</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>368.622</Hsp_bit-score>
+      <Hsp_score>945</Hsp_score>
+      <Hsp_evalue>3.999e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>MNDEIDGGVEPTAPVWAAFADLMSVLVGAFVLILVGVIGLQLELSARLEDQVKQRQVEAQRRKTLEQALAGPLAAGRVTLVNGRIGISGSLLFALNSDQLQPQGRDLLKSLAGPLTLYLHSHEEILMVSGFADDQQVRAGNRRFADNWELSAQRALTVTRALIDAGVPASSVFAAAFGSQQPVSSNADDAGRAKNRRVEIAPVPK</Hsp_qseq>
+      <Hsp_hseq>MNDDIDGGVEPTTPIWAAFSDLMSVLLGAFVLILVGVIGVQLELSARLDDAVKQRQMEAQRRKTLEQALAGPLAAGRVTLVNGRIGISGNVLFALNSDQLQPQGRDLLKSLAGPLSAYLRSHDEILMVSGFADDQQVRSSNRRFADNWELSAQRALTVTRSFIDAGIPASSVFAAAFGSEQPVSSNADSEGRAKNRRVEIAAVPR</Hsp_hseq>
+      <Hsp_midline>MND+IDGGVEPT P+WAAF+DLMSVL+GAFVLILVGVIG+QLELSARL+D VKQRQ+EAQRRKTLEQALAGPLAAGRVTLVNGRIGISG++LFALNSDQLQPQGRDLLKSLAGPL+ YL SH+EILMVSGFADDQQVR+ NRRFADNWELSAQRALTVTR+ IDAG+PASSVFAAAFGS+QPVSSNAD  GRAKNRRVEIA VP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_028364378.1|</Hit_id>
+  <Hit_def>OmpA family protein [Paraburkholderia azotifigens] &gt;gb|TXC79396.1| OmpA family protein [Paraburkholderia azotifigens]</Hit_def>
+  <Hit_accession>WP_028364378</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>368.237</Hsp_bit-score>
+      <Hsp_score>944</Hsp_score>
+      <Hsp_evalue>4.99239e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MNDEIDGGVEPTAPVWAAFADLMSVLVGAFVLILVGVIGLQLELSARLEDQVKQRQVEAQRRKTLEQALAGPLAAGRVTLVNGRIGISGSLLFALNSDQLQPQGRDLLKSLAGPLTLYLHSHEEILMVSGFADDQQVRAGNRRFADNWELSAQRALTVTRALIDAGVPASSVFAAAFGSQQPVSSNADDAGRAKNRRVEIAPVPKRSGATAQQHE</Hsp_qseq>
+      <Hsp_hseq>MNEDIDGGVEPTTPIWAAFSDLMSVLLGAFVLLLVAVIGVQLELSARLDDAVKQRQMEAQRRKTLEQALAGPLAAGRVTLVNGRIGISGNVLFALNSDQLQPQGRELLKSLAAPLSAYLRAHDEILMVSGFADDQQVRAGNRRFADNWELSAQRALTVTRAFIDSGIPASSVFAAAFGSEQPVSSNADSEGRAKNRRVEIAAVPRPASASGASHE</Hsp_hseq>
+      <Hsp_midline>MN++IDGGVEPT P+WAAF+DLMSVL+GAFVL+LV VIG+QLELSARL+D VKQRQ+EAQRRKTLEQALAGPLAAGRVTLVNGRIGISG++LFALNSDQLQPQGR+LLKSLA PL+ YL +H+EILMVSGFADDQQVRAGNRRFADNWELSAQRALTVTRA ID+G+PASSVFAAAFGS+QPVSSNAD  GRAKNRRVEIA VP+ + A+   HE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>tpg|HWT38621.1|</Hit_id>
+  <Hit_def>OmpA family protein [Paraburkholderia sp.]</Hit_def>
+  <Hit_accession>HWT38621</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.851</Hsp_bit-score>
+      <Hsp_score>943</Hsp_score>
+      <Hsp_evalue>8.35839e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MNDEIDGGVEPTAPVWAAFADLMSVLVGAFVLILVGVIGLQLELSARLEDQVKQRQVEAQRRKTLEQALAGPLAAGRVTLVNGRIGISGSLLFALNSDQLQPQGRDLLKSLAGPLTLYLHSHEEILMVSGFADDQQVRAGNRRFADNWELSAQRALTVTRALIDAGVPASSVFAAAFGSQQPVSSNADDAGRAKNRRVEIAPVPKRSGATAQQHE</Hsp_qseq>
+      <Hsp_hseq>MNEDIDGGVEPTTPIWAAFSDLMSVLLGAFVLLLVAVIGVQLELSARLDDAVKQRQMEAQRRKTLEQALAGPLAAGRVTLVNGRIGISGNVLFALNSDQLQPQGHDLLKSLAAPLSTYLRSHDEILMVSGFADDQQVRAGNRRFADNWELSAQRALTVTRAFIDSGIPASSVFAAAFGSEQPVSSNADSEGRAKNRRVEIAAVPRPASVSGANHE</Hsp_hseq>
+      <Hsp_midline>MN++IDGGVEPT P+WAAF+DLMSVL+GAFVL+LV VIG+QLELSARL+D VKQRQ+EAQRRKTLEQALAGPLAAGRVTLVNGRIGISG++LFALNSDQLQPQG DLLKSLA PL+ YL SH+EILMVSGFADDQQVRAGNRRFADNWELSAQRALTVTRA ID+G+PASSVFAAAFGS+QPVSSNAD  GRAKNRRVEIA VP+ +  +   HE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_035995089.1|</Hit_id>
+  <Hit_def>OmpA family protein [Paraburkholderia caribensis] &gt;gb|ALL69984.1| Flagellar motor protein [Paraburkholderia caribensis MBA4]</Hit_def>
+  <Hit_accession>WP_035995089</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.851</Hsp_bit-score>
+      <Hsp_score>943</Hsp_score>
+      <Hsp_evalue>8.92677e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>MNDEIDGGVEPTAPVWAAFADLMSVLVGAFVLILVGVIGLQLELSARLEDQVKQRQVEAQRRKTLEQALAGPLAAGRVTLVNGRIGISGSLLFALNSDQLQPQGRDLLKSLAGPLTLYLHSHEEILMVSGFADDQQVRAGNRRFADNWELSAQRALTVTRALIDAGVPASSVFAAAFGSQQPVSSNADDAGRAKNRRVEIAPVPK</Hsp_qseq>
+      <Hsp_hseq>MNDDIDGGVEPTTPIWAAFSDLMSVLLGAFVLILVGVIGVQLELSARLDDAVKQRQMEAQRRKTLEQALAGPLAAGRVTLVNGRIGISGNVLFALNSDQLQPQGRELLKSLAGPLSAYLRSHDEILMVSGFADDQQVRSSNRRFADNWELSAQRALTVTRSFIDAGVPASSVFAAAFGSEQPVSSNADSEGRAKNRRVEIAAVPR</Hsp_hseq>
+      <Hsp_midline>MND+IDGGVEPT P+WAAF+DLMSVL+GAFVLILVGVIG+QLELSARL+D VKQRQ+EAQRRKTLEQALAGPLAAGRVTLVNGRIGISG++LFALNSDQLQPQGR+LLKSLAGPL+ YL SH+EILMVSGFADDQQVR+ NRRFADNWELSAQRALTVTR+ IDAGVPASSVFAAAFGS+QPVSSNAD  GRAKNRRVEIA VP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>878262366</Statistics_db-num>
+      <Statistics_db-len>334928218419</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

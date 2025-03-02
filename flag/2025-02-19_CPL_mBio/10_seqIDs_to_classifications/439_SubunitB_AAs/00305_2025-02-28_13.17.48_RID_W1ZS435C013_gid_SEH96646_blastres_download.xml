@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_4453915</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>135</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_4453915</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>135</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_067775151.1|</Hit_id>
+  <Hit_def>hypothetical protein [Akkermansia glycaniphila] &gt;gb|MBT9450140.1| hypothetical protein [Akkermansia glycaniphila] &gt;gb|OCA03120.1| hypothetical protein AC781_06225 [Akkermansia glycaniphila] &gt;emb|SEH96632.1| Hypothetical protein PYTT_2150 [Akkermansia glycaniphila]</Hit_def>
+  <Hit_accession>WP_067775151</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>250.751</Hsp_bit-score>
+      <Hsp_score>639</Hsp_score>
+      <Hsp_evalue>6.31159e-83</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>MPTLPQVRSTLPDITFMVLGCVVLNVVILVVT--LMSSGIIPRYGV---PASSQFMMEVQNQT---TIVPGDEPRYFLDNRQIESGFDGIGPALDKIIRNTKKDDLNRVTIVV---KSIPSGVEQKVIDLILLKDLNCTKAAEPAL</Hsp_qseq>
+      <Hsp_hseq>MPTLPQVRSTLPDITFMVLGCVVLNVVILVVTVTLMSSGIIPRYGVTIQPASSQFMMEVQNQTYTLTIVPGDEPRYFLDNRQIESGFDGIGPALDKIIRNTKKDDLNRVTIVVFADKSIPSGVEQKVIDLILLKDLNCTKAAEPAL</Hsp_hseq>
+      <Hsp_midline>MPTLPQVRSTLPDITFMVLGCVVLNVVILVVT  LMSSGIIPRYGV   PASSQFMMEVQNQT   TIVPGDEPRYFLDNRQIESGFDGIGPALDKIIRNTKKDDLNRVTIVV   KSIPSGVEQKVIDLILLKDLNCTKAAEPAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|MCD7799152.1|</Hit_id>
+  <Hit_def>hypothetical protein [Akkermansiaceae bacterium]</Hit_def>
+  <Hit_accession>MCD7799152</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.309</Hsp_bit-score>
+      <Hsp_score>277</Hsp_score>
+      <Hsp_evalue>6.36273e-28</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>134</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>PQVRSTLPDITFMVLGCVVLNVVILV--VTLMSSGIIPRYGV---PASSQFMMEVQNQT-----TIVPGDEPRYFLDNRQIESGFDGIGPALDKIIRNTKKDDLNRVTIVV---KSIPSGVEQKVIDLILLKDLNCTKAAEPA</Hsp_qseq>
+      <Hsp_hseq>PPIRSTLPTPSFLILGSVGLNVVILVFVLTLISSSILPRYGVSVVPAESRYHIGTYDPAYMRVLTITPGDSPRCFLESKLIKDGVRGLSREFDELIEKTPQEHRHHLTIVLYADKSISLGMMQSVIDLVLSKGMHCASAAEPG</Hsp_hseq>
+      <Hsp_midline>P +RSTLP  +F++LG V LNVVILV  +TL+SS I+PRYGV   PA S++ +   +       TI PGD PR FL+++ I+ G  G+    D++I  T ++  + +TIV+   KSI  G+ Q VIDL+L K ++C  AAEP </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|MCC8021109.1|</Hit_id>
+  <Hit_def>hypothetical protein [Akkermansia sp.] &gt;gb|MCD8071030.1| hypothetical protein [Akkermansiaceae bacterium]</Hit_def>
+  <Hit_accession>MCC8021109</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.923</Hsp_bit-score>
+      <Hsp_score>276</Hsp_score>
+      <Hsp_evalue>9.01294e-28</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>134</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>PQVRSTLPDITFMVLGCVVLNVVILV--VTLMSSGIIPRYGV---PASSQFMMEVQNQT-----TIVPGDEPRYFLDNRQIESGFDGIGPALDKIIRNTKKDDLNRVTIVV---KSIPSGVEQKVIDLILLKDLNCTKAAEPA</Hsp_qseq>
+      <Hsp_hseq>PPIRSTLPTPSFLILGSVGLNVVILVFVLTLISSSILPRYGVSVVPAESRYHIGTYDPAYMRVLTITPGDSPRCFLESKLIKDGVRGLSREFDELIEKTPQEHRHHLTIVLYADKSISLGMVQSVIDLVLSKGMHCASAAEPG</Hsp_hseq>
+      <Hsp_midline>P +RSTLP  +F++LG V LNVVILV  +TL+SS I+PRYGV   PA S++ +   +       TI PGD PR FL+++ I+ G  G+    D++I  T ++  + +TIV+   KSI  G+ Q VIDL+L K ++C  AAEP </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|MDO4411231.1|</Hit_id>
+  <Hit_def>hypothetical protein [Akkermansia sp.]</Hit_def>
+  <Hit_accession>MDO4411231</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.1965</Hsp_bit-score>
+      <Hsp_score>217</Hsp_score>
+      <Hsp_evalue>7.20371e-19</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>QVRSTLPDITFMVLGCVVLNVVIL--VVTLMSSGIIPRYGVPA---SSQFMMEVQNQT---TIVPGDEPRYFLDNRQIESGFDGIGPALDKIIRNTKKDDLNRVTIVVK---SIPSGVEQKVIDLILLKDLNCTKAAEP</Hsp_qseq>
+      <Hsp_hseq>KTRSTLPDGAFFLHIVVLLDLIVLICVLTMMTSRVGMSYGYEVKAPSSRFLMNALGDVEFISVTAGDQPAFYIGNRMIEGGIAGVSLELDHILRKSQAKDNSRVSIALRLDACVSRALEQELVDLVLSKGLNCYIATEP</Hsp_hseq>
+      <Hsp_midline>+ RSTLPD  F +   V+L++++L  V+T+M+S +   YG      SS+F+M         ++  GD+P +++ NR IE G  G+   LD I+R ++  D +RV+I ++    +   +EQ+++DL+L K LNC  A EP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|MEG0024371.1|</Hit_id>
+  <Hit_def>hypothetical protein [Akkermansia sp.] &gt;gb|MEG0143790.1| hypothetical protein [Akkermansia sp.] &gt;gb|MEG0333186.1| hypothetical protein [Akkermansia sp.] &gt;gb|MEG0426436.1| hypothetical protein [Akkermansia sp.] &gt;gb|MEG0586555.1| hypothetical protein [Akkermansia sp.]</Hit_def>
+  <Hit_accession>MEG0024371</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.411</Hsp_bit-score>
+      <Hsp_score>189</Hsp_score>
+      <Hsp_evalue>9.72836e-15</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>QVRSTLPDITFMVLGCVVLNVVILV--VTLMSSGIIPRYGVPA---SSQFMMEVQNQT---TIVPGDEPRYFLDNRQIESGFDGIGPALDKIIRNTKKDDLNRVTIVV---KSIPSGVEQKVIDLILLKDLNCTKAAEP</Hsp_qseq>
+      <Hsp_hseq>KVESTLPQNVFFIHLAVLLDVVILVFVLTMLTSRIGSDYGFNVKLPSSQFLINATDDRYVLSVTAGENPIFFINNKRMDGGLPQLKAELSRIAGTYGEDGAGRVTVVLYFDQAVNRGLEQSVVDMVLDKGMNCAVAAEP</Hsp_hseq>
+      <Hsp_midline>+V STLP   F +   V+L+VVILV  +T+++S I   YG      SSQF++   +     ++  G+ P +F++N++++ G   +   L +I     +D   RVT+V+   +++  G+EQ V+D++L K +NC  AAEP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|MBR1978356.1|</Hit_id>
+  <Hit_def>hypothetical protein [Akkermansia sp.]</Hit_def>
+  <Hit_accession>MBR1978356</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3294</Hsp_bit-score>
+      <Hsp_score>181</Hsp_score>
+      <Hsp_evalue>1.55926e-13</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>LPQVRSTLPDITF--MVLGCVVLNVVILVVTLMSSGIIPRYGV---PASSQFMMEVQNQTT-----IVPGDEPRYFLDNRQIESGFDGIGPALDKIIRNTKKDDLNRVTIVV---KSIPSGVEQKVIDLILLKDLNCTKAAEPAL</Hsp_qseq>
+      <Hsp_hseq>MKRVRSSLKGNGFHIVVIALLNLFLLLCICVLLHHHRLPRYGANVRPAATHFVMGAYDRSTSHIITVTPGDTPRFFLEEKEIKGGLDGV----EDILKSWDCASPNRVTVVLVSDEAVSVGTMQKLADMVLSHGFTCTFAGLPAL</Hsp_hseq>
+      <Hsp_midline>+ +VRS+L    F  +V+  + L +++ +  L+    +PRYG    PA++ F+M   +++T     + PGD PR+FL+ ++I+ G DG+    + I+++      NRVT+V+   +++  G  QK+ D++L     CT A  PAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|MBQ4613439.1|</Hit_id>
+  <Hit_def>hypothetical protein [Akkermansia sp.]</Hit_def>
+  <Hit_accession>MBQ4613439</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>5.41827e-13</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>LPQVRSTLPDITF--MVLGCVVLNVVILVVTLMSSGIIPRYG---VPASSQFMMEVQNQT-----TIVPGDEPRYFLDNRQIESGFDGIGPALDKIIRNTKKDDLNRVTIVV---KSIPSGVEQKVIDLILLKDLNCTKAAEPAL</Hsp_qseq>
+      <Hsp_hseq>MKRVRSSLKGNGFHIVVIALLNLFLLLCICVLLHHHRLPRYGANVLPASTHFVMGAYDRSNSHIITVTPGETPRFFLEEKEIKDGLDGI----ERLFKTWDCAVPARITVVLVCDEAVASGTMQKLADMVLSHGFTCTLAGRPAL</Hsp_hseq>
+      <Hsp_midline>+ +VRS+L    F  +V+  + L +++ +  L+    +PRYG   +PAS+ F+M   +++     T+ PG+ PR+FL+ ++I+ G DGI    +++ +        R+T+V+   +++ SG  QK+ D++L     CT A  PAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|MBQ9834844.1|</Hit_id>
+  <Hit_def>hypothetical protein [Akkermansia sp.]</Hit_def>
+  <Hit_accession>MBQ9834844</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>9.26537e-13</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>LPQVRSTLPDITF--MVLGCVVLNVVILVVTLMSSGIIPRYGV---PASSQFMMEVQNQTT-----IVPGDEPRYFLDNRQIESGFDGIGPALDKIIRNTKKDDLNRVTIVV---KSIPSGVEQKVIDLILLKDLNCTKAAEPAL</Hsp_qseq>
+      <Hsp_hseq>MKRVRSSLKGNGFHIVVIALLNLFLLLCICVLLHHHRLPRYGANVRPAATHFVMGAYDRSTSHIITVTPGDTPRFFLEEKEIKGGLDGV----EDILKSWDCASPSRVTVVLVSDEAVSVGTMQKLADMVLSHGFTCTFAGLPAL</Hsp_hseq>
+      <Hsp_midline>+ +VRS+L    F  +V+  + L +++ +  L+    +PRYG    PA++ F+M   +++T     + PGD PR+FL+ ++I+ G DG+    + I+++      +RVT+V+   +++  G  QK+ D++L     CT A  PAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_022397804.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Akkermansia] &gt;gb|MBP8663060.1| hypothetical protein [Akkermansia sp.] &gt;gb|MBP9525142.1| hypothetical protein [Akkermansia sp.] &gt;gb|MBS6841786.1| hypothetical protein [Akkermansia sp.] &gt;gb|MCC8039890.1| hypothetical protein [Akkermansia sp.] &gt;gb|MCL6658320.1| hypothetical protein [Akkermansia massiliensis]</Hit_def>
+  <Hit_accession>WP_022397804</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>1.21513e-12</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>134</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>QVRSTLPDITFMV--LGCVVLNVVILVVTLMSSGIIPRYGVPA---SSQFMMEVQNQT---TIVPGDEPRYFLDNRQIESGFDGIGPALDKIIRNTKKDDLNRVTIVVK---SIPSGVEQKVIDLILLKDLNCTKAAEPA</Hsp_qseq>
+      <Hsp_hseq>KTRSTLPTGAFFMQVVVLLDLVVLVCVLTIMTSRVGMAYGYEVKAPSSRFLMNIVGDVEFISVTAGDQPAFYIGNRLIEGGLPGVSAELDRISRENEGDGGGRVGIALRLDSAVSRALEQQLVDMVLAKGMTCYIAAEPA</Hsp_hseq>
+      <Hsp_midline>+ RSTLP   F +  +  + L V++ V+T+M+S +   YG      SS+F+M +       ++  GD+P +++ NR IE G  G+   LD+I R  + D   RV I ++   ++   +EQ+++D++L K + C  AAEPA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_290548444.1|</Hit_id>
+  <Hit_def>hypothetical protein [Akkermansia sp.] &gt;gb|MCC8148412.1| hypothetical protein [Akkermansia sp.]</Hit_def>
+  <Hit_accession>WP_290548444</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>1.32394e-12</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>134</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>QVRSTLPDITFMV--LGCVVLNVVILVVTLMSSGIIPRYGVPA---SSQFMMEVQNQT---TIVPGDEPRYFLDNRQIESGFDGIGPALDKIIRNTKKDDLNRVTIVVK---SIPSGVEQKVIDLILLKDLNCTKAAEPA</Hsp_qseq>
+      <Hsp_hseq>KTRSTLPTGAFFMQVVVLLDLVVLVCVLTIMTSRVGMAYGYEVKAPSSRFLMNIVGDVEFISVTAGDQPAFYIGNRLIEGGLPGVSAELDRLSRKHEGNDSGRMSIALRLDSAVSRALEQQLVDMVLAKGMTCYIAAEPA</Hsp_hseq>
+      <Hsp_midline>+ RSTLP   F +  +  + L V++ V+T+M+S +   YG      SS+F+M +       ++  GD+P +++ NR IE G  G+   LD++ R  + +D  R++I ++   ++   +EQ+++D++L K + C  AAEPA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_102721856.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Akkermansia] &gt;gb|MBO1689708.1| hypothetical protein [Akkermansia sp. GGCC_0220] &gt;gb|MFQ6816349.1| hypothetical protein [Akkermansia sp.] &gt;gb|MFQ7142244.1| hypothetical protein [Akkermansia sp.] &gt;gb|MFR4315840.1| hypothetical protein [Akkermansia sp.] &gt;gb|MFR6078815.1| hypothetical protein [Akkermansia sp.]</Hit_def>
+  <Hit_accession>WP_102721856</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.633</Hsp_bit-score>
+      <Hsp_score>174</Hsp_score>
+      <Hsp_evalue>1.74944e-12</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>134</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>RSTLPDITFMV--LGCVVLNVVILVVTLMSSGIIPRYGVPA---SSQFMMEVQNQT---TIVPGDEPRYFLDNRQIESGFDGIGPALDKIIRNTKKDDLNRVTIVVK---SIPSGVEQKVIDLILLKDLNCTKAAEPA</Hsp_qseq>
+      <Hsp_hseq>RSTLPTGAFFMQVVVLLDLVVLVCVLTIMTSRVGMAYGYEVKAPSSRFLMNIVGDVEFISVTAGDQPAFYIGNRLIEGGLPGVSAELDRISRENEGDGGGRVGIALRLDSAVSRALEQQLVDMVLAKGMTCYIAAEPA</Hsp_hseq>
+      <Hsp_midline>RSTLP   F +  +  + L V++ V+T+M+S +   YG      SS+F+M +       ++  GD+P +++ NR IE G  G+   LD+I R  + D   RV I ++   ++   +EQ+++D++L K + C  AAEPA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|MBQ1961068.1|</Hit_id>
+  <Hit_def>hypothetical protein [Akkermansia sp.]</Hit_def>
+  <Hit_accession>MBQ1961068</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.633</Hsp_bit-score>
+      <Hsp_score>174</Hsp_score>
+      <Hsp_evalue>1.86043e-12</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>LPQVRSTLPDITF--MVLGCVVLNVVILVVTLMSSGIIPRYGV---PASSQFMMEVQNQT-----TIVPGDEPRYFLDNRQIESGFDGIGPALDKIIRNTKKDDLNRVTIVV---KSIPSGVEQKVIDLILLKDLNCTKAAEPAL</Hsp_qseq>
+      <Hsp_hseq>MKRVRSSLKGNGFHIVVIALLNLFLLLCICVLLHHHRLPRYGVNVRPAATHFVMGSYDRSNSHIITVTPGDTPRFFLEEKEIKGGLNGV----EAILKTWDCASPSRVTVVLVSDEAVAVGTMQKLADMVLSHGFSCTFAGLPAL</Hsp_hseq>
+      <Hsp_midline>+ +VRS+L    F  +V+  + L +++ +  L+    +PRYGV   PA++ F+M   +++     T+ PGD PR+FL+ ++I+ G +G+    + I++       +RVT+V+   +++  G  QK+ D++L    +CT A  PAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|MBQ2380313.1|</Hit_id>
+  <Hit_def>hypothetical protein [Akkermansia sp.]</Hit_def>
+  <Hit_accession>MBQ2380313</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>3.01376e-12</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>141</Hsp_align-len>
+      <Hsp_qseq>QVRSTLPD--ITFMVLGCVVLNVVILVVTLMSSGIIPRYG---VPASSQFMMEVQNQT-----TIVPGDEPRYFLDNRQIESGFDGIGPALDKIIRNTKKDDLNRVTIVV---KSIPSGVEQKVIDLILLKDLNCTKAAEP</Hsp_qseq>
+      <Hsp_hseq>RVRSKLSDSGMSVIALAGVNLVLLLCICVLLNSHRLPKYGLNVVPAESHFLLSQYDRTQTHVISITPGEHPRYYLEGFEIKGGLSGVQAQLDKW----RCEQPSRVTVILVNDAAVPSGTVQAVVDSVLTRGFNCALSGRP</Hsp_hseq>
+      <Hsp_midline>+VRS L D  ++ + L  V L +++ +  L++S  +P+YG   VPA S F++   ++T     +I PG+ PRY+L+  +I+ G  G+   LDK     + +  +RVT+++    ++PSG  Q V+D +L +  NC  +  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_253232224.1|</Hit_id>
+  <Hit_def>hypothetical protein [Akkermansia massiliensis] &gt;gb|MCO8187362.1| hypothetical protein [Akkermansia massiliensis]</Hit_def>
+  <Hit_accession>WP_253232224</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>3.29187e-12</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>134</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>QVRSTLPDITFMV--LGCVVLNVVILVVTLMSSGIIPRYGVPA---SSQFMMEVQNQT---TIVPGDEPRYFLDNRQIESGFDGIGPALDKIIRNTKKDDLNRVTIVVK---SIPSGVEQKVIDLILLKDLNCTKAAEPA</Hsp_qseq>
+      <Hsp_hseq>KTRSTLPTGAFFMQVVVLLDLVVLVCVLTIMTSRVGMAYGYEVKAPSSRFLMNIVGDVEFISVTAGDQPAFYIGNRLIEGGLPGVSAELDRISRENEGDGEGRMGIALRLDSAVSRALEQQLVDMVLAKGMTCYIAAEPA</Hsp_hseq>
+      <Hsp_midline>+ RSTLP   F +  +  + L V++ V+T+M+S +   YG      SS+F+M +       ++  GD+P +++ NR IE G  G+   LD+I R  + D   R+ I ++   ++   +EQ+++D++L K + C  AAEPA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_215427054.1|</Hit_id>
+  <Hit_def>hypothetical protein [Akkermansia muciniphila] &gt;gb|XCO29984.1| hypothetical protein ABGM91_01630 [Akkermansia muciniphila]</Hit_def>
+  <Hit_accession>WP_215427054</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>3.9493e-12</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>134</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>QVRSTLPDITFMV--LGCVVLNVVILVVTLMSS--GIIPRYGVPA-SSQFMMEVQNQT---TIVPGDEPRYFLDNRQIESGFDGIGPALDKIIRNTKKDDLNRVTIVVK---SIPSGVEQKVIDLILLKDLNCTKAAEPA</Hsp_qseq>
+      <Hsp_hseq>KTRSTLPTGAFFMQVVVLLDLVVLVCVLTIMTSRVGMAYGYEVKAPSSRFLMNIVGDAEFISVTAGDQPAFYIGNRLIEGGLPGVSAELDRISREHEGNGSGRMSIALRLDSAVSRALEQELVDMVLAKGMTCYIAAEPA</Hsp_hseq>
+      <Hsp_midline>+ RSTLP   F +  +  + L V++ V+T+M+S  G+   Y V A SS+F+M +       ++  GD+P +++ NR IE G  G+   LD+I R  + +   R++I ++   ++   +EQ+++D++L K + C  AAEPA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_290565340.1|</Hit_id>
+  <Hit_def>hypothetical protein [Akkermansia sp.]</Hit_def>
+  <Hit_accession>WP_290565340</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>4.07825e-12</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>134</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>QVRSTLPDITFMV--LGCVVLNVVILVVTLMSS--GIIPRYGVPA-SSQFMMEVQNQT---TIVPGDEPRYFLDNRQIESGFDGIGPALDKIIRNTKKDDLNRVTIVVK---SIPSGVEQKVIDLILLKDLNCTKAAEPA</Hsp_qseq>
+      <Hsp_hseq>KTRSTLPTGAFFMQVVVLLDLVVLVCVLTIMTSRVGMTYGYEVKAPSSRFLMNIVGDAEFISVTAGDQPAFYIGNRLIEGGLPGVSAELDRISREHEGNGSGRMSIALRLDSAVSRALEQELVDMVLAKGMTCYIAAEPA</Hsp_hseq>
+      <Hsp_midline>+ RSTLP   F +  +  + L V++ V+T+M+S  G+   Y V A SS+F+M +       ++  GD+P +++ NR IE G  G+   LD+I R  + +   R++I ++   ++   +EQ+++D++L K + C  AAEPA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|PNC38124.1|</Hit_id>
+  <Hit_def>hypothetical protein CXU10_07390 [Akkermansia muciniphila]</Hit_def>
+  <Hit_accession>PNC38124</Hit_accession>
+  <Hit_len>129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.0922</Hsp_bit-score>
+      <Hsp_score>170</Hsp_score>
+      <Hsp_evalue>5.03605e-12</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>134</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>TLMSSGIIPRYGVPA---SSQFMMEVQNQT---TIVPGDEPRYFLDNRQIESGFDGIGPALDKIIRNTKKDDLNRVTIVVK---SIPSGVEQKVIDLILLKDLNCTKAAEPA</Hsp_qseq>
+      <Hsp_hseq>TIMTSRVGMAYGYEVKAPSSRFLMNIVGDVEFISVTAGDQPAFYIGNRLIEGGLPGVSAELDRISRENEGDGGGRVGIALRLDSAVSRALEQQLVDMVLAKGMTCYIAAEPA</Hsp_hseq>
+      <Hsp_midline>T+M+S +   YG      SS+F+M +       ++  GD+P +++ NR IE G  G+   LD+I R  + D   RV I ++   ++   +EQ+++D++L K + C  AAEPA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|PNC48651.1|</Hit_id>
+  <Hit_def>hypothetical protein CXU11_07775 [Akkermansia muciniphila] &gt;gb|QHV62200.1| hypothetical protein DMI76_01930 [Akkermansia massiliensis] &gt;gb|QHV74565.1| hypothetical protein DMI75_01915 [Akkermansia massiliensis]</Hit_def>
+  <Hit_accession>PNC48651</Hit_accession>
+  <Hit_len>136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.0922</Hsp_bit-score>
+      <Hsp_score>170</Hsp_score>
+      <Hsp_evalue>6.06036e-12</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>134</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>TLMSSGIIPRYGVPA---SSQFMMEVQNQT---TIVPGDEPRYFLDNRQIESGFDGIGPALDKIIRNTKKDDLNRVTIVVK---SIPSGVEQKVIDLILLKDLNCTKAAEPA</Hsp_qseq>
+      <Hsp_hseq>TIMTSRVGMAYGYEVKAPSSRFLMNIVGDVEFISVTAGDQPAFYIGNRLIEGGLPGVSAELDRISRENEGDGGGRVGIALRLDSAVSRALEQQLVDMVLAKGMTCYIAAEPA</Hsp_hseq>
+      <Hsp_midline>T+M+S +   YG      SS+F+M +       ++  GD+P +++ NR IE G  G+   LD+I R  + D   RV I ++   ++   +EQ+++D++L K + C  AAEPA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_146016573.1|</Hit_id>
+  <Hit_def>hypothetical protein [Akkermansia muciniphila]</Hit_def>
+  <Hit_accession>WP_146016573</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.0922</Hsp_bit-score>
+      <Hsp_score>170</Hsp_score>
+      <Hsp_evalue>8.356e-12</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>134</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>QVRSTLPDITFMV--LGCVVLNVVILVVTLMSS--GIIPRYGVPA-SSQFMMEVQNQT---TIVPGDEPRYFLDNRQIESGFDGIGPALDKIIRNTKKDDLNRVTIVVK---SIPSGVEQKVIDLILLKDLNCTKAAEPA</Hsp_qseq>
+      <Hsp_hseq>KTRSTLPTGAFFMQVVVLLDLVVLVCVLTIMTSRVGMAYGYEVKAPSSRFLMNIVGDAEFISVTAGDQPAFYIGNRLIEGGLPGVSAELDRISREHEGNGSGRMSIALRLDSAVSRALEQQLVDMVLARGMTCYIAAEPA</Hsp_hseq>
+      <Hsp_midline>+ RSTLP   F +  +  + L V++ V+T+M+S  G+   Y V A SS+F+M +       ++  GD+P +++ NR IE G  G+   LD+I R  + +   R++I ++   ++   +EQ+++D++L + + C  AAEPA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_302015646.1|</Hit_id>
+  <Hit_def>hypothetical protein [uncultured Akkermansia sp.]</Hit_def>
+  <Hit_accession>WP_302015646</Hit_accession>
+  <Hit_len>129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.3218</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>1.05661e-11</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>134</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>TLMSSGIIPRYGVPA---SSQFMMEVQNQT---TIVPGDEPRYFLDNRQIESGFDGIGPALDKIIRNTKKDDLNRVTIVVK---SIPSGVEQKVIDLILLKDLNCTKAAEPA</Hsp_qseq>
+      <Hsp_hseq>TIMTSRVGMAYGYEVKAPSSRFLMNIVGDVEFISVTAGDQPAFYIGNRLIEGGLPGVSAELDRLSRKHEGNDSGRMSIALRLDSAVSRALEQQLVDMVLSKGMTCYIAAEPA</Hsp_hseq>
+      <Hsp_midline>T+M+S +   YG      SS+F+M +       ++  GD+P +++ NR IE G  G+   LD++ R  + +D  R++I ++   ++   +EQ+++D++L K + C  AAEPA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>877781531</Statistics_db-num>
+      <Statistics_db-len>334720180573</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

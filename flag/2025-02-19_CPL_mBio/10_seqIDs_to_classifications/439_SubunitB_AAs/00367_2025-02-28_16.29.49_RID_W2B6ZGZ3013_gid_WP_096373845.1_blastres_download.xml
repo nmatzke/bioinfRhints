@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_8346615</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>247</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_8346615</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>247</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_096373845.1|</Hit_id>
+  <Hit_def>type I Zorya anti-phage system protein ZorB1 [Pseudomonas chlororaphis] &gt;dbj|BAV74563.1| membrane MotB of proton-channel complex MotA/MotB family protein [Pseudomonas chlororaphis subsp. aurantiaca]</Hit_def>
+  <Hit_accession>WP_096373845</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>515.768</Hsp_bit-score>
+      <Hsp_score>1327</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>247</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>MFGKQMPSAARSRDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRSQDISQICEHLSLKAKAANRTIVVDCKDNRISFGDAGRFGHNQYALSSEGQTALQDVVPMILDAANSDEGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSIFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEENLKPEVPVFNNTDLEKCQLAMNR</Hsp_qseq>
+      <Hsp_hseq>MFGKQMPSAARSRDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRSQDISQICEHLSLKAKAANRTIVVDCKDNRISFGDAGRFGHNQYALSSEGQTALQDVVPMILDAANSDEGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSIFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEENLKPEVPVFNNTDLEKCQLAMNR</Hsp_hseq>
+      <Hsp_midline>MFGKQMPSAARSRDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRSQDISQICEHLSLKAKAANRTIVVDCKDNRISFGDAGRFGHNQYALSSEGQTALQDVVPMILDAANSDEGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSIFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEENLKPEVPVFNNTDLEKCQLAMNR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_007920741.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type I Zorya anti-phage system protein ZorB1 [unclassified Pseudomonas] &gt;gb|QQZ44309.1| OmpA family protein [Pseudomonas sp. SK3(2021)] &gt;gb|WIE47679.1| flagellar motor protein MotB [Pseudomonas sp. GM17]</Hit_def>
+  <Hit_accession>WP_007920741</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>514.998</Hsp_bit-score>
+      <Hsp_score>1325</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>246</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>MFGKQMPSAARSRDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRSQDISQICEHLSLKAKAANRTIVVDCKDNRISFGDAGRFGHNQYALSSEGQTALQDVVPMILDAANSDEGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSIFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEENLKPEVPVFNNTDLEKCQLAMNR</Hsp_qseq>
+      <Hsp_hseq>MFGKQMPSAARSRDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRSQDISQICEHLSLKAKAANRTIVVDCKDNRISFGDAGRFGHNQYALSSEGQTALQDVVPMILDAANSDEGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSIFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEENLKPEVPVFNNTDMEKCQLAMNR</Hsp_hseq>
+      <Hsp_midline>MFGKQMPSAARSRDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRSQDISQICEHLSLKAKAANRTIVVDCKDNRISFGDAGRFGHNQYALSSEGQTALQDVVPMILDAANSDEGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSIFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEENLKPEVPVFNNTD+EKCQLAMNR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_169913208.1|</Hit_id>
+  <Hit_def>type I Zorya anti-phage system protein ZorB1 [Pseudomonas chlororaphis] &gt;gb|NNB42108.1| OmpA family protein [Pseudomonas chlororaphis]</Hit_def>
+  <Hit_accession>WP_169913208</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>513.072</Hsp_bit-score>
+      <Hsp_score>1320</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>245</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>MFGKQMPSAARSRDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRSQDISQICEHLSLKAKAANRTIVVDCKDNRISFGDAGRFGHNQYALSSEGQTALQDVVPMILDAANSDEGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSIFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEENLKPEVPVFNNTDLEKCQLAMNR</Hsp_qseq>
+      <Hsp_hseq>MFGKQMPSAARSRDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRSQDISQICEHLSLKAKAANRTIVVDCKDNRISFGDAGRFGHNQYALSSEGQAALQDVVPMILDAANSDEGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSIFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEENLKPEVPVFNNTDMEKCQLAMNR</Hsp_hseq>
+      <Hsp_midline>MFGKQMPSAARSRDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRSQDISQICEHLSLKAKAANRTIVVDCKDNRISFGDAGRFGHNQYALSSEGQ ALQDVVPMILDAANSDEGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSIFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEENLKPEVPVFNNTD+EKCQLAMNR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_103331923.1|</Hit_id>
+  <Hit_def>type I Zorya anti-phage system protein ZorB1 [Pseudomonas sp. GW531-T4] &gt;gb|POA62825.1| hypothetical protein C1888_29895 [Pseudomonas sp. GW531-T4]</Hit_def>
+  <Hit_accession>WP_103331923</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>510.76</Hsp_bit-score>
+      <Hsp_score>1314</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>244</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>MFGKQMPSAARSRDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRSQDISQICEHLSLKAKAANRTIVVDCKDNRISFGDAGRFGHNQYALSSEGQTALQDVVPMILDAANSDEGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSIFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEENLKPEVPVFNNTDLEKCQLAMNR</Hsp_qseq>
+      <Hsp_hseq>MFGKQMPSATRPRDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRSQDISQICEHLSLKAKAANRTIVVDCKDNRISFGDAGRFGHNQYALSSEGQTALQDVVPMILDAANSDEGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSIFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEENLKPEVPVFNNTDMEKCQLAMNR</Hsp_hseq>
+      <Hsp_midline>MFGKQMPSA R RDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRSQDISQICEHLSLKAKAANRTIVVDCKDNRISFGDAGRFGHNQYALSSEGQTALQDVVPMILDAANSDEGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSIFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEENLKPEVPVFNNTD+EKCQLAMNR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_223554142.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type I Zorya anti-phage system protein ZorB1 [unclassified Pseudomonas] &gt;gb|WPN30862.1| flagellar motor protein MotB [Pseudomonas sp. P5_109]</Hit_def>
+  <Hit_accession>WP_223554142</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>496.508</Hsp_bit-score>
+      <Hsp_score>1277</Hsp_score>
+      <Hsp_evalue>9.91042e-177</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>234</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>MFGKQMPSAARSRDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRSQDISQICEHLSLKAKAANRTIVVDCKDNRISFGDAGRFGHNQYALSSEGQTALQDVVPMILDAANSDEGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSIFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEENLKPEVPVFNNTDLEKCQLAMNR</Hsp_qseq>
+      <Hsp_hseq>MFGKQMPSAARSKDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRNKDISQICEHLSLKAKTASKTIVVDCKDNRISFGDAGRFGHNQYALSNDGQSALQEVVPMILDAANSEEGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSMFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEENLKPEVPVFNNTDMEKCQLAMNR</Hsp_hseq>
+      <Hsp_midline>MFGKQMPSAARS+DEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQR++DISQICEHLSLKAK A++TIVVDCKDNRISFGDAGRFGHNQYALS++GQ+ALQ+VVPMILDAANS+EGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRS+FLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEENLKPEVPVFNNTD+EKCQLAMNR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_034126970.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type I Zorya anti-phage system protein ZorB1 [Pseudomonas] &gt;gb|MEG1627063.1| type I Zorya anti-phage system protein ZorB1 [Pseudomonas sp.] &gt;gb|MEG1817337.1| type I Zorya anti-phage system protein ZorB1 [Pseudomonas sp.] &gt;gb|MEG1961643.1| type I Zorya anti-phage system protein ZorB1 [Pseudomonas sp.] &gt;gb|MEG2132271.1| type I Zorya anti-phage system protein ZorB1 [Pseudomonas sp.] &gt;gb|TPV58691.1| hypothetical protein FJ692_07950 [Pseudomonas fluorescens]</Hit_def>
+  <Hit_accession>WP_034126970</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>495.738</Hsp_bit-score>
+      <Hsp_score>1275</Hsp_score>
+      <Hsp_evalue>2.30667e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>233</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>MFGKQMPSAARSRDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRSQDISQICEHLSLKAKAANRTIVVDCKDNRISFGDAGRFGHNQYALSSEGQTALQDVVPMILDAANSDEGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSIFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEENLKPEVPVFNNTDLEKCQLAMNR</Hsp_qseq>
+      <Hsp_hseq>MFGKQMPSAARSKDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRNKDISQICEHLSLKAKSASKTIVVDCKDNRISFGDAGRFGHNQYALSNDGQSALQEVVPMILDAANSEEGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSMFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEENLKPDVPVFNNTDMEKCQLAMNR</Hsp_hseq>
+      <Hsp_midline>MFGKQMPSAARS+DEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQR++DISQICEHLSLKAK+A++TIVVDCKDNRISFGDAGRFGHNQYALS++GQ+ALQ+VVPMILDAANS+EGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRS+FLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEENLKP+VPVFNNTD+EKCQLAMNR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_138763951.1|</Hit_id>
+  <Hit_def>type I Zorya anti-phage system protein ZorB1 [Pseudomonas lactis]</Hit_def>
+  <Hit_accession>WP_138763951</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>495.352</Hsp_bit-score>
+      <Hsp_score>1274</Hsp_score>
+      <Hsp_evalue>3.34957e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>233</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>MFGKQMPSAARSRDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRSQDISQICEHLSLKAKAANRTIVVDCKDNRISFGDAGRFGHNQYALSSEGQTALQDVVPMILDAANSDEGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSIFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEENLKPEVPVFNNTDLEKCQLAMNR</Hsp_qseq>
+      <Hsp_hseq>MFGKQMPSAARSKDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRNKDISQICEHLSLKAKTASKTIVVDCKDNRISFGDAGRFGHNQYALSNDGQSALQEVVPMILDAANSEEGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSMFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEDNLKPEVPVFNNTDMEKCQLAMNR</Hsp_hseq>
+      <Hsp_midline>MFGKQMPSAARS+DEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQR++DISQICEHLSLKAK A++TIVVDCKDNRISFGDAGRFGHNQYALS++GQ+ALQ+VVPMILDAANS+EGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRS+FLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKE+NLKPEVPVFNNTD+EKCQLAMNR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_095169500.1|</Hit_id>
+  <Hit_def>type I Zorya anti-phage system protein ZorB1 [Pseudomonas sp. Irchel 3H3]</Hit_def>
+  <Hit_accession>WP_095169500</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>494.967</Hsp_bit-score>
+      <Hsp_score>1273</Hsp_score>
+      <Hsp_evalue>4.26397e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>233</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>MFGKQMPSAARSRDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRSQDISQICEHLSLKAKAANRTIVVDCKDNRISFGDAGRFGHNQYALSSEGQTALQDVVPMILDAANSDEGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSIFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEENLKPEVPVFNNTDLEKCQLAMNR</Hsp_qseq>
+      <Hsp_hseq>MFGKQMPSAARSKDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRNKDISQICEHLSLKARTASKTIVVDCKDNRISFGDAGRFGHNQYALSNDGQSALQEVVPMILDAANSEEGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSIFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEDNLKPEVPVFNNTDMEKCQLAMNR</Hsp_hseq>
+      <Hsp_midline>MFGKQMPSAARS+DEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQR++DISQICEHLSLKA+ A++TIVVDCKDNRISFGDAGRFGHNQYALS++GQ+ALQ+VVPMILDAANS+EGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSIFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKE+NLKPEVPVFNNTD+EKCQLAMNR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_057975504.1|</Hit_id>
+  <Hit_def>type I Zorya anti-phage system protein ZorB1 [Pseudomonas lactis] &gt;gb|KRP95696.1| membrane protein [Pseudomonas lactis]</Hit_def>
+  <Hit_accession>WP_057975504</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>494.197</Hsp_bit-score>
+      <Hsp_score>1271</Hsp_score>
+      <Hsp_evalue>8.05697e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>MFGKQMPSAARSRDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRSQDISQICEHLSLKAKAANRTIVVDCKDNRISFGDAGRFGHNQYALSSEGQTALQDVVPMILDAANSDEGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSIFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEENLKPEVPVFNNTDLEKCQLAMNR</Hsp_qseq>
+      <Hsp_hseq>MFGKQMPSAARSKDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRNKDISQICEHLSLKAKTASKTIVVDCKDNRISFGDAGRFGHNQYALSNDGQSALQEVVPMIMDAANSEEGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSMFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEENLKPDVPVFNNTDMEKCQLAMNR</Hsp_hseq>
+      <Hsp_midline>MFGKQMPSAARS+DEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQR++DISQICEHLSLKAK A++TIVVDCKDNRISFGDAGRFGHNQYALS++GQ+ALQ+VVPMI+DAANS+EGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRS+FLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEENLKP+VPVFNNTD+EKCQLAMNR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_196125427.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type I Zorya anti-phage system protein ZorB1 [Pseudomonas putida group] &gt;gb|MBF8651550.1| OmpA family protein [Pseudomonas putida] &gt;gb|MBF8655618.1| OmpA family protein [Pseudomonas putida] &gt;gb|MBF8691453.1| OmpA family protein [Pseudomonas fulva]</Hit_def>
+  <Hit_accession>WP_196125427</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>494.197</Hsp_bit-score>
+      <Hsp_score>1271</Hsp_score>
+      <Hsp_evalue>8.99124e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>233</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>MFGKQMPSAARSRDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRSQDISQICEHLSLKAKAANRTIVVDCKDNRISFGDAGRFGHNQYALSSEGQTALQDVVPMILDAANSDEGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSIFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEENLKPEVPVFNNTDLEKCQLAMNR</Hsp_qseq>
+      <Hsp_hseq>MFGKQMPSAARSKDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRSKDISQICEHLSLKAKTASKTIVVDCKDNRISFGDAGRFGHNQYALSNDGQSALQEVVPMILDAANSEEGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSMFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEDNLKPEVPVFTNTDVEKCQLAMNR</Hsp_hseq>
+      <Hsp_midline>MFGKQMPSAARS+DEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRS+DISQICEHLSLKAK A++TIVVDCKDNRISFGDAGRFGHNQYALS++GQ+ALQ+VVPMILDAANS+EGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRS+FLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKE+NLKPEVPVF NTD+EKCQLAMNR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_198799028.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type I Zorya anti-phage system protein ZorB1 [Pseudomonas] &gt;gb|MBJ2247929.1| OmpA family protein [Pseudomonas haemolytica] &gt;gb|MBJ2307208.1| OmpA family protein [Pseudomonas sp. MF2846] &gt;gb|MBK3462345.1| OmpA family protein [Pseudomonas haemolytica] &gt;gb|MBK3489286.1| OmpA family protein [Pseudomonas sp. MF2857]</Hit_def>
+  <Hit_accession>WP_198799028</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>494.197</Hsp_bit-score>
+      <Hsp_score>1271</Hsp_score>
+      <Hsp_evalue>1.02564e-175</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>MFGKQMPSAARSRDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRSQDISQICEHLSLKAKAANRTIVVDCKDNRISFGDAGRFGHNQYALSSEGQTALQDVVPMILDAANSDEGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSIFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEENLKPEVPVFNNTDLEKCQLAMNR</Hsp_qseq>
+      <Hsp_hseq>MFGKQMPSAARSKDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRNKDISQICEHLSLKAKSASKTIVVDCKDNRISFGDAGRFGHNQYALSNDGQSALQEVVPMILDAANSEEGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSMFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEENLKPDVPVFNNTDMEKCQLTMNR</Hsp_hseq>
+      <Hsp_midline>MFGKQMPSAARS+DEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQR++DISQICEHLSLKAK+A++TIVVDCKDNRISFGDAGRFGHNQYALS++GQ+ALQ+VVPMILDAANS+EGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRS+FLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEENLKP+VPVFNNTD+EKCQL MNR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_223508166.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type I Zorya anti-phage system protein ZorB1 [unclassified Pseudomonas]</Hit_def>
+  <Hit_accession>WP_223508166</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>493.812</Hsp_bit-score>
+      <Hsp_score>1270</Hsp_score>
+      <Hsp_evalue>1.20912e-175</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>MFGKQMPSAARSRDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRSQDISQICEHLSLKAKAANRTIVVDCKDNRISFGDAGRFGHNQYALSSEGQTALQDVVPMILDAANSDEGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSIFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEENLKPEVPVFNNTDLEKCQLAMNR</Hsp_qseq>
+      <Hsp_hseq>MFGKQMPSAARSKDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRNKDISQICEHLSLKAKTASKTIVVDCKDNRISFGDAGRFGHNQYALSNDGQSALQEVVPMILDAANSEEGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSMFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEREENLKPDVPVFNNTDMEKCQLAMNR</Hsp_hseq>
+      <Hsp_midline>MFGKQMPSAARS+DEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQR++DISQICEHLSLKAK A++TIVVDCKDNRISFGDAGRFGHNQYALS++GQ+ALQ+VVPMILDAANS+EGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRS+FLAGGVSFNNAKDTKEESRRVELRMQFFGLKE+EENLKP+VPVFNNTD+EKCQLAMNR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_103309225.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type I Zorya anti-phage system protein ZorB1 [unclassified Pseudomonas] &gt;gb|POA13542.1| hypothetical protein C1892_15495 [Pseudomonas sp. MPBD7-1]</Hit_def>
+  <Hit_accession>WP_103309225</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>493.812</Hsp_bit-score>
+      <Hsp_score>1270</Hsp_score>
+      <Hsp_evalue>1.22245e-175</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>233</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>MFGKQMPSAARSRDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRSQDISQICEHLSLKAKAANRTIVVDCKDNRISFGDAGRFGHNQYALSSEGQTALQDVVPMILDAANSDEGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSIFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEENLKPEVPVFNNTDLEKCQLAMNR</Hsp_qseq>
+      <Hsp_hseq>MFSKQMPSVARSKDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRNKDISQICEHLSLKAKAASKTIVVDCKDNRISFGDAGRFGHNQYALSNDGQSALQEVVPMILDAANSEEGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSMFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEDNLKPEVPVFNNTDLEKCQLAMNR</Hsp_hseq>
+      <Hsp_midline>MF KQMPS ARS+DEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQR++DISQICEHLSLKAKAA++TIVVDCKDNRISFGDAGRFGHNQYALS++GQ+ALQ+VVPMILDAANS+EGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRS+FLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKE+NLKPEVPVFNNTDLEKCQLAMNR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_154863532.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type I Zorya anti-phage system protein ZorB1 [Pseudomonas] &gt;gb|MBD9550520.1| OmpA family protein [Pseudomonas sp. PDM01] &gt;emb|CAI8804490.1| Zorya protein ZorB [Pseudomonas sp. IT-194MI4] &gt;emb|VVQ10708.1| hypothetical protein PS922_04737 [Pseudomonas fluorescens]</Hit_def>
+  <Hit_accession>WP_154863532</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>493.812</Hsp_bit-score>
+      <Hsp_score>1270</Hsp_score>
+      <Hsp_evalue>1.32004e-175</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>233</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>MFGKQMPSAARSRDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRSQDISQICEHLSLKAKAANRTIVVDCKDNRISFGDAGRFGHNQYALSSEGQTALQDVVPMILDAANSDEGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSIFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEENLKPEVPVFNNTDLEKCQLAMNR</Hsp_qseq>
+      <Hsp_hseq>MFGKQMPSAARSKDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRSKDISQICEHLSLKAKTASKTIVVDCKDNRISFGDAGRFGHNQYALSNDGQSALQEVVPMILDAANSEVGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSMFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEDNLKPEVPVFNNTDMEKCQLAMNR</Hsp_hseq>
+      <Hsp_midline>MFGKQMPSAARS+DEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRS+DISQICEHLSLKAK A++TIVVDCKDNRISFGDAGRFGHNQYALS++GQ+ALQ+VVPMILDAANS+ GRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRS+FLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKE+NLKPEVPVFNNTD+EKCQLAMNR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_038851380.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type I Zorya anti-phage system protein ZorB1 [Pseudomonas] &gt;gb|KGE64069.1| membrane protein [Pseudomonas fluorescens LMG 5329] &gt;gb|NWE00703.1| OmpA family protein [Pseudomonas sp. IPO3749] &gt;gb|NWF24323.1| OmpA family protein [Pseudomonas sp. IPO3749]</Hit_def>
+  <Hit_accession>WP_038851380</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>493.812</Hsp_bit-score>
+      <Hsp_score>1270</Hsp_score>
+      <Hsp_evalue>1.34932e-175</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>MFGKQMPSAARSRDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRSQDISQICEHLSLKAKAANRTIVVDCKDNRISFGDAGRFGHNQYALSSEGQTALQDVVPMILDAANSDEGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSIFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEENLKPEVPVFNNTDLEKCQLAMNR</Hsp_qseq>
+      <Hsp_hseq>MFGKQMPSAARSKDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRNKDISQICEHLSLKAKTASKTIVVDCKDNRISFGDAGRFGHNQYALSNDGQSALQEVVPMILDAANSEEGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSMFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEDNLKPDVPVFNNTDMEKCQLAMNR</Hsp_hseq>
+      <Hsp_midline>MFGKQMPSAARS+DEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQR++DISQICEHLSLKAK A++TIVVDCKDNRISFGDAGRFGHNQYALS++GQ+ALQ+VVPMILDAANS+EGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRS+FLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKE+NLKP+VPVFNNTD+EKCQLAMNR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_150672835.1|</Hit_id>
+  <Hit_def>type I Zorya anti-phage system protein ZorB1 [Pseudomonas fluorescens] &gt;emb|VVQ02710.1| hypothetical protein PS938_02649 [Pseudomonas fluorescens]</Hit_def>
+  <Hit_accession>WP_150672835</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>493.812</Hsp_bit-score>
+      <Hsp_score>1270</Hsp_score>
+      <Hsp_evalue>1.55617e-175</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>MFGKQMPSAARSRDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRSQDISQICEHLSLKAKAANRTIVVDCKDNRISFGDAGRFGHNQYALSSEGQTALQDVVPMILDAANSDEGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSIFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEENLKPEVPVFNNTDLEKCQLAMNR</Hsp_qseq>
+      <Hsp_hseq>MFGKQMPSAARSKDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRNKDISQICEHLSLKTKTASKTIVVDCKDNRISFGDAGRFGHNQYALSNDGQSALQEVVPMILDAANSEEGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSMFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEENLKPDVPVFNNTDMEKCQLAMNR</Hsp_hseq>
+      <Hsp_midline>MFGKQMPSAARS+DEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQR++DISQICEHLSLK K A++TIVVDCKDNRISFGDAGRFGHNQYALS++GQ+ALQ+VVPMILDAANS+EGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRS+FLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEENLKP+VPVFNNTD+EKCQLAMNR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_106111440.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type I Zorya anti-phage system protein ZorB1 [Pseudomonas] &gt;gb|MQT39385.1| OmpA family protein [Pseudomonas sp. FSL R10-0765] &gt;gb|NNB17068.1| OmpA family protein [Pseudomonas fragi] &gt;gb|NNB21679.1| OmpA family protein [Pseudomonas fragi] &gt;gb|PRW68039.1| hypothetical protein C7A09_15815 [Pseudomonas fluorescens]</Hit_def>
+  <Hit_accession>WP_106111440</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>493.041</Hsp_bit-score>
+      <Hsp_score>1268</Hsp_score>
+      <Hsp_evalue>2.6349e-175</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>233</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>MFGKQMPSAARSRDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRSQDISQICEHLSLKAKAANRTIVVDCKDNRISFGDAGRFGHNQYALSSEGQTALQDVVPMILDAANSDEGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSIFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEENLKPEVPVFNNTDLEKCQLAMNR</Hsp_qseq>
+      <Hsp_hseq>MFGKQMPSVARSKDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRNRDISQICEHLSLKAKAASKTIVVDCKDNRISFGDAGRFGHNQYALSNDGQSALQEVVPMILDAANSEEGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSAEHQQQIRSIFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEDNLKPEVPVFNNTDMEKCQLAMNR</Hsp_hseq>
+      <Hsp_midline>MFGKQMPS ARS+DEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQR++DISQICEHLSLKAKAA++TIVVDCKDNRISFGDAGRFGHNQYALS++GQ+ALQ+VVPMILDAANS+EGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLS EHQQQIRSIFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKE+NLKPEVPVFNNTD+EKCQLAMNR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_254468931.1|</Hit_id>
+  <Hit_def>type I Zorya anti-phage system protein ZorB1 [Pseudomonas donghuensis] &gt;gb|MCP6698106.1| hypothetical protein [Pseudomonas donghuensis]</Hit_def>
+  <Hit_accession>WP_254468931</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>492.656</Hsp_bit-score>
+      <Hsp_score>1267</Hsp_score>
+      <Hsp_evalue>3.21018e-175</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>233</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>MFGKQMPSAARSRDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRSQDISQICEHLSLKAKAANRTIVVDCKDNRISFGDAGRFGHNQYALSSEGQTALQDVVPMILDAANSDEGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSIFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEENLKPEVPVFNNTDLEKCQLAMNR</Hsp_qseq>
+      <Hsp_hseq>MFGKQMPSAARSKDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRSKDISQICEHLSLKAKTASKTIVVDCKDNRISFGDAGRFGHNQYALSNDGQSALQEVVPMILDAANSEEGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSIFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEGNLKPDVPVFTNTDMEKCQLAMNR</Hsp_hseq>
+      <Hsp_midline>MFGKQMPSAARS+DEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRS+DISQICEHLSLKAK A++TIVVDCKDNRISFGDAGRFGHNQYALS++GQ+ALQ+VVPMILDAANS+EGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSIFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKE NLKP+VPVF NTD+EKCQLAMNR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_056845750.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type I Zorya anti-phage system protein ZorB1 [Pseudomonas] &gt;gb|KRA26261.1| hypothetical protein ASD70_19100 [Pseudomonas sp. Root569] &gt;gb|MBP5970856.1| OmpA family protein [Pseudomonas iridis] &gt;gb|WWL82072.1| type I Zorya anti-phage system protein ZorB1 [Pseudomonas canadensis]</Hit_def>
+  <Hit_accession>WP_056845750</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>492.656</Hsp_bit-score>
+      <Hsp_score>1267</Hsp_score>
+      <Hsp_evalue>3.78443e-175</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>MFGKQMPSAARSRDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRSQDISQICEHLSLKAKAANRTIVVDCKDNRISFGDAGRFGHNQYALSSEGQTALQDVVPMILDAANSDEGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSIFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEENLKPEVPVFNNTDLEKCQLAMNR</Hsp_qseq>
+      <Hsp_hseq>MFGKQMPSVARSKDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRNRDISQICEHLSLKAKTASKTIVVDCKDNRISFGDAGRFGHNQYALSNDGQSALQEVVPMILDAANSEEGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSMFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEDNLKPEVPVFNNTDMEKCQLAMNR</Hsp_hseq>
+      <Hsp_midline>MFGKQMPS ARS+DEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQR++DISQICEHLSLKAK A++TIVVDCKDNRISFGDAGRFGHNQYALS++GQ+ALQ+VVPMILDAANS+EGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRS+FLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKE+NLKPEVPVFNNTD+EKCQLAMNR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>emb|CRM91820.1|</Hit_id>
+  <Hit_def>Outer membrane protein-associated (lipo)proteins [Pseudomonas sp. 22 E 5]</Hit_def>
+  <Hit_accession>CRM91820</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>492.656</Hsp_bit-score>
+      <Hsp_score>1267</Hsp_score>
+      <Hsp_evalue>3.99783e-175</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>MFGKQMPSAARSRDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRSQDISQICEHLSLKAKAANRTIVVDCKDNRISFGDAGRFGHNQYALSSEGQTALQDVVPMILDAANSDEGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSIFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEENLKPEVPVFNNTDLEKCQLAMNR</Hsp_qseq>
+      <Hsp_hseq>MFGKQMPSAARSKDEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQRNKDISQICEHLSLKVKTASKTIIVDCKDNRISFGDAGRFGHNQYALSNDGQSALQEVVPMILDAANSEEGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRSMFLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKEDNLKPEVPVFNNTDMEKCQLAMNR</Hsp_hseq>
+      <Hsp_midline>MFGKQMPSAARS+DEGEKPFWISFADLMTAMMILFLVVMVAALSSVTQRINQAEQGEKQR++DISQICEHLSLK K A++TI+VDCKDNRISFGDAGRFGHNQYALS++GQ+ALQ+VVPMILDAANS+EGRKWFKQVVIEGSTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSPLQVGLSPEHQQQIRS+FLAGGVSFNNAKDTKEESRRVELRMQFFGLKEKE+NLKPEVPVFNNTD+EKCQLAMNR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>878262366</Statistics_db-num>
+      <Statistics_db-len>334928218419</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

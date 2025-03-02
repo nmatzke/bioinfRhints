@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_5557069</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>221</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_5557069</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>221</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_150670524.1|</Hit_id>
+  <Hit_def>OmpA family protein [Pandoraea anhela] &gt;emb|VVE38430.1| putative lipoprotein YiaD [Pandoraea anhela]</Hit_def>
+  <Hit_accession>WP_150670524</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>438.728</Hsp_bit-score>
+      <Hsp_score>1127</Hsp_score>
+      <Hsp_evalue>1.26313e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>221</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>MREEVDVDIADGDIGAAAPTWAVFGDLMSVMLGAFVLIMLGVIGMQIELSAKLEREVRERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLAAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSSVFSAAFGAEQPVTSNADEAGRAKNRRVEIAPMPRSSASNAGKPNA</Hsp_qseq>
+      <Hsp_hseq>MREEVDVDIADGDIGAAAPTWAVFGDLMSVMLGAFVLIMLGVIGMQIELSAKLEREVRERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLAAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSSVFSAAFGAEQPVTSNADEAGRAKNRRVEIAPMPRSSASNAGKPNA</Hsp_hseq>
+      <Hsp_midline>MREEVDVDIADGDIGAAAPTWAVFGDLMSVMLGAFVLIMLGVIGMQIELSAKLEREVRERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLAAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSSVFSAAFGAEQPVTSNADEAGRAKNRRVEIAPMPRSSASNAGKPNA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_150625523.1|</Hit_id>
+  <Hit_def>OmpA family protein [Pandoraea captiosa] &gt;emb|VVE67234.1| putative lipoprotein YiaD [Pandoraea captiosa]</Hit_def>
+  <Hit_accession>WP_150625523</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>427.172</Hsp_bit-score>
+      <Hsp_score>1097</Hsp_score>
+      <Hsp_evalue>3.64097e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>MREEVDVDIADGDIGAAAPTWAVFGDLMSVMLGAFVLIMLGVIGMQIELSAKLEREVRERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLAAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSSVFSAAFGAEQPVTSNADEAGRAKNRRVEIAPMPRSSASNAGKPNA</Hsp_qseq>
+      <Hsp_hseq>MKDDFDADISDGDVGAAAPTWAVFGDLMSVMLGAFVLIMLGVIGVQIELSAKLEREVKERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLAAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSSVFSAAFGAEQPVTSNADEAGRAKNRRVEIAPMPRSSASNAGKPNA</Hsp_hseq>
+      <Hsp_midline>M+++ D DI+DGD+GAAAPTWAVFGDLMSVMLGAFVLIMLGVIG+QIELSAKLEREV+ERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLAAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSSVFSAAFGAEQPVTSNADEAGRAKNRRVEIAPMPRSSASNAGKPNA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_047905911.1|</Hit_id>
+  <Hit_def>OmpA family protein [Pandoraea faecigallinarum] &gt;gb|AKM29997.1| hypothetical protein AB870_07620 [Pandoraea faecigallinarum]</Hit_def>
+  <Hit_accession>WP_047905911</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>425.631</Hsp_bit-score>
+      <Hsp_score>1093</Hsp_score>
+      <Hsp_evalue>1.92935e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>MREEVDVDIADGDIGAAAPTWAVFGDLMSVMLGAFVLIMLGVIGMQIELSAKLEREVRERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLAAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSSVFSAAFGAEQPVTSNADEAGRAKNRRVEIAPMPRSSASNAGKPNA</Hsp_qseq>
+      <Hsp_hseq>MRDDFDADIAHGDVGAAAPTWAVFGDLMSVMLGAFVLIMLGVIGVQIELSAKLEREVKERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLAAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSSVFSAAFGAEQPVTSNANEAGRAKNRRVEIAPMPRSSASNAGKPNA</Hsp_hseq>
+      <Hsp_midline>MR++ D DIA GD+GAAAPTWAVFGDLMSVMLGAFVLIMLGVIG+QIELSAKLEREV+ERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLAAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSSVFSAAFGAEQPVTSNA+EAGRAKNRRVEIAPMPRSSASNAGKPNA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_044457020.1|</Hit_id>
+  <Hit_def>OmpA family protein [Pandoraea vervacti] &gt;gb|AJP58710.1| hypothetical protein UC34_20790 [Pandoraea vervacti]</Hit_def>
+  <Hit_accession>WP_044457020</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>423.32</Hsp_bit-score>
+      <Hsp_score>1087</Hsp_score>
+      <Hsp_evalue>1.21849e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>MREEVDVDIADGDIGAAAPTWAVFGDLMSVMLGAFVLIMLGVIGMQIELSAKLEREVRERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLAAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSSVFSAAFGAEQPVTSNADEAGRAKNRRVEIAPMPRSSASNAGKPNA</Hsp_qseq>
+      <Hsp_hseq>MKDDFDADISDGDVGAAAPTWAVFGDLMSVMLGAFVLIMLGVIGVQIELSAKLAREVKERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLAAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSSVFSAAFGAEQPVTSNADEAGRARNRRVEIAPMPRSSASNAGKPNA</Hsp_hseq>
+      <Hsp_midline>M+++ D DI+DGD+GAAAPTWAVFGDLMSVMLGAFVLIMLGVIG+QIELSAKL REV+ERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLAAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSSVFSAAFGAEQPVTSNADEAGRA+NRRVEIAPMPRSSASNAGKPNA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_069342536.1|</Hit_id>
+  <Hit_def>OmpA family protein [Pandoraea sp. ISTKB] &gt;gb|ODP33365.1| hypothetical protein A9762_19650 [Pandoraea sp. ISTKB]</Hit_def>
+  <Hit_accession>WP_069342536</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>422.935</Hsp_bit-score>
+      <Hsp_score>1086</Hsp_score>
+      <Hsp_evalue>2.2277e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>MREEVDVDIADGDIGAAAPTWAVFGDLMSVMLGAFVLIMLGVIGMQIELSAKLEREVRERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLAAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSSVFSAAFGAEQPVTSNADEAGRAKNRRVEIAPMPRSSASNAGKPNA</Hsp_qseq>
+      <Hsp_hseq>MRDEFDADIADGDVGAAAPTWAVFGDLMSVMLGAFVLIMLGVIGVQIELSAKLEREVKERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLTAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPASVFSAAFGSEQPVTSNADEAGRAKNRRVEIAPMPRSSASSAGKPKA</Hsp_hseq>
+      <Hsp_midline>MR+E D DIADGD+GAAAPTWAVFGDLMSVMLGAFVLIMLGVIG+QIELSAKLEREV+ERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPL AYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPP+SVFSAAFG+EQPVTSNADEAGRAKNRRVEIAPMPRSSAS+AGKP A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_039393044.1|</Hit_id>
+  <Hit_def>MULTISPECIES: OmpA family protein [Pandoraea] &gt;gb|AJC14899.1| hypothetical protein NA29_00455 [Pandoraea sputorum] &gt;emb|SNU88595.1| Inner membrane lipoprotein YiaD precursor [Pandoraea sputorum] &gt;emb|VVE44522.1| putative lipoprotein YiaD [Pandoraea sputorum] &gt;emb|VVE63733.1| putative lipoprotein YiaD [Pandoraea anapnoica] &gt;emb|VVE84711.1| putative lipoprotein YiaD [Pandoraea sputorum]</Hit_def>
+  <Hit_accession>WP_039393044</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>421.779</Hsp_bit-score>
+      <Hsp_score>1083</Hsp_score>
+      <Hsp_evalue>5.86769e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>MREEVDVDIAD-GDIGAAAPTWAVFGDLMSVMLGAFVLIMLGVIGMQIELSAKLEREVRERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLAAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSSVFSAAFGAEQPVTSNADEAGRAKNRRVEIAPMPRSSASNAGKPNA</Hsp_qseq>
+      <Hsp_hseq>MRDEFDADIADAGDVGAAAPTWAVFGDLMSVMLGAFVLIMLGVIGVQIELSAKLEREVKERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLAAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSSVFSAAFGAEQPVTSNADEAGRAKNRRVEIAPMPRSSAGNAGKPKA</Hsp_hseq>
+      <Hsp_midline>MR+E D DIAD GD+GAAAPTWAVFGDLMSVMLGAFVLIMLGVIG+QIELSAKLEREV+ERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLAAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSSVFSAAFGAEQPVTSNADEAGRAKNRRVEIAPMPRSSA NAGKP A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_242558038.1|</Hit_id>
+  <Hit_def>MULTISPECIES: OmpA family protein [Pandoraea] &gt;gb|MCI3203680.1| hypothetical protein [Pandoraea sp. LA3] &gt;gb|MDN4581706.1| hypothetical protein [Pandoraea capi]</Hit_def>
+  <Hit_accession>WP_242558038</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>421.394</Hsp_bit-score>
+      <Hsp_score>1082</Hsp_score>
+      <Hsp_evalue>7.36477e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>MREEVDVDIADGDIGAAAPTWAVFGDLMSVMLGAFVLIMLGVIGMQIELSAKLEREVRERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLAAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSSVFSAAFGAEQPVTSNADEAGRAKNRRVEIAPMPRSSASNAGKPNA</Hsp_qseq>
+      <Hsp_hseq>MRDEFDADIADGDVGAAAPTWAVFGDLMSVMLGAFVLIMLGVIGVQIELSAKLEREVKERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLTAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPASVFSAAFGSEQPVTSNADETGRAKNRRVEIAPMPRSSASSAGKPKA</Hsp_hseq>
+      <Hsp_midline>MR+E D DIADGD+GAAAPTWAVFGDLMSVMLGAFVLIMLGVIG+QIELSAKLEREV+ERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPL AYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPP+SVFSAAFG+EQPVTSNADE GRAKNRRVEIAPMPRSSAS+AGKP A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_150719817.1|</Hit_id>
+  <Hit_def>OmpA family protein [Pandoraea capi] &gt;emb|VVD69009.1| putative lipoprotein YiaD [Pandoraea capi]</Hit_def>
+  <Hit_accession>WP_150719817</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>421.009</Hsp_bit-score>
+      <Hsp_score>1081</Hsp_score>
+      <Hsp_evalue>1.03478e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>MREEVDVDIADGDIGAAAPTWAVFGDLMSVMLGAFVLIMLGVIGMQIELSAKLEREVRERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLAAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSSVFSAAFGAEQPVTSNADEAGRAKNRRVEIAPMPRSSASNAGKPNA</Hsp_qseq>
+      <Hsp_hseq>MRDEFDADIADGDVGAAAPTWAVFGDLMSVMLGAFVLIMLGVIGVQIELSAKLDREVKERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLTAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPASVFSAAFGSEQPVTSNADEAGRAKNRRVEIAPMPRSSASSAGKPKA</Hsp_hseq>
+      <Hsp_midline>MR+E D DIADGD+GAAAPTWAVFGDLMSVMLGAFVLIMLGVIG+QIELSAKL+REV+ERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPL AYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPP+SVFSAAFG+EQPVTSNADEAGRAKNRRVEIAPMPRSSAS+AGKP A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_150666851.1|</Hit_id>
+  <Hit_def>MULTISPECIES: OmpA family protein [Pandoraea] &gt;gb|MCE4061809.1| OmpA family protein [Pandoraea sputorum] &gt;gb|UVA78853.1| OmpA family protein [Pandoraea commovens] &gt;emb|VVE58480.1| putative lipoprotein YiaD [Pandoraea commovens]</Hit_def>
+  <Hit_accession>WP_150666851</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>420.239</Hsp_bit-score>
+      <Hsp_score>1079</Hsp_score>
+      <Hsp_evalue>2.69577e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>MREEVDVDIAD-GDIGAAAPTWAVFGDLMSVMLGAFVLIMLGVIGMQIELSAKLEREVRERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLAAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSSVFSAAFGAEQPVTSNADEAGRAKNRRVEIAPMPRSSASNAGKPNA</Hsp_qseq>
+      <Hsp_hseq>MRDEFDADIADAGDVGAAAPTWAVFGDLMSVMLGAFVLIMLGVIGVQIELSAKLEREVKERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLAAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSSVFSAAFGAEQPVTSNADETGRAKNRRVEIAPMPRSSAGNAGKPKA</Hsp_hseq>
+      <Hsp_midline>MR+E D DIAD GD+GAAAPTWAVFGDLMSVMLGAFVLIMLGVIG+QIELSAKLEREV+ERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLAAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSSVFSAAFGAEQPVTSNADE GRAKNRRVEIAPMPRSSA NAGKP A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_402828856.1|</Hit_id>
+  <Hit_def>OmpA family protein [Pandoraea sp. NPDC090278] &gt;gb|MFK0379324.1| OmpA family protein [Pandoraea sp. NPDC090278]</Hit_def>
+  <Hit_accession>WP_402828856</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>419.853</Hsp_bit-score>
+      <Hsp_score>1078</Hsp_score>
+      <Hsp_evalue>3.24842e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>MREEVDVDIAD-GDIGAAAPTWAVFGDLMSVMLGAFVLIMLGVIGMQIELSAKLEREVRERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLAAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSSVFSAAFGAEQPVTSNADEAGRAKNRRVEIAPMPRSSASNAGKPNA</Hsp_qseq>
+      <Hsp_hseq>MRDEFDADIADAGDVGAAAPTWAVFGDLMSVMLGAFVLIMLGVIGVQIELSAKLEREVKERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLAAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSSVFSAAFGAEQPVTSNVDEAGRAKNRRVEIAPMPRSSAGNAGKPKA</Hsp_hseq>
+      <Hsp_midline>MR+E D DIAD GD+GAAAPTWAVFGDLMSVMLGAFVLIMLGVIG+QIELSAKLEREV+ERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLAAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSSVFSAAFGAEQPVTSN DEAGRAKNRRVEIAPMPRSSA NAGKP A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_400330970.1|</Hit_id>
+  <Hit_def>OmpA family protein [Pandoraea sp. NPDC087047] &gt;gb|MFJ2994526.1| OmpA family protein [Pandoraea sp. NPDC087047]</Hit_def>
+  <Hit_accession>WP_400330970</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>419.083</Hsp_bit-score>
+      <Hsp_score>1076</Hsp_score>
+      <Hsp_evalue>6.70039e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>MREEVDVDIADG-DIGAAAPTWAVFGDLMSVMLGAFVLIMLGVIGMQIELSAKLEREVRERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLAAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSSVFSAAFGAEQPVTSNADEAGRAKNRRVEIAPMPRSSASNAGKPNA</Hsp_qseq>
+      <Hsp_hseq>MRDEFDADIADGGDVGAAAPTWAVFGDLMSVMLGAFVLIMLGVIGVQIELSAKLEREVKERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAGPLAAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSSIFSAAFGSEQPVTSNADETGRAKNRRVEIAPMPRSSASNAGKPKA</Hsp_hseq>
+      <Hsp_midline>MR+E D DIADG D+GAAAPTWAVFGDLMSVMLGAFVLIMLGVIG+QIELSAKLEREV+ERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLA PLAAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSS+FSAAFG+EQPVTSNADE GRAKNRRVEIAPMPRSSASNAGKP A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_046289742.1|</Hit_id>
+  <Hit_def>OmpA family protein [Pandoraea oxalativorans] &gt;gb|AKC68288.1| hypothetical protein MB84_00695 [Pandoraea oxalativorans]</Hit_def>
+  <Hit_accession>WP_046289742</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.157</Hsp_bit-score>
+      <Hsp_score>1071</Hsp_score>
+      <Hsp_evalue>4.42088e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>MREEVDVDIAD-GDIGAAAPTWAVFGDLMSVMLGAFVLIMLGVIGMQIELSAKLEREVRERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLAAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSSVFSAAFGAEQPVTSNADEAGRAKNRRVEIAPMPRSSASNAGKPNA</Hsp_qseq>
+      <Hsp_hseq>MRDEFDADITEAGDVGAAAPTWAVFGDLMSVMLGAFVLIMLGVIGVQIELSAKLEREVKERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLAAYLRASDEILMVSGFTDDQQVRETNRRFTDNWELSAQRALTVTRELIAAGVPPSSVFSAAFGAEQPVTSNADEAGRAKNRRVEIAPMPRSSAGNAGKPKA</Hsp_hseq>
+      <Hsp_midline>MR+E D DI + GD+GAAAPTWAVFGDLMSVMLGAFVLIMLGVIG+QIELSAKLEREV+ERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLAAYLRASDEILMVSGFTDDQQVRETNRRF DNWELSAQRALTVTRELIAAGVPPSSVFSAAFGAEQPVTSNADEAGRAKNRRVEIAPMPRSSA NAGKP A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_353191077.1|</Hit_id>
+  <Hit_def>OmpA family protein [Pandoraea pnomenusa]</Hit_def>
+  <Hit_accession>WP_353191077</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>414.075</Hsp_bit-score>
+      <Hsp_score>1063</Hsp_score>
+      <Hsp_evalue>6.42533e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>MREEVDVDIAD-GDIGAAAPTWAVFGDLMSVMLGAFVLIMLGVIGMQIELSAKLEREVRERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLAAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSSVFSAAFGAEQPVTSNADEAGRAKNRRVEIAPMPRSSASNAGKPNA</Hsp_qseq>
+      <Hsp_hseq>MRDDFDADIADSGDVGAAAPTWAVFGDLMSVMLGAFVLIMLGVIGVQIELSAKLEREVKERRAETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGRDVLRSLAAPLTAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSSIFSAAFGAEQPVTSNVDEAGRAKNRRVEIAPMPRSSASSAGKPNA</Hsp_hseq>
+      <Hsp_midline>MR++ D DIAD GD+GAAAPTWAVFGDLMSVMLGAFVLIMLGVIG+QIELSAKLEREV+ER+ ETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGR+VLRSLAAPL AYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSS+FSAAFGAEQPVTSN DEAGRAKNRRVEIAPMPRSSAS+AGKPNA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_042112969.1|</Hit_id>
+  <Hit_def>OmpA family protein [Pandoraea apista] &gt;gb|AJE97716.1| hypothetical protein SG18_05170 [Pandoraea apista] &gt;gb|AKH71699.1| hypothetical protein XM39_05170 [Pandoraea apista] &gt;gb|AKI63973.1| hypothetical protein AA956_22490 [Pandoraea apista] &gt;gb|ALS66915.1| hypothetical protein AT395_19775 [Pandoraea apista] &gt;gb|AVF42323.1| hypothetical protein AL486_23605 [Pandoraea apista]</Hit_def>
+  <Hit_accession>WP_042112969</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>414.075</Hsp_bit-score>
+      <Hsp_score>1063</Hsp_score>
+      <Hsp_evalue>7.82788e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>MREEVDVDIAD-GDIGAAAPTWAVFGDLMSVMLGAFVLIMLGVIGMQIELSAKLEREVRERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLAAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSSVFSAAFGAEQPVTSNADEAGRAKNRRVEIAPMPRSSASNAGKPNA</Hsp_qseq>
+      <Hsp_hseq>MREDFDADIADSGDVGAAAPTWAVFGDLMSVMLGAFVLIMLGVIGVQIELSAKLEREVKERRAETQRRQTLEQALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAGPLSAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSSIFSAAFGAEQPVTSNADESGRAKNRRVEIAPMPRSSASNAGKPHA</Hsp_hseq>
+      <Hsp_midline>MRE+ D DIAD GD+GAAAPTWAVFGDLMSVMLGAFVLIMLGVIG+QIELSAKLEREV+ER+ ETQRR+TLE+ALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLA PL+AYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSS+FSAAFGAEQPVTSNADE+GRAKNRRVEIAPMPRSSASNAGKP+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_150620282.1|</Hit_id>
+  <Hit_def>OmpA family protein [Pandoraea horticolens] &gt;emb|VVD96646.1| putative lipoprotein YiaD [Pandoraea horticolens]</Hit_def>
+  <Hit_accession>WP_150620282</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>413.69</Hsp_bit-score>
+      <Hsp_score>1062</Hsp_score>
+      <Hsp_evalue>1.00742e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>MREEVDVDIAD-GDIGAAAPTWAVFGDLMSVMLGAFVLIMLGVIGMQIELSAKLEREVRERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLAAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSSVFSAAFGAEQPVTSNADEAGRAKNRRVEIAPMPRSSASNAGKPNA</Hsp_qseq>
+      <Hsp_hseq>MREDFDADIADSGDVGAAAPTWAVFGDLMSVMLGAFVLIMLGVIGMQIELSAKLEREVKERRAETQRRQTLEHALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLSAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSSIFSAAFGAEQPVTSNADETGRAKNRRVEIAPMPRSSASSVGKPHA</Hsp_hseq>
+      <Hsp_midline>MRE+ D DIAD GD+GAAAPTWAVFGDLMSVMLGAFVLIMLGVIGMQIELSAKLEREV+ER+ ETQRR+TLE ALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPL+AYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSS+FSAAFGAEQPVTSNADE GRAKNRRVEIAPMPRSSAS+ GKP+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_150585588.1|</Hit_id>
+  <Hit_def>OmpA family protein [Pandoraea communis] &gt;gb|MDM8356384.1| OmpA family protein [Pandoraea communis] &gt;emb|VVE17216.1| putative lipoprotein YiaD [Pandoraea communis]</Hit_def>
+  <Hit_accession>WP_150585588</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>412.92</Hsp_bit-score>
+      <Hsp_score>1060</Hsp_score>
+      <Hsp_evalue>1.80174e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>MREEVDVDIAD-GDIGAAAPTWAVFGDLMSVMLGAFVLIMLGVIGMQIELSAKLEREVRERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLAAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSSVFSAAFGAEQPVTSNADEAGRAKNRRVEIAPMPRSSASNAGKPNA</Hsp_qseq>
+      <Hsp_hseq>MREDFDADIADSGDVGAAAPTWAVFGDLMSVMLGAFVLIMLGVIGVQIELSAKLEREVKERRAETQRRQTLEHALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLSAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSSIFSAAFGAEQPVTSNADEAGRAKNRRVEIAPMPRSSASSVGKPHA</Hsp_hseq>
+      <Hsp_midline>MRE+ D DIAD GD+GAAAPTWAVFGDLMSVMLGAFVLIMLGVIG+QIELSAKLEREV+ER+ ETQRR+TLE ALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPL+AYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSS+FSAAFGAEQPVTSNADEAGRAKNRRVEIAPMPRSSAS+ GKP+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|MDR3396607.1|</Hit_id>
+  <Hit_def>OmpA family protein [Pandoraea sp.]</Hit_def>
+  <Hit_accession>MDR3396607</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>412.535</Hsp_bit-score>
+      <Hsp_score>1059</Hsp_score>
+      <Hsp_evalue>2.50382e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>MREEVDVDIAD-GDIGAAAPTWAVFGDLMSVMLGAFVLIMLGVIGMQIELSAKLEREVRERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLAAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSSVFSAAFGAEQPVTSNADEAGRAKNRRVEIAPMPRSSASNAGKPNA</Hsp_qseq>
+      <Hsp_hseq>MREEFDADIADSGDVGAAAPTWAVFGDLMSVMLGAFVLIMLGVIGVQIELSAKLEREVKERRAETQRRQTLEQALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLTAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSSIFSAAFGAEQPVTSNTDEAGRAKNRRVEIAPMPRSSASSVGKPHA</Hsp_hseq>
+      <Hsp_midline>MREE D DIAD GD+GAAAPTWAVFGDLMSVMLGAFVLIMLGVIG+QIELSAKLEREV+ER+ ETQRR+TLE+ALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPL AYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSS+FSAAFGAEQPVTSN DEAGRAKNRRVEIAPMPRSSAS+ GKP+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_125347488.1|</Hit_id>
+  <Hit_def>OmpA family protein [Pandoraea apista] &gt;gb|RRW97206.1| hypothetical protein EGJ54_09365 [Pandoraea apista] &gt;gb|RRX04052.1| hypothetical protein EGJ56_10635 [Pandoraea apista]</Hit_def>
+  <Hit_accession>WP_125347488</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>412.149</Hsp_bit-score>
+      <Hsp_score>1058</Hsp_score>
+      <Hsp_evalue>3.40399e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>MREEVDVDIAD-GDIGAAAPTWAVFGDLMSVMLGAFVLIMLGVIGMQIELSAKLEREVRERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLAAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSSVFSAAFGAEQPVTSNADEAGRAKNRRVEIAPMPRSSASNAGKPNA</Hsp_qseq>
+      <Hsp_hseq>MREDFDADIADSGDVGAAAPTWAVFGDLMSVMLGAFVLIMLGVIGVQIELSAKLEREVKERRAETQRRQTLEQALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAGPLSAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSSIFSAAFGAEQPVTSNADESGRARNRRVEIAPMPRSSASNAGKPHA</Hsp_hseq>
+      <Hsp_midline>MRE+ D DIAD GD+GAAAPTWAVFGDLMSVMLGAFVLIMLGVIG+QIELSAKLEREV+ER+ ETQRR+TLE+ALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLA PL+AYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSS+FSAAFGAEQPVTSNADE+GRA+NRRVEIAPMPRSSASNAGKP+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_374622046.1|</Hit_id>
+  <Hit_def>OmpA family protein [Pandoraea sp.]</Hit_def>
+  <Hit_accession>WP_374622046</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>412.149</Hsp_bit-score>
+      <Hsp_score>1058</Hsp_score>
+      <Hsp_evalue>3.67565e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>MREEVDVDIAD-GDIGAAAPTWAVFGDLMSVMLGAFVLIMLGVIGMQIELSAKLEREVRERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLAAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSSVFSAAFGAEQPVTSNADEAGRAKNRRVEIAPMPRSSASNAGKPNA</Hsp_qseq>
+      <Hsp_hseq>MRDDFDADIGDSGDVGAAAPTWAVFGDLMSVMLGAFVLIMLGVIGVQIELSAKLEREVKERRAETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLTAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPASIFSAAFGSEQPVTSNADEAGRAKNRRVEIAPMPRSTASNAGKPHA</Hsp_hseq>
+      <Hsp_midline>MR++ D DI D GD+GAAAPTWAVFGDLMSVMLGAFVLIMLGVIG+QIELSAKLEREV+ER+ ETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPL AYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPP+S+FSAAFG+EQPVTSNADEAGRAKNRRVEIAPMPRS+ASNAGKP+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_010804091.1|</Hit_id>
+  <Hit_def>OmpA family protein [Pandoraea sp. SD6-2] &gt;gb|EON15594.1| hypothetical protein C266_01630 [Pandoraea sp. SD6-2]</Hit_def>
+  <Hit_accession>WP_010804091</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>411.764</Hsp_bit-score>
+      <Hsp_score>1057</Hsp_score>
+      <Hsp_evalue>6.22289e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>MREEVDVDIAD-GDIGAAAPTWAVFGDLMSVMLGAFVLIMLGVIGMQIELSAKLEREVRERQVETQRRETLEKALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLAAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSSVFSAAFGAEQPVTSNADEAGRAKNRRVEIAPMPRSSASNAGKPNA</Hsp_qseq>
+      <Hsp_hseq>MREDFDADIADSGDVGAAAPTWAVFGDLMSVMLGAFVLIMLGVIGVQIELSAKLEREVKERRAETQRRQTLEHALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPLSAYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSSIFSAAFGAEQPVTSNADETGRAKNRRVEIAPMPRSSASSVGKPHA</Hsp_hseq>
+      <Hsp_midline>MRE+ D DIAD GD+GAAAPTWAVFGDLMSVMLGAFVLIMLGVIG+QIELSAKLEREV+ER+ ETQRR+TLE ALAGPLAGGRVTLVNGRIGISGNVLFALNSDQLQPQGREVLRSLAAPL+AYLRASDEILMVSGFTDDQQVRETNRRFADNWELSAQRALTVTRELIAAGVPPSS+FSAAFGAEQPVTSNADE GRAKNRRVEIAPMPRSSAS+ GKP+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>878262366</Statistics_db-num>
+      <Statistics_db-len>334928218419</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

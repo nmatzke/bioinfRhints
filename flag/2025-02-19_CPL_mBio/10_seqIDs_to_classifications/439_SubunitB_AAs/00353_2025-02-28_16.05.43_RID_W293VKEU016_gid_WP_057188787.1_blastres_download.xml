@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_6058303</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>306</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_6058303</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>306</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_057188787.1|</Hit_id>
+  <Hit_def>OmpA family protein [Bosea sp. Root483D1] &gt;gb|KRE22551.1| hypothetical protein ASE66_25500 [Bosea sp. Root483D1]</Hit_def>
+  <Hit_accession>WP_057188787</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>630.558</Hsp_bit-score>
+      <Hsp_score>1625</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>306</Hsp_identity>
+      <Hsp_positive>306</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>MIAAETDESAGSHAEDDENYFVSMTDMMVGILFIFIIMLMVFALNFQKQTDQTEMLTKQQRQQIERAQHLARQIANLQTRIDTEVSEINKADKARATLLETVRARLEAVGLKVTIDSSTGVLRLAEDAIEFASDNSTLDRTASANVDALSKVLLDVLPAYSACASDATCPRHSGYTVETVFIEGHTDRTGQDSRNWQLSTERAVNTYRRIVDNFPGLRNLKNSANREVLSVSGYAYTRPATNREDPDGRKINRRIDLRFVMEADREKRLTEVTNLLEQMKQQVETLQESARAGLPVSKRPAPNVAP</Hsp_qseq>
+      <Hsp_hseq>MIAAETDESAGSHAEDDENYFVSMTDMMVGILFIFIIMLMVFALNFQKQTDQTEMLTKQQRQQIERAQHLARQIANLQTRIDTEVSEINKADKARATLLETVRARLEAVGLKVTIDSSTGVLRLAEDAIEFASDNSTLDRTASANVDALSKVLLDVLPAYSACASDATCPRHSGYTVETVFIEGHTDRTGQDSRNWQLSTERAVNTYRRIVDNFPGLRNLKNSANREVLSVSGYAYTRPATNREDPDGRKINRRIDLRFVMEADREKRLTEVTNLLEQMKQQVETLQESARAGLPVSKRPAPNVAP</Hsp_hseq>
+      <Hsp_midline>MIAAETDESAGSHAEDDENYFVSMTDMMVGILFIFIIMLMVFALNFQKQTDQTEMLTKQQRQQIERAQHLARQIANLQTRIDTEVSEINKADKARATLLETVRARLEAVGLKVTIDSSTGVLRLAEDAIEFASDNSTLDRTASANVDALSKVLLDVLPAYSACASDATCPRHSGYTVETVFIEGHTDRTGQDSRNWQLSTERAVNTYRRIVDNFPGLRNLKNSANREVLSVSGYAYTRPATNREDPDGRKINRRIDLRFVMEADREKRLTEVTNLLEQMKQQVETLQESARAGLPVSKRPAPNVAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_149129220.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Bosea sp. F3-2] &gt;gb|QEL21925.1| OmpA family protein [Bosea sp. F3-2]</Hit_def>
+  <Hit_accession>WP_149129220</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>613.994</Hsp_bit-score>
+      <Hsp_score>1582</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>296</Hsp_identity>
+      <Hsp_positive>303</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>MIAAETDESAGSHAEDDENYFVSMTDMMVGILFIFIIMLMVFALNFQKQTDQTEMLTKQQRQQIERAQHLARQIANLQTRIDTEVSEINKADKARATLLETVRARLEAVGLKVTIDSSTGVLRLAEDAIEFASDNSTLDRTASANVDALSKVLLDVLPAYSACASDATCPRHSGYTVETVFIEGHTDRTGQDSRNWQLSTERAVNTYRRIVDNFPGLRNLKNSANREVLSVSGYAYTRPATNREDPDGRKINRRIDLRFVMEADREKRLTEVTNLLEQMKQQVETLQESARAGLPVSKRPAPNVAP</Hsp_qseq>
+      <Hsp_hseq>MIAAETDESTGSHAEDDENYFVSMTDMMVGILFIFIIMLMVFALNFQKQTDQTEMLTKQQRQQIERAQQLARQIANLQTRIDTEVSEINKADKARATLLETIRARLEAVGLKVTIDSATGVLRLAEDAIEFASDNSTLDRTASANVDALSKVLLDVLPAYSACASDAICPQHSGYTVETVFIEGHTDRTGQDNRNWQLSTERAVNTYRRIVDNFPGLRNLKNSASREVLSVSGYAYTRPATNREDPDGRKINRRIDLRFVMEADREKRLTELTNLLEQMKQQVETLQESARAGLPVSKQPAPNVAP</Hsp_hseq>
+      <Hsp_midline>MIAAETDES GSHAEDDENYFVSMTDMMVGILFIFIIMLMVFALNFQKQTDQTEMLTKQQRQQIERAQ LARQIANLQTRIDTEVSEINKADKARATLLET+RARLEAVGLKVTIDS+TGVLRLAEDAIEFASDNSTLDRTASANVDALSKVLLDVLPAYSACASDA CP+HSGYTVETVFIEGHTDRTGQD+RNWQLSTERAVNTYRRIVDNFPGLRNLKNSA+REVLSVSGYAYTRPATNREDPDGRKINRRIDLRFVMEADREKRLTE+TNLLEQMKQQVETLQESARAGLPVSK+PAPNVAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_137113364.1|</Hit_id>
+  <Hit_def>OmpA family protein [Mesorhizobium sp. GR13]</Hit_def>
+  <Hit_accession>WP_137113364</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>441.039</Hsp_bit-score>
+      <Hsp_score>1133</Hsp_score>
+      <Hsp_evalue>7.89154e-153</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>258</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>MIAAETDESAGSHAEDDENYFVSMTDMMVGILFIFIIMLMVFALNFQKQTDQTEMLTKQQRQQIERAQHLARQIANLQTRIDTEVSEINKADKARATLLETVRARLEAVGLKVTIDSSTGVLRLAEDAIEFASDNSTLDRTASANVDALSKVLLDVLPAYSACASDATCPRHSGYTVETVFIEGHTDRTGQDSRNWQLSTERAVNTYRRIVDNFPGLRNLKNSANREVLSVSGYAYTRPATNREDPDGRKINRRIDLRFVMEADREKRLTEVTNLLEQMKQQVETLQESARAGLPVSKRPAPN</Hsp_qseq>
+      <Hsp_hseq>MIAAEADETAGSHAEEDENYFVSMTDMMVGILFIFIIMLMVFALNFQKQTDQTEALTDQQKEQIEKAQELAQQIAHLQAQIDSEISKINQADQARAVLLERIRERLEAVGLKVTIDSDTGVLRLTEDAIRFAQNSATLDDTAARNVDSLSKVLADILPAYAICAAGAACPAAAGYVVETVFIEGHTDTTGSDDRNWQLSTERAVNTYRRMVDRFPALRGLKNSGSQEILSVSGYAYTRPATNRDDSEGLKINRRIDLRFVMEADREKRLTEVLRLLENMNLKVDALQASAKMGAGFGWRQAPG</Hsp_hseq>
+      <Hsp_midline>MIAAE DE+AGSHAE+DENYFVSMTDMMVGILFIFIIMLMVFALNFQKQTDQTE LT QQ++QIE+AQ LA+QIA+LQ +ID+E+S+IN+AD+ARA LLE +R RLEAVGLKVTIDS TGVLRL EDAI FA +++TLD TA+ NVD+LSKVL D+LPAY+ CA+ A CP  +GY VETVFIEGHTD TG D RNWQLSTERAVNTYRR+VD FP LR LKNS ++E+LSVSGYAYTRPATNR+D +G KINRRIDLRFVMEADREKRLTEV  LLE M  +V+ LQ SA+ G     R AP </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|KUM27287.1|</Hit_id>
+  <Hit_def>hypothetical protein AU467_02580 [Mesorhizobium loti]</Hit_def>
+  <Hit_accession>KUM27287</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>410.994</Hsp_bit-score>
+      <Hsp_score>1055</Hsp_score>
+      <Hsp_evalue>6.19508e-141</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>286</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>MIAAETDESAGSHAEDDENYFVSMTDMMVGILFIFIIMLMVFALNFQKQTDQTEMLTKQQRQQIERAQHLARQIANLQTRIDTEVSEINKADKARATLLETVRARLEAVGLKVTIDSSTGVLRLAEDAIEFASDNSTLDRTASANVDALSKVLLDVLPAYSACASDATCPRHSGYTVETVFIEGHTDRTGQDSRNWQLSTERAVNTYRRIVDNFPGLRNLKNSANREVLSVSGYAYTRPATNREDPDGRKINRRIDLRFVMEADREKRLTEVTNLLEQMKQQVETL</Hsp_qseq>
+      <Hsp_hseq>MIVAEPDHRAVSHAEEDENYFVSMTDMMVGILFIFIIMLMVFALHFRQQTDETVKLTAEQQQQLQKANELAEQIAQLRRQIVAEIAELNKADQARARLLEKIQRKLDEVGLKVTIERETGVLRLTEEAIRFSPDSSVLDDTAKRNVDAVAKVLLDVLANYAACPDTETCPGASGYVVETVFIEGHTDRTGDDSRNWQLSTERAVNTYRRIVDNFPGLRKLRNSDHREILSVSGYAYTRPATEQDDSEGFRINRRIDLRFVMEADRRERLTEVLDLLDKMEKKVDEL</Hsp_hseq>
+      <Hsp_midline>MI AE D  A SHAE+DENYFVSMTDMMVGILFIFIIMLMVFAL+F++QTD+T  LT +Q+QQ+++A  LA QIA L+ +I  E++E+NKAD+ARA LLE ++ +L+ VGLKVTI+  TGVLRL E+AI F+ D+S LD TA  NVDA++KVLLDVL  Y+AC    TCP  SGY VETVFIEGHTDRTG DSRNWQLSTERAVNTYRRIVDNFPGLR L+NS +RE+LSVSGYAYTRPAT ++D +G +INRRIDLRFVMEADR +RLTEV +LL++M+++V+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>emb|CDX33066.1|</Hit_id>
+  <Hit_def>OmpA/MotB domain protein [Mesorhizobium sp. ORS 3359] &gt;emb|CDX43775.1| OmpA/MotB domain protein [Mesorhizobium sp. SOD10]</Hit_def>
+  <Hit_accession>CDX33066</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>409.838</Hsp_bit-score>
+      <Hsp_score>1052</Hsp_score>
+      <Hsp_evalue>1.50321e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>MIAAETDESAGSHAEDDENYFVSMTDMMVGILFIFIIMLMVFALNFQKQTDQTEMLTKQQRQQIERAQHLARQIANLQTRIDTEVSEINKADKARATLLETVRARLEAVGLKVTIDSSTGVLRLAEDAIEFASDNSTLDRTASANVDALSKVLLDVLPAYSACASDATCPRHSGYTVETVFIEGHTDRTGQDSRNWQLSTERAVNTYRRIVDNFPGLRNLKNSANREVLSVSGYAYTRPATNREDPDGRKINRRIDLRFVMEADREKRLTEVTNLLEQMKQQVETLQESARAGLPVSKRPAPNVAP</Hsp_qseq>
+      <Hsp_hseq>MIVAEPDHRAVSHAEEDENYFVSMTDMMVGILFIFIIMLMVFALHFRQQTDETVKLTAEQQQQLQKANELAEQIAQLRRQIAAEIAELNKADQARARLLEKIQRKLDEVGLKVTIERETGVLRLTEEAIRFSPDSSALDDTAKRNVDAVAKVLLDVLANYAACPDTETCPGASGYVVETVFIEGHTDRTGDDGRNWQLSTERAVNTYRRIVDNFPGLRKLRNSDHREILSVSGYAYTRPATEQDDSEGFRINRRIDLRFVMEADRRERLTEVLDLLDKMEKKVGELSPT---GTPVIS-TAPTARP</Hsp_hseq>
+      <Hsp_midline>MI AE D  A SHAE+DENYFVSMTDMMVGILFIFIIMLMVFAL+F++QTD+T  LT +Q+QQ+++A  LA QIA L+ +I  E++E+NKAD+ARA LLE ++ +L+ VGLKVTI+  TGVLRL E+AI F+ D+S LD TA  NVDA++KVLLDVL  Y+AC    TCP  SGY VETVFIEGHTDRTG D RNWQLSTERAVNTYRRIVDNFPGLR L+NS +RE+LSVSGYAYTRPAT ++D +G +INRRIDLRFVMEADR +RLTEV +LL++M+++V  L  +   G PV    AP   P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_292216133.1|</Hit_id>
+  <Hit_def>OmpA family protein [Mesorhizobium sp.] &gt;gb|RWD31644.1| MAG: hypothetical protein EOS22_04270 [Mesorhizobium sp.] &gt;gb|TJW70718.1| MAG: hypothetical protein E5V29_03605 [Mesorhizobium sp.]</Hit_def>
+  <Hit_accession>WP_292216133</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>409.453</Hsp_bit-score>
+      <Hsp_score>1051</Hsp_score>
+      <Hsp_evalue>2.06465e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>MIAAETDESAGSHAEDDENYFVSMTDMMVGILFIFIIMLMVFALNFQKQTDQTEMLTKQQRQQIERAQHLARQIANLQTRIDTEVSEINKADKARATLLETVRARLEAVGLKVTIDSSTGVLRLAEDAIEFASDNSTLDRTASANVDALSKVLLDVLPAYSACASDATCPRHSGYTVETVFIEGHTDRTGQDSRNWQLSTERAVNTYRRIVDNFPGLRNLKNSANREVLSVSGYAYTRPATNREDPDGRKINRRIDLRFVMEADREKRLTEVTNLLEQMKQQVETLQESARAGLPVSKRPAPNVAP</Hsp_qseq>
+      <Hsp_hseq>MIVAEPDHRAVSHAEEDENYFVSMTDMMVGILFIFIIMLMVFALHFRQQTDETVKLTAEQQQQLRKANELAEQIAQLRRQIAAEIAELNKADQARARLLEKIQRKLDEVGLKVTIERETGVLRLTEEAIRFSPDSSVLDDTAKRNVDAVARVLLDVLTNYAACPGTETCPGASGYVVETVFIEGHTDRTGDDSRNWQLSTERAVNTYRRIVDNFPGLRKLRNSDHREILSVSGYAYTRPATEQDDSEGFRINRRIDLRFVMEADRRERLTEVLDLLDKMEKKVGELSPT---GTPVIS-TAPTARP</Hsp_hseq>
+      <Hsp_midline>MI AE D  A SHAE+DENYFVSMTDMMVGILFIFIIMLMVFAL+F++QTD+T  LT +Q+QQ+ +A  LA QIA L+ +I  E++E+NKAD+ARA LLE ++ +L+ VGLKVTI+  TGVLRL E+AI F+ D+S LD TA  NVDA+++VLLDVL  Y+AC    TCP  SGY VETVFIEGHTDRTG DSRNWQLSTERAVNTYRRIVDNFPGLR L+NS +RE+LSVSGYAYTRPAT ++D +G +INRRIDLRFVMEADR +RLTEV +LL++M+++V  L  +   G PV    AP   P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_067956429.1|</Hit_id>
+  <Hit_def>OmpA family protein [Aminobacter aminovorans] &gt;gb|AMS40142.1| OmpA/MotB domain protein [Aminobacter aminovorans] &gt;gb|MBB3709869.1| flagellar motor protein MotB [Aminobacter aminovorans]</Hit_def>
+  <Hit_accession>WP_067956429</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>407.142</Hsp_bit-score>
+      <Hsp_score>1045</Hsp_score>
+      <Hsp_evalue>1.66948e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>307</Hsp_align-len>
+      <Hsp_qseq>MIAAETDESAGSHAEDDENYFVSMTDMMVGILFIFIIMLMVFALNFQKQTDQTEMLTKQQRQQIERAQHLARQIANLQTRIDTEVSEINKADKARATLLETVRARLEAVGLKVTIDSSTGVLRLAEDAIEFASDNSTLDRTASANVDALSKVLLDVLPAYSACASDATCP-RHSGYTVETVFIEGHTDRTGQDSRNWQLSTERAVNTYRRIVDNFPGLRNLKNSANREVLSVSGYAYTRPATNREDPDGRKINRRIDLRFVMEADREKRLTEVTNLLEQMKQQVETLQESARAGLPVSKRPAPNVAP</Hsp_qseq>
+      <Hsp_hseq>MIAAETDESAGSHAEEDENYFVSMTDMMVGILFIFIIMLMVFALNFQKQTDQTETLTKQQREQIEKAQELARQIAVLQVRIDAAVSEIRRTDNARNELLEEIQDRLEAAGLKVTIDQNTGVLRLDEDAVRFKSDSSALDAIAATNVDKVSQVLLDVLPAYTACRRERGCTLPSSGYRLETVFIEGHTDKNGGPELNWPLSTARAVNTYRRMVDVSSDLRTLMNSHKREVLSVSGYADTRPATDRD-----DDNRRIDLRFVMEADREERLSEVANLLNQMKGQVEALQDSARAGLPDPEKPTPNGAP</Hsp_hseq>
+      <Hsp_midline>MIAAETDESAGSHAE+DENYFVSMTDMMVGILFIFIIMLMVFALNFQKQTDQTE LTKQQR+QIE+AQ LARQIA LQ RID  VSEI + D AR  LLE ++ RLEA GLKVTID +TGVLRL EDA+ F SD+S LD  A+ NVD +S+VLLDVLPAY+AC  +  C    SGY +ETVFIEGHTD+ G    NW LST RAVNTYRR+VD    LR L NS  REVLSVSGYA TRPAT+R+       NRRIDLRFVMEADRE+RL+EV NLL QMK QVE LQ+SARAGLP  ++P PN AP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_071031198.1|</Hit_id>
+  <Hit_def>OmpA family protein [Mesorhizobium sp. LCM 4576] &gt;gb|OHV73484.1| hypothetical protein LCM4576_00460 [Mesorhizobium sp. LCM 4576]</Hit_def>
+  <Hit_accession>WP_071031198</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>406.371</Hsp_bit-score>
+      <Hsp_score>1043</Hsp_score>
+      <Hsp_evalue>4.3731e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>MIAAETDESAGSHAEDDENYFVSMTDMMVGILFIFIIMLMVFALNFQKQTDQTEMLTKQQRQQIERAQHLARQIANLQTRIDTEVSEINKADKARATLLETVRARLEAVGLKVTIDSSTGVLRLAEDAIEFASDNSTLDRTASANVDALSKVLLDVLPAYSACASDATCPRHSGYTVETVFIEGHTDRTGQDSRNWQLSTERAVNTYRRIVDNFPGLRNLKNSANREVLSVSGYAYTRPATNREDPDGRKINRRIDLRFVMEADREKRLTEVTNLLEQMKQQVETLQESARAGLPVSKRPAPNVAP</Hsp_qseq>
+      <Hsp_hseq>MIVAEPDHRAVSHAEEDENYFVSMTDMMVGILFIFIIMLMVFALHFRQQTDETVKLTAEQQQZLQKANELAEQIAQLRRQIAAEIAELNKADQARARLLEKIQRKLDEVGLKVTIERETGVLRLTEEAIRFSPDSSALDDTAKRNVDAVAKVLLDVLANYAACPDTETCPGASGYVVETVFIEGHTDRTGDDGRNWQLSTERAVNTYRRIVDNFPGLRKLRNSDHREILSVSGYAYTRPATEQDDSEGFRINRRIDLRFVXEADRRERLTEVLDLLDKMEKKVGELSPT---GTPVIS-TAPTARP</Hsp_hseq>
+      <Hsp_midline>MI AE D  A SHAE+DENYFVSMTDMMVGILFIFIIMLMVFAL+F++QTD+T  LT +Q+Q++++A  LA QIA L+ +I  E++E+NKAD+ARA LLE ++ +L+ VGLKVTI+  TGVLRL E+AI F+ D+S LD TA  NVDA++KVLLDVL  Y+AC    TCP  SGY VETVFIEGHTDRTG D RNWQLSTERAVNTYRRIVDNFPGLR L+NS +RE+LSVSGYAYTRPAT ++D +G +INRRIDLRFV EADR +RLTEV +LL++M+++V  L  +   G PV    AP   P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_127574500.1|</Hit_id>
+  <Hit_def>OmpA family protein [Sinorhizobium medicae] &gt;gb|RVJ45863.1| OmpA family protein [Sinorhizobium medicae]</Hit_def>
+  <Hit_accession>WP_127574500</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>405.986</Hsp_bit-score>
+      <Hsp_score>1042</Hsp_score>
+      <Hsp_evalue>5.2602e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>287</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>236</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>MIAAETDESAGSHAEDDENYFVSMTDMMVGILFIFIIMLMVFALNFQKQTDQTEMLTKQQRQQIERAQHLARQIANLQTRIDTEVSEINKADKARATLLETVRARLEAVGLKVTIDSSTGVLRLAEDAIEFASDNSTLDRTASANVDALSKVLLDVLPAYSACASDATCPRHSGYTVETVFIEGHTDRTGQDSRNWQLSTERAVNTYRRIVDNFPGLRNLKNSANREVLSVSGYAYTRPATNREDPDGRKINRRIDLRFVMEADREKRLTEVTNLLEQMKQQVETLQ</Hsp_qseq>
+      <Hsp_hseq>MIIADGEGRGGSHAEEDENYFVSMTDMMVGILFIFIIMLMVFALNFRQQTDETVRLTAEQEQQLRKANELADQIAALRRQIADEITELNKADQARSELLETIQAELDAVGLKVTIDKNTGVLRLAEDAIRFAPKSSQLDEIAQRNVDAVAKVLLDVLPDYTACPSNTSCARSTGYVVETVFVEGHTDKTGSDSLNWQLSTERAVNTYRRIVDNFPRLRALVNSDGREILSVSGYAYTRPAIEQDDIEGYRINRRIDLRFVMEADRRQRLTEVLLLLGQMEKKVSELQ</Hsp_hseq>
+      <Hsp_midline>MI A+ +   GSHAE+DENYFVSMTDMMVGILFIFIIMLMVFALNF++QTD+T  LT +Q QQ+ +A  LA QIA L+ +I  E++E+NKAD+AR+ LLET++A L+AVGLKVTID +TGVLRLAEDAI FA  +S LD  A  NVDA++KVLLDVLP Y+AC S+ +C R +GY VETVF+EGHTD+TG DS NWQLSTERAVNTYRRIVDNFP LR L NS  RE+LSVSGYAYTRPA  ++D +G +INRRIDLRFVMEADR +RLTEV  LL QM+++V  LQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_183315727.1|</Hit_id>
+  <Hit_def>OmpA family protein [Chelatococcus caeni] &gt;gb|MBB4015710.1| flagellar motor protein MotB [Chelatococcus caeni]</Hit_def>
+  <Hit_accession>WP_183315727</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>401.364</Hsp_bit-score>
+      <Hsp_score>1030</Hsp_score>
+      <Hsp_evalue>3.59061e-137</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>236</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>300</Hsp_align-len>
+      <Hsp_qseq>MIAAETDESAGSHAEDDENYFVSMTDMMVGILFIFIIMLMVFALNFQKQTDQTEMLTKQQRQQIERAQHLARQIANLQTRIDTEVSEINKADKARATLLETVRARLEAVGLKVTIDSSTGVLRLAEDAIEFASDNSTLDRTASANVDALSKVLLDVLPAYSACASDATCPRHSGYTVETVFIEGHTDRTGQDSRNWQLSTERAVNTYRRIVDNFPGLRNLKNSANREVLSVSGYAYTRPATNREDPDGRKINRRIDLRFVMEADREKRLTEVTNLLEQMKQQVETLQESARAGLPVSKRP</Hsp_qseq>
+      <Hsp_hseq>MIIADSGDKDNSHTEEDENYFVSMTDMMVGILFIFIIMLMVFALNFRQLTDETVLLTAEQQEQLNRANELAEQIAELRRRIANEITELNKADQARNELLEAIKAKLDVVGLKVTIDKDTGVLRLAEDAIRFAPESSRLDAEAQRNVDAVAKVLLDVLPDYTACPGGMTCNPSTGYVVETVFIEGHTDKTGSDSLNWQLSTERAVNTYRRIVDNFRGLRALVNSQGREILSVSGYAYTRPAIEQDDAEGYRINRRIDLRFVMEADRRERLSEVLILLEQMEKKVSELQNPMGAALDTPTQP</Hsp_hseq>
+      <Hsp_midline>MI A++ +   SH E+DENYFVSMTDMMVGILFIFIIMLMVFALNF++ TD+T +LT +Q++Q+ RA  LA QIA L+ RI  E++E+NKAD+AR  LLE ++A+L+ VGLKVTID  TGVLRLAEDAI FA ++S LD  A  NVDA++KVLLDVLP Y+AC    TC   +GY VETVFIEGHTD+TG DS NWQLSTERAVNTYRRIVDNF GLR L NS  RE+LSVSGYAYTRPA  ++D +G +INRRIDLRFVMEADR +RL+EV  LLEQM+++V  LQ    A L    +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|MEQ8297414.1|</Hit_id>
+  <Hit_def>OmpA family protein [Nitratireductor sp.]</Hit_def>
+  <Hit_accession>MEQ8297414</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>400.593</Hsp_bit-score>
+      <Hsp_score>1028</Hsp_score>
+      <Hsp_evalue>8.9802e-137</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>287</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>193</Hsp_identity>
+      <Hsp_positive>233</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>MIAAETDESAGSHAEDDENYFVSMTDMMVGILFIFIIMLMVFALNFQKQTDQTEMLTKQQRQQIERAQHLARQIANLQTRIDTEVSEINKADKARATLLETVRARLEAVGLKVTIDSSTGVLRLAEDAIEFASDNSTLDRTASANVDALSKVLLDVLPAYSACASDATCPRHSGYTVETVFIEGHTDRTGQDSRNWQLSTERAVNTYRRIVDNFPGLRNLKNSANREVLSVSGYAYTRPATNREDPDGRKINRRIDLRFVMEADREKRLTEVTNLLEQMKQQVETLQ</Hsp_qseq>
+      <Hsp_hseq>MIIAASDDTDGSHIEEDENYFVSMTDMMVGILFIFIIMLMVFALNFRQLTDETVQLTAEQQEQLNKANELAEQIAALRKQIANEITELNKADQARNELLEAIREKLDLVGLKVTIDKDTGVLRLAEDAIRFAPQSSQLDAEAQSNVDAIAQVLLDVLPDYTACPGDSTCHPSTGYVVETVFIEGHTDKTGSDGLNWQLSTERAVNTYRRIVDNFPGLRMLVNSGGREILSVSGYASTRPAIEQDDAEGYRINRRIDLRFVMEADRRERLSEVLVLLEQMEKKVSELQ</Hsp_hseq>
+      <Hsp_midline>MI A +D++ GSH E+DENYFVSMTDMMVGILFIFIIMLMVFALNF++ TD+T  LT +Q++Q+ +A  LA QIA L+ +I  E++E+NKAD+AR  LLE +R +L+ VGLKVTID  TGVLRLAEDAI FA  +S LD  A +NVDA+++VLLDVLP Y+AC  D+TC   +GY VETVFIEGHTD+TG D  NWQLSTERAVNTYRRIVDNFPGLR L NS  RE+LSVSGYA TRPA  ++D +G +INRRIDLRFVMEADR +RL+EV  LLEQM+++V  LQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_019404568.1|</Hit_id>
+  <Hit_def>MULTISPECIES: OmpA family protein [unclassified Chelatococcus] &gt;gb|ALA18585.1| hypothetical protein AL346_15680 [Chelatococcus sp. CO-6]</Hit_def>
+  <Hit_accession>WP_019404568</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>399.823</Hsp_bit-score>
+      <Hsp_score>1026</Hsp_score>
+      <Hsp_evalue>1.73526e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>236</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>300</Hsp_align-len>
+      <Hsp_qseq>MIAAETDESAGSHAEDDENYFVSMTDMMVGILFIFIIMLMVFALNFQKQTDQTEMLTKQQRQQIERAQHLARQIANLQTRIDTEVSEINKADKARATLLETVRARLEAVGLKVTIDSSTGVLRLAEDAIEFASDNSTLDRTASANVDALSKVLLDVLPAYSACASDATCPRHSGYTVETVFIEGHTDRTGQDSRNWQLSTERAVNTYRRIVDNFPGLRNLKNSANREVLSVSGYAYTRPATNREDPDGRKINRRIDLRFVMEADREKRLTEVTNLLEQMKQQVETLQESARAGLPVSKRP</Hsp_qseq>
+      <Hsp_hseq>MIIADSGDKDNSHTEEDENYFVSMTDMMVGILFIFIIMLMVFALNFRQLTDETVLLTAEQQEQLNRANELAEQIAELRRQIANEITELNKADQARNELLEAIKAKLDVVGLKVTIDKDTGVLRLAEDAIRFAPESSRLDAEAQRNVDAVAKVLLDVLPDYTACPGGMTCNPSTGYVVETVFIEGHTDKTGSDSLNWQLSTERAVNTYRRIVDNFRGLRALVNSQGREILSVSGYAYTRPAIEQDDAEGYRINRRIDLRFVMEADRRERLSEVLILLEQMEKKVSELQNPMGAALDAPTQP</Hsp_hseq>
+      <Hsp_midline>MI A++ +   SH E+DENYFVSMTDMMVGILFIFIIMLMVFALNF++ TD+T +LT +Q++Q+ RA  LA QIA L+ +I  E++E+NKAD+AR  LLE ++A+L+ VGLKVTID  TGVLRLAEDAI FA ++S LD  A  NVDA++KVLLDVLP Y+AC    TC   +GY VETVFIEGHTD+TG DS NWQLSTERAVNTYRRIVDNF GLR L NS  RE+LSVSGYAYTRPA  ++D +G +INRRIDLRFVMEADR +RL+EV  LLEQM+++V  LQ    A L    +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_306888249.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Ancylobacter amanitiformis] &gt;gb|MDQ0509569.1| flagellar motor protein MotB [Ancylobacter amanitiformis]</Hit_def>
+  <Hit_accession>WP_306888249</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>391.734</Hsp_bit-score>
+      <Hsp_score>1005</Hsp_score>
+      <Hsp_evalue>3.64369e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>295</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>301</Hsp_align-len>
+      <Hsp_qseq>MIAAETDESAGSHAEDDENYFVSMTDMMVGILFIFIIMLMVFALNFQKQTDQTEMLTKQQRQQIERAQHLARQIANLQTRIDTEVSEINKADKARATLLETVRARLEAVGLKVTIDSSTGVLRLAEDAIEFASDNSTLDRTASANVDALSKVLLDVLPAYSACASDATCPRHSGYTVETVFIEGHTDRTGQDSRNWQLSTERAVNTYRRIVDNFPGLRNLKNSANREVLSVSGYAYTRPATNREDPDGRKINRRIDLRFVMEADREKRLTEVTNLLEQMKQQVETLQESARAGLPVSKRPA</Hsp_qseq>
+      <Hsp_hseq>MITAEPDASTGSHAEEDENYFVSMTDMMVGILFIFIIMLMVFALNFQQQTDQTRTLTAQQEEQLRRANELADQLAALRRQIAEQITELDKANQARGDLLETIQKRLEGVGLKVTIDKDTGVLRLTEDAIRFDRNVSLLNETAARNVDALARVLLDVLPRYTACGEPAGCPSMSGYVVETLFIEGHTDTVGGPDRNWQLSTERAVNTYRRIVGGFPRLRTLVNSQGQEVLSVSAYAHTRPATKGEDEDAHRINRRIDLRFLMEADRRERLTSVLRLLDEMETKVNALQA------PVMQAPA</Hsp_hseq>
+      <Hsp_midline>MI AE D S GSHAE+DENYFVSMTDMMVGILFIFIIMLMVFALNFQ+QTDQT  LT QQ +Q+ RA  LA Q+A L+ +I  +++E++KA++AR  LLET++ RLE VGLKVTID  TGVLRL EDAI F  + S L+ TA+ NVDAL++VLLDVLP Y+AC   A CP  SGY VET+FIEGHTD  G   RNWQLSTERAVNTYRRIV  FP LR L NS  +EVLSVS YA+TRPAT  ED D  +INRRIDLRF+MEADR +RLT V  LL++M+ +V  LQ       PV + PA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_183190144.1|</Hit_id>
+  <Hit_def>OmpA family protein [Ancylobacter tetraedralis] &gt;gb|MBB3771998.1| flagellar motor protein MotB [Ancylobacter tetraedralis]</Hit_def>
+  <Hit_accession>WP_183190144</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>388.267</Hsp_bit-score>
+      <Hsp_score>996</Hsp_score>
+      <Hsp_evalue>6.19808e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>287</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>225</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>MIAAETDESAGSHAEDDENYFVSMTDMMVGILFIFIIMLMVFALNFQKQTDQTEMLTKQQRQQIERAQHLARQIANLQTRIDTEVSEINKADKARATLLETVRARLEAVGLKVTIDSSTGVLRLAEDAIEFASDNSTLDRTASANVDALSKVLLDVLPAYSACASDATCPRHSGYTVETVFIEGHTDRTGQDSRNWQLSTERAVNTYRRIVDNFPGLRNLKNSANREVLSVSGYAYTRPATNREDPDGRKINRRIDLRFVMEADREKRLTEVTNLLEQMKQQVETLQ</Hsp_qseq>
+      <Hsp_hseq>MITAEANASSGSHAEEDENYFVSMTDMMVGILFIFIIMLMVFALNFQQQTDQTRTLTAQQEEQLRRANELADQIAALRRQIADQITELDKANQARGDLLETIQKRLEGVGLKVTIDKDTGVLRLTEDAIRFDRNVSLLNETAARNVDALARVLLDVLPRYTACGDAAGCPPGSGFVVETLFIEGHTDTVGGPDRNWQLSTERAVNTYRRIVGGFPRLRTLMNSQGQEVLSVSAYAHTRPATKGEDEDAHRINRRIDLRFLMEADRRERLTSVLRLLDEMETKVNALQ</Hsp_hseq>
+      <Hsp_midline>MI AE + S+GSHAE+DENYFVSMTDMMVGILFIFIIMLMVFALNFQ+QTDQT  LT QQ +Q+ RA  LA QIA L+ +I  +++E++KA++AR  LLET++ RLE VGLKVTID  TGVLRL EDAI F  + S L+ TA+ NVDAL++VLLDVLP Y+AC   A CP  SG+ VET+FIEGHTD  G   RNWQLSTERAVNTYRRIV  FP LR L NS  +EVLSVS YA+TRPAT  ED D  +INRRIDLRF+MEADR +RLT V  LL++M+ +V  LQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_307434380.1|</Hit_id>
+  <Hit_def>OmpA family protein [Labrys monachus] &gt;gb|MDQ0395549.1| flagellar motor protein MotB [Labrys monachus]</Hit_def>
+  <Hit_accession>WP_307434380</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>383.259</Hsp_bit-score>
+      <Hsp_score>983</Hsp_score>
+      <Hsp_evalue>4.69403e-130</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>295</Hsp_align-len>
+      <Hsp_qseq>MIAAETDESAGSHAEDDENYFVSMTDMMVGILFIFIIMLMVFALNFQKQTDQTEMLTKQQRQQIERAQHLARQIANLQTRIDTEVSEINKADKARATLLETVRARLEAVGLKVTIDSSTGVLRLAEDAIEFASDNSTLDRTASANVDALSKVLLDVLPAYSACASDATCPR-HSGYTVETVFIEGHTDRTGQDSRNWQLSTERAVNTYRRIVDNFPGLRNLKNSANREVLSVSGYAYTRPATNREDPDGRKINRRIDLRFVMEADREKRLTEVTNLLEQMKQQVETLQESARAGL</Hsp_qseq>
+      <Hsp_hseq>MIAADADEHTGTHVEEDENYFVSMTDMMVGILFIFIIMLMVFALNFQKQTDQSETLTKQQREQIEKAQELARQIAALQGRIDDAVSEIRKADNARNGLLKEVQKRLEAVSVKVTIDQNTGVLRLNENAVHFKTASAALDAAASVNVDRVSQVLLDVLPAYVECRRDGGCAQPSSGYRLETVFIEGHTDKNGGPELNWPLSTARAVNTYRTMVEKHSDLHKLLNSHKVEVMSVSGYADTRPATDRDED-----NRRIDLRFVMEADREERLSQVTNLLEQMRGQVEALQESARAGL</Hsp_hseq>
+      <Hsp_midline>MIAA+ DE  G+H E+DENYFVSMTDMMVGILFIFIIMLMVFALNFQKQTDQ+E LTKQQR+QIE+AQ LARQIA LQ RID  VSEI KAD AR  LL+ V+ RLEAV +KVTID +TGVLRL E+A+ F + ++ LD  AS NVD +S+VLLDVLPAY  C  D  C +  SGY +ETVFIEGHTD+ G    NW LST RAVNTYR +V+    L  L NS   EV+SVSGYA TRPAT+R++      NRRIDLRFVMEADRE+RL++VTNLLEQM+ QVE LQESARAGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_296599874.1|</Hit_id>
+  <Hit_def>OmpA family protein [Roseibium sp.] &gt;gb|MBO6857458.1| OmpA family protein [Roseibium sp.]</Hit_def>
+  <Hit_accession>WP_296599874</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>358.992</Hsp_bit-score>
+      <Hsp_score>920</Hsp_score>
+      <Hsp_evalue>1.74488e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>293</Hsp_align-len>
+      <Hsp_qseq>MIAAETDESAGSHAEDDENYFVSMTDMMVGILFIFIIMLMVFALNFQKQTDQTEMLTKQQRQQIERAQHLARQIANLQTRIDTEVSEINKADKARATLLETVRARLEAVGLKVTIDSSTGVLRLAEDAIEFASDNSTLDRTASANVDALSKVLLDVLPAYSACASDATCPRHSGYTVETVFIEGHTDRTGQDSRNWQLSTERAVNTYRRIVDNFPGLRNLKNSANREVLSVSGYAYTRPATNREDPDGRKINRRIDLRFVMEADREKRLTEVTNLLEQMKQQVETLQESARAG</Hsp_qseq>
+      <Hsp_hseq>MMLSDTDDRHRSEAEEDENYFVSMTDMMVGILFVFIIMLMIFALNFRTQTDANIELSAEQIEQLNKANDLAEQIAQIRLEIAQEIGKLNEADQARSALLTAIKSRLDKVGLTVTIDKNTGVLRLTEDAIYFPSNRSELDETAQVNVDKIAKALVDVLPRYSNCTEQRNCPASSAYVVETVFIEGHTDTIGSDERNWKLSTERAVNTYRRIVENFPALRALRNSHGQEILSVSGYAYTRPAIEEDNEEAYRKNRRIDLRFVMEADRRERLTHIAGLLDDMAIKVEELRSGPRDG</Hsp_hseq>
+      <Hsp_midline>M+ ++TD+   S AE+DENYFVSMTDMMVGILF+FIIMLM+FALNF+ QTD    L+ +Q +Q+ +A  LA QIA ++  I  E+ ++N+AD+AR+ LL  +++RL+ VGL VTID +TGVLRL EDAI F S+ S LD TA  NVD ++K L+DVLP YS C     CP  S Y VETVFIEGHTD  G D RNW+LSTERAVNTYRRIV+NFP LR L+NS  +E+LSVSGYAYTRPA   ++ +  + NRRIDLRFVMEADR +RLT +  LL+ M  +VE L+   R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_185924484.1|</Hit_id>
+  <Hit_def>OmpA family protein [Stappia sp. 28M-7] &gt;gb|MBC2858458.1| OmpA family protein [Stappia sp. 28M-7]</Hit_def>
+  <Hit_accession>WP_185924484</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>347.051</Hsp_bit-score>
+      <Hsp_score>889</Hsp_score>
+      <Hsp_evalue>5.19088e-116</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>MTDMMVGILFIFIIMLMVFALNFQKQTDQTEMLTKQ-------QRQQIERAQHLARQIANLQTRIDTEVSEINKADKARATLLETVRARLEAVGLKVTIDSSTGVLRLAEDAIEFASDNSTLDRTASANVDALSKVLLDVLPAYSACASDATCPRHSGYTVETVFIEGHTDRTGQDSRNWQLSTERAVNTYRRIVDNFPGLRNLKNSANREVLSVSGYAYTRPATNREDPDGRKINRRIDLRFVMEADREKRLTEVTNLLEQMKQQVETLQESA-----RAGLPVSKRP</Hsp_qseq>
+      <Hsp_hseq>MTDMMVGILFIFIIMLMVFALNFRTQTDATEQLTAEAEQLTAEQKEQLQRADELAKQIADLRNQISQEIGELNKADQARNLLLEAIEERLDQVGLSVTIDKNTGVLRLTEEAIRFAPEESSLDSRAQQNVFAVARVLRDILPAYTACPDGRACPGSSGYVVETVFIEGHTDKTGSDNLNWKLSTERAVNTYRRMVDDFPELRGLLNSQGKEILSVSGYAYTRPVIEQDDAEGYGKNRRIDLRFVMEADRRERLTQVLSLLDEMQRKVEQLRSSPEQPDRRSGDPRDGAP</Hsp_hseq>
+      <Hsp_midline>MTDMMVGILFIFIIMLMVFALNF+ QTD TE LT +       Q++Q++RA  LA+QIA+L+ +I  E+ E+NKAD+AR  LLE +  RL+ VGL VTID +TGVLRL E+AI FA + S+LD  A  NV A+++VL D+LPAY+AC     CP  SGY VETVFIEGHTD+TG D+ NW+LSTERAVNTYRR+VD+FP LR L NS  +E+LSVSGYAYTRP   ++D +G   NRRIDLRFVMEADR +RLT+V +LL++M+++VE L+ S      R+G P    P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_171900759.1|</Hit_id>
+  <Hit_def>OmpA family protein [Stappia indica]</Hit_def>
+  <Hit_accession>WP_171900759</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>338.191</Hsp_bit-score>
+      <Hsp_score>866</Hsp_score>
+      <Hsp_evalue>1.83017e-112</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>MMVGILFIFIIMLMVFALNFQKQTDQT-------EMLTKQQRQQIERAQHLARQIANLQTRIDTEVSEINKADKARATLLETVRARLEAVGLKVTIDSSTGVLRLAEDAIEFASDNSTLDRTASANVDALSKVLLDVLPAYSACASDATCPRHSGYTVETVFIEGHTDRTGQDSRNWQLSTERAVNTYRRIVDNFPGLRNLKNSANREVLSVSGYAYTRPATNREDPDGRKINRRIDLRFVMEADREKRLTEVTNLLEQMKQQVETLQESA-----RAGLPVSKRP</Hsp_qseq>
+      <Hsp_hseq>MMVGILFIFIIMLMIFALNFRTQTDETKQLAAEAEQLTAEQKEQLLRADELAQQIADLRNQISQEIGELNKADQARNLLLEAIEERLDQVGLSVTIDKNTGVLRLTEEAIRFAPEESGLDSRAQQNVFAVARVLRDILPAYAACPDGRACPGSSGYVVETVFIEGHTDKTGSDNLNWKLSTERAVNTYRRMVDDFPELRGLLNSQGKEILSVSGYAYTRPVIEQDDAEGYRKNRRIDLRFVMEADRRERLTQVLSLLDDMQRKVEQLRASPEQPDRRSGDPRDGAP</Hsp_hseq>
+      <Hsp_midline>MMVGILFIFIIMLM+FALNF+ QTD+T       E LT +Q++Q+ RA  LA+QIA+L+ +I  E+ E+NKAD+AR  LLE +  RL+ VGL VTID +TGVLRL E+AI FA + S LD  A  NV A+++VL D+LPAY+AC     CP  SGY VETVFIEGHTD+TG D+ NW+LSTERAVNTYRR+VD+FP LR L NS  +E+LSVSGYAYTRP   ++D +G + NRRIDLRFVMEADR +RLT+V +LL+ M+++VE L+ S      R+G P    P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|MBB4954939.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Agrobacterium vitis] &gt;gb|MBE1439072.1| flagellar motor protein MotB [Agrobacterium vitis]</Hit_def>
+  <Hit_accession>MBB4954939</Hit_accession>
+  <Hit_len>293</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.161</Hsp_bit-score>
+      <Hsp_score>814</Hsp_score>
+      <Hsp_evalue>1.7101e-104</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>ESAGSHAEDDENYFVSMTDMMVGILFIFIIMLMVFALNFQKQTDQTEMLTKQQRQQIERAQHLARQIANLQTRIDTEVSEINKADKARATLLETVRARLEAVGLKVTIDSSTGVLRLAEDAIEFASDNSTLDRTASANVDALSKVLLDVLPAYSACASDATCPRH-SGYTVETVFIEGHTDRTGQDSRNWQLSTERAVNTYRRIVDNFPGLRNLKNSANREVLSVSGYAYTRPATNREDPDGRKINRRIDLRFVMEADREKRLTEVTNLLEQMKQQVETLQES</Hsp_qseq>
+      <Hsp_hseq>EGESSHDAEDENYFVSMTDMMVGILFIFIIMLMVFALNFRQKTDE-------QKDKLEIAQELTEQIENLQARINEEFALLDKADTARRQLLETIKDRLQAQGLSVQVDEANGVLRLTENAVRFASNKSDLDATARGNVQKIAQTLAQTLPAYARCVSPEACPEGLASNRIETVFIEGHTDVTGDDGRNWQLSTERAVNTYRTIIDGAPALRSLLNSENREILSVSGYASTRPVKEGQSEEDYRLNRRIDLRFVMEANQRERLSQVKKLLGDMQSKIQELRGS</Hsp_hseq>
+      <Hsp_midline>E   SH  +DENYFVSMTDMMVGILFIFIIMLMVFALNF+++TD+       Q+ ++E AQ L  QI NLQ RI+ E + ++KAD AR  LLET++ RL+A GL V +D + GVLRL E+A+ FAS+ S LD TA  NV  +++ L   LPAY+ C S   CP   +   +ETVFIEGHTD TG D RNWQLSTERAVNTYR I+D  P LR+L NS NRE+LSVSGYA TRP    +  +  ++NRRIDLRFVMEA++ +RL++V  LL  M+ +++ L+ S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_078708906.1|</Hit_id>
+  <Hit_def>OmpA family protein [Consotaella salsifontis] &gt;emb|SKA22344.1| Flagellar motor protein MotB [Consotaella salsifontis]</Hit_def>
+  <Hit_accession>WP_078708906</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>313.538</Hsp_bit-score>
+      <Hsp_score>802</Hsp_score>
+      <Hsp_evalue>1.41584e-102</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>278</Hsp_align-len>
+      <Hsp_qseq>EDDENYFVSMTDMMVGILFIFIIMLMVFALNFQKQTDQTEMLTKQQRQQIERAQHLARQIANLQTRIDTEVSEINKADKARATLLETVRARLEAVGLKVTIDSSTGVLRLAEDAIEFASDNSTLDRTASANVDALSKVLLDVLPAYSACASD--ATCPRHSGYTVETVFIEGHTDRTGQDSRNWQLSTERAVNTYRRIVDNFPGLRNLKNSANREVLSVSGYAYTRPATNREDPDGRKINRRIDLRFVMEADREKRLTEVTNLLEQMKQQVETLQESA</Hsp_qseq>
+      <Hsp_hseq>EAEENYFISMTDMMVGILFIFIIMLMIFALNYRQTTDQQIEITEDQKRRIEIVEQVARQIDHLQAEVHEDIEALSESERVRAQLLTDIRERLEKENIRVTIDQRNGVLRLDENAVRFASDHSDLTSQAASNVDAIARALSATLPAYSDCSAPLVAACSNALGLSIETVFIEGHTDVTGSDDRNWQLSTERAVNTYRRLVETAPTLKDMKNSEGRAVLSVSGYSSTRPIADEQDSAGYERNRRIDLRFVMETERRKRLEAVTNLLGQMRTQIDQLLQSA</Hsp_hseq>
+      <Hsp_midline>E +ENYF+SMTDMMVGILFIFIIMLM+FALN+++ TDQ   +T+ Q+++IE  + +ARQI +LQ  +  ++  ++++++ RA LL  +R RLE   ++VTID   GVLRL E+A+ FASD+S L   A++NVDA+++ L   LPAYS C++   A C    G ++ETVFIEGHTD TG D RNWQLSTERAVNTYRR+V+  P L+++KNS  R VLSVSGY+ TRP  + +D  G + NRRIDLRFVME +R KRL  VTNLL QM+ Q++ L +SA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>878262366</Statistics_db-num>
+      <Statistics_db-len>334928218419</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

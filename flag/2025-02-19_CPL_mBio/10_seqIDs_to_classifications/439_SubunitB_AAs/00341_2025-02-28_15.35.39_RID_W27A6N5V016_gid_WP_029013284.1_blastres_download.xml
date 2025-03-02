@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_65813</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>235</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_65813</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>235</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_029013284.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Niveispirillum irakense]</Hit_def>
+  <Hit_accession>WP_029013284</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>474.552</Hsp_bit-score>
+      <Hsp_score>1220</Hsp_score>
+      <Hsp_evalue>2.56135e-168</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>235</Hsp_identity>
+      <Hsp_positive>235</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>MLGRIVLSKRSKDEAEKPFWISFSDLMTALMVLFLVVMAISLLSVTQKLRDVQMEEAERADAIDRIVSSLQEAAAKHGDVSVTGSRDRVVIEFGEAARFASNDHRIGTPGAERLRRFAPEILNMAESEDGRRWFKRVVVEGFTDPRGTYLHNLHLSLMRAESVVCNLLAPGGAELTDAQKQAVRRLFLVGGFSSNSTRTTDEESRRVELRLDFRTVRERPEAPALLDVPLGQCRI</Hsp_qseq>
+      <Hsp_hseq>MLGRIVLSKRSKDEAEKPFWISFSDLMTALMVLFLVVMAISLLSVTQKLRDVQMEEAERADAIDRIVSSLQEAAAKHGDVSVTGSRDRVVIEFGEAARFASNDHRIGTPGAERLRRFAPEILNMAESEDGRRWFKRVVVEGFTDPRGTYLHNLHLSLMRAESVVCNLLAPGGAELTDAQKQAVRRLFLVGGFSSNSTRTTDEESRRVELRLDFRTVRERPEAPALLDVPLGQCRI</Hsp_hseq>
+      <Hsp_midline>MLGRIVLSKRSKDEAEKPFWISFSDLMTALMVLFLVVMAISLLSVTQKLRDVQMEEAERADAIDRIVSSLQEAAAKHGDVSVTGSRDRVVIEFGEAARFASNDHRIGTPGAERLRRFAPEILNMAESEDGRRWFKRVVVEGFTDPRGTYLHNLHLSLMRAESVVCNLLAPGGAELTDAQKQAVRRLFLVGGFSSNSTRTTDEESRRVELRLDFRTVRERPEAPALLDVPLGQCRI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>tpg|HGW8355582.1|</Hit_id>
+  <Hit_def>type I Zorya anti-phage system protein ZorB1 [Acinetobacter baumannii] &gt;tpg|HGW8359698.1| type I Zorya anti-phage system protein ZorB1 [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>HGW8355582</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>234.572</Hsp_bit-score>
+      <Hsp_score>597</Hsp_score>
+      <Hsp_evalue>1.56374e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>MLG-RIVLSKRSKDEAEKPFWISFSDLMTALMVLFLVVMAISLLSVTQKLRDVQMEEAERADAIDRIVSSLQ-EAAAKHGDVSVTGSRDRVVIEFGEAARFASNDHRIGTPGAERLRRFAPEILNMAESEDGRRWFKRVVVEGFTDPRGTYLHNLHLSLMRAESVVCNLLAPG---GAELTDAQKQAVRRLFLVGGFSSNSTRTTDEESRRVELRLDFRTVRERPEA---PALLDVPLGQCRI</Hsp_qseq>
+      <Hsp_hseq>MLGNRYSKKPRSKDEGEKPFWISFADLMTALMTLFLVVMAVSLMVVTKKINEATQAENQRSSEILDICTSIQNDAALKNKIINVDCKDNR--INFGEAGRFGHNDYRLNAAGVEALNTLVPIVLNAANSENGKKWFKQIVIEGFTDTDGSYLYNLNLSLRRSEWVMCNLLDPKFSHGLNLSDAQKNQVKQLFLAGGVSFNSAKDSKEASRRVELRMQFYGLKEKENAEPQPHFVSAPVETCQL</Hsp_hseq>
+      <Hsp_midline>MLG R     RSKDE EKPFWISF+DLMTALM LFLVVMA+SL+ VT+K+ +    E +R+  I  I +S+Q +AA K+  ++V    +R  I FGEA RF  ND+R+   G E L    P +LN A SE+G++WFK++V+EGFTD  G+YL+NL+LSL R+E V+CNLL P    G  L+DAQK  V++LFL GG S NS + + E SRRVELR+ F  ++E+  A   P  +  P+  C++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_003114525.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type I Zorya anti-phage system protein ZorB1 [Acinetobacter] &gt;gb|EMT95385.1| hypothetical protein ABNIH6_11247 [Acinetobacter baumannii ABNIH6] &gt;gb|EMU11116.1| hypothetical protein ABNIH10_06861 [Acinetobacter baumannii ABNIH10] &gt;gb|MEZ7924114.1| flagellar motor protein MotB [Acinetobacter towneri] &gt;gb|AOP62493.1| hypothetical protein DU202_01325 [Acinetobacter baumannii DU202] &gt;gb|ARG13022.1| hypothetical protein B7L36_09265 [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_003114525</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>234.572</Hsp_bit-score>
+      <Hsp_score>597</Hsp_score>
+      <Hsp_evalue>1.68778e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>MLG-RIVLSKRSKDEAEKPFWISFSDLMTALMVLFLVVMAISLLSVTQKLRDVQMEEAERADAIDRIVSSLQ-EAAAKHGDVSVTGSRDRVVIEFGEAARFASNDHRIGTPGAERLRRFAPEILNMAESEDGRRWFKRVVVEGFTDPRGTYLHNLHLSLMRAESVVCNLLAPG---GAELTDAQKQAVRRLFLVGGFSSNSTRTTDEESRRVELRLDFRTVRERPEA---PALLDVPLGQCRI</Hsp_qseq>
+      <Hsp_hseq>MLGNRYSKKPRSKDEGEKPFWISFADLMTALMTLFLVVMAVSLMVVTKKINEATQAENQRSSEILDICTSIQNDAALKNKIINVDCKDNR--INFGEAGRFGHNDYRLNAAGVEALNTLVPIVLNAANSENGKKWFKQIVIEGFTDTDGSYLYNLNLSLRRSEWVMCNLLDPKFSHGLSLSDAQKNQVKQLFLAGGVSFNSAKDSKEASRRVELRMQFYGLKEKENAEPQPHFVSAPVETCQL</Hsp_hseq>
+      <Hsp_midline>MLG R     RSKDE EKPFWISF+DLMTALM LFLVVMA+SL+ VT+K+ +    E +R+  I  I +S+Q +AA K+  ++V    +R  I FGEA RF  ND+R+   G E L    P +LN A SE+G++WFK++V+EGFTD  G+YL+NL+LSL R+E V+CNLL P    G  L+DAQK  V++LFL GG S NS + + E SRRVELR+ F  ++E+  A   P  +  P+  C++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|PXA33526.1|</Hit_id>
+  <Hit_def>hypothetical protein DMB36_15340 [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>PXA33526</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>234.572</Hsp_bit-score>
+      <Hsp_score>597</Hsp_score>
+      <Hsp_evalue>1.68778e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>MLG-RIVLSKRSKDEAEKPFWISFSDLMTALMVLFLVVMAISLLSVTQKLRDVQMEEAERADAIDRIVSSLQ-EAAAKHGDVSVTGSRDRVVIEFGEAARFASNDHRIGTPGAERLRRFAPEILNMAESEDGRRWFKRVVVEGFTDPRGTYLHNLHLSLMRAESVVCNLLAPG---GAELTDAQKQAVRRLFLVGGFSSNSTRTTDEESRRVELRLDFRTVRERPEA---PALLDVPLGQCRI</Hsp_qseq>
+      <Hsp_hseq>MLGNRYSKKPRSKDEGEKPFWISFADLMTALMTLFLVVMAVSLMVVTKKINEATQAENQRSSEILDICTSIQNDAALKNKIINVDCKDNR--INFGEAGRFVHNDYRLNAAGVEALNTLVPIVLNAANSENGKKWFKQIVIEGFTDTDGSYLYNLNLSLRRSEWVMCNLLDPKFSHGLSLSDAQKNQVKQLFLAGGVSFNSAKDSKEASRRVELRMQFYGLKEKENAEPQPHFVSAPVETCQL</Hsp_hseq>
+      <Hsp_midline>MLG R     RSKDE EKPFWISF+DLMTALM LFLVVMA+SL+ VT+K+ +    E +R+  I  I +S+Q +AA K+  ++V    +R  I FGEA RF  ND+R+   G E L    P +LN A SE+G++WFK++V+EGFTD  G+YL+NL+LSL R+E V+CNLL P    G  L+DAQK  V++LFL GG S NS + + E SRRVELR+ F  ++E+  A   P  +  P+  C++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_098733041.1|</Hit_id>
+  <Hit_def>type I Zorya anti-phage system protein ZorB1 [Acinetobacter baumannii] &gt;tpg|HGH3549891.1| type I Zorya anti-phage system protein ZorB1 [Acinetobacter baumannii] &gt;tpg|HGH3553572.1| type I Zorya anti-phage system protein ZorB1 [Acinetobacter baumannii] &gt;tpg|HGH3593129.1| type I Zorya anti-phage system protein ZorB1 [Acinetobacter baumannii] &gt;tpg|HGH3617609.1| type I Zorya anti-phage system protein ZorB1 [Acinetobacter baumannii] &gt;tpg|HGH3639297.1| type I Zorya anti-phage system protein ZorB1 [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_098733041</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>234.187</Hsp_bit-score>
+      <Hsp_score>596</Hsp_score>
+      <Hsp_evalue>2.49924e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>MLG-RIVLSKRSKDEAEKPFWISFSDLMTALMVLFLVVMAISLLSVTQKLRDVQMEEAERADAIDRIVSSLQ-EAAAKHGDVSVTGSRDRVVIEFGEAARFASNDHRIGTPGAERLRRFAPEILNMAESEDGRRWFKRVVVEGFTDPRGTYLHNLHLSLMRAESVVCNLLAPG---GAELTDAQKQAVRRLFLVGGFSSNSTRTTDEESRRVELRLDFRTVRERPEA---PALLDVPLGQCRI</Hsp_qseq>
+      <Hsp_hseq>MLGNRYSKKPRSKDEGEKPFWISFADLMTALMTLFLVVMAVSLMVVTKKINEATQAENQRSSEILDICTSIQNDAALKNKIIAVDCKDNR--INFGEAGRFGHNDYRLNAAGVEALNTLVPIVLNAANSENGKKWFKQIVIEGFTDTDGSYLYNLNLSLRRSEWVMCNLLDPKFSQGLSLTEAQKNQVKQLFLAGGVSFNSAKDSKEASRRVELRMQFYGLKEKENAEPQPHFVSAPVETCQL</Hsp_hseq>
+      <Hsp_midline>MLG R     RSKDE EKPFWISF+DLMTALM LFLVVMA+SL+ VT+K+ +    E +R+  I  I +S+Q +AA K+  ++V    +R  I FGEA RF  ND+R+   G E L    P +LN A SE+G++WFK++V+EGFTD  G+YL+NL+LSL R+E V+CNLL P    G  LT+AQK  V++LFL GG S NS + + E SRRVELR+ F  ++E+  A   P  +  P+  C++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|MDC4644037.1|</Hit_id>
+  <Hit_def>hypothetical protein [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>MDC4644037</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>234.187</Hsp_bit-score>
+      <Hsp_score>596</Hsp_score>
+      <Hsp_evalue>2.69749e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>MLG-RIVLSKRSKDEAEKPFWISFSDLMTALMVLFLVVMAISLLSVTQKLRDVQMEEAERADAIDRIVSSLQ-EAAAKHGDVSVTGSRDRVVIEFGEAARFASNDHRIGTPGAERLRRFAPEILNMAESEDGRRWFKRVVVEGFTDPRGTYLHNLHLSLMRAESVVCNLLAPG---GAELTDAQKQAVRRLFLVGGFSSNSTRTTDEESRRVELRLDFRTVRERPEA---PALLDVPLGQCRI</Hsp_qseq>
+      <Hsp_hseq>MLGNRYSKKPRSKDEGEKPFWISFADLMTALMTLFLVVMAVSLMVVTKKINEATQAENQRSSEIMDICTSIQNDAALKNKIIAVDCKDNR--INFGEAGRFGHNDYRLNAAGVEALNTLVPIVLNAANSENGKKWFKQIVIEGFTDTDGSYLYNLNLSLRRSEWVMCSLLDPKFSHGLSLSDAQKNQVKQLFLVGGVSFNSAKDSKEASRRVELRMQFYGLKEKENAEPQPHFVSAPVETCQL</Hsp_hseq>
+      <Hsp_midline>MLG R     RSKDE EKPFWISF+DLMTALM LFLVVMA+SL+ VT+K+ +    E +R+  I  I +S+Q +AA K+  ++V    +R  I FGEA RF  ND+R+   G E L    P +LN A SE+G++WFK++V+EGFTD  G+YL+NL+LSL R+E V+C+LL P    G  L+DAQK  V++LFLVGG S NS + + E SRRVELR+ F  ++E+  A   P  +  P+  C++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_151690404.1|</Hit_id>
+  <Hit_def>type I Zorya anti-phage system protein ZorB1 [Acinetobacter junii]</Hit_def>
+  <Hit_accession>WP_151690404</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>234.187</Hsp_bit-score>
+      <Hsp_score>596</Hsp_score>
+      <Hsp_evalue>2.81775e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>MLG-RIVLSKRSKDEAEKPFWISFSDLMTALMVLFLVVMAISLLSVTQKLRDVQMEEAERADAIDRIVSSLQ-EAAAKHGDVSVTGSRDRVVIEFGEAARFASNDHRIGTPGAERLRRFAPEILNMAESEDGRRWFKRVVVEGFTDPRGTYLHNLHLSLMRAESVVCNLLAPG---GAELTDAQKQAVRRLFLVGGFSSNSTRTTDEESRRVELRLDFRTVRERPEA---PALLDVPLGQCRI</Hsp_qseq>
+      <Hsp_hseq>MLGNRYSKKPRSKDEGEKPFWISFADLMTALMTLFLVVMAVSLMVVTKKINEATQAENQRSSEIMDICTSIQNDAALKNKIIAVDCKDNR--INFGEAGRFGHNDYRLNAAGVEALNTLVPIVLNAANSENGKKWFKQIVIEGFTDTDGSYLYNLNLSLRRSEWVMCSLLDPKFSHGLSLSDAQKNQVKQLFLAGGVSFNSAKDSKEASRRVELRMQFYGLKEKENAEPQPHFVSVPVETCQL</Hsp_hseq>
+      <Hsp_midline>MLG R     RSKDE EKPFWISF+DLMTALM LFLVVMA+SL+ VT+K+ +    E +R+  I  I +S+Q +AA K+  ++V    +R  I FGEA RF  ND+R+   G E L    P +LN A SE+G++WFK++V+EGFTD  G+YL+NL+LSL R+E V+C+LL P    G  L+DAQK  V++LFL GG S NS + + E SRRVELR+ F  ++E+  A   P  + VP+  C++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_125316967.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type I Zorya anti-phage system protein ZorB1 [Acinetobacter] &gt;gb|EJB8410364.1| OmpA family protein [Acinetobacter baumannii] &gt;gb|MDC4837434.1| OmpA family protein [Acinetobacter baumannii] &gt;gb|MDD1363886.1| flagellar motor protein MotB [Acinetobacter baumannii] &gt;gb|MDN8268842.1| type I Zorya anti-phage system protein ZorB1 [Acinetobacter baumannii] &gt;gb|MFV5613206.1| type I Zorya anti-phage system protein ZorB1 [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_125316967</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>233.802</Hsp_bit-score>
+      <Hsp_score>595</Hsp_score>
+      <Hsp_evalue>3.28249e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>MLG-RIVLSKRSKDEAEKPFWISFSDLMTALMVLFLVVMAISLLSVTQKLRDVQMEEAERADAIDRIVSSLQ-EAAAKHGDVSVTGSRDRVVIEFGEAARFASNDHRIGTPGAERLRRFAPEILNMAESEDGRRWFKRVVVEGFTDPRGTYLHNLHLSLMRAESVVCNLLAPG---GAELTDAQKQAVRRLFLVGGFSSNSTRTTDEESRRVELRLDFRTVRERPEA---PALLDVPLGQCRI</Hsp_qseq>
+      <Hsp_hseq>MLGNRYSKKPRSKDEGEKPFWISFADLMTALMTLFLVVMAVSLMVVTKKINEATQAENQRSSEILDICTSIQNDAALKNKIIAVDCKDNR--INFGEAGRFGHNDYRLNAAGVEALNTLVPIVLNAANTENGKKWFKQIVIEGFTDTDGSYLYNLNLSLRRSEWVMCNLLDPKFSYGLSLSDAQKNQVKQLFLAGGVSFNSAKDSKEASRRVELRMQFYGLKEKENAEPQPHFVSAPVETCQL</Hsp_hseq>
+      <Hsp_midline>MLG R     RSKDE EKPFWISF+DLMTALM LFLVVMA+SL+ VT+K+ +    E +R+  I  I +S+Q +AA K+  ++V    +R  I FGEA RF  ND+R+   G E L    P +LN A +E+G++WFK++V+EGFTD  G+YL+NL+LSL R+E V+CNLL P    G  L+DAQK  V++LFL GG S NS + + E SRRVELR+ F  ++E+  A   P  +  P+  C++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_243484066.1|</Hit_id>
+  <Hit_def>type I Zorya anti-phage system protein ZorB1 [Acinetobacter junii] &gt;gb|UOB52917.1| hypothetical protein MRY16_02780 [Acinetobacter junii]</Hit_def>
+  <Hit_accession>WP_243484066</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>233.417</Hsp_bit-score>
+      <Hsp_score>594</Hsp_score>
+      <Hsp_evalue>4.45454e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>MLG-RIVLSKRSKDEAEKPFWISFSDLMTALMVLFLVVMAISLLSVTQKLRDVQMEEAERADAIDRIVSSLQ-EAAAKHGDVSVTGSRDRVVIEFGEAARFASNDHRIGTPGAERLRRFAPEILNMAESEDGRRWFKRVVVEGFTDPRGTYLHNLHLSLMRAESVVCNLLAPG---GAELTDAQKQAVRRLFLVGGFSSNSTRTTDEESRRVELRLDFRTVRERPEA---PALLDVPLGQCRI</Hsp_qseq>
+      <Hsp_hseq>MLGNRYSKKPRSKDDGEKPFWISFADLMTALMTLFLVVMAVSLMVVTKKINEATQAENQRSSEIMDICTSIQNDAALKNKIIAVDCKENR--INFGEAGRFGHNDYRLNAAGVEALNTLVPIVLNAANSENGKKWFKQIVIEGFTDTDGSYLYNLNLSLRRSEWVMCNLLDPKFSQGLSLTEAQKNQVKQLFLAGGVSFNSAKDSKEASRRVELRMQFYGLKEKENAEPQPHFVSAPVETCQL</Hsp_hseq>
+      <Hsp_midline>MLG R     RSKD+ EKPFWISF+DLMTALM LFLVVMA+SL+ VT+K+ +    E +R+  I  I +S+Q +AA K+  ++V    +R  I FGEA RF  ND+R+   G E L    P +LN A SE+G++WFK++V+EGFTD  G+YL+NL+LSL R+E V+CNLL P    G  LT+AQK  V++LFL GG S NS + + E SRRVELR+ F  ++E+  A   P  +  P+  C++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_074947320.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type I Zorya anti-phage system protein ZorB1 [Acinetobacter] &gt;gb|KAB0651238.1| OmpA family protein [Acinetobacter bohemicus] &gt;gb|MDY6459344.1| type I Zorya anti-phage system protein ZorB1 [Acinetobacter faecalis] &gt;gb|NAR60528.1| OmpA family protein [Acinetobacter haemolyticus] &gt;gb|NAR66863.1| OmpA family protein [Acinetobacter haemolyticus] &gt;gb|NAR70519.1| OmpA family protein [Acinetobacter haemolyticus]</Hit_def>
+  <Hit_accession>WP_074947320</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>233.417</Hsp_bit-score>
+      <Hsp_score>594</Hsp_score>
+      <Hsp_evalue>4.86057e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>MLG-RIVLSKRSKDEAEKPFWISFSDLMTALMVLFLVVMAISLLSVTQKLRDVQMEEAERADAIDRIVSSLQ-EAAAKHGDVSVTGSRDRVVIEFGEAARFASNDHRIGTPGAERLRRFAPEILNMAESEDGRRWFKRVVVEGFTDPRGTYLHNLHLSLMRAESVVCNLLAPG---GAELTDAQKQAVRRLFLVGGFSSNSTRTTDEESRRVELRLDFRTVRERPEA---PALLDVPLGQCRI</Hsp_qseq>
+      <Hsp_hseq>MLGNRYSKKPRSKDDGEKPFWISFADLMTALMTLFLVVMAVSLMVVTKKINEATQAENQRSSEILDICTSIQNDAALKNKIIAVDCKDNR--INFGEAGRFGHNDYRLNAAGVEALNTLVPIVLNAANSENGKKWFKQIVIEGFTDTDGSYLYNLNLSLRRSEWVMCNLLDPKFSYGLSLSDAQKNQVKQLFLAGGVSFNSAKDSKEASRRVELRMQFYGLKEKENAEPQPHFVSAPVETCQL</Hsp_hseq>
+      <Hsp_midline>MLG R     RSKD+ EKPFWISF+DLMTALM LFLVVMA+SL+ VT+K+ +    E +R+  I  I +S+Q +AA K+  ++V    +R  I FGEA RF  ND+R+   G E L    P +LN A SE+G++WFK++V+EGFTD  G+YL+NL+LSL R+E V+CNLL P    G  L+DAQK  V++LFL GG S NS + + E SRRVELR+ F  ++E+  A   P  +  P+  C++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_114213486.1|</Hit_id>
+  <Hit_def>type I Zorya anti-phage system protein ZorB1 [Acinetobacter baumannii] &gt;gb|ELY3912503.1| OmpA family protein [Acinetobacter baumannii] &gt;gb|MBA2959119.1| OmpA family protein [Acinetobacter baumannii] &gt;gb|MBA2974154.1| OmpA family protein [Acinetobacter baumannii] &gt;gb|MCJ8825575.1| OmpA family protein [Acinetobacter baumannii] &gt;gb|MCJ8838419.1| OmpA family protein [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_114213486</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>233.417</Hsp_bit-score>
+      <Hsp_score>594</Hsp_score>
+      <Hsp_evalue>5.72428e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>MLG-RIVLSKRSKDEAEKPFWISFSDLMTALMVLFLVVMAISLLSVTQKLRDVQMEEAERADAIDRIVSSLQ-EAAAKHGDVSVTGSRDRVVIEFGEAARFASNDHRIGTPGAERLRRFAPEILNMAESEDGRRWFKRVVVEGFTDPRGTYLHNLHLSLMRAESVVCNLLAPG---GAELTDAQKQAVRRLFLVGGFSSNSTRTTDEESRRVELRLDFRTVRERPEA---PALLDVPLGQCRI</Hsp_qseq>
+      <Hsp_hseq>MLGNRYSKKPRSKDDGEKPFWISFADLMTALMTLFLVVMAVSLMVVTKKINEATQAENQRSSEILDICTSIQNDAALKNKIIAVDCKDNR--INFGEAGRFGHNDYRLNAAGVEALNTLVPIVLNAANSENGKKWFKQIVIEGFTDTDGSYLYNLNLSLRRSEWVMCNLLDPKFSHGLSLSDAQKNQVKQLFLAGGVSFNSAKDSKEASRRVELRMQFYGLKEKENAEPQPHFVSAPVETCQL</Hsp_hseq>
+      <Hsp_midline>MLG R     RSKD+ EKPFWISF+DLMTALM LFLVVMA+SL+ VT+K+ +    E +R+  I  I +S+Q +AA K+  ++V    +R  I FGEA RF  ND+R+   G E L    P +LN A SE+G++WFK++V+EGFTD  G+YL+NL+LSL R+E V+CNLL P    G  L+DAQK  V++LFL GG S NS + + E SRRVELR+ F  ++E+  A   P  +  P+  C++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_005405267.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type I Zorya anti-phage system protein ZorB1 [Acinetobacter] &gt;gb|EET81942.1| hypothetical protein ACIRA0001_2074 [Acinetobacter radioresistens SK82] &gt;gb|EXE59933.1| membrane MotB of proton-channel complex MotA/MotB family protein [Acinetobacter sp. 1239920] &gt;gb|MFS1553546.1| type I Zorya anti-phage system protein ZorB1 [Acinetobacter radioresistens] &gt;gb|QMU06544.1| OmpA family protein [Acinetobacter radioresistens]</Hit_def>
+  <Hit_accession>WP_005405267</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>233.417</Hsp_bit-score>
+      <Hsp_score>594</Hsp_score>
+      <Hsp_evalue>6.11131e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>MLGRIVLSK-RSKDEAEKPFWISFSDLMTALMVLFLVVMAISLLSVTQKLRDVQMEEAERADAIDRIVSSLQ-EAAAKHGDVSVTGSRDRVVIEFGEAARFASNDHRIGTPGAERLRRFAPEILNMAESEDGRRWFKRVVVEGFTDPRGTYLHNLHLSLMRAESVVCNLLAPG---GAELTDAQKQAVRRLFLVGGFSSNSTRTTDEESRRVELRLDFRTVRERPEA---PALLDVPLGQCRI</Hsp_qseq>
+      <Hsp_hseq>MLGNRYSNKPRSKDEGEKPFWISFADLMTALMTLFLVVMAVSLMVVTKKINEATQAENQRSSEILNICTSIQNDAALKNKIITVDCKDNR--INFGEAGRFGHNDYRLNAAGVEALNTLVPIVLNAANSENGKKWFKQIVIEGFTDTDGSYLYNLNLSLRRSEWVMCSLLDPKFSHGLSLSDAQKNQIKQLFLAGGVSFNSAKDSKEASRRVELRMQFYGLKEKENAEPQPHFVSAPIETCQL</Hsp_hseq>
+      <Hsp_midline>MLG    +K RSKDE EKPFWISF+DLMTALM LFLVVMA+SL+ VT+K+ +    E +R+  I  I +S+Q +AA K+  ++V    +R  I FGEA RF  ND+R+   G E L    P +LN A SE+G++WFK++V+EGFTD  G+YL+NL+LSL R+E V+C+LL P    G  L+DAQK  +++LFL GG S NS + + E SRRVELR+ F  ++E+  A   P  +  P+  C++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_130234906.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type I Zorya anti-phage system protein ZorB1 [Acinetobacter] &gt;gb|MDH2171825.1| OmpA family protein [Acinetobacter johnsonii] &gt;gb|MDH2177218.1| OmpA family protein [Acinetobacter johnsonii] &gt;gb|RZN92536.1| hypothetical protein EXE24_04255 [Acinetobacter johnsonii] &gt;gb|WAU72343.1| OmpA family protein [Acinetobacter sp. TR11]</Hit_def>
+  <Hit_accession>WP_130234906</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>233.032</Hsp_bit-score>
+      <Hsp_score>593</Hsp_score>
+      <Hsp_evalue>6.81536e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>MLG-RIVLSKRSKDEAEKPFWISFSDLMTALMVLFLVVMAISLLSVTQKLRDVQMEEAERADAIDRIVSSLQ-EAAAKHGDVSVTGSRDRVVIEFGEAARFASNDHRIGTPGAERLRRFAPEILNMAESEDGRRWFKRVVVEGFTDPRGTYLHNLHLSLMRAESVVCNLLAPG---GAELTDAQKQAVRRLFLVGGFSSNSTRTTDEESRRVELRLDFRTVRERPEA---PALLDVPLGQCRI</Hsp_qseq>
+      <Hsp_hseq>MLGNRYSKKPRSKDDGEKPFWISFADLMTALMTLFLVVMAVSLMVVTKKINEATQAENQRSSEIMDICTSIQNDAALKNKIIAVDCKDNR--INFGEAGRFGHNDYRLNAAGVEALNTLVPIVLNAANSENGKKWFKQIVIEGFTDTDGSYLYNLNLSLRRSEWVMCNLLDPKFSQGLSLTEAQKNQVKQLFLAGGVSFNSAKDSKEASRRVELRMQFYGLKEKENAEPQPHFVSAPVETCQL</Hsp_hseq>
+      <Hsp_midline>MLG R     RSKD+ EKPFWISF+DLMTALM LFLVVMA+SL+ VT+K+ +    E +R+  I  I +S+Q +AA K+  ++V    +R  I FGEA RF  ND+R+   G E L    P +LN A SE+G++WFK++V+EGFTD  G+YL+NL+LSL R+E V+CNLL P    G  LT+AQK  V++LFL GG S NS + + E SRRVELR+ F  ++E+  A   P  +  P+  C++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>tpg|HBM1793218.1|</Hit_id>
+  <Hit_def>OmpA family protein [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>HBM1793218</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>233.032</Hsp_bit-score>
+      <Hsp_score>593</Hsp_score>
+      <Hsp_evalue>8.11439e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>MLG-RIVLSKRSKDEAEKPFWISFSDLMTALMVLFLVVMAISLLSVTQKLRDVQMEEAERADAIDRIVSSLQ-EAAAKHGDVSVTGSRDRVVIEFGEAARFASNDHRIGTPGAERLRRFAPEILNMAESEDGRRWFKRVVVEGFTDPRGTYLHNLHLSLMRAESVVCNLLAPG---GAELTDAQKQAVRRLFLVGGFSSNSTRTTDEESRRVELRLDFRTVRERPEA---PALLDVPLGQCRI</Hsp_qseq>
+      <Hsp_hseq>MLGNRYSKKPRSKDEGEKPFWISFADLMTALMTLFLVVMAVSLMVVTKKINEATQAENQRSSEILDICTSIQNDAVLKNKIINVDCKDNR--INFGEAGRFGHNDYRLNAAGVEALNTLVPIVLNAANSENGKKWFKQIVIEGFTDTDGSYLYNLNLSLRRSEWVMCNLLDPKFSHGLSLSDAQKNQVKQLFLAGGVSFNSAKDSKEASRRVELRMQFYGLKEKENAEPQPHFVSAPVETCQL</Hsp_hseq>
+      <Hsp_midline>MLG R     RSKDE EKPFWISF+DLMTALM LFLVVMA+SL+ VT+K+ +    E +R+  I  I +S+Q +A  K+  ++V    +R  I FGEA RF  ND+R+   G E L    P +LN A SE+G++WFK++V+EGFTD  G+YL+NL+LSL R+E V+CNLL P    G  L+DAQK  V++LFL GG S NS + + E SRRVELR+ F  ++E+  A   P  +  P+  C++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_031980558.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type I Zorya anti-phage system protein ZorB1 [Acinetobacter] &gt;gb|MFN4106217.1| type I Zorya anti-phage system protein ZorB1 [Acinetobacter johnsonii] &gt;gb|AXY59589.1| hypothetical protein CDG61_05845 [Acinetobacter sp. WCHAc010052] &gt;gb|EHU2374298.1| OmpA family protein [Acinetobacter baumannii] &gt;gb|EHU2749898.1| OmpA family protein [Acinetobacter baumannii] &gt;gb|EKV2265221.1| OmpA family protein [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_031980558</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>233.032</Hsp_bit-score>
+      <Hsp_score>593</Hsp_score>
+      <Hsp_evalue>8.38421e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>MLG-RIVLSKRSKDEAEKPFWISFSDLMTALMVLFLVVMAISLLSVTQKLRDVQMEEAERADAIDRIVSSLQ-EAAAKHGDVSVTGSRDRVVIEFGEAARFASNDHRIGTPGAERLRRFAPEILNMAESEDGRRWFKRVVVEGFTDPRGTYLHNLHLSLMRAESVVCNLLAPG---GAELTDAQKQAVRRLFLVGGFSSNSTRTTDEESRRVELRLDFRTVRERPEA---PALLDVPLGQCRI</Hsp_qseq>
+      <Hsp_hseq>MLGNRYSKKPRSKDDGEKPFWISFADLMTALMTLFLVVMAVSLMVVTKKINEATQAENQRSSEILDICTSIQNDAALKNKIIAVDCKDNR--INFGEAGRFGHNDYRLNAAGVEALNTLVPIVLNAANSENGKKWFKQIVIEGFTDTDGSYLYNLNLSLRRSEWVMCNLLDPKFSQGLSLTEAQKNQVKQLFLAGGVSFNSAKDSKEASRRVELRMQFYGLKEKENAEPQPHFVSAPVETCQL</Hsp_hseq>
+      <Hsp_midline>MLG R     RSKD+ EKPFWISF+DLMTALM LFLVVMA+SL+ VT+K+ +    E +R+  I  I +S+Q +AA K+  ++V    +R  I FGEA RF  ND+R+   G E L    P +LN A SE+G++WFK++V+EGFTD  G+YL+NL+LSL R+E V+CNLL P    G  LT+AQK  V++LFL GG S NS + + E SRRVELR+ F  ++E+  A   P  +  P+  C++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_348908915.1|</Hit_id>
+  <Hit_def>type I Zorya anti-phage system protein ZorB1 [Acinetobacter radioresistens] &gt;gb|MEQ1304421.1| type I Zorya anti-phage system protein ZorB1 [Acinetobacter radioresistens] &gt;gb|XDO93232.1| type I Zorya anti-phage system protein ZorB1 [Acinetobacter radioresistens]</Hit_def>
+  <Hit_accession>WP_348908915</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>232.646</Hsp_bit-score>
+      <Hsp_score>592</Hsp_score>
+      <Hsp_evalue>9.661e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>MLG-RIVLSKRSKDEAEKPFWISFSDLMTALMVLFLVVMAISLLSVTQKLRDVQMEEAERADAIDRIVSSLQ-EAAAKHGDVSVTGSRDRVVIEFGEAARFASNDHRIGTPGAERLRRFAPEILNMAESEDGRRWFKRVVVEGFTDPRGTYLHNLHLSLMRAESVVCNLLAPG---GAELTDAQKQAVRRLFLVGGFSSNSTRTTDEESRRVELRLDFRTVRERPEA---PALLDVPLGQCRI</Hsp_qseq>
+      <Hsp_hseq>MLGNRYSKKPRSKDDGEKPFWISFADLMTALMTLFLVVMAVSLMVVTKKINEATQAENQRSSEILDICTSIQNDAALKNKIIAVDCKDNR--INFGEAGRFGHNDYRLNAAGVEALNTLVPIVLNAANSENGKKWFKQIVIEGFTDTDGSYLYNLNLSLRRSEWVMCNLLDPKFSHGLSLSDAQKNQIKQLFLAGGVSFNSAKDSKEASRRVELRMQFYGLKEKENAEPQPHFVSAPVETCQL</Hsp_hseq>
+      <Hsp_midline>MLG R     RSKD+ EKPFWISF+DLMTALM LFLVVMA+SL+ VT+K+ +    E +R+  I  I +S+Q +AA K+  ++V    +R  I FGEA RF  ND+R+   G E L    P +LN A SE+G++WFK++V+EGFTD  G+YL+NL+LSL R+E V+CNLL P    G  L+DAQK  +++LFL GG S NS + + E SRRVELR+ F  ++E+  A   P  +  P+  C++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|MDN5624586.1|</Hit_id>
+  <Hit_def>hypothetical protein [Acinetobacter sp.]</Hit_def>
+  <Hit_accession>MDN5624586</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>232.646</Hsp_bit-score>
+      <Hsp_score>592</Hsp_score>
+      <Hsp_evalue>1.20151e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>MLG-RIVLSKRSKDEAEKPFWISFSDLMTALMVLFLVVMAISLLSVTQKLRDVQMEEAERADAIDRIVSSLQ-EAAAKHGDVSVTGSRDRVVIEFGEAARFASNDHRIGTPGAERLRRFAPEILNMAESEDGRRWFKRVVVEGFTDPRGTYLHNLHLSLMRAESVVCNLLAPG---GAELTDAQKQAVRRLFLVGGFSSNSTRTTDEESRRVELRLDFRTVRERPEA---PALLDVPLGQCRI</Hsp_qseq>
+      <Hsp_hseq>MLGNRYSKKPRSKDDGEKPFWISFADLMTALMTLFLVVMAVSLMVVTKKINEATQAENQRSSEILDICTSIQNDAALKNKIIAVDCKDNR--INFGEAGRFGHNDYRLNAAGVEALNTLVPIVLNAANSENGKKWFKQIVIEGFTDTDGSYLYNLNLSLRRSEWVMCNLLDPKFSQGLSLTEAQKNQIKQLFLAGGVSFNSAKDSKEASRRVELRMQFYGLKEKENAEPQPHFVSAPVETCQL</Hsp_hseq>
+      <Hsp_midline>MLG R     RSKD+ EKPFWISF+DLMTALM LFLVVMA+SL+ VT+K+ +    E +R+  I  I +S+Q +AA K+  ++V    +R  I FGEA RF  ND+R+   G E L    P +LN A SE+G++WFK++V+EGFTD  G+YL+NL+LSL R+E V+CNLL P    G  LT+AQK  +++LFL GG S NS + + E SRRVELR+ F  ++E+  A   P  +  P+  C++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_130036850.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type I Zorya anti-phage system protein ZorB1 [Acinetobacter] &gt;gb|MEQ1128030.1| type I Zorya anti-phage system protein ZorB1 [Acinetobacter johnsonii] &gt;gb|RYL18998.1| hypothetical protein EWO92_06940 [Acinetobacter baumannii] &gt;gb|RYL31883.1| hypothetical protein EWO96_06940 [Acinetobacter baumannii] &gt;gb|RYL46561.1| hypothetical protein EWP49_06935 [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_130036850</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>232.261</Hsp_bit-score>
+      <Hsp_score>591</Hsp_score>
+      <Hsp_evalue>1.28274e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>MLG-RIVLSKRSKDEAEKPFWISFSDLMTALMVLFLVVMAISLLSVTQKLRDVQMEEAERADAIDRIVSSLQ-EAAAKHGDVSVTGSRDRVVIEFGEAARFASNDHRIGTPGAERLRRFAPEILNMAESEDGRRWFKRVVVEGFTDPRGTYLHNLHLSLMRAESVVCNLLAPG---GAELTDAQKQAVRRLFLVGGFSSNSTRTTDEESRRVELRLDFRTVRERPEA---PALLDVPLGQCRI</Hsp_qseq>
+      <Hsp_hseq>MLGNRYSKKPRSKDEGEKPFWISFADLMTALMTLFLVVMAVSLMVVTKKINEATQAENQRSSEIMDICTSIQNDAALKNKIIAVDCKDNR--INFGEAGRFGHNDYRLNAAGVEALNTLVPIVLNAANSENGKKWFKQIVIEGFTDTDGSYLYNLNLSLRRSEWVMCSLLDPKFSHGLSLSDAQKNQVKQLFLAGGVSFNSAKDSKEASRRVELRMQFYGLKEKENAEPQPHFVSAPVETCQL</Hsp_hseq>
+      <Hsp_midline>MLG R     RSKDE EKPFWISF+DLMTALM LFLVVMA+SL+ VT+K+ +    E +R+  I  I +S+Q +AA K+  ++V    +R  I FGEA RF  ND+R+   G E L    P +LN A SE+G++WFK++V+EGFTD  G+YL+NL+LSL R+E V+C+LL P    G  L+DAQK  V++LFL GG S NS + + E SRRVELR+ F  ++E+  A   P  +  P+  C++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_005092521.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type I Zorya anti-phage system protein ZorB1 [Acinetobacter] &gt;gb|EJB8375497.1| OmpA family protein [Acinetobacter baumannii] &gt;gb|ELA7466081.1| OmpA family protein [Acinetobacter nosocomialis] &gt;gb|ENW17901.1| hypothetical protein F926_03294 [Acinetobacter haemolyticus NIPH 261] &gt;gb|MBJ9961641.1| OmpA family protein [Acinetobacter nosocomialis] &gt;gb|MDH2551755.1| flagellar motor protein MotB [Acinetobacter baumannii]</Hit_def>
+  <Hit_accession>WP_005092521</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>232.261</Hsp_bit-score>
+      <Hsp_score>591</Hsp_score>
+      <Hsp_evalue>1.36946e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>MLG-RIVLSKRSKDEAEKPFWISFSDLMTALMVLFLVVMAISLLSVTQKLRDVQMEEAERADAIDRIVSSLQ-EAAAKHGDVSVTGSRDRVVIEFGEAARFASNDHRIGTPGAERLRRFAPEILNMAESEDGRRWFKRVVVEGFTDPRGTYLHNLHLSLMRAESVVCNLLAPG---GAELTDAQKQAVRRLFLVGGFSSNSTRTTDEESRRVELRLDFRTVRERPEA---PALLDVPLGQCRI</Hsp_qseq>
+      <Hsp_hseq>MLGNRYSKKPRSKDEGEKPFWISFADLMTALMTLFLVVMAVSLMVVTKKINEATQAENQRSSEIMDICTSIQNDAALKNKIIAVDCKDNR--INFGEAGRFGHNDYRLNAAGVEALNTLVPIVLNAANSENGKKWFKQIVIEGFTDTDGSYLYNLNLSLRRSEWVMCSLLDPKFSHGLSLSDAQKNQVKQLFLAGGVSFNSAKDSKEASRRVELRMQFYGLKEKENAEPQPHFVSAPVETCQL</Hsp_hseq>
+      <Hsp_midline>MLG R     RSKDE EKPFWISF+DLMTALM LFLVVMA+SL+ VT+K+ +    E +R+  I  I +S+Q +AA K+  ++V    +R  I FGEA RF  ND+R+   G E L    P +LN A SE+G++WFK++V+EGFTD  G+YL+NL+LSL R+E V+C+LL P    G  L+DAQK  V++LFL GG S NS + + E SRRVELR+ F  ++E+  A   P  +  P+  C++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_161420691.1|</Hit_id>
+  <Hit_def>type I Zorya anti-phage system protein ZorB1 [Acinetobacter haemolyticus] &gt;gb|NAR83503.1| OmpA family protein [Acinetobacter haemolyticus]</Hit_def>
+  <Hit_accession>WP_161420691</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>232.261</Hsp_bit-score>
+      <Hsp_score>591</Hsp_score>
+      <Hsp_evalue>1.75978e-72</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>RSKDEAEKPFWISFSDLMTALMVLFLVVMAISLLSVTQKLRDVQMEEAERADAIDRIVSSLQ-EAAAKHGDVSVTGSRDRVVIEFGEAARFASNDHRIGTPGAERLRRFAPEILNMAESEDGRRWFKRVVVEGFTDPRGTYLHNLHLSLMRAESVVCNLLAPG---GAELTDAQKQAVRRLFLVGGFSSNSTRTTDEESRRVELRLDFRTVRERPEA---PALLDVPLGQCRI</Hsp_qseq>
+      <Hsp_hseq>RSKDDGEKPFWISFADLMTALMTLFLVVMAVSLMVVTKKINEATQAENQRSSEILDICTSIQNDAALKNKIIAVDCKDNR--INFGEAGRFGHNDYRLNAAGVEALNTLVPIVLNAANSENGKKWFKQIVIEGFTDTDGSYLYNLNLSLRRSEWVMCNLLDPKFSYGLSLSDAQKNQVKQLFLAGGVSFNSAKDSKEASRRVELRMQFYGLKEKENAEPQPHFVSAPVETCQL</Hsp_hseq>
+      <Hsp_midline>RSKD+ EKPFWISF+DLMTALM LFLVVMA+SL+ VT+K+ +    E +R+  I  I +S+Q +AA K+  ++V    +R  I FGEA RF  ND+R+   G E L    P +LN A SE+G++WFK++V+EGFTD  G+YL+NL+LSL R+E V+CNLL P    G  L+DAQK  V++LFL GG S NS + + E SRRVELR+ F  ++E+  A   P  +  P+  C++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>878262366</Statistics_db-num>
+      <Statistics_db-len>334928218419</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1677819</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>235</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1677819</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>235</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_224072671.1|</Hit_id>
+  <Hit_def>type II Zorya anti-phage system protein ZorB2 [Pectobacterium polaris] &gt;gb|UAY91689.1| OmpA family protein [Pectobacterium polaris]</Hit_def>
+  <Hit_accession>WP_224072671</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>490.73</Hsp_bit-score>
+      <Hsp_score>1262</Hsp_score>
+      <Hsp_evalue>8.46419e-175</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>235</Hsp_identity>
+      <Hsp_positive>235</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>MDKIIGKHTPKNAQDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALEIEFSKDLPSWDAEIDKQTLEVRFKSPDVLFGLGSLELKPKFKEILNNFFPRYLKVLDVYKQHITEVRIEGHTSTDWTGAANQDAAYFNNMELSQGRTRAVLQYVYSLKESAVHQRWVKSKFSAVGYSSSHPILNPAGKEDPNRSRRVTFKVITNAELQIRRIIQE</Hsp_qseq>
+      <Hsp_hseq>MDKIIGKHTPKNAQDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALEIEFSKDLPSWDAEIDKQTLEVRFKSPDVLFGLGSLELKPKFKEILNNFFPRYLKVLDVYKQHITEVRIEGHTSTDWTGAANQDAAYFNNMELSQGRTRAVLQYVYSLKESAVHQRWVKSKFSAVGYSSSHPILNPAGKEDPNRSRRVTFKVITNAELQIRRIIQE</Hsp_hseq>
+      <Hsp_midline>MDKIIGKHTPKNAQDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALEIEFSKDLPSWDAEIDKQTLEVRFKSPDVLFGLGSLELKPKFKEILNNFFPRYLKVLDVYKQHITEVRIEGHTSTDWTGAANQDAAYFNNMELSQGRTRAVLQYVYSLKESAVHQRWVKSKFSAVGYSSSHPILNPAGKEDPNRSRRVTFKVITNAELQIRRIIQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_095701410.1|</Hit_id>
+  <Hit_def>type II Zorya anti-phage system protein ZorB2 [Pectobacterium polaris] &gt;gb|ASY81928.1| cell envelope biogenesis protein OmpA [Pectobacterium polaris] &gt;gb|MBW5893079.1| OmpA family protein [Pectobacterium polaris] &gt;gb|MCA6940035.1| OmpA family protein [Pectobacterium polaris] &gt;gb|MCA6958688.1| OmpA family protein [Pectobacterium polaris] &gt;gb|MCL6361021.1| OmpA family protein [Pectobacterium polaris]</Hit_def>
+  <Hit_accession>WP_095701410</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>489.574</Hsp_bit-score>
+      <Hsp_score>1259</Hsp_score>
+      <Hsp_evalue>2.34848e-174</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>234</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>MDKIIGKHTPKNAQDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALEIEFSKDLPSWDAEIDKQTLEVRFKSPDVLFGLGSLELKPKFKEILNNFFPRYLKVLDVYKQHITEVRIEGHTSTDWTGAANQDAAYFNNMELSQGRTRAVLQYVYSLKESAVHQRWVKSKFSAVGYSSSHPILNPAGKEDPNRSRRVTFKVITNAELQIRRIIQE</Hsp_qseq>
+      <Hsp_hseq>MDKIIGKHTPKNAQDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALEIEFSKDLPSWDAEIDKQTLEVRFKSPDVLFGLGSLELKPKFKEILNNFFPRYLKVLDVYKQHITEVRIEGHTSTDWTGAANQDAAYFNNMELSQGRTRAVLQYVYSLKESAAHQRWVKSKFSAVGYSSSHPILNPAGKEDPNRSRRVTFKVITNAELQIRRIIQE</Hsp_hseq>
+      <Hsp_midline>MDKIIGKHTPKNAQDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALEIEFSKDLPSWDAEIDKQTLEVRFKSPDVLFGLGSLELKPKFKEILNNFFPRYLKVLDVYKQHITEVRIEGHTSTDWTGAANQDAAYFNNMELSQGRTRAVLQYVYSLKESA HQRWVKSKFSAVGYSSSHPILNPAGKEDPNRSRRVTFKVITNAELQIRRIIQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_050075741.1|</Hit_id>
+  <Hit_def>type II Zorya anti-phage system protein ZorB2 [Yersinia proxima]</Hit_def>
+  <Hit_accession>WP_050075741</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>462.611</Hsp_bit-score>
+      <Hsp_score>1189</Hsp_score>
+      <Hsp_evalue>9.82312e-164</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>222</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>MDKIIGKHTPKNAQDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALEIEFSKDLPSWDAEIDKQTLEVRFKSPDVLFGLGSLELKPKFKEILNNFFPRYLKVLDVYKQHITEVRIEGHTSTDWTGAANQDAAYFNNMELSQGRTRAVLQYVYSLKESAVHQRWVKSKFSAVGYSSSHPILNPAGKEDPNRSRRVTFKVITNAELQIRRIIQE</Hsp_qseq>
+      <Hsp_hseq>MDKIIGKPTPKKTQDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALEVEFSKDLPSWDAEIDKQTLEVRFKSPDVLFGLGSSDLKPKFKEILNDFFPRYLKVLDEYKQHITEVRIEGHTSTDWTGAANQDIAYFNNMELSQGRTRAVLQYVYSLKESAGHQKWVKSKFSAVGYSSSHPILAPEGKEDPNRSRRVTFKVITNAELQIRRIIQE</Hsp_hseq>
+      <Hsp_midline>MDKIIGK TPK  QDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALE+EFSKDLPSWDAEIDKQTLEVRFKSPDVLFGLGS +LKPKFKEILN+FFPRYLKVLD YKQHITEVRIEGHTSTDWTGAANQD AYFNNMELSQGRTRAVLQYVYSLKESA HQ+WVKSKFSAVGYSSSHPIL P GKEDPNRSRRVTFKVITNAELQIRRIIQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_050946107.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type II Zorya anti-phage system protein ZorB2 [Enterobacterales] &gt;gb|EKN3572455.1| OmpA family protein [Yersinia enterocolitica] &gt;gb|EKN3716691.1| OmpA family protein [Yersinia enterocolitica] &gt;gb|EKN4915621.1| OmpA family protein [Yersinia enterocolitica] &gt;gb|EKN5096325.1| OmpA family protein [Yersinia enterocolitica] &gt;gb|ELW8190941.1| OmpA family protein [Yersinia enterocolitica]</Hit_def>
+  <Hit_accession>WP_050946107</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>462.611</Hsp_bit-score>
+      <Hsp_score>1189</Hsp_score>
+      <Hsp_evalue>1.02638e-163</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>221</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>MDKIIGKHTPKNAQDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALEIEFSKDLPSWDAEIDKQTLEVRFKSPDVLFGLGSLELKPKFKEILNNFFPRYLKVLDVYKQHITEVRIEGHTSTDWTGAANQDAAYFNNMELSQGRTRAVLQYVYSLKESAVHQRWVKSKFSAVGYSSSHPILNPAGKEDPNRSRRVTFKVITNAELQIRRIIQE</Hsp_qseq>
+      <Hsp_hseq>MDKIIGKPTPKKTQDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALEVEFSKDLPSWDAEIDKQTLEVRFKSPDVLFGLGSSDLKPKFKEILNDFFPRYLKVLDEYKQHITEVRIEGHTSTDWTGAANQDIAYFNNMELSQGRTRAVLQYVYSLKESAAHQKWVKSKFSAVGYSSSHPILTPEGKEDPSRSRRVTFKVITNAELQIRRIIQE</Hsp_hseq>
+      <Hsp_midline>MDKIIGK TPK  QDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALE+EFSKDLPSWDAEIDKQTLEVRFKSPDVLFGLGS +LKPKFKEILN+FFPRYLKVLD YKQHITEVRIEGHTSTDWTGAANQD AYFNNMELSQGRTRAVLQYVYSLKESA HQ+WVKSKFSAVGYSSSHPIL P GKEDP+RSRRVTFKVITNAELQIRRIIQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_063930420.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type II Zorya anti-phage system protein ZorB2 [Enterobacterales] &gt;gb|MCI1896816.1| OmpA family protein [Enterobacter sp.] &gt;gb|EMZ5184910.1| OmpA family protein [Yersinia enterocolitica] &gt;gb|MBE9966521.1| OmpA family protein [Citrobacter freundii] &gt;gb|MBE9976965.1| OmpA family protein [Citrobacter freundii] &gt;gb|MBE9986500.1| OmpA family protein [Citrobacter freundii]</Hit_def>
+  <Hit_accession>WP_063930420</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>462.225</Hsp_bit-score>
+      <Hsp_score>1188</Hsp_score>
+      <Hsp_evalue>1.60937e-163</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>MDKIIGKHTPKNAQDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALEIEFSKDLPSWDAEIDKQTLEVRFKSPDVLFGLGSLELKPKFKEILNNFFPRYLKVLDVYKQHITEVRIEGHTSTDWTGAANQDAAYFNNMELSQGRTRAVLQYVYSLKESAVHQRWVKSKFSAVGYSSSHPILNPAGKEDPNRSRRVTFKVITNAELQIRRIIQE</Hsp_qseq>
+      <Hsp_hseq>MDKIIGKQAPKSTQDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALEIEFSKDLSSWDAEIDKQTLEVRFKSPDVLFGLGSSELKPKFKEILNDFFPRYLRVLDQYKQHITEVRIEGHTSTDWTGAANQDVAYFNNMELSQGRTRAVLQYVYSLKESETHQKWVKSKFAAVGYSSSHPILSPAGKEDPNRSRRVTFKVITNAELQIRRIIQE</Hsp_hseq>
+      <Hsp_midline>MDKIIGK  PK+ QDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALEIEFSKDL SWDAEIDKQTLEVRFKSPDVLFGLGS ELKPKFKEILN+FFPRYL+VLD YKQHITEVRIEGHTSTDWTGAANQD AYFNNMELSQGRTRAVLQYVYSLKES  HQ+WVKSKF+AVGYSSSHPIL+PAGKEDPNRSRRVTFKVITNAELQIRRIIQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|EKN4010503.1|</Hit_id>
+  <Hit_def>OmpA family protein [Yersinia enterocolitica] &gt;gb|MFM1519057.1| type II Zorya anti-phage system protein ZorB2 [Yersinia enterocolitica] &gt;tpg|HDL6771870.1| OmpA family protein [Yersinia enterocolitica] &gt;tpg|HEN3293269.1| OmpA family protein [Yersinia enterocolitica] &gt;tpg|HEN3467027.1| OmpA family protein [Yersinia enterocolitica]</Hit_def>
+  <Hit_accession>EKN4010503</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>461.455</Hsp_bit-score>
+      <Hsp_score>1186</Hsp_score>
+      <Hsp_evalue>3.78699e-163</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>MDKIIGKHTPKNAQDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALEIEFSKDLPSWDAEIDKQTLEVRFKSPDVLFGLGSLELKPKFKEILNNFFPRYLKVLDVYKQHITEVRIEGHTSTDWTGAANQDAAYFNNMELSQGRTRAVLQYVYSLKESAVHQRWVKSKFSAVGYSSSHPILNPAGKEDPNRSRRVTFKVITNAELQIRRIIQE</Hsp_qseq>
+      <Hsp_hseq>MDKIIGKQAPKSSQDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALEIEFSKDLPSWDAEIDKQTLEVRFKSPDVLFGLGRSDLKPKFKEILNDFFPRYLKVLDEYKQHITEVRIEGHTSTDWTGAANQDIAYFNNMELSQGRTRAVLQYVYSLKESAAHQKWVKSKFSAVGYSSSHPILTPEGKEDPSRSRRVTFKVITNAELQIRRIIQE</Hsp_hseq>
+      <Hsp_midline>MDKIIGK  PK++QDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALEIEFSKDLPSWDAEIDKQTLEVRFKSPDVLFGLG  +LKPKFKEILN+FFPRYLKVLD YKQHITEVRIEGHTSTDWTGAANQD AYFNNMELSQGRTRAVLQYVYSLKESA HQ+WVKSKFSAVGYSSSHPIL P GKEDP+RSRRVTFKVITNAELQIRRIIQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_264367101.1|</Hit_id>
+  <Hit_def>type II Zorya anti-phage system protein ZorB2 [Pantoea sp. RG18] &gt;gb|MCW0937429.1| OmpA family protein [Pantoea sp. RG18]</Hit_def>
+  <Hit_accession>WP_264367101</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>461.07</Hsp_bit-score>
+      <Hsp_score>1185</Hsp_score>
+      <Hsp_evalue>5.03701e-163</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>225</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>MDKIIGKHTPKNAQDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALEIEFSKDLPSWDAEIDKQTLEVRFKSPDVLFGLGSLELKPKFKEILNNFFPRYLKVLDVYKQHITEVRIEGHTSTDWTGAANQDAAYFNNMELSQGRTRAVLQYVYSLKESAVHQRWVKSKFSAVGYSSSHPILNPAGKEDPNRSRRVTFKVITNAELQIRRIIQE</Hsp_qseq>
+      <Hsp_hseq>MDKIIGKPTPKKTQDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALEVEFSKDLPSWDAEIDKQTLEVRFKSPDVLFGLGSSDLKPKFKEILNDFFPRYLKVLDEYKQHITEVRIEGHTSTDWTGAANQDIAYFNNMELSQGRTRAVLQYVYSLKESVAHQKWVKSKFSAVGYSSSHPILTPEGKEDPSRSRRVTFKVITNAELQIRRIIQE</Hsp_hseq>
+      <Hsp_midline>MDKIIGK TPK  QDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALE+EFSKDLPSWDAEIDKQTLEVRFKSPDVLFGLGS +LKPKFKEILN+FFPRYLKVLD YKQHITEVRIEGHTSTDWTGAANQD AYFNNMELSQGRTRAVLQYVYSLKES  HQ+WVKSKFSAVGYSSSHPIL P GKEDP+RSRRVTFKVITNAELQIRRIIQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_008924934.1|</Hit_id>
+  <Hit_def>type II Zorya anti-phage system protein ZorB2 [Pantoea sp. aB] &gt;gb|EFM21229.1| OmpA/MotB domain protein [Pantoea sp. aB]</Hit_def>
+  <Hit_accession>WP_008924934</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>460.299</Hsp_bit-score>
+      <Hsp_score>1183</Hsp_score>
+      <Hsp_evalue>8.25233e-163</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>225</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>MDKIIGKHTPKNAQDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALEIEFSKDLPSWDAEIDKQTLEVRFKSPDVLFGLGSLELKPKFKEILNNFFPRYLKVLDVYKQHITEVRIEGHTSTDWTGAANQDAAYFNNMELSQGRTRAVLQYVYSLKESAVHQRWVKSKFSAVGYSSSHPILNPAGKEDPNRSRRVTFKVITNAELQIRRIIQE</Hsp_qseq>
+      <Hsp_hseq>MDKIIGKQTQKNTQDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALEIEFSKDLPSWDAEIDKQTLEVRFKSPDVLFGLGSSELKPKFKEILNDFFPRYLRVLDQYKQHITEVRIEGHTSTDWTGAANQDVAYFNNMELSQGRTRAVLQYVYSLKESETHQKWVKSKFAAVGYSSSHPILDAAEKEDPNRSRRVTFKVITNAELQIRRIIQE</Hsp_hseq>
+      <Hsp_midline>MDKIIGK T KN QDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALEIEFSKDLPSWDAEIDKQTLEVRFKSPDVLFGLGS ELKPKFKEILN+FFPRYL+VLD YKQHITEVRIEGHTSTDWTGAANQD AYFNNMELSQGRTRAVLQYVYSLKES  HQ+WVKSKF+AVGYSSSHPIL+ A KEDPNRSRRVTFKVITNAELQIRRIIQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_133622660.1|</Hit_id>
+  <Hit_def>type II Zorya anti-phage system protein ZorB2 [Erwinia sp. LJJL01] &gt;gb|XNP16131.1| type II Zorya anti-phage system protein ZorB2 [Erwinia sp. LJJL01]</Hit_def>
+  <Hit_accession>WP_133622660</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>460.299</Hsp_bit-score>
+      <Hsp_score>1183</Hsp_score>
+      <Hsp_evalue>1.0738e-162</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>221</Hsp_identity>
+      <Hsp_positive>225</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>MDKIIGKHTPKNAQDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALEIEFSKDLPSWDAEIDKQTLEVRFKSPDVLFGLGSLELKPKFKEILNNFFPRYLKVLDVYKQHITEVRIEGHTSTDWTGAANQDAAYFNNMELSQGRTRAVLQYVYSLKESAVHQRWVKSKFSAVGYSSSHPILNPAGKEDPNRSRRVTFKVITNAELQIRRIIQE</Hsp_qseq>
+      <Hsp_hseq>MDKIIGKPTQKKTQDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALEVEFSKDLPSWDAEIDKQTLEVRFKSPDVLFGLGSSDLKPKFKEILNDFFPRYLKVLDEYKQHITEVRIEGHTSTDWTGAANQDIAYFNNMELSQGRTRAVLQYVYSLKESAGHQKWVKSKFSAVGYSSSHPILTPEGKEDPNRSRRVTFKVITNAELQIRRIIQE</Hsp_hseq>
+      <Hsp_midline>MDKIIGK T K  QDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALE+EFSKDLPSWDAEIDKQTLEVRFKSPDVLFGLGS +LKPKFKEILN+FFPRYLKVLD YKQHITEVRIEGHTSTDWTGAANQD AYFNNMELSQGRTRAVLQYVYSLKESA HQ+WVKSKFSAVGYSSSHPIL P GKEDPNRSRRVTFKVITNAELQIRRIIQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_262255874.1|</Hit_id>
+  <Hit_def>type II Zorya anti-phage system protein ZorB2 [Serratia liquefaciens] &gt;emb|CAI2501025.1| flagellar motor protein MotB [Serratia liquefaciens]</Hit_def>
+  <Hit_accession>WP_262255874</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.529</Hsp_bit-score>
+      <Hsp_score>1181</Hsp_score>
+      <Hsp_evalue>2.28916e-162</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>219</Hsp_identity>
+      <Hsp_positive>224</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>MDKIIGKHTPKNAQDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALEIEFSKDLPSWDAEIDKQTLEVRFKSPDVLFGLGSLELKPKFKEILNNFFPRYLKVLDVYKQHITEVRIEGHTSTDWTGAANQDAAYFNNMELSQGRTRAVLQYVYSLKESAVHQRWVKSKFSAVGYSSSHPILNPAGKEDPNRSRRVTFKVITNAELQIRRIIQE</Hsp_qseq>
+      <Hsp_hseq>MDKIIGKKTPSKNQDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALNIEFSKDLPDWDAEIDKQTLEVRFKSPDVLFGLGSSELKPKFKEILNNFFPRYLKVLDQYKEHITEVRIEGHTSTDWTGAANQDEAYFNNMELSQGRTRAVLQYVHSLKESSAHQKWVKSKFSAVGYSSSHPILNTAGKEDPNRSRRVTFKVVTNAELQIRRIIQE</Hsp_hseq>
+      <Hsp_midline>MDKIIGK TP   QDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNAL IEFSKDLP WDAEIDKQTLEVRFKSPDVLFGLGS ELKPKFKEILNNFFPRYLKVLD YK+HITEVRIEGHTSTDWTGAANQD AYFNNMELSQGRTRAVLQYV+SLKES+ HQ+WVKSKFSAVGYSSSHPILN AGKEDPNRSRRVTFKV+TNAELQIRRIIQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_209634530.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type II Zorya anti-phage system protein ZorB2 [Enterobacterales] &gt;gb|MBP1130429.1| outer membrane protein OmpA-like peptidoglycan-associated protein [Serratia sp. PL17] &gt;gb|MDT3607345.1| type II Zorya anti-phage system protein ZorB2 [Cronobacter dublinensis] &gt;gb|MEC3904494.1| type II Zorya anti-phage system protein ZorB2 [Leclercia adecarboxylata]</Hit_def>
+  <Hit_accession>WP_209634530</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.144</Hsp_bit-score>
+      <Hsp_score>1180</Hsp_score>
+      <Hsp_evalue>2.31441e-162</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>219</Hsp_identity>
+      <Hsp_positive>225</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>MDKIIGKHTPKNAQDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALEIEFSKDLPSWDAEIDKQTLEVRFKSPDVLFGLGSLELKPKFKEILNNFFPRYLKVLDVYKQHITEVRIEGHTSTDWTGAANQDAAYFNNMELSQGRTRAVLQYVYSLKESAVHQRWVKSKFSAVGYSSSHPILNPAGKEDPNRSRRVTFKVITNAELQIRRIIQE</Hsp_qseq>
+      <Hsp_hseq>MDKIIGKQAPKSTQDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALEIEFSKDLPSWDAEIDKQTLEVRFKSPDVLFGLGSSELKPKFKEILNDFFPRYLRVLDKYKQHITEVRIEGHTSTDWTGAANQDVAYFNNMELSQGRTRAVLQYVYSLKESETHQKWVKSKFAAVGYSSSHPILDAAEKEDPNRSRRVTFKVITNAELQIRRIIQE</Hsp_hseq>
+      <Hsp_midline>MDKIIGK  PK+ QDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALEIEFSKDLPSWDAEIDKQTLEVRFKSPDVLFGLGS ELKPKFKEILN+FFPRYL+VLD YKQHITEVRIEGHTSTDWTGAANQD AYFNNMELSQGRTRAVLQYVYSLKES  HQ+WVKSKF+AVGYSSSHPIL+ A KEDPNRSRRVTFKVITNAELQIRRIIQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_204772129.1|</Hit_id>
+  <Hit_def>type II Zorya anti-phage system protein ZorB2 [Lelliottia amnigena] &gt;gb|MBM7355895.1| outer membrane protein OmpA-like peptidoglycan-associated protein [Lelliottia amnigena] &gt;gb|WSO18208.1| type II Zorya anti-phage system protein ZorB2 [Lelliottia amnigena]</Hit_def>
+  <Hit_accession>WP_204772129</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.144</Hsp_bit-score>
+      <Hsp_score>1180</Hsp_score>
+      <Hsp_evalue>3.01153e-162</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>219</Hsp_identity>
+      <Hsp_positive>224</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>MDKIIGKHTPKNAQDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALEIEFSKDLPSWDAEIDKQTLEVRFKSPDVLFGLGSLELKPKFKEILNNFFPRYLKVLDVYKQHITEVRIEGHTSTDWTGAANQDAAYFNNMELSQGRTRAVLQYVYSLKESAVHQRWVKSKFSAVGYSSSHPILNPAGKEDPNRSRRVTFKVITNAELQIRRIIQE</Hsp_qseq>
+      <Hsp_hseq>MDNIIGKATPNKTQDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALEVEFSKDLPSWDAEIDKQTLEVRFKSPDVLFGLGSSDLKPKFKEILNDFFPRYLKVLDEYKQHITEVRIEGHTSTDWTGAANQDIAYFNNMELSQGRTRAVLQYVYSLKESAAHQKWVKSKFSAVGYSSSHPILTPEGKEDPSRSRRVTFKVITNAELQIRRIIQE</Hsp_hseq>
+      <Hsp_midline>MD IIGK TP   QDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALE+EFSKDLPSWDAEIDKQTLEVRFKSPDVLFGLGS +LKPKFKEILN+FFPRYLKVLD YKQHITEVRIEGHTSTDWTGAANQD AYFNNMELSQGRTRAVLQYVYSLKESA HQ+WVKSKFSAVGYSSSHPIL P GKEDP+RSRRVTFKVITNAELQIRRIIQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_195825160.1|</Hit_id>
+  <Hit_def>type II Zorya anti-phage system protein ZorB2 [Rahnella laticis] &gt;gb|MBF7996357.1| OmpA family protein [Rahnella laticis]</Hit_def>
+  <Hit_accession>WP_195825160</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>457.218</Hsp_bit-score>
+      <Hsp_score>1175</Hsp_score>
+      <Hsp_evalue>1.51063e-161</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>225</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>MDKIIGKHTPKNAQDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALEIEFSKDLPSWDAEIDKQTLEVRFKSPDVLFGLGSLELKPKFKEILNNFFPRYLKVLDVYKQHITEVRIEGHTSTDWTGAANQDAAYFNNMELSQGRTRAVLQYVYSLKESAVHQRWVKSKFSAVGYSSSHPILNPAGKEDPNRSRRVTFKVITNAELQIRRIIQE</Hsp_qseq>
+      <Hsp_hseq>MDKIIGKQAPKSTQDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALEIEFSINLSSWDAEIDKQTLEVRFKSPDVLFGLGSSELKPKFKEILNDFFPRYLRVLDQYKQHITEVRIEGHTSTDWTGAANQDVAYFNNMELSQGRTRAVLQYVYSLKESETHQKWVKSKFAAVGYSSSHPILSPAGKEDPNRSRRVTFKVITNAELQIRRIIQE</Hsp_hseq>
+      <Hsp_midline>MDKIIGK  PK+ QDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALEIEFS +L SWDAEIDKQTLEVRFKSPDVLFGLGS ELKPKFKEILN+FFPRYL+VLD YKQHITEVRIEGHTSTDWTGAANQD AYFNNMELSQGRTRAVLQYVYSLKES  HQ+WVKSKF+AVGYSSSHPIL+PAGKEDPNRSRRVTFKVITNAELQIRRIIQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_413499342.1|</Hit_id>
+  <Hit_def>type II Zorya anti-phage system protein ZorB2 [Buttiauxella gaviniae]</Hit_def>
+  <Hit_accession>WP_413499342</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>456.447</Hsp_bit-score>
+      <Hsp_score>1173</Hsp_score>
+      <Hsp_evalue>3.43944e-161</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>224</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>MDKIIGKHTPKNAQDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALEIEFSKDLPSWDAEIDKQTLEVRFKSPDVLFGLGSLELKPKFKEILNNFFPRYLKVLDVYKQHITEVRIEGHTSTDWTGAANQDAAYFNNMELSQGRTRAVLQYVYSLKESAVHQRWVKSKFSAVGYSSSHPILNPAGKEDPNRSRRVTFKVITNAELQIRRIIQE</Hsp_qseq>
+      <Hsp_hseq>MDKIIGKQVPKSTQDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALEIEFSKDLASWDAEIDKQTLEVRFKSPDVLFGLGSSELKPKFKEILNDFFPRYLRVLDKYKQHITEVRIEGHTSTDWTGAANQDVAYFNNMELSQGRTRAVLQYVYSLKESETHQKWVKSKFAAVGYSSSHPILDAAEKEDPNRSRRVTFKVITNAELQIRRIIQE</Hsp_hseq>
+      <Hsp_midline>MDKIIGK  PK+ QDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALEIEFSKDL SWDAEIDKQTLEVRFKSPDVLFGLGS ELKPKFKEILN+FFPRYL+VLD YKQHITEVRIEGHTSTDWTGAANQD AYFNNMELSQGRTRAVLQYVYSLKES  HQ+WVKSKF+AVGYSSSHPIL+ A KEDPNRSRRVTFKVITNAELQIRRIIQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_414073269.1|</Hit_id>
+  <Hit_def>type II Zorya anti-phage system protein ZorB2 [Serratia proteamaculans] &gt;gb|MFS7162693.1| type II Zorya anti-phage system protein ZorB2 [Serratia proteamaculans] &gt;gb|MFS7166166.1| type II Zorya anti-phage system protein ZorB2 [Serratia proteamaculans] &gt;gb|MFS7173299.1| type II Zorya anti-phage system protein ZorB2 [Serratia proteamaculans] &gt;gb|MFS7178564.1| type II Zorya anti-phage system protein ZorB2 [Serratia proteamaculans] &gt;gb|MFS7181693.1| type II Zorya anti-phage system protein ZorB2 [Serratia proteamaculans]</Hit_def>
+  <Hit_accession>WP_414073269</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>455.292</Hsp_bit-score>
+      <Hsp_score>1170</Hsp_score>
+      <Hsp_evalue>8.7389e-161</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>224</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>MDKIIGKHTPKNAQDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALEIEFSKDLPSWDAEIDKQTLEVRFKSPDVLFGLGSLELKPKFKEILNNFFPRYLKVLDVYKQHITEVRIEGHTSTDWTGAANQDAAYFNNMELSQGRTRAVLQYVYSLKESAVHQRWVKSKFSAVGYSSSHPILNPAGKEDPNRSRRVTFKVITNAELQIRRIIQE</Hsp_qseq>
+      <Hsp_hseq>MDKIIGKQASQKNQDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALNIEFSKDLPAWDAEIDKQTLEVRFKSPDVLFGLGSSDLKPKFKEILNNFFPRYLKVLDQYKEHITEVRIEGHTSTDWTGAANQDEAYFNNMELSQGRTRAVLQYVHSLKESSAHQKWVKSKFSAVGYSSSHPILNSAGKEDPNRSRRVTFKVITNAELQIRRIIQE</Hsp_hseq>
+      <Hsp_midline>MDKIIGK   +  QDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNAL IEFSKDLP+WDAEIDKQTLEVRFKSPDVLFGLGS +LKPKFKEILNNFFPRYLKVLD YK+HITEVRIEGHTSTDWTGAANQD AYFNNMELSQGRTRAVLQYV+SLKES+ HQ+WVKSKFSAVGYSSSHPILN AGKEDPNRSRRVTFKVITNAELQIRRIIQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_261163390.1|</Hit_id>
+  <Hit_def>type II Zorya anti-phage system protein ZorB2 [Serratia grimesii]</Hit_def>
+  <Hit_accession>WP_261163390</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>452.981</Hsp_bit-score>
+      <Hsp_score>1164</Hsp_score>
+      <Hsp_evalue>7.42146e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>224</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>MDKIIGKHTPKNAQDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALEIEFSKDLPSWDAEIDKQTLEVRFKSPDVLFGLGSLELKPKFKEILNNFFPRYLKVLDVYKQHITEVRIEGHTSTDWTGAANQDAAYFNNMELSQGRTRAVLQYVYSLKESAVHQRWVKSKFSAVGYSSSHPILNPAGKEDPNRSRRVTFKVITNAELQIRRIIQE</Hsp_qseq>
+      <Hsp_hseq>MDKILGKQTSQKNQDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALNIEFSKDLPAWDAEIDKQTLEVRFKSPDVLFGLGSSNLKPQFKEILNNFFPRYLKVLDQYKEHITEVRIEGHTSTDWTGAANQDEAYFNNMELSQGRTRAVLQYVHSLKESSSHQKWVKSKFSAVGYSSSHPILNAAGKEDPNRSRRVTFKVVTNAELQIRRIIQE</Hsp_hseq>
+      <Hsp_midline>MDKI+GK T +  QDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNAL IEFSKDLP+WDAEIDKQTLEVRFKSPDVLFGLGS  LKP+FKEILNNFFPRYLKVLD YK+HITEVRIEGHTSTDWTGAANQD AYFNNMELSQGRTRAVLQYV+SLKES+ HQ+WVKSKFSAVGYSSSHPILN AGKEDPNRSRRVTFKV+TNAELQIRRIIQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_346418683.1|</Hit_id>
+  <Hit_def>type II Zorya anti-phage system protein ZorB2 [Serratia marcescens] &gt;gb|MEN4173483.1| OmpA family protein [Serratia marcescens] &gt;tpg|HBN5894328.1| OmpA family protein [Serratia marcescens] &gt;tpg|HGM7052874.1| type II Zorya anti-phage system protein ZorB2 [Serratia marcescens]</Hit_def>
+  <Hit_accession>WP_346418683</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>452.21</Hsp_bit-score>
+      <Hsp_score>1162</Hsp_score>
+      <Hsp_evalue>1.56479e-159</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>MDKIIGKHTPKNAQDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALEIEFSKDLPSWDAEIDKQTLEVRFKSPDVLFGLGSLELKPKFKEILNNFFPRYLKVLDVYKQHITEVRIEGHTSTDWTGAANQDAAYFNNMELSQGRTRAVLQYVYSLKESAVHQRWVKSKFSAVGYSSSHPILNPAGKEDPNRSRRVTFKVITNAELQIRRIIQE</Hsp_qseq>
+      <Hsp_hseq>MDKIIGKQKPSQNQDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALNVEFSKDLPDWDAEIDKQTLEVRFKSPDVLFGLGSSELKPKFKEILNNFFPRYLKVLDQYKEHITEVRIEGHTSTDWTGAANQDEAYFNNMELSQGRTRAVLQYVHSLKESSAHQKWVKSKFSAVGYSSSHPILNAMGKEDQNRSRRVTFKVITNAELQIRRIIQE</Hsp_hseq>
+      <Hsp_midline>MDKIIGK  P   QDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNAL +EFSKDLP WDAEIDKQTLEVRFKSPDVLFGLGS ELKPKFKEILNNFFPRYLKVLD YK+HITEVRIEGHTSTDWTGAANQD AYFNNMELSQGRTRAVLQYV+SLKES+ HQ+WVKSKFSAVGYSSSHPILN  GKED NRSRRVTFKVITNAELQIRRIIQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_279770470.1|</Hit_id>
+  <Hit_def>type II Zorya anti-phage system protein ZorB2 [Pantoea sp. GD03673] &gt;gb|MDH2067922.1| OmpA family protein [Pantoea sp. GD03673]</Hit_def>
+  <Hit_accession>WP_279770470</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>451.44</Hsp_bit-score>
+      <Hsp_score>1160</Hsp_score>
+      <Hsp_evalue>3.52373e-159</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>MDKIIGKHTPKNAQDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALEIEFSKDLPSWDAEIDKQTLEVRFKSPDVLFGLGSLELKPKFKEILNNFFPRYLKVLDVYKQHITEVRIEGHTSTDWTGAANQDAAYFNNMELSQGRTRAVLQYVYSLKESAVHQRWVKSKFSAVGYSSSHPILNPAGKEDPNRSRRVTFKVITNAELQIRRIIQE</Hsp_qseq>
+      <Hsp_hseq>MDKIIGRQISKKPQDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQIYKALEIEFSKDLTSWDAEIDKQTLEVRFKSPDVLFGLGSSELKPKFKVILNNFFPRYLKVLDEYKQHITEVRIEGHTSTDWTGAANQDIAYFNNMELSQGRTRAVLQYVYSLKESEAHQKWVKNKFSAVGYSSSHPILTPAGKEDPNRSRRVTFKVITNAELQIRRIIQE</Hsp_hseq>
+      <Hsp_midline>MDKIIG+   K  QDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQ+Y ALEIEFSKDL SWDAEIDKQTLEVRFKSPDVLFGLGS ELKPKFK ILNNFFPRYLKVLD YKQHITEVRIEGHTSTDWTGAANQD AYFNNMELSQGRTRAVLQYVYSLKES  HQ+WVK+KFSAVGYSSSHPIL PAGKEDPNRSRRVTFKVITNAELQIRRIIQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_060436766.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type II Zorya anti-phage system protein ZorB2 [Serratia] &gt;gb|EGT0502506.1| OmpA family protein [Serratia marcescens] &gt;gb|EHT9827580.1| OmpA family protein [Serratia marcescens] &gt;gb|EIU0969036.1| OmpA family protein [Serratia marcescens] &gt;gb|EMB7752069.1| OmpA family protein [Serratia marcescens] &gt;gb|EMG3685770.1| OmpA family protein [Serratia marcescens]</Hit_def>
+  <Hit_accession>WP_060436766</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>450.669</Hsp_bit-score>
+      <Hsp_score>1158</Hsp_score>
+      <Hsp_evalue>6.88042e-159</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>MDKIIGKHTPKNAQDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALEIEFSKDLPSWDAEIDKQTLEVRFKSPDVLFGLGSLELKPKFKEILNNFFPRYLKVLDVYKQHITEVRIEGHTSTDWTGAANQDAAYFNNMELSQGRTRAVLQYVYSLKESAVHQRWVKSKFSAVGYSSSHPILNPAGKEDPNRSRRVTFKVITNAELQIRRIIQE</Hsp_qseq>
+      <Hsp_hseq>MDKIIGKQIPSQNQDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALNIEFSNDLPDWDAEIDKQTLEVRFKSPDVLFGLGSSELKPKFKEILNNFFPRYLKVLDQYKEHITEVRIEGHTSTDWTGAANQDEAYFNNMELSQGRTRAVLQYVHSLKESSAHQKWVKSKFSAVGYSSSHPILNAMGKEDQNRSRRVTFKVITNAELQIRRIIQE</Hsp_hseq>
+      <Hsp_midline>MDKIIGK  P   QDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNAL IEFS DLP WDAEIDKQTLEVRFKSPDVLFGLGS ELKPKFKEILNNFFPRYLKVLD YK+HITEVRIEGHTSTDWTGAANQD AYFNNMELSQGRTRAVLQYV+SLKES+ HQ+WVKSKFSAVGYSSSHPILN  GKED NRSRRVTFKVITNAELQIRRIIQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_060430783.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type II Zorya anti-phage system protein ZorB2 [Serratia] &gt;gb|EGS9994516.1| OmpA family protein [Serratia marcescens] &gt;gb|ELJ5770927.1| OmpA family protein [Serratia marcescens] &gt;gb|ELJ5814983.1| OmpA family protein [Serratia marcescens] &gt;gb|ELN8907823.1| OmpA family protein [Serratia marcescens] &gt;gb|ELT0473684.1| OmpA family protein [Serratia marcescens]</Hit_def>
+  <Hit_accession>WP_060430783</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>449.899</Hsp_bit-score>
+      <Hsp_score>1156</Hsp_score>
+      <Hsp_evalue>1.45069e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>MDKIIGKHTPKNAQDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALEIEFSKDLPSWDAEIDKQTLEVRFKSPDVLFGLGSLELKPKFKEILNNFFPRYLKVLDVYKQHITEVRIEGHTSTDWTGAANQDAAYFNNMELSQGRTRAVLQYVYSLKESAVHQRWVKSKFSAVGYSSSHPILNPAGKEDPNRSRRVTFKVITNAELQIRRIIQE</Hsp_qseq>
+      <Hsp_hseq>MDKIIGKQKSSQNQDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNALNVEFSKDLPDWDAEIDKQTLEVRFKSPDVLFGLGSSELKPKFKEILNNFFPRYLKVLDQYKEHITEVRIEGHTSTDWTGAANQDEAYFNNMELSQGRTRAVLQYVHSLKESSAHQKWVKSKFSAVGYSSSHPILNAMGKEDQNRSRRVTFKVITNAELQIRRIIQE</Hsp_hseq>
+      <Hsp_midline>MDKIIGK      QDNEHWVSMSDLMAGLMMVFMFISIAYMHYVRIEKEKIKEVAVAYEQAQQQLYNAL +EFSKDLP WDAEIDKQTLEVRFKSPDVLFGLGS ELKPKFKEILNNFFPRYLKVLD YK+HITEVRIEGHTSTDWTGAANQD AYFNNMELSQGRTRAVLQYV+SLKES+ HQ+WVKSKFSAVGYSSSHPILN  GKED NRSRRVTFKVITNAELQIRRIIQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>878262366</Statistics_db-num>
+      <Statistics_db-len>334928218419</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
