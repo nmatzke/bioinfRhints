@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_712887</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>138</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_712887</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>138</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_003822398.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Eikenella corrodens] &gt;gb|EEG24783.1| transport energizing protein, ExbD/TolR family [Eikenella corrodens ATCC 23834] &gt;gb|MDU1345660.1| biopolymer transporter ExbD [Eikenella corrodens] &gt;gb|MDU4300275.1| biopolymer transporter ExbD [Eikenella corrodens] &gt;gb|MFC2613693.1| ExbD/TolR family protein [Eikenella corrodens] &gt;gb|OAM14753.1| biopolymer transporter ExbD [Eikenella corrodens]</Hit_def>
+  <Hit_accession>WP_003822398</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.144</Hsp_bit-score>
+      <Hsp_score>653</Hsp_score>
+      <Hsp_evalue>4.69691e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MAFGSMNGGDDSPMADINVTPLVDVMLVLLIVFMIT-PVMTHSIPL--PTASAKQVA---AQPKDPLRISISADGSYH-AEGEPITLQALESQLQQLAKTNPDQVIAI---KNAQFDYVEKALSAVRDAGLSKVGFVTEEKERTQPQQ</Hsp_qseq>
+      <Hsp_hseq>MAFGSMNGGDDSPMADINVTPLVDVMLVLLIVFMITMPVMTHSIPLELPTASAKQVAENAAQPKDPLRISISADGSYHLAEGEPITLQALESQLQQLAKTNPDQVIAIAADKNAQFDYVEKALSAVRDAGLSKVGFVTEEKERTQPQQ</Hsp_hseq>
+      <Hsp_midline>MAFGSMNGGDDSPMADINVTPLVDVMLVLLIVFMIT PVMTHSIPL  PTASAKQVA   AQPKDPLRISISADGSYH AEGEPITLQALESQLQQLAKTNPDQVIAI   KNAQFDYVEKALSAVRDAGLSKVGFVTEEKERTQPQQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_070543334.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Eikenella sp. HMSC061C02] &gt;gb|OFN59748.1| biopolymer transporter ExbD [Eikenella sp. HMSC061C02]</Hit_def>
+  <Hit_accession>WP_070543334</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>255.373</Hsp_bit-score>
+      <Hsp_score>651</Hsp_score>
+      <Hsp_evalue>1.12979e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MAFGSMNGGDDSPMADINVTPLVDVMLVLLIVFMIT-PVMTHSIPL--PTASAKQVA---AQPKDPLRISISADGSYH-AEGEPITLQALESQLQQLAKTNPDQVIAI---KNAQFDYVEKALSAVRDAGLSKVGFVTEEKERTQPQQ</Hsp_qseq>
+      <Hsp_hseq>MAFGSMNGGDDSPMADINVTPLVDVMLVLLIVFMITMPVMTHSIPLELPTASAKQVAENAAQPKDPMRISISADGSYHLAEGEPITLQALESQLQQLAKTNPDQVIAIAADKNAQFDYVEKALSAVRDAGLSKVGFVTEEKERTQPQQ</Hsp_hseq>
+      <Hsp_midline>MAFGSMNGGDDSPMADINVTPLVDVMLVLLIVFMIT PVMTHSIPL  PTASAKQVA   AQPKDP+RISISADGSYH AEGEPITLQALESQLQQLAKTNPDQVIAI   KNAQFDYVEKALSAVRDAGLSKVGFVTEEKERTQPQQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_088383058.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Eikenella corrodens] &gt;gb|OWP26967.1| biopolymer transporter ExbD [Eikenella corrodens]</Hit_def>
+  <Hit_accession>WP_088383058</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>255.373</Hsp_bit-score>
+      <Hsp_score>651</Hsp_score>
+      <Hsp_evalue>1.15486e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MAFGSMNGGDDSPMADINVTPLVDVMLVLLIVFMIT-PVMTHSIPL--PTASAKQVA---AQPKDPLRISISADGSYH-AEGEPITLQALESQLQQLAKTNPDQVIAI---KNAQFDYVEKALSAVRDAGLSKVGFVTEEKERTQPQQ</Hsp_qseq>
+      <Hsp_hseq>MAFGSMNGGDDSPMADINVTPLVDVMLVLLIVFMITMPVMTHSIPLELPTASAKQVAENAAQPKDPLRISISADGSYHLAEGEPITLQALESQLQQLAKTNPDQVIAIAADKNAQFDYVEKAISAVRDAGLSKVGFVTEEKERTQPQQ</Hsp_hseq>
+      <Hsp_midline>MAFGSMNGGDDSPMADINVTPLVDVMLVLLIVFMIT PVMTHSIPL  PTASAKQVA   AQPKDPLRISISADGSYH AEGEPITLQALESQLQQLAKTNPDQVIAI   KNAQFDYVEKA+SAVRDAGLSKVGFVTEEKERTQPQQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_315538967.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Eikenella corrodens]</Hit_def>
+  <Hit_accession>WP_315538967</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.988</Hsp_bit-score>
+      <Hsp_score>650</Hsp_score>
+      <Hsp_evalue>1.73311e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MAFGSMNGGDDSPMADINVTPLVDVMLVLLIVFMIT-PVMTHSIPL--PTASAKQVA---AQPKDPLRISISADGSYH-AEGEPITLQALESQLQQLAKTNPDQVIAI---KNAQFDYVEKALSAVRDAGLSKVGFVTEEKERTQPQQ</Hsp_qseq>
+      <Hsp_hseq>MAFGSMNGGDDSPMADINVTPLVDVMLVLLIVFMITMPVMTHSIPLELPTASAKQVAENAAQPKDPLRISISADGSYHLAEGEPITLQALENQLQQLAKTNPDQVIAIAADKNAQFDYVEKALSAVRDAGLSKVGFVTEEKERTQPQQ</Hsp_hseq>
+      <Hsp_midline>MAFGSMNGGDDSPMADINVTPLVDVMLVLLIVFMIT PVMTHSIPL  PTASAKQVA   AQPKDPLRISISADGSYH AEGEPITLQALE+QLQQLAKTNPDQVIAI   KNAQFDYVEKALSAVRDAGLSKVGFVTEEKERTQPQQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_064105821.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Eikenella corrodens] &gt;gb|MDN8581201.1| biopolymer transporter ExbD [Eikenella corrodens] &gt;gb|MDN8582494.1| biopolymer transporter ExbD [Eikenella corrodens] &gt;gb|MFC2418014.1| ExbD/TolR family protein [Eikenella corrodens] &gt;gb|OAM22038.1| biopolymer transporter ExbD [Eikenella corrodens]</Hit_def>
+  <Hit_accession>WP_064105821</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.218</Hsp_bit-score>
+      <Hsp_score>648</Hsp_score>
+      <Hsp_evalue>3.13416e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MAFGSMNGGDDSPMADINVTPLVDVMLVLLIVFMIT-PVMTHSIPL--PTASAKQVA---AQPKDPLRISISADGSYH-AEGEPITLQALESQLQQLAKTNPDQVIAI---KNAQFDYVEKALSAVRDAGLSKVGFVTEEKERTQPQQ</Hsp_qseq>
+      <Hsp_hseq>MAFGSMNGGDDSPMADINVTPLVDVMLVLLIVFMITMPVMTHSIPLELPTASAKQVAENAAQPKDPLRISISADGSYHLAEGEPITLQALESQLQQLAKTNPDQVIAIAADKNAQFDYVEKALSAVRDAGLSKVGFVTEEKERAQPQQ</Hsp_hseq>
+      <Hsp_midline>MAFGSMNGGDDSPMADINVTPLVDVMLVLLIVFMIT PVMTHSIPL  PTASAKQVA   AQPKDPLRISISADGSYH AEGEPITLQALESQLQQLAKTNPDQVIAI   KNAQFDYVEKALSAVRDAGLSKVGFVTEEKER QPQQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_023887013.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ExbD/TolR family protein [Eikenella] &gt;gb|ETA83749.1| hypothetical protein HMPREF1177_00940 [Eikenella corrodens CC92I] &gt;gb|OAM25877.1| biopolymer transporter ExbD [Eikenella corrodens] &gt;gb|OAM28063.1| biopolymer transporter ExbD [Eikenella sp. NML01-A-086] &gt;gb|OAM35669.1| biopolymer transporter ExbD [Eikenella sp. NML080894] &gt;gb|OAM37900.1| biopolymer transporter ExbD [Eikenella sp. NML120348]</Hit_def>
+  <Hit_accession>WP_023887013</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.218</Hsp_bit-score>
+      <Hsp_score>648</Hsp_score>
+      <Hsp_evalue>3.16874e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MAFGSMNGGDDSPMADINVTPLVDVMLVLLIVFMIT-PVMTHSIPL--PTASAKQVA---AQPKDPLRISISADGSYH-AEGEPITLQALESQLQQLAKTNPDQVIAI---KNAQFDYVEKALSAVRDAGLSKVGFVTEEKERTQPQQ</Hsp_qseq>
+      <Hsp_hseq>MAFGSMNSGDDSPMADINVTPLVDVMLVLLIVFMITMPVMTHSIPLELPTASAKQVAENAAQPKDPLRISISADGSYHLAEGEPITLQALESQLQQLAKTNPDQVIAIAADKNAQFDYVEKALSAVRDAGLSKVGFVTEEKERTQPQQ</Hsp_hseq>
+      <Hsp_midline>MAFGSMN GDDSPMADINVTPLVDVMLVLLIVFMIT PVMTHSIPL  PTASAKQVA   AQPKDPLRISISADGSYH AEGEPITLQALESQLQQLAKTNPDQVIAI   KNAQFDYVEKALSAVRDAGLSKVGFVTEEKERTQPQQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_153712272.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Eikenella corrodens]</Hit_def>
+  <Hit_accession>WP_153712272</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.906</Hsp_bit-score>
+      <Hsp_score>642</Hsp_score>
+      <Hsp_evalue>2.84324e-83</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MAFGSMNGGDDSPMADINVTPLVDVMLVLLIVFMIT-PVMTHSIPL--PTASAKQVA---AQPKDPLRISISADGSYH-AEGEPITLQALESQLQQLAKTNPDQVIAI---KNAQFDYVEKALSAVRDAGLSKVGFVTEEKERTQPQQ</Hsp_qseq>
+      <Hsp_hseq>MAFGSMNSGDDSPMADINVTPLVDVMLVLLIVFMITMPVMTHSIPLELPTASAKQVAENAAQPKDPLRISISADGSYHLAEGESITLQALESQLQQLAKTNPDQVIAIAADKNAQFDYVEKALSAVRDAGLSKVGFVTEEKERTQPQQ</Hsp_hseq>
+      <Hsp_midline>MAFGSMN GDDSPMADINVTPLVDVMLVLLIVFMIT PVMTHSIPL  PTASAKQVA   AQPKDPLRISISADGSYH AEGE ITLQALESQLQQLAKTNPDQVIAI   KNAQFDYVEKALSAVRDAGLSKVGFVTEEKERTQPQQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_067526759.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Eikenella sp. NML03-A-027] &gt;gb|OAM29631.1| biopolymer transporter ExbD [Eikenella sp. NML03-A-027]</Hit_def>
+  <Hit_accession>WP_067526759</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.136</Hsp_bit-score>
+      <Hsp_score>640</Hsp_score>
+      <Hsp_evalue>4.60736e-83</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MAFGSMNGGDDSPMADINVTPLVDVMLVLLIVFMIT-PVMTHSIPL--PTASAKQVA---AQPKDPLRISISADGSYH-AEGEPITLQALESQLQQLAKTNPDQVIAI---KNAQFDYVEKALSAVRDAGLSKVGFVTEEKERTQPQQ</Hsp_qseq>
+      <Hsp_hseq>MAFGSMNSGDDSPMADINVTPLVDVMLVLLIVFMITMPVMTHSIPLELPTASAKQVAENAAQPKDPLRISIAADGSYHLAEGEPITLQALESQLQQLAKTNPDQVIAIAADKNTQFDYVEKALSAVRDAGLSKVGFVTEEKERTQPQQ</Hsp_hseq>
+      <Hsp_midline>MAFGSMN GDDSPMADINVTPLVDVMLVLLIVFMIT PVMTHSIPL  PTASAKQVA   AQPKDPLRISI+ADGSYH AEGEPITLQALESQLQQLAKTNPDQVIAI   KN QFDYVEKALSAVRDAGLSKVGFVTEEKERTQPQQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_278585577.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Eikenella corrodens]</Hit_def>
+  <Hit_accession>WP_278585577</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>250.751</Hsp_bit-score>
+      <Hsp_score>639</Hsp_score>
+      <Hsp_evalue>8.61048e-83</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MAFGSMNGGDDSPMADINVTPLVDVMLVLLIVFMIT-PVMTHSIPL--PTASAKQVA---AQPKDPLRISISADGSYH-AEGEPITLQALESQLQQLAKTNPDQVIAI---KNAQFDYVEKALSAVRDAGLSKVGFVTEEKERTQPQQ</Hsp_qseq>
+      <Hsp_hseq>MAFGSMNGGDDSPMADINVTPLVDVMLVLLIVFMITMPVMTHSIPLELPTASAKQVAENAAQPKDPLRISISADGSYHLAEGESITLQALENQLQQLAKTNPDQVIAIAADKNAQFDYVEKALSAVRDAGLSKVGFVTEEKERAQPQQ</Hsp_hseq>
+      <Hsp_midline>MAFGSMNGGDDSPMADINVTPLVDVMLVLLIVFMIT PVMTHSIPL  PTASAKQVA   AQPKDPLRISISADGSYH AEGE ITLQALE+QLQQLAKTNPDQVIAI   KNAQFDYVEKALSAVRDAGLSKVGFVTEEKER QPQQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_049259144.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Eikenella corrodens] &gt;gb|OAM16130.1| biopolymer transporter ExbD [Eikenella corrodens]</Hit_def>
+  <Hit_accession>WP_049259144</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>250.366</Hsp_bit-score>
+      <Hsp_score>638</Hsp_score>
+      <Hsp_evalue>8.99674e-83</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MAFGSMNGGDDSPMADINVTPLVDVMLVLLIVFMIT-PVMTHSIPL--PTASAKQVA---AQPKDPLRISISADGSYH-AEGEPITLQALESQLQQLAKTNPDQVIAI---KNAQFDYVEKALSAVRDAGLSKVGFVTEEKERTQPQQ</Hsp_qseq>
+      <Hsp_hseq>MAFGSMNSGDDSPMADINVTPLVDVMLVLLIVFMITMPVMTHSIPLELPTASAKQVAENAAQPKDPLRISISADGSYHLAEGEPITLQALESQLQQLAKTNPDQVIAIAADKNAQFDYVEKTLSAVRDAGLSKVGFVTEEKERAQPQQ</Hsp_hseq>
+      <Hsp_midline>MAFGSMN GDDSPMADINVTPLVDVMLVLLIVFMIT PVMTHSIPL  PTASAKQVA   AQPKDPLRISISADGSYH AEGEPITLQALESQLQQLAKTNPDQVIAI   KNAQFDYVEK LSAVRDAGLSKVGFVTEEKER QPQQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_314253272.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Eikenella halliae] &gt;gb|MFC2352438.1| ExbD/TolR family protein [Eikenella halliae] &gt;gb|XID41969.1| ExbD/TolR family protein [Eikenella halliae]</Hit_def>
+  <Hit_accession>WP_314253272</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>239.195</Hsp_bit-score>
+      <Hsp_score>609</Hsp_score>
+      <Hsp_evalue>2.92138e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MAFGSMNGGDDSPMADINVTPLVDVMLVLLIVFMIT-PVMTHSIP--LPTASAKQV---AAQPKDPLRISISADGSYH-AEGEPITLQALESQLQQLAKTNPDQVIAI---KNAQFDYVEKALSAVRDAGLSKVGFVTEEKERTQPQQ</Hsp_qseq>
+      <Hsp_hseq>MAFGSMNGGDDSPMADINVTPLVDVMLVLLIVFMITMPVMTHSIPLELPTASAKQVAENAAQPKDPLRLSIAADGSYHLAEGEKISLQDLESRLQELAKTNPDQVIAIAADKNAQFDHVEKALSAVRDAGLSKVGFVTEEKDRAQPQQ</Hsp_hseq>
+      <Hsp_midline>MAFGSMNGGDDSPMADINVTPLVDVMLVLLIVFMIT PVMTHSIP  LPTASAKQV   AAQPKDPLR+SI+ADGSYH AEGE I+LQ LES+LQ+LAKTNPDQVIAI   KNAQFD+VEKALSAVRDAGLSKVGFVTEEK+R QPQQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_067530340.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ExbD/TolR family protein [unclassified Eikenella] &gt;gb|OAM34210.1| biopolymer transporter ExbD [Eikenella sp. NML070372] &gt;gb|OAM38956.1| biopolymer transporter ExbD [Eikenella sp. NML96-A-049] &gt;emb|VDH00793.1| biopolymer transport protein ExbD/TolR [Helicobacter pametensis]</Hit_def>
+  <Hit_accession>WP_067530340</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>238.039</Hsp_bit-score>
+      <Hsp_score>606</Hsp_score>
+      <Hsp_evalue>9.24171e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MAFGSMNGGDDSPMADINVTPLVDVMLVLLIVFMIT-PVMTHSIPL--PTASAKQV---AAQPKDPLRISISADGSYH-AEGEPITLQALESQLQQLAKTNPDQVIAI---KNAQFDYVEKALSAVRDAGLSKVGFVTEEKERTQPQQ</Hsp_qseq>
+      <Hsp_hseq>MAFGSMNSGDDSPMADINVTPLVDVMLVLLIVFMITMPVMTHSIPLELPTASAKQVEENAAQPKDPLRLSIAADGSYHLAEGEKISLQDLESQLQELAKTDPDQVIAIAADKNAQFDHVEKALSAVRDAGLSKVGFVTEEKERAQPQQ</Hsp_hseq>
+      <Hsp_midline>MAFGSMN GDDSPMADINVTPLVDVMLVLLIVFMIT PVMTHSIPL  PTASAKQV   AAQPKDPLR+SI+ADGSYH AEGE I+LQ LESQLQ+LAKT+PDQVIAI   KNAQFD+VEKALSAVRDAGLSKVGFVTEEKER QPQQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_064089770.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Eikenella halliae] &gt;gb|OAM42891.1| biopolymer transporter ExbD [Eikenella halliae]</Hit_def>
+  <Hit_accession>WP_064089770</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>237.654</Hsp_bit-score>
+      <Hsp_score>605</Hsp_score>
+      <Hsp_evalue>1.0658e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MAFGSMNGGDDSPMADINVTPLVDVMLVLLIVFMIT-PVMTHSIP--LPTASAKQV---AAQPKDPLRISISADGSYH-AEGEPITLQALESQLQQLAKTNPDQVIAI---KNAQFDYVEKALSAVRDAGLSKVGFVTEEKERTQPQQ</Hsp_qseq>
+      <Hsp_hseq>MAFGSMNGGDDSPMADINVTPLVDVMLVLLIVFMITMPVMTHSIPLELPTASAKQVAENAAQPKDPLRLSIAANGSYHLAEGEKISLQDLESRLQELAKTNPDQVIAIAADKNAQFDHVEKALSAVRDAGLSKVGFVTEEKDRAQPQQ</Hsp_hseq>
+      <Hsp_midline>MAFGSMNGGDDSPMADINVTPLVDVMLVLLIVFMIT PVMTHSIP  LPTASAKQV   AAQPKDPLR+SI+A+GSYH AEGE I+LQ LES+LQ+LAKTNPDQVIAI   KNAQFD+VEKALSAVRDAGLSKVGFVTEEK+R QPQQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_197902539.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Eikenella glucosivorans] &gt;gb|MBH5328623.1| biopolymer transporter ExbD [Eikenella glucosivorans]</Hit_def>
+  <Hit_accession>WP_197902539</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>235.728</Hsp_bit-score>
+      <Hsp_score>600</Hsp_score>
+      <Hsp_evalue>6.36309e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MAFGSMNGGDDSPMADINVTPLVDVMLVLLIVFMIT-PVMTHSIP--LPTASAKQV---AAQPKDPLRISISADGSYH-AEGEPITLQALESQLQQLAKTNPDQVIAI---KNAQFDYVEKALSAVRDAGLSKVGFVTEEKER</Hsp_qseq>
+      <Hsp_hseq>MAFGSMNNGDDSPMADINVTPLVDVMLVLLIVFMITMPVMTHSIPLELPTASAKQVAENAAQPKDPLRLSISADGSYHLAEGEQITLQALEAQLQQLAKTNPDQVIAIAADKNAQFDYVEKALSAVRDAGLSKVGFVTEEPER</Hsp_hseq>
+      <Hsp_midline>MAFGSMN GDDSPMADINVTPLVDVMLVLLIVFMIT PVMTHSIP  LPTASAKQV   AAQPKDPLR+SISADGSYH AEGE ITLQALE+QLQQLAKTNPDQVIAI   KNAQFDYVEKALSAVRDAGLSKVGFVTEE ER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_126982947.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Eikenella corrodens] &gt;gb|AZR59404.1| biopolymer transporter ExbD [Eikenella corrodens]</Hit_def>
+  <Hit_accession>WP_126982947</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>233.417</Hsp_bit-score>
+      <Hsp_score>594</Hsp_score>
+      <Hsp_evalue>4.79191e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MAFGSMNGGDDSPMADINVTPLVDVMLVLLIVFMIT-PVMTHSIP--LPTASAKQV---AAQPKDPLRISISADGSYH-AEGEPITLQALESQLQQLAKTNPDQVIAI---KNAQFDYVEKALSAVRDAGLSKVGFVTEEKERTQPQQ</Hsp_qseq>
+      <Hsp_hseq>MAFGSMNGGDDSPMADINVTPLVDVMLVLLIVFMITMPVMTHSIPLELPTASAKQVAENAAQPKDPLRLSIAADGSYHLAEGEKISLQDLENRLQELAKTNPDQVIAIAADKNAQFEHVEKALSAVRDAGLSKVGFVTEEKDHAQPQQ</Hsp_hseq>
+      <Hsp_midline>MAFGSMNGGDDSPMADINVTPLVDVMLVLLIVFMIT PVMTHSIP  LPTASAKQV   AAQPKDPLR+SI+ADGSYH AEGE I+LQ LE++LQ+LAKTNPDQVIAI   KNAQF++VEKALSAVRDAGLSKVGFVTEEK+  QPQQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_067590033.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ExbD/TolR family protein [Eikenella] &gt;gb|OAM31184.1| biopolymer transporter ExbD [Eikenella longinqua]</Hit_def>
+  <Hit_accession>WP_067590033</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.106</Hsp_bit-score>
+      <Hsp_score>588</Hsp_score>
+      <Hsp_evalue>4.0637e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MAFGSMNGGDDSPMADINVTPLVDVMLVLLIVFMIT-PVMTHSIP--LPTASAKQV---AAQPKDPLRISISADGSYH-AEGEPITLQALESQLQQLAKTNPDQVIAI---KNAQFDYVEKALSAVRDAGLSKVGFVTEEKER</Hsp_qseq>
+      <Hsp_hseq>MAFGSMNSGDDAPMADINVTPLVDVMLVLLIVFMITMPVMTHSIPLELPTASAKQVAENAAQPKDPLRLSISADGSYHLAEGEQISLQALESRLQELAKTNPDQVIAIAADKNAQFDYVEKALSAVRDAGLSKVGFVTEEPER</Hsp_hseq>
+      <Hsp_midline>MAFGSMN GDD+PMADINVTPLVDVMLVLLIVFMIT PVMTHSIP  LPTASAKQV   AAQPKDPLR+SISADGSYH AEGE I+LQALES+LQ+LAKTNPDQVIAI   KNAQFDYVEKALSAVRDAGLSKVGFVTEE ER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_064087450.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ExbD/TolR family protein [Eikenella] &gt;gb|OAM21044.1| biopolymer transporter ExbD [Eikenella corrodens] &gt;gb|OFK89687.1| biopolymer transporter ExbD [Eikenella sp. HMSC071B05] &gt;gb|OFO46762.1| biopolymer transporter ExbD [Eikenella sp. HMSC073A11]</Hit_def>
+  <Hit_accession>WP_064087450</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>229.95</Hsp_bit-score>
+      <Hsp_score>585</Hsp_score>
+      <Hsp_evalue>1.27232e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>MAFGSMNGGDDSPMADINVTPLVDVMLVLLIVFMIT-PVMTHSIP--LPTASAKQV---AAQPKDPLRISISADGSYH-AEGEPITLQALESQLQQLAKTNPDQVIAI---KNAQFDYVEKALSAVRDAGLSKVGFVTEEKERTQPQQ</Hsp_qseq>
+      <Hsp_hseq>MAFGSMNGGDDSPMADINVTPLVDVMLVLLIVFMITMPVMTHSIPLELPTASAKQVAENAAQPKDPLRISISASNDYYLAEGKQLSLQTLESQLQQIAKENPDQVIAIAVDKNAQFDSVEKVLSAVRDAGLSKVGFVTEEKERTQPQQ</Hsp_hseq>
+      <Hsp_midline>MAFGSMNGGDDSPMADINVTPLVDVMLVLLIVFMIT PVMTHSIP  LPTASAKQV   AAQPKDPLRISISA   Y+ AEG+ ++LQ LESQLQQ+AK NPDQVIAI   KNAQFD VEK LSAVRDAGLSKVGFVTEEKERTQPQQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_182122161.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Neisseria shayeganii] &gt;gb|QMT40509.1| biopolymer transporter ExbD [Neisseria shayeganii]</Hit_def>
+  <Hit_accession>WP_182122161</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.267</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>4.99425e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MAFGSMNGGDDSPMADINVTPLVDVMLVLLIVFMIT-PVMTHSIP--LPTASAKQVAA---QPKDPLRISISADGSYH-AEGEPITLQALESQLQQLAKTNPDQVIAI---KNAQFDYVEKALSAVRDAGLSKVGFVTEEKER</Hsp_qseq>
+      <Hsp_hseq>MAFGSMNEGDDAPMADINVTPLVDVMLVLLIVFMITMPVMTHSVPLQLPTASEKQQRENQPQPKDPLRISINADGQYHLAEGEALPFKDLEARLLQIGKENPDTVIAIAADKNVPFERVEDALSAVRDAGLSKVGFVTQEADR</Hsp_hseq>
+      <Hsp_midline>MAFGSMN GDD+PMADINVTPLVDVMLVLLIVFMIT PVMTHS+P  LPTAS KQ      QPKDPLRISI+ADG YH AEGE +  + LE++L Q+ K NPD VIAI   KN  F+ VE ALSAVRDAGLSKVGFVT+E +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_009120164.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Neisseria shayeganii] &gt;gb|EGY51307.1| TonB family auxiliary protein ExbD [Neisseria shayeganii 871]</Hit_def>
+  <Hit_accession>WP_009120164</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.341</Hsp_bit-score>
+      <Hsp_score>464</Hsp_score>
+      <Hsp_evalue>2.84985e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MAFGSMNGGDDSPMADINVTPLVDVMLVLLIVFMIT-PVMTHSIP--LPTASAKQVAA---QPKDPLRISISADGSYH-AEGEPITLQALESQLQQLAKTNPDQVIAI---KNAQFDYVEKALSAVRDAGLSKVGFVTEEKE</Hsp_qseq>
+      <Hsp_hseq>MAFGSMNEGDDAPMADINVTPLVDVMLVLLIVFMITMPVMTHSVPLQLPTASEKQQQENQPQPKDPLRISINADGQYHLAEGEALLFKDLEARLLQIGKENPDTVIAIAADKNVPFERVEDALSAVRDAGLSKVGFVTQEAD</Hsp_hseq>
+      <Hsp_midline>MAFGSMN GDD+PMADINVTPLVDVMLVLLIVFMIT PVMTHS+P  LPTAS KQ      QPKDPLRISI+ADG YH AEGE +  + LE++L Q+ K NPD VIAI   KN  F+ VE ALSAVRDAGLSKVGFVT+E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_308860881.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Neisseria mucosa]</Hit_def>
+  <Hit_accession>WP_308860881</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.384</Hsp_bit-score>
+      <Hsp_score>407</Hsp_score>
+      <Hsp_evalue>1.23832e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MAFGSMNGGDDSPMADINVTPLVDVMLVLLIVFMIT-PVMTHSIP--LPTAS---AKQVAAQPKDPLRISISADGSYHAEGEPIT---LQALESQLQQLAKTNPDQVIAI---KNAQFDYVEKALSAVRDAGLSKVGFVTEEK</Hsp_qseq>
+      <Hsp_hseq>MAFGSMNSGDDSPMSDINVTPLVDVMLVLLIVFMITMPVLTHSIPLELPTASEKAAKQKEKQPKDPLRLTIDANGSYYVGGDSATKVDIDTVISRLKTEKQENADTIIAIAADKAVEYEYVNKALEAAREAGISKVGFVTETK</Hsp_hseq>
+      <Hsp_midline>MAFGSMN GDDSPM+DINVTPLVDVMLVLLIVFMIT PV+THSIP  LPTAS   AKQ   QPKDPLR++I A+GSY+  G+  T   +  + S+L+   + N D +IAI   K  +++YV KAL A R+AG+SKVGFVTE K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>877781531</Statistics_db-num>
+      <Statistics_db-len>334720180573</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

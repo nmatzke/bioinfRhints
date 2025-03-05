@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_557111</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>157</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_557111</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>157</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_120547877.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Corallococcus sp. AB049A] &gt;gb|RKH51527.1| biopolymer transporter ExbD [Corallococcus sp. AB050B] &gt;gb|RKI68531.1| biopolymer transporter ExbD [Corallococcus sp. AB049A]</Hit_def>
+  <Hit_accession>WP_120547877</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>260.766</Hsp_bit-score>
+      <Hsp_score>665</Hsp_score>
+      <Hsp_evalue>3.59235e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIF----ITGLTAFGALNV--PSYGAAAGAGGDADARKLNLSVLISQKGLIVRGDSAEIPVTEGGAPTLPLRADGTQDFAALNAQMVKLKAAFPQETKVIV---PDIPYEALIQTMDAL--TTGV-AERKL-----TLGVL</Hsp_qseq>
+      <Hsp_hseq>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIFMLLSITGLTAFGALNVNAPSYGASVGAGGDADAPKLNLSVLISQKGLFIRGNSAEIPATEAGAPTVPVRKDGTQDFAALNAQVVKLKAAFPQETKVIVAADPDIPYESLIQTMDALRETTGTAAERKLLFPDVTLGVL</Hsp_hseq>
+      <Hsp_midline>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIF    ITGLTAFGALNV  PSYGA+ GAGGDADA KLNLSVLISQKGL +RG+SAEIP TE GAPT+P+R DGTQDFAALNAQ+VKLKAAFPQETKVIV   PDIPYE+LIQTMDAL  TTG  AERKL     TLGVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_121770334.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Corallococcus interemptor] &gt;gb|RKH67835.1| biopolymer transporter ExbD [Corallococcus interemptor]</Hit_def>
+  <Hit_accession>WP_121770334</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.61</Hsp_bit-score>
+      <Hsp_score>662</Hsp_score>
+      <Hsp_evalue>1.08707e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIF----ITGLTAFGALNV--PSYGAAAGAGGDADARKLNLSVLISQKGLIVRGDSAEIPVTEGGAPTLPLRADGTQDFAALNAQMVKLKAAFPQETKVIV---PDIPYEALIQTMDAL--TTGV-AERKL-----TLGVL</Hsp_qseq>
+      <Hsp_hseq>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIFMLLSITGLTAFGALNVNAPSYGASVGAGGDADAPKLNLSVLISQKGLFIRGNSAELPATEAGAPTVPVRKDGTQDFAALNAQVVKLKAAFPQETKVIVAADPDIPYESLIQTMDALRETTGTAAERKLLFPDVTLGVL</Hsp_hseq>
+      <Hsp_midline>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIF    ITGLTAFGALNV  PSYGA+ GAGGDADA KLNLSVLISQKGL +RG+SAE+P TE GAPT+P+R DGTQDFAALNAQ+VKLKAAFPQETKVIV   PDIPYE+LIQTMDAL  TTG  AERKL     TLGVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_014397847.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Corallococcus coralloides] &gt;gb|AFE06168.1| hypothetical protein COCOR_05054 [Corallococcus coralloides DSM 2259]</Hit_def>
+  <Hit_accession>WP_014397847</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.529</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>2.1677e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIF----ITGLTAFGALNV--PSYGAAAGAGGDADARKLNLSVLISQKGLIVRGDSAEIPVTEGGAPTLPLRADGTQDFAALNAQMVKLKAAFPQETKVIV---PDIPYEALIQTMDAL--TTG-VAERKL-----TLGVL</Hsp_qseq>
+      <Hsp_hseq>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIFMLLSITGLTAFGALNVNAPSYGAAAGAGGDADARKLNLSVLISQKGLIVRGDSAEIPVTEGGAPTLPLRADGTQDFAALNAQMVKLKAAFPQETKVIVAADPDIPYEALIQTMDALRETTGTVAERKLLFPDVTLGVL</Hsp_hseq>
+      <Hsp_midline>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIF    ITGLTAFGALNV  PSYGAAAGAGGDADARKLNLSVLISQKGLIVRGDSAEIPVTEGGAPTLPLRADGTQDFAALNAQMVKLKAAFPQETKVIV   PDIPYEALIQTMDAL  TTG VAERKL     TLGVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_120565985.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ExbD/TolR family protein [unclassified Corallococcus] &gt;gb|RKG54956.1| biopolymer transporter ExbD [Corallococcus sp. AB011P] &gt;gb|RKH79979.1| biopolymer transporter ExbD [Corallococcus sp. AB045]</Hit_def>
+  <Hit_accession>WP_120565985</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>255.373</Hsp_bit-score>
+      <Hsp_score>651</Hsp_score>
+      <Hsp_evalue>5.68779e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIF----ITGLTAFGALNV--PSYGAAAGAGGDADARKLNLSVLISQKGLIVRGDSAEIPVTEGGAPTLPLRADGTQDFAALNAQMVKLKAAFPQETKVIV---PDIPYEALIQTMDAL--TTG-VAERKL-----TLGVL</Hsp_qseq>
+      <Hsp_hseq>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIFMLLSITGLTAFGALNVNAPSYGASVGAGGDADAPKLNLSVLISKDGLFIRGNSAEIPVTAEKVPTLSLRTDGTQDFAALNAQMVKLKAAFPQETKVIVAADPDIPYEALIQTMDALRETTGTVAERKLLFPDVTLGVL</Hsp_hseq>
+      <Hsp_midline>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIF    ITGLTAFGALNV  PSYGA+ GAGGDADA KLNLSVLIS+ GL +RG+SAEIPVT    PTL LR DGTQDFAALNAQMVKLKAAFPQETKVIV   PDIPYEALIQTMDAL  TTG VAERKL     TLGVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_120556289.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Corallococcus aberystwythensis] &gt;gb|RKH65947.1| biopolymer transporter ExbD [Corallococcus aberystwythensis]</Hit_def>
+  <Hit_accession>WP_120556289</Hit_accession>
+  <Hit_len>175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.521</Hsp_bit-score>
+      <Hsp_score>641</Hsp_score>
+      <Hsp_evalue>2.31392e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIF----ITGLTAFGALNV--PSYGAAAGAG-GDADARKLNLSVLISQKGLIVRGDSAEIPVTEGGAPTLPLRADGTQDFAALNAQMVKLKAAFPQETKVIV---PDIPYEALIQTMDAL--TTG-VAERKL-----TLGVL</Hsp_qseq>
+      <Hsp_hseq>MAFHYSRRKLKPREEEEGGELNIVPYLDILMNLIIFMLLSITGLTAFGALNVNAPSYGATAGAGQGDADAPKLNLSVLISQKGLFVRGNSPEAAPAEGGAPSVPLRADGTQDFAALNARMVKLKAAFPQETKVIVAADPDIPYEALIQTMDALRETTGTVAERKLLFPDVTLGVL</Hsp_hseq>
+      <Hsp_midline>MAFHYSRRKLKPREEEE GELNIVPYLDILMNLIIF    ITGLTAFGALNV  PSYGA AGAG GDADA KLNLSVLISQKGL VRG+S E    EGGAP++PLRADGTQDFAALNA+MVKLKAAFPQETKVIV   PDIPYEALIQTMDAL  TTG VAERKL     TLGVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_120618774.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Corallococcus sp. CA049B] &gt;gb|NOJ93736.1| biopolymer transporter ExbD [Corallococcus coralloides] &gt;gb|RKG87357.1| biopolymer transporter ExbD [Corallococcus sp. CA049B]</Hit_def>
+  <Hit_accession>WP_120618774</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>250.751</Hsp_bit-score>
+      <Hsp_score>639</Hsp_score>
+      <Hsp_evalue>3.5451e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIF----ITGLTAFGALNV--PSYGAAAGAGGDADARKLNLSVLISQKGLIVRGDSAEIPVTEGGAPTLPLRADGTQDFAALNAQMVKLKAAFPQETKVIV---PDIPYEALIQTMDAL--TTG-VAERKL-----TLGVL</Hsp_qseq>
+      <Hsp_hseq>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIFMLLSITGLTAFGALNVNAPSYGAAAGAGGDADAPKLNLSVLISQKGLIVRGDSAEIPVTEGGAPTLPLRPDGTQDFAALNAQMVKLKAAFPQETKVIVAADPDIPYEALIQTMDALRETTGTVAERKLLFPDVTLGVL</Hsp_hseq>
+      <Hsp_midline>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIF    ITGLTAFGALNV  PSYGAAAGAGGDADA KLNLSVLISQKGLIVRGDSAEIPVTEGGAPTLPLR DGTQDFAALNAQMVKLKAAFPQETKVIV   PDIPYEALIQTMDAL  TTG VAERKL     TLGVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_374262114.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Corallococcus sp. RDP092CA] &gt;gb|MFB1479805.1| biopolymer transporter ExbD [Corallococcus sp. RDP092CA]</Hit_def>
+  <Hit_accession>WP_374262114</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>248.825</Hsp_bit-score>
+      <Hsp_score>634</Hsp_score>
+      <Hsp_evalue>1.95975e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIF----ITGLTAFGALNV--PSYGAAAGAGGDADARKLNLSVLISQKGLIVRGDSAEIPVTEGGAPTLPLRADGTQDFAALNAQMVKLKAAFPQETKVIV---PDIPYEALIQTMDAL--TTGV-AERKL-----TLGVL</Hsp_qseq>
+      <Hsp_hseq>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIFMLLSITGLTAFGALNVNAPSYGAAAGAGGDADAPKLNLSVLISQKGLIVRGNSAEIPVTEGGAPTLPLRADGTQDFAALNAQMVKLKAAFPQETKVIVAADPDIPYESLIQTMDALRETTGTAAERKLLFPDVTLGVL</Hsp_hseq>
+      <Hsp_midline>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIF    ITGLTAFGALNV  PSYGAAAGAGGDADA KLNLSVLISQKGLIVRG+SAEIPVTEGGAPTLPLRADGTQDFAALNAQMVKLKAAFPQETKVIV   PDIPYE+LIQTMDAL  TTG  AERKL     TLGVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_128797950.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Corallococcus coralloides] &gt;gb|QAT86351.1| hypothetical protein EJ065_4809 [Corallococcus coralloides]</Hit_def>
+  <Hit_accession>WP_128797950</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.514</Hsp_bit-score>
+      <Hsp_score>628</Hsp_score>
+      <Hsp_evalue>1.89447e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIF----ITGLTAFGALNV--PSYGAAAGAGGDADARKLNLSVLISQKGLIVRGDSAEIPVTEGGAPTLPLRADGTQDFAALNAQMVKLKAAFPQETKVIV---PDIPYEALIQTMDAL--TTG-VAERKL-----TLGVL</Hsp_qseq>
+      <Hsp_hseq>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIFMLLSITGLTAFGALNVNAPSYGAAAGAGGDADAPKLNLSVLISRKGLIVRGDSAEIPVTEGGAPTLPLRPDGTQDFAALNAQMVKLKAAFPQETKVIVAADPDIPYEALIQTMDALRETPGTVAERKLLFPDVTLGVL</Hsp_hseq>
+      <Hsp_midline>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIF    ITGLTAFGALNV  PSYGAAAGAGGDADA KLNLSVLIS+KGLIVRGDSAEIPVTEGGAPTLPLR DGTQDFAALNAQMVKLKAAFPQETKVIV   PDIPYEALIQTMDAL  T G VAERKL     TLGVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_206792859.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ExbD/TolR family protein [unclassified Corallococcus] &gt;gb|MBN9684298.1| biopolymer transporter ExbD [Corallococcus sp. NCSPR001] &gt;gb|WAS84221.1| biopolymer transporter ExbD [Corallococcus sp. NCRR]</Hit_def>
+  <Hit_accession>WP_206792859</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.588</Hsp_bit-score>
+      <Hsp_score>623</Hsp_score>
+      <Hsp_evalue>9.384e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIF----ITGLTAFGALNV--PSYGAAAGAGGDADARKLNLSVLISQKGLIVRGDSAEIPVTEGGAPTLPLRADGTQDFAALNAQMVKLKAAFPQETKVIV---PDIPYEALIQTMDAL--TTG-VAERKL-----TLGVL</Hsp_qseq>
+      <Hsp_hseq>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIFMLLSITGLTAFGALNVNAPSYGATAGAGGDADAPKLNLSVLISQKGLIVRGNSAEIPATEGGAPTLPLRADGTQDYAALNAQMVKLKAAFPRETKVIVAADPDIPYDALIQTMDALRETTGTVAERKLLFPDVTLGVL</Hsp_hseq>
+      <Hsp_midline>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIF    ITGLTAFGALNV  PSYGA AGAGGDADA KLNLSVLISQKGLIVRG+SAEIP TEGGAPTLPLRADGTQD+AALNAQMVKLKAAFP+ETKVIV   PDIPY+ALIQTMDAL  TTG VAERKL     TLGVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_171413480.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Corallococcus exercitus] &gt;gb|NOK09278.1| biopolymer transporter ExbD [Corallococcus exercitus]</Hit_def>
+  <Hit_accession>WP_171413480</Hit_accession>
+  <Hit_len>175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>243.817</Hsp_bit-score>
+      <Hsp_score>621</Hsp_score>
+      <Hsp_evalue>2.6307e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIF----ITGLTAFGALNV--PSYGAAAGAG-GDADARKLNLSVLISQKGLIVRGDSAEIPVTEGGAPTLPLRADGTQDFAALNAQMVKLKAAFPQETKVIV---PDIPYEALIQTMDAL--TTG-VAERKL-----TLGVL</Hsp_qseq>
+      <Hsp_hseq>MAFHYSRRKLKPREEEEGGELNIVPYLDILMNLIIFMLLSITGLTAFGALNVNAPSYGATAGAGQGDADAPKLNLSVLISHKGLFVRGNSPEAAPAEGGAPTVPLRADGTHDFAALTARMVKLKAAFPQETKVVVAADPDIPYEALIQTMDALRETPGTVAERKLLFPDVTLGVL</Hsp_hseq>
+      <Hsp_midline>MAFHYSRRKLKPREEEE GELNIVPYLDILMNLIIF    ITGLTAFGALNV  PSYGA AGAG GDADA KLNLSVLIS KGL VRG+S E    EGGAPT+PLRADGT DFAAL A+MVKLKAAFPQETKV+V   PDIPYEALIQTMDAL  T G VAERKL     TLGVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_120527850.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Corallococcus exercitus] &gt;gb|NOK34077.1| biopolymer transporter ExbD [Corallococcus exercitus] &gt;gb|RKG73803.1| biopolymer transporter ExbD [Corallococcus exercitus]</Hit_def>
+  <Hit_accession>WP_120527850</Hit_accession>
+  <Hit_len>175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.506</Hsp_bit-score>
+      <Hsp_score>615</Hsp_score>
+      <Hsp_evalue>2.06434e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIF----ITGLTAFGALNV--PSYGAAAGAG-GDADARKLNLSVLISQKGLIVRGDSAEIPVTEGGAPTLPLRADGTQDFAALNAQMVKLKAAFPQETKVIV---PDIPYEALIQTMDAL--TTGV-AERKL-----TLGVL</Hsp_qseq>
+      <Hsp_hseq>MAFHYSRRKLKPREEEEGGELNIVPYLDILMNLIIFMLLSITGLTAFGALNVNAPSYGATAGVGQGDADAPKLNLSVLISHKGLFVRGNSPEAAPAEGGAPTVPLRADGTHDFAALTARMVKLKAAFPQETKVIVAADPDIPYEALIQTMDALRETAGTAAERKLLFPDVTLGVL</Hsp_hseq>
+      <Hsp_midline>MAFHYSRRKLKPREEEE GELNIVPYLDILMNLIIF    ITGLTAFGALNV  PSYGA AG G GDADA KLNLSVLIS KGL VRG+S E    EGGAPT+PLRADGT DFAAL A+MVKLKAAFPQETKVIV   PDIPYEALIQTMDAL  T G  AERKL     TLGVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_223634014.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Corallococcus sp. EGB]</Hit_def>
+  <Hit_accession>WP_223634014</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>240.35</Hsp_bit-score>
+      <Hsp_score>612</Hsp_score>
+      <Hsp_evalue>4.69279e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIF----ITGLTAFGALNV--PSYGAAAGAGGDADARKLNLSVLISQKGLIVRGDSAEIPVTEGGAPTLPLRADGTQDFAALNAQMVKLKAAFPQETKVIV---PDIPYEALIQTMDAL--TTGV-AERKL-----TLGVL</Hsp_qseq>
+      <Hsp_hseq>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIFMLLSITGLTAFGALNVNAPSYGATAGAGGDAEGPKLNLSVLISHQGLIVRGDSPEIPATEGGAPTVPLRADGTQDFAALNAQMVKLKAAFPQETKVIVAADPDIPYEALIQTMDALRETPGTAAERKLLFPDVTLGVL</Hsp_hseq>
+      <Hsp_midline>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIF    ITGLTAFGALNV  PSYGA AGAGGDA+  KLNLSVLIS +GLIVRGDS EIP TEGGAPT+PLRADGTQDFAALNAQMVKLKAAFPQETKVIV   PDIPYEALIQTMDAL  T G  AERKL     TLGVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_410386054.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Corallococcus sp. 4LFB] &gt;gb|MFP2898855.1| ExbD/TolR family protein [Corallococcus sp. 4LFB]</Hit_def>
+  <Hit_accession>WP_410386054</Hit_accession>
+  <Hit_len>175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>239.965</Hsp_bit-score>
+      <Hsp_score>611</Hsp_score>
+      <Hsp_evalue>7.94552e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIF----ITGLTAFGALNV--PSYGAAAGAG-GDADARKLNLSVLISQKGLIVRGDSAEIPVTEGGAPTLPLRADGTQDFAALNAQMVKLKAAFPQETKVIV---PDIPYEALIQTMDAL--TTGV-AERKL-----TLGVL</Hsp_qseq>
+      <Hsp_hseq>MAFHYSRRKLKPREEEEGGELNIVPYLDILMNLIIFMLLSITGLTAFGALNVNAPSYGAAASVGQGDADAPKLNLSVLISHKGLFVRGNSPEAAPAEGGAPTVPVRADGTHDFAALTARMVKLKAAFPQETKVIVAADPDIPYEALIQTMDALRETAGTAAERKLLFPDVTLGVL</Hsp_hseq>
+      <Hsp_midline>MAFHYSRRKLKPREEEE GELNIVPYLDILMNLIIF    ITGLTAFGALNV  PSYGAAA  G GDADA KLNLSVLIS KGL VRG+S E    EGGAPT+P+RADGT DFAAL A+MVKLKAAFPQETKVIV   PDIPYEALIQTMDAL  T G  AERKL     TLGVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_338261075.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Corallococcus caeni] &gt;dbj|GMT95951.1| protein TolR [Corallococcus caeni]</Hit_def>
+  <Hit_accession>WP_338261075</Hit_accession>
+  <Hit_len>175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>239.965</Hsp_bit-score>
+      <Hsp_score>611</Hsp_score>
+      <Hsp_evalue>7.94552e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIF----ITGLTAFGALNV--PSYGAAAGAG-GDADARKLNLSVLISQKGLIVRGDSAEIPVTEGGAPTLPLRADGTQDFAALNAQMVKLKAAFPQETKVIV---PDIPYEALIQTMDAL--TTGV-AERKL-----TLGVL</Hsp_qseq>
+      <Hsp_hseq>MAFHYSRRKLKPREEEEGGELNIVPYLDILMNLIIFMLLSITGLTAFGALNVNAPSYGATAGVGQGDADAPKLNLSVLISHKGLFVRGNSPEAAPAEGGAPTVPVRADGTHDFAALTARMVKLKAAFPQETKVVVAADPDIPYEALIQTMDALRETAGTAAERKLLFPDVTLGVL</Hsp_hseq>
+      <Hsp_midline>MAFHYSRRKLKPREEEE GELNIVPYLDILMNLIIF    ITGLTAFGALNV  PSYGA AG G GDADA KLNLSVLIS KGL VRG+S E    EGGAPT+P+RADGT DFAAL A+MVKLKAAFPQETKV+V   PDIPYEALIQTMDAL  T G  AERKL     TLGVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_375760199.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Corallococcus exercitus] &gt;gb|XHF28870.1| biopolymer transporter ExbD [Corallococcus exercitus]</Hit_def>
+  <Hit_accession>WP_375760199</Hit_accession>
+  <Hit_len>175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>239.58</Hsp_bit-score>
+      <Hsp_score>610</Hsp_score>
+      <Hsp_evalue>9.8923e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIF----ITGLTAFGALNV--PSYGAAAGAG-GDADARKLNLSVLISQKGLIVRGDSAEIPVTEGGAPTLPLRADGTQDFAALNAQMVKLKAAFPQETKVIV---PDIPYEALIQTMDAL--TTG-VAERKL-----TLGVL</Hsp_qseq>
+      <Hsp_hseq>MAFHYSRRKLKPREEEEGGELNIVPYLDILMNLIIFMLLSITGLTAFGALNVNAPSYGATAGAGQGDADAPKLNLSVLISHKGLFVRGDSPEAAPAEGGAPTVPVRADGTHDYAALTERMVKLKAAFPRETKVIVAADPDIPYEALIQTMDALRETPGTVAERKLLFPDVTLGVL</Hsp_hseq>
+      <Hsp_midline>MAFHYSRRKLKPREEEE GELNIVPYLDILMNLIIF    ITGLTAFGALNV  PSYGA AGAG GDADA KLNLSVLIS KGL VRGDS E    EGGAPT+P+RADGT D+AAL  +MVKLKAAFP+ETKVIV   PDIPYEALIQTMDAL  T G VAERKL     TLGVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_338278671.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Corallococcus caeni] &gt;dbj|GMU07778.1| protein TolR [Corallococcus caeni]</Hit_def>
+  <Hit_accession>WP_338278671</Hit_accession>
+  <Hit_len>175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>239.195</Hsp_bit-score>
+      <Hsp_score>609</Hsp_score>
+      <Hsp_evalue>1.40468e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIF----ITGLTAFGALNV--PSYGAAAGAG-GDADARKLNLSVLISQKGLIVRGDSAEIPVTEGGAPTLPLRADGTQDFAALNAQMVKLKAAFPQETKVIV---PDIPYEALIQTMDAL--TTGV-AERKL-----TLGVL</Hsp_qseq>
+      <Hsp_hseq>MAFHYSRRKLKPREEEEGGELNIVPYLDILMNLIIFMLLSITGLTAFGALNVNAPSYGATAGVGQGDADAPKLNLSVLISHKGLFIRGNSPEAAPAEGGAPTVPVRADGTHDFAALTARMVKLKAAFPQETKVVVAADPDIPYEALIQTMDALRETAGTAAERKLLFPDVTLGVL</Hsp_hseq>
+      <Hsp_midline>MAFHYSRRKLKPREEEE GELNIVPYLDILMNLIIF    ITGLTAFGALNV  PSYGA AG G GDADA KLNLSVLIS KGL +RG+S E    EGGAPT+P+RADGT DFAAL A+MVKLKAAFPQETKV+V   PDIPYEALIQTMDAL  T G  AERKL     TLGVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_207057531.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Corallococcus macrosporus] &gt;gb|MBN8232975.1| biopolymer transporter ExbD [Corallococcus macrosporus]</Hit_def>
+  <Hit_accession>WP_207057531</Hit_accession>
+  <Hit_len>175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>234.572</Hsp_bit-score>
+      <Hsp_score>597</Hsp_score>
+      <Hsp_evalue>9.13107e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIF----ITGLTAFGALNV--PSYGAAAGAG-GDADARKLNLSVLISQKGLIVRGDSAEIPVTEGGAPTLPLRADGTQDFAALNAQMVKLKAAFPQETKVIVP---DIPYEALIQTMDAL--TTGV-AERKL-----TLGVL</Hsp_qseq>
+      <Hsp_hseq>MAFHYSRRKLKPREEEEGGELNIVPYLDILMNLIIFMLLSITGLTAFGALNVNAPSYGATAGAGQGDADAPKLNLSVLISHKGLFIRGNSPEAAPAEGGAPTVPVRADGTHDYAALTERMVKLKAAFPQETKVIVAADLDIPYEALIQTMDALRETAGTAAERKLLFPDVTLGVL</Hsp_hseq>
+      <Hsp_midline>MAFHYSRRKLKPREEEE GELNIVPYLDILMNLIIF    ITGLTAFGALNV  PSYGA AGAG GDADA KLNLSVLIS KGL +RG+S E    EGGAPT+P+RADGT D+AAL  +MVKLKAAFPQETKVIV    DIPYEALIQTMDAL  T G  AERKL     TLGVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_120591458.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Corallococcus sp. CA054B] &gt;gb|RKG63531.1| biopolymer transporter ExbD [Corallococcus sp. CA054B]</Hit_def>
+  <Hit_accession>WP_120591458</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>234.187</Hsp_bit-score>
+      <Hsp_score>596</Hsp_score>
+      <Hsp_evalue>1.18715e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIF----ITGLTAFGALNV--PSYGAAAGAGGDADARKLNLSVLISQKGLIVRGDSAEIPVTEGGAPTLPLRADGTQDFAALNAQMVKLKAAFPQETKVIV---PDIPYEALIQTMDAL--TTGV-AERKL-----TLGVL</Hsp_qseq>
+      <Hsp_hseq>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIFMLLSITGLTAFGALNVNAPSYGASVGAGGDADAPKLDLRVIIAKDGLFVLGNSPEIPAKEATVPTLPLRADGTQDFAALNAQLVKLKAAFPQETKVILVAEPAIPYESLIQTMDALRETPGTAAERKLLFPDVTLGSL</Hsp_hseq>
+      <Hsp_midline>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIF    ITGLTAFGALNV  PSYGA+ GAGGDADA KL+L V+I++ GL V G+S EIP  E   PTLPLRADGTQDFAALNAQ+VKLKAAFPQETKVI+   P IPYE+LIQTMDAL  T G  AERKL     TLG L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_223742231.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ExbD/TolR family protein [Corallococcus] &gt;gb|MBZ4333682.1| biopolymer transporter ExbD [Corallococcus sp. AS-1-12] &gt;gb|MBZ4370638.1| biopolymer transporter ExbD [Corallococcus sp. AS-1-6] &gt;gb|XHF21543.1| biopolymer transporter ExbD [Corallococcus interemptor] &gt;gb|XKF28539.1| ExbD/TolR family protein [Corallococcus coralloides]</Hit_def>
+  <Hit_accession>WP_223742231</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.491</Hsp_bit-score>
+      <Hsp_score>589</Hsp_score>
+      <Hsp_evalue>1.89788e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIF----ITGLTAFGALNV--PSYGAAAGAGGDADARKLNLSVLISQKGLIVRGDSAEIPVTEGGAPTLPLRADGTQDFAALNAQMVKLKAAFPQETKVIVP---DIPYEALIQTMDAL--TTGV-AERKL-----TLGVL</Hsp_qseq>
+      <Hsp_hseq>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIFMLLSITGLTAFGALNVNAPSYGATAGAGGDADAPKLNLSVLISQKGLTVRGNSEVIPVTQGGAPTLPLRADGTQDFAALNAQMVKLKAAFPTETKVIVAAEGNVPYESLIQTMDALRETTGTAAERKLLFPDVTLGAL</Hsp_hseq>
+      <Hsp_midline>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIF    ITGLTAFGALNV  PSYGA AGAGGDADA KLNLSVLISQKGL VRG+S  IPVT+GGAPTLPLRADGTQDFAALNAQMVKLKAAFP ETKVIV    ++PYE+LIQTMDAL  TTG  AERKL     TLG L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_120575585.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Corallococcus sp. CA041A] &gt;gb|RKH28850.1| biopolymer transporter ExbD [Corallococcus sp. CA041A]</Hit_def>
+  <Hit_accession>WP_120575585</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>229.565</Hsp_bit-score>
+      <Hsp_score>584</Hsp_score>
+      <Hsp_evalue>8.23738e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIF----ITGLTAFGALNV--PSYGAAAGAGGDADARKLNLSVLISQKGLIVRGDSAEIPVTEGGAPTLPLRADGTQDFAALNAQMVKLKAAFPQETKVIV---PDIPYEALIQTMDAL--TTG-VAERKL-----TLGVL</Hsp_qseq>
+      <Hsp_hseq>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIFMLLSITGLTAFGALNVNAPSYGATAGAGGDADAPKLNLSVLISQKGLFIRGDSADAAPAEGGAPSVPLRADGTHDFAALNARMVKLKAAFPKETKVIVAADPDIPYDALIQTMDALRETTGTVAERKLLFPDVTLGVL</Hsp_hseq>
+      <Hsp_midline>MAFHYSRRKLKPREEEEAGELNIVPYLDILMNLIIF    ITGLTAFGALNV  PSYGA AGAGGDADA KLNLSVLISQKGL +RGDSA+    EGGAP++PLRADGT DFAALNA+MVKLKAAFP+ETKVIV   PDIPY+ALIQTMDAL  TTG VAERKL     TLGVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>877781531</Statistics_db-num>
+      <Statistics_db-len>334720180573</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

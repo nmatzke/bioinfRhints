@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_5067589</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>188</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_5067589</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>188</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|EJM9651699.1|</Hit_id>
+  <Hit_def>Tol-Pal system protein TolQ [Escherichia coli] &gt;gb|ELI1907448.1| Tol-Pal system protein TolQ [Escherichia coli] &gt;gb|ENP6901617.1| Tol-Pal system protein TolQ [Escherichia coli] &gt;gb|ENW9059313.1| Tol-Pal system protein TolQ [Escherichia coli] &gt;tpg|HAV8687601.1| Tol-Pal system protein TolQ [Escherichia coli]</Hit_def>
+  <Hit_accession>EJM9651699</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.02</Hsp_bit-score>
+      <Hsp_score>837</Hsp_score>
+      <Hsp_evalue>5.90402e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MTDMNILDLFLKA--LVKLIMLILIGF-----------TRILNAAAREAE---DKFWSGI--SRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISM-RELENL--HIPFLGTVGS--------GTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIG------AVMAYNRLNQRVNK--LNYDNFMEEF-----RQAFTVSESNKG</Hsp_qseq>
+      <Hsp_hseq>MTDMNILDLFLKASLLVKLIMLILIGFSIASWAIIIQRTRILNAAAREAETFEDKFWSGIELSRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISMNRELENLETHIPFLGTVGSISPYIGLFGTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIGLFAAIPAVMAYNRLNQRVNKLELNYDNFMEEFTAILHRQAFTVSESNKG</Hsp_hseq>
+      <Hsp_midline>MTDMNILDLFLKA  LVKLIMLILIGF           TRILNAAAREAE   DKFWSGI  SRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISM RELENL  HIPFLGTVGS        GTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIG      AVMAYNRLNQRVNK  LNYDNFMEEF     RQAFTVSESNKG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|QED64506.1|</Hit_id>
+  <Hit_def>Tol-Pal system protein TolQ [Escherichia coli]</Hit_def>
+  <Hit_accession>QED64506</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>313.538</Hsp_bit-score>
+      <Hsp_score>802</Hsp_score>
+      <Hsp_evalue>1.4241e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MTDMNILDLFLKA--LVKLIMLILIGF-----------TRILNAAAREAE---DKFWSGI--SRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISM-RELENL--HIPFLGTVGS--------GTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIG------AVMAYNRLNQRVNK--LNYDNFMEEF-----RQAFTVSESNKG</Hsp_qseq>
+      <Hsp_hseq>MTDMNILDLFLKASLLVKLIMLILIGFSIASRAIIIQRTRILNAAAREAEAFEDKFWSGIELSRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISMNRELENLETHIPFLGTVGSISPYIGLFGTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIGLFAAIPAVMAYNRLNQRVNKLELNYDNFMEEFTAILHRQAFTVSESNKG</Hsp_hseq>
+      <Hsp_midline>MTDMNILDLFLKA  LVKLIMLILIGF           TRILNAAAREAE   DKFWSGI  SRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISM RELENL  HIPFLGTVGS        GTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIG      AVMAYNRLNQRVNK  LNYDNFMEEF     RQAFTVSESNKG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_142448604.1|</Hit_id>
+  <Hit_def>Tol-Pal system protein TolQ [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_142448604</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>313.153</Hsp_bit-score>
+      <Hsp_score>801</Hsp_score>
+      <Hsp_evalue>2.02212e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MTDMNILDLFLKA--LVKLIMLILIGF-----------TRILNAAAREAE---DKFWSGI--SRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISM-RELENL--HIPFLGTVGS--------GTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIG------AVMAYNRLNQRVNK--LNYDNFMEEF-----RQAFTVSESNKG</Hsp_qseq>
+      <Hsp_hseq>MTDMNILDLFLKASLLVKLIMLILIGFSIASWAIIIQRTRILNAAAREAEAFEDKFWSGIELSRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISMNRELENLETHIPFLGTVGSISPYIGLFGTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIGLFAAIPAVMAYNRLNQRVNKLELNYDNFMEEFTAILLRQAFTVSESNKG</Hsp_hseq>
+      <Hsp_midline>MTDMNILDLFLKA  LVKLIMLILIGF           TRILNAAAREAE   DKFWSGI  SRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISM RELENL  HIPFLGTVGS        GTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIG      AVMAYNRLNQRVNK  LNYDNFMEEF     RQAFTVSESNKG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_168768823.1|</Hit_id>
+  <Hit_def>Tol-Pal system protein TolQ [Escherichia coli] &gt;gb|NLR50855.1| Tol-Pal system protein TolQ [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_168768823</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>313.153</Hsp_bit-score>
+      <Hsp_score>801</Hsp_score>
+      <Hsp_evalue>2.18331e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MTDMNILDLFLKA--LVKLIMLILIGF-----------TRILNAAAREAE---DKFWSGI--SRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISM-RELENL--HIPFLGTVGS--------GTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIG------AVMAYNRLNQRVNK--LNYDNFMEEF-----RQAFTVSESNKG</Hsp_qseq>
+      <Hsp_hseq>MTDMNILDLFLKASLLVKLIMLILIGFSIASWAIIIQLTRILNAAAREAEAFEDKFWSGIELSRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISMNRELENLETHIPFLGTVGSISPYIGLFGTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIGLFAAIPAVMAYNRLNQRVNKLELNYDNFMEEFTAILHRQAFTVSESNKG</Hsp_hseq>
+      <Hsp_midline>MTDMNILDLFLKA  LVKLIMLILIGF           TRILNAAAREAE   DKFWSGI  SRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISM RELENL  HIPFLGTVGS        GTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIG      AVMAYNRLNQRVNK  LNYDNFMEEF     RQAFTVSESNKG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|EIA5396492.1|</Hit_id>
+  <Hit_def>Tol-Pal system protein TolQ [Escherichia coli]</Hit_def>
+  <Hit_accession>EIA5396492</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>313.153</Hsp_bit-score>
+      <Hsp_score>801</Hsp_score>
+      <Hsp_evalue>2.25626e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MTDMNILDLFLKA--LVKLIMLILIGF-----------TRILNAAAREAE---DKFWSGI--SRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISM-RELENL--HIPFLGTVGS--------GTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIG------AVMAYNRLNQRVNK--LNYDNFMEEF-----RQAFTVSESNKG</Hsp_qseq>
+      <Hsp_hseq>MTDMNILDLFLKASLLVKLIMLILIGFSIASWAIIIQRTRILNAAAREAEAFEDKFWSGIELSRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISMNRELENLETHIPFLGTVGSISPYIGLLGTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIGLFAAIPAVMAYNRLNQRVNKLELNYDNFMEEFTAILHRQAFTVSESNKG</Hsp_hseq>
+      <Hsp_midline>MTDMNILDLFLKA  LVKLIMLILIGF           TRILNAAAREAE   DKFWSGI  SRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISM RELENL  HIPFLGTVGS        GTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIG      AVMAYNRLNQRVNK  LNYDNFMEEF     RQAFTVSESNKG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_180442721.1|</Hit_id>
+  <Hit_def>Tol-Pal system protein TolQ [Escherichia coli] &gt;gb|NZC19976.1| Tol-Pal system protein TolQ [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_180442721</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>313.153</Hsp_bit-score>
+      <Hsp_score>801</Hsp_score>
+      <Hsp_evalue>2.28112e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MTDMNILDLFLKA--LVKLIMLILIGF-----------TRILNAAAREAE---DKFWSGI--SRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISM-RELENL--HIPFLGTVGS--------GTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIG------AVMAYNRLNQRVNK--LNYDNFMEEF-----RQAFTVSESNKG</Hsp_qseq>
+      <Hsp_hseq>MTDMNILDLFLKASLLVKLIMLILIGFSIASWAIIIQRTRILNAAAREAEAFEDKFWSGIELSRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISMNRELENLETHIPFLGTVGSISPYIGLFGTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIGLSAAIPAVMAYNRLNQRVNKLELNYDNFMEEFTAILHRQAFTVSESNKG</Hsp_hseq>
+      <Hsp_midline>MTDMNILDLFLKA  LVKLIMLILIGF           TRILNAAAREAE   DKFWSGI  SRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISM RELENL  HIPFLGTVGS        GTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIG      AVMAYNRLNQRVNK  LNYDNFMEEF     RQAFTVSESNKG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_395763425.1|</Hit_id>
+  <Hit_def>Tol-Pal system protein TolQ [Escherichia coli] &gt;gb|XJR71728.1| Tol-Pal system protein TolQ [Escherichia coli] &gt;tpg|HCX5664814.1| Tol-Pal system protein TolQ [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_395763425</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>312.768</Hsp_bit-score>
+      <Hsp_score>800</Hsp_score>
+      <Hsp_evalue>2.33166e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MTDMNILDLFLKA--LVKLIMLILIGF-----------TRILNAAAREAE---DKFWSGI--SRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISM-RELENL--HIPFLGTVGS--------GTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIG------AVMAYNRLNQRVNK--LNYDNFMEEF-----RQAFTVSESNKG</Hsp_qseq>
+      <Hsp_hseq>MTDMNILDLFLKASLLVKLIMLILIGFSIASWAIIIQQTRILNAAAREAEAFEDKFWSGIELSRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISMNRELENLETHIPFLGTVGSISPYIGLFGTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIGLFAAIPAVMAYNRLNQRVNKLELNYDNFMEEFTAILHRQAFTVSESNKG</Hsp_hseq>
+      <Hsp_midline>MTDMNILDLFLKA  LVKLIMLILIGF           TRILNAAAREAE   DKFWSGI  SRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISM RELENL  HIPFLGTVGS        GTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIG      AVMAYNRLNQRVNK  LNYDNFMEEF     RQAFTVSESNKG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|ENK4439213.1|</Hit_id>
+  <Hit_def>Tol-Pal system protein TolQ [Escherichia coli]</Hit_def>
+  <Hit_accession>ENK4439213</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>312.768</Hsp_bit-score>
+      <Hsp_score>800</Hsp_score>
+      <Hsp_evalue>2.38331e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MTDMNILDLFLKA--LVKLIMLILIGF-----------TRILNAAAREAE---DKFWSGI--SRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISM-RELENL--HIPFLGTVGS--------GTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIG------AVMAYNRLNQRVNK--LNYDNFMEEF-----RQAFTVSESNKG</Hsp_qseq>
+      <Hsp_hseq>MTDMNILDLFLKASLLVKLIMLILIGFSIASWAIIIQRTRILNAAAREAEAFEDKFWSGIELSRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISMNRELENLETHIPFLGTVGSISPYIGLFGTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIGLFAAIPAVMAYNRLNQRVNKLELNYDNFMEEFTAILYRQAFTVSESNKG</Hsp_hseq>
+      <Hsp_midline>MTDMNILDLFLKA  LVKLIMLILIGF           TRILNAAAREAE   DKFWSGI  SRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISM RELENL  HIPFLGTVGS        GTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIG      AVMAYNRLNQRVNK  LNYDNFMEEF     RQAFTVSESNKG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|KFH93938.1|</Hit_id>
+  <Hit_def>colicin uptake protein TolQ [Escherichia coli] &gt;gb|KFH98066.1| colicin uptake protein TolQ [Escherichia coli]</Hit_def>
+  <Hit_accession>KFH93938</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>312.768</Hsp_bit-score>
+      <Hsp_score>800</Hsp_score>
+      <Hsp_evalue>2.38331e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MTDMNILDLFLKA--LVKLIMLILIGF-----------TRILNAAAREAE---DKFWSGI--SRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISM-RELENL--HIPFLGTVGS--------GTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIG------AVMAYNRLNQRVNK--LNYDNFMEEF-----RQAFTVSESNKG</Hsp_qseq>
+      <Hsp_hseq>MTDMNILDLFLKASLLVKLIMLILIGFSIASWAIIIQRTRILNAAAREAEAFEDKFWSGIELSRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISMNRELENLETHIPFLGTVGSISXYIGLFGTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIGLFAAIPAVMAYNRLNQRVNKLELNYDNFMEEFTAILHRQAFTVSESNKG</Hsp_hseq>
+      <Hsp_midline>MTDMNILDLFLKA  LVKLIMLILIGF           TRILNAAAREAE   DKFWSGI  SRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISM RELENL  HIPFLGTVGS        GTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIG      AVMAYNRLNQRVNK  LNYDNFMEEF     RQAFTVSESNKG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|EGH5478258.1|</Hit_id>
+  <Hit_def>Tol-Pal system protein TolQ [Escherichia coli] &gt;gb|ENG8297441.1| Tol-Pal system protein TolQ [Escherichia coli] &gt;tpg|HAI5535948.1| Tol-Pal system protein TolQ [Escherichia coli]</Hit_def>
+  <Hit_accession>EGH5478258</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>312.768</Hsp_bit-score>
+      <Hsp_score>800</Hsp_score>
+      <Hsp_evalue>2.40957e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MTDMNILDLFLKA--LVKLIMLILIGF-----------TRILNAAAREAE---DKFWSGI--SRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISM-RELENL--HIPFLGTVGS--------GTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIG------AVMAYNRLNQRVNK--LNYDNFMEEF-----RQAFTVSESNKG</Hsp_qseq>
+      <Hsp_hseq>MTDMNILDLFLKASLLVKLIMLILIGFSIASWAIIIQRTRILNAAAREAEAFEDKFWSGIELSRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISMKRELENLETHIPFLGTVGSISPYIGLFGTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIGLFAAIPAVMAYNRLNQRVNKLELNYDNFMEEFTAILHRQAFTVSESNKG</Hsp_hseq>
+      <Hsp_midline>MTDMNILDLFLKA  LVKLIMLILIGF           TRILNAAAREAE   DKFWSGI  SRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISM RELENL  HIPFLGTVGS        GTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIG      AVMAYNRLNQRVNK  LNYDNFMEEF     RQAFTVSESNKG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|EGH7028875.1|</Hit_id>
+  <Hit_def>Tol-Pal system protein TolQ [Escherichia coli] &gt;gb|EIU8258407.1| Tol-Pal system protein TolQ [Escherichia coli]</Hit_def>
+  <Hit_accession>EGH7028875</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>312.768</Hsp_bit-score>
+      <Hsp_score>800</Hsp_score>
+      <Hsp_evalue>2.6303e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MTDMNILDLFLKA--LVKLIMLILIGF-----------TRILNAAAREAE---DKFWSGI--SRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISM-RELENL--HIPFLGTVGS--------GTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIG------AVMAYNRLNQRVNK--LNYDNFMEEF-----RQAFTVSESNKG</Hsp_qseq>
+      <Hsp_hseq>MTDMNILDLFLKASLLVKLIMLILIGFSIASWAIIILRTRILNAAAREAEAFEDKFWSGIELSRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISMNRELENLETHIPFLGTVGSISPYIGLFGTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIGLFAAIPAVMAYNRLNQRVNKLELNYDNFMEEFTAILHRQAFTVSESNKG</Hsp_hseq>
+      <Hsp_midline>MTDMNILDLFLKA  LVKLIMLILIGF           TRILNAAAREAE   DKFWSGI  SRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISM RELENL  HIPFLGTVGS        GTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIG      AVMAYNRLNQRVNK  LNYDNFMEEF     RQAFTVSESNKG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_109549812.1|</Hit_id>
+  <Hit_def>Tol-Pal system protein TolQ [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_109549812</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>312.768</Hsp_bit-score>
+      <Hsp_score>800</Hsp_score>
+      <Hsp_evalue>2.68857e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MTDMNILDLFLKA--LVKLIMLILIGF-----------TRILNAAAREAE---DKFWSGI--SRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISM-RELENL--HIPFLGTVGS--------GTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIG------AVMAYNRLNQRVNK--LNYDNFMEEF-----RQAFTVSESNKG</Hsp_qseq>
+      <Hsp_hseq>MTDMNILDLFLKASLLVKLIMLILIGFSIASWAIIIQRTRILNAAAREAEAFEDKFWSGIELSRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISMNRELENLETHIPFLGTVGSISTYIGLFGTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIGLFAAIPAVMAYNRLNQRVNKLELNYDNFMEEFTAILHRQAFTVSESNKG</Hsp_hseq>
+      <Hsp_midline>MTDMNILDLFLKA  LVKLIMLILIGF           TRILNAAAREAE   DKFWSGI  SRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISM RELENL  HIPFLGTVGS        GTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIG      AVMAYNRLNQRVNK  LNYDNFMEEF     RQAFTVSESNKG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_001556486.1|</Hit_id>
+  <Hit_def>Tol-Pal system protein TolQ [Escherichia coli] &gt;gb|EIA6586970.1| Tol-Pal system protein TolQ [Escherichia coli] &gt;gb|ELE12222.1| protein tolQ [Escherichia coli KTE56] &gt;gb|ENG4131016.1| Tol-Pal system protein TolQ [Escherichia coli] &gt;gb|ENG4155149.1| Tol-Pal system protein TolQ [Escherichia coli] &gt;gb|ENG8172836.1| Tol-Pal system protein TolQ [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_001556486</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>312.768</Hsp_bit-score>
+      <Hsp_score>800</Hsp_score>
+      <Hsp_evalue>2.71819e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MTDMNILDLFLKA--LVKLIMLILIGF-----------TRILNAAAREAE---DKFWSGI--SRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISM-RELENL--HIPFLGTVGS--------GTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIG------AVMAYNRLNQRVNK--LNYDNFMEEF-----RQAFTVSESNKG</Hsp_qseq>
+      <Hsp_hseq>MTDMNILDLFLKASLLVKLIMLILIGFSIASWAILIQRTRILNAAAREAEAFEDKFWSGIELSRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISMNRELENLETHIPFLGTVGSISPYIGLFGTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIGLFAAIPAVMAYNRLNQRVNKLELNYDNFMEEFTAILHRQAFTVSESNKG</Hsp_hseq>
+      <Hsp_midline>MTDMNILDLFLKA  LVKLIMLILIGF           TRILNAAAREAE   DKFWSGI  SRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISM RELENL  HIPFLGTVGS        GTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIG      AVMAYNRLNQRVNK  LNYDNFMEEF     RQAFTVSESNKG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>tpg|HAX6733832.1|</Hit_id>
+  <Hit_def>Tol-Pal system protein TolQ [Escherichia coli] &gt;tpg|HAX6756457.1| Tol-Pal system protein TolQ [Escherichia coli]</Hit_def>
+  <Hit_accession>HAX6733832</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>312.768</Hsp_bit-score>
+      <Hsp_score>800</Hsp_score>
+      <Hsp_evalue>2.71819e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MTDMNILDLFLKA--LVKLIMLILIGF-----------TRILNAAAREAE---DKFWSGI--SRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISM-RELENL--HIPFLGTVGS--------GTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIG------AVMAYNRLNQRVNK--LNYDNFMEEF-----RQAFTVSESNKG</Hsp_qseq>
+      <Hsp_hseq>MTDMNILDLFLKASLLVKLIMLILIGFSIASWAIIIKRTRILNAAAREAEAFEDKFWSGIELSRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISMNRELENLETHIPFLGTVGSISPYIGLFGTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIGLFAAIPAVMAYNRLNQRVNKLELNYDNFMEEFTAILHRQAFTVSESNKG</Hsp_hseq>
+      <Hsp_midline>MTDMNILDLFLKA  LVKLIMLILIGF           TRILNAAAREAE   DKFWSGI  SRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISM RELENL  HIPFLGTVGS        GTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIG      AVMAYNRLNQRVNK  LNYDNFMEEF     RQAFTVSESNKG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_077775979.1|</Hit_id>
+  <Hit_def>Tol-Pal system protein TolQ [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_077775979</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>312.768</Hsp_bit-score>
+      <Hsp_score>800</Hsp_score>
+      <Hsp_evalue>2.71819e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MTDMNILDLFLKA--LVKLIMLILIGF-----------TRILNAAAREAE---DKFWSGI--SRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISM-RELENL--HIPFLGTVGS--------GTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIG------AVMAYNRLNQRVNK--LNYDNFMEEF-----RQAFTVSESNKG</Hsp_qseq>
+      <Hsp_hseq>MTDMNILDLFLKASLLVKLIMLILIGFSIASWAIIIQRTRILNAAAREAEAFEDKFWSGIELSRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISMNRELENLETHIPFLGTVGSLSPYIGLFGTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIGLFAAIPAVMAYNRLNQRVNKLELNYDNFMEEFTAILHRQAFTVSESNKG</Hsp_hseq>
+      <Hsp_midline>MTDMNILDLFLKA  LVKLIMLILIGF           TRILNAAAREAE   DKFWSGI  SRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISM RELENL  HIPFLGTVGS        GTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIG      AVMAYNRLNQRVNK  LNYDNFMEEF     RQAFTVSESNKG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|ENL0770386.1|</Hit_id>
+  <Hit_def>Tol-Pal system protein TolQ [Escherichia coli] &gt;gb|EOJ5004752.1| Tol-Pal system protein TolQ [Escherichia coli] &gt;gb|EOS9483872.1| Tol-Pal system protein TolQ [Escherichia coli]</Hit_def>
+  <Hit_accession>ENL0770386</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>312.768</Hsp_bit-score>
+      <Hsp_score>800</Hsp_score>
+      <Hsp_evalue>2.74814e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MTDMNILDLFLKA--LVKLIMLILIGF-----------TRILNAAAREAE---DKFWSGI--SRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISM-RELENL--HIPFLGTVGS--------GTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIG------AVMAYNRLNQRVNK--LNYDNFMEEF-----RQAFTVSESNKG</Hsp_qseq>
+      <Hsp_hseq>MTDMNILDLFLKASLLVKLIMLILIGFSIASWAIIIQRTRILNAAAREAEAFEDKFWSGIKLSRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISMNRELENLETHIPFLGTVGSISPYIGLFGTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIGLFAAIPAVMAYNRLNQRVNKLELNYDNFMEEFTAILHRQAFTVSESNKG</Hsp_hseq>
+      <Hsp_midline>MTDMNILDLFLKA  LVKLIMLILIGF           TRILNAAAREAE   DKFWSGI  SRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISM RELENL  HIPFLGTVGS        GTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIG      AVMAYNRLNQRVNK  LNYDNFMEEF     RQAFTVSESNKG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_024209446.1|</Hit_id>
+  <Hit_def>Tol-Pal system protein TolQ [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_024209446</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>312.768</Hsp_bit-score>
+      <Hsp_score>800</Hsp_score>
+      <Hsp_evalue>2.87125e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MTDMNILDLFLKA--LVKLIMLILIGF-----------TRILNAAAREAE---DKFWSGI--SRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISM-RELENL--HIPFLGTVGS--------GTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIG------AVMAYNRLNQRVNK--LNYDNFMEEF-----RQAFTVSESNKG</Hsp_qseq>
+      <Hsp_hseq>MTDMNILDLFLKASLLVKLIMLILIGFSIASWAIIIQRTRILNAAAREAEAFEDKFWSGIELSRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISMNRELENLETHIPFLGTVGSISPYMGLFGTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIGLFAAIPAVMAYNRLNQRVNKLELNYDNFMEEFTAILHRQAFTVSESNKG</Hsp_hseq>
+      <Hsp_midline>MTDMNILDLFLKA  LVKLIMLILIGF           TRILNAAAREAE   DKFWSGI  SRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISM RELENL  HIPFLGTVGS        GTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIG      AVMAYNRLNQRVNK  LNYDNFMEEF     RQAFTVSESNKG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|ELX1978448.1|</Hit_id>
+  <Hit_def>Tol-Pal system protein TolQ [Escherichia coli]</Hit_def>
+  <Hit_accession>ELX1978448</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>312.768</Hsp_bit-score>
+      <Hsp_score>800</Hsp_score>
+      <Hsp_evalue>2.90288e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MTDMNILDLFLKA--LVKLIMLILIGF-----------TRILNAAAREAE---DKFWSGI--SRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISM-RELENL--HIPFLGTVGS--------GTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIG------AVMAYNRLNQRVNK--LNYDNFMEEF-----RQAFTVSESNKG</Hsp_qseq>
+      <Hsp_hseq>MTDMNILDLFLKASILVKLIMLILIGFSIASWAIIIQRTRILNAAAREAEAFEDKFWSGIELSRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISMNRELENLETHIPFLGTVGSISPYIGLFGTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIGLFAAIPAVMAYNRLNQRVNKLELNYDNFMEEFTAILHRQAFTVSESNKG</Hsp_hseq>
+      <Hsp_midline>MTDMNILDLFLKA  LVKLIMLILIGF           TRILNAAAREAE   DKFWSGI  SRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISM RELENL  HIPFLGTVGS        GTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIG      AVMAYNRLNQRVNK  LNYDNFMEEF     RQAFTVSESNKG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_000131314.1|</Hit_id>
+  <Hit_def>MULTISPECIES: Tol-Pal system protein TolQ [Enterobacteriaceae] &gt;ref|NP_308799.1| colicin transporter TolQ [Escherichia coli O157:H7 str. Sakai] &gt;ref|NP_415265.1| Tol-Pal system protein TolQ [Escherichia coli str. K-12 substr. MG1655] &gt;ref|NP_706497.1| colicin uptake protein TolQ [Shigella flexneri 2a str. 301] &gt;sp|P0ABU9.1| RecName: Full=Tol-Pal system protein TolQ [Escherichia coli K-12] &gt;sp|P0ABV0.1| RecName: Full=Tol-Pal system protein TolQ [Escherichia coli O157:H7] &gt;sp|P0ABV1.1| RecName: Full=Tol-Pal system protein TolQ [Shigella flexneri] &gt;pdb|8ODT|A Chain A, Tol-Pal system protein TolQ [Escherichia coli K-12] &gt;pdb|8ODT|B Chain B, Tol-Pal system protein TolQ [Escherichia coli K-12] &gt;pdb|8ODT|C Chain C, Tol-Pal system protein TolQ [Escherichia coli K-12] &gt;pdb|8ODT|D Chain D, Tol-Pal system protein TolQ [Escherichia coli K-12] &gt;pdb|8ODT|E Chain E, Tol-Pal system protein TolQ [Escherichia coli K-12] &gt;gb|AGX32859.1| membrane spanning protein in TolA-TolQ-TolR complex [synthetic Escherichia coli C321.deltaA] &gt;gb|EDU51663.1| protein TolQ [Escherichia coli O157:H7 str. EC4113] &gt;gb|EDU83279.1| protein TolQ [Escherichia coli O157:H7 str. EC4501] &gt;gb|EDV60084.1| protein TolQ [Escherichia coli B7A] &gt;gb|EDX29163.1| protein TolQ [Escherichia coli B171] &gt;gb|EDZ75304.1| protein TolQ [Escherichia coli O157:H7 str. EC4206] &gt;gb|EEC7201863.1| Tol-Pal system protein TolQ [Escherichia coli O11] &gt;gb|EEC7212476.1| Tol-Pal system protein TolQ [Escherichia coli O103] &gt;gb|EER0915098.1| Tol-Pal system protein TolQ [Escherichia coli O168:H8] &gt;gb|EER4144445.1| Tol-Pal system protein TolQ [Escherichia coli O6] &gt;gb|EES8446353.1| Tol-Pal system protein TolQ [Escherichia coli O6:H34] &gt;gb|EES8554195.1| Tol-Pal system protein TolQ [Escherichia coli O168] &gt;gb|EET3379959.1| Tol-Pal system protein TolQ [Escherichia coli O111] &gt;gb|EET3528747.1| Tol-Pal system protein TolQ [Escherichia coli O157:NM] &gt;gb|EEV2753568.1| Tol-Pal system protein TolQ [Escherichia coli O139] &gt;gb|EEV2840584.1| Tol-Pal system protein TolQ [Escherichia coli O43:H2] &gt;gb|EEW3507502.1| Tol-Pal system protein TolQ [Escherichia coli O156:H25] &gt;gb|EEY1520817.1| Tol-Pal system protein TolQ [Escherichia coli O126] &gt;gb|EEY1568668.1| Tol-Pal system protein TolQ [Escherichia coli O21] &gt;gb|EEY4447967.1| Tol-Pal system protein TolQ [Escherichia coli O116] &gt;gb|EEY4478167.1| Tol-Pal system protein TolQ [Escherichia coli O8] &gt;gb|EEY7912648.1| Tol-Pal system protein TolQ [Escherichia coli O21:H28] &gt;gb|EEY7938382.1| Tol-Pal system protein TolQ [Escherichia coli O20:H9] &gt;gb|EEZ5650851.1| Tol-Pal system protein TolQ [Escherichia coli O20] &gt;gb|EEZ5670035.1| Tol-Pal system protein TolQ [Escherichia coli O2] &gt;gb|EEZ5680382.1| Tol-Pal system protein TolQ [Escherichia coli O25] &gt;gb|EEZ5693598.1| Tol-Pal system protein TolQ [Escherichia coli O65] &gt;gb|EEZ5741252.1| Tol-Pal system protein TolQ [Escherichia coli O9] &gt;gb|EEZ5756134.1| Tol-Pal system protein TolQ [Escherichia coli O15] &gt;gb|EEZ5760936.1| Tol-Pal system protein TolQ [Escherichia coli O101] &gt;gb|EEZ5764918.1| Tol-Pal system protein TolQ [Escherichia coli O140] &gt;gb|EEZ5779204.1| Tol-Pal system protein TolQ [Escherichia coli O40] &gt;gb|EEZ5782626.1| Tol-Pal system protein TolQ [Escherichia coli O107] &gt;gb|EEZ5805001.1| Tol-Pal system protein TolQ [Escherichia coli O105] &gt;gb|EEZ5877867.1| Tol-Pal system protein TolQ [Escherichia coli O102] &gt;gb|EEZ5887371.1| Tol-Pal system protein TolQ [Escherichia coli O146] &gt;gb|EEZ5975763.1| Tol-Pal system protein TolQ [Escherichia coli O19] &gt;gb|EEZ6009572.1| Tol-Pal system protein TolQ [Escherichia coli O117] &gt;gb|EEZ6015721.1| Tol-Pal system protein TolQ [Escherichia coli O171] &gt;gb|EEZ6056466.1| Tol-Pal system protein TolQ [Escherichia coli O1] &gt;gb|EEZ6115736.1| Tol-Pal system protein TolQ [Escherichia coli O73] &gt;gb|EEZ6414260.1| Tol-Pal system protein TolQ [Escherichia coli O104] &gt;gb|EEZ6458230.1| Tol-Pal system protein TolQ [Escherichia coli O16] &gt;gb|EEZ6489287.1| Tol-Pal system protein TolQ [Escherichia coli O156] &gt;gb|EEZ6622359.1| Tol-Pal system protein TolQ [Escherichia coli O7] &gt;gb|EEZ6986972.1| Tol-Pal system protein TolQ [Escherichia coli O109] &gt;gb|EEZ7035511.1| Tol-Pal system protein TolQ [Escherichia coli O175] &gt;gb|EEZ7065142.1| Tol-Pal system protein TolQ [Escherichia coli O17] &gt;gb|EEZ8571101.1| Tol-Pal system protein TolQ [Escherichia coli O113] &gt;gb|EEZ8617752.1| Tol-Pal system protein TolQ [Escherichia coli O160] &gt;gb|EEZ8952187.1| Tol-Pal system protein TolQ [Escherichia coli O35] &gt;gb|EEZ9005498.1| Tol-Pal system protein TolQ [Escherichia coli O150] &gt;gb|EEZ9009942.1| Tol-Pal system protein TolQ [Escherichia coli O57:H16] &gt;gb|EEZ9021467.1| Tol-Pal system protein TolQ [Escherichia coli O136] &gt;gb|EEZ9033384.1| Tol-Pal system protein TolQ [Escherichia coli O75] &gt;gb|EEZ9680161.1| Tol-Pal system protein TolQ [Escherichia coli O55] &gt;gb|EEZ9763262.1| Tol-Pal system protein TolQ [Escherichia coli O115] &gt;gb|EEZ9829682.1| Tol-Pal system protein TolQ [Escherichia coli O153] &gt;gb|EEZ9858340.1| Tol-Pal system protein TolQ [Escherichia coli O54] &gt;gb|EEZ9865362.1| Tol-Pal system protein TolQ [Escherichia coli O10] &gt;gb|EFA4031538.1| Tol-Pal system protein TolQ [Escherichia coli O108:H9] &gt;gb|EFA4037456.1| Tol-Pal system protein TolQ [Escherichia coli O120:H10] &gt;gb|EFA4047284.1| Tol-Pal system protein TolQ [Escherichia coli O144] &gt;gb|EFA4049238.1| Tol-Pal system protein TolQ [Escherichia coli O91:H28] &gt;gb|EFA4053564.1| Tol-Pal system protein TolQ [Escherichia coli O38:H26] &gt;gb|EFA4075731.1| Tol-Pal system protein TolQ [Escherichia coli O96] &gt;gb|EFA4089769.1| Tol-Pal system protein TolQ [Escherichia coli OX38:H47] &gt;gb|EFA4116096.1| Tol-Pal system protein TolQ [Escherichia coli O14] &gt;gb|EFA4124589.1| Tol-Pal system protein TolQ [Escherichia coli O49:H9] &gt;gb|EFA4129642.1| Tol-Pal system protein TolQ [Escherichia coli O13] &gt;gb|EFA4134601.1| Tol-Pal system protein TolQ [Escherichia coli O8:H31] &gt;gb|EFA4140455.1| Tol-Pal system protein TolQ [Escherichia coli O78:H42] &gt;gb|EFA4144110.1| Tol-Pal system protein TolQ [Escherichia coli O99:H27] &gt;gb|EFA4150378.1| Tol-Pal system protein TolQ [Escherichia coli O166:H49] &gt;gb|EFA4160958.1| Tol-Pal system protein TolQ [Escherichia coli O174:H7] &gt;gb|EFA4164862.1| Tol-Pal system protein TolQ [Escherichia coli O70:H25] &gt;gb|EFA4167105.1| Tol-Pal system protein TolQ [Escherichia coli O80:H45] &gt;gb|EFA4174449.1| Tol-Pal system protein TolQ [Escherichia coli O163] &gt;gb|EFA4178253.1| Tol-Pal system protein TolQ [Escherichia coli O43:H14] &gt;gb|EFA4183893.1| Tol-Pal system protein TolQ [Escherichia coli O86:H8] &gt;gb|EFA4186934.1| Tol-Pal system protein TolQ [Escherichia coli O128:H42] &gt;gb|EFA4198159.1| Tol-Pal system protein TolQ [Escherichia coli O132] &gt;gb|EFA4202628.1| Tol-Pal system protein TolQ [Escherichia coli O2:H32] &gt;gb|EFA4215887.1| Tol-Pal system protein TolQ [Escherichia coli O19:H42] &gt;gb|EFA4222308.1| Tol-Pal system protein TolQ [Escherichia coli O151:H8] &gt;gb|EFA4228320.1| Tol-Pal system protein TolQ [Escherichia coli O11:H15] &gt;gb|EFA4229905.1| Tol-Pal system protein TolQ [Escherichia coli O40:H32] &gt;gb|EFA4241836.1| Tol-Pal system protein TolQ [Escherichia coli O36:H5] &gt;gb|EFA4256332.1| Tol-Pal system protein TolQ [Escherichia coli O136:H26] &gt;gb|EFA4282200.1| Tol-Pal system protein TolQ [Escherichia coli O167:H9] &gt;gb|EFA4284388.1| Tol-Pal system protein TolQ [Escherichia coli O36] &gt;gb|EFA4295493.1| Tol-Pal system protein TolQ [Escherichia coli O18:H7] &gt;gb|EFA4299920.1| Tol-Pal system protein TolQ [Escherichia coli O119] &gt;gb|EFA8659577.1| Tol-Pal system protein TolQ [Escherichia coli O8:H9] &gt;gb|EFA8808890.1| Tol-Pal system protein TolQ [Escherichia coli O8:H49] &gt;gb|EFA8811850.1| Tol-Pal system protein TolQ [Escherichia coli O74] &gt;gb|EFB4110405.1| Tol-Pal system protein TolQ [Escherichia coli O53] &gt;gb|EFB4118039.1| Tol-Pal system protein TolQ [Escherichia coli O5] &gt;gb|EFB4129279.1| Tol-Pal system protein TolQ [Escherichia coli O100] &gt;gb|EFB4133600.1| Tol-Pal system protein TolQ [Escherichia coli O8:H36] &gt;gb|EFB4148577.1| Tol-Pal system protein TolQ [Escherichia coli O128] &gt;gb|EFE0991753.1| Tol-Pal system protein TolQ [Escherichia coli O159:H19] &gt;gb|EFE1067435.1| Tol-Pal system protein TolQ [Escherichia coli O113:H36] &gt;gb|EFE2122231.1| Tol-Pal system protein TolQ [Escherichia coli O74:H8] &gt;gb|EFE2142421.1| Tol-Pal system protein TolQ [Escherichia coli O8:H19] &gt;gb|EFL5750319.1| Tol-Pal system protein TolQ [Escherichia coli P12b] &gt;gb|EFN6681236.1| Tol-Pal system protein TolQ [Escherichia coli O179:H8] &gt;gb|EFN6721240.1| Tol-Pal system protein TolQ [Escherichia coli H18] &gt;gb|EFN6735229.1| Tol-Pal system protein TolQ [Escherichia coli H19] &gt;gb|EFN6763489.1| Tol-Pal system protein TolQ [Escherichia coli O45:H11] &gt;gb|EFN6841353.1| Tol-Pal system protein TolQ [Escherichia coli H51] &gt;gb|EFN6846049.1| Tol-Pal system protein TolQ [Escherichia coli O139:H19] &gt;gb|EFN7221655.1| protein TolQ [Escherichia coli O21:H34] &gt;gb|EFN7231395.1| protein TolQ [Escherichia coli O26:H32] &gt;gb|EFN7257617.1| protein TolQ [Escherichia coli O162:H9] &gt;gb|EFN7343851.1| protein TolQ [Escherichia coli O128:H2] &gt;gb|EFN7360628.1| protein TolQ [Escherichia coli O180:H14] &gt;gb|EFN8430658.1| protein TolQ [Escherichia coli O68] &gt;gb|EFN8569034.1| protein TolQ [Escherichia coli O85:H32] &gt;gb|EFN8584988.1| protein TolQ [Escherichia coli O8:H21] &gt;gb|EFN8590236.1| protein TolQ [Escherichia coli O53:H10] &gt;gb|EFN8594471.1| protein TolQ [Escherichia coli O41:H11] &gt;gb|EFN8599474.1| protein TolQ [Escherichia coli O79:H40] &gt;gb|EFN8604067.1| protein TolQ [Escherichia coli O153:H12] &gt;gb|EFN8607205.1| protein TolQ [Escherichia coli O83:H28] &gt;gb|EFN8612477.1| protein TolQ [Escherichia coli O41:H45] &gt;gb|EFN8616966.1| protein TolQ [Escherichia coli H8] &gt;gb|EFN8621968.1| protein TolQ [Escherichia coli O51] &gt;gb|EFN8702887.1| protein TolQ [Escherichia coli O79] &gt;gb|EFN8708499.1| protein TolQ [Escherichia coli O130] &gt;gb|EFO2081210.1| protein TolQ [Escherichia coli O409] &gt;gb|EFO2115228.1| protein TolQ [Escherichia coli O106] &gt;gb|EFO2286648.1| protein TolQ [Escherichia coli O148] &gt;gb|EFO3053463.1| protein TolQ [Escherichia coli O32] &gt;gb|EGI37353.1| protein TolQ [Escherichia coli TA271] &gt;gb|EGI41818.1| protein TolQ [Escherichia coli TA280] &gt;gb|EGR64523.1| colicin uptake protein TolQ [Escherichia coli O104:H4 str. 01-09591] &gt;gb|EGR75486.1| colicin uptake protein TolQ [Escherichia coli O104:H4 str. LB226692] &gt;gb|EGU27314.1| colicin uptake protein TolQ [Escherichia coli XH140A] &gt;gb|EGW77315.1| protein TolQ [Escherichia coli 2534-86] &gt;gb|EHD3364604.1| Tol-Pal system protein TolQ [Escherichia coli O124] &gt;gb|EHD3368306.1| Tol-Pal system protein TolQ [Escherichia coli O28ac] &gt;gb|EHD3400041.1| Tol-Pal system protein TolQ [Escherichia coli O152] &gt;gb|EHD3420800.1| Tol-Pal system protein TolQ [Escherichia coli O167] &gt;gb|EHP67464.1| protein tolQ [Escherichia coli 4_1_47FAA] &gt;gb|EHU81583.1| protein TolQ [Escherichia coli DEC3D] &gt;gb|EHU95400.1| protein TolQ [Escherichia coli DEC3F] &gt;gb|EHV15043.1| protein TolQ [Escherichia coli DEC4D] &gt;gb|EHV31108.1| protein TolQ [Escherichia coli DEC4F] &gt;gb|EHW14353.1| protein TolQ [Escherichia coli DEC8A] &gt;gb|EHW24010.1| protein TolQ [Escherichia coli DEC8C] &gt;gb|EHW67873.1| protein TolQ [Escherichia coli DEC10A] &gt;gb|EHW76943.1| protein TolQ [Escherichia coli DEC10B] &gt;gb|EHW82614.1| protein TolQ [Escherichia coli DEC10D] &gt;gb|EHW99878.1| protein TolQ [Escherichia coli DEC10F] &gt;gb|EHX84669.1| protein TolQ [Escherichia coli DEC14B] &gt;gb|EIH0322078.1| Tol-Pal system protein TolQ [Escherichia coli O112] &gt;gb|EIH0338775.1| Tol-Pal system protein TolQ [Escherichia coli O22] &gt;gb|EIH1068440.1| Tol-Pal system protein TolQ [Escherichia coli O7:H18] &gt;gb|EIH1080027.1| Tol-Pal system protein TolQ [Escherichia coli O163:H38] &gt;gb|EKF2607477.1| Tol-Pal system protein TolQ [Escherichia coli O45] &gt;gb|ELF21681.1| protein tolQ [Escherichia coli KTE156] &gt;gb|EMZ2602154.1| Tol-Pal system protein TolQ [Escherichia coli O11:H6] &gt;gb|EMZ2629884.1| Tol-Pal system protein TolQ [Escherichia coli O8:H11] &gt;gb|EMZ2640355.1| Tol-Pal system protein TolQ [Escherichia coli O13/O135:H23] &gt;gb|EMZ2648981.1| Tol-Pal system protein TolQ [Escherichia coli O84:H14] &gt;gb|EMZ7183049.1| Tol-Pal system protein TolQ [Escherichia O78:H4] &gt;gb|EMZ8221909.1| Tol-Pal system protein TolQ [Escherichia coli O162/O89:H9] &gt;gb|ENA0266338.1| Tol-Pal system protein TolQ [Escherichia coli O21:H19] &gt;gb|ENA0276181.1| Tol-Pal system protein TolQ [Escherichia coli O8:H25] &gt;gb|ENA0277156.1| Tol-Pal system protein TolQ [Escherichia coli :H5] &gt;gb|ENA0297416.1| Tol-Pal system protein TolQ [Escherichia coli :H2] &gt;gb|ENA0304342.1| Tol-Pal system protein TolQ [Escherichia coli O84:H25] &gt;gb|ENA0320410.1| Tol-Pal system protein TolQ [Escherichia coli :H21] &gt;gb|ENA0329612.1| Tol-Pal system protein TolQ [Escherichia coli O123/O186:H49] &gt;gb|ENA0333045.1| Tol-Pal system protein TolQ [Escherichia coli O109:H7] &gt;gb|ENA0337342.1| Tol-Pal system protein TolQ [Escherichia coli O12:H48] &gt;gb|ENA0342769.1| Tol-Pal system protein TolQ [Escherichia coli :H49] &gt;gb|ENA0354559.1| Tol-Pal system protein TolQ [Escherichia coli O9:H37] &gt;gb|ENA6185065.1| Tol-Pal system protein TolQ [Escherichia coli O62/O68:H12] &gt;gb|ENC9039963.1| Tol-Pal system protein TolQ [Escherichia coli :H7] &gt;gb|END0229016.1| Tol-Pal system protein TolQ [Escherichia coli O157:H26] &gt;gb|END0249080.1| Tol-Pal system protein TolQ [Escherichia coli O21:H21] &gt;gb|END2821925.1| Tol-Pal system protein TolQ [Escherichia coli O17/O44/O77:H1] &gt;gb|END2856518.1| Tol-Pal system protein TolQ [Escherichia coli O16:H2] &gt;gb|ENE1731238.1| Tol-Pal system protein TolQ [Escherichia coli O125:H19] &gt;gb|ENE1799194.1| Tol-Pal system protein TolQ [Escherichia coli O134/O8:H19] &gt;gb|ENE2093312.1| Tol-Pal system protein TolQ [Escherichia coli O15:H33] &gt;gb|ENF4752491.1| Tol-Pal system protein TolQ [Escherichia coli O18:H49] &gt;gb|ENF5495382.1| Tol-Pal system protein TolQ [Escherichia coli O9:H25] &gt;gb|ENF5788934.1| Tol-Pal system protein TolQ [Escherichia coli O9:H4] &gt;gb|ENF6663881.1| Tol-Pal system protein TolQ [Escherichia coli :H25] &gt;gb|ENG9225674.1| Tol-Pal system protein TolQ [Escherichia coli O76:H7] &gt;gb|ENH3913589.1| Tol-Pal system protein TolQ [Escherichia coli O153/O178:H19] &gt;gb|ENH9023381.1| Tol-Pal system protein TolQ [Escherichia coli O4:H45] &gt;gb|ENM2774524.1| Tol-Pal system protein TolQ [Escherichia coli O155/O8:H41] &gt;gb|ENM4030453.1| Tol-Pal system protein TolQ [Escherichia coli O26:H40] &gt;gb|ENM4611242.1| Tol-Pal system protein TolQ [Escherichia coli :H45] &gt;gb|ENQ6480358.1| Tol-Pal system protein TolQ [Escherichia coli O130:H26] &gt;gb|ENQ8727245.1| Tol-Pal system protein TolQ [Escherichia coli O110:H5] &gt;gb|ENR2085581.1| Tol-Pal system protein TolQ [Escherichia coli O15:H6] &gt;gb|ENR9117151.1| Tol-Pal system protein TolQ [Escherichia coli O75:H38/H55] &gt;gb|ENT6606728.1| Tol-Pal system protein TolQ [Escherichia coli O9:H9] &gt;gb|ENU5861182.1| Tol-Pal system protein TolQ [Escherichia coli O15:H45] &gt;gb|ENU5867239.1| Tol-Pal system protein TolQ [Escherichia coli H48] &gt;gb|ENU5877326.1| Tol-Pal system protein TolQ [Escherichia coli O82:H8] &gt;gb|ENU5882849.1| Tol-Pal system protein TolQ [Escherichia coli O112ac:H20] &gt;gb|ENU6052142.1| Tol-Pal system protein TolQ [Escherichia coli H21] &gt;gb|ENU6077115.1| Tol-Pal system protein TolQ [Escherichia coli O114:H31] &gt;gb|ENU6083633.1| Tol-Pal system protein TolQ [Escherichia coli O79:H28] &gt;gb|ENU6098032.1| Tol-Pal system protein TolQ [Escherichia coli O15:H25] &gt;gb|ENU6102484.1| Tol-Pal system protein TolQ [Escherichia coli O175:H21] &gt;gb|ENU6124293.1| Tol-Pal system protein TolQ [Escherichia coli O65:H11] &gt;gb|ENU6133860.1| Tol-Pal system protein TolQ [Escherichia coli O48:H34] &gt;gb|ENU6139006.1| Tol-Pal system protein TolQ [Escherichia coli O28ac/42:H25] &gt;gb|ENY3515492.1| Tol-Pal system protein TolQ [Escherichia coli O146:H28] &gt;gb|ENY3517429.1| Tol-Pal system protein TolQ [Escherichia coli O133:H29] &gt;gb|ENY3522968.1| Tol-Pal system protein TolQ [Escherichia coli O25:H18] &gt;gb|ENY3538142.1| Tol-Pal system protein TolQ [Escherichia coli O11:H16,53] &gt;gb|ENY3547892.1| Tol-Pal system protein TolQ [Escherichia coli O59:H20] &gt;gb|ENY3551296.1| Tol-Pal system protein TolQ [Escherichia coli O91:H23] &gt;gb|ENY3573442.1| Tol-Pal system protein TolQ [Escherichia coli O137:H41] &gt;gb|ENY4262658.1| Tol-Pal system protein TolQ [Escherichia coli H9] &gt;gb|ENY4285613.1| Tol-Pal system protein TolQ [Escherichia coli O9,9a:H10] &gt;gb|ENY4301824.1| Tol-Pal system protein TolQ [Escherichia coli O45:H4] &gt;gb|ENY4308256.1| Tol-Pal system protein TolQ [Escherichia coli H4] &gt;gb|ENY4313027.1| Tol-Pal system protein TolQ [Escherichia coli O101:H9] &gt;gb|ENY4323837.1| Tol-Pal system protein TolQ [Escherichia coli H28] &gt;gb|ENY4326654.1| Tol-Pal system protein TolQ [Escherichia coli O9,9a:H4] &gt;gb|ENY4331677.1| Tol-Pal system protein TolQ [Escherichia coli O150:H11] &gt;gb|ENY4342199.1| Tol-Pal system protein TolQ [Escherichia coli O153:H2] &gt;gb|EOC1702648.1| Tol-Pal system protein TolQ [Shigella sp. PNUSAE097114] &gt;gb|EOC1715128.1| Tol-Pal system protein TolQ [Shigella sp. PNUSAE096547] &gt;gb|EOC1719287.1| Tol-Pal system protein TolQ [Shigella sp. PNUSAE096033] &gt;gb|EOC1723236.1| Tol-Pal system protein TolQ [Shigella sp. PNUSAE096035] &gt;gb|EOC1727399.1| Tol-Pal system protein TolQ [Shigella sp. PNUSAE096031] &gt;gb|EOC1731830.1| Tol-Pal system protein TolQ [Shigella sp. PNUSAE096032] &gt;gb|EOC1736104.1| Tol-Pal system protein TolQ [Shigella sp. PNUSAE096036] &gt;gb|EOC1739915.1| Tol-Pal system protein TolQ [Shigella sp. PNUSAE096030] &gt;gb|EOC1746712.1| Tol-Pal system protein TolQ [Shigella sp. PNUSAE096546] &gt;gb|EOC1748493.1| Tol-Pal system protein TolQ [Shigella sp. PNUSAE096034] &gt;gb|EOC1756377.1| Tol-Pal system protein TolQ [Shigella sp. PNUSAE096037] &gt;gb|EOC1770703.1| Tol-Pal system protein TolQ [Shigella sp. PNUSAE096038] &gt;gb|EOM3573634.1| Tol-Pal system protein TolQ [Escherichia coli O99:H4] &gt;gb|EOM3638441.1| Tol-Pal system protein TolQ [Escherichia coli O17,44,77:H18] &gt;gb|EOM3658315.1| Tol-Pal system protein TolQ [Escherichia coli O101:H10] &gt;gb|EOM3671094.1| Tol-Pal system protein TolQ [Escherichia coli O9,9a] &gt;gb|EOM3689639.1| Tol-Pal system protein TolQ [Escherichia coli O101:H4] &gt;gb|EOM3695812.1| Tol-Pal system protein TolQ [Escherichia coli O11:H25] &gt;gb|EOM3701755.1| Tol-Pal system protein TolQ [Escherichia coli O86:H18] &gt;gb|EOM3704421.1| Tol-Pal system protein TolQ [Escherichia coli O101,9,9a:H9] &gt;gb|EOM3710723.1| Tol-Pal system protein TolQ [Escherichia coli O160:H34] &gt;gb|EOM3715543.1| Tol-Pal system protein TolQ [Escherichia coli O35:H4] &gt;gb|EOM3729633.1| Tol-Pal system protein TolQ [Escherichia coli O101:H45] &gt;gb|EOM3737098.1| Tol-Pal system protein TolQ [Escherichia coli O3:H2] &gt;gb|EOM3751447.1| Tol-Pal system protein TolQ [Escherichia coli O9,9a:H30] &gt;gb|EOM3783289.1| Tol-Pal system protein TolQ [Escherichia coli O11:H4] &gt;gb|EOM3807418.1| Tol-Pal system protein TolQ [Escherichia coli O182:H23] &gt;gb|EOM3811016.1| Tol-Pal system protein TolQ [Escherichia coli O179,8:H19] &gt;gb|EOM3819555.1| Tol-Pal system protein TolQ [Escherichia coli O102:H25] &gt;gb|EOM3829894.1| Tol-Pal system protein TolQ [Escherichia coli O9,9a:H9] &gt;gb|EOM3839636.1| Tol-Pal system protein TolQ [Escherichia coli O9,9a:H21] &gt;gb|EOM3849112.1| Tol-Pal system protein TolQ [Escherichia coli O140:H32] &gt;gb|EOM3874941.1| Tol-Pal system protein TolQ [Escherichia coli O115:H10] &gt;gb|EOM3882909.1| Tol-Pal system protein TolQ [Escherichia coli O7:H10] &gt;gb|EOM3887703.1| Tol-Pal system protein TolQ [Escherichia coli O153:H21] &gt;gb|EOM3894425.1| Tol-Pal system protein TolQ [Escherichia coli O100:H12] &gt;gb|EOM3909623.1| Tol-Pal system protein TolQ [Escherichia coli O148:H32] &gt;gb|EOM3921215.1| Tol-Pal system protein TolQ [Escherichia coli O115:H51] &gt;gb|EOM3931659.1| Tol-Pal system protein TolQ [Escherichia coli O29:H8] &gt;gb|EOM3963363.1| Tol-Pal system protein TolQ [Escherichia coli H27] &gt;gb|EOM3985702.1| Tol-Pal system protein TolQ [Escherichia coli O28ac,42:H7] &gt;gb|EOM3992716.1| Tol-Pal system protein TolQ [Escherichia coli O16:H32] &gt;gb|EOM4018706.1| Tol-Pal system protein TolQ [Escherichia coli O166:H25] &gt;gb|EOM4116491.1| Tol-Pal system protein TolQ [Escherichia coli O140:H48] &gt;gb|EQZ03601.1| protein tolQ [Escherichia coli UMEA 3318-1] &gt;gb|ERF97392.1| colicin transporter [Escherichia coli O104:H21 str. CFSAN002237] &gt;gb|ESS93188.1| MotA/TolQ/ExbB proton channel family protein [Escherichia coli CE418] &gt;gb|EYZ63950.1| colicin uptake protein TolQ [Escherichia coli O55:H7 str. 06-3555] &gt;gb|EZA19200.1| colicin uptake protein TolQ [Escherichia coli O28ac:NM str. 02-3404] &gt;gb|EZA26353.1| colicin uptake protein TolQ [Escherichia coli O113:H21 str. 07-4224] &gt;gb|KAE9706503.1| Tol-Pal system protein TolQ [Enterobacteriaceae bacterium TzEc077] &gt;gb|KAE9757780.1| Tol-Pal system protein TolQ [Enterobacteriaceae bacterium TzEc084] &gt;gb|KAE9895603.1| Tol-Pal system protein TolQ [Enterobacteriaceae bacterium TzEc052] &gt;gb|KAE9907098.1| Tol-Pal system protein TolQ [Enterobacteriaceae bacterium TzEc051] &gt;gb|MBT9746683.1| Tol-Pal system protein TolQ [Enterobacteriaceae bacterium MCC505] &gt;gb|MCQ8843560.1| Tol-Pal system protein TolQ [Klebsiella sp. KJ_S1] &gt;gb|MEB6033701.1| Tol-Pal system protein TolQ [Escherichia coli S88] &gt;gb|MEE6787457.1| Tol-Pal system protein TolQ [Escherichia coli OX21:H7] &gt;gb|MEE6791518.1| Tol-Pal system protein TolQ [Escherichia coli B13:H16] &gt;gb|MEE6811202.1| Tol-Pal system protein TolQ [Escherichia coli O113:H4] &gt;gb|MEE6815990.1| Tol-Pal system protein TolQ [Escherichia coli O13:H15] &gt;gb|MEE6829735.1| Tol-Pal system protein TolQ [Escherichia coli O74:H28] &gt;gb|MEE6847153.1| Tol-Pal system protein TolQ [Escherichia coli O74:H39] &gt;gb|MEE6879227.1| Tol-Pal system protein TolQ [Escherichia coli O126:H19] &gt;gb|MEE6889239.1| Tol-Pal system protein TolQ [Escherichia coli O104:H7] &gt;gb|MEE6929074.1| Tol-Pal system protein TolQ [Escherichia coli O2:H6] &gt;gb|MEE6934330.1| Tol-Pal system protein TolQ [Escherichia coli :H48] &gt;gb|MEE6944019.1| Tol-Pal system protein TolQ [Escherichia coli O15:H16] &gt;gb|MEE6950487.1| Tol-Pal system protein TolQ [Escherichia coli O87:H39] &gt;gb|MEE6956585.1| Tol-Pal system protein TolQ [Escherichia coli O6:H49] &gt;gb|MEE6961213.1| Tol-Pal system protein TolQ [Escherichia coli O81:H27] &gt;gb|MEE6970727.1| Tol-Pal system protein TolQ [Escherichia coli O156:H28] &gt;gb|MEE6974864.1| Tol-Pal system protein TolQ [Escherichia coli O28/42:H37] &gt;gb|MEE6988157.1| Tol-Pal system protein TolQ [Escherichia coli :H19] &gt;gb|MEE6997685.1| Tol-Pal system protein TolQ [Escherichia coli O93:H21] &gt;gb|MEE7001904.1| Tol-Pal system protein TolQ [Escherichia coli O7:H6] &gt;gb|MEE7016475.1| Tol-Pal system protein TolQ [Escherichia coli O146:H21] &gt;gb|MEE7021598.1| Tol-Pal system protein TolQ [Escherichia coli OX25:H28] &gt;gb|MEE7025259.1| Tol-Pal system protein TolQ [Escherichia coli :H15] &gt;gb|MEE7030469.1| Tol-Pal system protein TolQ [Escherichia coli O166:H16] &gt;gb|MEE7034557.1| Tol-Pal system protein TolQ [Escherichia coli O45:H16] &gt;gb|MEE7043636.1| Tol-Pal system protein TolQ [Escherichia coli O79:H4] &gt;gb|MEE7048067.1| Tol-Pal system protein TolQ [Escherichia coli O93:H19] &gt;gb|MEE7056403.1| Tol-Pal system protein TolQ [Escherichia coli O83:H32] &gt;gb|MEE7118882.1| Tol-Pal system protein TolQ [Escherichia coli O25:H10] &gt;gb|MEE7132781.1| Tol-Pal system protein TolQ [Escherichia coli O175:H26] &gt;gb|MEE7137432.1| Tol-Pal system protein TolQ [Escherichia coli O16:H16] &gt;gb|MEE7141699.1| Tol-Pal system protein TolQ [Escherichia coli O178:H7] &gt;gb|MEE7157005.1| Tol-Pal system protein TolQ [Escherichia coli O88:H25] &gt;gb|MEE7166206.1| Tol-Pal system protein TolQ [Escherichia coli O149:H2] &gt;gb|MEE7170943.1| Tol-Pal system protein TolQ [Escherichia coli O88:H8] &gt;gb|MEE7196270.1| Tol-Pal system protein TolQ [Escherichia coli O110:H10] &gt;gb|MEE7216616.1| Tol-Pal system protein TolQ [Escherichia coli O4:H2] &gt;gb|MEE7221312.1| Tol-Pal system protein TolQ [Escherichia coli O8:H20] &gt;gb|MEE7227967.1| Tol-Pal system protein TolQ [Escherichia coli O6:H10] &gt;gb|MEE7234903.1| Tol-Pal system protein TolQ [Escherichia coli O51:H51] &gt;gb|MEE7249324.1| Tol-Pal system protein TolQ [Escherichia coli :H10] &gt;gb|MEE7262974.1| Tol-Pal system protein TolQ [Escherichia coli O187:H52] &gt;gb|MEE7286973.1| Tol-Pal system protein TolQ [Escherichia coli O182:H16] &gt;gb|MEE7291660.1| Tol-Pal system protein TolQ [Escherichia coli :H14] &gt;gb|MEE7304030.1| Tol-Pal system protein TolQ [Escherichia coli O18:H14] &gt;gb|MEE7322683.1| Tol-Pal system protein TolQ [Escherichia coli B12:H39] &gt;gb|MEE7346401.1| Tol-Pal system protein TolQ [Escherichia coli D10:H20] &gt;gb|MEE7362852.1| Tol-Pal system protein TolQ [Escherichia coli O103:H43] &gt;gb|MEE7377758.1| Tol-Pal system protein TolQ [Escherichia coli B2:H7] &gt;gb|MEE7382044.1| Tol-Pal system protein TolQ [Escherichia coli O159:H10] &gt;gb|MEJ3696642.1| Tol-Pal system protein TolQ [Citrobacter freundii] &gt;gb|MFU2365643.1| Tol-Pal system protein TolQ [Enterobacteriaceae bacterium] &gt;gb|MTC73544.1| Tol-Pal system protein TolQ [Providencia sp. wls1919] &gt;gb|MVW43926.1| Tol-Pal system protein TolQ [Enterobacteriaceae bacterium TzEc013] &gt;gb|MVX79341.1| Tol-Pal system protein TolQ [Enterobacteriaceae bacterium 8376wD9] &gt;gb|MVY29605.1| Tol-Pal system protein TolQ [Enterobacteriaceae bacterium 8376wD8] &gt;gb|MVY93225.1| Tol-Pal system protein TolQ [Enterobacteriaceae bacterium 8376wD7] &gt;gb|MVZ08751.1| Tol-Pal system protein TolQ [Enterobacteriaceae bacterium 8376wG6] &gt;gb|OSK40847.1| protein TolQ [Escherichia coli E267] &gt;gb|OSL80947.1| protein TolQ [Escherichia coli TA008] &gt;gb|XGI82191.1| Tol-Pal system protein TolQ [Enterobacter hormaechei] &gt;emb|CCK45897.1| inner membrane protein tolerance to group A colicins [Escherichia coli chi7122] &gt;emb|SSG30678.1| colicin uptake protein TolQ [Klebsiella pneumoniae] &gt;dbj|BAL37883.1| membrane spanning protein in TolA-TolQ-TolR complex [Escherichia coli str. K-12 substr. MDS42] &gt;tpg|HAJ6403510.1| protein TolQ [Escherichia coli HVH 101 (4-6859844)] &gt;tpg|HAY5775407.1| Tol-Pal system protein TolQ [Shigella flexneri 3b] &gt;tpg|HAY5875081.1| Tol-Pal system protein TolQ [Shigella flexneri 5b] &gt;tpg|HAY6208747.1| Tol-Pal system protein TolQ [Shigella flexneri X variant] &gt;tpg|HCA6858186.1| Tol-Pal system protein TolQ [Escherichia coli O21:H2] &gt;tpg|HCA7283096.1| Tol-Pal system protein TolQ [Escherichia coli O157:H45] &gt;tpg|HCB3975850.1| Tol-Pal system protein TolQ [Escherichia coli O25b:H4-ST131] &gt;tpg|HCC7245641.1| Tol-Pal system protein TolQ [Escherichia coli O141:H32] &gt;tpg|HDQ6461609.1| Tol-Pal system protein TolQ [Escherichia coli O18 str. F10018-41] &gt;tpg|HDQ6467355.1| Tol-Pal system protein TolQ [Escherichia coli O11 str. Bi632-42] &gt;tpg|HDQ6472031.1| Tol-Pal system protein TolQ [Escherichia coli O25 str. E39a] &gt;tpg|HDQ6478511.1| Tol-Pal system protein TolQ [Escherichia coli O104:H4 str. 11-3798] &gt;tpg|HDQ6480480.1| Tol-Pal system protein TolQ [Escherichia coli O87:H16] &gt;tpg|HDQ6491917.1| Tol-Pal system protein TolQ [Escherichia coli Ou:H16] &gt;tpg|HDQ6495761.1| Tol-Pal system protein TolQ [Escherichia coli O117:H4] &gt;tpg|HDQ6513799.1| Tol-Pal system protein TolQ [Escherichia coli O22:H16] &gt;tpg|HDQ6529942.1| Tol-Pal system protein TolQ [Escherichia coli O75:H8] &gt;tpg|HDQ6532695.1| Tol-Pal system protein TolQ [Escherichia coli O36:H14] &gt;tpg|HDQ6545854.1| Tol-Pal system protein TolQ [Escherichia coli O105:H7] &gt;tpg|HDQ6555438.1| Tol-Pal system protein TolQ [Escherichia coli O103:H25] &gt;tpg|HDQ6570560.1| Tol-Pal system protein TolQ [Escherichia coli Ou:H7] &gt;tpg|HDQ6586571.1| Tol-Pal system protein TolQ [Escherichia coli O187:H28] &gt;tpg|HDQ6609691.1| Tol-Pal system protein TolQ [Escherichia coli Ou:H21] &gt;tpg|HDQ6663452.1| Tol-Pal system protein TolQ [Escherichia coli O166:H28] &gt;tpg|HDQ6694528.1| Tol-Pal system protein TolQ [Escherichia coli O128AB:H2] &gt;tpg|HDQ6699223.1| Tol-Pal system protein TolQ [Escherichia coli O174:H8] &gt;tpg|HDQ6703013.1| Tol-Pal system protein TolQ [Escherichia coli Ou:H26] &gt;tpg|HDQ6729910.1| Tol-Pal system protein TolQ [Escherichia coli O11:H5] &gt;tpg|HDQ6857567.1| Tol-Pal system protein TolQ [Escherichia coli O128AC:H2] &gt;tpg|HDQ6862394.1| Tol-Pal system protein TolQ [Escherichia coli O176:H4] &gt;tpg|HDQ6951802.1| Tol-Pal system protein TolQ [Escherichia coli Ou:H8] &gt;tpg|HDQ7007260.1| Tol-Pal system protein TolQ [Escherichia coli O104:H4 str. Ec11-5537] &gt;tpg|HDQ7045464.1| Tol-Pal system protein TolQ [Escherichia coli O104:H4 str. Ec11-5538] &gt;tpg|HDR0381604.1| Tol-Pal system protein TolQ [Escherichia coli O104:H4 str. Ec11-5536] &gt;tpg|HDR6112120.1| Tol-Pal system protein TolQ [Escherichia coli O157:H7 str. ZAP430] &gt;tpg|HDR9825546.1| Tol-Pal system protein TolQ [Escherichia coli C186-61 (10h)] &gt;tpg|HDR9861705.1| Tol-Pal system protein TolQ [Escherichia coli O10 str. Bi8337-41] &gt;tpg|HDR9893271.1| Tol-Pal system protein TolQ [Escherichia coli 87-1713 (10i)] &gt;tpg|HDR9897201.1| Tol-Pal system protein TolQ [Escherichia coli C240-52 (9c)] &gt;tpg|HDR9904148.1| Tol-Pal system protein TolQ [Escherichia coli C309-64 (10g)] &gt;tpg|HDR9913815.1| Tol-Pal system protein TolQ [Escherichia coli 92.0144 (F03)] &gt;tpg|HDR9918691.1| Tol-Pal system protein TolQ [Escherichia coli RDEC-1 (10f)] &gt;tpg|HDR9923934.1| Tol-Pal system protein TolQ [Escherichia coli 2254-75 (11a)] &gt;tpg|HDR9925675.1| Tol-Pal system protein TolQ [Escherichia coli 3350-73 (13a)] &gt;tpg|HDR9932605.1| Tol-Pal system protein TolQ [Escherichia coli A9619-c2 (11c)] &gt;tpg|HDS1974326.1| Tol-Pal system protein TolQ [Escherichia coli O145:NM str. 2012C-4480] &gt;tpg|HDS1978754.1| Tol-Pal system protein TolQ [Escherichia coli O145:NM str. 2012C-4479] &gt;tpg|HDS1985195.1| Tol-Pal system protein TolQ [Escherichia coli O145:NM str. 2012C-4478] &gt;tpg|HDS1987156.1| Tol-Pal system protein TolQ [Escherichia coli Bal225] &gt;tpg|HDS1994341.1| Tol-Pal system protein TolQ [Escherichia coli O145:NM str. 2012C-4474] &gt;tpg|HDS1999427.1| Tol-Pal system protein TolQ [Escherichia coli O145:NM str. 2012C-4477] &gt;tpg|HEO8427941.1| Tol-Pal system protein TolQ [Escherichia coli 902034 (7b)] &gt;tpg|HGU5031808.1| Tol-Pal system protein TolQ [Escherichia coli 88817 (10j)]</Hit_def>
+  <Hit_accession>WP_000131314</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>312.768</Hsp_bit-score>
+      <Hsp_score>800</Hsp_score>
+      <Hsp_evalue>2.90288e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MTDMNILDLFLKA--LVKLIMLILIGF-----------TRILNAAAREAE---DKFWSGI--SRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISM-RELENL--HIPFLGTVGS--------GTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIG------AVMAYNRLNQRVNK--LNYDNFMEEF-----RQAFTVSESNKG</Hsp_qseq>
+      <Hsp_hseq>MTDMNILDLFLKASLLVKLIMLILIGFSIASWAIIIQRTRILNAAAREAEAFEDKFWSGIELSRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISMNRELENLETHIPFLGTVGSISPYIGLFGTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIGLFAAIPAVMAYNRLNQRVNKLELNYDNFMEEFTAILHRQAFTVSESNKG</Hsp_hseq>
+      <Hsp_midline>MTDMNILDLFLKA  LVKLIMLILIGF           TRILNAAAREAE   DKFWSGI  SRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISM RELENL  HIPFLGTVGS        GTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIG      AVMAYNRLNQRVNK  LNYDNFMEEF     RQAFTVSESNKG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|MDF6502107.1|</Hit_id>
+  <Hit_def>Tol-Pal system protein TolQ [Escherichia coli]</Hit_def>
+  <Hit_accession>MDF6502107</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>312.768</Hsp_bit-score>
+      <Hsp_score>800</Hsp_score>
+      <Hsp_evalue>2.90288e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MTDMNILDLFLKA--LVKLIMLILIGF-----------TRILNAAAREAE---DKFWSGI--SRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISM-RELENL--HIPFLGTVGS--------GTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIG------AVMAYNRLNQRVNK--LNYDNFMEEF-----RQAFTVSESNKG</Hsp_qseq>
+      <Hsp_hseq>MTDMNILDLFLKASLLVKLIMLILIGFSIASWAIIIQRTRILNAAAREAEEFEDKFWSGIELSRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISMNRELENLETHIPFLGTVGSISPYIGLFGTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIGLFAAIPAVMAYNRLNQRVNKLELNYDNFMEEFTAILHRQAFTVSESNKG</Hsp_hseq>
+      <Hsp_midline>MTDMNILDLFLKA  LVKLIMLILIGF           TRILNAAAREAE   DKFWSGI  SRLYQESQGKRDNLTGSEQIFYSGFKEFVRLHRANSHAPEAVVEGASRAMRISM RELENL  HIPFLGTVGS        GTVWGIMHAFIALGAVKQATLQMVAPGIAEALIATAIG      AVMAYNRLNQRVNK  LNYDNFMEEF     RQAFTVSESNKG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>877781531</Statistics_db-num>
+      <Statistics_db-len>334720180573</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

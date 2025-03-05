@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_7147441</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>218</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_7147441</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>218</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_191730035.1|</Hit_id>
+  <Hit_def>OmpA family protein [Luteimonas colneyensis] &gt;gb|MBD7988874.1| OmpA family protein [Luteimonas colneyensis]</Hit_def>
+  <Hit_accession>WP_191730035</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>420.239</Hsp_bit-score>
+      <Hsp_score>1079</Hsp_score>
+      <Hsp_evalue>1.8929e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>MSLEVEGDADASVPVWAAFGDLMSVLLGVFVLILVGVIGVQLHLETKLADEVAQREAEQQRREALEQALAAPLASGRITLVDGRIGISGSVLFALGSDRLQPEGEELLESLAAPLAGYLVGRDEILMVSGFTDDRLVRGDSERFADNWELSAQRALTVTRALVAQGVPASSVFAAAFGAEQPVASNADAAGRARNRRVEMAPVPRQAPAQDGRAARGR</Hsp_qseq>
+      <Hsp_hseq>MSLEVEGDADASVPVWAAFGDLMSVLLGVFVLILVGVIGVQLHLETKLADEVAQREAEQQRREALEQALAAPLASGRITLVDGRIGISGSVLFALGSDRLQPEGEELLESLAAPLAGYLVGRDEILMVSGFTDDRLVRGDSERFADNWELSAQRALTVTRALVAQGVPASSVFAAAFGAEQPVASNADAAGRARNRRVEMAPVPRQAPAQDGRAARGR</Hsp_hseq>
+      <Hsp_midline>MSLEVEGDADASVPVWAAFGDLMSVLLGVFVLILVGVIGVQLHLETKLADEVAQREAEQQRREALEQALAAPLASGRITLVDGRIGISGSVLFALGSDRLQPEGEELLESLAAPLAGYLVGRDEILMVSGFTDDRLVRGDSERFADNWELSAQRALTVTRALVAQGVPASSVFAAAFGAEQPVASNADAAGRARNRRVEMAPVPRQAPAQDGRAARGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_189497636.1|</Hit_id>
+  <Hit_def>OmpA family protein [Luteimonas padinae] &gt;gb|MFC0717731.1| OmpA family protein [Luteimonas padinae] &gt;gb|MFC3240780.1| OmpA family protein [Luteimonas padinae] &gt;dbj|GHD71978.1| outer membrane protein [Luteimonas padinae]</Hit_def>
+  <Hit_accession>WP_189497636</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>406.371</Hsp_bit-score>
+      <Hsp_score>1043</Hsp_score>
+      <Hsp_evalue>6.29159e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>MSLEVEGDADASVPVWAAFGDLMSVLLGVFVLILVGVIGVQLHLETKLADEVAQREAEQQRREALEQALAAPLASGRITLVDGRIGISGSVLFALGSDRLQPEGEELLESLAAPLAGYLVGRDEILMVSGFTDDRLVRGDSERFADNWELSAQRALTVTRALVAQGVPASSVFAAAFGAEQPVASNADAAGRARNRRVEMAPVPRQAPAQDGRAARGR</Hsp_qseq>
+      <Hsp_hseq>MSLEVEGDADASVPVWAAFGDLMSVLLGVFVLILVGVIGVQLHLETKLADEVAQREVERQRREALEQALAAPLASGRITLVDGRIGISGSVLFALGSDRLQPEGEELLESLAAPLAGYLAGRDEILMVSGFTDDRQVRGDSERFADNWELSAQRALTVTRALVAQGVPASSVFAAAFGAEQPVASNADAQGRARNRRVEMAPVPRQAPAQDGQVAHGR</Hsp_hseq>
+      <Hsp_midline>MSLEVEGDADASVPVWAAFGDLMSVLLGVFVLILVGVIGVQLHLETKLADEVAQRE E+QRREALEQALAAPLASGRITLVDGRIGISGSVLFALGSDRLQPEGEELLESLAAPLAGYL GRDEILMVSGFTDDR VRGDSERFADNWELSAQRALTVTRALVAQGVPASSVFAAAFGAEQPVASNADA GRARNRRVEMAPVPRQAPAQDG+ A GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_343279578.1|</Hit_id>
+  <Hit_def>OmpA family protein [Luteimonas sp. MJ250]</Hit_def>
+  <Hit_accession>WP_343279578</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.851</Hsp_bit-score>
+      <Hsp_score>943</Hsp_score>
+      <Hsp_evalue>9.23821e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MSLEVEGDADASVPVWAAFGDLMSVLLGVFVLILVGVIGVQLHLETKLADEVAQREAEQQRREALEQALAAPLASGRITLVDGRIGISGSVLFALGSDRLQPEGEELLESLAAPLAGYLVGRDEILMVSGFTDDRLVRGDSERFADNWELSAQRALTVTRALVAQGVPASSVFAAAFGAEQPVASNADAAGRARNRRVEMAPVPRQAPAQD--GRAARGR</Hsp_qseq>
+      <Hsp_hseq>MSLEVEGDVDSTVPVWAAFGDLMSVLLGVFVLILVGVIGVQLHLEAKLAEEIAQREVEQQRRVALEQALAAPLASGRITLVDGRIGISGSVLFALGSDHLQPDGEALLESLAAPLADFLAGRDEILMVSGFTDDRLVRGDSRRYADNWELSAQRALTVTRALVAQGVPASSVFAAAFGAEQPVDSNAHAEGRARNRRVEMAPVPRQAQGQEQGTQVAHGR</Hsp_hseq>
+      <Hsp_midline>MSLEVEGD D++VPVWAAFGDLMSVLLGVFVLILVGVIGVQLHLE KLA+E+AQRE EQQRR ALEQALAAPLASGRITLVDGRIGISGSVLFALGSD LQP+GE LLESLAAPLA +L GRDEILMVSGFTDDRLVRGDS R+ADNWELSAQRALTVTRALVAQGVPASSVFAAAFGAEQPV SNA A GRARNRRVEMAPVPRQA  Q+   + A GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_343275366.1|</Hit_id>
+  <Hit_def>MULTISPECIES: OmpA family protein [unclassified Luteimonas]</Hit_def>
+  <Hit_accession>WP_343275366</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>366.696</Hsp_bit-score>
+      <Hsp_score>940</Hsp_score>
+      <Hsp_evalue>2.18712e-126</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>MSLEVEGDADASVPVWAAFGDLMSVLLGVFVLILVGVIGVQLHLETKLADEVAQREAEQQRREALEQALAAPLASGRITLVDGRIGISGSVLFALGSDRLQPEGEELLESLAAPLAGYLVGRDEILMVSGFTDDRLVRGDSERFADNWELSAQRALTVTRALVAQGVPASSVFAAAFGAEQPVASNADAAGRARNRRVEMAPVPRQ</Hsp_qseq>
+      <Hsp_hseq>MSLEVEGDVDSTVPVWAAFGDLMSVLLGVFVLILVGVIGVQLHLEARLAEEVAQREVEQQRRLTLEQALAAPLASGRITLVDGRIGISGSVLFALGSDRLQPEGEALLDSLAAPLAGFLAGRDEILMVSGFTDDRLVRGDSQRYADNWELSAQRALTVTRALVAQGVPASSVFAAAFGAEQPVDSNAHAEGRARNRRVEMAPVPRQ</Hsp_hseq>
+      <Hsp_midline>MSLEVEGD D++VPVWAAFGDLMSVLLGVFVLILVGVIGVQLHLE +LA+EVAQRE EQQRR  LEQALAAPLASGRITLVDGRIGISGSVLFALGSDRLQPEGE LL+SLAAPLAG+L GRDEILMVSGFTDDRLVRGDS+R+ADNWELSAQRALTVTRALVAQGVPASSVFAAAFGAEQPV SNA A GRARNRRVEMAPVPRQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_343255636.1|</Hit_id>
+  <Hit_def>OmpA family protein [Luteimonas sp. MJ204]</Hit_def>
+  <Hit_accession>WP_343255636</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>366.311</Hsp_bit-score>
+      <Hsp_score>939</Hsp_score>
+      <Hsp_evalue>3.80023e-126</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MSLEVEGDADASVPVWAAFGDLMSVLLGVFVLILVGVIGVQLHLETKLADEVAQREAEQQRREALEQALAAPLASGRITLVDGRIGISGSVLFALGSDRLQPEGEELLESLAAPLAGYLVGRDEILMVSGFTDDRLVRGDSERFADNWELSAQRALTVTRALVAQGVPASSVFAAAFGAEQPVASNADAAGRARNRRVEMAPVPRQAPA--QDGRAARGR</Hsp_qseq>
+      <Hsp_hseq>MSLEVEGDVDSTVPVWAAFGDLMSVLLGVFVLILVGVIGVQLHLEAKLAEEIAQREVEQQRRVALEQALAAPLASGRITLVDGRIGISGSVLFALGSDHLQPDGEALLESLAAPLADFLAGRDEILMVSGFTDDRLVRGDSRRYADNWELSAQRALTVTRALVAQGVPASSVFAAAFGAEQPVDSNAHAEGRARNRRVEMAPVPRQAQGREQGTQVAHGR</Hsp_hseq>
+      <Hsp_midline>MSLEVEGD D++VPVWAAFGDLMSVLLGVFVLILVGVIGVQLHLE KLA+E+AQRE EQQRR ALEQALAAPLASGRITLVDGRIGISGSVLFALGSD LQP+GE LLESLAAPLA +L GRDEILMVSGFTDDRLVRGDS R+ADNWELSAQRALTVTRALVAQGVPASSVFAAAFGAEQPV SNA A GRARNRRVEMAPVPRQA    Q  + A GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_343280736.1|</Hit_id>
+  <Hit_def>OmpA family protein [Luteimonas sp. MJ145]</Hit_def>
+  <Hit_accession>WP_343280736</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>365.155</Hsp_bit-score>
+      <Hsp_score>936</Hsp_score>
+      <Hsp_evalue>1.21481e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>MSLEVEGDADASVPVWAAFGDLMSVLLGVFVLILVGVIGVQLHLETKLADEVAQREAEQQRREALEQALAAPLASGRITLVDGRIGISGSVLFALGSDRLQPEGEELLESLAAPLAGYLVGRDEILMVSGFTDDRLVRGDSERFADNWELSAQRALTVTRALVAQGVPASSVFAAAFGAEQPVASNADAAGRARNRRVEMAPVPRQAPA--QDGRAARGR</Hsp_qseq>
+      <Hsp_hseq>MSLEVEGDVDSTVPVWAAFGDLMSVLLGVFVLILVGVIGVQLHLEAKLAEEIVQREVEQQRRVALEQALAAPLASGRITLVDGRIGISGSVLFALGSDHLQPDGEALLESLAAPLADFLAGRDEILMVSGFTDDRLVRGDSRRYADNWELSAQRALTVTRALVAQGVPASSVFAAAFGAEQPVDSNAHAEGRARNRRVEMAPVPRQAQGREQGTQVAHGR</Hsp_hseq>
+      <Hsp_midline>MSLEVEGD D++VPVWAAFGDLMSVLLGVFVLILVGVIGVQLHLE KLA+E+ QRE EQQRR ALEQALAAPLASGRITLVDGRIGISGSVLFALGSD LQP+GE LLESLAAPLA +L GRDEILMVSGFTDDRLVRGDS R+ADNWELSAQRALTVTRALVAQGVPASSVFAAAFGAEQPV SNA A GRARNRRVEMAPVPRQA    Q  + A GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_132986034.1|</Hit_id>
+  <Hit_def>OmpA family protein [Luteimonas terricola] &gt;dbj|GGK14390.1| hypothetical protein GCM10011394_24530 [Luteimonas terricola]</Hit_def>
+  <Hit_accession>WP_132986034</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>347.051</Hsp_bit-score>
+      <Hsp_score>889</Hsp_score>
+      <Hsp_evalue>1.64329e-118</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MSLEVEGDADASVPVWAAFGDLMSVLLGVFVLILVGVIGVQLHLETKLADEVAQREAEQQRREALEQALAAPLASGRITLVDGRIGISGSVLFALGSDRLQPEGEELLESLAAPLAGYLVGRDEILMVSGFTDDRLVRGDSERFADNWELSAQRALTVTRALVAQGVPASSVFAAAFGAEQPVASNADAAGRARNRRVEMAPVPRQAPAQ</Hsp_qseq>
+      <Hsp_hseq>MSLEIDGDADSAVPVWAAFGDLMSVLLGVFVLILVGVIGVQLHLESRLEEEVAQRQAEQQRRETLEQALAAPLASGRITLVDGRIGISGSVLFALNSDRLQPEGRDLLESLAGPLADFLASRDEILMVSGFTDDRQIRGGNRQFADNWELSAQRALTVTRALIAQGVPASSVFAAAFGAGHPVDSNADEDGRARNRRVEMAPVPRQGRQQ</Hsp_hseq>
+      <Hsp_midline>MSLE++GDAD++VPVWAAFGDLMSVLLGVFVLILVGVIGVQLHLE++L +EVAQR+AEQQRRE LEQALAAPLASGRITLVDGRIGISGSVLFAL SDRLQPEG +LLESLA PLA +L  RDEILMVSGFTDDR +RG + +FADNWELSAQRALTVTRAL+AQGVPASSVFAAAFGA  PV SNAD  GRARNRRVEMAPVPRQ   Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|PJJ97453.1|</Hit_id>
+  <Hit_def>hypothetical protein CO641_10815 [Lysobacteraceae bacterium NML91-0213]</Hit_def>
+  <Hit_accession>PJJ97453</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>343.584</Hsp_bit-score>
+      <Hsp_score>880</Hsp_score>
+      <Hsp_evalue>3.92824e-117</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MSLEVEGDADASVPVWAAFGDLMSVLLGVFVLILVGVIGVQLHLETKLADEVAQREAEQQRREALEQALAAPLASGRITLVDGRIGISGSVLFALGSDRLQPEGEELLESLAAPLAGYLVGRDEILMVSGFTDDRLVRGDSERFADNWELSAQRALTVTRALVAQGVPASSVFAAAFGAEQPVASNADAAGRARNRRVEMAPVPRQAPAQDG</Hsp_qseq>
+      <Hsp_hseq>MSLEIDHDTDAGTPVWAAFGDLMSVLLGVFVLILVGVIGVQLHLEVQLQEEIAQRRAEEQRRQALEDALAAPLAAGRITLVDGRIGIRGSVLFALNSDRLQPEGVELLETLAGPLAGYLGTRDEILMVSGFTDDRPIRGDNRRFADNLELSAQRALTVTRALVEHGVPASSVFAAAFGAEQPVASNSDEAGRARNRRVEMAPVPRPQPAANG</Hsp_hseq>
+      <Hsp_midline>MSLE++ D DA  PVWAAFGDLMSVLLGVFVLILVGVIGVQLHLE +L +E+AQR AE+QRR+ALE ALAAPLA+GRITLVDGRIGI GSVLFAL SDRLQPEG ELLE+LA PLAGYL  RDEILMVSGFTDDR +RGD+ RFADN ELSAQRALTVTRALV  GVPASSVFAAAFGAEQPVASN+D AGRARNRRVEMAPVPR  PA +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_232142149.1|</Hit_id>
+  <Hit_def>OmpA family protein [Luteimonas sp. MHLX1A] &gt;gb|MCD9047923.1| OmpA family protein [Luteimonas sp. MHLX1A]</Hit_def>
+  <Hit_accession>WP_232142149</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.428</Hsp_bit-score>
+      <Hsp_score>877</Hsp_score>
+      <Hsp_evalue>9.13537e-117</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MSLEVEGDADASVPVWAAFGDLMSVLLGVFVLILVGVIGVQLHLETKLADEVAQREAEQQRREALEQALAAPLASGRITLVDGRIGISGSVLFALGSDRLQPEGEELLESLAAPLAGYLVGRDEILMVSGFTDDRLVRGDSERFADNWELSAQRALTVTRALVAQGVPASSVFAAAFGAEQPVASNADAAGRARNRRVEMAPVPRQAPAQDG</Hsp_qseq>
+      <Hsp_hseq>MSLEIDVDDGAGAPVWAGFGDLMSVLLGVFVLILVGVIGVQLHLEVQLQEEIAQRQAEEQRRKALEHALAAPLAAGRITLVDGRIGIRGSVLFALNSDRLQPEGVELLETLARPLAGYLGTRDEILMVSGFTDDRQIRGDNRRFADNWELSAQRALTVTRALVEHGVPASSVFAAAFGAEQPVASNSDEAGRARNRRVEMAPVPRQQPGAHG</Hsp_hseq>
+      <Hsp_midline>MSLE++ D  A  PVWA FGDLMSVLLGVFVLILVGVIGVQLHLE +L +E+AQR+AE+QRR+ALE ALAAPLA+GRITLVDGRIGI GSVLFAL SDRLQPEG ELLE+LA PLAGYL  RDEILMVSGFTDDR +RGD+ RFADNWELSAQRALTVTRALV  GVPASSVFAAAFGAEQPVASN+D AGRARNRRVEMAPVPRQ P   G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_199360115.1|</Hit_id>
+  <Hit_def>OmpA family protein [Luteimonas sp. MC1750] &gt;gb|MBJ6983337.1| OmpA family protein [Luteimonas sp. MC1750] &gt;gb|QQO06197.1| OmpA family protein [Luteimonas sp. MC1750]</Hit_def>
+  <Hit_accession>WP_199360115</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.043</Hsp_bit-score>
+      <Hsp_score>876</Hsp_score>
+      <Hsp_evalue>2.42311e-116</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MSLEVEGDADASVPVWAAFGDLMSVLLGVFVLILVGVIGVQLHLETKLADEVAQREAEQQRREALEQALAAPLASGRITLVDGRIGISGSVLFALGSDRLQPEGEELLESLAAPLAGYLVGRDEILMVSGFTDDRLVRGDSERFADNWELSAQRALTVTRALVAQGVPASSVFAAAFGAEQPVASNADAAGRARNRRVEMAPVPRQAPAQDGRAA</Hsp_qseq>
+      <Hsp_hseq>MSHELEVDHDGGAPVWAAFGDLMSVLLGVFVLILVGVIGAQLHLEAKLADEVAQREAEQQRREALEQALAGPLAAGRVTLVDGRIGISGSVLFALNSDRLQPEGEALLETLAGPLAGFLAARDEILMVSGFTDDRPVHGGNRRFADNLELSAQRALTVTRALVAQGVPASSVFAAAFGAEQPVASNDDAGGRARNRRVEMAPMPR--PRQAGVSA</Hsp_hseq>
+      <Hsp_midline>MS E+E D D   PVWAAFGDLMSVLLGVFVLILVGVIG QLHLE KLADEVAQREAEQQRREALEQALA PLA+GR+TLVDGRIGISGSVLFAL SDRLQPEGE LLE+LA PLAG+L  RDEILMVSGFTDDR V G + RFADN ELSAQRALTVTRALVAQGVPASSVFAAAFGAEQPVASN DA GRARNRRVEMAP+PR  P Q G +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_129137084.1|</Hit_id>
+  <Hit_def>OmpA family protein [Luteimonas sp. YGD11-2]</Hit_def>
+  <Hit_accession>WP_129137084</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.117</Hsp_bit-score>
+      <Hsp_score>871</Hsp_score>
+      <Hsp_evalue>7.01589e-116</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MSLEVEGDADASVPVWAAFGDLMSVLLGVFVLILVGVIGVQLHLETKLADEVAQREAEQQRREALEQALAAPLASGRITLVDGRIGISGSVLFALGSDRLQPEGEELLESLAAPLAGYLVGRDEILMVSGFTDDRLVRGDSERFADNWELSAQRALTVTRALVAQGVPASSVFAAAFGAEQPVASNADAAGRARNRRVEMAPVPRQAPAQDG</Hsp_qseq>
+      <Hsp_hseq>MSLEIDVDDGAGAPVWAAFGDLMSVLLGVFVLILVGVIGVQLHLEVQLQEEIAQRRAEEQRRQALEDALAVPLAAGRITLVDGRIGIRGSVLFALNSDRLQPEGVELLETLAGPLAGYLGTRDEILMVSGFTDDRQIRGDNRRFADNWELSAQRALTVTRALVEHGVPASSVFAAAFGAEQPVAPNTDEAGRARNRRVEMAPVPRQQPAAHG</Hsp_hseq>
+      <Hsp_midline>MSLE++ D  A  PVWAAFGDLMSVLLGVFVLILVGVIGVQLHLE +L +E+AQR AE+QRR+ALE ALA PLA+GRITLVDGRIGI GSVLFAL SDRLQPEG ELLE+LA PLAGYL  RDEILMVSGFTDDR +RGD+ RFADNWELSAQRALTVTRALV  GVPASSVFAAAFGAEQPVA N D AGRARNRRVEMAPVPRQ PA  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_199391713.1|</Hit_id>
+  <Hit_def>OmpA family protein [Luteimonas sp. MC1895] &gt;gb|MBJ6978441.1| OmpA family protein [Luteimonas sp. MC1895]</Hit_def>
+  <Hit_accession>WP_199391713</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>333.954</Hsp_bit-score>
+      <Hsp_score>855</Hsp_score>
+      <Hsp_evalue>7.42797e-113</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>MSLEVEGDADASVPVWAAFGDLMSVLLGVFVLILVGVIGVQLHLETKLADEVAQREAEQQRREALEQALAAPLASGRITLVDGRIGISGSVLFALGSDRLQPEGEELLESLAAPLAGYLVGRDEILMVSGFTDDRLVRGDSERFADNWELSAQRALTVTRALVAQGVPASSVFAAAFGAEQPVASNADAAGRARNRRVEMAPVPR</Hsp_qseq>
+      <Hsp_hseq>MSHELEVEHDGGAPVWAAFGDLMSVLLGVFVLILVGVIGAQLHLEAKLAEEVAQREVEQQRREALEQALAGPLAAGRVTLVDGRIGISGSVLFALNSDRLQPEGEALLDTLAGPLAGFLAARDEILMVSGFTDDRPVHGGNRRFADNLELSAQRALTVTRALVAQGVPASSVFAAAFGAEQPVASNDDAEGRARNRRVEMAPMPR</Hsp_hseq>
+      <Hsp_midline>MS E+E + D   PVWAAFGDLMSVLLGVFVLILVGVIG QLHLE KLA+EVAQRE EQQRREALEQALA PLA+GR+TLVDGRIGISGSVLFAL SDRLQPEGE LL++LA PLAG+L  RDEILMVSGFTDDR V G + RFADN ELSAQRALTVTRALVAQGVPASSVFAAAFGAEQPVASN DA GRARNRRVEMAP+PR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_134674497.1|</Hit_id>
+  <Hit_def>OmpA family protein [Luteimonas yindakuii] &gt;gb|TKS55142.1| hypothetical protein E4582_10475 [Luteimonas yindakuii]</Hit_def>
+  <Hit_accession>WP_134674497</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>330.102</Hsp_bit-score>
+      <Hsp_score>845</Hsp_score>
+      <Hsp_evalue>8.3209e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MSLEVEGDADASVPVWAAFGDLMSVLLGVFVLILVGVIGVQLHLETKLADEVAQREAEQQRREALEQALAAPLASGRITLVDGRIGISGSVLFALGSDRLQPEGEELLESLAAPLAGYLVGRDEILMVSGFTDDRLVRGDSERFADNWELSAQRALTVTRALVAQGVPASSVFAAAFGAEQPVASNADAAGRARNRRVEMAPVPRQAPAQDG</Hsp_qseq>
+      <Hsp_hseq>MSLEVDVDDGAGAPVWAAFGDLMSVLLGVFVLILVGVIGVQLHLEVQLQQEIEQRQAEEQRRQALEDALAAPLAAGRITLVDGRIGIRGSVLFALNSDRLQPEGVDLLATLAGPLSGYLGTRDEILMVSGFTDDRQIRGSNRQFADNWELSAQRALTVTRALVEHGVPAASVFAAAFGAEQPVAPNTDEAGRARNRRVEMAPVPRQQSAADG</Hsp_hseq>
+      <Hsp_midline>MSLEV+ D  A  PVWAAFGDLMSVLLGVFVLILVGVIGVQLHLE +L  E+ QR+AE+QRR+ALE ALAAPLA+GRITLVDGRIGI GSVLFAL SDRLQPEG +LL +LA PL+GYL  RDEILMVSGFTDDR +RG + +FADNWELSAQRALTVTRALV  GVPA+SVFAAAFGAEQPVA N D AGRARNRRVEMAPVPRQ  A DG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_136411422.1|</Hit_id>
+  <Hit_def>OmpA family protein [Luteimonas yindakuii] &gt;gb|QCO66613.1| hypothetical protein E5843_00205 [Luteimonas yindakuii]</Hit_def>
+  <Hit_accession>WP_136411422</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>329.331</Hsp_bit-score>
+      <Hsp_score>843</Hsp_score>
+      <Hsp_evalue>1.62355e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MSLEVEGDADASVPVWAAFGDLMSVLLGVFVLILVGVIGVQLHLETKLADEVAQREAEQQRREALEQALAAPLASGRITLVDGRIGISGSVLFALGSDRLQPEGEELLESLAAPLAGYLVGRDEILMVSGFTDDRLVRGDSERFADNWELSAQRALTVTRALVAQGVPASSVFAAAFGAEQPVASNADAAGRARNRRVEMAPVPRQAPAQDG</Hsp_qseq>
+      <Hsp_hseq>MSLEVEVDDGAGAPVWAAFGDLMSVLLGVFVLILVGVIGVQLHLEVQLQQEIEQRQAEEQRRQALEDALAAPLAAGRITLVDGRIGIRGSVLFALNSDRLQPEGVDLLATLAGPLSGYLGTRDEILMVSGFTDDRQIRGSNRQFADNWELSAQRALTVTRALVEHGVPAASVFAAAFGAEQPVAPNTDEAGRARNRRVEMAPVPRQQSAAHG</Hsp_hseq>
+      <Hsp_midline>MSLEVE D  A  PVWAAFGDLMSVLLGVFVLILVGVIGVQLHLE +L  E+ QR+AE+QRR+ALE ALAAPLA+GRITLVDGRIGI GSVLFAL SDRLQPEG +LL +LA PL+GYL  RDEILMVSGFTDDR +RG + +FADNWELSAQRALTVTRALV  GVPA+SVFAAAFGAEQPVA N D AGRARNRRVEMAPVPRQ  A  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_232131890.1|</Hit_id>
+  <Hit_def>OmpA family protein [Luteimonas sp. BDR2-5] &gt;gb|MCD9029496.1| OmpA family protein [Luteimonas sp. BDR2-5]</Hit_def>
+  <Hit_accession>WP_232131890</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>328.561</Hsp_bit-score>
+      <Hsp_score>841</Hsp_score>
+      <Hsp_evalue>2.72285e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>MSLEVEGDADASVPVWAAFGDLMSVLLGVFVLILVGVIGVQLHLETKLADEVAQREAEQQRREALEQALAAPLASGRITLVDGRIGISGSVLFALGSDRLQPEGEELLESLAAPLAGYLVGRDEILMVSGFTDDRLVRGDSERFADNWELSAQRALTVTRALVAQGVPASSVFAAAFGAEQPVASNADAAGRARNRRVEMAPVPRQAPA</Hsp_qseq>
+      <Hsp_hseq>MSVELDGDADSTAPVWAAFGDLMSVLLGAFVLILVGVIGVQLQLELKLDEEVAQREAETRRRETLEQALAAPLAAGRITLVDGRIGIRGSVLFALASDQLQPEGRELLRSLAGPLSEYLAARDEILMVSGFTDDRLVR-DGNRFADNWELSAQRALTVTRALIAEGVPADSVFAAAFGAQQPVGSNDDAEGRAQNRRVEMAPVPRRQSA</Hsp_hseq>
+      <Hsp_midline>MS+E++GDAD++ PVWAAFGDLMSVLLG FVLILVGVIGVQL LE KL +EVAQREAE +RRE LEQALAAPLA+GRITLVDGRIGI GSVLFAL SD+LQPEG ELL SLA PL+ YL  RDEILMVSGFTDDRLVR D  RFADNWELSAQRALTVTRAL+A+GVPA SVFAAAFGA+QPV SN DA GRA+NRRVEMAPVPR+  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_096296518.1|</Hit_id>
+  <Hit_def>MULTISPECIES: OmpA family protein [Luteimonas] &gt;gb|ATD66187.1| hypothetical protein CNR27_00890 [Luteimonas chenhongjianii] &gt;gb|RPD84092.1| hypothetical protein EGK76_13435 [Luteimonas sp. 100069]</Hit_def>
+  <Hit_accession>WP_096296518</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.02</Hsp_bit-score>
+      <Hsp_score>837</Hsp_score>
+      <Hsp_evalue>1.0808e-110</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>MSLEVEGDADASVPVWAAFGDLMSVLLGVFVLILVGVIGVQLHLETKLADEVAQREAEQQRREALEQALAAPLASGRITLVDGRIGISGSVLFALGSDRLQPEGEELLESLAAPLAGYLVGRDEILMVSGFTDDRLVRGDSERFADNWELSAQRALTVTRALVAQGVPASSVFAAAFGAEQPVASNADAAGRARNRRVEMAPVPRQAPAQ-DGR</Hsp_qseq>
+      <Hsp_hseq>MSVELEGDVESTAPVWAAFGDLMSVLLGAFVLILVGVIGVQLQLEMRLDAEIAQREAEARRRETLEQALAAPLAAGRITLIDGRIGIRGSVLFAQASDQLQPEGRELLQSLAGPLAGYLASRDEMLMVSGFTDDRLVR-DGNRFSDNWELSAQRALTVTRGLIAAGVPADSVFAAAFGAQQPVGSNADPEGRARNRRVEMAPVPRQAGAKADGR</Hsp_hseq>
+      <Hsp_midline>MS+E+EGD +++ PVWAAFGDLMSVLLG FVLILVGVIGVQL LE +L  E+AQREAE +RRE LEQALAAPLA+GRITL+DGRIGI GSVLFA  SD+LQPEG ELL+SLA PLAGYL  RDE+LMVSGFTDDRLVR D  RF+DNWELSAQRALTVTR L+A GVPA SVFAAAFGA+QPV SNAD  GRARNRRVEMAPVPRQA A+ DGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_058833894.1|</Hit_id>
+  <Hit_def>OmpA family protein [Luteimonas abyssi]</Hit_def>
+  <Hit_accession>WP_058833894</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.405</Hsp_bit-score>
+      <Hsp_score>838</Hsp_score>
+      <Hsp_evalue>1.83026e-110</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MSLEVEGDADASVPVWAAFGDLMSVLLGVFVLILVGVIGVQLHLETKLADEVAQREAEQQRREALEQALAAPLASGRITLVDGRIGISGSVLFALGSDRLQPEGEELLESLAAPLAGYLVGRDEILMVSGFTDDRLVRGDSERFADNWELSAQRALTVTRALVAQGVPASSVFAAAFGAEQPVASNADAAGRARNRRVEMAPVPRQAPAQDG</Hsp_qseq>
+      <Hsp_hseq>MSVEFEGEAGDTSPVWAAFGDLMSVLLGAFVLILVGVIGVQLQLETRLQEEVRQRAAEAQRLQTLEQALAAPLASGRITLVDGRIGISGNVLFALNSDRLQPEGEDLLASLAGPLADYLQSRDEILMVSGFTDDRPIHGGNRRFADNWELSAQRALTVTRALVAAGVPRASVFAAAFGAEQPVSSNADEAGRARNRRVEMAPVPRQAAAVPG</Hsp_hseq>
+      <Hsp_midline>MS+E EG+A  + PVWAAFGDLMSVLLG FVLILVGVIGVQL LET+L +EV QR AE QR + LEQALAAPLASGRITLVDGRIGISG+VLFAL SDRLQPEGE+LL SLA PLA YL  RDEILMVSGFTDDR + G + RFADNWELSAQRALTVTRALVA GVP +SVFAAAFGAEQPV+SNAD AGRARNRRVEMAPVPRQA A  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_101926256.1|</Hit_id>
+  <Hit_def>MULTISPECIES: OmpA family protein [Luteimonas]</Hit_def>
+  <Hit_accession>WP_101926256</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>323.939</Hsp_bit-score>
+      <Hsp_score>829</Hsp_score>
+      <Hsp_evalue>2.37968e-109</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MSLEVEGDADASVPVWAAFGDLMSVLLGVFVLILVGVIGVQLHLETKLADEVAQREAEQQRREALEQALAAPLASGRITLVDGRIGISGSVLFALGSDRLQPEGEELLESLAAPLAGYLVGRDEILMVSGFTDDRLVRGDSERFADNWELSAQRALTVTRALVAQGVPASSVFAAAFGAEQPVASNADAAGRARNRRVEMAPVP-RQAPAQ-DGR</Hsp_qseq>
+      <Hsp_hseq>MSVELDGDHDSTAPVWAAFGDLMSVLLGVFVLILVGVIGVQLQLEMKLDAEIAQREAEEQRRQTLEQALAAPLAAGRITLVDGRIGIRGSVLFAQASDQLQPEGRDLLQSLAGPLAEYLGARDEILMVSGFTDDRLVR-DGNRFSDNWELSAQRALTVTRALIGDGVPADSVFAAAFGAQQPVGSNDDAEGRAQNRRVEMAPVPRRQAAAQPDGR</Hsp_hseq>
+      <Hsp_midline>MS+E++GD D++ PVWAAFGDLMSVLLGVFVLILVGVIGVQL LE KL  E+AQREAE+QRR+ LEQALAAPLA+GRITLVDGRIGI GSVLFA  SD+LQPEG +LL+SLA PLA YL  RDEILMVSGFTDDRLVR D  RF+DNWELSAQRALTVTRAL+  GVPA SVFAAAFGA+QPV SN DA GRA+NRRVEMAPVP RQA AQ DGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_097122313.1|</Hit_id>
+  <Hit_def>OmpA family protein [Pseudoxanthomonas wuyuanensis] &gt;gb|KAF1720306.1| hypothetical protein CSC75_11995 [Pseudoxanthomonas wuyuanensis]</Hit_def>
+  <Hit_accession>WP_097122313</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>323.939</Hsp_bit-score>
+      <Hsp_score>829</Hsp_score>
+      <Hsp_evalue>2.52355e-109</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>MSLEVEGDADASVPVWAAFGDLMSVLLGVFVLILVGVIGVQLHLETKLADEVAQREAEQQRREALEQALAAPLASGRITLVDGRIGISGSVLFALGSDRLQPEGEELLESLAAPLAGYLVGRDEILMVSGFTDDRLVRGDSERFADNWELSAQRALTVTRALVAQGVPASSVFAAAFGAEQPVASNADAAGRARNRRVEMAPVPR</Hsp_qseq>
+      <Hsp_hseq>MNTDVHDDGDASAPVWAAFGDLMSILLGAFVLILVGVIAVQLQLEIKLKEEIAQRKLETQRRQTLEQALAGPLAAGRITLADGRIGIRGNVLFALNSDQLQPEGRDVLKSLAAPLAGYLRARDEVLMVSGFTDDRQVRGSNRRFADNWELSAQRALTVTRALIAEGVPASSVFAAAFGAEQPVSSNADEAGRANNRRVEIAPVPR</Hsp_hseq>
+      <Hsp_midline>M+ +V  D DAS PVWAAFGDLMS+LLG FVLILVGVI VQL LE KL +E+AQR+ E QRR+ LEQALA PLA+GRITL DGRIGI G+VLFAL SD+LQPEG ++L+SLAAPLAGYL  RDE+LMVSGFTDDR VRG + RFADNWELSAQRALTVTRAL+A+GVPASSVFAAAFGAEQPV+SNAD AGRA NRRVE+APVPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>emb|SOD55011.1|</Hit_id>
+  <Hit_def>Flagellar motor protein MotB [Pseudoxanthomonas wuyuanensis]</Hit_def>
+  <Hit_accession>SOD55011</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>322.013</Hsp_bit-score>
+      <Hsp_score>824</Hsp_score>
+      <Hsp_evalue>1.32986e-108</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>MSLEVEGDADASVPVWAAFGDLMSVLLGVFVLILVGVIGVQLHLETKLADEVAQREAEQQRREALEQALAAPLASGRITLVDGRIGISGSVLFALGSDRLQPEGEELLESLAAPLAGYLVGRDEILMVSGFTDDRLVRGDSERFADNWELSAQRALTVTRALVAQGVPASSVFAAAFGAEQPVASNADAAGRARNRRVEMAPVPR</Hsp_qseq>
+      <Hsp_hseq>INTDVHDDGDASAPVWAAFGDLMSILLGAFVLILVGVIAVQLQLEIKLKEEIAQRKLETQRRQTLEQALAGPLAAGRITLADGRIGIRGNVLFALNSDQLQPEGRDVLKSLAAPLAGYLRARDEVLMVSGFTDDRQVRGSNRRFADNWELSAQRALTVTRALIAEGVPASSVFAAAFGAEQPVSSNADEAGRANNRRVEIAPVPR</Hsp_hseq>
+      <Hsp_midline>++ +V  D DAS PVWAAFGDLMS+LLG FVLILVGVI VQL LE KL +E+AQR+ E QRR+ LEQALA PLA+GRITL DGRIGI G+VLFAL SD+LQPEG ++L+SLAAPLAGYL  RDE+LMVSGFTDDR VRG + RFADNWELSAQRALTVTRAL+A+GVPASSVFAAAFGAEQPV+SNAD AGRA NRRVE+APVPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>878262366</Statistics_db-num>
+      <Statistics_db-len>334928218419</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

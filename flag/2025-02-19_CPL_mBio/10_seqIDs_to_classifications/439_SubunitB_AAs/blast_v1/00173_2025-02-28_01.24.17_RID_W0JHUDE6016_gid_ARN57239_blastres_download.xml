@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_3265475</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>192</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_3265475</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>192</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_085755905.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Sedimentisphaera salicampi] &gt;gb|ARN57240.1| Biopolymer transport protein ExbB [Sedimentisphaera salicampi]</Hit_def>
+  <Hit_accession>WP_085755905</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>352.829</Hsp_bit-score>
+      <Hsp_score>904</Hsp_score>
+      <Hsp_evalue>1.96968e-121</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>190</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>MPEVLREHLIALSEQAVSIW-SGG--MVAIAFIAMVMFSLSVNVQLKLSAKGFKRVKEKLWRHW---PKKREGHM-----LVDSAN--EEMRSYFEELHSSETKPFVRDLRVIKICVSAAPLL--LGTVTGMLSTFDALAKGSGGDKTMGMVAEGISEALVTTETGLIIALSG--FSYMITRKFESYKAFLAHMETVCTQKLHKKNGKS</Hsp_qseq>
+      <Hsp_hseq>MPEVLREHLIALSEQAVSIWISGGWSMVAIAFIAMVMFSLSVNVQLKLSAKGFKRVKEKLWRHWINHPKKREGHIGEMLDFVDSANTVEEMRSYFEELHSSETKPFVRDLRVIKICVSAAPLLGLLGTVTGMLSTFDALAKGSGGDKTMGMVAEGISEALVTTETGLIIALSGLLFSYMITRKFESYKAFLAHMETVCTQKLHKKNGKS</Hsp_hseq>
+      <Hsp_midline>MPEVLREHLIALSEQAVSIW SGG  MVAIAFIAMVMFSLSVNVQLKLSAKGFKRVKEKLWRHW   PKKREGH+      VDSAN  EEMRSYFEELHSSETKPFVRDLRVIKICVSAAPLL  LGTVTGMLSTFDALAKGSGGDKTMGMVAEGISEALVTTETGLIIALSG  FSYMITRKFESYKAFLAHMETVCTQKLHKKNGKS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_094760002.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Sedimentisphaera salicampi] &gt;gb|OXU14681.1| Biopolymer transport protein ExbB [Sedimentisphaera salicampi]</Hit_def>
+  <Hit_accession>WP_094760002</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>350.517</Hsp_bit-score>
+      <Hsp_score>898</Hsp_score>
+      <Hsp_evalue>1.72757e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>189</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>MPEVLREHLIALSEQAVSIW-SGG--MVAIAFIAMVMFSLSVNVQLKLSAKGFKRVKEKLWRHW---PKKREGHM-----LVDSAN--EEMRSYFEELHSSETKPFVRDLRVIKICVSAAPLL--LGTVTGMLSTFDALAKGSGGDKTMGMVAEGISEALVTTETGLIIALSG--FSYMITRKFESYKAFLAHMETVCTQKLHKKNGKS</Hsp_qseq>
+      <Hsp_hseq>MPEVLREHLIALSEQAVSIWISGGWSMVAIAFIAMVMFSLSVNVQLKLSAKGFKRVKEKLWRHWINHPKKREGHIGEMLDFVDSANTVEEMRSHFEELHSSETKPFVRDLRVIKICVSAAPLLGLLGTVTGMLSTFDALAKGSGGDKTMGMVAEGISEALVTTETGLIIALSGLLFSYMITRKFESYKAFLAHMETVCTQKLHKKNGKS</Hsp_hseq>
+      <Hsp_midline>MPEVLREHLIALSEQAVSIW SGG  MVAIAFIAMVMFSLSVNVQLKLSAKGFKRVKEKLWRHW   PKKREGH+      VDSAN  EEMRS+FEELHSSETKPFVRDLRVIKICVSAAPLL  LGTVTGMLSTFDALAKGSGGDKTMGMVAEGISEALVTTETGLIIALSG  FSYMITRKFESYKAFLAHMETVCTQKLHKKNGKS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_077540284.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Sedimentisphaera cyanobacteriorum] &gt;gb|AQQ09710.1| Biopolymer transport protein ExbB [Sedimentisphaera cyanobacteriorum]</Hit_def>
+  <Hit_accession>WP_077540284</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>331.257</Hsp_bit-score>
+      <Hsp_score>848</Hsp_score>
+      <Hsp_evalue>7.93688e-113</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>MPEVLREHLIALSEQAVSIW-SGG--MVAIAFIAMVMFSLSVNVQLKLSAKGFKRVKEKLWRHW---PKKREGHM-----LVDSAN--EEMRSYFEELHSSETKPFVRDLRVIKICVSAAPLL--LGTVTGMLSTFDALAKGSGGDKTMGMVAEGISEALVTTETGLIIALSG--FSYMITRKFESYKAFLAHMETVCTQKLHKKNGKS</Hsp_qseq>
+      <Hsp_hseq>MPEVLREHITALSEQAVSIWLSGGWSMVAIAFIAIVMFSLSVNVQLKLSAKGFKKVKEKAWRHWINHPKKRQGHIGEILDFVESASTVEEMRSYFEELHSRETKPFVRDLRVIKICVSAAPLLGLLGTVTGMLSTFDALAKGSGGDKTMGMVAEGISEALVTTETGLIIALSGLLFSYIITRKFESYKAFLAHMETVCTQKLHKKNLKN</Hsp_hseq>
+      <Hsp_midline>MPEVLREH+ ALSEQAVSIW SGG  MVAIAFIA+VMFSLSVNVQLKLSAKGFK+VKEK WRHW   PKKR+GH+      V+SA+  EEMRSYFEELHS ETKPFVRDLRVIKICVSAAPLL  LGTVTGMLSTFDALAKGSGGDKTMGMVAEGISEALVTTETGLIIALSG  FSY+ITRKFESYKAFLAHMETVCTQKLHKKN K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_146682818.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Limihaloglobus sulfuriphilus] &gt;gb|AQQ70562.1| Biopolymer transport protein ExbB [Limihaloglobus sulfuriphilus]</Hit_def>
+  <Hit_accession>WP_146682818</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>226.868</Hsp_bit-score>
+      <Hsp_score>577</Hsp_score>
+      <Hsp_evalue>1.55689e-71</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>ALSEQAVSIWSGG---MVAIAFIAMVMFSLSVNVQLKLSAKGFKRVKEKLWRHW---PKKREGHM--LVD--SANEEMRS---YFEELHSSETKPFVRDLRVIKICVSAAPLL--LGTVTGMLSTFDALAKGSGGDKTMGMVAEGISEALVTTETGLIIALSG--FSYMITRKFESYKAFLAHMETVCTQKLHKK</Hsp_qseq>
+      <Hsp_hseq>SLLQQAVEIWQAGGWAMIAIAATSLVMFTLGLNVSIRLSGRGFTRVRENKWRHWINHPQHRRGHIGRLLDFVTGGETIKDTAEFFEELHATEIAPFERDLKVMKICVGIAPLLGLLGTVTGMLSTFSALASGSGGDKTMGLVAEGISEALVTTETGLVVALAGLFFQYHLTRKHDRYKAFLAHVETVCNQKLYKK</Hsp_hseq>
+      <Hsp_midline>+L +QAV IW  G   M+AIA  ++VMF+L +NV ++LS +GF RV+E  WRHW   P+ R GH+  L+D  +  E ++    +FEELH++E  PF RDL+V+KICV  APLL  LGTVTGMLSTF ALA GSGGDKTMG+VAEGISEALVTTETGL++AL+G  F Y +TRK + YKAFLAH+ETVC QKL+KK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|MDY7107554.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Planctomycetota bacterium]</Hit_def>
+  <Hit_accession>MDY7107554</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.402</Hsp_bit-score>
+      <Hsp_score>568</Hsp_score>
+      <Hsp_evalue>4.59782e-70</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>EVLREHLIALSEQAVSIW-SGG--MVAIAFIAMVMFSLSVNVQLKLSAKGFKRVKEKLWRHW---PKKREG------HMLVDSAN-EEMRSYFEELHSSETKPFVRDLRVIKICVSAAPLL--LGTVTGMLSTFDALAKGSGGDKTMGMVAEGISEALVTTETGLIIALSG--FSYMITRKFESYKAFLAHMETVCTQKLHKKNGKS</Hsp_qseq>
+      <Hsp_hseq>EALIGHANRLWEQAVSIWLSGGWAMIAIAITALVMFSIGMHVHLRLRAKGFLSVSEKTWRRWIDHPKERKGPIGELLNFVTGGASLRETTVFFEELRSTEITPFERDLRVMRICVSAAPLLGLLGTVTGMLDTFGALATGAGGDKTMGLVAEGISEALVTTETGLVIAIPGLFFQYQLARKHERYKAFLAHLQTVCTQKVYRRSGRQ</Hsp_hseq>
+      <Hsp_midline>E L  H   L EQAVSIW SGG  M+AIA  A+VMFS+ ++V L+L AKGF  V EK WR W   PK+R+G      + +   A+  E   +FEEL S+E  PF RDLRV++ICVSAAPLL  LGTVTGML TF ALA G+GGDKTMG+VAEGISEALVTTETGL+IA+ G  F Y + RK E YKAFLAH++TVCTQK+++++G+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|MEW6238976.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Candidatus Omnitrophota bacterium]</Hit_def>
+  <Hit_accession>MEW6238976</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.787</Hsp_bit-score>
+      <Hsp_score>569</Hsp_score>
+      <Hsp_evalue>7.30357e-70</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>LREHLIALSEQAVSIWSGG---MVAIAFIAMVMFSLSVNVQLKLSAKGFKRVKEKLWRHW---PKKREGHM--LVDSAN-----EEMRSYFEELHSSETKPFVRDLRVIKICVSAAPLL--LGTVTGMLSTFDALAKGSGGDKTMGMVAEGISEALVTTETGLIIALSG--FSYMITRKFESYKAFLAHMETVCTQKLHKK</Hsp_qseq>
+      <Hsp_hseq>ITEHLKTLWDQALAIWIAGGWSMIAIAAIALVMFALGMHVYIKLSGKGFTSVSEKTWRHWINHPGERKGPIGELLDFAVGAASLKDSALFFEELRASEITPFERDLRVMKICVSVAPLLGLLGTVTGMLATFSALASGSGGEKTMGLVAKGISEALITTETGLVIALPGLFFQYQLARKLERYKAFLAHLETVCTQKLYKK</Hsp_hseq>
+      <Hsp_midline>+ EHL  L +QA++IW  G   M+AIA IA+VMF+L ++V +KLS KGF  V EK WRHW   P +R+G +  L+D A      ++   +FEEL +SE  PF RDLRV+KICVS APLL  LGTVTGML+TF ALA GSGG+KTMG+VA+GISEAL+TTETGL+IAL G  F Y + RK E YKAFLAH+ETVCTQKL+KK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_146662105.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Anaerohalosphaera lusitana]</Hit_def>
+  <Hit_accession>WP_146662105</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>222.631</Hsp_bit-score>
+      <Hsp_score>566</Hsp_score>
+      <Hsp_evalue>1.1119e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>MPEVLREHLIALSEQAVSIW-SGG--MVAIAFIAMVMFSLSVNVQLKLSAKGFKRVKEKLWRHW---PKKREGHM--LVDSAN-----EEMRSYFEELHSSETKPFVRDLRVIKICVSAAPLL--LGTVTGMLSTFDALAKGSGGDKTMGMVAEGISEALVTTETGLIIALSG--FSYMITRKFESYKAFLAHMETVCTQKLHKK</Hsp_qseq>
+      <Hsp_hseq>MLDAATEKLTTLWEHAISIWLSGGWAMIAIAAVSLVMFSLGMHILLRLRAKGFAKVPEKKWRKWINHPEKRKGHIGEILDFVTGGRTLKDTATYFEELRASEIVPFERDLLVMKICVSVAPLLGLLGTVTGMLATFEALASGSGGDKTMGMIAEGISEALVTTETGLVIALPGLLFQHILKRYYERYKAFLAHLETVCNQKLYKK</Hsp_hseq>
+      <Hsp_midline>M +   E L  L E A+SIW SGG  M+AIA +++VMFSL +++ L+L AKGF +V EK WR W   P+KR+GH+  ++D        ++  +YFEEL +SE  PF RDL V+KICVS APLL  LGTVTGML+TF+ALA GSGGDKTMGM+AEGISEALVTTETGL+IAL G  F +++ R +E YKAFLAH+ETVC QKL+KK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|MBI1387200.1|</Hit_id>
+  <Hit_def>hypothetical protein [bacterium]</Hit_def>
+  <Hit_accession>MBI1387200</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.09</Hsp_bit-score>
+      <Hsp_score>562</Hsp_score>
+      <Hsp_evalue>6.20402e-69</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>EHLIALSEQAVSIW-SGG--MVAIAFIAMVMFSLSVNVQLKLSAKGFKRVKEKLWRHW---PKKREGHM--LVD-----SANEEMRSYFEELHSSETKPFVRDLRVIKICVSAAPLL--LGTVTGMLSTFDALAKGSGGDKTMGMVAEGISEALVTTETGLIIALSG--FSYMITRKFESYKAFLAHMETVCTQKLHKK</Hsp_qseq>
+      <Hsp_hseq>EQIKTLWSQAVEIWLSGGWAMIAIAITALVMFALGMHVYFRLSEKGFNSVPEKKWRHWINHPEERKGPIGELLDFVTGGSSIEDTSVFFEELRVTEVAPFERDLRVMKICVSTAPLLGLLGTVTGMLSTFAALASGAGGDKTMAMVAKGISEALITTETGLVIALPGLFFQYQLTRKHERYKAFLAHLETVCTQKLYKK</Hsp_hseq>
+      <Hsp_midline>E +  L  QAV IW SGG  M+AIA  A+VMF+L ++V  +LS KGF  V EK WRHW   P++R+G +  L+D     S+ E+   +FEEL  +E  PF RDLRV+KICVS APLL  LGTVTGMLSTF ALA G+GGDKTM MVA+GISEAL+TTETGL+IAL G  F Y +TRK E YKAFLAH+ETVCTQKL+KK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>tpg|HIJ70810.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Planctomycetota bacterium]</Hit_def>
+  <Hit_accession>HIJ70810</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>220.705</Hsp_bit-score>
+      <Hsp_score>561</Hsp_score>
+      <Hsp_evalue>6.35475e-69</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>EHLIALSEQAVSIW-SGG--MVAIAFIAMVMFSLSVNVQLKLSAKGFKRVKEKLWRHW---PKKREG------HMLVDSAN-EEMRSYFEELHSSETKPFVRDLRVIKICVSAAPLL--LGTVTGMLSTFDALAKGSGGDKTMGMVAEGISEALVTTETGLIIALSG--FSYMITRKFESYKAFLAHMETVCTQKLHKK</Hsp_qseq>
+      <Hsp_hseq>EQLNNFWQQALEIWLSGGWAMIAIAIVAMVMFSMGMHVHLKLREKGFRSVPEKTWRQWINHPAEREGPIGDILNFVTGGASLKDTSTFFEELRISEIAPFEQDLRVMKICVSAAPLLGLLGTVTGMLATFGALASGSGGDKTMGLVAEGISEALVTTETGLIIALPGLFFRYMLGRQHERYKEFLAHLETVCTQKLYKK</Hsp_hseq>
+      <Hsp_midline>E L    +QA+ IW SGG  M+AIA +AMVMFS+ ++V LKL  KGF+ V EK WR W   P +REG      + +   A+ ++  ++FEEL  SE  PF +DLRV+KICVSAAPLL  LGTVTGML+TF ALA GSGGDKTMG+VAEGISEALVTTETGLIIAL G  F YM+ R+ E YK FLAH+ETVCTQKL+KK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|MBN2327020.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Candidatus Omnitrophota bacterium]</Hit_def>
+  <Hit_accession>MBN2327020</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.935</Hsp_bit-score>
+      <Hsp_score>559</Hsp_score>
+      <Hsp_evalue>7.31012e-69</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>204</Hsp_align-len>
+      <Hsp_qseq>LREHLIALSEQAVSIWSGG---MVAIAFIAMVMFSLSVNVQLKLSAKGFKRVKEKLWRHW---PKKREGHM--LVDSAN-----EEMRSYFEELHSSETKPFVRDLRVIKICVSAAPL--LLGTVTGMLSTFDALAKGSGGDKTMGMVAEGISEALVTTETGLIIALSG--FSYMITRKFESYKAFLAHMETVCTQKLHKKNGK</Hsp_qseq>
+      <Hsp_hseq>LTPYLITLWEQALEIWLAGGWAMIAIAVIALVMFGLGVHVYLRLAGKGFTTVREKKWRHWIKHPEKRKGPIGELLDFATSARTLKDSSSLFDEMRAVEISPFERDLRVMKICVSAAPLIGLLGTVTGMLATFAALANGSGGDKTMELVAEGISEALITTETGLVIALPGLFLQYQLARNLDRYKAFLAHLETVCNQKLYKQTHK</Hsp_hseq>
+      <Hsp_midline>L  +LI L EQA+ IW  G   M+AIA IA+VMF L V+V L+L+ KGF  V+EK WRHW   P+KR+G +  L+D A      ++  S F+E+ + E  PF RDLRV+KICVSAAPL  LLGTVTGML+TF ALA GSGGDKTM +VAEGISEAL+TTETGL+IAL G    Y + R  + YKAFLAH+ETVC QKL+K+  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|MFI4912988.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Sedimentisphaeraceae bacterium JB056]</Hit_def>
+  <Hit_accession>MFI4912988</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.935</Hsp_bit-score>
+      <Hsp_score>559</Hsp_score>
+      <Hsp_evalue>1.00227e-68</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>EHLIALSEQAVSIW-SGG--MVAIAFIAMVMFSLSVNVQLKLSAKGFKRVKEKLWRHW---PKKREGHM--LVDSAN-----EEMRSYFEELHSSETKPFVRDLRVIKICVSAAPLL--LGTVTGMLSTFDALAKGSGGDKTMGMVAEGISEALVTTETGLIIALSG--FSYMITRKFESYKAFLAHMETVCTQKLH</Hsp_qseq>
+      <Hsp_hseq>EYLNSLWSQAVDIWLSGGWAMIAIATIAMVMFSLGIHVHLKFMEKGFLAVPEKKWRHWINHPKERKGPIGELLDFVSGSKSLKDTKDFFEELQTTEIAPFDRDLKVMKICVGAAPLLGLLGTVTGMLSTFGALASGSGGEKTMGLVAEGISEALVTTETGLMIALPGLFFQYMLARNNERYKAFLAHLETVCTQKQY</Hsp_hseq>
+      <Hsp_midline>E+L +L  QAV IW SGG  M+AIA IAMVMFSL ++V LK   KGF  V EK WRHW   PK+R+G +  L+D  +     ++ + +FEEL ++E  PF RDL+V+KICV AAPLL  LGTVTGMLSTF ALA GSGG+KTMG+VAEGISEALVTTETGL+IAL G  F YM+ R  E YKAFLAH+ETVCTQK +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|MCF7954820.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Phycisphaerae bacterium]</Hit_def>
+  <Hit_accession>MCF7954820</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.394</Hsp_bit-score>
+      <Hsp_score>555</Hsp_score>
+      <Hsp_evalue>5.86838e-68</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>LREHLIALSEQAVSIW-SGG--MVAIAFIAMVMFSLSVNVQLKLSAKGFKRVKEKLWRHW---PKKREGHM--LVD-----SANEEMRSYFEELHSSETKPFVRDLRVIKICVSAAPLL--LGTVTGMLSTFDALAKGSGGDKTMGMVAEGISEALVTTETGLIIALSGF--SYMITRKFESYKAFLAHMETVCTQKLHKK</Hsp_qseq>
+      <Hsp_hseq>ITEQIMNLWQQAVSIWLSGGWAMWAIAAISLTMFWMGINVYQRLSGKGFSSVREKTWRHWINHPQERKGYIGNILDFVTGGQSLDDTRTYFEELRGTEIAPFERELKVMKICVSTAPLLGLLGTVTGMLATFSALASGSGGDKTMALVASGISEALITTETGLVIALPGVFAHYLLVRKLERYKAFLAHLETVCTQKQYKK</Hsp_hseq>
+      <Hsp_midline>+ E ++ L +QAVSIW SGG  M AIA I++ MF + +NV  +LS KGF  V+EK WRHW   P++R+G++  ++D      + ++ R+YFEEL  +E  PF R+L+V+KICVS APLL  LGTVTGML+TF ALA GSGGDKTM +VA GISEAL+TTETGL+IAL G    Y++ RK E YKAFLAH+ETVCTQK +KK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|MEX2672283.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Phycisphaeraceae bacterium]</Hit_def>
+  <Hit_accession>MEX2672283</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.009</Hsp_bit-score>
+      <Hsp_score>554</Hsp_score>
+      <Hsp_evalue>9.1194e-68</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>LREHLIALSEQAVSIW-SGG--MVAIAFIAMVMFSLSVNVQLKLSAKGFKRVKEKLWRHW---PKKREG---HMLV----DSANEEMRSYFEELHSSETKPFVRDLRVIKICVSAAPLL--LGTVTGMLSTFDALAKGSGGDKTMGMVAEGISEALVTTETGLIIALSG--FSYMITRKFESYKAFLAHMETVCTQKLHKK</Hsp_qseq>
+      <Hsp_hseq>LMEQTRNLIERAVDIWLTGGWAMLAIATVAMVLFAMGVHIYLRLRAKGFERISEKTWRQWIDQPGKREGPIGEMLAFVTGSRSLEENVTFFEELRTAEIKPFERDLRVMKICVSATPLLGLLGTVTGMLATFGALAEGSGGEKTMGLVAAGISEALITTETGLVIALPGLFFHYQLTRKHHRYAAFLAHLETVCAQSLHRK</Hsp_hseq>
+      <Hsp_midline>L E    L E+AV IW +GG  M+AIA +AMV+F++ V++ L+L AKGF+R+ EK WR W   P KREG    ML       + EE  ++FEEL ++E KPF RDLRV+KICVSA PLL  LGTVTGML+TF ALA+GSGG+KTMG+VA GISEAL+TTETGL+IAL G  F Y +TRK   Y AFLAH+ETVC Q LH+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|MBN2584922.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Planctomycetota bacterium]</Hit_def>
+  <Hit_accession>MBN2584922</Hit_accession>
+  <Hit_len>226</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>217.624</Hsp_bit-score>
+      <Hsp_score>553</Hsp_score>
+      <Hsp_evalue>1.07668e-67</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>LREHLIALSEQAVSIWSGG---MVAIAFIAMVMFSLSVNVQLKLSAKGFKRVKEKLWRHW---PKKREGHM--LVD-----SANEEMRSYFEELHSSETKPFVRDLRVIKICVSAAPLL--LGTVTGMLSTFDALAKGSGGDKTMGMVAEGISEALVTTETGLIIALSG--FSYMITRKFESYKAFLAHMETVCTQKLHK</Hsp_qseq>
+      <Hsp_hseq>LREQAIELCSQAAAIWASGGWCMPALAAIALVMFALGWHVHLRLKEKGFLSVPEKTWRRWINHPDQRRGPIGELLDFVTGGTSLDDMGIYFQELRTTEIAPFERDLRIMKICVSAAPLLGLLGTVTGMLATFHALATGSGGEKTMGMIAAGISEALITTETGLVIALPGLFFQYQLTRKHERYKAFLAHLETVCTQRLYR</Hsp_hseq>
+      <Hsp_midline>LRE  I L  QA +IW+ G   M A+A IA+VMF+L  +V L+L  KGF  V EK WR W   P +R G +  L+D     ++ ++M  YF+EL ++E  PF RDLR++KICVSAAPLL  LGTVTGML+TF ALA GSGG+KTMGM+A GISEAL+TTETGL+IAL G  F Y +TRK E YKAFLAH+ETVCTQ+L++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|MDD5327757.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Phycisphaerae bacterium]</Hit_def>
+  <Hit_accession>MDD5327757</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>217.238</Hsp_bit-score>
+      <Hsp_score>552</Hsp_score>
+      <Hsp_evalue>1.89784e-67</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>EHLIALSEQAVSIWSGG---MVAIAFIAMVMFSLSVNVQLKLSAKGFKRVKEKLWRHW---PKKREGHM--LVD-----SANEEMRSYFEELHSSETKPFVRDLRVIKICVSAAPLL--LGTVTGMLSTFDALAKGSGGDKTMGMVAEGISEALVTTETGLIIALSG--FSYMITRKFESYKAFLAHMETVCTQKLHKK</Hsp_qseq>
+      <Hsp_hseq>EQLVTLWNQALVIWMAGGWCMPAIALNAIVLFALIMHVYLKLVGKGFASVKEKTWRHWIDHPEERKGPIGDLLDYVTGGNSLKDTATFFEELRTTEIAPFERDLRIIKICVSSAPLLGLLGTVTGMLATFGALASGSGGEKTMALVAAGISEALITTETGLVIALPGLFFQYQLVRKHEQYKAFLAHLETVCTQKLHKR</Hsp_hseq>
+      <Hsp_midline>E L+ L  QA+ IW  G   M AIA  A+V+F+L ++V LKL  KGF  VKEK WRHW   P++R+G +  L+D     ++ ++  ++FEEL ++E  PF RDLR+IKICVS+APLL  LGTVTGML+TF ALA GSGG+KTM +VA GISEAL+TTETGL+IAL G  F Y + RK E YKAFLAH+ETVCTQKLHK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|RJP27593.1|</Hit_id>
+  <Hit_def>MAG: MotA/TolQ/ExbB proton channel family protein [Candidatus Omnitrophota bacterium]</Hit_def>
+  <Hit_accession>RJP27593</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>217.624</Hsp_bit-score>
+      <Hsp_score>553</Hsp_score>
+      <Hsp_evalue>1.96926e-67</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>EHLIALSEQAVSIW-SGG--MVAIAFIAMVMFSLSVNVQLKLSAKGFKRVKEKLWRHW---PKKREGHM-----LVDSAN--EEMRSYFEELHSSETKPFVRDLRVIKICVSAAPLL--LGTVTGMLSTFDALAKGSGGDKTMGMVAEGISEALVTTETGLIIALSG--FSYMITRKFESYKAFLAHMETVCTQ</Hsp_qseq>
+      <Hsp_hseq>EYLKTLWEQAFVIWLSGGWAMIAIAVIALVMFSLGMHVYLKLAGKGFTSVREKTWRHWINHPDERKGPIGELLNFVTGGNSLKDIAVFFEELRATEIAPFERDLRVMKICVSAAPLLGLLGTVTGMLATFAALASGAGGDKTMGLVAVGISEALITTETGLVIALPGLFFQYQLARKLERYKAFLAHLETVCTQ</Hsp_hseq>
+      <Hsp_midline>E+L  L EQA  IW SGG  M+AIA IA+VMFSL ++V LKL+ KGF  V+EK WRHW   P +R+G +      V   N  +++  +FEEL ++E  PF RDLRV+KICVSAAPLL  LGTVTGML+TF ALA G+GGDKTMG+VA GISEAL+TTETGL+IAL G  F Y + RK E YKAFLAH+ETVCTQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|NQV33281.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Phycisphaeraceae bacterium]</Hit_def>
+  <Hit_accession>NQV33281</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.312</Hsp_bit-score>
+      <Hsp_score>547</Hsp_score>
+      <Hsp_evalue>5.17178e-67</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>HLIALSEQAVSIWSGG---MVAIAFIAMVMFSLSVNVQLKLSAKGFKRVKEKLWRHWPKKREGH-----MLVD-----SANEEMRSYFEELHSSETKPFVRDLRVIKICVSAAPLL--LGTVTGMLSTFDALAKGSGGDKTMGMVAEGISEALVTTETGLIIALSG--FSYMITRKFESYKAFLAHMETVCTQKLHKK</Hsp_qseq>
+      <Hsp_hseq>HLVSLWHQAVGIWQSGGWAMIALCINALVLFALGMHVSLRLSENGFRSVPEKTWRHWITHAEGRKGPVGQLLDFVTGAGSLTENVVFFDELRTTEIVPFERDLRVMKICVSSAPLLGLLGTVTGMLATFGALATGSGGDKTMGLIAEGISEALITTETGLIIALPGLFFQYQLTRQLERYKAFLAHLETTCAQKLYKK</Hsp_hseq>
+      <Hsp_midline>HL++L  QAV IW  G   M+A+   A+V+F+L ++V L+LS  GF+ V EK WRHW    EG       L+D      +  E   +F+EL ++E  PF RDLRV+KICVS+APLL  LGTVTGML+TF ALA GSGGDKTMG++AEGISEAL+TTETGLIIAL G  F Y +TR+ E YKAFLAH+ET C QKL+KK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|MBN2512047.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Sedimentisphaerales bacterium]</Hit_def>
+  <Hit_accession>MBN2512047</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.927</Hsp_bit-score>
+      <Hsp_score>546</Hsp_score>
+      <Hsp_evalue>9.01574e-67</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>LSEQAVSIW-SGG--MVAIAFIAMVMFSLSVNVQLKLSAKGFKRVKEKLWRHW---PKKREGHM--LVDSAN-----EEMRSYFEELHSSETKPFVRDLRVIKICVSAAPLL--LGTVTGMLSTFDALAKGSGGDKTMGMVAEGISEALVTTETGLIIALSG--FSYMITRKFESYKAFLAHMETVCTQKLHKK</Hsp_qseq>
+      <Hsp_hseq>LWRQAVEIWISGGWAMLPIAVSALVMYALGMHVHLRLSGKGFTSISEKTWRQWIDHPRQRKGPIGELLDFVTGGESLEDMTLFFEELHVTEIAPFERDLRVMKICVGVAPLLGLLGTVTGMLATFAALASGAGGEKTMGMIAEGISEALITTETGLVIALPGLFFRYQLVRKHERYKAFLAHLETVCTQKLYKK</Hsp_hseq>
+      <Hsp_midline>L  QAV IW SGG  M+ IA  A+VM++L ++V L+LS KGF  + EK WR W   P++R+G +  L+D        E+M  +FEELH +E  PF RDLRV+KICV  APLL  LGTVTGML+TF ALA G+GG+KTMGM+AEGISEAL+TTETGL+IAL G  F Y + RK E YKAFLAH+ETVCTQKL+KK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|MCF7974945.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Phycisphaerae bacterium]</Hit_def>
+  <Hit_accession>MCF7974945</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.542</Hsp_bit-score>
+      <Hsp_score>545</Hsp_score>
+      <Hsp_evalue>1.29433e-66</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>HLIALSEQAVSIW-SGG--MVAIAFIAMVMFSLSVNVQLKLSAKGFKRVKEKLWRHWPKKRE------GHML--VDSANE--EMRSYFEELHSSETKPFVRDLRVIKICVSAAPLL--LGTVTGMLSTFDALAKGSGGDKTMGMVAEGISEALVTTETGLIIALSG--FSYMITRKFESYKAFLAHMETVCTQKLHKK</Hsp_qseq>
+      <Hsp_hseq>HLVTLWHQAVAIWLSGGWAMIALGINALVLFALGMHVRLRLSEKGFRSVPEKTWRHWINHAEERTGSVGQLLDFVTGAGSLTENAVFFDELRTTEIVPFERDLRVMKICVSSAPLLGLLGTVTGMLATFGALATGSGGDKTMGLIAEGISEALITTETGLIIALPGLFFQYHLTRQLERYKAFLAHLETTCAQTLYKK</Hsp_hseq>
+      <Hsp_midline>HL+ L  QAV+IW SGG  M+A+   A+V+F+L ++V+L+LS KGF+ V EK WRHW    E      G +L  V  A    E   +F+EL ++E  PF RDLRV+KICVS+APLL  LGTVTGML+TF ALA GSGGDKTMG++AEGISEAL+TTETGLIIAL G  F Y +TR+ E YKAFLAH+ET C Q L+KK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|MBC8206779.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Kiritimatiellota bacterium] &gt;gb|MBL7011969.1| MotA/TolQ/ExbB proton channel family protein [Kiritimatiellales bacterium]</Hit_def>
+  <Hit_accession>MBC8206779</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.772</Hsp_bit-score>
+      <Hsp_score>543</Hsp_score>
+      <Hsp_evalue>1.4066e-66</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>ALSEQAVSIW-SGG--MVAIAFIAMVMFSLSVNVQLKLSAKGFKRVKEKLWRHW---PKKREGHM--LVD-----SANEEMRSYFEELHSSETKPFVRDLRVIKICVSAAPLL--LGTVTGMLSTFDALAKGSGGDKTMGMVAEGISEALVTTETGLIIALSG--FSYMITRKFESYKAFLAHMETVCTQKLHKK</Hsp_qseq>
+      <Hsp_hseq>GLFQQTAEIWLSGGWAMVALTLNALILFGIGMNIQLNLNEKGFQSVPEKTWRHWINHPEQRKGPIGELLDFVTGGSSLKQTAIFFEELRSTEITPFTRDLRVMKVCVSSAPLLGLLGTVTGMLATFGALASGSGGDKTMGMIAAGISEALITTETGLIIALPGLFFQYQLTRGHERYKAFLAHLETVCTQKQYQR</Hsp_hseq>
+      <Hsp_midline> L +Q   IW SGG  MVA+   A+++F + +N+QL L+ KGF+ V EK WRHW   P++R+G +  L+D     S+ ++   +FEEL S+E  PF RDLRV+K+CVS+APLL  LGTVTGML+TF ALA GSGGDKTMGM+A GISEAL+TTETGLIIAL G  F Y +TR  E YKAFLAH+ETVCTQK +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>877781531</Statistics_db-num>
+      <Statistics_db-len>334720180573</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

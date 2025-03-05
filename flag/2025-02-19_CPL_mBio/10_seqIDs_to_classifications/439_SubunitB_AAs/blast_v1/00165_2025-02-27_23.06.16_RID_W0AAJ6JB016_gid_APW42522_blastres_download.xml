@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_4208617</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>137</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_4208617</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>137</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_029708745.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Rhodoferax saidenbachensis] &gt;gb|APW42521.1| biopolymer transporter ExbD [Rhodoferax saidenbachensis]</Hit_def>
+  <Hit_accession>WP_029708745</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>269.626</Hsp_bit-score>
+      <Hsp_score>688</Hsp_score>
+      <Hsp_evalue>1.88808e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MNFRPRTKEEPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQL--PVADTDAQRNYPKEMIVSVGADGAYSVNQTAVSGRSLENLATALTEAAKAGKDTVVII---ASAKHQAVVTVMEAARRAGLNQITFATQSSAQAGGK</Hsp_qseq>
+      <Hsp_hseq>MNFRPRTKEEPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQLTLPVADTDAQRNYPKEMIVSVGADGAYSVNQTAVSGRSLENLATALTEAAKAGKDTVVIISADASAKHQAVVTVMEAARRAGLNQITFATQSSAQAGGK</Hsp_hseq>
+      <Hsp_midline>MNFRPRTKEEPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQL  PVADTDAQRNYPKEMIVSVGADGAYSVNQTAVSGRSLENLATALTEAAKAGKDTVVII   ASAKHQAVVTVMEAARRAGLNQITFATQSSAQAGGK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|MDP3653863.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Rhodoferax sp.]</Hit_def>
+  <Hit_accession>MDP3653863</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.121</Hsp_bit-score>
+      <Hsp_score>614</Hsp_score>
+      <Hsp_evalue>3.59444e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MNFRPRTKEEPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQL--PVADTDAQRNYPKEMIVSVGADGAYSVNQTAVSGRSLENLATALTEAAKAGKDTVVII---ASAKHQAVVTVMEAARRAGLNQITFATQSSAQAGGK</Hsp_qseq>
+      <Hsp_hseq>MNFRPRRQDEPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQLTLPVADTDAQRDYPKELIVTVGADGAYSVNRLPVAGRSLESVAAALTEGAKAGKDTVVIISADASAKHQAVVTVMEAARRSGLNQITFATQSTAQSGGK</Hsp_hseq>
+      <Hsp_midline>MNFRPR ++EPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQL  PVADTDAQR+YPKE+IV+VGADGAYSVN+  V+GRSLE++A ALTE AKAGKDTVVII   ASAKHQAVVTVMEAARR+GLNQITFATQS+AQ+GGK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_294768196.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [uncultured Rhodoferax sp.]</Hit_def>
+  <Hit_accession>WP_294768196</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>239.965</Hsp_bit-score>
+      <Hsp_score>611</Hsp_score>
+      <Hsp_evalue>1.13732e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MNFRPRTKEEPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQL--PVADTDAQRNYPKEMIVSVGADGAYSVNQTAVSGRSLENLATALTEAAKAGKDTVVII---ASAKHQAVVTVMEAARRAGLNQITFATQSSAQAGGK</Hsp_qseq>
+      <Hsp_hseq>MNFRPRRHEEPEINLIPFIDVLLVVLIFLMLSTTYSKFTELQLKLPVADTDAQRDYPKELIVAVSADGAYNINHTPVAGRNLDSLAVALTENAKAGKDTVVIISADASAKHQAVVTVMEAARRAGLNQITFATQSSAQAGGK</Hsp_hseq>
+      <Hsp_midline>MNFRPR  EEPEINLIPFIDVLLVVLIFLMLSTTYSKFTE+QL  PVADTDAQR+YPKE+IV+V ADGAY++N T V+GR+L++LA ALTE AKAGKDTVVII   ASAKHQAVVTVMEAARRAGLNQITFATQSSAQAGGK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_413858814.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Candidatus Aalborgicola defluviihabitans] &gt;gb|MBK6322899.1| biopolymer transporter ExbD [Burkholderiales bacterium] &gt;gb|MBK6569098.1| biopolymer transporter ExbD [Burkholderiales bacterium] &gt;gb|MBK7282801.1| biopolymer transporter ExbD [Burkholderiales bacterium] &gt;gb|MBK7313609.1| biopolymer transporter ExbD [Burkholderiales bacterium]</Hit_def>
+  <Hit_accession>WP_413858814</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>238.424</Hsp_bit-score>
+      <Hsp_score>607</Hsp_score>
+      <Hsp_evalue>4.83899e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MNFRPRTKEEPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQL--PVADTDAQRNYPKEMIVSVGADGAYSVNQTAVSGRSLENLATALTEAAKAGKDTVVII---ASAKHQAVVTVMEAARRAGLNQITFATQSSAQAGGK</Hsp_qseq>
+      <Hsp_hseq>MNFRPRKQEEPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQLKLPVADTEAQRDYAKELIVAVSADGAYSVNRTPVAGRSLESVATAIAEGAKAGKDTVVIISADASAKHQAVVTVMEAARRAGLNQITFATQSSAQAGGQ</Hsp_hseq>
+      <Hsp_midline>MNFRPR +EEPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQL  PVADT+AQR+Y KE+IV+V ADGAYSVN+T V+GRSLE++ATA+ E AKAGKDTVVII   ASAKHQAVVTVMEAARRAGLNQITFATQSSAQAGG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|MBL0245756.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Rhodoferax sp.]</Hit_def>
+  <Hit_accession>MBL0245756</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>237.654</Hsp_bit-score>
+      <Hsp_score>605</Hsp_score>
+      <Hsp_evalue>1.0429e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MNFRPRTKEEPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQL--PVADTDAQRNYPKEMIVSVGADGAYSVNQTAVSGRSLENLATALTEAAKAGKDTVVII---ASAKHQAVVTVMEAARRAGLNQITFATQSSAQAGGK</Hsp_qseq>
+      <Hsp_hseq>MNFRPRKTEEPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQLKLPVADTEAQRDYAKELIVAVSADGAYSVNRTPVAGRSLESVATAIAEGAKAGKDTVVIISADASAKHQAVVTVMEAARRAGLNQITFATQSSAQAGGQ</Hsp_hseq>
+      <Hsp_midline>MNFRPR  EEPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQL  PVADT+AQR+Y KE+IV+V ADGAYSVN+T V+GRSLE++ATA+ E AKAGKDTVVII   ASAKHQAVVTVMEAARRAGLNQITFATQSSAQAGG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_296469647.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Rhodoferax sp.] &gt;gb|OGO94894.1| MAG: biopolymer transporter ExbD [Curvibacter sp. GWA2_63_95] &gt;gb|OGP01337.1| MAG: biopolymer transporter ExbD [Curvibacter sp. RIFCSPHIGHO2_12_FULL_63_18] &gt;tpg|HCX82214.1| biopolymer transporter ExbD [Rhodoferax sp.]</Hit_def>
+  <Hit_accession>WP_296469647</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>236.884</Hsp_bit-score>
+      <Hsp_score>603</Hsp_score>
+      <Hsp_evalue>1.82476e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MNFRPRTKEEPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQL--PVADTDAQRNYPKEMIVSVGADGAYSVNQTAVSGRSLENLATALTEAAKAGKDTVVII---ASAKHQAVVTVMEAARRAGLNQITFATQSSAQAGGK</Hsp_qseq>
+      <Hsp_hseq>MNFRPRRHEEPEINLIPFIDVLLVVLIFLMLSTTYSKFTELQLKLPVADTDAQRDYPKELIVAVSADGSYSINRNAIAGRNLDSLAIALTDNAKAGKDTVVIISADASAKHQAVVTVMEAARRAGLNQITFATQSSAQAGGQ</Hsp_hseq>
+      <Hsp_midline>MNFRPR  EEPEINLIPFIDVLLVVLIFLMLSTTYSKFTE+QL  PVADTDAQR+YPKE+IV+V ADG+YS+N+ A++GR+L++LA ALT+ AKAGKDTVVII   ASAKHQAVVTVMEAARRAGLNQITFATQSSAQAGG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|MES2581292.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Pseudomonadota bacterium]</Hit_def>
+  <Hit_accession>MES2581292</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>236.498</Hsp_bit-score>
+      <Hsp_score>602</Hsp_score>
+      <Hsp_evalue>2.48083e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MNFRPRTKEEPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQL--PVADTDAQRNYPKEMIVSVGADGAYSVNQTAVSGRSLENLATALTEAAKAGKDTVVII---ASAKHQAVVTVMEAARRAGLNQITFATQSSAQAGGK</Hsp_qseq>
+      <Hsp_hseq>MNFRARTTEEPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQLKLPVADTDAQRDHAKELIVAVGADGAYSVNRVAVAGRTLENVSLAMSEAAKAGKDTVVIISADASAKHQSVVTVMEAARRSGLHQITFATQSSAQAGGR</Hsp_hseq>
+      <Hsp_midline>MNFR RT EEPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQL  PVADTDAQR++ KE+IV+VGADGAYSVN+ AV+GR+LEN++ A++EAAKAGKDTVVII   ASAKHQ+VVTVMEAARR+GL+QITFATQSSAQAGG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|MES2948793.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Pseudomonadota bacterium]</Hit_def>
+  <Hit_accession>MES2948793</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>235.728</Hsp_bit-score>
+      <Hsp_score>600</Hsp_score>
+      <Hsp_evalue>5.64797e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MNFRPRTKEEPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQL--PVADTDAQRNYPKEMIVSVGADGAYSVNQTAVSGRSLENLATALTEAAKAGKDTVVII---ASAKHQAVVTVMEAARRAGLNQITFATQSSAQAGGK</Hsp_qseq>
+      <Hsp_hseq>MNFRARTTEEPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQLKLPVADTDAQRDYAKELIVAVSADGAYSVNRVPVVGRSLENVAIAMTEGAKAGKDTVVIISADASAKHQSVVTVMEAARRSGLNQITFATQSSAQAGGR</Hsp_hseq>
+      <Hsp_midline>MNFR RT EEPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQL  PVADTDAQR+Y KE+IV+V ADGAYSVN+  V GRSLEN+A A+TE AKAGKDTVVII   ASAKHQ+VVTVMEAARR+GLNQITFATQSSAQAGG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_142810593.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Rhodoferax aquaticus] &gt;gb|QDL54050.1| biopolymer transporter ExbD [Rhodoferax aquaticus]</Hit_def>
+  <Hit_accession>WP_142810593</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>235.343</Hsp_bit-score>
+      <Hsp_score>599</Hsp_score>
+      <Hsp_evalue>8.02299e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MNFRPRTKEEPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQL--PVADTDAQRNYPKEMIVSVGADGAYSVNQTAVSGRSLENLATALTEAAKAGKDTVVII---ASAKHQAVVTVMEAARRAGLNQITFATQSSAQAGGK</Hsp_qseq>
+      <Hsp_hseq>MNFRPRRQEEPEINLIPFIDVLLVILIFLMLSTTYSKFTEMQLTLPVADTEAQRDYPKEMIVAVGADGAYSVNKVAVVGRSVESIASAMAEGAKAGKDTVVIISADASAKHQSVVTVMEAARRAGLNQITFATQSTALAGDK</Hsp_hseq>
+      <Hsp_midline>MNFRPR +EEPEINLIPFIDVLLV+LIFLMLSTTYSKFTEMQL  PVADT+AQR+YPKEMIV+VGADGAYSVN+ AV GRS+E++A+A+ E AKAGKDTVVII   ASAKHQ+VVTVMEAARRAGLNQITFATQS+A AG K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_310338634.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Rhodoferax saidenbachensis] &gt;gb|MDR7304974.1| biopolymer transport protein ExbD [Rhodoferax saidenbachensis]</Hit_def>
+  <Hit_accession>WP_310338634</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>234.572</Hsp_bit-score>
+      <Hsp_score>597</Hsp_score>
+      <Hsp_evalue>1.31434e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MNFRPRTKEEPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQL--PVADTDAQRNYPKEMIVSVGADGAYSVNQTAVSGRSLENLATALTEAAKAGKDTVVII---ASAKHQAVVTVMEAARRAGLNQITFATQSSAQAGGK</Hsp_qseq>
+      <Hsp_hseq>MNFRPRRHEEPEINLIPFIDVLLVVLIFLMLSTTYSKFTELQLKLPVADAEAQRDYPKELIVLVSADGAYTVNRNPLAGRSLESLAIALTENAKAGKDTVVIISADASAKHQAVVTVMEAARRAGLNQITFATQSSAQAGGK</Hsp_hseq>
+      <Hsp_midline>MNFRPR  EEPEINLIPFIDVLLVVLIFLMLSTTYSKFTE+QL  PVAD +AQR+YPKE+IV V ADGAY+VN+  ++GRSLE+LA ALTE AKAGKDTVVII   ASAKHQAVVTVMEAARRAGLNQITFATQSSAQAGGK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|OGB34446.1|</Hit_id>
+  <Hit_def>MAG: biopolymer transporter ExbD [Burkholderiales bacterium RIFCSPLOWO2_12_FULL_61_40]</Hit_def>
+  <Hit_accession>OGB34446</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>234.572</Hsp_bit-score>
+      <Hsp_score>597</Hsp_score>
+      <Hsp_evalue>1.3435e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MNFRPRTKEEPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQL--PVADTDAQRNYPKEMIVSVGADGAYSVNQTAVSGRSLENLATALTEAAKAGKDTVVII---ASAKHQAVVTVMEAARRAGLNQITFATQSSAQAGGK</Hsp_qseq>
+      <Hsp_hseq>MNFRPRRQDEPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQLTLPVADTDAQRDYPKELIVTVSAEGAYSVNRLPVAGRSLESVAAALTEGAKAGKDTVIIISADASAKHQAVVTVMEAARRSGLNQITFATQSTTQSGGK</Hsp_hseq>
+      <Hsp_midline>MNFRPR ++EPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQL  PVADTDAQR+YPKE+IV+V A+GAYSVN+  V+GRSLE++A ALTE AKAGKDTV+II   ASAKHQAVVTVMEAARR+GLNQITFATQS+ Q+GGK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|MEY4738005.1|</Hit_id>
+  <Hit_def>hypothetical protein [Pseudomonadota bacterium]</Hit_def>
+  <Hit_accession>MEY4738005</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>234.572</Hsp_bit-score>
+      <Hsp_score>597</Hsp_score>
+      <Hsp_evalue>1.6189e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MNFRPRTKEEPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQL--PVADTDAQRNYPKEMIVSVGADGAYSVNQTAVSGRSLENLATALTEAAKAGKDTVVII---ASAKHQAVVTVMEAARRAGLNQITFATQSSAQAGGK</Hsp_qseq>
+      <Hsp_hseq>MNFRPRTRDEPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQLQLPVADTDTQRDYPKEVIVTVTADGAYSVNRVAVAGRSLEGVTAALIEGAKAGKDSVIIISADASAKHQAVITVMEAARRAGLNHITFATQSSAHAGGK</Hsp_hseq>
+      <Hsp_midline>MNFRPRT++EPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQL  PVADTD QR+YPKE+IV+V ADGAYSVN+ AV+GRSLE +  AL E AKAGKD+V+II   ASAKHQAV+TVMEAARRAGLN ITFATQSSA AGGK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|OYU33047.1|</Hit_id>
+  <Hit_def>MAG: biopolymer transporter ExbD [Comamonadaceae bacterium PBBC2]</Hit_def>
+  <Hit_accession>OYU33047</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>233.802</Hsp_bit-score>
+      <Hsp_score>595</Hsp_score>
+      <Hsp_evalue>3.02398e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MNFRPRTKEEPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQL--PVADTDAQRNYPKEMIVSVGADGAYSVNQTAVSGRSLENLATALTEAAKAGKDTVVII---ASAKHQAVVTVMEAARRAGLNQITFATQSSAQAG</Hsp_qseq>
+      <Hsp_hseq>MNFRSRSVSEPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQLRLPVADTDAQRDYPKEMIVSVSADGAYSVNRVAVTGRSLETLAAALSDGAKAGKETVVIISADASAKHQSVVTVMEAARRAGLNQITFATQSSAQSG</Hsp_hseq>
+      <Hsp_midline>MNFR R+  EPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQL  PVADTDAQR+YPKEMIVSV ADGAYSVN+ AV+GRSLE LA AL++ AKAGK+TVVII   ASAKHQ+VVTVMEAARRAGLNQITFATQSSAQ+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_322576783.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Rhodoferax sp.] &gt;gb|MDZ7918543.1| biopolymer transporter ExbD [Rhodoferax sp.]</Hit_def>
+  <Hit_accession>WP_322576783</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>233.032</Hsp_bit-score>
+      <Hsp_score>593</Hsp_score>
+      <Hsp_evalue>5.90665e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MNFRPRTKEEPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQL--PVADTDAQRNYPKEMIVSVGADGAYSVNQTAVSGRSLENLATALTEAAKAGKDTVVII---ASAKHQAVVTVMEAARRAGLNQITFATQSSAQAGGK</Hsp_qseq>
+      <Hsp_hseq>MNFRHRRQDEPEINLIPFIDVLLVVLIFLMLSTTYSKFTELQLKLPVADTDAQRDYPKELIVAVSADGSYSINRNAIAGRNLDSLAIALTDNAKAGKDTVVIISADASAKHQAVVTVMEAARRAGLNQITFATQSSAQAGGQ</Hsp_hseq>
+      <Hsp_midline>MNFR R ++EPEINLIPFIDVLLVVLIFLMLSTTYSKFTE+QL  PVADTDAQR+YPKE+IV+V ADG+YS+N+ A++GR+L++LA ALT+ AKAGKDTVVII   ASAKHQAVVTVMEAARRAGLNQITFATQSSAQAGG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|MBX9816648.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Burkholderiaceae bacterium]</Hit_def>
+  <Hit_accession>MBX9816648</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>233.032</Hsp_bit-score>
+      <Hsp_score>593</Hsp_score>
+      <Hsp_evalue>6.10425e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MNFRPRTKEEPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQL--PVADTDAQRNYPKEMIVSVGADGAYSVNQTAVSGRSLENLATALTEAAKAGKDTVVII---ASAKHQAVVTVMEAARRAGLNQITFATQSSAQAGGK</Hsp_qseq>
+      <Hsp_hseq>MNFRHRRQDEPEINLIPFIDVLLVVLIFLMLSTTYSKFTELQLKLPVADTDAQRDYPKELIVAVSADGSYSINRNAIAGRNLDSLAMALTDNAKAGKDTVVIISADASAKHQAVVTVMEAARRAGLNQITFATQSSAQAGGQ</Hsp_hseq>
+      <Hsp_midline>MNFR R ++EPEINLIPFIDVLLVVLIFLMLSTTYSKFTE+QL  PVADTDAQR+YPKE+IV+V ADG+YS+N+ A++GR+L++LA ALT+ AKAGKDTVVII   ASAKHQAVVTVMEAARRAGLNQITFATQSSAQAGG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|MDO8284525.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Rhodoferax sp.]</Hit_def>
+  <Hit_accession>MDO8284525</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>232.646</Hsp_bit-score>
+      <Hsp_score>592</Hsp_score>
+      <Hsp_evalue>7.8559e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MNFRPRTKEEPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQL--PVADTDAQRNYPKEMIVSVGADGAYSVNQTAVSGRSLENLATALTEAAKAGKDTVVII---ASAKHQAVVTVMEAARRAGLNQITFATQSSAQAGGK</Hsp_qseq>
+      <Hsp_hseq>MNFRPRTQEAPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQLKLPVADTDAQRDYAKELIVAVSADGAYSVNRVPVVGRSLESVAIALAEGAKAGKDTVVIISADASAKHQSVVTVMEAARRSGLNQITFATQSTAQAGGR</Hsp_hseq>
+      <Hsp_midline>MNFRPRT+E PEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQL  PVADTDAQR+Y KE+IV+V ADGAYSVN+  V GRSLE++A AL E AKAGKDTVVII   ASAKHQ+VVTVMEAARR+GLNQITFATQS+AQAGG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|MBX3587364.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Ramlibacter sp.] &gt;gb|MBX3655543.1| biopolymer transporter ExbD [Ramlibacter sp.] &gt;gb|MBX3659433.1| biopolymer transporter ExbD [Ramlibacter sp.] &gt;gb|MCW5650795.1| biopolymer transporter ExbD [Ramlibacter sp.]</Hit_def>
+  <Hit_accession>MBX3587364</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>232.646</Hsp_bit-score>
+      <Hsp_score>592</Hsp_score>
+      <Hsp_evalue>8.29878e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MNFRPRTKEEPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQL--PVADTDAQRNYPKEMIVSVGADGAYSVNQTAVSGRSLENLATALTEAAKAGKDTVVII---ASAKHQAVVTVMEAARRAGLNQITFATQSSAQAGGK</Hsp_qseq>
+      <Hsp_hseq>MNFRPRKKEEPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQLKLPVADVDAQRDYPKEVIVAVGADGRYSVNKTPVSGRSVEAVSMALVEAAKAGKDSVVIISADASTAHQAVITVMEAARRSGLTQITFATQSSAQAGGR</Hsp_hseq>
+      <Hsp_midline>MNFRPR KEEPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQL  PVAD DAQR+YPKE+IV+VGADG YSVN+T VSGRS+E ++ AL EAAKAGKD+VVII   AS  HQAV+TVMEAARR+GL QITFATQSSAQAGG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|MBI2751191.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Burkholderiales bacterium]</Hit_def>
+  <Hit_accession>MBI2751191</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.491</Hsp_bit-score>
+      <Hsp_score>589</Hsp_score>
+      <Hsp_evalue>2.83488e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MNFRPRTKEEPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQL--PVADTDAQRNYPKEMIVSVGADGAYSVNQTAVSGRSLENLATALTEAAKAGKDTVVII---ASAKHQAVVTVMEAARRAGLNQITFATQSSAQAGGK</Hsp_qseq>
+      <Hsp_hseq>MNFRPRKTDEPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQLTLPVADTDAQRDYAKEVIVAISADGAYSVNRSPVVGRSLESVAQALTEGAKAGKDTVIIISADASAKHQSVVTVMEAARRSGLHQITFATQSSAQAGGR</Hsp_hseq>
+      <Hsp_midline>MNFRPR  +EPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQL  PVADTDAQR+Y KE+IV++ ADGAYSVN++ V GRSLE++A ALTE AKAGKDTV+II   ASAKHQ+VVTVMEAARR+GL+QITFATQSSAQAGG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_094480329.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Rhodoferax sp. TH121] &gt;gb|OYQ40141.1| biopolymer transporter ExbD [Rhodoferax sp. TH121]</Hit_def>
+  <Hit_accession>WP_094480329</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>230.335</Hsp_bit-score>
+      <Hsp_score>586</Hsp_score>
+      <Hsp_evalue>6.2446e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MNFRPRTKEEPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQL--PVADTDAQRNYPKEMIVSVGADGAYSVNQTAVSGRSLENLATALTEAAKAGKDTVVII---ASAKHQAVVTVMEAARRAGLNQITFATQSSAQAGGK</Hsp_qseq>
+      <Hsp_hseq>MNFRHRRQDEPEINLIAFIDVLLVVLIFLMLSTTYSKFTELQLKLPVADTDAQRDYPKELIVAVSADGSYSVNRNAIAGRNLDSLAMALTDNAKAGKDTVVIISADASAKHQAVVTVMEAARRAGLNQITFATQSSAQAGGQ</Hsp_hseq>
+      <Hsp_midline>MNFR R ++EPEINLI FIDVLLVVLIFLMLSTTYSKFTE+QL  PVADTDAQR+YPKE+IV+V ADG+YSVN+ A++GR+L++LA ALT+ AKAGKDTVVII   ASAKHQAVVTVMEAARRAGLNQITFATQSSAQAGG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|MDE2419472.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Burkholderiales bacterium]</Hit_def>
+  <Hit_accession>MDE2419472</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>230.335</Hsp_bit-score>
+      <Hsp_score>586</Hsp_score>
+      <Hsp_evalue>8.12506e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MNFRPRTKEEPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQ--LPVADTDAQRNYPKEMIVSVGADGAYSVNQTAVSGRSLENLATALTEAAKAGKDTVVII---ASAKHQAVVTVMEAARRAGLNQITFATQSSAQAGGK</Hsp_qseq>
+      <Hsp_hseq>MNFRPRTKDEPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQLKLPVADTDAQRDYPREVLVSVTSDGNYSVNRSAVAGRNVDTLAAALRDGAKAGKESVVIISADASAKHQAVVTVMEAARRAGLNQITFAAQTSAQAGGK</Hsp_hseq>
+      <Hsp_midline>MNFRPRTK+EPEINLIPFIDVLLVVLIFLMLSTTYSKFTEMQ  LPVADTDAQR+YP+E++VSV +DG YSVN++AV+GR+++ LA AL + AKAGK++VVII   ASAKHQAVVTVMEAARRAGLNQITFA Q+SAQAGGK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>877781531</Statistics_db-num>
+      <Statistics_db-len>334720180573</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

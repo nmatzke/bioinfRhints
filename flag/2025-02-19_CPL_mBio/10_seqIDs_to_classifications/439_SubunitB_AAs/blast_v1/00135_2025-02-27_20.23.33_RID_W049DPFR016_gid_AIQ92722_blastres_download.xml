@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1214949</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>268</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1214949</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>268</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_043346296.1|</Hit_id>
+  <Hit_def>MULTISPECIES: flagellar motor protein MotB [Methylobacterium] &gt;gb|AIQ92723.1| OmpA/MotB domain-containing protein [Methylobacterium oryzae CBMB20] &gt;gb|APT33109.1| putative flagellar export/assembly protein LafU [Methylobacterium phyllosphaerae] &gt;gb|AWV15771.1| chemotaxis protein MotB [Methylobacterium sp. XJLW] &gt;gb|MBA9064540.1| chemotaxis protein MotB [Methylobacterium fujisawaense] &gt;gb|MBP27781.1| chemotaxis protein MotB [Methylobacterium sp.]</Hit_def>
+  <Hit_accession>WP_043346296</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>521.546</Hsp_bit-score>
+      <Hsp_score>1342</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>268</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>MTTIIIKKVKKAAHAHHGGAWKIAYADFVTAMMAFF-------MTTQEQKIGLAEYFSPAALSPATSGAGGILYGTALDTSGNKP--PRDAERGSAEREDRVRPTSPGRTSDLDASRPAASTEVNY--------ALQTMPDIAELSKNIVIEQTKEGVNVSLVDQDGRAMFREGSVD-YERTRRVLEALAPALRRLPNSLSITGHTAAARPGSARTAEPWNLTAGRALAVREILSGAGVPNDHFSSVVGRADTEPVFPDNPYIAPNRRVTITLLNASPPVPPNLLR</Hsp_qseq>
+      <Hsp_hseq>MTTIIIKKVKKAAHAHHGGAWKIAYADFVTAMMAFFLLMWLISMTTQEQKIGLAEYFSPAALSPATSGAGGILYGTALDTSGNKPSTPRDAERGSAEREDRVRPTSPGRTSDLDASRPAASTEVNYSAIASLRQALQTMPDIAELSKNIVIEQTKEGVNVSLVDQDGRAMFREGSVDPYERTRRVLEALAPALRRLPNSLSITGHTAAARPGSARTAEPWNLTAGRALAVREILSGAGVPNDHFSSVVGRADTEPVFPDNPYIAPNRRVTITLLNASPPVPPNLLR</Hsp_hseq>
+      <Hsp_midline>MTTIIIKKVKKAAHAHHGGAWKIAYADFVTAMMAFF       MTTQEQKIGLAEYFSPAALSPATSGAGGILYGTALDTSGNKP  PRDAERGSAEREDRVRPTSPGRTSDLDASRPAASTEVNY        ALQTMPDIAELSKNIVIEQTKEGVNVSLVDQDGRAMFREGSVD YERTRRVLEALAPALRRLPNSLSITGHTAAARPGSARTAEPWNLTAGRALAVREILSGAGVPNDHFSSVVGRADTEPVFPDNPYIAPNRRVTITLLNASPPVPPNLLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_149310808.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Methylobacterium sp. P1-11] &gt;gb|KAA0123980.1| chemotaxis protein MotB [Methylobacterium sp. P1-11]</Hit_def>
+  <Hit_accession>WP_149310808</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>483.026</Hsp_bit-score>
+      <Hsp_score>1242</Hsp_score>
+      <Hsp_evalue>2.70576e-170</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>247</Hsp_identity>
+      <Hsp_positive>257</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>MTTIIIKKVKKAAHAHHGGAWKIAYADFVTAMMAFF-------MTTQEQKIGLAEYFSPAALSPATSGAGGILYGTALDTSGNKP--PRDAERGSAEREDRVRPTSPGRTSDLDASRPAASTEVNY--------ALQTMPDIAELSKNIVIEQTKEGVNVSLVDQDGRAMFREGSVD-YERTRRVLEALAPALRRLPNSLSITGHTAAARPGSARTAEPWNLTAGRALAVREILSGAGVPNDHFSSVVGRADTEPVFPDNPYIAPNRRVTITLLNASPPVPPNLLR</Hsp_qseq>
+      <Hsp_hseq>MTTIIIKKVKKAAHAHHGGAWKIAYADFVTAMMAFFLLMWLISMTTQEQKIGLAEYFSPAALSPATSGAGGILYGSALDTSGNKPSTPRDAERGSAEREDRARQTSPGRASDLDASRPAASVEANYSAIASLRQALQTMPDIAELSRNIVIEPTKEGVNVSLVDQDGRSMFREGSVEAYDRTRRVLEALAPALRRLPNRLSITGYTAATRPGLARAVEPWNLSAGRALAVREILSGAGVPNDNFASVVGRADTEPVFPDNPYLAPNRRVTITLLNASPPVPPNLLR</Hsp_hseq>
+      <Hsp_midline>MTTIIIKKVKKAAHAHHGGAWKIAYADFVTAMMAFF       MTTQEQKIGLAEYFSPAALSPATSGAGGILYG+ALDTSGNKP  PRDAERGSAEREDR R TSPGR SDLDASRPAAS E NY        ALQTMPDIAELS+NIVIE TKEGVNVSLVDQDGR+MFREGSV+ Y+RTRRVLEALAPALRRLPN LSITG+TAA RPG AR  EPWNL+AGRALAVREILSGAGVPND+F+SVVGRADTEPVFPDNPY+APNRRVTITLLNASPPVPPNLLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_091780193.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Methylobacterium sp. UNC378MF] &gt;emb|SDA20849.1| chemotaxis protein MotB [Methylobacterium sp. UNC378MF]</Hit_def>
+  <Hit_accession>WP_091780193</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>479.559</Hsp_bit-score>
+      <Hsp_score>1233</Hsp_score>
+      <Hsp_evalue>4.8899e-169</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>244</Hsp_identity>
+      <Hsp_positive>256</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>MTTIIIKKVKKAAHAHHGGAWKIAYADFVTAMMAFF-------MTTQEQKIGLAEYFSPAALSPATSGAGGILYGTALDTSGNKP--PRDAERGSAEREDRVRPTSPGRTSDLDASRPAASTEVNY--------ALQTMPDIAELSKNIVIEQTKEGVNVSLVDQDGRAMFREGSVD-YERTRRVLEALAPALRRLPNSLSITGHTAAARPGSARTAEPWNLTAGRALAVREILSGAGVPNDHFSSVVGRADTEPVFPDNPYIAPNRRVTITLLNASPPVPPNLLR</Hsp_qseq>
+      <Hsp_hseq>MTTIIIKKVKKAAHAHHGGAWKIAYADFVTAMMAFFLLMWLISMTTQEQKIGLAEYFSPAALSPATSGAGGILYGSALDTSGNKPSTPRDAERGSAEREDRARQTSPGRASDLDASRPAASVEANYSAIASLRQALQSMPDIAELSRNIVIEPTKEGVNVSLVDQDGRSMFREGSVEAYDRTRRVLEALAPAMRRLPNRLSITGYTAATRPGLGRAVEPWNLSAGRALAVREILSGAGVPNDNFASVVGRADTEPVFPDNPYLAPNRRVTITLLNASPPVPPNLLR</Hsp_hseq>
+      <Hsp_midline>MTTIIIKKVKKAAHAHHGGAWKIAYADFVTAMMAFF       MTTQEQKIGLAEYFSPAALSPATSGAGGILYG+ALDTSGNKP  PRDAERGSAEREDR R TSPGR SDLDASRPAAS E NY        ALQ+MPDIAELS+NIVIE TKEGVNVSLVDQDGR+MFREGSV+ Y+RTRRVLEALAPA+RRLPN LSITG+TAA RPG  R  EPWNL+AGRALAVREILSGAGVPND+F+SVVGRADTEPVFPDNPY+APNRRVTITLLNASPPVPPNLLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_331289453.1|</Hit_id>
+  <Hit_def>MULTISPECIES: flagellar motor protein MotB [Methylobacterium] &gt;gb|MEE7446658.1| chemotaxis protein MotB [Methylobacterium radiotolerans] &gt;gb|MEE7466551.1| chemotaxis protein MotB [Methylobacterium oryzae] &gt;gb|MEE7485278.1| chemotaxis protein MotB [Methylobacterium oryzae] &gt;gb|MEE7493906.1| chemotaxis protein MotB [Methylobacterium oryzae]</Hit_def>
+  <Hit_accession>WP_331289453</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>477.633</Hsp_bit-score>
+      <Hsp_score>1228</Hsp_score>
+      <Hsp_evalue>3.55704e-168</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>242</Hsp_identity>
+      <Hsp_positive>255</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>MTTIIIKKVKKAAHAHHGGAWKIAYADFVTAMMAFF-------MTTQEQKIGLAEYFSPAALSPATSGAGGILYGTALDTSGNKP--PRDAERGSAEREDRVRPTSPGRTSDLDASRPAASTEVNY--------ALQTMPDIAELSKNIVIEQTKEGVNVSLVDQDGRAMFREGSVD-YERTRRVLEALAPALRRLPNSLSITGHTAAARPGSARTAEPWNLTAGRALAVREILSGAGVPNDHFSSVVGRADTEPVFPDNPYIAPNRRVTITLLNASPPVPPNLLR</Hsp_qseq>
+      <Hsp_hseq>MTTIIIKKVKKAGHAHHGGAWKIAYADFVTAMMAFFLLMWLISMTTQEQKIGLAEYFSPAALSPATSGAGGILYGTALDTSGNKPSTPRDAERGSAEREDKARPTSPGRASDVDASRPVASVEANYSAIASLRQALQSMPDIADLSKNIVIEPTREGVNVSLVDQDGRSMFREGSVEPTERTRRVLEALAPVLRRMPNRLSITGHTAVARPGSARTAEPWNLSAGRALAVREILAGAGVPNDNFASVTGRADTEPVFPDNPYLAPNRRVAITLLNASPPVPPNLLR</Hsp_hseq>
+      <Hsp_midline>MTTIIIKKVKKA HAHHGGAWKIAYADFVTAMMAFF       MTTQEQKIGLAEYFSPAALSPATSGAGGILYGTALDTSGNKP  PRDAERGSAERED+ RPTSPGR SD+DASRP AS E NY        ALQ+MPDIA+LSKNIVIE T+EGVNVSLVDQDGR+MFREGSV+  ERTRRVLEALAP LRR+PN LSITGHTA ARPGSARTAEPWNL+AGRALAVREIL+GAGVPND+F+SV GRADTEPVFPDNPY+APNRRV ITLLNASPPVPPNLLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_331314512.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Methylobacterium mesophilicum] &gt;gb|MEE7503942.1| chemotaxis protein MotB [Methylobacterium mesophilicum]</Hit_def>
+  <Hit_accession>WP_331314512</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>477.633</Hsp_bit-score>
+      <Hsp_score>1228</Hsp_score>
+      <Hsp_evalue>3.7165e-168</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>244</Hsp_identity>
+      <Hsp_positive>254</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>MTTIIIKKVKKAAHAHHGGAWKIAYADFVTAMMAFF-------MTTQEQKIGLAEYFSPAALSPATSGAGGILYGTALDTSGNKP--PRDAERGSAEREDRVRPTSPGRTSDLDASRPAASTEVNY--------ALQTMPDIAELSKNIVIEQTKEGVNVSLVDQDGRAMFREGSVD-YERTRRVLEALAPALRRLPNSLSITGHTAAARPGSARTAEPWNLTAGRALAVREILSGAGVPNDHFSSVVGRADTEPVFPDNPYIAPNRRVTITLLNASPPVPPNLLR</Hsp_qseq>
+      <Hsp_hseq>MATIIIKKVKKAAHAHHGGAWKIAYADFVTAMMAFFLLMWLISMTTQEQKIGLAEYFSPAALSPATSGAGGILYGTALDTSGNKPSTPRDAERGSAEREVTERPTSPGRVSDVDASRPVANVEANYSAIASLRQALQTMPDIAELSKNIVIEQTKEGVNVSLVDQDGRAMFREGSVEPYERTRRVLEALAPALRRMPNRLSITGYTAVARPGSARAGEPWSLSAGRALSVREILSGAGVPNDNFSSVSGRGDTEPVFPDNPYLAPNRRVTITLLNASPPVPPNLLR</Hsp_hseq>
+      <Hsp_midline>M TIIIKKVKKAAHAHHGGAWKIAYADFVTAMMAFF       MTTQEQKIGLAEYFSPAALSPATSGAGGILYGTALDTSGNKP  PRDAERGSAERE   RPTSPGR SD+DASRP A+ E NY        ALQTMPDIAELSKNIVIEQTKEGVNVSLVDQDGRAMFREGSV+ YERTRRVLEALAPALRR+PN LSITG+TA ARPGSAR  EPW+L+AGRAL+VREILSGAGVPND+FSSV GR DTEPVFPDNPY+APNRRVTITLLNASPPVPPNLLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_020092313.1|</Hit_id>
+  <Hit_def>MULTISPECIES: flagellar motor protein MotB [Methylobacterium] &gt;gb|MEH3061468.1| OmpA family protein [Methylobacterium radiotolerans] &gt;gb|MBN4095481.1| OmpA family protein [Methylobacterium sp. OT2] &gt;gb|MEE7461667.1| chemotaxis protein MotB [Methylobacterium fujisawaense] &gt;gb|MET3414139.1| chemotaxis protein MotB [Methylobacterium sp. 1030] &gt;gb|UIN37462.1| OmpA family protein [Methylobacterium oryzae]</Hit_def>
+  <Hit_accession>WP_020092313</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>476.478</Hsp_bit-score>
+      <Hsp_score>1225</Hsp_score>
+      <Hsp_evalue>8.1835e-168</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>242</Hsp_identity>
+      <Hsp_positive>254</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>MTTIIIKKVKKAAHAHHGGAWKIAYADFVTAMMAFF-------MTTQEQKIGLAEYFSPAALSPATSGAGGILYGTALDTSGNKP--PRDAERGSAEREDRVRPTSPGRTSDLDASRPAASTEVNY--------ALQTMPDIAELSKNIVIEQTKEGVNVSLVDQDGRAMFREGSVD-YERTRRVLEALAPALRRLPNSLSITGHTAAARPGSARTAEPWNLTAGRALAVREILSGAGVPNDHFSSVVGRADTEPVFPDNPYIAPNRRVTITLLNASPPVPPNLLR</Hsp_qseq>
+      <Hsp_hseq>MATIIIKKVKKAAHAHHGGAWKIAYADFVTAMMAFFLLMWLISMTTQEQKIGLAEYFSPAALSPATSGAGGILYGTALDTSGNKPSTPRDAERGSAEREEITRPTSPGRVSDVDASRPVANVEANFSAIASLRQALQTMPDIAELSKNIVIEQTKEGVNVSLVDQDGRAMFREGSVEPYDRTRRVLEALAPAIRRLPNRLSITGYTAVARPGSTRAGEPWNLSAGRALAVREVLSGAGVPNDNFSSVSGRGDTEPVFPDNPYLAPNRRVTITLLNASPPVPPNLLR</Hsp_hseq>
+      <Hsp_midline>M TIIIKKVKKAAHAHHGGAWKIAYADFVTAMMAFF       MTTQEQKIGLAEYFSPAALSPATSGAGGILYGTALDTSGNKP  PRDAERGSAERE+  RPTSPGR SD+DASRP A+ E N+        ALQTMPDIAELSKNIVIEQTKEGVNVSLVDQDGRAMFREGSV+ Y+RTRRVLEALAPA+RRLPN LSITG+TA ARPGS R  EPWNL+AGRALAVRE+LSGAGVPND+FSSV GR DTEPVFPDNPY+APNRRVTITLLNASPPVPPNLLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_160534026.1|</Hit_id>
+  <Hit_def>MULTISPECIES: flagellar motor protein MotB [unclassified Methylobacterium] &gt;gb|MWV22489.1| OmpA family protein [Methylobacterium sp. 2A]</Hit_def>
+  <Hit_accession>WP_160534026</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>476.093</Hsp_bit-score>
+      <Hsp_score>1224</Hsp_score>
+      <Hsp_evalue>1.2011e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>254</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>MTTIIIKKVKKAAHAHHGGAWKIAYADFVTAMMAFF-------MTTQEQKIGLAEYFSPAALSPATSGAGGILYGTALDTSGNKP--PRDAERGSAEREDRVRPTSPGRTSDLDASRPAASTEVNY--------ALQTMPDIAELSKNIVIEQTKEGVNVSLVDQDGRAMFREGSVD-YERTRRVLEALAPALRRLPNSLSITGHTAAARPGSARTAEPWNLTAGRALAVREILSGAGVPNDHFSSVVGRADTEPVFPDNPYIAPNRRVTITLLNASPPVPPNLLR</Hsp_qseq>
+      <Hsp_hseq>MTTIIIKKVKKGGHAHHGGAWKIAYADFVTAMMAFFLLMWLISMTTQEQKIGLAEYFSPAALSPATSGAGGILYGRALDTSGNKPSTPRDAERGSAEQEDKARPTSPGRASDLDVSRPAASVQANYSAIASLRQALQTLPDIAELSKNIVIEPTKEGVDVSLVDQDGRSMFRDGSVEPYERTRRVLEALAPTLRRLPNSLTITGHTSTARPGSAGAAEPWTLTAGRALAVREILAGAGVPNDHFTSVVGRADTEPVFPDNPYIAPNRRVTVTLLNASPPVPPNLLR</Hsp_hseq>
+      <Hsp_midline>MTTIIIKKVKK  HAHHGGAWKIAYADFVTAMMAFF       MTTQEQKIGLAEYFSPAALSPATSGAGGILYG ALDTSGNKP  PRDAERGSAE+ED+ RPTSPGR SDLD SRPAAS + NY        ALQT+PDIAELSKNIVIE TKEGV+VSLVDQDGR+MFR+GSV+ YERTRRVLEALAP LRRLPNSL+ITGHT+ ARPGSA  AEPW LTAGRALAVREIL+GAGVPNDHF+SVVGRADTEPVFPDNPYIAPNRRVT+TLLNASPPVPPNLLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_273563784.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Methylobacterium sp. NMS14P] &gt;gb|WCS27291.1| OmpA family protein [Methylobacterium sp. NMS14P]</Hit_def>
+  <Hit_accession>WP_273563784</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>476.093</Hsp_bit-score>
+      <Hsp_score>1224</Hsp_score>
+      <Hsp_evalue>1.32565e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>242</Hsp_identity>
+      <Hsp_positive>254</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>MTTIIIKKVKKAAHAHHGGAWKIAYADFVTAMMAFF-------MTTQEQKIGLAEYFSPAALSPATSGAGGILYGTALDTSGNKP--PRDAERGSAEREDRVRPTSPGRTSDLDASRPAASTEVNY--------ALQTMPDIAELSKNIVIEQTKEGVNVSLVDQDGRAMFREGSVD-YERTRRVLEALAPALRRLPNSLSITGHTAAARPGSARTAEPWNLTAGRALAVREILSGAGVPNDHFSSVVGRADTEPVFPDNPYIAPNRRVTITLLNASPPVPPNLLR</Hsp_qseq>
+      <Hsp_hseq>MTTIIIKKVKKAAHAHHGGAWKIAYADFVTAMMAFFLLMWLISMTTQEQKIGLAEYFSPAALSPATSGAGGILYGTALDTAGNKPSTPRDAERGSAEREVTSRPTSPGRASDVEASRPVASVEANWSAIASLRQALQTMPDIAELSKNIVIEQTKEGVNVSLVDQDGRSMFREGSVEPYERTRRVLEALAPALRRMPNRLSITGYTAVARPGSTRAGEPWNLSAGRALAVREILSGAGVPNDNFSSVSGRGDTEPVFPDNPYLAPNRRVTVTLLNASPPVPPNLLR</Hsp_hseq>
+      <Hsp_midline>MTTIIIKKVKKAAHAHHGGAWKIAYADFVTAMMAFF       MTTQEQKIGLAEYFSPAALSPATSGAGGILYGTALDT+GNKP  PRDAERGSAERE   RPTSPGR SD++ASRP AS E N+        ALQTMPDIAELSKNIVIEQTKEGVNVSLVDQDGR+MFREGSV+ YERTRRVLEALAPALRR+PN LSITG+TA ARPGS R  EPWNL+AGRALAVREILSGAGVPND+FSSV GR DTEPVFPDNPY+APNRRVT+TLLNASPPVPPNLLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_056532644.1|</Hit_id>
+  <Hit_def>MULTISPECIES: flagellar motor protein MotB [Methylobacterium] &gt;gb|KQS61691.1| chemotaxis protein MotB [Methylobacterium sp. Leaf361] &gt;gb|MEE7438720.1| chemotaxis protein MotB [Methylobacterium oryzae] &gt;emb|SEH52913.1| chemotaxis protein MotB [Methylobacterium sp. 275MFSha3.1] &gt;emb|SEO16429.1| chemotaxis protein MotB [Methylobacterium sp. UNC300MFChir4.1]</Hit_def>
+  <Hit_accession>WP_056532644</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>475.707</Hsp_bit-score>
+      <Hsp_score>1223</Hsp_score>
+      <Hsp_evalue>1.80194e-167</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>254</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>MTTIIIKKVKKAAHAHHGGAWKIAYADFVTAMMAFF-------MTTQEQKIGLAEYFSPAALSPATSGAGGILYGTALDTSGNKP--PRDAERGSAEREDRVRPTSPGRTSDLDASRPAASTEVNY--------ALQTMPDIAELSKNIVIEQTKEGVNVSLVDQDGRAMFREGSVD-YERTRRVLEALAPALRRLPNSLSITGHTAAARPGSARTAEPWNLTAGRALAVREILSGAGVPNDHFSSVVGRADTEPVFPDNPYIAPNRRVTITLLNASPPVPPNLLR</Hsp_qseq>
+      <Hsp_hseq>MATIIIKKVKKAAHAHHGGAWKIAYADFVTAMMAFFLLMWLISMTTQEQKIGLAEYFSPAALSPATSGAGGILYGTALDTSGNKPSTPRDAERGSAEREEITRPTSPGRVSDVDASRPVANVEANFSAIASLRQALQTMPDIAELSKNIVIEQTKEGVNVSLVDQDGRSMFREGSVEPYDRTRRVLEALAPAIRRLPNRLSITGYTAVARPGSTRAGEPWNLSAGRALAVREVLSGAGVPNDNFSSVSGRGDTEPVFPDNPYLAPNRRVTITLLNASPPVPPNLLR</Hsp_hseq>
+      <Hsp_midline>M TIIIKKVKKAAHAHHGGAWKIAYADFVTAMMAFF       MTTQEQKIGLAEYFSPAALSPATSGAGGILYGTALDTSGNKP  PRDAERGSAERE+  RPTSPGR SD+DASRP A+ E N+        ALQTMPDIAELSKNIVIEQTKEGVNVSLVDQDGR+MFREGSV+ Y+RTRRVLEALAPA+RRLPN LSITG+TA ARPGS R  EPWNL+AGRALAVRE+LSGAGVPND+FSSV GR DTEPVFPDNPY+APNRRVTITLLNASPPVPPNLLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_012318957.1|</Hit_id>
+  <Hit_def>MULTISPECIES: flagellar motor protein MotB [Methylobacterium] &gt;gb|MCX7331601.1| OmpA family protein [Hyphomicrobiales bacterium] &gt;dbj|GAN47974.1| flagellar motor protein MotB [Methylobacterium sp. ME121] &gt;gb|ACB23973.1| OmpA/MotB domain protein [Methylobacterium radiotolerans JCM 2831] &gt;gb|KTS07484.1| chemotaxis protein MotB [Methylobacterium radiotolerans] &gt;gb|KTS47226.1| chemotaxis protein MotB [Methylobacterium radiotolerans]</Hit_def>
+  <Hit_accession>WP_012318957</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>467.618</Hsp_bit-score>
+      <Hsp_score>1202</Hsp_score>
+      <Hsp_evalue>2.78959e-164</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>239</Hsp_identity>
+      <Hsp_positive>253</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>MTTIIIKKVKKAAHAHHGGAWKIAYADFVTAMMAFF-------MTTQEQKIGLAEYFSPAALSPATSGAGGILYGTALDTSGNKP--PRDAERGSAEREDRVRPTSPGRTSDLDASRPAASTEVNY--------ALQTMPDIAELSKNIVIEQTKEGVNVSLVDQDGRAMFREGSVD-YERTRRVLEALAPALRRLPNSLSITGHTAAARPGSARTAEPWNLTAGRALAVREILSGAGVPNDHFSSVVGRADTEPVFPDNPYIAPNRRVTITLLNASPPVPPNLLR</Hsp_qseq>
+      <Hsp_hseq>MTTIIIKKVKKAGHAHHGGAWKIAYADFVTAMMAFFLLMWLISMTTQEQKIGLAEYFSPAALSPATSGAGGILYGTALDTAGNKPSTPRDAERGSAEREVTARPTSPGLTSELDASRPVANVQANWSAIASLRQALQTMPDIAELSKNIVIEPTKEGVNVSLVDQDGRSMFREGSVEPYERTRRVLEALAPALRRMPNRLSITGYTAVARPGSARAGEPWSLSAGRALAVREILSGAGVPNDNFSAVSGRGDTEPVFPDNPYLAPNRRVTITLLNASPPVPPNLLR</Hsp_hseq>
+      <Hsp_midline>MTTIIIKKVKKA HAHHGGAWKIAYADFVTAMMAFF       MTTQEQKIGLAEYFSPAALSPATSGAGGILYGTALDT+GNKP  PRDAERGSAERE   RPTSPG TS+LDASRP A+ + N+        ALQTMPDIAELSKNIVIE TKEGVNVSLVDQDGR+MFREGSV+ YERTRRVLEALAPALRR+PN LSITG+TA ARPGSAR  EPW+L+AGRALAVREILSGAGVPND+FS+V GR DTEPVFPDNPY+APNRRVTITLLNASPPVPPNLLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_076729289.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Methylobacterium radiotolerans] &gt;gb|ONF48526.1| chemotaxis protein MotB [Methylobacterium radiotolerans]</Hit_def>
+  <Hit_accession>WP_076729289</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>465.692</Hsp_bit-score>
+      <Hsp_score>1197</Hsp_score>
+      <Hsp_evalue>1.64725e-163</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>238</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>MTTIIIKKVKKAAHAHHGGAWKIAYADFVTAMMAFF-------MTTQEQKIGLAEYFSPAALSPATSGAGGILYGTALDTSGNKP--PRDAERGSAEREDRVRPTSPGRTSDLDASRPAASTEVNY--------ALQTMPDIAELSKNIVIEQTKEGVNVSLVDQDGRAMFREGSVD-YERTRRVLEALAPALRRLPNSLSITGHTAAARPGSARTAEPWNLTAGRALAVREILSGAGVPNDHFSSVVGRADTEPVFPDNPYIAPNRRVTITLLNASPPVPPNLLR</Hsp_qseq>
+      <Hsp_hseq>MTTIIIKKVKKAGHAHHGGAWKIAYADFVTAMMAFFLLMWLISMTTQEQKIGLAEYFSPAALSPATSGAGGILYGTALDTAGNKPSTPRDAERGSAEREVTARPTSPGLTSELDASRPVANVQANWSAIASLRQALQAMPDIAELSKNIVIEPTKEGVNVSLVDQDGRSMFREGSVEPYERTRRVLEALAPALRRMPNRLSITGYTAVARPGSARAGEPWSLSAGRALAVREILSGAGVPNDNFSAVSGRGDTEPVFPDNPYLAPNRRVTITLLNASPPVPPNLLR</Hsp_hseq>
+      <Hsp_midline>MTTIIIKKVKKA HAHHGGAWKIAYADFVTAMMAFF       MTTQEQKIGLAEYFSPAALSPATSGAGGILYGTALDT+GNKP  PRDAERGSAERE   RPTSPG TS+LDASRP A+ + N+        ALQ MPDIAELSKNIVIE TKEGVNVSLVDQDGR+MFREGSV+ YERTRRVLEALAPALRR+PN LSITG+TA ARPGSAR  EPW+L+AGRALAVREILSGAGVPND+FS+V GR DTEPVFPDNPY+APNRRVTITLLNASPPVPPNLLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_091720930.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Methylobacterium phyllostachyos] &gt;emb|SDO28091.1| chemotaxis protein MotB [Methylobacterium phyllostachyos]</Hit_def>
+  <Hit_accession>WP_091720930</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>465.307</Hsp_bit-score>
+      <Hsp_score>1196</Hsp_score>
+      <Hsp_evalue>2.61037e-163</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>237</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>MTTIIIKKVKKAAHAHHGGAWKIAYADFVTAMMAFF-------MTTQEQKIGLAEYFSPAALSPATSGAGGILYGTALDTSGNKP--PRDAERGSAEREDRVRPTSPGRTSDLDASRPAASTEVNY--------ALQTMPDIAELSKNIVIEQTKEGVNVSLVDQDGRAMFREGSVD-YERTRRVLEALAPALRRLPNSLSITGHTAAARPGSARTAEPWNLTAGRALAVREILSGAGVPNDHFSSVVGRADTEPVFPDNPYIAPNRRVTITLLNASPPVPPNLLR</Hsp_qseq>
+      <Hsp_hseq>MTTIIIKKVKKAGHAHHGGAWKIAYADFVTAMMAFFLLMWLISMTTQEQKIGLAEYFSPAALSPATSGAGGILYGRALDTSGNKPSTPRDAERGSAEQEDKARPTSPGRASDRDTDRPTASVQANYSAIASLRQALQTLPDIAELSKNIVIEPTKEGVDVSLVDQDGRSMFREGSVEPYERTRRVLEALAPTLRRLPNRLSIAGYTAAARPGSTRAGEPWTLTAGRALAVREILAGAGIPNDNFLSVVGRADTEPVFPDNPYIAPNRRVTVTLLNASPPVPPNLLR</Hsp_hseq>
+      <Hsp_midline>MTTIIIKKVKKA HAHHGGAWKIAYADFVTAMMAFF       MTTQEQKIGLAEYFSPAALSPATSGAGGILYG ALDTSGNKP  PRDAERGSAE+ED+ RPTSPGR SD D  RP AS + NY        ALQT+PDIAELSKNIVIE TKEGV+VSLVDQDGR+MFREGSV+ YERTRRVLEALAP LRRLPN LSI G+TAAARPGS R  EPW LTAGRALAVREIL+GAG+PND+F SVVGRADTEPVFPDNPYIAPNRRVT+TLLNASPPVPPNLLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_210245125.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Methylobacterium sp. WL9]</Hit_def>
+  <Hit_accession>WP_210245125</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>462.611</Hsp_bit-score>
+      <Hsp_score>1189</Hsp_score>
+      <Hsp_evalue>3.31992e-162</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>238</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>MTTIIIKKVKKAAHAHHGGAWKIAYADFVTAMMAFF-------MTTQEQKIGLAEYFSPAALSPATSGAGGILYGTALDTSGNK--PPRDAERGSAEREDRVRPTSPGRTSDLDASRPAASTEVN--------YALQTMPDIAELSKNIVIEQTKEGVNVSLVDQDGRAMFREGSVD-YERTRRVLEALAPALRRLPNSLSITGHTAAARPGSARTAEPWNLTAGRALAVREILSGAGVPNDHFSSVVGRADTEPVFPDNPYIAPNRRVTITLLNASPPVPPNLLR</Hsp_qseq>
+      <Hsp_hseq>MQPIIIKKVKKAAHAHHGGAWKIAYADFVTAMMAFFLLMWLISMTTPEQKVGLAEYFAPAALSPANSGAGGMLYGTSLDTSGNKLSTPRDAARGSAEQEDRARPTSPGRASDLDASHPAASAQANDSAIASLRQALQKMPDIAELSRNIVIEPTKEGVNVSLVDQDGRSMFREGSVDPYERTRRVLEALAPALRRLPNRLSITGHTAAARPGSARAAEPWNLTAGRALAVREILSGAGVPNDNVDSVVGRADTQPVFPDNPYIAPNRRVTITLLDASPPVPPNFLR</Hsp_hseq>
+      <Hsp_midline>M  IIIKKVKKAAHAHHGGAWKIAYADFVTAMMAFF       MTT EQK+GLAEYF+PAALSPA SGAGG+LYGT+LDTSGNK   PRDA RGSAE+EDR RPTSPGR SDLDAS PAAS + N         ALQ MPDIAELS+NIVIE TKEGVNVSLVDQDGR+MFREGSVD YERTRRVLEALAPALRRLPN LSITGHTAAARPGSAR AEPWNLTAGRALAVREILSGAGVPND+  SVVGRADT+PVFPDNPYIAPNRRVTITLL+ASPPVPPN LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_147816350.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Methylobacterium thuringiense] &gt;gb|TXN23482.1| OmpA family protein [Methylobacterium sp. WL9] &gt;dbj|GJE57202.1| Motility protein B [Methylobacterium thuringiense]</Hit_def>
+  <Hit_accession>WP_147816350</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>461.455</Hsp_bit-score>
+      <Hsp_score>1186</Hsp_score>
+      <Hsp_evalue>1.01094e-161</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>237</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>IIIKKVKKAAHAHHGGAWKIAYADFVTAMMAFF-------MTTQEQKIGLAEYFSPAALSPATSGAGGILYGTALDTSGNK--PPRDAERGSAEREDRVRPTSPGRTSDLDASRPAASTEVN--------YALQTMPDIAELSKNIVIEQTKEGVNVSLVDQDGRAMFREGSVD-YERTRRVLEALAPALRRLPNSLSITGHTAAARPGSARTAEPWNLTAGRALAVREILSGAGVPNDHFSSVVGRADTEPVFPDNPYIAPNRRVTITLLNASPPVPPNLLR</Hsp_qseq>
+      <Hsp_hseq>IIIKKVKKAAHAHHGGAWKIAYADFVTAMMAFFLLMWLISMTTPEQKVGLAEYFAPAALSPANSGAGGMLYGTSLDTSGNKLSTPRDAARGSAEQEDRARPTSPGRASDLDASHPAASAQANDSAIASLRQALQKMPDIAELSRNIVIEPTKEGVNVSLVDQDGRSMFREGSVDPYERTRRVLEALAPALRRLPNRLSITGHTAAARPGSARAAEPWNLTAGRALAVREILSGAGVPNDNVDSVVGRADTQPVFPDNPYIAPNRRVTITLLDASPPVPPNFLR</Hsp_hseq>
+      <Hsp_midline>IIIKKVKKAAHAHHGGAWKIAYADFVTAMMAFF       MTT EQK+GLAEYF+PAALSPA SGAGG+LYGT+LDTSGNK   PRDA RGSAE+EDR RPTSPGR SDLDAS PAAS + N         ALQ MPDIAELS+NIVIE TKEGVNVSLVDQDGR+MFREGSVD YERTRRVLEALAPALRRLPN LSITGHTAAARPGSAR AEPWNLTAGRALAVREILSGAGVPND+  SVVGRADT+PVFPDNPYIAPNRRVTITLL+ASPPVPPN LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_238197139.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Methylobacterium tardum] &gt;gb|MEG9527662.1| OmpA family protein [Hyphomicrobiales bacterium] &gt;gb|MFC6741964.1| flagellar motor protein MotB [Methylobacterium tardum] &gt;gb|URD38066.1| OmpA family protein [Methylobacterium tardum] &gt;dbj|GJE50807.1| Motility protein B [Methylobacterium tardum] &gt;dbj|GLS70364.1| chemotaxis protein MotB [Methylobacterium tardum]</Hit_def>
+  <Hit_accession>WP_238197139</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>460.299</Hsp_bit-score>
+      <Hsp_score>1183</Hsp_score>
+      <Hsp_evalue>2.63527e-161</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>MTTIIIKKVKKAAHAHHGGAWKIAYADFVTAMMAFF-------MTTQEQKIGLAEYFSPAALSPATSGAGGILYGTALDTSGNKP--PRDAERGSAEREDRVRPTSPGRTSDLDASRPAASTEVNY--------ALQTMPDIAELSKNIVIEQTKEGVNVSLVDQDGRAMFREGSVD-YERTRRVLEALAPALRRLPNSLSITGHTAAARPGSARTAEPWNLTAGRALAVREILSGAGVPNDHFSSVVGRADTEPVFPDNPYIAPNRRVTITLLNASPPVPPNLLR</Hsp_qseq>
+      <Hsp_hseq>MTTIIIKKVKKGGHAHHGGAWKIAYADFVTAMMAFFLLMWLISMTTQEQKVGLAEYFAPAALSPATSGAGGILYGTALDTSGNKSSTPRDAARGSVEQEDRARSISPGRASELDASRPAANVQANVSAIASLRQALQSMPDIAELSRNIVIEQTKEGVNVSLVDQDGRSMFREGSVDPYEHTRRVLEALAPTLRRLPNRLSITGHTAVARPGSARAGEPWNLSAGRALSVRAILSGAGVPNDNFASVTGRADTEPVFPDNPYLAPNRRVTVTLLNASPPVPPNLFR</Hsp_hseq>
+      <Hsp_midline>MTTIIIKKVKK  HAHHGGAWKIAYADFVTAMMAFF       MTTQEQK+GLAEYF+PAALSPATSGAGGILYGTALDTSGNK   PRDA RGS E+EDR R  SPGR S+LDASRPAA+ + N         ALQ+MPDIAELS+NIVIEQTKEGVNVSLVDQDGR+MFREGSVD YE TRRVLEALAP LRRLPN LSITGHTA ARPGSAR  EPWNL+AGRAL+VR ILSGAGVPND+F+SV GRADTEPVFPDNPY+APNRRVT+TLLNASPPVPPNL R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_192710083.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Methylobacterium sp. OAE515] &gt;gb|MFB0491002.1| chemotaxis protein MotB [Methylobacterium sp. OAE515]</Hit_def>
+  <Hit_accession>WP_192710083</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.529</Hsp_bit-score>
+      <Hsp_score>1181</Hsp_score>
+      <Hsp_evalue>4.08539e-161</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>MTTIIIKKVKKAAHAHHGGAWKIAYADFVTAMMAFF-------MTTQEQKIGLAEYFSPAALSPATSGAGGILYGTALDTSGNKP--PRDAERGSAEREDRVRPTSPGRTSDLDASRPAASTEVNY--------ALQTMPDIAELSKNIVIEQTKEGVNVSLVDQDGRAMFREGSVD-YERTRRVLEALAPALRRLPNSLSITGHTAAARPGSARTAEPWNLTAGRALAVREILSGAGVPNDHFSSVVGRADTEPVFPDNPYIAPNRRVTITLLNASPPVPPNLLR</Hsp_qseq>
+      <Hsp_hseq>MTTIIIKKVKKGGHAHHGGAWKIAYADFVTAMMAFFLLMWLISMTTQEQKVGLAEYFAPAALSPATSGAGGILYGTALDTSGNKSSTPRDAARGSVEQEDRARSISPGRASELDASRPAANVQANVSAIASLRQALQAMPDIAELSRNIVIEQTKEGVNVSLVDQDGRSMFREGSVDPYEHTRRVLEALAPTLRRLPNRLSITGHTAVARPGSARAGEPWNLSAGRALSVRAILSGAGVPNDNFASVTGRADTEPVFPDNPYLAPNRRVTVTLLNASPPVPPNLFR</Hsp_hseq>
+      <Hsp_midline>MTTIIIKKVKK  HAHHGGAWKIAYADFVTAMMAFF       MTTQEQK+GLAEYF+PAALSPATSGAGGILYGTALDTSGNK   PRDA RGS E+EDR R  SPGR S+LDASRPAA+ + N         ALQ MPDIAELS+NIVIEQTKEGVNVSLVDQDGR+MFREGSVD YE TRRVLEALAP LRRLPN LSITGHTA ARPGSAR  EPWNL+AGRAL+VR ILSGAGVPND+F+SV GRADTEPVFPDNPY+APNRRVT+TLLNASPPVPPNL R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_091861224.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Methylobacterium brachiatum] &gt;gb|AYO84389.1| chemotaxis protein MotB [Methylobacterium brachiatum] &gt;gb|MDH2312599.1| flagellar motor protein MotB [Methylobacterium brachiatum] &gt;emb|SFI45469.1| chemotaxis protein MotB [Methylobacterium brachiatum]</Hit_def>
+  <Hit_accession>WP_091861224</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>457.603</Hsp_bit-score>
+      <Hsp_score>1176</Hsp_score>
+      <Hsp_evalue>2.57595e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>234</Hsp_identity>
+      <Hsp_positive>251</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>MTTIIIKKVKKAAHAHHGGAWKIAYADFVTAMMAFF-------MTTQEQKIGLAEYFSPAALSPATSGAGGILYGTALDTSGNKP--PRDAERGSAEREDRVRPTSPGRTSDLDASRPAASTEVNY--------ALQTMPDIAELSKNIVIEQTKEGVNVSLVDQDGRAMFREGSVD-YERTRRVLEALAPALRRLPNSLSITGHTAAARPGSARTAEPWNLTAGRALAVREILSGAGVPNDHFSSVVGRADTEPVFPDNPYIAPNRRVTITLLNASPPVPPNLLR</Hsp_qseq>
+      <Hsp_hseq>MSTIIIKKVKKAAHAHHGGAWKIAYADFVTAMMAFFLLMWLISMTTQEQKVGLAEYFAPAASSPATSGAGGMLYGTALDTSGNKASTPRDAQRGSDEQVDRPRQTRPGRANDLDTSRPAASVQADYSAIASLRQALETMPDIAELSKNIVIEPTKEGVNVSLVDQDGRAMFREGSVEPYERTRRVLEALAPAMRRLPNRLSITGHTSAARPGSARAGEPWNLTAGRALAVRDILSGAGVPNDNFMSVVGRADTEPVFPDNPYIAPNRRVTITLLHANPPVPPNLFR</Hsp_hseq>
+      <Hsp_midline>M+TIIIKKVKKAAHAHHGGAWKIAYADFVTAMMAFF       MTTQEQK+GLAEYF+PAA SPATSGAGG+LYGTALDTSGNK   PRDA+RGS E+ DR R T PGR +DLD SRPAAS + +Y        AL+TMPDIAELSKNIVIE TKEGVNVSLVDQDGRAMFREGSV+ YERTRRVLEALAPA+RRLPN LSITGHT+AARPGSAR  EPWNLTAGRALAVR+ILSGAGVPND+F SVVGRADTEPVFPDNPYIAPNRRVTITLL+A+PPVPPNL R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_238284754.1|</Hit_id>
+  <Hit_def>MULTISPECIES: flagellar motor protein MotB [Methylobacterium] &gt;gb|MCJ2103622.1| OmpA family protein [Methylobacterium sp. E-046] &gt;gb|MDN3571395.1| flagellar motor protein MotB [Methylobacterium longum] &gt;dbj|GJE09254.1| Motility protein B [Methylobacterium longum]</Hit_def>
+  <Hit_accession>WP_238284754</Hit_accession>
+  <Hit_len>290</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>457.603</Hsp_bit-score>
+      <Hsp_score>1176</Hsp_score>
+      <Hsp_evalue>3.21297e-160</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>IIIKKVKKAAHAHHGGAWKIAYADFVTAMMAFF-------MTTQEQKIGLAEYFSPAALSPATSGAGGILYGTALDTSGNKP--PRDAERGSAEREDRVRPTSPGRTSDLDASRPAASTEVNY--------ALQTMPDIAELSKNIVIEQTKEGVNVSLVDQDGRAMFREGSVD-YERTRRVLEALAPALRRLPNSLSITGHTAAARPGSARTAEPWNLTAGRALAVREILSGAGVPNDHFSSVVGRADTEPVFPDNPYIAPNRRVTITLLNASPPVPPNLLR</Hsp_qseq>
+      <Hsp_hseq>IIIKRVKKAAHGHHGGAWKIAYADFVTAMMAFFLLMWLISMTTQEQKVGLAEYFAPAALSPATSGAGGILYGTALDTSGNKASTPRDAARGAAEQENKVRPTSPGRASDVDASRPVADVQADYSAIASLRQALQKMPDIAELSRNIVIEQTKEGVNVSLVDEDGRSMFREGSVDPYDRTRRVLEALAPALRRLPNRLSITGYTAAARPGSARVDEPWTLTAGRALAVREILGGAGVPKDNFASVVGRADTEPVFPDNPYLAPNRRVTITLLNASPPVPPNLFR</Hsp_hseq>
+      <Hsp_midline>IIIK+VKKAAH HHGGAWKIAYADFVTAMMAFF       MTTQEQK+GLAEYF+PAALSPATSGAGGILYGTALDTSGNK   PRDA RG+AE+E++VRPTSPGR SD+DASRP A  + +Y        ALQ MPDIAELS+NIVIEQTKEGVNVSLVD+DGR+MFREGSVD Y+RTRRVLEALAPALRRLPN LSITG+TAAARPGSAR  EPW LTAGRALAVREIL GAGVP D+F+SVVGRADTEPVFPDNPY+APNRRVTITLLNASPPVPPNL R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_244045962.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Methylobacterium sp. J-030] &gt;gb|MCJ2072800.1| OmpA family protein [Methylobacterium sp. J-030]</Hit_def>
+  <Hit_accession>WP_244045962</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>457.218</Hsp_bit-score>
+      <Hsp_score>1175</Hsp_score>
+      <Hsp_evalue>4.2453e-160</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>IIIKKVKKAAHAHHGGAWKIAYADFVTAMMAFF-------MTTQEQKIGLAEYFSPAALSPATSGAGGILYGTALDTSGNKP--PRDAERGSAEREDRVRPTSPGRTSDLDASRPAASTEVNY--------ALQTMPDIAELSKNIVIEQTKEGVNVSLVDQDGRAMFREGSVD-YERTRRVLEALAPALRRLPNSLSITGHTAAARPGSARTAEPWNLTAGRALAVREILSGAGVPNDHFSSVVGRADTEPVFPDNPYIAPNRRVTITLLNASPPVPPNLLR</Hsp_qseq>
+      <Hsp_hseq>IVIKKVKKAGHAHHGGAWKIAYADFVTAMMAFFLLMWLISMTTQEQKVGLAEYFAPAALSPATSGAGGTLYGRALDTSGNKPSTPRDAERGSAEQDDKARAATPGRASDRDASRSAASVQANWSAIASLRQALQTLPDIAELSKNIVIEPTKEGVNVSLVDEDGRAMFRENAVEPLERTRRVLEAIAPTLRRLPNSLSITGHTSVARPGSARTAEPWNLTAGRALAVREILAGAGVPNDHFTSVVGRADTEPVFPDNPYLAPNRRVTITLLNASPPVPPNLLR</Hsp_hseq>
+      <Hsp_midline>I+IKKVKKA HAHHGGAWKIAYADFVTAMMAFF       MTTQEQK+GLAEYF+PAALSPATSGAGG LYG ALDTSGNKP  PRDAERGSAE++D+ R  +PGR SD DASR AAS + N+        ALQT+PDIAELSKNIVIE TKEGVNVSLVD+DGRAMFRE +V+  ERTRRVLEA+AP LRRLPNSLSITGHT+ ARPGSARTAEPWNLTAGRALAVREIL+GAGVPNDHF+SVVGRADTEPVFPDNPY+APNRRVTITLLNASPPVPPNLLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_007567684.1|</Hit_id>
+  <Hit_def>MULTISPECIES: flagellar motor protein MotB [Methylobacterium] &gt;gb|EIZ82453.1| OmpA/MotB domain-containing protein [Methylobacterium sp. GXF4] &gt;gb|MCB4803371.1| OmpA family protein [Methylobacterium brachiatum] &gt;gb|MDF2598987.1| chemotaxis protein MotB [Methylobacterium brachiatum] &gt;gb|MDQ0544102.1| chemotaxis protein MotB [Methylobacterium brachiatum] &gt;gb|MER2195743.1| flagellar motor protein MotB [Methylobacterium brachiatum]</Hit_def>
+  <Hit_accession>WP_007567684</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>456.062</Hsp_bit-score>
+      <Hsp_score>1172</Hsp_score>
+      <Hsp_evalue>9.1855e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>233</Hsp_identity>
+      <Hsp_positive>251</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>286</Hsp_align-len>
+      <Hsp_qseq>MTTIIIKKVKKAAHAHHGGAWKIAYADFVTAMMAFF-------MTTQEQKIGLAEYFSPAALSPATSGAGGILYGTALDTSGNKP--PRDAERGSAEREDRVRPTSPGRTSDLDASRPAASTEVNY--------ALQTMPDIAELSKNIVIEQTKEGVNVSLVDQDGRAMFREGSVD-YERTRRVLEALAPALRRLPNSLSITGHTAAARPGSARTAEPWNLTAGRALAVREILSGAGVPNDHFSSVVGRADTEPVFPDNPYIAPNRRVTITLLNASPPVPPNLLR</Hsp_qseq>
+      <Hsp_hseq>MSTIIIKKVKKAAHAHHGGAWKIAYADFVTAMMAFFLLMWLISMTTQEQKVGLAEYFAPAASSPATSGAGGMLYGTALDTSGNKASTPRDAQRGSDEQVDRPRQTRPGRANELDTSRPAASVQADYSAIASLRQALETMPDIAELSKNIVIEPTKEGVNVSLVDQDGRAMFREGSVEPYERTRRVLEALAPAMRRLPNRLSITGHTSAARPGSARAGEPWNLTAGRALAVRDILSGAGVPNDNFMSVVGRADTEPVFPDNPYIAPNRRVTITLLHANPPVPPNLFR</Hsp_hseq>
+      <Hsp_midline>M+TIIIKKVKKAAHAHHGGAWKIAYADFVTAMMAFF       MTTQEQK+GLAEYF+PAA SPATSGAGG+LYGTALDTSGNK   PRDA+RGS E+ DR R T PGR ++LD SRPAAS + +Y        AL+TMPDIAELSKNIVIE TKEGVNVSLVDQDGRAMFREGSV+ YERTRRVLEALAPA+RRLPN LSITGHT+AARPGSAR  EPWNLTAGRALAVR+ILSGAGVPND+F SVVGRADTEPVFPDNPYIAPNRRVTITLL+A+PPVPPNL R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>877781531</Statistics_db-num>
+      <Statistics_db-len>334720180573</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

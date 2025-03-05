@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_2046897</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>124</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_2046897</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>124</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_046312799.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Pontibacter korlensis] &gt;gb|AKD04822.1| transporter [Pontibacter korlensis] &gt;emb|CAM3571467.1| biopolymer transporter ExbD [Pontibacter korlensis]</Hit_def>
+  <Hit_accession>WP_046312799</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>234.572</Hsp_bit-score>
+      <Hsp_score>597</Hsp_score>
+      <Hsp_evalue>5.72572e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>MNFRSKNRINAEFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPV--PSSQASDIVMQKISVTITDDLQYYLNEKPVALEDIEPQLTQLLKGTEQGAVVL---KTVPVEHLVKVAGIA--LNASVTLATVPSE</Hsp_qseq>
+      <Hsp_hseq>MNFRSKNRINAEFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPVSLPSSQASDIVMQKISVTITDDLQYYLNEKPVALEDIEPQLTQLLKGTEQGAVVLHVDKTVPVEHLVKVAGIAKSLNASVTLATVPSE</Hsp_hseq>
+      <Hsp_midline>MNFRSKNRINAEFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPV  PSSQASDIVMQKISVTITDDLQYYLNEKPVALEDIEPQLTQLLKGTEQGAVVL   KTVPVEHLVKVAGIA  LNASVTLATVPSE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_377528622.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Pontibacter rugosus] &gt;gb|MFD1187302.1| ExbD/TolR family protein [Pontibacter rugosus]</Hit_def>
+  <Hit_accession>WP_377528622</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.009</Hsp_bit-score>
+      <Hsp_score>554</Hsp_score>
+      <Hsp_evalue>2.35564e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>MNFRSKNRINAEFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPV--PSSQASDIVMQKISVTITDDLQYYLNEKPVALEDIEPQLTQLLKGTEQGAVVL---KTVPVEHLVKVAGIA--LNASVTLATVPSE</Hsp_qseq>
+      <Hsp_hseq>MNFRSKNRVNAEFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPVSLPSSKTSDIVMQKISVTITEDLQYYLNDKPIALEEIEPQLTALLQGTEEGAVVLHVDKTVPVEHLVKVAGIAKNLNASVTLATVPAE</Hsp_hseq>
+      <Hsp_midline>MNFRSKNR+NAEFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPV  PSS+ SDIVMQKISVTIT+DLQYYLN+KP+ALE+IEPQLT LL+GTE+GAVVL   KTVPVEHLVKVAGIA  LNASVTLATVP+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_119431282.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Pontibacter oryzae] &gt;gb|RIJ41534.1| biopolymer transporter ExbD [Pontibacter oryzae]</Hit_def>
+  <Hit_accession>WP_119431282</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>217.624</Hsp_bit-score>
+      <Hsp_score>553</Hsp_score>
+      <Hsp_evalue>3.45837e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>MNFRSKNRINAEFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPV--PSSQASDIVMQKISVTITDDLQYYLNEKPVALEDIEPQLTQLLKGTEQGAVVL---KTVPVEHLVKVAGIA--LNASVTLATVPSE</Hsp_qseq>
+      <Hsp_hseq>MNFRSKNRINAEFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPVSLPSSKTSDIVMQKISVTITEDMQYYLNDKPIALEEIEPQLTELLQGTEEGAVVLHVDKSVPVEHLVKVAGIAKNLNASVTLATVPTE</Hsp_hseq>
+      <Hsp_midline>MNFRSKNRINAEFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPV  PSS+ SDIVMQKISVTIT+D+QYYLN+KP+ALE+IEPQLT+LL+GTE+GAVVL   K+VPVEHLVKVAGIA  LNASVTLATVP+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_025605121.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Pontibacter actiniarum] &gt;gb|ARS34838.1| biopolymer transporter ExbD [Pontibacter actiniarum]</Hit_def>
+  <Hit_accession>WP_025605121</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.853</Hsp_bit-score>
+      <Hsp_score>551</Hsp_score>
+      <Hsp_evalue>5.6042e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>MNFRSKNRINAEFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPV--PSSQASDIVMQKISVTITDDLQYYLNEKPVALEDIEPQLTQLLKGTEQGAVVL---KTVPVEHLVKVAGIA--LNASVTLATVPSE</Hsp_qseq>
+      <Hsp_hseq>MNFRSKNRINAEFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPVSLPSSKTSDIVMQKISVTITEDLQYYLNDKPIELEDIEPQLTALLQGTEEGAVVLHVDKSVPVEHLVKVAGIAKNLNASVTLATVPTE</Hsp_hseq>
+      <Hsp_midline>MNFRSKNRINAEFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPV  PSS+ SDIVMQKISVTIT+DLQYYLN+KP+ LEDIEPQLT LL+GTE+GAVVL   K+VPVEHLVKVAGIA  LNASVTLATVP+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_266051242.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Pontibacter anaerobius] &gt;gb|MCX2739187.1| biopolymer transporter ExbD [Pontibacter anaerobius]</Hit_def>
+  <Hit_accession>WP_266051242</Hit_accession>
+  <Hit_len>133</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.853</Hsp_bit-score>
+      <Hsp_score>551</Hsp_score>
+      <Hsp_evalue>7.61879e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>MNFRSKNRINAEFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPV--PSSQASDIVMQKISVTITDDLQYYLNEKPVALEDIEPQLTQLLK--GTEQGAVVL---KTVPVEHLVKVAGIA--LNASVTLATVPSE</Hsp_qseq>
+      <Hsp_hseq>MNFRSKNRINAEFSMSSMTDIIFLLLVFFMLTSNFVTPSGLPVSLPSSKTSDIVMQKISVTITDDLKYYLNEKPIALEDIEPQLTALLQQTGTEQGAVVLHVDKSVPVEHLVKVAGIAKNLNASVTLATVPTE</Hsp_hseq>
+      <Hsp_midline>MNFRSKNRINAEFSMSSMTDIIFLLL+FFMLTSNFVTPSGLPV  PSS+ SDIVMQKISVTITDDL+YYLNEKP+ALEDIEPQLT LL+  GTEQGAVVL   K+VPVEHLVKVAGIA  LNASVTLATVP+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_068839763.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Pontibacter akesuensis] &gt;dbj|GHA58166.1| biopolymer transporter ExbD [Pontibacter akesuensis] &gt;emb|SFU44730.1| outer membrane transport energization protein ExbD [Pontibacter akesuensis]</Hit_def>
+  <Hit_accession>WP_068839763</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.083</Hsp_bit-score>
+      <Hsp_score>549</Hsp_score>
+      <Hsp_evalue>1.50416e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>MNFRSKNRINAEFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPV--PSSQASDIVMQKISVTITDDLQYYLNEKPVALEDIEPQLTQLLKGTEQGAVVL---KTVPVEHLVKVAGIA--LNASVTLATVPS</Hsp_qseq>
+      <Hsp_hseq>MNFRSKNRVNAEFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPVSLPSSKASDIVMQKISVTITDDLQYFVNDKPVALEDIEPQLTALLQGTEQGAVVLHVDKSVPVEYLVKVAGIAKNLNASVTLATVPG</Hsp_hseq>
+      <Hsp_midline>MNFRSKNR+NAEFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPV  PSS+ASDIVMQKISVTITDDLQY++N+KPVALEDIEPQLT LL+GTEQGAVVL   K+VPVE+LVKVAGIA  LNASVTLATVP </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_377479580.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Pontibacter toksunensis] &gt;gb|MFD2998942.1| ExbD/TolR family protein [Pontibacter toksunensis]</Hit_def>
+  <Hit_accession>WP_377479580</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.312</Hsp_bit-score>
+      <Hsp_score>547</Hsp_score>
+      <Hsp_evalue>2.60343e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>MNFRSKNRINAEFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPV--PSSQASDIVMQKISVTITDDLQYYLNEKPVALEDIEPQLTQLLKGTEQGAVVL---KTVPVEHLVKVAGIA--LNASVTLATVPSE</Hsp_qseq>
+      <Hsp_hseq>MNIRSKNRINAEFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPVSLPSSKTSDIVMQKISVTITEDLKYYLNEKPVSLEEIEPQLTALLQGTEEGAVVLHVDKSVPVEHLVKVAGIAKNLNASVTLATVPSE</Hsp_hseq>
+      <Hsp_midline>MN RSKNRINAEFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPV  PSS+ SDIVMQKISVTIT+DL+YYLNEKPV+LE+IEPQLT LL+GTE+GAVVL   K+VPVEHLVKVAGIA  LNASVTLATVPSE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_089317715.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Pontibacter ummariensis] &gt;gb|PRY15551.1| outer membrane transport energization protein ExbD [Pontibacter ummariensis] &gt;emb|SNS12866.1| outer membrane transport energization protein ExbD [Pontibacter ummariensis]</Hit_def>
+  <Hit_accession>WP_089317715</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.312</Hsp_bit-score>
+      <Hsp_score>547</Hsp_score>
+      <Hsp_evalue>2.90529e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>MNFRSKNRINAEFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPV--PSSQASDIVMQKISVTITDDLQYYLNEKPVALEDIEPQLTQLLKGTEQGAVVL---KTVPVEHLVKVAGIA--LNASVTLATVPSE</Hsp_qseq>
+      <Hsp_hseq>MNLRSKNRINPEFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPVSLPSSKTSDIVMQKISVTITEDLQYYLNDQPVALEEIEPQLTQLLQGTEEGAVVLHVDKTVPVEHLVKVAGIAKNLNASVTLATVPAE</Hsp_hseq>
+      <Hsp_midline>MN RSKNRIN EFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPV  PSS+ SDIVMQKISVTIT+DLQYYLN++PVALE+IEPQLTQLL+GTE+GAVVL   KTVPVEHLVKVAGIA  LNASVTLATVP+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_073850805.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Pontibacter flavimaris] &gt;gb|OKL41390.1| transporter [Pontibacter flavimaris]</Hit_def>
+  <Hit_accession>WP_073850805</Hit_accession>
+  <Hit_len>133</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.772</Hsp_bit-score>
+      <Hsp_score>543</Hsp_score>
+      <Hsp_evalue>1.32002e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>MNFRSKNRINAEFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPV--PSSQASDIVMQKISVTITDDLQYYLNEKPVALEDIEPQLTQLLK--GTEQGAVVL---KTVPVEHLVKVAGIA--LNASVTLATVPSE</Hsp_qseq>
+      <Hsp_hseq>MNFRSKNRINAEFSMSSMTDIIFLLLIFFMLTSSFVTPSGLPVSLPSSQSSDIVMQKISVTITEDLEYYLNEKPIALDDIEPQLTALLQQGGTEKGAVVLHVDKSVPVEHLVKVAGIAKNLNASVTLATVPSE</Hsp_hseq>
+      <Hsp_midline>MNFRSKNRINAEFSMSSMTDIIFLLLIFFMLTS+FVTPSGLPV  PSSQ+SDIVMQKISVTIT+DL+YYLNEKP+AL+DIEPQLT LL+  GTE+GAVVL   K+VPVEHLVKVAGIA  LNASVTLATVPSE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_299760478.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [uncultured Pontibacter sp.]</Hit_def>
+  <Hit_accession>WP_299760478</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.386</Hsp_bit-score>
+      <Hsp_score>542</Hsp_score>
+      <Hsp_evalue>1.47321e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>MNFRSKNRINAEFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPV--PSSQASDIVMQKISVTITDDLQYYLNEKPVALEDIEPQLTQLL-KGTEQGAVVL---KTVPVEHLVKVAGIA--LNASVTLATVPSE</Hsp_qseq>
+      <Hsp_hseq>MNFRSKNRINAEFSMSSMTDIIFLLLVFFMLTSNFVTPSGLPVSLPSSQTSDIVMQKISVTITDDLKYYLNEKPIALDEIEPQLAALLQQGTEQGAVVLHVDKSVPVEHLVKVAGIAKNLNASVTLATVPTE</Hsp_hseq>
+      <Hsp_midline>MNFRSKNRINAEFSMSSMTDIIFLLL+FFMLTSNFVTPSGLPV  PSSQ SDIVMQKISVTITDDL+YYLNEKP+AL++IEPQL  LL +GTEQGAVVL   K+VPVEHLVKVAGIA  LNASVTLATVP+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_266205740.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Pontibacter kalidii]</Hit_def>
+  <Hit_accession>WP_266205740</Hit_accession>
+  <Hit_len>133</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>212.231</Hsp_bit-score>
+      <Hsp_score>539</Hsp_score>
+      <Hsp_evalue>4.71201e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>MNFRSKNRINAEFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPV--PSSQASDIVMQKISVTITDDLQYYLNEKPVALEDIEPQLTQLLK--GTEQGAVVL---KTVPVEHLVKVAGIA--LNASVTLATVPSE</Hsp_qseq>
+      <Hsp_hseq>MNFRSKNRINADFSMSSMTDIIFLLLIFFMLTSSFVTPSGLPVSLPSSQASDIVMQKISVTITEDLEYYLNEKPIALEEIEPQLTALLQEGGTEKGAVVLHVDKSVPVEHLVKVAGIAKNLNASVTLATVPTE</Hsp_hseq>
+      <Hsp_midline>MNFRSKNRINA+FSMSSMTDIIFLLLIFFMLTS+FVTPSGLPV  PSSQASDIVMQKISVTIT+DL+YYLNEKP+ALE+IEPQLT LL+  GTE+GAVVL   K+VPVEHLVKVAGIA  LNASVTLATVP+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_345157427.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Pontibacter saemangeumensis] &gt;dbj|GAA4427784.1| biopolymer transporter ExbD [Pontibacter saemangeumensis]</Hit_def>
+  <Hit_accession>WP_345157427</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>211.075</Hsp_bit-score>
+      <Hsp_score>536</Hsp_score>
+      <Hsp_evalue>1.10897e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>MNFRSKNRINAEFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPV--PSSQASDIVMQKISVTITDDLQYYLNEKPVALEDIEPQLTQLLKGTEQGAVVL---KTVPVEHLVKVAGIA--LNASVTLATVPSE</Hsp_qseq>
+      <Hsp_hseq>MNIRSKNRINADFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPVSLPSSKTSDIVMQKVSVTITKDIKYYLNEKPIALEEIEPQLTALLQGTEEGAVVLHVDKSVPVEHLVKVAGIAKNLNASVTLATVPTE</Hsp_hseq>
+      <Hsp_midline>MN RSKNRINA+FSMSSMTDIIFLLLIFFMLTSNFVTPSGLPV  PSS+ SDIVMQK+SVTIT D++YYLNEKP+ALE+IEPQLT LL+GTE+GAVVL   K+VPVEHLVKVAGIA  LNASVTLATVP+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_140622124.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Pontibacter mangrovi] &gt;gb|TPE43178.1| biopolymer transporter ExbD [Pontibacter mangrovi]</Hit_def>
+  <Hit_accession>WP_140622124</Hit_accession>
+  <Hit_len>133</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.305</Hsp_bit-score>
+      <Hsp_score>534</Hsp_score>
+      <Hsp_evalue>2.49639e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>MNFRSKNRINAEFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPV--PSSQASDIVMQKISVTITDDLQYYLNEKPVALEDIEPQLTQLLK--GTEQGAVVL---KTVPVEHLVKVAGIA--LNASVTLATVPSE</Hsp_qseq>
+      <Hsp_hseq>MNLRSKNRINAEFSMSSMTDIIFLLLVFFMLTSNFVTPSGLPVSLPSSKTSDIVMQKISITITEDLEYYLNEKPIALDDIEPQLTALLKENGTEQGAVVLHVDKTVPVEQLVKVAGIAKNLNASVTLATVPTE</Hsp_hseq>
+      <Hsp_midline>MN RSKNRINAEFSMSSMTDIIFLLL+FFMLTSNFVTPSGLPV  PSS+ SDIVMQKIS+TIT+DL+YYLNEKP+AL+DIEPQLT LLK  GTEQGAVVL   KTVPVE LVKVAGIA  LNASVTLATVP+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_377512179.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Pontibacter locisalis] &gt;gb|MFD2516078.1| ExbD/TolR family protein [Pontibacter locisalis]</Hit_def>
+  <Hit_accession>WP_377512179</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.305</Hsp_bit-score>
+      <Hsp_score>534</Hsp_score>
+      <Hsp_evalue>2.72627e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>MNFRSKNRINAEFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPV--PSSQASDIVMQKISVTITDDLQYYLNEKPVALEDIEPQLTQLLKGTEQGAVVL---KTVPVEHLVKVAGIA--LNASVTLATVPSE</Hsp_qseq>
+      <Hsp_hseq>MNLRSKNRINPEFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPVSLPTSKSSDITMQKISVTITEDLKYYLNDKPIALEEIEPQLTALLQGTEEGAVVLHVDKTVPVEHLVKVAGIAKSLNASVTLATVPTE</Hsp_hseq>
+      <Hsp_midline>MN RSKNRIN EFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPV  P+S++SDI MQKISVTIT+DL+YYLN+KP+ALE+IEPQLT LL+GTE+GAVVL   KTVPVEHLVKVAGIA  LNASVTLATVP+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_161887818.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Pontibacter russatus]</Hit_def>
+  <Hit_accession>WP_161887818</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.92</Hsp_bit-score>
+      <Hsp_score>533</Hsp_score>
+      <Hsp_evalue>3.14413e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>MNFRSKNRINAEFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPV--PSSQASDIVMQKISVTITDDLQYYLNEKPVALEDIEPQLTQLLKGTEQGAVVL---KTVPVEHLVKVAGIA--LNASVTLATVPSE</Hsp_qseq>
+      <Hsp_hseq>MNLRSKNRINAEFSMSSMTDIIFLLLIFFMLTSNFVAPTGLPVSLPTSKASDITMQKISVTITEDLKYYLNEKPIALDDIEPQLTALLQGTEEGAVVLHVDKSVPVEHLVRVAGIAKNLNASVTLATVPGE</Hsp_hseq>
+      <Hsp_midline>MN RSKNRINAEFSMSSMTDIIFLLLIFFMLTSNFV P+GLPV  P+S+ASDI MQKISVTIT+DL+YYLNEKP+AL+DIEPQLT LL+GTE+GAVVL   K+VPVEHLV+VAGIA  LNASVTLATVP E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_299822223.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [uncultured Pontibacter sp.]</Hit_def>
+  <Hit_accession>WP_299822223</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.608</Hsp_bit-score>
+      <Hsp_score>527</Hsp_score>
+      <Hsp_evalue>2.97842e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>MNFRSKNRINAEFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPV--PSSQASDIVMQKISVTITDDLQYYLNEKPVALEDIEPQLTQLLK-GTEQGAVVL---KTVPVEHLVKVAGIA--LNASVTLATVPSE</Hsp_qseq>
+      <Hsp_hseq>MNLRSKNRINPEFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPVSLPTSKASDITMQKISVTITEDLQYYLNDKPIALEQIEPQLATLLQGGTEQGAVVLHVDKTVPVEHLVKVAGIAKNLNASVTLATVPSE</Hsp_hseq>
+      <Hsp_midline>MN RSKNRIN EFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPV  P+S+ASDI MQKISVTIT+DLQYYLN+KP+ALE IEPQL  LL+ GTEQGAVVL   KTVPVEHLVKVAGIA  LNASVTLATVPSE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_219878452.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Pontibacter aydingkolensis] &gt;gb|MBW7468575.1| biopolymer transporter ExbD [Pontibacter aydingkolensis] &gt;gb|MET3542624.1| biopolymer transport protein ExbD [Pontibacter aydingkolensis]</Hit_def>
+  <Hit_accession>WP_219878452</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.223</Hsp_bit-score>
+      <Hsp_score>526</Hsp_score>
+      <Hsp_evalue>4.32462e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>MNFRSKNRINAEFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPV--PSSQASDIVMQKISVTITDDLQYYLNEKPVALEDIEPQLTQLLK-GTEQGAVVL---KTVPVEHLVKVAGIA--LNASVTLATVPSE</Hsp_qseq>
+      <Hsp_hseq>MNLRSKNRINPEFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPVSLPSSKASDITMQKISVTISKDLQYYLNDKPIALEQIEPQLAALLQGGTEQGAVVLHVDKTVPVEHLVKVAGIAKNLNASVTLATVPSE</Hsp_hseq>
+      <Hsp_midline>MN RSKNRIN EFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPV  PSS+ASDI MQKISVTI+ DLQYYLN+KP+ALE IEPQL  LL+ GTEQGAVVL   KTVPVEHLVKVAGIA  LNASVTLATVPSE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_162052494.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Pontibacter pamirensis]</Hit_def>
+  <Hit_accession>WP_162052494</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.068</Hsp_bit-score>
+      <Hsp_score>523</Hsp_score>
+      <Hsp_evalue>1.32416e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>MNFRSKNRINAEFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPV--PSSQASDIVMQKISVTITDDLQYYLNEKPVALEDIEPQLTQLLKGTEQGAVVL---KTVPVEHLVKVAGIA--LNASVTLATVPSE</Hsp_qseq>
+      <Hsp_hseq>MNIRSKNRINAEFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPVSLPSSKTSDIVMQKISITISEDLEYYLNDKQIAAEDIEPQLTALLQGTEEGAVVLHVDKSVPVEHLARVAGIAKNLNASVTLATVPAE</Hsp_hseq>
+      <Hsp_midline>MN RSKNRINAEFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPV  PSS+ SDIVMQKIS+TI++DL+YYLN+K +A EDIEPQLT LL+GTE+GAVVL   K+VPVEHL +VAGIA  LNASVTLATVP+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_187065806.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ExbD/TolR family protein [Pontibacter] &gt;gb|MBC5991822.1| biopolymer transporter ExbD [Pontibacter cellulosilyticus]</Hit_def>
+  <Hit_accession>WP_187065806</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>205.682</Hsp_bit-score>
+      <Hsp_score>522</Hsp_score>
+      <Hsp_evalue>1.72245e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>MNFRSKNRINAEFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPV--PSSQASDIVMQKISVTITDDLQYYLNEKPVALEDIEPQLTQLLK-GTEQGAVVL---KTVPVEHLVKVAGIA--LNASVTLATVPSE</Hsp_qseq>
+      <Hsp_hseq>MNLRSKNRINPEFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPVSLPSSKASDITMQKISVTISKDLQYYLNDKPIALEQIEPELAALLQGGTEQGAVVLHVDKTVPVEHLVKVAGIAKNLNASVTLATVPSE</Hsp_hseq>
+      <Hsp_midline>MN RSKNRIN EFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPV  PSS+ASDI MQKISVTI+ DLQYYLN+KP+ALE IEP+L  LL+ GTEQGAVVL   KTVPVEHLVKVAGIA  LNASVTLATVPSE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_229958063.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Pontibacter silvestris] &gt;gb|MCC9135280.1| biopolymer transporter ExbD [Pontibacter silvestris] &gt;gb|MFD2067587.1| ExbD/TolR family protein [Pontibacter silvestris]</Hit_def>
+  <Hit_accession>WP_229958063</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.527</Hsp_bit-score>
+      <Hsp_score>519</Hsp_score>
+      <Hsp_evalue>5.04759e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>MNFRSKNRINAEFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPV--PSSQASDIVMQKISVTITDDLQYYLNEKPVALEDIEPQLTQLLKGTEQGAVVL---KTVPVEHLVKVAGIA--LNASVTLATVPSE</Hsp_qseq>
+      <Hsp_hseq>MNLRSRNRINAEFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPVSLPSSKASNIVMQKISITITPDLEYYLNDQPVALESIEPQLAELLQGTEEGVVVLHVDKSVPVEHLVKVAGIATNLNAKVTLATVPAE</Hsp_hseq>
+      <Hsp_midline>MN RS+NRINAEFSMSSMTDIIFLLLIFFMLTSNFVTPSGLPV  PSS+AS+IVMQKIS+TIT DL+YYLN++PVALE IEPQL +LL+GTE+G VVL   K+VPVEHLVKVAGIA  LNA VTLATVP+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>877781531</Statistics_db-num>
+      <Statistics_db-len>334720180573</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_8323971</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>307</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_8323971</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>307</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_058649610.1|</Hit_id>
+  <Hit_def>chemotaxis protein CheA [Klebsiella aerogenes] &gt;gb|KTI16534.1| chemotaxis protein CheA [Klebsiella aerogenes] &gt;gb|KTI27463.1| chemotaxis protein CheA [Klebsiella aerogenes] &gt;gb|MBF9813397.1| chemotaxis protein CheA [Klebsiella aerogenes] &gt;gb|OAM84725.1| chemotaxis protein CheA [Klebsiella aerogenes] &gt;tpg|HBW0134122.1| chemotaxis protein CheA [Klebsiella aerogenes]</Hit_def>
+  <Hit_accession>WP_058649610</Hit_accession>
+  <Hit_len>652</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>405.216</Hsp_bit-score>
+      <Hsp_score>1040</Hsp_score>
+      <Hsp_evalue>8.20316e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>574</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>301</Hsp_identity>
+      <Hsp_positive>304</Hsp_positive>
+      <Hsp_gaps>252</Hsp_gaps>
+      <Hsp_align-len>559</Hsp_align-len>
+      <Hsp_qseq>ADELLADMEQHLLELDPQAP-------------------ATFGFS---ETT--LENLL-----------TEIINLFLDA---------------------------ALRQLALEAQQQDAPAAPPVVAQPAPTAVA---RVSLTGLEI------------------PQQT---------------------CFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAV---PKAPRAK---STSIRVAVEKVDQLINLVGELVITQSML----------THGDLL--MSQLERNARDLQESVMSIRMMP-------------------------TLQGSSTE-------------------SLDHGIEDPQTRLAAGKSEV-----------GNICIEVIDDGAGLNREK-------------------------FAPGFSTAEQVTDVSGRG----------------------------------------DGMSE----------VNAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_qseq>
+      <Hsp_hseq>ADELLADMEQHLLELDPQAPDIEPLNAIFRAAHSIKGGAATFGFSVLQETTHLLENLLDGARREEMRLSTEIINLFLETKDIMQEQLDAYKTSQQPDAESFDYICQALRQLALEAQQQDAPAAPPVVAQPAPTAVAGGMRVSLTGLKANEIPLMLEELGNLGEVHDPQQTDNSLEVTLLTTASEEDICAVLCFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAVVEPPKAPRAKASESTSIRVAVEKVDQLINLVGELVITQSMLAQRSGNLDPVTHGDLLNSMSQLERNARDLQESVMSIRMMPMEYVFSRYPRLVRDLAGKLNKQVELTLQGSSTELDKSLIERIIDPLTHLVRNSLDHGIEDPQTRLAAGKSEVGNLILSAEHQGGNICIEVIDDGAGLNREKILAKAAAQGLAVSDSMSDEEVGMLIFAPGFSTAEQVTDVSGRGVGMDVVKRNIQEMGGHVEIHSRAGKGTSIRILLPLTLAILDGMSVKVNEEVFILPLNAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_hseq>
+      <Hsp_midline>ADELLADMEQHLLELDPQAP                   ATFGFS   ETT  LENLL           TEIINLFL+                            ALRQLALEAQQQDAPAAPPVVAQPAPTAVA   RVSLTGL+                   PQQT                     CFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAV   PKAPRAK   STSIRVAVEKVDQLINLVGELVITQSML          THGDLL  MSQLERNARDLQESVMSIRMMP                         TLQGSSTE                   SLDHGIEDPQTRLAAGKSEV           GNICIEVIDDGAGLNREK                         FAPGFSTAEQVTDVSGRG                                        DGMS           +NAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_072383046.1|</Hit_id>
+  <Hit_def>chemotaxis protein CheA [Klebsiella aerogenes] &gt;emb|SFX48988.1| two-component system, chemotaxis family, sensor kinase CheA [[Enterobacter] aerogenes] [Klebsiella aerogenes]</Hit_def>
+  <Hit_accession>WP_072383046</Hit_accession>
+  <Hit_len>652</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>405.216</Hsp_bit-score>
+      <Hsp_score>1040</Hsp_score>
+      <Hsp_evalue>8.3829e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>574</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>301</Hsp_identity>
+      <Hsp_positive>304</Hsp_positive>
+      <Hsp_gaps>252</Hsp_gaps>
+      <Hsp_align-len>559</Hsp_align-len>
+      <Hsp_qseq>ADELLADMEQHLLELDPQAP-------------------ATFGFS---ETT--LENLL-----------TEIINLFLDA---------------------------ALRQLALEAQQQDAPAAPPVVAQPAPTAVA---RVSLTGLEI------------------PQQT---------------------CFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAV---PKAPRAK---STSIRVAVEKVDQLINLVGELVITQSML----------THGDLL--MSQLERNARDLQESVMSIRMMP-------------------------TLQGSSTE-------------------SLDHGIEDPQTRLAAGKSEV-----------GNICIEVIDDGAGLNREK-------------------------FAPGFSTAEQVTDVSGRG----------------------------------------DGMSE----------VNAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_qseq>
+      <Hsp_hseq>ADELLADMEQHLLELDPQAPDIEPLNAIFRAAHSIKGGAATFGFSVLQETTHLLENLLDGARREEMRLSTEIINLFLETKDIMQEQLDAYKTSQQPDAESFDYICQALRQLALEAQQQDAPAAPPVVAQPAPTAVAGGMRVSLTGLKANEIPLMLEELGNLGEVHDPQQTDNSLEVTLLTTASEEDICAVLCFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAVVEPPKAPRAKASESTSIRVAVEKVDQLINLVGELVITQSMLAQRSGNLDPVTHGDLLNSMSQLERNARDLQESVMSIRMMPMEYVFSRYPRLVRDLAGKLNKQVELTLQGSSTELDKSLIERIIDPLTHLVRNSLDHGIEDPQTRLAAGKSEVGNLILSAEHQGGNICIEVIDDGAGLNREKILAKAAAQGLAVSDSMSDEEVGMLIFAPGFSTAEQVTDVSGRGVGMDVVKRNIQEMGGHVEIHSRAGKGTSIRILLPLTLAILDGMSVKVNEEVFILPLNAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_hseq>
+      <Hsp_midline>ADELLADMEQHLLELDPQAP                   ATFGFS   ETT  LENLL           TEIINLFL+                            ALRQLALEAQQQDAPAAPPVVAQPAPTAVA   RVSLTGL+                   PQQT                     CFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAV   PKAPRAK   STSIRVAVEKVDQLINLVGELVITQSML          THGDLL  MSQLERNARDLQESVMSIRMMP                         TLQGSSTE                   SLDHGIEDPQTRLAAGKSEV           GNICIEVIDDGAGLNREK                         FAPGFSTAEQVTDVSGRG                                        DGMS           +NAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>tpg|HDU5804286.1|</Hit_id>
+  <Hit_def>chemotaxis protein CheA [Klebsiella aerogenes]</Hit_def>
+  <Hit_accession>HDU5804286</Hit_accession>
+  <Hit_len>652</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>405.216</Hsp_bit-score>
+      <Hsp_score>1040</Hsp_score>
+      <Hsp_evalue>8.65991e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>574</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>301</Hsp_identity>
+      <Hsp_positive>304</Hsp_positive>
+      <Hsp_gaps>252</Hsp_gaps>
+      <Hsp_align-len>559</Hsp_align-len>
+      <Hsp_qseq>ADELLADMEQHLLELDPQAP-------------------ATFGFS---ETT--LENLL-----------TEIINLFLDA---------------------------ALRQLALEAQQQDAPAAPPVVAQPAPTAVA---RVSLTGLEI------------------PQQT---------------------CFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAV---PKAPRAK---STSIRVAVEKVDQLINLVGELVITQSML----------THGDLL--MSQLERNARDLQESVMSIRMMP-------------------------TLQGSSTE-------------------SLDHGIEDPQTRLAAGKSEV-----------GNICIEVIDDGAGLNREK-------------------------FAPGFSTAEQVTDVSGRG----------------------------------------DGMSE----------VNAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_qseq>
+      <Hsp_hseq>ADELLADMEQHLLELDPQAPDIEPLNAIFRAAHSIKGGAATFGFSVLQETTHLLENLLDGARREEMRLSTEIINLFLETKDIMQEQLDAYKTSQQPDAESFDYICQALRQLALEAQQQDAPAAPPVVAQPAPTAVAGGMRVSLTGLKANEIPLMLEELGNLGEVHDPQQTDNSLEVTLLTTASEEDICAVLCFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAVVEPPKAPRAKASESTSIRVAVEKVDQLINLVGELVITQSMLAQRSGNLDPVTHGDLLNSMSQLERNARDLQESVMSIRMMPMEYVFSRYPRLVRDLAGKLNKQVELTLQGSSTELEKSLIERIIDPLTHLVRNSLDHGIEDPQTRLAAGKSEVGNLILSAEHQGGNICIEVIDDGAGLNREKILAKAAAQGLAVSDSMSDEEVGMLIFAPGFSTAEQVTDVSGRGVGMDVVKRNIQEMGGHVEIHSRAGKGTSIRILLPLTLAILDGMSVKVNEEVFILPLNAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_hseq>
+      <Hsp_midline>ADELLADMEQHLLELDPQAP                   ATFGFS   ETT  LENLL           TEIINLFL+                            ALRQLALEAQQQDAPAAPPVVAQPAPTAVA   RVSLTGL+                   PQQT                     CFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAV   PKAPRAK   STSIRVAVEKVDQLINLVGELVITQSML          THGDLL  MSQLERNARDLQESVMSIRMMP                         TLQGSSTE                   SLDHGIEDPQTRLAAGKSEV           GNICIEVIDDGAGLNREK                         FAPGFSTAEQVTDVSGRG                                        DGMS           +NAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>tpg|HFZ1181066.1|</Hit_id>
+  <Hit_def>chemotaxis protein CheA [Klebsiella aerogenes]</Hit_def>
+  <Hit_accession>HFZ1181066</Hit_accession>
+  <Hit_len>652</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>405.216</Hsp_bit-score>
+      <Hsp_score>1040</Hsp_score>
+      <Hsp_evalue>9.44418e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>574</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>301</Hsp_identity>
+      <Hsp_positive>304</Hsp_positive>
+      <Hsp_gaps>252</Hsp_gaps>
+      <Hsp_align-len>559</Hsp_align-len>
+      <Hsp_qseq>ADELLADMEQHLLELDPQAP-------------------ATFGFS---ETT--LENLL-----------TEIINLFLDA---------------------------ALRQLALEAQQQDAPAAPPVVAQPAPTAVA---RVSLTGLEI------------------PQQT---------------------CFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAV---PKAPRAK---STSIRVAVEKVDQLINLVGELVITQSML----------THGDLL--MSQLERNARDLQESVMSIRMMP-------------------------TLQGSSTE-------------------SLDHGIEDPQTRLAAGKSEV-----------GNICIEVIDDGAGLNREK-------------------------FAPGFSTAEQVTDVSGRG----------------------------------------DGMSE----------VNAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_qseq>
+      <Hsp_hseq>ADELLADMEQHLLELDPQAPDIEPLNAIFRAAHSIKGGAATFGFSVLQETTHLLENLLDGARREEMRLSTEIINLFLETKDIMQEQLDAYKTSQQPDAESFDYICQALRQLALEAQQQDAPAAPPVVAQPAPTAVAGGMRVSLTGLKANEIPLMLEELGNLGEVHDPQQTDNSLEVTLLTTASEEDICAVLCFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAVVEPPKAPRAKASESTSIRVAVEKVDQLINLVGELVITQSMLAQRSGNLDPVTHGDLLNSMSQLERNARDLQESVMSIRMMPMEYVFSRYPRLVRDLAGKLNKQVELTLQGSSTELDKSLIERIIDPLTHLVRNSLDHGIEDPQTRLAAGKSEVGNLILSAEHQGGNICIEVIDDGAGLNREKILAKAAAQGLAVSDSMSDEEVGMLIFAPGFSTAEQVTDVSGRGVGMDVVKRTIQEMGGHVEIHSRAGKGTSIRILLPLTLAILDGMSVKVNEEVFILPLNAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_hseq>
+      <Hsp_midline>ADELLADMEQHLLELDPQAP                   ATFGFS   ETT  LENLL           TEIINLFL+                            ALRQLALEAQQQDAPAAPPVVAQPAPTAVA   RVSLTGL+                   PQQT                     CFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAV   PKAPRAK   STSIRVAVEKVDQLINLVGELVITQSML          THGDLL  MSQLERNARDLQESVMSIRMMP                         TLQGSSTE                   SLDHGIEDPQTRLAAGKSEV           GNICIEVIDDGAGLNREK                         FAPGFSTAEQVTDVSGRG                                        DGMS           +NAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_045365497.1|</Hit_id>
+  <Hit_def>chemotaxis protein CheA [Klebsiella aerogenes] &gt;gb|AWD05416.1| chemotaxis protein CheA [Klebsiella aerogenes] &gt;gb|EIW8577518.1| chemotaxis protein CheA [Klebsiella aerogenes] &gt;gb|KJP14611.1| chemotaxis protein CheA [Klebsiella aerogenes] &gt;gb|KJP42428.1| chemotaxis protein CheA [Klebsiella aerogenes] &gt;gb|KLF04807.1| chemotaxis protein CheA [Klebsiella aerogenes]</Hit_def>
+  <Hit_accession>WP_045365497</Hit_accession>
+  <Hit_len>652</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>405.216</Hsp_bit-score>
+      <Hsp_score>1040</Hsp_score>
+      <Hsp_evalue>1.01885e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>574</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>301</Hsp_identity>
+      <Hsp_positive>304</Hsp_positive>
+      <Hsp_gaps>252</Hsp_gaps>
+      <Hsp_align-len>559</Hsp_align-len>
+      <Hsp_qseq>ADELLADMEQHLLELDPQAP-------------------ATFGFS---ETT--LENLL-----------TEIINLFLDA---------------------------ALRQLALEAQQQDAPAAPPVVAQPAPTAVA---RVSLTGLEI------------------PQQT---------------------CFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAV---PKAPRAK---STSIRVAVEKVDQLINLVGELVITQSML----------THGDLL--MSQLERNARDLQESVMSIRMMP-------------------------TLQGSSTE-------------------SLDHGIEDPQTRLAAGKSEV-----------GNICIEVIDDGAGLNREK-------------------------FAPGFSTAEQVTDVSGRG----------------------------------------DGMSE----------VNAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_qseq>
+      <Hsp_hseq>ADELLADMEQHLLELDPQAPDIEPLNAIFRAAHSIKGGAATFGFSVLQETTHLLENLLDGARREEMRLSTEIINLFLETKDIMQEQLDAYKTSQQPDAESFDYICQALRQLALEAQQQDAPAAPPVVAQPAPTAVAGGMRVSLTGLKANEIPLMLEELGNLGEVHDPQQTDNSLEVTLLTTASEEDICAVLCFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAVVEPPKAPRAKGSESTSIRVAVEKVDQLINLVGELVITQSMLAQRSGNLDPVTHGDLLNSMSQLERNARDLQESVMSIRMMPMEYVFSRYPRLVRDLAGKLNKQVELTLQGSSTELDKSLIERIIDPLTHLVRNSLDHGIEDPQTRLAAGKSEVGNLILSAEHQGGNICIEVIDDGAGLNREKILAKAAAQGLAVSDSMSDEEVGMLIFAPGFSTAEQVTDVSGRGVGMDVVKRNIQEMGGHVEIHSRAGKGTSIRILLPLTLAILDGMSVKVNEEVFILPLNAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_hseq>
+      <Hsp_midline>ADELLADMEQHLLELDPQAP                   ATFGFS   ETT  LENLL           TEIINLFL+                            ALRQLALEAQQQDAPAAPPVVAQPAPTAVA   RVSLTGL+                   PQQT                     CFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAV   PKAPRAK   STSIRVAVEKVDQLINLVGELVITQSML          THGDLL  MSQLERNARDLQESVMSIRMMP                         TLQGSSTE                   SLDHGIEDPQTRLAAGKSEV           GNICIEVIDDGAGLNREK                         FAPGFSTAEQVTDVSGRG                                        DGMS           +NAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_015367344.1|</Hit_id>
+  <Hit_def>chemotaxis protein CheA [Klebsiella aerogenes] &gt;gb|AMH11656.1| chemotaxis protein CheA [Klebsiella aerogenes] &gt;gb|AML36073.1| Chemotaxis protein CheA [Klebsiella aerogenes] &gt;gb|ATY07111.1| chemotaxis protein CheA [Klebsiella aerogenes] &gt;gb|AVF01036.1| chemotaxis protein CheA [Klebsiella aerogenes] &gt;gb|AXY30124.1| chemotaxis protein CheA [Klebsiella aerogenes]</Hit_def>
+  <Hit_accession>WP_015367344</Hit_accession>
+  <Hit_len>652</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>405.216</Hsp_bit-score>
+      <Hsp_score>1040</Hsp_score>
+      <Hsp_evalue>1.02995e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>574</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>301</Hsp_identity>
+      <Hsp_positive>304</Hsp_positive>
+      <Hsp_gaps>252</Hsp_gaps>
+      <Hsp_align-len>559</Hsp_align-len>
+      <Hsp_qseq>ADELLADMEQHLLELDPQAP-------------------ATFGFS---ETT--LENLL-----------TEIINLFLDA---------------------------ALRQLALEAQQQDAPAAPPVVAQPAPTAVA---RVSLTGLEI------------------PQQT---------------------CFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAV---PKAPRAK---STSIRVAVEKVDQLINLVGELVITQSML----------THGDLL--MSQLERNARDLQESVMSIRMMP-------------------------TLQGSSTE-------------------SLDHGIEDPQTRLAAGKSEV-----------GNICIEVIDDGAGLNREK-------------------------FAPGFSTAEQVTDVSGRG----------------------------------------DGMSE----------VNAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_qseq>
+      <Hsp_hseq>ADELLADMEQHLLELDPQAPDIEPLNAIFRAAHSIKGGAATFGFSVLQETTHLLENLLDGARREEMRLSTEIINLFLETKDIMQEQLDAYKTSQQPDAESFDYICQALRQLALEAQQQDAPAAPPVVAQPAPTAVAGGMRVSLTGLKANEIPLMLEELGNLGEVHDPQQTDNSLEVTLLTTASEEDICAVLCFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAVVEPPKAPRAKASESTSIRVAVEKVDQLINLVGELVITQSMLAQRSGNLDPVTHGDLLNSMSQLERNARDLQESVMSIRMMPMEYVFSRYPRLVRDLAGKLNKQVELTLQGSSTELDKSLIERIIDPLTHLVRNSLDHGIEDPQTRLAAGKSEVGNLILSAEHQGGNICIEVIDDGAGLNREKILAKAAAQGLAVSDSMSDEEVGMLIFAPGFSTAEQVTDVSGRGVGMDVVKRNIQEMGGHVEIHSRAGKGTSIRILLPLTLAILDGMSVKVNEEVFILPLNAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_hseq>
+      <Hsp_midline>ADELLADMEQHLLELDPQAP                   ATFGFS   ETT  LENLL           TEIINLFL+                            ALRQLALEAQQQDAPAAPPVVAQPAPTAVA   RVSLTGL+                   PQQT                     CFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAV   PKAPRAK   STSIRVAVEKVDQLINLVGELVITQSML          THGDLL  MSQLERNARDLQESVMSIRMMP                         TLQGSSTE                   SLDHGIEDPQTRLAAGKSEV           GNICIEVIDDGAGLNREK                         FAPGFSTAEQVTDVSGRG                                        DGMS           +NAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_015704929.1|</Hit_id>
+  <Hit_def>MULTISPECIES: chemotaxis protein CheA [Klebsiella] &gt;sp|P21813.2| RecName: Full=Chemotaxis protein CheA [Klebsiella aerogenes KCTC 2190] &gt;gb|AEG98016.1| chemotaxis protein CheA [Klebsiella aerogenes KCTC 2190] &gt;gb|EIV6184046.1| chemotaxis protein CheA [Klebsiella aerogenes] &gt;gb|EIV6709545.1| chemotaxis protein CheA [Klebsiella aerogenes] &gt;gb|EIV9530074.1| chemotaxis protein CheA [Klebsiella aerogenes] &gt;gb|EIW8607484.1| chemotaxis protein CheA [Klebsiella aerogenes]</Hit_def>
+  <Hit_accession>WP_015704929</Hit_accession>
+  <Hit_len>652</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>405.216</Hsp_bit-score>
+      <Hsp_score>1040</Hsp_score>
+      <Hsp_evalue>1.02995e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>574</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>301</Hsp_identity>
+      <Hsp_positive>304</Hsp_positive>
+      <Hsp_gaps>252</Hsp_gaps>
+      <Hsp_align-len>559</Hsp_align-len>
+      <Hsp_qseq>ADELLADMEQHLLELDPQAP-------------------ATFGFS---ETT--LENLL-----------TEIINLFLDA---------------------------ALRQLALEAQQQDAPAAPPVVAQPAPTAVA---RVSLTGLEI------------------PQQT---------------------CFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAV---PKAPRAK---STSIRVAVEKVDQLINLVGELVITQSML----------THGDLL--MSQLERNARDLQESVMSIRMMP-------------------------TLQGSSTE-------------------SLDHGIEDPQTRLAAGKSEV-----------GNICIEVIDDGAGLNREK-------------------------FAPGFSTAEQVTDVSGRG----------------------------------------DGMSE----------VNAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_qseq>
+      <Hsp_hseq>ADELLADMEQHLLELDPQAPDIEPLNAIFRAAHSIKGGAATFGFSVLQETTHLLENLLDGARREEMRLSTEIINLFLETKDIMQEQLDAYKTSQQPDAESFDYICQALRQLALEAQQQDAPAAPPVVAQPAPTAVAGGMRVSLTGLKANEIPLMLEELGNLGEVHDPQQTDNSLEVTLLTTASEEDICAVLCFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAVVEPPKAPRAKASESTSIRVAVEKVDQLINLVGELVITQSMLAQRSGNLDPVTHGDLLNSMSQLERNARDLQESVMSIRMMPMEYVFSRYPRLVRDLAGKLNKQVELTLQGSSTELDKSLIERIIDPLTHLVRNSLDHGIEDPQTRLAAGKSEVGNLILSAEHQGGNICIEVIDDGAGLNREKILAKAAAQGLAVSDSMSDEEVGMLIFAPGFSTAEQVTDVSGRGVGMDVVKRNIQEMGGHVEIHSRAGKGTSIRILLPLTLAILDGMSVKVNEEVFILPLNAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_hseq>
+      <Hsp_midline>ADELLADMEQHLLELDPQAP                   ATFGFS   ETT  LENLL           TEIINLFL+                            ALRQLALEAQQQDAPAAPPVVAQPAPTAVA   RVSLTGL+                   PQQT                     CFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAV   PKAPRAK   STSIRVAVEKVDQLINLVGELVITQSML          THGDLL  MSQLERNARDLQESVMSIRMMP                         TLQGSSTE                   SLDHGIEDPQTRLAAGKSEV           GNICIEVIDDGAGLNREK                         FAPGFSTAEQVTDVSGRG                                        DGMS           +NAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>tpg|HDU4997390.1|</Hit_id>
+  <Hit_def>chemotaxis protein CheA [Klebsiella aerogenes]</Hit_def>
+  <Hit_accession>HDU4997390</Hit_accession>
+  <Hit_len>652</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>405.216</Hsp_bit-score>
+      <Hsp_score>1040</Hsp_score>
+      <Hsp_evalue>1.02995e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>574</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>301</Hsp_identity>
+      <Hsp_positive>304</Hsp_positive>
+      <Hsp_gaps>252</Hsp_gaps>
+      <Hsp_align-len>559</Hsp_align-len>
+      <Hsp_qseq>ADELLADMEQHLLELDPQAP-------------------ATFGFS---ETT--LENLL-----------TEIINLFLDA---------------------------ALRQLALEAQQQDAPAAPPVVAQPAPTAVA---RVSLTGLEI------------------PQQT---------------------CFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAV---PKAPRAK---STSIRVAVEKVDQLINLVGELVITQSML----------THGDLL--MSQLERNARDLQESVMSIRMMP-------------------------TLQGSSTE-------------------SLDHGIEDPQTRLAAGKSEV-----------GNICIEVIDDGAGLNREK-------------------------FAPGFSTAEQVTDVSGRG----------------------------------------DGMSE----------VNAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_qseq>
+      <Hsp_hseq>ADELLADMEQHLLELDPQAPDIEPLNAIFRAAHSIKGGAATFGFSVLQETTHLLENLLDGARREEMRLSTEIINLFLETKDIMQEQLDAYKTSQQPDAESFDYICQALRQLALEAQQQDAPAAPPVVAQPAPTAVAGGMRVSLTGLKANEIPLMLEELGNLGEVHDPQQTDNSLEVTLLTTASEEDICAVLCFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAVVEPPKAPRAKASESTSIRVAVEKVDQLINLVGELVITQSMLTQRSGNLDPVTHGDLLNSMSQLERNARDLQESVMSIRMMPMEYVFSRYPRLVRDLAGKLNKQVELTLQGSSTELDKSLIERIIDPLTHLVRNSLDHGIEDPQTRLAAGKSEVGNLILSAEHQGGNICIEVIDDGAGLNREKILAKAAAQGLAVSDSMSDEEVGMLIFAPGFSTAEQVTDVSGRGVGMDVVKRNIQEMGGHVEIHSRAGKGTSIRILLPLTLAILDGMSVKVNEEVFILPLNAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_hseq>
+      <Hsp_midline>ADELLADMEQHLLELDPQAP                   ATFGFS   ETT  LENLL           TEIINLFL+                            ALRQLALEAQQQDAPAAPPVVAQPAPTAVA   RVSLTGL+                   PQQT                     CFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAV   PKAPRAK   STSIRVAVEKVDQLINLVGELVITQSML          THGDLL  MSQLERNARDLQESVMSIRMMP                         TLQGSSTE                   SLDHGIEDPQTRLAAGKSEV           GNICIEVIDDGAGLNREK                         FAPGFSTAEQVTDVSGRG                                        DGMS           +NAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|MCT8153334.1|</Hit_id>
+  <Hit_def>chemotaxis protein CheA [Klebsiella aerogenes]</Hit_def>
+  <Hit_accession>MCT8153334</Hit_accession>
+  <Hit_len>641</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.831</Hsp_bit-score>
+      <Hsp_score>1039</Hsp_score>
+      <Hsp_evalue>1.09157e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>574</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>300</Hsp_identity>
+      <Hsp_positive>302</Hsp_positive>
+      <Hsp_gaps>252</Hsp_gaps>
+      <Hsp_align-len>559</Hsp_align-len>
+      <Hsp_qseq>ADELLADMEQHLLELDPQAP-------------------ATFGFS---ETT--LENLL-----------TEIINLFLDA---------------------------ALRQLALEAQQQDAPAAPPVVAQPAPTAVA---RVSLTGLEI------------------PQQT---------------------CFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAV---PKAPRAK---STSIRVAVEKVDQLINLVGELVITQSML----------THGDLL--MSQLERNARDLQESVMSIRMMP-------------------------TLQGSSTE-------------------SLDHGIEDPQTRLAAGKSEV-----------GNICIEVIDDGAGLNREK-------------------------FAPGFSTAEQVTDVSGRGDGMSEV--------------------------------------------------NAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_qseq>
+      <Hsp_hseq>ADELLADMEQHLLELDPQAPDIEPLNAIFRAAHSIKGGAATFGFSVLQETTHLLENLLDGARREEMRLSTEIINLFLETKDIMQEQLDAYKTSQQPDAESFDYICQALRQLALEAQQQDAPAAPPVVAQPAPTAVAGGMRVSLTGLKANEIPLMLEELGNLGEVHDPQQTDNSLEVTLLTTASEEDICAVLCFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAVVEPPKAPRAKASESTSIRVAVEKVDQLINLVGELVITQSMLAQRSGNLDPVTHGDLLNSMSQLERNARDLQESVMSIRMMPMEYVFSRYPRLVRDLAGKLNKQVELTLQGSSTELDKSLIERIIDPLTHLVRNSLDHGIEDPQTRLAAGKSEVGNLILSAEHQGGNICIEVIDDGAGLNREKILAKAAAQGLAVSDSMSDEEVGMLIFAPGFSTAEQVTDVSGRGVGMDVVKRNIQEMGGHVEIHSRAGKGTSIRILLPLTLAILDGMSVKVNEEVFILPLNAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_hseq>
+      <Hsp_midline>ADELLADMEQHLLELDPQAP                   ATFGFS   ETT  LENLL           TEIINLFL+                            ALRQLALEAQQQDAPAAPPVVAQPAPTAVA   RVSLTGL+                   PQQT                     CFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAV   PKAPRAK   STSIRVAVEKVDQLINLVGELVITQSML          THGDLL  MSQLERNARDLQESVMSIRMMP                         TLQGSSTE                   SLDHGIEDPQTRLAAGKSEV           GNICIEVIDDGAGLNREK                         FAPGFSTAEQVTDVSGRG GM  V                                                  NAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_047076258.1|</Hit_id>
+  <Hit_def>chemotaxis protein CheA [Klebsiella aerogenes] &gt;gb|EKV7119362.1| chemotaxis protein CheA [Klebsiella aerogenes] &gt;gb|EKZ9890035.1| chemotaxis protein CheA [Klebsiella aerogenes] &gt;gb|ELA1946465.1| chemotaxis protein CheA [Klebsiella aerogenes] &gt;gb|ELT6136420.1| chemotaxis protein CheA [Klebsiella aerogenes] &gt;gb|ENR0235269.1| chemotaxis protein CheA [Klebsiella aerogenes]</Hit_def>
+  <Hit_accession>WP_047076258</Hit_accession>
+  <Hit_len>652</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.831</Hsp_bit-score>
+      <Hsp_score>1039</Hsp_score>
+      <Hsp_evalue>1.18576e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>574</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>301</Hsp_identity>
+      <Hsp_positive>304</Hsp_positive>
+      <Hsp_gaps>252</Hsp_gaps>
+      <Hsp_align-len>559</Hsp_align-len>
+      <Hsp_qseq>ADELLADMEQHLLELDPQAP-------------------ATFGFS---ETT--LENLL-----------TEIINLFLDA---------------------------ALRQLALEAQQQDAPAAPPVVAQPAPTAVA---RVSLTGLEI------------------PQQT---------------------CFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAV---PKAPRAK---STSIRVAVEKVDQLINLVGELVITQSML----------THGDLL--MSQLERNARDLQESVMSIRMMP-------------------------TLQGSSTE-------------------SLDHGIEDPQTRLAAGKSEV-----------GNICIEVIDDGAGLNREK-------------------------FAPGFSTAEQVTDVSGRG----------------------------------------DGMSE----------VNAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_qseq>
+      <Hsp_hseq>ADELLADMEQHLLELDPQAPDIEPLNAIFRAAHSIKGGAATFGFSVLQETTHLLENLLDGARREEMRLSTEIINLFLETKDIMQEQLDAYKTSQQPDAESFDYICQALRQLALEAQQQDAPAAPPVVAQPAPTAVAGGMRVSLTGLKANEIPLMLEELGNLGEVQDPQQTDNSLEVTLLTTASEEDICAVLCFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAVVEPPKAPRAKGSESTSIRVAVEKVDQLINLVGELVITQSMLAQRSGNLDPVTHGDLLNSMSQLERNARDLQESVMSIRMMPMEYVFSRYPRLVRDLAGKLNKQVELTLQGSSTELDKSLIERIIDPLTHLVRNSLDHGIEDPQTRLAAGKSEVGNLILSAEHQGGNICIEVIDDGAGLNREKILAKAAAQGLAVSDSMSDEEVGMLIFAPGFSTAEQVTDVSGRGVGMDVVKRNIQEMGGHVEIHSRAGKGTSIRILLPLTLAILDGMSVKVNEEVFILPLNAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_hseq>
+      <Hsp_midline>ADELLADMEQHLLELDPQAP                   ATFGFS   ETT  LENLL           TEIINLFL+                            ALRQLALEAQQQDAPAAPPVVAQPAPTAVA   RVSLTGL+                   PQQT                     CFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAV   PKAPRAK   STSIRVAVEKVDQLINLVGELVITQSML          THGDLL  MSQLERNARDLQESVMSIRMMP                         TLQGSSTE                   SLDHGIEDPQTRLAAGKSEV           GNICIEVIDDGAGLNREK                         FAPGFSTAEQVTDVSGRG                                        DGMS           +NAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_061856933.1|</Hit_id>
+  <Hit_def>chemotaxis protein CheA [Klebsiella aerogenes] &gt;gb|AMQ61479.1| chemotaxis protein CheA [Klebsiella aerogenes] &gt;gb|ELI9011994.1| chemotaxis protein CheA [Klebsiella aerogenes]</Hit_def>
+  <Hit_accession>WP_061856933</Hit_accession>
+  <Hit_len>652</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.831</Hsp_bit-score>
+      <Hsp_score>1039</Hsp_score>
+      <Hsp_evalue>1.45685e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>574</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>301</Hsp_identity>
+      <Hsp_positive>304</Hsp_positive>
+      <Hsp_gaps>252</Hsp_gaps>
+      <Hsp_align-len>559</Hsp_align-len>
+      <Hsp_qseq>ADELLADMEQHLLELDPQAP-------------------ATFGFS---ETT--LENLL-----------TEIINLFLDA---------------------------ALRQLALEAQQQDAPAAPPVVAQPAPTAVA---RVSLTGLEI------------------PQQT---------------------CFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAV---PKAPRAK---STSIRVAVEKVDQLINLVGELVITQSML----------THGDLL--MSQLERNARDLQESVMSIRMMP-------------------------TLQGSSTE-------------------SLDHGIEDPQTRLAAGKSEV-----------GNICIEVIDDGAGLNREK-------------------------FAPGFSTAEQVTDVSGRG----------------------------------------DGMSE----------VNAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_qseq>
+      <Hsp_hseq>ADELLADMEQHLLELDPQAPDIEPLNAIFRAAHSIKGGAATFGFSVLQETTHLLENLLDGARREEMRLSTEIINLFLETKDIMQEQLDAYKTSQQPDAESFDYICQALRQLALEAQQQDAPAAPPVVAQPAPTAVAGGMRVSLTGLKANEIPLMLEELGNLGEVHDPQQTDNSLEVTLLTTASEEDICAVLCFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAVVEPPKAPRAKASESTSIRVAVEKVDQLINLVGELVITQSMLAQRSGNLDPVTHGDLLNSMSQLERNARDLQESVMSIRMMPMEYVFSRYPRLVRDLAGKLNKQVELTLQGSSTELDKSLIERIIDPLTHLVRNSLDHGIEDPQTRLAAGKSEVGNLILSAEHQGGNICIEVIDDGAGLNREKILAKAAAQGLAVSDSMSDEEVGMLIFAPGFSTAEQVTDVSGRGVGMDVVKRNIQEMGGHVEIHSRAGKGTSIRILLPLTLAILDGMSVKVNEEVFILPLNAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_hseq>
+      <Hsp_midline>ADELLADMEQHLLELDPQAP                   ATFGFS   ETT  LENLL           TEIINLFL+                            ALRQLALEAQQQDAPAAPPVVAQPAPTAVA   RVSLTGL+                   PQQT                     CFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAV   PKAPRAK   STSIRVAVEKVDQLINLVGELVITQSML          THGDLL  MSQLERNARDLQESVMSIRMMP                         TLQGSSTE                   SLDHGIEDPQTRLAAGKSEV           GNICIEVIDDGAGLNREK                         FAPGFSTAEQVTDVSGRG                                        DGMS           +NAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>tpg|HDU6103187.1|</Hit_id>
+  <Hit_def>chemotaxis protein CheA [Klebsiella aerogenes]</Hit_def>
+  <Hit_accession>HDU6103187</Hit_accession>
+  <Hit_len>652</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.831</Hsp_bit-score>
+      <Hsp_score>1039</Hsp_score>
+      <Hsp_evalue>1.45685e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>574</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>301</Hsp_identity>
+      <Hsp_positive>304</Hsp_positive>
+      <Hsp_gaps>252</Hsp_gaps>
+      <Hsp_align-len>559</Hsp_align-len>
+      <Hsp_qseq>ADELLADMEQHLLELDPQAP-------------------ATFGFS---ETT--LENLL-----------TEIINLFLDA---------------------------ALRQLALEAQQQDAPAAPPVVAQPAPTAVA---RVSLTGLEI------------------PQQT---------------------CFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAV---PKAPRAK---STSIRVAVEKVDQLINLVGELVITQSML----------THGDLL--MSQLERNARDLQESVMSIRMMP-------------------------TLQGSSTE-------------------SLDHGIEDPQTRLAAGKSEV-----------GNICIEVIDDGAGLNREK-------------------------FAPGFSTAEQVTDVSGRG----------------------------------------DGMSE----------VNAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_qseq>
+      <Hsp_hseq>ADELLADMEQHLLELDPQAPDIEPLNAIFRAAHSIKGGAATFGFSVLQETTHLLENLLDGARREEMRLSTEIINLFLETKDIMQEQLDAYKTSQQPDAESFDYICQALRQLALEAQQQDAPAAPPVVAQPAPTAVAGGMRVSLTGLKANEIPLMLEELGNLGEVHDPQQTDNSLEVTLLTTASEEDICAVLCFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAVVEPPKAPRAKASESTSIRVAVEKVDQLINLVGELVITQSMLAQRSGNLDPVTHGDLLNSMSQLERNARDLQESVMSIRMMPMEYVFSRYPRLVRDLAGKLNKQVELTLQGSSTELDKSLIERIIDPLTHLVRNSLDHGIEDPQTRLAAGKSEVGNLILSAEHQGGNICIEVIDDGAGLNREKILAKAAAQGLAVSDSMSDEEVGMLIFAPGFSTAEQVTDVSGRGVGMDVVKRNIQEMGGHVEIHSRAGKGTSIRILLPLTLAILDGMSVKVNEEVFILPLNAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_hseq>
+      <Hsp_midline>ADELLADMEQHLLELDPQAP                   ATFGFS   ETT  LENLL           TEIINLFL+                            ALRQLALEAQQQDAPAAPPVVAQPAPTAVA   RVSLTGL+                   PQQT                     CFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAV   PKAPRAK   STSIRVAVEKVDQLINLVGELVITQSML          THGDLL  MSQLERNARDLQESVMSIRMMP                         TLQGSSTE                   SLDHGIEDPQTRLAAGKSEV           GNICIEVIDDGAGLNREK                         FAPGFSTAEQVTDVSGRG                                        DGMS           +NAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>tpg|HCU1808460.1|</Hit_id>
+  <Hit_def>chemotaxis protein CheA [Klebsiella aerogenes] &gt;tpg|HFT7161772.1| chemotaxis protein CheA [Klebsiella aerogenes]</Hit_def>
+  <Hit_accession>HCU1808460</Hit_accession>
+  <Hit_len>652</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.06</Hsp_bit-score>
+      <Hsp_score>1037</Hsp_score>
+      <Hsp_evalue>2.29652e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>574</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>300</Hsp_identity>
+      <Hsp_positive>304</Hsp_positive>
+      <Hsp_gaps>252</Hsp_gaps>
+      <Hsp_align-len>559</Hsp_align-len>
+      <Hsp_qseq>ADELLADMEQHLLELDPQAP-------------------ATFGFS---ETT--LENLL-----------TEIINLFLDA---------------------------ALRQLALEAQQQDAPAAPPVVAQPAPTAVA---RVSLTGLEI------------------PQQT---------------------CFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAV---PKAPRAK---STSIRVAVEKVDQLINLVGELVITQSML----------THGDLL--MSQLERNARDLQESVMSIRMMP-------------------------TLQGSSTE-------------------SLDHGIEDPQTRLAAGKSEV-----------GNICIEVIDDGAGLNREK-------------------------FAPGFSTAEQVTDVSGRG----------------------------------------DGMSE----------VNAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_qseq>
+      <Hsp_hseq>ADELLADMEQHLLELDPQAPDIEPLNAIFRAAHSIKGGAATFGFSVLQETTHLLENLLDGARREEMRLSTEIINLFLETKDIMQEQLDAYKTSQQPDAESFDYICQALRQLALEAQQQDAPAAPPVVAQPAPTAVAGGMRVSLTGLKANEIPLMLEELGNLGEVHDPQQTDNSLEVTLLTTASEEDICAVLCFVLEPEQISFTTPPTTAAKPLPTAEVVPPPVAQPQPAVVEPPKAPRAKASESTSIRVAVEKVDQLINLVGELVITQSMLAQRSGNLDPVTHGDLLNSMSQLERNARDLQESVMSIRMMPMEYVFSRYPRLVRDLAGKLNKQVELTLQGSSTELDKSLIERIIDPLTHLVRNSLDHGIEDPQTRLAAGKSEVGNLILSAEHQGGNICIEVIDDGAGLNREKILAKAAAQGMAVSDSMSDEEVGMLIFAPGFSTAEQVTDVSGRGVGMDVVKRNIQEMGGHVEIHSRAGKGTSIRILLPLTLAILDGMSVKVNEEVFILPLNAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_hseq>
+      <Hsp_midline>ADELLADMEQHLLELDPQAP                   ATFGFS   ETT  LENLL           TEIINLFL+                            ALRQLALEAQQQDAPAAPPVVAQPAPTAVA   RVSLTGL+                   PQQT                     CFVLEPEQISFTTPPTTAAKPLP+AEVVPPPVAQPQPAV   PKAPRAK   STSIRVAVEKVDQLINLVGELVITQSML          THGDLL  MSQLERNARDLQESVMSIRMMP                         TLQGSSTE                   SLDHGIEDPQTRLAAGKSEV           GNICIEVIDDGAGLNREK                         FAPGFSTAEQVTDVSGRG                                        DGMS           +NAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|ELI7201221.1|</Hit_id>
+  <Hit_def>chemotaxis protein CheA [Klebsiella aerogenes]</Hit_def>
+  <Hit_accession>ELI7201221</Hit_accession>
+  <Hit_len>652</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.06</Hsp_bit-score>
+      <Hsp_score>1037</Hsp_score>
+      <Hsp_evalue>2.64392e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>574</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>300</Hsp_identity>
+      <Hsp_positive>304</Hsp_positive>
+      <Hsp_gaps>252</Hsp_gaps>
+      <Hsp_align-len>559</Hsp_align-len>
+      <Hsp_qseq>ADELLADMEQHLLELDPQAP-------------------ATFGFS---ETT--LENLL-----------TEIINLFLDA---------------------------ALRQLALEAQQQDAPAAPPVVAQPAPTAVA---RVSLTGLEI------------------PQQT---------------------CFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAV---PKAPRAK---STSIRVAVEKVDQLINLVGELVITQSML----------THGDLL--MSQLERNARDLQESVMSIRMMP-------------------------TLQGSSTE-------------------SLDHGIEDPQTRLAAGKSEV-----------GNICIEVIDDGAGLNREK-------------------------FAPGFSTAEQVTDVSGRG----------------------------------------DGMSE----------VNAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_qseq>
+      <Hsp_hseq>ADELLADMEQHLLELDPQAPDIEPLNAIFRAAHSIKGGAATFGFTVLQETTHLLENLLDGARREEMRLSTEIINLFLETKDIMQEQLDAYKTSQQPDAESFDYICQALRQLALEAQQQDAPAAPPVVAQPAPTAVAGGMRVSLTGLKANEIPLMLEELGNLGEVQDPQQTDNSLEVTLLTTASEEDICAVLCFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAVVEPPKAPRAKGSESTSIRVAVEKVDQLINLVGELVITQSMLAQRSGNLDPVTHGDLLNSMSQLERNARDLQESVMSIRMMPMEYVFSRYPRLVRDLAGKLNKQVELTLQGSSTELDKSLIERIIDPLTHLVRNSLDHGIEDPQTRLAAGKSEVGNLILSAEHQGGNICIEVIDDGAGLNREKILAKAAAQGLAVSDSMSDEEVGMLIFAPGFSTAEQVTDVSGRGVGMDVVKRNIQEMGGHVEIHSRAGKGTSIRILLPLTLAILDGMSVKVNEEVFILPLNAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_hseq>
+      <Hsp_midline>ADELLADMEQHLLELDPQAP                   ATFGF+   ETT  LENLL           TEIINLFL+                            ALRQLALEAQQQDAPAAPPVVAQPAPTAVA   RVSLTGL+                   PQQT                     CFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAV   PKAPRAK   STSIRVAVEKVDQLINLVGELVITQSML          THGDLL  MSQLERNARDLQESVMSIRMMP                         TLQGSSTE                   SLDHGIEDPQTRLAAGKSEV           GNICIEVIDDGAGLNREK                         FAPGFSTAEQVTDVSGRG                                        DGMS           +NAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>tpg|HBV4556129.1|</Hit_id>
+  <Hit_def>chemotaxis protein CheA [Klebsiella aerogenes]</Hit_def>
+  <Hit_accession>HBV4556129</Hit_accession>
+  <Hit_len>652</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>403.675</Hsp_bit-score>
+      <Hsp_score>1036</Hsp_score>
+      <Hsp_evalue>3.1787e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>574</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>299</Hsp_identity>
+      <Hsp_positive>304</Hsp_positive>
+      <Hsp_gaps>252</Hsp_gaps>
+      <Hsp_align-len>559</Hsp_align-len>
+      <Hsp_qseq>ADELLADMEQHLLELDPQAP-------------------ATFGFS---ETT--LENLL-----------TEIINLFLDA---------------------------ALRQLALEAQQQDAPAAPPVVAQPAPTAVA---RVSLTGLEI------------------PQQT---------------------CFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAV---PKAPRAK---STSIRVAVEKVDQLINLVGELVITQSML----------THGDLL--MSQLERNARDLQESVMSIRMMP-------------------------TLQGSSTE-------------------SLDHGIEDPQTRLAAGKSEV-----------GNICIEVIDDGAGLNREK-------------------------FAPGFSTAEQVTDVSGRG----------------------------------------DGMSE----------VNAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_qseq>
+      <Hsp_hseq>ADELLADMEQHLLELDPQAPDIEPLNAIFRAAHSIKGGAATFGFSVLQETTHLLENLLDGARREEMRLSTEIINLFLETKDIMQEQLDAYKTSQQPDAESFDYICQALRQLALEAQQQDAPAAPPVVAQPAPTAIAGGMRVSLTGLKANEIPLMLEELGNLGEVQDPQQTDNSLEVTLLTTASEEDICAVLCFVLEPEQISFTTPPTTAAKPLPTAEVVPPPVAQPQPAVVEPPKAPRAKASESTSIRVAVEKVDQLINLVGELVITQSMLAQRSGNLDPVTHGDLLNSMSQLERNARDLQESVMSIRMMPMEYVFSRYPRLVRDLAGKLNKQVELTLQGSSTELDKSLIERIIDPLTHLVRNSLDHGIEDPQTRLAAGKSEVGNLILSAEHQGGNICIEVIDDGAGLNREKILAKAAAQGLAVSDSMSDEEVGMLIFAPGFSTAEQVTDVSGRGVGMDVVKRNIQEMGGHVEIHSRAGKGTSIRILLPLTLAILDGMSVKVNEEVFILPLNAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_hseq>
+      <Hsp_midline>ADELLADMEQHLLELDPQAP                   ATFGFS   ETT  LENLL           TEIINLFL+                            ALRQLALEAQQQDAPAAPPVVAQPAPTA+A   RVSLTGL+                   PQQT                     CFVLEPEQISFTTPPTTAAKPLP+AEVVPPPVAQPQPAV   PKAPRAK   STSIRVAVEKVDQLINLVGELVITQSML          THGDLL  MSQLERNARDLQESVMSIRMMP                         TLQGSSTE                   SLDHGIEDPQTRLAAGKSEV           GNICIEVIDDGAGLNREK                         FAPGFSTAEQVTDVSGRG                                        DGMS           +NAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_267987486.1|</Hit_id>
+  <Hit_def>chemotaxis protein CheA [Klebsiella aerogenes] &gt;gb|MCY3442916.1| chemotaxis protein CheA [Klebsiella aerogenes] &gt;gb|MET5574890.1| chemotaxis protein CheA [Klebsiella aerogenes] &gt;gb|MFH2495611.1| chemotaxis protein CheA [Klebsiella aerogenes]</Hit_def>
+  <Hit_accession>WP_267987486</Hit_accession>
+  <Hit_len>652</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>402.134</Hsp_bit-score>
+      <Hsp_score>1032</Hsp_score>
+      <Hsp_evalue>1.46467e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>574</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>300</Hsp_identity>
+      <Hsp_positive>303</Hsp_positive>
+      <Hsp_gaps>252</Hsp_gaps>
+      <Hsp_align-len>559</Hsp_align-len>
+      <Hsp_qseq>ADELLADMEQHLLELDPQAP-------------------ATFGFS---ETT--LENLL-----------TEIINLFLDA---------------------------ALRQLALEAQQQDAPAAPPVVAQPAPTAVA---RVSLTGLEI------------------PQQT---------------------CFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAV---PKAPRAK---STSIRVAVEKVDQLINLVGELVITQSML----------THGDLL--MSQLERNARDLQESVMSIRMMP-------------------------TLQGSSTE-------------------SLDHGIEDPQTRLAAGKSEV-----------GNICIEVIDDGAGLNREK-------------------------FAPGFSTAEQVTDVSGRG----------------------------------------DGMSE----------VNAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_qseq>
+      <Hsp_hseq>ADELLADMEQHLLELDPQAPDIEPLNAIFRAAHSIKGGAATFGFSVLQETTHLLENLLDGARREEMRLSTEIINLFLETKDIMQEQLDAYKTSQQPDAESFDYICQALRQLALEAQQQDAPAAPPVVAQPAPTAVAGGMRVSLTGLKANEIPLMLEELGNLGEVHDPQQTDNSLEVTLLTTASEEDICAVLCFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAVVEPPKAPRAKASESTSIRVAVEKVDQLINLVGELVITQSMLAQRSGNLDPVTHGDLLNSMSQLERNARDLQESVMSIRMMPMEYVFSRYPRLVRDLAGKLNKQVELTLQGSSTELDKSLIERIIDPLTHLVRNSLDHGIEDPQTRLAAGKSEVGNLILSAEHQGGNICIEVIDDGAGLNREKILAKAAAQGLAVSDSMSDEEVGMLIFAPGFSTAEQVTDVSGRGVGMDVVKRNIQEMGGHVEIHSRAGKGTSIRILLPLTLAILDGMSVKVNEEVFILPLNAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVLDVAGAKTE</Hsp_hseq>
+      <Hsp_midline>ADELLADMEQHLLELDPQAP                   ATFGFS   ETT  LENLL           TEIINLFL+                            ALRQLALEAQQQDAPAAPPVVAQPAPTAVA   RVSLTGL+                   PQQT                     CFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAV   PKAPRAK   STSIRVAVEKVDQLINLVGELVITQSML          THGDLL  MSQLERNARDLQESVMSIRMMP                         TLQGSSTE                   SLDHGIEDPQTRLAAGKSEV           GNICIEVIDDGAGLNREK                         FAPGFSTAEQVTDVSGRG                                        DGMS           +NAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRV DVAGAKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>tpg|HEM8087195.1|</Hit_id>
+  <Hit_def>chemotaxis protein CheA [Klebsiella aerogenes]</Hit_def>
+  <Hit_accession>HEM8087195</Hit_accession>
+  <Hit_len>652</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>401.749</Hsp_bit-score>
+      <Hsp_score>1031</Hsp_score>
+      <Hsp_evalue>2.38492e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>574</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>298</Hsp_identity>
+      <Hsp_positive>303</Hsp_positive>
+      <Hsp_gaps>252</Hsp_gaps>
+      <Hsp_align-len>559</Hsp_align-len>
+      <Hsp_qseq>ADELLADMEQHLLELDPQAP-------------------ATFGFS---ETT--LENLL-----------TEIINLFLDA---------------------------ALRQLALEAQQQDAPAAPPVVAQPAPTAVA---RVSLTGLEI------------------PQQT---------------------CFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAV---PKAPRAK---STSIRVAVEKVDQLINLVGELVITQSML----------THGDLL--MSQLERNARDLQESVMSIRMMP-------------------------TLQGSSTE-------------------SLDHGIEDPQTRLAAGKSEV-----------GNICIEVIDDGAGLNREK-------------------------FAPGFSTAEQVTDVSGRG----------------------------------------DGMSE----------VNAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_qseq>
+      <Hsp_hseq>ADELLADMEQHLLELDPQAPDIEPLNAIFRAAHSIKGGAATFGFSVLQETTHLLENLLDGARREEMRLSTEIINLFLETKDIMQEQLDAYKTSQQPDAESFDYICQALRQLALEAQQQDAPAAPSVVAQPAPTAIAGGMRVSLTGLKANEIPLMLEELGNLGEVQDPQQTDNSLEVTLLTTASEEDICAVLCFVLEPEQISFTTPPTTAAKPLPTAEVVPPPVAQPQPAVIEPPKAPRAKASESTSIRVAVEKVDQLINLVGELVITQSMLAQRSGNLDPVTHGDLLNSMSQLERNARDLQESVMSIRMMPMEYVFSRYPRLVRDLAGKLNKQVELTLQGSSTELDKSLIERIIDPLTHLVRNSLDHGIEDPQTRLAAGKSEVGNLILSAEHQGGNICIEVIDDGAGLNREKILVKAAAQGLAVSDSMSDEEVGMLIFAPGFSTAEQVTDVSGRGVGMDVVKRNIQEMGGHVEIHSRAGKGTSIRILLPLTLAILDGMSVKVNEEVFILPLNAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_hseq>
+      <Hsp_midline>ADELLADMEQHLLELDPQAP                   ATFGFS   ETT  LENLL           TEIINLFL+                            ALRQLALEAQQQDAPAAP VVAQPAPTA+A   RVSLTGL+                   PQQT                     CFVLEPEQISFTTPPTTAAKPLP+AEVVPPPVAQPQPAV   PKAPRAK   STSIRVAVEKVDQLINLVGELVITQSML          THGDLL  MSQLERNARDLQESVMSIRMMP                         TLQGSSTE                   SLDHGIEDPQTRLAAGKSEV           GNICIEVIDDGAGLNREK                         FAPGFSTAEQVTDVSGRG                                        DGMS           +NAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>tpg|HEP1060718.1|</Hit_id>
+  <Hit_def>chemotaxis protein CheA [Klebsiella aerogenes]</Hit_def>
+  <Hit_accession>HEP1060718</Hit_accession>
+  <Hit_len>644</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>381.719</Hsp_bit-score>
+      <Hsp_score>979</Hsp_score>
+      <Hsp_evalue>1.0997e-124</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>566</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>292</Hsp_identity>
+      <Hsp_positive>294</Hsp_positive>
+      <Hsp_gaps>260</Hsp_gaps>
+      <Hsp_align-len>559</Hsp_align-len>
+      <Hsp_qseq>ADELLADMEQHLLELDPQAP-------------------ATFGFS---ETT--LENLL-----------TEIINLFLDA---------------------------ALRQLALEAQQQDAPAAPPVVAQPAPTAVA---RVSLTGLEI------------------PQQT---------------------CFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAV---PKAPRAK---STSIRVAVEKVDQLINLVGELVITQSML----------THGDLL--MSQLERNARDLQESVMSIRMMP-------------------------TLQGSSTE-------------------SLDHGIEDPQTRLAAGKSEV-----------GNICIEVIDDGAGLNREK-------------------------FAPGFSTAEQVTDVSGRGDGMSEV--------------------------------------------------NAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_qseq>
+      <Hsp_hseq>ADELLADMEQHLLELDPQAPDIEPLNAIFRAAHSIKGGAATFGFSVLQETTHLLENLLDGARREEMRLSTEIINLFLETKDIMQEQLDAYKTSQQPDAESFDYICQALRQLALEAQQQDAPAAPPVVAQPAPTAVAGGMRVSLTGLKANEIPLMLEELGNLGEVHDPQQTDNSLEVTLLTTASEEDICAVLCFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAVVEPPKAPRAKASESTSIRVAVEKVDQLINLVGELVITQSMLAQRSGNLDPVTHGDLLNSMSQLERNARDLQESVMSIRMMPMEYVFSRYPRLVRDLAGKLNKQVELTLQGSSTELDKSLIERIIDPLTHLVRNSLDHGIEDPQTRLAAGKSEVGNLILSAEHQGGNICIEVIDDGAGLNREKILAKAAAQGLAVSDSMSDEEVGMLIFAPGFSTAEQVTDVSGRGVGMDVVKRNIQEMGGHVEIHSRAGKGTSIRILLPLTLAILDGMSVKVNEEVFILPLNAVMESLQPQAEDLHPMAG--------GEYLPLVELYRVFDVAGAKTE</Hsp_hseq>
+      <Hsp_midline>ADELLADMEQHLLELDPQAP                   ATFGFS   ETT  LENLL           TEIINLFL+                            ALRQLALEAQQQDAPAAPPVVAQPAPTAVA   RVSLTGL+                   PQQT                     CFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAV   PKAPRAK   STSIRVAVEKVDQLINLVGELVITQSML          THGDLL  MSQLERNARDLQESVMSIRMMP                         TLQGSSTE                   SLDHGIEDPQTRLAAGKSEV           GNICIEVIDDGAGLNREK                         FAPGFSTAEQVTDVSGRG GM  V                                                  NAVMESLQPQAEDLHPMAG        GEYLPLVELYRVFDVAGAKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>tpg|HEO9679753.1|</Hit_id>
+  <Hit_def>chemotaxis protein CheA [Klebsiella aerogenes]</Hit_def>
+  <Hit_accession>HEO9679753</Hit_accession>
+  <Hit_len>652</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>365.925</Hsp_bit-score>
+      <Hsp_score>938</Hsp_score>
+      <Hsp_evalue>2.2406e-118</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>574</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>297</Hsp_identity>
+      <Hsp_positive>302</Hsp_positive>
+      <Hsp_gaps>252</Hsp_gaps>
+      <Hsp_align-len>559</Hsp_align-len>
+      <Hsp_qseq>ADELLADMEQHLLELDPQAP-------------------ATFGFS---ETT--LENLL-----------TEIINLFLDA---------------------------ALRQLALEAQQQDAPAAPPVVAQPAPTAVA---RVSLTGLEI------------------PQQT---------------------CFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAV---PKAPRAK---STSIRVAVEKVDQLINLVGELVITQSML----------THGDLL--MSQLERNARDLQESVMSIRMMP-------------------------TLQGSSTE-------------------SLDHGIEDPQTRLAAGKSEV-----------GNICIEVIDDGAGLNREK-------------------------FAPGFSTAEQVTDVSGRG----------------------------------------DGMSE----------VNAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_qseq>
+      <Hsp_hseq>ADELLADMEQHLLELDPQAPDIEPLNAIFRAAHSIKGGAATFGFSVLQETTHLLENLLDGARREEMRLSTEIINLFLETKDIMQEQLDAYKTSQQPDAESFDYICQALRQLALEAQQQDAPAAAPVVAQPAPTAIAGGMRVSLTGLKANEIPLMLEELGNLGEVQDPQQTDNSLEVTLLTTASEEEICAVLCFVLEPEQISFTTPPTTAAKPLPTAEVVPPPVAQPQPTVVEPPKAPRAKGSESTSIRVAVEKVDQLINLVGELVITQSMLAQRSGNLDPVTHGDLLNSMSQLERNARDLQESVMSIRMMPMEYVFSRYPRLVRDLAGKLNKQVELTLQGSSTELDKSLIERIIDPLTHLVRNSLDHGIEDPQTRLAAGKSEVGNLILSAEHQGGNICIEVIDDGAGLNREKILAKAAAQGLAVSDSMSDEEVGMLIFAPGFSTAEQVTDVSGRGVGMDVVKRNIQEMGGHVEIHSHAGKGTSIRILLPLTLAILDGMSVKVNEEVFILPLNAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_hseq>
+      <Hsp_midline>ADELLADMEQHLLELDPQAP                   ATFGFS   ETT  LENLL           TEIINLFL+                            ALRQLALEAQQQDAPAA PVVAQPAPTA+A   RVSLTGL+                   PQQT                     CFVLEPEQISFTTPPTTAAKPLP+AEVVPPPVAQPQP V   PKAPRAK   STSIRVAVEKVDQLINLVGELVITQSML          THGDLL  MSQLERNARDLQESVMSIRMMP                         TLQGSSTE                   SLDHGIEDPQTRLAAGKSEV           GNICIEVIDDGAGLNREK                         FAPGFSTAEQVTDVSGRG                                        DGMS           +NAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_020079227.1|</Hit_id>
+  <Hit_def>chemotaxis protein CheA [Klebsiella aerogenes] &gt;gb|EIV5416922.1| chemotaxis protein CheA [Klebsiella aerogenes] &gt;gb|EIX9031658.1| chemotaxis protein CheA [Klebsiella aerogenes] &gt;gb|EIX9085183.1| chemotaxis protein CheA [Klebsiella aerogenes] &gt;gb|EKJ9785369.1| chemotaxis protein CheA [Klebsiella aerogenes] &gt;gb|EKU6526743.1| chemotaxis protein CheA [Klebsiella aerogenes]</Hit_def>
+  <Hit_accession>WP_020079227</Hit_accession>
+  <Hit_len>652</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>365.925</Hsp_bit-score>
+      <Hsp_score>938</Hsp_score>
+      <Hsp_evalue>2.36493e-118</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>574</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>297</Hsp_identity>
+      <Hsp_positive>302</Hsp_positive>
+      <Hsp_gaps>252</Hsp_gaps>
+      <Hsp_align-len>559</Hsp_align-len>
+      <Hsp_qseq>ADELLADMEQHLLELDPQAP-------------------ATFGFS---ETT--LENLL-----------TEIINLFLDA---------------------------ALRQLALEAQQQDAPAAPPVVAQPAPTAVA---RVSLTGLEI------------------PQQT---------------------CFVLEPEQISFTTPPTTAAKPLPSAEVVPPPVAQPQPAV---PKAPRAK---STSIRVAVEKVDQLINLVGELVITQSML----------THGDLL--MSQLERNARDLQESVMSIRMMP-------------------------TLQGSSTE-------------------SLDHGIEDPQTRLAAGKSEV-----------GNICIEVIDDGAGLNREK-------------------------FAPGFSTAEQVTDVSGRG----------------------------------------DGMSE----------VNAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_qseq>
+      <Hsp_hseq>ADELLADMEQHLLELDPQAPDIEPLNAIFRAAHSIKGGAATFGFSVLQETTHLLENLLDGARREEMRLSTEIINLFLETKDIMQEQLDAYKTSQQPDAESFDYICQALRQLALEAQQQDAPAAAPVVAQPAPTAIAGGMRVSLTGLKANEIPLMLEELGNLGEVQDPQQTDNSLEVTLLTTASEEEICAVLCFVLEPEQISFTTPPTTAAKPLPTAEVVPPPVAQPQPTVVEPPKAPRAKGSESTSIRVAVEKVDQLINLVGELVITQSMLAQRSGNLDPVTHGDLLNSMSQLERNARDLQESVMSIRMMPMEYVFSRYPRLVRDLAGKLNKQVELTLQGSSTELDKSLIERIIDPLTHLVRNSLDHGIEDPQTRLAAGKSEVGNLILSAEHQGGNICIEVIDDGAGLNREKILAKAAAQGLAVSDSMSDEEVGMLIFAPGFSTAEQVTDVSGRGVGMDVVKRNIQEMGGHVEIHSRAGKGTSIRILLPLTLAILDGMSVKVNEEVFILPLNAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_hseq>
+      <Hsp_midline>ADELLADMEQHLLELDPQAP                   ATFGFS   ETT  LENLL           TEIINLFL+                            ALRQLALEAQQQDAPAA PVVAQPAPTA+A   RVSLTGL+                   PQQT                     CFVLEPEQISFTTPPTTAAKPLP+AEVVPPPVAQPQP V   PKAPRAK   STSIRVAVEKVDQLINLVGELVITQSML          THGDLL  MSQLERNARDLQESVMSIRMMP                         TLQGSSTE                   SLDHGIEDPQTRLAAGKSEV           GNICIEVIDDGAGLNREK                         FAPGFSTAEQVTDVSGRG                                        DGMS           +NAVMESLQPQAEDLHPMAGGERMLQVRGEYLPLVELYRVFDVAGAKTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>877781531</Statistics_db-num>
+      <Statistics_db-len>334720180573</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

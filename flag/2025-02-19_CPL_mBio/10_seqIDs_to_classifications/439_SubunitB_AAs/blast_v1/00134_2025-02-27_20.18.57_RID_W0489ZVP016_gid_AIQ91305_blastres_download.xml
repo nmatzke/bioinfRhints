@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_6043819</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>150</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_6043819</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>150</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_179696929.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Methylobacterium sp.] &gt;gb|MBP29354.1| protein TolR [Methylobacterium sp.]</Hit_def>
+  <Hit_accession>WP_179696929</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>270.781</Hsp_bit-score>
+      <Hsp_score>691</Hsp_score>
+      <Hsp_evalue>2.20756e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MAMGSLRANDDDD----PMSDINVTPMVDVMLVLLIIFMVA-PLMTTGVPV--PKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTMDSIVPRLREMAAADKDQVILV---RDVPYGKVMEVMGLVGQAGFTKVSLIAQSPGGAAPAAAAAPAASAGTAR</Hsp_qseq>
+      <Hsp_hseq>MAMGSLRANDDDDLDDIPMSDINVTPMVDVMLVLLIIFMVAAPLMTTGVPVQLPKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTMDSIVPRLREMAAADKDQVILVRGDRDVPYGKVMEVMGLVGQAGFTKVSLIAQSPGGAAPAAAAAPAASAGTAR</Hsp_hseq>
+      <Hsp_midline>MAMGSLRANDDDD    PMSDINVTPMVDVMLVLLIIFMVA PLMTTGVPV  PKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTMDSIVPRLREMAAADKDQVILV   RDVPYGKVMEVMGLVGQAGFTKVSLIAQSPGGAAPAAAAAPAASAGTAR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_043354910.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ExbD/TolR family protein [Methylobacterium] &gt;gb|AIQ91306.1| TolR protein [Methylobacterium oryzae CBMB20] &gt;gb|APT31870.1| biopolymer transport protein exbD1 [Methylobacterium phyllosphaerae] &gt;gb|AWV16826.1| protein TolR [Methylobacterium sp. XJLW] &gt;gb|MBA9062218.1| biopolymer transport protein TolR [Methylobacterium fujisawaense] &gt;gb|MDE4912303.1| ExbD/TolR family protein [Methylobacterium sp. 092160098-2]</Hit_def>
+  <Hit_accession>WP_043354910</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>270.781</Hsp_bit-score>
+      <Hsp_score>691</Hsp_score>
+      <Hsp_evalue>2.54591e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MAMGSLRANDDDD----PMSDINVTPMVDVMLVLLIIFMVA-PLMTTGVPV--PKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTMDSIVPRLREMAAADKDQVILV---RDVPYGKVMEVMGLVGQAGFTKVSLIAQSPGGAAPAAAAAPAASAGTAR</Hsp_qseq>
+      <Hsp_hseq>MAMGSLRANDDDDLDDMPMSDINVTPMVDVMLVLLIIFMVAAPLMTTGVPVQLPKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTMDSIVPRLREMAAADKDQVILVRGDRDVPYGKVMEVMGLVGQAGFTKVSLIAQSPGGAAPAAAAAPAASAGTAR</Hsp_hseq>
+      <Hsp_midline>MAMGSLRANDDDD    PMSDINVTPMVDVMLVLLIIFMVA PLMTTGVPV  PKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTMDSIVPRLREMAAADKDQVILV   RDVPYGKVMEVMGLVGQAGFTKVSLIAQSPGGAAPAAAAAPAASAGTAR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_278305624.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Methylobacterium sp. 391_Methyba4] &gt;gb|WFS05327.1| ExbD/TolR family protein [Methylobacterium sp. 391_Methyba4]</Hit_def>
+  <Hit_accession>WP_278305624</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.47</Hsp_bit-score>
+      <Hsp_score>685</Hsp_score>
+      <Hsp_evalue>1.71694e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MAMGSLRANDDDD----PMSDINVTPMVDVMLVLLIIFMVA-PLMTTGVPV--PKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTMDSIVPRLREMAAADKDQVILV---RDVPYGKVMEVMGLVGQAGFTKVSLIAQSPGGAAPAAAAAPAASAGTAR</Hsp_qseq>
+      <Hsp_hseq>MAMGSLRASDDDDLDDMPMSDINVTPMVDVMLVLLIIFMVAAPLMTTGVPVQLPKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTMDSIVPRLREMAAADKDQVILVRGDRDVPYGKVMEVMGLVGQAGFTKVSLIAQSPGGAAPAAAAAPAASAGTAR</Hsp_hseq>
+      <Hsp_midline>MAMGSLRA+DDDD    PMSDINVTPMVDVMLVLLIIFMVA PLMTTGVPV  PKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTMDSIVPRLREMAAADKDQVILV   RDVPYGKVMEVMGLVGQAGFTKVSLIAQSPGGAAPAAAAAPAASAGTAR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_342145051.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Methylobacterium fujisawaense] &gt;gb|XAP08690.1| ExbD/TolR family protein [Methylobacterium fujisawaense]</Hit_def>
+  <Hit_accession>WP_342145051</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.085</Hsp_bit-score>
+      <Hsp_score>684</Hsp_score>
+      <Hsp_evalue>3.00406e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>MAMGSLRANDDDD----PMSDINVTPMVDVMLVLLIIFMVA-PLMTTGVPV--PKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTMDSIVPRLREMAAADKDQVILV---RDVPYGKVMEVMGLVGQAGFTKVSLIAQSPGGAAPAAAAAPAASAGTAR</Hsp_qseq>
+      <Hsp_hseq>MAMGSLRANDDDDLDDMPMSDINVTPMVDVMLVLLIIFMVAAPLMTTGVPVQLPKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTMDSIVPRLREMAAADKDQVILVRGDRDVPYGKVMEVMGLVGQAGFTKVSLIAQSPGGAAPAAAAAPAAPAGTAR</Hsp_hseq>
+      <Hsp_midline>MAMGSLRANDDDD    PMSDINVTPMVDVMLVLLIIFMVA PLMTTGVPV  PKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTMDSIVPRLREMAAADKDQVILV   RDVPYGKVMEVMGLVGQAGFTKVSLIAQSPGGAAPAAAAAPAA AGTAR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_244005052.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Methylobacterium sp. J-088] &gt;gb|MCJ2065077.1| ExbD/TolR family protein [Methylobacterium sp. J-088]</Hit_def>
+  <Hit_accession>WP_244005052</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>230.72</Hsp_bit-score>
+      <Hsp_score>587</Hsp_score>
+      <Hsp_evalue>1.38168e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>MAMGSLRANDDDD----PMSDINVTPMVDVMLVLLIIFMVA-PLMTTGVPV--PKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTMDSIVPRLREMAAADKDQVILV---RDVPYGKVMEVMGLVGQAGFTKVSLIAQSPGG-AAPAAAAAPAASAGTAR</Hsp_qseq>
+      <Hsp_hseq>MAMGSIRASDDDDLEDMPMSEINVTPMVDVMLVLLIIFMVAAPLMTTGVPVQLPKTAAPKVAQSKKPQEVTVDKDGKPSIAKEIFTMESLVPRLREMAAADKDQVILVRGDRDVPYGKVMEVMGLVGQAGFTKVSLIAQSPGGASAPPSVPAAAAPAGTAR</Hsp_hseq>
+      <Hsp_midline>MAMGS+RA+DDDD    PMS+INVTPMVDVMLVLLIIFMVA PLMTTGVPV  PKTAAPKVAQSKKP EVTVDKDG PSIAKE+FTM+S+VPRLREMAAADKDQVILV   RDVPYGKVMEVMGLVGQAGFTKVSLIAQSPGG +AP +  A AA AGTAR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_267421858.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Methylobacterium sp. GC_Met_2]</Hit_def>
+  <Hit_accession>WP_267421858</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>230.72</Hsp_bit-score>
+      <Hsp_score>587</Hsp_score>
+      <Hsp_evalue>1.38168e-74</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>MAMGSLRANDDDD----PMSDINVTPMVDVMLVLLIIFMVA-PLMTTGVPV--PKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTMDSIVPRLREMAAADKDQVILV---RDVPYGKVMEVMGLVGQAGFTKVSLIAQSPGG-AAPAAAAAPAASAGTAR</Hsp_qseq>
+      <Hsp_hseq>MAMGSIRASDDDDLEDMPMSEINVTPMVDVMLVLLIIFMVAAPLMTTGVPVQLPKTAAPKVAQSKKPQEVTVDKDGKPSIAKEIFTMESLVPRLREMAAADKDQVILVRGDRDVPYGKVMEVMGLVGQAGFTKVSLIAQSPGGAPAPQSAPAAAAPAGTAR</Hsp_hseq>
+      <Hsp_midline>MAMGS+RA+DDDD    PMS+INVTPMVDVMLVLLIIFMVA PLMTTGVPV  PKTAAPKVAQSKKP EVTVDKDG PSIAKE+FTM+S+VPRLREMAAADKDQVILV   RDVPYGKVMEVMGLVGQAGFTKVSLIAQSPGG  AP +A A AA AGTAR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_243973693.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Methylobacterium sp. J-026] &gt;gb|MCJ2138114.1| ExbD/TolR family protein [Methylobacterium sp. J-026]</Hit_def>
+  <Hit_accession>WP_243973693</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>226.483</Hsp_bit-score>
+      <Hsp_score>576</Hsp_score>
+      <Hsp_evalue>6.67989e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MAMGSLRANDDDD----PMSDINVTPMVDVMLVLLIIFMVA-PLMTTGVPV--PKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTMDSIVPRLREMAAADKDQVILV---RDVPYGKVMEVMGLVGQAGFTKVSLIAQS</Hsp_qseq>
+      <Hsp_hseq>MAMGSIRASDEDDLDDVPMSDINVTPMVDVMLVLLIIFMVAAPLMTTGVPVQLPKTAAPKVAQSKKPQEVTVDKDGNPSIAKEVFTMDSLVPRLREMAAADKNQVILVRGDRDVPYGKVMEVMGLVGQAGFTKVSLIAQS</Hsp_hseq>
+      <Hsp_midline>MAMGS+RA+D+DD    PMSDINVTPMVDVMLVLLIIFMVA PLMTTGVPV  PKTAAPKVAQSKKP EVTVDKDGNPSIAKEVFTMDS+VPRLREMAAADK+QVILV   RDVPYGKVMEVMGLVGQAGFTKVSLIAQS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_010682329.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Methylobacterium mesophilicum] &gt;gb|QGY03053.1| ExbD/TolR family protein [Methylobacterium mesophilicum SR1.6/6]</Hit_def>
+  <Hit_accession>WP_010682329</Hit_accession>
+  <Hit_len>163</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.787</Hsp_bit-score>
+      <Hsp_score>569</Hsp_score>
+      <Hsp_evalue>7.96605e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MAMGSLRANDDDD----PMSDINVTPMVDVMLVLLIIFMVA-PLMTTGVPV--PKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTMDSIVPRLREMAAADKDQVILV---RDVPYGKVMEVMGLVGQAGFTKVSLIAQ</Hsp_qseq>
+      <Hsp_hseq>MAMGSLRASDEDDLDDMPMSDINVTPMVDVMLVLLIIFMVAAPLMTTGVPVQLPKTAAPKVAQSKKPQEVTVDKDGKPSIAKEVFTMESIVPRLREMAAADKDQVILVRGDRDVPYGKVMEVMGLVGQAGFTKVSLVAQ</Hsp_hseq>
+      <Hsp_midline>MAMGSLRA+D+DD    PMSDINVTPMVDVMLVLLIIFMVA PLMTTGVPV  PKTAAPKVAQSKKP EVTVDKDG PSIAKEVFTM+SIVPRLREMAAADKDQVILV   RDVPYGKVMEVMGLVGQAGFTKVSL+AQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_273559065.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Methylobacterium sp. NMS14P] &gt;gb|WCS22895.1| ExbD/TolR family protein [Methylobacterium sp. NMS14P]</Hit_def>
+  <Hit_accession>WP_273559065</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.402</Hsp_bit-score>
+      <Hsp_score>568</Hsp_score>
+      <Hsp_evalue>1.0235e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MAMGSLRANDDDD----PMSDINVTPMVDVMLVLLIIFMVA-PLMTTGVPV--PKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTMDSIVPRLREMAAADKDQVILV---RDVPYGKVMEVMGLVGQAGFTKVSLIAQS</Hsp_qseq>
+      <Hsp_hseq>MAMGSIRANDDDDLDDVPMSDINVTPMVDVMLVLLIIFMVAAPLMTTGVPVQLPKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTMESIVPRLREMAAADKDQVILVRGDRDVPYGKVMEVMGLVGQAGFTKVSLIAQS</Hsp_hseq>
+      <Hsp_midline>MAMGS+RANDDDD    PMSDINVTPMVDVMLVLLIIFMVA PLMTTGVPV  PKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTM+SIVPRLREMAAADKDQVILV   RDVPYGKVMEVMGLVGQAGFTKVSLIAQS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_020092810.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ExbD/TolR family protein [unclassified Methylobacterium] &gt;gb|MET3410837.1| biopolymer transport protein TolR [Methylobacterium sp. 1030]</Hit_def>
+  <Hit_accession>WP_020092810</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.402</Hsp_bit-score>
+      <Hsp_score>568</Hsp_score>
+      <Hsp_evalue>1.13054e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MAMGSLRANDDDD----PMSDINVTPMVDVMLVLLIIFMVA-PLMTTGVPV--PKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTMDSIVPRLREMAAADKDQVILV---RDVPYGKVMEVMGLVGQAGFTKVSLIAQS</Hsp_qseq>
+      <Hsp_hseq>MAMGSIRANDDDDLDDVPMSDINVTPMVDVMLVLLIIFMVAAPLMTTGVPVQLPKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTMESIVPRLREMAAADKDQVILVRGDRDVPYGKVMEVMGLVGQAGFTKVSLIAQS</Hsp_hseq>
+      <Hsp_midline>MAMGS+RANDDDD    PMSDINVTPMVDVMLVLLIIFMVA PLMTTGVPV  PKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTM+SIVPRLREMAAADKDQVILV   RDVPYGKVMEVMGLVGQAGFTKVSLIAQS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_243924940.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Methylobacterium sp. E-065] &gt;gb|MCJ2020859.1| ExbD/TolR family protein [Methylobacterium sp. E-065]</Hit_def>
+  <Hit_accession>WP_243924940</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.016</Hsp_bit-score>
+      <Hsp_score>567</Hsp_score>
+      <Hsp_evalue>1.85068e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MAMGSLRANDDDD----PMSDINVTPMVDVMLVLLIIFMVA-PLMTTGVPV--PKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTMDSIVPRLREMAAADKDQVILV---RDVPYGKVMEVMGLVGQAGFTKVSLIAQ</Hsp_qseq>
+      <Hsp_hseq>MAMGSIRASDDDDLEDMPMSEINVTPMVDVMLVLLIIFMVAAPLMTTGVPVQLPKTAAPKVAQSKKPQEVTVDKDGKPSIAKEIFTMESLVPRLREMAAADKDQVILVRGDRDVPYGKVMEVMGLVGQAGFTKVSLIAQ</Hsp_hseq>
+      <Hsp_midline>MAMGS+RA+DDDD    PMS+INVTPMVDVMLVLLIIFMVA PLMTTGVPV  PKTAAPKVAQSKKP EVTVDKDG PSIAKE+FTM+S+VPRLREMAAADKDQVILV   RDVPYGKVMEVMGLVGQAGFTKVSLIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_267358532.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ExbD/TolR family protein [unclassified Methylobacterium]</Hit_def>
+  <Hit_accession>WP_267358532</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.016</Hsp_bit-score>
+      <Hsp_score>567</Hsp_score>
+      <Hsp_evalue>1.91304e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MAMGSLRANDDDD----PMSDINVTPMVDVMLVLLIIFMVA-PLMTTGVPV--PKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTMDSIVPRLREMAAADKDQVILV---RDVPYGKVMEVMGLVGQAGFTKVSLIAQ</Hsp_qseq>
+      <Hsp_hseq>MAMGSIRASDDDDLEDMPMSEINVTPMVDVMLVLLIIFMVAAPLMTTGVPVQLPKTAAPKVAQSKKPQEVTVDKDGKPSIAKEIFTMESLVPRLREMAAADKDQVILVRGDRDVPYGKVMEVMGLVGQAGFTKVSLIAQ</Hsp_hseq>
+      <Hsp_midline>MAMGS+RA+DDDD    PMS+INVTPMVDVMLVLLIIFMVA PLMTTGVPV  PKTAAPKVAQSKKP EVTVDKDG PSIAKE+FTM+S+VPRLREMAAADKDQVILV   RDVPYGKVMEVMGLVGQAGFTKVSLIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_342104992.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Methylobacterium guangdongense]</Hit_def>
+  <Hit_accession>WP_342104992</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>222.246</Hsp_bit-score>
+      <Hsp_score>565</Hsp_score>
+      <Hsp_evalue>3.90465e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MAMGSLRANDDDD----PMSDINVTPMVDVMLVLLIIFMVA-PLMTTGVPV--PKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTMDSIVPRLREMAAADKDQVILV---RDVPYGKVMEVMGLVGQAGFTKVSLIAQ</Hsp_qseq>
+      <Hsp_hseq>MAMGSIRASDDDDLEDMPMSEINVTPMVDVMLVLLIIFMVAAPLMTTGVPVQLPKTAAPKVAQSKKPQEVTVDKDGNPSIAKEVYTMASIVPRLREMAATDKDQVILVRGDRDVPYGKVMEVMGLVGQAGFTKVSLIAQ</Hsp_hseq>
+      <Hsp_midline>MAMGS+RA+DDDD    PMS+INVTPMVDVMLVLLIIFMVA PLMTTGVPV  PKTAAPKVAQSKKP EVTVDKDGNPSIAKEV+TM SIVPRLREMAA DKDQVILV   RDVPYGKVMEVMGLVGQAGFTKVSLIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_238285147.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ExbD/TolR family protein [Methylobacterium] &gt;gb|MCJ2098751.1| ExbD/TolR family protein [Methylobacterium sp. E-046] &gt;gb|MDN3572316.1| ExbD/TolR family protein [Methylobacterium longum] &gt;dbj|GJE09539.1| Biopolymer transport protein ExbD [Methylobacterium longum]</Hit_def>
+  <Hit_accession>WP_238285147</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.476</Hsp_bit-score>
+      <Hsp_score>563</Hsp_score>
+      <Hsp_evalue>5.71609e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MAMGSLRANDDDD----PMSDINVTPMVDVMLVLLIIFMVA-PLMTTGVPV--PKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTMDSIVPRLREMAAADKDQVILV---RDVPYGKVMEVMGLVGQAGFTKVSLIAQ</Hsp_qseq>
+      <Hsp_hseq>MAMGSLRASDEDELDDMPMSEINVTPMVDVMLVLLIIFMVAAPLMTTGVPVQLPKTSAPKVAQSKKPQEVTVDKDGKPSIAKEVFTMESIVPRLREMAAADKDQVILVRGDRDVPYGKVMEVMGLVGQAGFTKVSLIAQ</Hsp_hseq>
+      <Hsp_midline>MAMGSLRA+D+D+    PMS+INVTPMVDVMLVLLIIFMVA PLMTTGVPV  PKT+APKVAQSKKP EVTVDKDG PSIAKEVFTM+SIVPRLREMAAADKDQVILV   RDVPYGKVMEVMGLVGQAGFTKVSLIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_091778700.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ExbD/TolR family protein [unclassified Methylobacterium] &gt;gb|KAA0122622.1| ExbD/TolR family protein [Methylobacterium sp. P1-11] &gt;emb|SDA17688.1| biopolymer transport protein TolR [Methylobacterium sp. UNC378MF]</Hit_def>
+  <Hit_accession>WP_091778700</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.476</Hsp_bit-score>
+      <Hsp_score>563</Hsp_score>
+      <Hsp_evalue>6.04382e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MAMGSLRANDDDD----PMSDINVTPMVDVMLVLLIIFMVA-PLMTTGVPV--PKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTMDSIVPRLREMAAADKDQVILV---RDVPYGKVMEVMGLVGQAGFTKVSLIAQ</Hsp_qseq>
+      <Hsp_hseq>MAMGSLRANDDDDLDDVPMSDINVTPMVDVMLVLLIIFMVAAPLMTTGVPVQLPKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTMESIVPRLREMAAAEKDQVILVRGDRDVPYGKVMEVMGLVGQAGFTKVSLIAQ</Hsp_hseq>
+      <Hsp_midline>MAMGSLRANDDDD    PMSDINVTPMVDVMLVLLIIFMVA PLMTTGVPV  PKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTM+SIVPRLREMAAA+KDQVILV   RDVPYGKVMEVMGLVGQAGFTKVSLIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_012320112.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ExbD/TolR family protein [Methylobacterium] &gt;gb|MCX7333049.1| ExbD/TolR family protein [Hyphomicrobiales bacterium] &gt;dbj|GAN46827.1| protein TolR [Methylobacterium sp. ME121] &gt;gb|ACB25148.1| protein TolR [Methylobacterium radiotolerans JCM 2831] &gt;gb|KIU32273.1| biopolymer transporter ExbD [Methylobacterium radiotolerans] &gt;gb|KTS10201.1| biopolymer transporter ExbD [Methylobacterium radiotolerans]</Hit_def>
+  <Hit_accession>WP_012320112</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.476</Hsp_bit-score>
+      <Hsp_score>563</Hsp_score>
+      <Hsp_evalue>7.04261e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MAMGSLRANDDDD----PMSDINVTPMVDVMLVLLIIFMVA-PLMTTGVPV--PKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTMDSIVPRLREMAAADKDQVILV---RDVPYGKVMEVMGLVGQAGFTKVSLIAQ</Hsp_qseq>
+      <Hsp_hseq>MAMGSIRANDDDDLDDVPMSDINVTPMVDVMLVLLIIFMVAAPLMTTGVPVQLPKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTMESIVPRLREMAAADKDQVILVRGDRDVPYGKVMEVMGLVGQAGFTKVSLIAQ</Hsp_hseq>
+      <Hsp_midline>MAMGS+RANDDDD    PMSDINVTPMVDVMLVLLIIFMVA PLMTTGVPV  PKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTM+SIVPRLREMAAADKDQVILV   RDVPYGKVMEVMGLVGQAGFTKVSLIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_132366433.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Methylobacterium oryzae] &gt;gb|MEE7442069.1| protein TolR [Methylobacterium oryzae]</Hit_def>
+  <Hit_accession>WP_132366433</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.476</Hsp_bit-score>
+      <Hsp_score>563</Hsp_score>
+      <Hsp_evalue>7.77801e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MAMGSLRANDDDD----PMSDINVTPMVDVMLVLLIIFMVA-PLMTTGVPV--PKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTMDSIVPRLREMAAADKDQVILV---RDVPYGKVMEVMGLVGQAGFTKVSLIAQ</Hsp_qseq>
+      <Hsp_hseq>MAMGSIRANDDDDLDDVPMSDINVTPMVDVMLVLLIIFMVAAPLMTTGVPVQLPKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTMESIVPRLREMAAADKDQVILVRGDRDVPYGKVMEVMGLVGQAGFTKVSLIAQ</Hsp_hseq>
+      <Hsp_midline>MAMGS+RANDDDD    PMSDINVTPMVDVMLVLLIIFMVA PLMTTGVPV  PKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTM+SIVPRLREMAAADKDQVILV   RDVPYGKVMEVMGLVGQAGFTKVSLIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_331290897.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ExbD/TolR family protein [Methylobacterium] &gt;gb|MEE7448065.1| protein TolR [Methylobacterium radiotolerans] &gt;gb|MEE7467597.1| protein TolR [Methylobacterium oryzae] &gt;gb|MEE7487581.1| protein TolR [Methylobacterium oryzae] &gt;gb|MEE7490452.1| protein TolR [Methylobacterium oryzae]</Hit_def>
+  <Hit_accession>WP_331290897</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.476</Hsp_bit-score>
+      <Hsp_score>563</Hsp_score>
+      <Hsp_evalue>8.03977e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MAMGSLRANDDDD----PMSDINVTPMVDVMLVLLIIFMVA-PLMTTGVPV--PKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTMDSIVPRLREMAAADKDQVILV---RDVPYGKVMEVMGLVGQAGFTKVSLIAQ</Hsp_qseq>
+      <Hsp_hseq>MAMGSIRANDDDDLDDVPMSDINVTPMVDVMLVLLIIFMVAAPLMTTGVPVQLPKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTMESIVPRLREMAAADKDQVILVRGDRDVPYGKVMEVMGLVGQAGFTKVSLIAQ</Hsp_hseq>
+      <Hsp_midline>MAMGS+RANDDDD    PMSDINVTPMVDVMLVLLIIFMVA PLMTTGVPV  PKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTM+SIVPRLREMAAADKDQVILV   RDVPYGKVMEVMGLVGQAGFTKVSLIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_056527994.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ExbD/TolR family protein [Methylobacterium] &gt;gb|KQS74584.1| protein TolR [Methylobacterium sp. Leaf361] &gt;gb|MBN4096649.1| ExbD/TolR family protein [Methylobacterium sp. OT2] &gt;gb|MEE7461226.1| protein TolR [Methylobacterium fujisawaense] &gt;gb|UIN36357.1| ExbD/TolR family protein [Methylobacterium oryzae] &gt;emb|SEG52352.1| biopolymer transport protein TolR [Methylobacterium sp. 190mf]</Hit_def>
+  <Hit_accession>WP_056527994</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.476</Hsp_bit-score>
+      <Hsp_score>563</Hsp_score>
+      <Hsp_evalue>8.58992e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MAMGSLRANDDDD----PMSDINVTPMVDVMLVLLIIFMVA-PLMTTGVPV--PKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTMDSIVPRLREMAAADKDQVILV---RDVPYGKVMEVMGLVGQAGFTKVSLIAQ</Hsp_qseq>
+      <Hsp_hseq>MAMGSIRANDDDDLDDVPMSDINVTPMVDVMLVLLIIFMVAAPLMTTGVPVQLPKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTMESIVPRLREMAAADKDQVILVRGDRDVPYGKVMEVMGLVGQAGFTKVSLIAQ</Hsp_hseq>
+      <Hsp_midline>MAMGS+RANDDDD    PMSDINVTPMVDVMLVLLIIFMVA PLMTTGVPV  PKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTM+SIVPRLREMAAADKDQVILV   RDVPYGKVMEVMGLVGQAGFTKVSLIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_091680842.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Methylobacterium sp. 275MFSha3.1] &gt;emb|SEH64683.1| biopolymer transport protein TolR [Methylobacterium sp. 275MFSha3.1]</Hit_def>
+  <Hit_accession>WP_091680842</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.476</Hsp_bit-score>
+      <Hsp_score>563</Hsp_score>
+      <Hsp_evalue>8.58992e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MAMGSLRANDDDD----PMSDINVTPMVDVMLVLLIIFMVA-PLMTTGVPV--PKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTMDSIVPRLREMAAADKDQVILV---RDVPYGKVMEVMGLVGQAGFTKVSLIAQ</Hsp_qseq>
+      <Hsp_hseq>MAMGSIRANDDDDLDDVPMSDINVTPMVDVMLVLLIIFMVAAPLMTTGVPVQLPKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTMESIVPRLREMAAADKDQVILVRGDRDVPYGKVMEVMGLVGQAGFTKVSLIAQ</Hsp_hseq>
+      <Hsp_midline>MAMGS+RANDDDD    PMSDINVTPMVDVMLVLLIIFMVA PLMTTGVPV  PKTAAPKVAQSKKPAEVTVDKDGNPSIAKEVFTM+SIVPRLREMAAADKDQVILV   RDVPYGKVMEVMGLVGQAGFTKVSLIAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>877781531</Statistics_db-num>
+      <Statistics_db-len>334720180573</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

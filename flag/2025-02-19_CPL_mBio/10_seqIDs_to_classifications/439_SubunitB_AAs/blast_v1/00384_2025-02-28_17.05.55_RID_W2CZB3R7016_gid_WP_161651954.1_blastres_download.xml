@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_5878839</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>214</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_5878839</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>214</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_407926749.1|</Hit_id>
+  <Hit_def>OmpA family protein [Aquabacterium fontiphilum]</Hit_def>
+  <Hit_accession>WP_407926749</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>422.165</Hsp_bit-score>
+      <Hsp_score>1084</Hsp_score>
+      <Hsp_evalue>2.53114e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>MLAEDRDDALEQTAPMWAVFGDLMAGLLGAFVLILVGMLVVQMDLVAHLQQEVHKRQQEEQRRIALEQALAGPLASGRVTLREGRIGISGSVLFDPGSDQLRADGRQLLKSLVPPLRVYLGERNELLMVSGFTDNKLLRDGNQRFADNLELSAQRALTVTRALVEAGMPSSQVFAAAFGAEQPVAPNDDEAGRAQNRRVEMAPVPRLAAGVSAP</Hsp_qseq>
+      <Hsp_hseq>MLAEDRDDALEQTAPMWAVFGDLMAGLLGAFVLILVGMLVVQMDLVAHLQQEVHKRQQEEQRRIALEQALAGPLASGRVTLREGRIGISGSVLFDPGSDQLRADGRQLLKSLVPPLRVYLGERNELLMVSGFTDNKLLRDGNQRFADNLELSAQRALTVTRALVEAGMPSSQVFAAAFGAEQPVAPNDDEAGRAQNRRVEMAPVPRLAAGVSAP</Hsp_hseq>
+      <Hsp_midline>MLAEDRDDALEQTAPMWAVFGDLMAGLLGAFVLILVGMLVVQMDLVAHLQQEVHKRQQEEQRRIALEQALAGPLASGRVTLREGRIGISGSVLFDPGSDQLRADGRQLLKSLVPPLRVYLGERNELLMVSGFTDNKLLRDGNQRFADNLELSAQRALTVTRALVEAGMPSSQVFAAAFGAEQPVAPNDDEAGRAQNRRVEMAPVPRLAAGVSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|NBD22172.1|</Hit_id>
+  <Hit_def>OmpA family protein [Aquabacterium fontiphilum]</Hit_def>
+  <Hit_accession>NBD22172</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>422.165</Hsp_bit-score>
+      <Hsp_score>1084</Hsp_score>
+      <Hsp_evalue>2.62821e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>MLAEDRDDALEQTAPMWAVFGDLMAGLLGAFVLILVGMLVVQMDLVAHLQQEVHKRQQEEQRRIALEQALAGPLASGRVTLREGRIGISGSVLFDPGSDQLRADGRQLLKSLVPPLRVYLGERNELLMVSGFTDNKLLRDGNQRFADNLELSAQRALTVTRALVEAGMPSSQVFAAAFGAEQPVAPNDDEAGRAQNRRVEMAPVPRLAAGVSAP</Hsp_qseq>
+      <Hsp_hseq>MLAEDRDDALEQTAPMWAVFGDLMAGLLGAFVLILVGMLVVQMDLVAHLQQEVHKRQQEEQRRIALEQALAGPLASGRVTLREGRIGISGSVLFDPGSDQLRADGRQLLKSLVPPLRVYLGERNELLMVSGFTDNKLLRDGNQRFADNLELSAQRALTVTRALVEAGMPSSQVFAAAFGAEQPVAPNDDEAGRAQNRRVEMAPVPRLAAGVSAP</Hsp_hseq>
+      <Hsp_midline>MLAEDRDDALEQTAPMWAVFGDLMAGLLGAFVLILVGMLVVQMDLVAHLQQEVHKRQQEEQRRIALEQALAGPLASGRVTLREGRIGISGSVLFDPGSDQLRADGRQLLKSLVPPLRVYLGERNELLMVSGFTDNKLLRDGNQRFADNLELSAQRALTVTRALVEAGMPSSQVFAAAFGAEQPVAPNDDEAGRAQNRRVEMAPVPRLAAGVSAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|MFN3616545.1|</Hit_id>
+  <Hit_def>OmpA family protein [Aquabacterium sp.] &gt;gb|MFN3913508.1| OmpA family protein [Aquabacterium sp.]</Hit_def>
+  <Hit_accession>MFN3616545</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>377.481</Hsp_bit-score>
+      <Hsp_score>968</Hsp_score>
+      <Hsp_evalue>9.64091e-131</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>MLAEDRDDALEQTAPMWAVFGDLMAGLLGAFVLILVGMLVVQMDLVAHLQQEVHKRQQEEQRRIALEQALAGPLASGRVTLREGRIGISGSVLFDPGSDQLRADGRQLLKSLVPPLRVYLGERNELLMVSGFTDNKLLRDGNQRFADNLELSAQRALTVTRALVEAGMPSSQVFAAAFGAEQPVAPNDDEAGRAQNRRVEMAPVPRLAAGVSAP</Hsp_qseq>
+      <Hsp_hseq>MLSDDHDDALAQTAPVWAVFGDLMAGLLGAFVLILVGMLVVQMDLVAHLQHEVQKRQQEEQRRIALEQALAGPLASGRITLREGRIGISGSVLFDAGSDELRADGRQLLKTLVPPLLVYLSERNELLMVSGFTDNKLLRGGNQRFDDNLELSAQRALTVTRALVDAGMPSSQVFAAAFGPEQPVASNDSEDGRAQNRRVEMAPVPRLAAGATTP</Hsp_hseq>
+      <Hsp_midline>ML++D DDAL QTAP+WAVFGDLMAGLLGAFVLILVGMLVVQMDLVAHLQ EV KRQQEEQRRIALEQALAGPLASGR+TLREGRIGISGSVLFD GSD+LRADGRQLLK+LVPPL VYL ERNELLMVSGFTDNKLLR GNQRF DNLELSAQRALTVTRALV+AGMPSSQVFAAAFG EQPVA ND E GRAQNRRVEMAPVPRLAAG + P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_320364302.1|</Hit_id>
+  <Hit_def>OmpA family protein [Aquabacterium sp.] &gt;gb|MDX9843893.1| OmpA family protein [Aquabacterium sp.]</Hit_def>
+  <Hit_accession>WP_320364302</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>361.688</Hsp_bit-score>
+      <Hsp_score>927</Hsp_score>
+      <Hsp_evalue>3.33638e-124</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>MLAEDRDDALEQTAPMWAVFGDLMAGLLGAFVLILVGMLVVQMDLVAHLQQEVHKRQQEEQRRIALEQALAGPLASGRVTLREGRIGISGSVLFDPGSDQLRADGRQLLKSLVPPLRVYLGERNELLMVSGFTDNKLLRDGNQRFADNLELSAQRALTVTRALVEAGMPSSQVFAAAFGAEQPVAPNDDEAGRAQNRRVEMAPVPRLAAGVSAP</Hsp_qseq>
+      <Hsp_hseq>MDPEDRDDAIEQTAPVWAVFGDLMSGLLGAFVLILVGMLVVQMDLVSSLKQEVEKRQQEEQRRIALEHALAGPLASGRVTLNDGRIGISGSVLFDTGSDQLRADGRQLLQSLVQPLRVYLGERQEMLMVSGFTDDTLLRDGNRRFADNLELSAQRALTVTRALIDAGMPSSQVFAAAFGAEQPVAPNTDEKGRALNRRVEMAPVPQTAPQATPP</Hsp_hseq>
+      <Hsp_midline>M  EDRDDA+EQTAP+WAVFGDLM+GLLGAFVLILVGMLVVQMDLV+ L+QEV KRQQEEQRRIALE ALAGPLASGRVTL +GRIGISGSVLFD GSDQLRADGRQLL+SLV PLRVYLGER E+LMVSGFTD+ LLRDGN+RFADNLELSAQRALTVTRAL++AGMPSSQVFAAAFGAEQPVAPN DE GRA NRRVEMAPVP+ A   + P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_339584443.1|</Hit_id>
+  <Hit_def>OmpA family protein [Aquabacterium sp. G14]</Hit_def>
+  <Hit_accession>WP_339584443</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>360.147</Hsp_bit-score>
+      <Hsp_score>923</Hsp_score>
+      <Hsp_evalue>1.315e-123</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>EDRDDALEQTAPMWAVFGDLMAGLLGAFVLILVGMLVVQMDLVAHLQQEVHKRQQEEQRRIALEQALAGPLASGRVTLREGRIGISGSVLFDPGSDQLRADGRQLLKSLVPPLRVYLGERNELLMVSGFTDNKLLRDGNQRFADNLELSAQRALTVTRALVEAGMPSSQVFAAAFGAEQPVAPNDDEAGRAQNRRVEMAPVPRLAAGVSAP</Hsp_qseq>
+      <Hsp_hseq>DDRDDAIEQTAPVWAVFGDLMSGLLGAFVLILVGMLVVQMDLVSSLKQEVEKRQQEEQRRIALEHALAGPLASGRVTLNDGRIGISGSVLFDTGSDQLRADGRQLLQSLVQPLRVYLGERQEMLMVSGFTDDTLLRDGNRRFADNLELSAQRALTVTRALIDAGMPSSQVFAAAFGAEQPVAPNTDEKGRALNRRVEMAPVPKTASQAVIP</Hsp_hseq>
+      <Hsp_midline>+DRDDA+EQTAP+WAVFGDLM+GLLGAFVLILVGMLVVQMDLV+ L+QEV KRQQEEQRRIALE ALAGPLASGRVTL +GRIGISGSVLFD GSDQLRADGRQLL+SLV PLRVYLGER E+LMVSGFTD+ LLRDGN+RFADNLELSAQRALTVTRAL++AGMPSSQVFAAAFGAEQPVAPN DE GRA NRRVEMAPVP+ A+    P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|TXI98101.1|</Hit_id>
+  <Hit_def>MAG: OmpA family protein [Aquabacterium sp.]</Hit_def>
+  <Hit_accession>TXI98101</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>354.755</Hsp_bit-score>
+      <Hsp_score>909</Hsp_score>
+      <Hsp_evalue>1.65085e-121</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>204</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>EDRDDALEQTAPMWAVFGDLMAGLLGAFVLILVGMLVVQMDLVAHLQQEVHKRQQEEQRRIALEQALAGPLASGRVTLREGRIGISGSVLFDPGSDQLRADGRQLLKSLVPPLRVYLGERNELLMVSGFTDNKLLRDGNQRFADNLELSAQRALTVTRALVEAGMPSSQVFAAAFGAEQPVAPNDDEAGRAQNRRVEMAPV</Hsp_qseq>
+      <Hsp_hseq>DDRDDAIEQTAPVWAVFGDLMSGLLGAFVLILVGMLVVQMDLVSSLKQEVEKRQQEEQRRIALEHALAGPLASGRVTLNDGRIGISGSVLFDTGSDQLRADGRQLLQSLVQPLRVYLGERQEMLMVSGFTDDTLLRDGNRRFADNLELSAQRALTVTRALIDAGMPSSQVFAAAFGAEQPVAPNTDEKGRALNRRVEMAPV</Hsp_hseq>
+      <Hsp_midline>+DRDDA+EQTAP+WAVFGDLM+GLLGAFVLILVGMLVVQMDLV+ L+QEV KRQQEEQRRIALE ALAGPLASGRVTL +GRIGISGSVLFD GSDQLRADGRQLL+SLV PLRVYLGER E+LMVSGFTD+ LLRDGN+RFADNLELSAQRALTVTRAL++AGMPSSQVFAAAFGAEQPVAPN DE GRA NRRVEMAPV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_300158313.1|</Hit_id>
+  <Hit_def>OmpA family protein [Aquabacterium sp.] &gt;gb|MDD2977530.1| OmpA family protein [Aquabacterium sp.]</Hit_def>
+  <Hit_accession>WP_300158313</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>354.369</Hsp_bit-score>
+      <Hsp_score>908</Hsp_score>
+      <Hsp_evalue>3.93689e-121</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>EDRDDALEQTAPMWAVFGDLMAGLLGAFVLILVGMLVVQMDLVAHLQQEVHKRQQEEQRRIALEQALAGPLASGRVTLREGRIGISGSVLFDPGSDQLRADGRQLLKSLVPPLRVYLGERNELLMVSGFTDNKLLRDGNQRFADNLELSAQRALTVTRALVEAGMPSSQVFAAAFGAEQPVAPNDDEAGRAQNRRVEMAPVPRLA</Hsp_qseq>
+      <Hsp_hseq>DDRDDAVEQTAPVWAVFGDLMSGLLGAFVLILVGMLVVQMDLVSSLKQEVEKRQQEEQRRMALEHALAGPLASGRVTLNDGRIGISGSVLFAAGSDELRADGRQLLKSLVEPLRVYLGERQEMLMVSGFTDDTLLRDGNRRFADNLELSAQRALTVTRALIDEGMPSSQVFAAAFGAEQPVAPNADERGRAQNRRVEMAPVPKTA</Hsp_hseq>
+      <Hsp_midline>+DRDDA+EQTAP+WAVFGDLM+GLLGAFVLILVGMLVVQMDLV+ L+QEV KRQQEEQRR+ALE ALAGPLASGRVTL +GRIGISGSVLF  GSD+LRADGRQLLKSLV PLRVYLGER E+LMVSGFTD+ LLRDGN+RFADNLELSAQRALTVTRAL++ GMPSSQVFAAAFGAEQPVAPN DE GRAQNRRVEMAPVP+ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_290731858.1|</Hit_id>
+  <Hit_def>OmpA family protein [Aquabacterium sp.] &gt;gb|MBP7132978.1| OmpA family protein [Aquabacterium sp.] &gt;gb|MBP9063064.1| OmpA family protein [Aquabacterium sp.] &gt;gb|MDQ5927525.1| OmpA-like protein [Pseudomonadota bacterium]</Hit_def>
+  <Hit_accession>WP_290731858</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>352.443</Hsp_bit-score>
+      <Hsp_score>903</Hsp_score>
+      <Hsp_evalue>1.39852e-120</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>EDRDDALEQTAPMWAVFGDLMAGLLGAFVLILVGMLVVQMDLVAHLQQEVHKRQQEEQRRIALEQALAGPLASGRVTLREGRIGISGSVLFDPGSDQLRADGRQLLKSLVPPLRVYLGERNELLMVSGFTDNKLLRDGNQRFADNLELSAQRALTVTRALVEAGMPSSQVFAAAFGAEQPVAPNDDEAGRAQNRRVEMAPVPR</Hsp_qseq>
+      <Hsp_hseq>DDRDDAVEQTAPVWAVFGDLMSGLLGAFVLILVGMLVVQMDLVSSLKQEVEKRQQEEQRRMALEHALAGPLASGRVTLNDGRIGISGSVLFAAGSDELRADGRQLLKSLVEPLRVYLGERQEMLMVSGFTDDTLLRDGNRRFADNLELSAQRALTVTRALIDEGMPSSQVFAAAFGAEQPVAPNADERGRAQNRRVEMAPVPK</Hsp_hseq>
+      <Hsp_midline>+DRDDA+EQTAP+WAVFGDLM+GLLGAFVLILVGMLVVQMDLV+ L+QEV KRQQEEQRR+ALE ALAGPLASGRVTL +GRIGISGSVLF  GSD+LRADGRQLLKSLV PLRVYLGER E+LMVSGFTD+ LLRDGN+RFADNLELSAQRALTVTRAL++ GMPSSQVFAAAFGAEQPVAPN DE GRAQNRRVEMAPVP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|MFT3858623.1|</Hit_id>
+  <Hit_def>OmpA family protein [Aquabacterium sp.]</Hit_def>
+  <Hit_accession>MFT3858623</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>351.288</Hsp_bit-score>
+      <Hsp_score>900</Hsp_score>
+      <Hsp_evalue>4.06109e-120</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>EDRDDALEQTAPMWAVFGDLMAGLLGAFVLILVGMLVVQMDLVAHLQQEVHKRQQEEQRRIALEQALAGPLASGRVTLREGRIGISGSVLFDPGSDQLRADGRQLLKSLVPPLRVYLGERNELLMVSGFTDNKLLRDGNQRFADNLELSAQRALTVTRALVEAGMPSSQVFAAAFGAEQPVAPNDDEAGRAQNRRVEMAPVPRLAAGVSAP</Hsp_qseq>
+      <Hsp_hseq>EERDDAIEQSAPVWAIFGDLMSGLLGAFVLILVGMVVVQMDLVTHLKQEVARREQEEQRRMALEQALAGPLASGRVTLHDGRIGISGSVLFATGSDELRPDGRQLLKTLVQPLRVYLGERKELLMVSGFTDDKLLRNDNQRFADNLELSAQRALTVTRALIDAGMPSDQVFAAAFGAEQPVAANTDEAGRAKNRRVEMAPVPRLSSEAVPP</Hsp_hseq>
+      <Hsp_midline>E+RDDA+EQ+AP+WA+FGDLM+GLLGAFVLILVGM+VVQMDLV HL+QEV +R+QEEQRR+ALEQALAGPLASGRVTL +GRIGISGSVLF  GSD+LR DGRQLLK+LV PLRVYLGER ELLMVSGFTD+KLLR+ NQRFADNLELSAQRALTVTRAL++AGMPS QVFAAAFGAEQPVA N DEAGRA+NRRVEMAPVPRL++    P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_306564097.1|</Hit_id>
+  <Hit_def>OmpA family protein [Aquabacterium sp.] &gt;gb|OGB05427.1| MAG: hypothetical protein A3E52_14220 [Burkholderiales bacterium RIFCSPHIGHO2_12_FULL_63_20] &gt;gb|OGB62431.1| MAG: hypothetical protein A3G29_10720 [Burkholderiales bacterium RIFCSPLOWO2_12_FULL_64_99]</Hit_def>
+  <Hit_accession>WP_306564097</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>350.132</Hsp_bit-score>
+      <Hsp_score>897</Hsp_score>
+      <Hsp_evalue>1.55027e-119</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>EDRDDALEQTAPMWAVFGDLMAGLLGAFVLILVGMLVVQMDLVAHLQQEVHKRQQEEQRRIALEQALAGPLASGRVTLREGRIGISGSVLFDPGSDQLRADGRQLLKSLVPPLRVYLGERNELLMVSGFTDNKLLRDGNQRFADNLELSAQRALTVTRALVEAGMPSSQVFAAAFGAEQPVAPNDDEAGRAQNRRVEMAPVPRLA</Hsp_qseq>
+      <Hsp_hseq>DDRDDAVEQTAPVWAVFGDLMSGLLGAFVLILVGMLVVQMDLVSSLKQEVEKRQQEEQRRMALEHALAGPLASGRVTLNDGRIGISGSVLFAAGSDELRPDGRQLLKSLVEPLRVYLGERQEMLMVSGFTDDTLLRDGNRRFTDNLELSAQRALTVTRALIDEGMPSSQVFAAAFGAEQPVAPNADERGRAQNRRVEMAPVPKTA</Hsp_hseq>
+      <Hsp_midline>+DRDDA+EQTAP+WAVFGDLM+GLLGAFVLILVGMLVVQMDLV+ L+QEV KRQQEEQRR+ALE ALAGPLASGRVTL +GRIGISGSVLF  GSD+LR DGRQLLKSLV PLRVYLGER E+LMVSGFTD+ LLRDGN+RF DNLELSAQRALTVTRAL++ GMPSSQVFAAAFGAEQPVAPN DE GRAQNRRVEMAPVP+ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|RTL34106.1|</Hit_id>
+  <Hit_def>MAG: hypothetical protein EKK47_00360 [Burkholderiales bacterium]</Hit_def>
+  <Hit_accession>RTL34106</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>348.977</Hsp_bit-score>
+      <Hsp_score>894</Hsp_score>
+      <Hsp_evalue>2.09039e-119</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>EDRDDALEQTAPMWAVFGDLMAGLLGAFVLILVGMLVVQMDLVAHLQQEVHKRQQEEQRRIALEQALAGPLASGRVTLREGRIGISGSVLFDPGSDQLRADGRQLLKSLVPPLRVYLGERNELLMVSGFTDNKLLRDGNQRFADNLELSAQRALTVTRALVEAGMPSSQVFAAAFGAEQPVAPNDDEAGRAQNRRVEMAPVPRLA</Hsp_qseq>
+      <Hsp_hseq>EERDDAIEQSAPVWAVFGDLMSGLLGAFVLILVGMLVVQMDLVTHLKQEVEKRQQEEQRRMALEKALAGPLASGRVTLNNGRIGISGSVLFPAGSDELRPDGRQLLKSLVQPLRVYLGERNELLMVSGFTDDKLVRNDNRRFSDNLGLSAQRALTVTRALIEEGMPSGQVFAAAFGAEQPVAPNTDEQGRARNRRVEMAPVPRMA</Hsp_hseq>
+      <Hsp_midline>E+RDDA+EQ+AP+WAVFGDLM+GLLGAFVLILVGMLVVQMDLV HL+QEV KRQQEEQRR+ALE+ALAGPLASGRVTL  GRIGISGSVLF  GSD+LR DGRQLLKSLV PLRVYLGERNELLMVSGFTD+KL+R+ N+RF+DNL LSAQRALTVTRAL+E GMPS QVFAAAFGAEQPVAPN DE GRA+NRRVEMAPVPR+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|MFP5485577.1|</Hit_id>
+  <Hit_def>OmpA family protein [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MFP5485577</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>329.331</Hsp_bit-score>
+      <Hsp_score>843</Hsp_score>
+      <Hsp_evalue>1.3375e-111</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>DDALEQTAPMWAVFGDLMAGLLGAFVLILVGMLVVQMDLVAHLQQEVHKRQQEEQRRIALEQALAGPLASGRVTLREGRIGISGSVLFDPGSDQLRADGRQLLKSLVPPLRVYLGERNELLMVSGFTDNKLLRDGNQRFADNLELSAQRALTVTRALVEAGMPSSQVFAAAFGAEQPVAPNDDEAGRAQNRRVEMAPVPR</Hsp_qseq>
+      <Hsp_hseq>DDTTEQTATVWAVFGDLMAGLLGAFVLVLVGMLVMQVDLVASLRQEVERRQMEEQRRMALEKALAIPLASGRVTVNEGRIGISGSVLFAPGSDELRPEGRQLLTSLVQPLRVYLRERDEMLMVSGFTDNKLLRGGNQRFTDNLELSAQRALTVTRALIDEGMPASQVFAAAFGAEQPVASNDDDSGRAQNRRVEMAPVPK</Hsp_hseq>
+      <Hsp_midline>DD  EQTA +WAVFGDLMAGLLGAFVL+LVGMLV+Q+DLVA L+QEV +RQ EEQRR+ALE+ALA PLASGRVT+ EGRIGISGSVLF PGSD+LR +GRQLL SLV PLRVYL ER+E+LMVSGFTDNKLLR GNQRF DNLELSAQRALTVTRAL++ GMP+SQVFAAAFGAEQPVA NDD++GRAQNRRVEMAPVP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_329674022.1|</Hit_id>
+  <Hit_def>OmpA family protein [Aquabacterium sp.] &gt;tpg|HEX5311999.1| OmpA family protein [Aquabacterium sp.]</Hit_def>
+  <Hit_accession>WP_329674022</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>329.331</Hsp_bit-score>
+      <Hsp_score>843</Hsp_score>
+      <Hsp_evalue>2.95096e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>MLAEDRDDALEQTAPMWAVFGDLMAGLLGAFVLILVGMLVVQMDLVAHLQQEVHKRQQEEQRRIALEQALAGPLASGRVTLREGRIGISGSVLFDPGSDQLRADGRQLLKSLVPPLRVYLGERNELLMVSGFTDNKLLRDG-NQRFADNLELSAQRALTVTRALVEAGMPSSQVFAAAFGAEQPVAPNDDEAGRAQNRRVEMAPVPRLA</Hsp_qseq>
+      <Hsp_hseq>MALDDRDDAIEETAPVWAVFGDLMAGLLGAFVLILVGVLIVQMDLVAHLNAEIEKRQAEEQRRMALEKALAIPLQSGRVTLNNGRIGISGSVLFAVSSDELRPDGRQLLKSLVQPLKVYLGERNEMLMVSGFTDDKRMREGKNQRFADNLELSAQRALTVTRALIEEGMPPSQVFAAAFGSQQPVASNADEKGRALNRRVEMAPVPRTA</Hsp_hseq>
+      <Hsp_midline>M  +DRDDA+E+TAP+WAVFGDLMAGLLGAFVLILVG+L+VQMDLVAHL  E+ KRQ EEQRR+ALE+ALA PL SGRVTL  GRIGISGSVLF   SD+LR DGRQLLKSLV PL+VYLGERNE+LMVSGFTD+K +R+G NQRFADNLELSAQRALTVTRAL+E GMP SQVFAAAFG++QPVA N DE GRA NRRVEMAPVPR A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|NUN60069.1|</Hit_id>
+  <Hit_def>OmpA family protein [Burkholderiaceae bacterium]</Hit_def>
+  <Hit_accession>NUN60069</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.791</Hsp_bit-score>
+      <Hsp_score>839</Hsp_score>
+      <Hsp_evalue>5.20467e-111</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>163</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>DDALEQTAPMWAVFGDLMAGLLGAFVLILVGMLVVQMDLVAHLQQEVHKRQQEEQRRIALEQALAGPLASGRVTLREGRIGISGSVLFDPGSDQLRADGRQLLKSLVPPLRVYLGERNELLMVSGFTDNKLLRDGNQRFADNLELSAQRALTVTRALVEAGMPSSQVFAAAFGAEQPVAPNDDEAGRAQNRRVEMAPVPR</Hsp_qseq>
+      <Hsp_hseq>DDTTEQSATVWAVFGDLMAGLLGAFVLVLVGMLVMQVDLVASLRQEVERRQMEEQRRMALEKALAIPLASGRVTVNEGRIGISGSVLFAPGSDELRPEGRQLLTSLVQPLRVYLRERDEMLMVSGFTDNKLLRGGNQRFTDNLELSAQRALTVTRALIDEGMPASQVFAAAFGAEQPVASNDDDSGRAQNRRVEMAPVPK</Hsp_hseq>
+      <Hsp_midline>DD  EQ+A +WAVFGDLMAGLLGAFVL+LVGMLV+Q+DLVA L+QEV +RQ EEQRR+ALE+ALA PLASGRVT+ EGRIGISGSVLF PGSD+LR +GRQLL SLV PLRVYL ER+E+LMVSGFTDNKLLR GNQRF DNLELSAQRALTVTRAL++ GMP+SQVFAAAFGAEQPVA NDD++GRAQNRRVEMAPVP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|MBA4113941.1|</Hit_id>
+  <Hit_def>hypothetical protein [Verminephrobacter sp.]</Hit_def>
+  <Hit_accession>MBA4113941</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.405</Hsp_bit-score>
+      <Hsp_score>838</Hsp_score>
+      <Hsp_evalue>8.61584e-111</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>163</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>DDALEQTAPMWAVFGDLMAGLLGAFVLILVGMLVVQMDLVAHLQQEVHKRQQEEQRRIALEQALAGPLASGRVTLREGRIGISGSVLFDPGSDQLRADGRQLLKSLVPPLRVYLGERNELLMVSGFTDNKLLRDGNQRFADNLELSAQRALTVTRALVEAGMPSSQVFAAAFGAEQPVAPNDDEAGRAQNRRVEMAPVPR</Hsp_qseq>
+      <Hsp_hseq>DDTTEQSATVWAVFGDLMAGLLGAFVLVLVGMLVMQVDLVASLRQEVERRQMEEQRRMALEKALAIPLASGRVTVNEGRIGISGSVLFAPGSDELRPEGRQLLTSLVQPLRVYLRERDEMLMVSGFTDNKLLRGGNQRFTDNLELSAQRALTVTRALIDEGMPASQVFAAAFGAEQPVASNDDDSGRAQNRRVEMAPVPK</Hsp_hseq>
+      <Hsp_midline>DD  EQ+A +WAVFGDLMAGLLGAFVL+LVGMLV+Q+DLVA L+QEV +RQ EEQRR+ALE+ALA PLASGRVT+ EGRIGISGSVLF PGSD+LR +GRQLL SLV PLRVYL ER+E+LMVSGFTDNKLLR GNQRF DNLELSAQRALTVTRAL++ GMP+SQVFAAAFGAEQPVA NDD++GRAQNRRVEMAPVP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|OGB48690.1|</Hit_id>
+  <Hit_def>MAG: hypothetical protein A3F76_02485 [Burkholderiales bacterium RIFCSPLOWO2_12_FULL_65_40] &gt;tpg|HCE28968.1| hypothetical protein [Comamonadaceae bacterium]</Hit_def>
+  <Hit_accession>OGB48690</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>326.635</Hsp_bit-score>
+      <Hsp_score>836</Hsp_score>
+      <Hsp_evalue>1.85527e-110</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>DDALEQTAPMWAVFGDLMAGLLGAFVLILVGMLVVQMDLVAHLQQEVHKRQQEEQRRIALEQALAGPLASGRVTLREGRIGISGSVLFDPGSDQLRADGRQLLKSLVPPLRVYLGERNELLMVSGFTDNKLLRDGNQRFADNLELSAQRALTVTRALVEAGMPSSQVFAAAFGAEQPVAPNDDEAGRAQNRRVEMAPVPR</Hsp_qseq>
+      <Hsp_hseq>DDTTEQSATVWAVFGDLMAGLLGAFVLVLVGMLVMQVDLVASLRQEVERRQMEEQRRMALEKALAIPLASGRVTVNEGRIGISGSVLFAPGSDELRPEGRQLLTSLVQPLRVYLRERDEMLMVSGFTDNKLLRGGNQRFTDNLELSAQRALTVTRTLIDEGMPASQVFAAAFGAEQPVASNDDDSGRAQNRRVEMAPVPK</Hsp_hseq>
+      <Hsp_midline>DD  EQ+A +WAVFGDLMAGLLGAFVL+LVGMLV+Q+DLVA L+QEV +RQ EEQRR+ALE+ALA PLASGRVT+ EGRIGISGSVLF PGSD+LR +GRQLL SLV PLRVYL ER+E+LMVSGFTDNKLLR GNQRF DNLELSAQRALTVTR L++ GMP+SQVFAAAFGAEQPVA NDD++GRAQNRRVEMAPVP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|MBK7003679.1|</Hit_id>
+  <Hit_def>OmpA family protein [Rhodoferax sp.]</Hit_def>
+  <Hit_accession>MBK7003679</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>322.783</Hsp_bit-score>
+      <Hsp_score>826</Hsp_score>
+      <Hsp_evalue>6.27414e-109</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>202</Hsp_align-len>
+      <Hsp_qseq>DRDDALEQTAPMWAVFGDLMAGLLGAFVLILVGMLVVQMDLVAHLQQEVHKRQQEEQRRIALEQALAGPLASGRVTLREGRIGISGSVLFDPGSDQLRADGRQLLKSLVPPLRVYLGERNELLMVSGFTDNKLLRDGNQRFADNLELSAQRALTVTRALVEAGMPSSQVFAAAFGAEQPVAPNDDEAGRAQNRRVEMAPVPR</Hsp_qseq>
+      <Hsp_hseq>DLDDPIGQTAPVWAVFGDLMAGLLGAFVLILVGVLVVQMDLVASLKEEVEKRQIEEQRRMALEKALAIPMASGRVTVVNGRIGISGSVLFDLGSDQLRLEGRQLLKSLVPPLRVYLGERNEMLMVSGFTDDKLIRDGNQRFADNLELSAQRALTVTRALIEDGMPSSQVFAAAFGAEQPVAPNTDEKGRARNRRVEMAPVPK</Hsp_hseq>
+      <Hsp_midline>D DD + QTAP+WAVFGDLMAGLLGAFVLILVG+LVVQMDLVA L++EV KRQ EEQRR+ALE+ALA P+ASGRVT+  GRIGISGSVLFD GSDQLR +GRQLLKSLVPPLRVYLGERNE+LMVSGFTD+KL+RDGNQRFADNLELSAQRALTVTRAL+E GMPSSQVFAAAFGAEQPVAPN DE GRA+NRRVEMAPVP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|MBH2015810.1|</Hit_id>
+  <Hit_def>OmpA family protein [Burkholderiales bacterium]</Hit_def>
+  <Hit_accession>MBH2015810</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>322.013</Hsp_bit-score>
+      <Hsp_score>824</Hsp_score>
+      <Hsp_evalue>1.00497e-108</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>LAEDRDDALEQTAPMWAVFGDLMAGLLGAFVLILVGMLVVQMDLVAHLQQEVHKRQQEEQRRIALEQALAGPLASGRVTLREGRIGISGSVLFDPGSDQLRADGRQLLKSLVPPLRVYLGERNELLMVSGFTDNKLLRDGNQRFADNLELSAQRALTVTRALVEAGMPSSQVFAAAFGAEQPVAPNDDEAGRAQNRRVEMAPVPRLAAGVSAP</Hsp_qseq>
+      <Hsp_hseq>LAHADDGGLEQTAPVWAVFGDLMAGLLGAFVLILIGVLVMQMDLAANLEAEVQKRQVEEQRRMALEQALAGPLKSGRVTLNNGRIGISGSVLFAFNSDQLRPEGRQLLKSLVPPLRVYLGERNEMLMVSGFTDDKPIQHSNERFDDNLELSAQRALTVTRALIAEGMPSARVFAAAFGAEQPAAPNTSEAGRAQNRRVEMAPVPKAMPEPQAP</Hsp_hseq>
+      <Hsp_midline>LA   D  LEQTAP+WAVFGDLMAGLLGAFVLIL+G+LV+QMDL A+L+ EV KRQ EEQRR+ALEQALAGPL SGRVTL  GRIGISGSVLF   SDQLR +GRQLLKSLVPPLRVYLGERNE+LMVSGFTD+K ++  N+RF DNLELSAQRALTVTRAL+  GMPS++VFAAAFGAEQP APN  EAGRAQNRRVEMAPVP+      AP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_076202238.1|</Hit_id>
+  <Hit_def>OmpA family protein [Rhodoferax koreense] &gt;gb|APW39695.1| hypothetical protein RD110_22875 [Rhodoferax koreense]</Hit_def>
+  <Hit_accession>WP_076202238</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>319.701</Hsp_bit-score>
+      <Hsp_score>818</Hsp_score>
+      <Hsp_evalue>8.62038e-108</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>DDALEQTAPMWAVFGDLMAGLLGAFVLILVGMLVVQMDLVAHLQQEVHKRQQEEQRRIALEQALAGPLASGRVTLREGRIGISGSVLFDPGSDQLRADGRQLLKSLVPPLRVYLGERNELLMVSGFTDNKLLRDGNQRFADNLELSAQRALTVTRALVEAGMPSSQVFAAAFGAEQPVAPNDDEAGRAQNRRVEMAPVPR</Hsp_qseq>
+      <Hsp_hseq>DDGLEQTAPVWAVFGDLMSGLLGAFVLILVGVMVVQMDLVANLQAEVGKRQVEEQRRVALEKALAGPLAAGRVTLNNGRIGISGNVLFPLNSDQLRPDGRQLLKSLVPPLQVYLGERDDMLMVSGFTDDRAIQPGNQRFADNLDLSAQRALTVTRALIEEGMPSYRVFAAAFGAEQPVAANTSENGRALNRRVEMAPVPR</Hsp_hseq>
+      <Hsp_midline>DD LEQTAP+WAVFGDLM+GLLGAFVLILVG++VVQMDLVA+LQ EV KRQ EEQRR+ALE+ALAGPLA+GRVTL  GRIGISG+VLF   SDQLR DGRQLLKSLVPPL+VYLGER+++LMVSGFTD++ ++ GNQRFADNL+LSAQRALTVTRAL+E GMPS +VFAAAFGAEQPVA N  E GRA NRRVEMAPVPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_109038519.1|</Hit_id>
+  <Hit_def>OmpA family protein [Aquabacterium olei] &gt;gb|AWI55406.1| hypothetical protein DEH84_17585 [Aquabacterium olei]</Hit_def>
+  <Hit_accession>WP_109038519</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.546</Hsp_bit-score>
+      <Hsp_score>815</Hsp_score>
+      <Hsp_evalue>2.31874e-107</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>MLAEDRDDALEQTAPMWAVFGDLMAGLLGAFVLILVGMLVVQMDLVAHLQQEVHKRQQEEQRRIALEQALAGPLASGRVTLREGRIGISGSVLFDPGSDQLRADGRQLLKSLVPPLRVYLGERNELLMVSGFTDNKLLRDGNQRFADNLELSAQRALTVTRALVEAGMPSSQVFAAAFGAEQPVAPNDDEAGRAQNRRVEMAPVPR</Hsp_qseq>
+      <Hsp_hseq>MVGTEDEDGLEQSGPVWAVFGDLMAGLLGAFVLVLVGMLVVHMELATNLQKEVAKRQQEEQRRMALEQALAGPLASGRVTVYNGRIGISGSVLFPPGSDELRPDGRQLLKSLIQPLRVYLGERNEMLMVSGFTDDKLVRNDNQRFSDNLELSAQRALTVTRALIADGMPSSQVFAAAFGAEQPVAPNVDEAGRAKNRRVEMAPVPR</Hsp_hseq>
+      <Hsp_midline>M+  + +D LEQ+ P+WAVFGDLMAGLLGAFVL+LVGMLVV M+L  +LQ+EV KRQQEEQRR+ALEQALAGPLASGRVT+  GRIGISGSVLF PGSD+LR DGRQLLKSL+ PLRVYLGERNE+LMVSGFTD+KL+R+ NQRF+DNLELSAQRALTVTRAL+  GMPSSQVFAAAFGAEQPVAPN DEAGRA+NRRVEMAPVPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>878262366</Statistics_db-num>
+      <Statistics_db-len>334928218419</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

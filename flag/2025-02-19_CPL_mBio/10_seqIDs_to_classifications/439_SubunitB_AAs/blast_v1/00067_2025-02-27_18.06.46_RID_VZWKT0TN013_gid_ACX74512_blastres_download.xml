@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_5726017</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>129</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_5726017</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>129</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_014545652.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ExbD/TolR family protein [Fibrobacter] &gt;gb|ACX74511.1| Biopolymer transport protein ExbD/TolR [Fibrobacter succinogenes subsp. succinogenes S85] &gt;gb|ADL27157.1| biopolymer transport protein, ExbD/TolR family [Fibrobacter succinogenes subsp. succinogenes S85] &gt;gb|MBO4828784.1| biopolymer transporter ExbD [Fibrobacter sp.] &gt;gb|MBP5441506.1| biopolymer transporter ExbD [Fibrobacter sp.] &gt;gb|OWV18296.1| biopolymer transporter ExbD [Fibrobacter sp. UWB4]</Hit_def>
+  <Hit_accession>WP_014545652</Hit_accession>
+  <Hit_len>134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>250.751</Hsp_bit-score>
+      <Hsp_score>639</Hsp_score>
+      <Hsp_evalue>3.63725e-83</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>MEFNLPRRKQKDVGIEMGPLMDIVFILLIFFVVTSSFTRETGVDV--PQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVV---KESETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_qseq>
+      <Hsp_hseq>MEFNLPRRKQKDVGIEMGPLMDIVFILLIFFVVTSSFTRETGVDVTKPQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVVIADKESETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_hseq>
+      <Hsp_midline>MEFNLPRRKQKDVGIEMGPLMDIVFILLIFFVVTSSFTRETGVDV  PQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVV   KESETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_088631068.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ExbD/TolR family protein [Fibrobacter] &gt;gb|MBP5440143.1| biopolymer transporter ExbD [Fibrobacter sp.] &gt;gb|MDY6331632.1| biopolymer transporter ExbD [Fibrobacter sp.] &gt;gb|MDY6387201.1| biopolymer transporter ExbD [Fibrobacter sp.] &gt;gb|OWV17577.1| biopolymer transporter ExbD [Fibrobacter sp. UWB3]</Hit_def>
+  <Hit_accession>WP_088631068</Hit_accession>
+  <Hit_len>134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>249.21</Hsp_bit-score>
+      <Hsp_score>635</Hsp_score>
+      <Hsp_evalue>1.44986e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>MEFNLPRRKQKDVGIEMGPLMDIVFILLIFFVVTSSFTRETGVDV--PQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVV---KESETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_qseq>
+      <Hsp_hseq>MDFNLPRRKQKDVGIEMGPLMDIVFILLIFFVVTSSFTRETGVDVTKPQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVVIADKESETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_hseq>
+      <Hsp_midline>M+FNLPRRKQKDVGIEMGPLMDIVFILLIFFVVTSSFTRETGVDV  PQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVV   KESETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>emb|SHK51200.1|</Hit_id>
+  <Hit_def>outer membrane transport energization protein ExbD [Fibrobacter sp. UWB12] &gt;emb|SIO28155.1| outer membrane transport energization protein ExbD [Fibrobacter sp. UWB11]</Hit_def>
+  <Hit_accession>SHK51200</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>249.21</Hsp_bit-score>
+      <Hsp_score>635</Hsp_score>
+      <Hsp_evalue>2.9733e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>MEFNLPRRKQKDVGIEMGPLMDIVFILLIFFVVTSSFTRETGVDV--PQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVV---KESETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_qseq>
+      <Hsp_hseq>MDFNLPRRKQKDVGIEMGPLMDIVFILLIFFVVTSSFTRETGVDVTKPQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVVIADKEAETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_hseq>
+      <Hsp_midline>M+FNLPRRKQKDVGIEMGPLMDIVFILLIFFVVTSSFTRETGVDV  PQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVV   KE+ETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_072827815.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ExbD/TolR family protein [unclassified Fibrobacter] &gt;gb|MBQ2560308.1| biopolymer transporter ExbD [Fibrobacter sp.] &gt;gb|MBQ5463817.1| biopolymer transporter ExbD [Fibrobacter sp.] &gt;gb|MBR6453168.1| biopolymer transporter ExbD [Fibrobacter sp.]</Hit_def>
+  <Hit_accession>WP_072827815</Hit_accession>
+  <Hit_len>134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>247.669</Hsp_bit-score>
+      <Hsp_score>631</Hsp_score>
+      <Hsp_evalue>5.12198e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>MEFNLPRRKQKDVGIEMGPLMDIVFILLIFFVVTSSFTRETGVDV--PQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVV---KESETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_qseq>
+      <Hsp_hseq>MDFNLPRRKQKDVGIEMGPLMDIVFILLIFFVVTSSFTRETGVDVTKPQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVVIADKEAETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_hseq>
+      <Hsp_midline>M+FNLPRRKQKDVGIEMGPLMDIVFILLIFFVVTSSFTRETGVDV  PQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVV   KE+ETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|MBP5768707.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Fibrobacter sp.] &gt;gb|MBR2094866.1| biopolymer transporter ExbD [Fibrobacter sp.]</Hit_def>
+  <Hit_accession>MBP5768707</Hit_accession>
+  <Hit_len>134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>247.284</Hsp_bit-score>
+      <Hsp_score>630</Hsp_score>
+      <Hsp_evalue>7.6875e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>MEFNLPRRKQKDVGIEMGPLMDIVFILLIFFVVTSSFTRETGVDV--PQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVV---KESETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_qseq>
+      <Hsp_hseq>MNFNLPRRKQKDVGIEMGPLMDIVFILLIFFVVTSSFTRETGVDVTKPQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVVIADKEAETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_hseq>
+      <Hsp_midline>M FNLPRRKQKDVGIEMGPLMDIVFILLIFFVVTSSFTRETGVDV  PQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVV   KE+ETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_297698332.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [uncultured Fibrobacter sp.]</Hit_def>
+  <Hit_accession>WP_297698332</Hit_accession>
+  <Hit_len>134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.899</Hsp_bit-score>
+      <Hsp_score>629</Hsp_score>
+      <Hsp_evalue>1.25968e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>MEFNLPRRKQKDVGIEMGPLMDIVFILLIFFVVTSSFTRETGVDV--PQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVV---KESETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_qseq>
+      <Hsp_hseq>MEFNLPRKKQKDMGIEMGPLMDIVFILLIFFVVTSSFTRETGVDVTKPQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVVIADKEAETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_hseq>
+      <Hsp_midline>MEFNLPR+KQKD+GIEMGPLMDIVFILLIFFVVTSSFTRETGVDV  PQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVV   KE+ETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_290924462.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Fibrobacter sp.] &gt;gb|MBQ7080040.1| biopolymer transporter ExbD [Fibrobacter sp.]</Hit_def>
+  <Hit_accession>WP_290924462</Hit_accession>
+  <Hit_len>134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.514</Hsp_bit-score>
+      <Hsp_score>628</Hsp_score>
+      <Hsp_evalue>1.77014e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>MEFNLPRRKQKDVGIEMGPLMDIVFILLIFFVVTSSFTRETGVDV--PQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVV---KESETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_qseq>
+      <Hsp_hseq>MDFNLPRRKQKDVGIEMGPLMDIVFILLIFFVVTSSFTRETGVDVTKPQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVVIADKEAETGVLVQVIDMCNLAGVKKVSIAAQAD</Hsp_hseq>
+      <Hsp_midline>M+FNLPRRKQKDVGIEMGPLMDIVFILLIFFVVTSSFTRETGVDV  PQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVV   KE+ETGVLVQVIDMCNLAGVKKVSIAAQA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_290959098.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Fibrobacter sp.] &gt;gb|MBO7061066.1| biopolymer transporter ExbD [Fibrobacter sp.] &gt;gb|MBO7104353.1| biopolymer transporter ExbD [Fibrobacter sp.] &gt;gb|MBO7551967.1| biopolymer transporter ExbD [Fibrobacter sp.] &gt;gb|MBQ3716701.1| biopolymer transporter ExbD [Fibrobacter sp.] &gt;gb|MBR3670914.1| biopolymer transporter ExbD [Fibrobacter sp.]</Hit_def>
+  <Hit_accession>WP_290959098</Hit_accession>
+  <Hit_len>134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.514</Hsp_bit-score>
+      <Hsp_score>628</Hsp_score>
+      <Hsp_evalue>1.80942e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>MEFNLPRRKQKDVGIEMGPLMDIVFILLIFFVVTSSFTRETGVDV--PQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVV---KESETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_qseq>
+      <Hsp_hseq>MEFNLPRRKQKDMGIEMGPLMDIVFILLIFFVVTSSFTRETGVDVTKPQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVVIADKGSETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_hseq>
+      <Hsp_midline>MEFNLPRRKQKD+GIEMGPLMDIVFILLIFFVVTSSFTRETGVDV  PQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVV   K SETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_405324175.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Fibrobacter sp.]</Hit_def>
+  <Hit_accession>WP_405324175</Hit_accession>
+  <Hit_len>134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.128</Hsp_bit-score>
+      <Hsp_score>627</Hsp_score>
+      <Hsp_evalue>2.38063e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>MEFNLPRRKQKDVGIEMGPLMDIVFILLIFFVVTSSFTRETGVDV--PQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVV---KESETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_qseq>
+      <Hsp_hseq>MDFNLPRRKQKDVGIEMGPLMDIVFILLIFFVVTSSFTRETGVDVTKPQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPGREAVVIADKESETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_hseq>
+      <Hsp_midline>M+FNLPRRKQKDVGIEMGPLMDIVFILLIFFVVTSSFTRETGVDV  PQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAP REAVV   KESETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|MBR6448940.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Fibrobacter sp.]</Hit_def>
+  <Hit_accession>MBR6448940</Hit_accession>
+  <Hit_len>134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>245.743</Hsp_bit-score>
+      <Hsp_score>626</Hsp_score>
+      <Hsp_evalue>2.62776e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>MEFNLPRRKQKDVGIEMGPLMDIVFILLIFFVVTSSFTRETGVDV--PQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVV---KESETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_qseq>
+      <Hsp_hseq>MDFNLPRRKRKDVGIEMGPLMDIVFILLIFFVVTSSFTRETGVDVTKPQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVVIADKEAETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_hseq>
+      <Hsp_midline>M+FNLPRRK+KDVGIEMGPLMDIVFILLIFFVVTSSFTRETGVDV  PQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVV   KE+ETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_300187949.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Fibrobacter sp.] &gt;gb|MDD5941482.1| biopolymer transporter ExbD [Fibrobacter sp.]</Hit_def>
+  <Hit_accession>WP_300187949</Hit_accession>
+  <Hit_len>134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>245.743</Hsp_bit-score>
+      <Hsp_score>626</Hsp_score>
+      <Hsp_evalue>3.65231e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>MEFNLPRRKQKDVGIEMGPLMDIVFILLIFFVVTSSFTRETGVDV--PQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVV---KESETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_qseq>
+      <Hsp_hseq>MEFNLPRRKQKDMGIEMGPLMDIVFILLIFFVVTSSFTRETGVDVTKPQAQTASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKTPDREAVVIADKETETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_hseq>
+      <Hsp_midline>MEFNLPRRKQKD+GIEMGPLMDIVFILLIFFVVTSSFTRETGVDV  PQAQ+ASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAK PDREAVV   KE+ETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_072979425.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ExbD/TolR family protein [unclassified Fibrobacter] &gt;gb|MBO5533703.1| biopolymer transporter ExbD [Fibrobacter sp.] &gt;gb|MBR6316961.1| biopolymer transporter ExbD [Fibrobacter sp.] &gt;gb|MBS7273323.1| biopolymer transporter ExbD [Fibrobacter sp.] &gt;gb|MCI6438314.1| biopolymer transporter ExbD [Fibrobacter sp.] &gt;gb|MDD7499212.1| biopolymer transporter ExbD [Fibrobacter sp.]</Hit_def>
+  <Hit_accession>WP_072979425</Hit_accession>
+  <Hit_len>134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>245.358</Hsp_bit-score>
+      <Hsp_score>625</Hsp_score>
+      <Hsp_evalue>4.85829e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>MEFNLPRRKQKDVGIEMGPLMDIVFILLIFFVVTSSFTRETGVDV--PQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVV---KESETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_qseq>
+      <Hsp_hseq>MEFNLPRRKQKDMGIEMGPLMDIVFILLIFFVVTSSFTRETGVDVTKPQAQTASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKTPDREAVVIADKEAETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_hseq>
+      <Hsp_midline>MEFNLPRRKQKD+GIEMGPLMDIVFILLIFFVVTSSFTRETGVDV  PQAQ+ASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAK PDREAVV   KE+ETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|MBO7414497.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Fibrobacter sp.]</Hit_def>
+  <Hit_accession>MBO7414497</Hit_accession>
+  <Hit_len>134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.973</Hsp_bit-score>
+      <Hsp_score>624</Hsp_score>
+      <Hsp_evalue>5.48162e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>MEFNLPRRKQKDVGIEMGPLMDIVFILLIFFVVTSSFTRETGVDV--PQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVV---KESETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_qseq>
+      <Hsp_hseq>MEFNLPRKKQKDMGIEMGPLMDIVFILLIFFVVTSSFTRETGVDVTKPQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVVIADKGSETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_hseq>
+      <Hsp_midline>MEFNLPR+KQKD+GIEMGPLMDIVFILLIFFVVTSSFTRETGVDV  PQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVV   K SETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_072798016.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ExbD/TolR family protein [Fibrobacter] &gt;gb|MBQ3721017.1| biopolymer transporter ExbD [Fibrobacter sp.] &gt;gb|MBQ9227054.1| biopolymer transporter ExbD [Fibrobacter sp.] &gt;gb|MBR2057605.1| biopolymer transporter ExbD [Fibrobacter sp.] &gt;gb|MBR2272039.1| biopolymer transporter ExbD [Fibrobacter sp.] &gt;gb|MBR2308787.1| biopolymer transporter ExbD [Fibrobacter sp.]</Hit_def>
+  <Hit_accession>WP_072798016</Hit_accession>
+  <Hit_len>134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.973</Hsp_bit-score>
+      <Hsp_score>624</Hsp_score>
+      <Hsp_evalue>5.6651e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>MEFNLPRRKQKDVGIEMGPLMDIVFILLIFFVVTSSFTRETGVDV--PQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVV---KESETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_qseq>
+      <Hsp_hseq>MEFNLPRRKQKDMGIEMGPLMDIVFILLIFFVVTSSFTRETGVDVTKPQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVVIADKGAETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_hseq>
+      <Hsp_midline>MEFNLPRRKQKD+GIEMGPLMDIVFILLIFFVVTSSFTRETGVDV  PQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVV   K +ETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|MBR6942312.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Fibrobacter sp.]</Hit_def>
+  <Hit_accession>MBR6942312</Hit_accession>
+  <Hit_len>134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.973</Hsp_bit-score>
+      <Hsp_score>624</Hsp_score>
+      <Hsp_evalue>5.6651e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>MEFNLPRRKQKDVGIEMGPLMDIVFILLIFFVVTSSFTRETGVDV--PQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVV---KESETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_qseq>
+      <Hsp_hseq>MNFNLPRRKQKDVGIEMGPLMDIVFILLIFFVVTSSFTRETGVDVTKPQAQSASQLEKENLLIAITREGTVHMNERQVDLASLQDILKQSLAKAPDREAVVIADKEAETGVLVQVIDMCNLAGVKKVSIAAQAD</Hsp_hseq>
+      <Hsp_midline>M FNLPRRKQKDVGIEMGPLMDIVFILLIFFVVTSSFTRETGVDV  PQAQSASQLEKENLLIAITREGT+HMNERQVDLASLQDILKQSLAKAPDREAVV   KE+ETGVLVQVIDMCNLAGVKKVSIAAQA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|MBR2090500.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Fibrobacter sp.]</Hit_def>
+  <Hit_accession>MBR2090500</Hit_accession>
+  <Hit_len>134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.973</Hsp_bit-score>
+      <Hsp_score>624</Hsp_score>
+      <Hsp_evalue>7.05548e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>MEFNLPRRKQKDVGIEMGPLMDIVFILLIFFVVTSSFTRETGVDV--PQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVV---KESETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_qseq>
+      <Hsp_hseq>MEFNLPRRKQKDMGIEMGPLMDIVFILLIFFVVTSSFTRETGVDVTKPQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKTPDREAVVIADKEAETGVLVQVIDMCNLAGVKKVSIAAQAD</Hsp_hseq>
+      <Hsp_midline>MEFNLPRRKQKD+GIEMGPLMDIVFILLIFFVVTSSFTRETGVDV  PQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAK PDREAVV   KE+ETGVLVQVIDMCNLAGVKKVSIAAQA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_290941723.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Fibrobacter sp.] &gt;gb|MBR3071664.1| biopolymer transporter ExbD [Fibrobacter sp.]</Hit_def>
+  <Hit_accession>WP_290941723</Hit_accession>
+  <Hit_len>134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.973</Hsp_bit-score>
+      <Hsp_score>624</Hsp_score>
+      <Hsp_evalue>7.05548e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>MEFNLPRRKQKDVGIEMGPLMDIVFILLIFFVVTSSFTRETGVDV--PQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVV---KESETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_qseq>
+      <Hsp_hseq>MDFNLPRRKQKDMGIEMGPLMDIVFILLIFFVVTSSFTRETGVDVTKPQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKTPDREAVVIADKEAETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_hseq>
+      <Hsp_midline>M+FNLPRRKQKD+GIEMGPLMDIVFILLIFFVVTSSFTRETGVDV  PQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAK PDREAVV   KE+ETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_173473566.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Fibrobacter succinogenes]</Hit_def>
+  <Hit_accession>WP_173473566</Hit_accession>
+  <Hit_len>134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.588</Hsp_bit-score>
+      <Hsp_score>623</Hsp_score>
+      <Hsp_evalue>9.48872e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>MEFNLPRRKQKDVGIEMGPLMDIVFILLIFFVVTSSFTRETGVDV--PQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVV---KESETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_qseq>
+      <Hsp_hseq>MDFNLPRRKQKDMGIEMGPLMDIVFILLIFFVVTSSFTRETGVDVTKPQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDVLKQSLAKAPDREAVVIADKEAETGVLVQVIDMCNLAGVKKVSIAAQAD</Hsp_hseq>
+      <Hsp_midline>M+FNLPRRKQKD+GIEMGPLMDIVFILLIFFVVTSSFTRETGVDV  PQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQD+LKQSLAKAPDREAVV   KE+ETGVLVQVIDMCNLAGVKKVSIAAQA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_173341794.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [uncultured Fibrobacter sp.] &gt;gb|MBR6317478.1| biopolymer transporter ExbD [Fibrobacter sp.]</Hit_def>
+  <Hit_accession>WP_173341794</Hit_accession>
+  <Hit_len>134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.202</Hsp_bit-score>
+      <Hsp_score>622</Hsp_score>
+      <Hsp_evalue>1.18175e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>MEFNLPRRKQKDVGIEMGPLMDIVFILLIFFVVTSSFTRETGVDV--PQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVV---KESETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_qseq>
+      <Hsp_hseq>MEFNLPRRKQKDMGIEMGPLMDIVFILLIFFVVTSSFTRETGVDVTKPQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVVIADKGAETGVLVQVIDMCNMAGVKKVSIAAQAE</Hsp_hseq>
+      <Hsp_midline>MEFNLPRRKQKD+GIEMGPLMDIVFILLIFFVVTSSFTRETGVDV  PQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVV   K +ETGVLVQVIDMCN+AGVKKVSIAAQAE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_073189032.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Fibrobacter sp. UWP2] &gt;emb|SHI80249.1| outer membrane transport energization protein ExbD [Fibrobacter sp. UWP2]</Hit_def>
+  <Hit_accession>WP_073189032</Hit_accession>
+  <Hit_len>134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>243.817</Hsp_bit-score>
+      <Hsp_score>621</Hsp_score>
+      <Hsp_evalue>1.6425e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>MEFNLPRRKQKDVGIEMGPLMDIVFILLIFFVVTSSFTRETGVDV--PQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVV---KESETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_qseq>
+      <Hsp_hseq>MEFNIPRRKQKDMGIEMGPLMDIVFILLIFFVVTSSFTRETGVDVTKPQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVVIADKGAETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_hseq>
+      <Hsp_midline>MEFN+PRRKQKD+GIEMGPLMDIVFILLIFFVVTSSFTRETGVDV  PQAQSASQLEKENLLIAITREGTIHMNERQVDLASLQDILKQSLAKAPDREAVV   K +ETGVLVQVIDMCNLAGVKKVSIAAQAE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>877105751</Statistics_db-num>
+      <Statistics_db-len>334462191313</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

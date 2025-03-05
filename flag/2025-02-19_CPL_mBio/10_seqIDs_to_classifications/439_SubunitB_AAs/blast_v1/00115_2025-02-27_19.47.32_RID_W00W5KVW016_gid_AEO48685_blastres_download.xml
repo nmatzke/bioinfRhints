@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_6549627</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>149</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_6549627</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>149</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_011390003.1|</Hit_id>
+  <Hit_def>protein TolR [Rhodospirillum rubrum] &gt;gb|ABC22954.1| Biopolymer transport protein ExbD/TolR [Rhodospirillum rubrum ATCC 11170] &gt;gb|AEO48684.1| biopolymer transport protein ExbD/TolR [Rhodospirillum rubrum F11] &gt;gb|MBK5954579.1| protein TolR [Rhodospirillum rubrum] &gt;gb|QXG78940.1| protein TolR [Rhodospirillum rubrum]</Hit_def>
+  <Hit_accession>WP_011390003</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.404</Hsp_bit-score>
+      <Hsp_score>703</Hsp_score>
+      <Hsp_evalue>2.98571e-92</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>MAGALLPSGDDEGGYKPIAEINITPMVDVMLVLLIIFMVA-PLMSMGVPV--PRTQAAEAQPPKDPVVVSIDQTGALFLRDQPLAEADMDARLAALAKEKPGSVVYV---KDLPYGRVMEVMGRIGQAGFAKVSLMAEMPTPPAAAGAAATGTGR</Hsp_qseq>
+      <Hsp_hseq>MAGALLPSGDDEGGYKPIAEINITPMVDVMLVLLIIFMVAAPLMSMGVPVDLPRTQAAEAQPPKDPVVVSIDQTGALFLRDQPLAEADMDARLAALAKEKPGSVVYVRGHKDLPYGRVMEVMGRIGQAGFAKVSLMAEMPTPPAAAGAAATGTGR</Hsp_hseq>
+      <Hsp_midline>MAGALLPSGDDEGGYKPIAEINITPMVDVMLVLLIIFMVA PLMSMGVPV  PRTQAAEAQPPKDPVVVSIDQTGALFLRDQPLAEADMDARLAALAKEKPGSVVYV   KDLPYGRVMEVMGRIGQAGFAKVSLMAEMPTPPAAAGAAATGTGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_200289743.1|</Hit_id>
+  <Hit_def>protein TolR [Rhodospirillum rubrum] &gt;gb|MBK1664143.1| protein TolR [Rhodospirillum rubrum] &gt;gb|MBK1675618.1| protein TolR [Rhodospirillum rubrum]</Hit_def>
+  <Hit_accession>WP_200289743</Hit_accession>
+  <Hit_len>151</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>263.077</Hsp_bit-score>
+      <Hsp_score>671</Hsp_score>
+      <Hsp_evalue>1.48227e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>MAGALLPSGDDEGGYKPIAEINITPMVDVMLVLLIIFMVA-PLMSMGVPV--PRTQAAEAQPPKDPVVVSIDQTGALFLRDQPLAEADMDARLAALAKEKPGSVVYV---KDLPYGRVMEVMGRIGQAGFAKVSLMAEMPTPPAAAGAAATGTGR</Hsp_qseq>
+      <Hsp_hseq>MAGALLPSGDDEGGYKPIAEINITPMVDVMLVLLIIFMVAAPLMSMGVPVDLPRTQAAEAQPPKDPVVVSIDQTGALFLRDQPLAEADMDARLAALAKEKPGSVVYVRGHKDLPYGRVMEVMGRIGQAGFAKVSLMAEMPTPP----AAATGTGR</Hsp_hseq>
+      <Hsp_midline>MAGALLPSGDDEGGYKPIAEINITPMVDVMLVLLIIFMVA PLMSMGVPV  PRTQAAEAQPPKDPVVVSIDQTGALFLRDQPLAEADMDARLAALAKEKPGSVVYV   KDLPYGRVMEVMGRIGQAGFAKVSLMAEMPTPP    AAATGTGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>tpg|HCF19002.1|</Hit_id>
+  <Hit_def>protein TolR [Rhodospirillum rubrum]</Hit_def>
+  <Hit_accession>HCF19002</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.303</Hsp_bit-score>
+      <Hsp_score>399</Hsp_score>
+      <Hsp_evalue>7.35045e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MAGALLPSGDDEGGYKPIAEINITPMVDVMLVLLIIFMVA-PLMSMGVPV--PRTQAAEAQPPKDPVVVSIDQTGALFLRDQPLAEAD</Hsp_qseq>
+      <Hsp_hseq>MAGALLPSGDDEGGYKPIAEINITPMVDVMLVLLIIFMVAAPLMSMGVPVDLPRTQAAEAQPPKDPVVVSIDQTGALFLRDQPLAEAD</Hsp_hseq>
+      <Hsp_midline>MAGALLPSGDDEGGYKPIAEINITPMVDVMLVLLIIFMVA PLMSMGVPV  PRTQAAEAQPPKDPVVVSIDQTGALFLRDQPLAEAD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_290817146.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Ferrovibrio sp.] &gt;gb|PJI37819.1| MAG: protein TolR [Ferrovibrio sp.]</Hit_def>
+  <Hit_accession>WP_290817146</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.451</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>1.69065e-44</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>SGDDEGGYKPIAEINITPMVDVMLVLLIIFMVA-PLMSMGVPV--PRTQAAEAQPPKDPVVVSIDQTGALFLRDQPLAEADMDARLAALAKEKPGSVVYV---KDLPYGRVMEVMGRIGQAGFAKVSLMAEMPTPPAA</Hsp_qseq>
+      <Hsp_hseq>SNDGFDGYKPISDINVTPFVDVMLVLLIIFMVAAPLMMVGVPLQLPKTTAAKVTPPKEPLVVSIDRDGKLFIRKDPVEEADLVARLRALNESDPNTVIYVRGDKALEYGRIMDLMSKVGQAGFGKISLVAEGATPPPA</Hsp_hseq>
+      <Hsp_midline>S D   GYKPI++IN+TP VDVMLVLLIIFMVA PLM +GVP+  P+T AA+  PPK+P+VVSID+ G LF+R  P+ EAD+ ARL AL +  P +V+YV   K L YGR+M++M ++GQAGF K+SL+AE  TPP A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_324222266.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Ferrovibrio sp.] &gt;tpg|HLT78886.1| ExbD/TolR family protein [Ferrovibrio sp.]</Hit_def>
+  <Hit_accession>WP_324222266</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>1.31828e-43</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>143</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>YKPIAEINITPMVDVMLVLLIIFMVA-PLMSMGVPV--PRTQAAEAQPPKDPVVVSIDQTGALFLRDQPLAEADMDARLAALAKEKPGSVVYVKD---LPYGRVMEVMGRIGQAGFAKVSLMAEMPTPPAAAGAA</Hsp_qseq>
+      <Hsp_hseq>YRPLSDINVTPFVDVMLVLLIIFMVAAPLMMVGVPLQLPKTSAAKVAPPQEPLVVSIDRTGALFIRKEAVSEADLVARLSAIRSEEPDSVVYVRGDTALEYGRVMQVMGMVGQAGFAKISLVAE----DASAGSA</Hsp_hseq>
+      <Hsp_midline>Y+P+++IN+TP VDVMLVLLIIFMVA PLM +GVP+  P+T AA+  PP++P+VVSID+TGALF+R + ++EAD+ ARL+A+  E+P SVVYV+    L YGRVM+VMG +GQAGFAK+SL+AE     A+AG+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_144069803.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Ferrovibrio terrae] &gt;gb|QDO98822.1| biopolymer transporter ExbD [Ferrovibrio terrae]</Hit_def>
+  <Hit_accession>WP_144069803</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.369</Hsp_bit-score>
+      <Hsp_score>381</Hsp_score>
+      <Hsp_evalue>2.56675e-43</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>SGDDEGGYKPIAEINITPMVDVMLVLLIIFMVA-PLMSMGVPV--PRTQAAEAQPPKDPVVVSIDQTGALFLRDQPLAEADMDARLAALAKEKPGSVVYV---KDLPYGRVMEVMGRIGQAGFAKVSLMAEMPTPP</Hsp_qseq>
+      <Hsp_hseq>SNDGFDGYKPISDINVTPFVDVMLVLLIIFMVAAPLMMVGVPLQLPKTTAAKVTPPKEPLVVSMDKDGKLFIRKNPVEEADLVAALQALNENEANTVIYVRGDKTLEYGRIMDLMGKVGQAGFGKISLVAEGATPP</Hsp_hseq>
+      <Hsp_midline>S D   GYKPI++IN+TP VDVMLVLLIIFMVA PLM +GVP+  P+T AA+  PPK+P+VVS+D+ G LF+R  P+ EAD+ A L AL + +  +V+YV   K L YGR+M++MG++GQAGF K+SL+AE  TPP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_379728980.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Ferrovibrio xuzhouensis] &gt;gb|MFC3677438.1| ExbD/TolR family protein [Ferrovibrio xuzhouensis]</Hit_def>
+  <Hit_accession>WP_379728980</Hit_accession>
+  <Hit_len>163</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.984</Hsp_bit-score>
+      <Hsp_score>380</Hsp_score>
+      <Hsp_evalue>4.72259e-43</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>DDEGGYKPIAEINITPMVDVMLVLLIIFMVA-PLMSMGVPV--PRTQAAEAQPPKDPVVVSIDQTGALFLRDQPLAEADMDARLAALAKEKPGSVVYV---KDLPYGRVMEVMGRIGQAGFAKVSLMAEMPT-----PPAAAGAAATG</Hsp_qseq>
+      <Hsp_hseq>DDFGSYRPLSDINVTPLVDVMLVLLIIFMVAAPLMMVGVPLQLPKTTAAKVTPPKEPLVVSIDRDGRLFIRKEPVEEGEIVARLAGIKAKEPNAVVYVRGDKALEYGRVMQVMGLVGEAGFGKVSLVAEGANTQPVQPPVAAGPIAAG</Hsp_hseq>
+      <Hsp_midline>DD G Y+P+++IN+TP+VDVMLVLLIIFMVA PLM +GVP+  P+T AA+  PPK+P+VVSID+ G LF+R +P+ E ++ ARLA +  ++P +VVYV   K L YGRVM+VMG +G+AGF KVSL+AE        PP AAG  A G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_341701922.1|</Hit_id>
+  <Hit_def>protein TolR [Ferrovibrio sp.]</Hit_def>
+  <Hit_accession>WP_341701922</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.058</Hsp_bit-score>
+      <Hsp_score>375</Hsp_score>
+      <Hsp_evalue>2.62216e-42</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>143</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>DDEGGYKPIAEINITPMVDVMLVLLIIFMVA-PLMSMGVPV--PRTQAAEAQPPKDPVVVSIDQTGALFLRDQPLAEADMDARLAALAKEKPGSVVYV---KDLPYGRVMEVMGRIGQAGFAKVSLMAE--MPTPPAAAGAA</Hsp_qseq>
+      <Hsp_hseq>DDMGSYRPLSEINVTPLVDVMLVLLIIFMVAAPLMMVGVPLQLPKTSASKVAPPKEPLVVSIDKDGKLFIRKTPIEQGQIVAHLAEIKAKEPDSVVYVRGDKALEYGRVMEVMGLVGQAGFGKVSLVAEGAAALPKAQAGSA</Hsp_hseq>
+      <Hsp_midline>DD G Y+P++EIN+TP+VDVMLVLLIIFMVA PLM +GVP+  P+T A++  PPK+P+VVSID+ G LF+R  P+ +  + A LA +  ++P SVVYV   K L YGRVMEVMG +GQAGF KVSL+AE     P A AG+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_370153332.1|</Hit_id>
+  <Hit_def>protein TolR [Ferrovibrio sp.]</Hit_def>
+  <Hit_accession>WP_370153332</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.747</Hsp_bit-score>
+      <Hsp_score>369</Hsp_score>
+      <Hsp_evalue>1.73289e-41</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>143</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>DDEGGYKPIAEINITPMVDVMLVLLIIFMVA-PLMSMGVPV--PRTQAAEAQPPKDPVVVSIDQTGALFLRDQPLAEADMDARLAALAKEKPGSVVYV---KDLPYGRVMEVMGRIGQAGFAKVSLMAE--MPTPPAAAGAA</Hsp_qseq>
+      <Hsp_hseq>DDMGSYRPLSEINVTPLVDVMLVLLIIFMVAAPLMMVGVPLQLPKTSASKVAPPKEPLVVSIDKDGKLFIRKTPIEQGQIVAHLAEIKAKEPDSVVYVRGDKALEYGRVMEVMGLVGQAGYDKVSLVAEGAAALPKAQAGSA</Hsp_hseq>
+      <Hsp_midline>DD G Y+P++EIN+TP+VDVMLVLLIIFMVA PLM +GVP+  P+T A++  PPK+P+VVSID+ G LF+R  P+ +  + A LA +  ++P SVVYV   K L YGRVMEVMG +GQAG+ KVSL+AE     P A AG+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_109120913.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Azospirillum sp. TSO22-1] &gt;gb|PWC41683.1| biopolymer transporter ExbD [Azospirillum sp. TSO22-1]</Hit_def>
+  <Hit_accession>WP_109120913</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.362</Hsp_bit-score>
+      <Hsp_score>368</Hsp_score>
+      <Hsp_evalue>2.53524e-41</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>DDEGGYKPIAEINITPMVDVMLVLLIIFMVA-PLMSMGVPV--PRTQAAEAQPPKDPVVVSIDQTGALFLRDQPLAEADMDARLAALAKEKPGSVVYVKD---LPYGRVMEVMGRIGQAGFAKVSLM</Hsp_qseq>
+      <Hsp_hseq>EDEFSYRPVAEINVTPFIDVMLVLLVIFMVAAPLMMVGVPVQLPKTAAQKVSQPRQPVVVSVDRDGRVFLRDAELAPADVGPRLSALAREDPDAVVYVRGDRLLSYGRVMEVMGQVSQAGFARVSLM</Hsp_hseq>
+      <Hsp_midline>+DE  Y+P+AEIN+TP +DVMLVLL+IFMVA PLM +GVPV  P+T A +   P+ PVVVS+D+ G +FLRD  LA AD+  RL+ALA+E P +VVYV+    L YGRVMEVMG++ QAGFA+VSLM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>tpg|HVC56606.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Stellaceae bacterium]</Hit_def>
+  <Hit_accession>HVC56606</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.821</Hsp_bit-score>
+      <Hsp_score>364</Hsp_score>
+      <Hsp_evalue>8.6192e-41</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>PSGDDEGGYKPIAEINITPMVDVMLVLLIIFMV-APLMSMGVPV--PRTQAAEAQPPKDPVVVSIDQTGALFLRDQPLAEADMDARLAALAKEKPGSVVYV---KDLPYGRVMEVMGRIGQAGFAKVSLMAEMPTPP</Hsp_qseq>
+      <Hsp_hseq>PDESDEGRYQPLAEINVTPMVDVMLVLLVIFMVTAPLLTVSVPVDLPKTTAVKVTEPKQPIIVSINHDDAVFIGNKPVAAADLKRRLDALAAEDPGRIVYVRGDRRIAYGRLMDLLGLVNTAGFAKVSLMAEAAKPP</Hsp_hseq>
+      <Hsp_midline>P   DEG Y+P+AEIN+TPMVDVMLVLL+IFMV APL+++ VPV  P+T A +   PK P++VSI+   A+F+ ++P+A AD+  RL ALA E PG +VYV   + + YGR+M+++G +  AGFAKVSLMAE   PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|MBS4045376.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Alphaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MBS4045376</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.821</Hsp_bit-score>
+      <Hsp_score>364</Hsp_score>
+      <Hsp_evalue>8.84109e-41</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>SGDDEGGYKPIAEINITPMVDVMLVLLIIFMVA-PLMSMGVPV--PRTQAAEAQPPKDPVVVSIDQTGALFLRDQPLAEADMDARLAALAKEKPGSVVYV---KDLPYGRVMEVMGRIGQAGFAKVSLMAEMPTPPAA</Hsp_qseq>
+      <Hsp_hseq>SNDGFDGYKPMSDINVTPFVDVMLVLLIIFMVAAPLMMVGVPLQLPKTTAAKVTPPKEPLVVSMDKDGKLYIRKDPVEETDLVAALQALNENEANTVIYVRGDKTLEYGRIMDLMSKVGQAGFGKISLVAEGATPPPA</Hsp_hseq>
+      <Hsp_midline>S D   GYKP+++IN+TP VDVMLVLLIIFMVA PLM +GVP+  P+T AA+  PPK+P+VVS+D+ G L++R  P+ E D+ A L AL + +  +V+YV   K L YGR+M++M ++GQAGF K+SL+AE  TPP A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_379126086.1|</Hit_id>
+  <Hit_def>protein TolR [Methylobacterium sp. ID0610] &gt;gb|MFE1597833.1| protein TolR [Methylobacterium sp. ID0610]</Hit_def>
+  <Hit_accession>WP_379126086</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.436</Hsp_bit-score>
+      <Hsp_score>363</Hsp_score>
+      <Hsp_evalue>1.31136e-40</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>141</Hsp_align-len>
+      <Hsp_qseq>GALLPSGDDEGGYK--PIAEINITPMVDVMLVLLIIFMVA-PLMSMGVPV--PRTQAAEAQPPKDPVVVSIDQTGALFLRDQPLAEADMDARLAALAKEKPGSVVYV---KDLPYGRVMEVMGRIGQAGFAKVSLMAEMPT</Hsp_qseq>
+      <Hsp_hseq>GPLQSSAADEDGFEAAPLSEINVTPMVDVMLVLLIIFMVAAPLMTVGVPVQLPKTAAAKTSEPKKPVVVSVDKEGKAFLAKEPLPPEDALGRLRALAAEDPNQTVLVRGDKDVPYGKVMEVMGLVGQAGFAKVSLIANAPN</Hsp_hseq>
+      <Hsp_midline>G L  S  DE G++  P++EIN+TPMVDVMLVLLIIFMVA PLM++GVPV  P+T AA+   PK PVVVS+D+ G  FL  +PL   D   RL ALA E P   V V   KD+PYG+VMEVMG +GQAGFAKVSL+A  P </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|MFN3401876.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Ferrovibrio sp.]</Hit_def>
+  <Hit_accession>MFN3401876</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.821</Hsp_bit-score>
+      <Hsp_score>364</Hsp_score>
+      <Hsp_evalue>1.35705e-40</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>SGDDEGGYKPIAEINITPMVDVMLVLLIIFMVA-PLMSMGVPV--PRTQAAEAQPPKDPVVVSIDQTGALFLRDQPLAEADMDARLAALAKEKPGSVVYV---KDLPYGRVMEVMGRIGQAGFAKVSLMAEMPTPPAA</Hsp_qseq>
+      <Hsp_hseq>SNDGFDGYKPMSDINVTPFVDVMLVLLIIFMVAAPLMMVGVPLQLPKTTAAKVTPPKEPLVVSMDKDGKLYIRKDPVEETDLVAALQALNENEANTVIYVRGDKTLEYGRIMDLMSKVGQAGFGKISLVAEGATPPPA</Hsp_hseq>
+      <Hsp_midline>S D   GYKP+++IN+TP VDVMLVLLIIFMVA PLM +GVP+  P+T AA+  PPK+P+VVS+D+ G L++R  P+ E D+ A L AL + +  +V+YV   K L YGR+M++M ++GQAGF K+SL+AE  TPP A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_374304907.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Ferrovibrio sp.]</Hit_def>
+  <Hit_accession>WP_374304907</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.665</Hsp_bit-score>
+      <Hsp_score>361</Hsp_score>
+      <Hsp_evalue>2.93319e-40</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>141</Hsp_align-len>
+      <Hsp_qseq>SGDDEGGYKPIAEINITPMVDVMLVLLIIFMVA-PLMSMGVPV--PRTQAAEAQPPKDPVVVSIDQTGALFLRDQPLAEADMDARLAALAKEKPGSVVYV---KDLPYGRVMEVMGRIGQAGFAKVSLMAEMPTPPAAAGA</Hsp_qseq>
+      <Hsp_hseq>EADDFGSYKPLADINVTPFVDVMLVLLIIFMVAAPLMMVGVPLQLPKTTATKVTPPKEPLVISMDKDGKLFIRKEPVEEGDLVRVLSEMRNTEADTVVYVRGDKALEYGRIMDLMSLVGQAGYGKISLVAEGATKPAAAGA</Hsp_hseq>
+      <Hsp_midline>  DD G YKP+A+IN+TP VDVMLVLLIIFMVA PLM +GVP+  P+T A +  PPK+P+V+S+D+ G LF+R +P+ E D+   L+ +   +  +VVYV   K L YGR+M++M  +GQAG+ K+SL+AE  T PAAAGA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_184266252.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Novispirillum itersonii] &gt;gb|MBB6212375.1| TolR protein [Novispirillum itersonii]</Hit_def>
+  <Hit_accession>WP_184266252</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.28</Hsp_bit-score>
+      <Hsp_score>360</Hsp_score>
+      <Hsp_evalue>2.9402e-40</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>134</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>PSGDDEGGYKPIAEINITPMVDVMLVLLIIFMVA-PLMSMGVPV--PRTQAAEAQPPKDPVVVSIDQTGALFLRDQPLAEADMDARLAALAKEKPGSVVYV---KDLPYGRVMEVMGRIGQAGFAKVSLMAEMP</Hsp_qseq>
+      <Hsp_hseq>PSGGRDS-YRPLSEINVTPLVDVMLVLLIIFMVAAPLMTVGVPVDLPKTTAEPVKPPKDPVVVTLNKDGKLFLLEQEVPADQLDQRLKALAAEDPSRLAYVRADRGLDYGQVIDLMGRIGQSGFSKVSLMAEMP</Hsp_hseq>
+      <Hsp_midline>PSG  +  Y+P++EIN+TP+VDVMLVLLIIFMVA PLM++GVPV  P+T A   +PPKDPVVV++++ G LFL +Q +    +D RL ALA E P  + YV   + L YG+V+++MGRIGQ+GF+KVSLMAEMP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_298728004.1|</Hit_id>
+  <Hit_def>protein TolR [uncultured Ferrovibrio sp.]</Hit_def>
+  <Hit_accession>WP_298728004</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.28</Hsp_bit-score>
+      <Hsp_score>360</Hsp_score>
+      <Hsp_evalue>3.93809e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MAGALLPSGD----DEGGYKPIAEINITPMVDVMLVLLIIFMVA-PLMSMGVPV--PRTQAAEAQPPKDPVVVSIDQTGALFLRDQPLAEADMDARLAALAKEKPGSVVYV---KDLPYGRVMEVMGRIGQAGFAKVSLMAE</Hsp_qseq>
+      <Hsp_hseq>MAIAPLGGGDNFDSDFSGYKPLSDINVTPFVDVMLVLLIIFMVAAPLMMVGVPLQLPKTSAAKVAPPKEPLVISIDKDGKLFIRKDAVAEEELVARLAEIHAAEPDSVVYVRGDKTLEYGRIMQVMGLVGQAGYGKISLVAE</Hsp_hseq>
+      <Hsp_midline>MA A L  GD    D  GYKP+++IN+TP VDVMLVLLIIFMVA PLM +GVP+  P+T AA+  PPK+P+V+SID+ G LF+R   +AE ++ ARLA +   +P SVVYV   K L YGR+M+VMG +GQAG+ K+SL+AE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_180281261.1|</Hit_id>
+  <Hit_def>protein TolR [Azospirillum oleiclasticum] &gt;gb|NYZ12363.1| protein TolR [Azospirillum oleiclasticum] &gt;gb|NYZ19523.1| protein TolR [Azospirillum oleiclasticum]</Hit_def>
+  <Hit_accession>WP_180281261</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.895</Hsp_bit-score>
+      <Hsp_score>359</Hsp_score>
+      <Hsp_evalue>5.84227e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MAGALLPSGDD--EGGYKPIAEINITPMVDVMLVLLIIFMVA-PLMSMGVPV--PRTQAAEAQPPKDPVVVSIDQTGALFLRDQPLAEADMDARLAALAKEKPGSVVYV---KDLPYGRVMEVMGRIGQAGFAKVSLM</Hsp_qseq>
+      <Hsp_hseq>MAIALNQSGGDGDEGNYRPMAEINVTPFIDVMLVLLIIFMVAAPLMMVGVPIQLPKSSAQKVSQPRQPVIVSIDREGKVFLKDEALAEDQIRPRLAELAKADKDAVVYVRGDKTVAYGRIMEVMGQVANAGFAKVSLM</Hsp_hseq>
+      <Hsp_midline>MA AL  SG D  EG Y+P+AEIN+TP +DVMLVLLIIFMVA PLM +GVP+  P++ A +   P+ PV+VSID+ G +FL+D+ LAE  +  RLA LAK    +VVYV   K + YGR+MEVMG++  AGFAKVSLM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|MFN4164665.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Ferrovibrio sp.]</Hit_def>
+  <Hit_accession>MFN4164665</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.51</Hsp_bit-score>
+      <Hsp_score>358</Hsp_score>
+      <Hsp_evalue>7.91669e-40</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>SGDDEGGYKPIAEINITPMVDVMLVLLIIFMVA-PLMSMGVPV--PRTQAAEAQPPKDPVVVSIDQTGALFLRDQPLAEADMDARLAALAKEKPGSVVYV---KDLPYGRVMEVMGRIGQAGFAKVSLMAEMPTPPAAAGAAA</Hsp_qseq>
+      <Hsp_hseq>ESDDFGSYKPLADINVTPFVDVMLVLLIIFMVAAPLMMVGVPLQLPKTTATKVTPPKEPLVISIDKDGKLFIRKEPVEEGDLVRVLSEMRNAEADTVVYVRGDKTLEYGRIMDLMSLVGQAGYGKISLVAEGATKAAASGAPA</Hsp_hseq>
+      <Hsp_midline>  DD G YKP+A+IN+TP VDVMLVLLIIFMVA PLM +GVP+  P+T A +  PPK+P+V+SID+ G LF+R +P+ E D+   L+ +   +  +VVYV   K L YGR+M++M  +GQAG+ K+SL+AE  T  AA+GA A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_088561455.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Arboricoccus pini] &gt;emb|SNB68252.1| Cell division and transport-associated protein TolR [Arboricoccus pini]</Hit_def>
+  <Hit_accession>WP_088561455</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.124</Hsp_bit-score>
+      <Hsp_score>357</Hsp_score>
+      <Hsp_evalue>1.22481e-39</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>149</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>LPSGDDEGGYKPIAEINITPMVDVMLVLLIIFMV-APLMSMGVPV--PRTQAAEAQPPKDPVVVSIDQTGALFLRDQPLAEADMDARLAALAKEKPGSVVYV---KDLPYGRVMEVMGRIGQAGFAKVSLMAEMPTPPAAAGAAATGTGR</Hsp_qseq>
+      <Hsp_hseq>LIDGGDEEGFRPLAEINVTPLVDVMLVLLIVFMVSAPLMMAGVKIDLPKTSAATISPPKEPVVLTIDRQGRLFIKQDEIATADLASRLDAMAKGDKGQVIYIRGDRELPYGKIMAVMSDVSQAGFASVSLVGE-SRPNASEGAALPAAGK</Hsp_hseq>
+      <Hsp_midline>L  G DE G++P+AEIN+TP+VDVMLVLLI+FMV APLM  GV +  P+T AA   PPK+PVV++ID+ G LF++   +A AD+ +RL A+AK   G V+Y+   ++LPYG++M VM  + QAGFA VSL+ E   P A+ GAA    G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>877781531</Statistics_db-num>
+      <Statistics_db-len>334720180573</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

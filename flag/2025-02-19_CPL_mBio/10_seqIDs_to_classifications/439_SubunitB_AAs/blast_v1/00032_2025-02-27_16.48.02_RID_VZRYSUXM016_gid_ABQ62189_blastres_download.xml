@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_6732215</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>284</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_6732215</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>284</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|EXU82679.1|</Hit_id>
+  <Hit_def>alanyl-tRNA synthetase [Brucella melitensis 548]</Hit_def>
+  <Hit_accession>EXU82679</Hit_accession>
+  <Hit_len>563</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.988</Hsp_bit-score>
+      <Hsp_score>650</Hsp_score>
+      <Hsp_evalue>8.45524e-77</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>439</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>161</Hsp_gaps>
+      <Hsp_align-len>365</Hsp_align-len>
+      <Hsp_qseq>WPLDLTQDALRQRGIAVDTEG---AMERQKAEARAN------------WTGSGEAATETIWFG-------------IKDKV-----------------------------------GATEFIAVKDTQKKGEGVFVHI--VTEGTAKAGDV-------------------------ALRETLGT-----------------FSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDD---------FGEKYGDEVRVVSMGTAK----------------------------------------RRLEAL-----RLYLEEQDERVKAIASALKTTSADVLDHVNALIDERKKLERELADARK</Hsp_qseq>
+      <Hsp_hseq>FPLDLTQDALRQRGIAVDTEGFNVAMERQKAEARANWTGSGEAATETIWFGIKDKVGATEFLGYETESAEGVIASLVRDGVEVPSVREGETISVVVNQTPFYGESGGQQGDTGTISGEGFVIAVKDTQKKGEGVFVHIGEVTEGTAKAGDVVELKVDSARRTRIRSNHSATHLLHEALRETLGTHVAQKGSLVAPDRLRFDFSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDDAIAEGAMALFGEKYGDEVRVVSMGTAKHGSKAGKAYSVELCGGTHVRQTGDIGLVRIISEGGVAAGVRRLEALTGEAARLYLEEQDERVKAIASALKTTSADVLDRVNALIDERKKLERELADARK</Hsp_hseq>
+      <Hsp_midline>+PLDLTQDALRQRGIAVDTEG   AMERQKAEARAN            W G  +    T + G             ++D V                                   G    IAVKDTQKKGEGVFVHI  VTEGTAKAGDV                         ALRETLGT                 FSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDD         FGEKYGDEVRVVSMGTAK                                        RRLEAL     RLYLEEQDERVKAIASALKTTSADVLD VNALIDERKKLERELADARK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|EEX91205.1|</Hit_id>
+  <Hit_def>alanyl-tRNA synthetase [Brucella ceti M13/05/1]</Hit_def>
+  <Hit_accession>EEX91205</Hit_accession>
+  <Hit_len>723</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.832</Hsp_bit-score>
+      <Hsp_score>647</Hsp_score>
+      <Hsp_evalue>8.66416e-75</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>235</Hsp_hit-from>
+      <Hsp_hit-to>599</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>161</Hsp_gaps>
+      <Hsp_align-len>365</Hsp_align-len>
+      <Hsp_qseq>WPLDLTQDALRQRGIAVDTEG---AMERQKAEARAN------------WTGSGEAATETIWFG-------------IKDKV-----------------------------------GATEFIAVKDTQKKGEGVFVHI--VTEGTAKAGDV-------------------------ALRETLGT-----------------FSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDD---------FGEKYGDEVRVVSMGTAK----------------------------------------RRLEAL-----RLYLEEQDERVKAIASALKTTSADVLDHVNALIDERKKLERELADARK</Hsp_qseq>
+      <Hsp_hseq>FPLDLTQDALRQRGIAVDTEGFNVAMERQKAEARANWTGSGEAATETIWFGIKDKVGATEFLGYETESAEGVIASLVRDSVEVPSVREGETISVVVNQTPFYGESGGQQGDTGTISGEGFVIAVKDTQKKGEGVFVHIGEVTEGTAKAGDVVELKVDSARRTRIRSNHSATHLLHEALRETLGTHVAQKGSLVAPDRLRFDFSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDDAIAEGAMALFGEKYGDEVRVVSMGTAKHGSKAGKAYSVELCGGTHVRQTGDIGLVRIISEGGVAAGVRRLEALTGEAARLYLEEQDERVKAIASALKTTSADVLDRVNALIDERKKLERELADARK</Hsp_hseq>
+      <Hsp_midline>+PLDLTQDALRQRGIAVDTEG   AMERQKAEARAN            W G  +    T + G             ++D V                                   G    IAVKDTQKKGEGVFVHI  VTEGTAKAGDV                         ALRETLGT                 FSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDD         FGEKYGDEVRVVSMGTAK                                        RRLEAL     RLYLEEQDERVKAIASALKTTSADVLD VNALIDERKKLERELADARK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>82.0333</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>5.04596e-13</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>122</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>AFLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGA--PLMWPL</Hsp_qseq>
+      <Hsp_hseq>SFLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGAKEPLMWRL</Hsp_hseq>
+      <Hsp_midline>+FLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGA  PLMW L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_006012765.1|</Hit_id>
+  <Hit_def>alanine--tRNA ligase [Brucella ovis] &gt;sp|A5VQX4.1| RecName: Full=Alanine--tRNA ligase; AltName: Full=Alanyl-tRNA synthetase; Short=AlaRS [Brucella ovis ATCC 25840] &gt;gb|ABQ61537.1| alanyl-tRNA synthetase [Brucella ovis ATCC 25840] &gt;gb|ENR04582.1| alanyl-tRNA synthetase [Brucella ovis 80/125] &gt;gb|ENR08308.1| alanyl-tRNA synthetase [Brucella ovis F8/05B] &gt;gb|ENS95179.1| alanyl-tRNA synthetase [Brucella ovis 63/96] &gt;gb|ENS99951.1| alanyl-tRNA synthetase [Brucella ovis 81/8]</Hit_def>
+  <Hit_accession>WP_006012765</Hit_accession>
+  <Hit_len>885</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>255.373</Hsp_bit-score>
+      <Hsp_score>651</Hsp_score>
+      <Hsp_evalue>2.50584e-74</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>397</Hsp_hit-from>
+      <Hsp_hit-to>761</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>161</Hsp_gaps>
+      <Hsp_align-len>365</Hsp_align-len>
+      <Hsp_qseq>WPLDLTQDALRQRGIAVDTEG---AMERQKAEARAN------------WTGSGEAATETIWFG-------------IKDKV-----------------------------------GATEFIAVKDTQKKGEGVFVHI--VTEGTAKAGDV-------------------------ALRETLGT-----------------FSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDD---------FGEKYGDEVRVVSMGTAK----------------------------------------RRLEAL-----RLYLEEQDERVKAIASALKTTSADVLDHVNALIDERKKLERELADARK</Hsp_qseq>
+      <Hsp_hseq>FPLDLTQDALRQRGIAVDTEGFNVAMERQKAEARANWTGSGEAATETIWFGIKDKVGATEFLGYETESAEGVIASLVRDGVEVPSVREGETISVVVNQTPFYGESGGQQGDTGTISGEGFVIAVKDTQKKGEGVFVHIGEVTEGTAKAGDVVELKVDSARRTRIRSNHSATHLLHEALRETLGTHVAQKGSLVAPDRLRFDFSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDDAIAEGAMALFGEKYGDEVRVVSMGTAKHGSKAGKAYSVELCGGTHVRQTGDIGLVRIISEGGVAAGVRRLEALTGEAARLYLEEQDERVKAIASALKTTSADVLDHVNALIDERKKLERELADARK</Hsp_hseq>
+      <Hsp_midline>+PLDLTQDALRQRGIAVDTEG   AMERQKAEARAN            W G  +    T + G             ++D V                                   G    IAVKDTQKKGEGVFVHI  VTEGTAKAGDV                         ALRETLGT                 FSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDD         FGEKYGDEVRVVSMGTAK                                        RRLEAL     RLYLEEQDERVKAIASALKTTSADVLDHVNALIDERKKLERELADARK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>6.49826e-13</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>284</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>AFLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGA--PLMWPL</Hsp_qseq>
+      <Hsp_hseq>SFLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGAKEPLMWRL</Hsp_hseq>
+      <Hsp_midline>+FLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGA  PLMW L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_247642600.1|</Hit_id>
+  <Hit_def>alanine--tRNA ligase, partial [Brucella ceti]</Hit_def>
+  <Hit_accession>WP_247642600</Hit_accession>
+  <Hit_len>768</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>252.677</Hsp_bit-score>
+      <Hsp_score>644</Hsp_score>
+      <Hsp_evalue>4.72803e-74</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>280</Hsp_hit-from>
+      <Hsp_hit-to>644</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>161</Hsp_gaps>
+      <Hsp_align-len>365</Hsp_align-len>
+      <Hsp_qseq>WPLDLTQDALRQRGIAVDTEG---AMERQKAEARAN------------WTGSGEAATETIWFG-------------IKDKV-----------------------------------GATEFIAVKDTQKKGEGVFVHI--VTEGTAKAGDV-------------------------ALRETLGT-----------------FSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDD---------FGEKYGDEVRVVSMGTAK----------------------------------------RRLEAL-----RLYLEEQDERVKAIASALKTTSADVLDHVNALIDERKKLERELADARK</Hsp_qseq>
+      <Hsp_hseq>FPLDLTQDALRQRGIAVDTEGFNVAMERQKAEARANWTGSGEAATETIWFGIKDKVGATEFLGYETESAEGVIASLVRDSVEVPSVREGETISVVVNQTPFYGESGGQQGDTGTISGEGFVIAVKDTQKKGEGVFVHIGEVTEGTAKAGDVVELKVDSARRTRIRSNHSATHLLHEALRETLGTHVAQKGSLVAPDRLRFDFSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDDAIAEGAMALFGEKYGDEVRVVSMGTAKHGSKAGKAYSVELCGGTHVRQTGDIGLVRIISEGGVAAGVRRLEALTGEAARLYLEEQDERVKAIASALKTTSADVLDRVNALIDERKKLERELADARK</Hsp_hseq>
+      <Hsp_midline>+PLDLTQDALRQRGIAVDTEG   AMERQKAEARAN            W G  +    T + G             ++D V                                   G    IAVKDTQKKGEGVFVHI  VTEGTAKAGDV                         ALRETLGT                 FSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDD         FGEKYGDEVRVVSMGTAK                                        RRLEAL     RLYLEEQDERVKAIASALKTTSADVLD VNALIDERKKLERELADARK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>82.0333</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>5.98801e-13</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>AFLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGA--PLMWPL</Hsp_qseq>
+      <Hsp_hseq>SFLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGAKEPLMWRL</Hsp_hseq>
+      <Hsp_midline>+FLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGA  PLMW L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_006174321.1|</Hit_id>
+  <Hit_def>MULTISPECIES: alanine--tRNA ligase [Brucella] &gt;gb|AHB01889.1| alanyl-tRNA synthetase [Brucella ceti TE28753-12] &gt;gb|AHA99332.1| alanyl-tRNA synthetase [Brucella ceti TE10759-12] &gt;gb|EEX98229.1| alanyl-tRNA synthetase [Brucella ceti M644/93/1] &gt;gb|ENR11172.1| alanyl-tRNA synthetase [Brucella sp. UK38/05] &gt;gb|ENT10460.1| alanyl-tRNA synthetase [Brucella sp. F5/06]</Hit_def>
+  <Hit_accession>WP_006174321</Hit_accession>
+  <Hit_len>885</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>252.677</Hsp_bit-score>
+      <Hsp_score>644</Hsp_score>
+      <Hsp_evalue>2.72343e-73</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>397</Hsp_hit-from>
+      <Hsp_hit-to>761</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>161</Hsp_gaps>
+      <Hsp_align-len>365</Hsp_align-len>
+      <Hsp_qseq>WPLDLTQDALRQRGIAVDTEG---AMERQKAEARAN------------WTGSGEAATETIWFG-------------IKDKV-----------------------------------GATEFIAVKDTQKKGEGVFVHI--VTEGTAKAGDV-------------------------ALRETLGT-----------------FSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDD---------FGEKYGDEVRVVSMGTAK----------------------------------------RRLEAL-----RLYLEEQDERVKAIASALKTTSADVLDHVNALIDERKKLERELADARK</Hsp_qseq>
+      <Hsp_hseq>FPLDLTQDALRQRGIAVDTEGFNVAMERQKAEARANWTGSGEAATETIWFGIKDKVGATEFLGYETESAEGVIASLVRDSVEVPSVREGETISVVVNQTPFYGESGGQQGDTGTISGEGFVIAVKDTQKKGEGVFVHIGEVTEGTAKAGDVVELKVDSARRTRIRSNHSATHLLHEALRETLGTHVAQKGSLVAPDRLRFDFSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDDAIAEGAMALFGEKYGDEVRVVSMGTAKHGSKAGKAYSVELCGGTHVRQTGDIGLVRIISEGGVAAGVRRLEALTGEAARLYLEEQDERVKAIASALKTTSADVLDRVNALIDERKKLERELADARK</Hsp_hseq>
+      <Hsp_midline>+PLDLTQDALRQRGIAVDTEG   AMERQKAEARAN            W G  +    T + G             ++D V                                   G    IAVKDTQKKGEGVFVHI  VTEGTAKAGDV                         ALRETLGT                 FSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDD         FGEKYGDEVRVVSMGTAK                                        RRLEAL     RLYLEEQDERVKAIASALKTTSADVLD VNALIDERKKLERELADARK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>6.43783e-13</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>284</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>AFLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGA--PLMWPL</Hsp_qseq>
+      <Hsp_hseq>SFLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGAKEPLMWRL</Hsp_hseq>
+      <Hsp_midline>+FLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGA  PLMW L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_129171617.1|</Hit_id>
+  <Hit_def>alanine--tRNA ligase, partial [Brucella canis] &gt;gb|RXX12468.1| alanine--tRNA ligase, partial [Brucella canis]</Hit_def>
+  <Hit_accession>WP_129171617</Hit_accession>
+  <Hit_len>878</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>252.292</Hsp_bit-score>
+      <Hsp_score>643</Hsp_score>
+      <Hsp_evalue>3.95225e-73</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>397</Hsp_hit-from>
+      <Hsp_hit-to>761</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>161</Hsp_gaps>
+      <Hsp_align-len>365</Hsp_align-len>
+      <Hsp_qseq>WPLDLTQDALRQRGIAVDTEG---AMERQKAEARAN------------WTGSGEAATETIWFG-------------IKDKV-----------------------------------GATEFIAVKDTQKKGEGVFVHI--VTEGTAKAGDV-------------------------ALRETLGT-----------------FSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDD---------FGEKYGDEVRVVSMGTAK----------------------------------------RRLEAL-----RLYLEEQDERVKAIASALKTTSADVLDHVNALIDERKKLERELADARK</Hsp_qseq>
+      <Hsp_hseq>FPLDLTQDALRQRGIAVDTEGFNVAMERQKAEARANWTGSGEAATETIWFGIKDKVGATEFLGYETESAEGVIASLVRDGVEVPSVREGETISVVVNQTPFYGESGGQQGDTGTISGEGFVIAVKDTQKKGEGVFVHIGEVTEGTAKAGDVVELKVDSARRTRIRSNHSATHLLHEALRETLGTHVAQKGSLVAPDRLRFDFSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDDAIAEGAMALFGEKYGDEVRVVSMGTAKHGSKAGKAYSVELCGGTHVRQTGDIGLVRIISEGGVAAGVRRLEALTGEAARLYLEEQDERVKAIASALKTTSADVLDRVNALIDERKKLERELADARK</Hsp_hseq>
+      <Hsp_midline>+PLDLTQDALRQRGIAVDTEG   AMERQKAEARAN            W G  +    T + G             ++D V                                   G    IAVKDTQKKGEGVFVHI  VTEGTAKAGDV                         ALRETLGT                 FSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDD         FGEKYGDEVRVVSMGTAK                                        RRLEAL     RLYLEEQDERVKAIASALKTTSADVLD VNALIDERKKLERELADARK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>6.30429e-13</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>284</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>AFLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGA--PLMWPL</Hsp_qseq>
+      <Hsp_hseq>SFLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGAKEPLMWRL</Hsp_hseq>
+      <Hsp_midline>+FLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGA  PLMW L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_065879745.1|</Hit_id>
+  <Hit_def>alanine--tRNA ligase [Brucella melitensis] &gt;gb|OCW12249.1| alanine--tRNA ligase [Brucella melitensis]</Hit_def>
+  <Hit_accession>WP_065879745</Hit_accession>
+  <Hit_len>885</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>252.292</Hsp_bit-score>
+      <Hsp_score>643</Hsp_score>
+      <Hsp_evalue>4.03122e-73</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>397</Hsp_hit-from>
+      <Hsp_hit-to>761</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>161</Hsp_gaps>
+      <Hsp_align-len>365</Hsp_align-len>
+      <Hsp_qseq>WPLDLTQDALRQRGIAVDTEG---AMERQKAEARAN------------WTGSGEAATETIWFGIKDK----------------------------VGATEF--------------------IAVKDTQKKGEGVFVHI--VTEGTAKAGDV-------------------------ALRETLGT-----------------FSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDD---------FGEKYGDEVRVVSMGTAK----------------------------------------RRLEAL-----RLYLEEQDERVKAIASALKTTSADVLDHVNALIDERKKLERELADARK</Hsp_qseq>
+      <Hsp_hseq>FPLDLTQDALRQRGIAVDTEGFNVAMERQKAEARANWTGSGEAATETIWFGIKDKVGATEFLGYETESAEGVIASLVRDGVEVPSVREGETISVVVNQTPFYGESGGQQGDTGTISGEGFVIAVKDTQKKGEGVFVHIGEVTEGTAKAGDVVELKVDSARRTRIRSNHSATHLLHEALRETLGTHVAQKGSLVAPDRLRFDFSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDDAIAEGAMALFGEKYGDEVRVVSMGTAKHGSKAGKAYSVELCGGTHVRQTGDIGLVRIISEGGVAAGVRRLEALTGEAARLYLEEQDERVKAIASALKTTSADVLDRVNALIDERKKLERELADARK</Hsp_hseq>
+      <Hsp_midline>+PLDLTQDALRQRGIAVDTEG   AMERQKAEARAN            W G  +    T + G + +                            V  T F                    IAVKDTQKKGEGVFVHI  VTEGTAKAGDV                         ALRETLGT                 FSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDD         FGEKYGDEVRVVSMGTAK                                        RRLEAL     RLYLEEQDERVKAIASALKTTSADVLD VNALIDERKKLERELADARK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>6.55926e-13</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>284</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>AFLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGA--PLMWPL</Hsp_qseq>
+      <Hsp_hseq>SFLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGAKEPLMWRL</Hsp_hseq>
+      <Hsp_midline>+FLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGA  PLMW L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_153526951.1|</Hit_id>
+  <Hit_def>alanine--tRNA ligase [Brucella sp. 2280] &gt;gb|QGA56016.1| alanine--tRNA ligase [Brucella sp. 2280]</Hit_def>
+  <Hit_accession>WP_153526951</Hit_accession>
+  <Hit_len>885</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.906</Hsp_bit-score>
+      <Hsp_score>642</Hsp_score>
+      <Hsp_evalue>4.70606e-73</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>397</Hsp_hit-from>
+      <Hsp_hit-to>761</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>161</Hsp_gaps>
+      <Hsp_align-len>365</Hsp_align-len>
+      <Hsp_qseq>WPLDLTQDALRQRGIAVDTEG---AMERQKAEARAN------------WTGSGEAATETIWFG-------------IKDKV-----------------------------------GATEFIAVKDTQKKGEGVFVHI--VTEGTAKAGDV-------------------------ALRETLGT-----------------FSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDD---------FGEKYGDEVRVVSMGTAK----------------------------------------RRLEAL-----RLYLEEQDERVKAIASALKTTSADVLDHVNALIDERKKLERELADARK</Hsp_qseq>
+      <Hsp_hseq>FPLDLTQDALRQRGIAVDTEGFNAAMERQKAEARANWTGSGEAATETIWFGIKDKVGATEFLGYETESAEGVIASLVRDGVEVPSVRKGETISVVVNQTPFYGESGGQQGDTGTISGEGFVIAVKDTQKKGEGVFVHIGEVTEGTAKAGDVVELKVDSARRTRIRSNHSATHLLHEALRETLGTHVAQKGSLVAPDRLRFDFSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDDAIAEGAMALFGEKYGDEVRVVSMGTAKHGSKAGKAYSVELCGGTHVRQTGDIGLVRIVSEGGVAAGVRRLEALTGEAARLYLEEQDERVKAIASALKTTSADVLDRVNALIDERKKLERELADARK</Hsp_hseq>
+      <Hsp_midline>+PLDLTQDALRQRGIAVDTEG   AMERQKAEARAN            W G  +    T + G             ++D V                                   G    IAVKDTQKKGEGVFVHI  VTEGTAKAGDV                         ALRETLGT                 FSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDD         FGEKYGDEVRVVSMGTAK                                        RRLEAL     RLYLEEQDERVKAIASALKTTSADVLD VNALIDERKKLERELADARK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>6.43783e-13</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>284</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>AFLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGA--PLMWPL</Hsp_qseq>
+      <Hsp_hseq>SFLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGAKEPLMWRL</Hsp_hseq>
+      <Hsp_midline>+FLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGA  PLMW L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_008934152.1|</Hit_id>
+  <Hit_def>alanine--tRNA ligase [Brucella sp. NVSL 07-0026] &gt;gb|EFG38124.1| alanyl-tRNA synthetase [Brucella sp. NVSL 07-0026]</Hit_def>
+  <Hit_accession>WP_008934152</Hit_accession>
+  <Hit_len>885</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.906</Hsp_bit-score>
+      <Hsp_score>642</Hsp_score>
+      <Hsp_evalue>4.75487e-73</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>397</Hsp_hit-from>
+      <Hsp_hit-to>761</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>161</Hsp_gaps>
+      <Hsp_align-len>365</Hsp_align-len>
+      <Hsp_qseq>WPLDLTQDALRQRGIAVDTEG---AMERQKAEARAN------------WTGSGEAATETIWFG-------------IKDKV-----------------------------------GATEFIAVKDTQKKGEGVFVHI--VTEGTAKAGDV-------------------------ALRETLGT-----------------FSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDD---------FGEKYGDEVRVVSMGTAK----------------------------------------RRLEAL-----RLYLEEQDERVKAIASALKTTSADVLDHVNALIDERKKLERELADARK</Hsp_qseq>
+      <Hsp_hseq>FPLDLTQDALRQRGIAVDTEGFNVAMERQKAEARANWTGSGEAATETIWFGIKDKVGATEFLGYETESAEGVIASLVRDGVEVPSVREGETISVVANQTPFYGESGGQQGDTGTISGEGFVIAVKDTQKKGEGVFVHIGEVTEGTAKAGDVVELKVDSARRTRIRSNHSATHLLHEALRETLGTHVAQKGSLVAPDRLRFDFSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDDAIAEGAMALFGEKYGDEVRVVSMGTAKHGSKAGKAYSVELCGGTHVRQTGDIGLVRIISEGGVAAGVRRLEALTGEAARLYLEEQDERVKAIASALKTTSADVLDRVNALIDERKKLERELADARK</Hsp_hseq>
+      <Hsp_midline>+PLDLTQDALRQRGIAVDTEG   AMERQKAEARAN            W G  +    T + G             ++D V                                   G    IAVKDTQKKGEGVFVHI  VTEGTAKAGDV                         ALRETLGT                 FSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDD         FGEKYGDEVRVVSMGTAK                                        RRLEAL     RLYLEEQDERVKAIASALKTTSADVLD VNALIDERKKLERELADARK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>6.80903e-13</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>284</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>AFLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGA--PLMWPL</Hsp_qseq>
+      <Hsp_hseq>SFLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGAKEPLMWRL</Hsp_hseq>
+      <Hsp_midline>+FLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGA  PLMW L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_004685695.1|</Hit_id>
+  <Hit_def>alanine--tRNA ligase [Brucella melitensis] &gt;gb|AIJ85065.1| alanine--tRNA ligase [Brucella melitensis bv. 3 str. Ether] &gt;gb|AOG49904.1| alanine--tRNA ligase [Brucella melitensis] &gt;gb|ARY27925.1| alanine--tRNA ligase [Brucella melitensis] &gt;gb|ARY37398.1| alanine--tRNA ligase [Brucella melitensis] &gt;gb|EEZ12018.1| alanyl-tRNA synthetase [Brucella melitensis bv. 3 str. Ether]</Hit_def>
+  <Hit_accession>WP_004685695</Hit_accession>
+  <Hit_len>885</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.906</Hsp_bit-score>
+      <Hsp_score>642</Hsp_score>
+      <Hsp_evalue>4.80419e-73</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>397</Hsp_hit-from>
+      <Hsp_hit-to>761</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>161</Hsp_gaps>
+      <Hsp_align-len>365</Hsp_align-len>
+      <Hsp_qseq>WPLDLTQDALRQRGIAVDTEG---AMERQKAEARAN------------WTGSGEAATETIWFGIKDK----------------------------VGATEF--------------------IAVKDTQKKGEGVFVHI--VTEGTAKAGDV-------------------------ALRETLGT-----------------FSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDD---------FGEKYGDEVRVVSMGTAK----------------------------------------RRLEAL-----RLYLEEQDERVKAIASALKTTSADVLDHVNALIDERKKLERELADARK</Hsp_qseq>
+      <Hsp_hseq>FPLDLTQDALRQRGIAVDTEGFNVAMERQKAEARANWTGSGEAATETIWFGIKDKVGATEFLGYETESAEGVIASLVRDGVEVPSVREGETISVVVNQTPFYGESGGQQGDTGTISGEGFVIAVKDTQKKGEGVFVHIGEVTEGTAKAGDVVELKVDSARRTRIRSNHSATHLLHEALRETLGTHVAQKGSLVAPDRLRFDFSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDDAIAEGAMALFGEKYGDEVRVVSMGTAKHGSKAGKAYSVELCGGTHVRQTGDIGLVRIISEGGVAAGVRRLEALTGEAARLYLEEQDERVKAIASALKTTSADVLDRVNALIDERKKLERELADARK</Hsp_hseq>
+      <Hsp_midline>+PLDLTQDALRQRGIAVDTEG   AMERQKAEARAN            W G  +    T + G + +                            V  T F                    IAVKDTQKKGEGVFVHI  VTEGTAKAGDV                         ALRETLGT                 FSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDD         FGEKYGDEVRVVSMGTAK                                        RRLEAL     RLYLEEQDERVKAIASALKTTSADVLD VNALIDERKKLERELADARK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>6.87294e-13</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>284</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>AFLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGA--PLMWPL</Hsp_qseq>
+      <Hsp_hseq>SFLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGAKEPLMWRL</Hsp_hseq>
+      <Hsp_midline>+FLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGA  PLMW L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_346204080.1|</Hit_id>
+  <Hit_def>alanine--tRNA ligase [Brucella melitensis] &gt;gb|MEN3397065.1| alanine--tRNA ligase [Brucella melitensis]</Hit_def>
+  <Hit_accession>WP_346204080</Hit_accession>
+  <Hit_len>885</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.906</Hsp_bit-score>
+      <Hsp_score>642</Hsp_score>
+      <Hsp_evalue>4.90436e-73</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>397</Hsp_hit-from>
+      <Hsp_hit-to>761</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>161</Hsp_gaps>
+      <Hsp_align-len>365</Hsp_align-len>
+      <Hsp_qseq>WPLDLTQDALRQRGIAVDTEG---AMERQKAEARAN------------WTGSGEAATETIWFG-------------IKDKV-----------------------------------GATEFIAVKDTQKKGEGVFVHI--VTEGTAKAGDV-------------------------ALRETLGT-----------------FSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDD---------FGEKYGDEVRVVSMGTAK----------------------------------------RRLEAL-----RLYLEEQDERVKAIASALKTTSADVLDHVNALIDERKKLERELADARK</Hsp_qseq>
+      <Hsp_hseq>FPLDLTQDALRQRGIAVDTEGFNVAMERQKAEARANWTGSGEAATETIWFGIKDKVGATEFLGYETESAEGVIASLVRDGVEVPSVREGETISVVVNQTPFYGESGGQQGDTGTISGEGFVIAVKDTQKKGEGVFVHIGEVTEGTAKAGDVVELKVDSARRTRIRSNHSATHLLHEALRETLGTHVAQKGSLVAPDRLRFDFSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDDAIAEGAMALFGEKYGDEVRVVSMGTAKHGSKAGKAYSVELCGGTHVRQTGDIGLVRIISEGGVAAGVRRLEALTGEAARLYLEEQDERVKAIASALKTTSADVLDRVNALIDERKKLERELADARK</Hsp_hseq>
+      <Hsp_midline>+PLDLTQDALRQRGIAVDTEG   AMERQKAEARAN            W G  +    T + G             ++D V                                   G    IAVKDTQKKGEGVFVHI  VTEGTAKAGDV                         ALRETLGT                 FSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDD         FGEKYGDEVRVVSMGTAK                                        RRLEAL     RLYLEEQDERVKAIASALKTTSADVLD VNALIDERKKLERELADARK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>6.62083e-13</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>284</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>AFLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGA--PLMWPL</Hsp_qseq>
+      <Hsp_hseq>SFLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGAKEPLMWRL</Hsp_hseq>
+      <Hsp_midline>+FLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGA  PLMW L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_017750263.1|</Hit_id>
+  <Hit_def>alanine--tRNA ligase [Brucella melitensis] &gt;gb|MEQ3589263.1| alanine--tRNA ligase [Brucella melitensis] &gt;gb|MWC25965.1| alanine--tRNA ligase [Brucella melitensis] &gt;gb|USI14851.1| alanine--tRNA ligase [Brucella melitensis]</Hit_def>
+  <Hit_accession>WP_017750263</Hit_accession>
+  <Hit_len>885</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.906</Hsp_bit-score>
+      <Hsp_score>642</Hsp_score>
+      <Hsp_evalue>4.90436e-73</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>397</Hsp_hit-from>
+      <Hsp_hit-to>761</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>161</Hsp_gaps>
+      <Hsp_align-len>365</Hsp_align-len>
+      <Hsp_qseq>WPLDLTQDALRQRGIAVDTEG---AMERQKAEARAN------------WTGSGEAATETIWFG-------------IKDKV-----------------------------------GATEFIAVKDTQKKGEGVFVHI--VTEGTAKAGDV-------------------------ALRETLGT-----------------FSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDD---------FGEKYGDEVRVVSMGTAK----------------------------------------RRLEAL-----RLYLEEQDERVKAIASALKTTSADVLDHVNALIDERKKLERELADARK</Hsp_qseq>
+      <Hsp_hseq>FPLDLTQDALRQRGIAVDTEGFNVAMERQKAEARANWTGSGEAATETIWFGIKDKVGATEFLGYETESAEGVIASLVRDGVEVPSVREGETISVVVNQTPFYGESGGQQGDTGTISGEGFVIAVKDTQKKGEGVFVHIGEVTEGTAKAGDVVELKVDSARRTRIRSNHSATHLLHEALRETLGTHVAQKGSLVAPDRLRFDFSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDDAIAEGAMALFGEKYGDEVRVVSMGTAKHGSKAGKAYSVELCGGTHVRQTGDIGLVRIISEGGVAAGVRRLEALTGEAARLYLEEQDERVKAIASALKTTSADVLDRVNALIDERKKLERELADARK</Hsp_hseq>
+      <Hsp_midline>+PLDLTQDALRQRGIAVDTEG   AMERQKAEARAN            W G  +    T + G             ++D V                                   G    IAVKDTQKKGEGVFVHI  VTEGTAKAGDV                         ALRETLGT                 FSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDD         FGEKYGDEVRVVSMGTAK                                        RRLEAL     RLYLEEQDERVKAIASALKTTSADVLD VNALIDERKKLERELADARK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>6.68298e-13</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>284</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>AFLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGA--PLMWPL</Hsp_qseq>
+      <Hsp_hseq>SFLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGAKEPLMWRL</Hsp_hseq>
+      <Hsp_midline>+FLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGA  PLMW L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_075630170.1|</Hit_id>
+  <Hit_def>MULTISPECIES: alanine--tRNA ligase [unclassified Brucella]</Hit_def>
+  <Hit_accession>WP_075630170</Hit_accession>
+  <Hit_len>885</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.906</Hsp_bit-score>
+      <Hsp_score>642</Hsp_score>
+      <Hsp_evalue>4.95522e-73</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>397</Hsp_hit-from>
+      <Hsp_hit-to>761</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>161</Hsp_gaps>
+      <Hsp_align-len>365</Hsp_align-len>
+      <Hsp_qseq>WPLDLTQDALRQRGIAVDTEG---AMERQKAEARAN------------WTGSGEAATETIWFGIKDK----------------------------VGATEF--------------------IAVKDTQKKGEGVFVHI--VTEGTAKAGDV-------------------------ALRETLGT-----------------FSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDD---------FGEKYGDEVRVVSMGTAK----------------------------------------RRLEAL-----RLYLEEQDERVKAIASALKTTSADVLDHVNALIDERKKLERELADARK</Hsp_qseq>
+      <Hsp_hseq>FPLDLTQDALRQRGIAVDTEGFNVAMERQKAEARANWTGSGEAATETIWFGIKDKVGATEFLGYETESAEGVIASLVRDGVEVPSVREGETISVVVNQTPFYGESGGQQGDTGTISGEGFVIAVKDTQKKGEGVFVHIGEVTEGTAKAGDVVELKVDSARRTRIRSNHSATHLLHEALRETLGTHVAQKGSLVAPDRLRFDFSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDDAIAEGAMALFGEKYGDEVRVVSMGTAKHGSKAGKAYSVELCGGTHVRQTGDIGLVRIISEGGVAAGVRRLEALTGEAARLYLEEQDERVKAIASALKTTSADVLDRVNALIDERKKLERELADARK</Hsp_hseq>
+      <Hsp_midline>+PLDLTQDALRQRGIAVDTEG   AMERQKAEARAN            W G  +    T + G + +                            V  T F                    IAVKDTQKKGEGVFVHI  VTEGTAKAGDV                         ALRETLGT                 FSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDD         FGEKYGDEVRVVSMGTAK                                        RRLEAL     RLYLEEQDERVKAIASALKTTSADVLD VNALIDERKKLERELADARK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>6.87294e-13</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>284</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>AFLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGA--PLMWPL</Hsp_qseq>
+      <Hsp_hseq>SFLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGAKEPLMWRL</Hsp_hseq>
+      <Hsp_midline>+FLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGA  PLMW L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_006087665.1|</Hit_id>
+  <Hit_def>alanine--tRNA ligase [Brucella abortus] &gt;gb|ENR70499.1| alanyl-tRNA synthetase [Brucella abortus 63/294] &gt;gb|ENS11769.1| alanyl-tRNA synthetase [Brucella abortus 88/217] &gt;gb|ERU02503.1| alanyl-tRNA synthetase [Brucella abortus 07-0994-2411]</Hit_def>
+  <Hit_accession>WP_006087665</Hit_accession>
+  <Hit_len>885</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.906</Hsp_bit-score>
+      <Hsp_score>642</Hsp_score>
+      <Hsp_evalue>5.00662e-73</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>397</Hsp_hit-from>
+      <Hsp_hit-to>761</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>161</Hsp_gaps>
+      <Hsp_align-len>365</Hsp_align-len>
+      <Hsp_qseq>WPLDLTQDALRQRGIAVDTEG---AMERQKAEARAN------------WTGSGEAATETIWFGIKDK----------------------------VGATEF--------------------IAVKDTQKKGEGVFVHI--VTEGTAKAGDV-------------------------ALRETLGT-----------------FSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDD---------FGEKYGDEVRVVSMGTAK----------------------------------------RRLEAL-----RLYLEEQDERVKAIASALKTTSADVLDHVNALIDERKKLERELADARK</Hsp_qseq>
+      <Hsp_hseq>FPLDLTQDALRQRGIAVDTEGFNVAMERQKAEARANWTGSGEAATETIWFGIKDKVGATEFLGYETESAEGVIASLVRDGVEVPSVREGETISVVVNQTPFYGESGGQQGDTGTISGEGFVIAVKDTQKKGEGVFVHIGEVTEGTAKAGDVVELKVDSARRTRIRSNHSATHLLHEALRETLGTHVAQKGSLVAPDRLRFDFSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDDAIAEGAMALFGEKYGDEVRVVSMGTAKHGSKAGKAYSVELCGGTHVRQTGDIGLVRIISEGGVAAGVRRLEALTGEAARLYLEEQDERVKAIASALKTTSADVLDRVNALIDERKKLERELADARK</Hsp_hseq>
+      <Hsp_midline>+PLDLTQDALRQRGIAVDTEG   AMERQKAEARAN            W G  +    T + G + +                            V  T F                    IAVKDTQKKGEGVFVHI  VTEGTAKAGDV                         ALRETLGT                 FSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDD         FGEKYGDEVRVVSMGTAK                                        RRLEAL     RLYLEEQDERVKAIASALKTTSADVLD VNALIDERKKLERELADARK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>6.87294e-13</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>284</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>AFLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGA--PLMWPL</Hsp_qseq>
+      <Hsp_hseq>SFLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGAKEPLMWRL</Hsp_hseq>
+      <Hsp_midline>+FLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGA  PLMW L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_006199377.1|</Hit_id>
+  <Hit_def>alanine--tRNA ligase [Brucella suis] &gt;gb|ENT44457.1| alanyl-tRNA synthetase [Brucella suis F5/05-4] &gt;gb|QOK70101.1| alanine--tRNA ligase [Brucella suis bv. 2]</Hit_def>
+  <Hit_accession>WP_006199377</Hit_accession>
+  <Hit_len>885</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.906</Hsp_bit-score>
+      <Hsp_score>642</Hsp_score>
+      <Hsp_evalue>5.00662e-73</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>397</Hsp_hit-from>
+      <Hsp_hit-to>761</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>161</Hsp_gaps>
+      <Hsp_align-len>365</Hsp_align-len>
+      <Hsp_qseq>WPLDLTQDALRQRGIAVDTEG---AMERQKAEARAN------------WTGSGEAATETIWFGIKDK----------------------------VGATEF--------------------IAVKDTQKKGEGVFVHI--VTEGTAKAGDV-------------------------ALRETLGT-----------------FSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDD---------FGEKYGDEVRVVSMGTAK----------------------------------------RRLEAL-----RLYLEEQDERVKAIASALKTTSADVLDHVNALIDERKKLERELADARK</Hsp_qseq>
+      <Hsp_hseq>FPLDLTQDALRQRGIAVDTEGFNVAMERQKAEARANWTGSGEAATETIWFGIKDKVGATEFLGYETESAEGVIASLVRDGVEVPSVREGETISVVVNQTPFYGESGGQQGDTGTISGEGFVIAVKDTQKKGEGVFVHIGEVTEGTAKAGDVVELKVDSARRTRIRSNHSATHLLHEALRETLGTHVAQKGSLVAPDRLRFDFSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDDAIAEGAMALFGEKYGDEVRVVSMGTAKHGSKAGKAYSVELCGGTHVRQTGDIGLVRIISEGGVAAGVRRLEALTGEAARLYLEEQDERVKAIASALKTTSADVLDRVNALIDERKKLERELADARK</Hsp_hseq>
+      <Hsp_midline>+PLDLTQDALRQRGIAVDTEG   AMERQKAEARAN            W G  +    T + G + +                            V  T F                    IAVKDTQKKGEGVFVHI  VTEGTAKAGDV                         ALRETLGT                 FSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDD         FGEKYGDEVRVVSMGTAK                                        RRLEAL     RLYLEEQDERVKAIASALKTTSADVLD VNALIDERKKLERELADARK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>80.1073</Hsp_bit-score>
+      <Hsp_score>196</Hsp_score>
+      <Hsp_evalue>2.31345e-12</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>284</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>AFLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGA--PLMWPL</Hsp_qseq>
+      <Hsp_hseq>SFLIADGVLPSNEGRGYVLRRIMRRAMRHTQLLGAKEPLMWRL</Hsp_hseq>
+      <Hsp_midline>+FLIADGVLPSNEGRGYVLRRIMRRAMRH QLLGA  PLMW L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_002964330.1|</Hit_id>
+  <Hit_def>unnamed protein product [Brucella pinnipedialis] &gt;sp|A9M5L7.1| RecName: Full=Alanine--tRNA ligase; AltName: Full=Alanyl-tRNA synthetase; Short=AlaRS [Brucella canis ATCC 23365] &gt;sp|B0CGZ9.1| RecName: Full=Alanine--tRNA ligase; AltName: Full=Alanyl-tRNA synthetase; Short=AlaRS [Brucella suis ATCC 23445] &gt;sp|P67008.1| RecName: Full=Alanine--tRNA ligase; AltName: Full=Alanyl-tRNA synthetase; Short=AlaRS [Brucella melitensis bv. 1 str. 16M] &gt;sp|P67009.1| RecName: Full=Alanine--tRNA ligase; AltName: Full=Alanyl-tRNA synthetase; Short=AlaRS [Brucella suis 1330] &gt;sp|Q2YRU8.1| RecName: Full=Alanine--tRNA ligase; AltName: Full=Alanyl-tRNA synthetase; Short=AlaRS [Brucella abortus 2308] &gt;sp|Q57CU0.1| RecName: Full=Alanine--tRNA ligase; AltName: Full=Alanyl-tRNA synthetase; Short=AlaRS [Brucella abortus bv. 1 str. 9-941] &gt;gb|EEH14721.1| alanyl-tRNA synthetase [Brucella ceti str. Cudo] &gt;gb|EPZ75262.1| alanyl-tRNA synthetase [Brucella melitensis ADMAS-G1] &gt;gb|ERM85488.1| alanyl-tRNA synthetase [Brucella abortus 82] &gt;gb|KFH20350.1| alanyl-tRNA synthetase [Brucella abortus LMN1] &gt;gb|AAL51970.1| alanyl-tRNA synthetase [Brucella melitensis bv. 1 str. 16M]</Hit_def>
+  <Hit_accession>WP_002964330</Hit_accession>
+  <Hit_len>885</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.906</Hsp_bit-score>
+      <Hsp_score>642</Hsp_score>
+      <Hsp_evalue>5.11101e-73</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>397</Hsp_hit-from>
+      <Hsp_hit-to>761</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>161</Hsp_gaps>
+      <Hsp_align-len>365</Hsp_align-len>
+      <Hsp_qseq>WPLDLTQDALRQRGIAVDTEG---AMERQKAEARAN------------WTGSGEAATETIWFGIKDK----------------------------VGATEF--------------------IAVKDTQKKGEGVFVHI--VTEGTAKAGDV-------------------------ALRETLGT-----------------FSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDD---------FGEKYGDEVRVVSMGTAK----------------------------------------RRLEAL-----RLYLEEQDERVKAIASALKTTSADVLDHVNALIDERKKLERELADARK</Hsp_qseq>
+      <Hsp_hseq>FPLDLTQDALRQRGIAVDTEGFNVAMERQKAEARANWTGSGEAATETIWFGIKDKVGATEFLGYETESAEGVIASLVRDGVEVPSVREGETISVVVNQTPFYGESGGQQGDTGTISGEGFVIAVKDTQKKGEGVFVHIGEVTEGTAKAGDVVELKVDSARRTRIRSNHSATHLLHEALRETLGTHVAQKGSLVAPDRLRFDFSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDDAIAEGAMALFGEKYGDEVRVVSMGTAKHGSKAGKAYSVELCGGTHVRQTGDIGLVRIISEGGVAAGVRRLEALTGEAARLYLEEQDERVKAIASALKTTSADVLDRVNALIDERKKLERELADARK</Hsp_hseq>
+      <Hsp_midline>+PLDLTQDALRQRGIAVDTEG   AMERQKAEARAN            W G  +    T + G + +                            V  T F                    IAVKDTQKKGEGVFVHI  VTEGTAKAGDV                         ALRETLGT                 FSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDD         FGEKYGDEVRVVSMGTAK                                        RRLEAL     RLYLEEQDERVKAIASALKTTSADVLD VNALIDERKKLERELADARK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>6.87294e-13</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>284</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>AFLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGA--PLMWPL</Hsp_qseq>
+      <Hsp_hseq>SFLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGAKEPLMWRL</Hsp_hseq>
+      <Hsp_midline>+FLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGA  PLMW L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_103053188.1|</Hit_id>
+  <Hit_def>alanine--tRNA ligase [Brucella melitensis] &gt;gb|AUS46091.1| alanine--tRNA ligase [Brucella melitensis]</Hit_def>
+  <Hit_accession>WP_103053188</Hit_accession>
+  <Hit_len>885</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.906</Hsp_bit-score>
+      <Hsp_score>642</Hsp_score>
+      <Hsp_evalue>5.11101e-73</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>397</Hsp_hit-from>
+      <Hsp_hit-to>761</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>161</Hsp_gaps>
+      <Hsp_align-len>365</Hsp_align-len>
+      <Hsp_qseq>WPLDLTQDALRQRGIAVDTEG---AMERQKAEARAN------------WTGSGEAATETIWFGIKDK----------------------------VGATEF--------------------IAVKDTQKKGEGVFVHI--VTEGTAKAGDV-------------------------ALRETLGT-----------------FSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDD---------FGEKYGDEVRVVSMGTAK----------------------------------------RRLEAL-----RLYLEEQDERVKAIASALKTTSADVLDHVNALIDERKKLERELADARK</Hsp_qseq>
+      <Hsp_hseq>FPLDLTQDALRQRGIAVDTEGFNVAMERQKAEARANWTGSGEAATETIWFGIKDKVGATEFLGYETESAEGVIASLVRDGVEVPSVREGETISVVVNQTPFYGESGGQQGDTGTISGEGFVIAVKDTQKKGEGVFVHIGEVTEGTAKAGDVVELKVDSARRTRIRSNHSATHLLHEALRETLGTHVAQKGSLVAPDRLRFDFSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDDAIAEGAMALFGEKYGDEVRVVSMGTAKHGSKAGKAYSVELCGGTHVRQTGDIGLVRIISEGGVAAGVRRLEALTGEAARLYLEEQDERVKAIASALKTTSADVLDRVNALIDERKKLERELADARK</Hsp_hseq>
+      <Hsp_midline>+PLDLTQDALRQRGIAVDTEG   AMERQKAEARAN            W G  +    T + G + +                            V  T F                    IAVKDTQKKGEGVFVHI  VTEGTAKAGDV                         ALRETLGT                 FSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDD         FGEKYGDEVRVVSMGTAK                                        RRLEAL     RLYLEEQDERVKAIASALKTTSADVLD VNALIDERKKLERELADARK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>6.87294e-13</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>284</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>AFLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGA--PLMWPL</Hsp_qseq>
+      <Hsp_hseq>SFLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGAKEPLMWRL</Hsp_hseq>
+      <Hsp_midline>+FLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGA  PLMW L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_404782018.1|</Hit_id>
+  <Hit_def>MULTISPECIES: alanine--tRNA ligase [unclassified Brucella]</Hit_def>
+  <Hit_accession>WP_404782018</Hit_accession>
+  <Hit_len>885</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.906</Hsp_bit-score>
+      <Hsp_score>642</Hsp_score>
+      <Hsp_evalue>5.16401e-73</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>397</Hsp_hit-from>
+      <Hsp_hit-to>761</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>161</Hsp_gaps>
+      <Hsp_align-len>365</Hsp_align-len>
+      <Hsp_qseq>WPLDLTQDALRQRGIAVDTEG---AMERQKAEARAN------------WTGSGEAATETIWFG-------------IKDKV-----------------------------------GATEFIAVKDTQKKGEGVFVHI--VTEGTAKAGDV-------------------------ALRETLGT-----------------FSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDD---------FGEKYGDEVRVVSMGTAK----------------------------------------RRLEAL-----RLYLEEQDERVKAIASALKTTSADVLDHVNALIDERKKLERELADARK</Hsp_qseq>
+      <Hsp_hseq>FPLDLTQDALRQRGIAVDTEGFNVAMERQKAEARANWTGSGEAATETIWFGIKDKVGATEFLGYETESAEGVIASLVRDGVEVPSVREGETISVVVNQTPFYGESGGQQGDMGTISGEGFVIAVKDTQKKGEGVFVHIGEVTEGTAKAGDVVELKVDSARRTRIRSNHSATHLLHEALRETLGTHVAQKGSLVAPDRLRFDFSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDDAIAEGAMALFGEKYGDEVRVVSMGTAKHGSKAGKAYSVELCGGTHVRQTGDIGLVRIVSEGGVAAGVRRLEALTGEAARLYLEEQDERVKAIASALKTTSADVLDRVNALIDERKKLERELADARK</Hsp_hseq>
+      <Hsp_midline>+PLDLTQDALRQRGIAVDTEG   AMERQKAEARAN            W G  +    T + G             ++D V                                   G    IAVKDTQKKGEGVFVHI  VTEGTAKAGDV                         ALRETLGT                 FSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDD         FGEKYGDEVRVVSMGTAK                                        RRLEAL     RLYLEEQDERVKAIASALKTTSADVLD VNALIDERKKLERELADARK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>7.06829e-13</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>284</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>AFLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGA--PLMWPL</Hsp_qseq>
+      <Hsp_hseq>SFLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGAKEPLMWRL</Hsp_hseq>
+      <Hsp_midline>+FLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGA  PLMW L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_284441774.1|</Hit_id>
+  <Hit_def>alanine--tRNA ligase [Brucella suis]</Hit_def>
+  <Hit_accession>WP_284441774</Hit_accession>
+  <Hit_len>885</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.906</Hsp_bit-score>
+      <Hsp_score>642</Hsp_score>
+      <Hsp_evalue>5.21757e-73</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>397</Hsp_hit-from>
+      <Hsp_hit-to>761</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>161</Hsp_gaps>
+      <Hsp_align-len>365</Hsp_align-len>
+      <Hsp_qseq>WPLDLTQDALRQRGIAVDTEG---AMERQKAEARAN------------WTGSGEAATETIWFGIKDK----------------------------VGATEF--------------------IAVKDTQKKGEGVFVHI--VTEGTAKAGDV-------------------------ALRETLGT-----------------FSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDD---------FGEKYGDEVRVVSMGTAK----------------------------------------RRLEAL-----RLYLEEQDERVKAIASALKTTSADVLDHVNALIDERKKLERELADARK</Hsp_qseq>
+      <Hsp_hseq>FPLDLTQDALRQRGIAVDTEGFNVAMERQKAEARANWTGSGEAATETIWFGIKDKVGATEFLGYETESAEGVIASLVRDGVEVPSVREGETISVVVNQTPFYGESGGQQGDTGTISGEGFVIAVKDTQKKGEGVFVHIGEVTEGTAKAGDVVELKVDSARRTRIRSNHSAMHLLHEALRETLGTHVAQKGSLVAPDRLRFDFSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDDAIAEGAMALFGEKYGDEVRVVSMGTAKHGSKAGKAYSVELCGGTHVRQTGDIGLVRIISEGGVAAGVRRLEALTGEAARLYLEEQDERVKAIASALKTTSADVLDRVNALIDERKKLERELADARK</Hsp_hseq>
+      <Hsp_midline>+PLDLTQDALRQRGIAVDTEG   AMERQKAEARAN            W G  +    T + G + +                            V  T F                    IAVKDTQKKGEGVFVHI  VTEGTAKAGDV                         ALRETLGT                 FSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDD         FGEKYGDEVRVVSMGTAK                                        RRLEAL     RLYLEEQDERVKAIASALKTTSADVLD VNALIDERKKLERELADARK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>7.06829e-13</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>284</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>AFLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGA--PLMWPL</Hsp_qseq>
+      <Hsp_hseq>SFLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGAKEPLMWRL</Hsp_hseq>
+      <Hsp_midline>+FLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGA  PLMW L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_006151187.1|</Hit_id>
+  <Hit_def>MULTISPECIES: alanine--tRNA ligase [Brucella] &gt;gb|ENS86350.1| alanyl-tRNA synthetase [Brucella melitensis UK3/06]</Hit_def>
+  <Hit_accession>WP_006151187</Hit_accession>
+  <Hit_len>885</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.906</Hsp_bit-score>
+      <Hsp_score>642</Hsp_score>
+      <Hsp_evalue>5.55078e-73</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>397</Hsp_hit-from>
+      <Hsp_hit-to>761</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>161</Hsp_gaps>
+      <Hsp_align-len>365</Hsp_align-len>
+      <Hsp_qseq>WPLDLTQDALRQRGIAVDTEG---AMERQKAEARAN------------WTGSGEAATETIWFGIKDK----------------------------VGATEF--------------------IAVKDTQKKGEGVFVHI--VTEGTAKAGDV-------------------------ALRETLGT-----------------FSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDD---------FGEKYGDEVRVVSMGTAK----------------------------------------RRLEAL-----RLYLEEQDERVKAIASALKTTSADVLDHVNALIDERKKLERELADARK</Hsp_qseq>
+      <Hsp_hseq>FPLDLTQDALRQRGIAVDTEGFNVAMERQKAEARANWTGSGEAATETIWFGIKDKVGATEFLGYETESAEGVIASLVRDGVEVPSVREGETISVVVNQTPFYGESGGQQGDTGTISGEGFVIAVKDTQKKGEGVFVHIGEVTEGTAKAGDVVELKVDSARRTRIRSNHSATHLLHEALRETLGTHVAQKGSLVAPDRLRFDFSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDDAIAEGAMALFGEKYGDEVRVVSMGTAKHGSKAGKAYSVELCGGTHVRQTGDIGLVRIISEGGVAAGVRRLEALTGEAARLYLEEQDERVKAIASALKTTSADVLDRVNALIDERKKLERELADARK</Hsp_hseq>
+      <Hsp_midline>+PLDLTQDALRQRGIAVDTEG   AMERQKAEARAN            W G  +    T + G + +                            V  T F                    IAVKDTQKKGEGVFVHI  VTEGTAKAGDV                         ALRETLGT                 FSHPKPISAEELEAVENLANEIILQNAPVTTRLMAVDD         FGEKYGDEVRVVSMGTAK                                        RRLEAL     RLYLEEQDERVKAIASALKTTSADVLD VNALIDERKKLERELADARK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>6.87294e-13</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>284</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>AFLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGA--PLMWPL</Hsp_qseq>
+      <Hsp_hseq>SFLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGAKEPLMWRL</Hsp_hseq>
+      <Hsp_midline>+FLIADGVLPSNEGRGYVLRRIMRRAMRHAQLLGA  PLMW L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>877105751</Statistics_db-num>
+      <Statistics_db-len>334462191313</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

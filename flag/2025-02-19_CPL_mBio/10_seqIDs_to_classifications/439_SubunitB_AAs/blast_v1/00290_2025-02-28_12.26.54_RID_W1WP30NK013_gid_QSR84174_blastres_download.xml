@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_2945371</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>196</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_2945371</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>196</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_206863339.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Methylacidimicrobium sp. B4] &gt;gb|QSR84174.1| MotA/TolQ/ExbB proton channel family protein [Methylacidimicrobium sp. B4]</Hit_def>
+  <Hit_accession>WP_206863339</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>330.487</Hsp_bit-score>
+      <Hsp_score>846</Hsp_score>
+      <Hsp_evalue>6.70914e-112</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>53</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>MFSYALFFSATGQAN-------------------VMWPILLCS--AAGVFLERMLF----------FLT----LLRKGRYDEALLRCQETPARAAEIARQAILRR--PP---REMTREAA---LPPLEAHLAILATISYITPLLGLLGTITGMIEAFLAM-------SVSDLASGIWVALVSAAAGIAV---TSIAYNYLLTRLTAIAQDIDRVAIEVLHALADGKRSNRAAPFPDEIAASLGAAPRDD</Hsp_qseq>
+      <Hsp_hseq>MFSYALFFSATGQANPRVVPEAISLFEIVHRGGLVMWPILLCSILAAGVFLERMLFYRKAECNVDSFLTGLGNLLRKGRYDEALLRCQETPARAAEIARQAILRRDYPPTELREMTREAAQLALPPLEAHLAILATISYITPLLGLLGTITGMIEAFLAMNRASGSVSVSDLASGIWVALVSAAAGIAVAIPTSIAYNYLLTRLTAIAQDIDRVAIEVLHALADGKRSNRAAPFPDEIAASLGAAPRDD</Hsp_hseq>
+      <Hsp_midline>MFSYALFFSATGQAN                   VMWPILLCS  AAGVFLERMLF          FLT    LLRKGRYDEALLRCQETPARAAEIARQAILRR  PP   REMTREAA   LPPLEAHLAILATISYITPLLGLLGTITGMIEAFLAM       SVSDLASGIWVALVSAAAGIAV   TSIAYNYLLTRLTAIAQDIDRVAIEVLHALADGKRSNRAAPFPDEIAASLGAAPRDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_142524991.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Methylacidimicrobium cyclopophantes] &gt;emb|VVM06030.1| Biopolymer transport protein ExbB [Methylacidimicrobium cyclopophantes]</Hit_def>
+  <Hit_accession>WP_142524991</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.59</Hsp_bit-score>
+      <Hsp_score>758</Hsp_score>
+      <Hsp_evalue>1.61887e-98</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>53</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>MFSYALFFSATGQAN-------------------VMWPILLCS--AAGVFLERMLF----------FLT----LLRKGRYDEALLRCQETPARAAEIARQAILRR--PP---REMTREAA---LPPLEAHLAILATISYITPLLGLLGTITGMIEAFLAM-------SVSDLASGIWVALVSAAAGIAV---TSIAYNYLLTRLTAIAQDIDRVAIEVLHALADGKRSNRAAPFPDEIAASLGAAPRDD</Hsp_qseq>
+      <Hsp_hseq>MLPYSLLFSAAAQANPRVVPEAISLFEIVHRGGLVMWPILLCSVLAAGVFLERMLFYRKAESNIDSFLTGLCSLLRKGRYEEALLRCQETPARAAEIARQAILRRDYPPAELREMTREAAQLALPPLEANLPILATISSITPLLGLLGTITGMIEAFLAMNRASGSVSVSDLASGIWVALVSAAAGIAVAIPSSIAYNYLVTRLTAIAQDIDRVGIEVLHALADGKRSNRAAPFPDEIAASLDPAARDD</Hsp_hseq>
+      <Hsp_midline>M  Y+L FSA  QAN                   VMWPILLCS  AAGVFLERMLF          FLT    LLRKGRY+EALLRCQETPARAAEIARQAILRR  PP   REMTREAA   LPPLEA+L ILATIS ITPLLGLLGTITGMIEAFLAM       SVSDLASGIWVALVSAAAGIAV   +SIAYNYL+TRLTAIAQDIDRV IEVLHALADGKRSNRAAPFPDEIAASL  A RDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_142660453.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Methylacidimicrobium tartarophylax] &gt;emb|VVM07265.1| hypothetical protein MAMT_01634 [Methylacidimicrobium tartarophylax]</Hit_def>
+  <Hit_accession>WP_142660453</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.049</Hsp_bit-score>
+      <Hsp_score>754</Hsp_score>
+      <Hsp_evalue>6.64376e-98</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>53</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>MFSYALFFSATGQAN-------------------VMWPILLCS--AAGVFLERMLF----------FLT----LLRKGRYDEALLRCQETPARAAEIARQAILRR--PP---REMTREA---ALPPLEAHLAILATISYITPLLGLLGTITGMIEAFLAM-------SVSDLASGIWVALVSAAAGIAV---TSIAYNYLLTRLTAIAQDIDRVAIEVLHALADGKRSNRAAPFPDEIAASLGAAPRDD</Hsp_qseq>
+      <Hsp_hseq>MSVYTLFLLAAGQANPRVVPEAISLFEIIHRGGLVMWPILLCSVLAAGVFLERMLFYRKAECNVDSFLTGLGNLLRKGRYEEALLRCQETPARAAEIARQAILRRDYPPAELREMTREASQLALPPLEAHLPILATISYVAPLLGLLGTITGMIEAFLAMNRASGSVSVSDLASGIWVALVSAAAGIAVAIPTSIAYNYLLIRVTAIAQDIERVAIEVLHALADGKRSNRAASFPNEIAASLGPAARDD</Hsp_hseq>
+      <Hsp_midline>M  Y LF  A GQAN                   VMWPILLCS  AAGVFLERMLF          FLT    LLRKGRY+EALLRCQETPARAAEIARQAILRR  PP   REMTREA   ALPPLEAHL ILATISY+ PLLGLLGTITGMIEAFLAM       SVSDLASGIWVALVSAAAGIAV   TSIAYNYLL R+TAIAQDI+RVAIEVLHALADGKRSNRAA FP+EIAASLG A RDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_018290429.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Verrucomicrobium sp. 3C]</Hit_def>
+  <Hit_accession>WP_018290429</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.508</Hsp_bit-score>
+      <Hsp_score>750</Hsp_score>
+      <Hsp_evalue>3.46861e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>53</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>MFSYALFFSATGQAN-------------------VMWPILLCS--AAGVFLERMLF----------FLT----LLRKGRYDEALLRCQETPARAAEIARQAILRR--PP---REMTREAA---LPPLEAHLAILATISYITPLLGLLGTITGMIEAFLAM-------SVSDLASGIWVALVSAAAGIAV---TSIAYNYLLTRLTAIAQDIDRVAIEVLHALADGKRSNRAAPFPDEIAASLGAAPRDD</Hsp_qseq>
+      <Hsp_hseq>MSTYTLFLLAAGQANPRVVPEAISLFEIVHRGGLVMWPILFCSVLATGVFLERMLFYRKAECNVDSFLTGLGNLLRKARYEEALLRCQETPARAAEIARQAILRRDYPPAELREMTREAAQLALPPLEAHLPILATISYVTPLLGLLGTITGMIEAFLAMNRASGSVSVSDLASGIWVSLVSAAAGIAVAIPTSIAYNYLLTRVAAIAQDIERVAIEVLHALADGKRSNRAASFPDEITASLGTAARDD</Hsp_hseq>
+      <Hsp_midline>M +Y LF  A GQAN                   VMWPIL CS  A GVFLERMLF          FLT    LLRK RY+EALLRCQETPARAAEIARQAILRR  PP   REMTREAA   LPPLEAHL ILATISY+TPLLGLLGTITGMIEAFLAM       SVSDLASGIWV+LVSAAAGIAV   TSIAYNYLLTR+ AIAQDI+RVAIEVLHALADGKRSNRAA FPDEI ASLG A RDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|MDD4932719.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Candidatus Methylacidiphilaceae bacterium]</Hit_def>
+  <Hit_accession>MDD4932719</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>291.582</Hsp_bit-score>
+      <Hsp_score>745</Hsp_score>
+      <Hsp_evalue>1.73319e-96</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>VMWPILLCS--AAGVFLERMLF----------FLT----LLRKGRYDEALLRCQETPARAAEIARQAILRR--PP---REMTREAA---LPPLEAHLAILATISYITPLLGLLGTITGMIEAFLAM-------SVSDLASGIWVALVSAAAGIAV---TSIAYNYLLTRLTAIAQDIDRVAIEVLHALADGKRSNRAAPFPDEIAASLGAAPRDD</Hsp_qseq>
+      <Hsp_hseq>VMWPILLCSVLATGVFLERMLFYRKAECNVDSFLTGLGNLLRKGRYEEALLRCQETPARAAEIARQAILRRDYPPAELREMTREAAQLALPPLEAHLPILATISYVTPLLGLLGTITGMIEAFLAMNRVSGSVSVSDLASGIWVALVSAAAGIAVAIPTSIAYNYLLTRVAAIAQDIERVAIEVLHALADGKRSNRAASFPDEITASLGTAARDD</Hsp_hseq>
+      <Hsp_midline>VMWPILLCS  A GVFLERMLF          FLT    LLRKGRY+EALLRCQETPARAAEIARQAILRR  PP   REMTREAA   LPPLEAHL ILATISY+TPLLGLLGTITGMIEAFLAM       SVSDLASGIWVALVSAAAGIAV   TSIAYNYLLTR+ AIAQDI+RVAIEVLHALADGKRSNRAA FPDEI ASLG A RDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|MDD2676391.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Candidatus Methylacidiphilaceae bacterium]</Hit_def>
+  <Hit_accession>MDD2676391</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>286.96</Hsp_bit-score>
+      <Hsp_score>733</Hsp_score>
+      <Hsp_evalue>9.72261e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>53</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>MFSYALFFSATGQAN-------------------VMWPILLCS--AAGVFLERMLF----------FLT----LLRKGRYDEALLRCQETPARAAEIARQAILRR--PP---REMTREAA---LPPLEAHLAILATISYITPLLGLLGTITGMIEAFLAM-------SVSDLASGIWVALVSAAAGIAV---TSIAYNYLLTRLTAIAQDIDRVAIEVLHALADGKRSNRAAPFPDEIAASLGAAPRDD</Hsp_qseq>
+      <Hsp_hseq>MSAYTLFLLAAGEANPRVVPEAISLFEIVHRGGLVMWPILLCSVLAAGVFLERMLFYRKAECNVDSFLTGLGNLLRKGRYEEALLRCQETPARAAEIARQAILRRDYPPTELREMTRDAAQLALPPLEAHLPILATISYVTPLLGLLGTITGMIEAFLAMNRASGSVSVSDLASGIWVSLVSAAAGIAVAIPSSIAYNYLLIRVAAIAQDMERVAIEVLHALADSKRSNRAASFPDEITASLGPAARDD</Hsp_hseq>
+      <Hsp_midline>M +Y LF  A G+AN                   VMWPILLCS  AAGVFLERMLF          FLT    LLRKGRY+EALLRCQETPARAAEIARQAILRR  PP   REMTR+AA   LPPLEAHL ILATISY+TPLLGLLGTITGMIEAFLAM       SVSDLASGIWV+LVSAAAGIAV   +SIAYNYLL R+ AIAQD++RVAIEVLHALAD KRSNRAA FPDEI ASLG A RDD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_202214607.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Methylacidimicrobium sp. AP8] &gt;emb|CAB4244510.1| MotA/TolQ/ExbB proton channel family protein [Methylacidimicrobium sp. AP8]</Hit_def>
+  <Hit_accession>WP_202214607</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>286.574</Hsp_bit-score>
+      <Hsp_score>732</Hsp_score>
+      <Hsp_evalue>1.3951e-94</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>195</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>53</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>LFFSATGQAN-------------------VMWPILLCS--AAGVFLERMLFFL--------------TLLRKGRYDEALLRCQETPARAAEIARQAILRR--PP---REMTREAA---LPPLEAHLAILATISYITPLLGLLGTITGMIEAFLAM-------SVSDLASGIWVALVSAAAGIAV---TSIAYNYLLTRLTAIAQDIDRVAIEVLHALADGKRSNRAAPFPDEIAASLGAAPRD</Hsp_qseq>
+      <Hsp_hseq>LFFSATGQANPRVVSEAISLFEIVHRGGLVMWPILLCSVIAAGVFLERMLFYRKEECNVDSFLAGLGNLLRKGRYEEALLRCQETPARAADIARQIILRRDYPPTELREMTRETAQLALPPLEAHLPILATISYVTPLLGLLGTVTGMIEAFLAMNRASGSVSLSDLASGIWAALVSAAAGIAVAIPTSIAYNYLLTRLTAIVQDIDRVSIEVLHALADSKRLNRATPYPDEIAASLSAASRN</Hsp_hseq>
+      <Hsp_midline>LFFSATGQAN                   VMWPILLCS  AAGVFLERMLF+                LLRKGRY+EALLRCQETPARAA+IARQ ILRR  PP   REMTRE A   LPPLEAHL ILATISY+TPLLGLLGT+TGMIEAFLAM       S+SDLASGIW ALVSAAAGIAV   TSIAYNYLLTRLTAI QDIDRV+IEVLHALAD KR NRA P+PDEIAASL AA R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_052250418.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Methylacidiphilum kamchatkense] &gt;gb|QDQ43110.1| biopolymer transport protein ExbB [Methylacidiphilum kamchatkense Kam1]</Hit_def>
+  <Hit_accession>WP_052250418</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.377</Hsp_bit-score>
+      <Hsp_score>394</Hsp_score>
+      <Hsp_evalue>3.03819e-43</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>VMWPILLCS--AAGVFLERMLFF--------------LTLLRKGRYDEALLRCQETPARAAEIARQAIL-RRPPREMTREAA-------LPPLEAHLAILATISYITPLLGLLGTITGMIEAFLAM-------SVSDLASGIWVALVSAAAGIAV---TSIAYNYLLTRLTAIAQDIDRVAIEVLHALADGKRSNRAAPFPDEIAASLGAAPRDD</Hsp_qseq>
+      <Hsp_hseq>IMWPILFCSVLGLGVFLERLFMYRQCELPIEESIAGIKNLIHKGNFDEALLRASSFYGPIGRVIRQILLFHYLPLSELREAAKDAAQLEIPKLEAHLPILSTIASISPLLGLLGTVNGMIEAFLAMNRASGTVSVTDLASGIWMALVSTAAGISVAIPTQIAYNFLITRLSGILGDIERVSTELIHALIEYRWQNNQG--FEEDNATNEIAPKTE</Hsp_hseq>
+      <Hsp_midline>+MWPIL CS    GVFLER+  +                L+ KG +DEALLR          + RQ +L    P    REAA       +P LEAHL IL+TI+ I+PLLGLLGT+ GMIEAFLAM       SV+DLASGIW+ALVS AAGI+V   T IAYN+L+TRL+ I  DI+RV+ E++HAL + +  N      +E  A+   AP+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_206825851.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Methylacidiphilum caldifontis] &gt;gb|QSR88221.1| MotA/TolQ/ExbB proton channel family protein [Methylacidiphilum caldifontis]</Hit_def>
+  <Hit_accession>WP_206825851</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.992</Hsp_bit-score>
+      <Hsp_score>393</Hsp_score>
+      <Hsp_evalue>4.24789e-43</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>VMWPILLCS--AAGVFLERMLFF--------------LTLLRKGRYDEALLRCQETPARAAEIARQAIL-RRPPREMTREAA-------LPPLEAHLAILATISYITPLLGLLGTITGMIEAFLAM-------SVSDLASGIWVALVSAAAGIAV---TSIAYNYLLTRLTAIAQDIDRVAIEVLHALADGKRSNRAA</Hsp_qseq>
+      <Hsp_hseq>IMWPILFCSIIALGVFLERLITYRRSELHVEEIVSGIKNLIFKGNFDEALLRSSSFHGPIGRVIRQIILFHYLPISELREAAQNAAQLEIPKLEAHLPILSTIASISPLLGLLGTVNGMIEAFLAMNRASGAVSVTDLASGIWMALVSTAAGISVAIPTQIAYNFLVTRISSILGDIERVSTELIHSIIEYRWQNNQA</Hsp_hseq>
+      <Hsp_midline>+MWPIL CS  A GVFLER++ +                L+ KG +DEALLR          + RQ IL    P    REAA       +P LEAHL IL+TI+ I+PLLGLLGT+ GMIEAFLAM       SV+DLASGIW+ALVS AAGI+V   T IAYN+L+TR+++I  DI+RV+ E++H++ + +  N  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_134439048.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Methylacidiphilum caldifontis] &gt;gb|TFE72524.1| flagellar motor protein MotA [Methylacidiphilum caldifontis]</Hit_def>
+  <Hit_accession>WP_134439048</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.606</Hsp_bit-score>
+      <Hsp_score>392</Hsp_score>
+      <Hsp_evalue>5.33054e-43</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>VMWPILLCS--AAGVFLERMLFF--------------LTLLRKGRYDEALLRCQETPARAAEIARQAIL-RRPPREMTREAA-------LPPLEAHLAILATISYITPLLGLLGTITGMIEAFLAM-------SVSDLASGIWVALVSAAAGIAV---TSIAYNYLLTRLTAIAQDIDRVAIEVLHALADGKRSNRAA</Hsp_qseq>
+      <Hsp_hseq>IMWPILFCSIIALGVFLERLITYRRSELHVEEIVSGIKNLIFKGNFDEALLRSSSFHGPIGRVIRQIILFHYLPISELREAAQNAAQLEIPKLEAHLPILSTIASISPLLGLLGTVNGMIEAFLAMNRASGAVSVTDLASGIWMALVSTAAGISVAIPTQIAYNFLVTRISSILGDIERVSTELIHSIIEYRWQNNQA</Hsp_hseq>
+      <Hsp_midline>+MWPIL CS  A GVFLER++ +                L+ KG +DEALLR          + RQ IL    P    REAA       +P LEAHL IL+TI+ I+PLLGLLGT+ GMIEAFLAM       SV+DLASGIW+ALVS AAGI+V   T IAYN+L+TR+++I  DI+RV+ E++H++ + +  N  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_009058289.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Candidatus Methylacidiphilum fumarolicum] &gt;gb|MBW6414116.1| MotA/TolQ/ExbB proton channel family protein [Candidatus Methylacidiphilum fumarolicum] &gt;gb|TFE66464.1| flagellar motor protein MotA [Candidatus Methylacidiphilum fumarolicum] &gt;gb|TFE75199.1| MotA/TolQ/ExbB proton channel family protein [Candidatus Methylacidiphilum fumarolicum] &gt;gb|TFE76190.1| MotA/TolQ/ExbB proton channel family protein [Candidatus Methylacidiphilum fumarolicum] &gt;gb|TFE77337.1| flagellar motor protein MotA [Candidatus Methylacidiphilum fumarolicum]</Hit_def>
+  <Hit_accession>WP_009058289</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.451</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>1.52098e-42</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>VMWPILLCS--AAGVFLERMLFF--------------LTLLRKGRYDEALLRCQETPARAAEIARQAIL-RRPPREMTREAA-------LPPLEAHLAILATISYITPLLGLLGTITGMIEAFLAM-------SVSDLASGIWVALVSAAAGIAV---TSIAYNYLLTRLTAIAQDIDRVAIEVLHALADGKRSNRAAPFPDEIAASLGAAPRDD</Hsp_qseq>
+      <Hsp_hseq>IMWPILFCSVLGLGVFLERLFMYRRCELPIEESIAGIKNLIHKGNFEEALLRASSFYGPIGRVIRQILLFHYLPLSELREAAKNVAQLEIPKLEAHLPILSTIASISPLLGLLGTVNGMIEAFLAMNRASGTVSVTDLASGIWMALVSTAAGISVAIPTQIAYNFLITRLSGILGDIERVSTELIHALIEYRWQNNQG--FEEDNATNEIAPKTE</Hsp_hseq>
+      <Hsp_midline>+MWPIL CS    GVFLER+  +                L+ KG ++EALLR          + RQ +L    P    REAA       +P LEAHL IL+TI+ I+PLLGLLGT+ GMIEAFLAM       SV+DLASGIW+ALVS AAGI+V   T IAYN+L+TRL+ I  DI+RV+ E++HAL + +  N      +E  A+   AP+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_134390867.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Methylacidiphilum sp. Yel] &gt;gb|TFE66883.1| flagellar motor protein MotA [Methylacidiphilum sp. Yel]</Hit_def>
+  <Hit_accession>WP_134390867</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.295</Hsp_bit-score>
+      <Hsp_score>386</Hsp_score>
+      <Hsp_evalue>4.7304e-42</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>VMWPILLCS--AAGVFLERMLFF--------------LTLLRKGRYDEALLRCQETPARAAEIARQAIL-RRPPREMTREAA-------LPPLEAHLAILATISYITPLLGLLGTITGMIEAFLAM-------SVSDLASGIWVALVSAAAGIAV---TSIAYNYLLTRLTAIAQDIDRVAIEVLHALADGKRSNRAAPFPDEIAASLGAAPRDD</Hsp_qseq>
+      <Hsp_hseq>IMWPILFCSVLGLGVFLERLFMYRRCELPIEESIAGIKNLIHKGNFEEALLRASSFYGPIGRVIRQILLFHYLPLSELREVAKNVAQLEIPKLEAHLPILSTIASISPLLGLLGTVNGMIEAFLAMNRASGTVSVTDLASGIWMALVSTAAGISVAIPTQIAYNFLITRLSGILGDIERVSTELIHALIEYRWQNNQGFEEDNTTNEI--APKTE</Hsp_hseq>
+      <Hsp_midline>+MWPIL CS    GVFLER+  +                L+ KG ++EALLR          + RQ +L    P    RE A       +P LEAHL IL+TI+ I+PLLGLLGT+ GMIEAFLAM       SV+DLASGIW+ALVS AAGI+V   T IAYN+L+TRL+ I  DI+RV+ E++HAL + +  N      D     +  AP+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_048810012.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Candidatus Methylacidiphilum infernorum]</Hit_def>
+  <Hit_accession>WP_048810012</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>1.21084e-41</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>VMWPILLCS--AAGVFLERMLFF--------------LTLLRKGRYDEALLRCQETPARAAEIARQAIL-RRPPREMTREAA-------LPPLEAHLAILATISYITPLLGLLGTITGMIEAFLAM-------SVSDLASGIWVALVSAAAGIAV---TSIAYNYLLTRLTAIAQDIDRVAIEVLHALADGKRSNR</Hsp_qseq>
+      <Hsp_hseq>IMWPILFCSILALAVFFERLVTYRKSELAVEETLPGIKNLIFKGNFDEALLRSSSFHGPVGRVIRQILLFHYLPLSELREAAQNAAQLEIPRLEAHLPILSTIASISPLLGLLGTVNGMIEAFLAMNRASGAVSVTDLASGIWMALVSTAAGISVAIPTQIAYNFLITRLSAILGDIERVSTELIHAIIEYRWQNN</Hsp_hseq>
+      <Hsp_midline>+MWPIL CS  A  VF ER++ +                L+ KG +DEALLR          + RQ +L    P    REAA       +P LEAHL IL+TI+ I+PLLGLLGT+ GMIEAFLAM       SV+DLASGIW+ALVS AAGI+V   T IAYN+L+TRL+AI  DI+RV+ E++HA+ + +  N </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_206844799.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Candidatus Methylacidiphilum infernorum] &gt;gb|QSR86190.1| MotA/TolQ/ExbB proton channel family protein [Candidatus Methylacidiphilum infernorum]</Hit_def>
+  <Hit_accession>WP_206844799</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>1.39338e-41</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>VMWPILLCS--AAGVFLERMLFF--------------LTLLRKGRYDEALLRCQETPARAAEIARQAIL-RRPPREMTREAA-------LPPLEAHLAILATISYITPLLGLLGTITGMIEAFLAM-------SVSDLASGIWVALVSAAAGIAV---TSIAYNYLLTRLTAIAQDIDRVAIEVLHALADGKRSNR</Hsp_qseq>
+      <Hsp_hseq>IMWPILFCSILALAVFFERLVTYRKSELAVEETLPGIKNLIFKGNFDEALLRSSSFHGPVGRVIRQILLFHYLPLSELREAAQNAAQLEIPRLEAHLPILSTIASISPLLGLLGTVNGMIEAFLAMNRASGAVSVTDLASGIWMALVSTAAGISVAIPTQIAYNFLITRLSAILGDIERVSTELIHAIIEYRWQNN</Hsp_hseq>
+      <Hsp_midline>+MWPIL CS  A  VF ER++ +                L+ KG +DEALLR          + RQ +L    P    REAA       +P LEAHL IL+TI+ I+PLLGLLGT+ GMIEAFLAM       SV+DLASGIW+ALVS AAGI+V   T IAYN+L+TRL+AI  DI+RV+ E++HA+ + +  N </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|MDE1170759.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Verrucomicrobium sp.]</Hit_def>
+  <Hit_accession>MDE1170759</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.369</Hsp_bit-score>
+      <Hsp_score>381</Hsp_score>
+      <Hsp_evalue>1.58478e-41</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>SYALFFSATGQANVMWPILLCS--AAGVFLERMLFF--------------LTLLRKGRYDEALLRCQETPARAAEIARQAILRR--PP---REMTREAA---LPPLEAHLAILATISYITPLLGLLGTITGMIEAFLAMS-----VSDLASGIWVALVSAAAGIAV---TSIAYNYLLTRLTAIAQDIDRVAIEVLHALADGKRSNRAAPFPD</Hsp_qseq>
+      <Hsp_hseq>TVGLFAIMQKGGPLMWPILFCSILAAGVLVERLLYYRRCQIAVGEFLLGITHLLRRQQYQEALERCEEGFGPVVRVVRQAVLARNLPPAELREVVKEVAHLQLPRLEAHLGILASVGQIAPLLGLLGTVSGMIETFIEINNGGTAVSDLAAGIWAALITTAAGLMVAIPAYLAYNFLVSRMNAIVADVERSAIEVIHVL---TRVN--VPLPE</Hsp_hseq>
+      <Hsp_midline>+  LF        +MWPIL CS  AAGV +ER+L++                LLR+ +Y EAL RC+E       + RQA+L R  PP   RE+ +E A   LP LEAHL ILA++  I PLLGLLGT++GMIE F+ ++     VSDLA+GIW AL++ AAG+ V     +AYN+L++R+ AI  D++R AIEV+H L    R N   P P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|ACD82309.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Methylacidiphilum infernorum V4]</Hit_def>
+  <Hit_accession>ACD82309</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.754</Hsp_bit-score>
+      <Hsp_score>382</Hsp_score>
+      <Hsp_evalue>3.09889e-41</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>VMWPILLCS--AAGVFLERMLFF--------------LTLLRKGRYDEALLRCQETPARAAEIARQAIL-RRPPREMTREAA-------LPPLEAHLAILATISYITPLLGLLGTITGMIEAFLAM-------SVSDLASGIWVALVSAAAGIAV---TSIAYNYLLTRLTAIAQDIDRVAIEVLHALADGKRSNR</Hsp_qseq>
+      <Hsp_hseq>IMWPILFCSILALAVFFERLVTYRKSELAVEETLPGIKNLIFKGNFDEALLRSSSFHGPVGRVIRQILLFHYLPLSELREAAQNAAQLEIPRLEAHLPILSTIASISPLLGLLGTVNGMIEAFLAMNRASGAVSVTDLASGIWMALVSTAAGISVAIPTQIAYNFLITRLSAILGDIERVSTELIHAIIEYRWQNN</Hsp_hseq>
+      <Hsp_midline>+MWPIL CS  A  VF ER++ +                L+ KG +DEALLR          + RQ +L    P    REAA       +P LEAHL IL+TI+ I+PLLGLLGT+ GMIEAFLAM       SV+DLASGIW+ALVS AAGI+V   T IAYN+L+TRL+AI  DI+RV+ E++HA+ + +  N </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_093288087.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Verrucomicrobium sp. GAS474] &gt;emb|SDU29786.1| biopolymer transport protein ExbB [Verrucomicrobium sp. GAS474]</Hit_def>
+  <Hit_accession>WP_093288087</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.665</Hsp_bit-score>
+      <Hsp_score>361</Hsp_score>
+      <Hsp_evalue>8.23563e-38</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>SYALFFSATGQANVMWPILLCS--AAGVFLERMLFF--------------LTLLRKGRYDEALLRCQETPARAAEIARQAILRR--PP---REMTREAAL---PPLEAHLAILATISYITPLLGLLGTITGMIEAFL-------AMSVSDLASGIWVALVSAAAGIAV---TSIAYNYLLTRLTAIAQDIDRVAIEVLHALAD-GKRSNRAAPFPDEIAA</Hsp_qseq>
+      <Hsp_hseq>TLGLFAVMQQGGPLMWPILACSVVTAAIFAERFLYYRRCRIAVPEFLSGIANLLRRGLHREALERCEEGYGPVSRVVRQAILARELPPTELREVVREVALLQQPRLETHLGVLAGIGQIAPLLGLLGTVTGMIDAFIEIGRAGGSTSVGELASGVWTALITAAAGLAVAIPSYAAYNFLVSRMNTILGDMERAGIETIHVLTSVNIRGGGVPPEPAPLAA</Hsp_hseq>
+      <Hsp_midline>+  LF        +MWPIL CS   A +F ER L++                LLR+G + EAL RC+E     + + RQAIL R  PP   RE+ RE AL   P LE HL +LA I  I PLLGLLGT+TGMI+AF+       + SV +LASG+W AL++AAAG+AV   +  AYN+L++R+  I  D++R  IE +H L     R     P P  +AA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|MEM1058701.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Verrucomicrobiota bacterium]</Hit_def>
+  <Hit_accession>MEM1058701</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.198</Hsp_bit-score>
+      <Hsp_score>352</Hsp_score>
+      <Hsp_evalue>4.99267e-37</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>VMWPILLCSAAG--VFLERMLFF--------------LTLLRKGRYDEALLRCQETPARAAEIARQAIL-RRPP----REMTREA---ALPPLEAHLAILATISYITPLLGLLGTITGMIEAFLAMS-------VSDLASGIWVALVSAAAGIAV---TSIAYNYLLTRLTAIAQDIDRVAIEVLHALAD</Hsp_qseq>
+      <Hsp_hseq>LMWFILAASVVGLAIVFERLNYYRRCRMRVGEFLTGIISLIRKGRYPEAIERCDDGYGPVPNLVRTAILKRRLPVAELREVMKENMQLELPKLEANLALLATIGTIAPLFGLLGTVIGMIEAFMEVSNAAGTAPVSDLANGIWVALVTSAAGIAVAIPAFVAYNYLVSRLNDLLFDMERAAIEVLHAIAD</Hsp_hseq>
+      <Hsp_midline>+MW IL  S  G  +  ER+ ++              ++L+RKGRY EA+ RC +       + R AIL RR P    RE+ +E     LP LEA+LA+LATI  I PL GLLGT+ GMIEAF+ +S       VSDLA+GIWVALV++AAGIAV     +AYNYL++RL  +  D++R AIEVLHA+AD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|MES2308361.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Verrucomicrobiota bacterium]</Hit_def>
+  <Hit_accession>MES2308361</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>138.272</Hsp_bit-score>
+      <Hsp_score>347</Hsp_score>
+      <Hsp_evalue>1.71511e-36</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MWPILLCS--AAGVFLERMLFF--------------LTLLRKGRYDEALLRCQETPARAAEIARQAILRR--PP---REMTREAA---LPPLEAHLAILATISYITPLLGLLGTITGMIEAFL-------AMSVSDLASGIWVALVSAAAGIAV---TSIAYNYLLTRLTAIAQDIDRVAIEVLHALAD</Hsp_qseq>
+      <Hsp_hseq>MWLILGCSILAMGVFVERQMYYYRVHLRVGEYLVGILNLVRKQNYLEALEKCEEGYGPIKVVVQRAILSRNLPSTELREVVREVAQLQVPKLEANLPILATIGYIAPLLGLLGTVMGMIEAFIQINQKSGATGVSDLAGGIWTALITTAAGLVVAIPCYVAYNYLVTRCHHLMSDMERAGIELIHAIIE</Hsp_hseq>
+      <Hsp_midline>MW IL CS  A GVF+ER +++              L L+RK  Y EAL +C+E       + ++AIL R  P    RE+ RE A   +P LEA+L ILATI YI PLLGLLGT+ GMIEAF+       A  VSDLA GIW AL++ AAG+ V     +AYNYL+TR   +  D++R  IE++HA+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|MFQ3671213.1|</Hit_id>
+  <Hit_def>MotA/TolQ/ExbB proton channel family protein [Verrucomicrobiia bacterium]</Hit_def>
+  <Hit_accession>MFQ3671213</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.502</Hsp_bit-score>
+      <Hsp_score>345</Hsp_score>
+      <Hsp_evalue>3.59249e-36</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>MWPILLCS--AAGVFLERMLFFL--------------TLLRKGRYDEALLRCQETPARAAEIARQAILRR-----PPREMTREAA---LPPLEAHLAILATISYITPLLGLLGTITGMIEAFLAMS-------VSDLASGIWVALVSAAAGIAV---TSIAYNYLLTRLTAIAQDIDRVAIEVLHALAD</Hsp_qseq>
+      <Hsp_hseq>MWAILACSILATGIFAERLLFYRRNTIPVDPFLAGLRNLVRKGRFTEALERCDDVRGPVVRVIQAAILKRHLPKGEVREIVQEVGQMQVPRLEAHLSLLATVGTIAPLLGLLGTVTGMIKAFKEINEAMGAAPIGDLAGGIWEALTTTAGGLVVAIPTYVAYNFLVSRMNGILTDVERAGIEVVHLLYD</Hsp_hseq>
+      <Hsp_midline>MW IL CS  A G+F ER+LF+                L+RKGR+ EAL RC +       + + AIL+R       RE+ +E     +P LEAHL++LAT+  I PLLGLLGT+TGMI+AF  ++       + DLA GIW AL + A G+ V   T +AYN+L++R+  I  D++R  IEV+H L D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>877781531</Statistics_db-num>
+      <Statistics_db-len>334720180573</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

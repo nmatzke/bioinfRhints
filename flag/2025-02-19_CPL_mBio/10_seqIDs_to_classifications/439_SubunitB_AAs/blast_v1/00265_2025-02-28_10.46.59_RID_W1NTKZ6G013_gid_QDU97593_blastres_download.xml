@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_3210097</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>218</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_3210097</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>218</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_145056359.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Lignipirellula cremea] &gt;gb|QDU97594.1| Motility protein B [Lignipirellula cremea]</Hit_def>
+  <Hit_accession>WP_145056359</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>399.438</Hsp_bit-score>
+      <Hsp_score>1025</Hsp_score>
+      <Hsp_evalue>8.86094e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>MDDGD--MGIPEWVVTFGDMMSLLLTFF--LVSLSEIKQEDKYQAMLASLHAQFGYASSMDS--PGDAKPRNSPVEKIKSMGRANRKDTMNGGDKVKAPVGDNPRVQMVRQGDET-IGAVVFFSLGST--TQPGEQSLTLL-----------EIRGHVSRRPLPPDAAPVSPWDLAYERAKTVMRYLVDEEQIDRERI------PNEPLKIVSGSSEDLTNDRV-----DSLVSETQGDPDQRDSRFVD</Hsp_qseq>
+      <Hsp_hseq>MDDGDDVMGIPEWVVTFGDMMSLLLTFFIMLVSLSEIKQEDKYQAMLASLHAQFGYASSMDSVLPGDAKPRNSPVEKIKSMGRANRKDTMNGGDKVKAPVGDNPRVQMVRQGDETGIGAVVFFSLGSTVLTQPGEQSLTLLTPEIAGKPQHVEIRGHVSRRPLPPDAAPVSPWDLAYERAKTVMRYLVDEEQIDRERIRISVAGPNEPLKIVSGSSEDLTNDRVEVYLLDSLVSETQGDPDQRDSRFVD</Hsp_hseq>
+      <Hsp_midline>MDDGD  MGIPEWVVTFGDMMSLLLTFF  LVSLSEIKQEDKYQAMLASLHAQFGYASSMDS  PGDAKPRNSPVEKIKSMGRANRKDTMNGGDKVKAPVGDNPRVQMVRQGDET IGAVVFFSLGST  TQPGEQSLTLL           EIRGHVSRRPLPPDAAPVSPWDLAYERAKTVMRYLVDEEQIDRERI      PNEPLKIVSGSSEDLTNDRV     DSLVSETQGDPDQRDSRFVD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|MFV1965151.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Pirellulaceae bacterium]</Hit_def>
+  <Hit_accession>MFV1965151</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>217.238</Hsp_bit-score>
+      <Hsp_score>552</Hsp_score>
+      <Hsp_evalue>8.93252e-67</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>246</Hsp_align-len>
+      <Hsp_qseq>DDGDMGIPEWVVTFGDMMSLLLTFF--LVSLSEIKQEDKYQAMLASLHAQFGYASSMDS--PGDAKPRNSPVEKIKSMGRANRKDTMNGGDKVKAPVGDNPRVQMVRQGDET-IGAVVFFSLGSTTQPGEQSLTL-------------LEIRGHVSRRPLPPDAAPVSPWDLAYERAKTVMRYLVDEEQIDRERI------PNEPLKIVSGSSEDLTNDRV-----DSLVSETQGDPDQRDSRFVD</Hsp_qseq>
+      <Hsp_hseq>EEAGAGIPEWVVTFGDMMSLLLTFFIMLVSLSEVKEEEKYQALVESMRKQFGYSTSQASLIPGEMHPRNSAIEKVAAMGRAKRQNLMRGGDKVQAPTGEHPRVQIVRPGSKTAIGTVIYFREGNTELTDSHKEVLNDQVKVIQGKPQKIEIRGHTSRRPVTPDAKKRDHWDLAYERCYNTMRYLVDVMKIDERRVRLAPAGSNEPVHIGTDQTRMSENPRVEIYLLDEVVSDLAGTNEERKRRFFD</Hsp_hseq>
+      <Hsp_midline>++   GIPEWVVTFGDMMSLLLTFF  LVSLSE+K+E+KYQA++ S+  QFGY++S  S  PG+  PRNS +EK+ +MGRA R++ M GGDKV+AP G++PRVQ+VR G +T IG V++F  G+T         L             +EIRGH SRRP+ PDA     WDLAYER    MRYLVD  +ID  R+       NEP+ I +  +    N RV     D +VS+  G  ++R  RF D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|MCA9121255.1|</Hit_id>
+  <Hit_def>OmpA family protein [Planctomycetales bacterium] &gt;gb|MCB9924790.1| OmpA family protein [Planctomycetaceae bacterium]</Hit_def>
+  <Hit_accession>MCA9121255</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.379</Hsp_bit-score>
+      <Hsp_score>529</Hsp_score>
+      <Hsp_evalue>2.76135e-63</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>DDGDMGIPEWVVTFGDMMSLLLTFF--LVSLSEIKQEDKYQAMLASLHAQFGYASSMDS--PGDAKPRNSPVEKIKSMGRANRKDTMNGGDKVKAPVGDNPRVQMVRQGDET-IGAVVFFSLGSTTQPGEQSLTL-------------LEIRGHVSRRPLPPDAAPVSPWDLAYERAKTVMRYLVDEEQIDRERI------PNEPLKIVSGSSEDLTNDRV-----DSLVSETQGDPDQRDSRF</Hsp_qseq>
+      <Hsp_hseq>EDDAMGIPEWVVTFGDMMSLLLTFFIMLVSLSEMKEEEKYQALVESMKQQFGYSSSQNSLIPGDLRPRNSALSKTATMGRAKRLDTMQGGDKVQAPVGDHPRVVIVRPGTKTGIGTVVYFAEDASDLTEEHRAILSQQGDVMQGKSQKIEIRGHTSHKPITPNSGLRDNWDLAYQRSRNVMQYLIQDLNIDPRRIRMSVAGPYEPAHIGTDEKKLRQNPRVEVYMLDEVISDTVGTKEEQQERF</Hsp_hseq>
+      <Hsp_midline>+D  MGIPEWVVTFGDMMSLLLTFF  LVSLSE+K+E+KYQA++ S+  QFGY+SS +S  PGD +PRNS + K  +MGRA R DTM GGDKV+APVGD+PRV +VR G +T IG VV+F+  ++    E    L             +EIRGH S +P+ P++     WDLAY+R++ VM+YL+ +  ID  RI      P EP  I +   +   N RV     D ++S+T G  +++  RF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|MBC8354147.1|</Hit_id>
+  <Hit_def>OmpA family protein [Planctomycetota bacterium]</Hit_def>
+  <Hit_accession>MBC8354147</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>3.9972e-60</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>GIPEWVVTFGDMMSLLLTFF--LVSLSEIKQEDKYQAMLASLHAQFGYASSMDS--PGDAKPRNSPVEKIKSMGRANRKDTMNGGDKVKAPVGDNPRVQMVRQGDET-IGAVVFFSLGSTTQPGEQSLTL-------------LEIRGHVSRRPLPPDAAPVSPWDLAYERAKTVMRYLVDEEQIDRERI------PNEPLKIVSGSSEDLTNDRV-----DSLVSETQGDPDQRDSRF</Hsp_qseq>
+      <Hsp_hseq>GIPEWVVTFGDMMSLLLTFFIMLVSLSEMKEEEKYQALVESMKQQFGYSKAQSSLIPGDLRPRNSALSKTATMGRAKRLDTMQGGDKVQAPVGERPRVVIVRPGTKTGIGTVIYFDEGSAELTTEHDRVLSQQGDVMQGKSQKIEVRGHTSHKPVSPGSGFKDNWGLAYQRSRNVMQYLVQELNIDARRIRMSVAGPHEPAHIGTDNEKLKQNPRVEVYMLDEVISDSVGTKEEQQERF</Hsp_hseq>
+      <Hsp_midline>GIPEWVVTFGDMMSLLLTFF  LVSLSE+K+E+KYQA++ S+  QFGY+ +  S  PGD +PRNS + K  +MGRA R DTM GGDKV+APVG+ PRV +VR G +T IG V++F  GS     E    L             +E+RGH S +P+ P +     W LAY+R++ VM+YLV E  ID  RI      P+EP  I + + +   N RV     D ++S++ G  +++  RF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|MDA1053692.1|</Hit_id>
+  <Hit_def>OmpA family protein [Planctomycetota bacterium]</Hit_def>
+  <Hit_accession>MDA1053692</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.593</Hsp_bit-score>
+      <Hsp_score>501</Hsp_score>
+      <Hsp_evalue>4.5153e-59</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>MGIPEWVVTFGDMMSLLLTFF--LVSLSEIKQEDKYQAMLASLHAQFGYASSMDS--PGDAKPRNSPVEKIKSMGRANRKDTMNGGDKVKAPVGDNPRVQMVRQGDET-IGAVVFFSLGSTTQPGEQSLTL-------------LEIRGHVSRRPLPPDAAPVSPWDLAYERAKTVMRYLVDEEQIDRERI------PNEPLKIVSGSSEDLTNDRV-----DSLVSETQGDPDQRDSRF</Hsp_qseq>
+      <Hsp_hseq>IGIPEWVVTFGDMMSLLLTFFIMLVSLSEMKEEEKYQALVESMKEQFGYSNASASLIPGDLRPRNSALSKTATMGRAKRLDTMQGGDKVQAPVGDHPRVVIVRPGTKTAIGTVIYFDEGAAELTEQQRTVLSQQADVMQGKSQKIEVRGHTSHKPVASGSGLRDNWDLAYQRSRDVMQYLIQDLSIDARRIRMSVAGPYEPAHIGTDEQKLRQNPRVEVYMLDEVISDSVGTQEEQQERF</Hsp_hseq>
+      <Hsp_midline>+GIPEWVVTFGDMMSLLLTFF  LVSLSE+K+E+KYQA++ S+  QFGY+++  S  PGD +PRNS + K  +MGRA R DTM GGDKV+APVGD+PRV +VR G +T IG V++F  G+     +Q   L             +E+RGH S +P+   +     WDLAY+R++ VM+YL+ +  ID  RI      P EP  I +   +   N RV     D ++S++ G  +++  RF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|MCA9143476.1|</Hit_id>
+  <Hit_def>OmpA family protein [Planctomycetales bacterium]</Hit_def>
+  <Hit_accession>MCA9143476</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.208</Hsp_bit-score>
+      <Hsp_score>500</Hsp_score>
+      <Hsp_evalue>8.03316e-59</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>MGIPEWVVTFGDMMSLLLTFF--LVSLSEIKQEDKYQAMLASLHAQFGYASSMDS--PGDAKPRNSPVEKIKSMGRANRKDTMNGGDKVKAPVGDNPRVQMVRQGDET-IGAVVFFSLGSTTQPGEQSLTL-------------LEIRGHVSRRPLPPDAAPVSPWDLAYERAKTVMRYLVDEEQIDRERI------PNEPLKIVSGSSEDLTNDRV-----DSLVSETQGDPDQRDSRF</Hsp_qseq>
+      <Hsp_hseq>MGIPEWVVTFGDMMSLLLTFFIMLVSLSEMKEEEKYQALVESMKQQFGHTKAQTSLIPGDLRPRNSALSKIATMGRAKRLDTMQGGDKVQAPTGDHPRVIIVRPGTKTGIGTVIYFDEAAADLSDEHRVILSQQGDVMQGKSQKIEVRGHTSHKPVTSGSGLRDNWDLAYQRSRNVMQYLIQDLNIDARRIRMSVAGPYEPAHIGTDDKKLRQNPRVEVYMLDEVISDTVGTQEEQQERF</Hsp_hseq>
+      <Hsp_midline>MGIPEWVVTFGDMMSLLLTFF  LVSLSE+K+E+KYQA++ S+  QFG+  +  S  PGD +PRNS + KI +MGRA R DTM GGDKV+AP GD+PRV +VR G +T IG V++F   +     E  + L             +E+RGH S +P+   +     WDLAY+R++ VM+YL+ +  ID  RI      P EP  I +   +   N RV     D ++S+T G  +++  RF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|MBN2477107.1|</Hit_id>
+  <Hit_def>OmpA family protein [Pirellulales bacterium]</Hit_def>
+  <Hit_accession>MBN2477107</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.971</Hsp_bit-score>
+      <Hsp_score>489</Hsp_score>
+      <Hsp_evalue>2.67804e-57</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>DDGDMGIPEWVVTFGDMMSLLLTFF--LVSLSEIKQEDKYQAMLASLHAQFGYASSMDS--PGDAKPRNSPVEKIKSMGRANRKDTMNGGDKVKAPVGDNPRVQMVRQGDETI-GAVVFFSLGST--TQPGEQSLTL-----------LEIRGHVSRRPLPPDAAPVSPWDLAYERAKTVMRYLVDEEQIDRERIP------NEPLK-----IVSGSSEDLTNDRVDSLVSETQGDPDQRDSRF</Hsp_qseq>
+      <Hsp_hseq>EDDSGGIPEWVVTFGDMMSLLLTFFIMLVSLSEIKEEQLYQAVAEALRKRFGHDTSMVSMMPGDGKPRNSALAKLASLGRARRANTMNGGDKVKAPVGEHPRVKALRVADQTTRGGVVFFQEGSAELTEKNKQVLQATAQEIGGKPQKIEIRGHTSTKPLPPDSPYKTHWDLAYARCNNVMEFLV-KLGIDPRRMRLAVAADNEPLHIGNDPILLGENPRVEIFMLNELTDNLKGTAEEKQKRF</Hsp_hseq>
+      <Hsp_midline>+D   GIPEWVVTFGDMMSLLLTFF  LVSLSEIK+E  YQA+  +L  +FG+ +SM S  PGD KPRNS + K+ S+GRA R +TMNGGDKVKAPVG++PRV+ +R  D+T  G VVFF  GS   T+  +Q L             +EIRGH S +PLPPD+   + WDLAY R   VM +LV +  ID  R+       NEPL      I+ G +  +    ++ L    +G  +++  RF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>tpg|HUG67082.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Pirellulaceae bacterium]</Hit_def>
+  <Hit_accession>HUG67082</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.971</Hsp_bit-score>
+      <Hsp_score>489</Hsp_score>
+      <Hsp_evalue>2.68707e-57</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>MGIPEWVVTFGDMMSLLLTFF--LVSLSEIKQEDKYQAMLASLHAQFGYASSMDS--PGDAKPRNSPVEKIKSMGRANRKDTMNGGDKVKAPVGDNPRVQMVRQGDET-IGAVVFFSLGSTTQPGEQSLTL-------------LEIRGHVSRRPLPPDAAPVSPWDLAYERAKTVMRYLVDEEQIDRERI------PNEPLKIVSGSSEDLTNDRV-----DSLVSETQGDPDQRDSRF</Hsp_qseq>
+      <Hsp_hseq>IGIPEWVVTFGDMMSLLLTFFIMLVSLSEMKEEEKYQALVESMQEQFGHVSSQVSLIPGDLRPRNSRLAKTATMGRAKRLDTMRGGDKVQAPTGDHTRVVIVRPGTKTGIGTVIYFEEGIAELTDEHRAVLSQQGAVMQGKSQKIDVRGHTSHKPVAADRGLRDNWDLAYQRSRNVMQYLIQDLNIDARRIRMSVAGPYEPAHIGTDENKLRQNPRVEVYMLDEVISDTVGTQEEQQERF</Hsp_hseq>
+      <Hsp_midline>+GIPEWVVTFGDMMSLLLTFF  LVSLSE+K+E+KYQA++ S+  QFG+ SS  S  PGD +PRNS + K  +MGRA R DTM GGDKV+AP GD+ RV +VR G +T IG V++F  G      E    L             +++RGH S +P+  D      WDLAY+R++ VM+YL+ +  ID  RI      P EP  I +  ++   N RV     D ++S+T G  +++  RF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|MFV2066456.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Pirellulales bacterium]</Hit_def>
+  <Hit_accession>MFV2066456</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.43</Hsp_bit-score>
+      <Hsp_score>485</Hsp_score>
+      <Hsp_evalue>1.09051e-56</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>DGDMGIPEWVVTFGDMMSLLLTFF--LVSLSEIKQEDKYQAMLASLHAQFGYASSMDS--PGDAKPRNSPVEKIKSMGRANRKDTMNGGDKVKAPVGDNPRVQMVRQGDE-TIGAVVFFSLGST--TQPGEQSLTL-----------LEIRGHVSRRPLPPDAAPVSPWDLAYERAKTVMRYLVDEEQIDRERIP------NEPLKIVSGSSEDLTNDRVDSL-----VSETQGDPDQRDSRF</Hsp_qseq>
+      <Hsp_hseq>DDAIGVPEWVVTFGDMMSLLLTFFIMLVSMSEMKEDEKYQALVDSIRQRFGYEGAMVSLAPGQMRPRNSTFQHLATLGRARRANTMNGGDKVKAPTGDNPRVRTIRQGHQPTVGGVIYFDEGKAELTEENKKQLQIVAQVVGGKSQKIEIRGHTSRKPVDPKSGHHDRWDLAFERCRNVMRELIG-LGIDPHRFRLAIAGDNEPVHLGIDPKERRKNSRVEVVMLNETVQDLEGTPEERESIY</Hsp_hseq>
+      <Hsp_midline>D  +G+PEWVVTFGDMMSLLLTFF  LVS+SE+K+++KYQA++ S+  +FGY  +M S  PG  +PRNS  + + ++GRA R +TMNGGDKVKAP GDNPRV+ +RQG + T+G V++F  G    T+  ++ L +           +EIRGH SR+P+ P +     WDLA+ER + VMR L+    ID  R        NEP+ +     E   N RV+ +     V + +G P++R+S +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>tpg|HYW81119.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Thermoguttaceae bacterium]</Hit_def>
+  <Hit_accession>HYW81119</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.734</Hsp_bit-score>
+      <Hsp_score>478</Hsp_score>
+      <Hsp_evalue>1.97538e-55</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>DDGDMGIPEWVVTFGDMMSLLLTFF--LVSLSEIKQEDKYQAMLASLHAQFGYASSMDS--PGDAKPRNSPVEKIKSMGRANRKDTMNGGDKVKAPVGDNPRVQMVRQGDE-TIGAVVFF----------SLGSTTQPGEQSL----TLLEIRGHVSRRPLPPDAAPVSPWDLAYERAKTVMRYLVDEEQIDRERIP------NEPLKIVSGSSEDLTNDRV-----DSLVSETQGDPDQRDSRF</Hsp_qseq>
+      <Hsp_hseq>EEPEAGIPEWVVTFGDMMSLLLTFFIMLTSMSEIKEEQRYQAMVESMRQRFGHEASMISMIPGPSKPRNSALAKVASMGRAKRANTMNGGDKVKAPVGEHPRVMSIRNADQSTTGGVLFFDKEDDAELTEAHRRTLQASAQLLGGKPQKIEVRGHTSSQPLPKDSPYKSRWELSFERASRVADFLV-ELGIDRKRIRIAAAADNEPMHIGNDPLLQKKNNRVEVTMLNELVEDLKGSAEEKNRGY</Hsp_hseq>
+      <Hsp_midline>++ + GIPEWVVTFGDMMSLLLTFF  L S+SEIK+E +YQAM+ S+  +FG+ +SM S  PG +KPRNS + K+ SMGRA R +TMNGGDKVKAPVG++PRV  +R  D+ T G V+FF          +   T Q   Q L      +E+RGH S +PLP D+   S W+L++ERA  V  +LV E  IDR+RI       NEP+ I +       N+RV     + LV + +G  ++++  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_366973234.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Bremerella sp. JC770] &gt;gb|MEW4562250.1| flagellar motor protein MotB [Bremerella sp. JC770]</Hit_def>
+  <Hit_accession>WP_366973234</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.037</Hsp_bit-score>
+      <Hsp_score>471</Hsp_score>
+      <Hsp_evalue>1.44535e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>MDDGD--MGIPEWVVTFGDMMSLLLTFF--LVSLSEIKQEDKYQAMLASLHAQFGYASSMDS--PGDAKPRNSPVEKIKSMGRANRKDTMNGGDKVKAPVGDNPRVQMVRQGDET-IGAVVFF-----SLGSTTQPGEQSLTL--------LEIRGHVSRRPLPPDAAPVSPWDLAYERAKTVMRYLVDEEQIDRERI------PNEPLKI</Hsp_qseq>
+      <Hsp_hseq>MDDEDDAAGIPEWVVTFGDMMSLLLTFFIMLVSMSEIKKEEQYQALVESFRRQFGHDSSMESVIAGNAKPRNSNLAKLATMGRAKRFSTHAGGDKVKAPVGDSPQVRIIRPGSKTAVGTVVYFPEDSAKLDQTAIEALQAQSLEFGGKPQKIEIRGHTSLRPLPPDSPYKTHWDLAYARCMAVREYLVS-LGIDERRIRVSVAGKNEPFHI</Hsp_hseq>
+      <Hsp_midline>MDD D   GIPEWVVTFGDMMSLLLTFF  LVS+SEIK+E++YQA++ S   QFG+ SSM+S   G+AKPRNS + K+ +MGRA R  T  GGDKVKAPVGD+P+V+++R G +T +G VV+F      L  T     Q+ +L        +EIRGH S RPLPPD+   + WDLAY R   V  YLV    ID  RI       NEP  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_105357000.1|</Hit_id>
+  <Hit_def>MULTISPECIES: OmpA/MotB family protein [Pirellulaceae] &gt;gb|PQO26753.1| flagellar motor protein MotB [Blastopirellula marina] &gt;gb|RCS46232.1| flagellar motor protein MotB [Bremerella cremea]</Hit_def>
+  <Hit_accession>WP_105357000</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.267</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>3.12356e-54</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>DDGDMGIPEWVVTFGDMMSLLLTFF--LVSLSEIKQEDKYQAMLASLHAQFGYASSMDS--PGDAKPRNSPVEKIKSMGRANRKDTMNGGDKVKAPVGDNPRVQMVRQGDET-IGAVVFF-----SLGSTTQPGEQSLTL--------LEIRGHVSRRPLPPDAAPVSPWDLAYERAKTVMRYLVDEEQIDRERI------PNEPLKI</Hsp_qseq>
+      <Hsp_hseq>EDEAAGIPEWVVTFGDMMSLLLTFFIMLVSMSEIKKEEQYQALVESFRRQFGHDSSMESVIAGNAKPRNSNLAKLATMGRAKRFSTHAGGDKVKAPVGDSPQVRIIRPGSKTAVGTVVYFPEDSAKLDETAIEALQAQSLEFGGKPQKIEIRGHTSLRPLPPDSPYKTHWDLAYARCMAVREYLVS-LGIDERRIRVSVAGKNEPFHI</Hsp_hseq>
+      <Hsp_midline>+D   GIPEWVVTFGDMMSLLLTFF  LVS+SEIK+E++YQA++ S   QFG+ SSM+S   G+AKPRNS + K+ +MGRA R  T  GGDKVKAPVGD+P+V+++R G +T +G VV+F      L  T     Q+ +L        +EIRGH S RPLPPD+   + WDLAY R   V  YLV    ID  RI       NEP  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_144971392.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Bremerella volcania] &gt;gb|QDU74429.1| Motility protein B [Bremerella volcania]</Hit_def>
+  <Hit_accession>WP_144971392</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.267</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>3.40688e-54</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>DDGDMGIPEWVVTFGDMMSLLLTFF--LVSLSEIKQEDKYQAMLASLHAQFGYASSMDS--PGDAKPRNSPVEKIKSMGRANRKDTMNGGDKVKAPVGDNPRVQMVRQGDET-IGAVVFF-----SLGSTTQPGEQSLTL--------LEIRGHVSRRPLPPDAAPVSPWDLAYERAKTVMRYLVDEEQIDRERI------PNEPLKI</Hsp_qseq>
+      <Hsp_hseq>EDDAAGIPEWVVTFGDMMSLLLTFFIMLVSMSEIKKEEQYQALVESFRRQFGHDSSMESVIAGNAKPRNSNLAKLATMGRAKRFSTHAGGDKVKAPVGDSPQVRIIRPGSKTAVGTVVYFPEDSAKLDETAIEALQAQSLEFGGKPQKIEIRGHTSLRPLPPDSPYKTHWDLAYARCMAVKEYLVS-LGIDERRIRVSVAGKNEPFHI</Hsp_hseq>
+      <Hsp_midline>+D   GIPEWVVTFGDMMSLLLTFF  LVS+SEIK+E++YQA++ S   QFG+ SSM+S   G+AKPRNS + K+ +MGRA R  T  GGDKVKAPVGD+P+V+++R G +T +G VV+F      L  T     Q+ +L        +EIRGH S RPLPPD+   + WDLAY R   V  YLV    ID  RI       NEP  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|MEX0936799.1|</Hit_id>
+  <Hit_def>OmpA family protein [Pirellulales bacterium]</Hit_def>
+  <Hit_accession>MEX0936799</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.882</Hsp_bit-score>
+      <Hsp_score>468</Hsp_score>
+      <Hsp_evalue>3.66993e-54</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>MGIPEWVVTFGDMMSLLLTFF--LVSLSEIKQEDKYQAMLASLHAQFGYASSMDS--PGDAKPRNSPVEKIKSMGRANRKDTMNGGDKVKAPVGDNPRVQMVRQGDE-TIGAVVFFSLGSTTQPGEQSLTL-------------LEIRGHVSRRPLPPDAAPVS-PWDLAYERAKTVMRYLVDEEQIDRERI------PNEPLKIVSGSSEDLTNDRV-----DSLVSETQGDP</Hsp_qseq>
+      <Hsp_hseq>IAIPEWVVTFGDMMSLLLTFFIMLVSMSEIKQEEQFQALVESMRRQFGHDTALLSLAPGSSRPRNSNLPNLASLGRAKRLDTMSGGDKVRAPSGENRRVRTVRPGQNVTVGGVIYFDEGSANLTDDSKIQLQIIAQEISGKPQKVEVRGHTTRRPVAPDSPYYNDNWDLAYARCRSVVEFLVNEQGIDRTRVRMAVAGENEPVYMGTDPESIRKNGRVEVSLLDERVEDLEGDP</Hsp_hseq>
+      <Hsp_midline>+ IPEWVVTFGDMMSLLLTFF  LVS+SEIKQE+++QA++ S+  QFG+ +++ S  PG ++PRNS +  + S+GRA R DTM+GGDKV+AP G+N RV+ VR G   T+G V++F  GS     +  + L             +E+RGH +RRP+ PD+   +  WDLAY R ++V+ +LV+E+ IDR R+       NEP+ + +       N RV     D  V + +GDP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_409638186.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Bremerella sp.] &gt;gb|MFN3150987.1| flagellar motor protein MotB [Bremerella sp.]</Hit_def>
+  <Hit_accession>WP_409638186</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.111</Hsp_bit-score>
+      <Hsp_score>466</Hsp_score>
+      <Hsp_evalue>8.20566e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>MDDGD--MGIPEWVVTFGDMMSLLLTFF--LVSLSEIKQEDKYQAMLASLHAQFGYASSMDS--PGDAKPRNSPVEKIKSMGRANRKDTMNGGDKVKAPVGDNPRVQMVRQGDET-IGAVVFF-----SLGSTTQPGEQSLTL--------LEIRGHVSRRPLPPDAAPVSPWDLAYERAKTVMRYLVDEEQIDRERI------PNEPLKI</Hsp_qseq>
+      <Hsp_hseq>MDDEDDAAGIPEWVVTFGDMMSLLLTFFIMLVSMSEIKKEEQYQALVESFRRQFGHDSSMESVIAGNAKPRNSNLAKLATMGRAKRFSTHAGGDKVKAPVGDSPQVRIIRPGSKTAVGTVVYFPEDSAKLDQSAIESLQAQSLEFGGKPQKIEIRGHTSLRPLPPDSPFKTHWDLAYARCMAVKEYLVS-LGIDERRIRVSVAGKNEPFHI</Hsp_hseq>
+      <Hsp_midline>MDD D   GIPEWVVTFGDMMSLLLTFF  LVS+SEIK+E++YQA++ S   QFG+ SSM+S   G+AKPRNS + K+ +MGRA R  T  GGDKVKAPVGD+P+V+++R G +T +G VV+F      L  +     Q+ +L        +EIRGH S RPLPPD+   + WDLAY R   V  YLV    ID  RI       NEP  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_274330836.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Bremerella sp. P1] &gt;gb|WDI43035.1| flagellar motor protein MotB [Bremerella sp. P1]</Hit_def>
+  <Hit_accession>WP_274330836</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.726</Hsp_bit-score>
+      <Hsp_score>465</Hsp_score>
+      <Hsp_evalue>1.29432e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>MDDGD--MGIPEWVVTFGDMMSLLLTFF--LVSLSEIKQEDKYQAMLASLHAQFGYASSMDS--PGDAKPRNSPVEKIKSMGRANRKDTMNGGDKVKAPVGDNPRVQMVRQGDET-IGAVVFF-----SLGSTTQPGEQSLTL--------LEIRGHVSRRPLPPDAAPVSPWDLAYERAKTVMRYLVDEEQIDRERI------PNEPLKI</Hsp_qseq>
+      <Hsp_hseq>MDDEDDAGGIPEWVVTFGDMMSLLLTFFIMLVSMSEIKKEEQYQALVESFRRQFGHDSSMESVIAGNAKPRNSNLAKLATMGRAKRFSTHAGGDKVKAPVGDSPQVRIIRPGSKTAVGTVVYFPEDSAKLDQTAIEALQAQSLEFGGKPQKIEIRGHTSLRPLPPNSPYKTHWDLAYARCMAVREYLVS-LGIDERRIRVSVAGKNEPFHI</Hsp_hseq>
+      <Hsp_midline>MDD D   GIPEWVVTFGDMMSLLLTFF  LVS+SEIK+E++YQA++ S   QFG+ SSM+S   G+AKPRNS + K+ +MGRA R  T  GGDKVKAPVGD+P+V+++R G +T +G VV+F      L  T     Q+ +L        +EIRGH S RPLPP++   + WDLAY R   V  YLV    ID  RI       NEP  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|MDA7951167.1|</Hit_id>
+  <Hit_def>OmpA family protein [Pirellulaceae bacterium]</Hit_def>
+  <Hit_accession>MDA7951167</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.956</Hsp_bit-score>
+      <Hsp_score>463</Hsp_score>
+      <Hsp_evalue>2.61199e-53</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>204</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>GIPEWVVTFGDMMSLLLTFF--LVSLSEIKQEDKYQAMLASLHAQFGYASSMDS--PGDAKPRNSPVEKIKSMGRANRKDTMNGGDKVKAPVGDNPRVQMVRQGDET-IGAVVFFS-----LGSTTQPGEQSLT--------LLEIRGHVSRRPLPPDAAPVSPWDLAYERAKTVMRYL---VDEEQIDRERI------PNEPLKIVSGSSEDLTNDRVDSLVSE</Hsp_qseq>
+      <Hsp_hseq>GIPEWVVTFGDMMSLLLTFFIMLVSLSEIKEEEKFQAIVESMRRQFGHVESMSSVVPGESKPRNSRLAKIATQGRARRKDTMRGGNKVPAPVGENRQVRIIRPGNQTAVGSVIFFQDDQVELSDANKEALRNLVKEIGGKPQKIEVRGHTSRKPVEDDSAYEDNWGLAFTRSRNVMHFITEGLEERNINPKRVRMSVAGPNEPIYLGADLEKMKQNSRVEVFILE</Hsp_hseq>
+      <Hsp_midline>GIPEWVVTFGDMMSLLLTFF  LVSLSEIK+E+K+QA++ S+  QFG+  SM S  PG++KPRNS + KI + GRA RKDTM GG+KV APVG+N +V+++R G++T +G+V+FF      L    +   ++L          +E+RGH SR+P+  D+A    W LA+ R++ VM ++   ++E  I+ +R+      PNEP+ + +   +   N RV+  + E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_105357413.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Blastopirellula marina] &gt;gb|PQO29906.1| flagellar motor protein MotB [Blastopirellula marina] &gt;gb|PTL42374.1| flagellar motor protein MotB [Blastopirellula marina]</Hit_def>
+  <Hit_accession>WP_105357413</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.956</Hsp_bit-score>
+      <Hsp_score>463</Hsp_score>
+      <Hsp_evalue>2.62016e-53</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>GIPEWVVTFGDMMSLLLTFF--LVSLSEIKQEDKYQAMLASLHAQFGYASSMDS--PGDAKPRNSPVEKIKSMGRANRKDTMNGGDKVKAPVGDNPRVQMVRQGDET-IGAVVFF-----SLGSTTQPGEQSLTL--------LEIRGHVSRRPLPPDAAPVSPWDLAYERAKTVMRYLVDEEQIDRERI------PNEPLKIVSGSSEDLTNDRVDSLV</Hsp_qseq>
+      <Hsp_hseq>GIPEWVVTFGDMMSLLLTFFIMLVSMSEIKKEEQYQALVESFRRQFGHDSSMESVIAGNAKPRNANMAKLATMGRAKRFSTHAGGDKVKAPVGDSPQVRIIRPGSKTAVGTVVYFKEDSDKLDETAIQALQAQSLEFGGKPQKIEIRGHTSLRPLPPDSPFKSHWELAYDRCMAVKEYLVS-LGIDERRIRISVSGKNEPFHIGTDPLLLKQNSRVEVFL</Hsp_hseq>
+      <Hsp_midline>GIPEWVVTFGDMMSLLLTFF  LVS+SEIK+E++YQA++ S   QFG+ SSM+S   G+AKPRN+ + K+ +MGRA R  T  GGDKVKAPVGD+P+V+++R G +T +G VV+F      L  T     Q+ +L        +EIRGH S RPLPPD+   S W+LAY+R   V  YLV    ID  RI       NEP  I +       N RV+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_345086694.1|</Hit_id>
+  <Hit_def>MULTISPECIES: OmpA/MotB family protein [Bremerella] &gt;gb|MEW4454315.1| flagellar motor protein MotB [Bremerella sp. JC817] &gt;gb|MFA8017900.1| flagellar motor protein MotB [Bremerella cremea] &gt;dbj|GAA4424751.1| OmpA family protein [Bremerella cremea]</Hit_def>
+  <Hit_accession>WP_345086694</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.57</Hsp_bit-score>
+      <Hsp_score>462</Hsp_score>
+      <Hsp_evalue>3.18522e-53</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>DDGDMGIPEWVVTFGDMMSLLLTFF--LVSLSEIKQEDKYQAMLASLHAQFGYASSMDS--PGDAKPRNSPVEKIKSMGRANRKDTMNGGDKVKAPVGDNPRVQMVRQGDET-IGAVVFF-----SLGSTTQPGEQSLTL--------LEIRGHVSRRPLPPDAAPVSPWDLAYERAKTVMRYLVDEEQIDRERI------PNEPLKI</Hsp_qseq>
+      <Hsp_hseq>DEGDAGIPEWVVTFGDMMSLLLTFFIMLVSMSEIKKDEQYQALVESFRRQFGHDSSMESVIAGNAKPRNSNLAKLATMGRAKRFSTHAGGDKVKAPVGDSPQVRIIRPGSKTAIGTVVYFDEDSDKLTDAAKEALQAQGLEFGGKPQKIEIRGHTSLKPLPKDSPFKSHWDLAYARCVKVKEFLI-SLGIDERRIRVAVSGKNEPFHI</Hsp_hseq>
+      <Hsp_midline>D+GD GIPEWVVTFGDMMSLLLTFF  LVS+SEIK++++YQA++ S   QFG+ SSM+S   G+AKPRNS + K+ +MGRA R  T  GGDKVKAPVGD+P+V+++R G +T IG VV+F      L    +   Q+  L        +EIRGH S +PLP D+   S WDLAY R   V  +L+    ID  RI       NEP  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_105330560.1|</Hit_id>
+  <Hit_def>MULTISPECIES: OmpA/MotB family protein [Pirellulaceae] &gt;gb|PQO34830.1| flagellar motor protein MotB [Blastopirellula marina] &gt;gb|RCS47330.1| flagellar motor protein MotB [Bremerella cremea]</Hit_def>
+  <Hit_accession>WP_105330560</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.57</Hsp_bit-score>
+      <Hsp_score>462</Hsp_score>
+      <Hsp_evalue>3.87211e-53</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>DDGDMGIPEWVVTFGDMMSLLLTFF--LVSLSEIKQEDKYQAMLASLHAQFGYASSMDS--PGDAKPRNSPVEKIKSMGRANRKDTMNGGDKVKAPVGDNPRVQMVRQGDET-IGAVVFF-----SLGSTTQPGEQSLTL--------LEIRGHVSRRPLPPDAAPVSPWDLAYERAKTVMRYLVDEEQIDRERI------PNEPLKI</Hsp_qseq>
+      <Hsp_hseq>EDDAGGIPEWVVTFGDMMSLLLTFFIMLVSMSEIKKEEQYQALVESFRRQFGHDSSMESVIAGNAKPRNSNMAKLATMGRAKRFSTHAGGDKVKAPVGDSPQVRIIRPGSKTAVGTVVYFKEDSAKLDESAIESLQAQSLEFGGKPQKIEIRGHTSLRPLPPDSPFKSHWDLAYARCMAVKEYLLS-LGIDERRIRIAVSGKNEPFHI</Hsp_hseq>
+      <Hsp_midline>+D   GIPEWVVTFGDMMSLLLTFF  LVS+SEIK+E++YQA++ S   QFG+ SSM+S   G+AKPRNS + K+ +MGRA R  T  GGDKVKAPVGD+P+V+++R G +T +G VV+F      L  +     Q+ +L        +EIRGH S RPLPPD+   S WDLAY R   V  YL+    ID  RI       NEP  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>877781531</Statistics_db-num>
+      <Statistics_db-len>334720180573</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

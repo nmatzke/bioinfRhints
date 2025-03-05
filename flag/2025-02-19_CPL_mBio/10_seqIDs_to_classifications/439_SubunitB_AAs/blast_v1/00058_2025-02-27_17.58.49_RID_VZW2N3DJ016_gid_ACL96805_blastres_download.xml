@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1806617</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>162</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1806617</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>162</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_010921065.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Caulobacter vibrioides] &gt;ref|YP_002518712.1| ExbD/TolR family protein [Caulobacter vibrioides NA1000] &gt;gb|QBQ57363.1| ExbD/TolR family protein [synthetic Caulobacter sp. &apos;ethensis&apos;] &gt;gb|AAK25194.1| ExbD/TolR family protein [Caulobacter vibrioides CB15] &gt;gb|ACL96804.1| ExbD/TolR family protein [Caulobacter vibrioides NA1000] &gt;gb|ATC30058.1| protein TolR [Caulobacter vibrioides] &gt;gb|QXZ51582.1| ExbD/TolR family protein [Caulobacter vibrioides]</Hit_def>
+  <Hit_accession>WP_010921065</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>310.842</Hsp_bit-score>
+      <Hsp_score>795</Hsp_score>
+      <Hsp_evalue>7.09343e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>NDAFATGGRRGRRRGRRSRGALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPL--PKTEAAALQNQDEPITVSIRKDGQIFVGETEIPFENLAPRIGAIAGDGYDKPIFV---GGATYAVVAQVMAGLSNAGFNKINLITETGGPSTGAAPRDAQPEGAADLRPAQ</Hsp_qseq>
+      <Hsp_hseq>NDAFATGGRRGRRRGRRSRGALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPLELPKTEAAALQNQDEPITVSIRKDGQIFVGETEIPFENLAPRIGAIAGDGYDKPIFVRADGGATYAVVAQVMAGLSNAGFNKINLITETGGPSTGAAPRDAQPEGAADLRPAQ</Hsp_hseq>
+      <Hsp_midline>NDAFATGGRRGRRRGRRSRGALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPL  PKTEAAALQNQDEPITVSIRKDGQIFVGETEIPFENLAPRIGAIAGDGYDKPIFV   GGATYAVVAQVMAGLSNAGFNKINLITETGGPSTGAAPRDAQPEGAADLRPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_096034330.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ExbD/TolR family protein [Caulobacter] &gt;gb|ATC26114.1| protein TolR [Caulobacter vibrioides] &gt;gb|AZH14254.1| ExbD/TolR family protein [Caulobacter vibrioides] &gt;gb|MCY1645540.1| ExbD/TolR family protein [Caulobacter sp. SL161] &gt;gb|MDR7231246.1| biopolymer transport protein TolR [Caulobacter sp. BE264] &gt;gb|PLR11032.1| protein TolR [Caulobacter vibrioides]</Hit_def>
+  <Hit_accession>WP_096034330</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>309.686</Hsp_bit-score>
+      <Hsp_score>792</Hsp_score>
+      <Hsp_evalue>2.12488e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>NDAFATGGRRGRRRGRRSRGALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPL--PKTEAAALQNQDEPITVSIRKDGQIFVGETEIPFENLAPRIGAIAGDGYDKPIFV---GGATYAVVAQVMAGLSNAGFNKINLITETGGPSTGAAPRDAQPEGAADLRPAQ</Hsp_qseq>
+      <Hsp_hseq>NDAFATGGRRGRRRGRRSRGALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPLELPKTEAAALQNQDEPITVSIRKDGQIFVGETQIPFENLAPRIGAIAGDGYDKPIFVRADGGATYAVVAQVMAGLSNAGFNKINLITETGGPSTGAAPRDAQPEGAADLRPAQ</Hsp_hseq>
+      <Hsp_midline>NDAFATGGRRGRRRGRRSRGALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPL  PKTEAAALQNQDEPITVSIRKDGQIFVGET+IPFENLAPRIGAIAGDGYDKPIFV   GGATYAVVAQVMAGLSNAGFNKINLITETGGPSTGAAPRDAQPEGAADLRPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|OYX04225.1|</Hit_id>
+  <Hit_def>MAG: protein TolR [Caulobacter vibrioides]</Hit_def>
+  <Hit_accession>OYX04225</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>308.145</Hsp_bit-score>
+      <Hsp_score>788</Hsp_score>
+      <Hsp_evalue>9.44785e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>NDAFATGGRRGRRRGRRSRGALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPL--PKTEAAALQNQDEPITVSIRKDGQIFVGETEIPFENLAPRIGAIAGDGYDKPIFV---GGATYAVVAQVMAGLSNAGFNKINLITETGGPSTGAAPRDAQPEGAADLRPAQ</Hsp_qseq>
+      <Hsp_hseq>NDAFATGGRRGRRRGRRSRGALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPLELPKTEAAALQNQDEPITVSIRKDGQIFVGETQIPFENLAPRIGAIAGDGYDKPIFVRADGGATYAVVAQVMAGLSNAGFNKINLITETGGPSTGAAPREAQPEGAADLRPAQ</Hsp_hseq>
+      <Hsp_midline>NDAFATGGRRGRRRGRRSRGALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPL  PKTEAAALQNQDEPITVSIRKDGQIFVGET+IPFENLAPRIGAIAGDGYDKPIFV   GGATYAVVAQVMAGLSNAGFNKINLITETGGPSTGAAPR+AQPEGAADLRPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_096052500.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Caulobacter vibrioides] &gt;gb|ATC33113.1| ExbD/TolR family protein [Caulobacter vibrioides]</Hit_def>
+  <Hit_accession>WP_096052500</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.605</Hsp_bit-score>
+      <Hsp_score>784</Hsp_score>
+      <Hsp_evalue>3.60259e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>NDAFATGGRRGRRRGRRSRGALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPL--PKTEAAALQNQDEPITVSIRKDGQIFVGETEIPFENLAPRIGAIAGDGYDKPIFV---GGATYAVVAQVMAGLSNAGFNKINLITETGGPSTGAAPRDAQPEGAADLRPAQ</Hsp_qseq>
+      <Hsp_hseq>NDAFATGGRRGRRRGRRSRGALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPLELPKTEAAALQNQDEPITVSIRKDGEIFVGETQIPFENLAPRIGAIAGDGYDKPIFVRADGGATYAVVAQVMAGLSNAGFNKINLITETGGPSTGAAPREAQPEGAADLRPAQ</Hsp_hseq>
+      <Hsp_midline>NDAFATGGRRGRRRGRRSRGALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPL  PKTEAAALQNQDEPITVSIRKDG+IFVGET+IPFENLAPRIGAIAGDGYDKPIFV   GGATYAVVAQVMAGLSNAGFNKINLITETGGPSTGAAPR+AQPEGAADLRPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_062098868.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ExbD/TolR family protein [unclassified Caulobacter] &gt;gb|AZS22693.1| biopolymer transporter ExbD [Caulobacter sp. FWC26]</Hit_def>
+  <Hit_accession>WP_062098868</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.22</Hsp_bit-score>
+      <Hsp_score>783</Hsp_score>
+      <Hsp_evalue>4.68775e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>NDAFATGGRRGRRRGRRSRGALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPL--PKTEAAALQNQDEPITVSIRKDGQIFVGETEIPFENLAPRIGAIAGDGYDKPIFV---GGATYAVVAQVMAGLSNAGFNKINLITETGGPSTGAAPRDAQPEGAADLRPAQ</Hsp_qseq>
+      <Hsp_hseq>NDAFATGGRRGRRRGRRSRGALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPLELPKTEAAALQNQEEPITVSIRKDGQIFVGETQIPFENLAPRISAIAGDGYDKPIFVRADGGATYAVVAQVMAGLSNAGFNKINLITETGGPSTGAAPRDAQPEGAADLRPAQ</Hsp_hseq>
+      <Hsp_midline>NDAFATGGRRGRRRGRRSRGALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPL  PKTEAAALQNQ+EPITVSIRKDGQIFVGET+IPFENLAPRI AIAGDGYDKPIFV   GGATYAVVAQVMAGLSNAGFNKINLITETGGPSTGAAPRDAQPEGAADLRPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|MCA0357083.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Pseudomonadota bacterium]</Hit_def>
+  <Hit_accession>MCA0357083</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.449</Hsp_bit-score>
+      <Hsp_score>781</Hsp_score>
+      <Hsp_evalue>8.9551e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>NDAFATGGRRGRRRGRRSRGALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPL--PKTEAAALQNQDEPITVSIRKDGQIFVGETEIPFENLAPRIGAIAGDGYDKPIFV---GGATYAVVAQVMAGLSNAGFNKINLITETGGPSTGAAPRDAQPEGAADLRPAQ</Hsp_qseq>
+      <Hsp_hseq>NDAFATGGRRGRRRGRRSRGALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPLELPKTEAAALQNQEEPITVSIRKDGQIFVGETQIPFENLAPRIGAIAGDGYDKPIFVRADGGATYAVVAQVMAGLSNAGFNKINLITETGGPSTGAAPREAQPEGSADLRPAQ</Hsp_hseq>
+      <Hsp_midline>NDAFATGGRRGRRRGRRSRGALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPL  PKTEAAALQNQ+EPITVSIRKDGQIFVGET+IPFENLAPRIGAIAGDGYDKPIFV   GGATYAVVAQVMAGLSNAGFNKINLITETGGPSTGAAPR+AQPEG+ADLRPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_395445657.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Caulobacter sp. UC70_42] &gt;gb|XJN99246.1| ExbD/TolR family protein [Caulobacter sp. UC70_42]</Hit_def>
+  <Hit_accession>WP_395445657</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.914</Hsp_bit-score>
+      <Hsp_score>655</Hsp_score>
+      <Hsp_evalue>1.9016e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>NDAFATGGRRGRRRGRRSRGALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPL--PKTEAAALQNQDEPITVSIRKDGQIFVGETEIPFENLAPRIGAIAGDGYDKPIFV---GGATYAVVAQVMAGLSNAGFNKINLITETGGPSTGAAPRDAQPEGAADLRPAQ</Hsp_qseq>
+      <Hsp_hseq>NDAFATGGRGRRRRGRRSRGALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPLELPKTEAAALQNQDEPITVSINREGKIFVGETEIPFQNLAPRLTAIAGSGYSKPIFVRADGGATYAVVAQVMAGLSNAGFSKINLITETGGPSTGAAPKDAQPEGSGDLRPAQ</Hsp_hseq>
+      <Hsp_midline>NDAFATGGR  RRRGRRSRGALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPL  PKTEAAALQNQDEPITVSI ++G+IFVGETEIPF+NLAPR+ AIAG GY KPIFV   GGATYAVVAQVMAGLSNAGF+KINLITETGGPSTGAAP+DAQPEG+ DLRPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_184722469.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Caulobacter sp.]</Hit_def>
+  <Hit_accession>WP_184722469</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.529</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>2.42484e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>NDAFATGGRRGRRRGRRSRG-ALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPL--PKTEAAALQNQDEPITVSIRKDGQIFVGETEIPFENLAPRIGAIAGDGYDKPIFV---GGATYAVVAQVMAGLSNAGFNKINLITETGGPSTGAAPRDAQPEGAADLRPAQ</Hsp_qseq>
+      <Hsp_hseq>NDAFATGGGRRGRRRGRRGKGALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPLELPKTEAAALQNQEEPITVSINREGKIFVGETEIPFENLAPRISAIAGDGYDKPLFVRADGGATYSVVAQVMAGLSNAGFNKINLITETGGPSSGAAPRDAQPEGAGDLRPVQ</Hsp_hseq>
+      <Hsp_midline>NDAFATGG R  RR  R    ALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPL  PKTEAAALQNQ+EPITVSI ++G+IFVGETEIPFENLAPRI AIAGDGYDKP+FV   GGATY+VVAQVMAGLSNAGFNKINLITETGGPS+GAAPRDAQPEGA DLRP Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_172270856.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Caulobacter sp. RHG1] &gt;gb|NQE63831.1| Tol biopolymer transport system, TolR protein [Caulobacter sp. RHG1]</Hit_def>
+  <Hit_accession>WP_172270856</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.144</Hsp_bit-score>
+      <Hsp_score>653</Hsp_score>
+      <Hsp_evalue>2.85544e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>NDAFATGGRRGRRRGRRSRG-ALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPL--PKTEAAALQNQDEPITVSIRKDGQIFVGETEIPFENLAPRIGAIAGDGYDKPIFV---GGATYAVVAQVMAGLSNAGFNKINLITETGGPSTGAAPRDAQPEGAADLRPAQ</Hsp_qseq>
+      <Hsp_hseq>NDAFATGGGRRGRRRGRRGKGALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPLELPKTEAAALQNQEEPITVSINREGKIFVGETEIPFENLAPRISAIAGDGYDKPLFVRADGGATYSVVAQVMAGLSNAGFNKINLITETGGPSSGAAPRDAQPEGAGDLRPVQ</Hsp_hseq>
+      <Hsp_midline>NDAFATGG R  RR  R    ALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPL  PKTEAAALQNQ+EPITVSI ++G+IFVGETEIPFENLAPRI AIAGDGYDKP+FV   GGATY+VVAQVMAGLSNAGFNKINLITETGGPS+GAAPRDAQPEGA DLRP Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_056046568.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ExbD/TolR family protein [unclassified Caulobacter] &gt;gb|KQV62811.1| protein TolR [Caulobacter sp. Root342] &gt;gb|KQV71944.1| protein TolR [Caulobacter sp. Root343]</Hit_def>
+  <Hit_accession>WP_056046568</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.144</Hsp_bit-score>
+      <Hsp_score>653</Hsp_score>
+      <Hsp_evalue>2.85544e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>NDAFATGGRRGRRRGRRSRG-ALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPL--PKTEAAALQNQDEPITVSIRKDGQIFVGETEIPFENLAPRIGAIAGDGYDKPIFV---GGATYAVVAQVMAGLSNAGFNKINLITETGGPSTGAAPRDAQPEGAADLRPAQ</Hsp_qseq>
+      <Hsp_hseq>SDAFATNSGRGRRRRGRRSRGALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPLELPKTEAAALQNQDEPITVSIRKDGHIFVGETEIPFENLAPRLTAIAGNGYSKPIFVRADGGATYAVVAQVMAGLSNAGFNKINLITETGGPSTGATTRDAQPEGSGDLRPAQ</Hsp_hseq>
+      <Hsp_midline>+DAFAT   RGRRR  R    ALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPL  PKTEAAALQNQDEPITVSIRKDG IFVGETEIPFENLAPR+ AIAG+GY KPIFV   GGATYAVVAQVMAGLSNAGFNKINLITETGGPSTGA  RDAQPEG+ DLRPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|OYW28887.1|</Hit_id>
+  <Hit_def>MAG: protein TolR [Caulobacter sp. 12-67-6] &gt;gb|OYX68712.1| MAG: protein TolR [Caulobacter sp. 32-67-35] &gt;gb|OYX91251.1| MAG: protein TolR [Caulobacter sp. 35-67-4]</Hit_def>
+  <Hit_accession>OYW28887</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.144</Hsp_bit-score>
+      <Hsp_score>653</Hsp_score>
+      <Hsp_evalue>3.79342e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>NDAFATGGRRGRRRGRRSRGALSEINVTPLVDVMLVLLIIFMISAPLLTAGVP--LPKTEAAALQNQDEPITVSIRKDGQIFVGETEIPFENLAPRIGAIAGDGYDKPIFV---GGATYAVVAQVMAGLSNAGFNKINLITETGGPSTGAAPRDAQPEGAADLRPAQ</Hsp_qseq>
+      <Hsp_hseq>NDAFATGGRRGRRRGRRSRGALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPLELPKTEAAALQSQQEPITVSIRADGQIFVGETQIPFENLAPRITAIAGDGYDKPLFVRADGAATYAVVAQTMAALSNAGFAKINLITETGGPSSGAAPRDAQPEGAGDLRPAQ</Hsp_hseq>
+      <Hsp_midline>NDAFATGGRRGRRRGRRSRGALSEINVTPLVDVMLVLLIIFMISAPLLTAGVP  LPKTEAAALQ+Q EPITVSIR DGQIFVGET+IPFENLAPRI AIAGDGYDKP+FV   G ATYAVVAQ MA LSNAGF KINLITETGGPS+GAAPRDAQPEGA DLRPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_099581243.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Caulobacter sp. FWC2] &gt;gb|PIB93839.1| protein TolR [Caulobacter sp. FWC2]</Hit_def>
+  <Hit_accession>WP_099581243</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>255.758</Hsp_bit-score>
+      <Hsp_score>652</Hsp_score>
+      <Hsp_evalue>4.28359e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>NDAFATGGRRGRRRGRRSRG-ALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPL--PKTEAAALQNQDEPITVSIRKDGQIFVGETEIPFENLAPRIGAIAGDGYDKPIFV---GGATYAVVAQVMAGLSNAGFNKINLITETGGPSTGAAPRDAQPEGAADLRPAQ</Hsp_qseq>
+      <Hsp_hseq>NDAFATGGGRGRRRRGRRSRGALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPLELPKTEAAALQNQEEPITVSINREGKIFVGETEIPFQNLAPRLTAIAGSGYDKPIFVRADGGATYAVVAQVMAGLSNAGFNKINLITETGGPSTGAAPKDAQPEGSSDLRPAQ</Hsp_hseq>
+      <Hsp_midline>NDAFATGG RGRRR  R    ALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPL  PKTEAAALQNQ+EPITVSI ++G+IFVGETEIPF+NLAPR+ AIAG GYDKPIFV   GGATYAVVAQVMAGLSNAGFNKINLITETGGPSTGAAP+DAQPEG++DLRPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_035016946.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ExbD/TolR family protein [Caulobacter] &gt;gb|MBQ1559774.1| biopolymer transporter ExbD [Caulobacter sp.]</Hit_def>
+  <Hit_accession>WP_035016946</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>255.373</Hsp_bit-score>
+      <Hsp_score>651</Hsp_score>
+      <Hsp_evalue>6.64082e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>NDAFATGGRRGRRRGRRSRG-ALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPL--PKTEAAALQNQDEPITVSIRKDGQIFVGETEIPFENLAPRIGAIAGDGYDKPIFV---GGATYAVVAQVMAGLSNAGFNKINLITETGGPSTGAAPRDAQPEGAADLRPAQ</Hsp_qseq>
+      <Hsp_hseq>NDAFATGGGRGRRRRGRRSRGALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPLELPKTEAAALQNQDQPITVSIRKDGSIFVGDKEIPFENLAPRISAIAGDGYSKPIFVRADGGATYAVVAQVMAGLSNAGFSKINLITETGGPSSGAAPKDAQPEGSADLRPPQ</Hsp_hseq>
+      <Hsp_midline>NDAFATGG RGRRR  R    ALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPL  PKTEAAALQNQD+PITVSIRKDG IFVG+ EIPFENLAPRI AIAGDGY KPIFV   GGATYAVVAQVMAGLSNAGF+KINLITETGGPS+GAAP+DAQPEG+ADLRP Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|ENZ83113.1|</Hit_id>
+  <Hit_def>Cell division and transport-associated protein TolR [Caulobacter vibrioides OR37]</Hit_def>
+  <Hit_accession>ENZ83113</Hit_accession>
+  <Hit_len>171</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>255.373</Hsp_bit-score>
+      <Hsp_score>651</Hsp_score>
+      <Hsp_evalue>7.31561e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>NDAFATGGRRGRRRGRRSRG-ALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPL--PKTEAAALQNQDEPITVSIRKDGQIFVGETEIPFENLAPRIGAIAGDGYDKPIFV---GGATYAVVAQVMAGLSNAGFNKINLITETGGPSTGAAPRDAQPEGAADLRPAQ</Hsp_qseq>
+      <Hsp_hseq>NDAFATGGGRGRRRRGRRSRGALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPLELPKTEAAALQNQDQPITVSIRKDGSIFVGDKEIPFENLAPRISAIAGDGYSKPIFVRADGGATYAVVAQVMAGLSNAGFSKINLITETGGPSSGAAPKDAQPEGSADLRPPQ</Hsp_hseq>
+      <Hsp_midline>NDAFATGG RGRRR  R    ALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPL  PKTEAAALQNQD+PITVSIRKDG IFVG+ EIPFENLAPRI AIAGDGY KPIFV   GGATYAVVAQVMAGLSNAGF+KINLITETGGPS+GAAP+DAQPEG+ADLRP Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_099538112.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Caulobacter sp. X] &gt;gb|PIB95849.1| protein TolR [Caulobacter sp. X]</Hit_def>
+  <Hit_accession>WP_099538112</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.218</Hsp_bit-score>
+      <Hsp_score>648</Hsp_score>
+      <Hsp_evalue>2.21742e-83</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>ALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPL--PKTEAAALQNQDEPITVSIRKDGQIFVGETEIPFENLAPRIGAIAGDGYDKPIFV---GGATYAVVAQVMAGLSNAGFNKINLITETGGPSTGAAPRDAQPEGAADLRPAQ</Hsp_qseq>
+      <Hsp_hseq>ALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPLELPKTEAAALQNQDEPITVSIRKDGGIFVGETQIPFENLAPRISAIAGDGYDKPIFVRADGGATYSVVAQVMAGLSNAGFNKINLITETGGPSSGAAPRDAKPADAGDLRPAQ</Hsp_hseq>
+      <Hsp_midline>ALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPL  PKTEAAALQNQDEPITVSIRKDG IFVGET+IPFENLAPRI AIAGDGYDKPIFV   GGATY+VVAQVMAGLSNAGFNKINLITETGGPS+GAAPRDA+P  A DLRPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_295111135.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [uncultured Caulobacter sp.]</Hit_def>
+  <Hit_accession>WP_295111135</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.832</Hsp_bit-score>
+      <Hsp_score>647</Hsp_score>
+      <Hsp_evalue>2.64247e-83</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>NDAFATGGRRGRRRGRRSRG-ALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPL--PKTEAAALQNQDEPITVSIRKDGQIFVGETEIPFENLAPRIGAIAGDGYDKPIFV---GGATYAVVAQVMAGLSNAGFNKINLITETGGPSTGAAPRDAQPEGAADLRPAQ</Hsp_qseq>
+      <Hsp_hseq>SDAFATNSGRGRRRRGRRSRGALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPLELPKTEAAALQNQEEPITVSIRKDGGIFVGETQIPFENLAPRLTAIAGNGYDKPIFVRADGGATYSVVAQVMAGLSNAGFNKINLITETGGPSTGAAPRDAQPEGSGELRPSQ</Hsp_hseq>
+      <Hsp_midline>+DAFAT   RGRRR  R    ALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPL  PKTEAAALQNQ+EPITVSIRKDG IFVGET+IPFENLAPR+ AIAG+GYDKPIFV   GGATY+VVAQVMAGLSNAGFNKINLITETGGPSTGAAPRDAQPEG+ +LRP+Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_354071890.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Caulobacter sp. 1776] &gt;gb|MET3666998.1| biopolymer transport protein TolR [Caulobacter sp. 1776]</Hit_def>
+  <Hit_accession>WP_354071890</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>252.292</Hsp_bit-score>
+      <Hsp_score>643</Hsp_score>
+      <Hsp_evalue>1.25296e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>NDAFATGGRRGRRRGRRSRG-ALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPL--PKTEAAALQNQDEPITVSIRKDGQIFVGETEIPFENLAPRIGAIAGDGYDKPIFV---GGATYAVVAQVMAGLSNAGFNKINLITETGGPSTGAAPRDAQPEGAADLRPAQ</Hsp_qseq>
+      <Hsp_hseq>SDAFATNSGRGRRRRGRRSRGALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPLELPKTEAAALQNQDEPITVSIRKDGHIFVGETEIPFDNLAPRLTALAGSGYTKPIFVRADGGATYAVVAQVMAGLSNAGFTKINLITETGGPSTGAAARDAQPEGSGDLRPAQ</Hsp_hseq>
+      <Hsp_midline>+DAFAT   RGRRR  R    ALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPL  PKTEAAALQNQDEPITVSIRKDG IFVGETEIPF+NLAPR+ A+AG GY KPIFV   GGATYAVVAQVMAGLSNAGF KINLITETGGPSTGAA RDAQPEG+ DLRPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_125159122.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Caulobacter sp. 602-1] &gt;gb|RRN62352.1| biopolymer transporter ExbD [Caulobacter sp. 602-1]</Hit_def>
+  <Hit_accession>WP_125159122</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>252.292</Hsp_bit-score>
+      <Hsp_score>643</Hsp_score>
+      <Hsp_evalue>1.32354e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>NDAFATGGRRGRRRGRRSRG-ALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPL--PKTEAAALQNQDEPITVSIRKDGQIFVGETEIPFENLAPRIGAIAGDGYDKPIFV---GGATYAVVAQVMAGLSNAGFNKINLITETGGPSTGAAPRDAQPEGAADLRPAQ</Hsp_qseq>
+      <Hsp_hseq>NDAFATGGGRGRRRRGRRSRGALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPLELPKTEAAALQNQDEPITVSINREGKIFVGETEIPFQNLAPRLTAIAGSGYSKPIFVRADGGATYAVVAQVMAGLSNAGFSKINLITETGGPSTGAAPKDAQPEGSGDLRPAQ</Hsp_hseq>
+      <Hsp_midline>NDAFATGG RGRRR  R    ALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPL  PKTEAAALQNQDEPITVSI ++G+IFVGETEIPF+NLAPR+ AIAG GY KPIFV   GGATYAVVAQVMAGLSNAGF+KINLITETGGPSTGAAP+DAQPEG+ DLRPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_297513315.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [uncultured Caulobacter sp.]</Hit_def>
+  <Hit_accession>WP_297513315</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.906</Hsp_bit-score>
+      <Hsp_score>642</Hsp_score>
+      <Hsp_evalue>1.703e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>NDAFATGGRRGRRRGRRSRG-ALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPL--PKTEAAALQNQDEPITVSIRKDGQIFVGETEIPFENLAPRIGAIAGDGYDKPIFV---GGATYAVVAQVMAGLSNAGFNKINLITETGGPSTGAAPRDAQPEGAADLRPAQ</Hsp_qseq>
+      <Hsp_hseq>NDAFSTGSRRGRRRRGRRSRGALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPLELPKTEAAALQNQDEPITVSIRKDGQIFVGETQIPFENLAPRLSALAGRGYDKPIFVRADGGATYQVVAQVMAGLSNAGFSKINLITETGGPSSGAAPKDAEPEGSSGLRPAQ</Hsp_hseq>
+      <Hsp_midline>NDAF+TG RRGRRR  R    ALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPL  PKTEAAALQNQDEPITVSIRKDGQIFVGET+IPFENLAPR+ A+AG GYDKPIFV   GGATY VVAQVMAGLSNAGF+KINLITETGGPS+GAAP+DA+PEG++ LRPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_066686716.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Caulobacter sp. CCH9-E1]</Hit_def>
+  <Hit_accession>WP_066686716</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.136</Hsp_bit-score>
+      <Hsp_score>640</Hsp_score>
+      <Hsp_evalue>2.75599e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>NDAFATGGRRGRRRGRRSRGALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPL--PKTEAAALQNQDEPITVSIRKDGQIFVGETEIPFENLAPRIGAIAGDGYDKPIFV---GGATYAVVAQVMAGLSNAGFNKINLITETGGPSTGAAPRDAQPEG-AADLRPAQ</Hsp_qseq>
+      <Hsp_hseq>NDAFATGGGRGRRRRRSRG-ALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPLELPKTEAAALQNQEEPITVSIRKDGGVFVGETQIPFENLAPRISAIAGDGYDKPIFVRADGGATYSIVAQVMAGLSNAGFNKINLITETGGPSSGAAPRDAQPAADAGDLRPAQ</Hsp_hseq>
+      <Hsp_midline>NDAFATGG RGRRR R    ALSEINVTPLVDVMLVLLIIFMISAPLLTAGVPL  PKTEAAALQNQ+EPITVSIRKDG +FVGET+IPFENLAPRI AIAGDGYDKPIFV   GGATY++VAQVMAGLSNAGFNKINLITETGGPS+GAAPRDAQP   A DLRPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>877105751</Statistics_db-num>
+      <Statistics_db-len>334462191313</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

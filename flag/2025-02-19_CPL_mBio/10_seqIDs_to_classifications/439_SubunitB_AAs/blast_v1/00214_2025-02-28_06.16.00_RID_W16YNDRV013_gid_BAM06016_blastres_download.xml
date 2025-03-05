@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_2331265</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>252</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_2331265</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>252</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_014448510.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Leptospirillum ferrooxidans] &gt;dbj|BAM06017.1| putative flagellar motor protein [Leptospirillum ferrooxidans C2-3]</Hit_def>
+  <Hit_accession>WP_014448510</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>484.567</Hsp_bit-score>
+      <Hsp_score>1246</Hsp_score>
+      <Hsp_evalue>1.36112e-171</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>252</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>252</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MAKKARHEEHENLERWLVSYADFITLLFAFF-MLYAISSLNTGKFRVMSNAITATFQHKKVIGSTHV--PK---MQSGKITPQTQ---VQAMQLMVEKSSQKGDMQVVQTKHGIVLRIQSKLLFESGHSKIRPQALPVLKKVAGILAKSKKEIRISGYTDN--IRTSKYPNNWVLSTMRAVNVLTELIREGPLDP---GASGFGRFRPIASNMTAS--EKNRRVEILILNREYHSPTVLPLADSGPGPHRTFPNQKQEHSKPLPPPEI</Hsp_qseq>
+      <Hsp_hseq>MAKKARHEEHENLERWLVSYADFITLLFAFFVMLYAISSLNTGKFRVMSNAITATFQHKKVIGSTHVIIPKDNTMQSGKITPQTQAVMVQAMQLMVEKSSQKGDMQVVQTKHGIVLRIQSKLLFESGHSKIRPQALPVLKKVAGILAKSKKEIRISGYTDNQPIRTSKYPNNWVLSTMRAVNVLTELIREGPLDPRRGGASGFGRFRPIASNMTASGREKNRRVEILILNREYHSPTVLPLADSGPGPHRTFPNQKQEHSKPLPPPEI</Hsp_hseq>
+      <Hsp_midline>MAKKARHEEHENLERWLVSYADFITLLFAFF MLYAISSLNTGKFRVMSNAITATFQHKKVIGSTHV  PK   MQSGKITPQTQ   VQAMQLMVEKSSQKGDMQVVQTKHGIVLRIQSKLLFESGHSKIRPQALPVLKKVAGILAKSKKEIRISGYTDN  IRTSKYPNNWVLSTMRAVNVLTELIREGPLDP   GASGFGRFRPIASNMTAS  EKNRRVEILILNREYHSPTVLPLADSGPGPHRTFPNQKQEHSKPLPPPEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|MDA8060133.1|</Hit_id>
+  <Hit_def>OmpA family protein [Nitrospiraceae bacterium]</Hit_def>
+  <Hit_accession>MDA8060133</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.565</Hsp_bit-score>
+      <Hsp_score>1111</Hsp_score>
+      <Hsp_evalue>6.82425e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>252</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>221</Hsp_identity>
+      <Hsp_positive>242</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MAKKARHEEHENLERWLVSYADFITLLFAFF-MLYAISSLNTGKFRVMSNAITATFQHKKVIGSTHV--PK---MQSGKITPQTQ---VQAMQLMVEKSSQKGDMQVVQTKHGIVLRIQSKLLFESGHSKIRPQALPVLKKVAGILAKSKKEIRISGYTDN--IRTSKYPNNWVLSTMRAVNVLTELIREGPLDP---GASGFGRFRPIASNMTAS--EKNRRVEILILNREYHSPTVLPLADSGPGPHRTFPNQKQEHSKPLPPPEI</Hsp_qseq>
+      <Hsp_hseq>MAKKARHEEHENLERWLVSYADFITLLFAFFVMLYAISSLNTGKFRVMSNAITATFQHKKVIGSTHVIIPKDNTQQSGKVTPNTQAVMVQAIQLMVEKSSRKGNMEVVQTKHGIVLRIQSKLLFESGHAKIRSRALPVLKSVAGILAKSQKEIRISGYTDNQPIRTSRYPNNWVLSTMRAVNVLTELIRDGPLSPQRAGAAGFGRYRPIASNLTASGREKNRRVEILILNREYHPPHVLPMENAGPGPHQTFPNRKADQAKPLPPPDI</Hsp_hseq>
+      <Hsp_midline>MAKKARHEEHENLERWLVSYADFITLLFAFF MLYAISSLNTGKFRVMSNAITATFQHKKVIGSTHV  PK    QSGK+TP TQ   VQA+QLMVEKSS+KG+M+VVQTKHGIVLRIQSKLLFESGH+KIR +ALPVLK VAGILAKS+KEIRISGYTDN  IRTS+YPNNWVLSTMRAVNVLTELIR+GPL P   GA+GFGR+RPIASN+TAS  EKNRRVEILILNREYH P VLP+ ++GPGPH+TFPN+K + +KPLPPP+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|EAY57796.1|</Hit_id>
+  <Hit_def>MAG: putative flagellar motor protein (OmpA/MotB) [Leptospirillum rubarum]</Hit_def>
+  <Hit_accession>EAY57796</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.546</Hsp_bit-score>
+      <Hsp_score>815</Hsp_score>
+      <Hsp_evalue>4.49222e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>248</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MAKKARHEEHENLERWLVSYADFITLLFAFF-MLYAISSLNTGKFRVMSNAITATFQHKKVIGSTHV--PKMQS--GKITPQTQ---VQAMQLMVEKSSQKGDMQVVQTKHGIVLRIQSKLLFESGHSKIRPQALPVLKKVAGILAKSKKEIRISGYTDN--IRTSKYPNNWVLSTMRAVNVLTELIREGPLDP---GASGFGRFRPIASNMT--ASEKNRRVEILILNREYHSPTVLPLADSGPGPHRTFPNQKQEHSKPLP</Hsp_qseq>
+      <Hsp_hseq>MAKKPRHEEHENLERWLVSYADFITLLFAFFVMLYAIASVNTGKFRVLSNAIVAAFTHKKQIRLTHVIIPKDMSTPGKATPQVQSVMIRALELLVQKSSEKGDMKVVQTKEGIVLRIQSRFLFASGHARVRRKAVPVLRKIAALLARTNHEIRVHGYTDNQPIRTSRYPNNWALSTMRAVNVLTRLLEYGSIDPGRMGAAGFGKFRPIASNLTPEGREKNRRVEILIMNREY-----VPHSSTGPAP--SAPPRRTPPSPALP</Hsp_hseq>
+      <Hsp_midline>MAKK RHEEHENLERWLVSYADFITLLFAFF MLYAI+S+NTGKFRV+SNAI A F HKK I  THV  PK  S  GK TPQ Q   ++A++L+V+KSS+KGDM+VVQTK GIVLRIQS+ LF SGH+++R +A+PVL+K+A +LA++  EIR+ GYTDN  IRTS+YPNNW LSTMRAVNVLT L+  G +DP   GA+GFG+FRPIASN+T    EKNRRVEILI+NREY     +P + +GP P  + P ++   S  LP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_077397417.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Leptospirillum ferriphilum] &gt;gb|OOH83930.1| flagellar motor protein [Leptospirillum ferriphilum]</Hit_def>
+  <Hit_accession>WP_077397417</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.775</Hsp_bit-score>
+      <Hsp_score>813</Hsp_score>
+      <Hsp_evalue>9.34764e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>248</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MAKKARHEEHENLERWLVSYADFITLLFAFF-MLYAISSLNTGKFRVMSNAITATFQHKKVIGSTHV--PKMQS--GKITPQTQ---VQAMQLMVEKSSQKGDMQVVQTKHGIVLRIQSKLLFESGHSKIRPQALPVLKKVAGILAKSKKEIRISGYTDN--IRTSKYPNNWVLSTMRAVNVLTELIREGPLDP---GASGFGRFRPIASNMT--ASEKNRRVEILILNREYHSPTVLPLADSGPGPHRTFPNQKQEHSKPLP</Hsp_qseq>
+      <Hsp_hseq>MAKKPRHEEHENLERWLVSYADFITLLFAFFVMLYAIASVNTGKFRVLSNAIVAAFTHKKQIRLTHVIIPKDMSTPGKATPQVQSVMIRALELLVQKSSEKGDMKVVQTKEGIVLRIQSRFLFASGHARVRRKAVPVLRKIAALLARTNHEIRVHGYTDNQPIRTSRYPSNWALSTMRAVNVLTRLLEYGSIDPGRMGAAGFGKFRPIASNLTPEGREKNRRVEILIMNREY-----VPHSSTGPAP--SAPSRRTPPSPALP</Hsp_hseq>
+      <Hsp_midline>MAKK RHEEHENLERWLVSYADFITLLFAFF MLYAI+S+NTGKFRV+SNAI A F HKK I  THV  PK  S  GK TPQ Q   ++A++L+V+KSS+KGDM+VVQTK GIVLRIQS+ LF SGH+++R +A+PVL+K+A +LA++  EIR+ GYTDN  IRTS+YP+NW LSTMRAVNVLT L+  G +DP   GA+GFG+FRPIASN+T    EKNRRVEILI+NREY     +P + +GP P  + P+++   S  LP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_014960024.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Leptospirillum ferriphilum] &gt;gb|AFS52500.1| putative flagellar motor protein OmpA/MotB [Leptospirillum ferriphilum ML-04] &gt;gb|AIA29963.1| flagellar motor protein OmpA/MotB [Leptospirillum ferriphilum YSK] &gt;gb|OOH69708.1| flagellar motor protein [Leptospirillum ferriphilum]</Hit_def>
+  <Hit_accession>WP_014960024</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>316.62</Hsp_bit-score>
+      <Hsp_score>810</Hsp_score>
+      <Hsp_evalue>3.32404e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>248</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MAKKARHEEHENLERWLVSYADFITLLFAFF-MLYAISSLNTGKFRVMSNAITATFQHKKVIGSTHV--PKMQS--GKITPQTQ---VQAMQLMVEKSSQKGDMQVVQTKHGIVLRIQSKLLFESGHSKIRPQALPVLKKVAGILAKSKKEIRISGYTDN--IRTSKYPNNWVLSTMRAVNVLTELIREGPLDP---GASGFGRFRPIASNMT--ASEKNRRVEILILNREYHSPTVLPLADSGPGPHRTFPNQKQEHSKPLP</Hsp_qseq>
+      <Hsp_hseq>MAKKPRHEEHENLERWLVSYADFITLLFAFFVMLYAIASVNTGKFRVLSNAIVAAFTHKKQIRLTHVIIPKDMSTPGKATPQVQSVMIRALELLVQKSSEKGDMKVVQTKEGIVLRIQSRFLFASGHARVRRKAVPVLRKIAALLARTNHEIRVHGYTDNQPIRTSRYPSNWALSTMRAVNVLTRLLEYGSIDPGRMGAAGFGKFRPIASNLTPEGREKNRRVEILIMNREY-----VPHSSTGPAP--SAPPRRTPPSPALP</Hsp_hseq>
+      <Hsp_midline>MAKK RHEEHENLERWLVSYADFITLLFAFF MLYAI+S+NTGKFRV+SNAI A F HKK I  THV  PK  S  GK TPQ Q   ++A++L+V+KSS+KGDM+VVQTK GIVLRIQS+ LF SGH+++R +A+PVL+K+A +LA++  EIR+ GYTDN  IRTS+YP+NW LSTMRAVNVLT L+  G +DP   GA+GFG+FRPIASN+T    EKNRRVEILI+NREY     +P + +GP P  + P ++   S  LP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_023524363.1|</Hit_id>
+  <Hit_def>MULTISPECIES: flagellar motor protein MotB [Leptospirillum] &gt;gb|AKS22677.1| flagellar motor protein [Leptospirillum sp. Group II &apos;CF-1&apos;] &gt;gb|EDZ39607.1| MAG: Putative flagellar motor protein (OmpA/MotB) [Leptospirillum sp. Group II &apos;5-way CG&apos;] &gt;gb|EIJ76489.1| MAG: Putative flagellar motor protein (OmpA/MotB) [Leptospirillum sp. Group II &apos;C75&apos;] &gt;gb|KGA95024.1| Flagellar motor rotation protein MotB [Leptospirillum ferriphilum]</Hit_def>
+  <Hit_accession>WP_023524363</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>316.235</Hsp_bit-score>
+      <Hsp_score>809</Hsp_score>
+      <Hsp_evalue>4.76872e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKARHEEHENLERWLVSYADFITLLFAFF-MLYAISSLNTGKFRVMSNAITATFQHKKVIGSTHV--PKMQS--GKITPQTQ---VQAMQLMVEKSSQKGDMQVVQTKHGIVLRIQSKLLFESGHSKIRPQALPVLKKVAGILAKSKKEIRISGYTDN--IRTSKYPNNWVLSTMRAVNVLTELIREGPLDP---GASGFGRFRPIASNMT--ASEKNRRVEILILNREY</Hsp_qseq>
+      <Hsp_hseq>MAKKPRHEEHENLERWLVSYADFITLLFAFFVMLYAIASVNTGKFRVLSNAIVAAFTHKKQIRLTHVIIPKDMSTPGKASPQVQSVMIQAMQLLVQKSSEKGDMKVVQTKEGIVLRIQSRFLFASGHARVRRKAVPVLRKIAALLARTNHEIRVHGYTDNQPIRTSRYPSNWALSTMRAVNVLTRLLEYGSIDPGRMGAAGFGKFRPIASNLTPEGREKNRRVEILIMNREY</Hsp_hseq>
+      <Hsp_midline>MAKK RHEEHENLERWLVSYADFITLLFAFF MLYAI+S+NTGKFRV+SNAI A F HKK I  THV  PK  S  GK +PQ Q   +QAMQL+V+KSS+KGDM+VVQTK GIVLRIQS+ LF SGH+++R +A+PVL+K+A +LA++  EIR+ GYTDN  IRTS+YP+NW LSTMRAVNVLT L+  G +DP   GA+GFG+FRPIASN+T    EKNRRVEILI+NREY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|MCL4460702.1|</Hit_id>
+  <Hit_def>OmpA family protein [Nitrospirota bacterium]</Hit_def>
+  <Hit_accession>MCL4460702</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>304.294</Hsp_bit-score>
+      <Hsp_score>778</Hsp_score>
+      <Hsp_evalue>2.39594e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MAKKARHEEHENLERWLVSYADFITLLFAFF-MLYAISSLNTGKFRVMSNAITATFQHKKVIGSTHV--PKMQS--GKITPQTQ---VQAMQLMVEKSSQKGDMQVVQTKHGIVLRIQSKLLFESGHSKIRPQALPVLKKVAGILAKSKKEIRISGYTDN--IRTSKYPNNWVLSTMRAVNVLTELIREGPLDP---GASGFGRFRPIASNMT--ASEKNRRVEILILNREY</Hsp_qseq>
+      <Hsp_hseq>MAKKPRHEDHENLERWLVSYADFITLLFAFFVMLYAIASVNTGKFRVLSNAIVAAFTHKKQIRLTHVIIPKDLATPGKATSQVEPVMVQAMQLLVQKSSEKGNMKVVQTREGIVLRIQSRFLFASGHARLRSKSVPVLQKIAALLARTDHEIRVHGYTDNQPIRTSRYPSNWALSTMRAVNVLTRLLEYGSIDPGRMGAAGFGKFRPIASNLTPEGREKNRRVEILIMNRKY</Hsp_hseq>
+      <Hsp_midline>MAKK RHE+HENLERWLVSYADFITLLFAFF MLYAI+S+NTGKFRV+SNAI A F HKK I  THV  PK  +  GK T Q +   VQAMQL+V+KSS+KG+M+VVQT+ GIVLRIQS+ LF SGH+++R +++PVL+K+A +LA++  EIR+ GYTDN  IRTS+YP+NW LSTMRAVNVLT L+  G +DP   GA+GFG+FRPIASN+T    EKNRRVEILI+NR+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|MEC4683453.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Nitrospirota bacterium]</Hit_def>
+  <Hit_accession>MEC4683453</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.455</Hsp_bit-score>
+      <Hsp_score>659</Hsp_score>
+      <Hsp_evalue>5.16003e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MAKKARHEEHENLERWLVSYADFITLLFAFF-MLYAISSLNTGKFRVMSNAITATFQHKKVIGSTHV----PKMQSGKITPQTQV---QAMQLMVEKSSQKGDMQVVQTKHGIVLRIQSKLLFESGHSKIRPQALPVLKKVAGILAKSKKEIRISGYTDNIRTS-KYPNNWVLSTMRAVNVLTELIREGPLDP---GASGFGRFRPIASNMTAS--EKNRRVEILILN</Hsp_qseq>
+      <Hsp_hseq>MAKKAKHEEHENLERWLVSYADFITLLFTFFVMMYAISAVNTGKYRVLSDAIVATFNHKAVQSHPHIIIPHSRTMPGKASPRVRTVLFQAMQLIEEKSSNHGSMKVVQTSKGIRIRIQAAFLFDTGHARVKKEAFPVLQKIAAILAKTKRPIRVEGHTDNIPISGRYSSNWALSTMRAVNVLTHLIAMGPLDPVKASAAGFSQYRPLFPNDSSEHRQKNRRVEIVIMN</Hsp_hseq>
+      <Hsp_midline>MAKKA+HEEHENLERWLVSYADFITLLF FF M+YAIS++NTGK+RV+S+AI ATF HK V    H+     +   GK +P+ +    QAMQL+ EKSS  G M+VVQT  GI +RIQ+  LF++GH++++ +A PVL+K+A ILAK+K+ IR+ G+TDNI  S +Y +NW LSTMRAVNVLT LI  GPLDP    A+GF ++RP+  N ++   +KNRRVEI+I+N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|MCL4485601.1|</Hit_id>
+  <Hit_def>OmpA family protein [Nitrospirota bacterium]</Hit_def>
+  <Hit_accession>MCL4485601</Hit_accession>
+  <Hit_len>274</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.529</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>2.0879e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>MAKKARHEEHENLERWLVSYADFITLLFAFF-MLYAISSLNTGKFRVMSNAITATFQHKKVIGSTHV----PKMQSGKITPQTQV---QAMQLMVEKSSQKGDMQVVQTKHGIVLRIQSKLLFESGHSKIRPQALPVLKKVAGILAKSKKEIRISGYTDNIRT-SKYPNNWVLSTMRAVNVLTELIREGPLDP---GASGFGRFRPIASNMTASE--KNRRVEILIL-NREYHSPTVLPLADSGPGP</Hsp_qseq>
+      <Hsp_hseq>MAKKAKHEEHENLERWLVSYADFITLLFTFFVMMYAISAVNTGKYKVLSHAIVATFNHQTLNEHLHVIIPHTRSQPGKASPRVRTVLFRAMQLIQERSSSRGAMKVVQTSKGIRIRIQAAFLFRSGHAAVRQEALPTLKNIASILARTKRPIRVEGHTDNVPIHGRYKNNWALSTMRAVNVLTELIALGPLDPRQVSAAGYGQYRPLVPNDSGADRQKNRRVEIVILKGGEPSLPPLAPAVSSGISP</Hsp_hseq>
+      <Hsp_midline>MAKKA+HEEHENLERWLVSYADFITLLF FF M+YAIS++NTGK++V+S+AI ATF H+ +    HV     + Q GK +P+ +    +AMQL+ E+SS +G M+VVQT  GI +RIQ+  LF SGH+ +R +ALP LK +A ILA++K+ IR+ G+TDN+    +Y NNW LSTMRAVNVLTELI  GPLDP    A+G+G++RP+  N + ++  KNRRVEI+IL   E   P + P   SG  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|MDA8028421.1|</Hit_id>
+  <Hit_def>OmpA family protein [Nitrospiraceae bacterium]</Hit_def>
+  <Hit_accession>MDA8028421</Hit_accession>
+  <Hit_len>274</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>255.758</Hsp_bit-score>
+      <Hsp_score>652</Hsp_score>
+      <Hsp_evalue>4.28717e-81</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>MAKKARHEEHENLERWLVSYADFITLLFAFF-MLYAISSLNTGKFRVMSNAITATFQHKKVIGSTHV----PKMQSGKITPQTQV---QAMQLMVEKSSQKGDMQVVQTKHGIVLRIQSKLLFESGHSKIRPQALPVLKKVAGILAKSKKEIRISGYTDNIRT-SKYPNNWVLSTMRAVNVLTELIREGPLDP---GASGFGRFRPIASNMTAS--EKNRRVEILIL-NREYHSPTVLPLADSGPGP</Hsp_qseq>
+      <Hsp_hseq>MAKKAKHEEHENLERWLVSYADFITLLFTFFVMMYAISAVNTGKYKVLSHAIVATFNHQTLNEHLHIIIPHNRSQAGKASPQVRTVLFRAMQLIQEKSSSHGAMKVVQTSQGIRIRIQAAFLFRSGHAAIRKEALPTLKNIAGILARTKRPIRVEGHTDNVPIRGRYKNNWALSTMRAVNVLTELIALGPIDPRQASAAGYSQYRPLVPNDSDAGRQKNRRVEIVILKGAEKSLPS--PTPDLPPAP</Hsp_hseq>
+      <Hsp_midline>MAKKA+HEEHENLERWLVSYADFITLLF FF M+YAIS++NTGK++V+S+AI ATF H+ +    H+     + Q+GK +PQ +    +AMQL+ EKSS  G M+VVQT  GI +RIQ+  LF SGH+ IR +ALP LK +AGILA++K+ IR+ G+TDN+    +Y NNW LSTMRAVNVLTELI  GP+DP    A+G+ ++RP+  N + +  +KNRRVEI+IL   E   P+  P  D  P P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|EES52986.1|</Hit_id>
+  <Hit_def>MAG: putative flagellar motor protein (OmpA/MotB) [Leptospirillum ferrodiazotrophum]</Hit_def>
+  <Hit_accession>EES52986</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>252.292</Hsp_bit-score>
+      <Hsp_score>643</Hsp_score>
+      <Hsp_evalue>1.30439e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>MAKKARHEEHENLERWLVSYADFITLLFAFF-MLYAISSLNTGKFRVMSNAITATFQHKKVIGSTHV----PKMQSGKITPQTQV---QAMQLMVEKSSQKGDMQVVQTKHGIVLRIQSKLLFESGHSKIRPQALPVLKKVAGILAKSKKEIRISGYTDNIRT-SKYPNNWVLSTMRAVNVLTELIREGPLDP---GASGFGRFRPIASNMTAS--EKNRRVEILILNREYHSPTVLP</Hsp_qseq>
+      <Hsp_hseq>MAKKVKHEEHENLERWLVSYADFITLLFTFFVMMYAISAVNTGKYKVLSNAIVATFTHKTVTAHMHVIIPHNRVTPGKASPKVRTVLFRAMQLVQEKSSSHGAMKVVQSSEGIRIQIQAAFLFRTGHAAVRKQAIPVLKNIAALLSKTKRDIRVEGHTDNVPIHGRYKNNWALSSMRAVNVLTTLIALAPIDPSRASAAGYGQYRPLVPNTSAENRQKNRRVEIVVLKEK--APESLP</Hsp_hseq>
+      <Hsp_midline>MAKK +HEEHENLERWLVSYADFITLLF FF M+YAIS++NTGK++V+SNAI ATF HK V    HV     ++  GK +P+ +    +AMQL+ EKSS  G M+VVQ+  GI ++IQ+  LF +GH+ +R QA+PVLK +A +L+K+K++IR+ G+TDN+    +Y NNW LS+MRAVNVLT LI   P+DP    A+G+G++RP+  N +A   +KNRRVEI++L  +  +P  LP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|MCL5954316.1|</Hit_id>
+  <Hit_def>OmpA family protein [Nitrospirota bacterium]</Hit_def>
+  <Hit_accession>MCL5954316</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>249.98</Hsp_bit-score>
+      <Hsp_score>637</Hsp_score>
+      <Hsp_evalue>1.00005e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>MAKKARHEEHENLERWLVSYADFITLLFAFF-MLYAISSLNTGKFRVMSNAITATFQHKKVIGSTHV----PKMQSGKITPQTQV---QAMQLMVEKSSQKGDMQVVQTKHGIVLRIQSKLLFESGHSKIRPQALPVLKKVAGILAKSKKEIRISGYTDNIRT-SKYPNNWVLSTMRAVNVLTELIREGPLDP---GASGFGRFRPIASNMTAS--EKNRRVEILILNREYHSPTVLP</Hsp_qseq>
+      <Hsp_hseq>MAKKVKHEEHENLERWLVSYADFITLLFTFFVMMYAISAVNTGKYKVLSNAIVATFTHKTVTAHMHVIIPHNRVTPGKASPKVRTVLFRAMQLVQEKPSSHGAMKVVQSSEGIRIQIQAAFLFRTGHAAVRKQAIPVLKNIAALLSKTKRDIRVEGHTDNVPIHGRYKNNWALSSMRAVNVLTTLIALAPIDPSRASAAGYGQYRPLVPNTSAENRQKNRRVEIVVLKEK--APESLP</Hsp_hseq>
+      <Hsp_midline>MAKK +HEEHENLERWLVSYADFITLLF FF M+YAIS++NTGK++V+SNAI ATF HK V    HV     ++  GK +P+ +    +AMQL+ EK S  G M+VVQ+  GI ++IQ+  LF +GH+ +R QA+PVLK +A +L+K+K++IR+ G+TDN+    +Y NNW LS+MRAVNVLT LI   P+DP    A+G+G++RP+  N +A   +KNRRVEI++L  +  +P  LP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_020859387.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Leptospirillum sp. Group II &apos;CF-1&apos;] &gt;gb|AKS22839.1| flagellar motor protein [Leptospirillum sp. Group II &apos;CF-1&apos;] &gt;gb|EIJ75168.1| MAG: Putative flagellar motor protein (OmpA/MotB) [Leptospirillum sp. Group II &apos;C75&apos;]</Hit_def>
+  <Hit_accession>WP_020859387</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>239.58</Hsp_bit-score>
+      <Hsp_score>610</Hsp_score>
+      <Hsp_evalue>5.58282e-75</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>KKARHEEHENLERWLVSYADFITLLFAFF-MLYAISSLNTGKFRVMSNAITATFQHKKVIGSTH--VPKMQ---SGKITPQTQ---VQAMQLMVEKSSQKGDMQVVQTKHGIVLRIQSKLLFESGHSKIRPQALPVLKKVAGILAKSKKEIRISGYTDN--IRTSKYPNNWVLSTMRAVNVLTELIREGPLDP---GASGFGRFRPIASNMT--ASEKNRRVEILILNREYHSP</Hsp_qseq>
+      <Hsp_hseq>KHQRSEEHENLDRWLVSYADFITLLFAFFVMLYAVTSMNKGKFRVLSNALEATLNHQKTATAPTFIIPKDTMPLPGRRAPQVKGALFHAMDILVERSSTRGDIKVLPAPDGTVLRIQSRFLFDSGHAAIRKRAIPVLQKIARILSKKHRRIHVRGYTDNQPIRTFRYPNNWALSSMRAVNVLVALVRMGGIPPERAEAVGFGKSRPIASNLNPEGRDENRRVEIFIARRTVHAP</Hsp_hseq>
+      <Hsp_midline>K  R EEHENL+RWLVSYADFITLLFAFF MLYA++S+N GKFRV+SNA+ AT  H+K   +    +PK      G+  PQ +     AM ++VE+SS +GD++V+    G VLRIQS+ LF+SGH+ IR +A+PVL+K+A IL+K  + I + GYTDN  IRT +YPNNW LS+MRAVNVL  L+R G + P    A GFG+ RPIASN+     ++NRRVEI I  R  H+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_053764590.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Leptospirillum ferriphilum]</Hit_def>
+  <Hit_accession>WP_053764590</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>237.654</Hsp_bit-score>
+      <Hsp_score>605</Hsp_score>
+      <Hsp_evalue>3.55669e-74</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>KKARHEEHENLERWLVSYADFITLLFAFF-MLYAISSLNTGKFRVMSNAITATFQHKKVIGST--HVPKMQ---SGKITPQTQ---VQAMQLMVEKSSQKGDMQVVQTKHGIVLRIQSKLLFESGHSKIRPQALPVLKKVAGILAKSKKEIRISGYTDN--IRTSKYPNNWVLSTMRAVNVLTELIREGPLDP---GASGFGRFRPIASNMT--ASEKNRRVEILILNREYHSP</Hsp_qseq>
+      <Hsp_hseq>KRPRKEDRENLDRWLVSYADFITLLFAFFVMLYAVTSMNKGKFRVLSNALEETFNHQKPVSAPAFHIPKDMMPMPGKAAPQVRGALFHTIETLVERSSQRGDMKVIPTPQGTILRIQSRFLFRSGHASLRQRAMRVLRKIAHVLSKTPRRVHIRGYTDNMPIRTDRYPNNWALSGMRAVNVLVALVRMGGVRPEEGEAVGFGKTRPIASNLTQEGREANRRVEIFIAKDARPSP</Hsp_hseq>
+      <Hsp_midline>K+ R E+ ENL+RWLVSYADFITLLFAFF MLYA++S+N GKFRV+SNA+  TF H+K + +   H+PK      GK  PQ +      ++ +VE+SSQ+GDM+V+ T  G +LRIQS+ LF SGH+ +R +A+ VL+K+A +L+K+ + + I GYTDN  IRT +YPNNW LS MRAVNVL  L+R G + P    A GFG+ RPIASN+T    E NRRVEI I      SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_077303850.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Leptospirillum ferriphilum] &gt;gb|OOH72795.1| flagellar motor protein [Leptospirillum ferriphilum]</Hit_def>
+  <Hit_accession>WP_077303850</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>234.958</Hsp_bit-score>
+      <Hsp_score>598</Hsp_score>
+      <Hsp_evalue>3.90725e-73</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>KKARHEEHENLERWLVSYADFITLLFAFF-MLYAISSLNTGKFRVMSNAITATFQHKKVIGST--HVPKMQ---SGKITPQTQ---VQAMQLMVEKSSQKGDMQVVQTKHGIVLRIQSKLLFESGHSKIRPQALPVLKKVAGILAKSKKEIRISGYTDN--IRTSKYPNNWVLSTMRAVNVLTELIREGPLDP---GASGFGRFRPIASNMT--ASEKNRRVEILILNREYHSP</Hsp_qseq>
+      <Hsp_hseq>KRPRKEDRENLDRWLVSYADFITLLFAFFVMLYAVTSMNKGKFRVLSNALEETFNHQKPVSAPAFHIPKDMMPMPGKAAPQVRGALFHTIETLVERSSQRGDMKVIPTPQGTILRIQSRFLFRSGHASLRQRAMRVLRKIAHVLSKTPRRVHIRGYTDNMPIRTDRYPNNWALSGMRAVNVLVALVRMGGVRPEEGEAVGFGKTRPIASNLTQEGREANRRGEIFIAKDARPSP</Hsp_hseq>
+      <Hsp_midline>K+ R E+ ENL+RWLVSYADFITLLFAFF MLYA++S+N GKFRV+SNA+  TF H+K + +   H+PK      GK  PQ +      ++ +VE+SSQ+GDM+V+ T  G +LRIQS+ LF SGH+ +R +A+ VL+K+A +L+K+ + + I GYTDN  IRT +YPNNW LS MRAVNVL  L+R G + P    A GFG+ RPIASN+T    E NRR EI I      SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|MCL4461872.1|</Hit_id>
+  <Hit_def>OmpA family protein [Nitrospirota bacterium]</Hit_def>
+  <Hit_accession>MCL4461872</Hit_accession>
+  <Hit_len>270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>226.868</Hsp_bit-score>
+      <Hsp_score>577</Hsp_score>
+      <Hsp_evalue>7.59008e-70</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>EEHENLERWLVSYADFITLLFAFF-MLYAISSLNTGKFRVMSNAITATFQHKKVIG---------STHVPKMQSGKITPQ---TQVQAMQLMVEKSSQKGDMQVVQTKHGIVLRIQSKLLFESGHSKIRPQALPVLKKVAGILAKSKKEIRISGYTDN--IRTSKYPNNWVLSTMRAVNVLTELIREGPLDP---GASGFGRFRPIASNMT--ASEKNRRVEILILNREYHS</Hsp_qseq>
+      <Hsp_hseq>EDHENLDRWLVSYADFITLLFAFFVMLYAVTSMNKGKFRVLSSALEETLNHQKAASAPTFIVPRDTTHFP----GRATPAVRGTVFHQLNVLVEKSSERGDMKVLPTPEGTILRIRSALLFRSGHAAVRNRVIPVLRKIARFLSKTRRRVHVRGYTDNQPIRTIRYPNNWALSSMRSVNVLVALVRLGGLSPERGEAVGFGKTRPVASNLTPQGRDENRRVEIFIARPEKKS</Hsp_hseq>
+      <Hsp_midline>E+HENL+RWLVSYADFITLLFAFF MLYA++S+N GKFRV+S+A+  T  H+K            +TH P    G+ TP    T    + ++VEKSS++GDM+V+ T  G +LRI+S LLF SGH+ +R + +PVL+K+A  L+K+++ + + GYTDN  IRT +YPNNW LS+MR+VNVL  L+R G L P    A GFG+ RP+ASN+T    ++NRRVEI I   E  S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_077397621.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Leptospirillum ferriphilum] &gt;gb|OOH82082.1| flagellar motor protein [Leptospirillum ferriphilum]</Hit_def>
+  <Hit_accession>WP_077397621</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.935</Hsp_bit-score>
+      <Hsp_score>559</Hsp_score>
+      <Hsp_evalue>2.48685e-67</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>EEHENLERWLVSYADFITLLFAFF-MLYAISSLNTGKFRVMSNAITATFQHKKVIGS--THVPKMQS---GKITPQTQ---VQAMQLMVEKSSQKGDMQVVQTKHGIVLRIQSKLLFESGHSKIRPQALPVLKKVAGILAKSKKEIRISGYTDN--IRTSKYPNNWVLSTMRAVNVLTELIREGPLDPG---ASGFGRFRPIASNMT--ASEKNRRVEILIL</Hsp_qseq>
+      <Hsp_hseq>EDPENLDRWLVSYADFITLLFAFFVMLYAVTSMNKGKFRVLSNALEETLNHQKPVSSPSFKIPKDMTPLPGRASPQVRGVLFHTLDTLVERSSFRGEMKVIPTPDGTILRIQSRFLFRSGHASLRLQAIRLLKKIAHILSGRHRDVHIRGYTDNEPIRTFRYPNNWALSGMRAVNVLVALVRMGGIRPDHGEAVGFGKNRPIASNLTEEGRETNRRVDIFIV</Hsp_hseq>
+      <Hsp_midline>E+ ENL+RWLVSYADFITLLFAFF MLYA++S+N GKFRV+SNA+  T  H+K + S    +PK  +   G+ +PQ +      +  +VE+SS +G+M+V+ T  G +LRIQS+ LF SGH+ +R QA+ +LKK+A IL+   +++ I GYTDN  IRT +YPNNW LS MRAVNVL  L+R G + P    A GFG+ RPIASN+T    E NRRV+I I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|MEC4682263.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Nitrospirota bacterium]</Hit_def>
+  <Hit_accession>MEC4682263</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.527</Hsp_bit-score>
+      <Hsp_score>519</Hsp_score>
+      <Hsp_evalue>2.49579e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MAKKARHEEHENLERWLVSYADFITLLFAFF-MLYAISSLNTGKFRVMSNAITATFQHKKVIGSTHV----PKMQSGKITPQTQV---QAMQLMVEKSSQKGDMQVVQTKHGIVLRIQSKLLFESGHSKIRPQALPVLKKVAGILAKSKKEIRISGYTDNIRT-SKYPNNWVLSTMRAVNVLTELIREGPLDP---GASGFGRFRPIASNMTASE--KNRRVEILILNR</Hsp_qseq>
+      <Hsp_hseq>MHRKKKTEDHENLDRWLVSYADFITLLFTFFVMMYAMSSLNKGTYKVISSAIMETFKHHTPRQHLHVIIPHSRTMAGKSSPVTSTILRQVLQLVYEKSSNPGMLAVVETGKSIRVRIQAGFLFSKGHARVRKEALPLLRRIARILAENEEPIRVEGHTDNIPIHGRYPNNWTLSAARAVNVLRMLISLGPLDPKRTSTVAYGFSHPLGPNDTPEDRRKNRRVEIVILKK</Hsp_hseq>
+      <Hsp_midline>M +K + E+HENL+RWLVSYADFITLLF FF M+YA+SSLN G ++V+S+AI  TF+H       HV     +  +GK +P T     Q +QL+ EKSS  G + VV+T   I +RIQ+  LF  GH+++R +ALP+L+++A ILA++++ IR+ G+TDNI    +YPNNW LS  RAVNVL  LI  GPLDP       +G   P+  N T  +  KNRRVEI+IL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|MDA8029244.1|</Hit_id>
+  <Hit_def>OmpA family protein [Nitrospiraceae bacterium]</Hit_def>
+  <Hit_accession>MDA8029244</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>2.03504e-57</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>EEHENLERWLVSYADFITLLFAFF-MLYAISSLNTGKFRVMSNAITATFQHKKVIGSTHV-----PKMQSGKITPQTQV---QAMQLMVEKSSQKGDMQVVQTKHGIVLRIQSKLLFESGHSKIRPQALPVLKKVAGILAKSKKEIRISGYTDNIRT-SKYPNNWVLSTMRAVNVLTELIREGPLDP---GASGFGRFRPIASNMTASEK--NRRVEILILNR</Hsp_qseq>
+      <Hsp_hseq>EDHENLDRWLVSYADFITLLFTFFVMMYAVSAVNEGQYRTISHAIVATFLHRTPQERLHVILSPVPN-RSGLASPRPSVVLSKALELLRQKSPSSGEMNVVETSRNVRVRIQAGFLFREGHARIRREARPMLAKIARLLVANHRSIRVEGHTDNLPVHGRYRNNWALSGARAVNVLSVLLSSAPLDPRLTSSVAFGSSRPLAPNDTRDHRRQNRRVEIVILKR</Hsp_hseq>
+      <Hsp_midline>E+HENL+RWLVSYADFITLLF FF M+YA+S++N G++R +S+AI ATF H+      HV     P  +SG  +P+  V   +A++L+ +KS   G+M VV+T   + +RIQ+  LF  GH++IR +A P+L K+A +L  + + IR+ G+TDN+    +Y NNW LS  RAVNVL+ L+   PLDP    +  FG  RP+A N T   +  NRRVEI+IL R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|MDA8029346.1|</Hit_id>
+  <Hit_def>OmpA family protein [Nitrospiraceae bacterium]</Hit_def>
+  <Hit_accession>MDA8029346</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.104</Hsp_bit-score>
+      <Hsp_score>453</Hsp_score>
+      <Hsp_evalue>6.68863e-52</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>184</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>KKARHEEHENLERWLVSYADFITLLFAFF-MLYAISSLNTGKFRVMSNAITATFQHKKVIGSTHV----PKMQSGKITPQTQV---QAMQLMVEKSSQKGDMQVVQTKHGIVLRIQSKLLFESGHSKIRPQALPVLKKVAGILAKSKKEIRISGYTDNIRTSK-YPNNWVLSTMRAVNVLTELIREGPLDP</Hsp_qseq>
+      <Hsp_hseq>KRERKEDHENLDRWLVSYADFITLLFTFFVMMYAVSAVNEGQYRTISHAIVATFLHRAPEGRLHVILSPDRNRSGLASPRPPVVLTKALELLRQKSPSSGEMNVVETSRSVRVRIQSGFLFREGQARIRSEARPMLAKIARLLAARHRSIRVEGHTDNLPVRGLYRNNWALSGARSVNVLSFLLSSAPLDP</Hsp_hseq>
+      <Hsp_midline>K+ R E+HENL+RWLVSYADFITLLF FF M+YA+S++N G++R +S+AI ATF H+   G  HV     + +SG  +P+  V   +A++L+ +KS   G+M VV+T   + +RIQS  LF  G ++IR +A P+L K+A +LA   + IR+ G+TDN+     Y NNW LS  R+VNVL+ L+   PLDP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>877781531</Statistics_db-num>
+      <Statistics_db-len>334720180573</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

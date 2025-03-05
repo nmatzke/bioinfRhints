@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_2178365</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>127</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_2178365</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>127</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_012376708.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Opitutus terrae] &gt;gb|ACB77179.1| Biopolymer transport protein ExbD/TolR [Opitutus terrae PB90-1]</Hit_def>
+  <Hit_accession>WP_012376708</Hit_accession>
+  <Hit_len>133</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.121</Hsp_bit-score>
+      <Hsp_score>614</Hsp_score>
+      <Hsp_evalue>1.6363e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>MSSSLRQRRRRRPEMNLVPLIDVLVMLIFF-FVTMQFKSAATLNI--PKVETAGKNEFKGTVTIAINKESVISFNGKPVSDEELTALLQQVKSVDKDIPVLI---ETTPLKRLAFVMDACRKTGLNKFSLQSR</Hsp_qseq>
+      <Hsp_hseq>MSSSLRQRRRRRPEMNLVPLIDVLVMLIFFAFVTMQFKSAATLNITLPKVETAGKNEFKGTVTIAINKESVISFNGKPVSDEELTALLQQVKSVDKDIPVLIKADETTPLKRLAFVMDACRKTGLNKFSLQSR</Hsp_hseq>
+      <Hsp_midline>MSSSLRQRRRRRPEMNLVPLIDVLVMLIFF FVTMQFKSAATLNI  PKVETAGKNEFKGTVTIAINKESVISFNGKPVSDEELTALLQQVKSVDKDIPVLI   ETTPLKRLAFVMDACRKTGLNKFSLQSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|MEO7600148.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Opitutus sp.] &gt;gb|MEO7969345.1| biopolymer transporter ExbD [Opitutus sp.]</Hit_def>
+  <Hit_accession>MEO7600148</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.379</Hsp_bit-score>
+      <Hsp_score>529</Hsp_score>
+      <Hsp_evalue>1.74055e-66</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>SSLRQRRRRRPEMNLVPLIDVLVMLIFF-FVTMQFKSAATLNI--PKVETAGKNEFKGTVTIAINKESVISFNGKPVSDEELTALLQQVKSVDKDIPVLI---ETTPLKRLAFVMDACRKTGLNKFSLQSR</Hsp_qseq>
+      <Hsp_hseq>SSLYQKRRKRPEMNLVPLIDVLVMLIFFAFVTMQFKSAATLNITLPKVETAGKNEFKGTVTIGINNTGVLSFNGKDVSEEQLMELLRQVKNVDKDIPVLIKADETTPLKKLAFVMDACRKTGLNKFSLQSR</Hsp_hseq>
+      <Hsp_midline>SSL Q+RR+RPEMNLVPLIDVLVMLIFF FVTMQFKSAATLNI  PKVETAGKNEFKGTVTI IN   V+SFNGK VS+E+L  LL+QVK+VDKDIPVLI   ETTPLK+LAFVMDACRKTGLNKFSLQSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|MEI7551529.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Verrucomicrobiota bacterium]</Hit_def>
+  <Hit_accession>MEI7551529</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.453</Hsp_bit-score>
+      <Hsp_score>524</Hsp_score>
+      <Hsp_evalue>1.09879e-65</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>SSLRQRRRRRPEMNLVPLIDVLVMLIFF-FVTMQFKSAATLNI--PKVETAGKNEFKGTVTIAINKESVISFNGKPVSDEELTALLQQVKSVDKDIPVLI---ETTPLKRLAFVMDACRKTGLNKFSLQSR</Hsp_qseq>
+      <Hsp_hseq>SSLYQRRRKRPEMNLVPLIDVLVMLIFFAFVTMQFKSAATLNITLPKVETAGKNEFKGTVTIGIDKDGVVSFNGRKVADDELIRLLQEVHKVDKDIPVLIKADETTQLKKLAFVMDACRKTGLNKFSLQSR</Hsp_hseq>
+      <Hsp_midline>SSL QRRR+RPEMNLVPLIDVLVMLIFF FVTMQFKSAATLNI  PKVETAGKNEFKGTVTI I+K+ V+SFNG+ V+D+EL  LLQ+V  VDKDIPVLI   ETT LK+LAFVMDACRKTGLNKFSLQSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|MDB6128297.1|</Hit_id>
+  <Hit_def>Biopolymer transport protein ExbD/TolR [Verrucomicrobiota bacterium]</Hit_def>
+  <Hit_accession>MDB6128297</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>205.682</Hsp_bit-score>
+      <Hsp_score>522</Hsp_score>
+      <Hsp_evalue>2.16883e-65</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>SSLRQRRRRRPEMNLVPLIDVLVMLIFF-FVTMQFKSAATLNI--PKVETAGKNEFKGTVTIAINKESVISFNGKPVSDEELTALLQQVKSVDKDIPVLI---ETTPLKRLAFVMDACRKTGLNKFSLQSR</Hsp_qseq>
+      <Hsp_hseq>SSLYQKRRKRPEMNLVPLIDVLVMLIFFAFVTMQFKSAATLNITLPKVETAGKNEFKGTVTIGIDKDGVVSFNGKNVSDDDLLRLLQEVHKVDKDIPVLIKADETTQLKKLAFVMDACRKTGLNKFSLQSR</Hsp_hseq>
+      <Hsp_midline>SSL Q+RR+RPEMNLVPLIDVLVMLIFF FVTMQFKSAATLNI  PKVETAGKNEFKGTVTI I+K+ V+SFNGK VSD++L  LLQ+V  VDKDIPVLI   ETT LK+LAFVMDACRKTGLNKFSLQSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|MEY4940611.1|</Hit_id>
+  <Hit_def>hypothetical protein [Verrucomicrobiota bacterium]</Hit_def>
+  <Hit_accession>MEY4940611</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.527</Hsp_bit-score>
+      <Hsp_score>519</Hsp_score>
+      <Hsp_evalue>5.10202e-65</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>SSLRQRRRRRPEMNLVPLIDVLVMLIFF-FVTMQFKSAATLNI--PKVETAGKNEFKGTVTIAINKESVISFNGKPVSDEELTALLQQVKSVDKDIPVLI---ETTPLKRLAFVMDACRKTGLNKFSLQSR</Hsp_qseq>
+      <Hsp_hseq>SSLYQKRRRRPEMNLVALIDVLVMLIFFAFVTMQFKSAATLNITLPKVETAGKNEFKGTVTIGIDKDGSVSFNGKAVTDEQLLQLLEQVKNVDRDIPVLIKADETTQLKKLAFVMDACRKTGLNKFSLQSR</Hsp_hseq>
+      <Hsp_midline>SSL Q+RRRRPEMNLV LIDVLVMLIFF FVTMQFKSAATLNI  PKVETAGKNEFKGTVTI I+K+  +SFNGK V+DE+L  LL+QVK+VD+DIPVLI   ETT LK+LAFVMDACRKTGLNKFSLQSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|MSU65247.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Opitutus sp.]</Hit_def>
+  <Hit_accession>MSU65247</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.527</Hsp_bit-score>
+      <Hsp_score>519</Hsp_score>
+      <Hsp_evalue>5.94872e-65</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>SSLRQRRRRRPEMNLVPLIDVLVMLIFF-FVTMQFKSAATLNI--PKVETAGKNEFKGTVTIAINKESVISFNGKPVSDEELTALLQQVKSVDKDIPVLI---ETTPLKRLAFVMDACRKTGLNKFSLQSR</Hsp_qseq>
+      <Hsp_hseq>SSLLQRRRKRPELNLVPLIDVLVMLIFFAFVTMQFKSAATLNITLPKVETAGKNEFKGTVTIGIDKDGVVSFNGKNITDEQLIGLLEQVKNVDRDIPVLIKADETTQLKKLTFVMDACRKTGLNKFSLQSR</Hsp_hseq>
+      <Hsp_midline>SSL QRRR+RPE+NLVPLIDVLVMLIFF FVTMQFKSAATLNI  PKVETAGKNEFKGTVTI I+K+ V+SFNGK ++DE+L  LL+QVK+VD+DIPVLI   ETT LK+L FVMDACRKTGLNKFSLQSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|MEO5959212.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Opitutaceae bacterium]</Hit_def>
+  <Hit_accession>MEO5959212</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.142</Hsp_bit-score>
+      <Hsp_score>518</Hsp_score>
+      <Hsp_evalue>7.57195e-65</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>SSLRQRRRRRPEMNLVPLIDVLVMLIFF-FVTMQFKSAATLNI--PKVETAGKNEFKGTVTIAINKESVISFNGKPVSDEELTALLQQVKSVDKDIPVLI---ETTPLKRLAFVMDACRKTGLNKFSLQSR</Hsp_qseq>
+      <Hsp_hseq>SSLYQKRRKRPELNLVPLIDVLVMLIFFAFVTMQFKSAATLNITLPKVETAGKNEFKGTVTIGIDKDGVVSFNGQNVTDEQLLGLLQQVKNIDRDIPVLIKADETTQLKKLTFVMDACRKTGLNKFSLQSR</Hsp_hseq>
+      <Hsp_midline>SSL Q+RR+RPE+NLVPLIDVLVMLIFF FVTMQFKSAATLNI  PKVETAGKNEFKGTVTI I+K+ V+SFNG+ V+DE+L  LLQQVK++D+DIPVLI   ETT LK+L FVMDACRKTGLNKFSLQSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|MBI4623557.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Verrucomicrobiota bacterium]</Hit_def>
+  <Hit_accession>MBI4623557</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>203.371</Hsp_bit-score>
+      <Hsp_score>516</Hsp_score>
+      <Hsp_evalue>1.41479e-64</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>SSLRQRRRRRPEMNLVPLIDVLVMLIFF-FVTMQFKSAATLNI--PKVETAGKNEFKGTVTIAINKESVISFNGKPVSDEELTALLQQVKSVDKDIPVLI---ETTPLKRLAFVMDACRKTGLNKFSLQSR</Hsp_qseq>
+      <Hsp_hseq>SSLYQKRRKRPEMNLVPLIDVLVMLIFFAFVTMQFKSAATLNITLPKVETAGKNEFKGTVTLGIDKDGVVSFNGKNVTDEQLIGLLEQVKNVDRDIPVLIKADETTQLKKLTFVMDACRKSGLNKFSLQSR</Hsp_hseq>
+      <Hsp_midline>SSL Q+RR+RPEMNLVPLIDVLVMLIFF FVTMQFKSAATLNI  PKVETAGKNEFKGTVT+ I+K+ V+SFNGK V+DE+L  LL+QVK+VD+DIPVLI   ETT LK+L FVMDACRK+GLNKFSLQSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|MEO6004096.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Opitutus sp.] &gt;gb|MEO7699645.1| biopolymer transporter ExbD [Opitutus sp.]</Hit_def>
+  <Hit_accession>MEO6004096</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.986</Hsp_bit-score>
+      <Hsp_score>515</Hsp_score>
+      <Hsp_evalue>2.03173e-64</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>SSLRQRRRRRPEMNLVPLIDVLVMLIFF-FVTMQFKSAATLNI--PKVETAGKNEFKGTVTIAINKESVISFNGKPVSDEELTALLQQVKSVDKDIPVLI---ETTPLKRLAFVMDACRKTGLNKFSLQSR</Hsp_qseq>
+      <Hsp_hseq>SSIYQKRRKRPELNLVPLIDVLVMLIFFAFVTMQFKSAATLNITLPKVETAGKNEFKGTVTIGINNTGVLSFNGKDVSEDQLMELLRKVKSVDKDIPVLIKADESTPLKKLAFVMDACRKTGLNKFSLQSR</Hsp_hseq>
+      <Hsp_midline>SS+ Q+RR+RPE+NLVPLIDVLVMLIFF FVTMQFKSAATLNI  PKVETAGKNEFKGTVTI IN   V+SFNGK VS+++L  LL++VKSVDKDIPVLI   E+TPLK+LAFVMDACRKTGLNKFSLQSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|MDB6094085.1|</Hit_id>
+  <Hit_def>Biopolymer transport protein ExbD/TolR [Verrucomicrobiota bacterium]</Hit_def>
+  <Hit_accession>MDB6094085</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.216</Hsp_bit-score>
+      <Hsp_score>513</Hsp_score>
+      <Hsp_evalue>5.21749e-64</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>SSLRQRRRRRPEMNLVPLIDVLVMLIFF-FVTMQFKSAATLNI--PKVETAGKNEFKGTVTIAINKESVISFNGKPVSDEELTALLQQVKSVDKDIPVLI---ETTPLKRLAFVMDACRKTGLNKFSLQSR</Hsp_qseq>
+      <Hsp_hseq>SSLYQKRRKRPEMNLVPLIDVLVMLIFFAFVTMQFKSAATLNITLPKVETAGKNEFKGTVTLGIDKDGVVSFNGKQVSDGDLITLLQRVHDVNKDIPVLIKADETTQLKKLAFVMDACRKTGLNKFSLQSR</Hsp_hseq>
+      <Hsp_midline>SSL Q+RR+RPEMNLVPLIDVLVMLIFF FVTMQFKSAATLNI  PKVETAGKNEFKGTVT+ I+K+ V+SFNGK VSD +L  LLQ+V  V+KDIPVLI   ETT LK+LAFVMDACRKTGLNKFSLQSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|MBP6507496.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Opitutaceae bacterium] &gt;gb|MBP9913961.1| biopolymer transporter ExbD [Opitutaceae bacterium]</Hit_def>
+  <Hit_accession>MBP6507496</Hit_accession>
+  <Hit_len>133</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.06</Hsp_bit-score>
+      <Hsp_score>510</Hsp_score>
+      <Hsp_evalue>1.52771e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>MSSSLRQRRRRRPEMNLVPLIDVLVMLIFF-FVTMQFKSAATLNI--PKVETAGKNEFKGTVTIAINKESVISFNGKPVSDEELTALLQQVKSVDKDIPVLI---ETTPLKRLAFVMDACRKTGLNKFSLQSR</Hsp_qseq>
+      <Hsp_hseq>MSSSLYQKRRKRPELNLVPLIDVLVMLIFFAFVTMQFKSAATLNITLPKVETAGKNEFKGKVTIGIDKDGVVSFNNKTVTDERLLELLREVRNIDKDIPVLIKADETTQLKKLAFVMDACRKTGLNKFSLQSR</Hsp_hseq>
+      <Hsp_midline>MSSSL Q+RR+RPE+NLVPLIDVLVMLIFF FVTMQFKSAATLNI  PKVETAGKNEFKG VTI I+K+ V+SFN K V+DE L  LL++V+++DKDIPVLI   ETT LK+LAFVMDACRKTGLNKFSLQSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|MBS0663377.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Verrucomicrobiota bacterium]</Hit_def>
+  <Hit_accession>MBS0663377</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.06</Hsp_bit-score>
+      <Hsp_score>510</Hsp_score>
+      <Hsp_evalue>1.52826e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>SSLRQRRRRRPEMNLVPLIDVLVMLIFF-FVTMQFKSAATLNI--PKVETAGKNEFKGTVTIAINKESVISFNGKPVSDEELTALLQQVKSVDKDIPVLI---ETTPLKRLAFVMDACRKTGLNKFSLQSR</Hsp_qseq>
+      <Hsp_hseq>SVLYQKRRKRPEMNLVPLIDVLVMLIFFAFVTMQFKSAATLNITLPKVETAGKNEFKGTVTIGIDKDGVVSFNGKNVSDESLLRLLEEVRNVDKDIPVLIKADETTQLKKLTFVMDACRKTGLNKFSLQSR</Hsp_hseq>
+      <Hsp_midline>S L Q+RR+RPEMNLVPLIDVLVMLIFF FVTMQFKSAATLNI  PKVETAGKNEFKGTVTI I+K+ V+SFNGK VSDE L  LL++V++VDKDIPVLI   ETT LK+L FVMDACRKTGLNKFSLQSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>tpg|HND62159.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Opitutaceae bacterium]</Hit_def>
+  <Hit_accession>HND62159</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.675</Hsp_bit-score>
+      <Hsp_score>509</Hsp_score>
+      <Hsp_evalue>1.80151e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>SSLRQRRRRRPEMNLVPLIDVLVMLIFF-FVTMQFKSAATLNI--PKVETAGKNEFKGTVTIAINKESVISFNGKPVSDEELTALLQQVKSVDKDIPVLI---ETTPLKRLAFVMDACRKTGLNKFSLQSR</Hsp_qseq>
+      <Hsp_hseq>SVLYQKRRKRPEMNLVPLIDVLVMLIFFAFVTMQFKSAATLNITLPKVETAGKNEFKGTVTIGIDKDGVVSFNGKNVSDEALLRLLEEVRNVDKDIPVLIKADETTQLKKLTFVMDACRKTGLNKFSLQSR</Hsp_hseq>
+      <Hsp_midline>S L Q+RR+RPEMNLVPLIDVLVMLIFF FVTMQFKSAATLNI  PKVETAGKNEFKGTVTI I+K+ V+SFNGK VSDE L  LL++V++VDKDIPVLI   ETT LK+L FVMDACRKTGLNKFSLQSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|MDO8542819.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Opitutaceae bacterium]</Hit_def>
+  <Hit_accession>MDO8542819</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>199.904</Hsp_bit-score>
+      <Hsp_score>507</Hsp_score>
+      <Hsp_evalue>4.28423e-63</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>SSLRQRRRRRPEMNLVPLIDVLVMLIFF-FVTMQFKSAATLNI--PKVETAGKNEFKGTVTIAINKESVISFNGKPVSDEELTALLQQVKSVDKDIPVLI---ETTPLKRLAFVMDACRKTGLNKFSLQSR</Hsp_qseq>
+      <Hsp_hseq>NTLYQKRRKRPELNLVPLIDVLVMLIFFAFVTMQFKSAATLNITLPKVETAGKNEFKGTVTIGIDKDGTVSFNGKTVTDEQLLALLHEVKQIDRDIPVLIKADETTQLKKLTFVMDACRKTGLNKFSLQSR</Hsp_hseq>
+      <Hsp_midline>++L Q+RR+RPE+NLVPLIDVLVMLIFF FVTMQFKSAATLNI  PKVETAGKNEFKGTVTI I+K+  +SFNGK V+DE+L ALL +VK +D+DIPVLI   ETT LK+L FVMDACRKTGLNKFSLQSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|MBI5766789.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Verrucomicrobiota bacterium]</Hit_def>
+  <Hit_accession>MBI5766789</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>199.519</Hsp_bit-score>
+      <Hsp_score>506</Hsp_score>
+      <Hsp_evalue>4.57742e-63</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>SLRQRRRRRPEMNLVPLIDVLVMLIFF-FVTMQFKSAATLNI--PKVETAGKNEFKGTVTIAINKESVISFNGKPVSDEELTALLQQVKSVDKDIPVLI---ETTPLKRLAFVMDACRKTGLNKFSLQSR</Hsp_qseq>
+      <Hsp_hseq>SLYQKRRKRPEMNLVPLIDVLVMLIFFAFVTMQFKSAATLNITLPKVETAGKNEFRGTVTIAIDKDGKVTFNDKAVTDDQLIELLQQVKQVDRDIPVLIRADETTQLKKLAFVMDACRKTGLNKFSLQSR</Hsp_hseq>
+      <Hsp_midline>SL Q+RR+RPEMNLVPLIDVLVMLIFF FVTMQFKSAATLNI  PKVETAGKNEF+GTVTIAI+K+  ++FN K V+D++L  LLQQVK VD+DIPVLI   ETT LK+LAFVMDACRKTGLNKFSLQSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>tpg|HVU22505.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Opitutus sp.]</Hit_def>
+  <Hit_accession>HVU22505</Hit_accession>
+  <Hit_len>136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.364</Hsp_bit-score>
+      <Hsp_score>503</Hsp_score>
+      <Hsp_evalue>1.47679e-62</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>SSSLRQRRRRRPEMNLVPLIDVLVMLIFF-FVTMQFKSAATLNI--PKVETAGKNEFKGTVTIAINKESVISFNGKPVSDEELTALLQQVKSVDKDIPVLI---ETTPLKRLAFVMDACRKTGLNKFSLQSR</Hsp_qseq>
+      <Hsp_hseq>GGSIYRRRRKRPEMNLVPLIDVLVMLIFFAFVTMQFKSAATLNITLPKIDTAGKNEFKGTVTIAIDKDGVLSFNGKDIADDDLVPLLERVHNVDKDIPVLIKADETTQLKKLAFVMDACRKTGMNKFSLQSR</Hsp_hseq>
+      <Hsp_midline>  S+ +RRR+RPEMNLVPLIDVLVMLIFF FVTMQFKSAATLNI  PK++TAGKNEFKGTVTIAI+K+ V+SFNGK ++D++L  LL++V +VDKDIPVLI   ETT LK+LAFVMDACRKTG+NKFSLQSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|MBX3749225.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Opitutaceae bacterium]</Hit_def>
+  <Hit_accession>MBX3749225</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.364</Hsp_bit-score>
+      <Hsp_score>503</Hsp_score>
+      <Hsp_evalue>1.68719e-62</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>SSLRQRRRRRPEMNLVPLIDVLVMLIFF-FVTMQFKSAATLNI--PKVETAGKNEFKGTVTIAINKESVISFNGKPVSDEELTALLQQVKSVDKDIPVLI---ETTPLKRLAFVMDACRKTGLNKFSLQSR</Hsp_qseq>
+      <Hsp_hseq>SLLQQKRRKRPEMNLVPLIDVLVMLIFFAFVTMQFKSAATLNITLPKVETAGKNEFKGKVTIGIDKEGVVTFNNKNVTDEQLLSLLREVRNIDKDIPVLIMADETTQLKKLAFVMDACRKTGLNKFSLQSR</Hsp_hseq>
+      <Hsp_midline>S L+Q+RR+RPEMNLVPLIDVLVMLIFF FVTMQFKSAATLNI  PKVETAGKNEFKG VTI I+KE V++FN K V+DE+L +LL++V+++DKDIPVLI   ETT LK+LAFVMDACRKTGLNKFSLQSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|MCX6956685.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Verrucomicrobiota bacterium]</Hit_def>
+  <Hit_accession>MCX6956685</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.208</Hsp_bit-score>
+      <Hsp_score>500</Hsp_score>
+      <Hsp_evalue>4.62684e-62</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>SSLRQRRRRRPEMNLVPLIDVLVMLIFF-FVTMQFKSAATLNI--PKVETAGKNEFKGTVTIAINKESVISFNGKPVSDEELTALLQQVKSVDKDIPVLI---ETTPLKRLAFVMDACRKTGLNKFSLQSR</Hsp_qseq>
+      <Hsp_hseq>SGLQQKRRKRPELNLVPLIDVLVMLIFFAFVTMQFKSASTLNITLPKVETAGKNEFKGTVTIGIDKDGTVSFNGANVSDEQLLKLLDDVKKVDRDIPVLIKADETTQLKKLAFVMDACRKTGLNKFSLQSR</Hsp_hseq>
+      <Hsp_midline>S L+Q+RR+RPE+NLVPLIDVLVMLIFF FVTMQFKSA+TLNI  PKVETAGKNEFKGTVTI I+K+  +SFNG  VSDE+L  LL  VK VD+DIPVLI   ETT LK+LAFVMDACRKTGLNKFSLQSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|MEY3774086.1|</Hit_id>
+  <Hit_def>hypothetical protein [Verrucomicrobiota bacterium] &gt;tpg|HRI81790.1| biopolymer transporter ExbD [Opitutaceae bacterium] &gt;tpg|HRJ47649.1| biopolymer transporter ExbD [Opitutaceae bacterium]</Hit_def>
+  <Hit_accession>MEY3774086</Hit_accession>
+  <Hit_len>133</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.438</Hsp_bit-score>
+      <Hsp_score>498</Hsp_score>
+      <Hsp_evalue>1.06414e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>MSSSLRQRRRRRPEMNLVPLIDVLVMLIFF-FVTMQFKSAATLNI--PKVETAGKNEFKGTVTIAINKESVISFNGKPVSDEELTALLQQVKSVDKDIPVLI---ETTPLKRLAFVMDACRKTGLNKFSLQSR</Hsp_qseq>
+      <Hsp_hseq>MSSTLYQKRRKRPEMNLVPLIDVLVILVFFAFVTMQFKSAATLNITLPKVETAGKNEFKGTVTIGIDPEGVLSFNGRVVTEDQLLVLLREVRNVDKDIPVLIMADETTQLRKLAFVMDACRRTGLNKFSLQSR</Hsp_hseq>
+      <Hsp_midline>MSS+L Q+RR+RPEMNLVPLIDVLV+L+FF FVTMQFKSAATLNI  PKVETAGKNEFKGTVTI I+ E V+SFNG+ V++++L  LL++V++VDKDIPVLI   ETT L++LAFVMDACR+TGLNKFSLQSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|MDE3084860.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Verrucomicrobiota bacterium]</Hit_def>
+  <Hit_accession>MDE3084860</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.052</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>1.22774e-61</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>SSLRQRRRRRPEMNLVPLIDVLVMLIFF-FVTMQFKSAATLNI--PKVETAGKNEFKGTVTIAINKESVISFNGKPVSDEELTALLQQVKSVDKDIPVLI---ETTPLKRLAFVMDACRKTGLNKFSLQSR</Hsp_qseq>
+      <Hsp_hseq>SSLYQKRRRRTEMNLVPLIDVLVMLIFFAFVTMQFKSVATLNITLPKVETAGKNEFKGKVEIGINKEGVLSFNGKATSEQQLEDLLRQVHDINKDIPVLIRADESTPLKKLAFVMDACRKTGLNKFSLQSR</Hsp_hseq>
+      <Hsp_midline>SSL Q+RRRR EMNLVPLIDVLVMLIFF FVTMQFKS ATLNI  PKVETAGKNEFKG V I INKE V+SFNGK  S+++L  LL+QV  ++KDIPVLI   E+TPLK+LAFVMDACRKTGLNKFSLQSR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>877105751</Statistics_db-num>
+      <Statistics_db-len>334462191313</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

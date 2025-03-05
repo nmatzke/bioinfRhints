@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_6178275</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>136</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_6178275</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>136</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_187762976.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Sphingomonas alpina] &gt;gb|QNQ10685.1| biopolymer transporter ExbD [Sphingomonas alpina]</Hit_def>
+  <Hit_accession>WP_187762976</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>263.462</Hsp_bit-score>
+      <Hsp_score>672</Hsp_score>
+      <Hsp_evalue>5.69668e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MAMSGGSDDGEPMMEMNTTPLIDVMLVLLIMFIIT-PIQTHAVKV--PVNDPNSVTQPIDPEKNKVTIDPAGVVAWNGTPVDTVTLQQYLETTKTINPEPELHF---PQARYAKVDEVLAVVKRSGVSKLGFIGNEQYRNDF</Hsp_qseq>
+      <Hsp_hseq>MAMSGGSDDGEPMMEMNTTPLIDVMLVLLIMFIITIPIQTHAVKVDLPVNDPNSVTQPIDPEKNKVTIDPAGVVAWNGTPVDTVTLQQYLETTKTINPEPELHFQPDPQARYAKVDEVLAVVKRSGVSKLGFIGNEQYRNDF</Hsp_hseq>
+      <Hsp_midline>MAMSGGSDDGEPMMEMNTTPLIDVMLVLLIMFIIT PIQTHAVKV  PVNDPNSVTQPIDPEKNKVTIDPAGVVAWNGTPVDTVTLQQYLETTKTINPEPELHF   PQARYAKVDEVLAVVKRSGVSKLGFIGNEQYRNDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_034156613.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Sphingomonas sp. ERG5]</Hit_def>
+  <Hit_accession>WP_034156613</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.218</Hsp_bit-score>
+      <Hsp_score>648</Hsp_score>
+      <Hsp_evalue>2.20893e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MAMSGGSDDGEPMMEMNTTPLIDVMLVLLIMFIIT-PIQTHAVKV--PVNDPNSVTQPIDPEKNKVTIDPAGVVAWNGTPVDTVTLQQYLETTKTINPEPELHF---PQARYAKVDEVLAVVKRSGVSKLGFIGNEQYRNDF</Hsp_qseq>
+      <Hsp_hseq>MAMSGGSDDGEPMMEMNTTPLIDVMLVLLIMFIITIPIQTHAVKVDLPVNDPNQVNQPIDPEKNKVTIDPAGVVSWNGTAVDTVTLQQYLETTKTISPEPELHFQPDPQARYAKVDEVLAVVKRSGVSKLGFIGNEQYRNDF</Hsp_hseq>
+      <Hsp_midline>MAMSGGSDDGEPMMEMNTTPLIDVMLVLLIMFIIT PIQTHAVKV  PVNDPN V QPIDPEKNKVTIDPAGVV+WNGT VDTVTLQQYLETTKTI+PEPELHF   PQARYAKVDEVLAVVKRSGVSKLGFIGNEQYRNDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_183112361.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Sphingomonas sp. So64.6b] &gt;gb|QNA83464.1| biopolymer transporter ExbD [Sphingomonas sp. So64.6b]</Hit_def>
+  <Hit_accession>WP_183112361</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>248.825</Hsp_bit-score>
+      <Hsp_score>634</Hsp_score>
+      <Hsp_evalue>2.85213e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MAMSGGSDDGEPMMEMNTTPLIDVMLVLLIMFIIT-PIQTHAVKV--PVNDPNSVTQPIDPEKNKVTIDPAGVVAWNGTPVDTVTLQQYLETTKTINPEPELHF---PQARYAKVDEVLAVVKRSGVSKLGFIGNEQYRNDF</Hsp_qseq>
+      <Hsp_hseq>MSMSGGSDDGEPMMEMNTTPLIDVMLVLLIMFIITIPIQTHAVKVDLPVNDPNAVNQPIDPEKNKVNIDPAGVVTWNGAPVDTVTLQQYLEQTRTINPEPELHFQPDPQARYAKVDEVLAVIKRSGVAKLGFIGNEQYRNDF</Hsp_hseq>
+      <Hsp_midline>M+MSGGSDDGEPMMEMNTTPLIDVMLVLLIMFIIT PIQTHAVKV  PVNDPN+V QPIDPEKNKV IDPAGVV WNG PVDTVTLQQYLE T+TINPEPELHF   PQARYAKVDEVLAV+KRSGV+KLGFIGNEQYRNDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_272627420.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Sphingomonas sp. QA11] &gt;gb|MES2451431.1| biopolymer transporter ExbD [Pseudomonadota bacterium] &gt;gb|WCM29366.1| biopolymer transporter ExbD [Sphingomonas sp. QA11] &gt;gb|WEK01751.1| MAG: biopolymer transporter ExbD [Candidatus Sphingomonas phytovorans]</Hit_def>
+  <Hit_accession>WP_272627420</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>236.498</Hsp_bit-score>
+      <Hsp_score>602</Hsp_score>
+      <Hsp_evalue>2.18193e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MAMSGGSDDGEPMMEMNTTPLIDVMLVLLIMFIIT-PIQTHAVKV--PVNDPNSVTQPIDPEKNKVTIDPAGVVAWNGTPVDTVTLQQYLETTKTINPEPELHF---PQARYAKVDEVLAVVKRSGVSKLGFIGNEQYRNDF</Hsp_qseq>
+      <Hsp_hseq>MAMSGGSDDGQPMMDLNTTPLIDVMLVLLIMFIITIPIQTHAVKVDLPINDPNNKPPPVDPQKNKVTIDPAGTIAWNGAPVDKVTLQQYLEATKSINPEPELHFQPDPQARYARVDEVLAVIKRSGVTKLGFIGNEQYRNDF</Hsp_hseq>
+      <Hsp_midline>MAMSGGSDDG+PMM++NTTPLIDVMLVLLIMFIIT PIQTHAVKV  P+NDPN+   P+DP+KNKVTIDPAG +AWNG PVD VTLQQYLE TK+INPEPELHF   PQARYA+VDEVLAV+KRSGV+KLGFIGNEQYRNDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|MFA6115947.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Sphingomonas sp.]</Hit_def>
+  <Hit_accession>MFA6115947</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>235.343</Hsp_bit-score>
+      <Hsp_score>599</Hsp_score>
+      <Hsp_evalue>6.60702e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MAMSGGSDDGEPMMEMNTTPLIDVMLVLLIMFIIT-PIQTHAVKV--PVNDPNSVTQPIDPEKNKVTIDPAGVVAWNGTPVDTVTLQQYLETTKTINPEPELHF---PQARYAKVDEVLAVVKRSGVSKLGFIGNEQYRNDF</Hsp_qseq>
+      <Hsp_hseq>MSMSGGSDDGQPMMDLNTTPLIDVMLVLLIMFIITIPIQTHAVKVDLPINDPNNQPPPIDPQKNKVTIDPAGTIAWNGAPVDKVTLQQYLEATKAINPEPELHFQPDPQARYARVDEVLAVIKRSGVTKLGFIGNEQYRNDF</Hsp_hseq>
+      <Hsp_midline>M+MSGGSDDG+PMM++NTTPLIDVMLVLLIMFIIT PIQTHAVKV  P+NDPN+   PIDP+KNKVTIDPAG +AWNG PVD VTLQQYLE TK INPEPELHF   PQARYA+VDEVLAV+KRSGV+KLGFIGNEQYRNDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_332715102.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Sphingomonas sp. ZT3P38]</Hit_def>
+  <Hit_accession>WP_332715102</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>232.646</Hsp_bit-score>
+      <Hsp_score>592</Hsp_score>
+      <Hsp_evalue>7.54362e-76</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MAMSGGSDDGEPMMEMNTTPLIDVMLVLLIMFIIT-PIQTHAVKV--PVNDPNSVTQPIDPEKNKVTIDPAGVVAWNGTPVDTVTLQQYLETTKTINPEPELHF---PQARYAKVDEVLAVVKRSGVSKLGFIGNEQYRNDF</Hsp_qseq>
+      <Hsp_hseq>MSMSGGSDDGQPMMDLNTTPLIDVMLVLLIMFIITIPIQTHAVKVDLPINDPSNQPPPIDPQKNKVTIDPAGTIAWNGAPVDKVTLQQYLEATKGINPEPELHFQPDPQARYARVDEVLAVIKRSGVTKLGFIGNEQYRNDF</Hsp_hseq>
+      <Hsp_midline>M+MSGGSDDG+PMM++NTTPLIDVMLVLLIMFIIT PIQTHAVKV  P+NDP++   PIDP+KNKVTIDPAG +AWNG PVD VTLQQYLE TK INPEPELHF   PQARYA+VDEVLAV+KRSGV+KLGFIGNEQYRNDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_372855355.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Sphingomonas sp.]</Hit_def>
+  <Hit_accession>WP_372855355</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>232.646</Hsp_bit-score>
+      <Hsp_score>592</Hsp_score>
+      <Hsp_evalue>7.96285e-76</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MSGGSDDGEPMMEMNTTPLIDVMLVLLIMFIIT-PIQTHAVKV--PVNDPNSVTQPIDPEKNKVTIDPAGVVAWNGTPVDTVTLQQYLETTKTINPEPELHF---PQARYAKVDEVLAVVKRSGVSKLGFIGNEQYRNDF</Hsp_qseq>
+      <Hsp_hseq>MSGGSDDGQPMMDLNTTPLIDVMLVLLIMFIITIPIQTHAVKVDLPINDPNNQPPPIDPQKNKVTIDPAGTIAWNGAPVDKVTLQQYLEATKAINPEPELHFQPDPQARYARVDEVLAVIKRSGVTKLGFIGNEQYRNDF</Hsp_hseq>
+      <Hsp_midline>MSGGSDDG+PMM++NTTPLIDVMLVLLIMFIIT PIQTHAVKV  P+NDPN+   PIDP+KNKVTIDPAG +AWNG PVD VTLQQYLE TK INPEPELHF   PQARYA+VDEVLAV+KRSGV+KLGFIGNEQYRNDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_299914055.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Sphingomonas bacterium] &gt;gb|MDB5707678.1| biopolymer transporter ExbD [Sphingomonas bacterium]</Hit_def>
+  <Hit_accession>WP_299914055</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.787</Hsp_bit-score>
+      <Hsp_score>569</Hsp_score>
+      <Hsp_evalue>2.55389e-72</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MAMSGGSDDGEPMMEMNTTPLIDVMLVLLIMFIIT-PIQTHAVKV--PVNDPNSVTQPIDPEKNKVTIDPAGVVAWNGTPVDTVTLQQYLETTKTINPEPELHF---PQARYAKVDEVLAVVKRSGVSKLGFIGNEQYRNDF</Hsp_qseq>
+      <Hsp_hseq>MAMSGGSDDGQPMMDLNTTPLIDVMLVLLIMFIITIPIQTHAVKVDLPINDPNNQPPPIDPQKNKVSIDPTGTVFWNGAPVDLVTLRQYLDATRAINPEPELHFQPDPSARYAKVDEVLAEIKRSGVTKLGFIGNEQYRNDF</Hsp_hseq>
+      <Hsp_midline>MAMSGGSDDG+PMM++NTTPLIDVMLVLLIMFIIT PIQTHAVKV  P+NDPN+   PIDP+KNKV+IDP G V WNG PVD VTL+QYL+ T+ INPEPELHF   P ARYAKVDEVLA +KRSGV+KLGFIGNEQYRNDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|MES2054865.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Pseudomonadota bacterium]</Hit_def>
+  <Hit_accession>MES2054865</Hit_accession>
+  <Hit_len>126</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>220.32</Hsp_bit-score>
+      <Hsp_score>560</Hsp_score>
+      <Hsp_evalue>4.3686e-71</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>126</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>NTTPLIDVMLVLLIMFIIT-PIQTHAVKV--PVNDPNSVTQPIDPEKNKVTIDPAGVVAWNGTPVDTVTLQQYLETTKTINPEPELHF---PQARYAKVDEVLAVVKRSGVSKLGFIGNEQYRNDF</Hsp_qseq>
+      <Hsp_hseq>NTTPLIDVMLVLLIMFIITIPIQTHAVKVDLPVNDPNQVNQPIDPEKNKVTIDPAGVVSWNGTAVDTVTLQQYLETTKTISPEPELHFQPDPQARYAKVDEVLAVVKRSGVSKLGFIGNEQYRNDF</Hsp_hseq>
+      <Hsp_midline>NTTPLIDVMLVLLIMFIIT PIQTHAVKV  PVNDPN V QPIDPEKNKVTIDPAGVV+WNGT VDTVTLQQYLETTKTI+PEPELHF   PQARYAKVDEVLAVVKRSGVSKLGFIGNEQYRNDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|MES1975948.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Pseudomonadota bacterium]</Hit_def>
+  <Hit_accession>MES1975948</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.779</Hsp_bit-score>
+      <Hsp_score>556</Hsp_score>
+      <Hsp_evalue>2.79004e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MAMSGGSDDGEPMMEMNTTPLIDVMLVLLIMFIIT-PIQTHAVKV--PVNDPNSVTQPIDPEKNKVTIDPAGVVAWNGTPVDTVTLQQYLETTKTINPEPELHF---PQARYAKVDEVLAVVKRSGVSKLGFIGNEQYRNDF</Hsp_qseq>
+      <Hsp_hseq>MAMSGGSDDGQPMMDLNTTPLIDVMLVLLIMFIITIPIQTHAVKVDLPVSDNSNNPPPIDPQKNKVSIDPAGTISWNGAPVDLVTLRQYLDATKGINPEPELHFQPDPMARYARVDEVLAEIKRSGVTKLGFIGNEQYRNDF</Hsp_hseq>
+      <Hsp_midline>MAMSGGSDDG+PMM++NTTPLIDVMLVLLIMFIIT PIQTHAVKV  PV+D ++   PIDP+KNKV+IDPAG ++WNG PVD VTL+QYL+ TK INPEPELHF   P ARYA+VDEVLA +KRSGV+KLGFIGNEQYRNDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_254289462.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Sphingomonas liriopis] &gt;gb|MCP3735463.1| biopolymer transporter ExbD [Sphingomonas liriopis]</Hit_def>
+  <Hit_accession>WP_254289462</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.394</Hsp_bit-score>
+      <Hsp_score>555</Hsp_score>
+      <Hsp_evalue>3.55125e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MAMSGGSDDGEPMMEMNTTPLIDVMLVLLIMFIIT-PIQTHAVKV--PVNDPNSVTQPIDPEKNKVTIDPAGVVAWNGTPVDTVTLQQYLETTKTINPEPELHF---PQARYAKVDEVLAVVKRSGVSKLGFIGNEQYRNDF</Hsp_qseq>
+      <Hsp_hseq>MAMSGGSEDGEPMMEMNTTPLIDVMLVLLIMFIITLPIPTHAVKVDLPVNDPRNQTPPVDPQKNKIIIDAAGTVSWNGTPVDEVTLRQYLDTAAAINPEPELHFQPDPQAKYDKVDQTLAVIKRSAVTKLGFIGNEQYRNDF</Hsp_hseq>
+      <Hsp_midline>MAMSGGS+DGEPMMEMNTTPLIDVMLVLLIMFIIT PI THAVKV  PVNDP + T P+DP+KNK+ ID AG V+WNGTPVD VTL+QYL+T   INPEPELHF   PQA+Y KVD+ LAV+KRS V+KLGFIGNEQYRNDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_332709361.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Sphingomonas sp. PB4P5]</Hit_def>
+  <Hit_accession>WP_332709361</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.009</Hsp_bit-score>
+      <Hsp_score>554</Hsp_score>
+      <Hsp_evalue>5.50648e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MAMSGGSDDGEPMMEMNTTPLIDVMLVLLIMFIITPI-QTHAVKV--PVNDPNSVTQPIDPEKNKVTIDPAGVVAWNGTPVDTVTLQQYLETTKTINPEPELHF---PQARYAKVDEVLAVVKRSGVSKLGFIGNEQYRNDF</Hsp_qseq>
+      <Hsp_hseq>MAMSGGSDDGEPMMEMNMTPLIDVLLVLIIMFIITIPIQTHAVKVDLPVNDPNSVSPPIDPQKNKVSIDPAGTVSWNGSPVDTVTLQQYLEQTTQISPEPELHFQPDPQARYAKVDEVLAVVKRSGVTKLGFIGNEQYRSDF</Hsp_hseq>
+      <Hsp_midline>MAMSGGSDDGEPMMEMN TPLIDV+LVL+IMFIIT   QTHAVKV  PVNDPNSV+ PIDP+KNKV+IDPAG V+WNG+PVDTVTLQQYLE T  I+PEPELHF   PQARYAKVDEVLAVVKRSGV+KLGFIGNEQYR+DF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_119035438.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Hephaestia caeni] &gt;gb|RIA43600.1| outer membrane transport energization protein ExbD [Hephaestia caeni]</Hit_def>
+  <Hit_accession>WP_119035438</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.009</Hsp_bit-score>
+      <Hsp_score>554</Hsp_score>
+      <Hsp_evalue>5.62857e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MAMSGGSDDGEPMMEMNTTPLIDVMLVLLIMFIIT-PIQTHAVKV--PVNDPNSVTQPIDPEKNKVTIDPAGVVAWNGTPVDTVTLQQYLETTKTINPEPELHFP---QARYAKVDEVLAVVKRSGVSKLGFIGNEQYRNDF</Hsp_qseq>
+      <Hsp_hseq>MSMSGGQDDGEPMMEMNTTPLIDVMLVLLIMFIITIPVQTHAVKVDLPQNDPNAQQNPIEPDKNKISIDPAGVVAWNGAPVDDVTLRQYLDQTTTMNPEPELHFQPDRNARYAKVDAVLAIIKRSGVTKLGFIGNEQYYRDF</Hsp_hseq>
+      <Hsp_midline>M+MSGG DDGEPMMEMNTTPLIDVMLVLLIMFIIT P+QTHAVKV  P NDPN+   PI+P+KNK++IDPAGVVAWNG PVD VTL+QYL+ T T+NPEPELHF     ARYAKVD VLA++KRSGV+KLGFIGNEQY  DF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_252135974.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ExbD/TolR family protein [unclassified Hephaestia] &gt;gb|MCM8731837.1| biopolymer transporter ExbD [Hephaestia sp. MAHUQ-44] &gt;gb|MFC4847506.1| ExbD/TolR family protein [Hephaestia sp. GCM10023244]</Hit_def>
+  <Hit_accession>WP_252135974</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>217.624</Hsp_bit-score>
+      <Hsp_score>553</Hsp_score>
+      <Hsp_evalue>7.56797e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MAMSGGSDDGEPMMEMNTTPLIDVMLVLLIMFIIT-PIQTHAVKV--PVNDPNSVTQPIDPEKNKVTIDPAGVVAWNGTPVDTVTLQQYLETTKTINPEPELHFP---QARYAKVDEVLAVVKRSGVSKLGFIGNEQYRNDF</Hsp_qseq>
+      <Hsp_hseq>MAMSGGRDDGEPMMEMNTTPLIDVMLVLLIMFIITIPVQTHAVKVDLPQNDPNQQQNPIEPDKNKISIDPAGVVAWNGSPVDEVTLRQYLDQTTTMNPEPELHFQPDRNAQYAKVDAVLAIIKRSGVTKLGFIGNEQYARDF</Hsp_hseq>
+      <Hsp_midline>MAMSGG DDGEPMMEMNTTPLIDVMLVLLIMFIIT P+QTHAVKV  P NDPN    PI+P+KNK++IDPAGVVAWNG+PVD VTL+QYL+ T T+NPEPELHF     A+YAKVD VLA++KRSGV+KLGFIGNEQY  DF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_293877807.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ExbD/TolR family protein [unclassified Sphingomonas]</Hit_def>
+  <Hit_accession>WP_293877807</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.853</Hsp_bit-score>
+      <Hsp_score>551</Hsp_score>
+      <Hsp_evalue>1.44527e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MAMSGGSDDGEPMMEMNTTPLIDVMLVLLIMFIIT-PIQTHAVKV--PVNDPNSVTQPIDPEKNKVTIDPAGVVAWNGTPVDTVTLQQYLETTKTINPEPELHF---PQARYAKVDEVLAVVKRSGVSKLGFIGNEQYRNDF</Hsp_qseq>
+      <Hsp_hseq>MAMSGGSEDGEPMMEMNTTPLIDVMLVLLIMFIITLPIPTHAVKVDLPVNDPRNQTPPVDPQKNKIIIDAAGTVSWNGAPVDEVTLRQYLDTAAAINPEPELHFQPDPQAKYDKVDQTLAVIKRSAVTKLGFIGNEQYRNDF</Hsp_hseq>
+      <Hsp_midline>MAMSGGS+DGEPMMEMNTTPLIDVMLVLLIMFIIT PI THAVKV  PVNDP + T P+DP+KNK+ ID AG V+WNG PVD VTL+QYL+T   INPEPELHF   PQA+Y KVD+ LAV+KRS V+KLGFIGNEQYRNDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_260598461.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Sphingomonas endolithica]</Hit_def>
+  <Hit_accession>WP_260598461</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.853</Hsp_bit-score>
+      <Hsp_score>551</Hsp_score>
+      <Hsp_evalue>1.51007e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MAMSGGSDDGEPMMEMNTTPLIDVMLVLLIMFIIT-PIQTHAVKV--PVNDPNSVTQPIDPEKNKVTIDPAGVVAWNGTPVDTVTLQQYLETTKTINPEPELHF---PQARYAKVDEVLAVVKRSGVSKLGFIGNEQYRNDF</Hsp_qseq>
+      <Hsp_hseq>MAMSGGSDDGEPMMEMNMTPLIDVLLVLLIMFIITIPIQTHAVKVDLPVNDPNAKQQAVDPQKNKVTIDPTGTVSWNGSPVDTVTLQQYLEQTTQINPEPELHFQPNPQARYAKVDEVLAVIKRSGVAKLGFIGNEQYRNDF</Hsp_hseq>
+      <Hsp_midline>MAMSGGSDDGEPMMEMN TPLIDV+LVLLIMFIIT PIQTHAVKV  PVNDPN+  Q +DP+KNKVTIDP G V+WNG+PVDTVTLQQYLE T  INPEPELHF   PQARYAKVDEVLAV+KRSGV+KLGFIGNEQYRNDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_230629427.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Sphingomonas sp. Leaf37] &gt;gb|USU04986.1| biopolymer transporter ExbD [Sphingomonadaceae bacterium OTU29LAMAA1] &gt;gb|USU08626.1| biopolymer transporter ExbD [Sphingomonadaceae bacterium OTU29MARTA1] &gt;gb|USU12104.1| biopolymer transporter ExbD [Sphingomonadaceae bacterium OTU29THOMA1]</Hit_def>
+  <Hit_accession>WP_230629427</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.853</Hsp_bit-score>
+      <Hsp_score>551</Hsp_score>
+      <Hsp_evalue>1.64853e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MAMSGGSDDGEPMMEMNTTPLIDVMLVLLIMFIIT-PIQTHAVKV--PVNDPNSVTQPIDPEKNKVTIDPAGVVAWNGTPVDTVTLQQYLETTKTINPEPELHF---PQARYAKVDEVLAVVKRSGVSKLGFIGNEQYRNDF</Hsp_qseq>
+      <Hsp_hseq>MAMSGGSEDGEPMMEMNTTPLIDVMLVLLIMFIITLPIPTHAVKVDLPVNDPRNQTPPVDPQKNKIIIDAAGTVSWNGTPVDEVTLRQYLDTAAAINPEPELHFQPDPAAKYEKVDQTLAVIKRSAVTKLGFIGNEQYRNDF</Hsp_hseq>
+      <Hsp_midline>MAMSGGS+DGEPMMEMNTTPLIDVMLVLLIMFIIT PI THAVKV  PVNDP + T P+DP+KNK+ ID AG V+WNGTPVD VTL+QYL+T   INPEPELHF   P A+Y KVD+ LAV+KRS V+KLGFIGNEQYRNDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|MEP7004779.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Sphingomonas bacterium]</Hit_def>
+  <Hit_accession>MEP7004779</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.468</Hsp_bit-score>
+      <Hsp_score>550</Hsp_score>
+      <Hsp_evalue>2.44643e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MAMSGGSDDGEPMMEMNTTPLIDVMLVLLIMFIIT-PIQTHAVKV--PVNDPNSVTQPIDPEKNKVTIDPAGVVAWNGTPVDTVTLQQYLETTKTINPEPELHF---PQARYAKVDEVLAVVKRSGVSKLGFIGNEQYRNDF</Hsp_qseq>
+      <Hsp_hseq>MAMSGGSDDGQPMMEINTTPLIDVMLVLLIMFIITIPIQTHAVKVDLPVNDPNAKAPVVDPIKNQLSIDPAGTVAWNGVPVDLITLQQYLEQSKTINPEPELHFQPDPQAKYERVDQVLAVIKRSNISKLGFIGNEQYYSKF</Hsp_hseq>
+      <Hsp_midline>MAMSGGSDDG+PMME+NTTPLIDVMLVLLIMFIIT PIQTHAVKV  PVNDPN+    +DP KN+++IDPAG VAWNG PVD +TLQQYLE +KTINPEPELHF   PQA+Y +VD+VLAV+KRS +SKLGFIGNEQY + F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_299853923.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Sphingomonas bacterium] &gt;gb|MDB5674178.1| biopolymer transporter ExbD [Sphingomonas bacterium] &gt;gb|MDB5710279.1| biopolymer transporter ExbD [Sphingomonas bacterium]</Hit_def>
+  <Hit_accession>WP_299853923</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.083</Hsp_bit-score>
+      <Hsp_score>549</Hsp_score>
+      <Hsp_evalue>2.85234e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MAMSGGSDDGEPMMEMNTTPLIDVMLVLLIMFIIT-PIQTHAVKV--PVNDPNSVTQPIDPEKNKVTIDPAGVVAWNGTPVDTVTLQQYLETTKTINPEPELHF---PQARYAKVDEVLAVVKRSGVSKLGFIGNEQYRNDF</Hsp_qseq>
+      <Hsp_hseq>MAMSGGRDDGSPMMDMNTTPLIDVMLVLLIMFIITIPPQTHAVKVDLPINDPNAVKPPVDPQKNTVFIDPTGQVTWNGSPVDMVTLRQYLDQTKTISPEPELHFQPHPQARYDKVDQVLAVIKRSGITKLGFVGNEQYANDF</Hsp_hseq>
+      <Hsp_midline>MAMSGG DDG PMM+MNTTPLIDVMLVLLIMFIIT P QTHAVKV  P+NDPN+V  P+DP+KN V IDP G V WNG+PVD VTL+QYL+ TKTI+PEPELHF   PQARY KVD+VLAV+KRSG++KLGF+GNEQY NDF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|MEO6215458.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Sphingomonas sp.]</Hit_def>
+  <Hit_accession>MEO6215458</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.083</Hsp_bit-score>
+      <Hsp_score>549</Hsp_score>
+      <Hsp_evalue>2.91559e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>MAMSGGSDDGEPMMEMNTTPLIDVMLVLLIMFIIT-PIQTHAVKV--PVNDPNSVTQPIDPEKNKVTIDPAGVVAWNGTPVDTVTLQQYLETTKTINPEPELHF---PQARYAKVDEVLAVVKRSGVSKLGFIGNEQYRNDF</Hsp_qseq>
+      <Hsp_hseq>MAMSGGSDDGQPMMEINTTPLIDVMLVLLIMFIITIPIQTHAVKVDLPVNDPNAKAPVVDPIKNQLSIDPAGTVAWNGVPVDLITLQQYLEQSKTINPEPELHFQPDPKARYERVDQVLAVIKRSNISKLGFIGNEQYYSKF</Hsp_hseq>
+      <Hsp_midline>MAMSGGSDDG+PMME+NTTPLIDVMLVLLIMFIIT PIQTHAVKV  PVNDPN+    +DP KN+++IDPAG VAWNG PVD +TLQQYLE +KTINPEPELHF   P+ARY +VD+VLAV+KRS +SKLGFIGNEQY + F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>877781531</Statistics_db-num>
+      <Statistics_db-len>334720180573</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

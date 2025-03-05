@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_3357043</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>240</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_3357043</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>240</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_070060397.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Variovorax boronicumulans] &gt;gb|OEZ29686.1| cell envelope biogenesis protein OmpA [Variovorax boronicumulans]</Hit_def>
+  <Hit_accession>WP_070060397</Hit_accession>
+  <Hit_len>240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>491.886</Hsp_bit-score>
+      <Hsp_score>1265</Hsp_score>
+      <Hsp_evalue>4.34799e-175</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>240</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>MIGIKSSRRGGGKEEAEKPFWISFSDLMTALMVLFLVAMAVALIAVTHSELTKDADKNARDDTIKSCIADIKSLTDIPEFKGVSIRGYSIDFGTLVLFGNDKHIFESSAHDRFVRKFVPRVLELARSEKCDMWLKRVVVEGFASQTGDYLYNLNLSYLRSQRVLCVLLDSKAPDAISAADRKMVQSLFLVGGSSFNTTAGDPSQMRRVELKLEFRDLGTEKDKHVDIPLDPGVKCPNDLR</Hsp_qseq>
+      <Hsp_hseq>MIGIKSSRRGGGKEEAEKPFWISFSDLMTALMVLFLVAMAVALIAVTHSELTKDADKNARDDTIKSCIADIKSLTDIPEFKGVSIRGYSIDFGTLVLFGNDKHIFESSAHDRFVRKFVPRVLELARSEKCDMWLKRVVVEGFASQTGDYLYNLNLSYLRSQRVLCVLLDSKAPDAISAADRKMVQSLFLVGGSSFNTTAGDPSQMRRVELKLEFRDLGTEKDKHVDIPLDPGVKCPNDLR</Hsp_hseq>
+      <Hsp_midline>MIGIKSSRRGGGKEEAEKPFWISFSDLMTALMVLFLVAMAVALIAVTHSELTKDADKNARDDTIKSCIADIKSLTDIPEFKGVSIRGYSIDFGTLVLFGNDKHIFESSAHDRFVRKFVPRVLELARSEKCDMWLKRVVVEGFASQTGDYLYNLNLSYLRSQRVLCVLLDSKAPDAISAADRKMVQSLFLVGGSSFNTTAGDPSQMRRVELKLEFRDLGTEKDKHVDIPLDPGVKCPNDLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|MES2978029.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Pseudomonadota bacterium]</Hit_def>
+  <Hit_accession>MES2978029</Hit_accession>
+  <Hit_len>240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>413.305</Hsp_bit-score>
+      <Hsp_score>1061</Hsp_score>
+      <Hsp_evalue>6.13393e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>MIGIKSSRRGGGKEEAEKPFWISFSDLMTALMVLFLVAMAVALIAVTHSELTKDADKNARDDTIKSCIADIKSLTDIPEFKGVSIRGYSIDFGTLVLFGNDKHIFESSAHDRFVRKFVPRVLELARSEKCDMWLKRVVVEGFASQTGDYLYNLNLSYLRSQRVLCVLLDSKAPDAISAADRKMVQSLFLVGGSSFNTTAGDPSQMRRVELKLEFRDLGTEKDKHVDIPLDPGVKCPNDLR</Hsp_qseq>
+      <Hsp_hseq>MIGIKASRRKAGKEEAEKPFWISFSDLMTALMVLFLVAMAVALIAVTHGLATINKDKEERDNTIQACIADVDALTKQSEFKGVSVHGYSIDFGTLVLFGNDKHTFENPAHEHFVRKFVPRVLDLARSEKCDKWLKRVVVEGFASQTGDYLYNLNLSYLRSQRVLCALLNSKAGDAIASLDRELVQTLFLVGGSSFNTSAGDPSQMRRVELKLEFRDLGTDKEKHAEIPLDPGLKCPNDLR</Hsp_hseq>
+      <Hsp_midline>MIGIK+SRR  GKEEAEKPFWISFSDLMTALMVLFLVAMAVALIAVTH   T + DK  RD+TI++CIAD+ +LT   EFKGVS+ GYSIDFGTLVLFGNDKH FE+ AH+ FVRKFVPRVL+LARSEKCD WLKRVVVEGFASQTGDYLYNLNLSYLRSQRVLC LL+SKA DAI++ DR++VQ+LFLVGGSSFNT+AGDPSQMRRVELKLEFRDLGT+K+KH +IPLDPG+KCPNDLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_318666811.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Rhodoferax ferrireducens] &gt;gb|WPC67506.1| flagellar motor protein MotB [Rhodoferax ferrireducens]</Hit_def>
+  <Hit_accession>WP_318666811</Hit_accession>
+  <Hit_len>240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>405.986</Hsp_bit-score>
+      <Hsp_score>1042</Hsp_score>
+      <Hsp_evalue>4.81635e-141</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>195</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>MIGIKSSRRGGGKEEAEKPFWISFSDLMTALMVLFLVAMAVALIAVTHSELTKDADKNARDDTIKSCIADIKSLTDIPEFKGVSIRGYSIDFGTLVLFGNDKHIFESSAHDRFVRKFVPRVLELARSEKCDMWLKRVVVEGFASQTGDYLYNLNLSYLRSQRVLCVLLDSKAPDAISAADRKMVQSLFLVGGSSFNTTAGDPSQMRRVELKLEFRDLGTEKDKHVDIPLDPGVKCPNDLR</Hsp_qseq>
+      <Hsp_hseq>MIGIKATRRKAGKEEAEKPFWISFSDLMTALMVLFLVAMAVALIAVTHGLATINKDKEERDKTIQSCIADVDALTKQSEFKGVSVRGNSIDFGTLVLFGNDRHTFESPAHEHFVRKFVPRVLDLARSEKCDKWLKRVVVEGFASQTGDYLYNLNLSYLRSQRVLCVLLDSKAADSIAPTDRKLVQTLFLVGGSSFNTAAGEASQMRRVELKLEFRDLGSDKEKAADIPLDPGLKCPNDLR</Hsp_hseq>
+      <Hsp_midline>MIGIK++RR  GKEEAEKPFWISFSDLMTALMVLFLVAMAVALIAVTH   T + DK  RD TI+SCIAD+ +LT   EFKGVS+RG SIDFGTLVLFGND+H FES AH+ FVRKFVPRVL+LARSEKCD WLKRVVVEGFASQTGDYLYNLNLSYLRSQRVLCVLLDSKA D+I+  DRK+VQ+LFLVGGSSFNT AG+ SQMRRVELKLEFRDLG++K+K  DIPLDPG+KCPNDLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|MCX8500751.1|</Hit_id>
+  <Hit_def>cell envelope biogenesis protein OmpA [Alphaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MCX8500751</Hit_accession>
+  <Hit_len>240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>394.815</Hsp_bit-score>
+      <Hsp_score>1013</Hsp_score>
+      <Hsp_evalue>1.09382e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>MIGIKSSRRGGGKEEAEKPFWISFSDLMTALMVLFLVAMAVALIAVTHSELTKDADKNARDDTIKSCIADIKSLTDIPEFKGVSIRGYSIDFGTLVLFGNDKHIFESSAHDRFVRKFVPRVLELARSEKCDMWLKRVVVEGFASQTGDYLYNLNLSYLRSQRVLCVLLDSKAPDAISAADRKMVQSLFLVGGSSFNTTAGDPSQMRRVELKLEFRDLGTEKDKHVDIPLDPGVKCPNDLR</Hsp_qseq>
+      <Hsp_hseq>MMGIKTTRRKAGKEEAEKPFWISFSDLMTALMVLFLVAMAVALIAVTHGLATINKDKEERDKTIQSCIADVDALTKQSEFKGVSVRGNSIDFGTLVLFGNDKHTFESPTHEHFVRKFVPRVLDLARSEKCDKWLKRVVVEGFASQTGDYLYNLNLSYLRSQRVLCVLLDSKATDSIAPTDRKLVQTLFLVGGSSFNTTASEASQMRRVELKLEFRELDSKREQAADIPLDPGLNCPNDLK</Hsp_hseq>
+      <Hsp_midline>M+GIK++RR  GKEEAEKPFWISFSDLMTALMVLFLVAMAVALIAVTH   T + DK  RD TI+SCIAD+ +LT   EFKGVS+RG SIDFGTLVLFGNDKH FES  H+ FVRKFVPRVL+LARSEKCD WLKRVVVEGFASQTGDYLYNLNLSYLRSQRVLCVLLDSKA D+I+  DRK+VQ+LFLVGGSSFNTTA + SQMRRVELKLEFR+L +++++  DIPLDPG+ CPNDL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_265257424.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Verminephrobacter aporrectodeae] &gt;gb|MCW5255891.1| cell envelope biogenesis protein OmpA [Verminephrobacter aporrectodeae subsp. tuberculatae] &gt;gb|MCW8198841.1| cell envelope biogenesis protein OmpA [Verminephrobacter aporrectodeae subsp. tuberculatae]</Hit_def>
+  <Hit_accession>WP_265257424</Hit_accession>
+  <Hit_len>240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>388.652</Hsp_bit-score>
+      <Hsp_score>997</Hsp_score>
+      <Hsp_evalue>2.92895e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>MIGIKSSRRGGGKEEAEKPFWISFSDLMTALMVLFLVAMAVALIAVTHSELTKDADKNARDDTIKSCIADIKSLTDIPEFKGVSIRGYSIDFGTLVLFGNDKHIFESSAHDRFVRKFVPRVLELARSEKCDMWLKRVVVEGFASQTGDYLYNLNLSYLRSQRVLCVLLDSKAPDAISAADRKMVQSLFLVGGSSFNTTAGDPSQMRRVELKLEFRDLGTEKDKHVDIPLDPGVKCPNDL</Hsp_qseq>
+      <Hsp_hseq>MMGIRALRRKAGKEDAEKPFWISFSDLMTALMVLFLVAMAVALIAVTHGLATINKDKEERQQTIAACIADVKALTDRSEFQGVSVHGHSIDFGTLVLFGNDRHRFESPTHEHFVRQFVPRVLDLARSEQCEQWLKRVVVEGFASQTGDYLYNLNLSYLRSQRVLCVLLDAKAANALVATDRKFIQSLFLVGGSSFNTAAGEAARMRRVELRLEFRDLGSARDQHTDIPLDPGAKCPNDL</Hsp_hseq>
+      <Hsp_midline>M+GI++ RR  GKE+AEKPFWISFSDLMTALMVLFLVAMAVALIAVTH   T + DK  R  TI +CIAD+K+LTD  EF+GVS+ G+SIDFGTLVLFGND+H FES  H+ FVR+FVPRVL+LARSE+C+ WLKRVVVEGFASQTGDYLYNLNLSYLRSQRVLCVLLD+KA +A+ A DRK +QSLFLVGGSSFNT AG+ ++MRRVEL+LEFRDLG+ +D+H DIPLDPG KCPNDL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_265289548.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Verminephrobacter eiseniae] &gt;gb|MCW5238681.1| cell envelope biogenesis protein OmpA [Verminephrobacter eiseniae]</Hit_def>
+  <Hit_accession>WP_265289548</Hit_accession>
+  <Hit_len>240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.8</Hsp_bit-score>
+      <Hsp_score>987</Hsp_score>
+      <Hsp_evalue>1.09019e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>MIGIKSSRRGGGKEEAEKPFWISFSDLMTALMVLFLVAMAVALIAVTHSELTKDADKNARDDTIKSCIADIKSLTDIPEFKGVSIRGYSIDFGTLVLFGNDKHIFESSAHDRFVRKFVPRVLELARSEKCDMWLKRVVVEGFASQTGDYLYNLNLSYLRSQRVLCVLLDSKAPDAISAADRKMVQSLFLVGGSSFNTTAGDPSQMRRVELKLEFRDLGTEKDKHVDIPLDPGVKCPNDLR</Hsp_qseq>
+      <Hsp_hseq>MIGIKASRRKAGKEEAEKPFWISFSDLMTALMVLFLVAMAVALIAVTHGLATINKDKEEREQTIEACMADMKALTRQAQFEGVSVHGNSIDFGALVLFGNDRHSFESPAHENFVRRFVPRVLELARNQHCDRWLKRVVVEGFASQTGDYLYNLNLSYLRSQRVLCVLLDTKAADAIAPADRQFIQRLFLVGGSSFNTAAGEASRMRRVELKLEFRDLGSDREQPADIPLDPGTKCPNDWR</Hsp_hseq>
+      <Hsp_midline>MIGIK+SRR  GKEEAEKPFWISFSDLMTALMVLFLVAMAVALIAVTH   T + DK  R+ TI++C+AD+K+LT   +F+GVS+ G SIDFG LVLFGND+H FES AH+ FVR+FVPRVLELAR++ CD WLKRVVVEGFASQTGDYLYNLNLSYLRSQRVLCVLLD+KA DAI+ ADR+ +Q LFLVGGSSFNT AG+ S+MRRVELKLEFRDLG+++++  DIPLDPG KCPND R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_265281542.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Verminephrobacter aporrectodeae] &gt;gb|MCW5220146.1| cell envelope biogenesis protein OmpA [Verminephrobacter aporrectodeae subsp. tuberculatae] &gt;gb|MCW5289434.1| cell envelope biogenesis protein OmpA [Verminephrobacter aporrectodeae subsp. tuberculatae] &gt;gb|MCW5320905.1| cell envelope biogenesis protein OmpA [Verminephrobacter aporrectodeae subsp. tuberculatae]</Hit_def>
+  <Hit_accession>WP_265281542</Hit_accession>
+  <Hit_len>240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.03</Hsp_bit-score>
+      <Hsp_score>985</Hsp_score>
+      <Hsp_evalue>2.29704e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>MIGIKSSRRGGGKEEAEKPFWISFSDLMTALMVLFLVAMAVALIAVTHSELTKDADKNARDDTIKSCIADIKSLTDIPEFKGVSIRGYSIDFGTLVLFGNDKHIFESSAHDRFVRKFVPRVLELARSEKCDMWLKRVVVEGFASQTGDYLYNLNLSYLRSQRVLCVLLDSKAPDAISAADRKMVQSLFLVGGSSFNTTAGDPSQMRRVELKLEFRDLGTEKDKHVDIPLDPGVKCPNDL</Hsp_qseq>
+      <Hsp_hseq>MMGIRALRRKAGKEDAEKPFWISFSDLMTALMVLFLVAMAVALIAVTHGLATINKDKEERQQTIAACIADVKALTDRSEFQGVSVHGHSIDFGTLVLFGNDRHRFENPTHEHFVRQFVPRVLDLARSKQCEQWLKRVVVEGFASQTGNYLYNLNLSYLRSQRVLCVLLDAQAANALVATDRQFIQSLFLVGGSSFNTAAGEAARMRRVELRLEFRDLGSARDQHTDIPLDPGVKCPNDL</Hsp_hseq>
+      <Hsp_midline>M+GI++ RR  GKE+AEKPFWISFSDLMTALMVLFLVAMAVALIAVTH   T + DK  R  TI +CIAD+K+LTD  EF+GVS+ G+SIDFGTLVLFGND+H FE+  H+ FVR+FVPRVL+LARS++C+ WLKRVVVEGFASQTG+YLYNLNLSYLRSQRVLCVLLD++A +A+ A DR+ +QSLFLVGGSSFNT AG+ ++MRRVEL+LEFRDLG+ +D+H DIPLDPGVKCPNDL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_122834118.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Burkholderia pseudomallei] &gt;gb|MBF3650926.1| cell envelope biogenesis protein OmpA [Burkholderia pseudomallei] &gt;gb|MBF3668893.1| cell envelope biogenesis protein OmpA [Burkholderia pseudomallei] &gt;gb|MBF3774350.1| cell envelope biogenesis protein OmpA [Burkholderia pseudomallei] &gt;gb|MBF3873429.1| cell envelope biogenesis protein OmpA [Burkholderia pseudomallei] &gt;gb|MBF3907700.1| cell envelope biogenesis protein OmpA [Burkholderia pseudomallei]</Hit_def>
+  <Hit_accession>WP_122834118</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>344.354</Hsp_bit-score>
+      <Hsp_score>882</Hsp_score>
+      <Hsp_evalue>1.14112e-116</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>MIGIKSSRRGGGKEEAEKPFWISFSDLMTALMVLFLVAMAVALIAVTHSELTKDADKNARDDTIKSCIADIKSLTDIPEFKGVSIRGYSIDFGTLVLFGNDKHIFESSAHDRFVRKFVPRVLELARSEKCDMWLKRVVVEGFASQTGDYLYNLNLSYLRSQRVLCVLLDSKAPDAISAADRKMVQSLFLVGGSSFNTTAGDPSQMRRVELKLEFRDLGTEKDKHVDIPLDPGVKCPND</Hsp_qseq>
+      <Hsp_hseq>MLGIKAPRRRGSRDDGEKPFWISFSDLMTALMVLFLVAMAVALMAVTQGLQQIKKATEERDKTIESCVADVDALTKLDEFKGVTVRGHSIDFGTLVQFQDNAHKFENSDDEHFVRKFVPRVLAVARSAKCDKWLKRVVVEGFASKTGDYLFNLNLSYLRSQRVLCALLSTQPPDALSAADRALIQTLFLAGGSSFNTTSSSAAQMRRVEIKLEFRDLGSAKESPPDIPLDPGLRCPND</Hsp_hseq>
+      <Hsp_midline>M+GIK+ RR G +++ EKPFWISFSDLMTALMVLFLVAMAVAL+AVT            RD TI+SC+AD+ +LT + EFKGV++RG+SIDFGTLV F ++ H FE+S  + FVRKFVPRVL +ARS KCD WLKRVVVEGFAS+TGDYL+NLNLSYLRSQRVLC LL ++ PDA+SAADR ++Q+LFL GGSSFNTT+   +QMRRVE+KLEFRDLG+ K+   DIPLDPG++CPND</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_124583794.1|</Hit_id>
+  <Hit_def>MULTISPECIES: flagellar motor protein MotB [Burkholderia cepacia complex] &gt;gb|MBR8347509.1| cell envelope biogenesis protein OmpA [Burkholderia ambifaria] &gt;gb|RQT08800.1| cell envelope biogenesis protein OmpA [Burkholderia contaminans]</Hit_def>
+  <Hit_accession>WP_124583794</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>343.584</Hsp_bit-score>
+      <Hsp_score>880</Hsp_score>
+      <Hsp_evalue>1.69263e-116</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>MIGIKSSRRGGGKEEAEKPFWISFSDLMTALMVLFLVAMAVALIAVTHSELTKDADKNARDDTIKSCIADIKSLTDIPEFKGVSIRGYSIDFGTLVLFGNDKHIFESSAHDRFVRKFVPRVLELARSEKCDMWLKRVVVEGFASQTGDYLYNLNLSYLRSQRVLCVLLDSKAPDAISAADRKMVQSLFLVGGSSFNTTAGDPSQMRRVELKLEFRDLGTEKDKHVDIPLDPGVKCPND</Hsp_qseq>
+      <Hsp_hseq>MLGIKAPRRRGSRDDGEKPFWISFSDLMTALMVLFLVAMAVALMAVTQGLQQIKKATEERDKTIESCVADVDALTKLDEFKGVTVRGHSIDFGTLVQFQDNAHKFENSDDEHFVRKFVPRVLAVARSAKCDKWLKRVVVEGFASKTGDYLFNLNLSYLRSQRVLCALLSTQPPDALSAADRALIQTLFLAGGSSFNTTSSSAAQMRRVEIKLEFRDLGSAKEPPPDIPLDPGLRCPND</Hsp_hseq>
+      <Hsp_midline>M+GIK+ RR G +++ EKPFWISFSDLMTALMVLFLVAMAVAL+AVT            RD TI+SC+AD+ +LT + EFKGV++RG+SIDFGTLV F ++ H FE+S  + FVRKFVPRVL +ARS KCD WLKRVVVEGFAS+TGDYL+NLNLSYLRSQRVLC LL ++ PDA+SAADR ++Q+LFL GGSSFNTT+   +QMRRVE+KLEFRDLG+ K+   DIPLDPG++CPND</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_408260407.1|</Hit_id>
+  <Hit_def>MULTISPECIES: flagellar motor protein MotB [Burkholderiaceae] &gt;gb|MFM0184154.1| flagellar motor protein MotB [Paraburkholderia nemoris] &gt;gb|MFM0572871.1| flagellar motor protein MotB [Paraburkholderia caledonica] &gt;emb|CAM2148238.1| Flagellar motor protein MotB [Pararobbsia alpina]</Hit_def>
+  <Hit_accession>WP_408260407</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.428</Hsp_bit-score>
+      <Hsp_score>877</Hsp_score>
+      <Hsp_evalue>5.89896e-116</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>MIGIKSSRRGGGKEEAEKPFWISFSDLMTALMVLFLVAMAVALIAVTHSELTKDADKNARDDTIKSCIADIKSLTDIPEFKGVSIRGYSIDFGTLVLFGNDKHIFESSAHDRFVRKFVPRVLELARSEKCDMWLKRVVVEGFASQTGDYLYNLNLSYLRSQRVLCVLLDSKAPDAISAADRKMVQSLFLVGGSSFNTTAGDPSQMRRVELKLEFRDLGTEKDKHVDIPLDPGVKCPND</Hsp_qseq>
+      <Hsp_hseq>MLGIKAPRRRGSRDDGEKPFWISFSDLMTALMVLFLVAMAVALMAVTQGLQQIKKATEERDKTIESCVADVDALTKLDEFKGVTVRGHSIDFGTLVQFQDNAHKFENPDDEHFVRKFVPRVLDVARSAKCDKWLKRVVVEGFASKTGDYLFNLNLSYLRSQRVLCALLSTQPPDALSAADRALIQTLFLAGGSSFNTTSSSAAQMRRVEIKLEFRDLGSAKEPPPDIPLDPGLRCPND</Hsp_hseq>
+      <Hsp_midline>M+GIK+ RR G +++ EKPFWISFSDLMTALMVLFLVAMAVAL+AVT            RD TI+SC+AD+ +LT + EFKGV++RG+SIDFGTLV F ++ H FE+   + FVRKFVPRVL++ARS KCD WLKRVVVEGFAS+TGDYL+NLNLSYLRSQRVLC LL ++ PDA+SAADR ++Q+LFL GGSSFNTT+   +QMRRVE+KLEFRDLG+ K+   DIPLDPG++CPND</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_353627697.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Ralstonia pseudosolanacearum] &gt;gb|XCF02601.1| flagellar motor protein MotB [Ralstonia pseudosolanacearum]</Hit_def>
+  <Hit_accession>WP_353627697</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.043</Hsp_bit-score>
+      <Hsp_score>876</Hsp_score>
+      <Hsp_evalue>7.10609e-116</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>MIGIKSSRRGGGKEEAEKPFWISFSDLMTALMVLFLVAMAVALIAVTHSELTKDADKNARDDTIKSCIADIKSLTDIPEFKGVSIRGYSIDFGTLVLFGNDKHIFESSAHDRFVRKFVPRVLELARSEKCDMWLKRVVVEGFASQTGDYLYNLNLSYLRSQRVLCVLLDSKAPDAISAADRKMVQSLFLVGGSSFNTTAGDPSQMRRVELKLEFRDLGTEKDKHVDIPLDPGVKCPND</Hsp_qseq>
+      <Hsp_hseq>MLGINVPKRRGGREDGEKPFWISFSDLMTALMVLFLVAMAVALMAVTQGLQQIKKDTEERDKTIESCVSDVDALTKLPEFKGVAVHGHSIDFGTLVQFQDKEHKFEKSDDEHFVRKFVPRVLDVARSAKCDKWLKRVVVEGFASKTGDYLFNLNLSYQRSQRVLCALLSTQSPDALSAADRALIQTLFLAGGSSFNTASSSAAQMRRVEIKLEFRDLGSVKEPPPDIPLDPGLRCPND</Hsp_hseq>
+      <Hsp_midline>M+GI   +R GG+E+ EKPFWISFSDLMTALMVLFLVAMAVAL+AVT        D   RD TI+SC++D+ +LT +PEFKGV++ G+SIDFGTLV F + +H FE S  + FVRKFVPRVL++ARS KCD WLKRVVVEGFAS+TGDYL+NLNLSY RSQRVLC LL +++PDA+SAADR ++Q+LFL GGSSFNT +   +QMRRVE+KLEFRDLG+ K+   DIPLDPG++CPND</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_028224490.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Paraburkholderia ferrariae]</Hit_def>
+  <Hit_accession>WP_028224490</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>339.347</Hsp_bit-score>
+      <Hsp_score>869</Hsp_score>
+      <Hsp_evalue>8.44295e-115</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>MIGIKSSRRGGGKEEAEKPFWISFSDLMTALMVLFLVAMAVALIAVTHSELTKDADKNARDDTIKSCIADIKSLTDIPEFKGVSIRGYSIDFGTLVLFGNDKHIFESSAHDRFVRKFVPRVLELARSEKCDMWLKRVVVEGFASQTGDYLYNLNLSYLRSQRVLCVLLDSKAPDAISAADRKMVQSLFLVGGSSFNTTAGDPSQMRRVELKLEFRDLGTEKDKHVDIPLDPGVKCPND</Hsp_qseq>
+      <Hsp_hseq>MLGLKAARRRGSREEGEKPFWISFSDLMTALMVLFLVAMAVALMAVTQGLQQIKKATQERDQTIESCVANVKALTKLDEFKGVTVHGHSIDFGTLVQFQDNAHKFENPEDEHFVRRFIPRVLDVARAPTCDKWLKRVVVEGFASKTGDYLFNLNLSYLRSQRVLCALLNTQAPDALSAADRSLIQTLFLAGGSSFNTTASSAAQMRRVEIMLEFRDLDSTREPPPDIPLDPGLRCPND</Hsp_hseq>
+      <Hsp_midline>M+G+K++RR G +EE EKPFWISFSDLMTALMVLFLVAMAVAL+AVT            RD TI+SC+A++K+LT + EFKGV++ G+SIDFGTLV F ++ H FE+   + FVR+F+PRVL++AR+  CD WLKRVVVEGFAS+TGDYL+NLNLSYLRSQRVLC LL+++APDA+SAADR ++Q+LFL GGSSFNTTA   +QMRRVE+ LEFRDL + ++   DIPLDPG++CPND</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_090541621.1|</Hit_id>
+  <Hit_def>MULTISPECIES: flagellar motor protein MotB [Burkholderiaceae] &gt;gb|PXW29770.1| flagellar motor protein MotB [Paraburkholderia caballeronis] &gt;gb|PXX05028.1| flagellar motor protein MotB [Paraburkholderia caballeronis] &gt;gb|RAK06090.1| flagellar motor protein MotB [Paraburkholderia caballeronis] &gt;gb|URF04110.1| cell envelope biogenesis protein OmpA [Cupriavidus campinensis] &gt;emb|SEB48694.1| Flagellar motor protein MotB [Paraburkholderia caballeronis]</Hit_def>
+  <Hit_accession>WP_090541621</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>339.347</Hsp_bit-score>
+      <Hsp_score>869</Hsp_score>
+      <Hsp_evalue>8.44295e-115</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>MIGIKSSRRGGGKEEAEKPFWISFSDLMTALMVLFLVAMAVALIAVTHSELTKDADKNARDDTIKSCIADIKSLTDIPEFKGVSIRGYSIDFGTLVLFGNDKHIFESSAHDRFVRKFVPRVLELARSEKCDMWLKRVVVEGFASQTGDYLYNLNLSYLRSQRVLCVLLDSKAPDAISAADRKMVQSLFLVGGSSFNTTAGDPSQMRRVELKLEFRDLGTEKDKHVDIPLDPGVKCPND</Hsp_qseq>
+      <Hsp_hseq>MLGIKAPRRRGSRDDGEKPFWISFSDLMTALMVLFLVAMAVALMAVTQGLQQIKKATEERDKTIESCVADVDALTKLDVFKGVTVRGHSIDFGTLVQFQDNAHKFENPDDEHFVRKFVPRVLDVARSAKCDKWLKRVVVEGFASKTGDYLFNLNLSYLRSQRVLCALLSTQPPDALSAADRALIQTLFLAGGSSFNTTSSSAAQMRRVEIKLEFRDLGSAKEPPPDIPLDPGLRCPND</Hsp_hseq>
+      <Hsp_midline>M+GIK+ RR G +++ EKPFWISFSDLMTALMVLFLVAMAVAL+AVT            RD TI+SC+AD+ +LT +  FKGV++RG+SIDFGTLV F ++ H FE+   + FVRKFVPRVL++ARS KCD WLKRVVVEGFAS+TGDYL+NLNLSYLRSQRVLC LL ++ PDA+SAADR ++Q+LFL GGSSFNTT+   +QMRRVE+KLEFRDLG+ K+   DIPLDPG++CPND</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_076926994.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Burkholderia pseudomallei] &gt;gb|OMW35731.1| cell envelope biogenesis protein OmpA [Burkholderia pseudomallei]</Hit_def>
+  <Hit_accession>WP_076926994</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>338.961</Hsp_bit-score>
+      <Hsp_score>868</Hsp_score>
+      <Hsp_evalue>1.23865e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>MIGIKSSRRGGGKEEAEKPFWISFSDLMTALMVLFLVAMAVALIAVTHSELTKDADKNARDDTIKSCIADIKSLTDIPEFKGVSIRGYSIDFGTLVLFGNDKHIFESSAHDRFVRKFVPRVLELARSEKCDMWLKRVVVEGFASQTGDYLYNLNLSYLRSQRVLCVLLDSKAPDAISAADRKMVQSLFLVGGSSFNTTAGDPSQMRRVELKLEFRDLGTEKDKHVDIPLDPGVKCPND</Hsp_qseq>
+      <Hsp_hseq>MLGLKAARRRGSREEGEKPFWISFSDLMTALMVLFLVAMAVALMAVTQGLQQIKRATQERDQTIESCVANVKALTKLDEFKGVTVRGHSIDFGTLVQFQDNAHKFENPEDEHFVRRFIPRVLDVARAPTCDKWLKRVVVEGFASKTGDYLFNLNLSYLRSQRVLCALLNTQASDALSAADRSLIQTLFLAGGSSFNTTASSAAQMRRVEIMLEFRDLDSTKEPPPDIPLDPGLRCPND</Hsp_hseq>
+      <Hsp_midline>M+G+K++RR G +EE EKPFWISFSDLMTALMVLFLVAMAVAL+AVT            RD TI+SC+A++K+LT + EFKGV++RG+SIDFGTLV F ++ H FE+   + FVR+F+PRVL++AR+  CD WLKRVVVEGFAS+TGDYL+NLNLSYLRSQRVLC LL+++A DA+SAADR ++Q+LFL GGSSFNTTA   +QMRRVE+ LEFRDL + K+   DIPLDPG++CPND</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_041190824.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Burkholderia pseudomallei] &gt;gb|KGW09406.1| membrane MotB of proton-channel complex MotA/MotB family protein [Burkholderia pseudomallei MSHR4303] &gt;gb|ONC71204.1| cell envelope biogenesis protein OmpA [Burkholderia pseudomallei]</Hit_def>
+  <Hit_accession>WP_041190824</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>338.576</Hsp_bit-score>
+      <Hsp_score>867</Hsp_score>
+      <Hsp_evalue>1.87789e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>MIGIKSSRRGGGKEEAEKPFWISFSDLMTALMVLFLVAMAVALIAVTHSELTKDADKNARDDTIKSCIADIKSLTDIPEFKGVSIRGYSIDFGTLVLFGNDKHIFESSAHDRFVRKFVPRVLELARSEKCDMWLKRVVVEGFASQTGDYLYNLNLSYLRSQRVLCVLLDSKAPDAISAADRKMVQSLFLVGGSSFNTTAGDPSQMRRVELKLEFRDLGTEKDKHVDIPLDPGVKCPND</Hsp_qseq>
+      <Hsp_hseq>MLGLKAARRRGSREEGEKPFWISFSDLMTALMVLFLVAMAVALMAVTQGLQQIKKATQERDQTIESCVANVKALTKLDEFKGVTVRGHSIDFGTLVQFQDNAHKFENPEDEHFVRRFIPRVLDVARAPTCDKWLKRVVVEGFASKTGDYLFNLNLSYLRSQRVLCALLNTQASDALSAADRSLIQTLFLAGGSSFNTTASRAAQMRRVEIMLEFRDLDSTKEPPPDIPLDPGLRCPND</Hsp_hseq>
+      <Hsp_midline>M+G+K++RR G +EE EKPFWISFSDLMTALMVLFLVAMAVAL+AVT            RD TI+SC+A++K+LT + EFKGV++RG+SIDFGTLV F ++ H FE+   + FVR+F+PRVL++AR+  CD WLKRVVVEGFAS+TGDYL+NLNLSYLRSQRVLC LL+++A DA+SAADR ++Q+LFL GGSSFNTTA   +QMRRVE+ LEFRDL + K+   DIPLDPG++CPND</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_092397320.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Collimonas sp. OK412] &gt;emb|SFC61984.1| Flagellar motor protein MotB [Collimonas sp. OK412]</Hit_def>
+  <Hit_accession>WP_092397320</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>337.806</Hsp_bit-score>
+      <Hsp_score>865</Hsp_score>
+      <Hsp_evalue>3.42955e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>MIGIKSSRRGGGKEEAEKPFWISFSDLMTALMVLFLVAMAVALIAVTHSELTKDADKNARDDTIKSCIADIKSLTDIPEFKGVSIRGYSIDFGTLVLFGNDKHIFESSAHDRFVRKFVPRVLELARSEKCDMWLKRVVVEGFASQTGDYLYNLNLSYLRSQRVLCVLLDSKAPDAISAADRKMVQSLFLVGGSSFNTTAGDPSQMRRVELKLEFRDLGTEKDKHVDIPLDPGVKCPND</Hsp_qseq>
+      <Hsp_hseq>MLGIKVPKRRGGREEGEKPFWISFSDLMTALMVLFLVAMAVALMAVTQGLQQIKKETEERDKTIENCVSDVDALTKLAEFKGVTVHGHSIDFGTLVQFQDKEHKFEKPDDEHFVRKFVPRVLDVARSAKCDKWLKRVVVEGFASKTGDYLFNLNLSYQRSQRVLCALLSTQQPDALSAADRALIQTLFLAGGSSFNTASSSAAQMRRVEIKLEFRDLGSMKEPPPDIPLDPGLRCPND</Hsp_hseq>
+      <Hsp_midline>M+GIK  +R GG+EE EKPFWISFSDLMTALMVLFLVAMAVAL+AVT        +   RD TI++C++D+ +LT + EFKGV++ G+SIDFGTLV F + +H FE    + FVRKFVPRVL++ARS KCD WLKRVVVEGFAS+TGDYL+NLNLSY RSQRVLC LL ++ PDA+SAADR ++Q+LFL GGSSFNT +   +QMRRVE+KLEFRDLG+ K+   DIPLDPG++CPND</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_105849105.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Burkholderia gladioli] &gt;gb|PRH36414.1| cell envelope biogenesis protein OmpA [Burkholderia gladioli]</Hit_def>
+  <Hit_accession>WP_105849105</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>337.035</Hsp_bit-score>
+      <Hsp_score>863</Hsp_score>
+      <Hsp_evalue>7.96938e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>MIGIKSSRRGGGKEEAEKPFWISFSDLMTALMVLFLVAMAVALIAVTHSELTKDADKNARDDTIKSCIADIKSLTDIPEFKGVSIRGYSIDFGTLVLFGNDKHIFESSAHDRFVRKFVPRVLELARSEKCDMWLKRVVVEGFASQTGDYLYNLNLSYLRSQRVLCVLLDSKAPDAISAADRKMVQSLFLVGGSSFNTTAGDPSQMRRVELKLEFRDLGTEKDKHVDIPLDPGVKCPND</Hsp_qseq>
+      <Hsp_hseq>MLGIKAPKPRGSRDDGEKPFWISFSDLMTALMVLFLVAMAVALMAVTQGLQQIKKATEERDKTIESCVADVDALTKLDEFKGVTVRGHSIDFGTLVQFQDNAHKFENPDDEHFVRKFVPRVLDVARSAKCDKWLKRVVVEGFASKTGDYLFNLNLSYLRSQRVLCALLSTQPPDALSASDRALIQTLFLAGGSSFNTTSSSAAQMRRVEIKLEFRDLGSAKEPPPDIPLDPGLRCPND</Hsp_hseq>
+      <Hsp_midline>M+GIK+ +  G +++ EKPFWISFSDLMTALMVLFLVAMAVAL+AVT            RD TI+SC+AD+ +LT + EFKGV++RG+SIDFGTLV F ++ H FE+   + FVRKFVPRVL++ARS KCD WLKRVVVEGFAS+TGDYL+NLNLSYLRSQRVLC LL ++ PDA+SA+DR ++Q+LFL GGSSFNTT+   +QMRRVE+KLEFRDLG+ K+   DIPLDPG++CPND</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_408519248.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Paraburkholderia sediminicola] &gt;gb|MFM0298699.1| flagellar motor protein MotB [Paraburkholderia sediminicola]</Hit_def>
+  <Hit_accession>WP_408519248</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>336.65</Hsp_bit-score>
+      <Hsp_score>862</Hsp_score>
+      <Hsp_evalue>1.27619e-113</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>MIGIKSSRRGGGKEEAEKPFWISFSDLMTALMVLFLVAMAVALIAVTHSELTKDADKNARDDTIKSCIADIKSLTDIPEFKGVSIRGYSIDFGTLVLFGNDKHIFESSAHDRFVRKFVPRVLELARSEKCDMWLKRVVVEGFASQTGDYLYNLNLSYLRSQRVLCVLLDSKAPDAISAADRKMVQSLFLVGGSSFNTTAGDPSQMRRVELKLEFRDLGTEKDKHVDIPLDPGVKCPND</Hsp_qseq>
+      <Hsp_hseq>MLGLKAARRRGSREDGEKPFWISFSDLMTALMVLFLVAMAVALMAVTQGLQQIKKASQERDQTIESCVSNVKALTRLDEFKGVTVRGHSIDFGTLVQFQDNAHKFGNPEDEHFVRRFVPRVLDVARAPTCDKWLKRVVVEGFASKTGDYLFNLNLSYLRSQRVLCALLNTQAPDALSAADRSLIQTLFLAGGSSFNTTASSAAQMRRVEIMLEFRDLDSTKEPPPDIPLDPGLRCPND</Hsp_hseq>
+      <Hsp_midline>M+G+K++RR G +E+ EKPFWISFSDLMTALMVLFLVAMAVAL+AVT            RD TI+SC++++K+LT + EFKGV++RG+SIDFGTLV F ++ H F +   + FVR+FVPRVL++AR+  CD WLKRVVVEGFAS+TGDYL+NLNLSYLRSQRVLC LL+++APDA+SAADR ++Q+LFL GGSSFNTTA   +QMRRVE+ LEFRDL + K+   DIPLDPG++CPND</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_010104808.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Verminephrobacter aporrectodeae]</Hit_def>
+  <Hit_accession>WP_010104808</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>335.88</Hsp_bit-score>
+      <Hsp_score>860</Hsp_score>
+      <Hsp_evalue>1.93475e-113</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>MIGIKSSRRGGGKEEAEKPFWISFSDLMTALMVLFLVAMAVALIAVTHSELTKDADKNARDDTIKSCIADIKSLTDIPEFKGVSIRGYSIDFGTLVLFGNDKHIFESSAHDRFVRKFVPRVLELARSEKCDMWLKRVVVEGFASQTGDYLYNLNLSYLRSQRVLCVLLDSKAPDAISAADRKMVQSLFLVGGSSFNTTAGDPSQMRRVELKLEFRDLGTEKDKHVDIPLDPGVKCPND</Hsp_qseq>
+      <Hsp_hseq>MLGVKVPKRRGAREDGEKPFWISFSDLMTALMVLFLVAMAVALMAVTQGLQQIKKETEERDKTIESCVSDVAALTQLEEFKGVTVRGHSIDFGTLVQFQDKEHRFEKPGDERFVRQFIPRVLDVARSDKCDKWLKRVVVEGFASKTGDYLFNLNLSYQRSQRVLCALLSTQVPDALSARDRSLIQTLFLAGGSSFNTASSSAAQMRRVEIKLEFRDLASAKEAPPDIPLDPGLRCPND</Hsp_hseq>
+      <Hsp_midline>M+G+K  +R G +E+ EKPFWISFSDLMTALMVLFLVAMAVAL+AVT        +   RD TI+SC++D+ +LT + EFKGV++RG+SIDFGTLV F + +H FE    +RFVR+F+PRVL++ARS+KCD WLKRVVVEGFAS+TGDYL+NLNLSY RSQRVLC LL ++ PDA+SA DR ++Q+LFL GGSSFNT +   +QMRRVE+KLEFRDL + K+   DIPLDPG++CPND</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_200576827.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Paraburkholderia nemoris] &gt;gb|MBK3744665.1| cell envelope biogenesis protein OmpA [Paraburkholderia aspalathi] &gt;emb|CAE6844790.1| hypothetical protein R69619_07172 [Paraburkholderia nemoris]</Hit_def>
+  <Hit_accession>WP_200576827</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>335.495</Hsp_bit-score>
+      <Hsp_score>859</Hsp_score>
+      <Hsp_evalue>3.16681e-113</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>MIGIKSSRRGGGKEEAEKPFWISFSDLMTALMVLFLVAMAVALIAVTHSELTKDADKNARDDTIKSCIADIKSLTDIPEFKGVSIRGYSIDFGTLVLFGNDKHIFESSAHDRFVRKFVPRVLELARSEKCDMWLKRVVVEGFASQTGDYLYNLNLSYLRSQRVLCVLLDSKAPDAISAADRKMVQSLFLVGGSSFNTTAGDPSQMRRVELKLEFRDLGTEKDKHVDIPLDPGVKCPND</Hsp_qseq>
+      <Hsp_hseq>MLGLKAARRHGSHEEGEKPFWISFSDLMTALMVLFLVAMAVALMAVTQGLQQIKKATQERDQTIESCVANVKALTKLDEFNGVTVHGHTIDFGTLVQFQDNAHKFENPEDEHFVRRFIPRVLDVARAPTCDKWLKRVVVEGFASKTGDYLFNLNLSYLRSQRVLCALLNTQAPDALSAADRSRIQTLFLAGGSSFNTTASSAAQMRRVEIMLEFRDLDSTKEPPPDIPLDPGLRCPND</Hsp_hseq>
+      <Hsp_midline>M+G+K++RR G  EE EKPFWISFSDLMTALMVLFLVAMAVAL+AVT            RD TI+SC+A++K+LT + EF GV++ G++IDFGTLV F ++ H FE+   + FVR+F+PRVL++AR+  CD WLKRVVVEGFAS+TGDYL+NLNLSYLRSQRVLC LL+++APDA+SAADR  +Q+LFL GGSSFNTTA   +QMRRVE+ LEFRDL + K+   DIPLDPG++CPND</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>878262366</Statistics_db-num>
+      <Statistics_db-len>334928218419</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

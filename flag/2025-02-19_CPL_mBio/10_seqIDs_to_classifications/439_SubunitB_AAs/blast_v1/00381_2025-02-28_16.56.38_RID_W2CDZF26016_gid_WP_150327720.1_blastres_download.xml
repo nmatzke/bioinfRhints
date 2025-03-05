@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1050279</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>201</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1050279</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>201</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_021502084.1|</Hit_id>
+  <Hit_def>type II Zorya anti-phage system protein ZorB2 [Escherichia coli] &gt;gb|EOM0360905.1| type II Zorya anti-phage system protein ZorB2 [Escherichia coli] &gt;gb|ERD35201.1| ompA family protein [Escherichia coli B109] &gt;gb|MCZ5153661.1| OmpA family protein [Escherichia coli] &gt;gb|MDE5265120.1| OmpA family protein [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_021502084</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>418.313</Hsp_bit-score>
+      <Hsp_score>1074</Hsp_score>
+      <Hsp_evalue>4.06539e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_qseq>
+      <Hsp_hseq>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_hseq>
+      <Hsp_midline>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|EOM2544956.1|</Hit_id>
+  <Hit_def>type II Zorya anti-phage system protein ZorB2 [Escherichia coli]</Hit_def>
+  <Hit_accession>EOM2544956</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>418.313</Hsp_bit-score>
+      <Hsp_score>1074</Hsp_score>
+      <Hsp_evalue>4.4247e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_qseq>
+      <Hsp_hseq>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_hseq>
+      <Hsp_midline>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|EOM1029338.1|</Hit_id>
+  <Hit_def>type II Zorya anti-phage system protein ZorB2 [Escherichia coli] &gt;gb|EOM2806129.1| type II Zorya anti-phage system protein ZorB2 [Escherichia coli]</Hit_def>
+  <Hit_accession>EOM1029338</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.927</Hsp_bit-score>
+      <Hsp_score>1073</Hsp_score>
+      <Hsp_evalue>5.24144e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_qseq>
+      <Hsp_hseq>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_hseq>
+      <Hsp_midline>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|AHG12154.1|</Hit_id>
+  <Hit_def>hypothetical protein ECRM13514_5539 [Escherichia coli O145:H28 str. RM13514] &gt;gb|AHY73973.1| hypothetical protein ECRM12581_27215 [Escherichia coli O145:H28 str. RM12581] &gt;gb|EER9473690.1| OmpA family protein [Escherichia coli] &gt;gb|EHU86058.1| ompA [Escherichia coli DEC4A] &gt;gb|EHV18498.1| ompA [Escherichia coli DEC5A] &gt;gb|EHV46592.1| ompA [Escherichia coli DEC5D] &gt;gb|EIN15629.1| hypothetical protein ECFRIK1996_5630 [Escherichia coli FRIK1996] &gt;gb|EIN15908.1| hypothetical protein ECFDA505_5567 [Escherichia coli FDA505] &gt;gb|EIN16732.1| hypothetical protein ECFDA517_5894 [Escherichia coli FDA517] &gt;gb|EIN33050.1| hypothetical protein ECFRIK1985_5858 [Escherichia coli FRIK1985] &gt;gb|EIN33835.1| hypothetical protein EC93001_5685 [Escherichia coli 93-001] &gt;gb|EIN49111.1| hypothetical protein ECPA3_5702 [Escherichia coli PA3] &gt;gb|EIN52365.1| hypothetical protein ECPA5_5547 [Escherichia coli PA5] &gt;gb|EIN68645.1| hypothetical protein ECPA9_0013 [Escherichia coli PA9] &gt;gb|EIN69801.1| hypothetical protein ECPA14_5719 [Escherichia coli PA14] &gt;gb|EIN85471.1| hypothetical protein ECPA15_0014 [Escherichia coli PA15] &gt;gb|EIN88192.1| hypothetical protein ECPA24_5460 [Escherichia coli PA24] &gt;gb|EIN89896.1| hypothetical protein ECPA25_5428 [Escherichia coli PA25] &gt;gb|EIO07031.1| hypothetical protein ECPA31_5513 [Escherichia coli PA31] &gt;gb|EIO07417.1| hypothetical protein ECPA32_5595 [Escherichia coli PA32] &gt;gb|EIO11192.1| hypothetical protein ECPA33_5575 [Escherichia coli PA33] &gt;gb|EIO24703.1| hypothetical protein ECPA39_5697 [Escherichia coli PA39] &gt;gb|EIO32394.1| hypothetical protein ECPA40_0086 [Escherichia coli PA40] &gt;gb|EIO46021.1| hypothetical protein ECTW06591_5250 [Escherichia coli TW06591] &gt;gb|EIO63762.1| hypothetical protein ECTW10246_0259 [Escherichia coli TW10246] &gt;gb|EIO65813.1| hypothetical protein ECTW09098_5695 [Escherichia coli TW09098] &gt;gb|EIO69656.1| hypothetical protein ECTW11039_0015 [Escherichia coli TW11039] &gt;gb|EIO79099.1| hypothetical protein ECTW09109_0079 [Escherichia coli TW09109] &gt;gb|EIO79464.1| hypothetical protein ECTW07945_0008 [Escherichia coli TW07945] &gt;gb|EIO92517.1| hypothetical protein ECEC4196_5719 [Escherichia coli EC4196] &gt;gb|EIP03404.1| hypothetical protein ECTW14313_5550 [Escherichia coli O157:H7 str. TW14313] &gt;gb|EIP05660.1| hypothetical protein ECTW14301_5445 [Escherichia coli TW14301] &gt;gb|EIP10349.1| hypothetical protein ECEC4421_5490 [Escherichia coli EC4421] &gt;gb|EIP27306.1| hypothetical protein ECEC4402_5650 [Escherichia coli EC4402] &gt;gb|EIP33941.1| hypothetical protein ECEC4422_0012 [Escherichia coli EC4422] &gt;gb|EIP35359.1| hypothetical protein ECEC4439_5615 [Escherichia coli EC4439] &gt;gb|EIP38852.1| hypothetical protein ECEC4013_0077 [Escherichia coli EC4013] &gt;gb|EIP72312.1| hypothetical protein ECEC1845_5579 [Escherichia coli EC1845] &gt;gb|EIP72924.1| hypothetical protein ECEC1863_5336 [Escherichia coli EC1863] &gt;gb|EKH13351.1| hypothetical protein ECFDA507_5662 [Escherichia coli FDA507] &gt;gb|EKH20916.1| hypothetical protein ECPA34_0014 [Escherichia coli PA34] &gt;gb|EKH25285.1| hypothetical protein ECFDA506_0338 [Escherichia coli FDA506] &gt;gb|EKH26862.1| hypothetical protein ECFRIK1999_5798 [Escherichia coli FRIK1999] &gt;gb|EKH36314.1| hypothetical protein ECFDA504_0013 [Escherichia coli FDA504] &gt;gb|EKH48828.1| hypothetical protein ECFRIK1997_0014 [Escherichia coli FRIK1997] &gt;gb|EKH53677.1| hypothetical protein ECNE1487_0130 [Escherichia coli NE1487] &gt;gb|EKH61520.1| hypothetical protein ECNE037_0014 [Escherichia coli NE037] &gt;gb|EKH63164.1| hypothetical protein ECFRIK2001_0259 [Escherichia coli FRIK2001] &gt;gb|EKH63847.1| hypothetical protein ECPA23_5603 [Escherichia coli PA23] &gt;gb|EKH71789.1| hypothetical protein ECPA4_0014 [Escherichia coli PA4] &gt;gb|EKH83457.1| hypothetical protein ECPA49_0013 [Escherichia coli PA49] &gt;gb|EKH87899.1| hypothetical protein ECPA45_0013 [Escherichia coli PA45] &gt;gb|EKH95564.1| hypothetical protein ECTT12B_0013 [Escherichia coli TT12B] &gt;gb|EKH96737.1| hypothetical protein ECCB7326_5658 [Escherichia coli CB7326] &gt;gb|EKI01261.1| hypothetical protein ECMA6_0126 [Escherichia coli MA6] &gt;gb|EKI02730.1| hypothetical protein EC5905_0070 [Escherichia coli 5905] &gt;gb|EKI03039.1| hypothetical protein ECEC96038_5551 [Escherichia coli EC96038] &gt;gb|EKI06058.1| hypothetical protein EC5412_5598 [Escherichia coli 5412] &gt;gb|EKI33385.1| hypothetical protein ECPA38_5428 [Escherichia coli PA38] &gt;gb|EKI46666.1| hypothetical protein ECEC1735_5646 [Escherichia coli EC1735] &gt;gb|EKI59122.1| hypothetical protein ECEC1737_5600 [Escherichia coli EC1737] &gt;gb|EKI64837.1| hypothetical protein ECEC1846_5593 [Escherichia coli EC1846] &gt;gb|EKI72762.1| hypothetical protein ECEC1847_5616 [Escherichia coli EC1847] &gt;gb|EKI82674.1| hypothetical protein ECEC1849_5537 [Escherichia coli EC1849] &gt;gb|EKI91869.1| hypothetical protein ECEC1848_0078 [Escherichia coli EC1848] &gt;gb|EKI92951.1| hypothetical protein ECEC1856_5588 [Escherichia coli EC1856] &gt;gb|EKJ00850.1| hypothetical protein ECEC1862_5596 [Escherichia coli EC1862] &gt;gb|EKJ20861.1| hypothetical protein ECEC1866_5484 [Escherichia coli EC1866] &gt;gb|EKJ36042.1| hypothetical protein ECEC1868_0013 [Escherichia coli EC1868] &gt;gb|EKJ47661.1| hypothetical protein ECEC1869_0013 [Escherichia coli EC1869] &gt;gb|EKJ48188.1| hypothetical protein ECFRIK523_5587 [Escherichia coli FRIK523] &gt;gb|EKJ52873.1| hypothetical protein ECNE098_0013 [Escherichia coli NE098] &gt;gb|EKJ54994.1| hypothetical protein EC01304_5734 [Escherichia coli 0.1304] &gt;gb|EKK37393.1| ompA family protein [Escherichia coli 3.4870] &gt;gb|EKK52331.1| ompA family protein [Escherichia coli 8.2524] &gt;gb|EKK62290.1| ompA family protein [Escherichia coli 10.0869] &gt;gb|EKK67938.1| hypothetical protein EC100833_0080 [Escherichia coli 10.0833] &gt;gb|EKK71765.1| hypothetical protein EC80416_5182 [Escherichia coli 8.0416] &gt;gb|EKK87666.1| ompA family protein [Escherichia coli 88.0221] &gt;gb|EKK91182.1| ompA family protein [Escherichia coli 10.0821] &gt;gb|EKV70651.1| ompA family protein [Escherichia coli 89.0511] &gt;gb|EKV85097.1| ompA family protein [Escherichia coli 88.1042] &gt;gb|EKV88764.1| ompA family protein [Escherichia coli 88.1467] &gt;gb|EKV91591.1| ompA family protein [Escherichia coli 90.0039] &gt;gb|EKW03180.1| ompA family protein [Escherichia coli 90.2281] &gt;gb|EKW04288.1| ompA family protein [Escherichia coli 93.0055] &gt;gb|EKW08486.1| ompA family protein [Escherichia coli 94.0618] &gt;gb|EKW19023.1| ompA family protein [Escherichia coli 93.0056] &gt;gb|EKW21070.1| ompA family protein [Escherichia coli 95.0183] &gt;gb|EKW36717.1| ompA family protein [Escherichia coli 95.0943] &gt;gb|EKW38123.1| ompA family protein [Escherichia coli 96.0427] &gt;gb|EKW43905.1| ompA family protein [Escherichia coli 96.0939] &gt;gb|EKW51302.1| ompA family protein [Escherichia coli 96.0428] &gt;gb|EKW70674.1| ompA family protein [Escherichia coli 96.0932] &gt;gb|EKW71370.1| ompA family protein [Escherichia coli 97.0007] &gt;gb|EKW74753.1| ompA family protein [Escherichia coli 96.0107] &gt;gb|EKW76355.1| ompA family protein [Escherichia coli 99.0672] &gt;gb|EKW96259.1| ompA family protein [Escherichia coli 99.0713] &gt;gb|EKY34590.1| ompA family protein [Escherichia coli 96.0109] &gt;gb|ELV14532.1| ompA family protein [Escherichia coli 99.0814] &gt;gb|ELV15307.1| ompA family protein [Escherichia coli 09BKT078844] &gt;gb|ELV23653.1| ompA family protein [Escherichia coli 99.0815] &gt;gb|ELV30875.1| ompA family protein [Escherichia coli 99.0816] &gt;gb|ELV31244.1| ompA family protein [Escherichia coli 99.0839] &gt;gb|ELV61721.1| ompA family protein [Escherichia coli 99.1805] &gt;gb|ELV62893.1| ompA family protein [Escherichia coli 99.1793] &gt;gb|ELV63258.1| ompA family protein [Escherichia coli ATCC 700728] &gt;gb|ELV75966.1| ompA family protein [Escherichia coli PA11] &gt;gb|ELV93148.1| ompA family protein [Escherichia coli PA48] &gt;gb|ELV98804.1| ompA family protein [Escherichia coli PA2] &gt;gb|ELW12423.1| ompA family protein [Escherichia coli PA8] &gt;gb|ELW24261.1| ompA family protein [Escherichia coli 99.1781] &gt;gb|ELW27706.1| ompA family protein [Escherichia coli 99.1762] &gt;gb|ELW46369.1| ompA family protein [Escherichia coli 99.0670] &gt;gb|ERB68140.1| ompA family protein [Escherichia coli 09BKT076207] &gt;gb|ERB88972.1| ompA family protein [Escherichia coli B102] &gt;gb|ERC08310.1| ompA family protein [Escherichia coli B28-1] &gt;gb|ERC09302.1| ompA family protein [Escherichia coli B29-2] &gt;gb|ERC32304.1| ompA family protein [Escherichia coli B36-2] &gt;gb|ERC33932.1| ompA family protein [Escherichia coli B93] &gt;gb|ERC48256.1| ompA family protein [Escherichia coli B95] &gt;gb|ERC65821.1| ompA family protein [Escherichia coli T1840_97] &gt;gb|ERC74184.1| ompA family protein [Escherichia coli T234_00] &gt;gb|ERD05018.1| ompA family protein [Escherichia coli B104] &gt;gb|ERD09263.1| ompA family protein [Escherichia coli 2886-75] &gt;gb|ERD22949.1| ompA family protein [Escherichia coli B106] &gt;gb|ERD23989.1| ompA family protein [Escherichia coli B108] &gt;gb|ERD26788.1| ompA family protein [Escherichia coli B113] &gt;gb|ERD37182.1| ompA family protein [Escherichia coli B112] &gt;gb|ERD40229.1| ompA family protein [Escherichia coli B15] &gt;gb|ERD45126.1| ompA family protein [Escherichia coli B17] &gt;gb|ERD52928.1| ompA family protein [Escherichia coli B114] &gt;gb|ERD73510.1| ompA family protein [Escherichia coli B49-2] &gt;gb|ERD87989.1| ompA family protein [Escherichia coli B83] &gt;gb|ERD91774.1| ompA family protein [Escherichia coli B84] &gt;gb|ERD98681.1| ompA family protein [Escherichia coli B85] &gt;gb|ERE00880.1| ompA family protein [Escherichia coli 08BKT77219] &gt;gb|ERE14326.1| ompA family protein [Escherichia coli T1282_01] &gt;gb|ERE23638.1| ompA family protein [Escherichia coli B90] &gt;gb|ERE36109.1| ompA family protein [Escherichia coli B89] &gt;gb|ERE42059.1| ompA family protein [Escherichia coli Tx1686] &gt;gb|EYV16481.1| ompA [Escherichia coli O145:NM str. 2010C-3526] &gt;gb|EYV18171.1| ompA [Escherichia coli O145:NM str. 2010C-3518] &gt;gb|EYV20081.1| ompA [Escherichia coli O145:NM str. 2010C-3521] &gt;gb|EYV22946.1| ompA [Escherichia coli O145:NM str. 2010C-3517] &gt;gb|EYV24872.1| ompA [Escherichia coli O145:NM str. 2010C-3516] &gt;gb|EYV37955.1| ompA [Escherichia coli O145:NM str. 2010C-3509] &gt;gb|EYV44255.1| ompA [Escherichia coli O145:NM str. 2010C-3511] &gt;gb|EYV46020.1| ompA [Escherichia coli O145:NM str. 2010C-3510] &gt;gb|EYV59034.1| ompA [Escherichia coli O145:NM str. 2010C-3507] &gt;gb|EYV67645.1| ompA [Escherichia coli O157:H7 str. 2009EL2109] &gt;gb|EYV70453.1| ompA [Escherichia coli O157:H7 str. 2009EL1705] &gt;gb|EYV84726.1| ompA [Escherichia coli O157:H7 str. K5806] &gt;gb|EYV89288.1| ompA [Escherichia coli O157:H7 str. F7350] &gt;gb|EYW07430.1| ompA [Escherichia coli O157:H7 str. 2011EL-2312] &gt;gb|EYW09908.1| ompA [Escherichia coli O157:H7 str. 2011EL-2288] &gt;gb|EYW13499.1| ompA [Escherichia coli O157:H7 str. 2011EL-2289] &gt;gb|EYW24508.1| ompA [Escherichia coli O157:H7 str. 2011EL-2287] &gt;gb|EYW25815.1| ompA [Escherichia coli O157:H7 str. 2011EL-2114] &gt;gb|EYW27179.1| ompA [Escherichia coli O157:H7 str. 2011EL-2286] &gt;gb|EYW34608.1| ompA [Escherichia coli O157:H7 str. 2011EL-2113] &gt;gb|EYW39159.1| ompA [Escherichia coli O157:H7 str. 2011EL-2112] &gt;gb|EYW43051.1| ompA [Escherichia coli O157:H7 str. 2011EL-2111] &gt;gb|EYW49139.1| ompA [Escherichia coli O157:H7 str. 2011EL-2108] &gt;gb|EYW49452.1| ompA [Escherichia coli O157:H7 str. 2011EL-2109] &gt;gb|EYW57179.1| ompA [Escherichia coli O157:H7 str. 2011EL-2107] &gt;gb|EYW64051.1| ompA [Escherichia coli O157:H7 str. 2011EL-2106] &gt;gb|EYW67182.1| ompA [Escherichia coli O157:H7 str. 2011EL-2105] &gt;gb|EYW71148.1| ompA [Escherichia coli O157:H7 str. 2011EL-2104] &gt;gb|EYW75518.1| ompA [Escherichia coli O157:H7 str. 2011EL-2103] &gt;gb|EYW83368.1| ompA [Escherichia coli O157:H7 str. 2011EL-2101] &gt;gb|EYW85335.1| ompA [Escherichia coli O157:H7 str. 2011EL-2099] &gt;gb|EYW98549.1| ompA [Escherichia coli O145:NM str. 08-4270] &gt;gb|EYX02201.1| ompA [Escherichia coli O157:H7 str. 08-4169] &gt;gb|EYX12330.1| ompA [Escherichia coli O157:H7 str. 08-3527] &gt;gb|EYX13625.1| ompA [Escherichia coli O157:H7 str. 08-3037] &gt;gb|EYX27758.1| ompA [Escherichia coli O157:H7 str. 2011EL-2098] &gt;gb|EYX30699.1| ompA [Escherichia coli O157:H7 str. 2011EL-2097] &gt;gb|EYX33007.1| ompA [Escherichia coli O157:H7 str. 2011EL-2096] &gt;gb|EYX43990.1| ompA [Escherichia coli O157:H7 str. 2011EL-2094] &gt;gb|EYX44884.1| ompA [Escherichia coli O157:H7 str. 2011EL-2093] &gt;gb|EYX48137.1| ompA [Escherichia coli O157:H7 str. 2011EL-2092] &gt;gb|EYX54551.1| ompA [Escherichia coli O157:H7 str. 2011EL-2091] &gt;gb|EYX57446.1| ompA [Escherichia coli O157:H7 str. 2011EL-2090] &gt;gb|EYX70057.1| ompA [Escherichia coli O157:H7 str. 2011EL-1107] &gt;gb|EYY46580.1| ompA [Escherichia coli O157:H7 str. 2010C-4979C1] &gt;gb|EYZ14532.1| ompA [Escherichia coli O145:NM str. 2010C-4557C2] &gt;gb|EYZ36220.1| ompA [Escherichia coli O157:H7 str. 07-3391] &gt;gb|EYZ37413.1| ompA [Escherichia coli O157:H7 str. 07-3091] &gt;gb|EYZ38310.1| ompA [Escherichia coli O157:H7 str. 06-4039] &gt;gb|EYZ52261.1| ompA [Escherichia coli O157:H7 str. 06-3745] &gt;gb|EYZ63883.1| ompA [Escherichia coli O55:H7 str. 06-3555] &gt;gb|EYZ76665.1| ompA [Escherichia coli O145:NM str. 06-3484] &gt;gb|EZA89754.1| ompA [Escherichia coli O157:H7 str. F6142] &gt;gb|EZB04406.1| ompA [Escherichia coli O157:H7 str. F6750] &gt;gb|EZB05977.1| ompA [Escherichia coli O157:H7 str. F6749] &gt;gb|EZB11568.1| ompA [Escherichia coli O157:H7 str. F6751] &gt;gb|EZB18140.1| ompA [Escherichia coli O157:H7 str. F7384] &gt;gb|EZB20623.1| ompA [Escherichia coli O157:H7 str. F7377] &gt;gb|EZB32012.1| ompA [Escherichia coli O157:H7 str. G5303] &gt;gb|EZB41521.1| ompA [Escherichia coli O157:H7 str. H2495] &gt;gb|EZB46982.1| ompA [Escherichia coli O157:H7 str. H2498] &gt;gb|EZB48635.1| ompA [Escherichia coli O157:H7 str. K1420] &gt;gb|EZB73225.1| ompA [Escherichia coli O157:H7 str. K1795] &gt;gb|EZB73671.1| ompA [Escherichia coli O157:H7 str. K1845] &gt;gb|EZB74687.1| ompA [Escherichia coli O157:H7 str. K1796] &gt;gb|EZB80138.1| ompA [Escherichia coli O157:H7 str. K1927] &gt;gb|EZB81692.1| ompA [Escherichia coli O157:H7 str. K2188] &gt;gb|EZB87908.1| ompA [Escherichia coli O157:H7 str. K1921] &gt;gb|EZB95445.1| ompA [Escherichia coli O157:H7 str. K2324] &gt;gb|EZB96173.1| ompA [Escherichia coli O157:H7 str. K2191] &gt;gb|EZC10450.1| ompA [Escherichia coli O157:H7 str. K2192] &gt;gb|EZC15364.1| ompA [Escherichia coli O157:H7 str. K2581] &gt;gb|EZC19640.1| ompA [Escherichia coli O157:H7 str. K2622] &gt;gb|EZC20553.1| ompA [Escherichia coli O157:H7 str. K2845] &gt;gb|EZC28521.1| ompA [Escherichia coli O157:H7 str. K4405] &gt;gb|EZC30167.1| ompA [Escherichia coli O157:H7 str. K2854] &gt;gb|EZC37648.1| ompA [Escherichia coli O157:H7 str. K4396] &gt;gb|EZC43980.1| ompA [Escherichia coli O157:H7 str. K4406] &gt;gb|EZC48751.1| ompA [Escherichia coli O157:H7 str. K4527] &gt;gb|EZC62958.1| ompA [Escherichia coli O157:H7 str. K5418] &gt;gb|EZC64798.1| ompA [Escherichia coli O157:H7 str. K5453] &gt;gb|EZC70419.1| ompA [Escherichia coli O157:H7 str. K5448] &gt;gb|EZC77659.1| ompA [Escherichia coli O157:H7 str. K5449] &gt;gb|EZC83411.1| ompA [Escherichia coli O157:H7 str. K5460] &gt;gb|EZC86950.1| ompA [Escherichia coli O157:H7 str. K5607] &gt;gb|EZC90330.1| ompA [Escherichia coli O157:H7 str. K5467] &gt;gb|EZC92768.1| ompA [Escherichia coli O157:H7 str. K5602] &gt;gb|EZD00270.1| ompA [Escherichia coli O157:H7 str. K5609] &gt;gb|EZD08971.1| ompA [Escherichia coli O157:H7 str. K5852] &gt;gb|EZD15760.1| ompA [Escherichia coli O157:H7 str. K6676] &gt;gb|EZD16778.1| ompA [Escherichia coli O157:H7 str. K6590] &gt;gb|EZD19491.1| ompA [Escherichia coli O157:H7 str. K6687] &gt;gb|EZD75266.1| ompA [Escherichia coli O157:H7 str. K7140] &gt;gb|EZD85327.1| ompA [Escherichia coli O157:H7 str. 08-4529] &gt;gb|EZD90121.1| ompA [Escherichia coli O157:NM str. 08-4540] &gt;gb|EZE61418.1| ompA [Escherichia coli O157:H7 str. 2009C-4258] &gt;gb|EZE88803.1| ompA [Escherichia coli O157:H7 str. 2009EL1449] &gt;gb|EZE89446.1| ompA [Escherichia coli O157:H7 str. 2009EL1913] &gt;gb|EZE90570.1| ompA [Escherichia coli O145:NM str. 2010C-3508] &gt;gb|EZF05484.1| ompA [Escherichia coli O157:H7 str. 2011EL-2313] &gt;gb|EZF08563.1| ompA [Escherichia coli O157:H7 str. 2011EL-2290] &gt;gb|EZQ47391.1| ompA [Escherichia coli O157: str. 2010EL-2044] &gt;gb|EZQ50285.1| ompA [Escherichia coli O157: str. 2010EL-2045] &gt;gb|KDM81018.1| ompA [Escherichia coli O145:H28 str. 4865/96] &gt;gb|KEM49616.1| ompA family protein [Escherichia coli 6-175-07_S4_C3] &gt;gb|KEM85727.1| ompA family protein [Escherichia coli 6-537-08_S4_C1] &gt;gb|KEN65104.1| ompA family protein [Escherichia coli 6-537-08_S4_C2]</Hit_def>
+  <Hit_accession>AHG12154</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.927</Hsp_bit-score>
+      <Hsp_score>1073</Hsp_score>
+      <Hsp_evalue>6.1602e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_qseq>
+      <Hsp_hseq>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_hseq>
+      <Hsp_midline>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|EER6453657.1|</Hit_id>
+  <Hit_def>OmpA family protein [Escherichia coli] &gt;gb|EIN35238.1| hypothetical protein ECFRIK1990_5757 [Escherichia coli FRIK1990] &gt;gb|EIN65412.1| hypothetical protein ECPA10_5892 [Escherichia coli PA10] &gt;gb|EIN94459.1| hypothetical protein ECPA22_0078 [Escherichia coli PA22] &gt;gb|EIO49202.1| hypothetical protein ECPA42_0014 [Escherichia coli PA42] &gt;gb|EIO86816.1| hypothetical protein ECTW09195_5705 [Escherichia coli TW09195] &gt;gb|EIO87493.1| hypothetical protein ECEC4203_5669 [Escherichia coli EC4203] &gt;gb|EIP71554.1| hypothetical protein ECEC1734_0014 [Escherichia coli EC1734] &gt;gb|EKJ05390.1| hypothetical protein ECEC1850_0029 [Escherichia coli EC1850] &gt;gb|EKJ36497.1| hypothetical protein ECEC1870_5587 [Escherichia coli EC1870] &gt;gb|EKW05770.1| ompA family protein [Escherichia coli 90.0091] &gt;gb|EKW36042.1| ompA family protein [Escherichia coli 95.1288] &gt;gb|EKW68011.1| ompA family protein [Escherichia coli 97.0003] &gt;gb|EKW96654.1| hypothetical protein EC990678_0077 [Escherichia coli 99.0678] &gt;gb|ELV76552.1| ompA family protein [Escherichia coli PA19] &gt;gb|ELW23230.1| ompA family protein [Escherichia coli PA35] &gt;gb|ELW28315.1| ompA family protein [Escherichia coli 3.4880] &gt;gb|ERC15203.1| ompA family protein [Escherichia coli B29-1] &gt;gb|ERC53516.1| ompA family protein [Escherichia coli 08BKT055439] &gt;gb|ERD68375.1| ompA family protein [Escherichia coli B40-2] &gt;gb|ERE21795.1| ompA family protein [Escherichia coli 09BKT024447] &gt;gb|ERE45407.1| ompA family protein [Escherichia coli Tx3800] &gt;dbj|GHJ62148.1| hypothetical protein SE18013_07090 [Escherichia coli O157:H7]</Hit_def>
+  <Hit_accession>EER6453657</Hit_accession>
+  <Hit_len>202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.542</Hsp_bit-score>
+      <Hsp_score>1072</Hsp_score>
+      <Hsp_evalue>7.16421e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_qseq>
+      <Hsp_hseq>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_hseq>
+      <Hsp_midline>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_001356395.1|</Hit_id>
+  <Hit_def>type II Zorya anti-phage system protein ZorB2 [Escherichia coli] &gt;gb|EFW65235.1| hypothetical protein ECoD_02000 [Escherichia coli O157:H7 str. EC1212] &gt;gb|EGD69130.1| hypothetical protein ECF_01276 [Escherichia coli O157:H7 str. 1125] &gt;gb|EGD70492.1| hypothetical protein ECoA_01138 [Escherichia coli O157:H7 str. 1044] &gt;gb|EHV31797.1| ompA [Escherichia coli DEC5C] &gt;gb|EIO09672.1| hypothetical protein ECPA28_0013 [Escherichia coli PA28] &gt;gb|EIO29776.1| hypothetical protein ECPA41_5679 [Escherichia coli PA41] &gt;gb|EIO86307.1| hypothetical protein ECTW10119_0266 [Escherichia coli TW10119] &gt;gb|EIP50028.1| hypothetical protein ECEC4448_5626 [Escherichia coli EC4448] &gt;gb|EIP63578.1| hypothetical protein ECEC1738_0079 [Escherichia coli EC1738] &gt;gb|EKH07679.1| hypothetical protein ECPA7_0384 [Escherichia coli PA7] &gt;gb|EKI57139.1| hypothetical protein ECEC1736_5548 [Escherichia coli EC1736] &gt;gb|EKJ19823.1| hypothetical protein ECEC1864_0013 [Escherichia coli EC1864] &gt;gb|EKK36843.1| ompA family protein [Escherichia coli 5.2239] &gt;gb|EKK37976.1| hypothetical protein EC60172_0013 [Escherichia coli 6.0172] &gt;gb|EKW75841.1| ompA family protein [Escherichia coli 97.1742] &gt;gb|EKY34728.1| ompA family protein [Escherichia coli 97.0010] &gt;gb|ELV35521.1| ompA family protein [Escherichia coli 99.0848] &gt;gb|ELV47167.1| ompA family protein [Escherichia coli 99.1775] &gt;gb|ELV91641.1| ompA family protein [Escherichia coli PA47] &gt;gb|ERC00101.1| ompA family protein [Escherichia coli B26-2] &gt;gb|ERC07679.1| ompA family protein [Escherichia coli B28-2] &gt;gb|ERC10657.1| ompA family protein [Escherichia coli B36-1] &gt;gb|ERC30059.1| ompA family protein [Escherichia coli B7-2] &gt;gb|ERC40339.1| ompA family protein [Escherichia coli B94] &gt;gb|ERC91694.1| ompA family protein [Escherichia coli 14A] &gt;gb|ERD08318.1| ompA family protein [Escherichia coli B103] &gt;gb|ERD20745.1| ompA family protein [Escherichia coli B105] &gt;gb|ERD83186.1| ompA family protein [Escherichia coli B5-2] &gt;gb|EZJ72757.1| ompA family protein [Escherichia coli 1-182-04_S3_C3] &gt;gb|EZJ76224.1| ompA family protein [Escherichia coli 1-182-04_S3_C2] &gt;gb|KEL07345.1| ompA family protein [Escherichia coli 4-203-08_S3_C2]</Hit_def>
+  <Hit_accession>WP_001356395</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.157</Hsp_bit-score>
+      <Hsp_score>1071</Hsp_score>
+      <Hsp_evalue>8.64472e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_qseq>
+      <Hsp_hseq>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_hseq>
+      <Hsp_midline>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|EOO8356703.1|</Hit_id>
+  <Hit_def>type II Zorya anti-phage system protein ZorB2 [Escherichia coli]</Hit_def>
+  <Hit_accession>EOO8356703</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.157</Hsp_bit-score>
+      <Hsp_score>1071</Hsp_score>
+      <Hsp_evalue>9.14848e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_qseq>
+      <Hsp_hseq>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_hseq>
+      <Hsp_midline>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>tpg|HGU4494471.1|</Hit_id>
+  <Hit_def>type II Zorya anti-phage system protein ZorB2 [Escherichia coli]</Hit_def>
+  <Hit_accession>HGU4494471</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.157</Hsp_bit-score>
+      <Hsp_score>1071</Hsp_score>
+      <Hsp_evalue>9.84415e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_qseq>
+      <Hsp_hseq>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_hseq>
+      <Hsp_midline>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>tpg|HGU4675339.1|</Hit_id>
+  <Hit_def>type II Zorya anti-phage system protein ZorB2 [Escherichia coli]</Hit_def>
+  <Hit_accession>HGU4675339</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.542</Hsp_bit-score>
+      <Hsp_score>1072</Hsp_score>
+      <Hsp_evalue>1.02641e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_qseq>
+      <Hsp_hseq>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_hseq>
+      <Hsp_midline>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>tpg|HFO7363493.1|</Hit_id>
+  <Hit_def>type II Zorya anti-phage system protein ZorB2 [Escherichia coli] &gt;tpg|HFO8835359.1| type II Zorya anti-phage system protein ZorB2 [Escherichia coli] &gt;tpg|HGU2424299.1| type II Zorya anti-phage system protein ZorB2 [Escherichia coli]</Hit_def>
+  <Hit_accession>HFO7363493</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.927</Hsp_bit-score>
+      <Hsp_score>1073</Hsp_score>
+      <Hsp_evalue>1.04554e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_qseq>
+      <Hsp_hseq>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_hseq>
+      <Hsp_midline>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|AIG71771.1|</Hit_id>
+  <Hit_def>hypothetical protein EDL933_5632 [Escherichia coli O157:H7 str. EDL933] &gt;gb|ASL61760.1| ompA family protein [Escherichia coli] &gt;gb|EIP49007.1| hypothetical protein ECEC4437_5740 [Escherichia coli EC4437] &gt;gb|EKG95780.1| hypothetical protein ECFRIK920_5820 [Escherichia coli FRIK920] &gt;gb|EKK61088.1| ompA family protein [Escherichia coli 8.0586] &gt;gb|ELW21804.1| ompA family protein [Escherichia coli 7.1982] &gt;gb|ERB79214.1| ompA family protein [Escherichia coli B107] &gt;gb|ERB92027.1| ompA family protein [Escherichia coli B26-1] &gt;gb|ERC25308.1| ompA family protein [Escherichia coli B7-1] &gt;gb|ERD72596.1| ompA family protein [Escherichia coli B40-1] &gt;gb|ERD88426.1| ompA family protein [Escherichia coli B86] &gt;gb|EZJ86912.1| ompA family protein [Escherichia coli 1-250-04_S3_C1]</Hit_def>
+  <Hit_accession>AIG71771</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.157</Hsp_bit-score>
+      <Hsp_score>1071</Hsp_score>
+      <Hsp_evalue>1.08517e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_qseq>
+      <Hsp_hseq>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_hseq>
+      <Hsp_midline>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>tpg|HFO6261861.1|</Hit_id>
+  <Hit_def>type II Zorya anti-phage system protein ZorB2 [Escherichia coli]</Hit_def>
+  <Hit_accession>HFO6261861</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.542</Hsp_bit-score>
+      <Hsp_score>1072</Hsp_score>
+      <Hsp_evalue>1.29635e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_qseq>
+      <Hsp_hseq>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_hseq>
+      <Hsp_midline>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_150327720.1|</Hit_id>
+  <Hit_def>type II Zorya anti-phage system protein ZorB2, partial [Escherichia coli] &gt;gb|EIP7818611.1| OmpA family protein [Escherichia coli] &gt;tpg|HGU2524392.1| type II Zorya anti-phage system protein ZorB2 [Escherichia coli] &gt;tpg|HGU2568386.1| type II Zorya anti-phage system protein ZorB2 [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_150327720</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>416.772</Hsp_bit-score>
+      <Hsp_score>1070</Hsp_score>
+      <Hsp_evalue>1.32049e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_qseq>
+      <Hsp_hseq>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_hseq>
+      <Hsp_midline>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|EOM0952123.1|</Hit_id>
+  <Hit_def>type II Zorya anti-phage system protein ZorB2 [Escherichia coli] &gt;tpg|HGU2539730.1| type II Zorya anti-phage system protein ZorB2 [Escherichia coli]</Hit_def>
+  <Hit_accession>EOM0952123</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.542</Hsp_bit-score>
+      <Hsp_score>1072</Hsp_score>
+      <Hsp_evalue>1.39311e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_qseq>
+      <Hsp_hseq>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_hseq>
+      <Hsp_midline>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_341514575.1|</Hit_id>
+  <Hit_def>type II Zorya anti-phage system protein ZorB2 [Escherichia coli] &gt;gb|WZE84900.1| type II Zorya anti-phage system protein ZorB2 [Escherichia coli] &gt;tpg|HBN2017373.1| OmpA family protein [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_341514575</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.927</Hsp_bit-score>
+      <Hsp_score>1073</Hsp_score>
+      <Hsp_evalue>1.51474e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_qseq>
+      <Hsp_hseq>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_hseq>
+      <Hsp_midline>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_366995726.1|</Hit_id>
+  <Hit_def>type II Zorya anti-phage system protein ZorB2 [Escherichia coli] &gt;gb|MEW3189951.1| OmpA family protein [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_366995726</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.542</Hsp_bit-score>
+      <Hsp_score>1072</Hsp_score>
+      <Hsp_evalue>1.63362e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_qseq>
+      <Hsp_hseq>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_hseq>
+      <Hsp_midline>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_077745162.1|</Hit_id>
+  <Hit_def>type II Zorya anti-phage system protein ZorB2 [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_077745162</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.542</Hsp_bit-score>
+      <Hsp_score>1072</Hsp_score>
+      <Hsp_evalue>1.78893e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_qseq>
+      <Hsp_hseq>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_hseq>
+      <Hsp_midline>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|ENJ8290623.1|</Hit_id>
+  <Hit_def>OmpA family protein [Shigella flexneri]</Hit_def>
+  <Hit_accession>ENJ8290623</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.542</Hsp_bit-score>
+      <Hsp_score>1072</Hsp_score>
+      <Hsp_evalue>1.84542e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_qseq>
+      <Hsp_hseq>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_hseq>
+      <Hsp_midline>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_244442861.1|</Hit_id>
+  <Hit_def>type II Zorya anti-phage system protein ZorB2, partial [Escherichia coli] &gt;gb|EOM1108442.1| type II Zorya anti-phage system protein ZorB2 [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_244442861</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.542</Hsp_bit-score>
+      <Hsp_score>1072</Hsp_score>
+      <Hsp_evalue>2.02454e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_qseq>
+      <Hsp_hseq>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_hseq>
+      <Hsp_midline>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_394742455.1|</Hit_id>
+  <Hit_def>type II Zorya anti-phage system protein ZorB2 [Escherichia coli] &gt;gb|MBJ5207132.1| OmpA family protein [Salmonella enterica subsp. enterica serovar Indiana] &gt;gb|MCC1601161.1| OmpA family protein [Salmonella enterica subsp. enterica serovar Indiana]</Hit_def>
+  <Hit_accession>WP_394742455</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>417.542</Hsp_bit-score>
+      <Hsp_score>1072</Hsp_score>
+      <Hsp_evalue>2.05939e-146</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_qseq>
+      <Hsp_hseq>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_hseq>
+      <Hsp_midline>FISIAYMHYVRIEKEKIKEVAVAYENAQLQLYNALDIEFAKDLQDWDAEIDKQTLEVRFKSPDVLFGLGSTELKPKFKLILDDFFPRYLKVLDNYQEHITEVRIEGHTSTDWTGTTNPDIAYFNNMALSQGRTRAVLQYVYDIKNIATHQQWVKSKFAAVGYSSAHPILDKTGKEDPNRSRRVTFKVVTNAELQIRKIIQE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>878262366</Statistics_db-num>
+      <Statistics_db-len>334928218419</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

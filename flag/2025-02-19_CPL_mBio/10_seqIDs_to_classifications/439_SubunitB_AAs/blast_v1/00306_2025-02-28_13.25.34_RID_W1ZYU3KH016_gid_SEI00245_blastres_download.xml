@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_686631</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>133</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_686631</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>133</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_067777489.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Akkermansia glycaniphila] &gt;gb|MBT9449696.1| biopolymer transporter ExbD [Akkermansia glycaniphila] &gt;gb|OCA02417.1| hypothetical protein AC781_10365 [Akkermansia glycaniphila] &gt;emb|SEI00267.1| biopolymer transport protein exbd/tolr [Akkermansia glycaniphila]</Hit_def>
+  <Hit_accession>WP_067777489</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>260.766</Hsp_bit-score>
+      <Hsp_score>665</Hsp_score>
+      <Hsp_evalue>5.26786e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>141</Hsp_align-len>
+      <Hsp_qseq>MKFRARVPEPIGFQLAPMLDIVFLLLIFFVVT---SLYEPDLKV--PSAEQATETARHNPNEIIINVREDGTVTINREHFKDKDQLYAKLYNSALLDKDQTIRI---AKTEYQKMVDVLDACTKAGFWNVSFSTKRAVPAP</Hsp_qseq>
+      <Hsp_hseq>MKFRARVPEPIGFQLAPMLDIVFLLLIFFVVTQTFSLYEPDLKVKVPSAEQATETARHNPNEIIINVREDGTVTINREHFKDKDQLYAKLYNSALLDKDQTIRIRGDAKTEYQKMVDVLDACTKAGFWNVSFSTKRAVPAP</Hsp_hseq>
+      <Hsp_midline>MKFRARVPEPIGFQLAPMLDIVFLLLIFFVVT   SLYEPDLKV  PSAEQATETARHNPNEIIINVREDGTVTINREHFKDKDQLYAKLYNSALLDKDQTIRI   AKTEYQKMVDVLDACTKAGFWNVSFSTKRAVPAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|MEG0024287.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Akkermansia sp.] &gt;gb|MEG0333156.1| biopolymer transporter ExbD [Akkermansia sp.] &gt;gb|MEG0426554.1| biopolymer transporter ExbD [Akkermansia sp.] &gt;gb|MEG0586405.1| biopolymer transporter ExbD [Akkermansia sp.] &gt;gb|MEG0722886.1| biopolymer transporter ExbD [Akkermansia sp.]</Hit_def>
+  <Hit_accession>MEG0024287</Hit_accession>
+  <Hit_len>150</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.436</Hsp_bit-score>
+      <Hsp_score>363</Hsp_score>
+      <Hsp_evalue>6.11322e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>MKFRARVPEPIGFQLAPMLDIVFLLLIFFVVT---SLYEPDL--KVPSAEQATETARHNPNEIIINVREDGTVTINREHFKDKDQLYAKLYNSALLDKDQTIRI---AKTEYQKMVDVLDACTKAGFWNVSFSTKR</Hsp_qseq>
+      <Hsp_hseq>MKFRYSMPAPVGFQLAPMLDVVFLLLIFFVVTQTISLTEQDLKVKVPSAQQADKKDSRAINEIILNVRKDGKITINREVY-TKESLYPKLVTICKLAANQPVRIRGDAEAPYQHIIDVLDTCLKAGIWNISFSTRK</Hsp_hseq>
+      <Hsp_midline>MKFR  +P P+GFQLAPMLD+VFLLLIFFVVT   SL E DL  KVPSA+QA +      NEII+NVR+DG +TINRE +  K+ LY KL     L  +Q +RI   A+  YQ ++DVLD C KAG WN+SFST++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|MEG0142582.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Akkermansia sp.] &gt;gb|MEG0837134.1| biopolymer transporter ExbD [Akkermansia sp.] &gt;gb|MEG1071021.1| biopolymer transporter ExbD [Akkermansia sp.] &gt;gb|MEG1257626.1| biopolymer transporter ExbD [Akkermansia sp.] &gt;gb|MEG1260728.1| biopolymer transporter ExbD [Akkermansia sp.]</Hit_def>
+  <Hit_accession>MEG0142582</Hit_accession>
+  <Hit_len>150</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.436</Hsp_bit-score>
+      <Hsp_score>363</Hsp_score>
+      <Hsp_evalue>6.11322e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>MKFRARVPEPIGFQLAPMLDIVFLLLIFFVVT---SLYEPDL--KVPSAEQATETARHNPNEIIINVREDGTVTINREHFKDKDQLYAKLYNSALLDKDQTIRI---AKTEYQKMVDVLDACTKAGFWNVSFSTKR</Hsp_qseq>
+      <Hsp_hseq>MKFRYSMPAPVGFQLAPMLDVVFLLLIFFVVTQTISLTEQDLKVKVPSAQQADKKDSRAINEIILNVRKDGKITINREVY-TKESLYPKLVTICKLAANQPVRIRGDAEAPYQHIIDVLDTCLKAGIWNISFSTRK</Hsp_hseq>
+      <Hsp_midline>MKFR  +P P+GFQLAPMLD+VFLLLIFFVVT   SL E DL  KVPSA+QA +      NEII+NVR+DG +TINRE +  K+ LY KL     L  +Q +RI   A+  YQ ++DVLD C KAG WN+SFST++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_280127416.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ExbD/TolR family protein [unclassified Akkermansia] &gt;gb|MDH3069841.1| biopolymer transporter ExbD [Akkermansia sp. N21169] &gt;gb|WPX40350.1| biopolymer transporter ExbD [Akkermansia sp. N21116]</Hit_def>
+  <Hit_accession>WP_280127416</Hit_accession>
+  <Hit_len>150</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.739</Hsp_bit-score>
+      <Hsp_score>356</Hsp_score>
+      <Hsp_evalue>8.69485e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>MKFRARVPEPIGFQLAPMLDIVFLLLIFFVVT---SLYEPDL--KVPSAEQATETARHNPNEIIINVREDGTVTINREHFKDKDQLYAKLYNSALLDKDQTIRI---AKTEYQKMVDVLDACTKAGFWNVSFSTKR</Hsp_qseq>
+      <Hsp_hseq>MKFRYTMPAPVGFQLAPMLDIVFLLLIFFVVTQTISLTEQDLKVKVPSAEHAEKKDSRAINEIILNVHKDGRVTINRQVY-TLEQLYPKLVTIAKLAENQPVRIRGDAEAPYQHIVDVMDTCLKAGIWNMSFSTRK</Hsp_hseq>
+      <Hsp_midline>MKFR  +P P+GFQLAPMLDIVFLLLIFFVVT   SL E DL  KVPSAE A +      NEII+NV +DG VTINR+ +   +QLY KL   A L ++Q +RI   A+  YQ +VDV+D C KAG WN+SFST++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_102745594.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ExbD/TolR family protein [Akkermansia] &gt;gb|MBS6358203.1| biopolymer transporter ExbD [Akkermansia muciniphila] &gt;gb|MBT8793408.1| biopolymer transporter ExbD [Akkermansia muciniphila] &gt;gb|MDR3920915.1| biopolymer transporter ExbD [Akkermansia sp.] &gt;gb|PNC81312.1| biopolymer transporter ExbD [Akkermansia muciniphila] &gt;gb|PNC93082.1| biopolymer transporter ExbD [Akkermansia muciniphila]</Hit_def>
+  <Hit_accession>WP_102745594</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>133.65</Hsp_bit-score>
+      <Hsp_score>335</Hsp_score>
+      <Hsp_evalue>9.79883e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MKFRARVPEPIGFQLAPMLDIVFLLLIFFVVTSLY---EPDLKV--PSAEQATETARHNPNEIIINVREDGTVTINREHFKDKDQLYAKLYNSALLDKDQTIRI---AKTEYQKMVDVLDACTKAGFWNVSFSTKRAVPA</Hsp_qseq>
+      <Hsp_hseq>MKFHYKMPSPIGFQLAPMLDIVFLLLVFFIVTQTFEDDEPDLSINLPSAE-TPKPGENVSNEIIVNIRKDGTVVINRQHYT-MPQLEDKLFSVARLDKTMLVRIRVDEKAESGVVVHVMDACLKAGLNNVSFSTRPPVPS</Hsp_hseq>
+      <Hsp_midline>MKF  ++P PIGFQLAPMLDIVFLLL+FF+VT  +   EPDL +  PSAE   +   +  NEII+N+R+DGTV INR+H+    QL  KL++ A LDK   +RI    K E   +V V+DAC KAG  NVSFST+  VP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_012420279.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ExbD/TolR family protein [Akkermansia] &gt;gb|ACD05064.1| Biopolymer transport protein ExbD/TolR [Akkermansia muciniphila ATCC BAA-835] &gt;gb|ANU60286.1| hypothetical protein A4V05_01895 [Akkermansia muciniphila] &gt;gb|ASB35933.1| biopolymer transporter ExbD [Akkermansia muciniphila] &gt;gb|AYR29121.1| biopolymer transporter ExbD [Akkermansia muciniphila] &gt;gb|AYR31004.1| biopolymer transporter ExbD [Akkermansia muciniphila]</Hit_def>
+  <Hit_accession>WP_012420279</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.954</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>1.46818e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MKFRARVPEPIGFQLAPMLDIVFLLLIFFVVTSLY---EPDLKV--PSAEQATETARHNPNEIIINVREDGTVTINREHFKDKDQLYAKLYNSALLDKDQTIRI---AKTEYQKMVDVLDACTKAGFWNVSFSTKRAVPA</Hsp_qseq>
+      <Hsp_hseq>MKFHYKMPSPIGFQLAPMLDIVFLLLVFFIVTQTFEDDEPDLSINLPSAE-TPKPGENVSNEIIVNIRKDGTVVINRQQYT-MPQLEDKLFSVARLDKTMLVRIRVDEKAESGVVVHVMDACLKAGLNNVSFSTRPPVPS</Hsp_hseq>
+      <Hsp_midline>MKF  ++P PIGFQLAPMLDIVFLLL+FF+VT  +   EPDL +  PSAE   +   +  NEII+N+R+DGTV INR+ +    QL  KL++ A LDK   +RI    K E   +V V+DAC KAG  NVSFST+  VP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|MEM9080500.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Verrucomicrobiota bacterium]</Hit_def>
+  <Hit_accession>MEM9080500</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>3.41087e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>MKFRARVPEPIGFQLAPMLDIVFLLLIFFVVT---SLYEPDLK--VPSAEQATETARHNPNEIIINVREDGTVTINREHFKDKDQLYAKLYNSALLDKDQTIRI---AKTEYQKMVDVLDACTKAGFWNVSFSTKRA</Hsp_qseq>
+      <Hsp_hseq>MKFKKPTPEPAGFQLAPMIDIVFLLLIFFIVTWQFSRSELDLKVSVPSSTDSKERESRTFREIIINVREDGSAFVNGQQLSD-DALFKKLSAITRVERNQPIRVRGDASTDFQHVVRVMDICTRAGVWNISFATQRA</Hsp_hseq>
+      <Hsp_midline>MKF+   PEP GFQLAPM+DIVFLLLIFF+VT   S  E DLK  VPS+  + E       EIIINVREDG+  +N +   D D L+ KL     ++++Q IR+   A T++Q +V V+D CT+AG WN+SF+T+RA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_051729504.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Akkermansia muciniphila] &gt;gb|MCI9206303.1| biopolymer transporter ExbD [Akkermansia muciniphila] &gt;gb|MEF2612474.1| biopolymer transporter ExbD [Akkermansia muciniphila] &gt;gb|MFQ9730940.1| ExbD/TolR family protein [Akkermansia muciniphila] &gt;gb|QAA36664.1| biopolymer transporter ExbD [Akkermansia muciniphila] &gt;gb|QWO99721.1| biopolymer transporter ExbD [Akkermansia muciniphila]</Hit_def>
+  <Hit_accession>WP_051729504</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>3.75281e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MKFRARVPEPIGFQLAPMLDIVFLLLIFFVVTSLY---EPDLKV--PSAEQATETARHNPNEIIINVREDGTVTINREHFKDKDQLYAKLYNSALLDKDQTIRI---AKTEYQKMVDVLDACTKAGFWNVSFSTKRAVPA</Hsp_qseq>
+      <Hsp_hseq>MKFHYKMPSPIGFQLAPMLDIVFLLLVFFIVTQTFEDDEPDLSINLPSAE-SPKPGENVSNEIIVNIRKDGTVVINRQQYT-MPQLEDKLFSVARLDKTMLVRIRVDEKAESGVVVHVMDACLKAGLNNVSFSTRPPAPS</Hsp_hseq>
+      <Hsp_midline>MKF  ++P PIGFQLAPMLDIVFLLL+FF+VT  +   EPDL +  PSAE + +   +  NEII+N+R+DGTV INR+ +    QL  KL++ A LDK   +RI    K E   +V V+DAC KAG  NVSFST+   P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|MBR2145057.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Akkermansia sp.] &gt;gb|MBR6575813.1| biopolymer transporter ExbD [Akkermansia sp.]</Hit_def>
+  <Hit_accession>MBR2145057</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.028</Hsp_bit-score>
+      <Hsp_score>323</Hsp_score>
+      <Hsp_evalue>6.02819e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MKFRARVPEPIGFQLAPMLDIVFLLLIFFVVTS---LYEPDL--KVPSAEQATETARHNPNEIIINVRE---DGTVTINREHFKDKDQLYAKLYNSALLDKDQTIRI---AKTEYQKMVDVLDACTKAGFWNVSFSTK</Hsp_qseq>
+      <Hsp_hseq>MKFNTKIPEPIGFQLAPMLDVVFLLLIFFVVTQKFILNEQDLKVKVPTAPKSTEETSRAIDEIIINAREEDGDLVITIDREVFT-RDKLYAMLQRMIAVNPNQPVRIRGDAQMSWQRMADVISTCSQAGVWNVSFSKQ</Hsp_hseq>
+      <Hsp_midline>MKF  ++PEPIGFQLAPMLD+VFLLLIFFVVT    L E DL  KVP+A ++TE      +EIIIN RE   D  +TI+RE F  +D+LYA L     ++ +Q +RI   A+  +Q+M DV+  C++AG WNVSFS +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_102739986.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ExbD/TolR family protein [Akkermansia] &gt;gb|MBE5696291.1| biopolymer transporter ExbD [Akkermansia sp.] &gt;gb|MBP8717249.1| biopolymer transporter ExbD [Akkermansia sp.] &gt;gb|MCD8247279.1| biopolymer transporter ExbD [Akkermansia sp.] &gt;gb|MCI7762034.1| biopolymer transporter ExbD [Akkermansia muciniphila] &gt;gb|MCI9266970.1| biopolymer transporter ExbD [Akkermansia muciniphila]</Hit_def>
+  <Hit_accession>WP_102739986</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.028</Hsp_bit-score>
+      <Hsp_score>323</Hsp_score>
+      <Hsp_evalue>7.30165e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MKFRARVPEPIGFQLAPMLDIVFLLLIFFVVTSLY---EPDLKV--PSAEQATETARHNPNEIIINVREDGTVTINREHFKDKDQLYAKLYNSALLDKDQTIRI---AKTEYQKMVDVLDACTKAGFWNVSFSTKRAVPA</Hsp_qseq>
+      <Hsp_hseq>MKFHYKMPSPIGFQLAPMLDIVFLLLVFFIVTQTFEDDEPDLSINLPSAE-TPKPGENVSNEIIVNIRKDGTVVINRQQYT-MPQLEDKLFSVARLDKTMLVRIRVDEKAESGVVVHVMDACLKAGLNNVSFSTRPPAPS</Hsp_hseq>
+      <Hsp_midline>MKF  ++P PIGFQLAPMLDIVFLLL+FF+VT  +   EPDL +  PSAE   +   +  NEII+N+R+DGTV INR+ +    QL  KL++ A LDK   +RI    K E   +V V+DAC KAG  NVSFST+   P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|MBS1431272.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Akkermansia sp.]</Hit_def>
+  <Hit_accession>MBS1431272</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.642</Hsp_bit-score>
+      <Hsp_score>322</Hsp_score>
+      <Hsp_evalue>9.59141e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MKFRARVPEPIGFQLAPMLDIVFLLLIFFVVTSLY---EPDLKV--PSAEQATETARHNPNEIIINVREDGTVTINREHFKDKDQLYAKLYNSALLDKDQTIRI---AKTEYQKMVDVLDACTKAGFWNVSFSTKRAVPA</Hsp_qseq>
+      <Hsp_hseq>MKFHYKMPSPIGFQLAPMLDIVFLLLVFFIVTQTFEDDEPDLSINLPSAE-TPKPGENVSNEIIVNIRKDGTVVINRQQYT-MPQLEDKLFSVARLDKTMLVRIRVDEKAESGVVVHVMDACLKAGLNNVSFSTRPPAPS</Hsp_hseq>
+      <Hsp_midline>MKF  ++P PIGFQLAPMLDIVFLLL+FF+VT  +   EPDL +  PSAE   +   +  NEII+N+R+DGTV INR+ +    QL  KL++ A LDK   +RI    K E   +V V+DAC KAG  NVSFST+   P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|MCD7798966.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Akkermansiaceae bacterium] &gt;gb|MCD8069990.1| biopolymer transporter ExbD [Akkermansiaceae bacterium]</Hit_def>
+  <Hit_accession>MCD7798966</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.257</Hsp_bit-score>
+      <Hsp_score>321</Hsp_score>
+      <Hsp_evalue>1.29602e-34</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>VPEPIGFQLAPMLDIVFLLLIFFVVTS---LYEPDL--KVPSAEQATETARHNPNEIIINVREDG----TVTINREHFKDKDQLYAKLYNSALLDKDQTIRI---AKTEYQKMVDVLDACTKAGFWNVSFSTK--------RAVPAP</Hsp_qseq>
+      <Hsp_hseq>MPDPIGFQLAPMLDVVFLLLIFFVVTQKFMLNEQDLKVKVPSAPQSSEEASRAIDELIINVREDEQGGIVVTIDRERFS-LDQLESRLRNMARLNPSQPVRIRGDAEARWQKIVDVIARCNAAGVWNVSFSKKMPPDKAQETAAPAP</Hsp_hseq>
+      <Hsp_midline>+P+PIGFQLAPMLD+VFLLLIFFVVT    L E DL  KVPSA Q++E A    +E+IINVRED      VTI+RE F   DQL ++L N A L+  Q +RI   A+  +QK+VDV+  C  AG WNVSFS K         A PAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|MCC8020413.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Akkermansia sp.]</Hit_def>
+  <Hit_accession>MCC8020413</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.872</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>1.74004e-34</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>VPEPIGFQLAPMLDIVFLLLIFFVVTS---LYEPDL--KVPSAEQATETARHNPNEIIINVREDG----TVTINREHFKDKDQLYAKLYNSALLDKDQTIRI---AKTEYQKMVDVLDACTKAGFWNVSFSTK</Hsp_qseq>
+      <Hsp_hseq>MPDPIGFQLAPMLDVVFLLLIFFVVTQKFMLNEQDLKVKVPSAPQSSEEASRAIDELIINVREDEQGGIVVTIDRERFS-LDQLESRLRNMARLNPSQPVRIRGDAEARWQKIVDVIARCNAAGVWNVSFSKK</Hsp_hseq>
+      <Hsp_midline>+P+PIGFQLAPMLD+VFLLLIFFVVT    L E DL  KVPSA Q++E A    +E+IINVRED      VTI+RE F   DQL ++L N A L+  Q +RI   A+  +QK+VDV+  C  AG WNVSFS K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_300776573.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [uncultured Akkermansia sp.]</Hit_def>
+  <Hit_accession>WP_300776573</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.872</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>1.84575e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MKFRARVPEPIGFQLAPMLDIVFLLLIFFVVTSLY---EPDLKV--PSAEQATETARHNPNEIIINVREDGTVTINREHFKDKDQLYAKLYNSALLDKDQTIRI---AKTEYQKMVDVLDACTKAGFWNVSFSTKRAVPA</Hsp_qseq>
+      <Hsp_hseq>MKFHYKMPSPIGFQLAPMLDIVFLLLVFFIVTQTFEDDEPDLSINLPSAE-TPKPGENVSNEIIVNIRKDGTVVINRQPYT-MPQLEDKLFSVARLDKTMLVRIRVDEKAESGVVVHVMDACLKAGLNNVSFSTRPPTPS</Hsp_hseq>
+      <Hsp_midline>MKF  ++P PIGFQLAPMLDIVFLLL+FF+VT  +   EPDL +  PSAE   +   +  NEII+N+R+DGTV INR+ +    QL  KL++ A LDK   +RI    K E   +V V+DAC KAG  NVSFST+   P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_022197692.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ExbD/TolR family protein [Akkermansia] &gt;emb|CDB54663.1| biopolymer transport protein ExbD/TolR [Akkermansia muciniphila CAG:154] &gt;gb|AYR35131.1| biopolymer transporter ExbD [Akkermansia muciniphila] &gt;gb|KAA3319505.1| biopolymer transporter ExbD [Akkermansia muciniphila] &gt;gb|KAA3319889.1| biopolymer transporter ExbD [Akkermansia muciniphila] &gt;gb|KAA3320800.1| biopolymer transporter ExbD [Akkermansia muciniphila]</Hit_def>
+  <Hit_accession>WP_022197692</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.872</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>2.15032e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MKFRARVPEPIGFQLAPMLDIVFLLLIFFVVTSLY---EPDLKV--PSAEQATETARHNPNEIIINVREDGTVTINREHFKDKDQLYAKLYNSALLDKDQTIRI---AKTEYQKMVDVLDACTKAGFWNVSFSTKRAVPA</Hsp_qseq>
+      <Hsp_hseq>MKFHYKMPSPIGFQLAPMLDIVFLLLVFFIVTQTFEDDEPDLSINLPSAE-TPKPGENVSNEIIVNIRKDGTVVINRQPYT-MPQLEDKLFSVARLDKTMLVRIRVDEKAESGVVVHVMDACLKAGLNNVSFSTRPPAPS</Hsp_hseq>
+      <Hsp_midline>MKF  ++P PIGFQLAPMLDIVFLLL+FF+VT  +   EPDL +  PSAE   +   +  NEII+N+R+DGTV INR+ +    QL  KL++ A LDK   +RI    K E   +V V+DAC KAG  NVSFST+   P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_102737934.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ExbD/TolR family protein [Akkermansia] &gt;gb|MBD9263222.1| biopolymer transporter ExbD [Akkermansia muciniphila] &gt;gb|MBE5699699.1| biopolymer transporter ExbD [Akkermansia sp.] &gt;gb|MBT9593302.1| biopolymer transporter ExbD [Akkermansia muciniphila] &gt;gb|MDT4468787.1| biopolymer transporter ExbD [Akkermansia muciniphila] &gt;gb|MEQ2987680.1| biopolymer transporter ExbD [Akkermansia muciniphila]</Hit_def>
+  <Hit_accession>WP_102737934</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.872</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>2.37216e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MKFRARVPEPIGFQLAPMLDIVFLLLIFFVVTSLY---EPDLKV--PSAEQATETARHNPNEIIINVREDGTVTINREHFKDKDQLYAKLYNSALLDKDQTIRI---AKTEYQKMVDVLDACTKAGFWNVSFSTKRAVPA</Hsp_qseq>
+      <Hsp_hseq>MKFHYKMPSPIGFQLAPMLDIVFLLLVFFIVTQTFEDDEPDLSINLPSAE-TPKPGENVSNEIIVNIRKDGTVVINRQPYT-MPQLEDKLFSVARLDKTMLVRIRVDEKAESGVVVHVMDACLKAGLNNVSFSTRPPAPS</Hsp_hseq>
+      <Hsp_midline>MKF  ++P PIGFQLAPMLDIVFLLL+FF+VT  +   EPDL +  PSAE   +   +  NEII+N+R+DGTV INR+ +    QL  KL++ A LDK   +RI    K E   +V V+DAC KAG  NVSFST+   P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|MCC8093727.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Akkermansia sp.]</Hit_def>
+  <Hit_accession>MCC8093727</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.487</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>2.63903e-34</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>VPEPIGFQLAPMLDIVFLLLIFFVVTSLY---EPDLKV--PSAEQATETARHNPNEIIINVREDGTVTINREHFKDKDQLYAKLYNSALLDKDQTIRI---AKTEYQKMVDVLDACTKAGFWNVSFSTKRAVPA</Hsp_qseq>
+      <Hsp_hseq>MPSPIGFQLAPMLDIVFLLLVFFIVTQTFEDDEPDLSINLPSAE-TPKPGENVSNEIIVNIRKDGTVVINRQHYT-MPQLEDKLFSVARLDKTMLVRIRVDEKAESGVVVHVMDACLKAGLNNVSFSTRPPVPS</Hsp_hseq>
+      <Hsp_midline>+P PIGFQLAPMLDIVFLLL+FF+VT  +   EPDL +  PSAE   +   +  NEII+N+R+DGTV INR+H+    QL  KL++ A LDK   +RI    K E   +V V+DAC KAG  NVSFST+  VP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_215713618.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Akkermansia glycaniphila] &gt;gb|MBT9449695.1| biopolymer transporter ExbD [Akkermansia glycaniphila]</Hit_def>
+  <Hit_accession>WP_215713618</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.413</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>3.74073e-34</Hsp_evalue>
+      <Hsp_query-from>50</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>TARHNPNEIIINVREDGTVTINREHFKDKDQLYAKLYNSALLDKDQTIRI---AKTEYQKMVDVLDACTKAGFWNVSFSTKRAVPAP</Hsp_qseq>
+      <Hsp_hseq>SGRAEASEITLNVHEDGSVTIDGERFKDKDRLYAHLRERAMQDQDQTIRIRGEAKTEYQKMVDVLDACTKAGFWNVSFSTRKAVPAP</Hsp_hseq>
+      <Hsp_midline>+ R   +EI +NV EDG+VTI+ E FKDKD+LYA L   A+ D+DQTIRI   AKTEYQKMVDVLDACTKAGFWNVSFST++AVPAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_200312546.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Persicirhabdus sediminis] &gt;gb|MBK1792532.1| biopolymer transporter ExbD [Persicirhabdus sediminis]</Hit_def>
+  <Hit_accession>WP_200312546</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>3.88506e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MKFRARVPEPIGFQLAPMLDIVFLLLIFFVVTSLY-----EPDLKVPSAEQATETARHNPNEIIINVREDGTVTINREHFKDKDQLYAKLYNSALLDKDQTIRI---AKTEYQKMVDVLDACTKAGFWNVSFSTKRAVP</Hsp_qseq>
+      <Hsp_hseq>MKFQKREPEQAGFQLAPMIDVVFLLLIFFIVSWQFSQNERELNVDVPVAEEGAD-ATQTAGEITINLREDGVIIVDRREYT-REELYDRLGRIAAVEKNQAVRIRGDAKVEYQKVVELIDTCQKAGVWNVSFATSVKQP</Hsp_hseq>
+      <Hsp_midline>MKF+ R PE  GFQLAPM+D+VFLLLIFF+V+  +     E ++ VP AE+  + A     EI IN+REDG + ++R  +  +++LY +L   A ++K+Q +RI   AK EYQK+V+++D C KAG WNVSF+T    P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|MBQ3218362.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Akkermansia sp.] &gt;gb|MBQ7023155.1| biopolymer transporter ExbD [Akkermansia sp.]</Hit_def>
+  <Hit_accession>MBQ3218362</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.102</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>4.33185e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>MKFRARVPEPIGFQLAPMLDIVFLLLIFFVVTS---LYEPDL--KVPSAEQATETARHNPNEIIINVR--EDGT--VTINREHFKDKDQLYAKLYNSALLDKDQTIRI---AKTEYQKMVDVLDACTKAGFWNVSFSTK</Hsp_qseq>
+      <Hsp_hseq>MKINAKVPEPIGFQLAPMLDVVFLLLIFFVVTQKFILNEQDLKVKVPTAPKTTEEASRAIDEIIINAREEEDGTLVVTIDREIFT-LEQLEQRLRRQVRLNENQPVRIRGDAEMRWQKVADVISTCTKAGVYNVSFSKQ</Hsp_hseq>
+      <Hsp_midline>MK  A+VPEPIGFQLAPMLD+VFLLLIFFVVT    L E DL  KVP+A + TE A    +EIIIN R  EDGT  VTI+RE F   +QL  +L     L+++Q +RI   A+  +QK+ DV+  CTKAG +NVSFS +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>877781531</Statistics_db-num>
+      <Statistics_db-len>334720180573</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

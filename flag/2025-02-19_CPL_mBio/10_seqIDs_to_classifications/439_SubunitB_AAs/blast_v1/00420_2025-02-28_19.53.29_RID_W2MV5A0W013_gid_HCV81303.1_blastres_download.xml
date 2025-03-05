@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_4164435</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>159</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_4164435</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>159</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>tpg|HCV81303.1|</Hit_id>
+  <Hit_def>gliding motility protein GldM [Zunongwangia profunda]</Hit_def>
+  <Hit_accession>HCV81303</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>323.553</Hsp_bit-score>
+      <Hsp_score>828</Hsp_score>
+      <Hsp_evalue>4.27758e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNEKLEESNATTEQRNVAAMQGLKSKANEQAAKYAELAQKAETINQLSQNLDTYIQGVKNDLTSSLDDPQDYQAMDKTDILDEKFFKGGKISPEGQEFVAKINEYREGVINTLGEGFSTLN</Hsp_qseq>
+      <Hsp_hseq>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNEKLEESNATTEQRNVAAMQGLKSKANEQAAKYAELAQKAETINQLSQNLDTYIQGVKNDLTSSLDDPQDYQAMDKTDILDEKFFKGGKISPEGQEFVAKINEYREGVINTLGEGFSTLN</Hsp_hseq>
+      <Hsp_midline>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNEKLEESNATTEQRNVAAMQGLKSKANEQAAKYAELAQKAETINQLSQNLDTYIQGVKNDLTSSLDDPQDYQAMDKTDILDEKFFKGGKISPEGQEFVAKINEYREGVINTLGEGFSTLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_013073529.1|</Hit_id>
+  <Hit_def>gliding motility protein GldM [Zunongwangia profunda] &gt;gb|ADF54451.1| conserved hypothetical protein [Zunongwangia profunda SM-A87] &gt;gb|MAS70200.1| gliding motility protein GldM [Zunongwangia sp.]</Hit_def>
+  <Hit_accession>WP_013073529</Hit_accession>
+  <Hit_len>518</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>324.324</Hsp_bit-score>
+      <Hsp_score>830</Hsp_score>
+      <Hsp_evalue>2.56079e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNEKLEESNATTEQRNVAAMQGLKSKANEQAAKYAELAQKAETINQLSQNLDTYIQGVKNDLTSSLDDPQDYQAMDKTDILDEKFFKGGKISPEGQEFVAKINEYREGVINTLGEGFSTLN</Hsp_qseq>
+      <Hsp_hseq>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNEKLEESNATTEQRNVAAMQGLKSKANEQAAKYAELAQKAETINQLSQNLDTYIQGVKNDLTSSLDDPQDYQAMDKTDILDEKFFKGGKISPEGQEFVAKINEYREGVINTLGEGFSTLN</Hsp_hseq>
+      <Hsp_midline>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNEKLEESNATTEQRNVAAMQGLKSKANEQAAKYAELAQKAETINQLSQNLDTYIQGVKNDLTSSLDDPQDYQAMDKTDILDEKFFKGGKISPEGQEFVAKINEYREGVINTLGEGFSTLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|MAC65804.1|</Hit_id>
+  <Hit_def>gliding motility protein GldM [Flavobacteriaceae bacterium]</Hit_def>
+  <Hit_accession>MAC65804</Hit_accession>
+  <Hit_len>518</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>320.472</Hsp_bit-score>
+      <Hsp_score>820</Hsp_score>
+      <Hsp_evalue>7.74291e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNEKLEESNATTEQRNVAAMQGLKSKANEQAAKYAELAQKAETINQLSQNLDTYIQGVKNDLTSSLDDPQDYQAMDKTDILDEKFFKGGKISPEGQEFVAKINEYREGVINTLGEGFSTLN</Hsp_qseq>
+      <Hsp_hseq>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNEKLEESNATTEQRNVAAMQGLKSKANEQAAKYAELAQKAETINQLSQNLDTYIQGVKNDLTSSLDDPQDYQAMDKTDILDEKFFKGGKISPEGQEFVAKINEYREGVINTLGAGFSSLN</Hsp_hseq>
+      <Hsp_midline>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNEKLEESNATTEQRNVAAMQGLKSKANEQAAKYAELAQKAETINQLSQNLDTYIQGVKNDLTSSLDDPQDYQAMDKTDILDEKFFKGGKISPEGQEFVAKINEYREGVINTLG GFS+LN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_228249447.1|</Hit_id>
+  <Hit_def>MULTISPECIES: gliding motility protein GldM [Zunongwangia] &gt;gb|MCC4227086.1| gliding motility protein GldM [Zunongwangia profunda] &gt;gb|MEO2071109.1| gliding motility protein GldM [Zunongwangia sp.]</Hit_def>
+  <Hit_accession>WP_228249447</Hit_accession>
+  <Hit_len>518</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>320.472</Hsp_bit-score>
+      <Hsp_score>820</Hsp_score>
+      <Hsp_evalue>7.82742e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>157</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNEKLEESNATTEQRNVAAMQGLKSKANEQAAKYAELAQKAETINQLSQNLDTYIQGVKNDLTSSLDDPQDYQAMDKTDILDEKFFKGGKISPEGQEFVAKINEYREGVINTLGEGFSTLN</Hsp_qseq>
+      <Hsp_hseq>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNEKLEESNATTEQRNVAAMQGLKSKANEQAAKYAELAQKAETINQLSQNLDTYIQGVKNDLTSSLDDPQDYQAMDKTDILDEKFFKGGKISPEGQEFVAKINEYREGVINTLGAGFSSLN</Hsp_hseq>
+      <Hsp_midline>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNEKLEESNATTEQRNVAAMQGLKSKANEQAAKYAELAQKAETINQLSQNLDTYIQGVKNDLTSSLDDPQDYQAMDKTDILDEKFFKGGKISPEGQEFVAKINEYREGVINTLG GFS+LN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|MAO35388.1|</Hit_id>
+  <Hit_def>gliding motility protein GldM [Zunongwangia sp.]</Hit_def>
+  <Hit_accession>MAO35388</Hit_accession>
+  <Hit_len>518</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>316.235</Hsp_bit-score>
+      <Hsp_score>809</Hsp_score>
+      <Hsp_evalue>3.20378e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNEKLEESNATTEQRNVAAMQGLKSKANEQAAKYAELAQKAETINQLSQNLDTYIQGVKNDLTSSLDDPQDYQAMDKTDILDEKFFKGGKISPEGQEFVAKINEYREGVINTLGEGFSTL</Hsp_qseq>
+      <Hsp_hseq>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNEKXEESNATTEQRNVAAMQGLKSKANEQAAKYAELAQKAETINQLSQNLDTYIQGVKNDLTSSLDDPQDYQAMDKTDILDEKFFKGGKISPEGQEFVAKINEYREGVINTLGAGFSSL</Hsp_hseq>
+      <Hsp_midline>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNEK EESNATTEQRNVAAMQGLKSKANEQAAKYAELAQKAETINQLSQNLDTYIQGVKNDLTSSLDDPQDYQAMDKTDILDEKFFKGGKISPEGQEFVAKINEYREGVINTLG GFS+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_290234934.1|</Hit_id>
+  <Hit_def>gliding motility protein GldM [Zunongwangia endophytica] &gt;gb|MDN3595403.1| gliding motility protein GldM [Zunongwangia endophytica] &gt;gb|MFC4027118.1| gliding motility protein GldM [Zunongwangia endophytica]</Hit_def>
+  <Hit_accession>WP_290234934</Hit_accession>
+  <Hit_len>518</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.123</Hsp_bit-score>
+      <Hsp_score>749</Hsp_score>
+      <Hsp_evalue>3.46881e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNEKLEESNATTEQRNVAAMQGLKSKANEQAAKYAELAQKAETINQLSQNLDTYIQGVKNDLTSSLDDPQDYQAMDKTDILDEKFFKGGKISPEGQEFVAKINEYREGVINTLGEGFSTLN</Hsp_qseq>
+      <Hsp_hseq>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNEKLEQSNATTERRNASAMQGLQSKANEQAEKYAELAQKAETINQLSQNLDTYIEGVKNELTSDLDDPQDYQAMDKTDILDERFFTGGKVSPKGQEFVDKIKEYREGVINTLGEDYSALN</Hsp_hseq>
+      <Hsp_midline>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNEKLE+SNATTE+RN +AMQGL+SKANEQA KYAELAQKAETINQLSQNLDTYI+GVKN+LTS LDDPQDYQAMDKTDILDE+FF GGK+SP+GQEFV KI EYREGVINTLGE +S LN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_092540267.1|</Hit_id>
+  <Hit_def>gliding motility protein GldM [Zunongwangia mangrovi] &gt;emb|SFB88311.1| protein involved in gliding motility GldM [Zunongwangia mangrovi]</Hit_def>
+  <Hit_accession>WP_092540267</Hit_accession>
+  <Hit_len>519</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.352</Hsp_bit-score>
+      <Hsp_score>747</Hsp_score>
+      <Hsp_evalue>6.90163e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNEKLEESNATTEQRNVAAMQGLKSKANEQAAKYAELAQKAETINQLSQNLDTYIQGVKNDLTSSLDDPQDYQAMDKTDILDEKFFKGGKISPEGQEFVAKINEYREGVINTLGEGFSTLN</Hsp_qseq>
+      <Hsp_hseq>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNERLEESNATTEQRNVAAMQGLQTKANEQAEKYAELAQKAETINQLSQELDTYIAGVKNDLTGELDDPKDYQAMDKTDVLDEKFFKGGKISPEGQEFVDKINTYRESIINILGEEFSSLN</Hsp_hseq>
+      <Hsp_midline>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNE+LEESNATTEQRNVAAMQGL++KANEQA KYAELAQKAETINQLSQ LDTYI GVKNDLT  LDDP+DYQAMDKTD+LDEKFFKGGKISPEGQEFV KIN YRE +IN LGE FS+LN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_249601510.1|</Hit_id>
+  <Hit_def>gliding motility protein GldM [Zunongwangia pacifica] &gt;gb|MCL6218653.1| gliding motility protein GldM [Zunongwangia pacifica]</Hit_def>
+  <Hit_accession>WP_249601510</Hit_accession>
+  <Hit_len>518</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.352</Hsp_bit-score>
+      <Hsp_score>747</Hsp_score>
+      <Hsp_evalue>9.19175e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNEKLEESNATTEQRNVAAMQGLKSKANEQAAKYAELAQKAETINQLSQNLDTYIQGVKNDLTSSLDDPQDYQAMDKTDILDEKFFKGGKISPEGQEFVAKINEYREGVINTLGEGFSTLN</Hsp_qseq>
+      <Hsp_hseq>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNEKLEESNATTEQRNAAAMQGLKSKANEQAAKYAELAQKAETINQLSQDLDAYIAGVKNDLTAELDDPEDYQSMDKPDILDEKFFAGGKITPAGQEFVAKIDTYREGLINTLGEDFTSLN</Hsp_hseq>
+      <Hsp_midline>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNEKLEESNATTEQRN AAMQGLKSKANEQAAKYAELAQKAETINQLSQ+LD YI GVKNDLT+ LDDP+DYQ+MDK DILDEKFF GGKI+P GQEFVAKI+ YREG+INTLGE F++LN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_270063300.1|</Hit_id>
+  <Hit_def>gliding motility protein GldM [Zunongwangia sp. HRR-M8] &gt;gb|WBL22892.1| gliding motility protein GldM [Zunongwangia sp. HRR-M8]</Hit_def>
+  <Hit_accession>WP_270063300</Hit_accession>
+  <Hit_len>518</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>291.197</Hsp_bit-score>
+      <Hsp_score>744</Hsp_score>
+      <Hsp_evalue>2.33218e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNEKLEESNATTEQRNVAAMQGLKSKANEQAAKYAELAQKAETINQLSQNLDTYIQGVKNDLTSSLDDPQDYQAMDKTDILDEKFFKGGKISPEGQEFVAKINEYREGVINTLGEGFSTLN</Hsp_qseq>
+      <Hsp_hseq>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNEKLEQANATTEQRNASAMQGLQSKANEQAEKYAELAQKAETINQLSQNLDSYIEGVKSELTADLDDPQDYQAMDKTDILDERFFTGGKVSPRGQEFVDKINEYREGVINTLGEDYSALN</Hsp_hseq>
+      <Hsp_midline>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNEKLE++NATTEQRN +AMQGL+SKANEQA KYAELAQKAETINQLSQNLD+YI+GVK++LT+ LDDPQDYQAMDKTDILDE+FF GGK+SP GQEFV KINEYREGVINTLGE +S LN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_223091374.1|</Hit_id>
+  <Hit_def>gliding motility protein GldM [Zunongwangia sp. SCSIO 43204] &gt;gb|UAB85797.1| gliding motility protein GldM [Zunongwangia sp. SCSIO 43204]</Hit_def>
+  <Hit_accession>WP_223091374</Hit_accession>
+  <Hit_len>519</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>290.812</Hsp_bit-score>
+      <Hsp_score>743</Hsp_score>
+      <Hsp_evalue>3.14181e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNEKLEESNATTEQRNVAAMQGLKSKANEQAAKYAELAQKAETINQLSQNLDTYIQGVKNDLTSSLDDPQDYQAMDKTDILDEKFFKGGKISPEGQEFVAKINEYREGVINTLGEGFSTLN</Hsp_qseq>
+      <Hsp_hseq>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNERLEESNATTEQRNVAAMQGLQTKANEQAEKYAKLAQKAETINQLSQELDTYIAGVKNDLTGELDDPKDYQAMDKTDVLDEKFFKGGKISPEGQEFVDKINTYRESIINILGEEFSSLN</Hsp_hseq>
+      <Hsp_midline>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNE+LEESNATTEQRNVAAMQGL++KANEQA KYA+LAQKAETINQLSQ LDTYI GVKNDLT  LDDP+DYQAMDKTD+LDEKFFKGGKISPEGQEFV KIN YRE +IN LGE FS+LN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_270059274.1|</Hit_id>
+  <Hit_def>gliding motility protein GldM [Zunongwangia sp. HGR-M22] &gt;gb|WBL25199.1| gliding motility protein GldM [Zunongwangia sp. HGR-M22]</Hit_def>
+  <Hit_accession>WP_270059274</Hit_accession>
+  <Hit_len>518</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>290.812</Hsp_bit-score>
+      <Hsp_score>743</Hsp_score>
+      <Hsp_evalue>3.63516e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNEKLEESNATTEQRNVAAMQGLKSKANEQAAKYAELAQKAETINQLSQNLDTYIQGVKNDLTSSLDDPQDYQAMDKTDILDEKFFKGGKISPEGQEFVAKINEYREGVINTLGEGFSTLN</Hsp_qseq>
+      <Hsp_hseq>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNEKLEQANATTEQRNASAMQGLQSKANEQAEKYAELAQKAETINQLSQNLDSYIEGVKNELTADLDDPQDYQAMDKTDILDERFFTGGKVSPRGQEFVDKIKEYREGVINTLGEDYSALN</Hsp_hseq>
+      <Hsp_midline>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNEKLE++NATTEQRN +AMQGL+SKANEQA KYAELAQKAETINQLSQNLD+YI+GVKN+LT+ LDDPQDYQAMDKTDILDE+FF GGK+SP GQEFV KI EYREGVINTLGE +S LN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_084840404.1|</Hit_id>
+  <Hit_def>gliding motility protein GldM [Zunongwangia atlantica] &gt;gb|MFC6858141.1| gliding motility protein GldM [Zunongwangia atlantica 22II14-10F7] &gt;gb|ORL46667.1| hypothetical protein IIF7_04086 [Zunongwangia atlantica 22II14-10F7]</Hit_def>
+  <Hit_accession>WP_084840404</Hit_accession>
+  <Hit_len>519</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>290.426</Hsp_bit-score>
+      <Hsp_score>742</Hsp_score>
+      <Hsp_evalue>4.74047e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNEKLEESNATTEQRNVAAMQGLKSKANEQAAKYAELAQKAETINQLSQNLDTYIQGVKNDLTSSLDDPQDYQAMDKTDILDEKFFKGGKISPEGQEFVAKINEYREGVINTLGEGFSTLN</Hsp_qseq>
+      <Hsp_hseq>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNEKLEESNATTEQRNVAAMQGLQTKAGEQAEKYAQLAQKAETINQLSQELDTYIAGVKTDLTGELDDPQDYQAMDKPDVLDEKFFKGGKISPEGEEFVEKINTYREGIISTLGEDFSTLN</Hsp_hseq>
+      <Hsp_midline>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNEKLEESNATTEQRNVAAMQGL++KA EQA KYA+LAQKAETINQLSQ LDTYI GVK DLT  LDDPQDYQAMDK D+LDEKFFKGGKISPEG+EFV KIN YREG+I+TLGE FSTLN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>tpg|HSI68812.1|</Hit_id>
+  <Hit_def>gliding motility protein GldM [Gillisia sp.]</Hit_def>
+  <Hit_accession>HSI68812</Hit_accession>
+  <Hit_len>512</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.69</Hsp_bit-score>
+      <Hsp_score>535</Hsp_score>
+      <Hsp_evalue>3.0006e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNEKLEESNATTEQRNVAAMQGLKSKANEQAAKYAELAQKAETINQLSQNLDTYIQGVKNDLTSSLDDPQDYQAMDKTDILDEKFFKGGKISPEGQEFVAKINEYREGVINTLGEGFSTL</Hsp_qseq>
+      <Hsp_hseq>MASGKQSPRQKMINLMYLVFIAMLALNMSKEVLTAFGLLNEKLTESNQTTTQRNAAFMAGLDEKVSEQPEKYAPLKEKAEQIDQLSTNFNNYIEGLKTDLLAKQKDMQDYEAMDRADQLDEKFFVSGKNSPEGEEFLAQIRNYREGVATILGEEFSGI</Hsp_hseq>
+      <Hsp_midline>MASGKQSPRQKMINLMYLVFIAM+ALNMSKEVL AFG +NEKL ESN TT QRN A M GL  K +EQ  KYA L +KAE I+QLS N + YI+G+K DL +   D QDY+AMD+ D LDEKFF  GK SPEG+EF+A+I  YREGV   LGE FS +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_339663170.1|</Hit_id>
+  <Hit_def>gliding motility protein GldM [Croceibacter atlanticus]</Hit_def>
+  <Hit_accession>WP_339663170</Hit_accession>
+  <Hit_len>512</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.534</Hsp_bit-score>
+      <Hsp_score>532</Hsp_score>
+      <Hsp_evalue>8.73024e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNEKLEESNATTEQRNVAAMQGLKSKANEQAAKYAELAQKAETINQLSQNLDTYIQGVKNDLTSSLDDPQDYQAMDKTDILDEKFFKGGKISPEGQEFVAKINEYREGVINTLG</Hsp_qseq>
+      <Hsp_hseq>MASGKQTPRQKMINLMYLVFIAMLALNMSKEVLTAFGLMNEKLVEANADTTQRNQLAMAGLAEKASEQPAKYAPLKEQADQINALTEELVGYIDGVKNKLTAEMDDPTDYETMDKSNDLDELWYKGGKVTPEGQEFIDKMDTYRNGVVSVLG</Hsp_hseq>
+      <Hsp_midline>MASGKQ+PRQKMINLMYLVFIAM+ALNMSKEVL AFG MNEKL E+NA T QRN  AM GL  KA+EQ AKYA L ++A+ IN L++ L  YI GVKN LT+ +DDP DY+ MDK++ LDE ++KGGK++PEGQEF+ K++ YR GV++ LG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_283643171.1|</Hit_id>
+  <Hit_def>gliding motility protein GldM [Croceibacter atlanticus] &gt;gb|WSP34849.1| gliding motility protein GldM [Croceibacter atlanticus]</Hit_def>
+  <Hit_accession>WP_283643171</Hit_accession>
+  <Hit_len>512</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.534</Hsp_bit-score>
+      <Hsp_score>532</Hsp_score>
+      <Hsp_evalue>9.30787e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNEKLEESNATTEQRNVAAMQGLKSKANEQAAKYAELAQKAETINQLSQNLDTYIQGVKNDLTSSLDDPQDYQAMDKTDILDEKFFKGGKISPEGQEFVAKINEYREGVINTLG</Hsp_qseq>
+      <Hsp_hseq>MASGKQTPRQKMINLMYLVFIAMLALNMSKEVLTAFGLMNEKLVEANADTTQRNQLAMAGLAEKASEQPAKYAPLKEQADQINALTEELVGYIDGVKNKLTAEMDDPTDYETMDKSNDLDELWYKGGKVTPEGQEFIDKMDTYRNGVVSVLG</Hsp_hseq>
+      <Hsp_midline>MASGKQ+PRQKMINLMYLVFIAM+ALNMSKEVL AFG MNEKL E+NA T QRN  AM GL  KA+EQ AKYA L ++A+ IN L++ L  YI GVKN LT+ +DDP DY+ MDK++ LDE ++KGGK++PEGQEF+ K++ YR GV++ LG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_219360406.1|</Hit_id>
+  <Hit_def>gliding motility protein GldM [Croceibacter atlanticus] &gt;gb|MBW4971482.1| gliding motility protein GldM [Croceibacter atlanticus]</Hit_def>
+  <Hit_accession>WP_219360406</Hit_accession>
+  <Hit_len>512</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.764</Hsp_bit-score>
+      <Hsp_score>530</Hsp_score>
+      <Hsp_evalue>1.94441e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNEKLEESNATTEQRNVAAMQGLKSKANEQAAKYAELAQKAETINQLSQNLDTYIQGVKNDLTSSLDDPQDYQAMDKTDILDEKFFKGGKISPEGQEFVAKINEYREGVINTLG</Hsp_qseq>
+      <Hsp_hseq>MASGKQTPRQKMINLMYLVFIAMLALNMSKEVLTAFGLMNEKLVEANADTTQRNQLAMAGLAEKASEQPAKYAPLKEQADQINALTEELVGYIDGVKNKLTAEMDDPTDYETMDKSNDLDELWYKGGKVTPEGQEFIDKMDTYRNGVVSVIG</Hsp_hseq>
+      <Hsp_midline>MASGKQ+PRQKMINLMYLVFIAM+ALNMSKEVL AFG MNEKL E+NA T QRN  AM GL  KA+EQ AKYA L ++A+ IN L++ L  YI GVKN LT+ +DDP DY+ MDK++ LDE ++KGGK++PEGQEF+ K++ YR GV++ +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_013185917.1|</Hit_id>
+  <Hit_def>gliding motility protein GldM [Croceibacter atlanticus] &gt;gb|EAP87236.1| hypothetical protein CA2559_00735 [Croceibacter atlanticus HTCC2559] &gt;tpg|HAT69720.1| gliding motility protein GldM [Flavobacteriaceae bacterium]</Hit_def>
+  <Hit_accession>WP_013185917</Hit_accession>
+  <Hit_len>512</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.764</Hsp_bit-score>
+      <Hsp_score>530</Hsp_score>
+      <Hsp_evalue>2.23387e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNEKLEESNATTEQRNVAAMQGLKSKANEQAAKYAELAQKAETINQLSQNLDTYIQGVKNDLTSSLDDPQDYQAMDKTDILDEKFFKGGKISPEGQEFVAKINEYREGVINTLG</Hsp_qseq>
+      <Hsp_hseq>MASGKQTPRQKMINLMYLVFIAMLALNMSKEVLTAFGLMNEKLVEANADTTQRNQLAMAGLAEKASEQPAKYAPLKEQADQINALTEELVGYIDGVKNKLTAEMDDPTDYETMDKSNDLDELWYKGGKVTPEGQEFIDKMDTYRNGVVSVIG</Hsp_hseq>
+      <Hsp_midline>MASGKQ+PRQKMINLMYLVFIAM+ALNMSKEVL AFG MNEKL E+NA T QRN  AM GL  KA+EQ AKYA L ++A+ IN L++ L  YI GVKN LT+ +DDP DY+ MDK++ LDE ++KGGK++PEGQEF+ K++ YR GV++ +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_380743243.1|</Hit_id>
+  <Hit_def>gliding motility protein GldM [Salegentibacter chungangensis] &gt;gb|MFD1094941.1| gliding motility protein GldM [Salegentibacter chungangensis]</Hit_def>
+  <Hit_accession>WP_380743243</Hit_accession>
+  <Hit_len>518</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.764</Hsp_bit-score>
+      <Hsp_score>530</Hsp_score>
+      <Hsp_evalue>2.25912e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNEKLEESNATTEQRNVAAMQGLKSKANEQAAKYAELAQKAETINQLSQNLDTYIQGVKNDLTSSLDDPQDYQAMDKTDILDEKFFKGGKISPEGQEFVAKINEYREGVINTLGEGFSTL</Hsp_qseq>
+      <Hsp_hseq>MASGKQSARQKMINLMYLVFIAMMALNMSKEVLTAFGLMNEKLNASNITTEKRNTAAMAGLEAKAEEQPAKYADLKQKAEQVHQASQKLDAYIAGIKDELLADVDDPKEYEAMDKSNELDNMFFQSGRIGPAGEEFVNAIDSYRNTIVQVIGDRYSNI</Hsp_hseq>
+      <Hsp_midline>MASGKQS RQKMINLMYLVFIAMMALNMSKEVL AFG MNEKL  SN TTE+RN AAM GL++KA EQ AKYA+L QKAE ++Q SQ LD YI G+K++L + +DDP++Y+AMDK++ LD  FF+ G+I P G+EFV  I+ YR  ++  +G+ +S +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_272973299.1|</Hit_id>
+  <Hit_def>MULTISPECIES: gliding motility protein GldM [Croceibacter] &gt;gb|MBG25737.1| gliding motility protein GldM [Croceibacter sp.]</Hit_def>
+  <Hit_accession>WP_272973299</Hit_accession>
+  <Hit_len>512</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.379</Hsp_bit-score>
+      <Hsp_score>529</Hsp_score>
+      <Hsp_evalue>2.43302e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNEKLEESNATTEQRNVAAMQGLKSKANEQAAKYAELAQKAETINQLSQNLDTYIQGVKNDLTSSLDDPQDYQAMDKTDILDEKFFKGGKISPEGQEFVAKINEYREGVINTLG</Hsp_qseq>
+      <Hsp_hseq>MASGKQTPRQKMINLMYLVFIAMLALNMSKEVLTAFGLMNEKLVEANADTTQRNQLAMAGLAEKASEQPAKYAPLKEQADQINALTEELVGYIDGVKNKLTAEMDDPTDYETMDKSNDLDELWYKGGKVTPEGQEFIDKMDTYRNGVVSVIG</Hsp_hseq>
+      <Hsp_midline>MASGKQ+PRQKMINLMYLVFIAM+ALNMSKEVL AFG MNEKL E+NA T QRN  AM GL  KA+EQ AKYA L ++A+ IN L++ L  YI GVKN LT+ +DDP DY+ MDK++ LDE ++KGGK++PEGQEF+ K++ YR GV++ +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_037317245.1|</Hit_id>
+  <Hit_def>gliding motility protein GldM [Salegentibacter sp. Hel_I_6]</Hit_def>
+  <Hit_accession>WP_037317245</Hit_accession>
+  <Hit_len>518</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>205.297</Hsp_bit-score>
+      <Hsp_score>521</Hsp_score>
+      <Hsp_evalue>4.02033e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>MASGKQSPRQKMINLMYLVFIAMMALNMSKEVLVAFGSMNEKLEESNATTEQRNVAAMQGLKSKANEQAAKYAELAQKAETINQLSQNLDTYIQGVKNDLTSSLDDPQDYQAMDKTDILDEKFFKGGKISPEGQEFVAKINEYREGVINTLGEGFSTL</Hsp_qseq>
+      <Hsp_hseq>MASGKQTPRQKMINLMYLVFIAMMALNMSKEVLTAFGLMNEKLAASNISTEARNDAAMAGLASKAEEQPEKYVSLKEKAEQIDQLSSNLDEYITGLKNDLMADVEDAENYESMDRSDKLDNMFFASGRISPKGQEFLDAIATYREGVTQVIGDEYPQI</Hsp_hseq>
+      <Hsp_midline>MASGKQ+PRQKMINLMYLVFIAMMALNMSKEVL AFG MNEKL  SN +TE RN AAM GL SKA EQ  KY  L +KAE I+QLS NLD YI G+KNDL + ++D ++Y++MD++D LD  FF  G+ISP+GQEF+  I  YREGV   +G+ +  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>878262366</Statistics_db-num>
+      <Statistics_db-len>334928218419</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

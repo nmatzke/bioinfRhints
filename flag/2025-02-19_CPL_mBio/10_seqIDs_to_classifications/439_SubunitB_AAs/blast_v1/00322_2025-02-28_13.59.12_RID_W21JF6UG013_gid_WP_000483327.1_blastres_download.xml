@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_5450413</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>245</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_5450413</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>245</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_000483327.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type I Zorya anti-phage system protein ZorB1 [Escherichia] &gt;gb|EFN6912966.1| hypothetical protein [Escherichia coli O10] &gt;gb|EFB2839770.1| hypothetical protein [Escherichia coli] &gt;gb|EFB3349993.1| OmpA family protein [Escherichia coli] &gt;gb|EFC0651883.1| hypothetical protein [Escherichia coli] &gt;gb|EFD1054564.1| hypothetical protein [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_000483327</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>508.064</Hsp_bit-score>
+      <Hsp_score>1307</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>245</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKKRDESMDVVPGISQETCQLGAMQ</Hsp_qseq>
+      <Hsp_hseq>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKKRDESMDVVPGISQETCQLGAMQ</Hsp_hseq>
+      <Hsp_midline>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKKRDESMDVVPGISQETCQLGAMQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|EFD5002855.1|</Hit_id>
+  <Hit_def>OmpA family protein [Escherichia coli]</Hit_def>
+  <Hit_accession>EFD5002855</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>506.523</Hsp_bit-score>
+      <Hsp_score>1303</Hsp_score>
+      <Hsp_evalue>1.09705e-180</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>244</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKKRDESMDVVPGISQETCQLGAMQ</Hsp_qseq>
+      <Hsp_hseq>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLKAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKKRDESMDVVPGISQETCQLGAMQ</Hsp_hseq>
+      <Hsp_midline>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVL+AANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKKRDESMDVVPGISQETCQLGAMQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_064530509.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type I Zorya anti-phage system protein ZorB1 [Escherichia] &gt;gb|EFN7883017.1| hypothetical protein [Escherichia coli] &gt;gb|MBD7975132.1| OmpA family protein [Escherichia whittamii] &gt;gb|MCA4890934.1| OmpA family protein [Escherichia whittamii] &gt;gb|MEB7937717.1| OmpA family protein [Escherichia whittamii] &gt;gb|MEC9497079.1| type I Zorya anti-phage system protein ZorB1 [Escherichia whittamii]</Hit_def>
+  <Hit_accession>WP_064530509</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>506.138</Hsp_bit-score>
+      <Hsp_score>1302</Hsp_score>
+      <Hsp_evalue>1.73928e-180</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>244</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKKRDESMDVVPGISQETCQLGAMQ</Hsp_qseq>
+      <Hsp_hseq>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKKHDESMDVVPGISQETCQLGAMQ</Hsp_hseq>
+      <Hsp_midline>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKK DESMDVVPGISQETCQLGAMQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_333664476.1|</Hit_id>
+  <Hit_def>type I Zorya anti-phage system protein ZorB1 [uncultured Escherichia sp.]</Hit_def>
+  <Hit_accession>WP_333664476</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>504.597</Hsp_bit-score>
+      <Hsp_score>1298</Hsp_score>
+      <Hsp_evalue>5.09767e-180</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>244</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKKRDESMDVVPGISQETCQLGAMQ</Hsp_qseq>
+      <Hsp_hseq>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEELQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKKRDESMDVVPGISQETCQLGAMQ</Hsp_hseq>
+      <Hsp_midline>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAE LQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKKRDESMDVVPGISQETCQLGAMQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_000483325.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type I Zorya anti-phage system protein ZorB1 [Escherichia] &gt;gb|EFB2831464.1| hypothetical protein [Escherichia coli] &gt;gb|EFC1525474.1| hypothetical protein [Escherichia coli] &gt;gb|EFC9526030.1| hypothetical protein [Escherichia coli] &gt;gb|EFE0632979.1| OmpA family protein [Escherichia coli] &gt;gb|EFK3892913.1| OmpA family protein [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_000483325</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>504.212</Hsp_bit-score>
+      <Hsp_score>1297</Hsp_score>
+      <Hsp_evalue>8.69408e-180</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>243</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKKRDESMDVVPGISQETCQLGAM</Hsp_qseq>
+      <Hsp_hseq>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKKHDESMDVVPGISQETCQLGAM</Hsp_hseq>
+      <Hsp_midline>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKK DESMDVVPGISQETCQLGAM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_000483326.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type I Zorya anti-phage system protein ZorB1 [Escherichia] &gt;gb|AUT27578.1| hypothetical protein C1192_11025 [Escherichia marmotae] &gt;gb|EOV44197.1| hypothetical protein A1SC_04055 [Escherichia sp. KTE52] &gt;gb|EOW68210.1| hypothetical protein A31E_00316 [Escherichia sp. KTE159] &gt;gb|KAF3714116.1| hypothetical protein FM737_000906 [Escherichia marmotae] &gt;gb|MBA7740470.1| OmpA family protein [Escherichia marmotae]</Hit_def>
+  <Hit_accession>WP_000483326</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>503.827</Hsp_bit-score>
+      <Hsp_score>1296</Hsp_score>
+      <Hsp_evalue>1.05167e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>243</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKKRDESMDVVPGISQETCQLGAMQ</Hsp_qseq>
+      <Hsp_hseq>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKKHDESMDVVPGISQETCQLGIMQ</Hsp_hseq>
+      <Hsp_midline>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKK DESMDVVPGISQETCQLG MQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_335275956.1|</Hit_id>
+  <Hit_def>type I Zorya anti-phage system protein ZorB1 [Escherichia marmotae] &gt;gb|MED9196206.1| type I Zorya anti-phage system protein ZorB1 [Escherichia marmotae]</Hit_def>
+  <Hit_accession>WP_335275956</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>503.442</Hsp_bit-score>
+      <Hsp_score>1295</Hsp_score>
+      <Hsp_evalue>1.80044e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>242</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKKRDESMDVVPGISQETCQLGAMQ</Hsp_qseq>
+      <Hsp_hseq>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQIQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKKHDESMDVVPGISQETCQLGIMQ</Hsp_hseq>
+      <Hsp_midline>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQ+QIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKK DESMDVVPGISQETCQLG MQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|MED0060877.1|</Hit_id>
+  <Hit_def>type I Zorya anti-phage system protein ZorB1 [Escherichia marmotae]</Hit_def>
+  <Hit_accession>MED0060877</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>503.056</Hsp_bit-score>
+      <Hsp_score>1294</Hsp_score>
+      <Hsp_evalue>2.73186e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>243</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKKRDESMDVVPGISQETCQLGAMQ</Hsp_qseq>
+      <Hsp_hseq>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKKLDESMDVVPGISQETCQLGIMQ</Hsp_hseq>
+      <Hsp_midline>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKK DESMDVVPGISQETCQLG MQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|MEC9641037.1|</Hit_id>
+  <Hit_def>type I Zorya anti-phage system protein ZorB1 [Escherichia marmotae] &gt;gb|MEC9837259.1| type I Zorya anti-phage system protein ZorB1 [Escherichia marmotae] &gt;gb|MEC9846045.1| type I Zorya anti-phage system protein ZorB1 [Escherichia marmotae] &gt;gb|MEC9936790.1| type I Zorya anti-phage system protein ZorB1 [Escherichia marmotae] &gt;gb|MED9242697.1| type I Zorya anti-phage system protein ZorB1 [Escherichia marmotae]</Hit_def>
+  <Hit_accession>MEC9641037</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>502.671</Hsp_bit-score>
+      <Hsp_score>1293</Hsp_score>
+      <Hsp_evalue>3.25613e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>242</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKKRDESMDVVPGISQETCQLGAMQ</Hsp_qseq>
+      <Hsp_hseq>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGAYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKKHDESMDVVPGISQETCQLGIMQ</Hsp_hseq>
+      <Hsp_midline>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDG+YLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKK DESMDVVPGISQETCQLG MQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_001515827.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type I Zorya anti-phage system protein ZorB1 [Escherichia] &gt;gb|ELC22341.1| hypothetical protein WCO_00136 [Escherichia sp. KTE11] &gt;gb|EOV91298.1| hypothetical protein A1WG_02845 [Escherichia sp. KTE96] &gt;gb|MBB2410695.1| OmpA family protein [Escherichia sp. 14.0985] &gt;gb|MBB2429053.1| OmpA family protein [Escherichia sp. 12.2612] &gt;gb|MBB2452482.1| OmpA family protein [Escherichia sp. 8.2195]</Hit_def>
+  <Hit_accession>WP_001515827</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>502.671</Hsp_bit-score>
+      <Hsp_score>1293</Hsp_score>
+      <Hsp_evalue>3.47771e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>242</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKKRDESMDVVPGISQETCQLGAMQ</Hsp_qseq>
+      <Hsp_hseq>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGERSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKKHDESMDVVPGISQETCQLGIMQ</Hsp_hseq>
+      <Hsp_midline>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGE+SRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKK DESMDVVPGISQETCQLG MQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_130209798.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type I Zorya anti-phage system protein ZorB1 [unclassified Escherichia] &gt;gb|RZN17985.1| hypothetical protein D9734_19395 [Escherichia sp. E14S1] &gt;gb|TBR67471.1| hypothetical protein D9737_10055 [Escherichia sp. E10V4] &gt;gb|TGB90997.1| hypothetical protein CRG94_19235 [Escherichia sp. E3356] &gt;gb|TGC01080.1| hypothetical protein CRG92_07575 [Escherichia sp. E2586] &gt;gb|TGC26042.1| hypothetical protein CQJ27_10275 [Escherichia sp. E1130]</Hit_def>
+  <Hit_accession>WP_130209798</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>502.671</Hsp_bit-score>
+      <Hsp_score>1293</Hsp_score>
+      <Hsp_evalue>4.05515e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>243</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKKRDESMDVVPGISQETCQLGAMQ</Hsp_qseq>
+      <Hsp_hseq>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITSEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKKHDESMDVVPGISQETCQLGAMQ</Hsp_hseq>
+      <Hsp_midline>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKIT EQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKK DESMDVVPGISQETCQLGAMQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_181474970.1|</Hit_id>
+  <Hit_def>type I Zorya anti-phage system protein ZorB1 [Escherichia marmotae] &gt;gb|QLV01235.1| OmpA family protein [Escherichia marmotae]</Hit_def>
+  <Hit_accession>WP_181474970</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>502.671</Hsp_bit-score>
+      <Hsp_score>1293</Hsp_score>
+      <Hsp_evalue>4.09989e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>242</Hsp_identity>
+      <Hsp_positive>242</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKKRDESMDVVPGISQETCQLGAMQ</Hsp_qseq>
+      <Hsp_hseq>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQVLQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKKHDESMDVVPGISQETCQLGIMQ</Hsp_hseq>
+      <Hsp_midline>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQ LQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKK DESMDVVPGISQETCQLG MQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_105276544.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type I Zorya anti-phage system protein ZorB1 [Escherichia] &gt;gb|MED9014072.1| type I Zorya anti-phage system protein ZorB1 [Escherichia marmotae] &gt;gb|MED9637416.1| type I Zorya anti-phage system protein ZorB1 [Escherichia marmotae]</Hit_def>
+  <Hit_accession>WP_105276544</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>502.286</Hsp_bit-score>
+      <Hsp_score>1292</Hsp_score>
+      <Hsp_evalue>4.28384e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>242</Hsp_identity>
+      <Hsp_positive>242</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKKRDESMDVVPGISQETCQLGAMQ</Hsp_qseq>
+      <Hsp_hseq>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEATNSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKKHDESMDVVPGISQETCQLGIMQ</Hsp_hseq>
+      <Hsp_midline>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEA NSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKK DESMDVVPGISQETCQLG MQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|MEC9588098.1|</Hit_id>
+  <Hit_def>type I Zorya anti-phage system protein ZorB1 [Escherichia marmotae]</Hit_def>
+  <Hit_accession>MEC9588098</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>502.286</Hsp_bit-score>
+      <Hsp_score>1292</Hsp_score>
+      <Hsp_evalue>5.45341e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>242</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKKRDESMDVVPGISQETCQLGAMQ</Hsp_qseq>
+      <Hsp_hseq>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPKQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKKHDESMDVVPGISQETCQLGIMQ</Hsp_hseq>
+      <Hsp_midline>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITP+QQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKK DESMDVVPGISQETCQLG MQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_187222606.1|</Hit_id>
+  <Hit_def>type I Zorya anti-phage system protein ZorB1 [Escherichia marmotae] &gt;gb|MDQ9324263.1| OmpA family protein [Escherichia marmotae] &gt;gb|MEC9572246.1| type I Zorya anti-phage system protein ZorB1 [Escherichia marmotae] &gt;gb|MEC9747306.1| type I Zorya anti-phage system protein ZorB1 [Escherichia marmotae] &gt;gb|MEC9905788.1| type I Zorya anti-phage system protein ZorB1 [Escherichia marmotae] &gt;gb|MED9675089.1| type I Zorya anti-phage system protein ZorB1 [Escherichia marmotae]</Hit_def>
+  <Hit_accession>WP_187222606</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>501.516</Hsp_bit-score>
+      <Hsp_score>1290</Hsp_score>
+      <Hsp_evalue>9.54318e-179</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKKRDESMDVVPGISQETCQLGAMQ</Hsp_qseq>
+      <Hsp_hseq>MFNRVFNGKQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGERSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKKHDESMDVVPGISQETCQLGIMQ</Hsp_hseq>
+      <Hsp_midline>MFNRVFNG+QRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGE+SRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKK DESMDVVPGISQETCQLG MQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_176242049.1|</Hit_id>
+  <Hit_def>type I Zorya anti-phage system protein ZorB1 [Escherichia sp. 93.0816] &gt;gb|EFB2826946.1| hypothetical protein [Escherichia coli] &gt;gb|EFB2829607.1| hypothetical protein [Escherichia coli] &gt;gb|MBB2333278.1| OmpA family protein [Escherichia sp. 93.0816]</Hit_def>
+  <Hit_accession>WP_176242049</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>501.516</Hsp_bit-score>
+      <Hsp_score>1290</Hsp_score>
+      <Hsp_evalue>1.13318e-178</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>242</Hsp_identity>
+      <Hsp_positive>242</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKKRDESMDVVPGISQETCQLGAM</Hsp_qseq>
+      <Hsp_hseq>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKKHDESMDVVPGISPETCQLGAM</Hsp_hseq>
+      <Hsp_midline>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKK DESMDVVPGIS ETCQLGAM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|EFH7123340.1|</Hit_id>
+  <Hit_def>OmpA family protein [Escherichia coli]</Hit_def>
+  <Hit_accession>EFH7123340</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>501.13</Hsp_bit-score>
+      <Hsp_score>1289</Hsp_score>
+      <Hsp_evalue>1.44256e-178</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>242</Hsp_identity>
+      <Hsp_positive>242</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKKRDESMDVVPGISQETCQLGAM</Hsp_qseq>
+      <Hsp_hseq>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSREHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKKHDESMDVVPGISQETCQLGAM</Hsp_hseq>
+      <Hsp_midline>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSR HDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKK DESMDVVPGISQETCQLGAM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_228937189.1|</Hit_id>
+  <Hit_def>type I Zorya anti-phage system protein ZorB1 [Escherichia marmotae] &gt;gb|MEC9695558.1| type I Zorya anti-phage system protein ZorB1 [Escherichia marmotae] &gt;gb|MEC9798544.1| type I Zorya anti-phage system protein ZorB1 [Escherichia marmotae] &gt;gb|MEC9884122.1| type I Zorya anti-phage system protein ZorB1 [Escherichia marmotae] &gt;gb|MED9304298.1| type I Zorya anti-phage system protein ZorB1 [Escherichia marmotae] &gt;gb|MED9382545.1| type I Zorya anti-phage system protein ZorB1 [Escherichia marmotae]</Hit_def>
+  <Hit_accession>WP_228937189</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>500.745</Hsp_bit-score>
+      <Hsp_score>1288</Hsp_score>
+      <Hsp_evalue>1.99049e-178</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKKRDESMDVVPGISQETCQLGAMQ</Hsp_qseq>
+      <Hsp_hseq>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLLVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDNRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKKHDESMDVVPGISQETCQLGIMQ</Hsp_hseq>
+      <Hsp_midline>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFL+VMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLD+RSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKK DESMDVVPGISQETCQLG MQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_105283237.1|</Hit_id>
+  <Hit_def>type I Zorya anti-phage system protein ZorB1 [Escherichia sp. MOD1-EC6153]</Hit_def>
+  <Hit_accession>WP_105283237</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>499.975</Hsp_bit-score>
+      <Hsp_score>1286</Hsp_score>
+      <Hsp_evalue>4.01726e-178</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>242</Hsp_identity>
+      <Hsp_positive>242</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKKRDESMDVVPGISQETCQLGAMQ</Hsp_qseq>
+      <Hsp_hseq>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQCSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKKHDESMDVVPGISQETCQLGIMQ</Hsp_hseq>
+      <Hsp_midline>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQ SEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKK DESMDVVPGISQETCQLG MQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|MED9720126.1|</Hit_id>
+  <Hit_def>type I Zorya anti-phage system protein ZorB1 [Escherichia marmotae]</Hit_def>
+  <Hit_accession>MED9720126</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>499.975</Hsp_bit-score>
+      <Hsp_score>1286</Hsp_score>
+      <Hsp_evalue>4.1975e-178</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>242</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVPLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQVQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKKRDESMDVVPGISQETCQLGAMQ</Hsp_qseq>
+      <Hsp_hseq>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVVSLVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQIQIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKKHDESMDVVPGISQETCQLGIMQ</Hsp_hseq>
+      <Hsp_midline>MFNRVFNGRQRRSDEAEKPFWISYADLMTAMMVLFLVVMVASLSSVTQRIQQAEAGEKSRGHDIARLCEKLELQAKNLNKTIQVDCHDNRISFGEAGRFEHNRFALNAEGLQALQDVV LVLEAANSDEGKKWFKQIVIEGFTDTDGSYLYNLHLSLQRSEWVMCSLLDSRSALQQKITPEQQ+QIRKLFLAGGVSFNNAKESKEASRRVELRMQFFGLKDKK DESMDVVPGISQETCQLG MQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>877781531</Statistics_db-num>
+      <Statistics_db-len>334720180573</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

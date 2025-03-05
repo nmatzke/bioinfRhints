@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1771745</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>139</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1771745</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>139</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_010920194.1|</Hit_id>
+  <Hit_def>MULTISPECIES: biopolymer transporter ExbD [Caulobacter] &gt;ref|YP_002517793.1| TonB accessory protein exbD [Caulobacter vibrioides NA1000] &gt;gb|QBQ57254.1| biopolymer transporter ExbD [synthetic Caulobacter sp. &apos;ethensis&apos;] &gt;gb|AAK24306.1| ExbD/TolR family protein [Caulobacter vibrioides CB15] &gt;gb|ACL95885.1| TonB accessory protein exbD [Caulobacter vibrioides NA1000] &gt;gb|ATC25340.1| biopolymer transporter ExbD [Caulobacter vibrioides] &gt;gb|ATC29198.1| biopolymer transporter ExbD [Caulobacter vibrioides]</Hit_def>
+  <Hit_accession>WP_010920194</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>271.166</Hsp_bit-score>
+      <Hsp_score>692</Hsp_score>
+      <Hsp_evalue>5.14883e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVSVEV--PPAVAKSSPPPSKPVYVSIKQSGQLYLGDNETSIDELGYDITKNMGRRDPSKERIFI---EKVRYGAFMEVMNTLQDNGFYSVALVGRDDSQ</Hsp_qseq>
+      <Hsp_hseq>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVSVEVNLPPAVAKSSPPPSKPVYVSIKQSGQLYLGDNETSIDELGYDITKNMGRRDPSKERIFIRADEKVRYGAFMEVMNTLQDNGFYSVALVGRDDSQ</Hsp_hseq>
+      <Hsp_midline>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVSVEV  PPAVAKSSPPPSKPVYVSIKQSGQLYLGDNETSIDELGYDITKNMGRRDPSKERIFI   EKVRYGAFMEVMNTLQDNGFYSVALVGRDDSQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_062094562.1|</Hit_id>
+  <Hit_def>MULTISPECIES: biopolymer transporter ExbD [Caulobacter] &gt;gb|ATC32566.1| biopolymer transporter ExbD [Caulobacter vibrioides] &gt;gb|AZS22134.1| biopolymer transporter ExbD [Caulobacter sp. FWC26]</Hit_def>
+  <Hit_accession>WP_062094562</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.47</Hsp_bit-score>
+      <Hsp_score>685</Hsp_score>
+      <Hsp_evalue>7.01476e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVSVEV--PPAVAKSSPPPSKPVYVSIKQSGQLYLGDNETSIDELGYDITKNMGRRDPSKERIFI---EKVRYGAFMEVMNTLQDNGFYSVALVGRDDSQ</Hsp_qseq>
+      <Hsp_hseq>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVSVEVNLPPAVAKSSPPPSKPVYVSIKQSGQLYLGDNETSIDELGYDITKSMGRRDPTKERIFIRADEKVRYGAFMEVMNTLQDNGFYSVALVGRDDSQ</Hsp_hseq>
+      <Hsp_midline>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVSVEV  PPAVAKSSPPPSKPVYVSIKQSGQLYLGDNETSIDELGYDITK+MGRRDP+KERIFI   EKVRYGAFMEVMNTLQDNGFYSVALVGRDDSQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|OYX01754.1|</Hit_id>
+  <Hit_def>MAG: biopolymer transporter ExbD [Caulobacter vibrioides]</Hit_def>
+  <Hit_accession>OYX01754</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.47</Hsp_bit-score>
+      <Hsp_score>685</Hsp_score>
+      <Hsp_evalue>7.01476e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVSVEV--PPAVAKSSPPPSKPVYVSIKQSGQLYLGDNETSIDELGYDITKNMGRRDPSKERIFI---EKVRYGAFMEVMNTLQDNGFYSVALVGRDDSQ</Hsp_qseq>
+      <Hsp_hseq>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVSVEVNLPPAVAKTSPPPSKPVYVSIKQSGQLYLGDNETSIDELGYDITKSMGRRDPSKERIFIRADEKVRYGAFMEVMNTLQDNGFYSVALVGRDDSQ</Hsp_hseq>
+      <Hsp_midline>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVSVEV  PPAVAK+SPPPSKPVYVSIKQSGQLYLGDNETSIDELGYDITK+MGRRDPSKERIFI   EKVRYGAFMEVMNTLQDNGFYSVALVGRDDSQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_310212594.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Caulobacter sp. BE264] &gt;gb|MDR7230112.1| biopolymer transport protein ExbD/biopolymer transport protein TolR [Caulobacter sp. BE264]</Hit_def>
+  <Hit_accession>WP_310212594</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.314</Hsp_bit-score>
+      <Hsp_score>682</Hsp_score>
+      <Hsp_evalue>1.74414e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVSVEV--PPAVAKSSPPPSKPVYVSIKQSGQLYLGDNETSIDELGYDITKNMGRRDPSKERIFI---EKVRYGAFMEVMNTLQDNGFYSVALVGRDDSQ</Hsp_qseq>
+      <Hsp_hseq>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVSVEVNLPPAVAKSSPPPSKPVYVSIKQSGQIYLGDNETSIDELGYDITKSMGRRDPTKERIFIRADEKVRYGAFMEVMNTLQDNGFYSVALVGRDDSQ</Hsp_hseq>
+      <Hsp_midline>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVSVEV  PPAVAKSSPPPSKPVYVSIKQSGQ+YLGDNETSIDELGYDITK+MGRRDP+KERIFI   EKVRYGAFMEVMNTLQDNGFYSVALVGRDDSQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|MCA0357420.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Pseudomonadota bacterium]</Hit_def>
+  <Hit_accession>MCA0357420</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>266.929</Hsp_bit-score>
+      <Hsp_score>681</Hsp_score>
+      <Hsp_evalue>2.92128e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVSVEV--PPAVAKSSPPPSKPVYVSIKQSGQLYLGDNETSIDELGYDITKNMGRRDPSKERIFI---EKVRYGAFMEVMNTLQDNGFYSVALVGRDDSQ</Hsp_qseq>
+      <Hsp_hseq>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVSVEVNLPPAVAKSSPPPSKPVYVSIKQSGQLYLGDNETSIDELGFDITKSMGRRDPTKERIFIRADEKVRYGAFMEVMNTLQDNGFYSVALVGRDDSQ</Hsp_hseq>
+      <Hsp_midline>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVSVEV  PPAVAKSSPPPSKPVYVSIKQSGQLYLGDNETSIDELG+DITK+MGRRDP+KERIFI   EKVRYGAFMEVMNTLQDNGFYSVALVGRDDSQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_099445499.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Caulobacter sp. BP25] &gt;gb|PHY17629.1| biopolymer transporter ExbD [Caulobacter sp. BP25]</Hit_def>
+  <Hit_accession>WP_099445499</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>265.003</Hsp_bit-score>
+      <Hsp_score>676</Hsp_score>
+      <Hsp_evalue>1.6708e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVSVEV--PPAVAKSSPPPSKPVYVSIKQSGQLYLGDNETSIDELGYDITKNMGRRDPSKERIFI---EKVRYGAFMEVMNTLQDNGFYSVALVGRDDS</Hsp_qseq>
+      <Hsp_hseq>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVSVEVNLPPAVAKSSPPPSKPVYVSIKQSGQLYLGDNETSIDELGFDITKSMGRRDPTKERIFIRADEKVRYGAFMEVMNTLQDNGFYSVALVGRDDS</Hsp_hseq>
+      <Hsp_midline>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVSVEV  PPAVAKSSPPPSKPVYVSIKQSGQLYLGDNETSIDELG+DITK+MGRRDP+KERIFI   EKVRYGAFMEVMNTLQDNGFYSVALVGRDDS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_299014179.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [uncultured Caulobacter sp.]</Hit_def>
+  <Hit_accession>WP_299014179</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.536</Hsp_bit-score>
+      <Hsp_score>667</Hsp_score>
+      <Hsp_evalue>3.53314e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVSVEV--PPAVAKSSPPPSKPVYVSIKQSGQLYLGDNETSIDELGYDITKNMGRRDPSKERIFI---EKVRYGAFMEVMNTLQDNGFYSVALVGRDDSQ</Hsp_qseq>
+      <Hsp_hseq>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVSIEVNLPSAVAKSSPPPSKPVYVTIKESGQLYLGDNETSIDELGFDITKSMGRRDPTKERIFIRADEKVRYGAFMEVMNTLQDNGFYSVALVGRDDSQ</Hsp_hseq>
+      <Hsp_midline>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVS+EV  P AVAKSSPPPSKPVYV+IK+SGQLYLGDNETSIDELG+DITK+MGRRDP+KERIFI   EKVRYGAFMEVMNTLQDNGFYSVALVGRDDSQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_066682557.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Caulobacter sp. CCH9-E1] &gt;gb|MEW6389727.1| biopolymer transporter ExbD [Pseudomonadota bacterium]</Hit_def>
+  <Hit_accession>WP_066682557</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.151</Hsp_bit-score>
+      <Hsp_score>666</Hsp_score>
+      <Hsp_evalue>5.91748e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVSVEV--PPAVAKSSPPPSKPVYVSIKQSGQLYLGDNETSIDELGYDITKNMGRRDPSKERIFI---EKVRYGAFMEVMNTLQDNGFYSVALVGRDDSQ</Hsp_qseq>
+      <Hsp_hseq>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVSIEVNLPSAVAKSSPPPSKPVYVTIKESGQLYLGDNETSVDELGFDITKSMGRRDPTKERIFIRADEKVRYGAFMEVMNTLQDNGFYSVALVGRDDSQ</Hsp_hseq>
+      <Hsp_midline>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVS+EV  P AVAKSSPPPSKPVYV+IK+SGQLYLGDNETS+DELG+DITK+MGRRDP+KERIFI   EKVRYGAFMEVMNTLQDNGFYSVALVGRDDSQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_099536242.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Caulobacter sp. X] &gt;gb|PIC00953.1| biopolymer transporter ExbD [Caulobacter sp. X]</Hit_def>
+  <Hit_accession>WP_099536242</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.225</Hsp_bit-score>
+      <Hsp_score>661</Hsp_score>
+      <Hsp_evalue>2.54428e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVSVEV--PPAVAKSSPPPSKPVYVSIKQSGQLYLGDNETSIDELGYDITKNMGRRDPSKERIFI---EKVRYGAFMEVMNTLQDNGFYSVALVGRDDS</Hsp_qseq>
+      <Hsp_hseq>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVSIEVNLPSAVAKSSPPPSKPVYVTIKESGQLYLGDNETSIDELGFDITKSMGRRDPTKERIFIRADEKVRYGAFMEVMNTLQDNGFYSVALVGRDDS</Hsp_hseq>
+      <Hsp_midline>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVS+EV  P AVAKSSPPPSKPVYV+IK+SGQLYLGDNETSIDELG+DITK+MGRRDP+KERIFI   EKVRYGAFMEVMNTLQDNGFYSVALVGRDDS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_013080210.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Caulobacter segnis] &gt;gb|ADG11562.1| Biopolymer transport protein ExbD/TolR [Caulobacter segnis ATCC 21756] &gt;gb|AVQ03219.1| biopolymer transporter ExbD [Caulobacter segnis]</Hit_def>
+  <Hit_accession>WP_013080210</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.07</Hsp_bit-score>
+      <Hsp_score>658</Hsp_score>
+      <Hsp_evalue>8.79126e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVSVEV--PPAVAKSSPPPSKPVYVSIKQSGQLYLGDNETSIDELGYDITKNMGRRDPSKERIFI---EKVRYGAFMEVMNTLQDNGFYSVALVGRDDS</Hsp_qseq>
+      <Hsp_hseq>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVSIEVNLPSAVAKSSPPPSKPVYVTIKESGQLYLGDNETSIDELGLDITKSMGRRDPTKERIFIRADEKVRYGAFMEVMNTLQDNGFYSVALVGRDDS</Hsp_hseq>
+      <Hsp_midline>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVS+EV  P AVAKSSPPPSKPVYV+IK+SGQLYLGDNETSIDELG DITK+MGRRDP+KERIFI   EKVRYGAFMEVMNTLQDNGFYSVALVGRDDS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_304273255.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Caulobacter segnis] &gt;gb|PZR37218.1| MAG: biopolymer transporter ExbD [Caulobacter segnis]</Hit_def>
+  <Hit_accession>WP_304273255</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>257.299</Hsp_bit-score>
+      <Hsp_score>656</Hsp_score>
+      <Hsp_evalue>1.85392e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVSVEV--PPAVAKSSPPPSKPVYVSIKQSGQLYLGDNETSIDELGYDITKNMGRRDPSKERIFI---EKVRYGAFMEVMNTLQDNGFYSVALVGRDDS</Hsp_qseq>
+      <Hsp_hseq>MAAKLSGGGGDRFNVEQNSDINVTPFVDVMLVLLIIFMVAAPLASVSIEVNLPAAVAKSSPPPSKPVYVTIKESGQLYLGDNETSIDELGLDITQNMGRRDPTKERIFIRADEKVRYGAFMEVMNTLQDNGFYSVALVGRDDS</Hsp_hseq>
+      <Hsp_midline>MAAKLSGGGGDRFNVEQNS+INVTPFVDVMLVLLIIFMVAAPLASVS+EV  P AVAKSSPPPSKPVYV+IK+SGQLYLGDNETSIDELG DIT+NMGRRDP+KERIFI   EKVRYGAFMEVMNTLQDNGFYSVALVGRDDS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_223390990.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Caulobacter segnis] &gt;gb|UAL09233.1| biopolymer transporter ExbD [Caulobacter segnis] &gt;gb|USQ94530.1| biopolymer transporter ExbD [Caulobacter segnis]</Hit_def>
+  <Hit_accession>WP_223390990</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>248.44</Hsp_bit-score>
+      <Hsp_score>633</Hsp_score>
+      <Hsp_evalue>5.33895e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVSVEV--PPAVAKSSPPPSKPVYVSIKQSGQLYLGDNETSIDELGYDITKNMGRRDPSKERIFI---EKVRYGAFMEVMNTLQDNGFYSVALVGRDDS</Hsp_qseq>
+      <Hsp_hseq>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVSVEVNLPAAVAKATPNPPKPVYISIKQSGQVYIGDNETSVDELGQDLVKNMGRRDPTKERIFIRADEKVRYGAFMEVMNTLQDNGFYSVALVGRDDS</Hsp_hseq>
+      <Hsp_midline>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVSVEV  P AVAK++P P KPVY+SIKQSGQ+Y+GDNETS+DELG D+ KNMGRRDP+KERIFI   EKVRYGAFMEVMNTLQDNGFYSVALVGRDDS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_310000726.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Caulobacter segnis] &gt;gb|MDR6626825.1| biopolymer transport protein ExbD/biopolymer transport protein TolR [Caulobacter segnis]</Hit_def>
+  <Hit_accession>WP_310000726</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>243.817</Hsp_bit-score>
+      <Hsp_score>621</Hsp_score>
+      <Hsp_evalue>3.3762e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVSVEV--PPAVAKSSPPPSKPVYVSIKQSGQLYLGDNETSIDELGYDITKNMGRRDPSKERIFI---EKVRYGAFMEVMNTLQDNGFYSVALVGRDDS</Hsp_qseq>
+      <Hsp_hseq>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVSVEVNLPAAVAKATPNPPKPVYITIKQSGQLYIGDNPTSIDEMGQDIVKGMGRRDPTKERIFIRADEKVRYGAFMEVMNTLQDNGFYSVALVGRDDS</Hsp_hseq>
+      <Hsp_midline>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVSVEV  P AVAK++P P KPVY++IKQSGQLY+GDN TSIDE+G DI K MGRRDP+KERIFI   EKVRYGAFMEVMNTLQDNGFYSVALVGRDDS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_099576424.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Caulobacter sp. FWC2] &gt;gb|PIB91331.1| biopolymer transporter ExbD [Caulobacter sp. FWC2]</Hit_def>
+  <Hit_accession>WP_099576424</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>243.817</Hsp_bit-score>
+      <Hsp_score>621</Hsp_score>
+      <Hsp_evalue>3.3762e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVSVEV--PPAVAKSSPPPSKPVYVSIKQSGQLYLGDNETSIDELGYDITKNMGRRDPSKERIFI---EKVRYGAFMEVMNTLQDNGFYSVALVGRDDS</Hsp_qseq>
+      <Hsp_hseq>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVSIEVNLPAAVAKATPNPPKPVYISIKSTGQLYIGDNQTSIDEMGQDIVKGMGRRDPSKERIFIRADEKVRYGAFMEVMNTLQDNGFYSVALVGRDDS</Hsp_hseq>
+      <Hsp_midline>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVS+EV  P AVAK++P P KPVY+SIK +GQLY+GDN+TSIDE+G DI K MGRRDPSKERIFI   EKVRYGAFMEVMNTLQDNGFYSVALVGRDDS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_291872677.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Caulobacter sp.] &gt;gb|MBO9544452.1| biopolymer transporter ExbD [Caulobacter sp.]</Hit_def>
+  <Hit_accession>WP_291872677</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>243.047</Hsp_bit-score>
+      <Hsp_score>619</Hsp_score>
+      <Hsp_evalue>7.60298e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVSVEV--PPAVAKSSPPPSKPVYVSIKQSGQLYLGDNETSIDELGYDITKNMGRRDPSKERIFI---EKVRYGAFMEVMNTLQDNGFYSVALVGRDDS</Hsp_qseq>
+      <Hsp_hseq>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVSIEVNLPAAVAKATPNPPKPVYISIKSTGQLYIGDNQTSIDEMGQDIVKGMGRRDPTKERIFIRADEKVRYGAFMEVMNTLQDNGFYSVALVGRDDS</Hsp_hseq>
+      <Hsp_midline>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVS+EV  P AVAK++P P KPVY+SIK +GQLY+GDN+TSIDE+G DI K MGRRDP+KERIFI   EKVRYGAFMEVMNTLQDNGFYSVALVGRDDS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>tpg|HST91003.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Brevundimonas sp.]</Hit_def>
+  <Hit_accession>HST91003</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.506</Hsp_bit-score>
+      <Hsp_score>615</Hsp_score>
+      <Hsp_evalue>2.62625e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVSVEV--PPAVAKSSPPPSKPVYVSIKQSGQLYLGDNETSIDELGYDITKNMGRRDPSKERIFI---EKVRYGAFMEVMNTLQDNGFYSVALVGRDDS</Hsp_qseq>
+      <Hsp_hseq>MAAKLSGGGGDRFNVEQNSDINVTPFVDVMLVLLIIFMVAAPLASVSIEVNLPAAVAKATPNPPKPVYISIKQSGELFIGDNPTSIDDIGQDIVKNMGRRDPSKERIFIRADEKVRYGAFMEVMNTLQDNGFYSVALVGRDDS</Hsp_hseq>
+      <Hsp_midline>MAAKLSGGGGDRFNVEQNS+INVTPFVDVMLVLLIIFMVAAPLASVS+EV  P AVAK++P P KPVY+SIKQSG+L++GDN TSID++G DI KNMGRRDPSKERIFI   EKVRYGAFMEVMNTLQDNGFYSVALVGRDDS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_125158817.1|</Hit_id>
+  <Hit_def>MULTISPECIES: biopolymer transporter ExbD [unclassified Caulobacter] &gt;gb|RRN62882.1| biopolymer transporter ExbD [Caulobacter sp. 602-1] &gt;gb|XJN97272.1| biopolymer transporter ExbD [Caulobacter sp. UC70_42]</Hit_def>
+  <Hit_accession>WP_125158817</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.121</Hsp_bit-score>
+      <Hsp_score>614</Hsp_score>
+      <Hsp_evalue>4.85428e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVSVEV--PPAVAKSSPPPSKPVYVSIKQSGQLYLGDNETSIDELGYDITKNMGRRDPSKERIFI---EKVRYGAFMEVMNTLQDNGFYSVALVGRDDS</Hsp_qseq>
+      <Hsp_hseq>MAAKLSGGGGDRFNVEQNSDINVTPFVDVMLVLLIIFMVAAPLASVSVEVNLPPAVAKASPNPPKPVYISIKQSGQIFIGDFPTTVDEMGQDIAKNIGRRDPSKERIFIRADEKVRYGAFMEVMNTLQDNGFYSVALVGRDDS</Hsp_hseq>
+      <Hsp_midline>MAAKLSGGGGDRFNVEQNS+INVTPFVDVMLVLLIIFMVAAPLASVSVEV  PPAVAK+SP P KPVY+SIKQSGQ+++GD  T++DE+G DI KN+GRRDPSKERIFI   EKVRYGAFMEVMNTLQDNGFYSVALVGRDDS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_297506958.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [uncultured Caulobacter sp.]</Hit_def>
+  <Hit_accession>WP_297506958</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>240.736</Hsp_bit-score>
+      <Hsp_score>613</Hsp_score>
+      <Hsp_evalue>6.82416e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVSVEV--PPAVAKSSPPPSKPVYVSIKQSGQLYLGDNETSIDELGYDITKNMGRRDPSKERIFI---EKVRYGAFMEVMNTLQDNGFYSVALVGRDDSQ</Hsp_qseq>
+      <Hsp_hseq>MAAKLSGGGSDRFNVEQNSDINVTPFVDVMLVLLIIFMVAAPLASVSVEVNLPAAVAKPTPSPPKPVYISIKQSGQLYIGDNETTIDSMGQDIAKGMGRRDPSKERIYIRADEKVRYGAFMEVMNTLQDNGFYSVALVGRDDSK</Hsp_hseq>
+      <Hsp_midline>MAAKLSGGG DRFNVEQNS+INVTPFVDVMLVLLIIFMVAAPLASVSVEV  P AVAK +P P KPVY+SIKQSGQLY+GDNET+ID +G DI K MGRRDPSKERI+I   EKVRYGAFMEVMNTLQDNGFYSVALVGRDDS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_354069154.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Caulobacter sp. 1776] &gt;gb|MET3664944.1| biopolymer transport protein ExbD/biopolymer transport protein TolR [Caulobacter sp. 1776]</Hit_def>
+  <Hit_accession>WP_354069154</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>239.195</Hsp_bit-score>
+      <Hsp_score>609</Hsp_score>
+      <Hsp_evalue>2.77714e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVSVEV--PPAVAKSSPPPSKPVYVSIKQSGQLYLGDNETSIDELGYDITKNMGRRDPSKERIFI---EKVRYGAFMEVMNTLQDNGFYSVALVGRDDS</Hsp_qseq>
+      <Hsp_hseq>MAAKLSGGGGDRFNVEQNSDINVTPFVDVMLVLLIIFMVAAPLASVSIEVNLPAAVAKATPNPPKPVYISIKQSGELFIGDNPTTIDEIGQDIVKGMGRRDPTKERIFIRADEKVRYGAFMEVMNTLQDNGFYSVALVGRDDS</Hsp_hseq>
+      <Hsp_midline>MAAKLSGGGGDRFNVEQNS+INVTPFVDVMLVLLIIFMVAAPLASVS+EV  P AVAK++P P KPVY+SIKQSG+L++GDN T+IDE+G DI K MGRRDP+KERIFI   EKVRYGAFMEVMNTLQDNGFYSVALVGRDDS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_058347885.1|</Hit_id>
+  <Hit_def>MULTISPECIES: biopolymer transporter ExbD [Caulobacter] &gt;gb|KSB90143.1| biopolymer transporter [Caulobacter vibrioides] &gt;gb|AYV49213.1| biopolymer transporter ExbD [Caulobacter flavus] &gt;gb|MDG2530578.1| biopolymer transporter ExbD [Caulobacter endophyticus] &gt;gb|NGM51203.1| biopolymer transporter ExbD [Caulobacter sp. 602-2] &gt;gb|PLR14859.1| biopolymer transporter ExbD [Caulobacter flavus]</Hit_def>
+  <Hit_accession>WP_058347885</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>238.039</Hsp_bit-score>
+      <Hsp_score>606</Hsp_score>
+      <Hsp_evalue>6.3257e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVSVEV--PPAVAKSSPPPSKPVYVSIKQSGQLYLGDNETSIDELGYDITKNMGRRDPSKERIFI---EKVRYGAFMEVMNTLQDNGFYSVALVGRDDS</Hsp_qseq>
+      <Hsp_hseq>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVSIEVNLPPAVAKASPNPPKPVYISIKSNGQLYIGDDRTSIDTMGEDLTKNIGRRDPSKERIFIRADEKTRYGSFMEVMNTLQDNGFYSVALVGRDEN</Hsp_hseq>
+      <Hsp_midline>MAAKLSGGGGDRFNVEQNSEINVTPFVDVMLVLLIIFMVAAPLASVS+EV  PPAVAK+SP P KPVY+SIK +GQLY+GD+ TSID +G D+TKN+GRRDPSKERIFI   EK RYG+FMEVMNTLQDNGFYSVALVGRD++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>877105751</Statistics_db-num>
+      <Statistics_db-len>334462191313</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

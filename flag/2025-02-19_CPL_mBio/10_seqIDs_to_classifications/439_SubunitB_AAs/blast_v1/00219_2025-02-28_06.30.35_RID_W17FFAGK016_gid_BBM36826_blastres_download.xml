@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_7687105</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>133</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_7687105</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>133</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_026738018.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Pseudoleptotrichia goodfellowii] &gt;dbj|BBM36825.1| transport energizing protein, ExbD/TolR family [Pseudoleptotrichia goodfellowii]</Hit_def>
+  <Hit_accession>WP_026738018</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>252.677</Hsp_bit-score>
+      <Hsp_score>644</Hsp_score>
+      <Hsp_evalue>8.03377e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MRFTNRRSKRNAEISMLNLIDVIFMLLIFFMIT--FNNYAQFHL--PKSDTKMENNKNEQTVEVIIDKDMNYFFKVGGNIKSITPEDLKTELSELSPKLLESVTL---EHLEYGTIVNVMGRLKDQNVKNVNLNIQKNNK</Hsp_qseq>
+      <Hsp_hseq>MRFTNRRSKRNAEISMLNLIDVIFMLLIFFMITTTFNNYAQFHLAVPKSDTKMENNKNEQTVEVIIDKDMNYFFKVGGNIKSITPEDLKTELSELSPKLLESVTLTADEHLEYGTIVNVMGRLKDQNVKNVNLNIQKNNK</Hsp_hseq>
+      <Hsp_midline>MRFTNRRSKRNAEISMLNLIDVIFMLLIFFMIT  FNNYAQFHL  PKSDTKMENNKNEQTVEVIIDKDMNYFFKVGGNIKSITPEDLKTELSELSPKLLESVTL   EHLEYGTIVNVMGRLKDQNVKNVNLNIQKNNK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_006807054.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Pseudoleptotrichia goodfellowii] &gt;gb|EEY35332.1| transport energizing protein, ExbD/TolR family [Pseudoleptotrichia goodfellowii F0264]</Hit_def>
+  <Hit_accession>WP_006807054</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>248.825</Hsp_bit-score>
+      <Hsp_score>634</Hsp_score>
+      <Hsp_evalue>2.84265e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MRFTNRRSKRNAEISMLNLIDVIFMLLIFFMIT--FNNYAQFHL--PKSDTKMENNKNEQTVEVIIDKDMNYFFKVGGNIKSITPEDLKTELSELSPKLLESVTL---EHLEYGTIVNVMGRLKDQNVKNVNLNIQKNNK</Hsp_qseq>
+      <Hsp_hseq>MRFTNRRSKKNAEISMLNLIDVIFMLLIFFMITTTFNNYAQFHLAVPKSDIKMENNKNEQTVEVIIDKDMNYFFKVGGNIKSITPEDLKTELSELSPKLLESVTLTADEHLEYGTIVNVMGRLKDQNVKNVNLNIQKNNK</Hsp_hseq>
+      <Hsp_midline>MRFTNRRSK+NAEISMLNLIDVIFMLLIFFMIT  FNNYAQFHL  PKSD KMENNKNEQTVEVIIDKDMNYFFKVGGNIKSITPEDLKTELSELSPKLLESVTL   EHLEYGTIVNVMGRLKDQNVKNVNLNIQKNNK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|MDO5089386.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Leptotrichiaceae bacterium]</Hit_def>
+  <Hit_accession>MDO5089386</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.866</Hsp_bit-score>
+      <Hsp_score>442</Hsp_score>
+      <Hsp_evalue>4.80806e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MRFTNRRSKRNAEISMLNLIDVIFMLLIFFMI--TFNNYAQFHL--PKSDTKMENNKNEQTVEVIIDKDMNYFFKVGGNIKSITPEDLKTELSELSPKLLESVTL---EHLEYGTIVNVMGRLKDQNVKNVNLNIQKNNK</Hsp_qseq>
+      <Hsp_hseq>MRFTNRRSKKNAEISMLNLIDVIFMLLIFFMITTTFNKYTQFKMSVPKTDAEL-NNRKETAVELIIDGNRNYFLKVDSNIKNINVENIKEEFSRINPNLLENVTLTADEHLEYGIIVGIMGRLKNQNVKNINLNIQKNNK</Hsp_hseq>
+      <Hsp_midline>MRFTNRRSK+NAEISMLNLIDVIFMLLIFFMI  TFN Y QF +  PK+D ++ NN+ E  VE+IID + NYF KV  NIK+I  E++K E S ++P LLE+VTL   EHLEYG IV +MGRLK+QNVKN+NLNIQKNNK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_125236028.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Leptotrichia sp. OH3620_COT-345] &gt;gb|RRD40422.1| biopolymer transporter ExbD [Leptotrichia sp. OH3620_COT-345]</Hit_def>
+  <Hit_accession>WP_125236028</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.94</Hsp_bit-score>
+      <Hsp_score>437</Hsp_score>
+      <Hsp_evalue>2.80393e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MRFTNRRSKRNAEISMLNLIDVIFMLLIFFMI--TFNNYAQFHL--PKSDTKMENNKNEQTVEVIIDKDMNYFFKVGGNIKSITPEDLKTELSELSPKLLESVTL---EHLEYGTIVNVMGRLKDQNVKNVNLNIQKNNK</Hsp_qseq>
+      <Hsp_hseq>MRFVNRRSKRNAEISMLNLIDVIFMLLIFFMITTTFNKYTQFKMTVPKTDTEF-NNKKETAVELIVNRNQNYFLKVDNNIKNINVENIKEEFSRINPNLLENVILTADEHLEYGVIVGIMGRLKNQNVKNINLNIQKNNK</Hsp_hseq>
+      <Hsp_midline>MRF NRRSKRNAEISMLNLIDVIFMLLIFFMI  TFN Y QF +  PK+DT+  NNK E  VE+I++++ NYF KV  NIK+I  E++K E S ++P LLE+V L   EHLEYG IV +MGRLK+QNVKN+NLNIQKNNK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_053392013.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Leptotrichia sp. oral taxon 212] &gt;gb|ALA95040.1| biopolymer transporter ExbD [Leptotrichia sp. oral taxon 212]</Hit_def>
+  <Hit_accession>WP_053392013</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.451</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>5.56364e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MRFTNRRSKRNAEISMLNLIDVIFMLLIFFMI--TFNNYAQFHL--PKSDTKMENNKNEQTVEVIIDKDMNYFFKVGGNIKSITPEDLKTELSELSPKLLESVTL---EHLEYGTIVNVMGRLKDQNVKNVNLNIQKNNK</Hsp_qseq>
+      <Hsp_hseq>MKFVNRRSKQNTEISMLNLIDVIFMLLIFFMIATTFNKYSQFQLSMPKSDAKFD-RKEETRIEIVVDRNKNYYIKTGDNVKKISLESIPAEVKKIPKELLGDITVTADEHLEYGVIVETMAKLRDQNIKNINLNIQKNNR</Hsp_hseq>
+      <Hsp_midline>M+F NRRSK+N EISMLNLIDVIFMLLIFFMI  TFN Y+QF L  PKSD K +  K E  +E+++D++ NY+ K G N+K I+ E +  E+ ++  +LL  +T+   EHLEYG IV  M +L+DQN+KN+NLNIQKNN+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_315345278.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Leptotrichia wadei]</Hit_def>
+  <Hit_accession>WP_315345278</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.68</Hsp_bit-score>
+      <Hsp_score>387</Hsp_score>
+      <Hsp_evalue>1.04942e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MRFTNRRSKRNAEISMLNLIDVIFMLLIFFMI--TFNNYAQFHL--PKSDTKMENNKNEQTVEVIIDKDMNYFFKVGGNIKSITPEDLKTELSELSPKLLESVTL---EHLEYGTIVNVMGRLKDQNVKNVNLNIQKNNK</Hsp_qseq>
+      <Hsp_hseq>MKFSNRRSRQNAEISMLNLIDVIFMLLIFFMIATTFNKYSQFQLSVPKSDAKFD-KKEETKAEIIVNRNKKYFLKMGNDIKEISEENIHSEILKLPKEMLENVTLTADEHLEYGYIVEVMSKLRNENVKNVSLNIQKNDK</Hsp_hseq>
+      <Hsp_midline>M+F+NRRS++NAEISMLNLIDVIFMLLIFFMI  TFN Y+QF L  PKSD K +  K E   E+I++++  YF K+G +IK I+ E++ +E+ +L  ++LE+VTL   EHLEYG IV VM +L+++NVKNV+LNIQKN+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_314713975.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Leptotrichia wadei]</Hit_def>
+  <Hit_accession>WP_314713975</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.295</Hsp_bit-score>
+      <Hsp_score>386</Hsp_score>
+      <Hsp_evalue>1.67981e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MRFTNRRSKRNAEISMLNLIDVIFMLLIFFMI--TFNNYAQFHL--PKSDTKMENNKNEQTVEVIIDKDMNYFFKVGGNIKSITPEDLKTELSELSPKLLESVTL---EHLEYGTIVNVMGRLKDQNVKNVNLNIQKNNK</Hsp_qseq>
+      <Hsp_hseq>MKFSNRRSRQNAEISMLNLIDVIFMLLIFFMIATTFNKYSQFQLSVPKSDAKFD-KKEETKAEIIVNRNKKYFLKVGNDTKEISEDNIHSEILKLPKEMLENVTLTADEHLEYGYIVEVMSKLRNENVKNVSLNIQKNNK</Hsp_hseq>
+      <Hsp_midline>M+F+NRRS++NAEISMLNLIDVIFMLLIFFMI  TFN Y+QF L  PKSD K +  K E   E+I++++  YF KVG + K I+ +++ +E+ +L  ++LE+VTL   EHLEYG IV VM +L+++NVKNV+LNIQKNNK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_295725563.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [uncultured Leptotrichia sp.]</Hit_def>
+  <Hit_accession>WP_295725563</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.295</Hsp_bit-score>
+      <Hsp_score>386</Hsp_score>
+      <Hsp_evalue>1.81351e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MRFTNRRSKRNAEISMLNLIDVIFMLLIFFMI--TFNNYAQFHL--PKSDTKMENNKNEQTVEVIIDKDMNYFFKVGGNIKSITPEDLKTELSELSPKLLESVTL---EHLEYGTIVNVMGRLKDQNVKNVNLNIQKNNK</Hsp_qseq>
+      <Hsp_hseq>MKFSNRRSRQNAEISMLNLIDVIFMLLIFFMIATTFNKYSQFQLSVPKSDAKFD-KKEETKAEIIVNRNKRYFLKVGNDTKEIPEEKIHSEILKLPKEMLENVTLTADEHLEYGYIVEVMSKLRNENVKNVSLNIQKNNK</Hsp_hseq>
+      <Hsp_midline>M+F+NRRS++NAEISMLNLIDVIFMLLIFFMI  TFN Y+QF L  PKSD K +  K E   E+I++++  YF KVG + K I  E + +E+ +L  ++LE+VTL   EHLEYG IV VM +L+++NVKNV+LNIQKNNK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_178937138.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Leptotrichia sp. oral taxon 417] &gt;gb|MFC2754470.1| ExbD/TolR family protein [Candidatus Nanogingivalis sp.] &gt;gb|NWO26419.1| biopolymer transporter ExbD [Leptotrichia sp. oral taxon 417]</Hit_def>
+  <Hit_accession>WP_178937138</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.91</Hsp_bit-score>
+      <Hsp_score>385</Hsp_score>
+      <Hsp_evalue>1.89463e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MRFTNRRSKRNAEISMLNLIDVIFMLLIFFMI--TFNNYAQFHL--PKSDTKMENNKNEQTVEVIIDKDMNYFFKVGGNIKSITPEDLKTELSELSPKLLESVTL---EHLEYGTIVNVMGRLKDQNVKNVNLNIQKNNK</Hsp_qseq>
+      <Hsp_hseq>MKFSNRRSRQNAEISMLNLIDVIFMLLIFFMIATTFNKYSQFQLSVPKSDAKFD-KKEETKAEIIVNRNKKYFLKVGNDTKEIPEEKIHSEILKLPKEMLENVTLTADEHLEYGYIVEVMSKLRNENVKNVSLNIQKNNK</Hsp_hseq>
+      <Hsp_midline>M+F+NRRS++NAEISMLNLIDVIFMLLIFFMI  TFN Y+QF L  PKSD K +  K E   E+I++++  YF KVG + K I  E + +E+ +L  ++LE+VTL   EHLEYG IV VM +L+++NVKNV+LNIQKNNK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_371467291.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Leptotrichia wadei] &gt;gb|MEZ7718427.1| biopolymer transporter ExbD [Leptotrichia wadei]</Hit_def>
+  <Hit_accession>WP_371467291</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.91</Hsp_bit-score>
+      <Hsp_score>385</Hsp_score>
+      <Hsp_evalue>1.95784e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MRFTNRRSKRNAEISMLNLIDVIFMLLIFFMI--TFNNYAQFHL--PKSDTKMENNKNEQTVEVIIDKDMNYFFKVGGNIKSITPEDLKTELSELSPKLLESVTL---EHLEYGTIVNVMGRLKDQNVKNVNLNIQKNNK</Hsp_qseq>
+      <Hsp_hseq>MKFSNRRSRQNAEISMLNLIDVIFMLLIFFMIATTFNKYSQFQLSVPKSDAKFD-KKEETKAEIIVNRNKKYFLKVGNDTKEISEEKIHGEILKLPKEILENVTLTADEHLEYGYIVEVMSKLRNENVKNVSLNIQKNNK</Hsp_hseq>
+      <Hsp_midline>M+F+NRRS++NAEISMLNLIDVIFMLLIFFMI  TFN Y+QF L  PKSD K +  K E   E+I++++  YF KVG + K I+ E +  E+ +L  ++LE+VTL   EHLEYG IV VM +L+++NVKNV+LNIQKNNK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_314393043.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Leptotrichia shahii]</Hit_def>
+  <Hit_accession>WP_314393043</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.525</Hsp_bit-score>
+      <Hsp_score>384</Hsp_score>
+      <Hsp_evalue>2.71841e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MRFTNRRSKRNAEISMLNLIDVIFMLLIFFMI--TFNNYAQFHL--PKSDTKMENNKNEQTVEVIIDKDMNYFFKVGGNIKSITPEDLKTELSELSPKLLESVTL---EHLEYGTIVNVMGRLKDQNVKNVNLNIQKNNK</Hsp_qseq>
+      <Hsp_hseq>MKFSNRRSRQNAEISMLNLIDVIFMLLIFFMIATTFNKYSQFQLSVPKSDAKFD-KKEKAKIEIIVNREKKYFLKLGNNIKEISGENIHNEILRLPKEMLENVALTADEHLEYGYIVEIMSKLRNENVKNVSLNIQKNNK</Hsp_hseq>
+      <Hsp_midline>M+F+NRRS++NAEISMLNLIDVIFMLLIFFMI  TFN Y+QF L  PKSD K +  K +  +E+I++++  YF K+G NIK I+ E++  E+  L  ++LE+V L   EHLEYG IV +M +L+++NVKNV+LNIQKNNK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_018450489.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Leptotrichia shahii] &gt;dbj|BBM41485.1| biopolymertransporter ExbD/TolR [Leptotrichia shahii]</Hit_def>
+  <Hit_accession>WP_018450489</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>3.9866e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MRFTNRRSKRNAEISMLNLIDVIFMLLIFFMI--TFNNYAQFHL--PKSDTKMENNKNEQTVEVIIDKDMNYFFKVGGNIKSITPEDLKTELSELSPKLLESVTL---EHLEYGTIVNVMGRLKDQNVKNVNLNIQKNNK</Hsp_qseq>
+      <Hsp_hseq>MKFSNRRSRQNAEISMLNLIDVIFMLLIFFMIATTFNKYSQFQLSVPKSDAKFD-KKEKAKIEIIVNREKKYFLKLGNNVKEISGENIHNEILRLPKEMLENVALTADEHLEYGYIVEIMSKLRNENVKNVSLNIQKNNK</Hsp_hseq>
+      <Hsp_midline>M+F+NRRS++NAEISMLNLIDVIFMLLIFFMI  TFN Y+QF L  PKSD K +  K +  +E+I++++  YF K+G N+K I+ E++  E+  L  ++LE+V L   EHLEYG IV +M +L+++NVKNV+LNIQKNNK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_291816833.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Leptotrichia sp.] &gt;gb|MBB1534893.1| biopolymer transporter ExbD [Leptotrichia sp.]</Hit_def>
+  <Hit_accession>WP_291816833</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.754</Hsp_bit-score>
+      <Hsp_score>382</Hsp_score>
+      <Hsp_evalue>6.24297e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MRFTNRRSKRNAEISMLNLIDVIFMLLIFFMI--TFNNYAQFHL--PKSDTKMENNKNEQTVEVIIDKDMNYFFKVGGNIKSITPEDLKTELSELSPKLLESVTL---EHLEYGTIVNVMGRLKDQNVKNVNLNIQKNNK</Hsp_qseq>
+      <Hsp_hseq>MKFSNRRSRQNAEISMLNLIDVIFMLLIFFMIATTFNKYSQFQLSVPKSNAKFD-KKEETKAEIIVNRNKKYFLKMGNDIKEISEENIHGEILKLPKEMLENVTLTADEHLEYGYIVEVMSKLRNENVKNVSLNIQKNNK</Hsp_hseq>
+      <Hsp_midline>M+F+NRRS++NAEISMLNLIDVIFMLLIFFMI  TFN Y+QF L  PKS+ K +  K E   E+I++++  YF K+G +IK I+ E++  E+ +L  ++LE+VTL   EHLEYG IV VM +L+++NVKNV+LNIQKNNK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_315521479.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Leptotrichia wadei]</Hit_def>
+  <Hit_accession>WP_315521479</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.443</Hsp_bit-score>
+      <Hsp_score>376</Hsp_score>
+      <Hsp_evalue>4.37506e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MRFTNRRSKRNAEISMLNLIDVIFMLLIFFMI--TFNNYAQFHL--PKSDTKMENNKNEQTVEVIIDKDMNYFFKVGGNIKSITPEDLKTELSELSPKLLESVTL---EHLEYGTIVNVMGRLKDQNVKNVNLNIQKNNK</Hsp_qseq>
+      <Hsp_hseq>MKFSNRRSRQNVEISMLNLIDVIFMLLIFFMIATAFNKYSQFQLSIPKSDAKFD-KKEETNAEIIVNRNKKYFLKMGNDIKEISEENVHSEILKLPKEMLENVTLTADEHLEYGYIVEVMSKLRNENVKNVSLNIQKNDK</Hsp_hseq>
+      <Hsp_midline>M+F+NRRS++N EISMLNLIDVIFMLLIFFMI   FN Y+QF L  PKSD K +  K E   E+I++++  YF K+G +IK I+ E++ +E+ +L  ++LE+VTL   EHLEYG IV VM +L+++NVKNV+LNIQKN+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|MFC2737225.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Leptotrichia wadei]</Hit_def>
+  <Hit_accession>MFC2737225</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.443</Hsp_bit-score>
+      <Hsp_score>376</Hsp_score>
+      <Hsp_evalue>5.32705e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MRFTNRRSKRNAEISMLNLIDVIFMLLIFFMI--TFNNYAQFHL--PKSDTKMENNKNEQTVEVIIDKDMNYFFKVGGNIKSITPEDLKTELSELSPKLLESVTL---EHLEYGTIVNVMGRLKDQNVKNVNLNIQKNNK</Hsp_qseq>
+      <Hsp_hseq>MKFSNRRNRQNAEISMLNLIDVIFMLLIFFMIATTFNKYSQFQLSIPKSDAKFD-KKEETKAEIIVNRERKYFLKLGNNVKEISGENIHNEILRLPKEMLENMTLTADEHLEYGYIVEIMSKLRNENVKNVSLNIQKNDK</Hsp_hseq>
+      <Hsp_midline>M+F+NRR+++NAEISMLNLIDVIFMLLIFFMI  TFN Y+QF L  PKSD K +  K E   E+I++++  YF K+G N+K I+ E++  E+  L  ++LE++TL   EHLEYG IV +M +L+++NVKNV+LNIQKN+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_147002840.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Leptotrichia wadei] &gt;dbj|BBM53986.1| biopolymertransporter ExbD/TolR [Leptotrichia wadei]</Hit_def>
+  <Hit_accession>WP_147002840</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.443</Hsp_bit-score>
+      <Hsp_score>376</Hsp_score>
+      <Hsp_evalue>5.62649e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MRFTNRRSKRNAEISMLNLIDVIFMLLIFFMI--TFNNYAQFHL--PKSDTKMENNKNEQTVEVIIDKDMNYFFKVGGNIKSITPEDLKTELSELSPKLLESVTL---EHLEYGTIVNVMGRLKDQNVKNVNLNIQKNNK</Hsp_qseq>
+      <Hsp_hseq>MKFSNRRSRQNAEISMLNLIDVIFMLLIFFMIATTFNKYSQFQLSVPKSNAKFD-KKEETKVEIIVNRNKKYFLKVGNDTKEISEENIHGEILKLPKEMLENMTLTADEHLEYGYIVEVMSKLRNENVKNVSLNIQKNDK</Hsp_hseq>
+      <Hsp_midline>M+F+NRRS++NAEISMLNLIDVIFMLLIFFMI  TFN Y+QF L  PKS+ K +  K E  VE+I++++  YF KVG + K I+ E++  E+ +L  ++LE++TL   EHLEYG IV VM +L+++NVKNV+LNIQKN+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_018498943.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ExbD/TolR family protein [Leptotrichia] &gt;gb|ERK53749.1| transport energizing protein, ExbD/TolR family [Leptotrichia wadei F0279] &gt;gb|XDU66567.1| ExbD/TolR family protein [Leptotrichia sp. HSP-334] &gt;dbj|BBM43658.1| biopolymertransporter ExbD/TolR [Leptotrichia wadei] &gt;dbj|BBM48492.1| biopolymertransporter ExbD/TolR [Leptotrichia wadei] &gt;dbj|BBM50783.1| biopolymertransporter ExbD/TolR [Leptotrichia wadei]</Hit_def>
+  <Hit_accession>WP_018498943</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.058</Hsp_bit-score>
+      <Hsp_score>375</Hsp_score>
+      <Hsp_evalue>6.27679e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MRFTNRRSKRNAEISMLNLIDVIFMLLIFFMI--TFNNYAQFHL--PKSDTKMENNKNEQTVEVIIDKDMNYFFKVGGNIKSITPEDLKTELSELSPKLLESVTL---EHLEYGTIVNVMGRLKDQNVKNVNLNIQKNNK</Hsp_qseq>
+      <Hsp_hseq>MKFSNRRNRQNAEISMLNLIDVIFMLLIFFMIATTFNKYSQFQLSIPKSDAKFD-KKEETKAEIIVNREKKYFLKLGNNVKEISGENIHNEILRLPKEMLENMTLTADEHLEYGYIVEIMSKLRNENVKNVSLNIQKNDK</Hsp_hseq>
+      <Hsp_midline>M+F+NRR+++NAEISMLNLIDVIFMLLIFFMI  TFN Y+QF L  PKSD K +  K E   E+I++++  YF K+G N+K I+ E++  E+  L  ++LE++TL   EHLEYG IV +M +L+++NVKNV+LNIQKN+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_060917125.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Leptotrichia wadei] &gt;gb|KXB70339.1| transport energizing protein, ExbD/TolR family [Leptotrichia wadei]</Hit_def>
+  <Hit_accession>WP_060917125</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.673</Hsp_bit-score>
+      <Hsp_score>374</Hsp_score>
+      <Hsp_evalue>9.61583e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MRFTNRRSKRNAEISMLNLIDVIFMLLIFFMI--TFNNYAQFHL--PKSDTKMENNKNEQTVEVIIDKDMNYFFKVGGNIKSITPEDLKTELSELSPKLLESVTL---EHLEYGTIVNVMGRLKDQNVKNVNLNIQKNNK</Hsp_qseq>
+      <Hsp_hseq>MKFSNRRNRQNAEISMLNLIDVIFMLLIFFMIATTFNKYLQFQLSIPKSDAKFD-KKEETKAEIIVNREKKYFLKLGNNIKEISGENIHNEILRLPKEMLENMTLTADEHLEYGYIVEIMSKLRNENVKNVSLNIQKNDK</Hsp_hseq>
+      <Hsp_midline>M+F+NRR+++NAEISMLNLIDVIFMLLIFFMI  TFN Y QF L  PKSD K +  K E   E+I++++  YF K+G NIK I+ E++  E+  L  ++LE++TL   EHLEYG IV +M +L+++NVKNV+LNIQKN+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_314013729.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Leptotrichia wadei]</Hit_def>
+  <Hit_accession>WP_314013729</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.673</Hsp_bit-score>
+      <Hsp_score>374</Hsp_score>
+      <Hsp_evalue>1.04951e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MRFTNRRSKRNAEISMLNLIDVIFMLLIFFMI--TFNNYAQFHL--PKSDTKMENNKNEQTVEVIIDKDMNYFFKVGGNIKSITPEDLKTELSELSPKLLESVTL---EHLEYGTIVNVMGRLKDQNVKNVNLNIQKNNK</Hsp_qseq>
+      <Hsp_hseq>MKFSNRRSRQNVEISMLNLIDVIFMLLIFFMIATTFNKYSQFQLSIPKSDAKFD-KKEETKAEIIVNRNKKYFLKLGNDAKEISEENIHGEILKLPKEMLENVTLTADEHLEYGYIVEVMSKLRNENVKNVSLNIQKNDK</Hsp_hseq>
+      <Hsp_midline>M+F+NRRS++N EISMLNLIDVIFMLLIFFMI  TFN Y+QF L  PKSD K +  K E   E+I++++  YF K+G + K I+ E++  E+ +L  ++LE+VTL   EHLEYG IV VM +L+++NVKNV+LNIQKN+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_295688486.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [uncultured Leptotrichia sp.] &gt;emb|VTX55107.1| Biopolymer transport protein ExbD/TolR [uncultured Leptotrichia sp.]</Hit_def>
+  <Hit_accession>WP_295688486</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.902</Hsp_bit-score>
+      <Hsp_score>372</Hsp_score>
+      <Hsp_evalue>1.77408e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>MRFTNRRSKRNAEISMLNLIDVIFMLLIFFMI--TFNNYAQFHL--PKSDTKMENNKNEQTVEVIIDKDMNYFFKVGGNIKSITPEDLKTELSELSPKLLESVTL---EHLEYGTIVNVMGRLKDQNVKNVNLNIQKNNK</Hsp_qseq>
+      <Hsp_hseq>MKFSNRRSRQNVEISMLNLIDVIFMLLIFFMIATTFNKYSQFQLSVPKSDAKFD-KKEETKAEIIVNRNKKYFLKLGNDAKEISEENIHGEILKLPKEMLENVTLTADEHLEYGYIVEIMSKLRNENVKNVSLNIQKNDK</Hsp_hseq>
+      <Hsp_midline>M+F+NRRS++N EISMLNLIDVIFMLLIFFMI  TFN Y+QF L  PKSD K +  K E   E+I++++  YF K+G + K I+ E++  E+ +L  ++LE+VTL   EHLEYG IV +M +L+++NVKNV+LNIQKN+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>877781531</Statistics_db-num>
+      <Statistics_db-len>334720180573</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

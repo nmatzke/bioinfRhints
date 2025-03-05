@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_3217525</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>222</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_3217525</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>222</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_197248910.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Brevibacillus laterosporus] &gt;gb|MBG9772825.1| chemotaxis protein [Brevibacillus laterosporus] &gt;gb|MBG9800505.1| chemotaxis protein [Brevibacillus laterosporus] &gt;gb|MCR8939476.1| OmpA family protein [Brevibacillus laterosporus] &gt;gb|MCZ0842116.1| OmpA family protein [Brevibacillus laterosporus] &gt;gb|MCZ0843788.1| OmpA family protein [Brevibacillus laterosporus]</Hit_def>
+  <Hit_accession>WP_197248910</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>386.341</Hsp_bit-score>
+      <Hsp_score>991</Hsp_score>
+      <Hsp_evalue>1.65923e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>219</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>MQDDR-----ELEKSWLLSYSDLITLLFIIQV------------KQQELQQKASQTTQKAEIAKAEQAVAEMKKKALEA--RE---KRDVMAIGAGQQPEEDVDR---VVKEKVGEALQEFHIPFEEESDGVMIRLPENLLFS-GSAELAPDGQKIVDRLADVLQKFPHQVRIEGHTDD--ITKSQYVANWDLSLARAKAVMQEFVQERGLSPSRFIVAGFGETKPLVANTTEK--IQNRRVEITVLSEQTE</Hsp_qseq>
+      <Hsp_hseq>MQDDRLYDEKELEKSWLLSYSDLITLLFIIVIIIAAMYSAQVKQQQQELQQKASQTTQKAEIAKAEQAVAEMKKKALEAEIRELSAKRDVMAIGAGQQPEEDVDRNMQVVKEKVGEALQEFHIPFEEESDGVMIRLPENLLFSSGSAELAPDGQKIVDRLADVLQKFPHQVRIEGHTDDTPITKSQYVANWDLSLARAKAVMQEFVQERGLSPSRFIVAGFGETKPLVANTTEKNRIQNRRVEITVLSEQTE</Hsp_hseq>
+      <Hsp_midline>MQDDR     ELEKSWLLSYSDLITLLFII +            +QQELQQKASQTTQKAEIAKAEQAVAEMKKKALEA  RE   KRDVMAIGAGQQPEEDVDR   VVKEKVGEALQEFHIPFEEESDGVMIRLPENLLFS GSAELAPDGQKIVDRLADVLQKFPHQVRIEGHTDD  ITKSQYVANWDLSLARAKAVMQEFVQERGLSPSRFIVAGFGETKPLVANTTEK  IQNRRVEITVLSEQTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_018669806.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Brevibacillus laterosporus] &gt;gb|ATO49113.1| chemotaxis protein [Brevibacillus laterosporus DSM 25] &gt;gb|MBG9803639.1| chemotaxis protein [Brevibacillus laterosporus] &gt;gb|MED2003593.1| OmpA family protein [Brevibacillus laterosporus] &gt;gb|MED4763209.1| OmpA family protein [Brevibacillus laterosporus] &gt;gb|NKQ20391.1| OmpA family protein [Brevibacillus laterosporus]</Hit_def>
+  <Hit_accession>WP_018669806</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>386.341</Hsp_bit-score>
+      <Hsp_score>991</Hsp_score>
+      <Hsp_evalue>2.13497e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>219</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>MQDDR-----ELEKSWLLSYSDLITLLFIIQV------------KQQELQQKASQTTQKAEIAKAEQAVAEMKKKALEA--RE---KRDVMAIGAGQQPEEDVDR---VVKEKVGEALQEFHIPFEEESDGVMIRLPENLLF-SGSAELAPDGQKIVDRLADVLQKFPHQVRIEGHTDD--ITKSQYVANWDLSLARAKAVMQEFVQERGLSPSRFIVAGFGETKPLVANTTEK--IQNRRVEITVLSEQTE</Hsp_qseq>
+      <Hsp_hseq>MQDDRLYDEKELEKSWLLSYSDLITLLFIIVIIIAAMYSAQVKQQQQELQQKASQTTQKAEIAKAEQAVAEMKKKALEAEIRELSAKRDVMAIGAGQQPEEDVDRNMQVVKEKVGEALQEFHIPFEEESDGVMIRLPENLLFASGSAELAPDGQKIVDRLADVLQKFPHQVRIEGHTDDTPITKSQYVANWDLSLARAKAVMQEFVQERGLSPSRFIVAGFGETKPLVANTTEKNRIQNRRVEITVLSEQTE</Hsp_hseq>
+      <Hsp_midline>MQDDR     ELEKSWLLSYSDLITLLFII +            +QQELQQKASQTTQKAEIAKAEQAVAEMKKKALEA  RE   KRDVMAIGAGQQPEEDVDR   VVKEKVGEALQEFHIPFEEESDGVMIRLPENLLF SGSAELAPDGQKIVDRLADVLQKFPHQVRIEGHTDD  ITKSQYVANWDLSLARAKAVMQEFVQERGLSPSRFIVAGFGETKPLVANTTEK  IQNRRVEITVLSEQTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_119734425.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Brevibacillus laterosporus] &gt;gb|AYB40807.1| chemotaxis protein [Brevibacillus laterosporus]</Hit_def>
+  <Hit_accession>WP_119734425</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.415</Hsp_bit-score>
+      <Hsp_score>986</Hsp_score>
+      <Hsp_evalue>1.09311e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>MQDDR-----ELEKSWLLSYSDLITLLFIIQV------------KQQELQQKASQTTQKAEIAKAEQAVAEMKKKALEA--RE---KRDVMAIGAGQQPEEDVDR---VVKEKVGEALQEFHIPFEEESDGVMIRLPENLLF-SGSAELAPDGQKIVDRLADVLQKFPHQVRIEGHTDD--ITKSQYVANWDLSLARAKAVMQEFVQERGLSPSRFIVAGFGETKPLVANTTEK--IQNRRVEITVLSEQTE</Hsp_qseq>
+      <Hsp_hseq>MQDDRLYDEKELEKSWLLSYSDLITLLFIIVIIIAAMYSAQVKQQQQELQQKASQTTQKAEIAKAEQAVAEMKKKALEAEIRELSAKREVMAIGAGQQPEEDVDRNMQVVKEKVGEALQEFHIPFEEESDGVMIRLPENLLFASGSAELAPDGQKIVDRLADVLQKFPHQVRIEGHTDDTPITKSQYVANWDLSLARAKAVMQEFVQERGLSPSRFIVAGFGETKPLVANTTEKNRIQNRRVEITVLSEQTE</Hsp_hseq>
+      <Hsp_midline>MQDDR     ELEKSWLLSYSDLITLLFII +            +QQELQQKASQTTQKAEIAKAEQAVAEMKKKALEA  RE   KR+VMAIGAGQQPEEDVDR   VVKEKVGEALQEFHIPFEEESDGVMIRLPENLLF SGSAELAPDGQKIVDRLADVLQKFPHQVRIEGHTDD  ITKSQYVANWDLSLARAKAVMQEFVQERGLSPSRFIVAGFGETKPLVANTTEK  IQNRRVEITVLSEQTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_104148692.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Brevibacillus laterosporus] &gt;gb|MCR8978186.1| OmpA family protein [Brevibacillus laterosporus] &gt;gb|MCZ0805342.1| OmpA family protein [Brevibacillus laterosporus] &gt;gb|MCZ0824090.1| OmpA family protein [Brevibacillus laterosporus] &gt;gb|MCZ0848992.1| OmpA family protein [Brevibacillus laterosporus] &gt;gb|MED1662414.1| OmpA family protein [Brevibacillus laterosporus]</Hit_def>
+  <Hit_accession>WP_104148692</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>382.874</Hsp_bit-score>
+      <Hsp_score>982</Hsp_score>
+      <Hsp_evalue>4.30202e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>MQDDR-----ELEKSWLLSYSDLITLLFIIQV------------KQQELQQKASQTTQKAEIAKAEQAVAEMKKKALEA--RE---KRDVMAIGAGQQPEEDVDR---VVKEKVGEALQEFHIPFEEESDGVMIRLPENLLF-SGSAELAPDGQKIVDRLADVLQKFPHQVRIEGHTDD--ITKSQYVANWDLSLARAKAVMQEFVQERGLSPSRFIVAGFGETKPLVANTTEK--IQNRRVEITVLSEQTE</Hsp_qseq>
+      <Hsp_hseq>MQDDRLYDEKELEKSWLLSYSDLITLLFIIVIIIAAMYSAQVKQQQQELQQKASQTTQKAEIAKAEQAVAEMKKKALEAEIRELSAKREVMAIGAGQQPEEDVDRNMQVVKEKVGEALQEFHIPFEEESDGVMIRLPENLLFASGSAELAPDGQKIVDRLADVLQKFPHQVRIEGHTDDTPITKSQYVANWDLSLARAKAVMQEFVQERGLSPSRFIVAGFGETKPLVANTTEKNRIQNRRVEITVLSKQTE</Hsp_hseq>
+      <Hsp_midline>MQDDR     ELEKSWLLSYSDLITLLFII +            +QQELQQKASQTTQKAEIAKAEQAVAEMKKKALEA  RE   KR+VMAIGAGQQPEEDVDR   VVKEKVGEALQEFHIPFEEESDGVMIRLPENLLF SGSAELAPDGQKIVDRLADVLQKFPHQVRIEGHTDD  ITKSQYVANWDLSLARAKAVMQEFVQERGLSPSRFIVAGFGETKPLVANTTEK  IQNRRVEITVLS+QTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_094699834.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Brevibacillus laterosporus] &gt;gb|MBG9787657.1| chemotaxis protein [Brevibacillus laterosporus] &gt;gb|MCG7315663.1| OmpA family protein [Brevibacillus laterosporus] &gt;gb|MED1789626.1| OmpA family protein [Brevibacillus laterosporus]</Hit_def>
+  <Hit_accession>WP_094699834</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>382.104</Hsp_bit-score>
+      <Hsp_score>980</Hsp_score>
+      <Hsp_evalue>8.48774e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>MQDDR-----ELEKSWLLSYSDLITLLFIIQV------------KQQELQQKASQTTQKAEIAKAEQAVAEMKKKALEA--RE---KRDVMAIGAGQQPEEDVDR---VVKEKVGEALQEFHIPFEEESDGVMIRLPENLLF-SGSAELAPDGQKIVDRLADVLQKFPHQVRIEGHTDD--ITKSQYVANWDLSLARAKAVMQEFVQERGLSPSRFIVAGFGETKPLVANTTEK--IQNRRVEITVLSEQTE</Hsp_qseq>
+      <Hsp_hseq>MQDDRLYDEKELEKSWLLSYSDLITLLFIIVIIIAAMYSAQVKQQQQELQQKASQTTQKAEIAKAEQAVAEMKKKALEAEIRELSAKREVMAIGAGQQPEEDVDRNMQVVKEKVGEALQEFHIPFEEESDGVMIRLPENLLFASGSAELAPDGQKIVDSLADVLQKFPHQVRIEGHTDDTPITKSQYVANWDLSLARAKAVMQEFVQERGLSPSRFIVAGFGETKPLVANTTEKNRIQNRRVEITVLSEQTE</Hsp_hseq>
+      <Hsp_midline>MQDDR     ELEKSWLLSYSDLITLLFII +            +QQELQQKASQTTQKAEIAKAEQAVAEMKKKALEA  RE   KR+VMAIGAGQQPEEDVDR   VVKEKVGEALQEFHIPFEEESDGVMIRLPENLLF SGSAELAPDGQKIVD LADVLQKFPHQVRIEGHTDD  ITKSQYVANWDLSLARAKAVMQEFVQERGLSPSRFIVAGFGETKPLVANTTEK  IQNRRVEITVLSEQTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_104033158.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Brevibacillus laterosporus] &gt;gb|PPA92963.1| chemotaxis protein [Brevibacillus laterosporus]</Hit_def>
+  <Hit_accession>WP_104033158</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>381.333</Hsp_bit-score>
+      <Hsp_score>978</Hsp_score>
+      <Hsp_evalue>1.9523e-131</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>MQDDR-----ELEKSWLLSYSDLITLLFIIQV------------KQQELQQKASQTTQKAEIAKAEQAVAEMKKKALEA--RE---KRDVMAIGAGQQPEEDVDR---VVKEKVGEALQEFHIPFEEESDGVMIRLPENLLF-SGSAELAPDGQKIVDRLADVLQKFPHQVRIEGHTDD--ITKSQYVANWDLSLARAKAVMQEFVQERGLSPSRFIVAGFGETKPLVANTTEK--IQNRRVEITVLSEQTE</Hsp_qseq>
+      <Hsp_hseq>MQDDRLYDEKELEKSWLLSYSDLITLLFIIVIIIAAMYSAQVKQQQQELQQKASQTTQKAEIAKAEQAVAKMKKKALEAEIRELSAKREVMAIGAGQQPEEDVDRNMQVVKEKVGEALQEFHIPFEEESDGVMIRLPENLLFASGSAELAPDGQKIVDRLADVLQKFPHQVRIEGHTDDTPITKSQYVANWDLSLARAKAVMQEFVQERGLSPSRFIVAGFGETKPLVANTTEKNRIQNRRVEITVLSKQTE</Hsp_hseq>
+      <Hsp_midline>MQDDR     ELEKSWLLSYSDLITLLFII +            +QQELQQKASQTTQKAEIAKAEQAVA+MKKKALEA  RE   KR+VMAIGAGQQPEEDVDR   VVKEKVGEALQEFHIPFEEESDGVMIRLPENLLF SGSAELAPDGQKIVDRLADVLQKFPHQVRIEGHTDD  ITKSQYVANWDLSLARAKAVMQEFVQERGLSPSRFIVAGFGETKPLVANTTEK  IQNRRVEITVLS+QTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_116333646.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Brevibacillus sp. VP] &gt;gb|RFB36086.1| chemotaxis protein [Brevibacillus sp. VP]</Hit_def>
+  <Hit_accession>WP_116333646</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>380.563</Hsp_bit-score>
+      <Hsp_score>976</Hsp_score>
+      <Hsp_evalue>3.48996e-131</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>MQDDR-----ELEKSWLLSYSDLITLLFIIQV------------KQQELQQKASQTTQKAEIAKAEQAVAEMKKKALEA--RE---KRDVMAIGAGQQPEEDVDR---VVKEKVGEALQEFHIPFEEESDGVMIRLPENLLF-SGSAELAPDGQKIVDRLADVLQKFPHQVRIEGHTDD--ITKSQYVANWDLSLARAKAVMQEFVQERGLSPSRFIVAGFGETKPLVANTTEK--IQNRRVEITVLSEQTE</Hsp_qseq>
+      <Hsp_hseq>MQDDRLYDEKELEKSWLLSYSDLITLLFIIVIIIAAMYSAQVKQQQQELQQKASQTTQKAEIAKAEQAVAEMKKKALEAEIRELSAKREVMAIGAGQQPEEDVDRNMQVVKEKVGEALREFHIPFEEESDGVMIRLPENLLFASGSAELAPDGQKIVDSLADVLQKFPHQVRIEGHTDDTPITKSQYVANWDLSLARAKAVMQEFVQERGLSPSRFIVAGFGETKPLVANTTEKNRIQNRRVEITVLSEQTE</Hsp_hseq>
+      <Hsp_midline>MQDDR     ELEKSWLLSYSDLITLLFII +            +QQELQQKASQTTQKAEIAKAEQAVAEMKKKALEA  RE   KR+VMAIGAGQQPEEDVDR   VVKEKVGEAL+EFHIPFEEESDGVMIRLPENLLF SGSAELAPDGQKIVD LADVLQKFPHQVRIEGHTDD  ITKSQYVANWDLSLARAKAVMQEFVQERGLSPSRFIVAGFGETKPLVANTTEK  IQNRRVEITVLSEQTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|QDX91572.1|</Hit_id>
+  <Hit_def>chemotaxis protein [Brevibacillus laterosporus] &gt;gb|RAP29590.1| hypothetical protein C2W64_03240 [Brevibacillus laterosporus] &gt;gb|TPG69941.1| chemotaxis protein [Brevibacillus laterosporus] &gt;gb|TPG85789.1| chemotaxis protein [Brevibacillus laterosporus]</Hit_def>
+  <Hit_accession>QDX91572</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>361.688</Hsp_bit-score>
+      <Hsp_score>927</Hsp_score>
+      <Hsp_evalue>1.01187e-123</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>MQDDR-----ELEKSWLLSYSDLITLLFIIQV------------KQQELQQKASQTTQKAEIAKAEQAVAEMKKKALEA--RE---KRDVMAIGAGQQPEEDVD---RVVKEKVGEALQEFHIPFEEESDGVMIRLPENLLF-SGSAELAPDGQKIVDRLADVLQKFPHQVRIEGHTDD--ITKSQYVANWDLSLARAKAVMQEFVQERGLSPSRFIVAGFGETKPLVANTTEK--IQNRRVEITVLSEQTE</Hsp_qseq>
+      <Hsp_hseq>MQDDRLYDEKELEKSWLLSYSDLITLLFIIVIIVAAMYTAQVKQQQQELQQKATQTTEKAEIAKAEQAVAEMKKKTLEAEIRELSAKRDVVAIGAGQQPEQDVDSNMQVVKEKVGEALQEFHIPFAEESDGVMIRLPENLLFASGSAELAPDGLKIVDKLADVLQKFPHQVRIEGHTDDTPITRSQYVANWDLSLTRAKAVMQEFVQERGLSPSRFTVAGYGETKPLVANTSEKNRAQNRRVEITVLSEQTE</Hsp_hseq>
+      <Hsp_midline>MQDDR     ELEKSWLLSYSDLITLLFII +            +QQELQQKA+QTT+KAEIAKAEQAVAEMKKK LEA  RE   KRDV+AIGAGQQPE+DVD   +VVKEKVGEALQEFHIPF EESDGVMIRLPENLLF SGSAELAPDG KIVD+LADVLQKFPHQVRIEGHTDD  IT+SQYVANWDLSL RAKAVMQEFVQERGLSPSRF VAG+GETKPLVANT+EK   QNRRVEITVLSEQTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_301803323.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Brevibacillus laterosporus] &gt;gb|MDN9009136.1| OmpA family protein [Brevibacillus laterosporus] &gt;gb|MDO0939905.1| OmpA family protein [Brevibacillus laterosporus]</Hit_def>
+  <Hit_accession>WP_301803323</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>353.599</Hsp_bit-score>
+      <Hsp_score>906</Hsp_score>
+      <Hsp_evalue>1.45716e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>MQDDR-----ELEKSWLLSYSDLITLLFIIQV------------KQQELQQKASQTTQKAEIAKAEQAVAEMKKKALEA--RE---KRDVMAIGAGQQ--PEEDVDRVVKEKVGEALQEFHIPFEEESDGVMIRLPENLLF-SGSAELAPDGQKIVDRLADVLQKFPHQVRIEGHTDD--ITKSQYVANWDLSLARAKAVMQEFVQERGLSPSRFIVAGFGETKPLVANTTEKI--QNRRVEITVLSEQTE</Hsp_qseq>
+      <Hsp_hseq>MQDDRLYDEKELEKSWLLSYSDLITLLFIIVIIIAAMYTAQVKQQQQELQQKASQTTEKAEIAKAEQAVAEMKKKALEAEIRELSAKRDVMAIGAGQQDEPVESNMQVVKEKVGEALHEFHIPFVEQSDGVMIRLPENLLFASGSADLAPDGQKVIDRLADVLQKFPHQVRIEGHTDDSPITKSQYVANWDLSLARAKAVMQEFVQERGLSPARFIVAGYGETKPLVENATEKNRQQNRRVEITVLSEQTE</Hsp_hseq>
+      <Hsp_midline>MQDDR     ELEKSWLLSYSDLITLLFII +            +QQELQQKASQTT+KAEIAKAEQAVAEMKKKALEA  RE   KRDVMAIGAGQQ  P E   +VVKEKVGEAL EFHIPF E+SDGVMIRLPENLLF SGSA+LAPDGQK++DRLADVLQKFPHQVRIEGHTDD  ITKSQYVANWDLSLARAKAVMQEFVQERGLSP+RFIVAG+GETKPLV N TEK   QNRRVEITVLSEQTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_003344513.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Brevibacillus laterosporus] &gt;gb|AIG28628.1| chemotaxis protein MotB [Brevibacillus laterosporus LMG 15441] &gt;gb|AUM66963.1| chemotaxis protein [Brevibacillus laterosporus] &gt;gb|ERM17121.1| chemotaxis protein [Brevibacillus laterosporus PE36] &gt;gb|MDF9410143.1| chemotaxis protein [Brevibacillus laterosporus] &gt;gb|MFB0830079.1| flagellar motor protein MotB [Brevibacillus laterosporus]</Hit_def>
+  <Hit_accession>WP_003344513</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>352.829</Hsp_bit-score>
+      <Hsp_score>904</Hsp_score>
+      <Hsp_evalue>3.06924e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>MQDDR-----ELEKSWLLSYSDLITLLFIIQV------------KQQELQQKASQTTQKAEIAKAEQAVAEMKKKALEA--RE---KRDVMAIGAGQQPEEDVDR---VVKEKVGEALQEFHIPFEEESDGVMIRLPENLLF-SGSAELAPDGQKIVDRLADVLQKFPHQVRIEGHTDD--ITKSQYVANWDLSLARAKAVMQEFVQERGLSPSRFIVAGFGETKPLVANTTEKI--QNRRVEITVLSEQTE</Hsp_qseq>
+      <Hsp_hseq>MQDDRLYDEKELEKSWLLSYSDLITLLFIIVIIIAAMYSAQVKQQQQELQQKASETTEKAEIAKAEQAVAEMKKKALEAEIRELSAKRDVKAIGAGQQ-DEPVERNIQVVKEKVGEALQEFHIPFVEQSDGVMIRLPENLLFASGSADLAPDGQKVIDRLADVLQKFPHQVRIEGHTDDSPITKSQYVANWDLSLARAKAVMQEFVQERGLSPARFIVAGFGETKPLVENTTEKNRQQNRRVEITVLSEQTE</Hsp_hseq>
+      <Hsp_midline>MQDDR     ELEKSWLLSYSDLITLLFII +            +QQELQQKAS+TT+KAEIAKAEQAVAEMKKKALEA  RE   KRDV AIGAGQQ +E V+R   VVKEKVGEALQEFHIPF E+SDGVMIRLPENLLF SGSA+LAPDGQK++DRLADVLQKFPHQVRIEGHTDD  ITKSQYVANWDLSLARAKAVMQEFVQERGLSP+RFIVAGFGETKPLV NTTEK   QNRRVEITVLSEQTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_121473049.1|</Hit_id>
+  <Hit_def>MULTISPECIES: OmpA/MotB family protein [Brevibacillus] &gt;gb|AYK05821.1| chemotaxis protein [Brevibacillus laterosporus] &gt;gb|QIC06686.1| OmpA family protein [Brevibacillus sp. 7WMA2]</Hit_def>
+  <Hit_accession>WP_121473049</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>352.829</Hsp_bit-score>
+      <Hsp_score>904</Hsp_score>
+      <Hsp_evalue>3.24204e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>MQDDR-----ELEKSWLLSYSDLITLLFIIQV------------KQQELQQKASQTTQKAEIAKAEQAVAEMKKKALEA--RE---KRDVMAIGAGQQPEEDVDR---VVKEKVGEALQEFHIPFEEESDGVMIRLPENLLF-SGSAELAPDGQKIVDRLADVLQKFPHQVRIEGHTDD--ITKSQYVANWDLSLARAKAVMQEFVQERGLSPSRFIVAGFGETKPLVANTTEKI--QNRRVEITVLSEQTE</Hsp_qseq>
+      <Hsp_hseq>MQDDRLYDEKELEKSWLLSYSDLITLLFIIVIIIAAMYSAQVKQQQQELQQKASETTEKAEIAKAEQAVAEMKKKALEAEIRELSAKRDVKAIGAGQQ-DEPVERNLQVVKEKVGEALQEFHIPFVEQSDGVMIRLPENLLFASGSADLAPDGQKVIDRLADVLQKFPHQVRIEGHTDDSPITKSQYVANWDLSLARAKAVMQEFVQERGLSPARFIVAGFGETKPLVENTTEKNRQQNRRVEITVLSEQTE</Hsp_hseq>
+      <Hsp_midline>MQDDR     ELEKSWLLSYSDLITLLFII +            +QQELQQKAS+TT+KAEIAKAEQAVAEMKKKALEA  RE   KRDV AIGAGQQ +E V+R   VVKEKVGEALQEFHIPF E+SDGVMIRLPENLLF SGSA+LAPDGQK++DRLADVLQKFPHQVRIEGHTDD  ITKSQYVANWDLSLARAKAVMQEFVQERGLSP+RFIVAGFGETKPLV NTTEK   QNRRVEITVLSEQTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_064016354.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Brevibacillus sp. SKDU10] &gt;gb|OAJ75923.1| chemotaxis protein [Brevibacillus sp. SKDU10]</Hit_def>
+  <Hit_accession>WP_064016354</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>352.058</Hsp_bit-score>
+      <Hsp_score>902</Hsp_score>
+      <Hsp_evalue>6.68067e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>MQDDR-----ELEKSWLLSYSDLITLLFIIQV------------KQQELQQKASQTTQKAEIAKAEQAVAEMKKKALEA--RE---KRDVMAIGAGQQPEEDVDR---VVKEKVGEALQEFHIPFEEESDGVMIRLPENLLF-SGSAELAPDGQKIVDRLADVLQKFPHQVRIEGHTDD--ITKSQYVANWDLSLARAKAVMQEFVQERGLSPSRFIVAGFGETKPLVANTTEKI--QNRRVEITVLSEQTE</Hsp_qseq>
+      <Hsp_hseq>MQDDRLYDEKELEKSWLLSYSDLITLLFIIVIIIAAMYTAQVKQQQQELQQKASQTTEKAEIAKAEQAIAEMKKKALEAEIRELSAKRDVMAIGAGQQ-DELVERNMQVVKEKVGEALQEFHIPFVEQSDGVMIRLPENLLFASGSADLAPDGQKVIDRLADVLQKFPHQVRIEGHTDDTPITKSQYVANWDLSLARAKAVMQEFVQERGLSPARFIVAGLGETKPLVENATEKNRQQNRRVEITVLSEQTE</Hsp_hseq>
+      <Hsp_midline>MQDDR     ELEKSWLLSYSDLITLLFII +            +QQELQQKASQTT+KAEIAKAEQA+AEMKKKALEA  RE   KRDVMAIGAGQQ +E V+R   VVKEKVGEALQEFHIPF E+SDGVMIRLPENLLF SGSA+LAPDGQK++DRLADVLQKFPHQVRIEGHTDD  ITKSQYVANWDLSLARAKAVMQEFVQERGLSP+RFIVAG GETKPLV N TEK   QNRRVEITVLSEQTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_181747613.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Brevibacillus halotolerans] &gt;gb|MBA4531883.1| OmpA family protein [Brevibacillus halotolerans]</Hit_def>
+  <Hit_accession>WP_181747613</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>351.288</Hsp_bit-score>
+      <Hsp_score>900</Hsp_score>
+      <Hsp_evalue>1.16803e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>MQDDR-----ELEKSWLLSYSDLITLLFIIQV------------KQQELQQKASQTTQKAEIAKAEQAVAEMKKKALEA--RE---KRDVMAIGAGQQPEEDVDR---VVKEKVGEALQEFHIPFEEESDGVMIRLPENLLF-SGSAELAPDGQKIVDRLADVLQKFPHQVRIEGHTDD--ITKSQYVANWDLSLARAKAVMQEFVQERGLSPSRFIVAGFGETKPLVANTTE--KIQNRRVEITVLSEQTE</Hsp_qseq>
+      <Hsp_hseq>MQDDRLYDEKELEKSWLLSYSDLITLLFIIVIIIAAMYSAQVKQQQQELQQKASETTEKAEIAKAEQAVAEMKKKALEAEIRELSAKRDVKAIGAGQQ-DEPVERNIQVVKEKVGEALQEFHIPFVEQSDGVMIRLPENLLFASGSADLAPDGQKVIDRLADVLQKFPHQVRIEGHTDDSPITKSQYVANWDLSLARAKAVMQEFVQERGLSPARFIVAGFGETKPLVENTTEQNRQQNRRVEITVLSEQTE</Hsp_hseq>
+      <Hsp_midline>MQDDR     ELEKSWLLSYSDLITLLFII +            +QQELQQKAS+TT+KAEIAKAEQAVAEMKKKALEA  RE   KRDV AIGAGQQ +E V+R   VVKEKVGEALQEFHIPF E+SDGVMIRLPENLLF SGSA+LAPDGQK++DRLADVLQKFPHQVRIEGHTDD  ITKSQYVANWDLSLARAKAVMQEFVQERGLSP+RFIVAGFGETKPLV NTTE  + QNRRVEITVLSEQTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_258420459.1|</Hit_id>
+  <Hit_def>MULTISPECIES: OmpA/MotB family protein [Brevibacillus] &gt;gb|MCR8963014.1| OmpA family protein [Brevibacillus laterosporus] &gt;gb|MCR8997591.1| OmpA family protein [Brevibacillus laterosporus] &gt;gb|MCZ0835170.1| OmpA family protein [Brevibacillus halotolerans]</Hit_def>
+  <Hit_accession>WP_258420459</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>351.288</Hsp_bit-score>
+      <Hsp_score>900</Hsp_score>
+      <Hsp_evalue>1.1809e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>MQDDR-----ELEKSWLLSYSDLITLLFIIQV------------KQQELQQKASQTTQKAEIAKAEQAVAEMKKKALEA--RE---KRDVMAIGAGQQPEEDVDR---VVKEKVGEALQEFHIPFEEESDGVMIRLPENLLF-SGSAELAPDGQKIVDRLADVLQKFPHQVRIEGHTDD--ITKSQYVANWDLSLARAKAVMQEFVQERGLSPSRFIVAGFGETKPLVANTTEKI--QNRRVEITVLSEQTE</Hsp_qseq>
+      <Hsp_hseq>MQDDRLYDEKELEKSWLLSYSDLITLLFIIVIIIAAMYSAQVKQQQQELQQKASETTEKAEIAKAEQAVAEMKKKALEAEIRELSAKRDVKAIGAGQQ-DEPVERNIQVVKEKVGEALQEFHIPFVEQSDGVMIRLPENLLFASGSADLAPDGQKVIDRLADVLQKFPHQVRIEGHTDDSPITKSQYVANWDLSLARAKAVMQEFVQERGLSPARFIVAGFGETKPLVENTTEKNRQQNRRVEITVLSKQTE</Hsp_hseq>
+      <Hsp_midline>MQDDR     ELEKSWLLSYSDLITLLFII +            +QQELQQKAS+TT+KAEIAKAEQAVAEMKKKALEA  RE   KRDV AIGAGQQ +E V+R   VVKEKVGEALQEFHIPF E+SDGVMIRLPENLLF SGSA+LAPDGQK++DRLADVLQKFPHQVRIEGHTDD  ITKSQYVANWDLSLARAKAVMQEFVQERGLSP+RFIVAGFGETKPLV NTTEK   QNRRVEITVLS+QTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_258416337.1|</Hit_id>
+  <Hit_def>MULTISPECIES: OmpA/MotB family protein [Brevibacillus] &gt;gb|MCR8984006.1| OmpA family protein [Brevibacillus laterosporus] &gt;gb|MCZ0829725.1| OmpA family protein [Brevibacillus halotolerans]</Hit_def>
+  <Hit_accession>WP_258416337</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>351.288</Hsp_bit-score>
+      <Hsp_score>900</Hsp_score>
+      <Hsp_evalue>1.22035e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>MQDDR-----ELEKSWLLSYSDLITLLFIIQV------------KQQELQQKASQTTQKAEIAKAEQAVAEMKKKALEA--RE---KRDVMAIGAGQQPEEDVDR---VVKEKVGEALQEFHIPFEEESDGVMIRLPENLLF-SGSAELAPDGQKIVDRLADVLQKFPHQVRIEGHTDD--ITKSQYVANWDLSLARAKAVMQEFVQERGLSPSRFIVAGFGETKPLVANTTEKI--QNRRVEITVLSEQTE</Hsp_qseq>
+      <Hsp_hseq>MQDDRLYDEKELEKSWLLSYSDLITLLFIIVIIIAAMYTAQVKQQQQELQQKASQTTEKAEIAKAEQAVAEMKKKALEAEIRELSAKRDVIAIGAGQQ-DEQVERNMQVVKEKVGEALQEFHIPFVEQSDGVMIRLPENLLFASGSADLAPDGQKVVDRLADVLQKFPHQVRIEGHTDDSPITKSQYVANWDLSLARAKAVMQEFVQERGLSPARFIVAGFGETKPLAENATEKNRQQNRRVEITVLSEQTK</Hsp_hseq>
+      <Hsp_midline>MQDDR     ELEKSWLLSYSDLITLLFII +            +QQELQQKASQTT+KAEIAKAEQAVAEMKKKALEA  RE   KRDV+AIGAGQQ +E V+R   VVKEKVGEALQEFHIPF E+SDGVMIRLPENLLF SGSA+LAPDGQK+VDRLADVLQKFPHQVRIEGHTDD  ITKSQYVANWDLSLARAKAVMQEFVQERGLSP+RFIVAGFGETKPL  N TEK   QNRRVEITVLSEQT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|MBM7111788.1|</Hit_id>
+  <Hit_def>Motility protein B [Brevibacillus laterosporus]</Hit_def>
+  <Hit_accession>MBM7111788</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>349.747</Hsp_bit-score>
+      <Hsp_score>896</Hsp_score>
+      <Hsp_evalue>1.69308e-119</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>KASQTTQKAEIAKAEQAVAEMKKKALEA--RE---KRDVMAIGAGQQPEEDVDR---VVKEKVGEALQEFHIPFEEESDGVMIRLPENLLF-SGSAELAPDGQKIVDRLADVLQKFPHQVRIEGHTDD--ITKSQYVANWDLSLARAKAVMQEFVQERGLSPSRFIVAGFGETKPLVANTTEK--IQNRRVEITVLSEQTE</Hsp_qseq>
+      <Hsp_hseq>KASQTTQKAEIAKAEQAVAEMKKKALEAEIRELSAKREVMAIGAGQQPEEDVDRNMQVVKEKVGEALQEFHIPFEEESDGVMIRLPENLLFASGSAELAPDGQKIVDRLADVLQKFPHQVRIEGHTDDTPITKSQYVANWDLSLARAKAVMQEFVQERGLSPSRFIVAGFGETKPLVANTTEKNRIQNRRVEITVLSEQTE</Hsp_hseq>
+      <Hsp_midline>KASQTTQKAEIAKAEQAVAEMKKKALEA  RE   KR+VMAIGAGQQPEEDVDR   VVKEKVGEALQEFHIPFEEESDGVMIRLPENLLF SGSAELAPDGQKIVDRLADVLQKFPHQVRIEGHTDD  ITKSQYVANWDLSLARAKAVMQEFVQERGLSPSRFIVAGFGETKPLVANTTEK  IQNRRVEITVLSEQTE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|AKF93989.1|</Hit_id>
+  <Hit_def>chemotaxis protein [Brevibacillus laterosporus]</Hit_def>
+  <Hit_accession>AKF93989</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>350.903</Hsp_bit-score>
+      <Hsp_score>899</Hsp_score>
+      <Hsp_evalue>2.01989e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>MQDDR-----ELEKSWLLSYSDLITLLFIIQV------------KQQELQQKASQTTQKAEIAKAEQAVAEMKKKALEA--RE---KRDVMAIGAGQQPEEDVDR---VVKEKVGEALQEFHIPFEEESDGVMIRLPENLLF-SGSAELAPDGQKIVDRLADVLQKFPHQVRIEGHTDD--ITKSQYVANWDLSLARAKAVMQEFVQERGLSPSRFIVAGFGETKPLVANTTEKI--QNRRVEITVLSEQTE</Hsp_qseq>
+      <Hsp_hseq>MQDDRLYDEKELEKSWLLSYSDLITLLFIIVIIIAAMYTAQVKQQQQELQQKASQTTEKAEIAKAEQAVAEMKKKALEAEIRELSAKRDVIAIGAGQQ-DEQVERNMQVVKEKVGEALQEFHIPFVEQSDGVMIRLPENLLFASGSADLAPDGQKVIDRLADVLQKFPHQVRIEGHTDDTPITKSQYVANWDLSLARAKAVMQEFVQERGLSPARFIVAGFGETKPLAENATEKNRQQNRRVEITVLSEQTK</Hsp_hseq>
+      <Hsp_midline>MQDDR     ELEKSWLLSYSDLITLLFII +            +QQELQQKASQTT+KAEIAKAEQAVAEMKKKALEA  RE   KRDV+AIGAGQQ +E V+R   VVKEKVGEALQEFHIPF E+SDGVMIRLPENLLF SGSA+LAPDGQK++DRLADVLQKFPHQVRIEGHTDD  ITKSQYVANWDLSLARAKAVMQEFVQERGLSP+RFIVAGFGETKPL  N TEK   QNRRVEITVLSEQT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_212931752.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Brevibacillus halotolerans] &gt;dbj|GIO01364.1| chemotaxis protein MotB [Brevibacillus halotolerans]</Hit_def>
+  <Hit_accession>WP_212931752</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>349.362</Hsp_bit-score>
+      <Hsp_score>895</Hsp_score>
+      <Hsp_evalue>8.39047e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>MQDDR-----ELEKSWLLSYSDLITLLFIIQV------------KQQELQQKASQTTQKAEIAKAEQAVAEMKKKALEA--RE---KRDVMAIGAGQQPEEDVDR---VVKEKVGEALQEFHIPFEEESDGVMIRLPENLLF-SGSAELAPDGQKIVDRLADVLQKFPHQVRIEGHTDD--ITKSQYVANWDLSLARAKAVMQEFVQERGLSPSRFIVAGFGETKPLVANTTEKI--QNRRVEITVLSEQT</Hsp_qseq>
+      <Hsp_hseq>MQDDRLYDEKELEKSWLLSYSDLITLLFIIVIIIAAMYTAQVKQQQQELQQKASQTTEKAEIAKAEQAVAEMKKKALEAEIRELSAKRDVIAIGAGEQ-DEQVERNMQVVKEKVGEALQEFHIPFVEQSDGVMIRLPENLLFASGSADLAPDGQKVIDRLADVLQKFPHQVRIEGHTDDSPITKSQYVANWDLSLARAKAVMQEFVQERGLSPARFIVAGFGETKPLAENATEKNRQQNRRVEITVLSEQT</Hsp_hseq>
+      <Hsp_midline>MQDDR     ELEKSWLLSYSDLITLLFII +            +QQELQQKASQTT+KAEIAKAEQAVAEMKKKALEA  RE   KRDV+AIGAG+Q +E V+R   VVKEKVGEALQEFHIPF E+SDGVMIRLPENLLF SGSA+LAPDGQK++DRLADVLQKFPHQVRIEGHTDD  ITKSQYVANWDLSLARAKAVMQEFVQERGLSP+RFIVAGFGETKPL  N TEK   QNRRVEITVLSEQT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_309241971.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Brevibacillus daliensis]</Hit_def>
+  <Hit_accession>WP_309241971</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>260.766</Hsp_bit-score>
+      <Hsp_score>665</Hsp_score>
+      <Hsp_evalue>1.00036e-83</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>MQDDR-----ELEKSWLLSYSDLITLLFII----------QVKQQE--LQQKASQTTQKAEIAKAEQAVAEMKKKALEAR-----EKRDVMAIGAGQ-QPE----EDVDR---VVKEKVGEALQEFHIPFEEESDGVMIRLPENLLF-SGSAELAPDGQKIVDRLADVLQKFPHQVRIEGHTDD--ITKSQYVANWDLSLARAKAVMQEFVQERGLSPSRFIVAGFGETKPLVANTT--EKIQNRRVEITVLSEQ</Hsp_qseq>
+      <Hsp_hseq>MQDDRLYDEKELEKSWLLSYSDLITLLFILVVIIAAMYTSEVKEQQAILEQEQKETAEQAELVEAEQAVTELQKQALEEEIHKLTVKRDQLALEAGQFEPEKLEPENVDNNMNVVKENVGAALKEFDIPFEESAEGVVVRLPEQLLFTSGSAILQEEGEKVVDKLSYVLEKFPHRVRIEGHTDDSPIVHSNYVANWELSLDRAKAVMHKIVQERGLSPSRFTVAGYGESKPLVDNTTSENRAKNRRVEIVILGEK</Hsp_hseq>
+      <Hsp_midline>MQDDR     ELEKSWLLSYSDLITLLFI+          +VK+Q+  L+Q+  +T ++AE+ +AEQAV E++K+ALE        KRD +A+ AGQ +PE    E+VD    VVKE VG AL+EF IPFEE ++GV++RLPE LLF SGSA L  +G+K+VD+L+ VL+KFPH+VRIEGHTDD  I  S YVANW+LSL RAKAVM + VQERGLSPSRF VAG+GE+KPLV NTT   + +NRRVEI +L E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|XOS91636.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Brevibacillus laterosporus]</Hit_def>
+  <Hit_accession>XOS91636</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>230.72</Hsp_bit-score>
+      <Hsp_score>587</Hsp_score>
+      <Hsp_evalue>9.62139e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>MQDDR-----ELEKSWLLSYSDLITLLFIIQV------------KQQELQQKASQTTQKAEIAKAEQAVAEMKKKALEA--RE---KRDVMAIGAGQQPEEDVDR---VVKEKVGEALQEFHIPFEEESDGVMIRLPENLLF-SGSAELAPDGQKIVDRLADVLQKFPHQVRI</Hsp_qseq>
+      <Hsp_hseq>MQDDRLYDEKELEKSWLLSYSDLITLLFIIVIIIAAMYSAQVKQQQQELQQKASQTTQKAEIAKAEQAVAEMKKKALEAEIRELSAKREVMAIGAGQQPEEDVDRNMQVVKEKVGEALQEFHIPFEEESDGVMIRLPENLLFASGSAELAPDGQKIVDRLADVLQKFPTKCEL</Hsp_hseq>
+      <Hsp_midline>MQDDR     ELEKSWLLSYSDLITLLFII +            +QQELQQKASQTTQKAEIAKAEQAVAEMKKKALEA  RE   KR+VMAIGAGQQPEEDVDR   VVKEKVGEALQEFHIPFEEESDGVMIRLPENLLF SGSAELAPDGQKIVDRLADVLQKFP +  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>877781531</Statistics_db-num>
+      <Statistics_db-len>334720180573</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

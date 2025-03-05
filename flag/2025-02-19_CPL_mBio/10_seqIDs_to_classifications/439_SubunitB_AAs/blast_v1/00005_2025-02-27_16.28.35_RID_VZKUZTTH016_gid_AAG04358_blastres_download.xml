@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1271289</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>137</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1271289</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>137</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_241289430.1|</Hit_id>
+  <Hit_def>protein TolR [Pseudomonas aeruginosa] &gt;gb|MCT0595398.1| protein TolR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_241289430</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>255.373</Hsp_bit-score>
+      <Hsp_score>651</Hsp_score>
+      <Hsp_evalue>9.07702e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKV--PKVSSEALPQDNNKQVLTLSVKADGSYY--VGSEVDTEKQT--AVSLEQMTDAVTKIMSARPDTQVFI---KAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_qseq>
+      <Hsp_hseq>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKVDLPKVSSEALPQDNNKQVLTLSVKADGSYYWNVGSEVDTEKQTDSAVSLEQMTDAVTKIMSARPDTQVFIRSDKAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_hseq>
+      <Hsp_midline>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKV  PKVSSEALPQDNNKQVLTLSVKADGSYY  VGSEVDTEKQT  AVSLEQMTDAVTKIMSARPDTQVFI   KAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_003086126.1|</Hit_id>
+  <Hit_def>MULTISPECIES: protein TolR [Pseudomonas] &gt;ref|NP_249661.1| translocation protein TolR [Pseudomonas aeruginosa PAO1] &gt;sp|P50599.1| RecName: Full=Tol-Pal system protein TolR [Pseudomonas aeruginosa PAO1] &gt;gb|AID83731.1| biopolymer transporter TolR [Pseudomonas aeruginosa VRFPA04] &gt;gb|EAZ56760.1| TolR protein [Pseudomonas aeruginosa C3719] &gt;gb|EAZ62694.1| TolR protein [Pseudomonas aeruginosa 2192] &gt;gb|EOQ80867.1| TolR protein [Pseudomonas aeruginosa VRFPA02] &gt;gb|EQL41791.1| biopolymer transporter TolR [Pseudomonas aeruginosa VRFPA03] &gt;gb|ESR69110.1| biopolymer transporter TolR [Pseudomonas aeruginosa VRFPA05] &gt;gb|ETD93467.1| biopolymer transporter TolR [Pseudomonas aeruginosa VRFPA06] &gt;gb|ETU85873.1| protein tolR [Pseudomonas aeruginosa BWHPSA048] &gt;gb|EVT87098.1| biopolymer transporter TolR [Pseudomonas aeruginosa VRFPA09] &gt;gb|KEA20705.1| biopolymer transporter TolR [Pseudomonas aeruginosa C2159M] &gt;gb|KEA22411.1| biopolymer transporter TolR [Pseudomonas aeruginosa C1913C] &gt;gb|KEA25327.1| biopolymer transporter TolR [Pseudomonas aeruginosa C2773C] &gt;gb|KEA28847.1| biopolymer transporter TolR [Pseudomonas aeruginosa C0324C] &gt;gb|KFB19804.1| biopolymer transporter TolR [Pseudomonas aeruginosa PGPR2] &gt;gb|MBQ9379535.1| protein TolR [Pseudomonas sp.] &gt;gb|MDG0899132.1| protein TolR [Pseudomonas sp. L01] &gt;gb|MED5481563.1| protein TolR [Pseudomonadota bacterium] &gt;emb|CDI89092.1| TolR protein [Pseudomonas aeruginosa PA38182] &gt;emb|SAJ33788.1| biopolymer transporter ExbD [Enterobacter cloacae] &gt;emb|SCY00088.1| Biopolymer transport protein ExbD [Acinetobacter baumannii] &gt;emb|VEE47516.1| TolR protein [Pseudomonas fluorescens] &gt;tpg|HCL2592406.1| protein TolR [Pseudomonas aeruginosa C40A] &gt;tpg|HCL2633069.1| protein TolR [Pseudomonas aeruginosa 3C2A] &gt;tpg|HCL2714455.1| protein TolR [Pseudomonas aeruginosa EF8E] &gt;tpg|HCL2751270.1| protein TolR [Pseudomonas aeruginosa 449A] &gt;tpg|HCL2782559.1| protein TolR [Pseudomonas aeruginosa AC9A] &gt;tpg|HCL2789872.1| protein TolR [Pseudomonas aeruginosa 1BAE] &gt;tpg|HCL2796902.1| protein TolR [Pseudomonas aeruginosa 7D9A] &gt;tpg|HCL2911769.1| protein TolR [Pseudomonas aeruginosa 059A] &gt;tpg|HCL3098028.1| protein TolR [Pseudomonas aeruginosa AF9A]</Hit_def>
+  <Hit_accession>WP_003086126</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.988</Hsp_bit-score>
+      <Hsp_score>650</Hsp_score>
+      <Hsp_evalue>1.20735e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKV--PKVSSEALPQDNNKQVLTLSVKADGSYY--VGSEVDTEKQT--AVSLEQMTDAVTKIMSARPDTQVFI---KAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_qseq>
+      <Hsp_hseq>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKVDLPKVSSEALPQDNNKQVLTLSVKADGSYYWNVGSEVDTEKQTDSAVSLEQMTDAVTKIMSARPDTQVFIRGDKAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_hseq>
+      <Hsp_midline>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKV  PKVSSEALPQDNNKQVLTLSVKADGSYY  VGSEVDTEKQT  AVSLEQMTDAVTKIMSARPDTQVFI   KAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_181849782.1|</Hit_id>
+  <Hit_def>protein TolR [Pseudomonas aeruginosa] &gt;gb|MBA4867854.1| protein TolR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_181849782</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.988</Hsp_bit-score>
+      <Hsp_score>650</Hsp_score>
+      <Hsp_evalue>1.5884e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKV--PKVSSEALPQDNNKQVLTLSVKADGSYY--VGSEVDTEKQT--AVSLEQMTDAVTKIMSARPDTQVFI---KAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_qseq>
+      <Hsp_hseq>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKVDLPKVSSEALPQDNNKQVLTLSVKADGSYYLNVGSEVDTEKQTDSAVSLEQMTDAVTKIMSARPDTQVFIRGDKAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_hseq>
+      <Hsp_midline>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKV  PKVSSEALPQDNNKQVLTLSVKADGSYY  VGSEVDTEKQT  AVSLEQMTDAVTKIMSARPDTQVFI   KAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|AAT49541.1|</Hit_id>
+  <Hit_def>PA0970, partial [synthetic construct]</Hit_def>
+  <Hit_accession>AAT49541</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.988</Hsp_bit-score>
+      <Hsp_score>650</Hsp_score>
+      <Hsp_evalue>1.62497e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKV--PKVSSEALPQDNNKQVLTLSVKADGSYY--VGSEVDTEKQT--AVSLEQMTDAVTKIMSARPDTQVFI---KAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_qseq>
+      <Hsp_hseq>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKVDLPKVSSEALPQDNNKQVLTLSVKADGSYYWNVGSEVDTEKQTDSAVSLEQMTDAVTKIMSARPDTQVFIRGDKAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_hseq>
+      <Hsp_midline>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKV  PKVSSEALPQDNNKQVLTLSVKADGSYY  VGSEVDTEKQT  AVSLEQMTDAVTKIMSARPDTQVFI   KAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|MBG6805035.1|</Hit_id>
+  <Hit_def>protein TolR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>MBG6805035</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.603</Hsp_bit-score>
+      <Hsp_score>649</Hsp_score>
+      <Hsp_evalue>1.97816e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKV--PKVSSEALPQDNNKQVLTLSVKADGSYY--VGSEVDTEKQT--AVSLEQMTDAVTKIMSARPDTQVFI---KAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_qseq>
+      <Hsp_hseq>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKVDLPKVSSEALPQDNNKQVLTLSVKADGSYYWNVGSEVDTEKQTDSAVSLEQMTDAVTKIMSARPDTQIFIRGDKAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_hseq>
+      <Hsp_midline>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKV  PKVSSEALPQDNNKQVLTLSVKADGSYY  VGSEVDTEKQT  AVSLEQMTDAVTKIMSARPDTQ+FI   KAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_134320234.1|</Hit_id>
+  <Hit_def>protein TolR [Pseudomonas aeruginosa] &gt;gb|TEL82482.1| protein TolR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_134320234</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.603</Hsp_bit-score>
+      <Hsp_score>649</Hsp_score>
+      <Hsp_evalue>1.97816e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKV--PKVSSEALPQDNNKQVLTLSVKADGSYY--VGSEVDTEKQT--AVSLEQMTDAVTKIMSARPDTQVFI---KAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_qseq>
+      <Hsp_hseq>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKVDLPKVSSEALPQDNNKQVLTLSVKADGSYYWNVGSEVDTEKQTDSAVSLEQMTDAVTKIMSARPDTQVFIRGDKAVNYGAVVGAMGALQQAGVPNIGLITEAP</Hsp_hseq>
+      <Hsp_midline>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKV  PKVSSEALPQDNNKQVLTLSVKADGSYY  VGSEVDTEKQT  AVSLEQMTDAVTKIMSARPDTQVFI   KAVNYGAVVGAMGALQQAGVPN+GLITEAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|EKK5132629.1|</Hit_id>
+  <Hit_def>protein TolR [Pseudomonas aeruginosa] &gt;gb|ELJ2363629.1| protein TolR [Pseudomonas aeruginosa] &gt;tpg|HBO4987164.1| protein TolR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>EKK5132629</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.218</Hsp_bit-score>
+      <Hsp_score>648</Hsp_score>
+      <Hsp_evalue>3.03455e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKV--PKVSSEALPQDNNKQVLTLSVKADGSYY--VGSEVDTEKQT--AVSLEQMTDAVTKIMSARPDTQVFI---KAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_qseq>
+      <Hsp_hseq>MARVRHKRKPVAEMNVVPYIDVMMVLLVIFMVTAPMLNQGVKVDLPKVSSEALPQDNNKQVLTLSVKADGSYYWNVGSEVDTEKQTDSAVSLEQMTDAVTKIMSARPDTQVFIRGDKAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_hseq>
+      <Hsp_midline>MARVRHKRKPVAEMNVVPYIDVM+VLLVIFMVTAPMLNQGVKV  PKVSSEALPQDNNKQVLTLSVKADGSYY  VGSEVDTEKQT  AVSLEQMTDAVTKIMSARPDTQVFI   KAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|MBG5211277.1|</Hit_id>
+  <Hit_def>protein TolR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>MBG5211277</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.218</Hsp_bit-score>
+      <Hsp_score>648</Hsp_score>
+      <Hsp_evalue>3.2768e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVK--VPKVSSEALPQDNNKQVLTLSVKADGSYY--VGSEVDTEKQT--AVSLEQMTDAVTKIMSARPDTQVFI---KAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_qseq>
+      <Hsp_hseq>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKGDLPKVSSEALPQDNNKQVLTLSVKADGSYYWNVGSEVDTEKQTDSAVSLEQMTDAVTKIMSARPDTQVFIRGDKAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_hseq>
+      <Hsp_midline>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVK  +PKVSSEALPQDNNKQVLTLSVKADGSYY  VGSEVDTEKQT  AVSLEQMTDAVTKIMSARPDTQVFI   KAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_241350500.1|</Hit_id>
+  <Hit_def>protein TolR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_241350500</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.832</Hsp_bit-score>
+      <Hsp_score>647</Hsp_score>
+      <Hsp_evalue>3.90561e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKV--PKVSSEALPQDNNKQVLTLSVKADGSYY--VGSEVDTEKQT--AVSLEQMTDAVTKIMSARPDTQVFI---KAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_qseq>
+      <Hsp_hseq>MARVRHKRKPVAEMNLVPYIDVMLVLLVIFMVTAPMLNQGVKVDLPKVSSEALPQDNNKQVLTLSVKADGSYYWNVGSEVDTEKQTDSAVSLEQMTDAVTKIMSARPDTQVFIRGDKAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_hseq>
+      <Hsp_midline>MARVRHKRKPVAEMN+VPYIDVMLVLLVIFMVTAPMLNQGVKV  PKVSSEALPQDNNKQVLTLSVKADGSYY  VGSEVDTEKQT  AVSLEQMTDAVTKIMSARPDTQVFI   KAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>tpg|HGI9237240.1|</Hit_id>
+  <Hit_def>protein TolR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>HGI9237240</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.832</Hsp_bit-score>
+      <Hsp_score>647</Hsp_score>
+      <Hsp_evalue>4.26392e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKV--PKVSSEALPQDNNKQVLTLSVKADGSYY--VGSEVDTEKQT--AVSLEQMTDAVTKIMSARPDTQVFI---KAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_qseq>
+      <Hsp_hseq>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKVDLPKVSSEALPQDNNKQVLTLSVKADGSYYWNVGSEVDTEKQTDSAVSLEQMTDAVTKIMSARPDTQVFIRGDKAVNFGAVVGAMGALQQAGVPNVGLITEAP</Hsp_hseq>
+      <Hsp_midline>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKV  PKVSSEALPQDNNKQVLTLSVKADGSYY  VGSEVDTEKQT  AVSLEQMTDAVTKIMSARPDTQVFI   KAVN+GAVVGAMGALQQAGVPNVGLITEAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_058019734.1|</Hit_id>
+  <Hit_def>protein TolR [Pseudomonas aeruginosa] &gt;gb|KRU87031.1| protein TolR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_058019734</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.832</Hsp_bit-score>
+      <Hsp_score>647</Hsp_score>
+      <Hsp_evalue>4.60429e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKV--PKVSSEALPQDNNKQVLTLSVKADGSYY--VGSEVDTEKQT--AVSLEQMTDAVTKIMSARPDTQVFI---KAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_qseq>
+      <Hsp_hseq>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKVDLPKVSSEALPQDNNKQVLTLSAKADGSYYWNVGSEVDTEKQTDSAVSLEQMTDAVTKIMSARPDTQVFIRGDKAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_hseq>
+      <Hsp_midline>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKV  PKVSSEALPQDNNKQVLTLS KADGSYY  VGSEVDTEKQT  AVSLEQMTDAVTKIMSARPDTQVFI   KAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|MBH9305741.1|</Hit_id>
+  <Hit_def>protein TolR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>MBH9305741</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.447</Hsp_bit-score>
+      <Hsp_score>646</Hsp_score>
+      <Hsp_evalue>4.86394e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKV--PKVSSEALPQDNNKQVLTLSVKADGSYY--VGSEVDTEKQT--AVSLEQMTDAVTKIMSARPDTQVFI---KAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_qseq>
+      <Hsp_hseq>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVQVDLPKVSSEALPQDNNKQVLTLSVKADGSYYWNVGSEVDTEKQTDSAVSLEQMTDAVTKIMSARPDTQVFIRGDKAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_hseq>
+      <Hsp_midline>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGV+V  PKVSSEALPQDNNKQVLTLSVKADGSYY  VGSEVDTEKQT  AVSLEQMTDAVTKIMSARPDTQVFI   KAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_034070295.1|</Hit_id>
+  <Hit_def>protein TolR [Pseudomonas aeruginosa] &gt;gb|MBX5605074.1| protein TolR [Pseudomonas aeruginosa] &gt;gb|MDP5887985.1| protein TolR [Pseudomonas aeruginosa] &gt;gb|MDP5900031.1| protein TolR [Pseudomonas aeruginosa] &gt;gb|MFU4543882.1| protein TolR [Pseudomonas aeruginosa] &gt;gb|UTX24519.1| protein TolR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_034070295</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.447</Hsp_bit-score>
+      <Hsp_score>646</Hsp_score>
+      <Hsp_evalue>5.0267e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKV--PKVSSEALPQDNNKQVLTLSVKADGSYY--VGSEVDTEKQT--AVSLEQMTDAVTKIMSARPDTQVFI---KAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_qseq>
+      <Hsp_hseq>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKVDLPKVSSEALPQDNNKQVLTLSVKADGSYYWNVGSEVDTEKQTDSAVSLEQMTDAVTKIMNARPDTQVFIRGDKAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_hseq>
+      <Hsp_midline>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKV  PKVSSEALPQDNNKQVLTLSVKADGSYY  VGSEVDTEKQT  AVSLEQMTDAVTKIM+ARPDTQVFI   KAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_372439558.1|</Hit_id>
+  <Hit_def>protein TolR [Pseudomonas aeruginosa] &gt;gb|XEW75985.1| protein TolR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_372439558</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.447</Hsp_bit-score>
+      <Hsp_score>646</Hsp_score>
+      <Hsp_evalue>5.42797e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKV--PKVSSEALPQDNNKQVLTLSVKADGSYY--VGSEVDTEKQT--AVSLEQMTDAVTKIMSARPDTQVFI---KAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_qseq>
+      <Hsp_hseq>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKVDLPKVSSEALPQDNNKQVLTLSVKADGSYYWNVGSEVDTEKQTDSAVSVEQMTDAVTKIMSARPDTQVFIRGDKAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_hseq>
+      <Hsp_midline>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKV  PKVSSEALPQDNNKQVLTLSVKADGSYY  VGSEVDTEKQT  AVS+EQMTDAVTKIMSARPDTQVFI   KAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>tpg|HCK4586927.1|</Hit_id>
+  <Hit_def>protein TolR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>HCK4586927</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.447</Hsp_bit-score>
+      <Hsp_score>646</Hsp_score>
+      <Hsp_evalue>5.42797e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKV--PKVSSEALPQDNNKQVLTLSVKADGSYY--VGSEVDTEKQT--AVSLEQMTDAVTKIMSARPDTQVFI---KAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_qseq>
+      <Hsp_hseq>MARVRHKRKPVAEMNVVPYIDVMLVLVVIFMVTAPMLNQGVKVDLPKVSSEALPQDNNKQVLTLSVKADGSYYWNVGSEVDTEKQTDSAVSLEQMTDAVTKIMSARPDTQVFIRGDKAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_hseq>
+      <Hsp_midline>MARVRHKRKPVAEMNVVPYIDVMLVL+VIFMVTAPMLNQGVKV  PKVSSEALPQDNNKQVLTLSVKADGSYY  VGSEVDTEKQT  AVSLEQMTDAVTKIMSARPDTQVFI   KAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_247354907.1|</Hit_id>
+  <Hit_def>protein TolR [Pseudomonas aeruginosa] &gt;gb|MBI8431394.1| protein TolR [Pseudomonas aeruginosa] &gt;gb|MEV1354531.1| protein TolR [Pseudomonas aeruginosa] &gt;gb|UPG02415.1| protein TolR [Pseudomonas aeruginosa] &gt;tpg|HBO4142047.1| protein TolR [Pseudomonas aeruginosa] &gt;tpg|HCF2728010.1| protein TolR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_247354907</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.447</Hsp_bit-score>
+      <Hsp_score>646</Hsp_score>
+      <Hsp_evalue>5.54839e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKV--PKVSSEALPQDNNKQVLTLSVKADGSYY--VGSEVDTEKQT--AVSLEQMTDAVTKIMSARPDTQVFI---KAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_qseq>
+      <Hsp_hseq>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTTPMLNQGVKVDLPKVSSEALPQDNNKQVLTLSVKADGSYYWNVGSEVDTEKQTDSAVSLEQMTDAVTKIMSARPDTQVFIRGDKAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_hseq>
+      <Hsp_midline>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVT PMLNQGVKV  PKVSSEALPQDNNKQVLTLSVKADGSYY  VGSEVDTEKQT  AVSLEQMTDAVTKIMSARPDTQVFI   KAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_134305613.1|</Hit_id>
+  <Hit_def>protein TolR [Pseudomonas aeruginosa] &gt;gb|EKJ6824914.1| protein TolR [Pseudomonas aeruginosa] &gt;gb|TEG75482.1| protein TolR [Pseudomonas aeruginosa] &gt;tpg|HCF0004539.1| protein TolR [Pseudomonas aeruginosa] &gt;tpg|HEH9255413.1| protein TolR [Pseudomonas aeruginosa] &gt;tpg|HGK8907102.1| protein TolR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_134305613</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.447</Hsp_bit-score>
+      <Hsp_score>646</Hsp_score>
+      <Hsp_evalue>5.54839e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKV--PKVSSEALPQDNNKQVLTLSVKADGSYY--VGSEVDTEKQT--AVSLEQMTDAVTKIMSARPDTQVFI---KAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_qseq>
+      <Hsp_hseq>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKVDLPKVSSEALPQDNNKQVLTLSVKADGSYYWNVGSEVDTEKQTDSAVSLEQMTDAVTKIMSARPDTQVFIRGDKAVNYGAVVGAMGALQQAGVPNVGLITETP</Hsp_hseq>
+      <Hsp_midline>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKV  PKVSSEALPQDNNKQVLTLSVKADGSYY  VGSEVDTEKQT  AVSLEQMTDAVTKIMSARPDTQVFI   KAVNYGAVVGAMGALQQAGVPNVGLITE P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>tpg|HBO3920051.1|</Hit_id>
+  <Hit_def>protein TolR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>HBO3920051</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.447</Hsp_bit-score>
+      <Hsp_score>646</Hsp_score>
+      <Hsp_evalue>5.54839e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKV--PKVSSEALPQDNNKQVLTLSVKADGSYY--VGSEVDTEKQT--AVSLEQMTDAVTKIMSARPDTQVFI---KAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_qseq>
+      <Hsp_hseq>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKVDLPKVSSEALPQDNNKQVLTLSVKADGSYYWNVGSEVDTEKQTDSAVSLEQMTDAVTKIMSARPDTQVFIRGDKAVNYGTVVGAMGALQQAGVPNVGLITEAP</Hsp_hseq>
+      <Hsp_midline>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKV  PKVSSEALPQDNNKQVLTLSVKADGSYY  VGSEVDTEKQT  AVSLEQMTDAVTKIMSARPDTQVFI   KAVNYG VVGAMGALQQAGVPNVGLITEAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|MCO3849212.1|</Hit_id>
+  <Hit_def>protein TolR [Pseudomonas aeruginosa] &gt;gb|MFO1767855.1| protein TolR [Pseudomonas aeruginosa] &gt;gb|MFO1829838.1| protein TolR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>MCO3849212</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.447</Hsp_bit-score>
+      <Hsp_score>646</Hsp_score>
+      <Hsp_evalue>5.54839e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKV--PKVSSEALPQDNNKQVLTLSVKADGSYY--VGSEVDTEKQT--AVSLEQMTDAVTKIMSARPDTQVFI---KAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_qseq>
+      <Hsp_hseq>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKVDLPKVSSEALPQDNNKQVLTLSVKADGSYYWNVGSEVDTEKQTDSAVSLEQMTDAVTKIMSARPDTQVFIRGDKAVNYGAVVGTMGALQQAGVPNVGLITEAP</Hsp_hseq>
+      <Hsp_midline>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKV  PKVSSEALPQDNNKQVLTLSVKADGSYY  VGSEVDTEKQT  AVSLEQMTDAVTKIMSARPDTQVFI   KAVNYGAVVG MGALQQAGVPNVGLITEAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_132450959.1|</Hit_id>
+  <Hit_def>protein TolR [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_132450959</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.447</Hsp_bit-score>
+      <Hsp_score>646</Hsp_score>
+      <Hsp_evalue>5.73405e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>MARVRHKRKPVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKV--PKVSSEALPQDNNKQVLTLSVKADGSYY--VGSEVDTEKQT--AVSLEQMTDAVTKIMSARPDTQVFI---KAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_qseq>
+      <Hsp_hseq>MARVRHKRKPVAEMNXVPYIDVMLVLLVIFMVTAPMLNQGVKVDLPKVSSEALPQDNNKQVLTLSVKADGSYYWNVGSEVDTEKQTDSAVSLEQMTDAVTKIMSARPDTQVFIRGDKAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_hseq>
+      <Hsp_midline>MARVRHKRKPVAEMN VPYIDVMLVLLVIFMVTAPMLNQGVKV  PKVSSEALPQDNNKQVLTLSVKADGSYY  VGSEVDTEKQT  AVSLEQMTDAVTKIMSARPDTQVFI   KAVNYGAVVGAMGALQQAGVPNVGLITEAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>877105751</Statistics_db-num>
+      <Statistics_db-len>334462191313</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_5622195</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>229</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_5622195</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>229</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_071541145.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Moorella thermoacetica] &gt;gb|APC07538.1| motility protein B [Moorella thermoacetica]</Hit_def>
+  <Hit_accession>WP_071541145</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.721</Hsp_bit-score>
+      <Hsp_score>1114</Hsp_score>
+      <Hsp_evalue>4.81477e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>229</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>MPVRRGGHASKDNHERWLLTYSDLITLLMIFF----------AQKMAALANSLAQTLTGAPATGILTSGGLTS--PGIAPAPGQGDEGAELARARAELQQYIQQEGLESQVTLNTEERGLVVSVADAVLF-KGSADLTPEARDLLRQVGRALARLPNYLRVEGHTDNLPINTPAFPSNWELSTARATNVVKVLISEAGIKPERLSATGYGEYRPVAPNN-EAD-ARNRRV-----KEAYNVTEPHKGEK</Hsp_qseq>
+      <Hsp_hseq>MPVRRGGHASKDNHERWLLTYSDLITLLMIFFVVMYAISDTNAQKMAALANSLAQTLTGAPATGILTSGGLTSIVPGIAPAPGQGDEGAELARARAELQQYIQQEGLESQVTLNTEERGLVVSVADAVLFPKGSADLTPEARDLLRQVGRALARLPNYLRVEGHTDNLPINTPAFPSNWELSTARATNVVKVLISEAGIKPERLSATGYGEYRPVAPNNSEADMARNRRVDIVVLKEAYNVTEPHKGEK</Hsp_hseq>
+      <Hsp_midline>MPVRRGGHASKDNHERWLLTYSDLITLLMIFF          AQKMAALANSLAQTLTGAPATGILTSGGLTS  PGIAPAPGQGDEGAELARARAELQQYIQQEGLESQVTLNTEERGLVVSVADAVLF KGSADLTPEARDLLRQVGRALARLPNYLRVEGHTDNLPINTPAFPSNWELSTARATNVVKVLISEAGIKPERLSATGYGEYRPVAPNN EAD ARNRRV     KEAYNVTEPHKGEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_069591423.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Moorella thermoacetica] &gt;gb|AOQ23021.1| Motility protein B [Moorella thermoacetica] &gt;gb|TYL07263.1| Motility protein B [Moorella thermoacetica]</Hit_def>
+  <Hit_accession>WP_069591423</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>431.024</Hsp_bit-score>
+      <Hsp_score>1107</Hsp_score>
+      <Hsp_evalue>5.37524e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>MPVRRGGHASKDNHERWLLTYSDLITLLMIFF----------AQKMAALANSLAQTLTGAPATGILTSGGLTS--PGIAPAPGQGDEGAELARARAELQQYIQQEGLESQVTLNTEERGLVVSVADAVLF-KGSADLTPEARDLLRQVGRALARLPNYLRVEGHTDNLPINTPAFPSNWELSTARATNVVKVLISEAGIKPERLSATGYGEYRPVAPNN-EAD-ARNRRV-----KEAYNVTEPHKGEK</Hsp_qseq>
+      <Hsp_hseq>MPVRKGGHVSKDNHERWLLTYSDLITLLMIFFVVMYAISDTNAQKMAALANSLAQTLTGAPATGILTSGGLTSIVPGIAPAPGQGDEGAELARARAELQQYIQQEGLESQVTLNTEERGLVVSVADAVLFPKGSADLTPEARDLLRQVGRALARLPNYLRVEGHTDNLPINTPAFPSNWELSTARATNVVKVLISEAGIKPERLSATGYGEYRPVAPNNSEADMARNRRVDIVVLKEAYNVTEPHKGEK</Hsp_hseq>
+      <Hsp_midline>MPVR+GGH SKDNHERWLLTYSDLITLLMIFF          AQKMAALANSLAQTLTGAPATGILTSGGLTS  PGIAPAPGQGDEGAELARARAELQQYIQQEGLESQVTLNTEERGLVVSVADAVLF KGSADLTPEARDLLRQVGRALARLPNYLRVEGHTDNLPINTPAFPSNWELSTARATNVVKVLISEAGIKPERLSATGYGEYRPVAPNN EAD ARNRRV     KEAYNVTEPHKGEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_071554724.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Moorella thermoacetica] &gt;gb|OIQ60767.1| motility protein B [Moorella thermoacetica]</Hit_def>
+  <Hit_accession>WP_071554724</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>431.024</Hsp_bit-score>
+      <Hsp_score>1107</Hsp_score>
+      <Hsp_evalue>5.55502e-151</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>228</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>MPVRRGGHASKDNHERWLLTYSDLITLLMIFF----------AQKMAALANSLAQTLTGAPATGILTSGGLTS--PGIAPAPGQGDEGAELARARAELQQYIQQEGLESQVTLNTEERGLVVSVADAVLF-KGSADLTPEARDLLRQVGRALARLPNYLRVEGHTDNLPINTPAFPSNWELSTARATNVVKVLISEAGIKPERLSATGYGEYRPVAPNN-EAD-ARNRRV-----KEAYNVTEPHKGEK</Hsp_qseq>
+      <Hsp_hseq>MPVRRGGHASKDNHERWLLTYSDLITLLMIFFVVMYAISDTNAQKMAALANSLAQTLTGAPATGILTSGGLTSIVPGIAPATGQGDEGAELARARAELQQYIQQEGLESQVTLNTEERGLVVSVADAVLFPKGSADLTPEARDLLRQVGRALARLPNYLRVEGHTDNLPINTPAFPSNWELSTARATNVVKVLISEAGIKPERLSATGYGEYRPVAPNNSEADMARNRRVDIVVLKEAYNVTEPHKGEK</Hsp_hseq>
+      <Hsp_midline>MPVRRGGHASKDNHERWLLTYSDLITLLMIFF          AQKMAALANSLAQTLTGAPATGILTSGGLTS  PGIAPA GQGDEGAELARARAELQQYIQQEGLESQVTLNTEERGLVVSVADAVLF KGSADLTPEARDLLRQVGRALARLPNYLRVEGHTDNLPINTPAFPSNWELSTARATNVVKVLISEAGIKPERLSATGYGEYRPVAPNN EAD ARNRRV     KEAYNVTEPHKGEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_071521250.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Moorella thermoacetica]</Hit_def>
+  <Hit_accession>WP_071521250</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>430.254</Hsp_bit-score>
+      <Hsp_score>1105</Hsp_score>
+      <Hsp_evalue>1.0266e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>228</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>MPVRRGGHASKDNHERWLLTYSDLITLLMIFF----------AQKMAALANSLAQTLTGAPATGILTSGGLTS--PGIAPAPGQGDEGAELARARAELQQYIQQEGLESQVTLNTEERGLVVSVADAVLF-KGSADLTPEARDLLRQVGRALARLPNYLRVEGHTDNLPINTPAFPSNWELSTARATNVVKVLISEAGIKPERLSATGYGEYRPVAPNN-EAD-ARNRRV-----KEAYNVTEPHKGEK</Hsp_qseq>
+      <Hsp_hseq>MPVRRGGHASKDNHERWLLTYSDLITLLMIFFVVMYAISDTNAQKMAALANSLAQTLTGAPATGILTSGGLTSIVPGIAPAPGQGDEGAELARARAELQQYIQQEGLESQVTLNTEERGLVVSVADAVLFPKGSADLTPEARALLRQVGRALARLPNYLRVEGHTDNLPINTPAFPSNWELSTARATNVVKVLISEAGIKPERLSATGYGEYRPVAPNNSEADMARNRRVDIVVLKEAYNVTEPHKGEK</Hsp_hseq>
+      <Hsp_midline>MPVRRGGHASKDNHERWLLTYSDLITLLMIFF          AQKMAALANSLAQTLTGAPATGILTSGGLTS  PGIAPAPGQGDEGAELARARAELQQYIQQEGLESQVTLNTEERGLVVSVADAVLF KGSADLTPEAR LLRQVGRALARLPNYLRVEGHTDNLPINTPAFPSNWELSTARATNVVKVLISEAGIKPERLSATGYGEYRPVAPNN EAD ARNRRV     KEAYNVTEPHKGEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_025773857.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Moorella thermoacetica]</Hit_def>
+  <Hit_accession>WP_025773857</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.483</Hsp_bit-score>
+      <Hsp_score>1103</Hsp_score>
+      <Hsp_evalue>2.00412e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>MPVRRGGHASKDNHERWLLTYSDLITLLMIFF----------AQKMAALANSLAQTLTGAPATGILTSGGLTS--PGIAPAPGQGDEGAELARARAELQQYIQQEGLESQVTLNTEERGLVVSVADAVLF-KGSADLTPEARDLLRQVGRALARLPNYLRVEGHTDNLPINTPAFPSNWELSTARATNVVKVLISEAGIKPERLSATGYGEYRPVAPNN-EAD-ARNRRV-----KEAYNVTEPHKGEK</Hsp_qseq>
+      <Hsp_hseq>MPVRRGGHASKDNHERWLLTYSDLITLLMIFFVVMYAISDTNAQKMAALANSLAQTLTGAPATGILTSGGLTSIVPGIAPAPGQGDEGAELARARAELQQYIQQEGLESQVTLNTEERGLVVSVADAVLFPKGSADLTPEARALLRQVGRALARLPNYLRVEGHTDNLPINTPSFPSNWELSTARATNVVKVLISEAGIKPERLSATGYGEYRPVAPNNSEADMARNRRVDIVVLKEAYNVTEPHKGEK</Hsp_hseq>
+      <Hsp_midline>MPVRRGGHASKDNHERWLLTYSDLITLLMIFF          AQKMAALANSLAQTLTGAPATGILTSGGLTS  PGIAPAPGQGDEGAELARARAELQQYIQQEGLESQVTLNTEERGLVVSVADAVLF KGSADLTPEAR LLRQVGRALARLPNYLRVEGHTDNLPINTP+FPSNWELSTARATNVVKVLISEAGIKPERLSATGYGEYRPVAPNN EAD ARNRRV     KEAYNVTEPHKGEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_011391996.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Moorella thermoacetica]</Hit_def>
+  <Hit_accession>WP_011391996</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>429.098</Hsp_bit-score>
+      <Hsp_score>1102</Hsp_score>
+      <Hsp_evalue>2.33669e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>MPVRRGGHASKDNHERWLLTYSDLITLLMIFF----------AQKMAALANSLAQTLTGAPATGILTSGGLTS--PGIAPAPGQGDEGAELARARAELQQYIQQEGLESQVTLNTEERGLVVSVADAVLF-KGSADLTPEARDLLRQVGRALARLPNYLRVEGHTDNLPINTPAFPSNWELSTARATNVVKVLISEAGIKPERLSATGYGEYRPVAPNN-EAD-ARNRRV-----KEAYNVTEPHKGEK</Hsp_qseq>
+      <Hsp_hseq>MPVRREGHASKDNHERWLLTYSDLITLLMIFFVVMYAISDTNAQKMAALANSLAQTLTGAPTTGILTSGGLTSIVPGIAPAPGQGDEGAELARARAELQQYIQQEGLESQVTLNTEERGLVVSVADAVLFPKGSADLTPEARDLLRQVGRALARLPNYLRVEGHTDNLPINTPAFPSNWELSTARATNVVKVLISEAGIKPERLSATGYGEYRPVAPNNSEADMARNRRVDIVVLKEAYNVTEPHKGEK</Hsp_hseq>
+      <Hsp_midline>MPVRR GHASKDNHERWLLTYSDLITLLMIFF          AQKMAALANSLAQTLTGAP TGILTSGGLTS  PGIAPAPGQGDEGAELARARAELQQYIQQEGLESQVTLNTEERGLVVSVADAVLF KGSADLTPEARDLLRQVGRALARLPNYLRVEGHTDNLPINTPAFPSNWELSTARATNVVKVLISEAGIKPERLSATGYGEYRPVAPNN EAD ARNRRV     KEAYNVTEPHKGEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_081328658.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Moorella thermoacetica]</Hit_def>
+  <Hit_accession>WP_081328658</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>428.713</Hsp_bit-score>
+      <Hsp_score>1101</Hsp_score>
+      <Hsp_evalue>3.78581e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>MPVRRGGHASKDNHERWLLTYSDLITLLMIFF----------AQKMAALANSLAQTLTGAPATGILTSGGLTS--PGIAPAPGQGDEGAELARARAELQQYIQQEGLESQVTLNTEERGLVVSVADAVLF-KGSADLTPEARDLLRQVGRALARLPNYLRVEGHTDNLPINTPAFPSNWELSTARATNVVKVLISEAGIKPERLSATGYGEYRPVAPNN-EAD-ARNRRV-----KEAYNVTEPHKGEK</Hsp_qseq>
+      <Hsp_hseq>MPVRRGGHASKDNHERWLLTYSDLITLLMIFFVVMYAISDTNAQKMAALANSLAQTLTGAPTTGILTSGGLTSIVPGIAPAPGQGDEGAELARARAELQQYIQQEGLESQVTLNTEERGLVVSVADAVLFPKGSADLTPEARALLRQVGRALARLPNYLRVEGHTDNLPINTPAFPSNWELSTARATNVVKVLISEAGIKPERLSATGYGEYRPVAPNNSEADMARNRRVDIVVLKEAYNVTEPHKGEK</Hsp_hseq>
+      <Hsp_midline>MPVRRGGHASKDNHERWLLTYSDLITLLMIFF          AQKMAALANSLAQTLTGAP TGILTSGGLTS  PGIAPAPGQGDEGAELARARAELQQYIQQEGLESQVTLNTEERGLVVSVADAVLF KGSADLTPEAR LLRQVGRALARLPNYLRVEGHTDNLPINTPAFPSNWELSTARATNVVKVLISEAGIKPERLSATGYGEYRPVAPNN EAD ARNRRV     KEAYNVTEPHKGEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|OIQ08265.1|</Hit_id>
+  <Hit_def>motility protein B [Moorella thermoacetica] &gt;gb|OIQ11648.1| motility protein B [Moorella thermoacetica] &gt;gb|WXJ83693.1| Motility protein B [Moorella thermoacetica] &gt;gb|WXJ91422.1| Motility protein B [Moorella thermoacetica]</Hit_def>
+  <Hit_accession>OIQ08265</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>428.328</Hsp_bit-score>
+      <Hsp_score>1100</Hsp_score>
+      <Hsp_evalue>6.79087e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>MPVRRGGHASKDNHERWLLTYSDLITLLMIFF----------AQKMAALANSLAQTLTGAPATGILTSGGLTS--PGIAPAPGQGDEGAELARARAELQQYIQQEGLESQVTLNTEERGLVVSVADAVLF-KGSADLTPEARDLLRQVGRALARLPNYLRVEGHTDNLPINTPAFPSNWELSTARATNVVKVLISEAGIKPERLSATGYGEYRPVAPNN-EAD-ARNRRV-----KEAYNVTEPHKGEK</Hsp_qseq>
+      <Hsp_hseq>VPVRRGGHASKDNHERWLLTYSDLITLLMIFFVVMYAISDTNAQKMAALANSLAQTLTGAPATGILTSGGLTSIVPGIAPAPGQGDEGAELARARAELQQYIQQEGLESQVTLNTEERGLVVSVADAVLFPKGSADLTPEARALLRQVGRALARLPNYLRVEGHTDNLPINTPAFPSNWELSTARATNVVKVLISEAGIKPERLSATGYGEYRPVAPNNSEADMARNRRVDIVVLKEAYNVTEPHKGEK</Hsp_hseq>
+      <Hsp_midline>+PVRRGGHASKDNHERWLLTYSDLITLLMIFF          AQKMAALANSLAQTLTGAPATGILTSGGLTS  PGIAPAPGQGDEGAELARARAELQQYIQQEGLESQVTLNTEERGLVVSVADAVLF KGSADLTPEAR LLRQVGRALARLPNYLRVEGHTDNLPINTPAFPSNWELSTARATNVVKVLISEAGIKPERLSATGYGEYRPVAPNN EAD ARNRRV     KEAYNVTEPHKGEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>dbj|GAF26142.1|</Hit_id>
+  <Hit_def>flagellar motor protein [Moorella thermoacetica Y72]</Hit_def>
+  <Hit_accession>GAF26142</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>427.557</Hsp_bit-score>
+      <Hsp_score>1098</Hsp_score>
+      <Hsp_evalue>1.24127e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>MPVRRGGHASKDNHERWLLTYSDLITLLMIFF----------AQKMAALANSLAQTLTGAPATGILTSGGLTS--PGIAPAPGQGDEGAELARARAELQQYIQQEGLESQVTLNTEERGLVVSVADAVLF-KGSADLTPEARDLLRQVGRALARLPNYLRVEGHTDNLPINTPAFPSNWELSTARATNVVKVLISEAGIKPERLSATGYGEYRPVAPNN-EAD-ARNRRV-----KEAYNVTEPHKGEK</Hsp_qseq>
+      <Hsp_hseq>VPVRRGGHASKDNHERWLLTYSDLITLLMIFFVVMYAISDTNAQKMAALANSLAQTLTGAPATGILTSGGLTSIVPGIAPAPGQGDEGAELARARAELQQYIQQEGLESQVTLNTEERGLVVSVADAVLFPKGSADLTPEARALLRQVGRALARLPNYLRVEGHTDNLPINTPSFPSNWELSTARATNVVKVLISEAGIKPERLSATGYGEYRPVAPNNSEADMARNRRVDIVVLKEAYNVTEPHKGEK</Hsp_hseq>
+      <Hsp_midline>+PVRRGGHASKDNHERWLLTYSDLITLLMIFF          AQKMAALANSLAQTLTGAPATGILTSGGLTS  PGIAPAPGQGDEGAELARARAELQQYIQQEGLESQVTLNTEERGLVVSVADAVLF KGSADLTPEAR LLRQVGRALARLPNYLRVEGHTDNLPINTP+FPSNWELSTARATNVVKVLISEAGIKPERLSATGYGEYRPVAPNN EAD ARNRRV     KEAYNVTEPHKGEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_053094600.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Moorella thermoacetica] &gt;gb|AKX93207.1| motility protein B [Moorella thermoacetica] &gt;gb|AKX95849.1| motility protein B [Moorella thermoacetica] &gt;gb|OIQ53824.1| motility protein B [Moorella thermoacetica] &gt;gb|OIQ55936.1| motility protein B [Moorella thermoacetica] &gt;gb|QCZ99663.1| Motility protein B [Moorella thermoacetica]</Hit_def>
+  <Hit_accession>WP_053094600</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>427.172</Hsp_bit-score>
+      <Hsp_score>1097</Hsp_score>
+      <Hsp_evalue>1.54566e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>MPVRRGGHASKDNHERWLLTYSDLITLLMIFF----------AQKMAALANSLAQTLTGAPATGILTSGGLTS--PGIAPAPGQGDEGAELARARAELQQYIQQEGLESQVTLNTEERGLVVSVADAVLF-KGSADLTPEARDLLRQVGRALARLPNYLRVEGHTDNLPINTPAFPSNWELSTARATNVVKVLISEAGIKPERLSATGYGEYRPVAPNN-EAD-ARNRRV-----KEAYNVTEPHKGEK</Hsp_qseq>
+      <Hsp_hseq>VPVRREGHASKDNHERWLLTYSDLITLLMIFFVVMYAISDTNAQKMAALANSLAQTLTGAPTTGILTSGGLTSIVPGIAPAPGQGDEGAELARARAELQQYIQQEGLESQVTLNTEERGLVVSVADAVLFPKGSADLTPEARDLLRQVGRALARLPNYLRVEGHTDNLPINTPAFPSNWELSTARATNVVKVLISEAGIKPERLSATGYGEYRPVAPNNSEADMARNRRVDIVVLKEAYNVTEPHKGEK</Hsp_hseq>
+      <Hsp_midline>+PVRR GHASKDNHERWLLTYSDLITLLMIFF          AQKMAALANSLAQTLTGAP TGILTSGGLTS  PGIAPAPGQGDEGAELARARAELQQYIQQEGLESQVTLNTEERGLVVSVADAVLF KGSADLTPEARDLLRQVGRALARLPNYLRVEGHTDNLPINTPAFPSNWELSTARATNVVKVLISEAGIKPERLSATGYGEYRPVAPNN EAD ARNRRV     KEAYNVTEPHKGEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_069587963.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Moorella thermoacetica] &gt;gb|AOQ22871.1| Motility protein B [Moorella thermoacetica] &gt;gb|TYL09989.1| Motility protein B [Moorella thermoacetica]</Hit_def>
+  <Hit_accession>WP_069587963</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>426.787</Hsp_bit-score>
+      <Hsp_score>1096</Hsp_score>
+      <Hsp_evalue>2.17147e-149</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>MPVRRGGHASKDNHERWLLTYSDLITLLMIFF----------AQKMAALANSLAQTLTGAPATGILTSGGLTS--PGIAPAPGQGDEGAELARARAELQQYIQQEGLESQVTLNTEERGLVVSVADAVLF-KGSADLTPEARDLLRQVGRALARLPNYLRVEGHTDNLPINTPAFPSNWELSTARATNVVKVLISEAGIKPERLSATGYGEYRPVAPNN-EAD-ARNRRV-----KEAYNVTEPHKGEK</Hsp_qseq>
+      <Hsp_hseq>VPVRRGGHASKDNHERWLLTYSDLITLLMIFFVVMYAISDTNAQKMAALANSLAQTLTGAPTTGILTSGGLTSIVPGIAPAPGQGDEGAELARARAELQQYIQQEGLESQVTLNTEERGLVVSVADAVLFPKGSADLTPEARALLRQVGRALARLPNYLRVEGHTDNLPINTPAFPSNWELSTARATNVVKVLISEAGIKPERLSATGYGEYRPVAPNNSEADMARNRRVDIVVLKEAYNVTEPHKGEK</Hsp_hseq>
+      <Hsp_midline>+PVRRGGHASKDNHERWLLTYSDLITLLMIFF          AQKMAALANSLAQTLTGAP TGILTSGGLTS  PGIAPAPGQGDEGAELARARAELQQYIQQEGLESQVTLNTEERGLVVSVADAVLF KGSADLTPEAR LLRQVGRALARLPNYLRVEGHTDNLPINTPAFPSNWELSTARATNVVKVLISEAGIKPERLSATGYGEYRPVAPNN EAD ARNRRV     KEAYNVTEPHKGEK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|MDN5326738.1|</Hit_id>
+  <Hit_def>chemotaxis protein MotB [Moorella sp. (in: firmicutes)]</Hit_def>
+  <Hit_accession>MDN5326738</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>400.208</Hsp_bit-score>
+      <Hsp_score>1027</Hsp_score>
+      <Hsp_evalue>9.1498e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>MPVRRGGHASKDNHERWLLTYSDLITLLMIFF----------AQKMAALANSLAQTLTGAPATGILTSGGLTS--PGIAPAPGQ------GDEGAELARARAELQQYIQQEGLESQVTLNTEERGLVVSVADAVLF-KGSADLTPEARDLLRQVGRALARLPNYLRVEGHTDNLPINTPAFPSNWELSTARATNVVKVLISEAGIKPERLSATGYGEYRPVAPNN-EAD-ARNRRV-----KEAYNVTEPHKGEK</Hsp_qseq>
+      <Hsp_hseq>MPGRRGGHASKDNHERWLLTYSDLITLLMIFFVVMYAISDTNAQKMAALANSLAQTLTGAPATGILTSAGLPSIVPGIAPAPGQRATGDQGDEGAELVRARAELQQYIQQEGLEGQVTLETEERGLVISVADAVLFPKGSADLTPEARALLRQVGRALARLPNFLRVEGHTDNLPINTPAFPSNWELSTARATNVVKVLISEAGIKPGRLSATGYGEYRPVAPNNSEADMARNRRVDIVVLKEAYNITEPQKGDK</Hsp_hseq>
+      <Hsp_midline>MP RRGGHASKDNHERWLLTYSDLITLLMIFF          AQKMAALANSLAQTLTGAPATGILTS GL S  PGIAPAPGQ      GDEGAEL RARAELQQYIQQEGLE QVTL TEERGLV+SVADAVLF KGSADLTPEAR LLRQVGRALARLPN+LRVEGHTDNLPINTPAFPSNWELSTARATNVVKVLISEAGIKP RLSATGYGEYRPVAPNN EAD ARNRRV     KEAYN+TEP KG+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|OIQ57001.1|</Hit_id>
+  <Hit_def>motility protein B [Moorella thermoacetica]</Hit_def>
+  <Hit_accession>OIQ57001</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>400.208</Hsp_bit-score>
+      <Hsp_score>1027</Hsp_score>
+      <Hsp_evalue>9.25065e-139</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>MPVRRGGHASKDNHERWLLTYSDLITLLMIFF----------AQKMAALANSLAQTLTGAPATGILTSGGLTS--PGIAPAPGQG------DEGAELARARAELQQYIQQEGLESQVTLNTEERGLVVSVADAVLF-KGSADLTPEARDLLRQVGRALARLPNYLRVEGHTDNLPINTPAFPSNWELSTARATNVVKVLISEAGIKPERLSATGYGEYRPVAPNN-EAD-ARNRRV-----KEAYNVTEPHKGEK</Hsp_qseq>
+      <Hsp_hseq>MPGRRGGHASKDNHERWLLTYSDLITLLMIFFVVMYAISDTNAQKMAALANSLAQTLTGAPATGILTSAGLPSIVPGIAPAPGQGATGDQGDEGAELVRARAELQQYIQQEGLEGQVTLETEERGLVISVADAVLFPKGSADLTPEARALLRQVGRALARLPNFLRVEGHTDNLPINTPAFPSNWELSTARATNVVKVLISEAGIKPGRLSATGYGEYRPVAPNNSEADMARNRRVDIVVLKEAYNITEPQKGDK</Hsp_hseq>
+      <Hsp_midline>MP RRGGHASKDNHERWLLTYSDLITLLMIFF          AQKMAALANSLAQTLTGAPATGILTS GL S  PGIAPAPGQG      DEGAEL RARAELQQYIQQEGLE QVTL TEERGLV+SVADAVLF KGSADLTPEAR LLRQVGRALARLPN+LRVEGHTDNLPINTPAFPSNWELSTARATNVVKVLISEAGIKP RLSATGYGEYRPVAPNN EAD ARNRRV     KEAYN+TEP KG+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|MDN5360955.1|</Hit_id>
+  <Hit_def>chemotaxis protein MotB [Moorella sp. (in: firmicutes)]</Hit_def>
+  <Hit_accession>MDN5360955</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>370.933</Hsp_bit-score>
+      <Hsp_score>951</Hsp_score>
+      <Hsp_evalue>2.68433e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>MPVRRGGHASKDNHERWLLTYSDLITLLMIFF----------AQKMAALANSLAQTLTGAPATGILTSGGLTS--PGIAPAPGQG------DEGAELARARAELQQYIQQEGLESQVTLNTEERGLVVSVADAVLF-KGSADLTPEARDLLRQVGRALARLPNYLRVEGHTDNLPINTPAFPSNWELSTARATNVVKVLISEAGIKPERLSATGYGEYRPVAPN-NEAD-ARNRRV-----KEAYNVTEPHK</Hsp_qseq>
+      <Hsp_hseq>MAARKGGHASKDNSERWLLTYSDLITLLMIFFVVMYAISDTNAQKMAALANSLAQTLTGAPAAGILPDGGLPSVVPGIAPAPGDGGATGQRNEGAELARARAELQQFIQQEGLEGQVTLRTEDRGLVVSMADAVLFPSGSAELTPGARTILQQVGRALARLPNYLRVEGHTDNLPINTPAFPSNWELSTARATNVVRVLVAEAGIKPERLSATGYGEYRPVAPNDNEVDRSRNRRVDIVVLKEAYNVTEPHK</Hsp_hseq>
+      <Hsp_midline>M  R+GGHASKDN ERWLLTYSDLITLLMIFF          AQKMAALANSLAQTLTGAPA GIL  GGL S  PGIAPAPG G      +EGAELARARAELQQ+IQQEGLE QVTL TE+RGLVVS+ADAVLF  GSA+LTP AR +L+QVGRALARLPNYLRVEGHTDNLPINTPAFPSNWELSTARATNVV+VL++EAGIKPERLSATGYGEYRPVAPN NE D +RNRRV     KEAYNVTEPHK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_109205937.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Moorella sp. Hama-1] &gt;dbj|BCV20270.1| chemotaxis protein MotB [Moorella sp. Hama-1]</Hit_def>
+  <Hit_accession>WP_109205937</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>369.777</Hsp_bit-score>
+      <Hsp_score>948</Hsp_score>
+      <Hsp_evalue>9.88801e-127</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>199</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>MPVRRGGHASKDNHERWLLTYSDLITLLMIFF----------AQKMAALANSLAQTLTGAPATGILTSGGLTS--PGIAPAPGQG------DEGAELARARAELQQYIQQEGLESQVTLNTEERGLVVSVADAVLF-KGSADLTPEARDLLRQVGRALARLPNYLRVEGHTDNLPINTPAFPSNWELSTARATNVVKVLISEAGIKPERLSATGYGEYRPVAPN-NEAD-ARNRRV-----KEAYNVTEPHK</Hsp_qseq>
+      <Hsp_hseq>MAARKGGHASKDNSERWLLTYSDLITLLMIFFVVMYAISDTNAQKLAALANSLAQTLTGAPAAGILPDGGLPSVVPGIAPAPGDGGATGQRNEGAELARARAELQQFIQQEGLEGQVTLRTEDRGLVVSMADAVLFPSGSAELTPGARTILQQVGRALARLPNYLRVEGHTDNLPINTPAFPSNWELSTARATNVVRVLVAEAGIKPERLSATGYGEYRPVAPNDNEVDRSRNRRVDIVVLKEAYNVTEPHK</Hsp_hseq>
+      <Hsp_midline>M  R+GGHASKDN ERWLLTYSDLITLLMIFF          AQK+AALANSLAQTLTGAPA GIL  GGL S  PGIAPAPG G      +EGAELARARAELQQ+IQQEGLE QVTL TE+RGLVVS+ADAVLF  GSA+LTP AR +L+QVGRALARLPNYLRVEGHTDNLPINTPAFPSNWELSTARATNVV+VL++EAGIKPERLSATGYGEYRPVAPN NE D +RNRRV     KEAYNVTEPHK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_156273012.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Moorella glycerini] &gt;gb|QGP92322.1| Motility protein B [Moorella glycerini]</Hit_def>
+  <Hit_accession>WP_156273012</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>318.931</Hsp_bit-score>
+      <Hsp_score>816</Hsp_score>
+      <Hsp_evalue>9.55345e-107</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>MPVRRGGHASKDNHERWLLTYSDLITLLMIFF----------AQKMAALANSLAQTLTGAPATGILTSGGLTS--PGIAPAPG------QGDEGAELARARAELQQYIQQEGLESQVTLNTEERGLVVSVADAVLF-KGSADLTPEARDLLRQVGRALARLPNYLRVEGHTDNLPINTPAFPSNWELSTARATNVVKVLISEAGIKPERLSATGYGEYRPVAPN-NEAD-ARNRRV-----KEAYNVTEPHK</Hsp_qseq>
+      <Hsp_hseq>MPRRQAEKVSHDNKERWLLTYSDLITLLMIFFVVMYSISNINAQKMAALASSLAQAFIGSPAPGLFEAGGLPSLVPGVAPAPGGQGTEGQSVEGTELARVKVELQQYIQQEGLQDQVTLKTEERGLVVSMADAILFPKGSAELTPAAHALIRQVGQALARLPNYLRVEGHTDNLPIHTPLFPSNWELSTARAINVVKVLMNDAGINPERLSATGYGEYRPVAPNDNEGDMARNRRVDIVVLKEAYNITEPHK</Hsp_hseq>
+      <Hsp_midline>MP R+    S DN ERWLLTYSDLITLLMIFF          AQKMAALA+SLAQ   G+PA G+  +GGL S  PG+APAPG      Q  EG ELAR + ELQQYIQQEGL+ QVTL TEERGLVVS+ADA+LF KGSA+LTP A  L+RQVG+ALARLPNYLRVEGHTDNLPI+TP FPSNWELSTARA NVVKVL+++AGI PERLSATGYGEYRPVAPN NE D ARNRRV     KEAYN+TEPHK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_406677769.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Moorella sp. ACPs] &gt;gb|WXJ93976.1| Motility protein B [Moorella sp. ACPs]</Hit_def>
+  <Hit_accession>WP_406677769</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>311.227</Hsp_bit-score>
+      <Hsp_score>796</Hsp_score>
+      <Hsp_evalue>1.29476e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>MPVRRGGHASKDNHERWLLTYSDLITLLMIFF----------AQKMAALANSLAQTLTGAPATGILTSGGLTS--PGIAPAPG------QGDEGAELARARAELQQYIQQEGLESQVTLNTEERGLVVSVADAVLF-KGSADLTPEARDLLRQVGRALARLPNYLRVEGHTDNLPINTPAFPSNWELSTARATNVVKVLISEAGIKPERLSATGYGEYRPVAPNN-EAD-ARNRRV-----KEAYNVTEPH</Hsp_qseq>
+      <Hsp_hseq>MPRRQAEKVSHDNKERWLLTYSDLITLLMIFFVVMYSISTINAQKMAALASSLAQAFIGSPAPGLFDAGGLPSLVPGVAPAPGGQGTEGQSTEGAELARIKVELQQYIQQEGLQDQVTLKNEERGLVVSMADTILFPKGSAELTPAAHALLQRVGQALAKLPNYLRVEGHTDNLPIHTPLFPSNWELSTARATNVVKVLVNDAGINPERLSATGYGEYRPVVPNDTEANMARNRRVDIVVLKEAYNVTEPH</Hsp_hseq>
+      <Hsp_midline>MP R+    S DN ERWLLTYSDLITLLMIFF          AQKMAALA+SLAQ   G+PA G+  +GGL S  PG+APAPG      Q  EGAELAR + ELQQYIQQEGL+ QVTL  EERGLVVS+AD +LF KGSA+LTP A  LL++VG+ALA+LPNYLRVEGHTDNLPI+TP FPSNWELSTARATNVVKVL+++AGI PERLSATGYGEYRPV PN+ EA+ ARNRRV     KEAYNVTEPH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_258360116.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Moorella sulfitireducens]</Hit_def>
+  <Hit_accession>WP_258360116</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.375</Hsp_bit-score>
+      <Hsp_score>786</Hsp_score>
+      <Hsp_evalue>3.93348e-102</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>MPVRRGGHASKDNHERWLLTYSDLITLLMIFF----------AQKMAALANSLAQTLTGAPATGILTSGGLTS--PGIAPAPG------QGDEGAELARARAELQQYIQQEGLESQVTLNTEERGLVVSVADAVLF-KGSADLTPEARDLLRQVGRALARLPNYLRVEGHTDNLPINTPAFPSNWELSTARATNVVKVLISEAGIKPERLSATGYGEYRPVAPNN-EAD-ARNRRV-----KEAYNVTEPH</Hsp_qseq>
+      <Hsp_hseq>MPRRWTEKASHDNKERWLLTYSDLITLLMIFFVVMYSISSINAQKMAALASSLAQAFIGSPAPGLFEEGGLPSLVPGVAPAPGGQGTEGQGVEGTELARVKVELQQYIRQEGLEGQINLENEERGLVVSMADMILFPKGSAELTPEAQALLRRVGQALTRLPNYLRVEGHTDNLPIHTPLFPSNWELSTARATNVVKVLVNDAGISPGRLSATGYGEYRPVVPNDSEANMARNRRVDIVILKEAYNVTEPH</Hsp_hseq>
+      <Hsp_midline>MP R    AS DN ERWLLTYSDLITLLMIFF          AQKMAALA+SLAQ   G+PA G+   GGL S  PG+APAPG      QG EG ELAR + ELQQYI+QEGLE Q+ L  EERGLVVS+AD +LF KGSA+LTPEA+ LLR+VG+AL RLPNYLRVEGHTDNLPI+TP FPSNWELSTARATNVVKVL+++AGI P RLSATGYGEYRPV PN+ EA+ ARNRRV     KEAYNVTEPH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_338824801.1|</Hit_id>
+  <Hit_def>flagellar motor protein MotB [Moorella humiferrea] &gt;gb|WXJ86378.1| Motility protein B [Moorella humiferrea]</Hit_def>
+  <Hit_accession>WP_338824801</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.952</Hsp_bit-score>
+      <Hsp_score>720</Hsp_score>
+      <Hsp_evalue>5.08847e-92</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>RRGGHASK-DNHERWLLTYSDLITLLMIFF----------AQKMAALANSLAQTLTGAPATGILTSGGLTS--PGIAPAPGQG------DEGAELARARAELQQYIQQEGLESQVTLNTEERGLVVSVADAVLF-KGSADLTPEARDLLRQVGRALARLPNYLRVEGHTDNLPINTPAFPSNWELSTARATNVVKVLISEAGIKPERLSATGYGEYRPVAPNN-EAD-ARNRRV-----KEAYNVTEPHK</Hsp_qseq>
+      <Hsp_hseq>RRGGEKVKHDNKERWLLTYSDLITLLMIFFVVMYSISSLNAQKMAALASSLAQAFLGAPASGIFPEGGLPSLVAGTAPAMDSGTGLENNEELTELAGVKANLERYITQEGLQGQITLTNQERGLVVSMYDTILFPRGSAELTPEARALLRQIGRALAGLPNYLRIEGHTDNLPIHTNLYPSNWELSTARAISVVKVLINDAGINPERLSATGYGEYRPVAPNDGEANMAKNRRVDIVILKEAYNVTEPHQ</Hsp_hseq>
+      <Hsp_midline>RRGG   K DN ERWLLTYSDLITLLMIFF          AQKMAALA+SLAQ   GAPA+GI   GGL S   G APA   G      +E  ELA  +A L++YI QEGL+ Q+TL  +ERGLVVS+ D +LF +GSA+LTPEAR LLRQ+GRALA LPNYLR+EGHTDNLPI+T  +PSNWELSTARA +VVKVLI++AGI PERLSATGYGEYRPVAPN+ EA+ A+NRRV     KEAYNVTEPH+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_106005616.1|</Hit_id>
+  <Hit_def>OmpA/MotB family protein [Moorella humiferrea] &gt;gb|PRR71232.1| Motility protein B [Moorella humiferrea] &gt;gb|XAJ17904.1| Motility protein B [Moorella humiferrea]</Hit_def>
+  <Hit_accession>WP_106005616</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.796</Hsp_bit-score>
+      <Hsp_score>717</Hsp_score>
+      <Hsp_evalue>1.18066e-91</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>RRGGHASK-DNHERWLLTYSDLITLLMIFF----------AQKMAALANSLAQTLTGAPATGILTSGGLTS--PGIAPAPGQG------DEGAELARARAELQQYIQQEGLESQVTLNTEERGLVVSVADAVLF-KGSADLTPEARDLLRQVGRALARLPNYLRVEGHTDNLPINTPAFPSNWELSTARATNVVKVLISEAGIKPERLSATGYGEYRPVAPNN-EAD-ARNRRV-----KEAYNVTEPHK</Hsp_qseq>
+      <Hsp_hseq>RRGGEKVKHDNKERWLLTYSDLITLLMIFFVVMYSISSLNAQKMAALASSLAQAFLGAPASGIFPEGGLPSLVAGTEPAMDSGTGLENNEELTELAGVKANLERYITQEGLQDQITLTNQERGLVVSMYDTILFPRGSAELTPEARALLRQIGRALAGLPNYLRIEGHTDNLPIHTNLYPSNWELSTARAISVVKVLINDAGINPERLSATGYGEYRPVAPNDGEANMARNRRVDIVILKEAYNVTEPHQ</Hsp_hseq>
+      <Hsp_midline>RRGG   K DN ERWLLTYSDLITLLMIFF          AQKMAALA+SLAQ   GAPA+GI   GGL S   G  PA   G      +E  ELA  +A L++YI QEGL+ Q+TL  +ERGLVVS+ D +LF +GSA+LTPEAR LLRQ+GRALA LPNYLR+EGHTDNLPI+T  +PSNWELSTARA +VVKVLI++AGI PERLSATGYGEYRPVAPN+ EA+ ARNRRV     KEAYNVTEPH+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>877781531</Statistics_db-num>
+      <Statistics_db-len>334720180573</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

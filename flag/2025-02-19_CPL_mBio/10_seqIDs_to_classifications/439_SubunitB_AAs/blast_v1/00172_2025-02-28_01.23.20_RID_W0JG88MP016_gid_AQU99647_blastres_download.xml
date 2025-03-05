@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_3216777</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>138</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_3216777</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>138</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_020877242.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Desulfococcus multivorans] &gt;gb|AOY57159.1| ExbD: biopolymer transport protein [Desulfococcus multivorans] &gt;gb|AQU99648.1| biopolymer transporter ExbD [Desulfococcus multivorans] &gt;gb|EPR39912.1| Biopolymer transport protein ExbD/TolR [Desulfococcus multivorans DSM 2059] &gt;emb|SKA23019.1| outer membrane transport energization protein ExbD [Desulfococcus multivorans DSM 2059]</Hit_def>
+  <Hit_accession>WP_020877242</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.914</Hsp_bit-score>
+      <Hsp_score>655</Hsp_score>
+      <Hsp_evalue>2.12283e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MLRSRGRFGAGRALAESTEVDINMAPLIDMIFILLIFFLVTASFVRESGVTV--PEAASAAPGDAVGLMIGVTTAGEVFVDGRPVELRNLRAVVALFLMENPGGGVLI---RACSTGRLVAVLDQCRLAGAENTAVSAVAPSP</Hsp_qseq>
+      <Hsp_hseq>MLRSRGRFGAGRALAESTEVDINMAPLIDMIFILLIFFLVTASFVRESGVTVQRPEAASAAPGDAVGLMIGVTTAGEVFVDGRPVELRNLRAVVALFLMENPGGGVLIEADRACSTGRLVAVLDQCRLAGAENTAVSAVAPSP</Hsp_hseq>
+      <Hsp_midline>MLRSRGRFGAGRALAESTEVDINMAPLIDMIFILLIFFLVTASFVRESGVTV  PEAASAAPGDAVGLMIGVTTAGEVFVDGRPVELRNLRAVVALFLMENPGGGVLI   RACSTGRLVAVLDQCRLAGAENTAVSAVAPSP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_373499802.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Desulfococcus sp.]</Hit_def>
+  <Hit_accession>WP_373499802</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.534</Hsp_bit-score>
+      <Hsp_score>532</Hsp_score>
+      <Hsp_evalue>1.10221e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>MLRSRGRFGAGRALAESTEVDINMAPLIDMIFILLIFFLVTASFVRESGVTV--PEAASAAPGDAVGLMIGVTTAGEVFVDGRPVELRNLRAVVALFLMENPGGGVLI---RACSTGRLVAVLDQCRLAGAENTAVSAVAPSP</Hsp_qseq>
+      <Hsp_hseq>MLRSRGRLGAGRALEESTEVDINMAPLIDMIFILLLFFLVTASFVRESGVEIRRPEAASAAAGDAVGLMIGVTPSGDIFVDSQPVDLRNVRSVVTLFLMENPGGGVLIEADRECSTGRLVAVLDQCRLAGAENVAVSAVAQSP</Hsp_hseq>
+      <Hsp_midline>MLRSRGR GAGRAL ESTEVDINMAPLIDMIFILL+FFLVTASFVRESGV +  PEAASAA GDAVGLMIGVT +G++FVD +PV+LRN+R+VV LFLMENPGGGVLI   R CSTGRLVAVLDQCRLAGAEN AVSAVA SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|MCD6293782.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Deltaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MCD6293782</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.606</Hsp_bit-score>
+      <Hsp_score>392</Hsp_score>
+      <Hsp_evalue>2.27174e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MLRSRGRFGAGRALAESTEVDINMAPLIDMIFILLIFFLVTASFVRESGVTV--PEAASAAPGDAVGLMIGVTTAGEVFVDGRPVELRNLRAVVALFLMENPGGGVLIRA---CSTGRLVAVLDQCRLAGAENTAVSA</Hsp_qseq>
+      <Hsp_hseq>MRRLGGTAAAGIQEEDGGDVEINMMPLIDMIFILLIFFLVTASFVRESGVEVNRPEAATAEKKEAVGMVVGITRESHVFIDGRQVDLRRVRGLVEIFLVENAKGGVIIDADESCPTGRLVAVLDQCRLAGAENIAIAA</Hsp_hseq>
+      <Hsp_midline>M R  G   AG    +  +V+INM PLIDMIFILLIFFLVTASFVRESGV V  PEAA+A   +AVG+++G+T    VF+DGR V+LR +R +V +FL+EN  GGV+I A   C TGRLVAVLDQCRLAGAEN A++A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|MBW1781946.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Deltaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MBW1781946</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.221</Hsp_bit-score>
+      <Hsp_score>391</Hsp_score>
+      <Hsp_evalue>3.59642e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MLRSRGRFGAGRALAESTEVDINMAPLIDMIFILLIFFLVTASFVRESGVTV--PEAASAAPGDAVGLMIGVTTAGEVFVDGRPVELRNLRAVVALFLMENPGGGVLIRA---CSTGRLVAVLDQCRLAGAENTAVSA</Hsp_qseq>
+      <Hsp_hseq>MLRLGGIAAARTQDEDGGEVEINMMPLIDMIFILLIFFLVTASFVRESGVEVNRPEATTAEKKETAGMVVGITTGGHIFIDGQEVDLRRVRGLVEIFLIENAQGGVILDADASCKTGRLVAVLDQCRLAGAENIAVAA</Hsp_hseq>
+      <Hsp_midline>MLR  G   A     +  EV+INM PLIDMIFILLIFFLVTASFVRESGV V  PEA +A   +  G+++G+TT G +F+DG+ V+LR +R +V +FL+EN  GGV++ A   C TGRLVAVLDQCRLAGAEN AV+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|MBW2095223.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Deltaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MBW2095223</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.836</Hsp_bit-score>
+      <Hsp_score>390</Hsp_score>
+      <Hsp_evalue>4.83196e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MLRSRGRFGAGRALAESTEVDINMAPLIDMIFILLIFFLVTASFVRESGVTV--PEAASAAPGDAVGLMIGVTTAGEVFVDGRPVELRNLRAVVALFLMENPGGGVLIRA---CSTGRLVAVLDQCRLAGAENTAVSA</Hsp_qseq>
+      <Hsp_hseq>MLRLGGIAAAATQEEDGGDVEINMMPLIDMIFILLIFFLVTASFVRESGVEVNRPEAATAEKKESAGMVVGVTREGHIFIDGQQVDLRRVRALVEIFLVENAKGGVIIDADESCPTGRLVAVMDQCRMAGAENIAVAA</Hsp_hseq>
+      <Hsp_midline>MLR  G   A     +  +V+INM PLIDMIFILLIFFLVTASFVRESGV V  PEAA+A   ++ G+++GVT  G +F+DG+ V+LR +RA+V +FL+EN  GGV+I A   C TGRLVAV+DQCR+AGAEN AV+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|EFK08032.1|</Hit_id>
+  <Hit_def>transport energizing protein, ExbD/TolR family [delta proteobacterium NaphS2]</Hit_def>
+  <Hit_accession>EFK08032</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.451</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>7.64931e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MLRSRGRFGAGRALAESTEVDINMAPLIDMIFILLIFFLVTASFVRESGVTV--PEAASAAPGDAVGLMIGVTTAGEVFVDGRPVELRNLRAVVALFLMENPGGGVLI---RACSTGRLVAVLDQCRLAGAENTAVSA</Hsp_qseq>
+      <Hsp_hseq>MLRLGGTAAAGIQEEDGGDVEINMMPLIDMIFILLIFFLVTASFVRESGVEVNRPEAATAESKENVGMVVGITREGHAFIDGQQVHLRRIRGLVEAFLVENAEGGVIIDADEACSAGRLVAVLDQCRMAGAENIAVAA</Hsp_hseq>
+      <Hsp_midline>MLR  G   AG    +  +V+INM PLIDMIFILLIFFLVTASFVRESGV V  PEAA+A   + VG+++G+T  G  F+DG+ V LR +R +V  FL+EN  GGV+I    ACS GRLVAVLDQCR+AGAEN AV+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|MFO7985382.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Desulfatiglandaceae bacterium]</Hit_def>
+  <Hit_accession>MFO7985382</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.369</Hsp_bit-score>
+      <Hsp_score>381</Hsp_score>
+      <Hsp_evalue>1.06717e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MLRSRGRFGAGRALAESTEVDINMAPLIDMIFILLIFFLVTASFVRESGVTV--PEAASAAPGDAVGLMIGVTTAGEVFVDGRPVELRNLRAVVALFLMENPGGGVLIRA---CSTGRLVAVLDQCRLAGAENTAVSA</Hsp_qseq>
+      <Hsp_hseq>MLRLSGIAAPGRQEEDGGDVEINMMPLIDMIFILLIFFLVTASFVRESGVEVNRPEAATAQRKEAAGMVVGLTPQGHIFINGQQVDLRRVRGLVEIFLVENAQGGVILDADESCPAGRLVAVLDQCRLAGAENIAVAA</Hsp_hseq>
+      <Hsp_midline>MLR  G    GR   +  +V+INM PLIDMIFILLIFFLVTASFVRESGV V  PEAA+A   +A G+++G+T  G +F++G+ V+LR +R +V +FL+EN  GGV++ A   C  GRLVAVLDQCRLAGAEN AV+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_084066618.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Desulfocicer vacuolatum] &gt;emb|SMC39111.1| outer membrane transport energization protein ExbD [Desulfocicer vacuolatum DSM 3385]</Hit_def>
+  <Hit_accession>WP_084066618</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.369</Hsp_bit-score>
+      <Hsp_score>381</Hsp_score>
+      <Hsp_evalue>1.30179e-43</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>ESTEVDINMAPLIDMIFILLIFFLVTASFVRESGVTV--PEAASAAPGDAVGLMIGVTTAGEVFVDGRPVELRNLRAVVALFLMENPGGGVLIR---ACSTGRLVAVLDQCRLAGAENTAVSAVAP</Hsp_qseq>
+      <Hsp_hseq>DDNDIEINMMPLIDMIFILLIFFLVTASFVRESGVEVNRPQAVTAQAKEAVGFIVGITKDGNVFIDNQKVDLRRVRGLVEIFLTENSEGGIIIDADGACPTSRLVAVLDQCRLAGAQNIAVSAVKP</Hsp_hseq>
+      <Hsp_midline>+  +++INM PLIDMIFILLIFFLVTASFVRESGV V  P+A +A   +AVG ++G+T  G VF+D + V+LR +R +V +FL EN  GG++I    AC T RLVAVLDQCRLAGA+N AVSAV P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|MCP4577955.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Deltaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MCP4577955</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.214</Hsp_bit-score>
+      <Hsp_score>378</Hsp_score>
+      <Hsp_evalue>2.33825e-43</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>134</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>ESTEVDINMAPLIDMIFILLIFFLVTASFVRESGVTV--PEAASAAPGDAVGLMIGVTTAGEVFVDGRPVELRNLRAVVALFLMENPGGGVLI---RACSTGRLVAVLDQCRLAGAENTAVSAV</Hsp_qseq>
+      <Hsp_hseq>ENEDAEINMAPLIDMIFILLIFFLVTATFVRESGVEIQRPEAASAENKDAAGIFIAVTQDGDIFVDKNRVDLRSIRGIVEQFLLENPSGAVMLEADRNSITGRMVQVLDQCRMAGAENIAVSTV</Hsp_hseq>
+      <Hsp_midline>E+ + +INMAPLIDMIFILLIFFLVTA+FVRESGV +  PEAASA   DA G+ I VT  G++FVD   V+LR++R +V  FL+ENP G V++   R   TGR+V VLDQCR+AGAEN AVS V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|MBT3255611.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Deltaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MBT3255611</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.828</Hsp_bit-score>
+      <Hsp_score>377</Hsp_score>
+      <Hsp_evalue>3.21118e-43</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>134</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>ESTEVDINMAPLIDMIFILLIFFLVTASFVRESGVTV--PEAASAAPGDAVGLMIGVTTAGEVFVDGRPVELRNLRAVVALFLMENPGGGVLI---RACSTGRLVAVLDQCRLAGAENTAVSAV</Hsp_qseq>
+      <Hsp_hseq>DNSDAEINMAPLIDMIFILLIFFLVTATFVRESGVEIQRPEAASAENKDAAGIFIAVTQDGDIFVDKSRVDLRSVRGIVEQFLLENPSGAVMLEADRNSMTGRMVQVLDQCRMAGAENIAVSTV</Hsp_hseq>
+      <Hsp_midline>++++ +INMAPLIDMIFILLIFFLVTA+FVRESGV +  PEAASA   DA G+ I VT  G++FVD   V+LR++R +V  FL+ENP G V++   R   TGR+V VLDQCR+AGAEN AVS V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_028581544.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Desulfogranum japonicum]</Hit_def>
+  <Hit_accession>WP_028581544</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.214</Hsp_bit-score>
+      <Hsp_score>378</Hsp_score>
+      <Hsp_evalue>3.78643e-43</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>RGRFGAGRALAESTEVDINMAPLIDMIFILLIFFLVTASFVRESGVTV--PEAASAAPGDAVGLMIGVTTAGEVFVDGRPVELRNLRAVVALFLMENPGGGVLIRA---CSTGRLVAVLDQCRLAGAENTAVSAVAPS</Hsp_qseq>
+      <Hsp_hseq>RGSYGLD---SDRSDIEIDMMPLIDMIFILLIFFLVTASFVKESGIEVNRPEAASAEMKEATGMIIGITPEGYVFIDRNQVELRRVRGLVEIFLTENSDGGVIIDADGECPTSKLIAVLDQCRLAGAENIAVSASKPK</Hsp_hseq>
+      <Hsp_midline>RG +G     ++ ++++I+M PLIDMIFILLIFFLVTASFV+ESG+ V  PEAASA   +A G++IG+T  G VF+D   VELR +R +V +FL EN  GGV+I A   C T +L+AVLDQCRLAGAEN AVSA  P </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|MFP3911337.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Desulfobacteraceae bacterium] &gt;gb|MFP4086749.1| ExbD/TolR family protein [Desulfobacteraceae bacterium]</Hit_def>
+  <Hit_accession>MFP3911337</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.214</Hsp_bit-score>
+      <Hsp_score>378</Hsp_score>
+      <Hsp_evalue>4.00706e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MLRSRGRFGAGRALAESTEVDINMAPLIDMIFILLIFFLVTASFVRESGVTV--PEAASAAPGDAVGLMIGVTTAGEVFVDGRPVELRNLRAVVALFLMENPGGGVLIRA---CSTGRLVAVLDQCRLAGAENTAVSA</Hsp_qseq>
+      <Hsp_hseq>MLRLSGIAAAGTQDEDGGDVEINMMPLIDMIFILLIFFLVTASFVRESGVEVNRPEAATAEKKETAGMVVGLTQQGRIFIHGEQVDLRRVRGLVEIFLVEHAQGGVILDADESCPTGRLVAVLDQCRLAGAQNIAVSA</Hsp_hseq>
+      <Hsp_midline>MLR  G   AG    +  +V+INM PLIDMIFILLIFFLVTASFVRESGV V  PEAA+A   +  G+++G+T  G +F+ G  V+LR +R +V +FL+E+  GGV++ A   C TGRLVAVLDQCRLAGA+N AVSA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|PIE64075.1|</Hit_id>
+  <Hit_def>MAG: biopolymer transporter ExbD [Desulfobacterales bacterium]</Hit_def>
+  <Hit_accession>PIE64075</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.828</Hsp_bit-score>
+      <Hsp_score>377</Hsp_score>
+      <Hsp_evalue>4.23222e-43</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>GRFGAGRALAESTEVDINMAPLIDMIFILLIFFLVTASFVRESGVTV--PEAASAAPGDAVGLMIGVTTAGEVFVDGRPVELRNLRAVVALFLMENPGGGVLIRA---CSTGRLVAVLDQCRLAGAENTAVSAVAPS</Hsp_qseq>
+      <Hsp_hseq>GSFRNPTGMDDRTDIEIDMMPLIDMIFILLIFFLVTASFVKESGVEVNRPEAASAEMKEATGIIIGVTAEGHVFINREQVELRRVRGLVEIFLAENRDGGVIIDADGDCATARLIAVLDQCRLAGAENIAVSATKSK</Hsp_hseq>
+      <Hsp_midline>G F     + + T+++I+M PLIDMIFILLIFFLVTASFV+ESGV V  PEAASA   +A G++IGVT  G VF++   VELR +R +V +FL EN  GGV+I A   C+T RL+AVLDQCRLAGAEN AVSA    </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_205228791.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Desulfobulbus rhabdoformis] &gt;gb|MBM9616334.1| biopolymer transporter ExbD [Desulfobulbus rhabdoformis]</Hit_def>
+  <Hit_accession>WP_205228791</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.828</Hsp_bit-score>
+      <Hsp_score>377</Hsp_score>
+      <Hsp_evalue>4.81603e-43</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SRGRFGAGRALAESTEVDINMAPLIDMIFILLIFFLVTASFVRESGVTV--PEAASAAPGDAVGLMIGVTTAGEVFVDGRPVELRNLRAVVALFLMENPGGGVLIRA---CSTGRLVAVLDQCRLAGAENTAVSAVAPS</Hsp_qseq>
+      <Hsp_hseq>SRGAFGLE---LDRSDVEIDMMPLIDMIFILLIFFLVTASFVKESGVEVNRPEAASAEMKEATGMIIGITPEGSVFINRDAVELRRVRGLVEIFLTENSDGGVIIDADGDCPTSKLIAVLDQCRLAGAENIAVSATKPK</Hsp_hseq>
+      <Hsp_midline>SRG FG      + ++V+I+M PLIDMIFILLIFFLVTASFV+ESGV V  PEAASA   +A G++IG+T  G VF++   VELR +R +V +FL EN  GGV+I A   C T +L+AVLDQCRLAGAEN AVSA  P </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|MFP4306456.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Desulfococcaceae bacterium] &gt;gb|MFP4422032.1| ExbD/TolR family protein [Desulfococcaceae bacterium] &gt;gb|MFP4585279.1| ExbD/TolR family protein [Desulfococcaceae bacterium]</Hit_def>
+  <Hit_accession>MFP4306456</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.443</Hsp_bit-score>
+      <Hsp_score>376</Hsp_score>
+      <Hsp_evalue>7.48761e-43</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>EVDINMAPLIDMIFILLIFFLVTASFVRESGVTV--PEAASAAPGDAVGLMIGVTTAGEVFVDGRPVELRNLRAVVALFLMENPGGGVLIRA---CSTGRLVAVLDQCRLAGAENTAVSAVAPSP</Hsp_qseq>
+      <Hsp_hseq>EAEINMAPLIDMIFILLIFFLVTASFVRESGVEVERPVAASAAAREKPGLRIAVTQEGEIFMDRQGVDMRSLRGRVELFLMENPGGGVLIEADAGSRTGRLVSVLDQVRLAGAEHVAVAARSERP</Hsp_hseq>
+      <Hsp_midline>E +INMAPLIDMIFILLIFFLVTASFVRESGV V  P AASAA  +  GL I VT  GE+F+D + V++R+LR  V LFLMENPGGGVLI A     TGRLV+VLDQ RLAGAE+ AV+A +  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|EFK12225.1|</Hit_id>
+  <Hit_def>transport energizing protein, ExbD/TolR family [delta proteobacterium NaphS2]</Hit_def>
+  <Hit_accession>EFK12225</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>1.30235e-42</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>134</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>EVDINMAPLIDMIFILLIFFLVTASFVRESGVTV--PEAASAAPGDAVGLMIGVTTAGEVFVDGRPVELRNLRAVVALFLMENPGGGVLI---RACSTGRLVAVLDQCRLAGAENTAVSAV</Hsp_qseq>
+      <Hsp_hseq>DAEINMAPLIDMIFILLIFFLVTATFVRESGVEIERPEAASAETKDAAGIFIAVTENGDIFVDKNRIDLRSVRGIVEQFLLENPSGTVMIEADRKSITGRMVQVLDQCRLAGAENIAVSTV</Hsp_hseq>
+      <Hsp_midline>+ +INMAPLIDMIFILLIFFLVTA+FVRESGV +  PEAASA   DA G+ I VT  G++FVD   ++LR++R +V  FL+ENP G V+I   R   TGR+V VLDQCRLAGAEN AVS V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|MFO7599220.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Candidatus Desulfacyla sp.]</Hit_def>
+  <Hit_accession>MFO7599220</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>2.25437e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MLRSRGRFGAGRALAESTEVDINMAPLIDMIFILLIFFLVTASFVRESGVTV--PEAASAAPGDAVGLMIGVTTAGEVFVDGRPVELRNLRAVVALFLMENPGGGVLI---RACSTGRLVAVLDQCRLAGAENTAVSA</Hsp_qseq>
+      <Hsp_hseq>MLRLGGIAAARIQDEDAGDVEINMMPLIDMIFILLIFFLVTASFVRESGVEVNRPEATTAEKKEAAGMVVGITQAGQIFIDAEQVDLRRVRGLVEIFLVENAQAGVILDADEACPTGRLVAVLDQCRLAGAKNIAVAA</Hsp_hseq>
+      <Hsp_midline>MLR  G   A     ++ +V+INM PLIDMIFILLIFFLVTASFVRESGV V  PEA +A   +A G+++G+T AG++F+D   V+LR +R +V +FL+EN   GV++    AC TGRLVAVLDQCRLAGA+N AV+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|MFP4031238.1|</Hit_id>
+  <Hit_def>ExbD/TolR family protein [Desulfococcaceae bacterium]</Hit_def>
+  <Hit_accession>MFP4031238</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.132</Hsp_bit-score>
+      <Hsp_score>370</Hsp_score>
+      <Hsp_evalue>6.38192e-42</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>EVDINMAPLIDMIFILLIFFLVTASFVRESGVTV--PEAASAAPGDAVGLMIGVTTAGEVFVDGRPVELRNLRAVVALFLMENPGGGVLIRA---CSTGRLVAVLDQCRLAGAENTAVSAVAPSP</Hsp_qseq>
+      <Hsp_hseq>EAEINMAPLIDMIFILLIFLLVTASFVRESGVEVERPVAASAAAREKPGLRIAVTQEGEIFMDRQGVDMRSLRGRVELFLMENPGGGVLIEADAGSRTGRLVSVLDQVRLAGAEHVAVAARSERP</Hsp_hseq>
+      <Hsp_midline>E +INMAPLIDMIFILLIF LVTASFVRESGV V  P AASAA  +  GL I VT  GE+F+D + V++R+LR  V LFLMENPGGGVLI A     TGRLV+VLDQ RLAGAE+ AV+A +  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|MCF8144096.1|</Hit_id>
+  <Hit_def>biopolymer transporter ExbD [Deltaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MCF8144096</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.362</Hsp_bit-score>
+      <Hsp_score>368</Hsp_score>
+      <Hsp_evalue>1.12434e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>MLRSRGRFGAGRALAESTEVDINMAPLIDMIFILLIFFLVTASFVRESGVTV--PEAASAAPGDAVGLMIGVTTAGEVFVDGRPVELRNLRAVVALFLMENPGGGVLI---RACSTGRLVAVLDQCRLAGAENTAVSA</Hsp_qseq>
+      <Hsp_hseq>MLRLGGIAAARIQDEDAGDVEINMMPLIDMIFILLIFFLVTASFVRESGVEVNRPEATTAEKKEAAGMVAGITEGGQIFIDGEQVDLRRVRGLVEIFLVENAQAGVILDADEACPTGRLVAVLDQCRLAGAKNIAVAA</Hsp_hseq>
+      <Hsp_midline>MLR  G   A     ++ +V+INM PLIDMIFILLIFFLVTASFVRESGV V  PEA +A   +A G++ G+T  G++F+DG  V+LR +R +V +FL+EN   GV++    AC TGRLVAVLDQCRLAGA+N AV+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|PID76130.1|</Hit_id>
+  <Hit_def>MAG: biopolymer transporter ExbD [Deltaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>PID76130</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.362</Hsp_bit-score>
+      <Hsp_score>368</Hsp_score>
+      <Hsp_evalue>1.14673e-41</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SRGRFGAGRALAESTEVDINMAPLIDMIFILLIFFLVTASFVRESGVTV--PEAASAAPGDAVGLMIGVTTAGEVFVDGRPVELRNLRAVVALFLMENPGGGVLIRACS---TGRLVAVLDQCRLAGAENTAVSAVAPS</Hsp_qseq>
+      <Hsp_hseq>QRGSYGIA---GERSDVEIDMMPLIDMIYILLIFFLVTASFVKESGVEVDRPEAASAEMKEATGMIIGITSDGSVFINREQVELRRVRGLVEIFLAENADGGVIIDADGGSLTAQLIAVLDQCRLAGAENIAVSATKPK</Hsp_hseq>
+      <Hsp_midline> RG +G      E ++V+I+M PLIDMI+ILLIFFLVTASFV+ESGV V  PEAASA   +A G++IG+T+ G VF++   VELR +R +V +FL EN  GGV+I A     T +L+AVLDQCRLAGAEN AVSA  P </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>877781531</Statistics_db-num>
+      <Statistics_db-len>334720180573</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
