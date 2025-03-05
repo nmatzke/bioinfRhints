@@ -78,6 +78,13 @@ length(tr2$tip.label)
 tr2fn = "bac120_r220_58102tips.newick"
 write.tree(tr2, file=tr2fn)
 
+# Re-order bac120_r220_df to match tree
+convert_rows_of_bac120_r220_genomeID_to_tr2 = match(tr2$tip.label, table=bac120_r220_df$genomeID)
+sum(is.na(convert_rows_of_bac120_r220_genomeID_to_tr2))
+
+bac120_r220_df = bac120_r220_df[convert_rows_of_bac120_r220_genomeID_to_tr2,]
+
+
 
 #######################################################
 # Now, cross reference the genomes to our Excel table of genomes we've got; remove those phyla
@@ -123,13 +130,21 @@ length(xls_rownums_of_gtdb_tips_GCF) # 58102
 tips_in_xls_species_TF = !is.na(xls_rownums_of_gtdb_tips_GCF)
 sum(tips_in_xls_species_TF)
 
-tiprows_in_xls_species = bac120_r220_df[TF,]
+tiprows_in_xls_species = bac120_r220_df[tips_in_xls_species_TF,]
 tiprows_in_xls_species
 
 # tree phyla already included:
 phyla_already_included_in_tree = sort(unique(tiprows_in_xls_species$phylum))
 length(phyla_already_included_in_tree)
-# 149
+# 35
+
+# Sanity check
+bac120_r220_df$genomeID[1:10]
+tr2$tip.label[1:10]
+
+sort(bac120_r220_df$genomeID[1:10])
+sort(tr2$tip.label[1:10])
+
 
 # Cut tips that are from phyla already included, except for those in species table
 phylum_already_used_TF = bac120_r220_df$phylum %in% phyla_already_included_in_tree
@@ -139,6 +154,64 @@ length(phylum_already_used_TF)
 tips_with_no_sampling_needed = tr2$tip.label[phylum_already_used_TF]
 tree_with_all_unsampled_phyla = drop.tip(phy=tr2, tip=tips_with_no_sampling_needed)
 length(tree_with_all_unsampled_phyla$tip.label)
+# 3231
 
-plot(tree_with_all_unsampled_phyla)
-bac120_r220_df[phylum_already_used_TF==FALSE,]
+
+#plot(tree_with_all_unsampled_phyla)
+bac120_r220_wUnsampledPhyla_tiplabels_table = bac120_r220_df[phylum_already_used_TF==FALSE,]
+dim(bac120_r220_wUnsampledPhyla_tiplabels_table)
+
+length(unique(bac120_r220_wUnsampledPhyla_tiplabels_table$phylum)) # 136
+sort(unique(bac120_r220_wUnsampledPhyla_tiplabels_table$phylum))
+rev(sort(table(bac120_r220_wUnsampledPhyla_tiplabels_table$phylum)))
+# p__Bacillota_I p__Marinisomatota p__WOR-3 p__Desulfobacterota_B p__Dependentiae p__Bipolaricaulota p__Zixibacteria 
+# 1257 138 113 102 88 82 69 
+
+paste0(bac120_r220_wUnsampledPhyla_tiplabels_table$species1, bac120_r220_wUnsampledPhyla_tiplabels_table$species2, collapse="", sep="_")
+bac120_r220_wUnsampledPhyla_tiplabels = mapply(FUN=paste, bac120_r220_wUnsampledPhyla_tiplabels_table$genomeID, bac120_r220_wUnsampledPhyla_tiplabels_table$phylum, bac120_r220_wUnsampledPhyla_tiplabels_table$species1, bac120_r220_wUnsampledPhyla_tiplabels_table$species2, MoreArgs=list(sep="_"))
+bac120_r220_wUnsampledPhyla_tiplabels = gsub(pattern="p__", replacement="PHYLUM_", x=bac120_r220_wUnsampledPhyla_tiplabels)
+bac120_r220_wUnsampledPhyla_tiplabels = gsub(pattern="s__", replacement="sp_", x=bac120_r220_wUnsampledPhyla_tiplabels)
+bac120_r220_wUnsampledPhyla_tiplabels
+tree_with_all_unsampled_phyla_newLabels = tree_with_all_unsampled_phyla
+matchnums_treetips_in_bac120_r220_wUnsampledPhyla_tiplabels = match_grepl(pattern=tree_with_all_unsampled_phyla$tip.label, x=bac120_r220_wUnsampledPhyla_tiplabels, return_counts=FALSE)
+matchnums_treetips_in_bac120_r220_wUnsampledPhyla_tiplabels
+
+tail(matchnums_treetips_in_bac120_r220_wUnsampledPhyla_tiplabels)
+# 26 3227 3228 3229 3230 3231
+# Everything is in order
+
+bac120_r220_wUnsampledPhyla_tiplabels_table[order(bac120_r220_wUnsampledPhyla_tiplabels_table$phylum),]
+
+
+# Exclude the "sp" (genomes of undescribed species)
+species2_starts_with_sp_TF = startsWith(x=bac120_r220_wUnsampledPhyla_tiplabels_table$species2, prefix="sp")
+sort(bac120_r220_wUnsampledPhyla_tiplabels_table$species2[species2_starts_with_sp_TF==FALSE])
+sum(species2_starts_with_sp_TF)
+sum(species2_starts_with_sp_TF==FALSE) # 388 hits on non-sp starts
+length(species2_starts_with_sp_TF)
+
+
+
+printall(matrix(sort(bac120_r220_wUnsampledPhyla_tiplabels_table$species2[species2_starts_with_sp_TF==TRUE]),ncol=1))
+
+
+sp_to_add_back = c("spiroformis", "spiroformisspiroformis_Aspumans", "spiroformis", "spiroformis_A", "spumans")
+
+sp_to_add_back_TF = bac120_r220_wUnsampledPhyla_tiplabels_table$species2 %in% sp_to_add_back
+species2_starts_with_sp_TF[sp_to_add_back_TF == TRUE] = FALSE
+sum(species2_starts_with_sp_TF==FALSE) # 388 is now 391
+
+rev(sort(table(bac120_r220_wUnsampledPhyla_tiplabels_table$phylum[species2_starts_with_sp_TF==FALSE])))
+
+rev(sort(table(bac120_r220_wUnsampledPhyla_tiplabels_table$phylum[species2_starts_with_sp_TF==TRUE])))
+
+
+# Write out the table of described genomes in phyla we haven't sampled yet
+table_of_described_genomes_in_unsampled_phyla = bac120_r220_wUnsampledPhyla_tiplabels_table[species2_starts_with_sp_TF==FALSE,]
+dim(table_of_described_genomes_in_unsampled_phyla)
+
+printall(table_of_described_genomes_in_unsampled_phyla[order(table_of_described_genomes_in_unsampled_phyla$phylum),])
+
+outfn = "table_of_described_genomes_in_unsampled_phyla.txt"
+write.table(x=table_of_described_genomes_in_unsampled_phyla[order(table_of_described_genomes_in_unsampled_phyla$phylum),], file=outfn, append=FALSE, quote=FALSE, sep="\t", row.names=FALSE, col.names=TRUE)
+
