@@ -84,26 +84,61 @@ write.tree(tr2, file=tr2fn)
 #######################################################
 xlsfn = "/GitHub/bioinfRhints/flag/get_MotBs/groupTax_1282_mafftConstr_2023-08-07_edit_wGeneOrder_BestMotBs.xlsx"
 
+# Try the species list
+xlsfn = "/GitHub/bioinfRhints/flag/AQB_classification/species_list_10071623_NJMh.xlsx"
+
 xls = openxlsx::read.xlsx(xlsfn)
 head(xls)
+dim(xls)
+# 423  34
 
-xls_genome_ids = firstwords(strings=xls$genome_id, split="\\.")
+#xls_genome_ids = firstwords(strings=xls$genome_id, split="\\.")
+xls_genome_ids = firstwords(strings=xls$GenBank.ID, split="\\.")
+xls_genome_ids = xls_genome_ids[!is.na(xls_genome_ids)]
 head(xls_genome_ids)
 tail(xls_genome_ids)
 
 xls_genome_ids_GCF = gsub(pattern="GCA", replacement="GCF", x=xls_genome_ids)
 tipnames_GCF = gsub(pattern="GCA", replacement="GCF", x=bac120_r220_df$genomeID)
 
-rownums_GCF = match_grepl(patterns=xls_genome_ids_GCF, x=tipnames_GCF, return_counts=FALSE)
-sum(is.na(rownums_GCF))
-sum(!is.na(rownums_GCF))
-length(rownums_GCF)
+xls_rows_in_tree_GCF = match_grepl(patterns=xls_genome_ids_GCF, x=tipnames_GCF, return_counts=FALSE)
+sum(is.na(xls_rows_in_tree_GCF))
+sum(!is.na(xls_rows_in_tree_GCF)) # 249
+length(xls_rows_in_tree_GCF) # 420
 
-rownums
+tipnames_GCF_prefix = firstwords(strings=tipnames_GCF, split="_")
+table(tipnames_GCF_prefix)
+# GB    RS  (GenBank and RefSeq)
+tipnames_GCF2 = gsub(pattern="GB_", replacement="", x=tipnames_GCF)
+tipnames_GCF3 = gsub(pattern="RS_", replacement="", x=tipnames_GCF2)
+tipnames_GCF4 = firstwords(strings=tipnames_GCF3, split="\\.")
+head(tipnames_GCF4)
+xls_rownums_of_gtdb_tips_GCF = match_grepl(patterns=tipnames_GCF4, x=xls_genome_ids_GCF, return_counts=FALSE)
+sum(is.na(xls_rownums_of_gtdb_tips_GCF))
+sum(!is.na(xls_rownums_of_gtdb_tips_GCF)) # 222
+length(xls_rownums_of_gtdb_tips_GCF) # 58102
 
 
+# Phyla already covered in the sampled genomes
+tips_in_xls_species_TF = !is.na(xls_rownums_of_gtdb_tips_GCF)
+sum(tips_in_xls_species_TF)
 
+tiprows_in_xls_species = bac120_r220_df[TF,]
+tiprows_in_xls_species
 
+# tree phyla already included:
+phyla_already_included_in_tree = sort(unique(tiprows_in_xls_species$phylum))
+length(phyla_already_included_in_tree)
+# 149
 
+# Cut tips that are from phyla already included, except for those in species table
+phylum_already_used_TF = bac120_r220_df$phylum %in% phyla_already_included_in_tree
+sum(phylum_already_used_TF)
+length(phylum_already_used_TF)
 
+tips_with_no_sampling_needed = tr2$tip.label[phylum_already_used_TF]
+tree_with_all_unsampled_phyla = drop.tip(phy=tr2, tip=tips_with_no_sampling_needed)
+length(tree_with_all_unsampled_phyla$tip.label)
 
+plot(tree_with_all_unsampled_phyla)
+bac120_r220_df[phylum_already_used_TF==FALSE,]
