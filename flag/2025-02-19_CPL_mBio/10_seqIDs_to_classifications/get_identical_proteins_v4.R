@@ -66,7 +66,15 @@ best_MotBs_xlsfn = "/GitHub/bioinfRhints/flag/get_MotBs/groupTax_1282_mafftConst
 xls = openxlsx::read.xlsx(xlsxFile=best_MotBs_xlsfn, sheet=1)
 
 MotB_matchnums = match_grepl(patterns=seqids, x=xls$tipnames3_uniq)
-MotB_matchnums
+min(MotB_matchnums$counts)
+max(MotB_matchnums$counts)
+MotB_matchnums$matchnums
+
+MotB_seqids = xls$MotB_bestMatch_gid[MotB_matchnums$matchnums]
+MotB_seqids
+
+seqids[is.na(MotB_seqids)]
+
 
 # 5-10 minutes the first time
 bigdf_379_BRDs = get_uniprot_data_on_seqids(seqids, runslow=TRUE, base_fn="379_AQBs", version="v1")
