@@ -89,7 +89,7 @@ bac120_r220_df = bac120_r220_df[convert_rows_of_bac120_r220_genomeID_to_tr2,]
 #######################################################
 # Now, cross reference the genomes to our Excel table of genomes we've got; remove those phyla
 #######################################################
-xlsfn = "/GitHub/bioinfRhints/flag/get_MotBs/groupTax_1282_mafftConstr_2023-08-07_edit_wGeneOrder_BestMotBs.xlsx"
+#xlsfn = "/GitHub/bioinfRhints/flag/get_MotBs/groupTax_1282_mafftConstr_2023-08-07_edit_wGeneOrder_BestMotBs.xlsx"
 
 # Try the species list
 xlsfn = "/GitHub/bioinfRhints/flag/AQB_classification/species_list_10071623_NJMh.xlsx"
