@@ -12,6 +12,10 @@ wd = "/GitHub/bioinfRhints/flag/2025-02-19_CPL_mBio/10_seqIDs_to_classifications
 setwd(wd)
 
 motB_seqs_w_MotA_prefix_fn = "motB_filtered.fasta"
+motB_seqs_w_MotA_prefix = read_FASTA_safe(motB_seqs_w_MotA_prefix_fn, type="AA")
+names(motB_seqs_w_MotA_prefix)
+motB_seqnames = all_but_prefixes(names(motB_seqs_w_MotA_prefix), split="_")
+motB_seqnames
 
 
 # MotA Beast2 MCC tree
@@ -26,8 +30,9 @@ catn(seqidsA[1:10])
 # MotB Beast2 MCC tree
 #######################################################
 trfn = "B379tree.nexus"
-tr = read.nexus(trfn)
-seqnames = tr$tip.label
+trB = read.nexus(trfn)
+trB$tip.label = gsub(pattern="'", replacement="", x=trB$tip.label)
+seqnames = trB$tip.label
 head(seqnames)
 seqidsB = get_leading_seqids_from_name(strings=seqnames, split="_")
 catn(seqidsB[1:10])
@@ -36,8 +41,9 @@ catn(seqidsB[1:10])
 # MotAB Beast2 MCC tree
 #######################################################
 trfn = "AB379tree.nexus"
-tr = read.nexus(trfn)
-seqnames = tr$tip.label
+trA = read.nexus(trfn)
+trA$tip.label = gsub(pattern="'", replacement="", x=trA$tip.label)
+seqnames = trA$tip.label
 head(seqnames)
 seqidsAB = get_leading_seqids_from_name(strings=seqnames, split="_")
 catn(seqidsAB[1:10])
