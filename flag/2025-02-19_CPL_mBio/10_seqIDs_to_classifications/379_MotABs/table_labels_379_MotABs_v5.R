@@ -45,8 +45,50 @@ trA = read.nexus(trfn)
 trA$tip.label = gsub(pattern="'", replacement="", x=trA$tip.label)
 seqnames = trA$tip.label
 head(seqnames)
-seqidsAB = get_leading_seqids_from_name(strings=seqnames, split="_")
-catn(seqidsAB[1:10])
+seqidsA = get_leading_seqids_from_name(strings=seqnames, split="_")
+catn(seqidsA[1:10])
 
 
 
+######################################################
+# MotAs from Caroline's paper
+#######################################################
+
+# 5-10 minutes the first time - needs Terminal, not R.app
+bigdf_379_AQBs = get_uniprot_data_on_seqids(seqidsA, runslow=TRUE, base_fn="379_AQBs", version="v1")
+head(bigdf_379_AQBs)
+dim(bigdf_379_AQBs)
+
+
+# 30 seconds to re-load from saved results
+bigdf_379_AQBs = get_uniprot_data_on_seqids(seqidsA, runslow=FALSE, base_fn="379_AQBs", version="v1")
+head(bigdf_379_AQBs)
+dim(bigdf_379_AQBs)
+
+
+bigdf_outdf_A3 = cbind(seqidsA, bigdf_379_AQBs)
+
+write.table(x=bigdf_outdf_A3, file="379_AQBs_uniProt_info_table_v1.txt", append=FALSE, quote=FALSE, sep="\t", row.names=FALSE, col.names=TRUE)
+
+
+
+
+######################################################
+# MotBs from Caroline's paper
+#######################################################
+
+# 5-10 minutes the first time
+bigdf_379_BRDs = get_uniprot_data_on_seqids(seqidsB, runslow=TRUE, base_fn="379_BRDs", version="v1")
+head(bigdf_379_BRDs)
+dim(bigdf_379_BRDs)
+
+
+# 30 seconds to re-load from saved results
+bigdf_379_BRDs = get_uniprot_data_on_seqids(seqidsB, runslow=FALSE, base_fn="379_BRDs", version="v1")
+head(bigdf_379_BRDs)
+dim(bigdf_379_BRDs)
+
+
+bigdf_outdf_B3 = cbind(seqidsB, bigdf_379_BRDs)
+
+write.table(x=bigdf_outdf_B3, file="379_BRDs_uniProt_info_table_v1.txt", append=FALSE, quote=FALSE, sep="\t", row.names=FALSE, col.names=TRUE)
