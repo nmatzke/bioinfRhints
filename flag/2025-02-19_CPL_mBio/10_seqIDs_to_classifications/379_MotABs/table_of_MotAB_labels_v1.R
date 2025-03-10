@@ -17,6 +17,10 @@ source("/GitHub/str2phy/Rsrc/blast/blastR_setup/blastsequences_v4.R")
 wd = "/GitHub/bioinfRhints/flag/2025-02-19_CPL_mBio/10_seqIDs_to_classifications/379_MotABs/"
 setwd(wd)
 
+MotA_seqs_raw = sapply(X=as.character(read_FASTA_safe("motA_filtered.fasta", type="AA")), FUN=paste0, collapse="")
+MotB_seqs_raw = sapply(X=as.character(read_FASTA_safe("motB_filtered.fasta", type="AA")), FUN=paste0, collapse="")
+
+
 motB_seqs_w_MotA_prefix_fn = "motB_filtered.fasta"
 motB_seqs_w_MotA_prefix = read_FASTA_safe(motB_seqs_w_MotA_prefix_fn, type="AA")
 names(motB_seqs_w_MotA_prefix)
@@ -315,10 +319,92 @@ write.table(x=top_hits_As_df, file="top_hits_As_v1.txt", append=FALSE, quote=FAL
 write.table(x=top_hits_Bs_df, file="top_hits_Bs_v1.txt", append=FALSE, quote=FALSE, sep="\t", row.names=FALSE, col.names=TRUE)
 
 
-
+#######################################################
+# Diagnose issues
+#######################################################
 motAB_table_df[motAB_table_df$motB=="AVQ29523",]
 
 issue_to_fix_TF = motAB_table_df$motA==motAB_table_df$motB
 motAB_table_df[issue_to_fix_TF,]
 sum(issue_to_fix_TF)
+
+names(motB_seqs_w_MotA_prefix)[issue_to_fix_TF]
+
+motB_seqs_w_MotA_prefix_aschar = sapply(X=as.character(motB_seqs_w_MotA_prefix), FUN=paste0, collapse="")
+motB_seqs_w_MotA_prefix_aschar
+seqs_to_check_B_with_A_labels_file = motB_seqs_w_MotA_prefix_aschar[issue_to_fix_TF]
+seqs_to_check_B_with_A_labels_file
+
+# Get the corresponding sequences from the A-only and B-only file, as well
+MotA_seqnums = match_grepl(patterns=motAB_table_df$motA[issue_to_fix_TF], x=names(MotA_seqs_raw), return_counts=TRUE)
+MotA_seqnums
+seqs_to_check_A_file = MotA_seqs_raw[MotA_seqnums$matchnums]
+
+MotB_seqnums = match_grepl(patterns=motAB_table_df$motB[issue_to_fix_TF], x=names(MotB_seqs_raw), return_counts=TRUE)
+MotB_seqnums
+seqs_to_check_B_file = MotB_seqs_raw[MotB_seqnums$matchnums]
+
+
+#######################################################
+# These are sequences with non-matching seqids between A and B
+#######################################################
+remaining_seqs = motB_seqs_w_MotA_prefix_aschar[issue_to_fix_TF==FALSE]
+seqs_with_identical_IDs = motB_seqs_w_MotA_prefix_aschar[issue_to_fix_TF==TRUE]
+
+Bs_from_genbank_labels = classify_MotBfam_labels(list_of_strings=names(remaining_seqs))
+
+# Drop sequences that are not fine
+dropTF1 = grepl(pattern="ExbD", x=Bs_from_genbank_labels, ignore.case=TRUE)
+dropTF2 = grepl(pattern="TolR", x=Bs_from_genbank_labels, ignore.case=TRUE)
+dropTF3 = grepl(pattern="MotB", x=Bs_from_genbank_labels, ignore.case=TRUE)
+dropTF4 = grepl(pattern="MotD", x=Bs_from_genbank_labels, ignore.case=TRUE)
+dropTF5 = grepl(pattern="OmpA", x=Bs_from_genbank_labels, ignore.case=TRUE)
+dropTF = (dropTF1 + dropTF2 + dropTF3 + dropTF4 + dropTF5) > 0
+
+seqs_that_are_not_fine = remaining_seqs[dropTF == FALSE]
+seqs_that_are_not_fine = c(seqs_with_identical_IDs, seqs_that_are_not_fine)
+seqs_that_are_fine = remaining_seqs[dropTF == TRUE]
+length(seqs_that_are_not_fine) # 104
+length(seqs_that_are_fine)     # 275
+
+
+
+motA_ids_to_find_motBs_for_in_xls = get_firstwords(names(seqs_that_are_not_fine), split="_")
+motA_ids_to_find_motBs_for_in_xls
+
+# Look up neighbors in the spreadsheet
+xlsfn = "/GitHub/bioinfRhints/flag/get_MotBs/groupTax_1282_mafftConstr_2023-08-07_edit_wGeneOrder_BestMotBs.xlsx"
+xls = openxlsx::read.xlsx(xlsfn)
+head(xls)
+
+rownums = match_grepl(patterns=motA_ids_to_find_motBs_for_in_xls, x=xls$tipnames3_uniq)
+rownums
+sum(is.na(rownums$matchnums))
+
+MotB_bestMatch_gids = xls$MotB_bestMatch_gid[rownums$matchnums]
+MotB_bestMatch_names = xls$MotB_bestMatch_name[rownums$matchnums]
+
+cbind(MotB_bestMatch_gids, MotB_bestMatch_names)
+naTF = is.na(MotB_bestMatch_gids)
+not_NA_TF = !is.na(MotB_bestMatch_gids)
+naNums = (1:length(naTF))[naTF]
+naNums
+not_NA_Nums = (1:length(not_NA_TF))[not_NA_TF]
+not_NA_Nums
+
+# New order of fixed ones
+
+
+
+#######################################################
+# Assemble:
+# original sequences that 
+# - are fine
+# - are fixable
+# - need manual fixing
+#######################################################
+
+# Ones that are fine
+
+
 
