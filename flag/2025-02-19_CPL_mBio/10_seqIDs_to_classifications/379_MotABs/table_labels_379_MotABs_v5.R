@@ -50,6 +50,10 @@ catn(seqidsA[1:10])
 
 
 
+run_bigslow = FALSE
+if (run_bigslow == TRUE)
+{
+
 ######################################################
 # MotAs from Caroline's paper
 #######################################################
@@ -66,9 +70,9 @@ head(bigdf_379_AQBs)
 dim(bigdf_379_AQBs)
 
 
-bigdf_outdf_A3 = cbind(seqidsA, bigdf_379_AQBs)
+AQBs_379_df = cbind(seqidsA, bigdf_379_AQBs)
 
-write.table(x=bigdf_outdf_A3, file="379_AQBs_uniProt_info_table_v1.txt", append=FALSE, quote=FALSE, sep="\t", row.names=FALSE, col.names=TRUE)
+write.table(x=AQBs_379_df, file="379_AQBs_uniProt_info_table_v1.txt", append=FALSE, quote=FALSE, sep="\t", row.names=FALSE, col.names=TRUE)
 
 
 
@@ -89,6 +93,59 @@ head(bigdf_379_BRDs)
 dim(bigdf_379_BRDs)
 
 
-bigdf_outdf_B3 = cbind(seqidsB, bigdf_379_BRDs)
+BRDs_379_df = cbind(seqidsB, bigdf_379_BRDs)
 
-write.table(x=bigdf_outdf_B3, file="379_BRDs_uniProt_info_table_v1.txt", append=FALSE, quote=FALSE, sep="\t", row.names=FALSE, col.names=TRUE)
+write.table(x=BRDs_379_df, file="379_BRDs_uniProt_info_table_v1.txt", append=FALSE, quote=FALSE, sep="\t", row.names=FALSE, col.names=TRUE)
+
+} # END if (run_bigslow == TRUE)
+
+#######################################################
+# Read in from saved tables
+#######################################################
+AQBs_379_df = read.table(file="379_AQBs_uniProt_info_table_v1.txt", header=TRUE, sep="\t", quote="", row.names=NULL, fill=TRUE, strip.white=TRUE, blank.lines.skip=TRUE, stringsAsFactors=FALSE)
+
+BRDs_379_df = read.table(file="379_BRDs_uniProt_info_table_v1.txt", header=TRUE, sep="\t", quote="", row.names=NULL, fill=TRUE, strip.white=TRUE, blank.lines.skip=TRUE, stringsAsFactors=FALSE)
+
+names_uniProt_info_table = names(AQBs_379_df)
+cols_to_replace = names_uniProt_info_table[-1]
+cols_to_replace
+
+# Some IDs have no label info
+TF1 = isblank_TF(AQBs_379_df$accession)
+TF2 = isblank_TF(AQBs_379_df$seqids_wGenBank_codes_txt) == FALSE
+TF = (TF1 + TF2) == 2
+sum(TF)
+tmpinfo = get_uniprot_data_on_seqids(seqids=AQBs_379_df$seqids_wGenBank_codes_txt[TF], runslow=TRUE, base_fn="seqids", version="v1")
+names(tmpinfo) = cols_to_replace
+dim(tmpinfo)
+
+AQBs_379_df[TF,cols_to_replace] = tmpinfo[,cols_to_replace]
+tail(AQBs_379_df)
+
+tmpTF = AQBs_379_df$seqids_wGenBank_codes_txt[TF] == tmpinfo$seqids_wGenBank_codes_txt
+AQBs_379_df$seqids_wGenBank_codes_txt[TF][tmpTF==FALSE]
+tmpinfo$seqids_wGenBank_codes_txt[tmpTF==FALSE]
+newTF = isblank_TF(AQBs_379_df$accession)
+sum(newTF)
+AQBs_379_df[newTF,]
+
+names(AQBs_379_df)
+names(tmpinfo)
+
+res = get_IDs_identical_proteins(seqids=AQBs_379_df$seqid[newTF], runslow=TRUE, identical_protIDs_fn="tmp_protIDs_identical_to_seqIDs_v1.Rdata")
+
+recodes = genbank_prefixes()
+res2_reasonable_list = sapply(X=res, FUN=reduce_identical_proteins_to_reasonable_list, codes=recodes)
+sum(sapply(X=res2_reasonable_list, FUN=is.null))
+sum(sapply(X=res, FUN=is.null))
+
+reduce_identical_proteins_to_reasonable_list <- function(identical_seqids, codes=genbank_prefixes(), num_other_IDs=5)
+
+TF1 = isblank_TF(BRDs_379_df$accession)
+TF2 = isblank_TF(BRDs_379_df$seqids_wGenBank_codes_txt) == FALSE
+TF = (TF1 + TF2) == 2
+sum(TF)
+tmpinfo = get_uniprot_data_on_seqids(seqids=, runslow=TRUE, base_fn="seqids", version="v1")
+
+
+get_uniprot_data_on_seqids(seqids=, runslow=TRUE, base_fn="seqids", version="v1")
