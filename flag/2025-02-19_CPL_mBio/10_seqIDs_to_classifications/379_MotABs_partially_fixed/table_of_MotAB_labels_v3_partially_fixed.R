@@ -14,36 +14,25 @@ library(queryup)
 sourceall("/GitHub/str2phy/Rsrc/")
 source("/GitHub/str2phy/Rsrc/blast/blastR_setup/blastsequences_v4.R")
 
-wd = "/GitHub/bioinfRhints/flag/2025-02-19_CPL_mBio/10_seqIDs_to_classifications/379_MotABs/"
+wd = "/GitHub/bioinfRhints/flag/2025-02-19_CPL_mBio//10_seqIDs_to_classifications/379_MotABs_partially_fixed/"
 setwd(wd)
 
-MotA_seqs_raw = sapply(X=as.character(read_FASTA_safe("motA_filtered.fasta", type="AA")), FUN=paste0, collapse="")
-MotB_seqs_raw = sapply(X=as.character(read_FASTA_safe("motB_filtered.fasta", type="AA")), FUN=paste0, collapse="")
 
+MotAs_partially_fixed = read.table(file="MotAs_partially_fixed.txt", header=TRUE, sep="\t", quote="", strip.white=TRUE)
+MotBs_partially_fixed = read.table(file="MotBs_partially_fixed.txt", header=TRUE, sep="\t", quote="", strip.white=TRUE)
 
-motB_seqs_w_MotA_prefix_fn = "motB_filtered.fasta"
-motB_seqs_w_MotA_prefix = read_FASTA_safe(motB_seqs_w_MotA_prefix_fn, type="AA")
-names(motB_seqs_w_MotA_prefix)
-motB_seqnames = all_but_prefixes(names(motB_seqs_w_MotA_prefix), split="_")
-motB_seqnames
-
-motA_seqIDs_from_FASTA = get_firstwords(names(motB_seqs_w_MotA_prefix), split="_")
-motB_seqIDs_from_FASTA = get_firstwords(motB_seqnames, split="_")
-motAB_table_df = as.data.frame(cbind(motA_seqIDs_from_FASTA, motB_seqIDs_from_FASTA), stringsAsFactors=FALSE)
-names(motAB_table_df) = c("motA", "motB")
-head(motAB_table_df)
-write.table(x=motAB_table_df, file="379_motAB_table_df.txt", append=FALSE, quote=FALSE, sep="\t", row.names=FALSE, col.names=TRUE)
-
+motA_seqids = MotAs_partially_fixed$MotAs_partially_fixed
+motB_seqids = MotBs_partially_fixed$MotBs_partially_fixed
 
 
 #######################################################
 # Get the original labels from GenBank
 #######################################################
 # Request too large!
-# As_from_genbank = rentrez::entrez_fetch(db="protein", id=motA_seqIDs_from_FASTA, rettype="fasta")
-# Bs_from_genbank = rentrez::entrez_fetch(db="protein", id=motB_seqIDs_from_FASTA, rettype="fasta")
-As_from_genbank = get_fasta_seqs_from_seqids(seqids=motA_seqIDs_from_FASTA, tmpfn="As_from_genbank.fasta", db="protein", type="AA")
-Bs_from_genbank = get_fasta_seqs_from_seqids(seqids=motB_seqIDs_from_FASTA, tmpfn="Bs_from_genbank.fasta", db="protein", type="AA")
+# As_from_genbank = rentrez::entrez_fetch(db="protein", id=motA_seqids, rettype="fasta")
+# Bs_from_genbank = rentrez::entrez_fetch(db="protein", id=motB_seqids, rettype="fasta")
+As_from_genbank = get_fasta_seqs_from_seqids(seqids=motA_seqids, tmpfn="As_from_genbank.fasta", db="protein", type="AA", more_than_500seqs=FALSE)
+Bs_from_genbank = get_fasta_seqs_from_seqids(seqids=motB_seqids, tmpfn="Bs_from_genbank.fasta", db="protein", type="AA", more_than_500seqs=FALSE)
 
 As_from_genbank_labels = full_seqnames_to_just_label(list_of_strings=names(As_from_genbank), split=" ")
 Bs_from_genbank_labels = full_seqnames_to_just_label(list_of_strings=names(Bs_from_genbank), split=" ")
@@ -51,8 +40,9 @@ Bs_from_genbank_labels = full_seqnames_to_just_label(list_of_strings=names(Bs_fr
 head(As_from_genbank_labels)
 head(Bs_from_genbank_labels)
 
-
-
+motAB_table_df = as.data.frame(cbind(motA_seqids, motB_seqids), stringsAsFactors=FALSE)
+names(motAB_table_df) = c("motA", "motB")
+motAB_table_df
 
 #######################################################
 # MotA Beast2 MCC tree
@@ -90,13 +80,6 @@ catn(seqidsAB[1:10])
 #######################################################
 # Read in metadata from saved tables
 #######################################################
-
-NOT_NEEDED='
-AQBs_379_df = read.table(file="379_AQBs_uniProt_info_table_v1.txt", header=TRUE, sep="\t", quote="", row.names=NULL, fill=TRUE, strip.white=TRUE, blank.lines.skip=TRUE, stringsAsFactors=FALSE)
-
-BRDs_379_df = read.table(file="379_BRDs_uniProt_info_table_v1.txt", header=TRUE, sep="\t", quote="", row.names=NULL, fill=TRUE, strip.white=TRUE, blank.lines.skip=TRUE, stringsAsFactors=FALSE)
-' # NOT_NEEDED
-
 tip_specifers_FIT = c("QDU25289", "ALF47869")
 tip_specifers_TGI5 = c("QDU25289", "QXB11670")
 tip_specifers_TGI4 = c("ADC89566", "ALF47869")
@@ -176,69 +159,69 @@ rev(sort(table(Bs_from_genbank_labels)))
 # Use the table() function to get the most common genbank labels
 #######################################################
 # MotA labels on the AB tree
-matchnums = match(x=seqids_in_FIT, table=motA_seqIDs_from_FASTA)
+matchnums = match(x=seqids_in_FIT, table=motA_seqids)
 match_labels = As_from_genbank_labels[matchnums]
 FIT_labels_A = match_labels
 
-matchnums = match(x=seqids_in_TGI5, table=motA_seqIDs_from_FASTA)
+matchnums = match(x=seqids_in_TGI5, table=motA_seqids)
 match_labels = As_from_genbank_labels[matchnums]
 TGI5_labels_A = match_labels
 
-matchnums = match(x=seqids_in_TGI4, table=motA_seqIDs_from_FASTA)
+matchnums = match(x=seqids_in_TGI4, table=motA_seqids)
 match_labels = As_from_genbank_labels[matchnums]
 TGI4_labels_A = match_labels
 
-matchnums = match(x=seqids_in_GIT, table=motA_seqIDs_from_FASTA)
+matchnums = match(x=seqids_in_GIT, table=motA_seqids)
 match_labels = As_from_genbank_labels[matchnums]
 GIT_labels_A = match_labels
 
-matchnums = match(x=seqids_in_CCD2, table=motA_seqIDs_from_FASTA)
+matchnums = match(x=seqids_in_CCD2, table=motA_seqids)
 match_labels = As_from_genbank_labels[matchnums]
 CCD2_labels_A = match_labels
 
-matchnums = match(x=seqids_in_CCD3, table=motA_seqIDs_from_FASTA)
+matchnums = match(x=seqids_in_CCD3, table=motA_seqids)
 match_labels = As_from_genbank_labels[matchnums]
 CCD3_labels_A = match_labels
 
-matchnums = match(x=seqids_in_CCD2star, table=motA_seqIDs_from_FASTA)
+matchnums = match(x=seqids_in_CCD2star, table=motA_seqids)
 match_labels = As_from_genbank_labels[matchnums]
 CCD2star_labels_A = match_labels
 
-matchnums = match(x=seqids_in_CCD3star, table=motA_seqIDs_from_FASTA)
+matchnums = match(x=seqids_in_CCD3star, table=motA_seqids)
 match_labels = As_from_genbank_labels[matchnums]
 CCD3star_labels_A = match_labels
 
 
 # MotB labels on the AB tree
-matchnums = match(x=motAB_table_df[match(seqids_in_FIT, table= motAB_table_df$motA),2], table=motB_seqIDs_from_FASTA)
+matchnums = match(x=motAB_table_df[match(seqids_in_FIT, table= motAB_table_df$motA),2], table=motB_seqids)
 match_labels = Bs_from_genbank_labels[matchnums]
 FIT_labels_B = match_labels
 
-matchnums = match(x=motAB_table_df[match(seqids_in_TGI5, table= motAB_table_df$motA),2], table=motB_seqIDs_from_FASTA)
+matchnums = match(x=motAB_table_df[match(seqids_in_TGI5, table= motAB_table_df$motA),2], table=motB_seqids)
 match_labels = Bs_from_genbank_labels[matchnums]
 TGI5_labels_B = match_labels
 
-matchnums = match(x=motAB_table_df[match(seqids_in_TGI4, table= motAB_table_df$motA),2], table=motB_seqIDs_from_FASTA)
+matchnums = match(x=motAB_table_df[match(seqids_in_TGI4, table= motAB_table_df$motA),2], table=motB_seqids)
 match_labels = Bs_from_genbank_labels[matchnums]
 TGI4_labels_B = match_labels
 
-matchnums = match(x=motAB_table_df[match(seqids_in_GIT, table= motAB_table_df$motA),2], table=motB_seqIDs_from_FASTA)
+matchnums = match(x=motAB_table_df[match(seqids_in_GIT, table= motAB_table_df$motA),2], table=motB_seqids)
 match_labels = Bs_from_genbank_labels[matchnums]
 GIT_labels_B = match_labels
 
-matchnums = match(x=motAB_table_df[match(seqids_in_CCD2, table= motAB_table_df$motA),2], table=motB_seqIDs_from_FASTA)
+matchnums = match(x=motAB_table_df[match(seqids_in_CCD2, table= motAB_table_df$motA),2], table=motB_seqids)
 match_labels = Bs_from_genbank_labels[matchnums]
 CCD2_labels_B = match_labels
 
-matchnums = match(x=motAB_table_df[match(seqids_in_CCD3, table= motAB_table_df$motA),2], table=motB_seqIDs_from_FASTA)
+matchnums = match(x=motAB_table_df[match(seqids_in_CCD3, table= motAB_table_df$motA),2], table=motB_seqids)
 match_labels = Bs_from_genbank_labels[matchnums]
 CCD3_labels_B = match_labels
 
-matchnums = match(x=motAB_table_df[match(seqids_in_CCD2star, table= motAB_table_df$motA),2], table=motB_seqIDs_from_FASTA)
+matchnums = match(x=motAB_table_df[match(seqids_in_CCD2star, table= motAB_table_df$motA),2], table=motB_seqids)
 match_labels = Bs_from_genbank_labels[matchnums]
 CCD2star_labels_B = match_labels
 
-matchnums = match(x=motAB_table_df[match(seqids_in_CCD3star, table= motAB_table_df$motA),2], table=motB_seqIDs_from_FASTA)
+matchnums = match(x=motAB_table_df[match(seqids_in_CCD3star, table= motAB_table_df$motA),2], table=motB_seqids)
 match_labels = Bs_from_genbank_labels[matchnums]
 CCD3star_labels_B = match_labels
 
@@ -319,134 +302,18 @@ write.table(x=top_hits_As_df, file="top_hits_As_v1.txt", append=FALSE, quote=FAL
 write.table(x=top_hits_Bs_df, file="top_hits_Bs_v1.txt", append=FALSE, quote=FALSE, sep="\t", row.names=FALSE, col.names=TRUE)
 
 
-#######################################################
-# Diagnose issues
-#######################################################
-motAB_table_df[motAB_table_df$motB=="AVQ29523",]
-
-issue_to_fix_TF = motAB_table_df$motA==motAB_table_df$motB
-motAB_table_df[issue_to_fix_TF,]
-sum(issue_to_fix_TF)
-
-names(motB_seqs_w_MotA_prefix)[issue_to_fix_TF]
-
-motB_seqs_w_MotA_prefix_aschar = sapply(X=as.character(motB_seqs_w_MotA_prefix), FUN=paste0, collapse="")
-motB_seqs_w_MotA_prefix_aschar
-seqs_to_check_B_with_A_labels_file = motB_seqs_w_MotA_prefix_aschar[issue_to_fix_TF]
-seqs_to_check_B_with_A_labels_file
-
-# Get the corresponding sequences from the A-only and B-only file, as well
-MotA_seqnums = match_grepl(patterns=motAB_table_df$motA[issue_to_fix_TF], x=names(MotA_seqs_raw), return_counts=TRUE)
-MotA_seqnums
-seqs_to_check_A_file = MotA_seqs_raw[MotA_seqnums$matchnums]
-
-MotB_seqnums = match_grepl(patterns=motAB_table_df$motB[issue_to_fix_TF], x=names(MotB_seqs_raw), return_counts=TRUE)
-MotB_seqnums
-seqs_to_check_B_file = MotB_seqs_raw[MotB_seqnums$matchnums]
-
-
-#######################################################
-# These are sequences with non-matching seqids between A and B
-#######################################################
-remaining_seqs = motB_seqs_w_MotA_prefix_aschar[issue_to_fix_TF==FALSE]
-seqs_with_identical_IDs = motB_seqs_w_MotA_prefix_aschar[issue_to_fix_TF==TRUE]
-
-Bs_from_genbank_labels = classify_MotBfam_labels(list_of_strings=names(remaining_seqs))
-
-# Drop sequences that are not fine
-dropTF1 = grepl(pattern="ExbD", x=Bs_from_genbank_labels, ignore.case=TRUE)
-dropTF2 = grepl(pattern="TolR", x=Bs_from_genbank_labels, ignore.case=TRUE)
-dropTF3 = grepl(pattern="MotB", x=Bs_from_genbank_labels, ignore.case=TRUE)
-dropTF4 = grepl(pattern="MotD", x=Bs_from_genbank_labels, ignore.case=TRUE)
-dropTF5 = grepl(pattern="OmpA", x=Bs_from_genbank_labels, ignore.case=TRUE)
-dropTF = (dropTF1 + dropTF2 + dropTF3 + dropTF4 + dropTF5) > 0
-
-seqs_that_are_not_fine = remaining_seqs[dropTF == FALSE]
-seqs_that_are_not_fine = c(seqs_with_identical_IDs, seqs_that_are_not_fine)
-seqs_that_are_fine = remaining_seqs[dropTF == TRUE]
-length(seqs_that_are_not_fine) # 104
-length(seqs_that_are_fine)     # 275
 
 
 
-motA_ids_to_find_motBs_for_in_xls = get_firstwords(names(seqs_that_are_not_fine), split="_")
-motA_ids_to_find_motBs_for_in_xls
-
-# Look up neighbors in the spreadsheet
-xlsfn = "/GitHub/bioinfRhints/flag/get_MotBs/groupTax_1282_mafftConstr_2023-08-07_edit_wGeneOrder_BestMotBs.xlsx"
-xls = openxlsx::read.xlsx(xlsfn)
-head(xls)
-
-rownums = match_grepl(patterns=motA_ids_to_find_motBs_for_in_xls, x=xls$tipnames3_uniq)
-rownums
-sum(is.na(rownums$matchnums))
-
-MotB_bestMatch_gids = xls$MotB_bestMatch_gid[rownums$matchnums]
-MotB_bestMatch_names = xls$MotB_bestMatch_name[rownums$matchnums]
-
-best_match_MotBs = cbind(MotB_bestMatch_gids, MotB_bestMatch_names)
-naTF = is.na(MotB_bestMatch_gids)
-not_NA_TF = !is.na(MotB_bestMatch_gids)
-naNums = (1:length(naTF))[naTF]
-naNums
-not_NA_Nums = (1:length(not_NA_TF))[not_NA_TF]
-not_NA_Nums
-
-# New order of fixed ones
-seqs_that_are_not_fine1 = seqs_that_are_not_fine[not_NA_Nums][order(names(seqs_that_are_not_fine[not_NA_Nums]))]
-
-seqs_that_are_not_fine2 = seqs_that_are_not_fine[naNums][order(names(seqs_that_are_not_fine[naNums]))]
-
-# Stick together all the sequences
-seqs_that_are_not_fine = c(seqs_that_are_not_fine1, seqs_that_are_not_fine2)
-seqs_that_are_not_fine
-
- 
-#######################################################
-# Assemble:
-# original sequences that 
-# - are fine
-# - are fixable
-# - need manual fixing
-#######################################################
-
-seqs_to_output_to_table = c(seqs_that_are_fine, seqs_that_are_not_fine)
-length(seqs_to_output_to_table)
-
-classification = c(rep("seqs_fine", times=length(seqs_that_are_fine)), rep("seqs_not_fine", times=length(seqs_that_are_not_fine)))
-length(classification)
-
-motA_ids_seqs_to_output = get_firstwords(names(seqs_to_output_to_table), split="_")
-motA_ids_seqs_to_output
-
-matchnums_to_original_MotB_w_MotA_preface = match_grepl(patterns=motA_ids_seqs_to_output, x=names(motB_seqs_w_MotA_prefix), return_counts=FALSE)
-matchnums_to_original_MotB_w_MotA_preface
-
-original_motB_ids_seqs_to_output = motB_seqnames[matchnums_to_original_MotB_w_MotA_preface]
-original_motB_ids_seqs_to_output
-
-original_motB_labels_seqs_to_output = get_firstwords(original_motB_ids_seqs_to_output, split="_")
-original_motB_labels_seqs_to_output
-
-
-NM_xls_rownum = match_grepl(patterns=motA_ids_seqs_to_output, x=xls$tipnames3_uniq, return_counts=TRUE)
-NM_xls_MotB_bestMatch_gids = xls$MotB_bestMatch_gid[NM_xls_rownum$matchnums]
-NM_xls_MotB_bestMatch_names = xls$MotB_bestMatch_name[NM_xls_rownum$matchnums]
-
-NM_xls_MotB_bestMatch_gids_prefix = get_firstwords(NM_xls_MotB_bestMatch_gids, split="\\.")
-NM_xls_MotB_bestMatch_gids_prefix
-
-new_order = 1:379
-
-original_motB_seqs_w_MotA_prefix_names = names(motB_seqs_w_MotA_prefix)[matchnums_to_original_MotB_w_MotA_preface]
-original_motB_seqs_w_MotA_prefix_names
 
 
 
-output_table_MotB_fixing = cbind(new_order, matchnums_to_original_MotB_w_MotA_preface, original_motB_seqs_w_MotA_prefix_names, motA_ids_seqs_to_output, original_motB_ids_seqs_to_output, original_motB_labels_seqs_to_output, NM_xls_rownum, NM_xls_MotB_bestMatch_gids_prefix, NM_xls_MotB_bestMatch_gids, NM_xls_MotB_bestMatch_names)
 
-output_table_MotB_fixing_df = as.data.frame(output_table_MotB_fixing, stringsAsFactors=FALSE)
-names(output_table_MotB_fixing_df)
 
-write.table(x=output_table_MotB_fixing_df, file="output_table_MotB_fixing_df.txt", append=FALSE, quote=FALSE, sep="\t", row.names=FALSE, col.names=TRUE)
+
+
+
+
+
+
 

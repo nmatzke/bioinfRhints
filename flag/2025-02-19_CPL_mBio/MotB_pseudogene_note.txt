@@ -1,0 +1,89 @@
+
+You've got:
+https://www.ncbi.nlm.nih.gov/nuccore/CP000709.1?from=1090128&to=1091193
+
+=========================================================================
+  gene            complement(1090128..1091193)
+                     /locus_tag="BOV_A1049"
+                     /note="this annotation is based on an automated transfer
+                     of annotation from Brucella suis 1330 GenBank records
+                     (AE014291 and AE014292); chemotaxis motB protein,
+                     authentic frameshift; this gene contains a frame shift
+                     which is not the result of sequencing error"
+                     /pseudo
+    gene            complement(1063..>1066)
+                     /locus_tag="BOV_A1050"
+     CDS             complement(1063..>1066)
+                     /locus_tag="BOV_A1050"
+                     /note="this annotation is based on an automated transfer
+                     of annotation from Brucella suis 1330 GenBank records
+                     (AE014291 and AE014292)"
+                     /codon_start=2
+                     /transl_table=11
+                     /product="conserved hypothetical protein"
+                     /protein_id="ABQ62238.1"
+                     /translation="MSALSISRYLTDFSTHHIDDKAVEIITAPVPPKPLTPVAGEAAE
+                     KPAAVGQEQAEMAAVIALEEEKRAAFEAGREDGHREAQVLYEAEKARLLREHEAEIET
+                     LRATFSREQALLLAGSLTEALSALEQSLSGQMAEILMLLLAAKMEHEAVAEFARRIAA
+                     LALEGEAPEISGPARLLEALQAHGVLLPSGCRFSETASNELSFSFGERMLETRIAPLL
+                     EELKAAVK"                     
+ORIGIN      
+        1 tcatggcttg gacttgatga aaatatcgat gcggcggttt tccgcggcat tcggatcgtt
+       61 ggggttcttc ggctggcggt ctgcgtagcc ctcgacacgc aacacgcgct tttcatcaag
+      121 gccaccgcgc accagcatat aataggccat ctgggcacgg gccgaggata gccgccgatt
+      181 gtcataggtc gcgcttttga acgggcgcgc atccgtatga ccgctgatga tgacctcgcc
+      241 cggctggcgg gcaatcacct gcgcaatgcg ctccagcatc tgcaccacac gggcatccgg
+      301 cttggcggag ccgatcgtga acatgccata atcaaccttg tcggtaagct ggatcatcac
+      361 gcccccttcc acgggaacca cggtaacatc cggcatcggt tcgggtttgg cggccttgcc
+      421 cgcgttcggg gccggttcac ctgttgcggc tttcttcaga tcggcgatca gttcttcctg
+      481 cgtttcagcc tttttgggct gcgcctgcgg caagggtgca gtttgcggca cggtttgcgg
+      541 cgcaggcggg gtcaggtctc ccaccgcctt gctcgaccag taatccgggc tgaaaggatc
+      601 ccgataggcc tcgccgccat ccgcaccgct ggcggagccg gattgcgccg tgccgccatc
+      661 gccctttgcc gactgatttt gcagaacgcc tgtttcatgc gccaattccg caagcatggc
+      721 atagggctcg cggaagagct gccgctcctc ctggtcgctt gccgggcgca cagtggtgtc
+      781 gttgacgacc ttggtgctac tttccacctg ctggtcgctt tcaaaacgaa ccttgccatc
+      841 gcgctggtcc acattttcca cgcccttcgg gctggaatgg cggtccataa gcttgacggg
+      901 attgaaatag ctcgccaccg ccgccttggt ctcctcattg gcagcattga tgagccacat
+      961 gaccaggaaa aaagccatca tcgccgtcat gatgcgcctc atggtcgtca tgcccgcccc
+     1021 ggcgaacaat gatgatctcg cgcttcgttt cgggctcaat gttcat
+=========================================================================     
+     
+...from Brucella ovis ATCC 25840 chromosome II, complete sequence.
+
+
+
+
+I see: AE014292 leads to:
+https://www.ncbi.nlm.nih.gov/nuccore/AE014292
+
+     gene            complement(1132372..1133472)
+                     /gene="motB"
+                     /locus_tag="BRA1144"
+     CDS             complement(1132372..1133472)
+                     /gene="motB"
+                     /locus_tag="BRA1144"
+                     /note="identified by match to protein family HMM PF00691"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="chemotaxis motB protein"
+                     /protein_id="AAN34303.1"
+                     /translation="MNIEPETKREIIIVRRGGHDDHEAHHGGVWKIAYADFMTAMMAF
+                     FLVMWLINAANEETKAAVASYFNPVKLMDRHSSPKGVENVDQRDGKVRFESDQQVESS
+                     TKVVNDTTVRPASDQEERQLFREPYAMLAELAHETGVLQNQSAKGDGGTAQSGSASGA
+                     DGGEAYRDPFSPDYWSSKAVGDLTPPAPQTVPQTAPLPQAQPKKAETQEELIADLKKA
+                     ATGEPAPNAGKAAKPEPMPDVTVVPVEGGVMIQLTDKVDYGMFTIGSAKPDARVVQML
+                     ERIAQVIARQPGEVIISGHTDARPFKSATYDNWRLSSARAQMAYYMLVRGGLDEKRVL
+                     RVEGYADRQPKNPNDPNAAENRRIDIFIKSKP"
+                     
+...from Brucella suis 1330 chromosome II, complete sequence.
+
+As we are doing a macroevolution-scale phylogeny, I'd say the difference between Brucella ovis ATCC 25840 and Brucella suis 1330 is immaterial, and it is more authentic to use the the Brucella suis 1330 MotB sequence than to use some weird frameshifted sequence that will be radically different and/or a pseudogene. 
+
+Just put a "Notes on sequences" section in the Supplemental Material, and note small details like this, i.e. "MotB from strain X was not detected but is noted as an authentic frameshifted pseudogene. As the goal of this study is a macroevolutionary-scale phylogeny, this was replaced with seqID Z from closely-related strain Y."
+
+Cheers!
+Nick
+
+
+
+
