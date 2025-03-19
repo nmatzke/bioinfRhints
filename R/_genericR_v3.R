@@ -735,22 +735,58 @@ get_startline <- function(fn, startline=1, endline=100, startstr_to_find)
 
 # Run something like this:
 # grep -m 2 --line-number "Iteration[[:space:]]" params_ln_continuous_BayesTraits.txt.log.txt
-grep_startline <- function(fn, hitnum=1, startstr_to_find="Iteration[[:space:]]")
+grep_startline <- function(fn, hitnum=1, startstr_to_find="Iteration[[:space:]]", start_at_line=NULL)
 	{
-	# Use grep to return the line number of the FIRST line containing the matching string
-	cmdstr = paste("grep -m ", hitnum, " --line-number ", startstr_to_find, " ", fn, sep="")
+	ex="
+	start_at_line = 70
+	hitnum=1
+	startstr_to_find='Ccodes'
+	"
+	
+	if (is.null(start_at_line) == TRUE)
+		{
+		# Use grep to return the line number of the FIRST line containing the matching string
+		cmdstr = paste("grep -m ", hitnum, " --line-number ", startstr_to_find, " ", fn, sep="")
 
-	# intern = TRUE reports the result to R
-	grep_return = system(cmdstr, intern=TRUE) 
+		# intern = TRUE reports the result to R
+		grep_return = system(cmdstr, intern=TRUE) 
+		
+		# If startstring not found, return NA
+		if (length(grep_return) == 0)
+			{
+			return(NA)
+			}
+		
+		# split on whitespace (spaces and tabs)
+		grep_list = strsplit(grep_return, ":")[[1]]
+		
+		linenum = as.numeric(grep_list[1])	
+		}
+	if (is.null(start_at_line) == FALSE)
+		{
+		sedstr = paste0("'", start_at_line, ",", get_numlines(fn), "p'")
+		sed_prefix = paste0("sed -n ", sedstr, " ", fn, " | ")
+		
+		cmdstr2 = paste("grep -m ", hitnum, " --line-number ", startstr_to_find, sep="")
+		
+		cmdstr = paste0(sed_prefix, cmdstr2)
+		cmdstr
+
+		# intern = TRUE reports the result to R
+		grep_return = system(cmdstr, intern=TRUE) 
+		# If startstring not found, return NA
+		if (length(grep_return) == 0)
+			{
+			return(NA)
+			}
+		
+		# split on whitespace (spaces and tabs)
+		grep_list = strsplit(grep_return, ":")[[1]]
+		
+		linenum = start_at_line - 1 + as.numeric(grep_list[1])	
+		}
 	
-	# split on whitespace (spaces and tabs)
-	grep_list = strsplit(grep_return, ":")[[1]]
-	
-	linenum = as.numeric(grep_list[1])	
 	return(linenum)
-	
-	# If startstring not found, return NA
-	return(NA)
 	}
 	
 	
