@@ -1,0 +1,625 @@
+nmat471
+unic123
+google authenticator
+
+Code	Title	Status	First Day
+nesi99991	NeSI Training	Active	4/09/2019
+uoa03763	Flagellum phylogenetics
+
+
+nmat471
+unic123
+google authenticator
+
+You can alternatively enter the alphanumeric ID: 5D26LQMOONSSW2KZBEXVBNBP3JHWTADULWOFDM2FDPGLRDSNATWYMLS5
+
+Join online Office Hours with NeSI Support on Wednesdays. Bring questions - big or small.
+Details at: https://docs.nesi.org.nz/Getting_Started/Getting_Help/Weekly_Online_Office_Hours/
+
+
+
+
+#######################################################
+# LOCAL SETUP
+# https://docs.nesi.org.nz/Scientific_Computing/Terminal_Setup/Standard_Terminal_Setup/
+#######################################################
+mkdir -p ~/.ssh/sockets
+nano ~/.ssh/config
+
+chmod 600 ~/.ssh/config
+
+ssh mahuika
+
+Then:
+NESI password
+2nd authenticator code, from Google Authenticator phone app linked to NESI via NESI QR code in your My NESI account
+
+
+
+
+# Example config files
+config
+2025-03-20_old
+---------------
+Host *
+    ControlMaster auto
+    ControlPath ~/.ssh/sockets/ssh_mux_%h_%p_%r
+    ControlPersist 1
+
+Host ga-vl01
+   User nmat471
+   Hostname ga-vl01.mahuika.nesi.org.nz
+   ProxyCommand ssh -W %h:%p lander
+   ForwardX11 yes
+   ForwardX11Trusted yes
+   ServerAliveInterval 300
+   ServerAliveCountMax 2
+
+Host lander
+   User nmat471
+   HostName lander02.nesi.org.nz
+   ForwardX11 yes
+   ForwardX11Trusted yes
+   ServerAliveInterval 300
+   ServerAliveCountMax 2
+   
+Host mahuika
+   User nmat471
+   Hostname login.mahuika.nesi.org.nz
+   ProxyCommand ssh -W %h:%p lander
+   ForwardX11 yes
+   ForwardX11Trusted yes
+   ServerAliveInterval 300   
+   ServerAliveCountMax 2  
+---------------
+
+config
+2025-03-20_new
+-----------
+Host *
+    ControlMaster auto
+    ControlPath ~/.ssh/sockets/ssh_mux_%h_%p_%r
+    ControlPersist 1
+
+Host lander
+   User nmat471
+   HostName lander.nesi.org.nz
+   ForwardX11 yes
+   ForwardX11Trusted yes
+   ServerAliveInterval 300
+   ServerAliveCountMax 2
+
+Host mahuika
+   User nmat471
+   Hostname login.mahuika.nesi.org.nz
+   ProxyCommand ssh -W %h:%p lander
+   ForwardX11 yes
+   ForwardX11Trusted yes
+   ServerAliveInterval 300
+   ServerAliveCountMax 2
+-----------
+
+chmod 600 ~/.ssh/config
+
+nmat471
+
+
+
+Sites
+jupyter.nesi.org.nz
+my.nesi.org.nz
+
+
+
+
+
+
+
+
+
+
+
+#######################################################
+# 2025-03-20_NESI_workshop
+#######################################################
+Final reminder: Introduction to HPC Carpentry on NeSI
+Inbox
+
+Nisha Ghatak <nisha.ghatak@nesi.org.nz>
+8:53 AM (1 hour ago)
+to bcc: me
+
+Kia ora koutou,
+
+
+The Introduction to High Performance Computing workshop will begin from 10:00 am NZDT today on 20 March.
+
+
+You will need to have a NeSI account in order to access the cluster.
+
+
+
+Some additional details have been included in this email.
+
+
+
+NeSI Account 
+
+At this stage, you should have access to the NeSI platforms. Please note that you will need to use 2FA (Two-Factor Authentication) to login. If you encounter any problems, please email support@nesi.org.nz
+
+
+
+
+
+Please join us using the Zoom details below: 
+
+
+
+Join Zoom Meeting
+
+https://nesi.zoom.us/j/88541400212?pwd=NEUR0DuaPmVKGFGm01tUUVnO6WqLEX.1
+
+
+
+Meeting ID: 885 4140 0212
+
+Passcode: 363628
+
+
+
+Additional details
+
+Please note the following detail that can enhance your experience at the workshop:
+
+If possible, please use 2 monitors (1 for zoom and 1 for accessing web browser). 
+
+We look forward to seeing all of you! 
+
+
+
+Ngā mihi, 
+
+NeSI Training Team
+
+
+Nisha Ghatak, Ph.D.
+Research Communities Advisor - Training Lead
+New Zealand eScience Infrastructure (NeSI)
+Board member, The Carpentries
+Waipapa Taumata Rau | The University of Auckland
+B439-1035, 70 Symonds Street, Auckland 1010
+Aotearoa New Zealand
+
+
+Introduction to High Performance Computing with NeSI
+20 March 2025  |  10:00 am - 03:00 pm NZDT
+
+https://docs.google.com/document/d/1zeU1uQDrLVStp_llrXfKw4YZ8qmvYLellafh5M9FEic/edit?pli=1&tab=t.0#heading=h.kn6123h8mwe
+
+https://docs.google.com/document/d/1zeU1uQDrLVStp_llrXfKw4YZ8qmvYLellafh5M9FEic/edit?tab=t.0#heading=h.kn6123h8mwe
+
+
+Nick account:
+nmat471
+
+
+People:
+
+Anthony Shaw
+Nisha Ghatak
+Callum Walley <callum.walley@nesi.org.nz>
+
+
+
+
+
+
+Access via jupyter
+ https://jupyter.nesi.org.nz
+
+Workshop:
+Please have your project ID handy:       nesi99991
+
+
+
+
+HPC background:
+http://nesi.github.io/hpc-intro/01-cluster/index.html
+
+
+Unix shell background - to use the cluster
+(software course)
+
+
+NESI training:
+
+Introduction to High-Performance Computing
+https://nesi.github.io/hpc-intro/
+
+Working on a remote HPC system
+https://jupyter.nesi.org.nz/user/nmat471/lab/tree/nesi99991
+
+Navigating Files and Directories
+https://nesi.github.io/hpc-intro/02-unix-shell/index.html
+
+Click Terminal
+
+# Where you are: print working directory
+pwd
+/home/nmat471
+
+cd ex
+ls
+head species_EnsemblBacteria.txt
+
+
+# Storage quota
+nn_storage_quota
+
+Quota Location                    Available         Used      Use%     State       Inodes        IUsed     IUse%    IState
+home_nmat471                            20G       7.198G    35.99%        OK        92160          654     0.71%        OK
+project_nesi99991                      800G       520.1G    65.01%        OK      2000000       440736    22.04%        OK
+project_uoa03763                       100G       2.636G     2.64%        OK       100000         1899     1.90%        OK
+nobackup_nesi99991                      30T       9.694T    32.31%        OK      4000000      2162954    54.07%        OK
+nobackup_uoa03763                       10T            0     0.00%        OK      1000000           59     0.01%        OK
+
+
+
+ls /nesi/nobackup/nesi99991
+
+# Workshop directory:
+cd /nesi/nobackup/nesi99991/introhpc2503
+
+# Each student uses their own directory
+mkdir nmat471
+
+ls -la /nesi/nobackup/nesi99991/introhpc2503
+
+
+# Globbing, ie wildcard "*:
+cd /nesi/nobackup/nesi99991/introhpc2503
+ls ka*
+
+
+
+# Edit text:
+nano
+Control-O Write Out (save)
+Control-X Exit, "n"
+
+
+# BREAK
+
+https://nesi.github.io/hpc-intro/04-modules/index.html
+
+# Store a variable in UNIX
+FOO="bar"
+$FOO
+# nothing
+
+echo $FOO
+bar
+
+FOO=ls
+$FOO
+
+
+# All the stuff in the environment
+env
+
+# Environment Modules
+# Environment modules are the solution to these problems. 
+# A module is a self-contained description of a software package
+# – it contains the settings required to run a software package 
+# and, usually, encodes required dependencies on other software packages.
+
+# Wipe previous modules
+module purge
+
+# Available modules
+module avail
+
+# Supported Applications
+# https://docs.nesi.org.nz/Scientific_Computing/Supported_Applications/
+
+# Load R
+module load R
+which R
+
+# /opt/nesi/CS400_centos7_bdw/R/4.2.1-gimkl-2022a/bin/R
+
+# take path, translate (tr) : to \n
+echo $PATH | tr ":" "\n"
+
+/opt/nesi/CS400_centos7_bdw/XALT/current/bin
+/opt/nesi/CS400_centos7_bdw/R/4.2.1-gimkl-2022a/bin
+/opt/nesi/CS400_centos7_bdw/OpenSSL/1.1.1k-GCCcore-11.3.0/bin
+/opt/nesi/CS400_centos7_bdw/nodejs/16.15.1-GCCcore-11.3.0/bin
+/opt/nesi/CS400_centos7_bdw/Java/17
+/opt/nesi/CS400_centos7_bdw/Java/17/bin
+/opt/nesi/CS400_centos7_bdw/cURL/7.83.1-GCCcore-11.3.0/bin
+/opt/nesi/CS400_centos7_bdw/SQLite/3.36.0-GCCcore-11.3.0/bin
+/opt/nesi/CS400_centos7_bdw/libxml2/2.9.10-GCCcore-11.3.0/bin
+/opt/nesi/CS400_centos7_bdw/libpng/1.6.37-GCCcore-11.3.0/bin
+/opt/nesi/CS400_centos7_bdw/ncurses/6.2-GCCcore-11.3.0/bin
+/opt/nesi/CS400_centos7_bdw/PCRE2/10.40-GCCcore-11.3.0/bin
+/opt/nesi/CS400_centos7_bdw/XZ/5.2.5-GCCcore-11.3.0/bin
+/opt/nesi/CS400_centos7_bdw/bzip2/1.0.8-GCCcore-11.3.0/bin
+/opt/nesi/CS400_centos7_bdw/impi/2021.5.1-GCC-11.3.0/mpi/2021.5.1/libfabric/bin
+/opt/nesi/CS400_centos7_bdw/impi/2021.5.1-GCC-11.3.0/mpi/2021.5.1/bin
+/opt/nesi/CS400_centos7_bdw/UCX/1.12.1-GCC-11.3.0/bin
+/opt/nesi/CS400_centos7_bdw/numactl/2.0.14-GCC-11.3.0/bin
+/opt/nesi/CS400_centos7_bdw/binutils/2.38-GCCcore-11.3.0/bin
+/opt/nesi/CS400_centos7_bdw/GCCcore/11.3.0/bin
+/opt/slurm/sbin
+/opt/slurm/bin
+/opt/nesi/share/bin
+/usr/local/bin
+/usr/bin
+/sbin
+/usr/sbin
+/cm/local/apps/environment-modules/3.2.10/bin
+/opt/ibutils/bin
+/opt/nesi/bin
+
+ls /opt/nesi/CS400_centos7_bdw/R/4.2.1-gimkl-2022a/bin
+# R  Rscript
+
+
+# List loaded modules as well as dependencies
+module list
+
+
+module load Python
+python --version
+python3 --version
+# Python 3.11.6
+
+
+module avail | grep IQ-TREE
+
+
+
+# Scheduling
+nano example_job.sh
+
+--------------------------------
+#!/bin/bash -e
+
+module purge
+module load R/4.3.1-gimkl-2022a
+Rscript sum_matrix.r
+echo "Done!"
+--------------------------------
+
+# shebang or shabang, also referred to as hashbang is the character sequence consisting of the number sign (aka: hash) and exclamation mark (aka: bang): #! at the beginning of a script. It is used to describe the interpreter that will be used to run the script. 
+
+
+
+# Run the job:
+bash example_job.sh
+
+
+# Notes
+# .sh: Shell Script.
+# .sl: Slurm Script, a script that includes a slurm header and is intended to be submitted to the cluster.
+# .out: Commonly used to indicate the file contains the stdout of some process.
+# .err: Same as .out but for stderr.
+# 
+
+cp example_job.sh example_job.sl
+
+# In order for the job scheduler to do it’s job we need to provide a 
+# bit more information about our script. This is done by specifying 
+# slurm parameters in our batch script. Each of these parameters 
+# must be preceded by the special token #SBATCH and placed after 
+# the shebang, but before the content of the rest of your script.
+
+example_job_2cpus.sl
+---------------
+#!/bin/bash -e
+
+#SBATCH --job-name      example_job_2cpus
+#SBATCH --account       nesi99991
+#SBATCH --mem           300M
+#SBATCH --time          00:15:00
+
+module purge
+module load R/4.3.1-gimkl-2022a
+Rscript sum_matrix.r
+echo "example_job_2cpus Done!"
+---------------
+
+# Run with:
+sbatch example_job_2cpus.sl
+# Now the job is running
+# Submitted batch job 23137702
+
+
+# Check what is running
+squeue --me
+
+
+# To use debug QOS, add or change the following in your batch submit script
+#SBATCH --qos=debug
+#SBATCH --time=15:00
+
+SBATCH --qos=debug
+
+
+#######################################################
+# After lunch
+#######################################################
+
+# Crashed on this, try ssh from Terminal
+# https://jupyter.nesi.org.nz/user/nmat471/lab/tree/nesi99991
+
+squeue --me
+sbatch example_job_4cpus.sl
+squeue --me
+
+# 4 CPUS
+
+example_job_4cpus.sl
+-----------------
+#!/bin/bash -e
+
+#SBATCH --job-name      example_job_4cpus
+#SBATCH --account       nesi99991
+#SBATCH --mem           300M
+#SBATCH --time          00:15:00
+#SBATCH --cpus-per-task 4
+
+module purge
+module load R/4.3.1-gimkl-2022a
+Rscript sum_matrix.r
+echo "example_job_4cpus Done!"
+-----------------
+
+sbatch example_job_4cpus.sl
+
+
+
+
+# When you're using distrubted memory, MPI
+
+# You need to run srun first
+
+example_job_4cpus2tasks.sl
+-----------------
+#!/bin/bash -e
+
+#SBATCH --job-name	    example_job_4cpus2tasks
+#SBATCH --account	      nesi99991
+#SBATCH --mem-per-cpu   400M
+#SBATCH --time          00:15:00
+#SBATCH --cpus-per-task 4
+#SBATCH --ntasks 2   # for distributed memory parallelization, on different nodes
+
+module purge
+module load R/4.3.1-gimkl-2022a
+srun Rscript sum_matrix.r
+echo "example_job_4cpus2tasks Done!"
+
+-----------------
+
+sbatch example_job_4cpus2tasks.sl
+nn_seff 53683240   # Efficiency not available for RUNNING jobs.
+squeue --me
+more slurm-53683240.out
+tail -n2 *_*.out
+
+# Stop a job
+# Slurm cancel
+scancel to cancel a slurm sbatch job
+
+# Slurm queue
+squeue --me
+
+
+
+
+
+
+# Exercise
+
+example_job_18cpus_1task_mem2000M.sl
+
+nano example_job_18cpus_1task_mem2000M.sl
+
+example_job_18cpus_1task_mem2000M.sl
+---------------
+#!/bin/bash -e
+
+#SBATCH --job-name	example_job_18cpus_1task_mem2000M
+#SBATCH --account	nesi99991
+#SBATCH --mem           2000M
+#SBATCH --time          00:15:00
+#SBATCH --cpus-per-task 18
+
+module purge
+module load R/4.3.1-gimkl-2022a
+srun Rscript sum_matrix.r   # srun needed if --ntasks is used
+echo "example_job_18cpus_1task_mem2000M Done!"
+---------------
+
+sbatch example_job_18cpus_1task_mem2000M.sl
+squeue --me
+
+more slurm-53683665.out
+nn_seff 53683665
+sacct -j 53683665
+
+# sacct to do slurm account last jobs
+
+nn_seff 53683240   # Efficiency not available for RUNNING jobs.
+squeue --me
+more slurm-53683240.out
+
+
+
+# use --mem-per-cpu *IF* you use --ntasks
+
+
+
+
+# Summary: 
+
+Shared-Memory (SMP), multithreading
+* shared memory, newer/faster, limited in size
+* distribued memory, older/slower, more scalable
+
+Distributed-Memory (MPI)
+Message Passing Interface (MPI) 
+# If you work can be segmented
+# you might lose efficiency over openMPI
+
+# Hybrid parallelization
+
+
+GPGPU - General Purpose, Graphical Processing Unit
+(not doing graphics)
+* good for lots of things many times
+* GPGPU’s
+* GPUs compute large number of simple operations in parallel, making them well suited for Graphics Processing (hence the name), or any other large matrix operations.
+
+Embarassingly parallel
+
+nano gpu-job.sl
+------------------------
+#!/bin/bash -e
+
+#SBATCH --job-name        gpu-job
+#SBATCH --account         nesi99991 
+#SBATCH --output          %x.out
+#SBATCH --mem-per-cpu     2G
+#SBATCH --gpu-per-node    P100:1
+
+module load CUDA
+nvidia-smi  
+------------------------
+
+squeue --me
+sbatch gpu-job.sl
+squeue --me
+
+squeue --me
+
+
+# Questions:
+support@nesi.org.nz
+ask  Deni -- 
+
+
+
+# Extras all the commands by text:
+https://nesi.github.io/hpc-intro/command-history/
+
+module spider IQ-TREE
+
+
+# AlphaFold versions:
+module spider AlphaFold
+
+# Julia
+module spider Julia
