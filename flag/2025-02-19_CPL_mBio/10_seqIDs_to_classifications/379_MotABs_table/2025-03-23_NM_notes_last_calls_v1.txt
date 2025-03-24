@@ -1,0 +1,197 @@
+1. NOTES ON:
+
+370	114	ADY58376_ADY58375_Cell wall assembly/cell proliferation coordinating protein, KNR4_Rubinisphaera brasiliensis DSM 5305 (planctomycetes)	ADY58376	ADY58375_Cell wall assembly/cell proliferation coordinating protein, KNR4_Rubinisphaera brasiliensis DSM 5305 (planctomycetes)	ADY58375
+
+I BLASTed the Rubinisphaera brasiliensis DSM 5305 (taxid:756272) against this ExbD from a closely-related genome: >CAD71936.1 probable biopolymer transport ExbD protein [Rhodopirellula baltica SH 1].  This ExbD that seems to follow its ExbB (CAD71937.1) phylogenetically & with gene order.
+GenBank: CAD71936.1
+
+This gets a strong closest hit to:
+
+MULTISPECIES: ExbD/TolR family protein [Rubinisphaera]
+NCBI Reference Sequence: WP_013628551.1
+https://www.ncbi.nlm.nih.gov/protein/WP_013628551.1?report=genbank&log$=prottop&blast_rank=1&RID=XYMDBJ9T016
+
+...which is identical to:
+
+https://www.ncbi.nlm.nih.gov/ipg/WP_013628551.1
+
+Biopolymer transport protein ExbD/TolR [Rubinisphaera brasiliensis DSM 5305]
+GenBank: ADY59827.1
+https://www.ncbi.nlm.nih.gov/protein/ADY59827.1
+       1 mplkteeiee pvlnltpmid ivllliiffm vgtkfsdaer qfeinlptvs damplttlpd
+       61 elvvsvsekg eltldsrpvt laelqqeltt aaeryadqav iirgdaqgsy qnvmdvlaac
+      121 hraglhnlsl anrlnredgs
+      
+...so ADY59827.1 is probably the ExbD match to the ExbB ADY58376.1
+
+
+
+
+
+2. NOTES ON:
+
+372	127	AEO47025_AEO47024_two component, sigma54 specific, Fis family transcriptional regulator_Rhodospirillum rubrum F11 (a-proteobacteria)	AEO47025	AEO47024_two component, sigma54 specific, Fis family transcriptional regulator_Rhodospirillum rubrum F11 (a-proteobacteria)	AEO47024	1041	1	NA	AEO47369.1, AEO47598.1, AEO48325.1, AEO48361.1, AEO48361.1, AEO48943.1, AEO49871.1, AEO49930.1	OmpA/MotB (multiple)				please fix manually		
+
+
+Notes: the MotA subunit AEO47025 is sister to QNQ12173 from Rhodospirillum rubrum F11 (a-proteobacteria)
+
+QNQ12173_QNQ12174_flagellar hook assembly protein FlgD_Sphingomonas alpina (a-proteobacteria)
+the table's best-match MotB subunit was: QNQ09332.1  (QNQ12174 is a flagellar hook assembly protein FlgD, already fixed in table)
+
+BLASTing QNQ09332.1 against Rhodospirillum rubrum F11 (taxid:1036743) gives:
+
+OmpA/MotB family protein [Rhodospirillum rubrum]
+https://www.ncbi.nlm.nih.gov/protein/WP_011389560.1?report=genbank&log$=prottop&blast_rank=1&RID=XYMZZXSB013
+
+Identical proteins:
+https://www.ncbi.nlm.nih.gov/ipg/WP_011389560.1
+
+Includes:
+
+OmpA/MotB [Rhodospirillum rubrum F11]
+GenBank: AEO48325.1
+https://www.ncbi.nlm.nih.gov/protein/AEO48325.1
+
+So AEO48325.1 is probably the MotB match to the MotA >AEO47025 MotA/TolQ/ExbB proton channel [Rhodospirillum rubrum F11].
+
+
+
+3. NOTES ON:
+
+373	150	AIK95558_AIK95531_farnesyltranstransferase_Candidatus Paracaedibacter acanthamoebae (a-proteobacteria)	AIK95558	AIK95531_farnesyltranstransferase_Candidatus Paracaedibacter acanthamoebae (a-proteobacteria)	AIK95531	603	1	NA	NA	No ExbD found 				please fix manually		
+
+The AQB homolog AIK95558 is sister to CDK97994 Magnetospirrillium gryphiswaldense, which has a confident TolR:
+CDK97994_CDK97995_TolR protein_Magnetospirillum gryphiswaldense MSR-1 v2 (a-proteobacteria)
+
+Blasting CDK97995 against: Candidatus Paracaedibacter acanthamoebae (taxid:91604)
+
+...yields 1 hit...
+
+protein TolR [Candidatus Paracaedibacter acanthamoebae]
+NCBI Reference Sequence: WP_084675807.1
+https://www.ncbi.nlm.nih.gov/protein/WP_084675807.1?report=genbank&log$=prottop&blast_rank=1&RID=XYNBCVF7013
+
+Identical proteins...
+https://www.ncbi.nlm.nih.gov/ipg/WP_084675807.1
+
+...no additional identical proteins, perhaps there is a slight difference to other genome databases...
+
+Generic BLAST against nr gives the same. The genome has since been named:
+
+Candidatus Odyssella acanthamoebae
+
+My recommendation: just use WP_084675807.1, perhaps this is from an updated genome newer than the one we downloaded. 
+
+
+
+
+
+
+4. NOTES ON THIS MULTIPLE HIT:
+
+374	191	APW42908_APW44802_MerR family transcriptional regulator_Rhodoferax saidenbachensis (b-proteobacteria)	APW42908	APW44802_MerR family transcriptional regulator_Rhodoferax saidenbachensis (b-proteobacteria)	APW44802	1120	1	APW41584, APW42980	APW41584.1, APW42980.1	flagellar motor protein MotB				please fix manually		This genome contains 2 copies of MotA and 2 copies of MotB. None of them is next to each other. Genome ID CP019239.1
+
+MotA APW42908 is sister to APW43194 Rhodoferax saidenbachensis (can't find in Excel? Cut as close relative?)
+
+[Actually -- it looks like line 375 was dropped accidentally, it had APW43194, I've added back in]
+
+Next closest is: UBQ05764 Tepidimonas taiwanensis
+...which as a confident MotB:
+UBQ05764_UBQ05765_flagellar motor protein MotB_Tepidimonas taiwanensis (b-proteobacteria)	UBQ05764	UBQ05765_flagellar motor protein MotB_Tepidimonas taiwanensis (b-proteobacteria)	UBQ05765	1121	1	UBQ05765	UBQ05765.1	flagellar motor protein MotB
+
+Blasting UBQ05765.1 against Rhodoferax saidenbachensis (taxid:1484693)
+
+...gives 2 close hits...
+
+
+flagellar motor protein MotB [Rhodoferax saidenbachensis]
+NCBI Reference Sequence: WP_029709471.1
+https://www.ncbi.nlm.nih.gov/protein/WP_029709471.1?report=genbank&log$=protalign&blast_rank=1&RID=XYNX6UYU013
+
+flagellar motor protein MotB [Rhodoferax saidenbachensis]
+NCBI Reference Sequence: WP_310345988.1
+https://www.ncbi.nlm.nih.gov/protein/WP_310345988.1?report=genbank&log$=protalign&blast_rank=2&RID=XYNX6UYU013
+
+Identical proteins
+https://www.ncbi.nlm.nih.gov/ipg/WP_029709471.1
+https://www.ncbi.nlm.nih.gov/ipg/WP_310345988.1
+
+
+flagellar motor protein MotB [Rhodoferax saidenbachensis] DSM 22694
+GenBank: APW41584.1
+https://www.ncbi.nlm.nih.gov/protein/APW41584.1
+
+chemotaxis protein MotB [Rhodoferax saidenbachensis]
+GenBank: MDR7308540.1
+https://www.ncbi.nlm.nih.gov/protein/MDR7308540.1
+
+...these two are actually very similar to each other, not sure if they are duplicates or slightly varying copies between different genome versions. Anyway, the first one is closer and from the appropriate genome file, so take:
+
+flagellar motor protein MotB [Rhodoferax saidenbachensis] DSM 22694
+GenBank: APW41584.1
+https://www.ncbi.nlm.nih.gov/protein/APW41584.1
+
+...as the MotB corresponding to the MotA APW42908.1
+
+flagellar motor stator protein MotA [Rhodoferax saidenbachensis]
+GenBank: APW42908.1
+
+
+
+
+
+
+5. NOTES ON MULTIPLE HIT, ExbD pair of:
+QDU98468
+Biopolymer transport protein ExbB [Lignipirellula cremea]
+GenBank: QDU98468.1
+
+AQB QDU98468 is sister to:
+ADB15652 Lignipirellula cremea
+
+...which has a confident ExbB/TolR:
+ADB15652_ADB15651_Biopolymer transport protein ExbD/TolR_Pirellula staleyi DSM 6068 (bacteria)	ADB15652	ADB15651_Biopolymer transport protein ExbD/TolR_Pirellula staleyi DSM 6068 (bacteria)	ADB15651	297	1	ADB15651	ADB15651.1	Biopolymer transport protein ExbD/TolR
+
+BLASTing ADB15651.1 against Lignipirellula cremea (taxid:2528010)
+Biopolymer transport protein ExbD/TolR [Pirellula staleyi DSM 6068]
+GenBank: ADB15651.1
+
+...yields...
+
+https://www.ncbi.nlm.nih.gov/protein/QDU98272.1?report=genbank&log$=prottop&blast_rank=1&RID=XYR57FK3013
+biopolymer transport protein ExbD [Lignipirellula cremea]
+GenBank: QDU98272.1
+
+https://www.ncbi.nlm.nih.gov/protein/WP_231756440.1?report=genbank&log$=prottop&blast_rank=2&RID=XYR57FK3013
+ExbD/TolR family protein [Lignipirellula cremea]
+NCBI Reference Sequence: WP_231756440.1
+
+...they seem like identical matches, the 2nd one is longer, both from genome GCA_007751035.1, but the first one has the appropriate protID so let's go with that.
+
+
+So, let's call QDU98272.1 biopolymer transport protein ExbD [Lignipirellula cremea] the pair of 
+QDU98468
+Biopolymer transport protein ExbB [Lignipirellula cremea]
+
+
+
+6. NOTES ON:
+
+APW43192_flavodoxin_Rhodoferax saidenbachensis (b-proteobacteria)
+
+APW43194
+flagellar motor stator protein MotA [Rhodoferax saidenbachensis]
+GenBank: APW43194.1
+
+...this is the genome cut from the table.  Perhaps 2 versions of the same genome.  Anyway, we might as well use the other close MotB homolog here, to avoid having to cut from 379 to 378 in the MotA tree, text, etc.
+
+These two versions of Rhodoferax saidenbachensis proteins are sister groups anyway & very close, it won't impact the big analysis at all if we happen to mixing them up, or something more complex (MotA and/or MotB could have duplicated and be cooperating in a heteromeric version of MotA5 and/or MotB2)
+
+>MDR7308540.1 chemotaxis protein MotB [Rhodoferax saidenbachensis]
+MAGDAKKLQPIIIKRVKKGGHAAHGGAWKIAYADFVTAMMAFFLLMWLLGSTSEGDKKGISDYFQSPLKV
+AMQGGAGAGASNSVITGGGNDLTQQAGQSRRGDGTEKTAKKMSGEQTKIERAKNDAKALAALAAKIAATI
+SNNPKMAEFSSQIKLEITPDGLQIQIVDDQRRPMFDSGSATVKPYMRDILREIGLTLADVDNKISLDGHT
+DRQAYGNAARGYSNWELSADRANASRRELIAAGMPEDKLARVVGMASSVPLEPDDPLSPSNRRISILVMT
+KEAEERLLGTKVAVPEMETETAGPAVATGAKSPP
+
+
