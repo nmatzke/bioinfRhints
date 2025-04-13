@@ -1,0 +1,47 @@
+# STOCKHOLM 1.0
+#=GF ID   T3SchapCesA
+#=GF AC   PF11439.13
+#=GF DE   Type III secretion system filament chaperone CesA
+#=GF PI   DUF3200; CesA;
+#=GF AU   Pollington J;0000-0002-8158-8998
+#=GF SE   pdb_1xou
+#=GF GA   29.10 29.10;
+#=GF TC   29.70 188.90;
+#=GF NC   28.90 29.00;
+#=GF BM   hmmbuild HMM.ann SEED.ann
+#=GF SM   hmmsearch -Z 81514348 -E 1000 --cpu 4 HMM pfamseq
+#=GF TP   Family
+#=GF CL   CL0628
+#=GF RN   [1]
+#=GF RM   15619638
+#=GF RT   Structural characterization of a type III secretion system
+#=GF RT   filament protein in complex with its chaperone.
+#=GF RA   Yip CK, Finlay BB, Strynadka NC;
+#=GF RL   Nat Struct Mol Biol. 2005;12:75-81.
+#=GF DR   INTERPRO; IPR021545;
+#=GF DR   SO; 0100021; polypeptide_conserved_region;
+#=GF CC   This family represents a chaperone protein for the type III
+#=GF CC   secretion system - TTSS - translocon protein EspA, to prevent
+#=GF CC   the latter's self-polymerisation. The TTSS is a highly
+#=GF CC   specialised bacterial protein secretory pathway, similar in many
+#=GF CC   ways to the flagellar system, that is essential for the
+#=GF CC   pathogenesis of many Gram-negative bacteria. The twenty or so
+#=GF CC   proteins making up the TTSS apparatus, referred to as the needle
+#=GF CC   complex, allow the injection of virulence proteins (known as
+#=GF CC   effectors) directly into the cytoplasm of the eukaryotic host
+#=GF CC   cells they infect; however, the injection process itself is
+#=GF CC   mediated by a subset of extracellular proteins that are secreted
+#=GF CC   by the needle complex to the bacterial surface and assembled
+#=GF CC   into the type III translocon - EspA. EspB and EspD. EspA
+#=GF CC   polymerises into an extracellular filament, and, as with other
+#=GF CC   fibrous proteins, is apt to undergo massive polymerisation when
+#=GF CC   overexpressed. CesA is the secretion chaperone protein that
+#=GF CC   binds to EspA. CesA is dimeric and helical, and it traps EspA in
+#=GF CC   a monomeric state and inhibits its polymerisation.
+#=GF SQ   2
+#=GS B7UMC4_ECO27/1-95  AC B7UMC4.1
+#=GS D2TKH3_CITRI/1-95  AC D2TKH3.1
+B7UMC4_ECO27/1-95             MSIVSQTRNKELLDKKIRSEIEAIKKIIAEFDVVKESVNELSEKAKTDPQAAEKLNKLIEGYTYGEERKLYDSALSKIEKLIETLSPARSKSQST
+D2TKH3_CITRI/1-95             MNIVKQTKNKELLDKKIRSEIETIKKIIAEFDVIKENVNILSEKAKTSPQAAETLNKLIEGYTYGEERRLYDSALSKIEKLIETMKPTRSGSQLT
+#=GC seq_cons                 MsIVpQT+NKELLDKKIRSEIEsIKKIIAEFDVlKEsVN.LSEKAKTsPQAAEpLNKLIEGYTYGEER+LYDSALSKIEKLIEThpPsRStSQ.T
+//

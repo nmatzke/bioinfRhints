@@ -1,0 +1,39 @@
+# STOCKHOLM 1.0
+#=GF ID   YopH_N
+#=GF AC   PF09013.15
+#=GF DE   YopH, N-terminal
+#=GF AU   Mistry J;0000-0003-2479-5322
+#=GF AU   Sammut SJ;0000-0003-4472-904X
+#=GF SE   pdb_1huf
+#=GF GA   25.00 25.00;
+#=GF TC   26.30 168.10;
+#=GF NC   22.20 21.70;
+#=GF BM   hmmbuild HMM.ann SEED.ann
+#=GF SM   hmmsearch -E 1000 --cpu 4 -Z 81514348 HMM pfamseq
+#=GF TP   Domain
+#=GF WK   YopH,_N-terminal
+#=GF RN   [1]
+#=GF RM   11375498
+#=GF RT   Structure of the N-terminal domain of Yersinia pestis YopH at
+#=GF RT   2.0 A resolution. 
+#=GF RA   Evdokimov AG, Tropea JE, Routzahn KM, Copeland TD, Waugh DS; 
+#=GF RL   Acta Crystallogr D Biol Crystallogr. 2001;57:793-799.
+#=GF DR   INTERPRO; IPR015103;
+#=GF DR   SO; 0000417; polypeptide_domain;
+#=GF CC   The N-terminal domain of YopH is a compact structure composed of
+#=GF CC   four alpha-helices and two beta-hairpins. Helices alpha-1 and
+#=GF CC   alpha-3 are parallel to each other and antiparallel to helices
+#=GF CC   alpha-2 and alpha-4. This domain targets YopH for secretion from
+#=GF CC   the bacterium and translocation into eukaryotic cells, and has
+#=GF CC   phosphotyrosyl peptide-binding activity, allowing for
+#=GF CC   recognition of p130Cas and paxillin [1].
+#=GF SQ   2
+#=GS YSCM_YERPE/7-109    AC P69978.1
+#=GS O68720_YERPE/3-123  AC O68720.1
+#=GS O68720_YERPE/3-123  DR PDB; 1HUF A; 3-123;
+YSCM_YERPE/7-109               QSL..INQQITQVG...HGGQAGRL...TETNPLTENSHQIST.......AEKAFANEVLEHVKNTALSRHDIACLLP.....RVSNLELKQGKAGEVIVTGLRTEQLSLSDAKLLLEAAMRQ
+O68720_YERPE/3-123             LSLSDLHRQVSRLVQQESGDCTGKLRGNVAAN..KETTFQGLTIASGARESEKVFAQTVLSHVANVVLTQEDTAKLLQSTVKHNLNNYDLRSVGNGNSVLVSLRSDQMTLQDAKVLLEAALRQ
+#=GR O68720_YERPE/3-123  SS    --HHHHHHHHHHHHHTTTTTSBEEESSSEEE-..-SS------GGGT--HHHHHHHHHHHHHTTT--B-HHHHHHHHHHHHHHT---EEEEEEETTEEEEEEESSS--BHHHHHHHHHHHHHH
+#=GC SS_cons                   --HHHHHHHHHHHHHTTTTTSBEEESSSEEE-..-SS------GGGT--HHHHHHHHHHHHHTTT--B-HHHHHHHHHHHHHHT---EEEEEEETTEEEEEEESSS--BHHHHHHHHHHHHHH
+#=GC seq_cons                  .SL..lppQlopls...pGspsG+L...stsN..pEsoaQh.T.......uEKsFAppVLpHVtNssLopcDhApLL......plsNh-L+pstsGpsllsuLRo-QhoLpDAKlLLEAAhRQ
+//

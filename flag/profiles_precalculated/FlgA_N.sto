@@ -1,0 +1,26 @@
+# STOCKHOLM 1.0
+#=GF ID   FlgA_N
+#=GF AC   PF21610.2
+#=GF DE   Flagellar protein FlgA, N-terminal domain-like
+#=GF AU   Bateman A;0000-0002-6982-4660
+#=GF AU   Lazaro Pinto Beatriz;0000-0001-6837-2941
+#=GF SE   ECOD:EF19536
+#=GF GA   27.00 27.00;
+#=GF TC   29.80 163.50;
+#=GF NC   22.80 19.70;
+#=GF BM   hmmbuild HMM.ann SEED.ann
+#=GF SM   hmmsearch -Z 81514348 -E 1000 --cpu 4 HMM pfamseq
+#=GF TP   Domain
+#=GF DR   INTERPRO; IPR049335;
+#=GF DR   SO; 0000417; polypeptide_domain;
+#=GF CC   This domain is found at the N-terminal end of Flagellar protein
+#=GF CC   FlgA, putative from Thermotoga maritima (Swiss:Q9X1M7). It
+#=GF CC   adopts an alpha-beta structure.
+#=GF SQ   1
+#=GS Q9X1M7_THEMA/17-86  AC Q9X1M7.1
+#=GS Q9X1M7_THEMA/17-86  DR PDB; 3FRN A; 19-86;
+Q9X1M7_THEMA/17-86             SETLTLKETLLASPGVLFLDDITIEKVESEKNLMILLPGLEYLVTRDLLRTKFPEYDFTGPENVRITVEG
+#=GR Q9X1M7_THEMA/17-86  SS    XXEEEB-SEEEE-SEEE-GGGGBSS--------EEE-TT-EEEE-HHHHHHH-TTSEEESSSSEEEEE-S
+#=GC SS_cons                   XXEEEB-SEEEE-SEEE-GGGGBSS--------EEE-TT-EEEE-HHHHHHH-TTSEEESSSSEEEEE-S
+#=GC seq_cons                  SETLTLKETLLASPGVLFLDDITIEKVESEKNLMILLPGLEYLVTRDLLRTKFPEYDFTGPENVRITVEG
+//

@@ -1,0 +1,55 @@
+# STOCKHOLM 1.0
+#=GF ID   CdsD_PD2
+#=GF AC   PF22598.2
+#=GF DE   CdsD, periplasmic PD2 domain
+#=GF AU   Bateman A;0000-0002-6982-4660
+#=GF AU   Lazaro Pinto Beatriz;0000-0001-6837-2941
+#=GF SE   ECOD:EF21183
+#=GF GA   27.00 27.00;
+#=GF TC   28.20 35.30;
+#=GF NC   25.00 20.20;
+#=GF BM   hmmbuild  HMM.ann SEED.ann
+#=GF SM   hmmsearch --cpu 4 -Z 81514348 -E 1000 HMM pfamseq
+#=GF TP   Domain
+#=GF CL   CL0778
+#=GF RC   Paper describing PDB structure 4alz
+#=GF RN   [1]
+#=GF RM   23908767
+#=GF RT   In situ structural analysis of the Yersinia enterocolitica
+#=GF RT   injectisome.
+#=GF RA   Kudryashev M, Stenta M, Schmelz S, Amstutz M, Wiesand U,
+#=GF RA   Castano-Diez D, Degiacomi MT, Munnich S, Bleck CK, Kowal J,
+#=GF RA   Diepold A, Heinz DW, Dal Peraro M, Cornelis GR, Stahlberg H;
+#=GF RL   Elife. 2013;2:e00792.
+#=GF RC   Paper describing PDB structure 4qo6
+#=GF RN   [2]
+#=GF RM   26914207
+#=GF RT   The extended structure of the periplasmic region of CdsD, a
+#=GF RT   structural protein of  the type III secretion system of
+#=GF RT   Chlamydia trachomatis.
+#=GF RA   Merilainen G, Koski MK, Wierenga RK;
+#=GF RL   Protein Sci. 2016;25:987-998.
+#=GF DR   SO; 0000417; polypeptide_domain;
+#=GF CC   This domain is found in CdsD from Chlamydia trachomatis
+#=GF CC   (Swiss:O84671) and similar sequences from Chlamydiia. CdsD is a
+#=GF CC   structural contact-dependent secretion (Cds) protein that form
+#=GF CC   part of the basal body of the type III secretion system (T3SS)
+#=GF CC   injectisome of the bacteria. The periplasmic part of this
+#=GF CC   protein contains at least 3 domains: PD1, PD2 (this entry) and
+#=GF CC   PD3 (Pfam:PF04972), all of them sharing the same
+#=GF CC   alpha-beta-beta-alpha-beta topology, known as the BON fold, in
+#=GF CC   which the two antiparallel alpha-helices are on the same side of
+#=GF CC   a three stranded beta-sheet [1,2].
+#=GF SQ   5
+#=GS A0A090CXX6_9BACT/473-533  AC A0A090CXX6.1
+#=GS F8L3L2_SIMNZ/380-440      AC F8L3L2.1
+#=GS F8KX44_PARAV/578-638      AC F8KX44.1
+#=GS D6YSB1_WADCW/396-456      AC D6YSB1.1
+#=GS A0A0U5CMY5_9BACT/427-487  AC A0A0U5CMY5.1
+A0A090CXX6_9BACT/473-533             DEGVWQEINQIIAKNPKWRSVNIQATTPGNFVLSGYLKNRSDMEDLSEYLSANFNYLDLLE
+F8L3L2_SIMNZ/380-440                 DELVWEGTNALISKNPTWRGVNLTSIVPGHFVLRGYVQTLEEASKLSEYINLNFPYLDKLD
+F8KX44_PARAV/578-638                 DEYVWKEINQVLTRNPLWKGVTVHAPTAGHFVLSGYLETRKQAEQLSDYLSSNFPYLDLLE
+D6YSB1_WADCW/396-456                 DEYVWRETNQILARGNRFRGISVHSPQAGKFVLSGYLKTRKQAEELSDYITANFPYLDILE
+A0A0U5CMY5_9BACT/427-487             DEFVWREINSVLSKDPAWKGITIHSPEAGQFILSGYLETRKQAEQLSDYISVNFPYLDLLK
+#=GC seq_cons                        DEaVW+EINQlLoKNPpWRGVolHSPsAG+FVLSGYLcTRKQAEcLSDYISuNFPYLDLLE
+//

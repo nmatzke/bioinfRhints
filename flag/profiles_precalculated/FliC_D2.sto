@@ -1,0 +1,43 @@
+# STOCKHOLM 1.0
+#=GF ID   FliC_D2
+#=GF AC   PF12613.13
+#=GF DE   Flagellin, D2 domain
+#=GF PI   FliC_SP;
+#=GF AU   Lazaro Pinto Beatriz;0000-0001-6837-2941
+#=GF AU   Gavin OL;
+#=GF SE   Prosite
+#=GF GA   25.00 25.00;
+#=GF TC   26.50 26.10;
+#=GF NC   24.90 24.10;
+#=GF BM   hmmbuild HMM.ann SEED.ann
+#=GF SM   hmmsearch -Z 81514348 -E 1000 --cpu 4 HMM pfamseq
+#=GF TP   Domain
+#=GF RN   [1]
+#=GF RM   9079894
+#=GF RT   Mutagenesis of Burkholderia pseudomallei with Tn5-OT182:
+#=GF RT   isolation of motility mutants and molecular characterization of
+#=GF RT   the flagellin structural gene.
+#=GF RA   DeShazer D, Brett PJ, Carlyon R, Woods DE;
+#=GF RL   J Bacteriol. 1997;179:2116-2125.
+#=GF RN   [2]
+#=GF RM   26222657
+#=GF RT   Sequence- and Structure-Based Immunoreactive Epitope Discovery
+#=GF RT   for Burkholderia pseudomallei Flagellin.
+#=GF RA   Nithichanon A, Rinchai D, Gori A, Lassaux P, Peri C,
+#=GF RA   Conchillio-Sole O, Ferrer-Navarro M, Gourlay LJ, Nardini M, Vila
+#=GF RA   J, Daura X, Colombo G, Bolognesi M, Lertmemonkolchai G;
+#=GF RL   PLoS Negl Trop Dis. 2015;9:e0003917.
+#=GF DR   INTERPRO; IPR022578;
+#=GF DR   SO; 0000417; polypeptide_domain;
+#=GF CC   This variable D2 domain is found in uncharacterised proteins
+#=GF CC   from Betaproteobacteria, including Flagellin from Burkholderia
+#=GF CC   pseudomallei (FliC). FliC assembles to form the flagellar
+#=GF CC   filament that supports bacterial motility [1, 2]. The family is
+#=GF CC   found in association with Pfam:PF00669, Pfam:PF00700.
+#=GF SQ   2
+#=GS H7C7G3_BURPS/172-288  AC H7C7G3.1
+#=GS C5AK60_BURGB/172-284  AC C5AK60.1
+H7C7G3_BURPS/172-288             GMVQTGQTLGTIK.VAIDSSGAAWSSGSTGQETTQINVVSDGKGGFTFTDQNNQALSSTAVTAVFGSST.AGTGTAASPSFQTLALSTSATSALSATDQANATAMVAQINAVNKPQTVS
+C5AK60_BURGB/172-284             GLVQAGTNVGSIQNLSLDANGAATTAAQPA..ITSVNVLSDGKGGFSFTDQNGQALSATAVGAIFTTGTAAGTGTAVT....NLTLATAATSGMTTAQASAAANMISQINAVNAPPTVS
+#=GC seq_cons                    GhVQsGpslGoIp.lulDusGAAhouupsu..hTplNVlSDGKGGFoFTDQNsQALSuTAVsAlFsouT.AGTGTAso....sLsLuTuATSuhossptusAssMluQINAVNtP.TVS
+//

@@ -1,0 +1,36 @@
+# STOCKHOLM 1.0
+#=GF ID   FlgE_3rd
+#=GF AC   PF22367.1
+#=GF DE   Flagellar hook protein FlgE, third domain
+#=GF PI   FlgE_2nd;
+#=GF AU   Bateman A;0000-0002-6982-4660
+#=GF AU   Lazaro Pinto Beatriz;0000-0001-6837-2941
+#=GF SE   ECOD:EF24502
+#=GF GA   27.00 27.00;
+#=GF TC   27.10 29.60;
+#=GF NC   25.00 20.60;
+#=GF BM   hmmbuild  HMM.ann SEED.ann
+#=GF SM   hmmsearch -E 1000 --cpu 4 -Z 81514348 HMM pfamseq
+#=GF TP   Domain
+#=GF RC   Paper describing PDB structure 5ay6
+#=GF RN   [1]
+#=GF RM   27759043
+#=GF RT   Structural insights into bacterial flagellar hooks similarities
+#=GF RT   and specificities.
+#=GF RA   Yoon YH, Barker CS, Bulieris PV, Matsunami H, Samatey FA;
+#=GF RL   Sci Rep. 2016;6:35552.
+#=GF DR   SO; 0000417; polypeptide_domain;
+#=GF CC   This domain is found in Flagellar hook protein FlgE from the
+#=GF CC   Caulobacter vibrioides and related sequences from Caulobacter.
+#=GF CC   Multiple copies of FlgE form part of the hook, a highly flexible
+#=GF CC   universal joint that connects the filament to the motor of
+#=GF CC   flagella. This protein consists of an N-terminal domain
+#=GF CC   Pfam:PF00460, followed by Pfam:PF22692, the a third domain
+#=GF CC   represented in this entry, Pfam:PF07559 and a C-terminal domain
+#=GF CC   (Pfam:PF06429). This domain shows beta-strands organised like a
+#=GF CC   rugby ball, that is completed with some long loops [1].
+#=GF SQ   1
+#=GS A0A0H3C878_CAUVN/187-307  AC A0A0H3C878.1
+A0A0H3C878_CAUVN/187-307             VSYKVGTAGSPSKTNVVDSATNSHNYDVVYSSTGIANPVSGNNEYLVDIKENGVIVATGKVAYDAATNELVSSTIDYKGASPVTGSMTTTRINAAGTTVNLADLGIVNASGADDAEVVAGK
+#=GC seq_cons                        VSYKVGTAGSPSKTNVVDSATNSHNYDVVYSSTGIANPVSGNNEYLVDIKENGVIVATGKVAYDAATNELVSSTIDYKGASPVTGSMTTTRINAAGTTVNLADLGIVNASGADDAEVVAGK
+//

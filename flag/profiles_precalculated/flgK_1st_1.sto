@@ -1,0 +1,69 @@
+# STOCKHOLM 1.0
+#=GF ID   flgK_1st_1
+#=GF AC   PF21158.3
+#=GF DE   Flagellar hook-associated protein 1, D2-like domain
+#=GF AU   Bateman A;0000-0002-6982-4660
+#=GF AU   Chuguransky S;0000-0002-0520-0736
+#=GF SE   ECOD:EF15147
+#=GF GA   24.20 24.20;
+#=GF TC   24.20 24.20;
+#=GF NC   24.10 24.10;
+#=GF BM   hmmbuild  HMM.ann SEED.ann
+#=GF SM   hmmsearch --cpu 4 -E 1000 -Z 81514348 HMM pfamseq
+#=GF TP   Domain
+#=GF CL   CL0841
+#=GF RC   Paper describing PDB structure 4ut1
+#=GF RN   [1]
+#=GF RM   25645451
+#=GF RT   From crystal structure to in silico epitope discovery in the
+#=GF RT   Burkholderia pseudomallei flagellar hook-associated protein
+#=GF RT   FlgK.
+#=GF RA   Gourlay LJ, Thomas RJ, Peri C, Conchillo-Sole O, Ferrer-Navarro
+#=GF RA   M, Nithichanon A, Vila J, Daura X, Lertmemongkolchai G, Titball
+#=GF RA   R, Colombo G, Bolognesi M;
+#=GF RL   FEBS J. 2015;282:1319-1333.
+#=GF DR   INTERPRO; IPR049119;
+#=GF DR   SO; 0000417; polypeptide_domain;
+#=GF CC   This entry includes Flagellar hook-associated protein 1 (FlgK or
+#=GF CC   HAP1), one of three HAPs that form the hook-filament junction
+#=GF CC   and has structural similarity to flagellin. FlgK is required for
+#=GF CC   normal flagellum assembly. Proteins in this entry have a
+#=GF CC   multidomain fold comprising an elongated alpha-helical scaffold
+#=GF CC   core, and depending on the bacterial species, a variable number
+#=GF CC   of smaller domains [1]. This entry represents a beta-sandwich
+#=GF CC   domain from FlgK proteins; Salmonella typhimurium FlgK
+#=GF CC   (Swiss:P0A1J5) has one beta-sandwich domain, while FlgK from
+#=GF CC   Burkholderia pseudomallei has two of them protruding from the
+#=GF CC   alpha-helical core, referred to as D2 and D3 domains in [1], of
+#=GF CC   which the first one, D2, is covered in this entry [1]. FlgK has
+#=GF CC   cytotoxic effects suggesting an important role in pathogenesis
+#=GF CC   and is highly immunogenic. Domains D2 and D3 from B.
+#=GF CC   pseudomallei have been identified as epitopes with increased
+#=GF CC   immunogenic potential for vaccine development.
+#=GF SQ   12
+#=GS A0A090V4W0_PSEVU/337-419  AC A0A090V4W0.1
+#=GS H5V169_ATLHE/337-416      AC H5V169.1
+#=GS A0A0J5LB93_PLUGE/336-415  AC A0A0J5LB93.1
+#=GS E3GC72_ENTLS/336-415      AC E3GC72.1
+#=GS A0A085U8Z1_YERRU/337-416  AC A0A085U8Z1.1
+#=GS A0A097R3M7_HAFAL/337-420  AC A0A097R3M7.1
+#=GS A0A085GH81_9ENTR/337-423  AC A0A085GH81.1
+#=GS A0A014LYF1_9GAMM/336-419  AC A0A014LYF1.1
+#=GS A0A0L7T8U8_9GAMM/335-419  AC A0A0L7T8U8.1
+#=GS A0A071LVQ3_9ENTR/337-420  AC A0A071LVQ3.1
+#=GS Q6D6H0_PECAS/336-420      AC Q6D6H0.1
+#=GS A0A0N0XKM4_9NEIS/421-503  AC A0A0N0XKM4.1
+A0A090V4W0_PSEVU/337-419             LSNARNTGD..ASLTTTVSDSSKVQATDYKVAYDG.SKWQVTRLSDNT..SF..TA.TPDAnD...G.....S...LNFDGLKVNISatNGAG..NNDSFIIKP
+H5V169_ATLHE/337-416                 LSNARNSKPG.AIFDVSFSDTSKVQASDYKVSRVG.SEWQVTRLSDNS..SV..AL.TDNG.D.........S...IEFDGLKIGIT..GTAA..NNDSFVVKP
+A0A0J5LB93_PLUGE/336-415             LSNTRNTG.S.ASLTAAVTDSTKVQASDYKISFDG.GSWQVTRLADNT..PV..KA.TAGD.D...G.....S...LSFDGLKVSIS..GAAA..KNDSFTLKP
+E3GC72_ENTLS/336-415                 LKNTKNT.GT.ANLGATVTDSSKVQATDYNVSWDG.SNWQVTRLADNT..KV..TP.TVEA.D...G.....S...LSFDGLNVSVS..GTAN..KNDSFTVKP
+A0A085U8Z1_YERRU/337-416             ISNSNNTG.T.GSLNVTFADSSQVKASDYSMEFDG.TNWQITRLSDKS..KI..MP.KTEA.D...G.....S...LSFDGLNVTVG..AGAV..LGDKFTVKP
+A0A097R3M7_HAFAL/337-420             YANSNNSQAAgASISATYTDVSQTKATDYRLEYDKdGKWQITRLSDNS..KI..TNlAPDA.N...G.....K...LKFDGLEVTVA..PAAA..KNDSFTLKT
+A0A085GH81_9ENTR/337-423             LSNARNTTKT..ELTTTVADSSKVQASDYNVVFDG.TDWQVTRLSDNA..KIdpKP.TKDA.N...G.....NvtgLAFDGLDITVK..GAPQpaKNDSFTVKP
+A0A014LYF1_9GAMM/336-419             TTNTSN.KGT.ASMTATVTDASAVQASNYKVSYDG.TNWNVTRLSDNA..SV..TA.TSGT.Ds.sGn...aT...LSFDGLQLTLG..GTPA..SKDSFLVKP
+A0A0L7T8U8_9GAMM/335-419             ISNSKNSSST..TLTAQMTDSSAVQATDYNVTFDG.TNWNVTRLSDNT..SV..KA.TAGT.DkesGe...pT...LSFDGLQINIS..GNPT..AKDSFTVKP
+A0A071LVQ3_9ENTR/337-420             VSNAKNTSST..TLTAEVTDSSAVLATNYKVTWSG.SAWTVTRTSDNT..TV..TP.TTGT.D...Gsg.ntT...LAFDGLTVTVD..GSPD..AKDSFVVKP
+Q6D6H0_PECAS/336-420                 LNDSKNGGNA.V.LTPSYTDTKDVQATNYAIKYDG.ANWQVTRLSDNS..KF..TA.AVTT.A...GtppesS...LSFDGVKMTIT..GTPA..TNDNFLLKP
+A0A0N0XKM4_9NEIS/421-503             FSNTGNTGN..AALTGYISDTTKLTSSNYKFSYDG.TQYVMTRLSDNTqtVF..TP.AQVA.A...G.....A...VGADGIALKIK..SGTM.nAGDSFEIQP
+#=GC seq_cons                        lSNo+Nosss.usLTsohoDoSpVQAoDYplsaDG.osWQVTRLSDNo..pl..ss.Tsss.D...G.....o...LuFDGLplols..Gsss..psDSFslKP
+//

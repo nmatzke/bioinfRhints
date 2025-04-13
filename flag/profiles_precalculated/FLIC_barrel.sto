@@ -1,0 +1,65 @@
+# STOCKHOLM 1.0
+#=GF ID   FLIC_barrel
+#=GF AC   PF21504.2
+#=GF DE   Flagellin, barrel domain
+#=GF AU   Bateman A;0000-0002-6982-4660
+#=GF AU   Chuguransky S;0000-0002-0520-0736
+#=GF SE   ECOD:EF15960
+#=GF GA   27.00 27.00;
+#=GF TC   28.10 64.10;
+#=GF NC   25.10 19.70;
+#=GF BM   hmmbuild HMM.ann SEED.ann
+#=GF SM   hmmsearch --cpu 4 -E 1000 -Z 81514348 HMM pfamseq
+#=GF TP   Domain
+#=GF RC   Paper describing PDB structure 3a5x
+#=GF RN   [1]
+#=GF RM   20228803
+#=GF RT   Conformational change of flagellin for polymorphic supercoiling
+#=GF RT   of the flagellar  filament.
+#=GF RA   Maki-Yonekura S, Yonekura K, Namba K;
+#=GF RL   Nat Struct Mol Biol. 2010;17:417-422.
+#=GF RC   Paper describing PDB structure 6jy0
+#=GF RN   [2]
+#=GF RM   32041169
+#=GF RT   Structural and Functional Comparison of Salmonella Flagellar
+#=GF RT   Filaments Composed of FljB and FliC.
+#=GF RA   Yamaguchi T, Toma S, Terahara N, Miyata T, Ashihara M, Minamino
+#=GF RA   T, Namba K, Kato T;
+#=GF RL   Biomolecules. 2020; [Epub ahead of print]
+#=GF RC   Paper describing PDB structure 6rgv
+#=GF RN   [3]
+#=GF RM   32332720
+#=GF RT   Methylation of Salmonella Typhimurium flagella promotes
+#=GF RT   bacterial adhesion and host cell invasion.
+#=GF RA   Horstmann JA, Lunelli M, Cazzola H, Heidemann J, Kuhne C,
+#=GF RA   Steffen P, Szefs S, Rossi C, Lokareddy RK, Wang C, Lemaire L,
+#=GF RA   Hughes KT, Uetrecht C, Schluter H, Grassl GA, Stradal TEB,
+#=GF RA   Rossez Y, Kolbe M, Erhardt M;
+#=GF RL   Nat Commun. 2020;11:2013.
+#=GF RN   [4]
+#=GF RM   11268201
+#=GF RT   Structure of the bacterial flagellar protofilament and
+#=GF RT   implications for a switch for supercoiling. 
+#=GF RA   Samatey FA, Imada K, Nagashima S, Vonderviszt F, Kumasaka T,
+#=GF RA   Yamamoto M, Namba K; 
+#=GF RL   Nature. 2001;410:331-337.
+#=GF DR   INTERPRO; IPR049365;
+#=GF DR   SO; 0000417; polypeptide_domain;
+#=GF CC   This entry represents a barrel domain of flagellins FliC and
+#=GF CC   FljB, which have a boomerang-shape with one arm composed of
+#=GF CC   domain D1 and the other formed by D2 and D3 [1-3]. This entry
+#=GF CC   corresponds to  to subdomain D2b described in [4].
+#=GF SQ   3
+#=GS FLIC_SALTY/347-390        AC P06179.4
+#=GS FLIC_SALTY/347-390        DR PDB; 1IO1 A; 346-389;
+#=GS FLIC_SALTY/347-390        DR PDB; 3A5X A; 346-389;
+#=GS FLIC_SALTY/347-390        DR PDB; 1UCU A; 346-389;
+#=GS A0A0J5L8F5_PLUGE/348-394  AC A0A0J5L8F5.1
+#=GS FLIC_ECOLI/343-387        AC P04949.2
+FLIC_SALTY/347-390                   TTKYTADDGT.SKT.ALNKLGGADGKTEVV..SIGGKTYAASKAEGHN
+#=GR FLIC_SALTY/347-390        SS    B--EB-SSSS.EE-.-BEEEESTTS-EEEE..EETTEEEEHHHHTT-B
+A0A0J5L8F5_PLUGE/348-394             TENYTDASGK.SVTNAAVKFGGDDGKTEVVVDADSGKSYKAAELAGQD
+FLIC_ECOLI/343-387                   TITYTDSSGAASSP.TAVKLGGDDGKTEVV..DIDGKTYDSADLNGGN
+#=GC SS_cons                         B--EB-SSSS.EE-.-BEEEESTTS-EEEE..EETTEEEEHHHHTT-B
+#=GC seq_cons                        TpsYTDuSGs.SsT.AAVKLGGDDGKTEVV..uIuGKTYcAA-LsGpN
+//

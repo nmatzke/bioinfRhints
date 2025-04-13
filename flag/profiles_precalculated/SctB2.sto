@@ -1,0 +1,53 @@
+# STOCKHOLM 1.0
+#=GF ID   SctB2
+#=GF AC   PF05802.16
+#=GF DE   SPI-2 type 3 secretion system translocon protein SctB
+#=GF PI   EspB;
+#=GF AU   Moxon SJ;0000-0003-4644-1816
+#=GF AU   Lazaro Pinto Beatriz;0000-0001-6837-2941
+#=GF SE   Pfam-B_8424 (release 8.0)
+#=GF GA   26.50 26.50;
+#=GF TC   26.50 29.20;
+#=GF NC   26.00 26.30;
+#=GF BM   hmmbuild  HMM.ann SEED.ann
+#=GF SM   hmmsearch -Z 81514348 -E 1000 --cpu 4 HMM pfamseq
+#=GF TP   Family
+#=GF RN   [1]
+#=GF RM   11567004
+#=GF RT   SseBCD proteins are secreted by the type III secretion system of
+#=GF RT   Salmonella  pathogenicity island 2 and function as a translocon.
+#=GF RA   Nikolaus T, Deiwick J, Rappl C, Freeman JA, Schroder W, Miller
+#=GF RA   SI, Hensel M;
+#=GF RL   J Bacteriol. 2001;183:6036-6045.
+#=GF RN   [2]
+#=GF RM   11159962
+#=GF RT   Salmonella pathogenicity island 2-encoded proteins SseC and SseD
+#=GF RT   are essential  for virulence and are substrates of the type III
+#=GF RT   secretion system.
+#=GF RA   Klein JR, Jones BD;
+#=GF RL   Infect Immun. 2001;69:737-743.
+#=GF RN   [3]
+#=GF RM   18248436
+#=GF RT   Identification of Salmonella SPI-2 secretion system components
+#=GF RT   required for  SpvB-mediated cytotoxicity in macrophages and
+#=GF RT   virulence in mice.
+#=GF RA   Browne SH, Hasegawa P, Okamoto S, Fierer J, Guiney DG;
+#=GF RL   FEMS Immunol Med Microbiol. 2008;52:194-201.
+#=GF DR   INTERPRO; IPR008611;
+#=GF DR   SO; 0100021; polypeptide_conserved_region;
+#=GF CC   This entry represents a protein family that includes SPI-2 type
+#=GF CC   3 secretion system translocon protein SctB from Salmonella
+#=GF CC   typhimurium (SctB2) and similar bacterial sequences. SctB2 is
+#=GF CC   required for the translocation of SPI-2 effector proteins and
+#=GF CC   for systemic Salmonella infection of the mouse [1,2]. It is also
+#=GF CC   essential for SpvB-induced actin depolymerisation in the host
+#=GF CC   cell cytoplasm [3].
+#=GF SQ   3
+#=GS E3BEJ8_9VIBR/40-203     AC E3BEJ8.1
+#=GS A9MEL7_SALAR/9-167      AC A9MEL7.1
+#=GS A0A098YCZ4_9ACTN/9-245  AC A0A098YCZ4.1
+E3BEJ8_9VIBR/40-203                QLNDLMIKLSEV.........MQKLRDVLQQYNQKQQELGWDIQKASMDTKKEA...ISKAC...ESSILSG..................VLQIGAGIAGMAGAGFSKSTGLGEATTHL......................................GKGAGDSLSGIGTVVSAEMTKNAEIEKTEGEFQSMNAQSYTKNIGESREKAMQISEQMRSLVKD....LVELHGRISSAVKN
+A9MEL7_SALAR/9-167                 LFDKIWETLIEL.........AKKLRNIMRAYNVVKQQLSWELQVNAFNTQLKT...IDQTY...KASILNG..................VGSICSGMLTIGFGV..TGGEAGVMF.........................................GQGAGHIAAGGFSLGGSAAQRQSDQTSTIAELQQKGAQSYSKTLTEIMDKAADIMQQIMGMGTS....LVDVLAHILQSLTR
+A0A098YCZ4_9ACTN/9-245             HHGETFVRTGLLAALGAGDVAVDRARTVVGTFRTRAEALPGEAQVQADLAGKEARSRIEAARARAAQAAAEARVRAEQARGVAATVRPETVLGTVTGLVESARTQ..ALGAIEELAGRGEKVVDDLRTQPAFRKVVARTERAVDAVEDTVEDVLEETGETIGKASDEVTSVAQKAKSRTDKAVDAVEDTVEDVLAETGETIGKASDEVTSVAQKAKSRTDKAVDAAQQETQEVAESAKR
+#=GC seq_cons                      pas-lal+LuEL.........scKLRsVlpsYNs+pQpLuWElQVsAhsTpKEA...I-pAp...cuSILsG..................VLuIsoGllshAtus..suGulGEhss+h......................................GcGAG+uuuGlsSVuuuAtoRsu-tscTluEhQpcsAQSYoKTIGEupDKAssIuQQh+Shscc....LV-lpu+IupSlKR
+//

@@ -1,0 +1,27 @@
+# STOCKHOLM 1.0
+#=GF ID   FlgA_HD-like
+#=GF AC   PF22438.2
+#=GF DE   Flagellar protein FlgA,  HotDog domain-like
+#=GF AU   Bateman A;0000-0002-6982-4660
+#=GF AU   Lazaro Pinto Beatriz;0000-0001-6837-2941
+#=GF AU   Sanchez-Pulido L;0000-0002-2300-8502
+#=GF SE   ECOD:EF19105
+#=GF GA   26.00 26.00;
+#=GF TC   26.90 163.30;
+#=GF NC   23.20 18.60;
+#=GF BM   hmmbuild  HMM.ann SEED.ann
+#=GF SM   hmmsearch --cpu 4 -Z 81514348 -E 1000 HMM pfamseq
+#=GF TP   Domain
+#=GF CL   CL0050
+#=GF DR   SO; 0000417; polypeptide_domain;
+#=GF CC   This domain is found in the flagellar protein FlgA from
+#=GF CC   Thermotoga maritima (Swiss:Q9X1M7). Its structure has been
+#=GF CC   characterised  (PDB:3frn).
+#=GF SQ   1
+#=GS Q9X1M7_THEMA/89-156  AC Q9X1M7.1
+#=GS Q9X1M7_THEMA/89-156  DR PDB; 3FRN A; 89-156;
+Q9X1M7_THEMA/89-156             SLKNAVFEEIGKKAEAKDFEAFVVKTFGTLPEKFEPQTIRVTKISKNLFSVFLRFPDTYVTLNMLLRK
+#=GR Q9X1M7_THEMA/89-156  SS    HHHHHHHHHHHHHH---S-EEEEEEEEE---SS---SEEEEEEEETTEEEEEEE-SS-EEEEEEEEE-
+#=GC SS_cons                    HHHHHHHHHHHHHH---S-EEEEEEEEE---SS---SEEEEEEEETTEEEEEEE-SS-EEEEEEEEE-
+#=GC seq_cons                   SLKNAVFEEIGKKAEAKDFEAFVVKTFGTLPEKFEPQTIRVTKISKNLFSVFLRFPDTYVTLNMLLRK
+//

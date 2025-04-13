@@ -1,0 +1,52 @@
+# STOCKHOLM 1.0
+#=GF ID   FlgK_2nd
+#=GF AC   PF21159.3
+#=GF DE   Flagellar hook-associated protein 1, D3 domain
+#=GF AU   Bateman A;0000-0002-6982-4660
+#=GF AU   Chuguransky S;0000-0002-0520-0736
+#=GF SE   ECOD:EF17669
+#=GF GA   24.70 24.70;
+#=GF TC   24.70 24.70;
+#=GF NC   24.60 24.40;
+#=GF BM   hmmbuild  HMM.ann SEED.ann
+#=GF SM   hmmsearch -Z 81514348 --cpu 4 -E 1000 HMM pfamseq
+#=GF TP   Domain
+#=GF CL   CL0841
+#=GF RC   Paper describing PDB structure 4ut1
+#=GF RN   [1]
+#=GF RM   25645451
+#=GF RT   From crystal structure to in silico epitope discovery in the
+#=GF RT   Burkholderia pseudomallei flagellar hook-associated protein
+#=GF RT   FlgK.
+#=GF RA   Gourlay LJ, Thomas RJ, Peri C, Conchillo-Sole O, Ferrer-Navarro
+#=GF RA   M, Nithichanon A, Vila J, Daura X, Lertmemongkolchai G, Titball
+#=GF RA   R, Colombo G, Bolognesi M;
+#=GF RL   FEBS J. 2015;282:1319-1333.
+#=GF DR   INTERPRO; IPR049474;
+#=GF DR   SO; 0000417; polypeptide_domain;
+#=GF CC   This entry includes Flagellar hook-associated protein 1 (FlgK or
+#=GF CC   HAP1), one of three HAPs that form the hook-filament junction
+#=GF CC   and has structural similarity to flagellin. FlgK has a
+#=GF CC   multidomain fold comprising an elongated alpha-helical scaffold
+#=GF CC   core, and depending on the bacterial species, a variable number
+#=GF CC   of smaller domains [1]. FlgK from Burkholderia pseudomallei (the
+#=GF CC   causing agent of melioidosis) has two beta-sandwich domains
+#=GF CC   protruding from the large alpha-helical core, referred to as D2
+#=GF CC   and D3 domains in [1], which the second one (D3) is represented
+#=GF CC   in this entry [1]. FlgK has cytotoxic effects suggesting an
+#=GF CC   important role in pathogenesis and is highly immunogenic.
+#=GF CC   Domains D2 and D3 have been identified as epitopes with
+#=GF CC   increased immunogenic potential for vaccine development [1].
+#=GF SQ   5
+#=GS B2JJ26_PARP8/439-547      AC B2JJ26.1
+#=GS Q63YA8_BURPS/443-558      AC Q63YA8.1
+#=GS A0A063BB64_9BURK/439-554  AC A0A063BB64.1
+#=GS A0A1N6L7R7_9BURK/442-552  AC A0A1N6L7R7.1
+#=GS A0A160FPL1_9BURK/439-550  AC A0A160FPL1.1
+B2JJ26_PARP8/439-547                 PVLVSTGTANTGTSTVTQGTVSSGYTLPSTSTTLTYNSATGSLSGFPVGSTVT.IDGTPPTSYNITATTTP.VPYNPATGASMTITG.......AAINNVSLQITGSPANGDTYTIAP
+Q63YA8_BURPS/443-558                 PVLAAGVATNSGTGVISQGSVSAGYQLPSGTTTLAYNAASKTLSGFPVGTTVT.IAGTPPTSINITSATTP.VPYDPSKGASMTISSTTQPAPSGVMNGVSVSLSGTPADGDQFTIGA
+A0A063BB64_9BURK/439-554             PVVSSAATSNAGTATITQGTVSAGYQLPAGSTTLTYSAATGTLSGFQAGTTVT.IAGTPPTSIAIASAATT.VPYSAATGATLTINSTVQPAPAGVMNGVSVSLSGAPSNGDQFTIGA
+A0A1N6L7R7_9BURK/442-552             PVLATASSANSGTATITEGTVSAGYSLPATTTTLTYNSTSGGLTGFPVGSVVT.ING...TSTPITTATTV.VPYSPASGATMTINT..TPATAGSMNGITVTLSGTPANNDTFTIAA
+A0A160FPL1_9BURK/439-550             PVLGSAAVTNTGTGTISPGTVTASYTMPNATTKLTYDGT..GLSGFPVGSMVTvTAGTPPATTTYDTSITPdVPYSAASGATLTINNAT....AGAMNGVTVAISGAPAAGDTFSIGP
+#=GC seq_cons                        PVLuSAuooNoGTuTITQGTVSAGYoLPuuTTTLTYNuAoGoLSGFPVGSTVT.IAGTPPTShsIToATTP.VPYSPAoGATMTINosspPAsAGuMNGVSVoLSGoPANGDTFTIGA
+//

@@ -1,0 +1,56 @@
+# STOCKHOLM 1.0
+#=GF ID   T3SS_needle_reg
+#=GF AC   PF09025.15
+#=GF DE   YopR, type III needle-polymerisation regulator
+#=GF PI   YopR_core;
+#=GF AU   Mistry J;0000-0003-2479-5322
+#=GF AU   Sammut SJ;0000-0003-4472-904X
+#=GF SE   pdb_1z21
+#=GF GA   25.00 25.00;
+#=GF TC   40.80 67.80;
+#=GF NC   24.00 19.40;
+#=GF BM   hmmbuild HMM.ann SEED.ann
+#=GF SM   hmmsearch -E 1000 --cpu 4 -Z 81514348 HMM pfamseq
+#=GF TP   Domain
+#=GF WK   YopR_bacterial_protein_domain
+#=GF CL   CL0646
+#=GF RN   [1]
+#=GF RM   15930010
+#=GF RT   Crystal structure of the protease-resistant core domain of
+#=GF RT   Yersinia pestis virulence factor YopR. 
+#=GF RA   Schubot FD, Cherry S, Austin BP, Tropea JE, Waugh DS; 
+#=GF RL   Protein Sci. 2005;14:1679-1683.
+#=GF RN   [2]
+#=GF RM   19968786
+#=GF RT   YopR impacts type III needle polymerization in Yersinia species.
+#=GF RA   Blaylock B, Berube BJ, Schneewind O;
+#=GF RL   Mol Microbiol. 2010;75:221-229.
+#=GF DR   INTERPRO; IPR013349;
+#=GF DR   TC; 3.A.6;
+#=GF DR   SO; 0000417; polypeptide_domain;
+#=GF CC   The YopR core domain, predominantly found in the
+#=GF CC   Gammaproteobacteria virulence factor YopR, is composed of five
+#=GF CC   alpha-helices, four of which are arranged in an antiparallel
+#=GF CC   bundle. Little is known about this domain, though it may
+#=GF CC   contribute to the virulence of the protein YopR [1]. YopR
+#=GF CC   controls the selective access of early (YscF, YscI and YscP)
+#=GF CC   substrates to the type III secretion machines of yersiniae and
+#=GF CC   other Gammaproteobacteriae. YopR is a mobile regulatory
+#=GF CC   component thought to function as a checkpoints probing the
+#=GF CC   completion of discrete intermediary stages in the assembly of
+#=GF CC   the type III injection pathway. The location of secreted YopR
+#=GF CC   (into the medium) is directly controlling the secretion of YscF,
+#=GF CC   the polymerised needle protein Pfam:PF09392, thereby impacting
+#=GF CC   the assembly of type III machines [2].
+#=GF SQ   3
+#=GS YOPR_YERPE/28-164    AC P68590.1
+#=GS YOPR_YERPE/28-164    DR PDB; 1Z21 A; 42-145;
+#=GS Q7N0U6_PHOLL/39-187  AC Q7N0U6.1
+#=GS Q87P26_VIBPA/68-208  AC Q87P26.1
+YOPR_YERPE/28-164               SELKTQ..........LENKLKSESAEKTREVLWQQYYA....SNPPDHAVLEV.LATPVREALLARFGQHQGSVVPAIDLPELRSVLQQFDSFGKRWEAILLQVLEGIKPNESQVGLP...YLSELINKELMILLPSNSIVDSLLHNSHQIDMD
+#=GR YOPR_YERPE/28-164    SS    XXXXXX..........XXXXXXXX-HHHHHHHHHHHHHH....-SS--HHHHHH.HHHHHHHHHHHHHTT--S---HHHHHHHHHHHHHHHS-SSHHHHHHHHHHHHT----------H...HHHHHHHHHHHHH-XXXXXXXXXXXXXXXXXXX
+Q7N0U6_PHOLL/39-187             QQMLKERQQRWLQGEPLENVLGDLDPATQRKVIWQWYQALSSDKQPSQRAQLQAKLIAPVQERLWSQFGGLAGNIKPPLDMPELRKIVREFAPTGRQQETVLLEVLGEIKP......IPGNEYLSDLIRQELKTLIPRNGMVDNLIRNSHKPDLE
+Q87P26_VIBPA/68-208             KEAETVSKQSVLSS..LKDVIS..DPQTQKEALWYAFHQAKS.AKGTDDAVPE..LLSVLKQELLGDFAG.QLMAEPPTDRAALKAMLAQSFPLGAQKEQALWHCWAELKS......LPEMTSTVDLVREELSFVIQKNAMVKNIMTHSHKLDLS
+#=GC SS_cons                    XXXXXX..........XXXXXXXX-HHHHHHHHHHHHHH....-SS--HHHHHH.HHHHHHHHHHHHHTT--S---HHHHHHHHHHHHHHHS-SSHHHHHHHHHHHHT----------H...HHHHHHHHHHHHH-XXXXXXXXXXXXXXXXXXX
+#=GC seq_cons                   pEhcTpppQphLpu..LENVLus.DPpTQREVLWQtYaAhpS.upPoD+AVLEs.LloPV+EcLLucFGGhQGslcPPlDhPELRulLpQFsPhG+QpEslLLcVLuEIKP......LPt.pYLSDLIRcELphLIP+NuMVDNLl+NSHKlDL-
+//

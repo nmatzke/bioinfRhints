@@ -1,0 +1,74 @@
+# STOCKHOLM 1.0
+#=GF ID   T3SS_needle_E
+#=GF AC   PF08988.15
+#=GF DE   Type III secretion system, cytoplasmic E component of needle
+#=GF PI   DUF1895;
+#=GF AU   Mistry J;0000-0003-2479-5322
+#=GF AU   Sammut SJ;0000-0003-4472-904X
+#=GF SE   pdb_1zw0
+#=GF GA   22.00 22.00;
+#=GF TC   22.00 22.00;
+#=GF NC   21.80 21.90;
+#=GF BM   hmmbuild HMM.ann SEED.ann
+#=GF SM   hmmsearch -E 1000 --cpu 4 -Z 81514348 HMM pfamseq
+#=GF TP   Family
+#=GF WK   Type_III_secretion
+#=GF RN   [1]
+#=GF RM   16115870
+#=GF RT   The PscE-PscF-PscG complex controls type III secretion needle
+#=GF RT   biogenesis in Pseudomonas aeruginosa.
+#=GF RA   Quinaud M, Chabert J, Faudry E, Neumann E, Lemaire D, Pastor A,
+#=GF RA   Elsen S, Dessen A, Attree I;
+#=GF RL   J Biol Chem. 2005;280:36293-36300.
+#=GF RN   [2]
+#=GF RM   18281060
+#=GF RT   Structural characterization of the Yersinia pestis type III
+#=GF RT   secretion system needle protein YscF in complex with its
+#=GF RT   heterodimeric chaperone YscE/YscG.
+#=GF RA   Sun P, Tropea JE, Austin BP, Cherry S, Waugh DS;
+#=GF RL   J Mol Biol. 2008;377:819-830.
+#=GF RN   [3]
+#=GF RM   22844497
+#=GF RT   The Pseudomonas aeruginosa type III secretion system has an
+#=GF RT   exotoxin S/T/Y independent pathogenic role during acute lung
+#=GF RT   infection.
+#=GF RA   Galle M, Jin S, Bogaert P, Haegman M, Vandenabeele P, Beyaert R;
+#=GF RL   PLoS One. 2012;7:e41547.
+#=GF DR   INTERPRO; IPR012671;
+#=GF DR   TC; 3.A.6;
+#=GF DR   SO; 0100021; polypeptide_conserved_region;
+#=GF CC   T3SS_needle_E is a family of proteins from the operon that
+#=GF CC   builds and controls the needle of the injection system of type
+#=GF CC   III secretion. The YscE protein, produced by the pathogen
+#=GF CC   Yersinia, assumes a secondary structure composed of two
+#=GF CC   anti-parallel alpha-helices separated by a flexible loop [1].
+#=GF CC   The family is cytoplasmic and may help to stabilise and prevent
+#=GF CC   early polymerisation of the needle-protein F [2,3].
+#=GF SQ   6
+#=GS YSCE_YERPE/1-65        AC O68692.1
+#=GS YSCE_YERPE/1-65        DR PDB; 1ZW0 G; 2-65;
+#=GS YSCE_YERPE/1-65        DR PDB; 1ZW0 H; 1-65;
+#=GS YSCE_YERPE/1-65        DR PDB; 1ZW0 F; 1-65;
+#=GS YSCE_YERPE/1-65        DR PDB; 2P58 A; 10-63;
+#=GS YSCE_YERPE/1-65        DR PDB; 1ZW0 D; 1-65;
+#=GS YSCE_YERPE/1-65        DR PDB; 1ZW0 A; 1-65;
+#=GS YSCE_YERPE/1-65        DR PDB; 1ZW0 E; 1-65;
+#=GS YSCE_YERPE/1-65        DR PDB; 1ZW0 B; 1-65;
+#=GS YSCE_YERPE/1-65        DR PDB; 1ZW0 C; 1-58;
+#=GS Q7N0U9_PHOLL/1-67      AC Q7N0U9.1
+#=GS PSCE_PSEAE/2-67        AC Q9I317.1
+#=GS PSCE_PSEAE/2-67        DR PDB; 2UWJ E; 5-70;
+#=GS H9L4A0_SALTY/4-69      AC H9L4A0.1
+#=GS A0A2U2GZB7_YERPE/4-69  AC A0A2U2GZB7.1
+#=GS Q7NUV2_CHRVO/4-71      AC Q7NUV2.1
+YSCE_YERPE/1-65                   MTQLEEQLHNVE...TVRSITMQLEMALTKLKKDMMRGGDAKQYQVWQRESKALESAIAIIHYVAGDL
+#=GR YSCE_YERPE/1-65        SS    -HHHHHHHHHHH...HHHHHHHHHHHHHHHHHHHHTTTSSHHHHHHHHHHHHHHHHHHHHHHHHHHTT
+Q7N0U9_PHOLL/1-67                 MTSLEARLFGAD.PSYVNEIQHRLSQALNDIKQRLRCGGSVQEYQQWQLEADAIQAAITILNTTEGDH
+PSCE_PSEAE/2-67                   MTALETRLSVAD.GTHAAALRQRLQAALAECRRELARGACPEHFQFLQQQARALEGGLGILSQLTED.
+#=GR PSCE_PSEAE/2-67        SS    SSHHHHHHTSSS.THHHHHHHHHHHHHHHHHHHHHHH---HHHHHHHHHHHHHHHHHHHHHHHHH--.
+H9L4A0_SALTY/4-69                 LTRLEDLLLHSR..EEAKGIILQLRAARKQLEENNGKLQDPQQYQQNTLLLEAIEQAENIINIIYYRY
+A0A2U2GZB7_YERPE/4-69             ITVLEEDIKHDP..TAIKQRKEILARGRRLITCQLSLLQTPENYQSLNNMMLALQRAEEIIEILTLRY
+Q7NUV2_CHRVO/4-71                 ITHLEDALRRDVHGAVRDALLARLEAGEAQLKQQLSQPHSLQRRQEIALLQVACVQAGRVIAILWRRY
+#=GC SS_cons                      SCHHHHHHCCCC.THHHHHHHHHHHHHHHHHHHHHCCTSSHHHHHHHHHHHHHHHHHHHHHHHHHHTT
+#=GC seq_cons                     hTpLE-pLppsc..stsculptpLptAhspl+ppLupstssppYQphph.tcAlppAhsIIshlttca
+//
