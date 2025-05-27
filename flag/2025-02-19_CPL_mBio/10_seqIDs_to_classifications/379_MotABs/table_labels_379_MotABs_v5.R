@@ -139,7 +139,13 @@ res2_reasonable_list = sapply(X=res, FUN=reduce_identical_proteins_to_reasonable
 sum(sapply(X=res2_reasonable_list, FUN=is.null))
 sum(sapply(X=res, FUN=is.null))
 
-reduce_identical_proteins_to_reasonable_list <- function(identical_seqids, codes=genbank_prefixes(), num_other_IDs=5)
+
+
+
+
+
+
+
 
 TF1 = isblank_TF(BRDs_379_df$accession)
 TF2 = isblank_TF(BRDs_379_df$seqids_wGenBank_codes_txt) == FALSE
