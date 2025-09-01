@@ -4,9 +4,9 @@ library(seqinr)
 library(BioGeoBEARS)
 library(openxlsx)
 
-sourceall("/GitHub/bioinfRhints/Rsrc/")
+sourceall("~/GitHub/bioinfRhints/Rsrc/")
 
-wd = "/GitHub/bioinfRhints/flag/get_MotBs/"
+wd = "~/GitHub/bioinfRhints/flag/get_MotBs/"
 setwd(wd)
 
 
@@ -16,7 +16,7 @@ setwd(wd)
 #######################################################
 
 # Excel table of MotAs, with genome listed
-xlsfn = "/GitHub/bioinfRhints/flag/AQB_classification/groupTax_1282_mafftConstr_2023-08-07_edit.xlsx"
+xlsfn = "~/GitHub/bioinfRhints/flag/AQB_classification/groupTax_1282_mafftConstr_2023-08-07_edit.xlsx"
 genomes_master_dir = "~/Downloads/Full_genomes/genomes"
 #setwd(genomes_dir)
 
@@ -71,7 +71,7 @@ head(genome_dir_hits)
 # Get the gene orders near each input MotA homolog
 #######################################################
 i = 1
-sourceall("/GitHub/bioinfRhints/Rsrc/")
+sourceall("~/GitHub/bioinfRhints/Rsrc/")
 
 gene_neighbors_df_all = NULL
 
@@ -128,7 +128,7 @@ outfn = gsub(pattern=".xlsx", replacement="_wGeneOrder.xlsx", x=xlsfn)
 xls2 = cbind(xls, gene_neighbors_df_all)
 openxlsx::write.xlsx(xls2, file=outfn)
 
-file.copy(from=outfn, to="/GitHub/bioinfRhints/flag/get_MotBs/")
+file.copy(from=outfn, to="~/GitHub/bioinfRhints/flag/get_MotBs/")
 
 
 
