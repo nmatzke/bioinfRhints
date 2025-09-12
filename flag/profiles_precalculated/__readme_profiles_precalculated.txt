@@ -10,7 +10,8 @@ These may be useful for aligning our sequences against these profiles, via hmmal
 
 
 
-I downloaded:
+I downloaded: Pfam-A.seed
+
 Pfam-A Seed alignment	Annotation and seed alignments of all Pfam-A families in Pfam format.
 
 ...and copied out the relevant profiles (MotA, MotB, homologs etc.) to separate text/hmm files.
@@ -23,5 +24,4 @@ Pfam-A Full alignment	Annotation and full alignments of all Pfam-A families in P
 ...which is 4 times bigger, but I bet the difference is marginal.
 
 
-Comprehensive Understanding of Te Tiriti o Waitangi and Its Impact on Society, Research, and Environmental Practice
 
