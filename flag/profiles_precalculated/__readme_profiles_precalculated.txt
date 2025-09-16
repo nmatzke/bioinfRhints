@@ -24,4 +24,10 @@ Pfam-A Full alignment	Annotation and full alignments of all Pfam-A families in P
 ...which is 4 times bigger, but I bet the difference is marginal.
 
 
+# Download location - 520 MB
+~/DropboxUoA/flag/Full_genomes/Pfam-A.seed
 
+
+# Link:
+cd ~/GitHub/bioinfRhints/flag/profiles_precalculated
+ln -s ~/DropboxUoA/flag/Full_genomes/Pfam-A.seed Pfam-A.seed

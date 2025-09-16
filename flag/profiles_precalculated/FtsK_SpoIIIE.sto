@@ -1,0 +1,92 @@
+# STOCKHOLM 1.0
+#=GF ID   FtsK_SpoIIIE
+#=GF AC   PF01580.21
+#=GF DE   FtsK/SpoIIIE family
+#=GF AU   Bashton M;0000-0002-6847-1525
+#=GF AU   Bateman A;0000-0002-6982-4660
+#=GF SE   Pfam-B_458 (release 4.1)
+#=GF GA   24.00 24.00;
+#=GF TC   24.00 24.00;
+#=GF NC   23.90 23.90;
+#=GF BM   hmmbuild HMM.ann SEED.ann
+#=GF SM   hmmsearch -Z 61295632 -E 1000 --cpu 4 HMM pfamseq
+#=GF TP   Domain
+#=GF CL   CL0023
+#=GF RN   [1]
+#=GF RM   7592387
+#=GF RT   A new Escherichia coli cell division gene, ftsK. 
+#=GF RA   Begg KJ, Dewar SJ, Donachie WD; 
+#=GF RL   J Bacteriol 1995;177:6211-6222.
+#=GF RN   [2]
+#=GF RM   8160014
+#=GF RT   Bacillus subtilis spoIIIE protein required for DNA segregation
+#=GF RT   during asymmetric cell division. 
+#=GF RA   Wu LJ ,Errington J; 
+#=GF RL   Science 1994;264:572-575.
+#=GF DR   INTERPRO; IPR002543;
+#=GF DR   SO; 0000417; polypeptide_domain;
+#=GF CC   FtsK has extensive sequence similarity to wide variety of
+#=GF CC   proteins from prokaryotes and plasmids [1], termed the
+#=GF CC   FtsK/SpoIIIE family.  This domain contains a putative ATP
+#=GF CC   binding P-loop motif. It is found in the FtsK cell division
+#=GF CC   protein from E. coli Swiss:P46889 and the stage III sporulation
+#=GF CC   protein E SpoIIIE Swiss:P21458 which has roles in regulation of
+#=GF CC   prespore specific gene expression in B. subtilis. A mutation in
+#=GF CC   FtsK causes a temperature sensitive block in cell division and
+#=GF CC   it is involved in peptidoglycan synthesis or modification [1].
+#=GF CC   The SpoIIIE protein is implicated in intercellular chromosomal
+#=GF CC   DNA transfer [1].
+#=GF SQ   16
+#=GS SP3E_BACSU/423-620     AC P21458.3
+#=GS SFTA_BACSU/595-787     AC C0SP86.1
+#=GS ECCC4_MYCTU/721-966    AC P9WNA7.1
+#=GS O05450_MYCTU/834-1120  AC O05450.1
+#=GS ECCC5_MYCTU/824-1096   AC P9WNA5.1
+#=GS ECCC3_MYCTU/786-1036   AC P9WNA9.1
+#=GS Q7AQP0_MYCLE/427-635   AC Q7AQP0.1
+#=GS Q9X8D0_STRCO/144-334   AC Q9X8D0.1
+#=GS O24906_HELPY/326-583   AC O24906.1
+#=GS FTSK_HELPY/505-696     AC O25722.1
+#=GS FTSK_CAMJE/594-784     AC Q0PA12.1
+#=GS FTSK_MYCLE/452-653     AC O05560.2
+#=GS FTSK_BORBU/433-625     AC O51272.1
+#=GS FTSK_HAEIN/147-361     AC P45264.1
+#=GS FTSK_ECOLI/947-1161    AC P46889.2
+#=GS FTSK_ECOLI/947-1161    DR PDB; 2IUS C; 947-1161;
+#=GS FTSK_ECOLI/947-1161    DR PDB; 2IUS A; 947-1161;
+#=GS FTSK_ECOLI/947-1161    DR PDB; 2IUS D; 947-1161;
+#=GS FTSK_ECOLI/947-1161    DR PDB; 2IUS E; 947-1161;
+#=GS FTSK_ECOLI/947-1161    DR PDB; 2IUS F; 947-1161;
+#=GS FTSK_ECOLI/947-1161    DR PDB; 2IUS B; 947-1161;
+#=GS FTSK_COXBU/392-603     AC P39920.2
+SP3E_BACSU/423-620                SLKEVLESKLNDRPDAKLLIGLGRNI.SGEAVLAELNKMP........HLLVAGATGSGKSVCVNGIITSILMRAKPHEVKMMMIDPKMV.ELNVYNGIPHLLA....PVVTDPKKASQALKKVVNEMERRY..ELFSHTGTRNIEG.....YNDYIKRANNE...........................................EGAKQP.ELPYIVVIVDELADLMMVASSD........VEDSITRLSQM......AR.....AAGIHLIIAT...................QRPSV
+#=GR SP3E_BACSU/423-620     pAS   ...............................................................................................................................................................................................................................*.............................................................................
+SFTA_BACSU/595-787                DLRQMIRSSAFRTSKSPLTAALGLDI.SGNPVVIDLKKMP........HGLIAGATGSGKSVCINTILVSLLYKADPSEVKVLLIDPKMV.ELAPYNKIPHLVS....PVITDAKAATAALKWVVEEMERRY..ELFAHSGVRDIDR.....FNQLTAEHQMG................................................E.KLPYLVVIIDELADLMMVAPND........VEESIARIAQK......AR.....ACGIHLLVAT...................QRPSV
+#=GR SFTA_BACSU/595-787     pAS   ...............................................................................................................................................................................................................................*.............................................................................
+ECCC4_MYCTU/721-966               .LLRDAEPAQAELAVPIGIVDRPFEQ.SRVPLTIDLSGAA.......GNVAVVGAPQTGKSTALRTLIMALAATHDAGRVQFYCLDFGGG.ALAQVDELPHVGA...VAGRAQPQLASRMLAELESAVRFRE..AFFRDHGIDSVAR.....YRQLRAKSAAESFADIFLVIDGWASLRQEFAALEESIVALAAQGLSFGVHVALSAARWAE.IRPSLRDQIGSRIELRLADPADSELDRRQAQRVPVDRPGRG......LS.....RDGMHMVIAL...................P....
+O05450_MYCTU/834-1120             RLVAAYRGKPWHVDYGQNPGLMFPVGVMDIPEESQQVVHAVD..ALRSNIIVVGAKQRGKTTTLMALMCSAATMYTPERVTFFCIGGATMAQIGSLPHVTDIVS...PKDAEGIERILSTMDALIDAREEAFRRAKIDMDGFRERRFG..IGGDGVGGTDPTDAFGDVFVVLDDYDDLYAKDTLLGDRIISLSSRGPEYGVHLMCSAGGWIHGQRQSLLQNVTARIQLRLADPGES....QMGHLSIESREAARR...TLNRPGFGLTESLHELRIGVPALADPGTGELVGITDVGARIAD
+ECCC5_MYCTU/824-1096              .LVNRFLGRPWHKEYGSACNLVFPIGIIDRPYKHDQPPWTVDTSGPGANVLILGAGGSGKTTALQTLICSAALTHTPQQVQFYCLAYSST.ALTTVSRIPHVGE...VAGPTDPYGVRRTVAELLALVRERK..RSFLECGIASMEMFRRRKFGGEAGPVPDDGFGDVYLVIDNYRALAEENEVLIEQVNVIINQGPSFGVHVVVTADRESE.LRPPVRSGFGSRIELRLAAVEDAKLVRSRFAKDVPVKPGRGMVAVNYVRLDSDPQAGLHTLVAR...................PALG.
+ECCC3_MYCTU/786-1036              ..LARAGVGPRQWRWPLGEIDRPFEM.RRDPLVFDARSSA.......GNMVIHGGPKSGKSTALQTFILSAASLHSPHEVSFYCLDYGGG.QLRALQDLAHVGS...VASALEPERIRRTFGELEQLLLSRQQREVFRDRGANGSTP......DDGFGEVFLVIDNLYGFGRDNTDQFNTRNPLL.ARVTELVNVGLAYGIHVIITTPSWLE.VPLAMRDGLGLRLELRLHDARDS....NVRVVGALRRPADAVPHDQPGRG..LTMAAEHFLFAA...................PE...
+Q7AQP0_MYCLE/427-635              .VLPSRWRMYTDNDRDRLKIPFGHEFKTGNIMYLDIKEGAEF..GGGPHGMLIGTTGSGKSEFLRTLILSLVAMTHPNQVNLLLTDFKGGSTFLGMEKLPHTAAV.VTNMAEEAELVSRMGEVLTGELDRRQ..NILRQAGTLVGAA....GALSGVAEYEKYRE.........................................RGANLA.PLPTLFVVVDEFAELLQSHPDF.........IGLFDRICRV......GR.....SLRVHLLLAT...................QSLQ.
+#=GR Q7AQP0_MYCLE/427-635   pAS   ...............................................................................................................................................................................................................................*.............................................................................
+Q9X8D0_STRCO/144-334              .....QMPAKTDTRPMRVPVALRED...GSVHYRDYRTVP........HGLTLGATESGKSVYQRNLVAGLAP....HHVALVGIDCK...QGVELFPLARRFS....ALADNPDTALELLEALVSHMQDVY..QLIRAEQRISVAV.....PDAEIAADIWDL............................................PEDL.RPVPVVVLVDEVAELALFASKEEE.KRRDRIITALVRLAQL......GR.....AAGVYLEICG...................QRFGS
+#=GR Q9X8D0_STRCO/144-334   pAS   ...............................................................................................................................................................................................................................*.............................................................................
+O24906_HELPY/326-583              ELKDLQKDEKFWTESSQFKVSVPVGWDINHKEVCFEIGNE......QNHTLICGRSGSGKSNFLHVLIQNLAFYYAPNEVQLFLLDYKEGVEFNAYTDPNILEHARLVSVASSVGYGMSFLNWLCKEMQERA..NLFKQFNVKDLSDY...RKHGEIPRLIVVIDEFQVLFSDNKSTKAVEGH....LNTLLKKGRSYGVHLILATQTMRGTDINRSIMAQIANRIALSMDAEDSN....SILGDDAACELVRP.....EGIF...NNNGGHQKHHTK................MSIPKAP
+FTSK_HELPY/505-696                YLREILESELFQKSSSPLTLALGKDI.VGNPFITDLKKLP........HLLIAGTTGSGKSVGVNAMILSLLYKNPPDQLKLVMIDPKMV.EFSIYADIPHLLT....PIITDPKKAIGALQSVAKEMERRY..SLMSEYKVKTIDS.....YNEQAPS..NG..V.......................................E.......AFPYLIVVIDELADLMMTGGKE........AEFPIARIAQM......GR.....ASGLHLIVAT...................QRPSV
+#=GR FTSK_HELPY/505-696     pAS   ...............................................................................................................................................................................................................................*.............................................................................
+FTSK_CAMJE/594-784                .LREILQSEVFKNAKSPLTIALGKDI.VGNAFVTDLKKLP........HLLIAGTTGSGKSVGINSMLLSLLYRNSPKTLRLMMIDPKML.EFSIYNDIPHLLT....PVITDPKKAVNALSNMVAEMERRY..RLMADAKTKNIEN.....YNEKMKE..LGG...............................................E.KLPFIVVIIDELADLMMTAGKD........VEFYIGRLAQM......AR.....ASGIHLIVAT...................QRPSV
+#=GR FTSK_CAMJE/594-784     pAS   ...............................................................................................................................................................................................................................*.............................................................................
+FTSK_MYCLE/452-653                RLADVLTAPSTRRDHHSLVIGLGKDI.EGNFISANLAKMP........HLLVAGSTGSGKSSFVNSMLVSLLTRSTPEEVRMILIDPKMV.ELTPYEGIPHLIT....PIITQPKKAAAALVWLVEEMEQRY..QDMQASRVRHIDVFN.EKVRSGEITAPLG...........................................SQRVYR.PYPYILAIVDELADLMMTAPRD........VEDAIVRITQK......AR.....AAGIHLVLAT...................QRPSV
+#=GR FTSK_MYCLE/452-653     pAS   ...............................................................................................................................................................................................................................*.............................................................................
+FTSK_BORBU/433-625                LISEIIDSKEFR.GDFRIPFALGKEI.SGENIVFDLVNSP........HLLIAGATGAGKSVCVNSLIASIIFSKSPDEVKLIMIDPKIV.ELKLFNDIPHLLT....PVITDVKRALEALRWCLDEMERRY..VLLDNLLVRDISS.....YNKKIKDENLN...............................................LM.ILPYLVIIIDEFADLILSARKD........LENLISRLAAM......AR.....AVGIHLVLAT...................QRPSV
+#=GR FTSK_BORBU/433-625     pAS   ...............................................................................................................................................................................................................................*.............................................................................
+FTSK_HAEIN/147-361                PLRDVLDSNEFRDSKATLPIALGKDI.SGKPVIVDLAKMP........HLLVAGSTGSGKSVGVNTMILSLLYRVQPEDVKFIMIDPKVV.ELSVYNDIPHLLT....PVVTDMKKAANALRWCVDEMERRY..QLLSALRVRNIEG.....FNEKIDEYEAMGMPVPNPIW..........................RLGDTMDAMPPALK.KLSYIVVIVDEFADLMMVAGKQ........IEELIARLAQK......AR.....AIGIHLILAT...................QRPSV
+#=GR FTSK_HAEIN/147-361     pAS   ...............................................................................................................................................................................................................................*.............................................................................
+FTSK_ECOLI/947-1161               YLREVLDNAKFRDNPSPLTVVLGKDI.AGEPVVADLAKMP........HLLVAGTTGSGKSVGVNAMILSMLYKAQPEDVRFIMIDPKML.ELSVYEGIPHLLT....EVVTDMKDAANALRWCVNEMERRY..KLMSALGVRNLAG.....YNEKIAEADRMMRPIPDPYW..........................KPGDSMDAQHPVLK.KEPYIVVLVDEFADLMMTVGKK........VEELIARLAQK......AR.....AAGIHLVLAT...................QRPSV
+#=GR FTSK_ECOLI/947-1161    SS    BHHHHHTSHHHHT---TTEEEEEEET.TS-EEEEEGGGS-........SEEEE--TTSSHHHHHHHHHHHHHTT--TTTEEEEEE-TTSS.SCGGGTT-TTBSS....S-B-SHHHHHHHHHHHHHHHHHHH..HHHHHTT-SSHHH.....HHHHHHHHHHTT---B-TT-..........................-----------B--.---EEEEEEC-HHHHHHHHHHH........HHHHHHHHHHH......CG.....GGTEEEEEEE...................S---T
+#=GR FTSK_ECOLI/947-1161    pAS   ...............................................................................................................................................................................................................................*.............................................................................
+FTSK_COXBU/392-603                TIYEVLATKQYQNARSSLTLALGKDI.GGHPVIVDLAKMP........HLLVAGTTGSGKSVSLNAMLLSLLYKSTPQQLRLILIDPKML.ELSVYEGIPHLLT....PVVTDMKDAAAALRWCVVEMERRY..RLMASLGVRNILG.....YNAKVKEAIEAGAPLLDPL.............................QAAAEGKPPELQ.ELPQLVVIADEFADMMVVVGKK........VETLIVRLAQK......AR.....AAGIHLIFAT...................QRPSV
+#=GR FTSK_COXBU/392-603     pAS   ...............................................................................................................................................................................................................................*.............................................................................
+#=GC SS_cons                      BHHHHHTSHHHHT---TTEEEEEEET.TS-EEEEEGGGS-........SEEEE--TTSSHHHHHHHHHHHHHTT--TTTEEEEEE-TTSS.SCGGGTT-TTBSS....S-B-SHHHHHHHHHHHHHHHHHHH..HHHHHTT-SSHHH.....HHHHHHHHHHTT---B-TT-..........................-----------B--.---EEEEEEC-HHHHHHHHHHH........HHHHHHHHHHH......CG.....GGTEEEEEEE...................S---T
+#=GC seq_cons                     .Lhchhpsp.acpspuplsluLGc-h.sGpshlhDLtphP........HlLlsGuTGSGKSsslpshIhSLlhptsPccVphhhIDsKhs.ELssascIPHLlo....slsT-sccAtpsLphllsEMEcRY..pLhpptsl+slss.....aspthsch.hsh..........................................t...hp.hhPhlllllDEhA-Lhhsusc-........l-shlsRlAph......uR.....AsGlHLllAT...................QR.us
+//
