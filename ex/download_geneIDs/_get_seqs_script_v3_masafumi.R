@@ -41,15 +41,18 @@ library(rentrez) # Fetching full records: entrez_fetch()
 #source("/drives/GDrive/__GDrive_projects/2017-08-08_Matt_Baker_flagellum_speaker/01_BLAST/blastsequences_v4.R")
 
 # Code to use:
-source("/GitHub/bioinfRhints/ex/download_geneIDs/blastsequences_v4.R")
+source("~/GitHub/str2phy/Rsrc/blast/blastR_setup/blastsequences_v4.R")
+
 
 #wd = "/drives/GDrive/__GDrive_projects/2017-08-08_Matt_Baker_flagellum_speaker/01_BLAST/startdata/"
-wd = "/GitHub/bioinfRhints/ex/download_geneIDs/"
+wd = "~/GitHub/bioinfRhints/ex/download_geneIDs/"
 
 
 
-
-seq_ids = c("QEI18926.1","WP_002721884.1","RLG45601.1","RMG20999.1","DGBBEKCF_02484","QEI19744.1","CAG37394.1","ABD81419.1","MBU2985819.1","ABD82476.1","MBU2985330.1","SCA58681.1","WP_015920816.1","ABD81321.1","MBU2985725.1","QEI19442.1","UEO04809.1","UEO06636.1","ABD81792.1","MBU2984437.1","QEI18804.1","ABD82818.1","MBU2986144.1","QEI20720.1","UEO04322.1","WP_002720852.1","ABD82214.1","MBU2985168.1","UEO05991.1","UEO03725.1","QEI19895.1","CAG37138.1","DGBBEKCF_01299","UEO07578.1","UEO05650.1","QEI18324.1","CAG37703.1","WP_015921325.1","MBU2986356.1","DGBBEKCF_01621","ABD79617.1","DGBBEKCF_00127","DGBBEKCF_00463","QEI19039.1","UEO02151.1","QEI18407.1","DGBBEKCF_00016","PKPEBJJI_00297","ABD82072.1","MBU2984729.1","CAG37702.1","PKPEBJJI_00564","QEI18325.1","ABD79618.1","MBU2986357.1","MBU2984728.1","ABD82073.1","DGBBEKCF_01764","QEI18408.1","DGBBEKCF_01496","MBU2987451.1","PKPEBJJI_00344")
+#######################################################
+# Download a list of sequence IDs
+#######################################################
+seq_ids = c("")
 
 downloaded_seqs = entrez_fetch(db="protein", id=seq_ids, rettype="fasta")
 
@@ -57,8 +60,6 @@ outfn = "62_downloaded_seqs.fasta"
 write(x=downloaded_seqs, file=outfn, sep="")
 opd()
 
-
-# I WILL HAVE TO MANUALLY ADD THESE, FROM PROKKA: DGBBEKCF..., PKPEBJJI...
 
 
 
