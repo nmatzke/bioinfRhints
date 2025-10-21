@@ -46,19 +46,36 @@ source("~/GitHub/str2phy/Rsrc/blast/blastR_setup/blastsequences_v4.R")
 
 #wd = "/drives/GDrive/__GDrive_projects/2017-08-08_Matt_Baker_flagellum_speaker/01_BLAST/startdata/"
 wd = "~/GitHub/bioinfRhints/ex/download_geneIDs/"
-
+setwd(wd)
 
 
 #######################################################
 # Download a list of sequence IDs
 #######################################################
-seq_ids = c("")
+seq_ids = c("NC_058517.1")
 
-downloaded_seqs = entrez_fetch(db="protein", id=seq_ids, rettype="fasta")
 
-outfn = "62_downloaded_seqs.fasta"
+# Database fields (db)
+# Table 1
+# – Valid values of &retmode and &rettype for EFetch (null = empty string)
+# https://www.ncbi.nlm.nih.gov/books/NBK25499/table/chapter4.T._valid_values_of__retmode_and/
+
+# protein
+#downloaded_seqs = entrez_fetch(db="protein", id=seq_ids, rettype="fasta")
+
+# get FASTA file of CDS (coding sequences) previously identified by genome project
+# rettype = return type = type of file to return
+# CDS nucleotide FASTA
+downloaded_seqs = entrez_fetch(db="nuccore", id=seq_ids, rettype="fasta_cds_na")
+
+outfn = "CDS_nucleotide_FASTA.fasta"
 write(x=downloaded_seqs, file=outfn, sep="")
 opd()
+
+#######################################################
+# YAY WORKS
+#######################################################
+
 
 
 
