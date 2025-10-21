@@ -169,9 +169,9 @@ names(matK_seqs_txt) = matK_seqs_names
 matK_seqs = matK_seqs_txt
 matK_seqs
 
-seqinr::write.fasta(sequences=matK_seqs, names=matK_seqs_names, file.out="all_Utricularia_matK_origLabels.fasta")
+seqinr::write.fasta(sequences=matK_seqs, names=matK_seqs_names, file.out="all_Utric_matK_origLabels.fasta")
 
-system("open all_Utricularia_matK_origLabels.fasta")
+system("open all_Utric_matK_origLabels.fasta")
 
 
 
@@ -179,10 +179,19 @@ system("open all_Utricularia_matK_origLabels.fasta")
 spnames = gsub(pattern=".fasta", replacement="_matK", x=list_of_fastas)
 spnames
 
-seqinr::write.fasta(sequences=matK_seqs, names=spnames, file.out="all_Utricularia_matK.fasta")
-system("open all_Utricularia_matK.fasta")
+seqinr::write.fasta(sequences=matK_seqs, names=spnames, file.out="all_Utric_matK.fasta")
+system("open all_Utric_matK.fasta")
 
 
+
+
+
+
+
+
+#######################################################
+# OLD
+#######################################################
 # Database fields (db)
 # Table 1
 # – Valid values of &retmode and &rettype for EFetch (null = empty string)
